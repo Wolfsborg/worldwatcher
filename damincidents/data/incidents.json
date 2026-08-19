@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-19",
-  "count": 452,
+  "count": 503,
   "current_count": 20,
-  "historical_count": 432,
+  "historical_count": 483,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -24505,6 +24505,2829 @@
       "economic_damage": null,
       "investigating_agency": null,
       "severity": "catastrophic"
+    },
+    {
+      "id": "langley-lake-union-bay-1912-02-10",
+      "name": "Langley Lake Dam (Union Bay)",
+      "country": "Canada",
+      "region": "Union Bay, Vancouver Island, British Columbia",
+      "location_label": "Langley Lake above Union Bay, Vancouver Island, British Columbia, Canada",
+      "lat": 49.61,
+      "lng": -124.94,
+      "geo_accuracy": "approx",
+      "geo_source": "BC Dam Safety case note: dam 6.4 km upstream of Union Bay (49.585°N 124.886°W)",
+      "river_or_facility": "Langley Lake timber-crib dam; pipeline to Canada Collieries plant",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "overtopping",
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "A poorly connected timber-crib/earthfill dam of reversed-arch plan, built of uncompacted surface scrapings, failed after heavy rain raised the reservoir and debris blocked a flashboarded spillway.",
+      "incident_date": "1912-02-10",
+      "latest_report_date": "1912-02-10",
+      "what_happened": "About 17:00 on 10 February 1912 a 52 m section of the 6.6 m timber-crib dam on Langley Lake, 6.4 km upstream of Union Bay, pivoted open like a door. BC Dam Safety, excerpting Mitchell (Engineering News, 1912), says the dam had been built about 1908 to supply Canada Collieries' coal-washing plant; the earth fill was 'wretched surface scrapings' and the four straight crib sections formed an arch that bulged out of the reservoir. Heavy rain had raised the reservoir to the crest; flashboards were not pulled and debris blocked the narrow spillway opening. A 3.3 m wall of water and debris slammed into Union Bay, washed workers' shacks into the bay (some caught fire) and destroyed other buildings. One person drowned. Property loss was estimated at $50,000 (1912). BC Dam Safety calls this the only fatality on record for Canadian dam failures in that case note.",
+      "status": "Dam destroyed; town rebuilt. Contemporary report blamed 'inexcusable ignorance and carelessness'.",
+      "deaths": 1,
+      "injured": null,
+      "affected_or_evacuated": "scores of workers' shacks washed out; Union Bay Chinatown and industrial buildings destroyed (U of T disaster compilation: 45 houses)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "BC Dam Safety — Failure of Langley Lake Dam, Union Bay (1912)",
+          "url": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/natural-resource-use/land-water-use/water-use/dam-safety/failure_of_langley_lake_dam.pdf"
+        },
+        {
+          "label": "Wikipedia — Union Bay, British Columbia",
+          "url": "https://en.wikipedia.org/wiki/Union_Bay,_British_Columbia"
+        }
+      ],
+      "notes": "BC Dam Safety case note (citing Mitchell 1912) records one fatality and calls it the only fatality then on record for Canadian dam failures. A later U of T disaster compilation also lists one public death.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Canada Collieries (Dunsmuir)",
+      "year_built": 1908,
+      "height_m": 6.6,
+      "reservoir_capacity": "7.4 million m³ (BC Dam Safety)",
+      "construction": "embankment",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": "52 m crib section pivoted open",
+      "downstream_risk": "Union Bay townsite and Canada Collieries plant",
+      "economic_damage": "$50,000 (1912) property loss (BC Dam Safety)",
+      "investigating_agency": "Contemporary Engineering News report (Mitchell, 1912)",
+      "severity": "catastrophic"
+    },
+    {
+      "id": "saddle-lake-grand-forks-1923-05-11",
+      "name": "Saddle Lake irrigation dam (Grand Forks)",
+      "country": "Canada",
+      "region": "west Grand Forks / Fruktova, British Columbia",
+      "location_label": "Saddle Lake, about 6 km west of Grand Forks, British Columbia, Canada",
+      "lat": 49.033,
+      "lng": -118.52,
+      "geo_accuracy": "approx",
+      "geo_source": "Local history: man-made Saddle Lake 6 km west of Grand Forks (49.033°N 118.44°W)",
+      "river_or_facility": "Saddle Lake concrete irrigation dam; Fourth of July Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "piping_internal_erosion",
+        "construction_first_filling"
+      ],
+      "cause_summary": "A recently built concrete irrigation dam collapsed; later local reconstruction points to seepage through a porous earth-filled abutment under spring runoff load.",
+      "incident_date": "1923-05-11",
+      "latest_report_date": "1923-05-18",
+      "what_happened": "On 11 May 1923 a concrete dam impounding a small hillside catchment now called Saddle Lake, west of Grand Forks, collapsed completely and flooded the historic Fruktova Doukhobor community. The Grand Forks Evening Sun & Kettle Valley Orchardist reported the flood in detail a week later. Local historian Kalmakov, using that newspaper and other archives, says the dam was built about 1919 (Wikipedia-style local notes also give a 1912 Doukhobor reservoir origin) to irrigate communal orchards from Fourth of July Creek. Seepage through the earth-filled downstream abutment is the mechanism he reconstructs. Deaths are not given in the sources fetched.",
+      "status": "Dam gone; later reservoir/spillway upgrades at the site in the 2000s (RDKB / Gas Tax).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Kalmakov — The Saddle Lake Dam and Flood (1923 newspaper reconstruction)",
+          "url": "https://kalmakov.com/historical/saddle%20lake%20dam%20collapse%20and%20flood.html"
+        }
+      ],
+      "notes": "Deaths unknown: 1923 newspaper write-up as summarised does not give a fatality count. Do not treat as 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Doukhobor / Carson irrigation works",
+      "year_built": "1912–1919",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Fruktova / west Grand Forks orchards and settlement",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "eastend-dam-1918",
+      "name": "Eastend / Enright and Strong dam (1918 ice push-out)",
+      "country": "Canada",
+      "region": "Rural Municipality of White Valley No. 49, Saskatchewan",
+      "location_label": "Eastend Dam site on the Frenchman River, west of Eastend, Saskatchewan, Canada",
+      "lat": 49.5071,
+      "lng": -108.8674,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Eastend Reservoir 49°30′26″N 108°52′03″W",
+      "river_or_facility": "Eastend Dam / Enright and Strong ranch dam on the Frenchman River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "structural_design"
+      ],
+      "cause_summary": "Wikipedia: heavy ice in 1918 'pushed out' the 1904 ranch dam on the Frenchman River; it was not rebuilt until PFRA work in 1936.",
+      "incident_date": "1918",
+      "latest_report_date": "1918",
+      "what_happened": "A ranching outfit named Enright and Strong built a dam on the Frenchman River at the present Eastend Dam site in 1904 to irrigate pasture. Wikipedia (Eastend Reservoir) records that heavy ice in 1918 'pushed out' the dam. It was not rebuilt until 1936 by the Prairie Farm Rehabilitation Administration. No source fetched gave a death count for the 1918 push-out.",
+      "status": "Destroyed; PFRA rebuilt an earthfill dam on the same site in 1936.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Eastend Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Eastend_Dam"
+        }
+      ],
+      "notes": "Ice push-out of a named irrigation dam. Deaths unknown.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Enright and Strong (ranch)",
+      "year_built": 1904,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Eastend and Frenchman River valley",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "eastend-dam-1952-04-15",
+      "name": "Eastend Dam (1952 breach)",
+      "country": "Canada",
+      "region": "Rural Municipality of White Valley No. 49, Saskatchewan",
+      "location_label": "Eastend Dam on the Frenchman River, west of Eastend, Saskatchewan, Canada",
+      "lat": 49.5071,
+      "lng": -108.8674,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Eastend Reservoir 49°30′26″N 108°52′03″W",
+      "river_or_facility": "Eastend Dam (PFRA earthfill) on the Frenchman River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record 1951–52 snowfall melted in three warm spring days; the PFRA reservoir overfilled and the earthfill dam breached on 15 April 1952.",
+      "incident_date": "1952-04-15",
+      "latest_report_date": "1952-04-15",
+      "what_happened": "Wikipedia (Eastend Reservoir): the winter of 1951–52 set a regional snowfall record; an extremely warm spring melted the snow in three days. The PFRA earthfill dam built in 1936 overfilled and breached on 15 April 1952. The town of Eastend and the entire valley were flooded and residents were evacuated to neighbouring communities. The dam was rebuilt that year with a concrete spillway and control works; it was later expanded in 1995. The present dam is owned by the Saskatchewan Water Security Agency. No source fetched gave a fatality count.",
+      "status": "Rebuilt 1952 with concrete spillway; still operated for irrigation and recreation.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "Eastend residents evacuated",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Eastend Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Eastend_Dam"
+        }
+      ],
+      "notes": "Deaths unknown; sources describe evacuation but no toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Prairie Farm Rehabilitation Administration (then); now Saskatchewan Water Security Agency",
+      "year_built": 1936,
+      "height_m": null,
+      "reservoir_capacity": "2,080 dam³ usable (present dam)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Town of Eastend and Frenchman River valley",
+      "economic_damage": null,
+      "investigating_agency": "Saskatchewan Water Security Agency (successor owner)",
+      "severity": "major"
+    },
+    {
+      "id": "cannon-creek-1995-05-27",
+      "name": "Cannon Creek irrigation dam",
+      "country": "Canada",
+      "region": "about 45 km east of Quesnel, Cariboo, British Columbia",
+      "location_label": "Cannon Creek / Hydraulic Road, east of Quesnel, British Columbia, Canada",
+      "lat": 52.87,
+      "lng": -121.73,
+      "geo_accuracy": "approx",
+      "geo_source": "BC Dam Safety Module 4: 6 m earthfill ~45 km east of Quesnel on Hydraulic Road",
+      "river_or_facility": "Cannon Creek earthfill irrigation dam (Buchanan Ranch); Quesnel River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance",
+        "spillway"
+      ],
+      "cause_summary": "A 6 m privately owned earthfill irrigation dam failed; BC accounts cite spillway/drainage problems and a history of unrepaired defects (a ranch sale had just fallen through partly over dam problems).",
+      "incident_date": "1995-05-27",
+      "latest_report_date": "1995-05-27",
+      "what_happened": "On 27 May 1995 about 08:00 a 6 m earthfill irrigation dam about 45 km east of Quesnel failed. BC Dam Safety training Module 4: the release killed 48 cattle, destroyed 1.5 km of public road (Hydraulic Road; a 12 m section vanished into a 7.5 m ravine), damaged 40–80 ha of hayfields, rendered half of the 240 ha Buchanan Ranch useless, and dumped thousands of tons of gravel into the Quesnel River about 90 m below the ranch. Road reconstruction was later estimated under $200,000; total damages about $500,000. CBC (2020), citing the province, repeats the 48 cattle and $500,000 figures. The dam held a 4.8–6 ha pond about 6 m deep. No source fetched reported human deaths.",
+      "status": "Failed; Hydraulic Road rebuilt. Event later cited as a reason for today's BC Dam Safety Program.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "BC Dam Safety training — Module 4: Dam Failures (Cannon Creek 1995)",
+          "url": "https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/drought-flooding-dikes-dams/dam-safety/education-training/12021/module-4-dam-failures"
+        },
+        {
+          "label": "CBC — Cleveland Dam incident compared with Cannon Creek 1995",
+          "url": "https://www.cbc.ca/news/canada/british-columbia/bc-cause-cleveland-dam-incident-1.5749052"
+        },
+        {
+          "label": "Justice Institute of BC — Dam failure hazard note (Cannon Creek)",
+          "url": "https://cdrp.jibc.ca/wp-content/uploads/2021/04/CDRP_HRA_DamFailure.pdf"
+        }
+      ],
+      "notes": "48 cattle killed. No sourced human death toll; deaths left null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Buchanan Ranch (private)",
+      "year_built": null,
+      "height_m": 6,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "about 6 m of roadway holding the lake blown away",
+      "downstream_risk": "Hydraulic Road; Buchanan Ranch; Quesnel River",
+      "economic_damage": "about $500,000 (roads and agricultural land)",
+      "investigating_agency": "BC dam safety / highways",
+      "severity": "major"
+    },
+    {
+      "id": "cleveland-dam-2020-10-01",
+      "name": "Cleveland Dam (Capilano spillway-gate release)",
+      "country": "Canada",
+      "region": "North Vancouver, British Columbia",
+      "location_label": "Cleveland Dam on the Capilano River, North Vancouver, British Columbia, Canada",
+      "lat": 49.36041,
+      "lng": -123.11075,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Cleveland Dam 49°21′37″N 123°06′39″W",
+      "river_or_facility": "Cleveland Dam / Capilano Reservoir (Metro Vancouver water supply)",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "operational_gate"
+      ],
+      "cause_summary": "During planned maintenance a spillway gate opened unexpectedly and released a large volume into the Capilano canyon; Metro Vancouver later pointed to a mix of mechanical, computer and human-error factors. The dam structure did not fail.",
+      "incident_date": "2020-10-01",
+      "latest_report_date": "2024-08",
+      "what_happened": "On 1 October 2020, shortly before 14:00, a spillway gate at Metro Vancouver's Cleveland Dam on the Capilano River opened during maintenance and released a torrent into the canyon. People were fishing downstream. CBC the next day reported at least one death and said commissioner Jerry Dobrovolny confirmed there were no structural issues. BC's Dam Safety annual reports for 2022/23 and 2023/24, and the 2021 Auditor General report on dam-safety oversight, later state that the operational failure resulted in two fatalities. The BC Coroners Service classified the deaths. Metro Vancouver said some combination of mechanical, computer and personnel problems could be to blame and that no public alarms were installed for a sudden release.",
+      "status": "Dam structurally intact. Operational/safety review; event cited as shaping today's BC Dam Safety Program.",
+      "deaths": 2,
+      "injured": null,
+      "affected_or_evacuated": "canyon users; fishing party swept away",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "CBC — Mechanical problems and human error may be behind fatal B.C. dam incident",
+          "url": "https://www.cbc.ca/news/canada/british-columbia/bc-cause-cleveland-dam-incident-1.5749052"
+        },
+        {
+          "label": "BC Dam Safety Annual Report 2023/24 (two fatalities)",
+          "url": "https://www2.gov.bc.ca/assets/gov/environment/air-land-water/water/dam-safety/dam_safety_annual_report_2023_2024_web_final.pdf"
+        },
+        {
+          "label": "BC Auditor General — Oversight of Dam Safety (2021)",
+          "url": "https://www.oag.bc.ca/app/uploads/sites/963/2024/08/OAGBC-20210914-Oversight-of-Dam-Safety_RPT.pdf"
+        }
+      ],
+      "notes": "Early CBC: at least one death. Latest dated official figure used: two fatalities (BC Dam Safety annual reports; Auditor General 2021).",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Metro Vancouver",
+      "year_built": 1954,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Capilano River canyon / North Vancouver",
+      "economic_damage": null,
+      "investigating_agency": "Metro Vancouver; BC Coroners Service; BC Dam Safety Program",
+      "severity": "major"
+    },
+    {
+      "id": "gullbridge-2012-12-17",
+      "name": "Gullbridge mine tailings dam",
+      "country": "Canada",
+      "region": "central Newfoundland, near South Brook",
+      "location_label": "former Gullbridge copper mine tailings dam, near South Brook, Newfoundland and Labrador, Canada",
+      "lat": 49.25,
+      "lng": -56.05,
+      "geo_accuracy": "approx",
+      "geo_source": "NL Environment: breach ~500 m from South Brook (49.403°N 56.090°W); mine in central NL",
+      "river_or_facility": "Gullbridge TMF earthfill dam; South Brook (scheduled salmon river)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation",
+        "poor_maintenance"
+      ],
+      "cause_summary": "An abandoned 7 m earthfill tailings dam failed during stabilization work; later geophysics and NL Environment point to seepage-related erosion and poor foundations.",
+      "incident_date": "2012-12-17",
+      "latest_report_date": "2012-12-18",
+      "what_happened": "At 07:45 on Monday 17 December 2012 the tailings dam at the former Gullbridge copper mine in central Newfoundland failed while work was under way to stabilize it. NL Environment: a breach about 25 m wide in the 7 m dam drained the tailings pond over the next few hours; a small amount of tailings escaped. The breach was about 500 m from South Brook, the drinking-water source for the Town of South Brook (intake about 26 km downstream). Most escaped tailings stayed within 100 m of the dam; pond water probably entered South Brook. WISE records an embankment dam failure 50 m wide and a non-consumption water advisory for South Brook. Memorial University later described historical seepage through poorly compacted core materials around a historic inlet channel. No source fetched reported deaths.",
+      "status": "Abandoned TMF; monitoring and later geophysical closure studies.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "non-consumption water advisory for South Brook",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Newfoundland and Labrador ECC — Gullbridge Dam",
+          "url": "https://www.gov.nl.ca/eccc/waterres/southbrook/gullbridgedam/"
+        },
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        }
+      ],
+      "notes": "Deaths not stated. WISE date 17 Dec 2012; width given as 50 m vs NL Environment 25 m — used official NL 25 m for the breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "abandoned (historic Gullbridge copper, 1967–1972)",
+      "year_built": null,
+      "height_m": 7,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": "about 25 m (NL Environment); WISE says 50 m",
+      "downstream_risk": "South Brook; Town of South Brook water supply",
+      "economic_damage": null,
+      "investigating_agency": "NL Environment and Conservation; Natural Resources",
+      "severity": "major"
+    },
+    {
+      "id": "pinchi-lake-2004-11-30",
+      "name": "Pinchi Lake emergency-spills lagoon dam",
+      "country": "Canada",
+      "region": "Pinchi Lake, British Columbia",
+      "location_label": "Pinchi Lake mercury mine, north of Fort St. James, British Columbia, Canada",
+      "lat": 54.63333,
+      "lng": -124.41667,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Pinchi Lake 54°38′N 124°25′W",
+      "river_or_facility": "Teck Cominco former emergency-spills lagoon dam; Pinchi Lake",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "construction_first_filling",
+        "poor_maintenance"
+      ],
+      "cause_summary": "WISE: a 100 m long, 12 m high dam of a former emergency-spills lagoon collapsed during reclamation work.",
+      "incident_date": "2004-11-30",
+      "latest_report_date": "2004-11-30",
+      "what_happened": "On 30 November 2004 the dam of a former emergency-spills lagoon at the Pinchi Lake mercury mine (Teck Cominco) collapsed during reclamation. WISE: the dam was 100 m long and 12 m high; 6,000–8,000 m³ of rock, dirt and wastewater spilled into the 5,500 ha Pinchi Lake. No source fetched reported deaths.",
+      "status": "Historic mine; spill into Pinchi Lake during reclamation.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Pinchi Lake",
+          "url": "https://en.wikipedia.org/wiki/Pinchi_Lake"
+        }
+      ],
+      "notes": "Deaths not stated.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Teck Cominco Ltd.",
+      "year_built": null,
+      "height_m": 12,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "mining",
+      "volume_released": "6,000–8,000 m³ of rock, dirt and wastewater (WISE)",
+      "breach_size": null,
+      "downstream_risk": "Pinchi Lake (5,500 ha)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "sullivan-kimberley-1991-08-23",
+      "name": "Sullivan Mine tailings dam (Kimberley)",
+      "country": "Canada",
+      "region": "Kimberley, British Columbia",
+      "location_label": "Sullivan Mine, Kimberley, British Columbia, Canada",
+      "lat": 49.68831,
+      "lng": -115.98869,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Sullivan Mine 49.688312°N 115.988687°W",
+      "river_or_facility": "Cominco Sullivan lead-zinc tailings dam (incremental raise)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "tailings_liquefaction",
+        "construction_first_filling",
+        "foundation"
+      ],
+      "cause_summary": "WISE: liquefaction in old tailings foundation during construction of an incremental raise.",
+      "incident_date": "1991-08-23",
+      "latest_report_date": "1991-08-23",
+      "what_happened": "On 23 August 1991 a tailings dam at Cominco's Sullivan lead-zinc mine, Kimberley, failed during construction of an incremental raise. WISE: liquefaction in the old tailings foundation released 75,000 m³; the slid material was contained in an adjacent pond. No source fetched reported deaths or off-site flooding.",
+      "status": "Slump contained on site in an adjacent pond.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Sullivan Mine",
+          "url": "https://en.wikipedia.org/wiki/Sullivan_Mine"
+        }
+      ],
+      "notes": "Contained on site. Deaths not stated.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Cominco Ltd",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "75,000 m³ (WISE); contained in adjacent pond",
+      "breach_size": null,
+      "downstream_risk": "contained on site",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "matachewan-1990-10-17",
+      "name": "Matachewan gold tailings dam",
+      "country": "Canada",
+      "region": "Matachewan, Ontario",
+      "location_label": "Matachewan, Ontario, Canada",
+      "lat": 48.0,
+      "lng": -80.65,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Matachewan 48°N 80.65°W",
+      "river_or_facility": "Matachewan gold tailings dam; Davidson Creek / Montreal River",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "WISE records a tailings dam failure at Matachewan; mechanism not stated.",
+      "incident_date": "1990-10-17",
+      "latest_report_date": "1990-10-17",
+      "what_happened": "On 17 October 1990 a gold tailings dam at Matachewan, Ontario, failed. WISE: 190,000 m³ discharged into Davidson Creek and the Montreal River; the contaminant plume was observed as far as Lake Temiskaming, about 168 km downstream. No source fetched reported deaths.",
+      "status": "Historic release into the Montreal River system.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Matachewan",
+          "url": "https://en.wikipedia.org/wiki/Matachewan"
+        }
+      ],
+      "notes": "Deaths not stated.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "190,000 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": "Davidson Creek, Montreal River, Lake Temiskaming (~168 km)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "little-bay-nl-1989",
+      "name": "Little Bay copper tailings dam",
+      "country": "Canada",
+      "region": "Little Bay, Newfoundland and Labrador",
+      "location_label": "Little Bay Arm, Newfoundland and Labrador, Canada",
+      "lat": 49.599,
+      "lng": -55.951,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Little Bay, NL 49.599°N 55.951°W",
+      "river_or_facility": "Little Bay copper tailings dam; Little Bay Arm",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "WISE records a tailings dam failure at Little Bay; mechanism not stated.",
+      "incident_date": "1989",
+      "latest_report_date": "1989",
+      "what_happened": "In 1989 a copper tailings dam at Little Bay, Newfoundland, failed. WISE: 500,000 m³ spilled into Little Bay Arm and the marine environment around the arm became contaminated with heavy metals. No source fetched reported deaths.",
+      "status": "Historic marine contamination of Little Bay Arm.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Little Bay, Newfoundland and Labrador",
+          "url": "https://en.wikipedia.org/wiki/Little_Bay,_Newfoundland_and_Labrador"
+        }
+      ],
+      "notes": "Year only in WISE. Deaths not stated.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "500,000 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": "Little Bay Arm marine environment",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "churchill-copper-1979-12-01",
+      "name": "Churchill Copper tailings dam",
+      "country": "Canada",
+      "region": "Churchill / Kwadacha (Fort Ware) area, northern British Columbia",
+      "location_label": "Churchill Copper mine, northern British Columbia, Canada",
+      "lat": 57.42083,
+      "lng": -125.62222,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Kwadacha (Fort Ware) 57.421°N 125.622°W — nearest named community to historic Churchill Copper",
+      "river_or_facility": "Churchill Copper tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "WISE: tailings dam failure due to piping; release of water from the supernatant pond.",
+      "incident_date": "1979-12-01",
+      "latest_report_date": "1979-12-01",
+      "what_happened": "On 1 December 1979 a tailings dam at Churchill Copper, British Columbia, failed by piping. WISE: 38,854 m³ released from the supernatant pond. No source fetched reported deaths.",
+      "status": "Historic piping failure of supernatant pond.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        }
+      ],
+      "notes": "Coords are regional (Kwadacha / Fort Ware). Deaths not stated.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "38,854 m³ supernatant water (WISE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "phoenix-copper-1969-09-12",
+      "name": "Phoenix Copper tailings dam (Greenwood)",
+      "country": "Canada",
+      "region": "Phoenix / Greenwood, British Columbia",
+      "location_label": "Phoenix mine, near Greenwood, British Columbia, Canada",
+      "lat": 49.1,
+      "lng": -118.58333,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Phoenix, BC 49.1°N 118.583°W",
+      "river_or_facility": "Phoenix Copper tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "WISE records a tailings dam failure at Phoenix Copper; mechanism not stated.",
+      "incident_date": "1969-09-12",
+      "latest_report_date": "1969-09-12",
+      "what_happened": "On 12 September 1969 a copper tailings dam at Phoenix, British Columbia, failed. WISE: 11,356 m³ released. No source fetched reported deaths.",
+      "status": "Historic release at the abandoned Phoenix camp.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Phoenix, British Columbia",
+          "url": "https://en.wikipedia.org/wiki/Phoenix,_British_Columbia"
+        }
+      ],
+      "notes": "Deaths not stated.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "11,356 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "coalmont-basin-2013-08-24",
+      "name": "Coalmont Energy Basin Mine emergency tailings pond",
+      "country": "Canada",
+      "region": "Coalmont / Tulameen, British Columbia",
+      "location_label": "Basin Coal Mine, Collins Gulch north of Coalmont, British Columbia, Canada",
+      "lat": 49.51639,
+      "lng": -120.70111,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Coalmont 49.516°N 120.701°W; spill entered Collins Gulch then Tulameen River",
+      "river_or_facility": "Coalmont Energy emergency tailings / containment ponds; Collins Gulch; Tulameen River",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "operational_gate",
+        "poor_maintenance",
+        "structural_design"
+      ],
+      "cause_summary": "After a process-filter failure, improvised descending ponds and a coal-cake dump were used as containment; the makeshift system failed and slurry entered Collins Gulch.",
+      "incident_date": "2013-08-24",
+      "latest_report_date": "2017-09-14",
+      "what_happened": "On 24 August 2013 coal slurry from Coalmont Energy's Basin Mine poured into Collins Gulch and the Tulameen River, turning the river black for days. Early company estimates were 24,000 L then 'no more than 13,000 gallons'; a 2017 Princeton court hearing, after Conservation Officer Service investigation, used 60,000 L. Crown described a 'perfect storm': a cloth filter was disabled, slurry was sent to three descending tailings ponds, then a fourth pond and a coal cake; the makeshift containment failed. Two managers pleaded guilty in September 2017 to introducing waste and were fined about $10,000 each for the Habitat Conservation Trust Foundation. Court heard later testing showed no or very limited impact on fish habitat. No source fetched reported deaths.",
+      "status": "Mine closed; managers convicted 2017. Habitat-restoration fines paid.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "CBC — B.C. mining company fined for polluting Tulameen River",
+          "url": "https://www.cbc.ca/news/canada/british-columbia/b-c-mining-company-fined-for-polluting-tulameen-river-1.4302825"
+        },
+        {
+          "label": "Northern View — Managers plead guilty in B.C. coal mine spill",
+          "url": "https://www.thenorthernview.com/news/managers-plead-guilty-in-b-c-coal-mine-spill-5948209"
+        },
+        {
+          "label": "Global News — company underestimates spill",
+          "url": "https://globalnews.ca/news/829285/bc-mining-company-grossly-underestimates-spill/"
+        }
+      ],
+      "notes": "Volume: court 60,000 L (latest dated). WISE/academic papers sometimes say ~30 m³. Deaths not stated.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Coalmont Energy Corporation",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "60,000 L coal slurry (2017 court / COS); early estimates lower",
+      "breach_size": null,
+      "downstream_risk": "Collins Gulch; Tulameen and Similkameen rivers (>30 km black water)",
+      "economic_damage": "$20,000 in Habitat Conservation Trust fines (2017)",
+      "investigating_agency": "BC Conservation Officer Service",
+      "severity": "moderate"
+    },
+    {
+      "id": "kearl-pond-2023-01-31",
+      "name": "Kearl oil-sands process-water drainage pond",
+      "country": "Canada",
+      "region": "Kearl mine, north of Fort McMurray / Fort Chipewyan, Alberta",
+      "location_label": "Kearl oil sands mine, Alberta, Canada",
+      "lat": 57.29524,
+      "lng": -111.24644,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Kearl Oil Sands Project 57.29524°N 111.24644°W",
+      "river_or_facility": "Imperial Oil Kearl process-water drainage pond",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "operational_gate"
+      ],
+      "cause_summary": "WISE: process-water drainage pond overflow of 5,300 m³ at the Kearl oil-sands mine.",
+      "incident_date": "2023-01-31",
+      "latest_report_date": "2026-08-19",
+      "what_happened": "WISE (updated 19 August 2026) records that on 31 January 2023 a process-water drainage pond at Imperial Oil's Kearl oil-sands mine (69.6% Exxon Mobil) overflowed, releasing 5,300 m³. A separate WISE line covers later tailings seepage at Kearl from May 2022 into 2023; this record is the dated 31 January 2023 pond overflow only. Impacts of the 5,300 m³ overflow are not stated. No source fetched reported deaths.",
+      "status": "Operating oil-sands mine; overflow incident recorded by WISE.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Kearl Oil Sands Project",
+          "url": "https://en.wikipedia.org/wiki/Kearl_Oil_Sands_Project"
+        }
+      ],
+      "notes": "Separate from the longer 2022–23 Kearl seepage episode. Deaths not stated.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Imperial Oil (69.6% Exxon Mobil)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "5,300 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": "Kearl site / Athabasca basin (impacts of this overflow not stated by WISE)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "sumas-river-dike-2021-11-16",
+      "name": "Sumas River Dike (Abbotsford / Sumas Prairie)",
+      "country": "Canada",
+      "region": "Sumas Prairie, Abbotsford, British Columbia",
+      "location_label": "Upper Sumas River Dike near No. 4 Road / McDermott Road, Abbotsford, British Columbia, Canada",
+      "lat": 49.04,
+      "lng": -122.2,
+      "geo_accuracy": "approx",
+      "geo_source": "Kontur/VGS case history: breach ~4.5 km SW of Barrowtown Pump Station at base of Sumas Mountain; Wikipedia flood page cites 100 m breach at No. 4 / McDermott",
+      "river_or_facility": "Sumas River Dike (Upper Sumas); Barrowtown Pump Station; former Sumas Lake bed",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "An atmospheric-river flood plus Nooksack overflow from Washington overtopped and breached a substandard Sumas River dike, refilling the drained Sumas Lake prairie.",
+      "incident_date": "2021-11-16",
+      "latest_report_date": "2023-08-15",
+      "what_happened": "On 16 November 2021, during the atmospheric-river sequence that also flooded Merritt and Princeton, the Upper Sumas River Dike breached and floodwater refilled the former Sumas Lake bed. Wikipedia (2021 Pacific Northwest floods): overflow from the Sumas and Nooksack forced evacuation of 1,100 homes; by 18 November a 100 m breach remained near No. 4 Road and McDermott Road. Abbotsford later said more than 3,300 people and 1,100 properties were evacuated and Highway 1 and the US border closed. A Kontur/VGS 2023 case history describes the main breach about 4.5 km southwest of Barrowtown Pump Station and a two-stage emergency repair. The City of Abbotsford notes the same Nooksack-overflow mechanism in 1990, 2021 and 2025. No source fetched gave a human death toll for the dike breach itself (large livestock losses were reported).",
+      "status": "Emergency breach closed; long-term Sumas Prairie flood-mitigation plan in progress.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "1,100 homes / over 3,300 people evacuated (City of Abbotsford)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — 2021 Pacific Northwest floods",
+          "url": "https://en.wikipedia.org/wiki/2021_Pacific_Northwest_floods"
+        },
+        {
+          "label": "City of Abbotsford — Flood Response & Recovery",
+          "url": "https://www.abbotsford.ca/floodresponse"
+        },
+        {
+          "label": "Mylleville 2023 — Repair of the Sumas River Dike Breach (VGS)",
+          "url": "https://www.kontur.ca/docuploads/projects/1738869917_072023VGSSympPaper-Mylleville2023-08-15-Final.pdf"
+        },
+        {
+          "label": "CBC — Abbotsford dike repairs after 2021 flood",
+          "url": "https://www.cbc.ca/news/canada/british-columbia/abbotsford-merritt-update-1.6256452"
+        }
+      ],
+      "notes": "Human deaths for this breach not sourced; regional 2021 flood deaths exist but are not copied onto this record. Livestock losses were large.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "City of Abbotsford / provincial dike authority",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "main breach about 100 m long and up to 3 m deep (mayor / Wikipedia)",
+      "downstream_risk": "Sumas Prairie farms and 1,100+ homes; Highway 1",
+      "economic_damage": "mayor cited a bill that could top $1 billion for dike repairs and compensation",
+      "investigating_agency": "City of Abbotsford; BC; Canadian Forces emergency repair",
+      "severity": "catastrophic"
+    },
+    {
+      "id": "hoop-holler-2011-05-14",
+      "name": "Assiniboine River dike at Hoop and Holler Bend (controlled breach)",
+      "country": "Canada",
+      "region": "southeast of Portage la Prairie, Manitoba",
+      "location_label": "Hoop and Holler Bend, Assiniboine River dikes, Manitoba, Canada",
+      "lat": 49.93,
+      "lng": -98.15,
+      "geo_accuracy": "approx",
+      "geo_source": "Manitoba government: oxbow east of Portage la Prairie between Southport and Newton",
+      "river_or_facility": "Assiniboine River dikes; Portage Diversion; Hoop and Holler Bend",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "structural_design"
+      ],
+      "cause_summary": "Province cut a rock-reinforced notch in the Assiniboine dike to prevent an uncontrolled breach that could have flooded a much larger area between Portage and Winnipeg.",
+      "incident_date": "2011-05-14",
+      "latest_report_date": "2011-05-20",
+      "what_happened": "At 07:00 on 14 May 2011 Manitoba began a controlled release through the Assiniboine River dikes at the Hoop and Holler Bend, an oxbow southeast of Portage la Prairie. Two excavators cut a notch about 65 m wide and 2.5 m deep (CBC: about 20 m through a roadway that doubled as a dike). The aim, per provincial bulletins, was to keep an uncontrolled 15,000 cfs breach from flooding up to 500 km² and communities from St. Eustache to La Salle. Planned inundation was about 225 km²; Manitoba Infrastructure later said actual inundation through the cut was 3.4 km² and flows stayed about 200–400 cfs. The site was closed and reinforced on 20 May. No source fetched reported deaths.",
+      "status": "Notch closed and reinforced 20 May 2011. Compensation program for affected owners.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "immediate-area residents already evacuated; up to ~150 homes in the planned path",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Province of Manitoba — Flooding Bulletin #47 (14 May 2011)",
+          "url": "https://news.gov.mb.ca/news/index.html?archive=&item=11492"
+        },
+        {
+          "label": "CBC — Water flows through Manitoba dike breach",
+          "url": "https://www.cbc.ca/news/canada/manitoba/water-flows-through-manitoba-dike-breach-1.975820"
+        },
+        {
+          "label": "Manitoba Infrastructure — Portage Diversion 2011 history",
+          "url": "https://www.manitoba.ca/mti/wms/pd/historical_2011.html"
+        }
+      ],
+      "notes": "Controlled breach, not an accidental failure. Deaths not stated.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Manitoba Infrastructure / Province of Manitoba",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": "maintained ~5.7–11.3 m³/s through the cut (Manitoba Infrastructure)",
+      "breach_size": "planned notch ~65 m wide × 2.5 m deep",
+      "downstream_risk": "La Salle watershed (Elm River, Scott Coulee) to spare Portage–Winnipeg dikes",
+      "economic_damage": null,
+      "investigating_agency": "Manitoba Infrastructure",
+      "severity": "major"
+    },
+    {
+      "id": "holland-marsh-1954-10-15",
+      "name": "Holland Marsh polder dykes (Hurricane Hazel)",
+      "country": "Canada",
+      "region": "Holland Marsh, Bradford West Gwillimbury / King, Ontario",
+      "location_label": "Holland Marsh dykes (north canal / west of Highway 400), Ontario, Canada",
+      "lat": 44.165,
+      "lng": -79.51556,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Holland Marsh 44.165°N 79.516°W; breach west of Highway 400 / north canal",
+      "river_or_facility": "Holland Marsh polder dykes and canals; Holland River; Schomberg Creek; Lake Simcoe",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Hurricane Hazel runoff overwhelmed the polder pumps and one-way valves; dykes breached at the north canal / west of Highway 400 and the marsh filled like a bathtub.",
+      "incident_date": "1954-10-15",
+      "latest_report_date": "1954-11-13",
+      "what_happened": "On 15 October 1954 the remnants of Hurricane Hazel breached Holland Marsh dykes. Wikipedia: the drainage system was overwhelmed and dykes breached at the north canal; the whole marsh flooded within six hours. Environment Canada archive: 1.2–6.1 m of water backed from Lake Simcoe, worse (6–9 m) at the south and west from the Holland River and Schomberg Creek; Highway 400 was under 1.5–3 m; Ansnorveldt was inundated; about 1,000 people were rescued toward Bradford. Bradford Today, citing the Bradford Witness, says the dyke was breached west of Highway 400, about 3,000 people were displaced, and only one life was lost. About 500 homes were destroyed and damages were estimated up to $10 million. Operation Mop-up pumped the marsh dry by 13 November.",
+      "status": "Dykes repaired; marsh returned to agriculture in 1955.",
+      "deaths": 1,
+      "injured": null,
+      "affected_or_evacuated": "about 3,000 displaced; ~1,000 rescued from the north end",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Holland Marsh",
+          "url": "https://en.wikipedia.org/wiki/Holland_Marsh"
+        },
+        {
+          "label": "Environment Canada archive — Hurricane Hazel impacts at Holland Marsh",
+          "url": "https://www.canada.ca/en/environment-climate-change/services/archive/hurricanes/hazel/impacts/holland-marsh.html"
+        },
+        {
+          "label": "Bradford Today — Hurricane Hazel in the Holland Marsh",
+          "url": "https://www.bradfordtoday.ca/local-news/do-you-remember-when-hurricane-hazel-blew-into-town-1609236"
+        }
+      ],
+      "notes": "Deaths: Bradford Witness via Bradford Today — one life lost in the marsh flood. Regional Hazel deaths (e.g. Woodbridge 9) are not copied onto this record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Holland Marsh farms, Ansnorveldt, Highway 400, Bradford",
+      "economic_damage": "early estimates up to $10 million (1954)",
+      "investigating_agency": "provincial / municipal flood response (Operation Mop-up)",
+      "severity": "catastrophic"
+    },
+    {
+      "id": "ste-agathe-dike-1997-04-29",
+      "name": "Ste. Agathe ring / road dikes (1997 Red River)",
+      "country": "Canada",
+      "region": "Ste. Agathe, Rural Municipality of Ritchot, Manitoba",
+      "location_label": "Ste. Agathe, Manitoba, Canada",
+      "lat": 49.56833,
+      "lng": -97.1825,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Ste. Agathe, Manitoba 49.568°N 97.183°W",
+      "river_or_facility": "Ste. Agathe river-edge and emergency dikes; Highway 75 and CN embankment used as levees",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "structural_design"
+      ],
+      "cause_summary": "A river-edge dike faced the Red to the east, but floodwater driven by northwest wind overtopped Highway 75 and the railway — the west 'back door' the town had treated as high enough.",
+      "incident_date": "1997-04-29",
+      "latest_report_date": "2017-04-26",
+      "what_happened": "In the early hours of 29 April 1997 Ste. Agathe, on the west bank of the Red River, was inundated by more than two metres of water. Wikipedia: the ring dike 'gave out'. CBC 25-year review and the Canadian Encyclopedia: the town had a temporary/partial dike on the river side and relied on Highway 75 and the railway as west levees; water came from the prairie to the west, overtopping the highway by about six inches. A 2015 Canadian Water Resources Journal paper says emergency-dike defences failed on 29 April at Ste. Agathe (and 1–2 May at Grande Pointe). CBC: 111 of 117 homes were affected. The town was later given a permanent dike. No source fetched reported deaths in Ste. Agathe.",
+      "status": "Permanent dike built after 1997; interpretive centre on the west side.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "town of ~300–500 evacuated 23–29 April; 111 of 117 homes affected (CBC)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Ste. Agathe, Manitoba",
+          "url": "https://en.wikipedia.org/wiki/Ste._Agathe,_Manitoba"
+        },
+        {
+          "label": "CBC — 1997 flood 25th anniversary (Ste. Agathe)",
+          "url": "https://www.cbc.ca/news/canada/manitoba/flood-of-the-century-1997-25th-anniversary-manitoba-1.6442664"
+        },
+        {
+          "label": "The Canadian Encyclopedia — Red River Flood",
+          "url": "https://thecanadianencyclopedia.ca/en/article/red-river-flood"
+        },
+        {
+          "label": "Canadian Water Resources Journal — 1997 Red River flood event",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/07011784.2015.1004198"
+        }
+      ],
+      "notes": "Deaths not stated for Ste. Agathe. Regional 1997 flood deaths are not copied onto this record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Ste. Agathe village on the Red River floodplain",
+      "economic_damage": null,
+      "investigating_agency": "Manitoba Natural Resources / flood liaison",
+      "severity": "major"
+    },
+    {
+      "id": "clinton-creek-waste-rock-1974",
+      "name": "Clinton Creek waste-rock landslide dam (Hudgeon Lake)",
+      "country": "Canada",
+      "region": "Clinton Creek (Dätl'äkay dëk), Trʼondëk Hwëchʼin territory, Yukon",
+      "location_label": "Clinton Creek asbestos mine, about 100 km northwest of Dawson City, Yukon, Canada",
+      "lat": 64.40138,
+      "lng": -140.59861,
+      "geo_accuracy": "exact",
+      "geo_source": "CIRNAC / Wikipedia Clinton Creek 64.401°N 140.599°W",
+      "river_or_facility": "Clinton Creek waste-rock dump (landslide dam) and Wolverine Creek tailings pile; Hudgeon Lake",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "landslide",
+        "foundation",
+        "poor_maintenance"
+      ],
+      "cause_summary": "The Clinton Creek waste-rock dump underwent a mass failure (lateral spread), blocked the creek, and formed an unstable landslide dam and Hudgeon Lake; Wolverine Creek tailings blocked that valley around the same time.",
+      "incident_date": "1974",
+      "latest_report_date": "2025-07",
+      "what_happened": "In 1974 the Clinton Creek waste-rock dump at Cassiar Asbestos's mine (1968–1978) failed as a lateral spread, blocking about 700 m of Clinton Creek and forming 25 m-deep Hudgeon Lake. CIRNAC: 60–70 million tonnes of waste rock and 12 million tonnes of asbestos tailings had been placed in the Clinton and Wolverine valleys; the Wolverine tailings pile also blocked that creek. Outlet erosion has forced repeated weir/channel repairs (failed 1982, rebuilt 1984, bypassed 1997). CIRNAC and Trʼondëk Hwëchʼin still treat a catastrophic breach of the waste-rock dam as the main flood risk to the Fortymile/Yukon confluence. The federal government assumed remediation control in 2025. No source fetched reported deaths in 1974.",
+      "status": "Abandoned; federal remediation underway. Hudgeon Lake still impounded behind waste rock.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "CIRNAC — Clinton Creek Mine Remediation Project",
+          "url": "https://www.rcaanc-cirnac.gc.ca/eng/1751040668756/1751040688260"
+        },
+        {
+          "label": "The Narwhal — unremediated Yukon asbestos mine flood risk",
+          "url": "https://thenarwhal.ca/unremediated-yukon-asbestos-mine-health-hazards-flood-risk/"
+        },
+        {
+          "label": "CBC — federal government assumes Clinton Creek remediation",
+          "url": "https://www.cbc.ca/news/canada/north/federal-government-assumes-control-of-clinton-creek-remediation-in-the-yukon-1.7597570"
+        }
+      ],
+      "notes": "Landslide dam of mine waste, not a designed water dam. Year 1974 only. Deaths not stated.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Cassiar Asbestos Corporation Ltd. (historic); now CIRNAC / Canada",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Clinton Creek to Fortymile River and Yukon River; community of Eagle (AK) mentioned in risk notes",
+      "economic_damage": null,
+      "investigating_agency": "CIRNAC; Trʼondëk Hwëchʼin; Yukon",
+      "severity": "major"
+    },
+    {
+      "id": "merritt-coldwater-dike-2021-11-15",
+      "name": "Merritt / Coldwater–Nicola flood defences (2021 atmospheric river)",
+      "country": "Canada",
+      "region": "Merritt, Nicola Valley, British Columbia",
+      "location_label": "Merritt, British Columbia, Canada",
+      "lat": 50.1125,
+      "lng": -120.78833,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Merritt 50.1125°N 120.788°W",
+      "river_or_facility": "Coldwater and Nicola River channels and community flood defences at Merritt",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The 15 November 2021 atmospheric river sent the Coldwater into the Nicola through Merritt; Wikipedia records multiple highway sections washed into the Nicola and a town-wide evacuation.",
+      "incident_date": "2021-11-15",
+      "latest_report_date": "2021-11-19",
+      "what_happened": "On 15 November 2021 the atmospheric river that also breached the Sumas dike devastated Merritt. Wikipedia (2021 Pacific Northwest floods): the Coldwater River flooded the connected Collettville area and multiple sections of highway were washed into the Nicola. The entire town of about 7,000 was placed under evacuation order. CBC coverage of the same week describes inspectors tagging Merritt homes after the flood. This record is the named-town river-defence failure at Merritt, not ordinary uncontained valley flooding without a community. No source fetched gave a Merritt-specific death toll.",
+      "status": "Town evacuated; later recovery and flood-mitigation work.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "evacuation order for Merritt (~7,000)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — 2021 Pacific Northwest floods",
+          "url": "https://en.wikipedia.org/wiki/2021_Pacific_Northwest_floods"
+        },
+        {
+          "label": "CBC — Abbotsford and Merritt update after atmospheric river",
+          "url": "https://www.cbc.ca/news/canada/british-columbia/abbotsford-merritt-update-1.6256452"
+        }
+      ],
+      "notes": "Deaths not stated for Merritt specifically. Regional 2021 flood deaths not copied here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Merritt and Collettville; Highway 5/8",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "princeton-tulameen-2021-11-15",
+      "name": "Princeton Tulameen and Similkameen bank / dike overflows",
+      "country": "Canada",
+      "region": "Princeton, British Columbia",
+      "location_label": "Princeton, confluence of Tulameen and Similkameen rivers, British Columbia, Canada",
+      "lat": 49.459,
+      "lng": -120.506,
+      "geo_accuracy": "approx",
+      "geo_source": "Princeton townsite at Tulameen–Similkameen confluence (Tulameen River wiki 49.467°N 120.5°W)",
+      "river_or_facility": "Tulameen and Similkameen river banks and community flood works at Princeton",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: on 15 November 2021 the Tulameen and Similkameen burst their banks at Princeton, prompting a local state of emergency.",
+      "incident_date": "2021-11-15",
+      "latest_report_date": "2021-11-19",
+      "what_happened": "On 15 November 2021 Princeton declared a local state of emergency after the Tulameen and Similkameen rivers burst their banks. Wikipedia (2021 Pacific Northwest floods): natural-gas service was out until 19 November; Highway 3 reopened that day to essential traffic. This is the named Princeton river-bank/flood-work overflow in the same atmospheric-river sequence as Sumas and Merritt. No source fetched reported deaths at Princeton.",
+      "status": "Local emergency; Highway 3 and gas service restored within days.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — 2021 Pacific Northwest floods",
+          "url": "https://en.wikipedia.org/wiki/2021_Pacific_Northwest_floods"
+        }
+      ],
+      "notes": "Deaths not stated.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Princeton townsite; Highway 3; gas network",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "agassiz-dike-1948-05-26",
+      "name": "Agassiz Fraser River dike (1948)",
+      "country": "Canada",
+      "region": "Agassiz, Fraser Valley, British Columbia",
+      "location_label": "Agassiz dikes, Fraser Valley, British Columbia, Canada",
+      "lat": 49.238,
+      "lng": -121.769,
+      "geo_accuracy": "approx",
+      "geo_source": "Agassiz townsite on the Fraser (approx 49.238°N 121.769°W)",
+      "river_or_facility": "Fraser River dike at Agassiz",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Late-May 1948 Fraser freshet broke the Agassiz dike after a heavy snowpack, cool spring and sudden heat and rain.",
+      "incident_date": "1948-05-26",
+      "latest_report_date": "1948-06-26",
+      "what_happened": "Coquitlam's civic history of the 1948 Fraser flood, citing K.J. Watt's day-by-day account, records that the dikes at Agassiz broke on 26 May 1948. Wikipedia (Fraser River flood of 1948) dates the Agassiz and Nicomen Island breaks to 28 May; Chilliwack Museum lists Agassiz among the neglected dikes that failed. The regional flood destroyed more than 2,300 homes, displaced 16,000 people, and Wikipedia's flood page records 10 dead when the waters receded. That regional toll is not attributed by these sources to the Agassiz break alone.",
+      "status": "Dikes later rebuilt as part of the post-1948 Fraser diking programme.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "part of the regional 16,000 displaced",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "City of Coquitlam — Rising Water: The Great Flood of 1948",
+          "url": "https://www.coquitlam.ca/1066/Rising-Water-The-Great-Flood-of-1948"
+        },
+        {
+          "label": "Wikipedia — Fraser River flood of 1948",
+          "url": "https://en.wikipedia.org/wiki/Fraser_River_flood_of_1948"
+        },
+        {
+          "label": "Chilliwack Museum — A History of Flooding in the Fraser Valley",
+          "url": "https://www.chilliwackmuseum.ca/blog/2021/12/03/a-history-of-flooding-in-the-fraser-valley/"
+        }
+      ],
+      "notes": "Regional 1948 flood deaths (Wikipedia: 10) are not copied onto this single-dike record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Agassiz / Rosedale floodplain",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "nicomen-island-dike-1948-05-28",
+      "name": "Nicomen Island main dike (1948)",
+      "country": "Canada",
+      "region": "Nicomen Island, Fraser Valley, British Columbia",
+      "location_label": "Nicomen Island, Fraser River, British Columbia, Canada",
+      "lat": 49.17,
+      "lng": -122.12,
+      "geo_accuracy": "approx",
+      "geo_source": "Nicomen Island in the Fraser between Mission and Deroche (approx 49.17°N 122.12°W)",
+      "river_or_facility": "Nicomen Island main Fraser River dike",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "The main Nicomen Island dike burst during the 1948 Fraser freshet; contemporary accounts said it went 'like an atom bomb'.",
+      "incident_date": "1948-05-28",
+      "latest_report_date": "1948-06-26",
+      "what_happened": "On 28 May 1948 the main dike on Nicomen Island burst. Coquitlam's civic history quotes the break as 'like an atom bomb.' Wikipedia's 1948 Fraser flood page and the Chilliwack Museum also list Nicomen Island among the failed dikes. Barnston Island (35 families, 1,000+ livestock) was evacuated the same day. Regional flood: 2,300 homes destroyed, 16,000 displaced. Regional death toll of 10 is not attributed to this break alone.",
+      "status": "Island dikes later rebuilt.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "City of Coquitlam — Rising Water: The Great Flood of 1948",
+          "url": "https://www.coquitlam.ca/1066/Rising-Water-The-Great-Flood-of-1948"
+        },
+        {
+          "label": "Wikipedia — Fraser River flood of 1948",
+          "url": "https://en.wikipedia.org/wiki/Fraser_River_flood_of_1948"
+        }
+      ],
+      "notes": "Regional 10 deaths not assigned to this dike.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Nicomen Island farms; Barnston Island evacuation the same day",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "hatzic-dike-1948-06-03",
+      "name": "Hatzic dike (1948)",
+      "country": "Canada",
+      "region": "Hatzic / Mission, Fraser Valley, British Columbia",
+      "location_label": "Hatzic dike, Lougheed Highway, British Columbia, Canada",
+      "lat": 49.15,
+      "lng": -122.25,
+      "geo_accuracy": "approx",
+      "geo_source": "Hatzic Prairie east of Mission (approx 49.15°N 122.25°W)",
+      "river_or_facility": "Hatzic Fraser River dike; Lougheed Highway",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The Hatzic dike broke on 3 June 1948 as the Fraser approached its 7.6 m Mission peak.",
+      "incident_date": "1948-06-03",
+      "latest_report_date": "1948-06-26",
+      "what_happened": "On 3 June 1948 the Hatzic dike broke and flooded land around Lougheed Highway. Coquitlam's civic history says the highway 'looked like a stone jetty thrusting its head into the sea.' Wikipedia's 1948 flood page also records the Hatzic break. The Fraser peaked at 7.6 m at Mission on 10 June. Regional death toll of 10 is not attributed to this break alone.",
+      "status": "Dikes later rebuilt.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "City of Coquitlam — Rising Water: The Great Flood of 1948",
+          "url": "https://www.coquitlam.ca/1066/Rising-Water-The-Great-Flood-of-1948"
+        },
+        {
+          "label": "Wikipedia — Fraser River flood of 1948",
+          "url": "https://en.wikipedia.org/wiki/Fraser_River_flood_of_1948"
+        }
+      ],
+      "notes": "Regional 10 deaths not assigned to this dike.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Hatzic Prairie; Lougheed Highway",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "colony-farm-west-dike-1948-06-08",
+      "name": "Colony Farm west dike (1948)",
+      "country": "Canada",
+      "region": "Colony Farm, Coquitlam / Port Coquitlam, British Columbia",
+      "location_label": "Colony Farm west dike, Coquitlam, British Columbia, Canada",
+      "lat": 49.238,
+      "lng": -122.78,
+      "geo_accuracy": "approx",
+      "geo_source": "Colony Farm regional park, Coquitlam (approx 49.24°N 122.78°W)",
+      "river_or_facility": "Colony Farm west Fraser/Coquitlam flood dike",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The west dike at Colony Farm broke on 8 June 1948, days before the Fraser peaked at Mission.",
+      "incident_date": "1948-06-08",
+      "latest_report_date": "1948-06-26",
+      "what_happened": "On 8 June 1948 the west dike at Colony Farm broke. Coquitlam's civic history and Wikipedia's 1948 Fraser flood page both record the break, a few days before the 10 June peak (7.6 m at Mission). Parts of Fraser Mills and Colony Farm had already been flooded from 31 May. Regional death toll of 10 is not attributed to this break alone.",
+      "status": "Dikes later rebuilt; Colony Farm is now a regional park.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "City of Coquitlam — Rising Water: The Great Flood of 1948",
+          "url": "https://www.coquitlam.ca/1066/Rising-Water-The-Great-Flood-of-1948"
+        },
+        {
+          "label": "Wikipedia — Fraser River flood of 1948",
+          "url": "https://en.wikipedia.org/wiki/Fraser_River_flood_of_1948"
+        }
+      ],
+      "notes": "Regional 10 deaths not assigned to this dike.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Colony Farm / Fraser Mills",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "cannor-greendale-dike-1948-06-01",
+      "name": "Cannor Dyke (Greendale / Vedder Canal)",
+      "country": "Canada",
+      "region": "Greendale, Chilliwack, British Columbia",
+      "location_label": "Cannor Dyke east of Vedder Canal near the Trans-Canada Highway, Chilliwack, British Columbia, Canada",
+      "lat": 49.13,
+      "lng": -122.0,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Fraser River: Cannor Dyke east of Vedder Canal near TCH",
+      "river_or_facility": "Cannor Dyke; Vedder Canal / Fraser at Greendale",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia (Fraser River): the Cannor Dyke east of the Vedder Canal broke on 1 June 1948 and flooded Greendale.",
+      "incident_date": "1948-06-01",
+      "latest_report_date": "1948-06-26",
+      "what_happened": "On 1 June 1948 the Cannor Dyke, east of the Vedder Canal near the Trans-Canada Highway, broke and released Fraser River water onto the Greendale area, destroying homes and fields (Wikipedia, Fraser River). The same page dates the Semiault Creek dyke break to 24 May and a Glendale/Cottonwood Corners break to 29 May. Regional 1948 death toll of 10 is not attributed to this break alone.",
+      "status": "Dikes later rebuilt.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Fraser River (1948 flood chronology)",
+          "url": "https://en.wikipedia.org/wiki/Fraser_River"
+        },
+        {
+          "label": "Wikipedia — Fraser River flood of 1948",
+          "url": "https://en.wikipedia.org/wiki/Fraser_River_flood_of_1948"
+        }
+      ],
+      "notes": "Regional 10 deaths not assigned to this dike.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Greendale homes and fields",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "glendale-cottonwood-dike-1948-05-29",
+      "name": "Glendale / Cottonwood Corners dike (1948)",
+      "country": "Canada",
+      "region": "Glendale (Cottonwood Corners), Chilliwack, British Columbia",
+      "location_label": "Glendale / Cottonwood Corners, Chilliwack, British Columbia, Canada",
+      "lat": 49.16,
+      "lng": -121.95,
+      "geo_accuracy": "approx",
+      "geo_source": "Cottonwood Corners, Chilliwack (approx 49.16°N 121.95°W)",
+      "river_or_facility": "Fraser Valley dike near Glendale / Cottonwood Corners",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia (Fraser River): dykes near Glendale (now Cottonwood Corners) gave way on 29 May 1948; 49 km² were under water in four days.",
+      "incident_date": "1948-05-29",
+      "latest_report_date": "1948-06-26",
+      "what_happened": "On 29 May 1948 dykes near Glendale (now Cottonwood Corners) gave way and in four days 49 km² (12,000 acres) of fertile ground were under water (Wikipedia, Fraser River). This is a separate named 1948 Fraser dike break from Nicomen, Agassiz, Hatzic, Colony Farm and Cannor. Regional death toll of 10 is not attributed to this break alone.",
+      "status": "Dikes later rebuilt.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Fraser River (1948 flood chronology)",
+          "url": "https://en.wikipedia.org/wiki/Fraser_River"
+        }
+      ],
+      "notes": "Regional 10 deaths not assigned to this dike.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Chilliwack / Cottonwood floodplain (49 km² inundated)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "high-river-little-bow-2013-06-20",
+      "name": "Highwood River / Little Bow Canal dykes (High River)",
+      "country": "Canada",
+      "region": "High River, Alberta",
+      "location_label": "Highwood River through High River, Alberta, Canada",
+      "lat": 50.58075,
+      "lng": -113.87444,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia High River 50.581°N 113.874°W; Little Bow offtake immediately downstream of Highway 2A bridge",
+      "river_or_facility": "Highwood River channel, town dikes/berms, and Little Bow Canal dykes",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The June 2013 Highwood flood overtopped the right bank and washed out parts of the Little Bow Canal dykes; town flood defences were overwhelmed and the entire town was evacuated.",
+      "incident_date": "2013-06-20",
+      "latest_report_date": "2014",
+      "what_happened": "On 20 June 2013 the Highwood River tore through High River. Alberta's official Highwood flood-damage appendix: the entire town was evacuated; three people drowned in the Highwood River during the flood; floodwater overtopping the right bank washed out parts of the dykes along the Little Bow Canal (the irrigation offtake just downstream of the Highway 2A bridge). The abandoned CP railway bridge constricted the channel and its south approach was partly washed out, threatening the highway. Alberta's 2013 flood-response report: first-ever provincial state of emergency for High River; 13,000 residents left; 59% of residents and 70% of buildings affected. Globe and Mail: the river broke its banks through town. Permanent and temporary diking to 1,200–1,850 m³/s was later built.",
+      "status": "Town-wide recovery; new permanent diking programme after 2013.",
+      "deaths": 3,
+      "injured": null,
+      "affected_or_evacuated": "entire town (~13,000) evacuated",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Alberta — Appendix A Highwood flood damages 2013 (open.alberta.ca)",
+          "url": "https://open.alberta.ca/dataset/bf28aa8a-5f33-47e9-bea3-23db69e1ce8f/resource/3902dfa4-5ed9-4bce-8aa9-7668ae7e6986/download/2014-appendix-a-highwood-flood-damage.pdf"
+        },
+        {
+          "label": "Alberta — 2013 flood response report",
+          "url": "https://open.alberta.ca/dataset/48bd39ee-2a5a-4846-944d-6004e0a8a498/resource/8404f003-1bde-49d9-a953-d37e0d671dac/download/2013-flood-response-report.pdf"
+        },
+        {
+          "label": "Globe and Mail — High River evacuates its evacuation centres",
+          "url": "https://www.theglobeandmail.com/news/national/high-river-forced-to-evacuate-its-evacuation-centres-due-to-high-floodwaters/article12737927/"
+        }
+      ],
+      "notes": "Deaths: Alberta Highwood appendix — three people drowned in the Highwood River during the flood. Provincial southern-Alberta flood toll was higher; not copied here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "High River townsite; Little Bow irrigation canal; Highway 2A",
+      "economic_damage": null,
+      "investigating_agency": "Government of Alberta / Town of High River",
+      "severity": "catastrophic"
+    },
+    {
+      "id": "grande-pointe-dike-1997-05-01",
+      "name": "Grande Pointe emergency dikes (1997 Red River)",
+      "country": "Canada",
+      "region": "Grande Pointe, Rural Municipality of Ritchot, Manitoba",
+      "location_label": "Grande Pointe, Manitoba, Canada",
+      "lat": 49.79,
+      "lng": -97.12,
+      "geo_accuracy": "approx",
+      "geo_source": "Grande Pointe south of Winnipeg on the Red (approx 49.79°N 97.12°W)",
+      "river_or_facility": "Grande Pointe emergency dikes, Red River floodplain",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Canadian Water Resources Journal: emergency-dike defences at Grande Pointe failed on 1–2 May 1997 during the Red River 'Flood of the Century'.",
+      "incident_date": "1997-05-01",
+      "latest_report_date": "2015",
+      "what_happened": "A 2015 Canadian Water Resources Journal paper on the 1997 Red River flood states that communities protected only by emergency dikes (combined with road and rail embankments at Ste. Agathe) were less fortunate: those defences failed on 29 April at Ste. Agathe and on 1–2 May at Grande Pointe (also spelled Grand Pointe). Ring-diked towns that had been raised 0.9–1.4 m above peak stages sustained little damage. No source fetched reported deaths at Grande Pointe.",
+      "status": "Later flood-protection upgrades on the Ritchot floodplain.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Canadian Water Resources Journal — 1997 Red River flood event",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/07011784.2015.1004198"
+        }
+      ],
+      "notes": "Deaths not stated. Separate from the Ste. Agathe 29 April record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Grande Pointe / south Winnipeg floodplain",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "ruahihi-canal-1981-09-20",
+      "name": "Ruahihi hydro canal (Wairoa River scheme)",
+      "country": "New Zealand",
+      "region": "Bay of Plenty / Tauranga, North Island",
+      "location_label": "Ruahihi canal above Lake McLaren / Wairoa River, near Tauriko, New Zealand",
+      "lat": -37.78,
+      "lng": 176.08,
+      "geo_accuracy": "approx",
+      "geo_source": "Ruahihi station on the Wairoa below Lake McLaren; Tauriko 37.741°S 176.096°E",
+      "river_or_facility": "Ruahihi headrace canal, Tauranga Joint Generation Committee Wairoa scheme",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation",
+        "construction_first_filling"
+      ],
+      "cause_summary": "First-filling seepage through the canal lining into volcanic soils caused progressive slope failures, then a massive internal-erosion collapse of the embankment and hillside.",
+      "incident_date": "1981-09-20",
+      "latest_report_date": "1988",
+      "what_happened": "On 20 September 1981, one day after official opening, a section of the 3,350 m Ruahihi headrace canal failed. NZ Geotechnical Society paper (Oborn, 1988): water losses and slope failures were seen soon after first filling; progressive failures upstream of the forebay became a chasm about 500 m long, 100 m wide and 40 m deep in about an hour as canal water entered in-situ volcanic materials through the lining. There was no loss of life and no-one was injured. The 20 MW station used about 85 m of head from Lake McLaren to the tidal Wairoa. MBIE dam-safety papers list Ruahihi among NZ's serious dam/canal incidents since 1960 and state there have been no recorded fatalities to date. Held earlier for missing coords; now geocoded to the Tauriko/Wairoa canal alignment.",
+      "status": "Canal and station later rebuilt and recommissioned.",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Oborn 1988 — Canal Failure, Ruahihi Hydro Electric Power Scheme (NZGS)",
+          "url": "https://fl-nzgs-media.s3.amazonaws.com/uploads/2021/08/Ref.6B-a_CanalFailure-RuahihiHydroScheme.L.E.Oborn_Ex-5thANZ.Sydney.1988.pdf"
+        },
+        {
+          "label": "RNZ — No scheme to manage hundreds of dams (lists Ruahihi 1981)",
+          "url": "https://www.rnz.co.nz/news/country/396050/no-scheme-to-manage-hundreds-of-dams-but-regulations-concern-farmers"
+        },
+        {
+          "label": "MBIE — Dam Safety Regulations policy proposals",
+          "url": "https://www.mbie.govt.nz/dmsdocument/13910-dam-safety-regulations-policy-proposals-proactiverelease-pdf"
+        }
+      ],
+      "notes": "Deaths: Oborn 1988 explicitly no loss of life. Official NZ dam-incident series since 1960 also records zero fatalities.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Tauranga Joint Generation Committee (then)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "chasm ~500 × 100 × 40 m",
+      "downstream_risk": "Wairoa River tidal reach / Tauranga hinterland",
+      "economic_damage": null,
+      "investigating_agency": "scheme consultants / Ministry of Works era reviews",
+      "severity": "major"
+    },
+    {
+      "id": "wheao-canal-1982-12-30",
+      "name": "Wheao headrace canal (Flaxy scheme)",
+      "country": "New Zealand",
+      "region": "Kaingaroa / Murupara, Bay of Plenty, North Island",
+      "location_label": "Wheao and Flaxy hydro scheme canal, Kaingaroa Forest, New Zealand",
+      "lat": -38.56085,
+      "lng": 176.64269,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Wheao River 38.561°S 176.643°E",
+      "river_or_facility": "Wheao headrace canal and penstock intake, Wheao–Flaxy scheme",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "construction_first_filling",
+        "foundation"
+      ],
+      "cause_summary": "During commissioning, internal erosion along the concrete intake / earth-lining interface into jointed rock breached the canal bank at the penstock intake.",
+      "incident_date": "1982-12-30",
+      "latest_report_date": "1983-01-06",
+      "what_happened": "On 30 December 1982, during commissioning, the Wheao scheme headrace canal breached at the junction of the canal bank and the penstock intake. Contemporary and later engineering summaries (and RNZ/NZSOLD lists of NZ canal failures) describe a release on the order of 220,000 m³, damage to the powerhouse and generating equipment, and no injuries or deaths. Ngā Taonga holds TVNZ news of 6 January 1983 showing the Minister of Works surveying powerhouse damage after the canal-bank collapse. The scheme sits on the Wheao River in Kaingaroa Forest. Official NZ dam-safety papers list Wheao with Ruahihi and Opuha as the country's best-known canal/dam failures.",
+      "status": "Scheme later rebuilt and recommissioned.",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Ngā Taonga — TVNZ 6:30pm news, Wheao dam canal (6 Jan 1983)",
+          "url": "https://www.ngataonga.org.nz/search-use-collection/search/TZP111116/"
+        },
+        {
+          "label": "RNZ — No scheme to manage hundreds of dams (lists Wheao canal, 1982)",
+          "url": "https://www.rnz.co.nz/news/country/396050/no-scheme-to-manage-hundreds-of-dams-but-regulations-concern-farmers"
+        },
+        {
+          "label": "Wikipedia — Wheao River",
+          "url": "https://en.wikipedia.org/wiki/Wheao_River"
+        }
+      ],
+      "notes": "Deaths: contemporary summaries and official NZ dam-incident series record no fatalities. Volume ~220,000 m³ from later engineering abstracts.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": "about 220,000 m³ (engineering summaries)",
+      "breach_size": null,
+      "downstream_risk": "Wheao powerhouse and Wheao River",
+      "economic_damage": null,
+      "investigating_agency": "Ministry of Works",
+      "severity": "major"
+    },
+    {
+      "id": "makirikiri-dam-2013",
+      "name": "Makirikiri Dam (Whanganui)",
+      "country": "New Zealand",
+      "region": "Makirikiri / Whanganui District, North Island",
+      "location_label": "Makirikiri Dam, Whanganui District, New Zealand",
+      "lat": -39.85,
+      "lng": 175.15,
+      "geo_accuracy": "region",
+      "geo_source": "Makirikiri Valley / Ūpokongaro area upriver of Whanganui (39.93°S 175.05°E)",
+      "river_or_facility": "Makirikiri Dam (Whanganui)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Official NZ dam-safety papers cite a flood resulting from the Makirikiri Dam (Whanganui) failure in 2013; mechanism is not stated in those documents.",
+      "incident_date": "2013",
+      "latest_report_date": "2022",
+      "what_happened": "MBIE's Dam Safety Regulations policy proposals, the Building (Dam Safety) guide, and Marlborough District Council dam-safety guidance all state that since 1960 New Zealand has had 25 known dam incidents (at least 14 serious) and no recorded fatalities, and they name 'the flood resulting from the Makirikiri Dam (Whanganui) failure in 2013' as a recent example. A separate October 2013 Whanganui weather-bomb flood (stopbank evacuations) is well reported; these official papers treat Makirikiri as a named dam failure, not only river flooding. Mechanism and death count for the dam itself are not given beyond the national 'no recorded fatalities' line.",
+      "status": "Cited in national dam-safety regulation papers as a 2013 failure.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "MBIE — Dam Safety Regulations: Policy proposals",
+          "url": "https://www.mbie.govt.nz/dmsdocument/13910-dam-safety-regulations-policy-proposals-proactiverelease-pdf"
+        },
+        {
+          "label": "Building.govt.nz — Guide to complying with the Dam Safety Regulations",
+          "url": "https://www.building.govt.nz/assets/Uploads/managing-buildings/building-safety/guide-to-complying-with-the-dam-safety-regulations.pdf"
+        },
+        {
+          "label": "Marlborough DC — Dam Safety Guidance",
+          "url": "https://www.marlborough.govt.nz/repository/libraries/id:2ifzri1o01cxbymxkvwz/hierarchy/documents/services/building-services/dam-safety/The%20Dam%20Safety%20Guidance%20Document.pdf"
+        }
+      ],
+      "notes": "Year only in official papers. Deaths: official national series says no recorded fatalities to date for NZ dam incidents. Coords are regional (Makirikiri Valley).",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Whanganui District / Makirikiri Valley",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "waihi-dam-sluice-2015",
+      "name": "Waihi Dam sluice gates (Wairoa / Waiau)",
+      "country": "New Zealand",
+      "region": "Wairoa District, Hawke's Bay, North Island",
+      "location_label": "Waihi hydro dam near Wairoa, Hawke's Bay, New Zealand",
+      "lat": -38.96667,
+      "lng": 177.4,
+      "geo_accuracy": "approx",
+      "geo_source": "Frasertown / Wairoa (38.967°S 177.4°E); Eastland Waihi dam on the Waiau system",
+      "river_or_facility": "Eastland Group Waihi Dam sluice; Waiau River; Wairoa water supply",
+      "type": "sluice",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "poor_maintenance"
+      ],
+      "cause_summary": "A sluice gate was damaged in September 2015 and not fixed until March 2016, sending silt into Wairoa waterways for months.",
+      "incident_date": "2015-09",
+      "latest_report_date": "2016-03",
+      "what_happened": "RNZ: a sluice gate at Eastland Group's Waihi dam (Hawke's Bay, consent from 1979, transferred to Eastland Network in 1999) was damaged in September 2015 and not repaired until March, costing Wairoa District Council more than $100,000 to clean drinking water. Official dam-safety papers cite 'severe silting of the Waiau River in 2015 after the Waihi Dam’s sluice gates were damaged' as one of two recent incidents that justified national regulation. The dam is not the Coromandel town of Waihi. RNZ also reported years of missed sediment/ecological surveys. Official NZ dam-incident series records no fatalities.",
+      "status": "Gate repaired March 2016; consent-compliance investigation followed.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "RNZ — Waihi Dam breached consent for years",
+          "url": "https://www.rnz.co.nz/news/regional/302985/waihi-dam-breached-consent-for-years"
+        },
+        {
+          "label": "MBIE — Dam Safety Regulations: Policy proposals",
+          "url": "https://www.mbie.govt.nz/dmsdocument/13910-dam-safety-regulations-policy-proposals-proactiverelease-pdf"
+        }
+      ],
+      "notes": "Month-year only for the gate damage. Deaths: official national series 0; RNZ does not report fatalities.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Eastland Group / Eastland Network",
+      "year_built": "consent 1979",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Waiau River; Wairoa drinking water",
+      "economic_damage": "Wairoa DC cleanup > NZ$100,000 (RNZ)",
+      "investigating_agency": "Hawke's Bay Regional Council",
+      "severity": "moderate"
+    },
+    {
+      "id": "haldon-seddon-2013-07",
+      "name": "Haldon Dam (Seddon / Awatere)",
+      "country": "New Zealand",
+      "region": "Awatere Valley, about 10–15 km southwest of Seddon, Marlborough",
+      "location_label": "Haldon Dam on Starborough Creek, southwest of Seddon, New Zealand",
+      "lat": -41.75,
+      "lng": 173.97,
+      "geo_accuracy": "approx",
+      "geo_source": "NZGS: 10 km SW of Seddon (41.67°S 174.07°E) on Starborough Creek, Awatere Valley",
+      "river_or_facility": "Haldon / Haldon's Vineyard earthfill irrigation dam; Starborough Creek",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake",
+        "structural_design",
+        "construction_first_filling"
+      ],
+      "cause_summary": "The 2013 Cook Strait / Seddon earthquakes cracked and slumped the crest and upstream shoulder of a poorly built zoned earthfill irrigation dam; the regulator ordered an emergency drawdown.",
+      "incident_date": "2013-07",
+      "latest_report_date": "2016",
+      "what_happened": "Haldon Dam, a ~15–20 m zoned earthfill irrigation dam holding about 250,000 m³ on Starborough Creek (which flows through Seddon), was damaged in the July–August 2013 Cook Strait earthquake sequence. RNZ (July 2013): owner Richard Bell began emptying the dam after cracks; Marlborough District Council called a second independent inspection. NZGS remediation paper: crest and upstream shoulder suffered serious damage; the regulator enforced a 5.5 m emergency lowering (spillway weir demolished, outlet trench cut) because a failure could have sent about 120 m³/s through Seddon. Construction had a history of non-compliance. The dam did not breach. Official NZ dam-incident series records no fatalities.",
+      "status": "Emergency drawdown; later two-stage remediation to a compliant lowered reservoir.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "Seddon (~12 km downstream) was the at-risk community; no breach",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "RNZ — Engineers assess Seddon farm dam",
+          "url": "https://www.rnz.co.nz/news/regional/215181/engineers-assess-seddon-farm-dam"
+        },
+        {
+          "label": "NZGS — Haldon Dam Remediation case study",
+          "url": "https://www.nzgs.org/libraries/haldon-dam-remediation-a-case-study-of-earthquake-damage-and-restoration/"
+        },
+        {
+          "label": "RNZ — second engineering expert to inspect cracks",
+          "url": "https://www.rnz.co.nz/national/programmes/morningreport/audio/2563147/second-engineering-expert-to-inspect-cracks-in-seddon-dam"
+        }
+      ],
+      "notes": "Near-failure, not a breach. Height: RNZ 20 m; NZGS 15 m. Deaths 0 (no breach; national series 0).",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Haldon's Vineyard / Richard Bell",
+      "year_built": null,
+      "height_m": 15,
+      "reservoir_capacity": "about 250,000 m³ (RNZ)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Marlborough District Council (regulator); MWH",
+      "severity": "major"
+    },
+    {
+      "id": "edgecumbe-college-rd-2017-04-06",
+      "name": "Rangitāiki stopbank at College Road, Edgecumbe",
+      "country": "New Zealand",
+      "region": "Edgecumbe, Bay of Plenty, North Island",
+      "location_label": "College Road stopbank, Edgecumbe, New Zealand",
+      "lat": -37.975,
+      "lng": 176.825,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Edgecumbe 37.975°S 176.825°E; breach at College Road",
+      "river_or_facility": "Rangitāiki River Scheme stopbank / concrete floodwall at College Road",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "earthquake",
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Independent review: 1973 foundation placement, unrepaired 1987 Edgecumbe-earthquake foundation damage, and a 2012 concrete pad allowed piping/pressure to collapse the wall; incomplete Reid's Floodway upgrades left Edgecumbe exposed.",
+      "incident_date": "2017-04-06",
+      "latest_report_date": "2017-10-03",
+      "what_happened": "At about 08:30 on 6 April 2017 the Rangitāiki River breached the College Road stopbank/floodwall at Edgecumbe during remnants of Cyclone Debbie. Independent review (Cullen, Christensen, Price) for Bay of Plenty Regional Council: no loss of life; 15 houses permanently uninhabitable and more than 250 needing long repairs; about 1,600–2,000 residents evacuated. Mayor Tony Bonne told RNZ the bank collapsed rather than overtopped. The panel later found faulty 1973 foundations, 1987 earthquake damage never fixed in the foundation, and a 2012 concrete pad that increased pressure. Incomplete Reid's Floodway works likely left more water on the town. Matahina Dam releases reduced downstream levels but probably would not have prevented the breach.",
+      "status": "Review published Oct 2017; scheme upgrades followed.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "about 1,600–2,000 Edgecumbe residents evacuated",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Rangitāiki River Scheme Review final report (Oct 2017)",
+          "url": "https://www.whakatane.info/sites/www.whakatane.info/files/docs/2017-10-03-rrsr-final-report-public.pdf"
+        },
+        {
+          "label": "RNZ — 'Wall of water': a night in exile for Edgecumbe",
+          "url": "https://www.rnz.co.nz/news/national/328256/'wall-of-water'-a-night-in-exile-for-edgecumbe"
+        },
+        {
+          "label": "AP — Hundreds evacuated after levee fails",
+          "url": "https://apnews.com/general-news-73bb1f9741e244a3a0a299ac538fc401"
+        },
+        {
+          "label": "1News — Base of Edgecumbe floodwall faulty",
+          "url": "https://www.1news.co.nz/2017/10/03/base-of-edgecumbe-floodwall-faulty-panel-finds/"
+        }
+      ],
+      "notes": "Deaths: review explicitly no loss of life.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Bay of Plenty Regional Council (Rangitāiki River Scheme)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Edgecumbe township and Rangitāiki Plains",
+      "economic_damage": null,
+      "investigating_agency": "Independent Review Panel (Sir Michael Cullen chair)",
+      "severity": "major"
+    },
+    {
+      "id": "matahina-1987-03-02",
+      "name": "Matahina Dam (Edgecumbe earthquake)",
+      "country": "New Zealand",
+      "region": "Rangitāiki River, Bay of Plenty, North Island",
+      "location_label": "Matahina Dam, Rangitāiki River, New Zealand",
+      "lat": -38.11393,
+      "lng": 176.81393,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Matahina Power Station 38.114°S 176.814°E",
+      "river_or_facility": "Matahina earth-rockfill dam and power station",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake",
+        "piping_internal_erosion",
+        "foundation"
+      ],
+      "cause_summary": "The M6.3 Edgecumbe earthquake shook the 80–86 m dam (crest PGA 0.42 g); later investigations found core cracking and internal erosion that forced a second drawdown and repairs.",
+      "incident_date": "1987-03-02",
+      "latest_report_date": "1988",
+      "what_happened": "At 13:42 on 2 March 1987 the M6.3 Edgecumbe earthquake shook Matahina Dam, about 23 km from the epicentre. Gillon (Ministry of Works): crest rockfill settled about 100 mm and moved 250 mm downstream; crest acceleration 0.42 g; lake drawn down 2.5 m as a precaution (downstream residents unofficially evacuated on the falling river). No major leakage immediately. Later ISSMGE/NZSEE work: a large cavity upstream of the core on the right abutment, continued settlement, and in December 1987 active internal erosion at the left abutment forced another lowering and major core/abutment repairs. The dam did not breach. Official NZ dam-incident series records no fatalities.",
+      "status": "Repaired 1987–88; still operating.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "unofficial downstream evacuation after the first drawdown (Gillon)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Gillon — The Observed Seismic Behavior of the Matahina Dam",
+          "url": "https://scholarsmine.mst.edu/cgi/viewcontent.cgi?article=1556&context=icchge"
+        },
+        {
+          "label": "ISSMGE — Matahina post-earthquake investigations",
+          "url": "https://issmge.org/uploads/publications/89/87/5ANZ_099.pdf"
+        },
+        {
+          "label": "NZSEE — Edgecumbe earthquake reconnaissance report",
+          "url": "http://www.nzsee.org.nz/db/Bulletin/Archive/20(3)0201.pdf"
+        }
+      ],
+      "notes": "Not a breach. 1967 first-filling cavity/repair is a separate earlier incident (not merged). Deaths 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Electricity Corporation of New Zealand (then)",
+      "year_built": "1960s (commissioned 1967)",
+      "height_m": 86,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ministry of Works and Development",
+      "severity": "major"
+    },
+    {
+      "id": "arapuni-headrace-1930-06",
+      "name": "Arapuni Dam headrace (1930 crack and dewatering)",
+      "country": "New Zealand",
+      "region": "Waikato River, south of Hamilton, North Island",
+      "location_label": "Arapuni Dam and headrace, Waikato River, New Zealand",
+      "lat": -38.07139,
+      "lng": 175.64333,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Arapuni Power Station 38.071°S 175.643°E",
+      "river_or_facility": "Arapuni concrete gravity dam and headrace canal, Waikato River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation"
+      ],
+      "cause_summary": "A large crack opened in the headrace near the powerhouse as nontronite clay infill eroded in ignimbrite foundation fissures; the reservoir was fully dewatered.",
+      "incident_date": "1930-06",
+      "latest_report_date": "1932-04",
+      "what_happened": "In June 1930, about a year after first power, a large crack opened in the Arapuni headrace near the powerhouse. Engineering NZ heritage record and Papers Past (Otago Daily Times, 11 June 1930): a diver found a vertical fracture leaking into adjoining country; the headrace was emptied, the river returned to the diversion tunnel, and the station shut until April 1932. The main dam was reported unaffected. Swedish experts recommended an impervious headrace lining and a grout curtain at the upstream heel — the start of a seepage history that continued (see 2000 piping record). No source fetched reported deaths.",
+      "status": "Returned to service April 1932 after lining and grout curtain.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Engineering NZ — Arapuni Power Station and Dam heritage record",
+          "url": "https://www.engineeringnz.org/programmes/heritage/engineering-heritage-records/power-stations/arapuni-power-station-and-dam/"
+        },
+        {
+          "label": "Papers Past — Otago Daily Times 11 June 1930, Arapuni Power Station",
+          "url": "https://paperspast.natlib.govt.nz/newspapers/ODT19300611.2.56"
+        },
+        {
+          "label": "New Civil Engineer — Dam foundations, Arapuni",
+          "url": "https://www.newcivilengineer.com/archive/dam-foundations-crack-team-30-11-2007/"
+        }
+      ],
+      "notes": "Pre-1960, so the official 'no fatalities since 1960' line does not apply. No 1930 death count found — deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Public Works Department",
+      "year_built": "1924–1929",
+      "height_m": 64,
+      "reservoir_capacity": null,
+      "construction": "concrete_gravity",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Public Works Department; Hornell and Werner (Swedish advisors)",
+      "severity": "major"
+    },
+    {
+      "id": "arapuni-piping-2000",
+      "name": "Arapuni Dam foundation piping (2000–2002)",
+      "country": "New Zealand",
+      "region": "Waikato River, south of Hamilton, North Island",
+      "location_label": "Arapuni Dam, Waikato River, New Zealand",
+      "lat": -38.07139,
+      "lng": 175.64333,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Arapuni Power Station 38.071°S 175.643°E",
+      "river_or_facility": "Arapuni Dam foundation / drainage system",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation"
+      ],
+      "cause_summary": "Erosion of nontronite clay infill in an ignimbrite fracture formed a pipe from the reservoir into the dam drainage system.",
+      "incident_date": "2000",
+      "latest_report_date": "2002",
+      "what_happened": "ISSMGE/NZGS papers on Arapuni: in 2000 a trend of rising pressure and flow was identified and solid particles of clay and bitumen, plus lake life, exited the drainage system. Mighty River Power / DamWatch showed nontronite infill had eroded from a fracture, piping the reservoir to the drains. The pipe was grouted in 2002. Earlier (1995) exploratory holes had hit high-pressure seepage, grouted in December 2001. The dam did not breach. Official NZ dam-incident series records no fatalities. Later discrete concrete cut-off panels were built through the ignimbrite.",
+      "status": "Piped fracture grouted 2002; later cut-off upgrade.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ISSMGE — Arapuni seepage history and 2000 piping",
+          "url": "https://www.issmge.org/uploads/publications/89/78/10ANZ_040.pdf"
+        },
+        {
+          "label": "NZGS — Prevention of foundation piping at Arapuni",
+          "url": "https://www.nzgs.org/wp-content/uploads/2022/06/12-3.pdf"
+        },
+        {
+          "label": "New Civil Engineer — Dam foundations, Arapuni",
+          "url": "https://www.newcivilengineer.com/archive/dam-foundations-crack-team-30-11-2007/"
+        }
+      ],
+      "notes": "Deaths 0 (no breach; national series 0).",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Mighty River Power (then)",
+      "year_built": "1924–1929",
+      "height_m": 64,
+      "reservoir_capacity": null,
+      "construction": "concrete_gravity",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Mighty River Power; DamWatch",
+      "severity": "moderate"
+    },
+    {
+      "id": "westport-buller-2021-07",
+      "name": "Westport Buller / Orowaiti flood defences (July 2021)",
+      "country": "New Zealand",
+      "region": "Westport, Buller District, West Coast, South Island",
+      "location_label": "Westport stopbanks on the Buller and Orowaiti, New Zealand",
+      "lat": -41.75806,
+      "lng": 171.60222,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Westport 41.758°S 171.602°E",
+      "river_or_facility": "Westport stopbanks and rock training walls; Buller River; Orowaiti overflow / Organs Island",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Record Buller flow (8,900 m³/s, largest gauged flow in New Zealand) breached Westport's flood defences, including scour at Organs Island and the O'Conor Home stopbank.",
+      "incident_date": "2021-07-17",
+      "latest_report_date": "2022-06-30",
+      "what_happened": "Heavy rain 15–18 July 2021 produced a Buller River peak of 8,900 m³/s — the largest gauged river flow recorded in New Zealand (Westport flood-resilience report, 30 June 2022). The flow breached Westport's flood defences; 826 properties and more than 2,000 people required assistance. ICNZ insurance claims for the July 2021 West Coast flooding were $88 million at the time of that report. RNZ later described badly scoured stopbank at O'Conor Home (260 m) and the Organs Island training wall — the historic Buller-to-Orowaiti overflow — as the urgent weak points. A February 2022 flood followed. Deaths for the July 2021 Westport defence breach are not given in these sources.",
+      "status": "Resilient Westport $22.9 m package (2023); stopbank repairs and new ring-banks planned.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "826 properties; over 2,000 people",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Buller DC — Westport flood resilience final report 30 June 2022",
+          "url": "https://bullerdc.govt.nz/media/lbod4ujg/final-report-westport-flood-resilience-30-june-2022docx-002-002.pdf"
+        },
+        {
+          "label": "RNZ — Westport flood protection weak points",
+          "url": "https://www.rnz.co.nz/news/ldr/466479/westport-flood-protection-2-point-6m-approved-to-fix-weak-points-in-defences"
+        },
+        {
+          "label": "RNZ — Westport's flooding disaster could have been avoided",
+          "url": "https://www.rnz.co.nz/news/ldr/502578/westport-s-flooding-disaster-could-have-been-avoided"
+        }
+      ],
+      "notes": "Deaths not stated for this defence breach. Do not copy a regional West Coast flood toll if one exists.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "West Coast Regional Council / Buller District Council",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Westport (southeast and Orowaiti sides)",
+      "economic_damage": "ICNZ $88 m West Coast July 2021 claims (report date)",
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "tutaekuri-stopbanks-2023-02-14",
+      "name": "Tūtaekurī River stopbanks (Cyclone Gabrielle)",
+      "country": "New Zealand",
+      "region": "Heretaunga Plains between Napier and Hastings, Hawke's Bay",
+      "location_label": "Tūtaekurī River stopbanks, Hawke's Bay, New Zealand",
+      "lat": -39.5648,
+      "lng": 176.9105,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Tūtaekurī River 39.565°S 176.911°E",
+      "river_or_facility": "Hawke's Bay Regional Council Tūtaekurī stopbank scheme",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Cyclone Gabrielle produced an estimated ~1,000-year Tūtaekurī flood that overwhelmed and breached about 3 km of stopbank — the worst-damaged river in the HBRC assessment.",
+      "incident_date": "2023-02-14",
+      "latest_report_date": "2024",
+      "what_happened": "On 13–14 February 2023 Cyclone Gabrielle delivered 300–350 mm on the Tūtaekurī/Ngaruroro catchments. HBRC and the Hawke's Bay Independent Flood Review: about 5.3 km of regional stopbank breached and 28 km weakened; the Tūtaekurī had the most damage — about 3 km breached and 16 km weakened (RNZ, council drone assessment). Combined Tūtaekurī–Ngaruroro flow was estimated at 10,800 m³/s. Wikipedia: the river burst its banks, damaged Redcliffe substation (power cut to ~32,000 around Napier), and destroyed several bridges (Brookfields, Redclyffe, Vicarage Road). Regional Gabrielle deaths (11 in NZ) are not attributed by these sources to the Tūtaekurī breaches alone.",
+      "status": "Emergency repairs done; tens of millions in permanent stopbank repair.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "thousands on the Heretaunga Plains; 9,000 evacuated or self-evacuated across the region by nightfall (Wikipedia)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Hawke's Bay Independent Flood Review (HBRC)",
+          "url": "https://www.hbrc.govt.nz/assets/Document-Library/Cyclone-Gabrielle/Report-of-the-Hawkes-Bay-Independent-Flood-Review-Digital-Version.pdf"
+        },
+        {
+          "label": "RNZ — Tūtaekurī suffers worst stopbank damage",
+          "url": "https://www.rnz.co.nz/news/regions/486399/tutaekuri-river-suffers-worst-damage-from-cyclone-gabrielle-onslaught-council-says"
+        },
+        {
+          "label": "Wikipedia — Cyclone Gabrielle",
+          "url": "https://en.wikipedia.org/wiki/Cyclone_Gabrielle"
+        }
+      ],
+      "notes": "Regional Gabrielle death toll (11) not copied onto this river-scheme record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Hawke's Bay Regional Council",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 3 km breached on the Tūtaekurī (HBRC/RNZ)",
+      "downstream_risk": "Taradale, Meeanee, Awatoto, Pakowhai, Waiohiki",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "catastrophic"
+    },
+    {
+      "id": "ngaruroro-stopbanks-2023-02-14",
+      "name": "Ngaruroro River stopbanks (Cyclone Gabrielle)",
+      "country": "New Zealand",
+      "region": "Heretaunga Plains, Hawke's Bay, North Island",
+      "location_label": "Ngaruroro River stopbanks, Hawke's Bay, New Zealand",
+      "lat": -39.56944,
+      "lng": 176.92916,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Ngaruroro River 39.569°S 176.929°E",
+      "river_or_facility": "Hawke's Bay Regional Council Ngaruroro stopbank scheme",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The same ~1,000-year Gabrielle flood breached about 0.5 km and weakened about 4 km of Ngaruroro stopbank.",
+      "incident_date": "2023-02-14",
+      "latest_report_date": "2024",
+      "what_happened": "HBRC/RNZ drone assessment after Cyclone Gabrielle: the Ngaruroro was the second-worst river in the scheme — about 4 km of stopbank weakened and 0.5 km breached (versus ~3 km breached on the Tūtaekurī). Wikipedia: the Ngaruroro burst its banks and flooded Omahu, where 20 people needed helicopter evacuation. Combined Tūtaekurī–Ngaruroro flow was estimated at 10,800 m³/s. Regional Gabrielle deaths are not attributed by these sources to the Ngaruroro breaches alone.",
+      "status": "Emergency then permanent repairs with the rest of the Heretaunga scheme.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "Omahu (20 helicopter evacuations); Heretaunga Plains",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "RNZ — Tūtaekurī / Ngaruroro stopbank damage figures",
+          "url": "https://www.rnz.co.nz/news/regions/486399/tutaekuri-river-suffers-worst-damage-from-cyclone-gabrielle-onslaught-council-says"
+        },
+        {
+          "label": "Hawke's Bay Independent Flood Review (HBRC)",
+          "url": "https://www.hbrc.govt.nz/assets/Document-Library/Cyclone-Gabrielle/Report-of-the-Hawkes-Bay-Independent-Flood-Review-Digital-Version.pdf"
+        },
+        {
+          "label": "Wikipedia — Cyclone Gabrielle",
+          "url": "https://en.wikipedia.org/wiki/Cyclone_Gabrielle"
+        }
+      ],
+      "notes": "Regional Gabrielle death toll not copied onto this record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Hawke's Bay Regional Council",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 0.5 km breached; 4 km weakened (HBRC/RNZ)",
+      "downstream_risk": "Omahu and Heretaunga Plains",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "waipawa-stopbanks-2023-02-14",
+      "name": "Waipawa River stopbanks (Cyclone Gabrielle)",
+      "country": "New Zealand",
+      "region": "Central Hawke's Bay, North Island",
+      "location_label": "Waipawa River stopbanks, Hawke's Bay, New Zealand",
+      "lat": -39.974,
+      "lng": 176.635,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Waipawa River 39.974°S 176.635°E",
+      "river_or_facility": "Hawke's Bay Regional Council Waipawa stopbank scheme",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Gabrielle's estimated ~1,000-year Waipawa flood overwhelmed the Ruataniwha Plains stopbanks; HBRC listed Waipawa among the breached rivers.",
+      "incident_date": "2023-02-14",
+      "latest_report_date": "2024",
+      "what_happened": "The Hawke's Bay Independent Flood Review and HBRC updates list the Waipawa among rivers whose stopbanks were breached in Cyclone Gabrielle (13–14 February 2023), with a ~1,000-year estimated return period. RNZ reported the council ordered an independent review after breaches in 30 places, most on the Tūtaekurī and Ngaruroro between Napier and Hastings, and also the Waipawa and Wairoa. A rail bridge at Waipawa was among those damaged (Wikipedia). Regional Gabrielle deaths are not attributed to the Waipawa breaches alone.",
+      "status": "Included in post-Gabrielle stopbank repair programme.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "RNZ — HBRC orders independent review; Waipawa among breached rivers",
+          "url": "https://www.rnz.co.nz/news/regions_hawkes-bay/488739/cyclone-gabrielle-hawke-s-bay-council-orders-independent-review-into-flood-protection-schemes"
+        },
+        {
+          "label": "Hawke's Bay Independent Flood Review (HBRC)",
+          "url": "https://www.hbrc.govt.nz/assets/Document-Library/Cyclone-Gabrielle/Report-of-the-Hawkes-Bay-Independent-Flood-Review-Digital-Version.pdf"
+        },
+        {
+          "label": "Wikipedia — Cyclone Gabrielle",
+          "url": "https://en.wikipedia.org/wiki/Cyclone_Gabrielle"
+        }
+      ],
+      "notes": "Regional Gabrielle death toll not copied onto this record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Hawke's Bay Regional Council",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Waipawa / Ruataniwha Plains",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "golden-cross-1995",
+      "name": "Golden Cross tailings dam (movement)",
+      "country": "New Zealand",
+      "region": "Coromandel / Waikato, North Island",
+      "location_label": "Golden Cross gold mine tailings dam, New Zealand",
+      "lat": -37.35,
+      "lng": 175.7,
+      "geo_accuracy": "region",
+      "geo_source": "Golden Cross mine, Waitekauri valley west of Waihi (Waihi 37.38°S 175.83°E)",
+      "river_or_facility": "Golden Cross tailings dam (Coeur d'Alène), ~3 million tonnes",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "foundation",
+        "structural_design"
+      ],
+      "cause_summary": "WISE: dam movement of a dam containing 3 million tonnes of tailings (continuing as of the WISE entry); no release recorded.",
+      "incident_date": "1995-12",
+      "latest_report_date": "1995-12",
+      "what_happened": "WISE records that in December 1995 the Golden Cross gold tailings dam (Coeur d'Alène, Idaho) experienced dam movement. The dam contained 3 million tonnes of tailings; the movement was described as continuing. Release was 'nil (so far)' and impacts 'nil (so far)'. Official NZ dam-incident series records no fatalities. This is a deformation/near-failure, not a breach.",
+      "status": "Historic movement incident; no release in the WISE entry.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        }
+      ],
+      "notes": "No breach. Deaths 0 (WISE nil impacts; national series 0). Coords regional (Waitekauri / Waihi).",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Coeur d'Alène, Idaho, USA",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "nil (WISE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "scales-pond-2009-04-04",
+      "name": "Scales Pond Dam (Dunk River)",
+      "country": "Canada",
+      "region": "Kinkora / Prince County, Prince Edward Island",
+      "location_label": "Scales Pond on the Dunk River, east of Summerside near Kinkora, Prince Edward Island, Canada",
+      "lat": 46.344521,
+      "lng": -63.61146,
+      "geo_accuracy": "approx",
+      "geo_source": "CGNDB Scales Pond Provincial Park 46.344521°N 63.61146°W (key BACFZ)",
+      "river_or_facility": "Scales Pond Dam, Dunk River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "P.E.I. Environment said rains and rapid snowmelt contributed to failure of the unused former mill/hydro dam, which burst a ~12 m hole and drained the pond into the Dunk River.",
+      "incident_date": "2009-04-04",
+      "latest_report_date": "2013",
+      "what_happened": "On Saturday 4 April 2009 the dam at Scales Pond, just east of Summerside on the Dunk River, burst. A P.E.I. Environment, Energy and Forestry release dated 6 April 2009 (the following Monday) said the dam failed Saturday, sending a large volume of water, ice and silt into the Dunk River, and that rains and rapid snowmelt were believed to have contributed. CBC, reporting the same weekend, said the unused former hydro dam left a gaping hole about 12 metres wide; ice and water toppled 9–12 m trees; silt raised concern for salmon and trout spawning; and the pond, a long-standing recreation and fishing spot, drained within hours. The same department said the pond began as an early-19th-century mill pond, powered a hydro station in the 1920s, and became a trout-fishing site in the 1930s. CBC later reported the dam washed away in the 2009 spring flood and that a new concrete dam with a fish ladder was completed in 2013 after a ~$1 million community-led rebuild.",
+      "status": "Rebuilt as a concrete dam with fish ladder; pond restored 2013.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "CBC — Dam bursts, pouring silt into western P.E.I. river",
+          "url": "https://www.cbc.ca/news/canada/prince-edward-island/dam-bursts-pouring-silt-into-western-p-e-i-river-1.804979"
+        },
+        {
+          "label": "P.E.I. Environment — Community, Government to Plan Future of Scales Pond (6 April 2009)",
+          "url": "https://archivenews.princeedwardisland.ca/community-government-plan-future-scales-pond"
+        },
+        {
+          "label": "CBC — Scales Pond restored",
+          "url": "https://www.cbc.ca/news/canada/prince-edward-island/scales-pond-restored-1.2251232"
+        },
+        {
+          "label": "CGNDB — Scales Pond Provincial Park",
+          "url": "https://geonames.nrcan.gc.ca/search-place-names/unique?id=BACFZ"
+        }
+      ],
+      "notes": "Saturday 4 April 2009 from the 6 April 2009 provincial release ('failed Saturday'). No source gave a human death count — deaths null. Not the same as any existing PEI record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Province of Prince Edward Island (site later community rebuild)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": "about 12 m wide hole (CBC witnesses)",
+      "downstream_risk": "Dunk River channel, trees, salmon/trout redds",
+      "economic_damage": null,
+      "investigating_agency": "P.E.I. Department of Environment, Energy and Forestry",
+      "severity": "moderate"
+    },
+    {
+      "id": "gardiners-mill-dam-2004",
+      "name": "Gardiner's Mill Dam (Sisters Lake / Annis River)",
+      "country": "Canada",
+      "region": "Gardners Mills, Yarmouth County, Nova Scotia",
+      "location_label": "Gardiner's Mill Dam on the Annis River at Gardners Mills, Yarmouth County, Nova Scotia, Canada",
+      "lat": 44.027947,
+      "lng": -65.975785,
+      "geo_accuracy": "approx",
+      "geo_source": "CGNDB Gardners Mills 44.027947°N 65.975785°W (key CANJM); dam on Annis River at the community",
+      "river_or_facility": "Gardiner's Mill Dam, Annis River / Sisters Lake",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance",
+        "structural_design"
+      ],
+      "cause_summary": "The wooden centre of the historic granite mill dam failed, emptying Sisters Lake; Heritage Trust dates the wooden-centre failure to 2004 (one page also says 2003); a later Saltwire feature says the dam broke in 2005.",
+      "incident_date": "2004",
+      "latest_report_date": "2010",
+      "what_happened": "The granite-walled Gardiner's Mill Dam on the Annis River at Gardners Mills, built before 1855 to power a sawmill, failed when its wooden centre went out and emptied Sisters Lake (the 1937 restored mill pond). Heritage Trust of Nova Scotia's project page and 2009 awards citation both say the owners maintained the dam until 2004, when the wooden centre failed and the lake emptied, leaving a cottage community on a mud flat; the same project page also says the centre wooden structure collapsed in 2003. Saltwire (PNI) later wrote that in 2005 the dam broke and a wave of water flooded properties downstream. After permit delays with DFO (fish ladder required), restoration began in June 2009; the dam was rebuilt, the lake refilled, and in 2010 it was deeded to the Gardiner's Mill Dam Homeowners Association as Nova Scotia's first provincially designated dam. No source gave a human death count.",
+      "status": "Restored 2009; deeded to homeowners association 2010.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Heritage Trust of Nova Scotia — Restoration of Gardiner's Mill Dam",
+          "url": "https://htnsarchived.ca/projects/proj_gard_mill.shtml"
+        },
+        {
+          "label": "Heritage Trust of Nova Scotia — 2009 Awards (Gardiner's Mill Dam)",
+          "url": "https://htnsarchived.ca/events/2009AwardsPres.shtml"
+        },
+        {
+          "label": "Saltwire / PNI — Bringing back the lake",
+          "url": "https://www.saltwire.com/atlantic-canada/bringing-back-the-lake-115330"
+        },
+        {
+          "label": "CGNDB — Gardners Mills",
+          "url": "https://geonames.nrcan.gc.ca/search-place-names/unique?id=CANJM"
+        }
+      ],
+      "notes": "Year-only 2004 (Heritage Trust awards/project: wooden centre failed 2004). Same project page also says 2003 collapse; Saltwire says 2005 break and a downstream flood wave. Deaths unknown.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Vacon / Triple V Ranch (then); later Gardiner's Mill Dam Homeowners Association",
+      "year_built": 1855,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Annis River cottages and properties below Sisters Lake",
+      "economic_damage": null,
+      "investigating_agency": "Heritage Trust of Nova Scotia / DFO permits",
+      "severity": "moderate"
+    },
+    {
+      "id": "marysville-nashwaak-dam-1913-03-22",
+      "name": "Marysville mill dam (Nashwaak River)",
+      "country": "Canada",
+      "region": "Marysville (Fredericton), York County, New Brunswick",
+      "location_label": "Company dam at Marysville on the Nashwaak River, now Fredericton, New Brunswick, Canada",
+      "lat": 45.97833,
+      "lng": -66.58889,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Marysville Cotton Mill 45.97833°N 66.58889°W (east bank of Nashwaak at Bridge/McGloin); 1913 dam is the mill company's Nashwaak structure, not the later 1919 Campbell Creek dam",
+      "river_or_facility": "Marysville company dam, Nashwaak River",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall",
+        "unknown"
+      ],
+      "cause_summary": "GNB flood history: during the 22–25 March 1913 ice-jam freshet, 50–70 feet of the Marysville company's dam on the Nashwaak was swept away.",
+      "incident_date": "1913-03-22",
+      "latest_report_date": "1913-03-25",
+      "what_happened": "New Brunswick's Environment and Local Government flood history for 22–25 March 1913 records one of the earliest spring break-ups then known in central New Brunswick, driven by mild weather, snowmelt and heavy rain and accompanied by ice jams. On the Nashwaak, the Edward Parington Company of Marysville (the provincial compilation's spelling) reported loss of logs; manager E.B. Staples said 50 to 70 feet of the company's dam at Marysville was swept away by the river. Wikipedia's Marysville Cotton Mill entry places the mill on the east bank of the Nashwaak and notes earlier Gibson-era dams used to control log drives. This 1913 damage is not the later 1919 Campbell Creek concrete dam (built after this flood and removed in 2021). The same GNB write-up does not attach a death count to the Marysville dam; regional 'flee for their lives' language is not copied onto this record.",
+      "status": "Partial dam loss in the 1913 freshet; later mill-water infrastructure is a different structure.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "GNB — Flood Details 1913-03-22 to 1913-03-25",
+          "url": "https://www.elgegl.gnb.ca/0001/en/Flood/Details/55"
+        },
+        {
+          "label": "Wikipedia — Marysville Cotton Mill (site on the Nashwaak)",
+          "url": "https://en.wikipedia.org/wiki/Marysville_Cotton_Mill"
+        }
+      ],
+      "notes": "Company name as spelled in the GNB flood compilation. Deaths unknown; do not copy regional 1913 flood language onto this dam. Not Campbell Creek Dam (1919).",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Edward Parington Company of Marysville (GNB spelling)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "50–70 feet of dam swept away (GNB, quoting E.B. Staples)",
+      "downstream_risk": "Nashwaak River / Marysville mill and log drives",
+      "economic_damage": null,
+      "investigating_agency": "Government of New Brunswick flood history compilation",
+      "severity": "moderate"
+    },
+    {
+      "id": "millstream-dams-1933-10-25",
+      "name": "Head of Millstream dams (Kings County)",
+      "country": "Canada",
+      "region": "Head of Millstream, Studholm Parish, Kings County, New Brunswick",
+      "location_label": "Two dams at Head of Millstream, Kings County, New Brunswick, Canada",
+      "lat": 45.884948,
+      "lng": -65.52623,
+      "geo_accuracy": "approx",
+      "geo_source": "CGNDB Head of Millstream 45.884948°N 65.52623°W (key DAJXI); unnamed pair of dams at the community",
+      "river_or_facility": "Two dams at Head of Millstream (Kennebecasis / Millstream district)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "GNB flood history: a heavy autumn rainstorm on 25–26 October 1933 'lost' two dams at Head of Millstream in the flooded Kennebecasis/Millstream district.",
+      "incident_date": "1933-10-25",
+      "latest_report_date": "1933-10-26",
+      "what_happened": "The Government of New Brunswick flood history for 25–26 October 1933 describes a heavy autumn rainfall in southern New Brunswick (77.7 mm at Fredericton, 91.2 mm at Sussex, 124.5 mm at Rexton) that turned the Kennebecasis valley 'a veritable sea of water from Penobsquis to Hampton and throughout the Millstream district.' In Kings County at least 12 highway bridges were carried away or badly damaged. The same official write-up states, without naming the structures, that two dams at the Head of Millstream were lost. Provincial archives describe Head of Millstream in 1898 as a farming settlement with a sawmill and a grist mill, the likely class of small mill dams. At nearby Lower Millstream, residences were surrounded and outbuildings swept away; roads were said to be under about five feet of water. Seven log-drivers died on the Northwest Branch of the Big Salmon River in Saint John County in the same storm — that regional toll is not applied to these unnamed Head of Millstream dams.",
+      "status": "Two unnamed community dams reported lost; later local mill history is a separate source.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "GNB — Flood Details 1933-10-25 to 1933-10-26",
+          "url": "https://www.elgegl.gnb.ca/0001/en/Flood/Details/97"
+        },
+        {
+          "label": "GNB Archives — Head of Millstream (sawmill and grist mill)",
+          "url": "http://archives.gnb.ca/exhibits/communities/Details.aspx?community=1722&culture=en-CA"
+        },
+        {
+          "label": "CGNDB — Head of Millstream",
+          "url": "https://geonames.nrcan.gc.ca/search-place-names/unique?id=DAJXI"
+        }
+      ],
+      "notes": "Unnamed pair of dams; community-level coords. Deaths null — do not copy the seven Big Salmon River log-driver deaths onto this record. Cause inferred from the official storm/flood description, not a dam-safety report.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Millstream / Lower Millstream settlement and roads",
+      "economic_damage": null,
+      "investigating_agency": "Government of New Brunswick flood history compilation",
+      "severity": "moderate"
+    },
+    {
+      "id": "semiault-creek-dike-1948-05-28",
+      "name": "Semiault Creek dyke (1948 Fraser flood)",
+      "country": "Canada",
+      "region": "Chilliwack, Fraser Valley, British Columbia",
+      "location_label": "Semiault Creek dyke, Chilliwack, Fraser Valley, British Columbia, Canada",
+      "lat": 49.15581,
+      "lng": -121.89617,
+      "geo_accuracy": "approx",
+      "geo_source": "Semiault Creek at Banford Rd / McGuire Rd, Chilliwack (City of Chilliwack Banford Bridge); 8450 Banford Rd ~49.15581°N 121.89617°W",
+      "river_or_facility": "Semiault Creek dyke, Fraser River floodplain",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Fraser freshet overtopped neglected wooden-frame/earth dykes; Wikipedia and the Chilliwack Progress date a major Semiault Creek dyke break to 28 May 1948.",
+      "incident_date": "1948-05-28",
+      "latest_report_date": "2018-05-21",
+      "what_happened": "During the 1948 Fraser River freshet, the Semiault Creek dyke at Chilliwack broke on 28 May. Wikipedia (Fraser River) lists that date as the first of a sequence of named lower-valley dyke failures. The Chilliwack Progress, citing the Chilliwack Museum's flood history, says that on 28 May the Mission gauge reached 23.05 feet (7 m) and there was a major break in the Semiault dike, which was soon repaired; later small breaks occurred again as the Cannor dyke failed. The Weather Network's 1948 anniversary piece also dates the Semiault Creek dike break to Friday 28 May, before the Glendale and Cannor failures already recorded separately. Legion Magazine published a Chilliwack Museum photograph of volunteers repairing the dike on Semiault Creek, a Fraser tributary. Regional 1948 deaths (often given as 10) are not copied onto this named dyke.",
+      "status": "Repaired in 1948; Fraser Valley dykes later widened and heightened.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Fraser River (1948 dyke dates)",
+          "url": "https://en.wikipedia.org/wiki/Fraser_River"
+        },
+        {
+          "label": "Chilliwack Progress — Freshet of 2018 evokes memories of the flood of 1948",
+          "url": "https://theprogress.com/2018/05/21/freshet-of-2018-evokes-memories-of-the-flood-of-1948/"
+        },
+        {
+          "label": "The Weather Network — 8 June 1948 Fraser River floods",
+          "url": "https://www.theweathernetwork.com/en/news/weather/severe/this-day-in-weather-history-june-8-1948-fraser-river-floods-water-levels-rose-to-overtake-entire-home"
+        },
+        {
+          "label": "City of Chilliwack — Banford Bridge over Semiault Creek",
+          "url": "https://www.chilliwack.com/main/page.cfm?id=3215"
+        }
+      ],
+      "notes": "Separate named 1948 Fraser dyke from Agassiz, Nicomen, Hatzic, Colony Farm, Cannor and Glendale already drafted. Deaths null — do not copy the regional 1948 Fraser toll of 10.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Chilliwack / Semiault Creek floodplain",
+      "economic_damage": null,
+      "investigating_agency": "Chilliwack Museum flood history / provincial flood response (Operation Overflow)",
+      "severity": "major"
+    },
+    {
+      "id": "moutoa-floodway-stopbank-2004-02-17",
+      "name": "Moutoa floodway southern stopbank (trestle bridge)",
+      "country": "New Zealand",
+      "region": "Moutoa Basin / Horowhenua, Manawatū-Whanganui, North Island",
+      "location_label": "Southern stopbank of the Moutoa floodway at the trestle bridge, below Ōpiki, New Zealand",
+      "lat": -40.510417,
+      "lng": 175.324972,
+      "geo_accuracy": "approx",
+      "geo_source": "LINZ Moutoa Floodway −40.510417, 175.324972 (NZMS260 S24); breach at an unnamed trestle on the southern stopbank, not necessarily the SH1 Whirokino trestle",
+      "river_or_facility": "Moutoa floodway southern stopbank, Lower Manawatū Scheme",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "structural_design"
+      ],
+      "cause_summary": "Court of Appeal (Easton Agriculture, 2013): after the Moutoa sluice gates were opened, the southern floodway stopbank failed at a trestle bridge; the Sutherland review blamed the bridge–stopbank interaction.",
+      "incident_date": "2004-02-17",
+      "latest_report_date": "2013-03-26",
+      "what_happened": "On 16 February 2004 Horizons (then Manawatu-Wanganui Regional Council) opened the Moutoa sluice gates at 07:00 to relieve the Manawatū River. The New Zealand Court of Appeal in Easton Agriculture Ltd v Manawatu-Wanganui Regional Council [2013] NZCA 79 found that during the night of 16–17 February the southern stopbank of the Moutoa floodway failed at a trestle bridge: a farmer saw an upstream breach about 03:20 on 17 February; further breaches were seen at 05:30; and at 06:30 a 'catastrophic' blow-out occurred downstream of the bridge. The breach reached 23 m upstream and 17 m downstream of the bridge centreline; the bridge itself stayed intact. Floodwater covered the Moutoa Basin and the appellants' farms for about 12 days. The council's Sutherland Report said the likely cause was interaction between the bridge structure and the stopbank. Te Ara records that the February 2004 flood was the largest on the Manawatū since 1902 and that a number of Lower Manawatū Scheme stopbank failures inundated about 25% of the protected area. No source attached a death count to this breach.",
+      "status": "Stopbank repaired; scheme upgrades after 2004.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Easton Agriculture Ltd v Manawatu-Wanganui Regional Council [2013] NZCA 79",
+          "url": "https://www8.austlii.edu.au/nz/cases/NZCA/2013/79.html"
+        },
+        {
+          "label": "Te Ara — Manawatū River and Gorge (2004 stopbank failures)",
+          "url": "https://teara.govt.nz/en/manawatu-and-horowhenua-places/page-6"
+        },
+        {
+          "label": "Horizons Regional Council — Moutoa Floodgates",
+          "url": "https://www.horizons.govt.nz/flood-emergency-management/flood-protection/moutoa-floodgates-(1)"
+        }
+      ],
+      "notes": "Named trestle-bridge breach, not a generic 2004 flood record. Deaths null — do not copy any regional 2004 flood toll. Other 2004 scheme failures (Koputaroa, Oroua, Kauri/Kara Creek) not merged here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Manawatu-Wanganui Regional Council (now Horizons Regional Council)",
+      "year_built": 1962,
+      "height_m": 5.5,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "23 m upstream + 17 m downstream of bridge centreline (NZCA)",
+      "downstream_risk": "Moutoa Basin farms",
+      "economic_damage": null,
+      "investigating_agency": "Horizons / Sutherland Report; later High Court and Court of Appeal",
+      "severity": "major"
+    },
+    {
+      "id": "matahina-1967-01",
+      "name": "Matahina Dam (1967 first-filling cavity)",
+      "country": "New Zealand",
+      "region": "Rangitāiki River, Bay of Plenty, North Island",
+      "location_label": "Matahina Dam right abutment, Rangitāiki River, Bay of Plenty, New Zealand",
+      "lat": -38.11393,
+      "lng": 176.81393,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Matahina Power Station 38.114°S 176.814°E (same dam as the 1987 earthquake incident, different event)",
+      "river_or_facility": "Matahina Dam, Rangitāiki River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion",
+        "construction_first_filling",
+        "foundation",
+        "structural_design"
+      ],
+      "cause_summary": "First filling cracked the core and inner transition against an unremoved abutment bench; a pipe developed and an erosion cavity appeared on the downstream right abutment.",
+      "incident_date": "1967-01",
+      "latest_report_date": "2012",
+      "what_happened": "Matahina, a rockfill dam with a rolled silt core on the Rangitāiki, was filled in late 1966–early 1967. ISSMGE (Gillon and Newton, citing Galloway 1967): after the lake was held on the spillway at RL 66 m, filling from 5 January raised the lake to RL 74.7 m in six days and to RL 76.2 m on 22 January; large leakage then appeared in the underdrain. About two weeks later a subsidence was found on the downstream side of the core at the right abutment. A shaft 8.5 × 6.1 m in plan was taken 16.5 m down to RL 63 m and revealed a 1.8 m construction bench at RL 67.4 m that had not been removed, plus a 200 mm pipe into the downstream rockfill; material loss was estimated at more than 100 m³. International Water Power and Wikipedia describe the same first-filling cavity, lake lowering, and core repair with a plastic-concrete patch and filter backfill. The repair performed until the separate 2 March 1987 Edgecumbe earthquake incident (already drafted). Engineering papers and the official NZ dam-incident series record no fatalities.",
+      "status": "Core repaired 1967; later damaged again in the 1987 earthquake (separate record).",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ISSMGE — Matahina post-earthquake investigations (includes 1967 filling)",
+          "url": "https://issmge.org/uploads/publications/89/87/5ANZ_099.pdf"
+        },
+        {
+          "label": "International Water Power — Lest we forget: learning from international dam incidents",
+          "url": "https://www.waterpowermagazine.com/analysis/lest-we-forget-learning-from-international-dam-incidents/"
+        },
+        {
+          "label": "Wikipedia — Matahina Power Station",
+          "url": "https://en.wikipedia.org/wiki/Matahina_Power_Station"
+        }
+      ],
+      "notes": "Separate from matahina-1987-03-02. Month-year 1967-01 for the leakage; surface cavity ~two weeks after 22 January. Deaths 0 (no fatalities in the technical papers; official NZ series since 1960 records zero).",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "historical",
+      "owner_operator": "Ministry of Works / New Zealand Electricity Department (then)",
+      "year_built": 1966,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": "material loss >100 m³ from the core/transition (ISSMGE); reservoir not breached",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ministry of Works / Galloway 1967 investigations",
+      "severity": "major"
     }
   ]
 }
