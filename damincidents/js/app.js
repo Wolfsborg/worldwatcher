@@ -110,6 +110,10 @@
     causeBlock: document.getElementById("cause-block"),
     statCountLabel: document.getElementById("stat-count-label"),
     recentHeading: document.getElementById("recent-heading"),
+    statsPanel: document.getElementById("stats-panel"),
+    statsBody: document.getElementById("stats-body"),
+    statsOpen: document.getElementById("stats-open"),
+    statsClose: document.getElementById("stats-close"),
   };
 
   let layer = "dams";
@@ -635,6 +639,26 @@
 
   let goToLanding = function () {};
 
+  function openStats() {
+    if (!els.statsPanel || !els.statsBody) return;
+    closeDetail();
+    
+    const data = cache[layer];
+    if (data && window.worldwatcherStats) {
+      const html = window.worldwatcherStats.render(data, layer);
+      els.statsBody.innerHTML = html;
+    } else {
+      els.statsBody.innerHTML = '<div class="stats-loading">Loading statistics...</div>';
+    }
+    
+    els.statsPanel.hidden = false;
+  }
+
+  function closeStats() {
+    if (!els.statsPanel) return;
+    els.statsPanel.hidden = true;
+  }
+
   function goHome() {
     if (els.search) els.search.value = "";
     if (els.chips) {
@@ -643,12 +667,15 @@
     if (els.cause) els.cause.value = "";
     setPeriod("all");
     closeDetail();
+    closeStats();
     apply();
     goToLanding();
   }
 
   function bind() {
     if (els.home) els.home.addEventListener("click", goHome);
+    if (els.statsOpen) els.statsOpen.addEventListener("click", openStats);
+    if (els.statsClose) els.statsClose.addEventListener("click", closeStats);
     if (els.layerTabs) {
       els.layerTabs.addEventListener("click", (e) => {
         const btn = e.target.closest(".layer-tab");
@@ -696,6 +723,7 @@
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") {
         if (!els.detail.hidden) closeDetail();
+        else if (!els.statsPanel.hidden) closeStats();
         else {
           els.sidebar.classList.remove("is-open");
           els.toggle.setAttribute("aria-expanded", "false");
@@ -856,7 +884,8 @@
 
   function useData(data, keepSelection) {
     const s = spec();
-    cache[layer] = data;
+    const currentLayer = layer;
+    cache[currentLayer] = data;
     all = data[s.rowsKey] || data.incidents || data.events || [];
     const updatedEl = document.getElementById("data-updated");
     if (updatedEl) {
@@ -921,6 +950,7 @@
       els.chips.querySelectorAll(".chip").forEach((b) => b.setAttribute("aria-pressed", "false"));
     }
     if (els.cause) els.cause.value = "";
+    closeStats();
     loadLayer(name);
   }
 
