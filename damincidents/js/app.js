@@ -579,6 +579,27 @@
     [...els.list.querySelectorAll(".incident-item")].forEach((b) => b.classList.remove("is-selected"));
   }
 
+  function selectionPadding() {
+    const narrow = window.matchMedia("(max-width: 980px)").matches;
+    if (narrow) {
+      const bottom = Math.round(window.innerHeight * 0.52) + 20;
+      return { paddingTopLeft: [16, 20], paddingBottomRight: [16, bottom] };
+    }
+    return { paddingTopLeft: [416, 20], paddingBottomRight: [380, 64] };
+  }
+
+  function focusSelectedIncident(inc) {
+    const pad = selectionPadding();
+    const zoom = Math.max(map.getZoom(), 10);
+    const ll = L.latLng(inc.lat, inc.lng);
+    map.fitBounds(L.latLngBounds(ll, ll), {
+      paddingTopLeft: pad.paddingTopLeft,
+      paddingBottomRight: pad.paddingBottomRight,
+      maxZoom: zoom,
+      animate: false,
+    });
+  }
+
   function selectIncident(id, opts) {
     const inc = all.find((r) => r.id === id);
     if (!inc) return;
@@ -590,11 +611,13 @@
     const row = els.list.querySelector('.incident-item[data-id="' + id + '"]');
     if (row && opts && opts.fromMap) row.scrollIntoView({ block: "nearest" });
     const marker = markersById.get(id);
-    if (marker && typeof inc.lat === "number") {
-      cluster.zoomToShowLayer(marker, function () {
-        map.setView([inc.lat, inc.lng], Math.max(map.getZoom(), 8));
-        setTimeout(() => marker.openPopup(), 50);
-      });
+    if (typeof inc.lat === "number" && typeof inc.lng === "number") {
+      const reveal = function () {
+        focusSelectedIncident(inc);
+        if (marker) marker.openPopup();
+      };
+      if (marker && cluster) cluster.zoomToShowLayer(marker, reveal);
+      else reveal();
     }
     writeHash(id);
     if (opts && opts.fromList && window.matchMedia("(max-width: 980px)").matches) {
@@ -847,6 +870,9 @@
       showLayer(aerial, aerialOn);
       showLayer(labels, aerialOn);
       if (aerialOn && map.hasLayer(labels)) labels.bringToFront();
+      if (cluster && map.hasLayer(cluster)) cluster.bringToFront();
+      const markerPane = map.getPane("markerPane");
+      if (markerPane) markerPane.style.zIndex = 650;
     }
     function setBaseMode(mode) {
       baseMode = mode;
@@ -890,7 +916,7 @@
       maxClusterRadius: 42,
       showCoverageOnHover: false,
       spiderfyOnMaxZoom: true,
-      disableClusteringAtZoom: 10,
+      disableClusteringAtZoom: 8,
       animate: false,
     });
     map.addLayer(cluster);
