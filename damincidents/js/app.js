@@ -26,6 +26,16 @@
       showCategory: false,
       showCause: true,
     },
+    stats: {
+      id: "stats",
+      title: "Stats",
+      subtitle: "Dashboard",
+      statLabel: "Stats",
+      recentLabel: "",
+      credit: "worldwatcher.app · Stats",
+      showCategory: false,
+      showCause: false,
+    },
   };
 
   const COLORS = {
@@ -110,10 +120,16 @@
     causeBlock: document.getElementById("cause-block"),
     statCountLabel: document.getElementById("stat-count-label"),
     recentHeading: document.getElementById("recent-heading"),
+    statsPanel: document.getElementById("stats-panel"),
+    statsContent: document.getElementById("stats-content"),
+    statsLayerLabel: document.getElementById("stats-layer-label"),
+    mapEl: document.getElementById("map"),
   };
 
   let layer = "dams";
+  let layerBeforeStats = "dams";
   const cache = { dams: null, floods: null };
+  let statsData = null;
 
 
   let all = [];
@@ -635,7 +651,39 @@
 
   let goToLanding = function () {};
 
+  function showStats() {
+    if (!els.statsPanel || !els.mapEl || !els.sidebar) return;
+    els.statsPanel.hidden = false;
+    els.mapEl.style.display = "none";
+    els.sidebar.style.display = "none";
+    if (els.detail) els.detail.hidden = true;
+    if (els.toggle) els.toggle.style.display = "none";
+    
+    const dataLayer = layerBeforeStats;
+    const data = cache[dataLayer];
+    if (data && window.worldwatcherStats) {
+      const layerLabel = LAYERS[dataLayer].title;
+      if (els.statsLayerLabel) els.statsLayerLabel.textContent = layerLabel;
+      const html = window.worldwatcherStats.render(data, dataLayer);
+      els.statsContent.innerHTML = html;
+    } else {
+      els.statsContent.innerHTML = '<div class="stats-loading">Loading statistics...</div>';
+    }
+  }
+
+  function hideStats() {
+    if (!els.statsPanel || !els.mapEl || !els.sidebar) return;
+    els.statsPanel.hidden = true;
+    els.mapEl.style.display = "";
+    els.sidebar.style.display = "";
+    if (els.toggle) els.toggle.style.display = "";
+  }
+
   function goHome() {
+    if (layer === "stats") {
+      setLayer(layerBeforeStats);
+      return;
+    }
     if (els.search) els.search.value = "";
     if (els.chips) {
       els.chips.querySelectorAll(".chip").forEach((b) => b.setAttribute("aria-pressed", "false"));
@@ -856,7 +904,8 @@
 
   function useData(data, keepSelection) {
     const s = spec();
-    cache[layer] = data;
+    const currentLayer = layer;
+    cache[currentLayer] = data;
     all = data[s.rowsKey] || data.incidents || data.events || [];
     const updatedEl = document.getElementById("data-updated");
     if (updatedEl) {
@@ -910,6 +959,20 @@
   }
 
   function setLayer(name) {
+    if (name === "stats") {
+      if (layer !== "stats") {
+        layerBeforeStats = layer;
+      }
+      layer = "stats";
+      updateLayerChrome();
+      showStats();
+      return;
+    }
+    
+    if (layer === "stats") {
+      hideStats();
+    }
+    
     if (name === layer && cache[layer]) {
       goHome();
       return;

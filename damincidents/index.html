@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
-  <link rel="stylesheet" href="css/app.css?v=29">
+  <link rel="stylesheet" href="css/app.css?v=30">
 </head>
 <body>
   <a class="skip-link" href="#incident-list">Skip to incident list</a>
@@ -43,6 +43,7 @@
       <div class="layer-tabs" role="tablist" aria-label="worldwatcher.app layers">
         <button type="button" class="layer-tab is-active" data-layer="dams" aria-selected="true">Dam Incidents</button>
         <button type="button" class="layer-tab" data-layer="floods" aria-selected="false">Floods</button>
+        <button type="button" class="layer-tab" data-layer="stats" aria-selected="false">Stats</button>
       </div>
       <p class="subtitle" id="layer-subtitle">Sourced failures and watches, 1864–2026</p>
     </div>
@@ -167,9 +168,20 @@
     <p id="report-result" class="maintain-result" hidden></p>
   </aside>
 
+  <aside class="panel stats-panel" id="stats-panel" hidden aria-labelledby="stats-title">
+    <div class="stats-toolbar">
+      <h1 id="stats-title">Stats</h1>
+      <p class="stats-subtitle" id="stats-layer-label">Dam Incidents</p>
+    </div>
+    <div class="stats-content" id="stats-content">
+      <div class="stats-loading">Loading statistics...</div>
+    </div>
+  </aside>
+
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="js/app.js?v=28"></script>
+  <script src="js/app.js?v=29"></script>
+  <script src="js/stats.js?v=1"></script>
   <script src="js/report.js"></script>
 </body>
 </html>
