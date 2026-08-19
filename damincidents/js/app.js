@@ -230,33 +230,64 @@
     return [a, b];
   }
 
+  const SLIDER_STEPS = 10000;
+  const ANCIENT_FRAC = 0.14;
+
   function sliderFloor() {
     return yearBounds.min >= 1700 ? yearBounds.min : 1700;
+  }
+
+  function yearToPos(y) {
+    const lo = yearBounds.min;
+    const hi = yearBounds.max;
+    const floor = sliderFloor();
+    y = Math.max(lo, Math.min(hi, y));
+    if (lo >= floor) {
+      return Math.round(((y - lo) / Math.max(1, hi - lo)) * SLIDER_STEPS);
+    }
+    if (y < floor) {
+      const t = (y - lo) / Math.max(1, (floor - 1) - lo);
+      return Math.round(t * ANCIENT_FRAC * SLIDER_STEPS);
+    }
+    const t = (y - floor) / Math.max(1, hi - floor);
+    return Math.round((ANCIENT_FRAC + t * (1 - ANCIENT_FRAC)) * SLIDER_STEPS);
+  }
+
+  function posToYear(p) {
+    const lo = yearBounds.min;
+    const hi = yearBounds.max;
+    const floor = sliderFloor();
+    p = Math.max(0, Math.min(SLIDER_STEPS, Number(p)));
+    const t = p / SLIDER_STEPS;
+    if (lo >= floor) {
+      return Math.round(lo + t * (hi - lo));
+    }
+    if (t <= ANCIENT_FRAC) {
+      const u = t / ANCIENT_FRAC;
+      return Math.round(lo + u * ((floor - 1) - lo));
+    }
+    const u = (t - ANCIENT_FRAC) / (1 - ANCIENT_FRAC);
+    return Math.round(floor + u * (hi - floor));
   }
 
   function paintYearSlider() {
     if (!els.yearSliderMin || !els.yearSliderMax) return;
     const [a, b] = yearPair();
-    const floor = sliderFloor();
-    const ceil = yearBounds.max;
-    els.yearSliderMin.min = floor;
-    els.yearSliderMin.max = ceil;
-    els.yearSliderMax.min = floor;
-    els.yearSliderMax.max = ceil;
-    const ancient = b < floor;
-    let sa = ancient ? floor : Math.max(floor, Math.min(ceil, a));
-    let sb = ancient ? floor : Math.max(floor, Math.min(ceil, b));
-    if (sa > sb) sa = sb;
-    els.yearSliderMin.value = sa;
-    els.yearSliderMax.value = sb;
+    els.yearSliderMin.min = 0;
+    els.yearSliderMin.max = SLIDER_STEPS;
+    els.yearSliderMax.min = 0;
+    els.yearSliderMax.max = SLIDER_STEPS;
+    const pa = yearToPos(a);
+    const pb = yearToPos(b);
+    els.yearSliderMin.value = pa;
+    els.yearSliderMax.value = pb;
     const wrap = document.getElementById("year-slider");
-    if (wrap) wrap.classList.toggle("is-ancient", ancient);
+    if (wrap) wrap.classList.remove("is-ancient");
     if (!els.yearSliderFill) return;
-    const span = ceil - floor || 1;
-    const left = ((sa - floor) / span) * 100;
-    const right = ((sb - floor) / span) * 100;
+    const left = (Math.min(pa, pb) / SLIDER_STEPS) * 100;
+    const right = (Math.max(pa, pb) / SLIDER_STEPS) * 100;
     els.yearSliderFill.style.left = left + "%";
-    els.yearSliderFill.style.width = ancient ? "0%" : Math.max(0, right - left) + "%";
+    els.yearSliderFill.style.width = Math.max(0, right - left) + "%";
   }
 
   function setYearInputs(min, max) {
@@ -811,8 +842,8 @@
     els.yearMax.addEventListener("change", () => onYearField("max"));
     if (els.yearSliderMin && els.yearSliderMax) {
       const fromSlider = (which) => {
-        let a = parseInt(els.yearSliderMin.value, 10);
-        let b = parseInt(els.yearSliderMax.value, 10);
+        let a = posToYear(els.yearSliderMin.value);
+        let b = posToYear(els.yearSliderMax.value);
         if (which === "min" && a > b) a = b;
         if (which === "max" && b < a) b = a;
         setYearInputs(a, b);
