@@ -209,6 +209,7 @@
     if (period === "decade") return [y - 9, y];
     if (period === "century") return [2000, y];
     if (period === "historical") return [minB, 1999];
+    if (period === "pre1700") return [minB, Math.min(1699, maxB)];
     return [minB, maxB];
   }
 
@@ -229,21 +230,33 @@
     return [a, b];
   }
 
+  function sliderFloor() {
+    return yearBounds.min >= 1700 ? yearBounds.min : 1700;
+  }
+
   function paintYearSlider() {
     if (!els.yearSliderMin || !els.yearSliderMax) return;
     const [a, b] = yearPair();
-    els.yearSliderMin.min = yearBounds.min;
-    els.yearSliderMin.max = yearBounds.max;
-    els.yearSliderMax.min = yearBounds.min;
-    els.yearSliderMax.max = yearBounds.max;
-    els.yearSliderMin.value = a;
-    els.yearSliderMax.value = b;
+    const floor = sliderFloor();
+    const ceil = yearBounds.max;
+    els.yearSliderMin.min = floor;
+    els.yearSliderMin.max = ceil;
+    els.yearSliderMax.min = floor;
+    els.yearSliderMax.max = ceil;
+    const ancient = b < floor;
+    let sa = ancient ? floor : Math.max(floor, Math.min(ceil, a));
+    let sb = ancient ? floor : Math.max(floor, Math.min(ceil, b));
+    if (sa > sb) sa = sb;
+    els.yearSliderMin.value = sa;
+    els.yearSliderMax.value = sb;
+    const wrap = document.getElementById("year-slider");
+    if (wrap) wrap.classList.toggle("is-ancient", ancient);
     if (!els.yearSliderFill) return;
-    const span = yearBounds.max - yearBounds.min || 1;
-    const left = ((a - yearBounds.min) / span) * 100;
-    const right = ((b - yearBounds.min) / span) * 100;
+    const span = ceil - floor || 1;
+    const left = ((sa - floor) / span) * 100;
+    const right = ((sb - floor) / span) * 100;
     els.yearSliderFill.style.left = left + "%";
-    els.yearSliderFill.style.width = Math.max(0, right - left) + "%";
+    els.yearSliderFill.style.width = ancient ? "0%" : Math.max(0, right - left) + "%";
   }
 
   function setYearInputs(min, max) {
