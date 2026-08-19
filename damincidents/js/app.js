@@ -332,7 +332,7 @@
         html: '<div class="' + cls + '" style="width:' + (r * 2) + "px;height:" + (r * 2) +
           "px;background:" + color + (uncertain ? ";opacity:0.55" : ";opacity:0.88") + '"></div>',
       });
-      const m = L.marker([inc.lat, inc.lng], { icon, title: inc.name, riseOnHover: true });
+      const m = L.marker([inc.lat, inc.lng], { icon, riseOnHover: true });
       m.bindPopup(popupHtml(inc), { closeButton: false });
       m.on("click", () => selectIncident(inc.id, { fromMap: true }));
       cluster.addLayer(m);
@@ -592,8 +592,8 @@
     const marker = markersById.get(id);
     if (marker && typeof inc.lat === "number") {
       cluster.zoomToShowLayer(marker, function () {
-        map.flyTo([inc.lat, inc.lng], Math.max(map.getZoom(), 8), { duration: 0.7 });
-        marker.openPopup();
+        map.setView([inc.lat, inc.lng], Math.max(map.getZoom(), 8));
+        setTimeout(() => marker.openPopup(), 50);
       });
     }
     writeHash(id);
@@ -891,6 +891,7 @@
       showCoverageOnHover: false,
       spiderfyOnMaxZoom: true,
       disableClusteringAtZoom: 10,
+      animate: false,
     });
     map.addLayer(cluster);
     const resize = () => { map.invalidateSize(); landingView(); };
