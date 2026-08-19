@@ -1187,18 +1187,30 @@ button.chip {
   white-space: nowrap;
 }
 
-.stats-panel {
+.dashboard-tab {
+  margin-left: auto;
+}
+.sidebar.is-dashboard-open {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right-color: transparent;
+}
+.stats-panel,
+.dashboard-drawer {
   position: fixed;
   z-index: 22;
   top: var(--pad);
-  left: calc(var(--sidebar) + 24px);
+  left: calc(var(--pad) + var(--sidebar));
   bottom: var(--pad);
-  width: min(480px, calc(100vw - var(--sidebar) - 64px));
-  border-radius: var(--radius);
+  width: min(480px, calc(100vw - var(--sidebar) - var(--pad)));
+  border-radius: 0 var(--radius) var(--radius) 0;
+  border-left: 0;
   padding: 18px 20px 20px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  transform: translateX(0);
+  transition: transform 0.22s ease;
 }
 .stats-panel[hidden] { display: none; }
 
