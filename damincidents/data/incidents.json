@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 503,
+  "count": 509,
   "current_count": 20,
-  "historical_count": 483,
+  "historical_count": 489,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -5196,15 +5196,71 @@
       "investigating_agency": "USACE; PREPA; ASDSO case-study literature"
     },
     {
+      "id": "kokoya-tsf-2017-09-27",
+      "name": "Kokoya Gold Mine tailings storage dam (Bong County)",
+      "country": "Liberia",
+      "region": "Kokoyah District, Bong County",
+      "location_label": "MNG Gold Kokoya TSF, Kokoyah District, Bong County, Liberia",
+      "lat": 6.509,
+      "lng": -9.57,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Kokoyah District, Bong County) 6°30′32″N 9°34′12″W; mine is in this district (MNG Gold / EPA). Not a TSF crest.",
+      "river_or_facility": "MNG Gold Kokoya tailings storage dam; Sien Creek / Saywehta (Sayewheh) Town",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "Liberian EPA: a section of the TSF geo-membrane ruptured, discharging cyanide slurry into Sien Creek. WISE also lists overflow after heavy rain as a possible contributor.",
+      "incident_date": "2017-09-27",
+      "latest_report_date": "2017-11-09",
+      "what_happened": "FrontPageAfrica, quoting the EPA: on 27 September 2017 a geo-membrane section of the MNG Gold tailings dam at Kokoya ruptured and discharged cyanide slurry into Sien Creek, contaminating ground and surface water, closing hand pumps, schools and farming in Sayewheh Town. 34 people were treated; EPA later said there was no direct correlation between cyanide and the reported illnesses. WISE lists the event as 17 September 2017, 11,500 m³ into Sien Creek, 30 people ill (later disputed). Yale Law School clinic text cites 3 million gallons. Operator: MNG Gold Liberia (Redwood Global Inc. per WISE).",
+      "status": "EPA later said surface and groundwater were free of free cyanide and pumps could reopen; TSF repaired.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "34 people treated (EPA via FrontPageAfrica); farming and pumps temporarily closed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "FrontPageAfrica — Chemical Spillage At MNG Gold Mines in Bong County Contained",
+          "url": "https://website.frontpageafricaonline.com/amp/news/2016news/chemical-spillage-at-mng-gold-mines-in-bong-county-contained/"
+        },
+        {
+          "label": "Wikipedia — Kokoyah District",
+          "url": "https://en.wikipedia.org/wiki/Kokoyah_District"
+        }
+      ],
+      "notes": "WISE date 17 Sep vs EPA/FrontPageAfrica 27 Sep; this record uses the EPA date. Illness–cyanide link was later disputed by EPA.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "MNG Gold Liberia (Redwood Global Inc.)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "11,500 m³ of cyanide slurry (WISE); 3 million gallons also cited by Yale clinic write-up",
+      "breach_size": null,
+      "downstream_risk": "Sien Creek and Sayewheh / Saywehta Town water supplies",
+      "economic_damage": null,
+      "investigating_agency": "Environmental Protection Agency of Liberia",
+      "severity": "moderate"
+    },
+    {
       "id": "kokoya-tsf-2017-09-17",
       "name": "Kokoya Gold Mine tailings dam",
       "country": "Liberia",
-      "region": "Bong County",
-      "location_label": "Kokoya Gold Mine, Bong County, Liberia",
-      "lat": 6.96222,
-      "lng": -9.71345,
+      "region": "Kokoyah District, Bong County",
+      "location_label": "Kokoya Gold Mine, Kokoyah District, Bong County, Liberia",
+      "lat": 6.509,
+      "lng": -9.57,
       "geo_accuracy": "region",
-      "geo_source": "Nominatim (Bong County, Liberia)",
+      "geo_source": "Wikipedia (Kokoyah District, Bong County) 6°30′32″N 9°34′12″W; same district pin as kokoya-tsf-2017-09-27. Not a TSF crest.",
       "river_or_facility": "MNG Gold Liberia / Redwood Global Kokoya TSF; Sien Creek",
       "type": "tailings",
       "category": "partial_breach",
@@ -5229,7 +5285,7 @@
       ],
       "notes": "Date in WISE is 17 Sep in one line and the table header 2017, Sep. 17 — leftover used 27 Sep. WISE page fetched says 2017, Sep. 17. Correcting to 2017-09-17.",
       "in_baseline": false,
-      "last_updated": "2026-08-19",
+      "last_updated": "2026-08-20",
       "era": "historical",
       "owner_operator": "MNG Gold Liberia (Redwood Global Inc.)",
       "year_built": null,
@@ -10131,12 +10187,12 @@
       "id": "caudalosa-chica-2010-06-25",
       "name": "Caudalosa Chica tailings dam",
       "country": "Peru",
-      "region": "Huancavelica Region",
-      "location_label": "Unidad Minera Caudalosa Chica, Huancavelica, Peru",
-      "lat": -13.0,
-      "lng": -75.0,
-      "geo_accuracy": "region",
-      "geo_source": "Nominatim (Huancavelica Region centroid)",
+      "region": "Huachocolpa district, Huancavelica",
+      "location_label": "Compañía Minera Caudalosa Chica, Huachocolpa, Huancavelica, Peru",
+      "lat": -13.06459,
+      "lng": -74.97906,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia (Minera Caudalosa) / GeoNames 8677294 Compañía Minera Caudalosa Chica, Huachocolpa 13°3′52″S 74°58′44″W. Named mine populated place, not a surveyed TSF crest.",
       "river_or_facility": "Caudalosa Chica TSF; Río Escalera / Río Opamayo",
       "type": "tailings",
       "category": "failure",
@@ -10156,11 +10212,19 @@
         {
           "label": "WISE Uranium — Chronology of major tailings dam failures",
           "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Minera Caudalosa",
+          "url": "https://es.wikipedia.org/wiki/Minera_Caudalosa"
+        },
+        {
+          "label": "GeoNames 8677294 — Compañia Minera Caudalosa Chica",
+          "url": "https://www.geonames.org/8677294/compania-minera-caudalosa-chica.html"
         }
       ],
       "notes": null,
       "in_baseline": false,
-      "last_updated": "2026-08-19",
+      "last_updated": "2026-08-20",
       "era": "historical",
       "owner_operator": "Unidad Minera Caudalosa Chica",
       "year_built": null,
@@ -15112,6 +15176,62 @@
       "severity": "major"
     },
     {
+      "id": "marsa-peru-1993",
+      "name": "Marsa gold-mine tailings dam",
+      "country": "Peru",
+      "region": "Llacuabamba, Parcoy district, Pataz, La Libertad",
+      "location_label": "MARSA (Minera Aurífera Retamas), Llacuabamba, Pataz, La Libertad, Peru",
+      "lat": -8.0334751,
+      "lng": -77.45738,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Llacuabamba) 8°02′01″S 77°27′27″W; MARSA company locates the gold mine in this annex of Parcoy, Pataz. Not a surveyed TSF crest.",
+      "river_or_facility": "Marsa Mining Corp. gold tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "WISE: dam failure from overtopping.",
+      "incident_date": "1993",
+      "latest_report_date": "1993",
+      "what_happened": "In 1993 a gold tailings dam of Marsa Mining Corp. in Peru failed by overtopping. WISE: 6 people killed. Volume not given.",
+      "status": "Historic overtopping failure with six deaths.",
+      "deaths": 6,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Llacuabamba",
+          "url": "https://es.wikipedia.org/wiki/Llacuabamba"
+        },
+        {
+          "label": "MARSA — Memoria institucional (Llacuabamba, Parcoy, Pataz)",
+          "url": "https://marsa.com.pe/memoria-institucional/"
+        }
+      ],
+      "notes": "WISE gives year only.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Marsa Mining Corp.",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
       "id": "padcal-tp2-1992-01",
       "name": "Padcal Tailings Pond No. 2",
       "country": "Philippines",
@@ -15981,6 +16101,63 @@
       "volume_released": "500,000 m³ (WISE)",
       "breach_size": null,
       "downstream_risk": "8 km downstream",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "veta-de-agua-no1-1985-03-03",
+      "name": "Veta de Agua No. 1 tailings dam",
+      "country": "Chile",
+      "region": "Nogales commune, Quillota Province, Valparaíso",
+      "location_label": "Veta de Agua No. 1 tailings dam, Nogales, Valparaíso, Chile",
+      "lat": -32.735,
+      "lng": -71.2025,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Nogales, Chile) 32°44′06″S 71°12′09″W; Villavicencio et al. 2014 locate Veta del Agua No. 1 at Nogales, Valparaíso. Commune pin, not a TSF crest. Not El Cobre.",
+      "river_or_facility": "Veta de Agua No. 1 copper tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "tailings_liquefaction"
+      ],
+      "cause_summary": "WISE: dam-wall failure due to liquefaction during earthquake.",
+      "incident_date": "1985-03-03",
+      "latest_report_date": "1985-03-03",
+      "what_happened": "On 3 March 1985 Veta de Agua No. 1 copper tailings dam failed by liquefaction in an earthquake. WISE: 280,000 m³; tailings flowed 5 km downstream. Deaths not given.",
+      "status": "Historic seismic liquefaction failure.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Nogales, Chile",
+          "url": "https://en.wikipedia.org/wiki/Nogales,_Chile"
+        },
+        {
+          "label": "Villavicencio et al. 2014 — Failures of sand tailings dams (Obras y Proyectos)",
+          "url": "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-28132014000100002"
+        }
+      ],
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "280,000 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": "5 km downstream",
       "economic_damage": null,
       "investigating_agency": null,
       "severity": "major"
@@ -19214,6 +19391,181 @@
       "construction": "tailings",
       "purpose": "mining",
       "volume_released": "85,000 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": "5 km runout",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "bellavista-chile-1965-03-28",
+      "name": "Bellavista tailings dam (1965 earthquake)",
+      "country": "Chile",
+      "region": "San Felipe commune, San Felipe de Aconcagua, Valparaíso",
+      "location_label": "Bellavista copper tailings dam, San Felipe, Valparaíso, Chile",
+      "lat": -32.75,
+      "lng": -70.72389,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (San Felipe, Chile) 32°45′00″S 70°43′26″W; Villavicencio et al. 2014 locate Bellavista TSF at San Felipe, Valparaíso. Not Andacollo (Coquimbo) namesake. Commune pin, not a TSF crest.",
+      "river_or_facility": "Bellavista copper tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "tailings_liquefaction"
+      ],
+      "cause_summary": "WISE: dam failure during earthquake.",
+      "incident_date": "1965-03-28",
+      "latest_report_date": "1965-03-28",
+      "what_happened": "On 28 March 1965 the Bellavista copper tailings dam failed in the same earthquake that destroyed El Cobre (already in the skip list). WISE: 70,000 m³; tailings travelled 800 m. Deaths not given for this dam.",
+      "status": "One of several Chilean TSF failures in the 28 March 1965 earthquake.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — San Felipe, Chile",
+          "url": "https://en.wikipedia.org/wiki/San_Felipe,_Chile"
+        },
+        {
+          "label": "Villavicencio et al. 2014 — Failures of sand tailings dams (Obras y Proyectos)",
+          "url": "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-28132014000100002"
+        }
+      ],
+      "notes": "Recorded separately from El Cobre Old/New dams already in the baseline skip list.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "70,000 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": "800 m runout",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "la-patagua-1965-03-28",
+      "name": "La Patagua New Dam (1965 earthquake)",
+      "country": "Chile",
+      "region": "La Ligua commune, Petorca Province, Valparaíso",
+      "location_label": "La Patagua New Dam, La Ligua, Valparaíso, Chile",
+      "lat": -32.45,
+      "lng": -71.217,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (La Ligua) 32°27′S 71°13′W; Villavicencio et al. 2014 locate La Patagua at La Ligua; Cía. Minera La Patagua lists Asentamiento Minero La Patagua, La Ligua. Not the Colchagua namesake. Commune pin, not a TSF crest.",
+      "river_or_facility": "La Patagua New copper tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "tailings_liquefaction"
+      ],
+      "cause_summary": "WISE: dam failure (liquefaction) during earthquake.",
+      "incident_date": "1965-03-28",
+      "latest_report_date": "1965-03-28",
+      "what_happened": "On 28 March 1965 La Patagua New Dam failed by liquefaction in the Chilean earthquake. WISE: 35,000 m³; tailings travelled 5 km. Deaths not given.",
+      "status": "One of several Chilean TSF failures on 28 March 1965.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — La Ligua",
+          "url": "https://en.wikipedia.org/wiki/La_Ligua"
+        },
+        {
+          "label": "Cía. Minera La Patagua — Faenas y proyectos",
+          "url": "https://lapatagua.cl/faenas-y-proyectos/"
+        },
+        {
+          "label": "Villavicencio et al. 2014 — Failures of sand tailings dams (Obras y Proyectos)",
+          "url": "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-28132014000100002"
+        }
+      ],
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "35,000 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": "5 km runout",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "los-maquis-1965-03-28",
+      "name": "Los Maquis tailings dam (1965 earthquake)",
+      "country": "Chile",
+      "region": "Cabildo commune, Petorca Province, Valparaíso",
+      "location_label": "Los Maquis tailings dam, Cabildo, Valparaíso, Chile",
+      "lat": -32.4275,
+      "lng": -71.06639,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Cabildo, Chile) 32°25′39″S 71°03′59″W; Villavicencio et al. 2014 locate Los Maquis at Cabildo, Valparaíso (WISE 21,000 m³ / 5 km = Los Maquis 3). Commune pin, not a TSF crest. Same town point as cabildo-penablanca-tsf-2024-06-13.",
+      "river_or_facility": "Los Maquis copper tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "tailings_liquefaction"
+      ],
+      "cause_summary": "WISE: dam failure (liquefaction) during earthquake.",
+      "incident_date": "1965-03-28",
+      "latest_report_date": "1965-03-28",
+      "what_happened": "On 28 March 1965 the Los Maquis copper tailings dam failed by liquefaction. WISE: 21,000 m³; tailings travelled 5 km. Deaths not given.",
+      "status": "One of several Chilean TSF failures on 28 March 1965.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WISE Uranium chronology of major tailings dam failures",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Cabildo, Chile",
+          "url": "https://en.wikipedia.org/wiki/Cabildo,_Chile"
+        },
+        {
+          "label": "Villavicencio et al. 2014 — Failures of sand tailings dams (Obras y Proyectos)",
+          "url": "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-28132014000100002"
+        }
+      ],
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "21,000 m³ (WISE)",
       "breach_size": null,
       "downstream_risk": "5 km runout",
       "economic_damage": null,
