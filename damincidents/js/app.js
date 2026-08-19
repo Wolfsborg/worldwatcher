@@ -604,15 +604,20 @@
   }
 
   function focusSelectedIncident(inc) {
-    const zoom = Math.max(map.getZoom(), 11);
-    map.setView([inc.lat, inc.lng], zoom, { animate: false });
+    map.invalidateSize();
+    map.setView([inc.lat, inc.lng], 13, { animate: false });
     const size = map.getSize();
+    if (!size.x || !size.y) return;
     const narrow = window.matchMedia("(max-width: 980px)").matches;
     let dx = 0, dy = 0;
     if (narrow) {
       dy = -Math.round(size.y * 0.22);
     } else {
-      const visualCx = 416 + (size.x - 416 - 380) / 2;
+      const left = els.sidebar ? els.sidebar.getBoundingClientRect().width + 24 : 416;
+      const right = (!els.detail.hidden && els.detail)
+        ? els.detail.getBoundingClientRect().width + 24
+        : 0;
+      const visualCx = left + Math.max(80, size.x - left - right) / 2;
       dx = Math.round(size.x / 2 - visualCx);
     }
     if (dx || dy) map.panBy([dx, dy], { animate: false });
@@ -628,16 +633,11 @@
     });
     const row = els.list.querySelector('.incident-item[data-id="' + id + '"]');
     if (row && opts && opts.fromMap) row.scrollIntoView({ block: "nearest" });
-    const marker = markersById.get(id);
     if (typeof inc.lat === "number" && typeof inc.lng === "number") {
-      showSelectedPin(inc);
-      const reveal = function () {
+      requestAnimationFrame(function () {
         focusSelectedIncident(inc);
         showSelectedPin(inc);
-        if (marker) marker.openPopup();
-      };
-      if (marker && cluster) cluster.zoomToShowLayer(marker, reveal);
-      else reveal();
+      });
     }
     writeHash(id);
     if (opts && opts.fromList && window.matchMedia("(max-width: 980px)").matches) {
