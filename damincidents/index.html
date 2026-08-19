@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Worldwatch · Dam Incidents</title>
+  <meta name="description" content="Documented dam failures and incidents, 1864–2026. A Worldwatch cartographic record.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip-link" href="#incident-list">Skip to incident list</a>
+
+  <div id="map" role="application" aria-label="Map of dam incidents"></div>
+
+  <aside class="panel sidebar" id="sidebar" aria-label="Filters and recent incidents">
+    <header class="brand">
+      <p class="wordmark">Worldwatch</p>
+      <h1>Dam Incidents</h1>
+      <p class="subtitle">Documented failures and incidents, 1864–2026</p>
+    </header>
+
+    <div class="controls">
+      <label class="field">
+        <span class="field-label">Search</span>
+        <input type="search" id="search" placeholder="Name, country, river…" autocomplete="off" spellcheck="false">
+      </label>
+
+      <fieldset class="chips" id="category-chips">
+        <legend class="field-label">Category</legend>
+        <button type="button" class="chip" data-category="failure" aria-pressed="false">Failure</button>
+        <button type="button" class="chip" data-category="partial_breach" aria-pressed="false">Partial breach</button>
+        <button type="button" class="chip" data-category="incident" aria-pressed="false">Incident</button>
+        <button type="button" class="chip" data-category="watch" aria-pressed="false">Watch</button>
+      </fieldset>
+
+      <div class="filter-row">
+        <label class="field">
+          <span class="field-label">Type</span>
+          <select id="type-filter">
+            <option value="">All types</option>
+          </select>
+        </label>
+        <fieldset class="year-range">
+          <legend class="field-label">Custom years</legend>
+          <div class="year-inputs">
+            <label>
+              <span class="sr-only">From year</span>
+              <input type="number" id="year-min" inputmode="numeric">
+            </label>
+            <span class="year-sep" aria-hidden="true">–</span>
+            <label>
+              <span class="sr-only">To year</span>
+              <input type="number" id="year-max" inputmode="numeric">
+            </label>
+          </div>
+        </fieldset>
+      </div>
+        <fieldset class="chips period-chips" id="period-chips">
+          <legend class="field-label">When</legend>
+          <button type="button" class="chip" data-period="all" aria-pressed="true">All years</button>
+          <button type="button" class="chip" data-period="year" aria-pressed="false">This year</button>
+          <button type="button" class="chip" data-period="5y" aria-pressed="false">Last 5 years</button>
+          <button type="button" class="chip" data-period="decade" aria-pressed="false">Last decade</button>
+          <button type="button" class="chip" data-period="century" aria-pressed="false">Since 2000</button>
+          <button type="button" class="chip" data-period="historical" aria-pressed="false">Before 2000</button>
+        </fieldset>
+        <label class="field">
+          <span class="field-label">Cause</span>
+          <select id="cause-filter">
+            <option value="">All causes</option>
+          </select>
+        </label>
+    </div>
+
+    <section class="recent" aria-labelledby="recent-heading">
+      <div class="recent-head">
+        <h2 id="recent-heading">Recent incidents</h2>
+        <p class="recent-meta" id="list-count"></p>
+      </div>
+      <ul id="incident-list" class="incident-list"></ul>
+      <p class="empty" id="empty-state" hidden>No incidents match.</p>
+    </section>
+
+    <footer class="credit">
+      <p>Worldwatch · Dam Incidents · data updated 19 Aug 2026</p>
+      <p>Sources on each record. Unconfirmed social posts excluded.</p>
+      <p><button type="button" class="text-btn" id="maintain-open">Maintain</button></p>
+    </footer>
+  </aside>
+
+  <button type="button" class="sidebar-toggle" id="sidebar-toggle" aria-controls="sidebar" aria-expanded="false">
+    <span class="sr-only">Toggle incident list</span>
+    <span aria-hidden="true"></span>
+  </button>
+
+  <section class="stats" aria-label="Dataset totals" id="stats">
+    <div><span class="stat-value" id="stat-count">—</span><span class="stat-label">Incidents</span></div>
+    <div><span class="stat-value" id="stat-countries">—</span><span class="stat-label">Countries</span></div>
+    <div><span class="stat-value" id="stat-deaths">—</span><span class="stat-label">Known deaths</span></div>
+  </section>
+
+  <aside class="panel detail" id="detail" hidden aria-labelledby="detail-title">
+    <div class="detail-toolbar">
+      <button type="button" class="detail-update" id="detail-update">Update this record</button>
+      <button type="button" class="detail-close" id="detail-close" aria-label="Close incident detail">Close</button>
+    </div>
+    <div id="detail-body"></div>
+  </aside>
+
+  <aside class="panel maintain" id="maintain" hidden aria-labelledby="maintain-title">
+    <div class="maintain-toolbar">
+      <h2 id="maintain-title">Maintain</h2>
+      <button type="button" class="detail-close" id="maintain-close">Close</button>
+    </div>
+    <p class="maintain-lead">Add a record or merge new facts into an existing incident. Empty fields are left unchanged.</p>
+    <p class="maintain-target" id="maintain-target" hidden></p>
+    <form id="maintain-form" class="maintain-form" autocomplete="off">
+      <label class="field">
+        <span class="field-label">Name</span>
+        <input type="text" name="name" required>
+      </label>
+      <div class="maintain-row">
+        <label class="field">
+          <span class="field-label">Country</span>
+          <input type="text" name="country">
+        </label>
+        <label class="field">
+          <span class="field-label">Region</span>
+          <input type="text" name="region">
+        </label>
+      </div>
+      <label class="field">
+        <span class="field-label">Location</span>
+        <input type="text" name="location_label">
+      </label>
+      <div class="maintain-row">
+        <label class="field">
+          <span class="field-label">Date</span>
+          <input type="text" name="incident_date" placeholder="YYYY-MM-DD" inputmode="numeric">
+        </label>
+        <label class="field">
+          <span class="field-label">Deaths</span>
+          <input type="number" name="deaths" min="0" step="1">
+        </label>
+      </div>
+      <div class="maintain-row">
+        <label class="field">
+          <span class="field-label">Type</span>
+          <select name="type"></select>
+        </label>
+        <label class="field">
+          <span class="field-label">Category</span>
+          <select name="category"></select>
+        </label>
+      </div>
+      <fieldset class="field">
+        <legend class="field-label">Causes</legend>
+        <div class="maintain-causes" id="maintain-causes"></div>
+      </fieldset>
+      <label class="field">
+        <span class="field-label">What happened</span>
+        <textarea name="what_happened" rows="3"></textarea>
+      </label>
+      <label class="field">
+        <span class="field-label">Status</span>
+        <textarea name="status" rows="2"></textarea>
+      </label>
+      <div class="maintain-row">
+        <label class="field">
+          <span class="field-label">Source label</span>
+          <input type="text" name="source_label">
+        </label>
+        <label class="field">
+          <span class="field-label">Source URL</span>
+          <input type="url" name="source_url">
+        </label>
+      </div>
+      <div class="maintain-row">
+        <label class="field">
+          <span class="field-label">Latitude</span>
+          <input type="number" name="lat" step="any">
+        </label>
+        <label class="field">
+          <span class="field-label">Longitude</span>
+          <input type="number" name="lng" step="any">
+        </label>
+      </div>
+    </form>
+    <div class="maintain-actions">
+      <button type="button" class="maintain-btn" id="maintain-check">Check duplicates</button>
+      <button type="button" class="maintain-btn maintain-btn-primary" id="maintain-save">Save</button>
+    </div>
+    <div id="maintain-matches" class="maintain-matches" hidden></div>
+    <p id="maintain-result" class="maintain-result" hidden></p>
+  </aside>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/maintain.js"></script>
+</body>
+</html>

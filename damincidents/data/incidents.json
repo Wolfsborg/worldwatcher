@@ -1,0 +1,3109 @@
+{
+  "version": 1,
+  "updated": "2026-08-19",
+  "count": 73,
+  "current_count": 18,
+  "historical_count": 55,
+  "incidents": [
+    {
+      "id": "dale-dyke-sheffield-1864-03-11",
+      "name": "Dale Dyke Dam (Great Sheffield Flood)",
+      "country": "United Kingdom",
+      "region": "South Yorkshire, England",
+      "location_label": "Bradfield, South Yorkshire, United Kingdom",
+      "lat": 53.4178,
+      "lng": -1.6411,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Dale Dike Reservoir)",
+      "river_or_facility": "Dale Dike / River Loxley",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "construction_first_filling",
+        "structural_design"
+      ],
+      "cause_summary": "The embankment failed during first filling; government inspectors pointed to design and construction defects in the puddle-clay core, though the exact initiating crack was never proven.",
+      "incident_date": "1864-03-11",
+      "latest_report_date": "2014-03-11",
+      "what_happened": "The nearly completed earth embankment of Dale Dyke Reservoir at Bradfield failed as it was being filled for the first time, releasing roughly 3 million cubic metres of water down the Loxley valley into Sheffield. The flood destroyed mills, houses and bridges and inundated about 4,000 houses. Government inspectors later pointed to design and construction defects in the puddle-clay core, though the exact initiating crack was never proven.",
+      "status": "historical / dam later rebuilt (1875); remains a landmark Victorian civil-engineering disaster",
+      "deaths": 240,
+      "injured": null,
+      "affected_or_evacuated": "thousands of households flooded; 600+ houses damaged or destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Sheffield Flood Claims Archive",
+          "url": "https://sheffieldfloodclaimsarchive.shu.ac.uk/aboutFlood.cfm"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/uk-england-south-yorkshire-26478728"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Sheffield_Flood"
+        }
+      ],
+      "notes": "Chief Constable recorded 240 deaths; later local research suggests additional indirect deaths not on the official list.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "mill-river-williamsburg-1874-05-16",
+      "name": "Williamsburg Reservoir Dam (Mill River Flood)",
+      "country": "United States",
+      "region": "Massachusetts",
+      "location_label": "Williamsburg, Massachusetts, United States",
+      "lat": 42.434,
+      "lng": -72.748,
+      "geo_accuracy": "approx",
+      "geo_source": "Historic Dam Trail / 3 mi north of Williamsburg center",
+      "river_or_facility": "Mill River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "A poorly constructed earthen reservoir dam failed; the Hampshire County coroner's jury found fault with the reservoir company, engineers, contractors and weak state regulation.",
+      "incident_date": "1874-05-16",
+      "latest_report_date": "2021-02-10",
+      "what_happened": "A poorly constructed earthen reservoir dam on the Mill River above Williamsburg, Massachusetts, failed and sent a flood wave through Williamsburg, Skinnerville, Haydenville and Leeds. The Hampshire County coroner's jury found fault with the reservoir company, engineers, contractors and weak state regulation. It was the deadliest U.S. dam failure until Johnstown in 1889.",
+      "status": "historical / not rebuilt as a high dam; documented ASDSO case study",
+      "deaths": 139,
+      "injured": null,
+      "affected_or_evacuated": "four mill villages wrecked along a narrow valley",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/williamsburg-reservoir-dam-massachusetts-1874"
+        },
+        {
+          "label": "Historic Northampton",
+          "url": "https://www.historicnorthampton.org/mill-river-flood-list-of-deaths.html"
+        }
+      ],
+      "notes": "Town vital records and contemporary newspapers document 139 deaths, including 43 children under 10.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "south-fork-johnstown-1889-05-31",
+      "name": "South Fork Dam (Johnstown Flood)",
+      "country": "United States",
+      "region": "Pennsylvania",
+      "location_label": "South Fork, Pennsylvania, United States",
+      "lat": 40.348092,
+      "lng": -78.77573,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (South Fork Dam)",
+      "river_or_facility": "South Fork Little Conemaugh River / Lake Conemaugh",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "spillway"
+      ],
+      "cause_summary": "After days of heavy rain the earthfill dam overtopped and failed, after modifications that lowered the crest, clogged the spillway with fish screens and removed discharge pipes.",
+      "incident_date": "1889-05-31",
+      "latest_report_date": "2013-01-01",
+      "what_happened": "After days of heavy rain, the earthfill South Fork Dam owned by the South Fork Fishing and Hunting Club overtopped and failed at about 15:15, releasing Lake Conemaugh toward Johnstown. Modifications that lowered the crest, clogged the spillway with fish screens and removed discharge pipes reduced freeboard and outlet capacity. The debris-laden wave destroyed towns along the Little Conemaugh and burned at the Stone Bridge in Johnstown.",
+      "status": "historical / Johnstown Flood National Memorial at the dam site",
+      "deaths": 2209,
+      "injured": null,
+      "affected_or_evacuated": "1,600 homes lost; Johnstown and upstream valley towns destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "U.S. National Park Service",
+          "url": "https://www.nps.gov/jofl/learn/historyculture/the-south-fork-dam.htm"
+        },
+        {
+          "label": "NPS Foundation Document",
+          "url": "https://npshistory.com/publications/foundation-documents/jofl-fd-overview.pdf"
+        }
+      ],
+      "notes": "NPS and Rev. David J. Beale’s contemporary catalogue give 2,209 deaths, the standard official figure.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "austin-bayless-1911-09-30",
+      "name": "Austin (Bayless) Dam",
+      "country": "United States",
+      "region": "Pennsylvania",
+      "location_label": "Austin, Pennsylvania, United States",
+      "lat": 41.65306,
+      "lng": -78.08556,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Austin Dam failure, Pennsylvania)",
+      "river_or_facility": "Freeman Run",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "structural_design"
+      ],
+      "cause_summary": "Investigators found sliding on a faulty foundation plus design, construction and operation defects.",
+      "incident_date": "1911-09-30",
+      "latest_report_date": "2021-08-06",
+      "what_happened": "The concrete gravity Bayless Dam above Austin, Pennsylvania, collapsed after less than two years of troubled service, releasing a flood that destroyed Austin and Costello. Investigators found sliding on a faulty foundation plus design, construction and operation defects. The disaster helped produce Pennsylvania’s 1913 dam-safety law.",
+      "status": "historical / a later rebuilt dam also failed in 1942 without deaths; ruins remain",
+      "deaths": 78,
+      "injured": null,
+      "affected_or_evacuated": "towns of Austin and Costello largely destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/austin-bayless-dam-pennsylvania-1911"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austin_Dam_failure_(Pennsylvania)"
+        }
+      ],
+      "notes": "Confirmed deaths are 78; some contemporary reports were higher because of unrecorded itinerant workers.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "gleno-1923-12-01",
+      "name": "Gleno Dam",
+      "country": "Italy",
+      "region": "Lombardy (Valle di Scalve)",
+      "location_label": "Valle di Scalve, Lombardy, Italy",
+      "lat": 46.016389,
+      "lng": 10.075,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Gleno Dam)",
+      "river_or_facility": "Gleno Creek / Dezzo",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "construction_first_filling",
+        "structural_design"
+      ],
+      "cause_summary": "The dam failed about 40 days after first full filling; investigations blamed structural deficiencies, poor construction and cost-cutting.",
+      "incident_date": "1923-12-01",
+      "latest_report_date": "2011-04-01",
+      "what_happened": "A multiple-arch buttress dam completed in 1923 failed about 40 days after first full filling, releasing about 4.5 million cubic metres of water. The flood destroyed or damaged Bueggio, Dezzo and Corna di Darfo before reaching Lake Iseo. Investigations blamed structural deficiencies, poor construction and cost-cutting. It reshaped Italian dam regulation.",
+      "status": "historical / surviving ruined structure still stands; not returned to service",
+      "deaths": 356,
+      "injured": null,
+      "affected_or_evacuated": "several Alpine villages destroyed or flooded",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASCE Journal of Hydraulic Engineering",
+          "url": "https://ascelibrary.org/doi/10.1061/%28ASCE%29HY.1943-7900.0000327"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gleno_Dam"
+        }
+      ],
+      "notes": "Academic accounts use at least 356; some local histories cite 359 confirmed or estimates up to about 500.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "dolgarrog-1925-11-02",
+      "name": "Eigiau and Coedty Dams (Dolgarrog disaster)",
+      "country": "United Kingdom",
+      "region": "Conwy, Wales",
+      "location_label": "Dolgarrog, Conwy, Wales, United Kingdom",
+      "lat": 53.168889,
+      "lng": -3.915833,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Llyn Eigiau; first dam to fail)",
+      "river_or_facility": "Llyn Eigiau / Coedty / Afon Porth Llŵyd",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The Eigiau concrete dam failed on poor glacial foundations after autumn rains, sending water into the lower Coedty embankment, which then failed.",
+      "incident_date": "1925-11-02",
+      "latest_report_date": "2025-11-02",
+      "what_happened": "The concrete dam at Llyn Eigiau failed on poor glacial foundations after autumn rains, sending water into the lower Coedty embankment, which then failed. The combined flood and boulder debris destroyed part of Dolgarrog. The disaster led to the Reservoirs (Safety Provisions) Act 1930, the UK’s first dam-safety statute.",
+      "status": "historical / Eigiau not rebuilt as a high dam; Coedty later rebuilt",
+      "deaths": 16,
+      "injured": null,
+      "affected_or_evacuated": "northern Dolgarrog and Porth Llŵyd settlement destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/uk-wales-34652969"
+        },
+        {
+          "label": "UK Parliament Hansard",
+          "url": "https://hansard.parliament.uk/Commons/1925-12-21/debates/f13d7c2c-1ccc-4d89-a5d2-e20ddabf0371/DolgarrogDamDisaster"
+        }
+      ],
+      "notes": "Memorial and contemporary accounts name 16 dead (10 adults, 6 children).",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "st-francis-1928-03-12",
+      "name": "St. Francis Dam",
+      "country": "United States",
+      "region": "California",
+      "location_label": "San Francisquito Canyon, California, United States",
+      "lat": 34.546944,
+      "lng": -118.5125,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (St. Francis Dam)",
+      "river_or_facility": "San Francisquito Canyon / Santa Clara River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "structural_design"
+      ],
+      "cause_summary": "Foundation and design flaws, including weak rock and a known fault, are the accepted causes of the collapse after the reservoir had been filled to capacity.",
+      "incident_date": "1928-03-12",
+      "latest_report_date": "2021-01-01",
+      "what_happened": "The concrete gravity-arch St. Francis Dam, part of the Los Angeles aqueduct system, collapsed just before midnight after the reservoir had been filled to capacity. A flood of about 12 billion gallons swept 54 miles down the Santa Clara River valley to the Pacific. Foundation and design flaws, including weak rock and a known fault, are the accepted causes.",
+      "status": "historical / not rebuilt; California Historic Landmark",
+      "deaths": 431,
+      "injured": null,
+      "affected_or_evacuated": "1,000+ houses damaged or destroyed along the Santa Clara valley",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/event/St-Francis-Dam-disaster"
+        },
+        {
+          "label": "St. Francis Dam Memorial",
+          "url": "https://stfrancisdammemorial.org/victims-of-the-st-francis-dam-disaster/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/St._Francis_Dam"
+        }
+      ],
+      "notes": "August 1928 official committee figure was 385. Modern compiled lists put identified and missing victims at least 403–431; some memorials say 450+.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "vega-de-tera-1959-01-09",
+      "name": "Vega de Tera Dam (Ribadelago)",
+      "country": "Spain",
+      "region": "Zamora (Sanabria)",
+      "location_label": "Ribadelago, Zamora, Spain",
+      "lat": 42.178,
+      "lng": -6.779,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Vega de Tera disaster)",
+      "river_or_facility": "Tera River / Vega de Tera reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "A section of the buttress dam collapsed; poor construction quality and materials were identified.",
+      "incident_date": "1959-01-09",
+      "latest_report_date": "2020-12-01",
+      "what_happened": "A section of the Vega de Tera buttress dam collapsed around midnight, releasing about 7.8 million cubic metres of water. The flood reached Ribadelago in minutes, destroying most of the village and sweeping victims into Lake Sanabria. Poor construction quality and materials were identified. Convictions of company officials were later overturned or pardoned under the Franco regime.",
+      "status": "historical / dam abandoned as a ruin; survivors relocated to Ribadelago Nuevo",
+      "deaths": 144,
+      "injured": null,
+      "affected_or_evacuated": "Ribadelago destroyed; 144 of roughly 532–664 residents killed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vega_de_Tera_disaster"
+        },
+        {
+          "label": "ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0169555X20305043"
+        }
+      ],
+      "notes": "Standard figure is 144 dead; only about 28 bodies were recovered.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "malpasset-1959-12-02",
+      "name": "Malpasset Dam",
+      "country": "France",
+      "region": "Var (Fréjus)",
+      "location_label": "Fréjus, Var, France",
+      "lat": 43.512078,
+      "lng": 6.7565,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Malpasset Dam)",
+      "river_or_facility": "Reyran River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "construction_first_filling",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The arch dam failed during first complete filling after heavy rain; post-failure studies attributed the collapse to foundation uplift on a faulted micaschist abutment.",
+      "incident_date": "1959-12-02",
+      "latest_report_date": "2018-01-01",
+      "what_happened": "The thin Malpasset arch dam failed suddenly at about 21:11 during first complete filling after heavy rain, releasing about 50 million cubic metres of water down the Reyran valley. Fréjus was inundated within about 21 minutes. Post-failure studies attributed the collapse to foundation uplift on a faulted micaschist abutment. Courts did not assign criminal liability to the builders.",
+      "status": "historical / dam not rebuilt; ruins remain a major ICOLD/ARIA case study",
+      "deaths": 423,
+      "injured": 83,
+      "affected_or_evacuated": "about 7,000 homeless",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ARIA",
+          "url": "https://www.aria.developpement-durable.gouv.fr/fiche_detaillee/29490_en/?lang=en"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Malpasset_Dam"
+        }
+      ],
+      "notes": "Most French official sources use 423 deaths; some ARIA pages say 421.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "panshet-khadakwasla-1961-07-12",
+      "name": "Panshet and Khadakwasla Dams",
+      "country": "India",
+      "region": "Maharashtra (Pune)",
+      "location_label": "Pune, Maharashtra, India",
+      "lat": 18.379722,
+      "lng": 73.611111,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Panshet Dam; primary failure)",
+      "river_or_facility": "Ambi / Mutha River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "construction_first_filling",
+        "overtopping"
+      ],
+      "cause_summary": "Unfinished Panshet failed after outlet-conduit problems and first-filling stresses; the flood then overtopped and breached older masonry Khadakwasla downstream.",
+      "incident_date": "1961-07-12",
+      "latest_report_date": "2011-07-12",
+      "what_happened": "The unfinished earthen Panshet Dam failed in the early hours of 12 July 1961 after outlet-conduit problems and first-filling stresses. The flood wave then overtopped and breached the older masonry Khadakwasla Dam downstream. Central Pune was inundated; Khadakwasla’s temporary resistance after dawn allowed many residents to move to higher ground. The event remains the city’s defining flood disaster.",
+      "status": "historical / both dams later rebuilt; Pune floodplain planning still references 1961",
+      "deaths": 1000,
+      "injured": null,
+      "affected_or_evacuated": "tens of thousands homeless; over 100,000 homes reported damaged in later summaries",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "DNA India (ex-irrigation official interview)",
+          "url": "https://www.dnaindia.com/india/report-what-went-wrong-at-panshet-dam-1565039"
+        },
+        {
+          "label": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/pune/july-12-1961-64-years-on-pune-still-remembers-panshet-dam-horror"
+        },
+        {
+          "label": "Wikipedia (Khadakwasla Dam)",
+          "url": "https://en.wikipedia.org/wiki/Khadakwasla_Dam"
+        }
+      ],
+      "notes": "Widely cited figure is about 1,000 deaths. Some unofficial estimates are higher; a precise official register is not consistently published.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "vajont-1963-10-09",
+      "name": "Vajont Dam landslide and overtopping",
+      "country": "Italy",
+      "region": "Veneto / Friuli Venezia Giulia",
+      "location_label": "Longarone / Erto e Casso, Veneto–Friuli, Italy",
+      "lat": 46.26722,
+      "lng": 12.32889,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Vajont Dam)",
+      "river_or_facility": "Vajont / Piave (Longarone)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "landslide"
+      ],
+      "cause_summary": "During first filling a landslide from Monte Toc entered the reservoir and generated a wave that overtopped the intact dam wall, destroying Longarone and nearby villages.",
+      "incident_date": "1963-10-09",
+      "latest_report_date": "2024-10-09",
+      "what_happened": "During first filling, a roughly 260-million-cubic-metre landslide from Monte Toc entered the Vajont reservoir at 22:39, generating a wave that overtopped the dam by about 250 m. About 50 million cubic metres of water destroyed Longarone and nearby villages in minutes. The concrete arch dam itself remained essentially intact. Official data speak of 1,917 victims; higher estimates exist because many bodies were never identified.",
+      "status": "historical / dam still standing, reservoir filled with landslide debris, not in operation",
+      "deaths": 1917,
+      "injured": null,
+      "affected_or_evacuated": "Longarone, Pirago, Rivalta, Villanova, Faè and lakeside hamlets destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ARIA / French ministry case file",
+          "url": "https://www.aria.developpement-durable.gouv.fr/wp-content/files_mf/FD_23607_Vajont_Italie_1963_ang.pdf"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vajont_Dam"
+        }
+      ],
+      "notes": "Official figure 1,917; commonly cited range 1,900–2,500. Categorized as incident rather than structural dam failure because the dam wall did not collapse.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "baldwin-hills-1963-12-14",
+      "name": "Baldwin Hills Dam",
+      "country": "United States",
+      "region": "California (Los Angeles)",
+      "location_label": "Los Angeles, California, United States",
+      "lat": 34.0082,
+      "lng": -118.3636,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Baldwin Hills Dam disaster)",
+      "river_or_facility": "Baldwin Hills Reservoir (LADWP)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation"
+      ],
+      "cause_summary": "Investigations linked the breach to foundation displacement along the Newport–Inglewood fault system, with oil-field operations later the subject of civil settlement.",
+      "incident_date": "1963-12-14",
+      "latest_report_date": "2013-12-13",
+      "what_happened": "A caretaker noticed lining leakage on the morning of 14 December 1963; police evacuated about 1,600 people before the Baldwin Hills Reservoir dam breached at 15:38. About 250–290 million gallons flooded a square mile of South Los Angeles, destroying or damaging 277 homes. Investigations linked the breach to foundation displacement along the Newport–Inglewood fault system, with oil-field operations later the subject of civil settlement.",
+      "status": "historical / reservoir not rebuilt; site is now Kenneth Hahn State Recreation Area",
+      "deaths": 5,
+      "injured": null,
+      "affected_or_evacuated": "about 1,600 evacuated; 277 homes destroyed or damaged",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/baldwin-hills-dam-california-1963"
+        },
+        {
+          "label": "Los Angeles Times",
+          "url": "https://www.latimes.com/local/lanow/la-me-ln-baldwin-hills-dam-collapse-remembering-the-deadly-disaster-20131213-story.html"
+        }
+      ],
+      "notes": "Five named fatalities. Early detection and evacuation are credited with preventing a far larger death toll.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "swift-two-medicine-1964-06-08",
+      "name": "Swift and Two Medicine Dams (Blackfeet Flood)",
+      "country": "United States",
+      "region": "Montana (Blackfeet Indian Reservation)",
+      "location_label": "Blackfeet Indian Reservation, Montana, United States",
+      "lat": 48.16306,
+      "lng": -112.87192,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Swift Dam, Montana)",
+      "river_or_facility": "Birch Creek / Two Medicine Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "A rain-on-snow storm produced extreme runoff; Swift Dam failed and additional Reservation deaths were attributed to extreme spillway discharge at Lower Two Medicine Dam.",
+      "incident_date": "1964-06-08",
+      "latest_report_date": "2020-01-01",
+      "what_happened": "A rain-on-snow storm in early June 1964 produced extreme runoff across northwestern Montana. Swift Dam failed about 10:10 on 8 June, killing 19 people on the Blackfeet Reservation. Lower Two Medicine Dam also failed; nine additional Reservation deaths were attributed to extreme spillway discharge before that failure. USGS documented the flood; Gibson Dam overtopped but held.",
+      "status": "historical / both failed dams later addressed; statewide flood remains a USGS reference storm",
+      "deaths": 28,
+      "injured": 350,
+      "affected_or_evacuated": "about 8,700 evacuated statewide during the high-water period",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/swift-and-two-medicine-dams-montana-1964"
+        },
+        {
+          "label": "USGS Water-Supply Paper 1840-B",
+          "url": "https://pubs.usgs.gov/wsp/1840b/report.pdf"
+        }
+      ],
+      "notes": "Deaths: 19 from Swift failure + 9 associated with Two Medicine spillway flooding (USGS/ASDSO). Statewide flood deaths were 30.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "el-cobre-1965-03-28",
+      "name": "El Cobre tailings dams (El Soldado)",
+      "country": "Chile",
+      "region": "Valparaíso Region",
+      "location_label": "El Cobre, Valparaíso Region, Chile",
+      "lat": -32.639,
+      "lng": -71.162,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (El Cobre dam failures)",
+      "river_or_facility": "El Soldado mine / El Cobre",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "tailings_liquefaction"
+      ],
+      "cause_summary": "The 28 March 1965 La Ligua / Valparaíso earthquake liquefied hydraulic-fill tailings dams at El Soldado, releasing about 2 million cubic metres of tailings.",
+      "incident_date": "1965-03-28",
+      "latest_report_date": "2025-03-28",
+      "what_happened": "The 28 March 1965 La Ligua / Valparaíso earthquake liquefied hydraulic-fill tailings dams at the El Soldado copper mine. Two dams released on the order of 2 million cubic metres of tailings that travelled about 12 km and buried the town of El Cobre. The event drove Chilean abandonment of upstream tailings construction in seismic areas and helped motivate a national emergency office.",
+      "status": "historical / town not rebuilt on the same site; major global tailings-seismic case",
+      "deaths": 247,
+      "injured": null,
+      "affected_or_evacuated": "El Cobre buried; 60–70 farmhouses swept away",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1965_Valparaiso_earthquake_and_El_Cobre_dam_failure"
+        },
+        {
+          "label": "SMI-Chile 60th anniversary",
+          "url": "https://smi-chile.com/60-years-after-the-el-cobre-tragedy-memories-preserved-and-lessons-learned/"
+        }
+      ],
+      "notes": "Official death toll 247; incomplete camp records lead many sources to estimate 350–400.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "aberfan-1966-10-21",
+      "name": "Aberfan colliery spoil tip (Tip 7)",
+      "country": "United Kingdom",
+      "region": "Wales (Merthyr Tydfil)",
+      "location_label": "Aberfan, Merthyr Tydfil, Wales, United Kingdom",
+      "lat": 51.69472,
+      "lng": -3.3475,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Aberfan disaster)",
+      "river_or_facility": "Merthyr Vale Colliery spoil tips above Aberfan",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "tailings_liquefaction",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Colliery spoil Tip 7, built over springs, liquefied after heavy rain and slid into Aberfan; the official tribunal placed blame on the National Coal Board.",
+      "incident_date": "1966-10-21",
+      "latest_report_date": "2016-10-21",
+      "what_happened": "Colliery spoil Tip 7, built over springs on the hillside above Aberfan, liquefied after heavy rain and slid into the village on 21 October 1966. The flow engulfed Pantglas Junior School and nearby houses. The official tribunal placed blame on the National Coal Board. This is a coal-spoil tip, not a water-retaining dam, included as tailings-adjacent because the mechanism (liquefied mining waste) is the same class of failure.",
+      "status": "historical / tips removed or remediated; Aberfan Disaster Tribunal is the authoritative record",
+      "deaths": 144,
+      "injured": null,
+      "affected_or_evacuated": "Pantglas Junior School and 18 houses destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/event/Aberfan-disaster"
+        },
+        {
+          "label": "British Geological Survey",
+          "url": "https://www.bgs.ac.uk/case-studies/aberfan-1966-landslide-case-study/"
+        }
+      ],
+      "notes": "Official toll 144 (116 children, 28 adults). Type recorded as tailings with an explicit tip/colliery-spoil note.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "buffalo-creek-1972-02-26",
+      "name": "Buffalo Creek coal-waste dams",
+      "country": "United States",
+      "region": "West Virginia (Logan County)",
+      "location_label": "Logan County, West Virginia, United States",
+      "lat": 37.797196,
+      "lng": -81.663769,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Buffalo Creek flood)",
+      "river_or_facility": "Middle Fork of Buffalo Creek (Pittston / Buffalo Mining)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "structural_design"
+      ],
+      "cause_summary": "A coal-refuse impoundment failed after rain; state and federal inquiries found improper construction, while the company called it an act of God.",
+      "incident_date": "1972-02-26",
+      "latest_report_date": "1973-02-01",
+      "what_happened": "A Pittston Coal coal-refuse impoundment failed about 08:00 on 26 February 1972 after rain, releasing about 132 million gallons of water and slurry. The flood overwhelmed two downstream refuse dams and destroyed or damaged 16–17 coal-camp communities along Buffalo Creek Hollow. State and federal inquiries found improper construction; the company called it an act of God. The disaster drove federal coal-refuse impoundment regulation.",
+      "status": "historical / communities dispersed; Governor’s Ad Hoc Commission and NIOSH/Wahler reports are primary records",
+      "deaths": 125,
+      "injured": 1121,
+      "affected_or_evacuated": "about 4,000 of 5,000 valley residents left homeless",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "WV Governor’s Ad Hoc Commission (e-WV transcript)",
+          "url": "https://archive.wvculture.org/history/disasters/buffcreekgovreport.html"
+        },
+        {
+          "label": "e-WV Encyclopedia",
+          "url": "https://wvencyclopedia.org/entries/664"
+        },
+        {
+          "label": "NIOSH/CDC Wahler report",
+          "url": "https://stacks.cdc.gov/view/cdc/207039"
+        }
+      ],
+      "notes": "Governor’s commission: at least 118 dead and 7 missing. Standard later figure is 125 dead and 1,121 injured.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "canyon-lake-rapid-city-1972-06-09",
+      "name": "Canyon Lake Dam (Black Hills / Rapid City flood)",
+      "country": "United States",
+      "region": "South Dakota",
+      "location_label": "Rapid City, South Dakota, United States",
+      "lat": 44.057778,
+      "lng": -103.286944,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (1972 Black Hills flood / Canyon Lake)",
+      "river_or_facility": "Rapid Creek / Canyon Lake",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "spillway",
+        "overtopping"
+      ],
+      "cause_summary": "Extreme thunderstorms dumped more than 10–15 inches of rain; debris clogged the spillway and the dam overtopped and failed about 22:45.",
+      "incident_date": "1972-06-09",
+      "latest_report_date": "2002-01-01",
+      "what_happened": "Extreme thunderstorms dumped more than 10–15 inches of rain on the Black Hills on 9–10 June 1972. Debris clogged the Canyon Lake Dam spillway; the dam overtopped and failed about 22:45. USGS concluded that most of Rapid City’s peak flow came from rainfall downstream of Pactola Dam rather than Canyon Lake storage, but the breach sent a surge into the city. The flood is among the deadliest in U.S. history.",
+      "status": "historical / Canyon Lake Dam rebuilt in 1976; floodway buyouts reshaped Rapid City",
+      "deaths": 238,
+      "injured": 3057,
+      "affected_or_evacuated": "1,335 homes destroyed; 5,000 automobiles destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "USGS Dakota Water Science Center",
+          "url": "https://www.usgs.gov/centers/dakota-water-science-center/science/1972-black-hills-rapid-city-flood"
+        },
+        {
+          "label": "USGS Fact Sheet 037-02",
+          "url": "https://pubs.usgs.gov/fs/fs-037-02/"
+        },
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/canyon-lake-dam-south-dakota-1972/"
+        }
+      ],
+      "notes": "238 deaths and 3,057 injuries are the USGS/official flood figures. They include the whole Black Hills flood, not deaths uniquely caused by the dam breach.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "banqiao-1975-08-08",
+      "name": "Banqiao and Shimantan Dams (Typhoon Nina)",
+      "country": "China",
+      "region": "Henan (Zhumadian)",
+      "location_label": "Zhumadian, Henan, China",
+      "lat": 32.982778,
+      "lng": 113.623333,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Banqiao Dam)",
+      "river_or_facility": "Ru / Hong / Huai basin reservoirs",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "After Typhoon Nina stalled over the Huai basin, Banqiao Dam breached and Shimantan and dozens of other dams failed in a cascade.",
+      "incident_date": "1975-08-08",
+      "latest_report_date": "2005-10-01",
+      "what_happened": "After Typhoon Nina stalled over the Huai basin, Banqiao Dam breached about 01:00 on 8 August 1975 and Shimantan and dozens of other dams failed in a cascade. Official accounts describe about 6 billion cubic metres of floodwater over some 10,000 km². Daowencheng commune was wiped out. The disaster was long treated as a state secret; figures were declassified decades later.",
+      "status": "historical / Banqiao rebuilt 1993, Shimantan 1996; remains the world’s deadliest dam disaster",
+      "deaths": 26000,
+      "injured": null,
+      "affected_or_evacuated": "about 10–11 million people affected; 5–6.8 million houses collapsed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/banqiao-dam-china-1975"
+        },
+        {
+          "label": "People’s Daily / Xinhua (archive)",
+          "url": "https://web.archive.org/web/20191001130412/http:/en.people.cn/200510/01/eng20051001_211892.html"
+        },
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/event/Typhoon-Nina-Banqiao-dam-failure"
+        }
+      ],
+      "notes": "Official Chinese figure commonly cited is 26,000 killed in the flood wave. A withdrawn 1989 ministry study said 85,000 died instantly. Including famine and epidemics, estimates run from about 85,600 to 230,000–240,000 (Britannica cites ~145,000 epidemic/famine deaths on top of 26,000).",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "teton-1976-06-05",
+      "name": "Teton Dam",
+      "country": "United States",
+      "region": "Idaho",
+      "location_label": "Teton River, Idaho, United States",
+      "lat": 43.909722,
+      "lng": -111.539167,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Teton Dam)",
+      "river_or_facility": "Teton River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation",
+        "construction_first_filling"
+      ],
+      "cause_summary": "The earthfill dam failed during first filling after seepage and piping through the abutment and core; reviews blamed design and foundation treatment on highly fractured volcanic rock.",
+      "incident_date": "1976-06-05",
+      "latest_report_date": "1980-01-01",
+      "what_happened": "The Bureau of Reclamation earthfill Teton Dam failed during first filling on 5 June 1976 after seepage and piping through the abutment and core. Operators could not plug the leaks; the dam unzipped and released on the order of 240,000 acre-feet. Wilford, Sugar City, Rexburg and other Snake River Plain communities were flooded. Independent and Interior reviews blamed design and foundation treatment on highly fractured volcanic rock.",
+      "status": "historical / not rebuilt; created Reclamation’s modern dam-safety program",
+      "deaths": 11,
+      "injured": null,
+      "affected_or_evacuated": "thousands of homes and businesses destroyed; 16,000 livestock killed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "U.S. Bureau of Reclamation",
+          "url": "https://www.usbr.gov/pn/snakeriver/dams/uppersnake/teton/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Teton_Dam"
+        }
+      ],
+      "notes": "USBR now states 11 deaths. The 1976 Independent Panel and early USGS reports said 14, counting some indirect deaths.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "kelly-barnes-1977-11-06",
+      "name": "Kelly Barnes Dam (Toccoa Falls)",
+      "country": "United States",
+      "region": "Georgia",
+      "location_label": "Toccoa Falls, Georgia, United States",
+      "lat": 34.600556,
+      "lng": -83.363056,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Kelly Barnes Dam)",
+      "river_or_facility": "Toccoa Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "piping_internal_erosion",
+        "landslide"
+      ],
+      "cause_summary": "After several days of heavy rain the dam failed; a federal board could not isolate a single cause, citing slope slide, piping, localized crest breach and embankment saturation.",
+      "incident_date": "1977-11-06",
+      "latest_report_date": "1977-12-21",
+      "what_happened": "After several days of heavy rain, the earthfill Kelly Barnes Dam above Toccoa Falls College failed about 01:30 on 6 November 1977. The flood killed 39 people, many in a campus trailer park. A federal board (USGS, Corps, SCS, NWS) could not isolate a single cause, citing slope slide, piping, localized crest breach and embankment saturation. The dam was never rebuilt.",
+      "status": "historical / not rebuilt; USGS and Federal Investigative Board reports remain the record",
+      "deaths": 39,
+      "injured": null,
+      "affected_or_evacuated": "campus and trailer park inundated; Toccoa water supply broken for days",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "USGS",
+          "url": "https://www.usgs.gov/centers/sawsc/science/1977-toccoa-flood-report-failure-kelly-barnes-dam-flood-and-findings"
+        },
+        {
+          "label": "USGS HA-613",
+          "url": "https://pubs.usgs.gov/ha/ha613/"
+        }
+      ],
+      "notes": "USGS/federal board figure is 39 deaths and about $2.8 million damage.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "church-rock-1979-07-16",
+      "name": "Church Rock uranium mill tailings dam",
+      "country": "United States",
+      "region": "New Mexico",
+      "location_label": "Church Rock, New Mexico, United States",
+      "lat": 35.650833,
+      "lng": -108.506389,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Church Rock uranium mill spill)",
+      "river_or_facility": "United Nuclear Church Rock mill / Puerco River",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "foundation"
+      ],
+      "cause_summary": "NRC and company consultants attributed the tailings-dam breach to differential settlement on collapsible soils.",
+      "incident_date": "1979-07-16",
+      "latest_report_date": "1979-12-31",
+      "what_happened": "A crack in the United Nuclear Corporation tailings dam near Church Rock opened into a breach about 05:30 on 16 July 1979, releasing about 93–95 million gallons of acidic radioactive tailings solution and 1,100 tons of solids into Pipeline Arroyo and the Puerco River. The spill crossed onto the Navajo Nation. NRC and company consultants attributed failure to differential settlement on collapsible soils. It remains the largest radioactive release in U.S. history.",
+      "status": "historical / mill later Superfund; Navajo Nation settlement; groundwater contamination persists",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "downstream Navajo communities along the Puerco; livestock watering and domestic use disrupted",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Church_Rock_uranium_mill_spill"
+        },
+        {
+          "label": "U.S. NRC memorandum (1979)",
+          "url": "https://www.nrc.gov/docs/ML1929/ML19291C516.pdf"
+        }
+      ],
+      "notes": "No immediate deaths recorded. Public-health and environmental harm to Navajo communities is the main documented impact.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "machhu-ii-1979-08-11",
+      "name": "Machchhu-2 Dam (Morbi)",
+      "country": "India",
+      "region": "Gujarat (Morbi / Rajkot)",
+      "location_label": "Morbi, Gujarat, India",
+      "lat": 22.763889,
+      "lng": 70.865833,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (1979 Machchhu dam failure)",
+      "river_or_facility": "Machchhu River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The earthfill dam failed after rainfall produced inflows far above design (about 16,307 m³/s), and hundreds of metres of both embankments collapsed.",
+      "incident_date": "1979-08-11",
+      "latest_report_date": "1981-06-23",
+      "what_happened": "The earthfill Machchhu-2 Dam failed on 11 August 1979 after rainfall produced inflows far above design (about 16,307 m³/s). Hundreds of metres of both embankments collapsed, sending a 12–30 ft flood into Morbi about 5 km downstream within 20 minutes. A Gujarat High Court record of 1981 cites official estimates of more than 1,800 dead and about ₹100 crore property damage. Independent estimates are much higher.",
+      "status": "historical / among the deadliest dam failures; dam later reconstructed",
+      "deaths": 1800,
+      "injured": null,
+      "affected_or_evacuated": "Morbi industrial town and Rajkot-district villages inundated",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Gujarat High Court (1981)",
+          "url": "https://indiankanoon.org/doc/14321/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1979_Machchhu_dam_failure"
+        }
+      ],
+      "notes": "Official/court figure at least 1,800. Unofficial estimates range to 5,000–25,000; mass graves hindered counting. Guinness once listed it as the worst dam burst before Banqiao figures were declassified.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "lawn-lake-1982-07-15",
+      "name": "Lawn Lake Dam (and Cascade Lake Dam)",
+      "country": "United States",
+      "region": "Colorado (Rocky Mountain National Park)",
+      "location_label": "Rocky Mountain National Park, Colorado, United States",
+      "lat": 40.464065,
+      "lng": -105.628077,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Lawn Lake Dam)",
+      "river_or_facility": "Roaring River / Fall River / Estes Park",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "overtopping"
+      ],
+      "cause_summary": "Lawn Lake failed by piping, releasing a flood that then overtopped and failed Cascade Dam downstream.",
+      "incident_date": "1982-07-15",
+      "latest_report_date": "1984-01-01",
+      "what_happened": "The 1903 earthfill Lawn Lake irrigation dam failed by piping about 05:30–06:00 on 15 July 1982, releasing 674 acre-feet down the Roaring River. The flood killed one backcountry camper, then overtopped and failed Cascade Dam, killing two more campers at Aspenglen. Estes Park’s business district flooded before Olympus Dam stored the wave. USGS modelled the cascade; damages were about $31 million.",
+      "status": "historical / Lawn Lake and Cascade not restored as dams; other aging park dams later removed",
+      "deaths": 3,
+      "injured": null,
+      "affected_or_evacuated": "177 Estes Park businesses damaged; presidential disaster declaration",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "USGS Open-File Report 84-612",
+          "url": "https://pubs.usgs.gov/publication/ofr84612"
+        },
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/lawn-lake-dam-colorado-1982"
+        },
+        {
+          "label": "NPS flood brochure",
+          "url": "https://www.npshistory.com/publications/romo/brochures/flood-82.pdf"
+        }
+      ],
+      "notes": "Three deaths, all inside Rocky Mountain National Park.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "tous-1982-10-20",
+      "name": "Tous Dam",
+      "country": "Spain",
+      "region": "Valencia (Júcar / Xúquer)",
+      "location_label": "Tous, Valencia, Spain",
+      "lat": 39.145556,
+      "lng": -0.66,
+      "geo_accuracy": "exact",
+      "geo_source": "Spanish Wikipedia (Embalse de Tous)",
+      "river_or_facility": "Júcar (Xúquer) River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "operational_gate"
+      ],
+      "cause_summary": "Extreme rain overtopped Tous Dam after spillway gates could not be operated because power and access failed.",
+      "incident_date": "1982-10-20",
+      "latest_report_date": "1997-04-17",
+      "what_happened": "Extreme rain on 20 October 1982 overtopped Tous Dam after spillway gates could not be operated (power and access failed). The central embankment eroded after 19:00, producing a peak breach flow far above design. About 100,000 people were evacuated. Spanish courts later held that the eight deaths and damages were avoidable and that the State was civilly responsible.",
+      "status": "historical / dam later rebuilt; landmark Spanish liability case",
+      "deaths": 8,
+      "injured": null,
+      "affected_or_evacuated": "about 100,000 evacuated; ~200,000 affected",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/tous-dam-spain-1982"
+        },
+        {
+          "label": "El País (1990 judgment)",
+          "url": "https://elpais.com/diario/1990/10/28/sociedad/657068407_850215.html"
+        },
+        {
+          "label": "UNECE case study",
+          "url": "https://unece.org/sites/default/files/2021-06/S3_B1_Tous_Dam_break_case_study.pdf"
+        }
+      ],
+      "notes": "Judicial/official dam-failure deaths are 8. Some regional accounts of the broader 1982 flood cite ~30 deaths.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "val-di-stava-1985-07-19",
+      "name": "Val di Stava tailings dams (Prestavel)",
+      "country": "Italy",
+      "region": "Trentino (Tesero / Stava)",
+      "location_label": "Tesero, Trentino, Italy",
+      "lat": 46.320581,
+      "lng": 11.500669,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Val di Stava dam collapse)",
+      "river_or_facility": "Prestavel fluorite mine tailings / Stava / Avisio",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "The upper Prestavel tailings basin failed onto the lower basin; the record does not establish a specific engineering mechanism.",
+      "incident_date": "1985-07-19",
+      "latest_report_date": "2012-04-16",
+      "what_happened": "At 12:22 on 19 July 1985 the upper Prestavel tailings basin failed onto the lower basin. About 180,000 m³ of tailings plus eroded material flowed 4.2 km at up to 90 km/h through Stava to the Avisio. Ten people were later convicted of culpable disaster and manslaughter. It is one of Italy’s worst industrial disasters and a global tailings benchmark.",
+      "status": "historical / Fondazione Stava 1985 is the official memorial and documentation centre",
+      "deaths": 268,
+      "injured": 20,
+      "affected_or_evacuated": "3 hotels, 53 homes and 6 industrial buildings destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Fondazione Stava 1985",
+          "url": "https://www.stava1985.it/the-failure/?lang=en"
+        },
+        {
+          "label": "NHESS (Copernicus)",
+          "url": "https://nhess.copernicus.org/articles/12/1029/2012/"
+        }
+      ],
+      "notes": "Official toll 268 after presumed-death rulings. A 269th missing-person listing was later removed.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "gouhou-1993-08-27",
+      "name": "Gouhou Reservoir Dam",
+      "country": "China",
+      "region": "Qinghai (Gonghe / Qabqa)",
+      "location_label": "Gonghe / Qabqa, Qinghai, China",
+      "lat": 36.266667,
+      "lng": 100.616667,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Qabqa); dam ~13 km upstream of Qabqa",
+      "river_or_facility": "Gouhou Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Investigators and Xinhua blamed a design fault (no vertical drain) plus leakage at face-slab joints that saturated the gravel fill.",
+      "incident_date": "1993-08-27",
+      "latest_report_date": "1993-12-17",
+      "what_happened": "The concrete-faced Gouhou dam in Gonghe County failed about 22:40 on 27 August 1993, sending a flood into Qabqa (Hainan Prefecture seat). Investigators and Xinhua later blamed a design fault (no vertical drain) plus leakage at face-slab joints that saturated the gravel fill. A UN death-toll mix-up (1,257 vs 257) was publicly corrected.",
+      "status": "historical / State Council ordered prosecutorial review of officials; design institute blamed",
+      "deaths": 328,
+      "injured": null,
+      "affected_or_evacuated": "2,837 people in 521 households reported affected; 2,932 rooms destroyed or badly damaged",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "South China Morning Post / Xinhua",
+          "url": "https://www.scmp.com/article/56107/flaw-caused-dam-disaster"
+        },
+        {
+          "label": "Los Angeles Times (UN correction)",
+          "url": "https://www.latimes.com/archives/la-xpm-1993-09-04-mn-31507-story.html"
+        }
+      ],
+      "notes": "Xinhua investigation total including missing: 328. Earlier recovered-body counts were ~257–288 plus ~40 missing. A UN translation error briefly reported 1,257.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "merriespruit-1994-02-22",
+      "name": "Merriespruit tailings dam (Harmony)",
+      "country": "South Africa",
+      "region": "Free State (Virginia)",
+      "location_label": "Virginia, Free State, South Africa",
+      "lat": -28.1311,
+      "lng": 26.8444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Merriespruit tailings dam disaster)",
+      "river_or_facility": "Harmony Gold No. 4 tailings dam / Merriespruit",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "tailings_liquefaction",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "After a brief thunderstorm the northern wall failed; a judicial inquest found overtopping after poor pool control and inadequate freeboard, and liquefied tailings flowed through Merriespruit.",
+      "incident_date": "1994-02-22",
+      "latest_report_date": "2005-01-01",
+      "what_happened": "After a brief thunderstorm (~50 mm), the northern wall of Harmony’s No. 4 gold tailings dam failed on the night of 22 February 1994. About 600,000 m³ of liquefied tailings flowed through Merriespruit, 300 m downslope. A judicial inquest found overtopping after poor pool control and inadequate freeboard; the owner, operator and six employees were convicted of negligence. The disaster produced South Africa’s Code of Practice for mine residue deposits.",
+      "status": "historical / major driver of South African tailings regulation",
+      "deaths": 17,
+      "injured": null,
+      "affected_or_evacuated": "80 houses destroyed; 200 others badly damaged",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Merriespruit_tailings_dam_disaster"
+        },
+        {
+          "label": "Land Degradation & Development paper",
+          "url": "https://doi.org/10.1002/ldr.681"
+        }
+      ],
+      "notes": "Official inquest/academic consensus is 17 deaths.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "folsom-spillway-1995-07-17",
+      "name": "Folsom Dam spillway Tainter gate No. 3",
+      "country": "United States",
+      "region": "California",
+      "location_label": "Folsom, California, United States",
+      "lat": 38.7077,
+      "lng": -121.1565,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Folsom Dam)",
+      "river_or_facility": "American River / Folsom Lake (USBR)",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "spillway"
+      ],
+      "cause_summary": "Spillway radial gate No. 3 failed by trunnion-pin friction and brace fracture; Reclamation attributed it to corrosion-increased trunnion friction omitted from the original design and inadequate lubrication.",
+      "incident_date": "1995-07-17",
+      "latest_report_date": "2015-01-01",
+      "what_happened": "During a routine powerplant-outage release on 17 July 1995, Folsom spillway radial gate No. 3 failed by trunnion-pin friction and brace fracture, swinging open and releasing about 40,000 cfs. Nearly 40 percent of Folsom Lake storage passed before repairs. No one was killed. Reclamation attributed the failure to corrosion-increased trunnion friction omitted from the original design and to inadequate lubrication. A Folsom auxiliary spillway was later completed in 2017; there was no 2017 gate failure.",
+      "status": "historical / gate replaced; auxiliary spillway completed 2017; USBR design-practice case",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "uncontrolled release into Lower American River; Nimbus Dam managed the extra flow",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/folsom-dam-california-1995"
+        },
+        {
+          "label": "USBR Best Practices G-1",
+          "url": "https://www.usbr.gov/damsafety/risk/BestPractices/Chapters/G1-FailureOfRadial-Tainter-GatesUnderNormalOperationalConditions.pdf"
+        }
+      ],
+      "notes": "Often confused with Oroville 2017. The Folsom failure is 1995. 2017 at Folsom refers to completion of a new auxiliary spillway, not a failure.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "los-frailes-aznalcollar-1998-04-25",
+      "name": "Los Frailes / Aznalcóllar tailings dam (Doñana)",
+      "country": "Spain",
+      "region": "Andalusia (Seville)",
+      "location_label": "Aznalcóllar, Andalusia, Spain",
+      "lat": 37.492603,
+      "lng": -6.225202,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Doñana disaster)",
+      "river_or_facility": "Boliden Apirsa Los Frailes mine / Guadiamar",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "A tailings-pond embankment failed, releasing acidic pyritic tailings into the Agrio and Guadiamar; the record does not state an established failure mechanism.",
+      "incident_date": "1998-04-25",
+      "latest_report_date": "2001-01-01",
+      "what_happened": "A tailings-pond embankment at the Los Frailes mine near Aznalcóllar failed in the early hours of 25 April 1998, releasing about 4–7 million cubic metres of acidic pyritic tailings and water into the Agrio and Guadiamar. About 4,600 ha were affected along ~40–62 km of river. Emergency dykes kept the spill out of Doñana National Park proper. No human deaths occurred.",
+      "status": "historical / cleanup lasted years at a cost of hundreds of millions of euros",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "farmland and riverine communities along the Guadiamar; no mass residential evacuation of a town",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Do%C3%B1ana_disaster"
+        },
+        {
+          "label": "IMWA 1999 paper",
+          "url": "https://www.imwa.info/docs/imwa_1999/IMWA1999_Feasby_279.pdf"
+        }
+      ],
+      "notes": "IGME URL is http (official Spanish geological survey). No human fatalities. Major environmental disaster.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "baia-mare-2000-01-30",
+      "name": "Baia Mare Aurul tailings dam (cyanide spill)",
+      "country": "Romania",
+      "region": "Maramureș (Baia Mare)",
+      "location_label": "Baia Mare, Maramureș, Romania",
+      "lat": 47.65,
+      "lng": 23.641667,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (2000 Baia Mare cyanide spill)",
+      "river_or_facility": "Aurul retreatment pond / Lapuș–Someș–Tisza–Danube",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The Aurul tailings pond overtopped and breached after thaw and rain, releasing about 100,000 m³ of cyanide-rich water.",
+      "incident_date": "2000-01-30",
+      "latest_report_date": "2000-06-01",
+      "what_happened": "On 30 January 2000 the Aurul gold-retreatment tailings pond near Baia Mare overtopped and breached after thaw and rain, releasing about 100,000 m³ of cyanide-rich water (on the order of 100 tonnes of cyanide) into the Lapuș and then the Tisza and Danube. Massive fish kills occurred; ice cover and later floods limited some human-health impacts. UNEP/OCHA and an international task force found no human deaths.",
+      "status": "historical / EU mining-waste policy case; environmental recovery took years",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "towns along the Tisza used alternate water; Szolnok and Szeged supplies protected",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "UN OCHA situation report",
+          "url": "https://www.unocha.org/publications/report/romania/romania-waste-spill-ocha-situation-report-no-1"
+        },
+        {
+          "label": "ReliefWeb international task force",
+          "url": "https://reliefweb.int/report/hungary/report-international-task-force-assessing-baia-mare-accident"
+        }
+      ],
+      "notes": "No human deaths. Second nearby accident in March 2000 also released tailings; task force treated both.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "zeyzoun-2002-06-04",
+      "name": "Zeyzoun Dam",
+      "country": "Syria",
+      "region": "Hama Governorate (Ghab / Orontes)",
+      "location_label": "Ghab Plain, Hama Governorate, Syria",
+      "lat": 35.7175,
+      "lng": 36.363333,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Zeyzoun Dam)",
+      "river_or_facility": "Zeyzoun irrigation reservoir / Orontes",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "The irrigation dam collapsed after residents had reported cracks; the record does not establish a specific failure mechanism.",
+      "incident_date": "2002-06-04",
+      "latest_report_date": "2002-06-10",
+      "what_happened": "The Zeyzoun irrigation dam in northern Syria collapsed on 4 June 2002, discharging on the order of 70 million cubic metres onto farmland and the villages of Zeyzoun, Qastoun and Ziara. Residents had reported cracks. UN OCHA later confirmed about 20 dead, one child still missing, and at least 2,000 homeless.",
+      "status": "historical / dam destroyed; irrigation for tens of thousands of hectares disrupted",
+      "deaths": 20,
+      "injured": null,
+      "affected_or_evacuated": "over 10,000 affected; at least 2,000 homeless; ~251 houses destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "UN OCHA Situation Report No. 4",
+          "url": "https://www.unocha.org/publications/report/syrian-arab-republic/syria-collapse-damfloods-ocha-situation-report-no-4"
+        },
+        {
+          "label": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/flooding-caused-by-the-collapse-of-the-zeyzoun-dam-syria-2508/"
+        }
+      ],
+      "notes": "OCHA confirmed ~20 deaths. Some later encyclopedic lists say 22–27.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "silver-lake-2003-05-14",
+      "name": "Silver Lake Dam fuse-plug spillway",
+      "country": "United States",
+      "region": "Michigan (Marquette County)",
+      "location_label": "Marquette County, Michigan, United States",
+      "lat": 46.65142,
+      "lng": -87.82236,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Silver Lake Dam, Michigan)",
+      "river_or_facility": "Dead River / Silver Lake Basin (FERC P-10855)",
+      "type": "spillway",
+      "category": "failure",
+      "causes": [
+        "spillway",
+        "foundation"
+      ],
+      "cause_summary": "A newly built fuse-plug emergency spillway activated then eroded far below design; FERC found the fuse-plug setting and erodible foundation channel unsuitable.",
+      "incident_date": "2003-05-14",
+      "latest_report_date": "2004-04-13",
+      "what_happened": "A newly built fuse-plug emergency spillway at Silver Lake activated on 14 May 2003 and then eroded far below design, draining most of the reservoir (about 25,300 acre-feet / ~9 billion gallons). Downstream Tourist Park Dam was overtopped and failed. Emergency action plans evacuated about 1,700–1,800 people; no one died. FERC found the fuse-plug setting and erodible foundation channel unsuitable.",
+      "status": "historical / Dead River project repaired; FERC EAP case study",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "about 1,700–1,800 evacuated; bridges lost; Presque Isle plant shut",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/silver-lake-dam-michigan-2003"
+        },
+        {
+          "label": "FERC project incident page PDF",
+          "url": "https://www.ferc.gov/sites/default/files/2020-04/proj-desdeadriver_0.pdf"
+        }
+      ],
+      "notes": "Fuse plug operated, then foundation erosion turned a designed sacrificial release into full reservoir loss.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "camara-2004-06-17",
+      "name": "Camará Dam",
+      "country": "Brazil",
+      "region": "Paraíba (Brejo / Alagoa Grande)",
+      "location_label": "Alagoa Grande, Paraíba, Brazil",
+      "lat": -7.02185,
+      "lng": -35.7765,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Camará Dam)",
+      "river_or_facility": "Camará / Mamanguape basin",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "poor_maintenance"
+      ],
+      "cause_summary": "A hole opened at the concrete–embankment contact; a state commission pointed to foundation-rock defects, and later federal courts held the State responsible for lack of maintenance.",
+      "incident_date": "2004-06-17",
+      "latest_report_date": "2024-06-17",
+      "what_happened": "The recently completed Camará Dam developed a hole at the concrete–embankment contact on the evening of 17 June 2004 and emptied into the Mamanguape, flooding Alagoa Grande, Areia, Mulungu and Alagoa Nova. A state commission pointed to foundation-rock defects; later federal courts held the State of Paraíba responsible for lack of maintenance. A second collapse occurred 11 days later. Five people died and about 3,000 were left homeless. The dam was later rebuilt as Nova Camará.",
+      "status": "historical / rebuilt and reinaugurated around 2016 as Nova Camará",
+      "deaths": 5,
+      "injured": null,
+      "affected_or_evacuated": "about 3,000 homeless; 227 residences completely destroyed in some tallies",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "G1 / Globo (20th anniversary)",
+          "url": "https://g1.globo.com/pb/paraiba/noticia/2024/06/17/20-anos-da-tragedia-de-camara-vitimas-relembram-perdas-causadas-por-rompimento-da-barragem-e-ainda-sentidas.ghtml"
+        },
+        {
+          "label": "G1 (TRF judgment)",
+          "url": "https://g1.globo.com/pb/paraiba/noticia/2013/01/trf-culpa-governo-da-paraiba-por-rompimento-de-barragem-de-camara.html"
+        }
+      ],
+      "notes": "Official later consensus is 5 deaths. Some early English lists said 3.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "shakidor-2005-02-10",
+      "name": "Shakidor (Shadi Kor) Dam",
+      "country": "Pakistan",
+      "region": "Balochistan (Pasni)",
+      "location_label": "Pasni, Balochistan, Pakistan",
+      "lat": 25.530278,
+      "lng": 63.415833,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Shadi Kaur Dam)",
+      "river_or_facility": "Shakidor / Shadi Kor irrigation dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "After extreme winter rain the roughly 150 m-long irrigation dam burst, sweeping villages toward the Arabian Sea.",
+      "incident_date": "2005-02-10",
+      "latest_report_date": "2005-02-13",
+      "what_happened": "After extreme winter rain, the roughly 150 m-long Shakidor irrigation dam near Pasni burst late on 10 February 2005. Floodwaters swept villages, vehicles and a highway toward the Arabian Sea. Provincial officials reported scores of recovered bodies and hundreds missing. The dam had been completed only in 2003.",
+      "status": "historical / coastal Balochistan flood disaster; reconstruction of local irrigation followed",
+      "deaths": 80,
+      "injured": null,
+      "affected_or_evacuated": "1,500+ rescued; 20,000–25,000 reported homeless in 35 villages",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2005/2/13/pakistan-rushes-relief-to-flooded-areas"
+        },
+        {
+          "label": "China Daily (AFP)",
+          "url": "https://www.chinadaily.com.cn/english/doc/2005-02/12/content_416211.htm"
+        }
+      ],
+      "notes": "Confirmed recovered bodies were reported as 60 then 80; Al Jazeera cited 135 bodies retrieved in Pasni–Turbat–Awaran and ~200 flood deaths province-wide. Hundreds remained missing. Deaths field uses the widely reported confirmed-body figure of 80.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "taum-sauk-2005-12-14",
+      "name": "Taum Sauk upper reservoir",
+      "country": "United States",
+      "region": "Missouri (Reynolds County)",
+      "location_label": "Reynolds County, Missouri, United States",
+      "lat": 37.535556,
+      "lng": -90.818056,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Taum Sauk Hydroelectric Power Station)",
+      "river_or_facility": "Taum Sauk Pumped Storage (FERC P-2277) / East Fork Black River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "structural_design"
+      ],
+      "cause_summary": "The upper reservoir rim was overtopped and breached during a pump-back cycle; FERC cited failed water-level instruments and an overtopping-vulnerable rockfill dike.",
+      "incident_date": "2005-12-14",
+      "latest_report_date": "2006-05-25",
+      "what_happened": "At about 05:20 on 14 December 2005 the northwest rim of AmerenUE’s Taum Sauk upper pumped-storage reservoir was overtopped and breached during a pump-back cycle. About 4,300 acre-feet drained in ~25–30 minutes through Johnson’s Shut-Ins State Park. Failed water-level instruments and an overtopping-vulnerable rockfill dike were principal causes (FERC staff and independent panel). Four people in the park superintendent’s family were injured; no one died.",
+      "status": "historical / upper reservoir rebuilt as RCC; FERC dam-safety landmark",
+      "deaths": 0,
+      "injured": 4,
+      "affected_or_evacuated": "Johnson’s Shut-Ins destroyed; Lesterville saw ~2 ft rise within banks",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "FERC incident page",
+          "url": "https://www.ferc.gov/dam-safety-and-inspections/taum-sauk-pumped-storage-project-p-2277-dam-breach-incident"
+        },
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/taum-sauk-dam-missouri-2005"
+        }
+      ],
+      "notes": "No fatalities. Repair/damage estimates have been cited up to about $1 billion.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "ka-loko-2006-03-14",
+      "name": "Ka Loko Dam",
+      "country": "United States",
+      "region": "Hawaii (Kauai)",
+      "location_label": "Kauai, Hawaii, United States",
+      "lat": 22.1775,
+      "lng": -159.3775,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Ka Loko Reservoir)",
+      "river_or_facility": "Ka Loko Reservoir / Wailapa Stream",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "spillway",
+        "poor_maintenance",
+        "foundation"
+      ],
+      "cause_summary": "The dam breached after weeks of rain; an independent investigation faulted a covered/missing spillway and failed state inspection, and later work also argued foundation sliding in weathered volcanic clay.",
+      "incident_date": "2006-03-14",
+      "latest_report_date": "2007-01-10",
+      "what_happened": "The century-old hydraulic-fill Ka Loko Dam on Kauai breached about 05:00 on 14 March 2006 after weeks of rain, releasing on the order of 325–400 million gallons down Wailapa Stream and over Kuhio Highway to the ocean. Seven people in a downstream valley home were killed. An independent civil investigation faulted a covered/missing spillway and failed state inspection; later geotechnical work also argued foundation sliding in weathered volcanic clay.",
+      "status": "historical / prompted Hawaii dam-safety reforms; reservoir not restored as before",
+      "deaths": 7,
+      "injured": null,
+      "affected_or_evacuated": "highway embankment and valley properties destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/ka-loko-dam-hawaii-2006"
+        },
+        {
+          "label": "Honolulu Advertiser (Godbey report)",
+          "url": "https://www.honoluluadvertiser.com/article/2007/Jan/10/ln/FP701100355.html"
+        }
+      ],
+      "notes": "ASDSO and state investigation: 7 fatalities.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "kingston-coal-ash-2008-12-22",
+      "name": "Kingston Fossil Plant coal-ash dike",
+      "country": "United States",
+      "region": "Tennessee (Roane County)",
+      "location_label": "Roane County, Tennessee, United States",
+      "lat": 35.914722,
+      "lng": -84.512222,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Kingston Fossil Plant coal-ash spill)",
+      "river_or_facility": "TVA Kingston fly-ash pond / Emory and Clinch Rivers",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "A coal-ash disposal dike failed, releasing about 5.4 million cubic yards of fly ash; the record does not state an established failure mechanism.",
+      "incident_date": "2008-12-22",
+      "latest_report_date": "2015-01-01",
+      "what_happened": "A dike at TVA’s Kingston coal-ash disposal cell failed about 01:00 on 22 December 2008, releasing about 5.4 million cubic yards of fly ash over ~300 acres into the Emory River system. Three homes were destroyed and a neighbourhood evacuated. EPA led a Superfund-style cleanup completed in 2015. There were no immediate deaths; later litigation concerned cleanup-worker illnesses.",
+      "status": "historical / cleanup complete 2015; coal-ash regulation nationwide tightened afterward",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "22 residents evacuated from adjacent neighbourhood",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "U.S. EPA",
+          "url": "https://www.epa.gov/tn/epa-response-kingston-tva-coal-ash-spill"
+        },
+        {
+          "label": "Tennessee Department of Health PHA",
+          "url": "https://www.tn.gov/content/dam/tn/health/documents/pha-e-TVA_Kingston_Fossil_Plant_Final.pdf"
+        }
+      ],
+      "notes": "Immediate deaths 0 (TDH/EPA). Subsequent worker-illness deaths from cleanup (tens of cases alleged) are litigated and not treated here as the incident death toll.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "situ-gintung-2009-03-27",
+      "name": "Situ Gintung Dam",
+      "country": "Indonesia",
+      "region": "Banten (Tangerang, Greater Jakarta)",
+      "location_label": "Tangerang, Banten, Indonesia",
+      "lat": -6.305,
+      "lng": 106.7625,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Situ Gintung)",
+      "river_or_facility": "Situ Gintung lake",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "The 1930s earthen dam collapsed after heavy rain; the record frames it as a classic urban-encroachment and maintenance case.",
+      "incident_date": "2009-03-27",
+      "latest_report_date": "2009-03-29",
+      "what_happened": "The 1930s Dutch-era earthen Situ Gintung dam on Jakarta’s outskirts collapsed about 02:00 on 27 March 2009 after heavy rain, sending a wall of water through a dense residential area while people slept. Hundreds of houses were swept away. Disaster officials reported a rapidly rising body count over three days of searches.",
+      "status": "historical / lake later remediated; classic urban-encroachment / maintenance case",
+      "deaths": 97,
+      "injured": null,
+      "affected_or_evacuated": "hundreds of houses destroyed in Cirendeu / Tangerang suburbs",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "RTÉ / AFP",
+          "url": "https://www.rte.ie/news/2009/0329/115696-indonesia/"
+        },
+        {
+          "label": "news.com.au (official quoted)",
+          "url": "https://www.news.com.au/breaking-news/dam-death-toll-rises-to-97/news-story/d2bc81fe62438667b561352dd304dbaf"
+        }
+      ],
+      "notes": "Disaster-centre official Rahmat Salam: 97 bodies by 29 March, with more than 100 still listed missing pending verification. Later summaries often round to about 100.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "lake-delhi-2010-07-24",
+      "name": "Lake Delhi Dam",
+      "country": "United States",
+      "region": "Iowa",
+      "location_label": "Delhi, Iowa, United States",
+      "lat": 42.407778,
+      "lng": -91.345278,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Delhi Dam)",
+      "river_or_facility": "Maquoketa River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "operational_gate",
+        "structural_design"
+      ],
+      "cause_summary": "After two days of record rain the dam was overtopped and the embankment breached; an independent panel cited hydrologic loading, an inoperable spillway gate and design issues.",
+      "incident_date": "2010-07-24",
+      "latest_report_date": "2011-06-01",
+      "what_happened": "After two days of record rain, Delhi Dam on the Maquoketa River was overtopped and the earthen embankment breached about 13:00 on 24 July 2010. An independent panel (requested via FEMA’s National Dam Safety Review Board) cited hydrologic loading, an inoperable spillway gate and design issues. Warnings and farmland attenuation meant no deaths. The lake was later rebuilt.",
+      "status": "historical / dam reconstructed; lake refilled about six years later",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "officials estimated ~8,000 affected; hundreds of homes/cabins evacuated",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "New York Times",
+          "url": "https://www.nytimes.com/2010/07/25/us/25dam.html"
+        },
+        {
+          "label": "ASDSO investigation summary",
+          "url": "https://damsafety.org/reference/summary-lake-delhi-dam-breach-investigation"
+        }
+      ],
+      "notes": "No deaths or injuries. Peak breach outflow estimated ~69,000 cfs.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "ajka-2010-10-04",
+      "name": "Ajka alumina red-mud reservoir (Kolontár)",
+      "country": "Hungary",
+      "region": "Veszprém County",
+      "location_label": "Kolontár / Ajka, Veszprém County, Hungary",
+      "lat": 47.088611,
+      "lng": 17.495833,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Ajka alumina plant accident)",
+      "river_or_facility": "MAL Ajkai Timföldgyár reservoir No. 10 / Torna–Marcal",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "foundation"
+      ],
+      "cause_summary": "The northwestern corner of red-mud reservoir No. 10 collapsed; a later court acquitted plant managers, citing undersoil instability.",
+      "incident_date": "2010-10-04",
+      "latest_report_date": "2016-01-28",
+      "what_happened": "The northwestern corner of red-mud reservoir No. 10 at the Ajka alumina plant collapsed at 12:25 on 4 October 2010, releasing about 1 million cubic metres of highly alkaline sludge into Kolontár, Devecser and nearby land. The spill reached the Danube on 7 October. Ten people died and about 150 were injured, many with chemical burns. A later court acquitted plant managers, citing undersoil instability.",
+      "status": "historical / villages partly demolished and rebuilt; Hungary’s worst industrial chemical dam disaster",
+      "deaths": 10,
+      "injured": 150,
+      "affected_or_evacuated": "Kolontár and Devecser flooded; ~40 km² initially affected",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2016/jan/28/outrage-plant-bosses-acquitted-fatal-toxic-spill-hungary"
+        },
+        {
+          "label": "Fondazione Stava summary",
+          "url": "https://www.stava1985.it/tailings-spill-disaster-in-ajka/?lang=en"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ajka_alumina_plant_accident"
+        }
+      ],
+      "notes": "Standard figure 10 dead, ~150 injured (some tallies of injured are higher, up to 400 including minor cases).",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "mount-polley-2014-08-04",
+      "name": "Mount Polley tailings storage facility",
+      "country": "Canada",
+      "region": "British Columbia",
+      "location_label": "Cariboo, British Columbia, Canada",
+      "lat": 52.513437,
+      "lng": -121.596309,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Mount Polley mine)",
+      "river_or_facility": "Mount Polley mine TSF / Hazeltine Creek / Quesnel Lake",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "structural_design"
+      ],
+      "cause_summary": "An independent expert panel found the design missed a weak glaciolacustrine foundation layer susceptible to undrained failure.",
+      "incident_date": "2014-08-04",
+      "latest_report_date": "2015-12-17",
+      "what_happened": "The Perimeter Embankment of the Mount Polley TSF failed in the early hours of 4 August 2014, releasing about 25 million cubic metres of water and tailings into Polley Lake, Hazeltine Creek and Quesnel Lake. An independent expert panel found the design missed a weak glaciolacustrine foundation layer susceptible to undrained failure. There were no human fatalities. It is Canada’s largest mine-waste disaster.",
+      "status": "historical / remediation ongoing for years; mine later sought to reuse/raise the facility under new rules",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "local state of emergency; drinking-water bans; salmon fishery closed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Government of British Columbia",
+          "url": "https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/health-safety/incident-information/incident-information/mount-polley-tailings-breach"
+        },
+        {
+          "label": "Independent Expert Panel report",
+          "url": "https://mountpolleyreviewpanel.ca/sites/default/files/report/ReportonMountPolleyTailingsStorageFacilityBreach.pdf"
+        }
+      ],
+      "notes": "No deaths. Volume often described as 25 million m³ (or 25 billion litres) of water plus tailings.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "fundao-mariana-2015-11-05",
+      "name": "Fundão tailings dam (Mariana / Samarco)",
+      "country": "Brazil",
+      "region": "Minas Gerais",
+      "location_label": "Mariana, Minas Gerais, Brazil",
+      "lat": -20.231389,
+      "lng": -43.4425,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Mariana dam disaster)",
+      "river_or_facility": "Samarco Germano complex / Gualaxo do Norte / Doce River",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "The Fundão tailings dam collapsed, releasing tens of millions of cubic metres of tailings; the record does not state an established failure mechanism.",
+      "incident_date": "2015-11-05",
+      "latest_report_date": "2025-11-14",
+      "what_happened": "The Fundão iron-ore tailings dam at Samarco’s Germano complex collapsed on 5 November 2015, releasing on the order of 32–50 million cubic metres of tailings. The flow destroyed Bento Rodrigues and damaged Paracatu de Baixo, then travelled more than 600 km down the Doce River to the Atlantic. Nineteen people were killed. Samarco is a Vale–BHP joint venture; a UK court in 2025 found BHP liable, with damages to be tried later.",
+      "status": "historical / Brazil’s worst environmental disaster; litigation and remediation continue as of 2026",
+      "deaths": 19,
+      "injured": 16,
+      "affected_or_evacuated": "Bento Rodrigues destroyed; 39 municipalities affected; ~1,265 left homeless in early returns",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Samarco",
+          "url": "https://www.samarco.com/collapse/?lang=en"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mariana_dam_disaster"
+        }
+      ],
+      "notes": "Official death toll 19. Released volume is cited as ~32 million m³ (Samarco) to ~50–60 million m³ (academic/media).",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "oroville-spillway-2017-02-07",
+      "name": "Oroville Dam service and emergency spillways",
+      "country": "United States",
+      "region": "California",
+      "location_label": "Oroville, California, United States",
+      "lat": 39.538889,
+      "lng": -121.485556,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Oroville Dam)",
+      "river_or_facility": "Feather River / Lake Oroville (DWR / FERC)",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "spillway",
+        "structural_design"
+      ],
+      "cause_summary": "The service-spillway chute slab failed under high discharge and emergency-spillway erosion threatened the weir; an Independent Forensic Team found no single root cause, citing long-standing design, geologic and organizational failures.",
+      "incident_date": "2017-02-07",
+      "latest_report_date": "2018-01-05",
+      "what_happened": "In February 2017, Oroville’s service-spillway chute slab failed under high discharge, forcing use of the unarmoured emergency spillway weir for the first time. Rapid headward erosion threatened the weir, prompting a 12 February evacuation order for about 188,000 people. There were no deaths. An Independent Forensic Team (Jan 2018) found no single root cause, citing long-standing design, geologic and organizational failures. Repairs cost about $1.1 billion.",
+      "status": "historical / spillways rebuilt; reservoir returned to service with repaired facilities",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "about 188,000 ordered to evacuate (12–14 Feb 2017)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO / IFT report PDF",
+          "url": "https://damsafety.org/sites/default/files/files/Independent%20Forensic%20Team%20Report%20Final%2001-05-18.pdf"
+        },
+        {
+          "label": "California DWR Forensic Team page",
+          "url": "https://water.ca.gov/Programs/State-Water-Project/SWP-Facilities/Oroville/Oroville-Spillways/Forensic-Team"
+        },
+        {
+          "label": "ASDSO case study",
+          "url": "https://damfailures.org/case-study/oroville-dam-california-2017"
+        }
+      ],
+      "notes": "Main chute damage recognized 7 Feb; emergency-spillway use 11 Feb; evacuation 12 Feb. No fatalities.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "hidroituango-2018-04-28",
+      "name": "Hidroituango construction emergency",
+      "country": "Colombia",
+      "region": "Antioquia (Cauca River)",
+      "location_label": "Ituango, Antioquia, Colombia",
+      "lat": 7.130567,
+      "lng": -75.663528,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Ituango Dam)",
+      "river_or_facility": "Hidroituango / Cauca River (EPM)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "landslide"
+      ],
+      "cause_summary": "Landslides blocked unfinished diversion tunnels, forcing flooding of the powerhouse and a later flash flood when a sealed tunnel unblocked; the dam wall itself did not fail.",
+      "incident_date": "2018-04-28",
+      "latest_report_date": "2018-06-06",
+      "what_happened": "Landslides in April–May 2018 blocked Hidroituango diversion tunnels while the dam was unfinished, forcing EPM to flood the powerhouse on 10 May to relieve pressure. On 12 May a sealed tunnel unblocked, sending a flash flood that destroyed 59 homes, a school and a health centre in Puerto Valdivia. Tens of thousands were evacuated amid collapse warnings. The dam did not fail; the project was later completed after long delay.",
+      "status": "historical / project eventually entered operation; downstream communities remain a residual-risk case",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "about 24,000–26,000 evacuated; 113,000 potentially at risk if the dam had failed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/world-latin-america-44302566"
+        },
+        {
+          "label": "IFRC/ReliefWeb DREF final report",
+          "url": "https://reliefweb.int/report/colombia/colombia-risk-avalanche-and-floods-emergency-plan-action-epoa-final-report-mdrco015"
+        }
+      ],
+      "notes": "Included as a serious incident, not a dam-wall failure. No mass-casualty flood deaths from the 2018 emergencies.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "patel-solai-2018-05-09",
+      "name": "Patel (Solai) Dam",
+      "country": "Kenya",
+      "region": "Nakuru County (Solai)",
+      "location_label": "Solai, Nakuru County, Kenya",
+      "lat": -0.097222,
+      "lng": 36.145833,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Patel Dam failure)",
+      "river_or_facility": "private Patel farm embankment dams",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "A private earthen dam burst after weeks of heavy rain; Kenya’s water regulator said the dams lacked permits.",
+      "incident_date": "2018-05-09",
+      "latest_report_date": "2018-05-15",
+      "what_happened": "A private earthen dam on a commercial flower farm at Solai burst on the evening of 9 May 2018 after weeks of heavy rain, sending a wide, shallow flood through settlements for about 10 km. Kenya’s water regulator said the dams lacked permits. By 15 May police said 48 bodies had been recovered and previously listed missing people were accounted for.",
+      "status": "historical / criminal/administrative investigations into illegal construction; other farm dams ordered drained",
+      "deaths": 48,
+      "injured": null,
+      "affected_or_evacuated": "more than 2,000 reported homeless",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Thomson Reuters Foundation",
+          "url": "https://news.trust.org/item/20180511074323-318r2"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/world-africa-44082423"
+        },
+        {
+          "label": "SABC / AFP",
+          "url": "https://www.sabcnews.com/sabcnews/kenya-dam-disaster-toll-at-48-with-all-missing-accounted-for/"
+        }
+      ],
+      "notes": "Final official recovered-body count 48.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "xe-pian-xe-namnoy-2018-07-23",
+      "name": "Xe-Pian Xe-Namnoy Saddle Dam D",
+      "country": "Laos",
+      "region": "Champasak / Attapeu (Sanamxay)",
+      "location_label": "Sanamxay, Attapeu, Laos",
+      "lat": 15.008056,
+      "lng": 106.563611,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (2018 Laos dam collapse)",
+      "river_or_facility": "Xe-Pian Xe-Namnoy hydropower / Xe Pian",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Unfinished Saddle Dam D collapsed after rain and reported cracking, flooding villages in Sanamxay district and into Cambodia.",
+      "incident_date": "2018-07-23",
+      "latest_report_date": "2019-01-29",
+      "what_happened": "Saddle Dam D of the unfinished Xe-Pian Xe-Namnoy hydropower complex collapsed on the night of 23 July 2018 after rain and reported cracking, flooding villages in Sanamxay district and into Cambodia. The Lao government later treated 71 people as dead or missing and ordered $10,000 compensation per victim. Early official counts were much lower; NGOs said the true toll may be higher.",
+      "status": "historical / villages displaced for years; developer consortium held accountable for compensation",
+      "deaths": 71,
+      "injured": null,
+      "affected_or_evacuated": "more than 4,000–7,000 displaced; 13–19 villages affected",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Xinhua (compensation / official 71)",
+          "url": "https://www.xinhuanet.com/english/2019-01/29/c_137783946.htm"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/world-asia-44971342"
+        },
+        {
+          "label": "International Rivers report",
+          "url": "https://www.internationalrivers.org/wp-content/uploads/sites/86/2020/06/reckless_endangerment_final_for_web-compressed.pdf"
+        }
+      ],
+      "notes": "Official final figure used for compensation: 71 (49 confirmed dead + 22 missing). Early Reuters/government figures were 19–34 confirmed.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "brumadinho-2019-01-25",
+      "name": "Córrego do Feijão Dam I (Brumadinho)",
+      "country": "Brazil",
+      "region": "Minas Gerais",
+      "location_label": "Brumadinho, Minas Gerais, Brazil",
+      "lat": -20.119722,
+      "lng": -44.121389,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Brumadinho dam disaster)",
+      "river_or_facility": "Vale Córrego do Feijão mine tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "tailings_liquefaction"
+      ],
+      "cause_summary": "Static liquefaction of the upstream-raised tailings is the accepted mechanism for the collapse of Vale’s Dam I at Córrego do Feijão.",
+      "incident_date": "2019-01-25",
+      "latest_report_date": "2022-01-01",
+      "what_happened": "Vale’s Dam I at the Córrego do Feijão iron mine collapsed on 25 January 2019, releasing a mudflow that buried the mine offices and cafeteria at lunchtime and ran downstream through houses and farms. Static liquefaction of the upstream-raised tailings is the accepted mechanism. The official toll was later consolidated at 270 dead. It occurred 3 years after Fundão, which Vale also co-owned via Samarco.",
+      "status": "historical / criminal and civil cases continue; Brazilian tailings-policy turning point",
+      "deaths": 270,
+      "injured": null,
+      "affected_or_evacuated": "mine complex and downstream rural properties destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/brazils-vale-fined-17-mln-brumadinho-tailings-dam-disaster-2022-08-15/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brumadinho_dam_disaster"
+        }
+      ],
+      "notes": "270 is the consolidated official figure (earlier 259 confirmed + 11 missing).",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "spencer-2019-03-14",
+      "name": "Spencer Dam",
+      "country": "United States",
+      "region": "Nebraska",
+      "location_label": "Spencer, Nebraska, United States",
+      "lat": 42.809,
+      "lng": -98.6564,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Spencer Dam)",
+      "river_or_facility": "Niobrara River (NPPD)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Spencer Dam failed during a major flood and ice run associated with Winter Storm Ulmer; an ASDSO panel later examined ice-run failure modes and organizational factors.",
+      "incident_date": "2019-03-14",
+      "latest_report_date": "2020-04-21",
+      "what_happened": "Spencer Dam failed in the early hours of 14 March 2019 during a major flood and ice run associated with Winter Storm Ulmer. The embankment breached in two places (about 650 ft and 800 ft). One person living just downstream was killed as the house washed away before operators could complete a warning. An independent ASDSO panel (April 2020) examined ice-run failure modes and organizational factors.",
+      "status": "historical / not rebuilt as before; ASDSO investigation is the definitive public report",
+      "deaths": 1,
+      "injured": null,
+      "affected_or_evacuated": "downstream structures and bridges destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO investigation news",
+          "url": "https://damsafety.org/content/spencer-dam-failure-investigation-provides-lessons-engineers-and-dam-professionals"
+        },
+        {
+          "label": "ASDSO incident record",
+          "url": "https://damsafety.org/incidents/ne00628-3328"
+        }
+      ],
+      "notes": "ASDSO incident database: 1 fatality; volume released ~16,487 acre-feet.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "tiware-2019-07-02",
+      "name": "Tiware (Tivare) Dam",
+      "country": "India",
+      "region": "Maharashtra (Ratnagiri)",
+      "location_label": "Chiplun, Maharashtra, India",
+      "lat": 17.600043,
+      "lng": 73.694721,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Tiware dam failure)",
+      "river_or_facility": "Tiware irrigation dam, Chiplun taluk",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The small earth dam breached after heavy monsoon rain; villagers said cracks had been reported the previous year.",
+      "incident_date": "2019-07-02",
+      "latest_report_date": "2019-07-06",
+      "what_happened": "The small Tiware earth dam in Ratnagiri district breached about 21:30 on 2 July 2019 after heavy monsoon rain, flooding at least seven downstream villages. Villagers said cracks had been reported in 2018. A roughly 100 m section of the 308 m dam washed away. Maharashtra’s chief minister ordered a Special Investigation Team. Search teams recovered 19 bodies; four people were still listed missing days later.",
+      "status": "historical / SIT probe ordered; small-irrigation-tank safety review in Maharashtra",
+      "deaths": 19,
+      "injured": null,
+      "affected_or_evacuated": "seven villages flooded; about 12 houses washed away",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/city/pune/sit-to-probe-tivare-dam-collapse-tragedy-maharashtra-govt/articleshow/70107805.cms"
+        },
+        {
+          "label": "NDTV",
+          "url": "https://www.ndtv.com/india-news/mumbai-rains-maharashtra-dam-breach-kills-2-more-than-20-still-missing-2063093"
+        }
+      ],
+      "notes": "Recovered-body count 19; four still missing in early July 2019 reports. Some lists use 23 (19+4 missing).",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "edenville-sanford-2020-05-19",
+      "name": "Edenville and Sanford Dams",
+      "country": "United States",
+      "region": "Michigan (Gladwin / Midland counties)",
+      "location_label": "Gladwin County, Michigan, United States",
+      "lat": 43.8141,
+      "lng": -84.3765,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Edenville Dam)",
+      "river_or_facility": "Tittabawassee / Tobacco rivers (Boyce Hydro)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "foundation"
+      ],
+      "cause_summary": "After days of rain, Edenville failed by static liquefaction of loose sands and the flood then overtopped and failed Sanford Dam downstream.",
+      "incident_date": "2020-05-19",
+      "latest_report_date": "2022-05-04",
+      "what_happened": "After days of rain, Edenville Dam’s earthen embankment failed on 19 May 2020 by static liquefaction of loose sands (Independent Forensic Team, 2022). The flood then overtopped and failed Sanford Dam downstream. More than 10,000–11,000 people were evacuated during COVID-19; about 2,500 structures were damaged. No one was killed. FERC had revoked Edenville’s hydropower license in 2018 over spillway-capacity non-compliance, leaving the dam under state regulation.",
+      "status": "historical / IFT called the failure foreseeable and preventable; reconstruction/ownership later transferred",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "about 11,000 evacuated; 2,500 structures damaged",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Michigan EGLE",
+          "url": "https://www.michigan.gov/egle/about/organization/water-resources/dam-safety/edenville-sanford"
+        },
+        {
+          "label": "ASDSO Dam Failures",
+          "url": "https://damfailures.org/case-study/edenville-dam-michigan-2020"
+        }
+      ],
+      "notes": "No fatalities. Edenville failed first; Sanford failed by overtopping from the Edenville release.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "rishiganga-tapovan-2021-02-07",
+      "name": "Rishiganga and Tapovan hydropower works (Chamoli flood)",
+      "country": "India",
+      "region": "Uttarakhand (Chamoli)",
+      "location_label": "Chamoli, Uttarakhand, India",
+      "lat": 30.494139,
+      "lng": 79.627528,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Tapovan Vishnugad Hydropower Plant)",
+      "river_or_facility": "Rishiganga / Dhauliganga / Tapovan Vishnugad",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "landslide"
+      ],
+      "cause_summary": "A rock-and-ice avalanche from Ronti Peak generated a debris flood that destroyed the hydropower works; the record states this was not a classic overtopping or piping failure.",
+      "incident_date": "2021-02-07",
+      "latest_report_date": "2021-05-01",
+      "what_happened": "A rock-and-ice avalanche from Ronti Peak on 7 February 2021 generated a debris flood that washed away the 13.2 MW Rishiganga project and heavily damaged NTPC’s under-construction Tapovan Vishnugad works, trapping labourers in a tunnel. This was destruction of dams by an extreme geomorphic flood, not a classic overtopping or piping failure. Most victims were project workers. By May 2021 authorities had recovered 83 bodies and 36 body parts from 204 people listed missing.",
+      "status": "historical / projects destroyed or severely damaged; Himalayan cascade-hydropower risk case",
+      "deaths": 83,
+      "injured": 6,
+      "affected_or_evacuated": "Raini/Lata area and 13 villages cut off when a bridge washed out; 204 listed missing at peak",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/environment/india-glacier-avalanche-leaves-18-dead-more-than-200-missing-2021-02-08/"
+        },
+        {
+          "label": "Government of India NDM document",
+          "url": "https://ndmindia.mha.gov.in/ndmi/viewUploadedDocument?uid=NEW225"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2021_Uttarakhand_flood"
+        }
+      ],
+      "notes": "Deaths field uses recovered bodies (83 as of May 2021). Combined dead and missing is about 200. Not a structural dam-break; included because both hydropower dams were destroyed.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "jagersfontein-2022-09-11",
+      "name": "Jagersfontein tailings dam",
+      "country": "South Africa",
+      "region": "Free State",
+      "location_label": "Jagersfontein, Free State, South Africa",
+      "lat": -29.765278,
+      "lng": 25.418889,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Jagersfontein Mine)",
+      "river_or_facility": "Jagersfontein diamond tailings reprocessing dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "A diamond-tailings dam failed, releasing more than 6 million m³ of sludge; the record does not state an established failure mechanism.",
+      "incident_date": "2022-09-11",
+      "latest_report_date": "2024-01-01",
+      "what_happened": "A diamond-tailings dam at Jagersfontein failed about 06:00 on 11 September 2022, releasing more than 6 million m³ of sludge that destroyed houses and about 1,600 ha of land. The facility had been shut in 2020 over high water levels and allowed to resume in 2021. Provincial officials confirmed one death and about 40 injured; two people were later still listed missing. Academic reconstruction cites two dead and one missing.",
+      "status": "historical / operations halted; highlighted patchy tailings regulation in South Africa",
+      "deaths": 1,
+      "injured": 40,
+      "affected_or_evacuated": "nearly 200 houses smothered; 160+ residents displaced",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/africa/south-africa-mine-dam-wall-collapses-killing-three-injuring-40-2022-09-11/"
+        },
+        {
+          "label": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2022-09-26-rebuilding-of-houses-begins-after-free-state-mine-tragedy-search-and-recovery-mission-continues/"
+        }
+      ],
+      "notes": "Official confirmed death toll remained 1 (Mr Mosweu) with two missing in late September 2022. A 2024 academic paper states two died and one remained missing.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "kakhovka-2023-06-06",
+      "name": "Kakhovka Dam",
+      "country": "Ukraine",
+      "region": "Kherson Oblast",
+      "location_label": "Nova Kakhovka, Kherson Oblast, Ukraine",
+      "lat": 46.776111,
+      "lng": 33.371667,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Kakhovka Dam)",
+      "river_or_facility": "Dnipro River / Kakhovka HPP",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "war_attack"
+      ],
+      "cause_summary": "The dam was destroyed during the Russia–Ukraine war; responsibility for the blast remains contested, and the record treats it as wartime destruction rather than a peacetime engineering failure.",
+      "incident_date": "2023-06-06",
+      "latest_report_date": "2023-10-16",
+      "what_happened": "The Kakhovka Dam was destroyed in the early hours of 6 June 2023 during the Russia–Ukraine war, releasing more than 14–18 km³ of reservoir water. Downstream communities in Kherson and Mykolaiv oblasts flooded on both banks; upstream areas lost water supply. A UN-supported PDNA for government-controlled areas recorded 31 dead, 28 injured and 41 missing as of 17 July, with 2,783 evacuated. Russian-installed officials separately reported 59 deaths. Responsibility for the blast remains contested.",
+      "status": "historical / dam and hydropower plant destroyed; reservoir largely emptied; reconstruction not complete as of 2026",
+      "deaths": 31,
+      "injured": 28,
+      "affected_or_evacuated": "~100,000 residents directly impacted; up to 1 million lost drinking-water access",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "UN OCHA Flash Update #8",
+          "url": "https://www.unocha.org/publications/report/ukraine/ukraine-humanitarian-impact-and-response-flash-update-8-destruction-kakhovka-dam-22-jun-2023-enuk"
+        },
+        {
+          "label": "Ukraine PDNA (UN / government)",
+          "url": "https://ukraine.un.org/sites/default/files/2023-10/PDNA%20Final%20and%20Cleared%20-%2016Oct.pdf"
+        }
+      ],
+      "notes": "Deaths field uses Ukrainian/PDNA figure of 31 in government-controlled areas. Russian-installed authorities reported 59. Local accounts from occupied Oleshky alleged hundreds. Cause: wartime destruction, not a peacetime engineering failure.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "derna-dams-2023-09-10",
+      "name": "Abu Mansur (Bu Mansour) and Derna / Al-Bilad Dams",
+      "country": "Libya",
+      "region": "Derna District",
+      "location_label": "Derna District, Libya",
+      "lat": 32.6594,
+      "lng": 22.5772,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Abu Mansour Dam, Wadi Derna)",
+      "river_or_facility": "Wadi Derna",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Storm Daniel dropped extreme rain that failed the two 1970s dams in cascade; the record states the dams had documented maintenance neglect.",
+      "incident_date": "2023-09-10",
+      "latest_report_date": "2024-01-01",
+      "what_happened": "Storm Daniel dropped extreme rain on northeastern Libya on 10 September 2023. The upstream 75 m Abu Mansur dam failed first, then the downstream Derna (Al-Bilad) dam, releasing on the order of 30 million cubic metres through the city of Derna. The 1970s Yugoslav-built dams had documented maintenance neglect. WMO said most deaths were avoidable with warnings. Official Libyan figures later cited 4,540 dead and 3,297 missing; earlier Red Crescent/UN figures exceeded 11,000.",
+      "status": "historical / Derna partly destroyed; investigations into maintenance funds and warnings ongoing",
+      "deaths": 4540,
+      "injured": null,
+      "affected_or_evacuated": "large part of Derna destroyed; thousands of buildings damaged",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/libya-derna-dams-collapse-floods-corruption-neglect-chaos-45f76d2ac76be634865539a27b518ada"
+        },
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2023/9/18/libya-floods-conflicting-death-tolls-greek-aid-workers-die-in-crash"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Derna_dam_collapses"
+        }
+      ],
+      "notes": "Deaths field uses later official government figure 4,540. WHO/OCHA later cited about 3,958. Libyan Red Crescent briefly 11,300. Mayor speculated 18,000–20,000. Second-deadliest dam disaster after Banqiao on most rankings.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "arbaat-2024-08-24",
+      "name": "Arbaat Dam",
+      "country": "Sudan",
+      "region": "Red Sea State (Port Sudan)",
+      "location_label": "Arbaat, Red Sea State, Sudan",
+      "lat": 19.804,
+      "lng": 36.927,
+      "geo_accuracy": "approx",
+      "geo_source": "Khor Arbaat Dam well field (Ali et al. hydrogeology paper)",
+      "river_or_facility": "Arbaat Dam, ~40 km northwest of Port Sudan",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The dam collapsed after extreme rain, emptying the reservoir into downstream villages; the civil war is noted as complicating aid, not as the failure mechanism.",
+      "incident_date": "2024-08-24",
+      "latest_report_date": "2024-08-27",
+      "what_happened": "The Arbaat Dam, a main freshwater source for Port Sudan, collapsed on the evening of 24 August 2024 after extreme rain, emptying the reservoir into downstream villages. The UN said at least 20 villages were wiped out and at least 30 people were dead, with many more likely. First responders reported 150–200 missing, including gold miners. The collapse occurred during Sudan’s civil war, complicating aid.",
+      "status": "historical / Port Sudan water supply threatened; access constrained by war and washed-out roads",
+      "deaths": 30,
+      "injured": null,
+      "affected_or_evacuated": "houses of about 50,000 people impacted (UN); 20 villages destroyed",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/africa/dozens-feared-dead-after-dam-bursts-eastern-sudan-2024-08-26/"
+        },
+        {
+          "label": "The Guardian / Reuters",
+          "url": "https://www.theguardian.com/world/article/2024/aug/26/flood-surge-in-sudan-bursts-dam-destroying-villages-and-killing-dozens"
+        }
+      ],
+      "notes": "Deaths field uses the UN/Reuters confirmed minimum of 30. Wikipedia and later compilations cite 148+; those higher totals were not independently confirmed in the contemporaneous UN/Reuters reporting used here.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "historical"
+    },
+    {
+      "id": "gedzhukh-dam-2026-04-05",
+      "name": "Gedzhukh (Gejukh) Reservoir dam",
+      "country": "Russia",
+      "region": "Derbent District, Republic of Dagestan",
+      "location_label": "Derbent District, Dagestan, Russia",
+      "lat": 42.129715,
+      "lng": 48.028067,
+      "geo_accuracy": "exact",
+      "geo_source": "Yandex Maps (Gedzhukhskoye vodokhranilishche)",
+      "river_or_facility": "Gedzhukh / Gejukh Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "After extreme Caspian-cyclone rainfall the earthen dam gave way; a criminal case was opened over maintenance, and prosecutors said the operator had not ensured safe operation.",
+      "incident_date": "2026-04-05",
+      "latest_report_date": "2026-04-14",
+      "what_happened": "After extreme Caspian-cyclone rainfall, the earthen dam of the Gedzhukh (Gejukh) Reservoir in Derbent District gave way on 5 April 2026 (RIA Novosti; some later court/investigative copy says 6 April). Water hit Mamedkala and nearby settlements including Yuny Pakhar, Gejuk and Kala. RIA, quoting Head of Dagestan Sergey Melikov, said more than 4,000 people were evacuated in that district and a criminal case was opened over the dam's maintenance. Meduza reported the dam had been listed potentially hazardous since 2006, with only partial 2014 repairs, and that EMERCOM's republic-wide flood death figure was 6 while media tallies reached at least 7. Izvestia and Caucasian Knot said the Investigative Committee confirmed 4 deaths in Derbent District, including people in vehicles washed off the highway/canal after the dam burst. Prosecutors later said the operator had not ensured safe operation; company officials were detained or placed under house arrest.",
+      "status": "Dam breached in April 2026; criminal investigation of operator officials ongoing as of mid-April reporting. Broader Dagestan flood emergency was described as stabilising by 7–9 April.",
+      "deaths": 4,
+      "injured": null,
+      "affected_or_evacuated": "More than 4,000 evacuated in Derbent District; Melikov said more than 6,200 people were affected by Dagestan floods overall",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "RIA Novosti (14 Apr 2026)",
+          "url": "https://ria.ru/20260414/dagestan-2087045539.html"
+        },
+        {
+          "label": "Meduza (9 Apr 2026)",
+          "url": "https://meduza.io/en/feature/2026/04/09/floods-in-russia-s-dagestan-have-affected-thousands-experts-say-the-disaster-reflects-not-just-extreme-weather-but-deep-infrastructure-failures"
+        },
+        {
+          "label": "Izvestia",
+          "url": "https://iz.ru/en/node/2073911"
+        },
+        {
+          "label": "Caucasian Knot",
+          "url": "https://www.eng.kavkaz-uzel.eu/articles/74529"
+        }
+      ],
+      "notes": "deaths=4 is the Investigative Committee Derbent-district confirmation after the dam burst, not the higher republic-wide flood totals (6 official / 7–8 media). Incident day is 5 April in RIA; some later legal copy uses 6 April.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "bucks-pond-dam-2026-04-13",
+      "name": "Buck's Pond Dam",
+      "country": "United States",
+      "region": "Barton City, Alcona County, Michigan",
+      "location_label": "Barton City, Michigan, United States",
+      "lat": 44.6985,
+      "lng": -83.69446,
+      "geo_accuracy": "exact",
+      "geo_source": "USACE NID / DamLookup MI00563",
+      "river_or_facility": "Buck's Pond / Comstock Creek (to Hubbard Lake)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "spillway",
+        "operational_gate"
+      ],
+      "cause_summary": "The dam failed amid rain-and-snowmelt flooding; EGLE later said stoplogs left in place reduced spillway capacity, after first stating the failure mechanism was not immediately clear.",
+      "incident_date": "2026-04-13",
+      "latest_report_date": "2026-06-15",
+      "what_happened": "Michigan EGLE said it was notified on the night of 13 April 2026 that the privately owned, low-hazard Buck's Pond Dam near Barton City had failed amid northern Michigan rain-and-snowmelt flooding. Detroit News reporting republished by the USA TODAY Network said the ~94-year-old structure burst about 20:00, drained the pond, destroyed the gravel road over the dam, and sent water north down Comstock Creek toward Hubbard Lake. EGLE dam-safety chief Luke Trumble said downstream consequences appeared limited (trail, channel and floodplain) and that the failure mechanism was not immediately clear. Owner is the Lakes in the Green Association; last inventory inspection cited was August 2017, then rated satisfactory. In June 2026 EGLE issued a violation notice, saying stoplogs left in place reduced spillway capacity and citing several NREPA sections. No injuries were reported in the accounts fetched.",
+      "status": "Dam failed and pond drained. EGLE violation notice issued by mid-June 2026; rebuild/funding unresolved in April owner comments.",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "Pond and local gravel road destroyed; no significant downstream life-safety threat per EGLE",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "MLive (EGLE)",
+          "url": "https://www.mlive.com/environment/2026/04/small-dam-fails-in-alcona-county-amid-widespread-flooding.html"
+        },
+        {
+          "label": "Detroit News via USA TODAY Network / Blue Water Healthy Living",
+          "url": "https://bluewaterhealthyliving.com/news/local-news/michigan/northern-michigan-lake-drained-after-dam-failure-in-alcona-county/"
+        },
+        {
+          "label": "WCMU Public Media (EGLE violations)",
+          "url": "https://www.wcmu.org/local-regional-news/2026-06-15/state-regulators-cite-ne-michigan-dam-for-violations"
+        }
+      ],
+      "notes": "One of five April 2026 Michigan dam failures EGLE enumerated to MLive. Sister failures (Mavraganis; Atlanta campground; two Seney NWR embankments) lacked dedicated articles retrieved for full records.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "cement-lake-dam-2026-04-23",
+      "name": "Cement Lake Dam (Portland Reservoir)",
+      "country": "United States",
+      "region": "West El Paso, Texas",
+      "location_label": "West El Paso, Texas, United States",
+      "lat": 31.80344,
+      "lng": -106.53388,
+      "geo_accuracy": "exact",
+      "geo_source": "USGS GNIS (Portland Cement Dam)",
+      "river_or_facility": "Cement Lake / Portland Reservoir (spring-fed; pump-down toward Rio Grande culverts)",
+      "type": "reservoir_dam",
+      "category": "watch",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "This is a watch, not a confirmed failure: engineers saw slow slope failures, embankment movement and seepage consistent with a possible breach before the dam was stabilised.",
+      "incident_date": "2026-04-23",
+      "latest_report_date": "2026-04-26",
+      "what_happened": "El Paso Water, which acquired Cement Lake and about 300 acres from TxDOT in late March 2026, issued urgent updates on 23 April 2026 after engineers saw slow slope failures, slight embankment movement and seepage — indicators it said were consistent with a possible breach. Personnel were pulled to higher ground; USACE advisers were brought in; pumping began and roads including approaches toward Doniphan and Paisano were closed. EPWater said nearby homes sit on higher ground and were not expected to flood. KVIA's 26 April update quoted CEO John Balliew that crews had 'a very close call with a near-dam collapse' but had stabilised the dam and the risk was then 'very low' after as many as 16 pumps lowered the lake about 17 feet; earthwork on the compromised section resumed 25 April after being halted late on the 23rd when the section had 'already shown signs of breaching'. The lake area stayed closed to the public while long-term repairs were planned. No casualties were reported.",
+      "status": "Stabilised as of 26 April 2026; roads reopened; lake area closed to the public; utility shifted from emergency response to a long-term repair plan. Not a completed breach.",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "Road closures only; nearby homes not expected to be inundated (EPWater)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "El Paso Water (23 Apr 2026 urgent update)",
+          "url": "https://www.epwater.org/about-us/newsroom/epwater-issues-urgent-update-on-cement-lake-dam-conditions"
+        },
+        {
+          "label": "El Paso Water (23 Apr 2026 statement)",
+          "url": "https://www.epwater.org/about-us/newsroom/epwater-statement-on-potential-risk-of-dam-breach-in-west-el-paso"
+        },
+        {
+          "label": "KVIA",
+          "url": "https://kvia.com/news/top-stories/2026/04/23/el-paso-water-continues-monitoring-potential-breach-at-cement-lake/"
+        }
+      ],
+      "notes": "Near-failure / watch, not a completed dam break.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "dudhkumar-dyke-2026-06-29",
+      "name": "Dudhkumar river protection dyke (Muriarhat)",
+      "country": "Bangladesh",
+      "region": "Bamandanga union, Nageshwari upazila, Kurigram",
+      "location_label": "Nageshwari, Kurigram, Bangladesh",
+      "lat": 25.9792,
+      "lng": 89.7083,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Nageshwari Upazila; Bamandanga / Muriarhat)",
+      "river_or_facility": "Dudhkumar River protection dyke, Muriarhat / Adarshapara",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Nearly 40 metres of river-protection dyke collapsed as the Dudhkumar ran 22 cm above its danger level, and floodwater entered villages through the gap.",
+      "incident_date": "2026-06-29",
+      "latest_report_date": "2026-07-05",
+      "what_happened": "The Daily Star of 30 June 2026 reported that nearly 40 metres of Dudhkumar river-protection dyke collapsed late the previous night (29 June; a farmer quoted the paper said Monday night) at Muriarhat in Bamandanga union, Nageshwari, Kurigram, as the river ran 22 cm above its 29.60 m danger level at Pateshwari. BWDB executive engineer Rakibul Hasan said floodwater entered villages through the gap; the Bamandanga Union Parishad chairman said at least eight villages and about 5,000 families were stranded. A farmer said water entered around 250 households. BWDB prepared bamboo piling and sand-filled geobags. A 5 July Daily Star follow-up said water was receding and BWDB had started placing geobags on an unfinished 300-metre stretch of a 3,100-metre right-bank embankment delayed by land acquisition. No death toll for the dyke breach was given in those articles.",
+      "status": "Temporary geobag closure reported by 5 July 2026; permanent completion of the remaining 300 m section planned after floodwater fully receded.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "About 5,000 families stranded in Bamandanga union (union chairman); ~250 households in Muriarhat (resident); wider Rangpur-region floods left more than 20,000 families stranded",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "The Daily Star (30 Jun 2026)",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/dudhkumar-dyke-collapse-worsens-flood-situation-kurigram-4211971"
+        },
+        {
+          "label": "The Daily Star (5 Jul 2026)",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/flood-situation-improves-kurigram-dudhkumar-water-recedes-4212951"
+        }
+      ],
+      "notes": "Monday 29 June 2026 is the incident night implied by the 30 June article and a resident quote. Regional 20,000-family figure is basin-wide flooding, not only this breach.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "liulan-reservoir-2026-07-06",
+      "name": "Liulan (六蓝) Reservoir",
+      "country": "China",
+      "region": "Hengzhou, Nanning, Guangxi Zhuang Autonomous Region",
+      "location_label": "Hengzhou, Guangxi, China",
+      "lat": 22.9515,
+      "lng": 109.2605,
+      "geo_accuracy": "exact",
+      "geo_source": "Chinese Wikipedia (六蓝水库)",
+      "river_or_facility": "Liulan Reservoir (Xiaoyi Town / Liulan village); discharge toward Yunbiao River / Yujiang",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Typhoon Maysak rain caused Liulan Reservoir to overtop and breach on 6 July 2026.",
+      "incident_date": "2026-07-06",
+      "latest_report_date": "2026-07-09",
+      "what_happened": "Typhoon Maysak rain caused Liulan Reservoir in Hengzhou to overtop and breach on 6 July 2026. Nanning raised flood-control emergency response to Level I; CCTV video showed a large release through the dam breach. At a 9 July news conference, Nanning Vice-Mayor Ding Wei said the Liulan breach had caused 26 deaths (5 then unidentified) and 7 people missing, while Guangxi overall had 39 dead and 9 missing — figures that could overlap pending DNA identification. Deputy water-resources director Zhai Jianjia said Liulan water had fallen below dam-foundation rock, the breach and discharge had largely stabilised, and crest access was restored that morning for dredging. Nanning reported 64,500 people evacuated or resettled by 11:00 on 9 July (54,500 in Hengzhou; 9,321 in Binyang).",
+      "status": "Breach and downstream discharge reported largely stable as of 9 July 2026; search, identification, resettlement and a later State Council investigation were reported in subsequent Chinese coverage.",
+      "deaths": 26,
+      "injured": null,
+      "affected_or_evacuated": "64,500 evacuated/resettled across Nanning as of 9 July (54,500 Hengzhou); 7 missing attributed to the Liulan breach at the same briefing",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "China Daily (9 Jul 2026)",
+          "url": "https://www.chinadaily.com.cn/a/202607/09/WS6a4fbbb7a310986e2b464771.html"
+        },
+        {
+          "label": "The Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/hundreds-evacuated-dams-breached-as-heavy-rain-batters-south-china"
+        },
+        {
+          "label": "China Daily (8 Jul 2026)",
+          "url": "https://www.chinadaily.com.cn/a/202607/08/WS6a4dfceca310986e2b4642ed.html"
+        },
+        {
+          "label": "Jiemian (Nanning briefing)",
+          "url": "https://m.jiemian.com/article/14730071.html"
+        }
+      ],
+      "notes": "Official 26 deaths is the Liulan-attributed figure from the 9 July Nanning briefing; regional Guangxi total was 39 dead / 9 missing and may overlap. Nearby Yunbiao (breach) and Liuwang (overtopping) are separate records.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "liuwang-reservoir-2026-07-06",
+      "name": "Liuwang (六旺) Reservoir",
+      "country": "China",
+      "region": "Binyang County, Nanning, Guangxi Zhuang Autonomous Region",
+      "location_label": "Binyang County, Guangxi, China",
+      "lat": 23.215,
+      "lng": 108.854,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Binyang County centroid)",
+      "river_or_facility": "Liuwang Reservoir",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Official reports describe Liuwang Reservoir as overflowing/overtopping during Typhoon Maysak on 6 July 2026, not as a confirmed dam-break.",
+      "incident_date": "2026-07-06",
+      "latest_report_date": "2026-07-09",
+      "what_happened": "Nanning's Emergency Management Committee said Liuwang Reservoir in Binyang County overtopped on 6 July 2026 during Typhoon Maysak, the same morning Liulan and Yunbiao in Hengzhou overtopped and breached. Official English reports (China Daily, Straits Times) describe Liuwang as overflow/overtopping rather than a dam-break. Binyang figures given on 9 July were 9,321 people evacuated or resettled as part of the wider Nanning total of 64,500. No source fetched attributed a separate official death toll to Liuwang.",
+      "status": "Overtopping incident in the 6 July 2026 Guangxi flood; not reported as a full dam collapse in the official English briefings fetched.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "9,321 evacuated/resettled in Binyang County as of 9 July (Nanning briefing; not solely attributed to Liuwang)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "The Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/hundreds-evacuated-dams-breached-as-heavy-rain-batters-south-china"
+        },
+        {
+          "label": "China Daily (9 Jul 2026)",
+          "url": "https://www.chinadaily.com.cn/a/202607/09/WS6a4fbbb7a310986e2b464771.html"
+        },
+        {
+          "label": "China Services Info / China Daily (7 Jul 2026)",
+          "url": "https://www.chinaservicesinfo.com/s/202607/07/WS6a4cad40498e36855033dae4/flood-affected-guangxi-gets-additional-aid.html"
+        }
+      ],
+      "notes": "Overtopping, not a confirmed breach. Separate from Liulan and Yunbiao.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "yunbiao-reservoir-2026-07-06",
+      "name": "Yunbiao (云表) Reservoir",
+      "country": "China",
+      "region": "Hengzhou, Nanning, Guangxi Zhuang Autonomous Region",
+      "location_label": "Hengzhou, Guangxi, China",
+      "lat": 22.9512,
+      "lng": 109.3251,
+      "geo_accuracy": "exact",
+      "geo_source": "Chinese Wikipedia (云表水库)",
+      "river_or_facility": "Yunbiao Reservoir; Yunbiao River / Yujiang",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Nanning authorities said Yunbiao Reservoir overtopped and breached on 6 July 2026 in the same Typhoon Maysak episode as Liulan.",
+      "incident_date": "2026-07-06",
+      "latest_report_date": "2026-07-09",
+      "what_happened": "Nanning authorities said Yunbiao Reservoir in Hengzhou overtopped and breached on 6 July 2026 in the same Typhoon Maysak episode as Liulan. The Straits Times, citing the Nanning WeChat statement, reported that a dam on Yunbiao Reservoir burst while Liuwang overflowed. China Daily said Liulan and Yunbiao had reported overtopping and breaches since 6 July, threatening Xiaoyi and Yunbiao townships; Hengzhou's deputy mayor said water from the two reservoirs flows to the Yunbiao River then the Yujiang. On 9 July, Nanning's water bureau said Yunbiao water levels had also dropped and downstream risk was low unless further heavy inflow arrived; both dams would get a comprehensive safety assessment. No source fetched assigned a separate official death toll to Yunbiao (the 26 deaths were attributed to Liulan).",
+      "status": "Water level reported down and downstream risk low unless new inflows, as of 9 July 2026; joint safety assessment planned.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "Evacuation figures published for Hengzhou/Nanning as a whole (see Liulan record); not broken out for Yunbiao alone",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "The Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/hundreds-evacuated-dams-breached-as-heavy-rain-batters-south-china"
+        },
+        {
+          "label": "China Daily (8 Jul 2026)",
+          "url": "https://www.chinadaily.com.cn/a/202607/08/WS6a4dfceca310986e2b4642ed.html"
+        },
+        {
+          "label": "China Daily (9 Jul 2026)",
+          "url": "https://www.chinadaily.com.cn/a/202607/09/WS6a4fbbb7a310986e2b464771.html"
+        }
+      ],
+      "notes": "Distinct from Liulan. Do not double-count the 26 Liulan deaths here.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "swift-creek-upper-reservoir-2026-07-13",
+      "name": "Swift Creek Upper Reservoir",
+      "country": "United States",
+      "region": "Afton / Swift Creek Canyon, Lincoln County, Wyoming",
+      "location_label": "Afton, Wyoming, United States",
+      "lat": 42.7417,
+      "lng": -110.8841,
+      "geo_accuracy": "exact",
+      "geo_source": "USACE NID WY02932 (Upper Afton Dam)",
+      "river_or_facility": "Swift Creek Upper Reservoir (Lower Valley Energy hydro)",
+      "type": "sluice",
+      "category": "incident",
+      "causes": [
+        "operational_gate"
+      ],
+      "cause_summary": "The sluice gate failed, causing an uncontrolled release; a camera inspection found catastrophic gate failure, destroyed panels and a broken operating rod.",
+      "incident_date": "2026-07-13",
+      "latest_report_date": "2026-07-22",
+      "what_happened": "Lower Valley Energy said the sluice gate at Swift Creek Upper Reservoir failed in the early morning of 13 July 2026, causing an uncontrolled release that substantially drained the reservoir and carried sediment, trees and debris downstream (including material from a 2023 upstream landslide). Town of Afton staff told SVI the town water supply was not affected. CEO Bear Prairie later said a camera inspection found catastrophic gate failure, destroyed panels, and a broken operating rod; debris then partly plugged the opening and flows stabilised at a low reservoir level. LVE said the dam itself remains safe and is monitored. Permanent gate replacement requires FERC, U.S. Forest Service and other approvals, with at least a 60-day FERC review after the repair plan is submitted. The public was told to stay out of the reservoir bed and canyon.",
+      "status": "Reservoir largely drained and held at a low level; dam reported safe and monitored; sluice-gate replacement plan in regulatory review as of late-July 2026 LVE/SVI updates. No deaths reported.",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "No evacuation reported; public exclusion of reservoir and Swift Creek canyon",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Lower Valley Energy (13 Jul 2026)",
+          "url": "https://www.lvenergy.com/2026/07/13/swift-creek-upper-reservoir-gate-faolure/"
+        },
+        {
+          "label": "SVI-NEWS (13 Jul 2026)",
+          "url": "https://svinews.com/2026/local-news/121153/lower-valley-energy-responds-to-gate-failure-at-swift-creek-reservoir/"
+        },
+        {
+          "label": "SVI-NEWS (22 Jul 2026)",
+          "url": "https://svinews.com/2026/local-news/121485/lower-valley-energy-begins-repairs-following-gate-failure/"
+        },
+        {
+          "label": "SVI-NEWS (repairs continue)",
+          "url": "https://svinews.com/2026/local-news/122322/lower-valley-energy-continues-with-repairs-in-swift-creek-canyon/"
+        }
+      ],
+      "notes": "Operator URL slug is misspelled (faolure) on the live LVE page. Category is sluice-gate incident, not an embankment collapse.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "ngawun-embankment-2026-07-30",
+      "name": "Ngawun River embankment (Laymyethna)",
+      "country": "Myanmar",
+      "region": "Laymyethna Township, Ayeyarwady Region",
+      "location_label": "Laymyethna, Ayeyarwady Region, Myanmar",
+      "lat": 17.63,
+      "lng": 95.02,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Lemyethna Township)",
+      "river_or_facility": "Ngawun River embankment",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Heavy monsoon rain and riverbank erosion breached the Ngawun River embankment in Laymyethna Township.",
+      "incident_date": "2026-07-30",
+      "latest_report_date": "2026-08-19",
+      "what_happened": "Heavy monsoon rain and riverbank erosion breached the Ngawun River embankment in Laymyethna Township on the night of 30 July 2026. Eleven Media, citing the President's Office Information and Public Relations Bureau, said that by 5 August floodwater had entered five Laymyethna wards, major town roads and 106 villages across four townships, with more than 30,000 people affected in Laymyethna Township alone. AHA Centre Flash Update No. 1 of 19 August, citing DDM Myanmar as of 18 August 16:30 UTC+7, reported flooding of five urban wards, major roads and 150 surrounding villages, with 63,000 people affected and 15,000 displaced households in Ayeyarwady (Laymyethna, Hinthada, Yekyi, Kyangin), plus 1 death in that regional tally. DDM and partners were still repairing breached embankment sections with geo-bags, sandbags and other works; the government had provided about USD 85,200 in assistance. Heavy rain was forecast to persist through 23 August.",
+      "status": "Breach repair and flood control still under way as of the 19 August 2026 AHA update; further heavy rain warned.",
+      "deaths": 1,
+      "injured": null,
+      "affected_or_evacuated": "About 63,000 affected and 15,000 displaced households in Ayeyarwady as of 18 August (AHA/DDM); 45 evacuation centres listed",
+      "verification": "official_alert",
+      "sources": [
+        {
+          "label": "AHA Centre Flash Update No. 1 (19 Aug 2026)",
+          "url": "https://ahacentre.org/flash-update/flash-update-no-1-flooding-in-ayeyarwady-and-kayin-myanmar-19-august-2026/"
+        },
+        {
+          "label": "Eleven Media (7 Aug 2026)",
+          "url": "https://elevenmyanmar.com/news/flooding-reported-in-five-wards-and-106-villages-following-ngawun-river-embankment-breach"
+        },
+        {
+          "label": "Eleven Media (3 Aug 2026)",
+          "url": "https://elevenmyanmar.com/news/ayeyawady-regional-government-announces-ongoing-measures-to-repair-breached-ngawun-embankment"
+        },
+        {
+          "label": "GLIDE FL-2026-000141-MMR",
+          "url": "https://glidenumber.net/glide/public/search/details.jsp?glidenumber=FL-2026-000141-MMR"
+        }
+      ],
+      "notes": "The 1 death is the AHA/DDM Ayeyarwady regional flood figure as of 18 August, not independently attributed solely to the embankment versus other flood causes. A separate Kayin/Thanlwin overflow death is outside this record. Village counts differ between 7 August (106) and 19 August AHA (150).",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "bagre-dam-2026-08",
+      "name": "Bagré Dam",
+      "country": "Burkina Faso",
+      "region": "Centre-Est / Bagré (downstream White Volta / northern Ghana on alert)",
+      "location_label": "Bagré, Centre-Est, Burkina Faso",
+      "lat": 11.476883,
+      "lng": -0.546694,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Bagre Dam)",
+      "river_or_facility": "Bagré Dam on the Nakambé / White Volta system",
+      "type": "reservoir_dam",
+      "category": "watch",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "This is a watch, not a confirmed failure: Ghana authorities monitored a possible controlled spill if rainfall pushed the reservoir to a stated threshold.",
+      "incident_date": "2026-08",
+      "latest_report_date": "2026-08-15",
+      "what_happened": "Ghana's Water Resources Commission said on 4–5 August 2026 that SONABEL, operator of Burkina Faso's Bagré Dam, might begin a controlled spill from 11 August if the reservoir reached a critical level (WRC cited 232.93 m / 62.77% full on 4 August). NADMO later said SONABEL deferred the 11 August spill because upstream rainfall was lower than expected; as of that day the level was 233.08 m, 1.92 m below a 234.15 m threshold cited by NADMO. A Citi Newsroom report of SONABEL's 15 August update put Bagré at 233.24 m (77.35% full), 1.76 m below the 235 m normal reservoir level, and said SONABEL may open spillway gates if the level reaches 234.75 m, with public notice before any release. This is a seasonal controlled-spill watch, not a structural failure. Northern Ghana communities along the White Volta remained on alert.",
+      "status": "No spill started as of the 15 August 2026 SONABEL figures reported by Citi Newsroom. Reservoir below stated spill thresholds; Ghana NADMO/WRC still monitoring.",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "NADMO placed White Volta basin communities on alert (68 communities cited in Northern Region coverage); no flood from a 2026 Bagré spill reported in sources fetched",
+      "verification": "official_alert",
+      "sources": [
+        {
+          "label": "Citi Newsroom (SONABEL 15 Aug figures)",
+          "url": "https://www.citinewsroom.com/2026/08/bagre-dam-nears-spillway-threshold-as-water-level-hits-77-35/"
+        },
+        {
+          "label": "MyJoyOnline / NADMO",
+          "url": "https://www.myjoyonline.com/bagre-dam-spillage-68-communities-in-northern-region-alerted-as-burkina-faso-monitors-water-levels/"
+        },
+        {
+          "label": "Ghanaian Times / WRC",
+          "url": "https://ghanaiantimes.com.gh/wrc-warns-of-possible-controlled-spillage-from-bagre-dam-from-august-11/"
+        }
+      ],
+      "notes": "Not a dam failure. Spill-threshold figures differ slightly across WRC, NADMO and the 15 August SONABEL update; all agree the dam had not spilled as of those reports.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "chattamakhana-dam-2026-08",
+      "name": "Chattamakhana Dam",
+      "country": "India",
+      "region": "Balangir district, Odisha",
+      "location_label": "Balangir district, Odisha, India",
+      "lat": 20.7,
+      "lng": 83.5,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Balangir district; ~18 km downstream of Lower Suktel)",
+      "river_or_facility": "Chattamakhana Dam (about 18 km downstream of Lower Suktel Dam per the MLA letter)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "structural_design",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "The newly built dam suffered cut-off-wall and downstream-embankment damage in early-August rains; the MLA’s letter said the sanctioned design had reduced waterway, gates and impervious floor.",
+      "incident_date": "2026-08",
+      "latest_report_date": "2026-08-09",
+      "what_happened": "Newly built Chattamakhana Dam in Balangir district suffered damage in rains in early August 2026. Balangir MLA Kalikesh Narayan Singh Deo wrote to Chief Minister (and water-resources minister) Mohan Charan Majhi saying the cut-off wall was washed away and downstream embankments failed, and asking for a time-bound independent technical inquiry with the State Dam Safety Organisation and outside experts. He said the EPC project's sanctioned design reduced waterway from 256 m to 206 m, gates from 18 to 14 and impervious floor from 80 m to 50 m, while design discharge stayed 2,760 cumec, and he questioned whether that flood had been reassessed after Lower Suktel Dam. New Indian Express and OrissaPOST published the letter on 8–9 August. No source fetched described a full dam collapse or casualties.",
+      "status": "Embankment/cut-off damage reported; independent inquiry requested as of 9 August 2026. Not reported as a collapse. Government inquiry outcome not found in sources fetched.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "official_alert",
+      "sources": [
+        {
+          "label": "The New Indian Express",
+          "url": "https://www.newindianexpress.com/states/odisha/2026/Aug/09/kalikesh-seeks-probe-into-chattamakhana-dam-damage"
+        },
+        {
+          "label": "OrissaPOST",
+          "url": "https://www.orissapost.com/kalikesh-singh-deo-seeks-independent-probe-into-dam-damage/"
+        },
+        {
+          "label": "Sambad English",
+          "url": "https://sambadenglish.com/latest-news/mla-kn-singh-deo-writes-to-odisha-cm-seeking-independent-probe-into-chattamakhana-dam-damage-12241296"
+        }
+      ],
+      "notes": "Facts on damage and design changes come from the MLA's written representation as reported by newspapers, not from a published government inspection report. Not a collapse.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "olde-mill-golf-club-dam-2026-08-02",
+      "name": "Olde Mill Golf Club Dam",
+      "country": "United States",
+      "region": "Laurel Fork, Carroll County, Virginia",
+      "location_label": "Laurel Fork, Virginia, United States",
+      "lat": 36.6896,
+      "lng": -80.5235,
+      "geo_accuracy": "exact",
+      "geo_source": "USACE NID VA035004",
+      "river_or_facility": "Olde Mill Golf Resort lake / Stone Mountain Creek drainage toward Big Reed Island Creek",
+      "type": "spillway",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall",
+        "spillway",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Intense rain was followed by failure of the primary spillway pipe; DCR said it had received none of the required owner documents since 2006 and the last emergency action plan expired in 2012.",
+      "incident_date": "2026-08-02",
+      "latest_report_date": "2026-08-18",
+      "what_happened": "Intense rain on the night of 2 August 2026 flooded the Laurel Fork area of Carroll County. Virginia DCR Regional Engineer Steven Bricker observed on 4 August that the Olde Mill Golf Club lake (normal pool near 300 acre-feet) was almost completely drained after a partial breach. DCR's 5 August letter to owner Norris Mitchell / MG Golf Facilities LLC stated the primary spillway pipe failed, creating a scour hole around the riser and significant sediment loss; the dam has a preliminary high-hazard classification and may not impound water until corrective action. Downstream residents told Cardinal News at least 20 properties were damaged and estimated losses in the hundreds of thousands of dollars; they allege the dam intensified flooding. DCR said it had received none of the required owner documents since 2006 and the last emergency action plan expired in 2012. Owners were dewatering and beginning repairs as of mid-August; Carroll County said it issued no live alert because it learned of the flood after it ended.",
+      "status": "Lake largely drained; DCR unsafe / non-imminent-danger notice in effect; dam not allowed to impound until corrective action; owner working on dewatering and spillway repair as of 18 August 2026.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "At least 20 properties damaged (resident estimate reported by Cardinal News); no official evacuation figure",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Cardinal News",
+          "url": "https://cardinalnews.org/2026/08/18/a-carroll-county-neighborhood-flooded-after-a-big-rain-some-residents-blame-a-nearby-golf-course-dam/"
+        },
+        {
+          "label": "Virginia DCR letter (5 Aug 2026)",
+          "url": "https://cardinalnews.org/wp-content/uploads/2026/08/Olde-Mill-dam-letter-1.pdf"
+        }
+      ],
+      "notes": "Causal share of downstream flooding versus the rainstorm itself is disputed by residents and not adjudicated. NID inventory pages are background only and were not used for 2026 incident facts.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "beiru-jialu-levees-2026-08-12",
+      "name": "Beiru River and Jialu River levee breaches",
+      "country": "China",
+      "region": "Henan (Jiaxian County, Pingdingshan; Chuanhui District, Zhoukou)",
+      "location_label": "Jiaxian County, Henan, China",
+      "lat": 33.972,
+      "lng": 113.213,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Jia County / Jiaxian; Beiru breach; Jialu at Zhoukou is separate)",
+      "river_or_facility": "Beiru River; Jialu River (Shaying backwater)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Heavy rain from remnants of Typhoon Dolphin opened levee breaches on the Beiru and Jialu rivers.",
+      "incident_date": "2026-08-12",
+      "latest_report_date": "2026-08-16",
+      "what_happened": "Heavy rain from remnants of Typhoon Dolphin opened a levee breach more than 40 metres wide on the Beiru River in Jiaxian County, Pingdingshan, on the night of Wednesday 12 August 2026; more than 2,000 people were relocated and Xinhua reported no casualties. That breach was sealed on Friday night 14 August after nearly two days of sandbagging, because heavy plant could not reach the narrow levee crown. A separate eastern-embankment breach on the Jialu River in Chuanhui District, Zhoukou, opened around 23:00 on Thursday 13 August, widening from about 30 metres to about 117 metres under Jialu inflows and Shaying River backwater. China Daily and People's Daily/Xinhua said the Jialu breach was sealed on Saturday night 15 August after more than 2,000 emergency personnel worked the site; crews continued raising, reinforcing and sealing seepage. A Level-IV national disaster-relief response was activated for Henan.",
+      "status": "Both breaches reported sealed (Beiru 14 Aug; Jialu 15 Aug). Embankment raising, reinforcement and seepage control continuing at Jialu as of 15–16 August 2026.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "More than 2,000 relocated from the Beiru breach; Jialu displacement not separately quantified in the English Xinhua/China Daily reports used",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Xinhua",
+          "url": "https://english.news.cn/20260814/83f98802e4f84372926070e54756717b/c.html"
+        },
+        {
+          "label": "People's Daily (Xinhua)",
+          "url": "https://en.people.cn/n3/2026/0816/c90000-20489018.html"
+        },
+        {
+          "label": "China Daily",
+          "url": "https://www.chinadaily.com.cn/a/202608/15/WS6a80718aa31073853ec53834.html"
+        },
+        {
+          "label": "Global Times (Xinhua)",
+          "url": "https://www.globaltimes.cn/page/202608/1368242.shtml"
+        }
+      ],
+      "notes": "Two distinct levee breaches grouped as one living-database item because they were the same Typhoon Dolphin flood episode. Zero deaths is the Beiru figure stated by Xinhua; no separate Jialu fatality figure was published in the reports fetched.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "dikwena-tsf-2026-08-13",
+      "name": "Dikwena Chrome Tailings Storage Facility (Samancor)",
+      "country": "South Africa",
+      "region": "Brits, North West",
+      "location_label": "Brits, North West, South Africa",
+      "lat": -25.65236,
+      "lng": 27.85177,
+      "geo_accuracy": "exact",
+      "geo_source": "EOS The Landslide Blog (Dave Petley)",
+      "river_or_facility": "Dikwena Chrome mine TSF, Compartment 1B (unnamed tributary polluted)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "The northern wall of Compartment 1B collapsed; the cause is not officially determined, and commentary about rainfall or over-deposition is not an official finding.",
+      "incident_date": "2026-08-13",
+      "latest_report_date": "2026-08-18",
+      "what_happened": "The northern wall of Compartment 1B at Samancor Chrome's Dikwena tailings storage facility near Brits collapsed at about 17:30 on 13 August 2026, releasing almost all tailings/slimes stored in that compartment. The Department of Water and Sanitation said a railway embankment and berms at the adjacent Eland Mine stopped the slurry from reaching the R566 provincial road; mine infrastructure, a railway line and Eskom powerlines were damaged and an unnamed tributary was polluted. DWS, the Limpopo-Olifants Catchment Management Agency and the Department of Mineral and Petroleum Resources assessed the site; DWS issued a verbal directive stopping tailings deposition in any of the mine's TSFs pending investigation. Water samples were taken; laboratory results were still pending as of the 17 August government statement. EWN reported no fatalities or injuries; cleanup of access routes and power infrastructure was under way by 18 August.",
+      "status": "Government investigation ongoing; tailings deposition halted; cleanup and water-quality testing in progress as of 18 August 2026.",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "No residential evacuation reported; sludge blocked Eland Mine (Maroelabult) access and cut power in Brits, Hennops and surrounding areas",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "SAnews / Department of Water and Sanitation",
+          "url": "https://www.sanews.gov.za/south-africa/government-probes-tailings-storage-facility-failure-samancors-dikwena-mine"
+        },
+        {
+          "label": "TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/2026-08-16-watch-brits-mine-dam-wall-collapse-disrupts-power-lines-and-pollutes-river/"
+        },
+        {
+          "label": "Daily Maverick",
+          "url": "https://www.dailymaverick.co.za/article/2026-08-16-mining-sludge-surge-triggers-power-cuts-and-contamination-fears-after-tailings-dam-collapse/"
+        },
+        {
+          "label": "EWN",
+          "url": "https://www.ewn.co.za/2026/08/18/samcor-dikwena-dam-collapse-heres-what-we-know"
+        }
+      ],
+      "notes": "Cause not officially determined. Satellite/expert commentary in Daily Maverick discusses possible delayed rainfall infiltration and over-deposition; that is not an official finding.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "lake-wynonah-dam-2026-08-14",
+      "name": "Lake Wynonah Dam",
+      "country": "United States",
+      "region": "South Manheim Township, Schuylkill County, Pennsylvania",
+      "location_label": "South Manheim Township, Pennsylvania, United States",
+      "lat": 40.59611,
+      "lng": -76.15806,
+      "geo_accuracy": "exact",
+      "geo_source": "USACE NID PA00702",
+      "river_or_facility": "Plum Creek / Lake Wynonah (175-acre reservoir)",
+      "type": "reservoir_dam",
+      "category": "watch",
+      "causes": [
+        "piping_internal_erosion",
+        "spillway"
+      ],
+      "cause_summary": "This is a watch, not a confirmed failure: PADEP cited severe internal erosion, a crumbling concrete spillway and inability to pass a major flood.",
+      "incident_date": "2026-08-14",
+      "latest_report_date": "2026-08-17",
+      "what_happened": "In a 14 August 2026 letter to the Lake Wynonah Property Owners Association, Kirk Kreider, acting chief of PADEP's Division of Dam Safety, declared the 1971 earthen Lake Wynonah Dam 'unsafe' and requested an immediate voluntary full drawdown of the 175-acre reservoir at up to one foot per day, with a formal order threatened if the association does not comply. The letter cited severe internal erosion, a crumbling concrete spillway, inability to pass a major flood, and temporary bracing of the top walls after a spillway collapse at the community's Fawn Lake Dam. Kreider wrote that 'unsafe' does not mean imminent failure, but that deficiencies could result in failure with loss of life or substantial property damage if not corrected. The lake had already been drawn down 10–15 feet in autumn 2025 after new seepage and a boil were reported. PADEP also said the high-hazard owner lacked required financial assurance.",
+      "status": "PADEP unsafe designation and requested full drawdown in effect as of 17 August 2026 reporting; draft consent order/agreement with a four-week response window. Not an imminent-failure declaration.",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Pottsville Republican Herald",
+          "url": "https://www.republicanherald.com/2026/08/17/dep-orders-full-drawdown-of-lake-wynonah-citing-dam-safety-risks/"
+        },
+        {
+          "label": "Skook News",
+          "url": "https://www.skooknews.com/2026/08/dep-declares-lake-wynonah-dam-unsafe.html"
+        }
+      ],
+      "notes": "2025 seepage drawdown is background. No 2026 breach. Fawn Lake Dam spillway collapse date was not independently sourced for this file.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "tarlac-san-isidro-dike-2026-08-17",
+      "name": "Tarlac River flood-control dike (San Isidro, Zone 1)",
+      "country": "Philippines",
+      "region": "Barangay San Isidro, Tarlac City, Tarlac",
+      "location_label": "Tarlac City, Tarlac, Philippines",
+      "lat": 15.4869,
+      "lng": 120.59,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Tarlac City; Barangay San Isidro)",
+      "river_or_facility": "Tarlac River flood-control dike (DPWH Contract ID 25CJ0310)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "About 50 metres of a newly built flood-control dike collapsed as monsoon rain swelled the Tarlac River.",
+      "incident_date": "2026-08-17",
+      "latest_report_date": "2026-08-17",
+      "what_happened": "Local outlet Tarlakenyo reported that about 50 metres of a newly built Tarlac River flood-control dike in Zone 1, Barangay San Isidro, collapsed around 04:00 on 17 August 2026 as monsoon rain swelled the river. The project, 'Repair / Rehabilitation / Improvement of Flood Control Structures along Tarlac River Control' under the 2025 GAA (about PHP 45.43 million, contractor GJE Builders Corporation), had been recorded 100% complete on 6 February 2026. DPWH Tarlac 1st District Engineering Office personnel assessed the damage while barangay officials, city and provincial governments, PNP and the Philippine Army sandbagged the new dike's end and part of an older dike. Vice Mayor KT Angeles said the contractor should restore the structure; Mayor Susan Yap warned residents to stay away because the collapse could widen or water could rise. No casualty figure appeared in the article fetched.",
+      "status": "Partial dike collapse under emergency sandbagging and DPWH assessment as of 17 August 2026. Situation described as still volatile that day.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "unknown",
+      "verification": "official_alert",
+      "sources": [
+        {
+          "label": "Tarlakenyo",
+          "url": "https://tarlakenyo.com/2026/08/newly-built-p45m-dike-in-tarlac-city-collapses/"
+        }
+      ],
+      "notes": "Single local-newsroom source plus on-the-record mayor/vice-mayor and DPWH presence. Prefer a national Philippine wire or DPWH release when one appears. Not a reservoir dam.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "kangimi-dam-2026-08-18",
+      "name": "Kangimi Dam",
+      "country": "Nigeria",
+      "region": "Igabi LGA, Kaduna State",
+      "location_label": "Igabi LGA, Kaduna State, Nigeria",
+      "lat": 10.7667,
+      "lng": 7.4167,
+      "geo_accuracy": "approx",
+      "geo_source": "Journal papers (Kangimi catchment 10°46′N, 7°25′E)",
+      "river_or_facility": "Kangimi Dam",
+      "type": "reservoir_dam",
+      "category": "watch",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "This is a watch, not a confirmed failure: NSEMA warned of reported structural distress and visible cracks, with no breach reported as of 19 August 2026.",
+      "incident_date": "2026-08-18",
+      "latest_report_date": "2026-08-19",
+      "what_happened": "The Niger State Emergency Management Agency issued an urgent public warning on Tuesday 18 August 2026 over reported structural distress and visible cracks at Kangimi Dam in Igabi LGA, Kaduna State. NSEMA Director-General Abdullahi Baba Arah said August rains raised the need for immediate technical assessment and that a major failure could flood downstream communities in Kaduna, Niger State, the FCT and adjoining areas. NSEMA asked the federal government, Kaduna State, dam operators, NEMA, the hydrological and meteorological agencies and security services to verify crack severity, map downstream risk and activate early warning and evacuation planning. Residents were told to stay calm, avoid waterways in heavy rain and ignore unverified rumours. No source fetched for this dataset reported a breach or uncontrolled release.",
+      "status": "No breach reported as of 19 August 2026. Neighbouring-state emergency agency alert only; independent confirmation of crack severity by Kaduna/NEMA/dam operator not found in the articles fetched.",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": null,
+      "verification": "official_alert",
+      "sources": [
+        {
+          "label": "Daily Trust",
+          "url": "https://dailytrust.com/niger-raises-alarm-over-cracks-in-kangimi-dam-warns-of-impending-danger/"
+        },
+        {
+          "label": "Daily Post Nigeria",
+          "url": "https://dailypost.ng/2026/08/18/nsema-raises-alarm-over-kangimi-dam-cracks-demands-urgent-action/"
+        }
+      ],
+      "notes": "This is a watch, not a failure. NSEMA is the downstream state's EMA, not the dam owner or Kaduna regulator.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    },
+    {
+      "id": "na-lao-weir-2026-08-19",
+      "name": "Na Lao irrigation weir",
+      "country": "Thailand",
+      "region": "Santi Suk district, Nan Province",
+      "location_label": "Santi Suk, Nan Province, Thailand",
+      "lat": 18.913333,
+      "lng": 100.941389,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Santi Suk district)",
+      "river_or_facility": "Na Lao irrigation weir",
+      "type": "weir",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Heavy rain and strong currents washed away one side of the Na Lao irrigation weir and damaged the adjacent road.",
+      "incident_date": "2026-08-19",
+      "latest_report_date": "2026-08-19",
+      "what_happened": "Heavy rain across Nan Province on 19 August 2026 damaged irrigation and road infrastructure. Khaosod English, citing the Nan provincial public relations office, reported that strong currents washed away one side of the Na Lao irrigation weir in Santi Suk district and damaged the road beside it. The same storm cut the Phayaeng–Kiew Muang approach to the provincial capital, stranded people on a Muap-stream bridge at Ban Nam Song, and was reported with a Highway 1256 (Pua–Bo Kluea) bridge collapse. Nation Thailand separately described flash floods and washed-out bridges in Pua, including a bridge in the Fai Chao weir area — a different named structure. No source fetched reported deaths at the Na Lao weir itself.",
+      "status": "One side of the weir washed out; adjacent road damaged. Provincial heavy-rain warning in effect through at least 21 August 2026.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "unknown",
+      "verification": "official_alert",
+      "sources": [
+        {
+          "label": "Khaosod English (Nan PR office)",
+          "url": "https://www.khaosodenglish.com/news/2026/08/19/heavy-rain-floods-nan-damages-weir-and-collapses-bridge-on-key-route/"
+        },
+        {
+          "label": "The Nation Thailand",
+          "url": "https://www.nationthailand.com/news/general/40069971"
+        }
+      ],
+      "notes": "Minor weir washout, not a reservoir-dam collapse. Fai Chao weir/bridge damage in Pua is a related flood impact, not merged into this record.",
+      "in_baseline": true,
+      "last_updated": "2026-08-19",
+      "era": "2026"
+    }
+  ]
+}
