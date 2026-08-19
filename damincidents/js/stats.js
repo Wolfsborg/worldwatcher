@@ -397,7 +397,8 @@
 
   function renderByDecade(stats) {
     const decades = Object.entries(stats.decadeCounts)
-      .sort((a, b) => parseInt(a[0]) - parseInt(b[0]));
+      .filter(([, count]) => count > 0)
+      .sort((a, b) => parseInt(b[0]) - parseInt(a[0]));
 
     if (decades.length === 0) {
       return `
@@ -409,19 +410,23 @@
     }
 
     const maxCount = Math.max(...decades.map(d => d[1]));
-    const bars = decades.map(([decade, count]) => {
-      const height = (count / maxCount) * 100;
+    const items = decades.map(([decade, count]) => {
+      const width = maxCount ? (count / maxCount) * 100 : 0;
       return `
-        <div class="stat-histogram-bar" style="height: ${height}%" title="${decade}s: ${count}">
-          <span class="stat-histogram-label">${decade}s</span>
-        </div>
+        <li class="stat-bar-item">
+          <div class="stat-bar-label">
+            <span class="stat-bar-name">${decade}s</span>
+            <span class="stat-bar-value">${formatNum(count)}</span>
+          </div>
+          <div class="stat-bar-track"><div class="stat-bar-fill" style="width:${width}%"></div></div>
+        </li>
       `;
     }).join("");
 
     return `
       <div class="stat-card">
         <h2 class="stat-card-title">By Decade</h2>
-        <div class="stat-histogram">${bars}</div>
+        <ul class="stat-bar-list">${items}</ul>
       </div>
     `;
   }
