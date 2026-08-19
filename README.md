@@ -1,4 +1,4 @@
-# Worldwatcher
+﻿# Worldwatcher
 
 Public map of documented dam failures and incidents, 1864–2026.
 
