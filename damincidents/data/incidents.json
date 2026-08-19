@@ -1,8 +1,8 @@
 {
   "version": 1,
   "updated": "2026-08-19",
-  "count": 73,
-  "current_count": 18,
+  "count": 74,
+  "current_count": 19,
   "historical_count": 55,
   "incidents": [
     {
@@ -3775,6 +3775,54 @@
       "economic_damage": null,
       "investigating_agency": "Department of Water and Sanitation; Department of Mineral and Petroleum Resources; Limpopo-Olifants CMA",
       "severity": "moderate"
+    },
+    {
+      "id": "bowersock-dam-2026-08-13",
+      "name": "Bowersock Dam",
+      "country": "United States",
+      "region": "Lawrence, Douglas County, Kansas",
+      "location_label": "Lawrence, Kansas, United States",
+      "lat": 38.974022,
+      "lng": -95.235078,
+      "geo_accuracy": "exact",
+      "geo_source": "LIHI/FERC facility questionnaire (river mile 52.4)",
+      "river_or_facility": "Kansas River (Kaw) / Bowersock Mills & Power Company",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate"
+      ],
+      "cause_summary": "Owner said one of four inflatable rubber crest bladders was punctured by floating trees and debris and ripped from end to end; the concrete dam remained intact.",
+      "incident_date": "2026-08-13",
+      "latest_report_date": "2026-08-13",
+      "what_happened": "The Lawrence Journal-World reported on 13 August 2026 that one of four inflatable rubber bladders on the crest of Bowersock Dam had been punctured by heavy floating debris and ripped from end to end. Co-owner Sarah Hill-Nelson said the No. 2 bladder failure left a gap that dropped the upstream millpond about six feet. The concrete dam was holding; there was no downstream flood wave. The city of Lawrence said the Kaw River Water Treatment Plant continued to operate, though low pond levels are less efficient for intake and filtration. The run-of-river dam supplies Kansas's only hydroelectric plant and maintains the pond for the city's water intake. Hill-Nelson said a replacement bladder would take about four months and cost upwards of $300,000, and that this was the first time a Lawrence bladder had been destroyed beyond repair (a 2021 seam tear had been stitched). Exact calendar day of the puncture was described only as recently before the Thursday 13 August article.",
+      "status": "Concrete dam intact; No. 2 inflatable crest bladder destroyed; millpond about six feet below normal; water plant operating; repair approach undecided as of 13 August 2026.",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "No evacuation reported; KU rowing expected to be disrupted by low water",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Lawrence Journal-World",
+          "url": "https://www2.ljworld.com/news/city-government/2026/aug/13/heavy-debris-in-kansas-river-damages-bowersock-dam-creating-low-water-levels-near-lawrence-water-plant/"
+        }
+      ],
+      "notes": "Not a concrete-dam collapse. Incident date is the Journal-World report date; the owner said the puncture happened recently before that Thursday. Background dam dimensions (length ~655 ft, height ~17.08 ft, 423-acre impoundment) are from Wikipedia/LIHI, not from the 2026 incident article.",
+      "in_baseline": false,
+      "last_updated": "2026-08-19",
+      "era": "2026",
+      "owner_operator": "Bowersock Mills & Power Company",
+      "year_built": "1874",
+      "height_m": 5.2,
+      "reservoir_capacity": "run-of-river millpond (Wikipedia: 423-acre impoundment)",
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": "millpond dropped about six feet; volume not stated",
+      "breach_size": "No. 2 rubber crest bladder ripped end to end; concrete dam intact",
+      "downstream_risk": "No downstream flooding reported; low water affects city intake efficiency and KU rowing",
+      "economic_damage": "replacement bladder estimated upwards of $300,000 plus installation; full cost undecided",
+      "investigating_agency": null,
+      "severity": "minor"
     },
     {
       "id": "lake-wynonah-dam-2026-08-14",
