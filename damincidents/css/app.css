@@ -285,7 +285,7 @@ html, body {
 .field-label, legend.field-label {
   display: block;
   margin: 0;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--muted);
@@ -367,7 +367,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
   background: transparent;
   color: var(--text);
   font: inherit;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1;
   padding: 5px 8px;
   border-radius: 999px;
@@ -435,7 +435,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 }
 .recent-head h2 {
   margin: 0;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   font-weight: 600;
@@ -474,7 +474,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 .incident-item.is-selected { box-shadow: inset 2px 0 0 var(--accent); }
 
 .item-date {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.06em;
   color: var(--muted);
   font-variant-numeric: tabular-nums;
@@ -498,7 +498,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 .item-cat {
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
 }
 .cat-failure { color: var(--failure); }
@@ -506,7 +506,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 .cat-incident { color: var(--incident); }
 .cat-watch { color: var(--watch); }
 .cat-controlled_release { color: var(--controlled); }
-.item-cause { color: var(--accent); font-size: 11px; }
+.item-cause { color: var(--accent); font-size: 12px; }
 
 .empty {
   margin: 8px 22px 16px;
@@ -519,7 +519,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
   padding: 10px 20px 12px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
   background: rgba(18, 21, 26, 0.92);
 }
 .credit p { margin: 0 0 4px; }
@@ -562,7 +562,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 }
 .stat-label {
   display: block;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--muted);
@@ -619,7 +619,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 .detail-loc, .detail-date { margin: 0 0 6px; color: var(--muted); }
 .badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 16px; }
 .badge {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   border: 1px solid var(--line-strong);
@@ -634,7 +634,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 }
 .detail h3 {
   margin: 16px 0 6px;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--muted);
@@ -643,7 +643,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 .detail p { margin: 0 0 8px; }
 .detail a { color: var(--accent); }
 .casualties { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
-.cas-label { display: block; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; }
+.cas-label { display: block; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; }
 .cas-value { font-family: var(--serif); font-size: 18px; }
 .sources { list-style: none; padding: 0; margin: 0; }
 .sources li { margin: 0 0 6px; }
@@ -684,7 +684,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 .leaflet-control-attribution {
   background: rgba(11, 13, 16, 0.72) !important;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 12px;
 }
 .leaflet-control-attribution a { color: var(--accent); }
 .leaflet-bar a {
@@ -743,7 +743,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 }
 .more-attrs summary {
   cursor: pointer;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--accent);
@@ -767,7 +767,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 .attr-row dt {
   margin: 0;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
@@ -785,7 +785,7 @@ textarea {
   border: 0;
   color: var(--accent);
   font: inherit;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   cursor: pointer;
@@ -870,7 +870,7 @@ textarea {
   border: 1px solid var(--line-strong);
   border-radius: 999px;
   padding: 4px 8px;
-  font-size: 11px;
+  font-size: 12px;
   cursor: pointer;
   color: var(--text);
 }
@@ -986,7 +986,7 @@ input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; marg
   border-bottom: 2px solid transparent;
   color: var(--muted);
   font: inherit;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   padding: 8px 10px 7px;
@@ -1003,7 +1003,7 @@ input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; marg
 
 .item-geo {
   color: var(--watch);
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 600;
@@ -1075,7 +1075,7 @@ input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; marg
   background: transparent !important;
   color: var(--muted) !important;
   font: inherit !important;
-  font-size: 11px !important;
+  font-size: 12px !important;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   padding: 7px 10px;
@@ -1373,7 +1373,7 @@ button.chip {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  font-size: 11px;
+  font-size: 12px;
   gap: 8px;
 }
 
@@ -1390,7 +1390,7 @@ button.chip {
   color: var(--muted);
   font-variant-numeric: tabular-nums;
   flex: 0 0 auto;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .stat-bar-track {
@@ -1416,7 +1416,7 @@ button.chip {
 .stat-table th {
   text-align: left;
   padding: 6px 8px 6px 0;
-  font-size: 9px;
+  font-size: 12px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
@@ -1442,7 +1442,7 @@ button.chip {
   font-variant-numeric: tabular-nums;
   color: var(--muted);
   white-space: nowrap;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .stat-histogram {
@@ -1475,7 +1475,7 @@ button.chip {
   left: 50%;
   transform: translateX(-50%) rotate(-45deg);
   transform-origin: center;
-  font-size: 8px;
+  font-size: 12px;
   color: var(--muted);
   white-space: nowrap;
 }
@@ -1487,7 +1487,7 @@ button.chip {
   color: var(--muted);
   text-decoration: none;
   font: inherit;
-  font-size: 11px;
+  font-size: 12px;
   padding: 0;
   cursor: pointer;
 }
