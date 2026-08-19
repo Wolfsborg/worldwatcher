@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 528,
+  "count": 549,
   "current_count": 20,
-  "historical_count": 508,
+  "historical_count": 529,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -28672,6 +28672,1155 @@
       "economic_damage": null,
       "investigating_agency": "Mpumalanga Tourism and Parks Agency (capture permit)",
       "severity": "minor"
+    },
+    {
+      "id": "blackbrook-1799-02-20",
+      "name": "Blackbrook Reservoir (1799 earth dam)",
+      "country": "United Kingdom",
+      "region": "Between Shepshed and Whitwick, Leicestershire, England",
+      "location_label": "Blackbrook Reservoir, Leicestershire, England",
+      "lat": 52.751,
+      "lng": -1.322,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Blackbrook Reservoir 52.751°N 1.322°W",
+      "river_or_facility": "Blackbrook Reservoir; feeder for the Charnwood Forest Canal",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Environment Agency / Charles, Tedd and Warren: the 1799 earth dam failed because of poor construction. Wikipedia: the first earthworks dam failed on 20 February 1799.",
+      "incident_date": "1799-02-20",
+      "latest_report_date": "2011-08",
+      "what_happened": "The first Blackbrook Reservoir dam, an earthworks built in 1796 to feed the Charnwood Forest Canal, failed on 20 February 1799. Wikipedia: the reservoir emptied in eleven minutes; local farmland was ruined, sheep were drowned, and flood water reached Shepshed and Loughborough. The EA historical-incidents report lists the 1799 failure as caused by poor construction and treats it as the start of the British incident series. The dam was repaired in 1801; the canal soon ceased to be commercially viable. The present gravity dam dates from 1906. Wikipedia and the EA life-loss table do not give a human death count for 1799.",
+      "status": "Earth dam failed; rebuilt 1801. Present gravity dam opened 1906 (now redundant, Severn Trent).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Blackbrook Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Blackbrook_Reservoir"
+        },
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        }
+      ],
+      "notes": "Not in the EA Table 1.1 life-loss list. Deaths null. A 1957 earthquake at the later gravity dam is a separate record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Originally Charnwood Forest Canal / later Severn Trent (present dam)",
+      "year_built": "1796",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": "reservoir emptied in 11 minutes (Wikipedia)",
+      "breach_size": null,
+      "downstream_risk": "Shepshed and Loughborough",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "woodhead-no1-1849-10-12",
+      "name": "Woodhead No. 1 Dam (construction overtopping)",
+      "country": "United Kingdom",
+      "region": "Longdendale, Derbyshire, England",
+      "location_label": "Woodhead Reservoir, Longdendale, Derbyshire, England",
+      "lat": 53.4936,
+      "lng": -1.8682,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Woodhead Reservoir 53.4936°N 1.8682°W",
+      "river_or_facility": "Woodhead Reservoir; River Etherow (Longdendale Chain)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "construction_first_filling",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "EA historical-incidents report: Woodhead No. 1 was overtopped on 12 October 1849 during construction, releasing about 500,000 m³ — the only British construction-period overtopping case in that review.",
+      "incident_date": "1849-10-12",
+      "latest_report_date": "2011-08",
+      "what_happened": "The first Woodhead embankment in the Longdendale Chain was under construction for Manchester's water supply when, on 12 October 1849, it was overtopped. The Environment Agency report Lessons from historical dam incidents (Charles, Tedd and Warren, 2011) says this released about 500 × 10³ m³ of water and is the only British construction-period overtopping incident in that review. Wikipedia's Woodhead Reservoir article describes the first embankment (started 1848, declared complete 1854 except for a leak) and the later 1862–77 second embankment; it does not separately narrate the 1849 flood. No death count is given in the EA summary.",
+      "status": "First embankment later completed 1854 with leakage; second embankment filled 1877. Still in the Longdendale chain.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        },
+        {
+          "label": "Wikipedia — Woodhead Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Woodhead_Reservoir"
+        }
+      ],
+      "notes": "Construction overtopping with a sourced release volume. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Manchester Corporation Waterworks (then)",
+      "year_built": "1848–1854 (first embankment)",
+      "height_m": 27,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": "about 500,000 m³ (EA)",
+      "breach_size": null,
+      "downstream_risk": "Longdendale / River Etherow",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "cowlyd-1924-12-31",
+      "name": "Llyn Cowlyd Dam (New Year's Eve 1924 near-breach)",
+      "country": "United Kingdom",
+      "region": "Cwm Cowlyd, Snowdonia, Conwy, Wales",
+      "location_label": "Llyn Cowlyd dam, Snowdonia, Wales",
+      "lat": 53.133,
+      "lng": -3.917,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Llyn Cowlyd 53.133°N 3.917°W (lake; dam at north-eastern end)",
+      "river_or_facility": "Llyn Cowlyd reservoir dam; Afon Ddu / Dolgarrog hydro",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "EA and Wikipedia: during a storm on 31 December 1924 the downstream fill was eroded to foundation level, exposing the concrete core-wall; emergency backfilling the next morning saved the dam.",
+      "incident_date": "1924-12-31",
+      "latest_report_date": "2011-08",
+      "what_happened": "On New Year's Eve 1924, eleven months before the Dolgarrog disaster in the next valley, Llyn Cowlyd Dam was nearly breached. The Environment Agency report, citing Knight (1975), says a V-shaped area of downstream fill was eroded to foundation level, exposing the concrete core-wall; frenzied backfilling the following morning saved the dam. Wikipedia: during a storm on 31 December 1924 there was a partial failure when the downstream side was washed out. The EA notes that reservoir capacity was probably more than twice Eigiau and Coedty combined, and that had the core not been concrete the dam might have failed. Subsequently the spillway crest was lowered and the wave wall raised. No source fetched reported deaths.",
+      "status": "Repaired; spillway lowered and wave wall raised. Still in water-supply and hydro use.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        },
+        {
+          "label": "Wikipedia — Llyn Cowlyd",
+          "url": "https://en.wikipedia.org/wiki/Llyn_Cowlyd"
+        }
+      ],
+      "notes": "Separate from Dolgarrog (Eigiau/Coedty) 1925-11-02, already in the DB. Deaths 0: EA life-loss table does not include this near-miss; no deaths reported.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Conway and Colwyn Bay Joint Water Supply Board / Aluminium Corporation (then)",
+      "year_built": "1921 (present dam; first dam 1897)",
+      "height_m": 14,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": "V-shaped downstream erosion to foundation, core-wall exposed (EA)",
+      "downstream_risk": "Afon Ddu / Conwy valley (not the same path as Dolgarrog)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "william-girling-chingford-1937",
+      "name": "William Girling Reservoir (Chingford construction slips)",
+      "country": "United Kingdom",
+      "region": "Lee Valley, London Borough of Enfield, England",
+      "location_label": "William Girling Reservoir, Chingford, London, England",
+      "lat": 51.6316,
+      "lng": -0.0244,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia William Girling Reservoir 51.6316°N 0.0244°W",
+      "river_or_facility": "William Girling storage reservoir; River Lee Diversion",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "construction_first_filling"
+      ],
+      "cause_summary": "EA and Wikipedia: with about 8 m of the planned 10 m embankment built, a 90 m downstream-slope section slipped on a surface through the puddle core and a soft yellow alluvial clay foundation; rapid modern plant raised pore pressures.",
+      "incident_date": "1937-07",
+      "latest_report_date": "2011-08",
+      "what_happened": "In late July 1937 a 90 m length of the downstream (outer) slope of the William Girling Reservoir embankment then under construction at Chingford moved. The EA report: eight metres of the planned 10 m height had been placed; the failure surface passed through the puddle clay core and a layer of soft yellow clay (Cooling and Golder, 1942). Wikipedia: a major slip occurred in the partly formed north-west embankment when fill had reached 23 ft (7.0 m); a 66 ft width dropped 2 ft 4 in and moved forward 13 ft; a second slip followed in December 1937. The dam failed before any water had been stored. Terzaghi and Chatley advised; the Metropolitan Water Board redesigned the embankment in July 1938. Construction finished in 1951.",
+      "status": "Redesigned and completed 1951; still a Thames Water Lee Valley reservoir.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        },
+        {
+          "label": "Wikipedia — William Girling Reservoir",
+          "url": "https://en.wikipedia.org/wiki/William_Girling_Reservoir"
+        }
+      ],
+      "notes": "Construction slide before impoundment. Deaths 0: no reservoir water released.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Metropolitan Water Board (then); Thames Water",
+      "year_built": "1936–1951",
+      "height_m": 10,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Building Research Station (Cooling and Golder); Terzaghi; Chatley",
+      "severity": "major"
+    },
+    {
+      "id": "abberton-1937-07",
+      "name": "Abberton Reservoir dam (construction slip)",
+      "country": "United Kingdom",
+      "region": "Layer de la Haye, Essex, England",
+      "location_label": "Abberton Reservoir, Essex, England",
+      "lat": 51.8167,
+      "lng": 0.8667,
+      "geo_accuracy": "approx",
+      "geo_source": "Ramsar RIS: Abberton Reservoir 51°49′N 0°52′E",
+      "river_or_facility": "Abberton Reservoir embankment; Layer Brook / pumped River Stour",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "construction_first_filling"
+      ],
+      "cause_summary": "EA historical-incidents timeline: a major slip occurred at Abberton in July 1937 during construction, in the same season as the Chingford and Hollowell construction slips.",
+      "incident_date": "1937-07",
+      "latest_report_date": "2011-08",
+      "what_happened": "The Environment Agency report Lessons from historical dam incidents records a major slip at Abberton in July 1937 while the embankment was under construction (the same year as the William Girling / Chingford and Hollowell slips). Wikipedia's Abberton Reservoir article describes the 1935–1939 puddle-clay-core London Clay embankment (about 690 m long) but does not separately narrate the 1937 slip. The reservoir was first filled in 1939. No source fetched reported deaths or an uncontrolled release.",
+      "status": "Completed 1939; banks later raised (scheme finished 2013). Still Essex and Suffolk Water.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        },
+        {
+          "label": "Wikipedia — Abberton Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Abberton_Reservoir"
+        },
+        {
+          "label": "Ramsar RIS — Abberton Reservoir (coordinates)",
+          "url": "https://rsis.ramsar.org/RISapp/files/RISrep/GB220RIS.pdf"
+        }
+      ],
+      "notes": "Construction slip. Deaths 0: no impounded release reported.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "South Essex Waterworks Company (then); Essex and Suffolk Water",
+      "year_built": "1935–1939",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "blackbrook-1957-02-11",
+      "name": "Blackbrook Dam (1957 earthquake)",
+      "country": "United Kingdom",
+      "region": "Between Shepshed and Whitwick, Leicestershire, England",
+      "location_label": "Blackbrook Reservoir gravity dam, Leicestershire, England",
+      "lat": 52.751,
+      "lng": -1.322,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Blackbrook Reservoir 52.751°N 1.322°W",
+      "river_or_facility": "Blackbrook Reservoir 1906 gravity dam",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "EA and Wikipedia: the 11 February 1957 magnitude 5.3 earthquake displaced coping stones and cracked faces of the 1906 mass-concrete gravity dam; damage was described as fairly superficial.",
+      "incident_date": "1957-02-11",
+      "latest_report_date": "2011-08",
+      "what_happened": "On 11 February 1957 a local-magnitude 5.3 earthquake affected the 1906 Blackbrook concrete-and-masonry gravity dam. The EA report (citing Kennard and Mackey, 1984) says damage was fairly superficial, including displacement of 0.75-tonne copings and manhole covers sheared and moved up to 20 mm. Wikipedia: tremors caused heavy coping stones to shift and cracks appeared in the faces of the dam. The dam did not breach. No source fetched reported deaths.",
+      "status": "Dam still standing; now redundant (Severn Trent / Grace Dieu & Longcliffe Estate).",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        },
+        {
+          "label": "Wikipedia — Blackbrook Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Blackbrook_Reservoir"
+        }
+      ],
+      "notes": "Same site as the 1799 earth-dam failure; different structure (1906 gravity dam). Deaths 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Severn Trent (present)",
+      "year_built": "1906",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete_gravity",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "minor"
+    },
+    {
+      "id": "blithfield-1962-02",
+      "name": "Blithfield Reservoir dam (wave overtopping and downstream slip)",
+      "country": "United Kingdom",
+      "region": "Blithbury / Abbots Bromley, Staffordshire, England",
+      "location_label": "Blithfield Reservoir, Staffordshire, England",
+      "lat": 52.809,
+      "lng": -1.919,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Blithfield Reservoir 52.809°N 1.919°W",
+      "river_or_facility": "Blithfield Reservoir; River Blithe",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "EA: a February 1962 storm created severe wave action that overtopped the dam, saturated the downstream fill and caused a slip in the downstream shoulder (Leach, 1975).",
+      "incident_date": "1962-02",
+      "latest_report_date": "2011-08",
+      "what_happened": "In February 1962 a major storm at Blithfield Reservoir created severe wave action that overtopped the dam, saturated the downstream fill and caused a slip in the downstream shoulder (Environment Agency report citing Leach, 1975). Wikipedia's Blithfield article records the reservoir (authorised 1939, opened 27 October 1953; South Staffordshire Water) but does not separately narrate the 1962 slip. The dam did not breach. No source fetched reported deaths.",
+      "status": "Still operating (South Staffordshire Water).",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        },
+        {
+          "label": "Wikipedia — Blithfield Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Blithfield_Reservoir"
+        }
+      ],
+      "notes": "Near-miss / in-service slip, not a breach. Deaths 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "South Staffordshire Water",
+      "year_built": "1953",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "balderhead-1967",
+      "name": "Balderhead Dam (first-filling internal erosion)",
+      "country": "United Kingdom",
+      "region": "Baldersdale, County Durham, England",
+      "location_label": "Balderhead Reservoir, Baldersdale, County Durham, England",
+      "lat": 54.56111,
+      "lng": -2.12361,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Balderhead Reservoir 54°33′40″N 2°7′25″W",
+      "river_or_facility": "Balderhead Dam; River Balder",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion",
+        "construction_first_filling",
+        "structural_design"
+      ],
+      "cause_summary": "EA: on first impounding, hydraulic fracture of the rolled boulder-clay core and internal erosion produced sinkholes in 1967; the reservoir was drawn down 9.2 m and a diaphragm wall was built.",
+      "incident_date": "1967",
+      "latest_report_date": "2011-08",
+      "what_happened": "Balderhead, a 48 m rolled boulder-clay-core dam with shale-fill shoulders, began first impounding in the mid-1960s (Wikipedia: construction 1961–64, filled 1965). The EA report: just before the reservoir was full in 1966 the main underdrain flow increased; in 1967 two sinkholes formed in the crest after localised settlements; the reservoir was immediately drawn down 9.2 m. Exploratory holes found erosion and segregation in the core, attributed to hydraulic fracture under nearly full reservoir pressure (Vaughan et al., 1970). Over the central 200 m a 0.6 m diaphragm wall was taken down to the concrete cut-off. The dam did not breach. No source fetched reported deaths.",
+      "status": "Repaired with diaphragm wall; still a Northumbrian Water reservoir.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        },
+        {
+          "label": "Wikipedia — Balderhead Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Balderhead_Reservoir"
+        }
+      ],
+      "notes": "First-filling internal erosion, not a breach. Deaths 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Tees Valley and Cleveland Water Board (then); Northumbrian Water",
+      "year_built": "1961–1964",
+      "height_m": 48,
+      "reservoir_capacity": "14.38 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Imperial College / Vaughan et al.",
+      "severity": "major"
+    },
+    {
+      "id": "combs-1976-01",
+      "name": "Combs Reservoir dam (downstream slip)",
+      "country": "United Kingdom",
+      "region": "Near Combs and Chapel-en-le-Frith, Derbyshire, England",
+      "location_label": "Combs Reservoir, Derbyshire, England",
+      "lat": 53.3134,
+      "lng": -1.9459,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Combs Reservoir 53.3134°N 1.9459°W",
+      "river_or_facility": "Combs Reservoir; Peak Forest Canal feeder",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "EA: the January 1976 downstream slip occurred during a storm and was probably triggered by wave action saturating the downstream fill through cavities in the wave wall (Ferguson et al., 1979).",
+      "incident_date": "1976-01",
+      "latest_report_date": "2011-08",
+      "what_happened": "In January 1976 Combs Reservoir's embankment suffered a downstream slip. The Environment Agency report says the slip occurred during a storm and was probably triggered by wave action saturating the downstream fill through cavities in the wave wall (Ferguson et al., 1979). Wikipedia records the 1797 canal-feeder reservoir (dam raised 1834–40; now Canal & River Trust) but does not separately narrate the 1976 slip. The dam did not breach. No source fetched reported deaths.",
+      "status": "Still a Canal & River Trust canal-feeder reservoir.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        },
+        {
+          "label": "Wikipedia — Combs Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Combs_Reservoir"
+        }
+      ],
+      "notes": "In-service slip, not a breach. Deaths 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Canal & River Trust (now)",
+      "year_built": "1797 (raised 1834–1840)",
+      "height_m": null,
+      "reservoir_capacity": "1,484,000 m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "greenbooth-1983-03-07",
+      "name": "Greenbooth Dam (crest sinkhole)",
+      "country": "United Kingdom",
+      "region": "Norden / Heywood, Rochdale, Greater Manchester, England",
+      "location_label": "Greenbooth Reservoir, Rochdale, Greater Manchester, England",
+      "lat": 53.6373,
+      "lng": -2.2187,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Greenbooth Reservoir 53.6373°N 2.2187°W",
+      "river_or_facility": "Greenbooth Dam; Naden valley",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "EA: a rapidly deepening crest-road depression on 7 March 1983 sat above a sharp concrete/puddle-clay interface; voids in the puddle core were grouted after a 9.3 m drawdown.",
+      "incident_date": "1983-03-07",
+      "latest_report_date": "2011-08",
+      "what_happened": "On the afternoon of 7 March 1983 a member of the public walking dogs noticed a depression in the asphalt of the crest roadway of the 35 m Greenbooth Dam, about 20 m from the west abutment. The EA report: by mid-morning the next day it measured 3 m by 1 m and had subsided 0.16 m, directly above the toe of a concrete wing wall where the concrete/puddle-clay interface changed direction sharply. A panel engineer supervised a 9.3 m drawdown over eight days. Investigation found voids in the puddle clay, grouted by tube-à-manchette (Flemming and Rossington, 1985). Greenbooth (completed 1962) was one of the last UK puddle-clay-core dams. It did not breach. No source fetched reported deaths.",
+      "status": "Grouted and returned to service; still a United Utilities reservoir.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        },
+        {
+          "label": "Wikipedia — Greenbooth Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Greenbooth_Reservoir"
+        }
+      ],
+      "notes": "Internal-erosion near-miss. Deaths 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Heywood and Middleton Water Board (then); United Utilities",
+      "year_built": "1958–1962 (opened 1965)",
+      "height_m": 35,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "boltby-2005-06-19",
+      "name": "Boltby Reservoir spillway",
+      "country": "United Kingdom",
+      "region": "Boltby Forest, North York Moors, North Yorkshire, England",
+      "location_label": "Former Boltby Reservoir, 1.5 km upstream of Boltby, North Yorkshire, England",
+      "lat": 54.2909,
+      "lng": -1.2394,
+      "geo_accuracy": "site",
+      "geo_source": "Geograph SE 4961 8863 (former Boltby Reservoir) 54°17.4537′N 1°14.3617′W",
+      "river_or_facility": "Boltby Reservoir masonry spillway and earthfill dam",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "spillway",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "NCE and ICE: a 19 June 2005 flash flood ripped masonry from the stepped spillway and scoured the embankment; the reservoir was later discontinued rather than rebuilt.",
+      "incident_date": "2005-06-19",
+      "latest_report_date": "2008",
+      "what_happened": "On Sunday 19 June 2005 a flash flood damaged the masonry-lined stepped spillway of Boltby Reservoir, a roughly 20 m, 150 m-long earthfill dam completed about 1880 and holding about 121,000 m³, 1.5 km upstream of Boltby village (NS Energy / Walker 2008). New Civil Engineer later called Ulley 2007 a repeat of this spillway-scour mechanism. Walker (Dams and Reservoirs, 2008): the flood was assessed as rarer than 1 in 10,000 years; the reservoir had not been used for supply since 2003 and was discontinued under Reservoirs Act s.13 — a ~70 m crest notch so remaining storage is under 25,000 m³ (works Oct 2006–Feb 2007). No source fetched reported deaths at the dam.",
+      "status": "Discontinued 2006–07; notched to a small wildlife water body.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "New Civil Engineer — Ulley repeats 2005 Boltby spillway incident",
+          "url": "https://www.newcivilengineer.com/archive/dam-design-flaws-exposed-as-ulley-repeats-2005-incident-2-05-07-2007/"
+        },
+        {
+          "label": "Walker — The discontinuance of Boltby reservoir (Dams and Reservoirs, 2008)",
+          "url": "https://doi.org/10.1680/dare.2008.18.1.17"
+        },
+        {
+          "label": "Geograph — former Boltby Reservoir (SE4988)",
+          "url": "https://www.geograph.org.uk/photo/4086944"
+        },
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        }
+      ],
+      "notes": "Precursor to Ulley 2007 (already in DB). Deaths 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Yorkshire Water",
+      "year_built": "1880",
+      "height_m": 20,
+      "reservoir_capacity": "121,000 m³ (NCE / Claydon)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Yorkshire Water / panel engineers",
+      "severity": "major"
+    },
+    {
+      "id": "cwm-ebol-2012-06-10",
+      "name": "Cwm Ebol quarry reservoir dam (Pennal)",
+      "country": "United Kingdom",
+      "region": "Above Pennal, Gwynedd, Wales",
+      "location_label": "Cwm Ebol reservoir above Pennal, Gwynedd, Wales",
+      "lat": 52.596771,
+      "lng": -3.938203,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Cwm Ebol quarry 52.596771°N 3.938203°W (quarry; reservoir dammed Nant Cwm Ebol above the quarry)",
+      "river_or_facility": "Cwm Ebol quarry reservoir; Nant Cwm Ebol / Afon Pennal",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall",
+        "landslide",
+        "overtopping"
+      ],
+      "cause_summary": "BBC and The Times: prolonged rain and a landslide blocked the drain; a crack / slight breach appeared and water streamed over the slate-waste dam; 600 people were evacuated and a controlled channel was cut.",
+      "incident_date": "2012-06-10",
+      "latest_report_date": "2012-06-11",
+      "what_happened": "On Sunday 10 June 2012, after prolonged heavy rain across mid and west Wales, a crack and slight breach appeared in the dam of the disused Cwm Ebol quarry reservoir above Pennal. BBC: a hole that would normally drain the reservoir had been blocked by a landslide; police advised about 600 people to leave Pennal; emergency services, contractors and the landowner made two controlled releases (about 6 million gallons) and cut a permanent channel. Villagers were allowed back by about 19:30 BST. Wikipedia: a large reservoir damming Nant Cwm Ebol had powered the quarry mill and was maintained after closure about 1906. CIRIA SP167 uses Cwm Ebol 2012 as the end of its 103-incident British series. No source fetched reported deaths.",
+      "status": "Permanent channel cut; reservoir no longer held at the old level.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "about 600 (Pennal and surrounding houses)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "BBC News — Flood-risk villagers return home to Pennal",
+          "url": "https://www.bbc.com/news/uk-wales-18387520"
+        },
+        {
+          "label": "BBC News — Wales floods: Rain warning threat to clean-up",
+          "url": "https://www.bbc.co.uk/news/uk-wales-18391754"
+        },
+        {
+          "label": "Wikipedia — Cwm Ebol quarry",
+          "url": "https://en.wikipedia.org/wiki/Cwm_Ebol_quarry"
+        }
+      ],
+      "notes": "Abandoned industrial reservoir. Deaths 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Private landowner (quarry closed 1906)",
+      "year_built": "19th century (quarry reservoir)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": "controlled release of about 6 million gallons (BBC)",
+      "breach_size": null,
+      "downstream_risk": "Pennal village via Afon Pennal",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "ashti-1933",
+      "name": "Ashti Dam (Mohol)",
+      "country": "India",
+      "region": "Mohol, Solapur district, Maharashtra",
+      "location_label": "Ashti Dam, Mohol, Solapur district, Maharashtra, India",
+      "lat": 17.8002707,
+      "lng": 75.4275261,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Ashti Dam, Mohol 17.8002707°N 75.4275261°E",
+      "river_or_facility": "Ashti earthfill dam; Ashti River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "CWC / Iyer (IIT Roorkee, 2023) dam-failure table: Ashti, an earth dam 17.70 m high completed 1883, failed in 1933 by slope failure. The table does not state piping, foundation or rainfall beyond slope failure.",
+      "incident_date": "1933",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "The Central Water Commission list of reported Indian dam failures, as tabulated by J. Chandrashekhar Iyer (former CWC chairman) in a 30 September 2023 IIT Roorkee lecture, records Ashti in Maharashtra: earth dam, maximum height 17.70 m, completed 1883, failed 1933, cause 'Slope failure.' Wikipedia Ashti Dam, Mohol matches those dimensions (earthfill, 17.6 m, opened 1883, irrigation, Solapur district). No death count is given in the CWC table or the Wikipedia stub.",
+      "status": "Listed as a historic CWC failure; present Wikipedia page describes an irrigation dam at the same site/name.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Iyer / CWC — Hydraulic safety assessment (IIT Roorkee, 30 Sep 2023)",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "Wikipedia — Ashti Dam, Mohol",
+          "url": "https://en.wikipedia.org/wiki/Ashti_Dam,_Mohol"
+        }
+      ],
+      "notes": "Deaths null — CWC table gives no toll. Cause mapped to structural_design from CWC 'Slope failure' only.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Government of Maharashtra",
+      "year_built": "1883",
+      "height_m": 17.7,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "pagara-1943",
+      "name": "Pagara Dam (Asan River, Morena)",
+      "country": "India",
+      "region": "Near Pagara village, Joura / Jaura, Morena district, Madhya Pradesh",
+      "location_label": "Pagara Dam, Morena district, Madhya Pradesh, India",
+      "lat": 26.15775,
+      "lng": 77.806194,
+      "geo_accuracy": "exact",
+      "geo_source": "IJLS water-quality paper: Pagara Dam 26°09′27.9″N 77°48′22.3″E",
+      "river_or_facility": "Pagara Dam; Asan (Aasan) River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "CWC / Iyer table: Pagara, a 27.03 m composite dam completed 1911–27, failed in 1943 by overtopping followed by breach.",
+      "incident_date": "1943",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "The CWC reported-failures table (Iyer, IIT Roorkee, 30 Sep 2023) lists Pagara in Madhya Pradesh: composite dam, 27.03 m, built 1911–27, failed 1943, overtopping followed by breach. A water-quality paper on the present reservoir places the masonry dam on the Asan River about 13–15 km from Jaura, Morena district, at 26°09′27.9″N, 77°48′22.3″E, and gives construction 1911–1927. A later hydrology preprint mentions a 1971 re-failure after a 1948 rebuild; this record is the 1943 CWC event only. No death count is given in the CWC table.",
+      "status": "Rebuilt (1948 per later paper); rehabilitated 2010; still an irrigation reservoir.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Iyer / CWC — Hydraulic safety assessment (IIT Roorkee, 30 Sep 2023)",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "IJLS — Pagara Dam location paper",
+          "url": "https://ijlsci.in/ls/index.php/home/article/download/36/33/75"
+        }
+      ],
+      "notes": "1971 re-failure mentioned in a later paper is not merged here. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Madhya Pradesh (irrigation)",
+      "year_built": "1911–1927",
+      "height_m": 27.03,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "mitti-1988",
+      "name": "Mitti Dam (Abdasa, Kutch)",
+      "country": "India",
+      "region": "Near Trambau, Abdasa Taluka, Kutch district, Gujarat",
+      "location_label": "Mitti Dam, Abdasa, Kutch, Gujarat, India",
+      "lat": 23.33778,
+      "lng": 68.83056,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Mitti Dam 23°20′16″N 68°49′50″E",
+      "river_or_facility": "Mitti Dam; Mitti River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "CWC / Iyer table: Mitti, an earth dam 16.02 m high completed 1982, failed in 1988 by overtopping leading to breach.",
+      "incident_date": "1988",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "The CWC reported-failures table (Iyer, 2023) lists Mitti in Gujarat: earth dam, 16.02 m, completed 1982, failed 1988, 'Overtopping leading to breach.' Wikipedia: concrete and earthen dam on the intermittent Mitti River near Trambau, Abdasa Taluka, Kutch, completed 1983, 4,405 m long, gross storage 17.40 MCM. The National Institute of Hydrology published a Dam Break Study of Mitti Dam (1994). No death count is given in the CWC table or the Wikipedia stub.",
+      "status": "Historic CWC failure; NIH 1994 dam-break study. Present Wikipedia page describes the dam at this site.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Iyer / CWC — Hydraulic safety assessment (IIT Roorkee, 30 Sep 2023)",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "Wikipedia — Mitti Dam",
+          "url": "https://en.wikipedia.org/wiki/Mitti_Dam"
+        }
+      ],
+      "notes": "CWC completion 1982 vs Wikipedia 1983. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Gujarat (irrigation)",
+      "year_built": "1982",
+      "height_m": 16.02,
+      "reservoir_capacity": "17.40 MCM gross (Wikipedia / Jain et al.)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "kaddam-1995-10-20",
+      "name": "Kaddam (Kadem) Project Dam (1995 overtopping)",
+      "country": "India",
+      "region": "Kadem / Nirmal district, Telangana",
+      "location_label": "Kaddam Project Dam, Telangana, India",
+      "lat": 19.10806,
+      "lng": 78.79083,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Kaddam Project (same site as existing 1958 record)",
+      "river_or_facility": "Kaddam / Kadem Project Dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "CWC / Iyer table: Kadam, a 22.50 m composite dam completed 1958, failed again in 1995 by overtopping leading to breach. A 2023 hydrology preprint dates that failure 20 October 1995.",
+      "incident_date": "1995-10-20",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "The CWC reported-failures table (Iyer, 2023) lists a second failure of the Kadam / Kaddam composite dam in Telangana: completed 1958, failed 1995, 'Over topping leading to breach.' A 2023 preprint on Indian dam failures dates Kaddem 20-10-1995. This is a later event than the August 1958 first failure already in this database (kaddam-1958-08); the 1958 record notes the dam was rebuilt with extra spillway gates. No death count is given in the CWC 1995 row.",
+      "status": "Rebuilt after 1958; 1995 overtopping is a separate CWC-listed failure.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Iyer / CWC — Hydraulic safety assessment (IIT Roorkee, 30 Sep 2023)",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "Research Square preprint — Indian dam failures case study (Kaddem 20-10-1995)",
+          "url": "https://doi.org/10.21203/rs.3.rs-3475065/v1"
+        }
+      ],
+      "notes": "Do not merge with kaddam-1958-08. Deaths null — no 1995 toll in CWC table.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Telangana / Andhra Pradesh (then) irrigation",
+      "year_built": "1958 (rebuilt after first failure)",
+      "height_m": 22.5,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "annamayya-cheyyeru-2021-11-19",
+      "name": "Annamayya Project earthen bund (Cheyyeru)",
+      "country": "India",
+      "region": "Badanagadda, Rajampet mandal, Kadapa (YSR) district, Andhra Pradesh",
+      "location_label": "Annamayya / Cheyyeru Project, Rajampet, Andhra Pradesh, India",
+      "lat": 14.201667,
+      "lng": 79.020833,
+      "geo_accuracy": "exact",
+      "geo_source": "SANDRP / project data: 14°12′06″N 79°01′15″E",
+      "river_or_facility": "Annamayya (Cheyyeru) Project earthen bund; Cheyyeru River (Pennar tributary)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "New Indian Express / officials: unprecedented inflows (about 3.2 lakh cusecs vs ~2.17 lakh cusec discharge capacity), after the upstream Pincha ring bund was damaged, overtopped and breached the left earthen bund about 06:00 on 19 November 2021.",
+      "incident_date": "2021-11-19",
+      "latest_report_date": "2022-01-11",
+      "what_happened": "In the early hours of 19 November 2021 the left earthen bund of the Annamayya medium irrigation project on the Cheyyeru at Badanagadda, Rajampet mandal, Kadapa district, collapsed. SANDRP and New Indian Express: the project (started 1981, completed 2001; height 25 m; gross storage 63.5 MCM) received about 3.2 lakh cusecs after the upstream Pincha project's ring bund was damaged on 18 November, against a discharge capacity variously stated as 2.17–2.85 lakh cusecs. Officials told the Chief Minister the bund was overtopped by about a metre. SANDRP reported people swept away at Pulapathur (13) and Gundlur (5) and 10 killed when an APSRTC bus left Nandaluru bridge — those figures are for the Cheyyeru flood after both Pincha and Annamayya and are not entered as this dam's death field. The executive engineer later said a jammed radial gate did not cause the bund breach.",
+      "status": "Reservoir emptied; officials were still deciding in January 2022 whether to rebuild the bund on the same line.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "about 400 of 1,250 downstream families shifted (officials to CM, TNIE 25 Nov 2021)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "SANDRP — Andhra Pradesh dam-induced flood disaster, November 2021",
+          "url": "https://sandrp.in/2021/12/05/andhra-pradesh-dam-induced-flood-disaster-in-november-2021/"
+        },
+        {
+          "label": "New Indian Express — Unprecedented inflows led to Annamayya bund breach",
+          "url": "https://www.newindianexpress.com/states/andhra-pradesh/2021/Nov/25/unprecedented-inflows-led-to-annamayya-bund-breach-2387838.html"
+        },
+        {
+          "label": "New Indian Express — 50 days on, fate of earthen bund still unclear",
+          "url": "https://www.newindianexpress.com/states/andhra-pradesh/2022/Jan/11/50-days-on-fate-of-annamayya-project-earthen-bund-still-unclear-2405803.html"
+        },
+        {
+          "label": "Iyer / CWC — Cheyyuru (Annamaya) Project listed as 2021 failure",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        }
+      ],
+      "notes": "Deaths null: village and bus fatalities reported by SANDRP are Cheyyeru-flood totals after Pincha + Annamayya, not isolated to this structure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Andhra Pradesh Water Resources / Annamayya project",
+      "year_built": "2001",
+      "height_m": 25,
+      "reservoir_capacity": "63.5 MCM gross (SANDRP / project sheet)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kadapa district administration / project EE",
+      "severity": "catastrophic"
+    },
+    {
+      "id": "karam-bharudpura-2022-08",
+      "name": "Karam (Bharudpura) Dam",
+      "country": "India",
+      "region": "Near Gujari / Gujri village, Dharampuri tehsil, Dhar district, Madhya Pradesh",
+      "location_label": "Karam Dam near Gujri, Dharampuri, Dhar district, Madhya Pradesh, India",
+      "lat": 22.31773,
+      "lng": 75.50706,
+      "geo_accuracy": "region",
+      "geo_source": "VoiceOfVillage Gujri village 22.31773°N 75.50706°E; SANDRP: dam on Karam River near Gujari village, Dharampuri tehsil",
+      "river_or_facility": "Karam / Bharudpura Dam; Karam River (Narmada tributary)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "construction_first_filling",
+        "structural_design"
+      ],
+      "cause_summary": "SANDRP and Times of India: first filling in August 2022 produced seepage and erosion from 11 August; a relief channel then widened and a portion of the wall collapsed on 14 August. Collector cited black rather than red soil in the earthfill.",
+      "incident_date": "2022-08-14",
+      "latest_report_date": "2022-08-15",
+      "what_happened": "The under-construction Karam (Bharudpura) earth dam on the Karam River near Gujari village, Dharampuri tehsil, Dhar district, developed seepage and massive erosion from 11 August 2022 on first filling (SANDRP: construction started 2018; about 52 m high; 43.98 MCM). About 10,000 people from 18 downstream villages (12 in Dhar, 6 in Khargone) were evacuated. Times of India (15 Aug 2022): a portion of the dam collapsed on Sunday evening as a channel dug to drain the reservoir widened; no casualties, danger averted. CWC's 42-failure list includes 'Karam dam … 2022 During first filling.'",
+      "status": "Portion collapsed; reservoir drained. Later reports: contractor blacklisted; reconstruction ongoing.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "about 10,000 from 18 villages (TOI / SANDRP)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Times of India — Dam wall collapses in MP, no casualties",
+          "url": "https://timesofindia.indiatimes.com/city/bhopal/dam-wall-collapses-in-madhya-pradesh-but-danger-averted-no-casualties/articleshow/93565154.cms"
+        },
+        {
+          "label": "SANDRP — Bharudpura / Karam Dam first-filling disaster",
+          "url": "https://sandrp.in/2022/08/13/bharudpura-dam-in-mp-faces-disaster-after-first-filling-in-aug-2022/"
+        },
+        {
+          "label": "Iyer / CWC — Karam dam 2022 first-filling failure",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        }
+      ],
+      "notes": "Deaths 0: TOI 'no casualties' after pre-collapse evacuation. Coords are the named nearby village, not a surveyed dam pin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Madhya Pradesh Water Resources Department",
+      "year_built": "2018– (under construction at failure)",
+      "height_m": 52,
+      "reservoir_capacity": "43.98 MCM (SANDRP salient features)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "MP government / Dam Safety Authority member Vivek Tripathi (CM statement)",
+      "severity": "major"
+    },
+    {
+      "id": "burrinjuck-1925-05",
+      "name": "Burrinjuck Dam (1925 construction overtopping)",
+      "country": "Australia",
+      "region": "Burrinjuck, South West Slopes, New South Wales",
+      "location_label": "Burrinjuck Dam, Murrumbidgee River, New South Wales, Australia",
+      "lat": -34.99833,
+      "lng": 148.58444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Burrinjuck Dam 34.99833°S 148.58444°E",
+      "river_or_facility": "Burrinjuck Dam; Murrumbidgee River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Wikipedia and the Jugiong flood study: a May 1925 flood, before the dam was finished, overtopped the wall by about 1 m. The dam did not collapse.",
+      "incident_date": "1925-05",
+      "latest_report_date": "2021-07",
+      "what_happened": "Burrinjuck Dam on the Murrumbidgee (construction 1907–1928) was overtopped in May 1925 while still unfinished. Wikipedia: the flood far exceeded all previously recorded floods and resulted in the dam wall being overtopped to a depth of 1 metre. Hilltops Council Jugiong flood study (citing State Water): a potentially disastrous 1 m depth of flow over the dam crest was observed; the dam was later raised (1938–57) and again after 1974. A July 1922 flood had already torn through the unfinished southern spillway. The dam held. No source fetched reported deaths from the 1925 overtopping (construction deaths in other years are not this event).",
+      "status": "Completed 1928; later raised and post-tensioned. Still operating (WaterNSW).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Burrinjuck Dam",
+          "url": "https://en.wikipedia.org/wiki/Burrinjuck_Dam"
+        },
+        {
+          "label": "Hilltops Council — Jugiong flood study (Burrinjuck 1925 overtopping)",
+          "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/07/Jugiong-flood-study.pdf"
+        }
+      ],
+      "notes": "Not a collapse. Deaths null — no 1925 overtopping toll. Do not copy 1924 or 1950 construction-site deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "NSW Water Conservation & Irrigation Commission / Public Works (then); WaterNSW",
+      "year_built": "1907–1928",
+      "height_m": 93,
+      "reservoir_capacity": "1,026 GL (present; original smaller)",
+      "construction": "concrete_gravity",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "burrinjuck-1974",
+      "name": "Burrinjuck Dam (1974 spillway and outlet damage)",
+      "country": "Australia",
+      "region": "Burrinjuck, South West Slopes, New South Wales",
+      "location_label": "Burrinjuck Dam, Murrumbidgee River, New South Wales, Australia",
+      "lat": -34.99833,
+      "lng": 148.58444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Burrinjuck Dam 34.99833°S 148.58444°E",
+      "river_or_facility": "Burrinjuck Dam spillway and outlets; Murrumbidgee River",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "spillway",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: the 1974 flood eroded unweathered granite from an unlined spillway channel, destroyed a penstock to the power station and destroyed the outlet valves, prompting a safety review and the later flood-security upgrade.",
+      "incident_date": "1974",
+      "latest_report_date": "2011",
+      "what_happened": "A major flood in 1974 at Burrinjuck Dam eroded unweathered granite from an unlined spillway discharge channel and destroyed a penstock to Burrinjuck Power Station; the dam's outlet valves were also destroyed (Wikipedia). The Jugiong flood study notes the 1974 flood led to destruction of the penstock through spillway-channel erosion and that an audit recommended further upgrades, completed in 1999 (wall raised, spillway capacity increased; cost A$79.5 million). The dam did not collapse. No source fetched reported deaths from the 1974 spillway damage.",
+      "status": "Flood-security upgrade completed 1999; still operating.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Burrinjuck Dam",
+          "url": "https://en.wikipedia.org/wiki/Burrinjuck_Dam"
+        },
+        {
+          "label": "Hilltops Council — Jugiong flood study",
+          "url": "https://www.hilltops.nsw.gov.au/wp-content/uploads/2021/07/Jugiong-flood-study.pdf"
+        }
+      ],
+      "notes": "Separate from 1925 overtopping. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "State Water / WaterNSW",
+      "year_built": "1907–1928 (upgraded later)",
+      "height_m": 93,
+      "reservoir_capacity": null,
+      "construction": "concrete_gravity",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "NSW dam-safety review after 1974",
+      "severity": "major"
+    },
+    {
+      "id": "paradise-burnett-2013-01",
+      "name": "Paradise Dam (Burnett River) spillway and stability",
+      "country": "Australia",
+      "region": "Burnett River near Biggenden, Wide Bay-Burnett, Queensland",
+      "location_label": "Paradise Dam, Burnett River, Queensland, Australia",
+      "lat": -25.350231,
+      "lng": 151.918602,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Paradise Dam (Queensland) 25.350231°S 151.918602°E",
+      "river_or_facility": "Paradise Dam / Burnett River Dam; Lake Paradise",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "spillway",
+        "structural_design",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "2013 flood damaged the primary spillway and stilling basin; later investigations found RCC lift-joint shear strength inadequate. The 2020 inquiry said longer 2013 flooding might have undermined the dam.",
+      "incident_date": "2013-01",
+      "latest_report_date": "2024-01-10",
+      "what_happened": "Paradise Dam, a 37 m roller-compacted-concrete gravity dam on the Burnett River completed in 2005 (300,000 ML; irrigation for the Bundaberg scheme), passed major floods in December 2010–January 2011 and January and March 2013. Wikipedia and ABC: the 2013 flood significantly damaged the spillway. The 2020 Paradise Dam Commission of Inquiry found the primary spillway apron was too short — a 15 m-deep hole formed downstream of the stilling basin — and that if the 2013 floods had lasted longer, erosion might have undermined the dam. Later studies found sliding/shear strength along RCC lift joints did not meet ANCOLD factors of safety. In 2019–21 Sunwater lowered the spillway 5.8 m as essential works. In January 2024 Sunwater said the concrete quality meant the wall could not be repaired and recommended a new dam immediately downstream. No source fetched reported deaths.",
+      "status": "Spillway lowered 5.8 m (2020–21). 2024: operator recommended full replacement downstream.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Paradise Dam (Queensland)",
+          "url": "https://en.wikipedia.org/wiki/Paradise_Dam_(Queensland)"
+        },
+        {
+          "label": "ABC News — Paradise Dam to be rebuilt (10 Jan 2024)",
+          "url": "https://www.abc.net.au/news/2024-01-10/queensland-paradise-dam-to-be-rebuilt/103306884"
+        },
+        {
+          "label": "Paradise Dam Commission of Inquiry Report 2020",
+          "url": "https://www.paradisedaminquiry.qld.gov.au/__data/assets/pdf_file/0008/1529081/report-april-2020.pdf"
+        }
+      ],
+      "notes": "Not a collapse. Deaths null. 2013 flood damage is the incident date; 2019–24 findings are the same structure's continuing safety case.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Burnett Water / Sunwater",
+      "year_built": "2003–2005",
+      "height_m": 37,
+      "reservoir_capacity": "300,000 ML (original FSL)",
+      "construction": "concrete_gravity",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Paradise Dam Commission of Inquiry (2020); GHD / technical review panels",
+      "severity": "major"
     }
   ]
 }
