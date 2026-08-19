@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "worldwatcher",
+  "buildCommand": "rm -rf .vercel-out && mkdir .vercel-out && cp -R damincidents/. .vercel-out/ && rm -rf .vercel-out/__pycache__ .vercel-out/*.pyc",
+  "outputDirectory": ".vercel-out",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/damincidents", "destination": "/index.html" },
+    { "source": "/damincidents/", "destination": "/index.html" },
+    { "source": "/damincidents/:path*", "destination": "/:path*" }
+  ]
+}

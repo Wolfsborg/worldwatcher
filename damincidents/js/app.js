@@ -468,11 +468,25 @@
       worldCopyJump: true,
     }).setView([22, 12], 2.4);
     L.control.zoom({ position: "bottomright" }).addTo(map);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+    const dark = L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: "abcd",
       maxZoom: 19,
-    }).addTo(map);
+    });
+    const aerial = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+      attribution: "Tiles &copy; Esri",
+      maxZoom: 19,
+    });
+    dark.addTo(map);
+    function syncBase() {
+      if (map.getZoom() >= 8) {
+        if (!map.hasLayer(aerial)) aerial.addTo(map);
+      } else if (map.hasLayer(aerial)) {
+        map.removeLayer(aerial);
+      }
+    }
+    map.on("zoomend", syncBase);
+    syncBase();
     cluster = L.markerClusterGroup({
       maxClusterRadius: 42,
       showCoverageOnHover: false,
@@ -480,7 +494,9 @@
       disableClusteringAtZoom: 10,
     });
     map.addLayer(cluster);
-    setTimeout(() => map.invalidateSize(), 80);
+    const resize = () => map.invalidateSize();
+    window.addEventListener("resize", resize);
+    setTimeout(resize, 80);
   }
 
   fetch(DATA_URL)
