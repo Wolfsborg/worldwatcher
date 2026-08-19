@@ -59,8 +59,119 @@
     minor: "Minor",
   };
 
+  const CAUSE_COLORS = {
+    overtopping: "#4a9fd8",
+    piping_internal_erosion: "#e8892c",
+    structural_design: "#b85c9e",
+    foundation: "#7a8894",
+    earthquake: "#d4504b",
+    landslide: "#8c6a3d",
+    spillway: "#4aa3df",
+    operational_gate: "#e8c84d",
+    extreme_rainfall: "#5b8ac5",
+    war_attack: "#e24b4a",
+    tailings_liquefaction: "#c8763e",
+    poor_maintenance: "#9b7a3a",
+    construction_first_filling: "#6b94c4",
+    unknown: "#6b717a",
+    storm_surge: "#4a88b8",
+    snowmelt: "#7ba8d4",
+    ice_jam: "#5fa3c9",
+    monsoon: "#4f7eb5",
+    tropical_cyclone: "#4368a0",
+    dam_release: "#567ab8",
+    urban_drainage: "#8a9ab0",
+  };
+
+  const CATEGORY_COLORS = {
+    failure: "#e24b4a",
+    partial_breach: "#e8892c",
+    incident: "#4aa3df",
+    watch: "#d4b45a",
+    controlled_release: "#7a8894",
+  };
+
+  const SEVERITY_COLORS = {
+    catastrophic: "#e24b4a",
+    major: "#e8892c",
+    moderate: "#d4b45a",
+    minor: "#7a8894",
+  };
+
+  const TYPE_COLORS = {
+    reservoir_dam: "#4a9fd8",
+    tailings: "#c8763e",
+    levee_embankment: "#7a8894",
+    weir: "#5b8ac5",
+    spillway: "#4aa3df",
+    sluice: "#6b94c4",
+  };
+
+  const FLOOD_TYPE_COLORS = {
+    riverine: "#4a9fd8",
+    flash: "#e8892c",
+    coastal: "#5b8ac5",
+    urban: "#7a8894",
+    ice_jam: "#5fa3c9",
+    glacial: "#7ba8d4",
+    storm: "#4368a0",
+  };
+
   function formatNum(n) {
     return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
+  function renderPieChart(data, colorMap, title) {
+    if (data.length === 0) {
+      return `
+        <div class="stat-card">
+          <h2 class="stat-card-title">${title}</h2>
+          <p style="color: var(--muted); font-size: 13px;">No data available</p>
+        </div>
+      `;
+    }
+
+    const total = data.reduce((sum, item) => sum + item.count, 0);
+    let cumulativePercent = 0;
+    const gradientStops = [];
+    
+    data.forEach((item, idx) => {
+      const percent = (item.count / total) * 100;
+      const color = colorMap[item.key] || "#6b717a";
+      
+      if (idx === 0) {
+        gradientStops.push(`${color} 0%`);
+      } else {
+        gradientStops.push(`${color} ${cumulativePercent}%`);
+      }
+      
+      cumulativePercent += percent;
+      gradientStops.push(`${color} ${cumulativePercent}%`);
+    });
+
+    const gradientString = gradientStops.join(", ");
+    
+    const legendItems = data.map(item => {
+      const percent = ((item.count / total) * 100).toFixed(1);
+      const color = colorMap[item.key] || "#6b717a";
+      return `
+        <div class="pie-legend-item">
+          <span class="pie-legend-swatch" style="background: ${color}"></span>
+          <span class="pie-legend-label">${item.label}</span>
+          <span class="pie-legend-value">${formatNum(item.count)} (${percent}%)</span>
+        </div>
+      `;
+    }).join("");
+
+    return `
+      <div class="stat-card">
+        <h2 class="stat-card-title">${title}</h2>
+        <div class="pie-chart-container">
+          <div class="pie-chart" style="background: conic-gradient(${gradientString})"></div>
+          <div class="pie-legend">${legendItems}</div>
+        </div>
+      </div>
+    `;
   }
 
   function yearOf(inc) {
@@ -188,40 +299,14 @@
   function renderByCause(stats) {
     const causes = Object.entries(stats.causeCounts)
       .sort((a, b) => b[1] - a[1])
-      .slice(0, 15);
+      .slice(0, 15)
+      .map(([cause, count]) => ({
+        key: cause,
+        label: CAUSE_LABEL[cause] || cause,
+        count: count,
+      }));
 
-    if (causes.length === 0) {
-      return `
-        <div class="stat-card">
-          <h2 class="stat-card-title">By Cause</h2>
-          <p style="color: var(--muted); font-size: 13px;">No cause data available</p>
-        </div>
-      `;
-    }
-
-    const maxCount = causes[0][1];
-    const items = causes.map(([cause, count]) => {
-      const pct = (count / maxCount) * 100;
-      const label = CAUSE_LABEL[cause] || cause;
-      return `
-        <li class="stat-bar-item">
-          <div class="stat-bar-label">
-            <span class="stat-bar-name">${label}</span>
-            <span class="stat-bar-value">${formatNum(count)}</span>
-          </div>
-          <div class="stat-bar-track">
-            <div class="stat-bar-fill" style="width: ${pct}%"></div>
-          </div>
-        </li>
-      `;
-    }).join("");
-
-    return `
-      <div class="stat-card">
-        <h2 class="stat-card-title">By Cause</h2>
-        <ul class="stat-bar-list">${items}</ul>
-      </div>
-    `;
+    return renderPieChart(causes, CAUSE_COLORS, "By Cause");
   }
 
   function renderByCountry(stats) {
@@ -276,32 +361,17 @@
       return "";
     }
 
-    const maxCount = categories[0][1];
     const labelMap = layer === "floods" ? SEVERITY_LABEL : CATEGORY_LABEL;
+    const colorMap = layer === "floods" ? SEVERITY_COLORS : CATEGORY_COLORS;
     const title = layer === "floods" ? "By Severity" : "By Category";
     
-    const items = categories.map(([category, count]) => {
-      const pct = (count / maxCount) * 100;
-      const label = labelMap[category] || CATEGORY_LABEL[category] || category;
-      return `
-        <li class="stat-bar-item">
-          <div class="stat-bar-label">
-            <span class="stat-bar-name">${label}</span>
-            <span class="stat-bar-value">${formatNum(count)}</span>
-          </div>
-          <div class="stat-bar-track">
-            <div class="stat-bar-fill" style="width: ${pct}%"></div>
-          </div>
-        </li>
-      `;
-    }).join("");
+    const data = categories.map(([category, count]) => ({
+      key: category,
+      label: labelMap[category] || CATEGORY_LABEL[category] || category,
+      count: count,
+    }));
 
-    return `
-      <div class="stat-card">
-        <h2 class="stat-card-title">${title}</h2>
-        <ul class="stat-bar-list">${items}</ul>
-      </div>
-    `;
+    return renderPieChart(data, colorMap, title);
   }
 
   function renderByType(stats, layer) {
@@ -312,32 +382,17 @@
       return "";
     }
 
-    const maxCount = types[0][1];
     const labelMap = layer === "floods" ? FLOOD_TYPE_LABEL : TYPE_LABEL;
+    const colorMap = layer === "floods" ? FLOOD_TYPE_COLORS : TYPE_COLORS;
     const title = layer === "floods" ? "By Flood Type" : "By Type";
     
-    const items = types.map(([type, count]) => {
-      const pct = (count / maxCount) * 100;
-      const label = labelMap[type] || type;
-      return `
-        <li class="stat-bar-item">
-          <div class="stat-bar-label">
-            <span class="stat-bar-name">${label}</span>
-            <span class="stat-bar-value">${formatNum(count)}</span>
-          </div>
-          <div class="stat-bar-track">
-            <div class="stat-bar-fill" style="width: ${pct}%"></div>
-          </div>
-        </li>
-      `;
-    }).join("");
+    const data = types.map(([type, count]) => ({
+      key: type,
+      label: labelMap[type] || type,
+      count: count,
+    }));
 
-    return `
-      <div class="stat-card">
-        <h2 class="stat-card-title">${title}</h2>
-        <ul class="stat-bar-list">${items}</ul>
-      </div>
-    `;
+    return renderPieChart(data, colorMap, title);
   }
 
   function renderByDecade(stats) {
