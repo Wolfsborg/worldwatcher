@@ -42,6 +42,23 @@
     sluice: "Sluice",
   };
 
+  const FLOOD_TYPE_LABEL = {
+    riverine: "Riverine",
+    flash: "Flash",
+    coastal: "Coastal",
+    urban: "Urban",
+    ice_jam: "Ice jam",
+    glacial: "Glacial",
+    storm: "Storm",
+  };
+
+  const SEVERITY_LABEL = {
+    catastrophic: "Catastrophic",
+    major: "Major",
+    moderate: "Moderate",
+    minor: "Minor",
+  };
+
   function formatNum(n) {
     return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   }
@@ -53,7 +70,7 @@
   }
 
   function computeStats(data, layer) {
-    const incidents = data.incidents || [];
+    const incidents = data.incidents || data.events || [];
     const totalIncidents = incidents.length;
     
     const countries = new Set();
@@ -95,15 +112,17 @@
 
     const categoryCounts = {};
     incidents.forEach(inc => {
-      if (inc.category) {
-        categoryCounts[inc.category] = (categoryCounts[inc.category] || 0) + 1;
+      const categoryKey = inc.category || inc.severity;
+      if (categoryKey) {
+        categoryCounts[categoryKey] = (categoryCounts[categoryKey] || 0) + 1;
       }
     });
 
     const typeCounts = {};
     incidents.forEach(inc => {
-      if (inc.type) {
-        typeCounts[inc.type] = (typeCounts[inc.type] || 0) + 1;
+      const typeKey = inc.type || inc.flood_type;
+      if (typeKey) {
+        typeCounts[typeKey] = (typeCounts[typeKey] || 0) + 1;
       }
     });
 
@@ -131,7 +150,7 @@
     };
   }
 
-  function renderOverview(stats) {
+  function renderOverview(stats, layer) {
     const yearsSpan = stats.minYear && stats.maxYear 
       ? `${stats.minYear}–${stats.maxYear}`
       : "—";
@@ -140,12 +159,14 @@
       ? `${formatNum(stats.totalDeaths)}+`
       : formatNum(stats.totalDeaths);
 
+    const recordLabel = layer === "floods" ? "Events" : "Incidents";
+
     return `
       <div class="stat-card stat-overview">
         <div class="stat-overview-grid">
           <div class="stat-overview-item">
             <span class="stat-overview-value">${formatNum(stats.totalIncidents)}</span>
-            <span class="stat-overview-label">Incidents</span>
+            <span class="stat-overview-label">${recordLabel}</span>
           </div>
           <div class="stat-overview-item">
             <span class="stat-overview-value">${formatNum(stats.totalCountries)}</span>
@@ -247,23 +268,21 @@
     `;
   }
 
-  function renderByCategory(stats) {
+  function renderByCategory(stats, layer) {
     const categories = Object.entries(stats.categoryCounts)
       .sort((a, b) => b[1] - a[1]);
 
     if (categories.length === 0) {
-      return `
-        <div class="stat-card">
-          <h2 class="stat-card-title">By Category</h2>
-          <p style="color: var(--muted); font-size: 13px;">No category data available</p>
-        </div>
-      `;
+      return "";
     }
 
     const maxCount = categories[0][1];
+    const labelMap = layer === "floods" ? SEVERITY_LABEL : CATEGORY_LABEL;
+    const title = layer === "floods" ? "By Severity" : "By Category";
+    
     const items = categories.map(([category, count]) => {
       const pct = (count / maxCount) * 100;
-      const label = CATEGORY_LABEL[category] || category;
+      const label = labelMap[category] || CATEGORY_LABEL[category] || category;
       return `
         <li class="stat-bar-item">
           <div class="stat-bar-label">
@@ -279,29 +298,27 @@
 
     return `
       <div class="stat-card">
-        <h2 class="stat-card-title">By Category</h2>
+        <h2 class="stat-card-title">${title}</h2>
         <ul class="stat-bar-list">${items}</ul>
       </div>
     `;
   }
 
-  function renderByType(stats) {
+  function renderByType(stats, layer) {
     const types = Object.entries(stats.typeCounts)
       .sort((a, b) => b[1] - a[1]);
 
     if (types.length === 0) {
-      return `
-        <div class="stat-card">
-          <h2 class="stat-card-title">By Type</h2>
-          <p style="color: var(--muted); font-size: 13px;">No type data available</p>
-        </div>
-      `;
+      return "";
     }
 
     const maxCount = types[0][1];
+    const labelMap = layer === "floods" ? FLOOD_TYPE_LABEL : TYPE_LABEL;
+    const title = layer === "floods" ? "By Flood Type" : "By Type";
+    
     const items = types.map(([type, count]) => {
       const pct = (count / maxCount) * 100;
-      const label = TYPE_LABEL[type] || type;
+      const label = labelMap[type] || type;
       return `
         <li class="stat-bar-item">
           <div class="stat-bar-label">
@@ -317,7 +334,7 @@
 
     return `
       <div class="stat-card">
-        <h2 class="stat-card-title">By Type</h2>
+        <h2 class="stat-card-title">${title}</h2>
         <ul class="stat-bar-list">${items}</ul>
       </div>
     `;
@@ -359,11 +376,11 @@
     
     const html = `
       <div class="stats-grid">
-        ${renderOverview(stats)}
+        ${renderOverview(stats, layer)}
         ${renderByCause(stats)}
         ${renderByCountry(stats)}
-        ${renderByCategory(stats)}
-        ${renderByType(stats)}
+        ${renderByCategory(stats, layer)}
+        ${renderByType(stats, layer)}
         ${renderByDecade(stats)}
       </div>
     `;
