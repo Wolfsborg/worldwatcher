@@ -124,7 +124,7 @@
   let yearBounds = { min: 1864, max: 2026 };
   let selectedId = null;
   let lastDetailTab = "event";
-  let map, cluster;
+  let map, cluster, selectedLayer;
   const markersById = new Map();
 
 
@@ -576,6 +576,7 @@
     selectedId = null;
     els.detail.hidden = true;
     writeHash(null);
+    if (selectedLayer) selectedLayer.clearLayers();
     [...els.list.querySelectorAll(".incident-item")].forEach((b) => b.classList.remove("is-selected"));
   }
 
@@ -588,16 +589,33 @@
     return { paddingTopLeft: [416, 20], paddingBottomRight: [380, 64] };
   }
 
+  function showSelectedPin(inc) {
+    if (!selectedLayer || typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
+    selectedLayer.clearLayers();
+    L.circleMarker([inc.lat, inc.lng], {
+      pane: "selectedPane",
+      radius: 11,
+      color: "#f3efe6",
+      weight: 2,
+      fillColor: markerColor(inc),
+      fillOpacity: 0.95,
+      interactive: false,
+    }).addTo(selectedLayer);
+  }
+
   function focusSelectedIncident(inc) {
-    const pad = selectionPadding();
-    const zoom = Math.max(map.getZoom(), 10);
-    const ll = L.latLng(inc.lat, inc.lng);
-    map.fitBounds(L.latLngBounds(ll, ll), {
-      paddingTopLeft: pad.paddingTopLeft,
-      paddingBottomRight: pad.paddingBottomRight,
-      maxZoom: zoom,
-      animate: false,
-    });
+    const zoom = Math.max(map.getZoom(), 11);
+    map.setView([inc.lat, inc.lng], zoom, { animate: false });
+    const size = map.getSize();
+    const narrow = window.matchMedia("(max-width: 980px)").matches;
+    let dx = 0, dy = 0;
+    if (narrow) {
+      dy = -Math.round(size.y * 0.22);
+    } else {
+      const visualCx = 416 + (size.x - 416 - 380) / 2;
+      dx = Math.round(size.x / 2 - visualCx);
+    }
+    if (dx || dy) map.panBy([dx, dy], { animate: false });
   }
 
   function selectIncident(id, opts) {
@@ -612,8 +630,10 @@
     if (row && opts && opts.fromMap) row.scrollIntoView({ block: "nearest" });
     const marker = markersById.get(id);
     if (typeof inc.lat === "number" && typeof inc.lng === "number") {
+      showSelectedPin(inc);
       const reveal = function () {
         focusSelectedIncident(inc);
+        showSelectedPin(inc);
         if (marker) marker.openPopup();
       };
       if (marker && cluster) cluster.zoomToShowLayer(marker, reveal);
@@ -912,6 +932,9 @@
     document.body.appendChild(wrap);
     map.on("zoomend", syncBase);
     syncBase();
+    map.createPane("selectedPane");
+    map.getPane("selectedPane").style.zIndex = 660;
+    selectedLayer = L.layerGroup().addTo(map);
     cluster = L.markerClusterGroup({
       maxClusterRadius: 42,
       showCoverageOnHover: false,
