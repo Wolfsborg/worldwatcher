@@ -23,6 +23,7 @@
   --radius: 14px;
   --sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --serif: "IBM Plex Serif", "Times New Roman", Times, serif;
+  --mono: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -101,19 +102,136 @@ html, body {
   overflow: hidden;
 }
 
-.brand {
+.brand-block {
+  flex: 0 0 auto;
   padding: 12px 14px 10px;
   border-bottom: 1px solid var(--line);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+.brand-mark {
+  width: 52px;
+  height: 52px;
   flex: 0 0 auto;
+  display: block;
+  overflow: visible;
+  pointer-events: none;
+}
+.brand-mark .radar { pointer-events: none; }
+.brand-mark .ping {
+  fill: none;
+  stroke: #e8e2d6;
+  stroke-width: 0.85;
+  opacity: 0;
+  transform-box: view-box;
+  transform-origin: 20px 20px;
+}
+.brand-mark .ping-a { animation: ww-ping 3.2s ease-out infinite; }
+.brand-mark .ping-b { animation: ww-ping 3.2s ease-out 1.05s infinite; }
+.brand-mark .ping-c { animation: ww-ping 3.2s ease-out 2.1s infinite; }
+.brand-mark .sweep {
+  fill: #e8e2d6;
+  opacity: 0.18;
+  transform-box: view-box;
+  transform-origin: 20px 20px;
+  animation: ww-sweep 4.8s linear infinite;
+}
+.brand-mark .head { fill: #e8e2d6; }
+.brand-mark .face {
+  transform-box: view-box;
+  transform-origin: 20px 20px;
+  animation: ww-look 22s ease-in-out infinite;
+}
+.brand-mark .socket {
+  fill: #0b0d10;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: ww-blink 16s ease-in-out infinite;
+}
+.brand-mark .eye-r { animation-delay: 0.06s; }
+@keyframes ww-look {
+  0%, 28%, 100% { transform: translate(0, 0); }
+  32% { transform: translate(2px, 0.3px); }
+  40% { transform: translate(2px, 0.3px); }
+  44%, 68% { transform: translate(0, 0); }
+  72% { transform: translate(-1.8px, 0.4px); }
+  80% { transform: translate(-1.8px, 0.4px); }
+  84% { transform: translate(0, 0); }
+}
+@keyframes ww-blink {
+  0%, 62%, 70%, 100% { transform: scaleY(1); }
+  66% { transform: scaleY(0.12); }
+}
+@keyframes ww-ping {
+  0% { transform: scale(0.78); opacity: 0.5; }
+  70% { opacity: 0.14; }
+  100% { transform: scale(1.48); opacity: 0; }
+}
+@keyframes ww-sweep {
+  to { transform: rotate(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .brand-mark .ping,
+  .brand-mark .sweep,
+  .brand-mark .face,
+  .brand-mark .socket { animation: none; }
+  .brand-mark .ping { opacity: 0.22; }
 }
 
+.brand:hover .wordmark { color: #fff; }
+.brand:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 2px;
+}
+.layer-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 8px;
+}
+.layer-tab {
+  appearance: none;
+  border: 1px solid var(--line-strong);
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.layer-tab.is-active,
+.layer-tab[aria-selected="true"] {
+  color: var(--bg);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.layer-tab:hover:not(.is-active) { color: var(--text); }
+
+
 .wordmark {
-  margin: 0 0 2px;
-  font-size: 10px;
-  letter-spacing: 0.28em;
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 14px;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent);
   font-weight: 500;
+  line-height: 1.2;
 }
 
 .brand h1 {
@@ -151,6 +269,9 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: var(--label-gap);
+}
+.controls .year-range {
+  margin-bottom: 12px;
 }
 
 .filter-row {
@@ -403,6 +524,23 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 }
 .credit p { margin: 0 0 4px; }
 .credit p:last-child { margin: 0; }
+.credit .coming-soon { color: var(--ink-soft, #b8c0cc); }
+.credit .copyright { letter-spacing: 0.01em; }
+.credit .legal-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 10px;
+  margin: 0 0 4px;
+}
+.credit .legal-nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.credit .legal-nav a:hover,
+.credit .legal-nav a:focus {
+  color: var(--text);
+  text-decoration: underline;
+}
 
 .stats {
   display: flex;
@@ -648,7 +786,7 @@ textarea {
   color: var(--accent);
   font: inherit;
   font-size: 11px;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   cursor: pointer;
   padding: 4px 0 0;

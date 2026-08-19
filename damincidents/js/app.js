@@ -1,7 +1,33 @@
 (function () {
   "use strict";
 
-  const DATA_URL = "data/incidents.json";
+  const LAYERS = {
+    dams: {
+      id: "dams",
+      title: "Dam Incidents",
+      subtitle: "Sourced failures and watches, 1864–2026",
+      dataUrl: "data/incidents.json",
+      rowsKey: "incidents",
+      statLabel: "Incidents",
+      recentLabel: "Recent incidents",
+      credit: "worldwatcher.app · Dam Incidents",
+      showCategory: true,
+      showCause: true,
+    },
+    floods: {
+      id: "floods",
+      title: "Floods",
+      subtitle: "Major named floods only",
+      dataUrl: "data/floods.json",
+      rowsKey: "events",
+      statLabel: "Floods",
+      recentLabel: "Recent floods",
+      credit: "worldwatcher.app · Floods",
+      showCategory: false,
+      showCause: true,
+    },
+  };
+
   const COLORS = {
     failure: "#e24b4a",
     partial_breach: "#e8892c",
@@ -31,6 +57,23 @@
     poor_maintenance: "Poor maintenance",
     construction_first_filling: "Construction / first filling",
     unknown: "Unknown",
+    storm_surge: "Storm surge",
+    snowmelt: "Snowmelt",
+    ice_jam: "Ice jam",
+    monsoon: "Monsoon",
+    tropical_cyclone: "Tropical cyclone",
+    dam_release: "Dam release",
+    urban_drainage: "Urban drainage",
+  };
+
+  const FLOOD_TYPE_LABEL = {
+    riverine: "Riverine",
+    flash: "Flash",
+    coastal: "Coastal",
+    urban: "Urban",
+    ice_jam: "Ice jam",
+    glacial: "Glacial",
+    storm: "Storm",
   };
 
   const TYPE_LABEL = {
@@ -45,7 +88,6 @@
   const els = {
     search: document.getElementById("search"),
     chips: document.getElementById("category-chips"),
-    type: document.getElementById("type-filter"),
     cause: document.getElementById("cause-filter"),
     yearMin: document.getElementById("year-min"),
     yearMax: document.getElementById("year-max"),
@@ -61,8 +103,18 @@
     statCount: document.getElementById("stat-count"),
     statCountries: document.getElementById("stat-countries"),
     statDeaths: document.getElementById("stat-deaths"),
-    geoUncertain: document.getElementById("geo-uncertain"),
+    home: document.getElementById("home"),
+    layerTabs: document.querySelector(".layer-tabs"),
+    subtitle: document.getElementById("layer-subtitle"),
+    categoryBlock: document.getElementById("category-block"),
+    causeBlock: document.getElementById("cause-block"),
+    statCountLabel: document.getElementById("stat-count-label"),
+    recentHeading: document.getElementById("recent-heading"),
   };
+
+  let layer = "dams";
+  const cache = { dams: null, floods: null };
+
 
   let all = [];
   let yearBounds = { min: 1864, max: 2026 };
@@ -71,6 +123,17 @@
   let map, cluster;
   const markersById = new Map();
 
+
+  function spec() { return LAYERS[layer] || LAYERS.dams; }
+
+  function markerColor(inc) {
+    if (layer === "floods") {
+      if (inc.severity === "catastrophic") return COLORS.failure;
+      if (inc.severity === "major") return COLORS.partial;
+      return COLORS.incident;
+    }
+    return COLORS[inc.category] || COLORS.incident;
+  }
 
   function locationUncertain(inc) {
     if (inc.location_uncertain === true) return true;
@@ -169,7 +232,6 @@
   function filtered() {
     const q = els.search.value.trim().toLowerCase();
     const cats = activeCategories();
-    const type = els.type.value;
     const cause = els.cause ? els.cause.value : "";
     const ymin = parseInt(els.yearMin.value, 10);
     const ymax = parseInt(els.yearMax.value, 10);
@@ -177,13 +239,9 @@
       const y = yearOf(inc);
       if (y != null && (y < ymin || y > ymax)) return false;
       if (cats.length && !cats.includes(inc.category)) return false;
-      if (type && inc.type !== type) return false;
       if (cause) {
         const cs = inc.causes || [];
         if (!cs.includes(cause)) return false;
-      }
-      if (els.geoUncertain && els.geoUncertain.getAttribute("aria-pressed") === "true") {
-        if (!locationUncertain(inc)) return false;
       }
       if (q) {
         const hay = [
@@ -201,8 +259,13 @@
     els.statCount.textContent = formatNum(rows.length);
     const countries = new Set(rows.map((r) => r.country).filter(Boolean));
     els.statCountries.textContent = formatNum(countries.size);
-    const deaths = rows.reduce((s, r) => s + (typeof r.deaths === "number" ? r.deaths : 0), 0);
-    els.statDeaths.textContent = formatNum(deaths);
+    const knownDeaths = rows.filter((r) => typeof r.deaths === "number");
+    const deaths = knownDeaths.reduce((s, r) => s + r.deaths, 0);
+    const unknownDeaths = rows.length - knownDeaths.length;
+    els.statDeaths.textContent = formatNum(deaths) + (unknownDeaths ? "+" : "");
+    els.statDeaths.title = unknownDeaths
+      ? formatNum(deaths) + " confirmed. " + unknownDeaths + " records have no sourced death toll."
+      : "";
     els.listCount.textContent = rows.length === all.length
       ? rows.length + " records"
       : rows.length + " of " + all.length;
@@ -224,7 +287,10 @@
         '<span class="item-date">' + formatDate(inc.incident_date) + "</span>" +
         '<span class="item-name">' + escapeHtml(inc.name) + "</span>" +
         '<span class="item-meta"><span>' + escapeHtml(inc.country) + "</span>" +
-        '<span class="item-cat cat-' + inc.category + '">' + (CATEGORY_LABEL[inc.category] || inc.category) + "</span>" +
+        '<span class="item-cat cat-' + (inc.category || inc.severity || "incident") + '">' +
+        escapeHtml(layer === "floods"
+          ? (FLOOD_TYPE_LABEL[inc.flood_type] || inc.flood_type || "Flood")
+          : (CATEGORY_LABEL[inc.category] || inc.category)) + "</span>" +
         (inc.causes && inc.causes[0] ? '<span class="item-cause">' + escapeHtml(CAUSE_LABEL[inc.causes[0]] || inc.causes[0]) + "</span>" : "") +
         (locationUncertain(inc) ? '<span class="item-geo">Location uncertain</span>' : "") +
         deaths + "</span>";
@@ -252,7 +318,7 @@
     rows.forEach((inc) => {
       if (typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
       const r = markerRadius(inc.deaths);
-      const color = COLORS[inc.category] || COLORS.incident;
+      const color = markerColor(inc);
       const uncertain = locationUncertain(inc);
       const cls = "site-marker" + (uncertain ? " is-uncertain" : "");
       const icon = L.divIcon({
@@ -331,11 +397,23 @@
     economic_damage: "Economic damage",
     investigating_agency: "Investigating agency",
     severity: "Severity",
+    flood_type: "Flood type",
+    river_or_basin: "River / basin",
+    peak_discharge: "Peak discharge",
+    return_period: "Return period",
+    rainfall_mm: "Rainfall",
+    inundation_area: "Inundation area",
+    warning_issued: "Warning issued",
+    related_dam_id: "Related dam record",
   };
 
   const DAM_KEYS = [
     "owner_operator", "year_built", "height_m", "reservoir_capacity",
     "construction", "purpose", "type",
+  ];
+  const FLOOD_KEYS = [
+    "flood_type", "river_or_basin", "peak_discharge", "return_period",
+    "rainfall_mm", "inundation_area", "warning_issued", "related_dam_id",
   ];
   const IMPACT_KEYS = [
     "severity", "volume_released", "breach_size", "downstream_risk",
@@ -344,7 +422,7 @@
   const META_KEYS = [
     "id", "country", "region", "river_or_facility", "lat", "lng",
     "geo_accuracy", "geo_source", "era", "latest_report_date",
-    "last_updated", "in_baseline", "category", "verification",
+    "last_updated", "category", "verification",
   ];
 
   const PRIMARY_KEYS = new Set([
@@ -357,6 +435,8 @@
     "id", "country", "region", "river_or_facility", "lat", "lng",
     "geo_accuracy", "geo_source", "era", "latest_report_date",
     "last_updated", "in_baseline",
+    "flood_type", "river_or_basin", "peak_discharge", "return_period",
+    "rainfall_mm", "inundation_area", "warning_issued", "related_dam_id",
   ]);
 
   function formatAttrValue(key, value) {
@@ -377,6 +457,7 @@
     if (key === "construction") return CONSTRUCTION_LABEL[value] || value;
     if (key === "purpose") return PURPOSE_LABEL[value] || value;
     if (key === "severity") return SEVERITY_LABEL[value] || value;
+    if (key === "flood_type") return FLOOD_TYPE_LABEL[value] || value;
     return String(value);
   }
 
@@ -396,7 +477,7 @@
   }
 
   function setDetailTab(name) {
-    const allowed = ["event", "dam", "cause", "impact", "sources"];
+    const allowed = ["event", "dam", "flood", "cause", "impact", "sources"];
     if (allowed.indexOf(name) < 0) name = "event";
     lastDetailTab = name;
     const root = els.detailBody;
@@ -434,7 +515,7 @@
       : (inc.cause_summary ? "<p>" + escapeHtml(inc.cause_summary) + "</p>" : "<p>—</p>"));
     const tabs = [
       ["event", "Event"],
-      ["dam", "Dam"],
+      [layer === "floods" ? "flood" : "dam", layer === "floods" ? "Flood" : "Dam"],
       ["cause", "Cause"],
       ["impact", "Impact"],
       ["sources", "Sources"],
@@ -449,8 +530,10 @@
       '<p class="detail-date">' + formatDate(inc.incident_date) +
         (inc.river_or_facility ? " · " + escapeHtml(inc.river_or_facility) : "") + "</p>" +
       '<div class="badges">' +
-        '<span class="badge cat-' + inc.category + '">' + (CATEGORY_LABEL[inc.category] || inc.category) + "</span>" +
-        '<span class="badge">' + (TYPE_LABEL[inc.type] || inc.type) + "</span>" +
+        (layer === "floods"
+          ? '<span class="badge cat-incident">' + escapeHtml(FLOOD_TYPE_LABEL[inc.flood_type] || inc.flood_type || "Flood") + "</span>"
+          : '<span class="badge cat-' + inc.category + '">' + (CATEGORY_LABEL[inc.category] || inc.category) + "</span>" +
+            '<span class="badge">' + (TYPE_LABEL[inc.type] || inc.type || "") + "</span>") +
         (inc.verification ? '<span class="badge">' + escapeHtml(inc.verification) + "</span>" : "") +
         (inc.severity ? '<span class="badge">' + escapeHtml(SEVERITY_LABEL[inc.severity] || inc.severity) + "</span>" : "") +
       "</div>" + geoNote +
@@ -466,8 +549,8 @@
         "</div>" +
         (inc.notes ? "<h3>Notes</h3><p>" + escapeHtml(inc.notes) + "</p>" : "") +
       "</div>" +
-      '<div class="tab-panel" data-tab="dam" role="tabpanel" hidden>' +
-        attrListHtml(inc, DAM_KEYS) +
+      '<div class="tab-panel" data-tab="' + (layer === "floods" ? "flood" : "dam") + '" role="tabpanel" hidden>' +
+        attrListHtml(inc, layer === "floods" ? FLOOD_KEYS : DAM_KEYS) +
       "</div>" +
       '<div class="tab-panel" data-tab="cause" role="tabpanel" hidden>' +
         causeBlock +
@@ -488,7 +571,7 @@
   function closeDetail() {
     selectedId = null;
     els.detail.hidden = true;
-    if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+    writeHash(null);
     [...els.list.querySelectorAll(".incident-item")].forEach((b) => b.classList.remove("is-selected"));
   }
 
@@ -509,8 +592,7 @@
         marker.openPopup();
       });
     }
-    const hash = "#id=" + encodeURIComponent(id);
-    if (location.hash !== hash) history.replaceState(null, "", hash);
+    writeHash(id);
     if (opts && opts.fromList && window.matchMedia("(max-width: 980px)").matches) {
       els.sidebar.classList.remove("is-open");
       els.toggle.setAttribute("aria-expanded", "false");
@@ -530,18 +612,17 @@
     }
   }
 
-  function fillTypeFilter() {
-    const types = [...new Set(all.map((i) => i.type))].sort();
-    types.forEach((t) => {
-      const o = document.createElement("option");
-      o.value = t;
-      o.textContent = TYPE_LABEL[t] || t;
-      els.type.appendChild(o);
-    });
-  }
-
   function fillCauseFilter() {
     if (!els.cause) return;
+    const keep = els.cause.querySelector('option[value=""]');
+    els.cause.innerHTML = "";
+    if (keep) els.cause.appendChild(keep);
+    else {
+      const o = document.createElement("option");
+      o.value = "";
+      o.textContent = "All causes";
+      els.cause.appendChild(o);
+    }
     const seen = new Set();
     all.forEach((i) => (i.causes || []).forEach((c) => seen.add(c)));
     [...seen].sort((a, b) => (CAUSE_LABEL[a] || a).localeCompare(CAUSE_LABEL[b] || b)).forEach((c) => {
@@ -552,9 +633,30 @@
     });
   }
 
+  let goToLanding = function () {};
+
+  function goHome() {
+    if (els.search) els.search.value = "";
+    if (els.chips) {
+      els.chips.querySelectorAll(".chip").forEach((b) => b.setAttribute("aria-pressed", "false"));
+    }
+    if (els.cause) els.cause.value = "";
+    setPeriod("all");
+    closeDetail();
+    apply();
+    goToLanding();
+  }
+
   function bind() {
+    if (els.home) els.home.addEventListener("click", goHome);
+    if (els.layerTabs) {
+      els.layerTabs.addEventListener("click", (e) => {
+        const btn = e.target.closest(".layer-tab");
+        if (!btn || !btn.dataset.layer) return;
+        setLayer(btn.dataset.layer);
+      });
+    }
     els.search.addEventListener("input", apply);
-    els.type.addEventListener("change", apply);
     if (els.cause) els.cause.addEventListener("change", apply);
     els.yearMin.addEventListener("change", () => { syncPeriodFromYears(); apply(); });
     els.yearMax.addEventListener("change", () => { syncPeriodFromYears(); apply(); });
@@ -572,14 +674,6 @@
       btn.setAttribute("aria-pressed", btn.getAttribute("aria-pressed") === "true" ? "false" : "true");
       apply();
     });
-    if (els.geoUncertain) {
-      els.geoUncertain.addEventListener("click", (e) => {
-        e.stopPropagation();
-        const on = els.geoUncertain.getAttribute("aria-pressed") !== "true";
-        els.geoUncertain.setAttribute("aria-pressed", on ? "true" : "false");
-        apply();
-      });
-    }
     els.detailBody.addEventListener("click", (e) => {
       const tab = e.target.closest(".detail-tab");
       if (tab) {
@@ -622,9 +716,38 @@
   }
 
   function hashId() {
-    const m = location.hash.match(/id=([^&]+)/);
+    const m = location.hash.match(/(?:^|[&#])id=([^&]+)/);
     return m ? decodeURIComponent(m[1]) : null;
   }
+
+  function hashLayer() {
+    if (/(?:^|#|&)floods\b/.test(location.hash) || /layer=floods/.test(location.hash)) return "floods";
+    return "dams";
+  }
+
+  function writeHash(id) {
+    let h = layer === "floods" ? "#floods" : "";
+    if (id) h += (h ? "&" : "#") + "id=" + encodeURIComponent(id);
+    if (location.hash !== h) history.replaceState(null, "", h || (location.pathname + location.search));
+  }
+
+  function updateLayerChrome() {
+    const s = spec();
+    document.title = "worldwatcher.app · " + s.title;
+    if (els.subtitle) els.subtitle.textContent = s.subtitle;
+    if (els.statCountLabel) els.statCountLabel.textContent = s.statLabel;
+    if (els.recentHeading) els.recentHeading.textContent = s.recentLabel;
+    if (els.categoryBlock) els.categoryBlock.hidden = !s.showCategory;
+    if (els.causeBlock) els.causeBlock.hidden = !s.showCause;
+    if (els.layerTabs) {
+      els.layerTabs.querySelectorAll(".layer-tab").forEach((b) => {
+        const on = b.dataset.layer === layer;
+        b.classList.toggle("is-active", on);
+        b.setAttribute("aria-selected", on ? "true" : "false");
+      });
+    }
+  }
+
 
   function initMap() {
     map = L.map("map", {
@@ -647,6 +770,7 @@
       const z = map.getZoom();
       map.setMinZoom(Math.max(2.75, z - 0.35));
     }
+    goToLanding = landingView;
     map.whenReady(landingView);
     window.addEventListener("resize", landingView);
     const zoom = L.control.zoom({ position: "bottomright" }).addTo(map);
@@ -730,33 +854,107 @@
     setTimeout(resize, 80);
   }
 
-  fetch(DATA_URL)
-    .then((r) => {
-      if (!r.ok) throw new Error("Could not load incidents.json");
-      return r.json();
-    })
-    .then((data) => {
-      all = data.incidents || [];
-      const years = all.map(yearOf).filter((y) => y != null);
+  function useData(data, keepSelection) {
+    const s = spec();
+    cache[layer] = data;
+    all = data[s.rowsKey] || data.incidents || data.events || [];
+    const updatedEl = document.getElementById("data-updated");
+    if (updatedEl) {
+      updatedEl.textContent = s.credit + (data.updated ? " · data updated " + formatDate(data.updated) : "");
+    }
+    const years = all.map(yearOf).filter((y) => y != null);
+    if (years.length) {
       yearBounds.min = Math.min.apply(null, years);
       yearBounds.max = Math.max.apply(null, years);
-      els.yearMin.min = yearBounds.min;
-      els.yearMin.max = yearBounds.max;
-      els.yearMax.min = yearBounds.min;
-      els.yearMax.max = yearBounds.max;
-      els.yearMin.value = yearBounds.min;
-      els.yearMax.value = yearBounds.max;
-      fillTypeFilter();
-      fillCauseFilter();
-      initMap();
-      bind();
-      apply();
-      const id = hashId();
-      if (id) selectIncident(id);
-    })
-    .catch((err) => {
-      els.empty.hidden = false;
-      els.empty.textContent = "Could not load incident data.";
-      console.error(err);
-    });
+    }
+    els.yearMin.min = yearBounds.min;
+    els.yearMin.max = yearBounds.max;
+    els.yearMax.min = yearBounds.min;
+    els.yearMax.max = yearBounds.max;
+    els.yearMin.value = yearBounds.min;
+    els.yearMax.value = yearBounds.max;
+    setPeriod("all");
+    fillCauseFilter();
+    apply();
+    if (!keepSelection) {
+      closeDetail();
+      goToLanding();
+    }
+  }
+
+  function loadLayer(name, opts) {
+    opts = opts || {};
+    layer = name === "floods" ? "floods" : "dams";
+    updateLayerChrome();
+    writeHash(opts.id || null);
+    const s = spec();
+    const done = (data) => {
+      useData(data, !!opts.id);
+      if (opts.id) selectIncident(opts.id);
+    };
+    if (cache[layer]) {
+      done(cache[layer]);
+      return;
+    }
+    fetch(s.dataUrl)
+      .then((r) => {
+        if (!r.ok) throw new Error("Could not load " + s.dataUrl);
+        return r.json();
+      })
+      .then(done)
+      .catch((err) => {
+        els.empty.hidden = false;
+        els.empty.textContent = "Could not load " + s.title.toLowerCase() + " data.";
+        console.error(err);
+      });
+  }
+
+  function setLayer(name) {
+    if (name === layer && cache[layer]) {
+      goHome();
+      return;
+    }
+    selectedId = null;
+    lastDetailTab = "event";
+    if (els.search) els.search.value = "";
+    if (els.chips) {
+      els.chips.querySelectorAll(".chip").forEach((b) => b.setAttribute("aria-pressed", "false"));
+    }
+    if (els.cause) els.cause.value = "";
+    loadLayer(name);
+  }
+
+  function watchFace() {
+    const mark = document.querySelector(".brand-mark");
+    if (!mark || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const looks = [
+      [0, 0], [0.7, 0.15], [-0.7, 0.2], [0.15, -0.55],
+      [-0.55, -0.25], [0.6, 0.35], [-0.2, 0.45], [0.35, -0.15]
+    ];
+    const look = () => {
+      const [x, y] = looks[Math.floor(Math.random() * looks.length)];
+      mark.style.setProperty("--look-x", x + "px");
+      mark.style.setProperty("--look-y", y + "px");
+    };
+    const blink = () => {
+      mark.classList.add("is-blink");
+      setTimeout(() => mark.classList.remove("is-blink"), 120);
+      if (Math.random() < 0.28) setTimeout(blink, 160);
+    };
+    look();
+    const loop = () => {
+      look();
+      if (Math.random() < 0.45) blink();
+      setTimeout(loop, 1400 + Math.random() * 2200);
+    };
+    setTimeout(loop, 800);
+    setInterval(() => { if (Math.random() < 0.35) blink(); }, 2800);
+  }
+
+  layer = hashLayer();
+  updateLayerChrome();
+  initMap();
+  bind();
+  watchFace();
+  loadLayer(layer, { id: hashId() });
 })();
