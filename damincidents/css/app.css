@@ -273,6 +273,9 @@ html, body {
 .controls .year-range {
   margin-bottom: 12px;
 }
+.year-range .field-label {
+  margin-bottom: 2px;
+}
 
 .filter-row {
   display: grid;
