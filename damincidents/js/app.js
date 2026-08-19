@@ -61,13 +61,29 @@
     statCount: document.getElementById("stat-count"),
     statCountries: document.getElementById("stat-countries"),
     statDeaths: document.getElementById("stat-deaths"),
+    geoUncertain: document.getElementById("geo-uncertain"),
   };
 
   let all = [];
   let yearBounds = { min: 1864, max: 2026 };
   let selectedId = null;
+  let lastDetailTab = "event";
   let map, cluster;
   const markersById = new Map();
+
+
+  function locationUncertain(inc) {
+    if (inc.location_uncertain === true) return true;
+    const acc = inc.geo_accuracy;
+    return acc === "approx" || acc === "region";
+  }
+
+  function locationLabel(inc) {
+    if (inc.location_uncertain === true) return "Location uncertain";
+    if (inc.geo_accuracy === "region") return "Location uncertain (town or district)";
+    if (inc.geo_accuracy === "approx") return "Location approximate";
+    return "";
+  }
 
   function yearOf(inc) {
     if (!inc.incident_date) return null;
@@ -165,6 +181,9 @@
         const cs = inc.causes || [];
         if (!cs.includes(cause)) return false;
       }
+      if (els.geoUncertain && els.geoUncertain.getAttribute("aria-pressed") === "true") {
+        if (!locationUncertain(inc)) return false;
+      }
       if (q) {
         const hay = [
           inc.name, inc.country, inc.region, inc.location_label,
@@ -206,6 +225,7 @@
         '<span class="item-meta"><span>' + escapeHtml(inc.country) + "</span>" +
         '<span class="item-cat cat-' + inc.category + '">' + (CATEGORY_LABEL[inc.category] || inc.category) + "</span>" +
         (inc.causes && inc.causes[0] ? '<span class="item-cause">' + escapeHtml(CAUSE_LABEL[inc.causes[0]] || inc.causes[0]) + "</span>" : "") +
+        (locationUncertain(inc) ? '<span class="item-geo">Pin uncertain</span>' : "") +
         deaths + "</span>";
       btn.addEventListener("click", () => selectIncident(inc.id, { fromList: true }));
       li.appendChild(btn);
@@ -220,7 +240,9 @@
   }
 
   function popupHtml(inc) {
-    return "<strong>" + escapeHtml(inc.name) + "</strong><br>" + escapeHtml(String(yearOf(inc) || ""));
+    const geo = locationLabel(inc);
+    return "<strong>" + escapeHtml(inc.name) + "</strong><br>" + escapeHtml(String(yearOf(inc) || "")) +
+      (geo ? "<br><em>" + escapeHtml(geo) + "</em>" : "");
   }
 
   function rebuildMarkers(rows) {
@@ -230,12 +252,14 @@
       if (typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
       const r = markerRadius(inc.deaths);
       const color = COLORS[inc.category] || COLORS.incident;
+      const uncertain = locationUncertain(inc);
+      const cls = "site-marker" + (uncertain ? " is-uncertain" : "");
       const icon = L.divIcon({
         className: "",
         iconSize: [r * 2, r * 2],
         iconAnchor: [r, r],
-        html: '<div class="site-marker" style="width:' + (r * 2) + "px;height:" + (r * 2) +
-          "px;background:" + color + ';opacity:0.88"></div>',
+        html: '<div class="' + cls + '" style="width:' + (r * 2) + "px;height:" + (r * 2) +
+          "px;background:" + color + (uncertain ? ";opacity:0.55" : ";opacity:0.88") + '"></div>',
       });
       const m = L.marker([inc.lat, inc.lng], { icon, title: inc.name, riseOnHover: true });
       m.bindPopup(popupHtml(inc), { closeButton: false });
@@ -245,6 +269,35 @@
     });
   }
 
+
+  const CONSTRUCTION_LABEL = {
+    earthfill: "Earthfill",
+    rockfill: "Rockfill",
+    concrete_gravity: "Concrete gravity",
+    concrete_arch: "Concrete arch",
+    concrete: "Concrete",
+    tailings: "Tailings",
+    embankment: "Embankment",
+    masonry: "Masonry",
+    unknown: "Unknown",
+  };
+  const PURPOSE_LABEL = {
+    hydro: "Hydro",
+    irrigation: "Irrigation",
+    water_supply: "Water supply",
+    flood_control: "Flood control",
+    mining: "Mining",
+    recreation: "Recreation",
+    multipurpose: "Multipurpose",
+    unknown: "Unknown",
+  };
+  const SEVERITY_LABEL = {
+    catastrophic: "Catastrophic",
+    major: "Major",
+    moderate: "Moderate",
+    minor: "Minor",
+    watch: "Watch",
+  };
 
   const ATTR_LABEL = {
     id: "ID",
@@ -265,12 +318,44 @@
     verification: "Verification",
     causes: "Causes",
     cause_summary: "Cause summary",
+    owner_operator: "Owner / operator",
+    year_built: "Year built",
+    height_m: "Height (m)",
+    reservoir_capacity: "Reservoir capacity",
+    construction: "Construction",
+    purpose: "Purpose",
+    volume_released: "Volume released",
+    breach_size: "Breach size",
+    downstream_risk: "Downstream at risk",
+    economic_damage: "Economic damage",
+    investigating_agency: "Investigating agency",
+    severity: "Severity",
   };
+
+  const DAM_KEYS = [
+    "owner_operator", "year_built", "height_m", "reservoir_capacity",
+    "construction", "purpose", "type",
+  ];
+  const IMPACT_KEYS = [
+    "severity", "volume_released", "breach_size", "downstream_risk",
+    "economic_damage", "investigating_agency",
+  ];
+  const META_KEYS = [
+    "id", "country", "region", "river_or_facility", "lat", "lng",
+    "geo_accuracy", "geo_source", "era", "latest_report_date",
+    "last_updated", "in_baseline", "category", "verification",
+  ];
 
   const PRIMARY_KEYS = new Set([
     "name", "location_label", "incident_date", "category", "type", "verification",
     "causes", "cause_summary", "what_happened", "status", "deaths", "injured",
     "affected_or_evacuated", "notes", "sources",
+    "owner_operator", "year_built", "height_m", "reservoir_capacity",
+    "construction", "purpose", "volume_released", "breach_size",
+    "downstream_risk", "economic_damage", "investigating_agency", "severity",
+    "id", "country", "region", "river_or_facility", "lat", "lng",
+    "geo_accuracy", "geo_source", "era", "latest_report_date",
+    "last_updated", "in_baseline",
   ]);
 
   function formatAttrValue(key, value) {
@@ -288,28 +373,52 @@
     if (typeof value === "object") return JSON.stringify(value);
     if (key === "category") return CATEGORY_LABEL[value] || value;
     if (key === "type") return TYPE_LABEL[value] || value;
+    if (key === "construction") return CONSTRUCTION_LABEL[value] || value;
+    if (key === "purpose") return PURPOSE_LABEL[value] || value;
+    if (key === "severity") return SEVERITY_LABEL[value] || value;
     return String(value);
+  }
+
+  function attrListHtml(inc, keys) {
+    const rows = keys.map((k) => {
+      return "<div class=\"attr-row\"><dt>" + escapeHtml(ATTR_LABEL[k] || k.replace(/_/g, " ")) +
+        "</dt><dd>" + escapeHtml(formatAttrValue(k, inc[k])) + "</dd></div>";
+    }).join("");
+    return '<dl class="attr-list">' + rows + "</dl>";
   }
 
   function extraAttributesHtml(inc) {
     const keys = Object.keys(inc).filter((k) => !PRIMARY_KEYS.has(k));
     keys.sort((a, b) => (ATTR_LABEL[a] || a).localeCompare(ATTR_LABEL[b] || b));
     if (!keys.length) return "";
-    const rows = keys.map((k) => {
-      return "<div class=\"attr-row\"><dt>" + escapeHtml(ATTR_LABEL[k] || k.replace(/_/g, " ")) +
-        "</dt><dd>" + escapeHtml(formatAttrValue(k, inc[k])) + "</dd></div>";
-    }).join("");
-    return '<details class="more-attrs"><summary>Additional attributes</summary><dl class="attr-list">' +
-      rows + "</dl></details>";
+    return "<h3>Additional attributes</h3>" + attrListHtml(inc, keys);
+  }
+
+  function setDetailTab(name) {
+    const allowed = ["event", "dam", "cause", "impact", "sources"];
+    if (allowed.indexOf(name) < 0) name = "event";
+    lastDetailTab = name;
+    const root = els.detailBody;
+    if (!root) return;
+    root.querySelectorAll(".detail-tab").forEach((btn) => {
+      const on = btn.dataset.tab === name;
+      btn.classList.toggle("is-active", on);
+      btn.setAttribute("aria-selected", on ? "true" : "false");
+    });
+    root.querySelectorAll(".tab-panel").forEach((panel) => {
+      panel.hidden = panel.dataset.tab !== name;
+    });
   }
 
   function openDetail(inc) {
     const deaths = typeof inc.deaths === "number" ? formatNum(inc.deaths) : "Unknown";
     const injured = typeof inc.injured === "number" ? formatNum(inc.injured) : (inc.injured || "Unknown");
     const affected = inc.affected_or_evacuated || "Unknown";
-    const geoNote = inc.geo_accuracy && inc.geo_accuracy !== "exact"
-      ? '<p class="geo-note">Location ' + (inc.geo_accuracy === "region" ? "regional (town or district centroid)" : "approximate") +
-        ". " + escapeHtml(inc.geo_source || "") + "</p>"
+    const geoText = locationLabel(inc);
+    const geoNote = geoText
+      ? '<p class="geo-note is-uncertain">' + escapeHtml(geoText) +
+        (inc.geo_source ? " · " + escapeHtml(inc.geo_source) : "") +
+        ' <button type="button" class="text-btn pin-fix" data-pin-fix="1">Suggest a better pin</button></p>'
       : "";
     const sources = (inc.sources || []).map((s) => {
       const url = s.url || "";
@@ -317,6 +426,22 @@
       if (!url) return "<li>" + label + "</li>";
       return '<li><a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' + label + "</a></li>";
     }).join("");
+    const causeBlock = (inc.causes && inc.causes.length
+      ? '<div class="badges">' +
+        inc.causes.map((c) => '<span class="badge">' + escapeHtml(CAUSE_LABEL[c] || c) + "</span>").join("") +
+        "</div>" + (inc.cause_summary ? "<p>" + escapeHtml(inc.cause_summary) + "</p>" : "")
+      : (inc.cause_summary ? "<p>" + escapeHtml(inc.cause_summary) + "</p>" : "<p>—</p>"));
+    const tabs = [
+      ["event", "Event"],
+      ["dam", "Dam"],
+      ["cause", "Cause"],
+      ["impact", "Impact"],
+      ["sources", "Sources"],
+    ].map((pair) => {
+      return '<button type="button" class="detail-tab" role="tab" data-tab="' + pair[0] +
+        '" aria-selected="false">' + pair[1] + "</button>";
+    }).join("");
+
     els.detailBody.innerHTML =
       '<h2 id="detail-title">' + escapeHtml(inc.name) + "</h2>" +
       '<p class="detail-loc">' + escapeHtml(inc.location_label || [inc.region, inc.country].filter(Boolean).join(", ")) + "</p>" +
@@ -326,25 +451,38 @@
         '<span class="badge cat-' + inc.category + '">' + (CATEGORY_LABEL[inc.category] || inc.category) + "</span>" +
         '<span class="badge">' + (TYPE_LABEL[inc.type] || inc.type) + "</span>" +
         (inc.verification ? '<span class="badge">' + escapeHtml(inc.verification) + "</span>" : "") +
+        (inc.severity ? '<span class="badge">' + escapeHtml(SEVERITY_LABEL[inc.severity] || inc.severity) + "</span>" : "") +
       "</div>" + geoNote +
-      (inc.causes && inc.causes.length
-        ? "<h3>Cause</h3><div class=\"badges\">" +
-          inc.causes.map((c) => '<span class="badge">' + escapeHtml(CAUSE_LABEL[c] || c) + "</span>").join("") +
-          "</div>" + (inc.cause_summary ? "<p>" + escapeHtml(inc.cause_summary) + "</p>" : "")
-        : (inc.cause_summary ? "<h3>Cause</h3><p>" + escapeHtml(inc.cause_summary) + "</p>" : "")) +
-      "<h3>What happened</h3><p>" + escapeHtml(inc.what_happened) + "</p>" +
-      "<h3>Status</h3><p>" + escapeHtml(inc.status || "—") + "</p>" +
-      "<h3>Casualties</h3>" +
-      '<div class="casualties">' +
-        '<div><span class="cas-label">Deaths</span><span class="cas-value">' + deaths + "</span></div>" +
-        '<div><span class="cas-label">Injured</span><span class="cas-value">' + escapeHtml(String(injured)) + "</span></div>" +
-        '<div style="grid-column:1/-1"><span class="cas-label">Affected or evacuated</span><span class="cas-value" style="font-size:14px">' + escapeHtml(String(affected)) + "</span></div>" +
+      '<div class="detail-tabs" role="tablist" aria-label="Incident sections">' + tabs + "</div>" +
+      '<div class="tab-panel" data-tab="event" role="tabpanel">' +
+        "<h3>What happened</h3><p>" + escapeHtml(inc.what_happened) + "</p>" +
+        "<h3>Status</h3><p>" + escapeHtml(inc.status || "—") + "</p>" +
+        "<h3>Casualties</h3>" +
+        '<div class="casualties">' +
+          '<div><span class="cas-label">Deaths</span><span class="cas-value">' + deaths + "</span></div>" +
+          '<div><span class="cas-label">Injured</span><span class="cas-value">' + escapeHtml(String(injured)) + "</span></div>" +
+          '<div style="grid-column:1/-1"><span class="cas-label">Affected or evacuated</span><span class="cas-value" style="font-size:14px">' + escapeHtml(String(affected)) + "</span></div>" +
+        "</div>" +
+        (inc.notes ? "<h3>Notes</h3><p>" + escapeHtml(inc.notes) + "</p>" : "") +
       "</div>" +
-      (inc.notes ? "<h3>Notes</h3><p>" + escapeHtml(inc.notes) + "</p>" : "") +
-      "<h3>Sources</h3><ul class='sources'>" + sources + "</ul>" +
-      extraAttributesHtml(inc);
+      '<div class="tab-panel" data-tab="dam" role="tabpanel" hidden>' +
+        attrListHtml(inc, DAM_KEYS) +
+      "</div>" +
+      '<div class="tab-panel" data-tab="cause" role="tabpanel" hidden>' +
+        causeBlock +
+      "</div>" +
+      '<div class="tab-panel" data-tab="impact" role="tabpanel" hidden>' +
+        attrListHtml(inc, IMPACT_KEYS) +
+      "</div>" +
+      '<div class="tab-panel" data-tab="sources" role="tabpanel" hidden>' +
+        "<h3>Sources</h3><ul class='sources'>" + sources + "</ul>" +
+        "<h3>Record</h3>" + attrListHtml(inc, META_KEYS) +
+        extraAttributesHtml(inc) +
+      "</div>";
+    setDetailTab(lastDetailTab);
     els.detail.hidden = false;
   }
+
 
   function closeDetail() {
     selectedId = null;
@@ -433,6 +571,31 @@
       btn.setAttribute("aria-pressed", btn.getAttribute("aria-pressed") === "true" ? "false" : "true");
       apply();
     });
+    if (els.geoUncertain) {
+      els.geoUncertain.addEventListener("click", () => {
+        const on = els.geoUncertain.getAttribute("aria-pressed") !== "true";
+        els.geoUncertain.setAttribute("aria-pressed", on ? "true" : "false");
+        apply();
+      });
+    }
+    els.detailBody.addEventListener("click", (e) => {
+      const tab = e.target.closest(".detail-tab");
+      if (tab) {
+        setDetailTab(tab.dataset.tab);
+        return;
+      }
+      if (e.target.closest("[data-pin-fix]")) {
+        const title = document.getElementById("detail-title");
+        window.dispatchEvent(new CustomEvent("worldwatch:report", {
+          detail: {
+            id: selectedId || "",
+            label: title ? title.textContent : "",
+            wrong: "Map pin is in the wrong place or only a town/district centroid.",
+            correction: "Better coordinates (lat, lng) or a sourced dam location:",
+          }
+        }));
+      }
+    });
     els.detailClose.addEventListener("click", closeDetail);
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") {
@@ -477,14 +640,58 @@
       attribution: "Tiles &copy; Esri",
       maxZoom: 19,
     });
+    const labels = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}", {
+      attribution: "Labels &copy; Esri",
+      maxZoom: 19,
+    });
     dark.addTo(map);
-    function syncBase() {
-      if (map.getZoom() >= 8) {
-        if (!map.hasLayer(aerial)) aerial.addTo(map);
-      } else if (map.hasLayer(aerial)) {
-        map.removeLayer(aerial);
-      }
+    let baseMode = "auto";
+    function wantAerial() {
+      if (baseMode === "aerial") return true;
+      if (baseMode === "map") return false;
+      return map.getZoom() >= 8;
     }
+    function showLayer(layer, on) {
+      if (on && !map.hasLayer(layer)) layer.addTo(map);
+      if (!on && map.hasLayer(layer)) map.removeLayer(layer);
+    }
+    function syncBase() {
+      const aerialOn = wantAerial();
+      showLayer(aerial, aerialOn);
+      showLayer(labels, aerialOn);
+      if (aerialOn && map.hasLayer(labels)) labels.bringToFront();
+    }
+    function setBaseMode(mode) {
+      baseMode = mode;
+      box.querySelectorAll("button").forEach((b) => {
+        const on = b.dataset.base === mode;
+        b.classList.toggle("is-active", on);
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      syncBase();
+    }
+    const BaseToggle = L.Control.extend({
+      options: { position: "bottomright" },
+      onAdd: function () {
+        const el = L.DomUtil.create("div", "basemap-toggle");
+        el.setAttribute("role", "group");
+        el.setAttribute("aria-label", "Base map");
+        [["auto", "Auto"], ["map", "Map"], ["aerial", "Aerial"]].forEach((pair) => {
+          const b = L.DomUtil.create("button", pair[0] === "auto" ? "is-active" : "", el);
+          b.type = "button";
+          b.dataset.base = pair[0];
+          b.textContent = pair[1];
+          b.setAttribute("aria-pressed", pair[0] === "auto" ? "true" : "false");
+        });
+        L.DomEvent.disableClickPropagation(el);
+        L.DomEvent.on(el, "click", function (e) {
+          const btn = e.target.closest("button");
+          if (btn && btn.dataset.base) setBaseMode(btn.dataset.base);
+        });
+        return el;
+      }
+    });
+    const box = new BaseToggle().addTo(map).getContainer();
     map.on("zoomend", syncBase);
     syncBase();
     cluster = L.markerClusterGroup({

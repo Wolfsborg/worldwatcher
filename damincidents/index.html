@@ -33,43 +33,49 @@
         <button type="button" class="chip" data-category="watch" aria-pressed="false">Watch</button>
       </fieldset>
 
-      <div class="filter-row">
-        <label class="field">
-          <span class="field-label">Type</span>
-          <select id="type-filter">
-            <option value="">All types</option>
-          </select>
-        </label>
-        <fieldset class="year-range">
-          <legend class="field-label">Custom years</legend>
-          <div class="year-inputs">
-            <label>
-              <span class="sr-only">From year</span>
-              <input type="number" id="year-min" inputmode="numeric">
-            </label>
-            <span class="year-sep" aria-hidden="true">–</span>
-            <label>
-              <span class="sr-only">To year</span>
-              <input type="number" id="year-max" inputmode="numeric">
-            </label>
-          </div>
-        </fieldset>
-      </div>
-        <fieldset class="chips period-chips" id="period-chips">
-          <legend class="field-label">When</legend>
-          <button type="button" class="chip" data-period="all" aria-pressed="true">All years</button>
-          <button type="button" class="chip" data-period="year" aria-pressed="false">This year</button>
-          <button type="button" class="chip" data-period="5y" aria-pressed="false">Last 5 years</button>
-          <button type="button" class="chip" data-period="decade" aria-pressed="false">Last decade</button>
-          <button type="button" class="chip" data-period="century" aria-pressed="false">Since 2000</button>
-          <button type="button" class="chip" data-period="historical" aria-pressed="false">Before 2000</button>
-        </fieldset>
-        <label class="field">
-          <span class="field-label">Cause</span>
-          <select id="cause-filter">
-            <option value="">All causes</option>
-          </select>
-        </label>
+      <label class="field">
+        <span class="field-label">Type</span>
+        <select id="type-filter">
+          <option value="">All types</option>
+        </select>
+      </label>
+
+      <fieldset class="chips period-chips" id="period-chips">
+        <legend class="field-label">When</legend>
+        <button type="button" class="chip" data-period="all" aria-pressed="true">All years</button>
+        <button type="button" class="chip" data-period="year" aria-pressed="false">This year</button>
+        <button type="button" class="chip" data-period="5y" aria-pressed="false">Last 5 years</button>
+        <button type="button" class="chip" data-period="decade" aria-pressed="false">Last decade</button>
+        <button type="button" class="chip" data-period="century" aria-pressed="false">Since 2000</button>
+        <button type="button" class="chip" data-period="historical" aria-pressed="false">Before 2000</button>
+      </fieldset>
+
+      <fieldset class="year-range">
+        <legend class="field-label">Custom years</legend>
+        <div class="year-inputs">
+          <label class="year-box">
+            <span class="sr-only">From year</span>
+            <input type="number" id="year-min" inputmode="numeric">
+          </label>
+          <span class="year-sep" aria-hidden="true">–</span>
+          <label class="year-box">
+            <span class="sr-only">To year</span>
+            <input type="number" id="year-max" inputmode="numeric">
+          </label>
+        </div>
+      </fieldset>
+
+      <label class="field">
+        <span class="field-label">Cause</span>
+        <select id="cause-filter">
+          <option value="">All causes</option>
+        </select>
+      </label>
+
+      <fieldset class="chips" id="geo-chips">
+        <legend class="field-label">Location</legend>
+        <button type="button" class="chip" id="geo-uncertain" aria-pressed="false">Uncertain pin</button>
+      </fieldset>
     </div>
 
     <section class="stats" aria-label="Dataset totals" id="stats">
@@ -90,7 +96,7 @@
     <footer class="credit">
       <p>Worldwatch · Dam Incidents · data updated 19 Aug 2026</p>
       <p>Sources on each record. Unconfirmed social posts excluded.</p>
-      <p><button type="button" class="text-btn" id="maintain-open">Maintain</button></p>
+      <p><button type="button" class="text-btn" id="report-open">Report a correction</button></p>
     </footer>
   </aside>
 
@@ -101,102 +107,46 @@
 
   <aside class="panel detail" id="detail" hidden aria-labelledby="detail-title">
     <div class="detail-toolbar">
-      <button type="button" class="detail-update" id="detail-update">Update this record</button>
+      <button type="button" class="detail-update" id="detail-report">Report a correction</button>
       <button type="button" class="detail-close" id="detail-close" aria-label="Close incident detail">Close</button>
     </div>
     <div id="detail-body"></div>
   </aside>
 
-  <aside class="panel maintain" id="maintain" hidden aria-labelledby="maintain-title">
+  <aside class="panel maintain" id="report" hidden aria-labelledby="report-title">
     <div class="maintain-toolbar">
-      <h2 id="maintain-title">Maintain</h2>
-      <button type="button" class="detail-close" id="maintain-close">Close</button>
+      <h2 id="report-title">Report a correction</h2>
+      <button type="button" class="detail-close" id="report-close">Close</button>
     </div>
-    <p class="maintain-lead">Add a record or merge new facts into an existing incident. Empty fields are left unchanged.</p>
-    <p class="maintain-target" id="maintain-target" hidden></p>
-    <form id="maintain-form" class="maintain-form" autocomplete="off">
+    <p class="maintain-lead">This does not change the public record. It opens a correction report for review.</p>
+    <p class="maintain-target" id="report-target" hidden></p>
+    <form id="report-form" class="maintain-form" autocomplete="off">
       <label class="field">
-        <span class="field-label">Name</span>
-        <input type="text" name="name" required>
-      </label>
-      <div class="maintain-row">
-        <label class="field">
-          <span class="field-label">Country</span>
-          <input type="text" name="country">
-        </label>
-        <label class="field">
-          <span class="field-label">Region</span>
-          <input type="text" name="region">
-        </label>
-      </div>
-      <label class="field">
-        <span class="field-label">Location</span>
-        <input type="text" name="location_label">
-      </label>
-      <div class="maintain-row">
-        <label class="field">
-          <span class="field-label">Date</span>
-          <input type="text" name="incident_date" placeholder="YYYY-MM-DD" inputmode="numeric">
-        </label>
-        <label class="field">
-          <span class="field-label">Deaths</span>
-          <input type="number" name="deaths" min="0" step="1">
-        </label>
-      </div>
-      <div class="maintain-row">
-        <label class="field">
-          <span class="field-label">Type</span>
-          <select name="type"></select>
-        </label>
-        <label class="field">
-          <span class="field-label">Category</span>
-          <select name="category"></select>
-        </label>
-      </div>
-      <fieldset class="field">
-        <legend class="field-label">Causes</legend>
-        <div class="maintain-causes" id="maintain-causes"></div>
-      </fieldset>
-      <label class="field">
-        <span class="field-label">What happened</span>
-        <textarea name="what_happened" rows="3"></textarea>
+        <span class="field-label">About this incident</span>
+        <input type="text" name="about" id="report-about" readonly>
       </label>
       <label class="field">
-        <span class="field-label">Status</span>
-        <textarea name="status" rows="2"></textarea>
+        <span class="field-label">What is wrong</span>
+        <textarea name="wrong" id="report-wrong" rows="3" required placeholder="Fact, date, location, deaths, source…"></textarea>
       </label>
-      <div class="maintain-row">
-        <label class="field">
-          <span class="field-label">Source label</span>
-          <input type="text" name="source_label">
-        </label>
-        <label class="field">
-          <span class="field-label">Source URL</span>
-          <input type="url" name="source_url">
-        </label>
-      </div>
-      <div class="maintain-row">
-        <label class="field">
-          <span class="field-label">Latitude</span>
-          <input type="number" name="lat" step="any">
-        </label>
-        <label class="field">
-          <span class="field-label">Longitude</span>
-          <input type="number" name="lng" step="any">
-        </label>
-      </div>
+      <label class="field">
+        <span class="field-label">Suggested correction</span>
+        <textarea name="correction" id="report-correction" rows="3" required></textarea>
+      </label>
+      <label class="field">
+        <span class="field-label">Source URL</span>
+        <input type="url" name="source" id="report-source" placeholder="https://">
+      </label>
     </form>
     <div class="maintain-actions">
-      <button type="button" class="maintain-btn" id="maintain-check">Check duplicates</button>
-      <button type="button" class="maintain-btn maintain-btn-primary" id="maintain-save">Save</button>
+      <button type="button" class="maintain-btn maintain-btn-primary" id="report-send">Send report</button>
     </div>
-    <div id="maintain-matches" class="maintain-matches" hidden></div>
-    <p id="maintain-result" class="maintain-result" hidden></p>
+    <p id="report-result" class="maintain-result" hidden></p>
   </aside>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script src="js/app.js"></script>
-  <script src="js/maintain.js"></script>
+  <script src="js/report.js"></script>
 </body>
 </html>

@@ -13,9 +13,13 @@
   --incident: #4aa3df;
   --watch: #d4b45a;
   --controlled: #7a8894;
-  --sidebar: 380px;
-  --gap: 8px;
+  --sidebar: 400px;
+  --gap: 12px;
   --pad: 16px;
+  --control-h: 38px;
+  --control-px: 12px;
+  --label-gap: 8px;
+  --section-gap: 14px;
   --radius: 14px;
   --sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --serif: "IBM Plex Serif", "Times New Roman", Times, serif;
@@ -122,32 +126,45 @@ html, body {
 }
 
 .controls {
-  padding: 12px 16px 10px;
+  padding: 16px;
   border-bottom: 1px solid var(--line);
   flex: 0 1 auto;
-  max-height: 38vh;
+  max-height: 42vh;
   overflow: auto;
   min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-gap);
 }
 
-.field, .chips, .year-range { margin: 0 0 8px; border: 0; padding: 0; min-width: 0; }
+.field, .chips, .year-range {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--label-gap);
+}
+
 .filter-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: var(--gap);
   align-items: end;
 }
 .filter-row .field, .filter-row .year-range { margin: 0; }
 
 .field-label, legend.field-label {
   display: block;
-  margin: 0 0 6px;
+  margin: 0;
   font-size: 10px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--muted);
   font-weight: 500;
   padding: 0;
+  line-height: 1.2;
 }
 
 input[type="search"],
@@ -157,23 +174,46 @@ input[type="url"],
 input[type="date"],
 textarea,
 select {
+  display: block;
   width: 100%;
-  background: rgba(11, 13, 16, 0.55);
+  height: var(--control-h);
+  box-sizing: border-box;
+  background: #0d1014;
   border: 1px solid var(--line-strong);
   color: var(--text);
   font: inherit;
-  padding: 8px 10px;
+  font-size: 13px;
+  line-height: calc(var(--control-h) - 2px);
+  padding: 0 var(--control-px);
   border-radius: 8px;
   outline: none;
 }
+
+textarea {
+  height: auto;
+  min-height: 84px;
+  line-height: 1.45;
+  padding: 10px var(--control-px);
+  resize: vertical;
+}
+
+select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path fill='%238b919a' d='M1 1l5 5 5-5'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 32px;
+}
+
+input::placeholder { color: #6b717a; }
 
 input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 1px;
 }
 
-.chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.chips .field-label { width: 100%; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips .field-label { width: 100%; flex: 0 0 100%; }
 
 .chip {
   appearance: none;
@@ -182,7 +222,8 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
   color: var(--text);
   font: inherit;
   font-size: 12px;
-  padding: 5px 9px;
+  line-height: 1;
+  padding: 8px 12px;
   border-radius: 999px;
   cursor: pointer;
 }
@@ -212,11 +253,23 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 
 .year-inputs {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  gap: 8px;
+  grid-template-columns: 1fr 16px 1fr;
+  gap: 10px;
   align-items: center;
 }
-.year-sep { color: var(--muted); }
+.year-box { display: block; min-width: 0; }
+.year-box input {
+  min-width: 0;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.year-sep {
+  color: var(--muted);
+  text-align: center;
+  line-height: var(--control-h);
+}
 
 .recent {
   flex: 1 1 0;
@@ -748,11 +801,85 @@ textarea {
 input[type="number"] { -moz-appearance: textfield; }
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
-.field:last-child { margin-bottom: 0; }
-.controls .field:last-child { margin-bottom: 0; }
-.maintain-form .field { margin-bottom: 10px; }
-.maintain-form .maintain-row { margin-bottom: 10px; }
-.maintain-form .maintain-row .field { margin-bottom: 0; }
-.period-chips { margin-top: 10px; }
+.maintain-form { display: flex; flex-direction: column; gap: var(--section-gap); }
+.maintain-row { gap: var(--gap); }
 .leaflet-control-attribution { max-width: 46vw; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .leaflet-bottom.leaflet-right { margin-bottom: 4px; }
+
+.detail-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 4px -4px 14px;
+  border-bottom: 1px solid var(--line);
+}
+.detail-tab {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 8px 10px 7px;
+  margin-bottom: -1px;
+  cursor: pointer;
+}
+.detail-tab.is-active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.tab-panel { min-height: 0; }
+.tab-panel[hidden] { display: none; }
+.tab-panel .attr-list { margin-top: 4px; }
+
+.item-geo {
+  color: var(--watch);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.site-marker.is-uncertain {
+  border-style: dashed;
+  border-width: 2px;
+  background-clip: padding-box;
+}
+.geo-note.is-uncertain {
+  color: var(--watch);
+  font-style: normal;
+}
+.pin-fix {
+  margin-left: 6px;
+}
+
+.basemap-toggle {
+  display: flex;
+  margin-bottom: 8px !important;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid var(--line-strong);
+  background: var(--panel-solid);
+  box-shadow: var(--shadow);
+}
+.basemap-toggle button {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+.basemap-toggle button + button {
+  border-left: 1px solid var(--line);
+}
+.basemap-toggle button.is-active {
+  color: var(--bg);
+  background: var(--accent);
+}
