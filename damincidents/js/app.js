@@ -134,6 +134,7 @@
     const minB = yearBounds.min;
     const maxB = yearBounds.max;
     if (period === "year") return [y, y];
+    if (period === "lastyear") return [y - 1, y - 1];
     if (period === "5y") return [y - 4, y];
     if (period === "decade") return [y - 9, y];
     if (period === "century") return [2000, y];
@@ -225,7 +226,7 @@
         '<span class="item-meta"><span>' + escapeHtml(inc.country) + "</span>" +
         '<span class="item-cat cat-' + inc.category + '">' + (CATEGORY_LABEL[inc.category] || inc.category) + "</span>" +
         (inc.causes && inc.causes[0] ? '<span class="item-cause">' + escapeHtml(CAUSE_LABEL[inc.causes[0]] || inc.causes[0]) + "</span>" : "") +
-        (locationUncertain(inc) ? '<span class="item-geo">Pin uncertain</span>' : "") +
+        (locationUncertain(inc) ? '<span class="item-geo">Location uncertain</span>' : "") +
         deaths + "</span>";
       btn.addEventListener("click", () => selectIncident(inc.id, { fromList: true }));
       li.appendChild(btn);
@@ -567,12 +568,13 @@
     }
     els.chips.addEventListener("click", (e) => {
       const btn = e.target.closest(".chip");
-      if (!btn) return;
+      if (!btn || btn.id === "geo-uncertain") return;
       btn.setAttribute("aria-pressed", btn.getAttribute("aria-pressed") === "true" ? "false" : "true");
       apply();
     });
     if (els.geoUncertain) {
-      els.geoUncertain.addEventListener("click", () => {
+      els.geoUncertain.addEventListener("click", (e) => {
+        e.stopPropagation();
         const on = els.geoUncertain.getAttribute("aria-pressed") !== "true";
         els.geoUncertain.setAttribute("aria-pressed", on ? "true" : "false");
         apply();
@@ -629,8 +631,25 @@
       zoomControl: false,
       attributionControl: true,
       worldCopyJump: true,
-    }).setView([22, 12], 2.4);
-    L.control.zoom({ position: "bottomright" }).addTo(map);
+      zoomSnap: 0.25,
+      zoomDelta: 0.5,
+    }).setView([20, 12], 3);
+    function landingView() {
+      if (selectedId) return;
+      const narrow = window.matchMedia("(max-width: 980px)").matches;
+      const left = narrow ? 16 : 416;
+      map.fitBounds([[-48, -128], [68, 158]], {
+        paddingTopLeft: [left, 20],
+        paddingBottomRight: [20, 64],
+        animate: false,
+        maxZoom: 4.25,
+      });
+      const z = map.getZoom();
+      map.setMinZoom(Math.max(2.75, z - 0.35));
+    }
+    map.whenReady(landingView);
+    window.addEventListener("resize", landingView);
+    const zoom = L.control.zoom({ position: "bottomright" }).addTo(map);
     const dark = L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: "abcd",
@@ -692,6 +711,11 @@
       }
     });
     const box = new BaseToggle().addTo(map).getContainer();
+    const wrap = document.createElement("div");
+    wrap.className = "map-controls";
+    wrap.appendChild(box);
+    wrap.appendChild(zoom.getContainer());
+    document.body.appendChild(wrap);
     map.on("zoomend", syncBase);
     syncBase();
     cluster = L.markerClusterGroup({
@@ -701,7 +725,7 @@
       disableClusteringAtZoom: 10,
     });
     map.addLayer(cluster);
-    const resize = () => map.invalidateSize();
+    const resize = () => { map.invalidateSize(); landingView(); };
     window.addEventListener("resize", resize);
     setTimeout(resize, 80);
   }
