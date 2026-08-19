@@ -652,11 +652,27 @@
     }
     
     els.statsPanel.hidden = false;
+    if (els.sidebar) els.sidebar.classList.add("is-dashboard-open");
+    if (els.statsOpen) {
+      els.statsOpen.classList.add("is-active");
+      els.statsOpen.setAttribute("aria-pressed", "true");
+    }
   }
 
   function closeStats() {
     if (!els.statsPanel) return;
     els.statsPanel.hidden = true;
+    if (els.sidebar) els.sidebar.classList.remove("is-dashboard-open");
+    if (els.statsOpen) {
+      els.statsOpen.classList.remove("is-active");
+      els.statsOpen.setAttribute("aria-pressed", "false");
+    }
+  }
+
+  function toggleDashboard() {
+    if (!els.statsPanel) return;
+    if (els.statsPanel.hidden) openStats();
+    else closeStats();
   }
 
   function goHome() {
@@ -674,7 +690,7 @@
 
   function bind() {
     if (els.home) els.home.addEventListener("click", goHome);
-    if (els.statsOpen) els.statsOpen.addEventListener("click", openStats);
+    if (els.statsOpen) els.statsOpen.addEventListener("click", toggleDashboard);
     if (els.statsClose) els.statsClose.addEventListener("click", closeStats);
     if (els.layerTabs) {
       els.layerTabs.addEventListener("click", (e) => {
