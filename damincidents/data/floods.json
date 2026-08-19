@@ -20,7 +20,7 @@
       "latest_report_date": "2026-08-08",
       "what_happened": "A 19 July 2026 cloudburst in Mon district, Nagaland, raised south-bank Brahmaputra tributaries and flooded Sivasagar, Charaideo, Jorhat and Golaghat. The Hindu reported 98 deaths and more than 155,000 still affected as of 8 August 2026; the Wikipedia infobox lists 100+ deaths and more than 700,000 displaced. Chief Minister Himanta Biswa Sarma ordered door-to-door digital damage assessments. Ongoing as of mid-August 2026.",
       "status": "Ongoing as of 19 August 2026.",
-      "deaths": null,
+      "deaths": 98,
       "injured": null,
       "affected_or_evacuated": "More than 700,000 displaced (Wikipedia infobox); 155,000 still affected on 8 August (The Hindu)",
       "verification": "confirmed",
@@ -36,7 +36,7 @@
           "url": "https://en.wikipedia.org/wiki/2026_Assam_floods"
         }
       ],
-      "notes": "Deaths left null because tallies are still moving: 85 (4 Aug), 98 (8 Aug, The Hindu / India Today, cited on Wikipedia), infobox 100+. Era 2026 because the event year is 2026.",
+      "notes": "Deaths 98 as of 8 Aug 2026 (The Hindu / India Today, cited on Wikipedia). Infobox still says 100+; tallies were 85 on 4 Aug. Using the dated 8 Aug figure, not Unknown.",
       "era": "2026",
       "in_baseline": true,
       "last_updated": "2026-08-19",
