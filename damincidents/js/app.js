@@ -26,16 +26,6 @@
       showCategory: false,
       showCause: true,
     },
-    stats: {
-      id: "stats",
-      title: "Stats",
-      subtitle: "Dashboard",
-      statLabel: "Stats",
-      recentLabel: "",
-      credit: "worldwatcher.app · Stats",
-      showCategory: false,
-      showCause: false,
-    },
   };
 
   const COLORS = {
@@ -121,15 +111,13 @@
     statCountLabel: document.getElementById("stat-count-label"),
     recentHeading: document.getElementById("recent-heading"),
     statsPanel: document.getElementById("stats-panel"),
-    statsContent: document.getElementById("stats-content"),
-    statsLayerLabel: document.getElementById("stats-layer-label"),
-    mapEl: document.getElementById("map"),
+    statsBody: document.getElementById("stats-body"),
+    statsOpen: document.getElementById("stats-open"),
+    statsClose: document.getElementById("stats-close"),
   };
 
   let layer = "dams";
-  let layerBeforeStats = "dams";
   const cache = { dams: null, floods: null };
-  let statsData = null;
 
 
   let all = [];
@@ -651,39 +639,27 @@
 
   let goToLanding = function () {};
 
-  function showStats() {
-    if (!els.statsPanel || !els.mapEl || !els.sidebar) return;
-    els.statsPanel.hidden = false;
-    els.mapEl.style.display = "none";
-    els.sidebar.style.display = "none";
-    if (els.detail) els.detail.hidden = true;
-    if (els.toggle) els.toggle.style.display = "none";
+  function openStats() {
+    if (!els.statsPanel || !els.statsBody) return;
+    closeDetail();
     
-    const dataLayer = layerBeforeStats;
-    const data = cache[dataLayer];
+    const data = cache[layer];
     if (data && window.worldwatcherStats) {
-      const layerLabel = LAYERS[dataLayer].title;
-      if (els.statsLayerLabel) els.statsLayerLabel.textContent = layerLabel;
-      const html = window.worldwatcherStats.render(data, dataLayer);
-      els.statsContent.innerHTML = html;
+      const html = window.worldwatcherStats.render(data, layer);
+      els.statsBody.innerHTML = html;
     } else {
-      els.statsContent.innerHTML = '<div class="stats-loading">Loading statistics...</div>';
+      els.statsBody.innerHTML = '<div class="stats-loading">Loading statistics...</div>';
     }
+    
+    els.statsPanel.hidden = false;
   }
 
-  function hideStats() {
-    if (!els.statsPanel || !els.mapEl || !els.sidebar) return;
+  function closeStats() {
+    if (!els.statsPanel) return;
     els.statsPanel.hidden = true;
-    els.mapEl.style.display = "";
-    els.sidebar.style.display = "";
-    if (els.toggle) els.toggle.style.display = "";
   }
 
   function goHome() {
-    if (layer === "stats") {
-      setLayer(layerBeforeStats);
-      return;
-    }
     if (els.search) els.search.value = "";
     if (els.chips) {
       els.chips.querySelectorAll(".chip").forEach((b) => b.setAttribute("aria-pressed", "false"));
@@ -691,12 +667,15 @@
     if (els.cause) els.cause.value = "";
     setPeriod("all");
     closeDetail();
+    closeStats();
     apply();
     goToLanding();
   }
 
   function bind() {
     if (els.home) els.home.addEventListener("click", goHome);
+    if (els.statsOpen) els.statsOpen.addEventListener("click", openStats);
+    if (els.statsClose) els.statsClose.addEventListener("click", closeStats);
     if (els.layerTabs) {
       els.layerTabs.addEventListener("click", (e) => {
         const btn = e.target.closest(".layer-tab");
@@ -744,6 +723,7 @@
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") {
         if (!els.detail.hidden) closeDetail();
+        else if (!els.statsPanel.hidden) closeStats();
         else {
           els.sidebar.classList.remove("is-open");
           els.toggle.setAttribute("aria-expanded", "false");
@@ -959,20 +939,6 @@
   }
 
   function setLayer(name) {
-    if (name === "stats") {
-      if (layer !== "stats") {
-        layerBeforeStats = layer;
-      }
-      layer = "stats";
-      updateLayerChrome();
-      showStats();
-      return;
-    }
-    
-    if (layer === "stats") {
-      hideStats();
-    }
-    
     if (name === layer && cache[layer]) {
       goHome();
       return;
@@ -984,6 +950,7 @@
       els.chips.querySelectorAll(".chip").forEach((b) => b.setAttribute("aria-pressed", "false"));
     }
     if (els.cause) els.cause.value = "";
+    closeStats();
     loadLayer(name);
   }
 

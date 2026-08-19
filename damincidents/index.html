@@ -43,7 +43,6 @@
       <div class="layer-tabs" role="tablist" aria-label="worldwatcher.app layers">
         <button type="button" class="layer-tab is-active" data-layer="dams" aria-selected="true">Dam Incidents</button>
         <button type="button" class="layer-tab" data-layer="floods" aria-selected="false">Floods</button>
-        <button type="button" class="layer-tab" data-layer="stats" aria-selected="false">Stats</button>
       </div>
       <p class="subtitle" id="layer-subtitle">Sourced failures and watches, 1864–2026</p>
     </div>
@@ -119,6 +118,8 @@
         <a href="standards.html">Standards</a>
         <a href="terms.html">Terms</a>
         <a href="privacy.html">Privacy</a>
+        <span class="nav-sep">·</span>
+        <button type="button" class="stats-link" id="stats-open">Stats</button>
       </nav>
       <p class="copyright">© 2026 worldwatcher.app</p>
     </footer>
@@ -169,11 +170,11 @@
   </aside>
 
   <aside class="panel stats-panel" id="stats-panel" hidden aria-labelledby="stats-title">
-    <div class="stats-toolbar">
-      <h1 id="stats-title">Stats</h1>
-      <p class="stats-subtitle" id="stats-layer-label">Dam Incidents</p>
+    <div class="stats-header">
+      <h2 id="stats-title">Stats</h2>
+      <button type="button" class="detail-close" id="stats-close" aria-label="Close stats">Close</button>
     </div>
-    <div class="stats-content" id="stats-content">
+    <div class="stats-body" id="stats-body">
       <div class="stats-loading">Loading statistics...</div>
     </div>
   </aside>
