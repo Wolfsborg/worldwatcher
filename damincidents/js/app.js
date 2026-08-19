@@ -91,6 +91,9 @@
     cause: document.getElementById("cause-filter"),
     yearMin: document.getElementById("year-min"),
     yearMax: document.getElementById("year-max"),
+    yearSliderMin: document.getElementById("year-slider-min"),
+    yearSliderMax: document.getElementById("year-slider-max"),
+    yearSliderFill: document.getElementById("year-slider-fill"),
     periods: document.getElementById("period-chips"),
     list: document.getElementById("incident-list"),
     empty: document.getElementById("empty-state"),
@@ -215,8 +218,45 @@
       b.setAttribute("aria-pressed", b.dataset.period === period ? "true" : "false");
     });
     const range = periodRange(period);
-    els.yearMin.value = range[0];
-    els.yearMax.value = range[1];
+    setYearInputs(range[0], range[1]);
+  }
+
+  function yearPair() {
+    let a = parseInt(els.yearMin.value, 10);
+    let b = parseInt(els.yearMax.value, 10);
+    if (Number.isNaN(a)) a = yearBounds.min;
+    if (Number.isNaN(b)) b = yearBounds.max;
+    return [a, b];
+  }
+
+  function paintYearSlider() {
+    if (!els.yearSliderMin || !els.yearSliderMax) return;
+    const [a, b] = yearPair();
+    els.yearSliderMin.min = yearBounds.min;
+    els.yearSliderMin.max = yearBounds.max;
+    els.yearSliderMax.min = yearBounds.min;
+    els.yearSliderMax.max = yearBounds.max;
+    els.yearSliderMin.value = a;
+    els.yearSliderMax.value = b;
+    if (!els.yearSliderFill) return;
+    const span = yearBounds.max - yearBounds.min || 1;
+    const left = ((a - yearBounds.min) / span) * 100;
+    const right = ((b - yearBounds.min) / span) * 100;
+    els.yearSliderFill.style.left = left + "%";
+    els.yearSliderFill.style.width = Math.max(0, right - left) + "%";
+  }
+
+  function setYearInputs(min, max) {
+    if (min > max) {
+      const t = min;
+      min = max;
+      max = t;
+    }
+    min = Math.max(yearBounds.min, Math.min(yearBounds.max, min));
+    max = Math.max(yearBounds.min, Math.min(yearBounds.max, max));
+    els.yearMin.value = min;
+    els.yearMax.value = max;
+    paintYearSlider();
   }
 
   function syncPeriodFromYears() {
@@ -744,8 +784,33 @@
     }
     els.search.addEventListener("input", apply);
     if (els.cause) els.cause.addEventListener("change", apply);
-    els.yearMin.addEventListener("change", () => { syncPeriodFromYears(); apply(); });
-    els.yearMax.addEventListener("change", () => { syncPeriodFromYears(); apply(); });
+    const onYearField = (which) => {
+      let [a, b] = yearPair();
+      if (a > b) {
+        if (which === "min") a = b;
+        else b = a;
+      }
+      setYearInputs(a, b);
+      syncPeriodFromYears();
+      apply();
+    };
+    els.yearMin.addEventListener("change", () => onYearField("min"));
+    els.yearMax.addEventListener("change", () => onYearField("max"));
+    if (els.yearSliderMin && els.yearSliderMax) {
+      const fromSlider = (which) => {
+        let a = parseInt(els.yearSliderMin.value, 10);
+        let b = parseInt(els.yearSliderMax.value, 10);
+        if (which === "min" && a > b) a = b;
+        if (which === "max" && b < a) b = a;
+        setYearInputs(a, b);
+        syncPeriodFromYears();
+        apply();
+      };
+      els.yearSliderMin.addEventListener("input", () => fromSlider("min"));
+      els.yearSliderMax.addEventListener("input", () => fromSlider("max"));
+      els.yearSliderMin.addEventListener("pointerdown", () => { els.yearSliderMin.style.zIndex = 4; els.yearSliderMax.style.zIndex = 3; });
+      els.yearSliderMax.addEventListener("pointerdown", () => { els.yearSliderMax.style.zIndex = 4; els.yearSliderMin.style.zIndex = 3; });
+    }
     if (els.periods) {
       els.periods.addEventListener("click", (e) => {
         const btn = e.target.closest(".chip");
@@ -966,8 +1031,7 @@
     els.yearMin.max = yearBounds.max;
     els.yearMax.min = yearBounds.min;
     els.yearMax.max = yearBounds.max;
-    els.yearMin.value = yearBounds.min;
-    els.yearMax.value = yearBounds.max;
+    setYearInputs(yearBounds.min, yearBounds.max);
     setPeriod("all");
     fillCauseFilter();
     apply();
