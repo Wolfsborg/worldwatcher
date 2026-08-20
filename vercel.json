@@ -5,6 +5,7 @@
   "outputDirectory": ".vercel-out",
   "cleanUrls": true,
   "rewrites": [
+    { "source": "/security.txt", "destination": "/.well-known/security.txt" },
     { "source": "/damincidents", "destination": "/index.html" },
     { "source": "/damincidents/", "destination": "/index.html" },
     { "source": "/damincidents/:path*", "destination": "/:path*" }
