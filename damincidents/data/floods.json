@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 327,
+  "count": 343,
   "events": [
     {
       "id": "flood-assam-2026",
@@ -18140,6 +18140,863 @@
           "date": "2026-08-20",
           "by": "historic_backfill",
           "change": "Added from Japanese Wikipedia: 平成27年9月関東・東北豪雨."
+        }
+      ]
+    },
+    {
+      "id": "flood-ankang-1983",
+      "name": "1983 Ankang flood (7·31)",
+      "country": "China",
+      "region": "Han River / Ankang, Shaanxi",
+      "location_label": "Ankang, Shaanxi, China",
+      "lat": 32.6854,
+      "lng": 109.029,
+      "geo_accuracy": "approx",
+      "geo_source": "Ankang municipal government (Wikipedia 32°41′07″N 109°01′44″E); old city on the Han was inundated on 31 July",
+      "flood_type": "riverine",
+      "river_or_basin": "Han River (Hanshui)",
+      "river_or_facility": null,
+      "incident_date": "1983-07-31",
+      "latest_report_date": "2004-10",
+      "what_happened": "Basin rain from 26–31 July 1983 produced a roughly 200-year Han flood at Ankang. The Ankang gauge peaked at 31,000 m³/s at 19:35 on 31 July and 259.30 m at 01:30 on 1 August. Water entered the old city from three sides after afternoon evacuation lagged; at least 10,000–20,000 people were still in the old town when the flood arrived. The 2004 Ankang District Gazetteer records 870 urban deaths (805 local, 65 from elsewhere). About 89,600 people in 18,000 households were affected; 3.2 km² of the old city and suburbs were inundated and some 30,000 rooms destroyed. Direct losses about 4.1 billion yuan. Upstream Shiquan reservoir made operational releases; this is not a dam collapse.",
+      "status": "Historical.",
+      "deaths": 870,
+      "injured": null,
+      "affected_or_evacuated": "About 89,600 people / 18,000 households in the urban district (Ankang 7·31 memory)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Han basin rain; 200-year Ankang crest. Operational Shiquan releases and delayed old-city evacuation cited as aggravating factors, not a dam collapse.",
+      "sources": [
+        {
+          "label": "Wikipedia (zh): 安康特大洪灾",
+          "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BA%B7%E7%89%B9%E5%A4%A7%E6%B4%AA%E7%81%BE"
+        }
+      ],
+      "notes": "870 is the 2004 Ankang District Gazetteer urban total on the dedicated zh page. Earlier 800+220 missing and later unofficial 1,036–1,600 stay in notes. Distinct from flood-sichuan-1981. Shiquan releases were operational, not a structural failure.",
+      "era": "1983",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "Ankang 31,000 m³/s (31 July 19:35)",
+      "return_period": "About 200-year at Ankang gauge (zh page)",
+      "rainfall_mm": null,
+      "inundation_area": "3.2 km² old city and suburbs",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About 4.1 billion yuan (Ankang 7·31 memory)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Chinese Wikipedia: 安康特大洪灾."
+        }
+      ]
+    },
+    {
+      "id": "flood-liao-1951",
+      "name": "1951 Liao River flood",
+      "country": "China",
+      "region": "Liao River plain / Liaoning–Jilin",
+      "location_label": "Panshan, Liaoning, China",
+      "lat": 41.243,
+      "lng": 121.996,
+      "geo_accuracy": "approx",
+      "geo_source": "Panshan County (Wikipedia 41°14′35″N 121°59′46″E); Tai'an and Panshan were the worst-hit lower Liao counties, depths 2–3 m",
+      "flood_type": "riverine",
+      "river_or_basin": "Liao / Hun / Taizi",
+      "river_or_facility": null,
+      "incident_date": "1951-08",
+      "latest_report_date": "2007",
+      "what_happened": "August 1951 rain centred on Xifeng–Kaiyuan produced a record main-stem Liao flood. More than 570 breaches were recorded (Liao 180, Qing 81, Hun 23, Taizi 8, Pu 38). The lower Liao, Hun and Taizi plains became a continuous flood. Liaoning flood-office / soil-conservation paper: 33 counties, 6,213 dead, 493,000 ha flooded; Shenshan and Changda railways cut. Other tables give 3,100+ dead and 434,000 ha / 876,000 people in Liaoning and Jilin. Using the 6,213 Liaoning flood-office figure.",
+      "status": "Historical.",
+      "deaths": 6213,
+      "injured": null,
+      "affected_or_evacuated": "876,000 people in one two-province table; 33 Liaoning counties in the 6,213-death sitrep",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record August 1951 Liao main-stem flood; hundreds of breaches on the Liao–Hun–Taizi plain.",
+      "sources": [
+        {
+          "label": "Wikipedia (zh): 1951年辽河大水",
+          "url": "https://zh.wikipedia.org/wiki/1951%E5%B9%B4%E8%BE%BD%E6%B2%B3%E5%A4%A7%E6%B0%B4"
+        }
+      ],
+      "notes": "6,213 is the Liaoning flood-office / Mu Lianping figure on the dedicated zh page. Alternate 3,100+ stays in notes. Distinct from flood-yangtze-1954.",
+      "era": "1951",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "493,000 ha (Liaoning flood-office); 434,000 ha in a two-province table",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Chinese Wikipedia: 1951年辽河大水."
+        }
+      ]
+    },
+    {
+      "id": "flood-beijiang-1982",
+      "name": "1982 North River flood (82.5)",
+      "country": "China",
+      "region": "Beijiang / Qingyuan, Guangdong",
+      "location_label": "Qingyuan, Guangdong, China",
+      "lat": 23.682,
+      "lng": 113.056,
+      "geo_accuracy": "approx",
+      "geo_source": "Qingyuan (Wikipedia 23°40′55″N 113°03′22″E); Qingyuan county took about 3 of 4.4–5 billion yuan and 206 of the event deaths",
+      "flood_type": "riverine",
+      "river_or_basin": "Beijiang (North River / Pearl)",
+      "river_or_facility": null,
+      "incident_date": "1982-05-12",
+      "latest_report_date": "1982-05",
+      "what_happened": "9–14 May 1982 basin rain, 80% of it on 10–12 May, produced the named “82.5” Beijiang flood. Qingyuan recorded 886 mm in 10 days and 640.6 mm in 24 hours on 12 May; the storm centre reached 841 mm. Five county towns and thousands of villages flooded; 1.32 million mu of farmland inundated; 2.29 million people affected and 570,000 surrounded. Dedicated zh page: 493 dead (Qingyuan 206 plus 16 missing on a Qingyuan-only table). About 4.4–5 billion yuan damage; 201 small hill ponds/reservoirs and 750 山塘水库 washouts are cited as rain-flood damage, not a named dam collapse.",
+      "status": "Historical.",
+      "deaths": 493,
+      "injured": null,
+      "affected_or_evacuated": "2.29 million affected; 570,000 surrounded",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "May 1982 Beijiang basin rainstorm; riverine and debris-flow flooding centred on Qingyuan.",
+      "sources": [
+        {
+          "label": "Wikipedia (zh): “82.5”北江大洪水",
+          "url": "https://zh.wikipedia.org/wiki/%E2%80%9C82.5%E2%80%9D%E5%8C%97%E6%B1%9F%E5%A4%A7%E6%B4%AA%E6%B0%B4"
+        }
+      ],
+      "notes": "493 on the dedicated zh page. Qingyuan-only 206+16 missing stays in notes. Small 山塘 washouts noted; not a structural dam-failure event. Distinct from flood-xijiang-1994.",
+      "era": "1982",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Qingyuan 886 mm / 10 days; 640.6 mm / 24 h on 12 May; centre 841 mm",
+      "inundation_area": "132,000 ha farmland",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About 4.4–5 billion yuan (1982); Qingyuan nearly 3 billion",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Chinese Wikipedia: “82.5”北江大洪水."
+        }
+      ]
+    },
+    {
+      "id": "flood-south-china-2008",
+      "name": "2008 South China floods",
+      "country": "China",
+      "region": "Guangdong / Guangxi / southern China",
+      "location_label": "Wuzhou, Guangxi, China",
+      "lat": 23.4767,
+      "lng": 111.279,
+      "geo_accuracy": "approx",
+      "geo_source": "Wuzhou (Wikipedia 23°28′36″N 111°16′44″E); city had its worst flood in 100 years during the June round",
+      "flood_type": "riverine",
+      "river_or_basin": "Pearl / southern China rivers",
+      "river_or_facility": null,
+      "incident_date": "2008-05-26",
+      "latest_report_date": "2008-06-30",
+      "what_happened": "Four rounds of torrential rain from 26 May 2008 lasted about 20 days and hit 15 eastern and southern provinces. The first round killed 93 by 30 May; a 6 June round killed 55 and forced 1.3 million to evacuate by 14 June. Wuzhou saw a 100-year flood; Guangdong called it the heaviest rain in 50 years. Shenzhen recorded more than 300 inundation points. By 18 June the regional death toll was 169; by the end of June Xinhua reported 252 killed in the rainstorms and flooding. About 1.66 million evacuated; 67,000 houses collapsed; damage about US$2.2 billion.",
+      "status": "Historical.",
+      "deaths": 252,
+      "injured": null,
+      "affected_or_evacuated": "1.66 million evacuated (15 June sitrep); 2.22 million affected in Guangdong 25 May–14 June",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Four May–June 2008 rain rounds across 15 southern and eastern provinces.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2008 South China floods",
+          "url": "https://en.wikipedia.org/wiki/2008_South_China_floods"
+        }
+      ],
+      "notes": "252 is the end-of-June Xinhua figure on the dedicated page. Infobox “more than 200 dead or missing” is earlier. Distinct from flood-china-2010 and flood-xijiang-1994.",
+      "era": "2008",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Guangdong average 415 mm 28 May–2 June (double long-term); local 400 mm / 2 days",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About US$2.2 billion (dedicated-page infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2008 South China floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-china-russia-2013",
+      "name": "2013 China–Russia floods (Amur / Heilongjiang)",
+      "country": "China",
+      "region": "Heilongjiang / Jilin / Liaoning / Amur",
+      "location_label": "Fushun, Liaoning, China",
+      "lat": 41.881,
+      "lng": 123.957,
+      "geo_accuracy": "approx",
+      "geo_source": "Fushun (Wikipedia 41°52′52″N 123°57′25″E); Liaoning city hardest hit (54 dead, 97 missing as of 19 Aug)",
+      "flood_type": "riverine",
+      "river_or_basin": "Amur / Heilongjiang / Hun",
+      "river_or_facility": null,
+      "incident_date": "2013-08-10",
+      "latest_report_date": "2013-08-20",
+      "what_happened": "Late-July to mid-August 2013 rain on the Amur produced the worst northeast China flood in more than a decade and the worst Russian Far East flood in 120 years. Nankouqian recorded 449 mm on 16 August alone. The dedicated page: 85 dead (China 84, Russia one soldier), 105 missing, 840,000 evacuated in Heilongjiang, Jilin and Liaoning; more than 60,000 homes destroyed; 787,000 ha of farmland ruined. Liaoning 54 dead / 97 missing; Jilin 16; Heilongjiang 11. Amur at Khabarovsk reached a record 100.56 m. Damage about 16.14 billion yuan / US$2.6 billion. Unrelated Typhoon Utor deaths in Guangdong are not added.",
+      "status": "Historical.",
+      "deaths": 85,
+      "injured": null,
+      "affected_or_evacuated": "840,000 evacuated in three northeast provinces; 20,000 evacuated in Russia; 3.74 million affected in China",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record Amur / northeast China August 2013 rain; riverine flooding on both banks.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2013 China–Russia floods",
+          "url": "https://en.wikipedia.org/wiki/2013_China%E2%80%93Russia_floods"
+        }
+      ],
+      "notes": "85 is the dedicated-page combined total (China 84 + Russia 1). 105 missing stay in notes. Distinct from flood-southwest-china-2013. Utor / south China deaths not merged.",
+      "era": "2013",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Nankouqian 449 mm on 16 August (half a typical annual total)",
+      "inundation_area": "787,000 ha farmland ruined in northeast China",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "16.14 billion yuan / about US$2.6 billion (China); 3.2 billion rubles allocated in Russia",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2013 China–Russia floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-thailand-2010",
+      "name": "2010 Thailand–Malaysia floods",
+      "country": "Thailand",
+      "region": "Northeast / Central / South Thailand; Kedah–Perlis",
+      "location_label": "Hat Yai, Songkhla, Thailand",
+      "lat": 7.0167,
+      "lng": 100.4667,
+      "geo_accuracy": "approx",
+      "geo_source": "Hat Yai (Wikipedia 7°01′N 100°28′E); southern commercial city flooded up to 2 m after 1 November landfall",
+      "flood_type": "riverine",
+      "river_or_basin": "Chao Phraya / southern peninsula rivers",
+      "river_or_facility": null,
+      "incident_date": "2010-10-10",
+      "latest_report_date": "2010-11-19",
+      "what_happened": "Late monsoon rain from 10 October 2010 flooded northeast and central Thailand, then a tropical depression (later Cyclone Jal) hit the south from 1 November. Hat Yai, a basin city of about 150,000, saw water to 2 m and tens of thousands stranded. DDPM on 19 November: 232 dead in Thailand (156 north/northeast/east/central, 76 south) and nearly 7 million people affected in more than 25,000 villages. 38 provinces were listed. Damage about ฿50 billion (US$1.68 billion). Malaysia’s Kedah and Perlis floods killed 4 and are not added into the 232.",
+      "status": "Historical.",
+      "deaths": 232,
+      "injured": null,
+      "affected_or_evacuated": "Nearly 7 million people in more than 25,000 Thai villages; about 50,000 evacuated in Kedah",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "monsoon",
+        "cyclone"
+      ],
+      "cause_summary": "Late 2010 monsoon plus a November tropical depression over the peninsula; Hat Yai the southern focus.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2010 Thailand–Malaysia floods",
+          "url": "https://en.wikipedia.org/wiki/2010_Thailand_floods"
+        }
+      ],
+      "notes": "232 is the 19 November DDPM Thailand total on the dedicated page. Malaysia 4 not added. Distinct from flood-thailand-2011 and flood-thailand-2025.",
+      "era": "2010",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About ฿50 billion / US$1.68 billion (FTI, dedicated page)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2010 Thailand floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-uk-2012",
+      "name": "2012 Great Britain and Ireland floods",
+      "country": "United Kingdom",
+      "region": "England / Wales / Northern Ireland",
+      "location_label": "Newcastle upon Tyne, England, United Kingdom",
+      "lat": 54.9783,
+      "lng": -1.6178,
+      "geo_accuracy": "approx",
+      "geo_source": "Newcastle upon Tyne (Wikipedia 54°58′42″N 1°36′40″W); 28 June “Toon Monsoon” supercell is the named urban episode",
+      "flood_type": "flash",
+      "river_or_basin": "Tyne / Calder / Thames / national rivers",
+      "river_or_facility": null,
+      "incident_date": "2012-04",
+      "latest_report_date": "2013-01",
+      "what_happened": "After a March drought, the jet stream brought the wettest April in 100 years and then summer supercells and autumn floods. The 28 June “Toon Monsoon” shut Newcastle station and the Metro, left 23,000 without power and generated 1,500 fire calls. Dedicated page: at least 9 deaths (Berkshire ford; Shropshire motorist; Beaminster Tunnel couple; Wrexham couple; Chew Stoke and Devon motorists; St Asaph). About £1–1.33 billion insured. Hebden Bridge / Calder Valley flooded repeatedly. Distinct from flood-uk-2007, flood-uk-2009 and flood-uk-2013.",
+      "status": "Historical.",
+      "deaths": 9,
+      "injured": null,
+      "affected_or_evacuated": "Thousands of properties; 570 homes and businesses in the September pulse alone",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Jet-stream year of drought-to-flood; June supercells and autumn riverine flooding.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2012 Great Britain and Ireland floods",
+          "url": "https://en.wikipedia.org/wiki/2012_Great_Britain_and_Ireland_floods"
+        }
+      ],
+      "notes": "At least 9 on the dedicated-page infobox (individual named fatalities in the article). Distinct from flood-uk-2007 / 2009 / 2013 / 2019.",
+      "era": "2012",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About £1 billion (November PwC); Aon Benfield later £1.33 billion insured",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2012 Great Britain and Ireland floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-uk-2013",
+      "name": "2013–14 United Kingdom winter floods",
+      "country": "United Kingdom",
+      "region": "Somerset Levels / Thames Valley / south-west coast",
+      "location_label": "Muchelney, Somerset, United Kingdom",
+      "lat": 51.0208,
+      "lng": -2.8153,
+      "geo_accuracy": "approx",
+      "geo_source": "Muchelney (Wikipedia 51°01′15″N 2°48′55″W); village cut off for weeks on the Somerset Levels",
+      "flood_type": "riverine",
+      "river_or_basin": "Parrett / Tone / Thames / Severn",
+      "river_or_facility": null,
+      "incident_date": "2013-12-05",
+      "latest_report_date": "2014-02-25",
+      "what_happened": "A winter of Atlantic storms from 5 December 2013 to 25 February 2014 produced the wettest 1 December–31 January since 1876 and the wettest UK winter in a record from 1766. The Somerset Levels flooded more than 600 houses and 17,000 acres; Muchelney was cut off and Thorney abandoned. The Dawlish seawall breach severed the railway to Cornwall for weeks. Thames Valley boroughs recorded more than 1,000 internal floods in Runnymede alone. Dedicated page: approximately 7 deaths. South-east England had about 2.5 times normal winter rain. Distinct from flood-uk-2012 and flood-uk-2019.",
+      "status": "Historical.",
+      "deaths": 7,
+      "injured": null,
+      "affected_or_evacuated": "More than 600 houses on the Somerset Levels; ~1,170 internal floods in Runnymede",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Winter 2013–14 Atlantic storm sequence; Levels, Thames and south-west coastal flooding.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2013–14 United Kingdom winter floods",
+          "url": "https://en.wikipedia.org/wiki/2013%E2%80%9314_United_Kingdom_winter_floods"
+        }
+      ],
+      "notes": "Approximately 7 on the dedicated-page infobox. Distinct from flood-uk-2012 and flood-desmond-2015.",
+      "era": "2013",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "17,000 acres on the Somerset Levels",
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2013–14 United Kingdom winter floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-niigata-2004",
+      "name": "2004 Niigata–Fukushima heavy rain (7·13)",
+      "country": "Japan",
+      "region": "Chuetsu / Aizu",
+      "location_label": "Sanjo, Niigata, Japan",
+      "lat": 37.6366,
+      "lng": 138.9617,
+      "geo_accuracy": "approx",
+      "geo_source": "Sanjo (Wikipedia 37°38′12″N 138°57′42″E); city of the named 7·13 flood on the Igarashi / Shinano",
+      "flood_type": "riverine",
+      "river_or_basin": "Shinano / Igarashi / Agano",
+      "river_or_facility": null,
+      "incident_date": "2004-07-13",
+      "latest_report_date": "2004-07",
+      "what_happened": "A stationary Baiu front produced the official Heisei 16 July Niigata–Fukushima heavy rain on 13 July 2004. Kasabori Dam recorded 473 mm total and 73 mm/h. The Igarashi and Shinano flooded Sanjo and Nagaoka; Aizu in Fukushima was also hit. ja Wikipedia infobox: 16 dead, 4 injured, 70 houses destroyed, 5,354 half-destroyed, 2,149 above-floor flooded, 6,208 below-floor; evacuation orders or advisories to 30,947 households. Designated a severe disaster. Five days later the Fukui heavy rain struck the same season (4 dead; not merged).",
+      "status": "Historical.",
+      "deaths": 16,
+      "injured": 4,
+      "affected_or_evacuated": "30,947 households under evacuation orders or advisories",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "July 2004 Baiu-front gouu on Chuetsu and Aizu; Sanjo 7·13 flood.",
+      "sources": [
+        {
+          "label": "Wikipedia (ja): 平成16年7月新潟・福島豪雨",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E6%88%9016%E5%B9%B47%E6%9C%88%E6%96%B0%E6%BD%9F%E3%83%BB%E7%A6%8F%E5%B3%B6%E8%B1%AA%E9%9B%A8"
+        }
+      ],
+      "notes": "16 dead / 4 injured on the ja infobox. Fukui 7·18 (4 dead) not merged. Distinct from flood-japan-2018 and flood-nagasaki-1982.",
+      "era": "2004",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Kasabori Dam 473 mm total; 73 mm/h",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Japanese Wikipedia: 平成16年7月新潟・福島豪雨."
+        }
+      ]
+    },
+    {
+      "id": "flood-zhouqu-2010",
+      "name": "2010 Zhouqu mudslide",
+      "country": "China",
+      "region": "Zhouqu, Gannan, Gansu",
+      "location_label": "Zhouqu, Gansu, China",
+      "lat": 33.7936,
+      "lng": 104.2513,
+      "geo_accuracy": "approx",
+      "geo_source": "Zhouqu County (Wikipedia 33°47′37″N 104°15′05″E); county seat buried by the 8 August debris flow. Page also gives 33°47′N 104°22′E",
+      "flood_type": "flash",
+      "river_or_basin": "Bailong / Zhouqu hillside torrents",
+      "river_or_facility": null,
+      "incident_date": "2010-08-08",
+      "latest_report_date": "2010-09-02",
+      "what_happened": "Around 23:00 on 8 August 2010 a rain-triggered debris flow buried the seat of Zhouqu County. A debris dam on a north-side torrent burst and about 1.8 million m³ of mud, up to five storeys high, covered more than 300 low-rise homes along a 5 km by 300 m path. Xinhua on 2 September: 1,471 dead, 294 missing (search stopped). 1,243 rescued; more than 1,700 sheltered in schools. Logging and the 2008 Sichuan earthquake were cited as watershed factors. Deadliest single event inside the 2010 China flood year; not merged into flood-china-2010.",
+      "status": "Historical.",
+      "deaths": 1471,
+      "injured": null,
+      "affected_or_evacuated": "More than 1,700 evacuated into schools; 1,243 rescued",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Rain-triggered Zhouqu debris flow after a hillside debris-dam burst; same class as Freetown / Mocoa / Hiroshima.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2010 Gansu mudslide",
+          "url": "https://en.wikipedia.org/wiki/2010_Gansu_mudslide"
+        }
+      ],
+      "notes": "1,471 is the 2 September Xinhua figure on the dedicated page; 294 missing not added. Distinct named disaster, not merged into flood-china-2010. Rain debris flow, not a constructed-dam failure.",
+      "era": "2010",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "About 5 km × 300 m, average 5 m thick",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2010 Gansu mudslide (Zhouqu)."
+        }
+      ]
+    },
+    {
+      "id": "flood-morocco-2014",
+      "name": "2014 southern Morocco floods (Guelmim)",
+      "country": "Morocco",
+      "region": "Guelmim / Souss-Massa / Anti-Atlas",
+      "location_label": "Guelmim, Morocco",
+      "lat": 28.9833,
+      "lng": -10.0667,
+      "geo_accuracy": "approx",
+      "geo_source": "Guelmim (Wikipedia 28°59′N 10°04′W); 24 of the first 32 deaths were in this province",
+      "flood_type": "flash",
+      "river_or_basin": "Tamsourt / southern wadis",
+      "river_or_facility": null,
+      "incident_date": "2014-11-22",
+      "latest_report_date": "2015-01-21",
+      "what_happened": "Violent storms from 22–24 November 2014 turned dry southern wadis into torrents. The Interior Ministry first reported 32 dead (24 in Guelmim) and 6 missing, with about 200 rescued. A 5 December pulse then isolated Agadir, Sidi Ifni, Tiznit and Bouizakarne. Moroccan Red Crescent / IFRC (ReliefWeb disaster FL-2014-000159-MAR, 21 January 2015): 47 dead, 2 missing, 1,093 rescued, 1,690 evacuated. About 100 roads including six national highways were cut; some 1,000 bridges damaged. Using the dated MRC 47.",
+      "status": "Historical.",
+      "deaths": 47,
+      "injured": null,
+      "affected_or_evacuated": "1,093 rescued; 1,690 evacuated; at least 3,000 families isolated after 5 December",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "November–December 2014 southern Morocco wadi flash floods, centred on Guelmim.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Morocco Flash Floods - Nov 2014",
+          "url": "https://reliefweb.int/disaster/fl-2014-000159-mar"
+        },
+        {
+          "label": "Reuters: Death toll in southern Morocco floods rises to 32",
+          "url": "https://www.reuters.com/article/world/death-toll-in-southern-morocco-floods-rises-to-32-idUSKCN0J81JI/"
+        }
+      ],
+      "notes": "47 is the MRC/IFRC figure on the ReliefWeb disaster page (21 Jan 2015). Interior Ministry 32 on 24 Nov stays in notes. No EN Wikipedia event page; ReliefWeb + national press are enough. Distinct Maghreb event.",
+      "era": "2014",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb: Morocco Flash Floods Nov 2014 / MRC 47."
+        }
+      ]
+    },
+    {
+      "id": "flood-jayapura-2019",
+      "name": "2019 Jayapura flood and landslide",
+      "country": "Indonesia",
+      "region": "Sentani / Jayapura, Papua",
+      "location_label": "Sentani, Papua, Indonesia",
+      "lat": -2.5694,
+      "lng": 140.5125,
+      "geo_accuracy": "approx",
+      "geo_source": "Sentani (approx. 2°34′S 140°31′E); Jayapura Regency seat and worst-hit district (51 of the first 73 deaths)",
+      "flood_type": "flash",
+      "river_or_basin": "Kemiri / Cyclops Mountain torrents",
+      "river_or_facility": null,
+      "incident_date": "2019-03-16",
+      "latest_report_date": "2019-03-26",
+      "what_happened": "Torrential rain on the evening of 16 March 2019 sent a flash flood from the Cyclops Mountains through Sentani district. BNPB said a landslide-dammed headwater likely burst. The Kemiri rose and swept trees and boulders through nine villages; 350 houses were heavily damaged and more than 11,000 people displaced. A separate landslide in Jayapura city followed after midnight. The dedicated page records 113 dead, 159 injured and 94 missing by 26 March. Damage about Rp 454 billion (US$31.8 million). Distinct from flood-sulawesi-2019 and flood-north-luwu-2020.",
+      "status": "Historical.",
+      "deaths": 113,
+      "injured": 159,
+      "affected_or_evacuated": "More than 11,000 displaced across 28 sites; 11,725 households impacted in three districts",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Cyclops Mountain rain; flash flood after a landslide-dammed headwater burst, plus a city landslide.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2019 Jayapura flood and landslide",
+          "url": "https://en.wikipedia.org/wiki/2019_Jayapura_flood_and_landslide"
+        }
+      ],
+      "notes": "113 dead / 159 injured / 94 missing on the dedicated page (26 March). Landslide-dammed torrent, not a constructed dam. Distinct from flood-sulawesi-2019.",
+      "era": "2019",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About Rp 454 billion / US$31.8 million (BNPB)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2019 Jayapura flood and landslide."
+        }
+      ]
+    },
+    {
+      "id": "flood-egypt-2016",
+      "name": "2016 Egypt floods",
+      "country": "Egypt",
+      "region": "Red Sea / Sohag / Qena / Assiut / South Sinai",
+      "location_label": "Ras Gharib, Red Sea Governorate, Egypt",
+      "lat": 28.3594,
+      "lng": 33.0772,
+      "geo_accuracy": "approx",
+      "geo_source": "Ras Gharib (Wikipedia 28°21′34″N 33°04′38″E); Red Sea town with 9 of the first wave of deaths and the PM visit",
+      "flood_type": "flash",
+      "river_or_basin": "Wadi Had / Red Sea and Upper Egypt wadis",
+      "river_or_facility": null,
+      "incident_date": "2016-10-26",
+      "latest_report_date": "2016-10-30",
+      "what_happened": "A Mediterranean cold front on 26 October 2016 turned dry wadis into torrents across Assiut, Red Sea, Sohag, South Sinai and Qena. Hurghada recorded 51 mm in 24 hours on 27 October. Dedicated page / Health Ministry: at least 26 dead and 72 injured (Ras Gharib 9; Sohag road wrecks 6; Fayed electrocutions 2). About 32,500 people were affected; Suez and Port Said ports closed. The army put up 800 temporary shelters; the president allocated EGP 50 million. ReliefWeb disaster: Egypt Floods Oct 2016.",
+      "status": "Historical.",
+      "deaths": 26,
+      "injured": 72,
+      "affected_or_evacuated": "About 32,500 people affected; ERC aid to more than 6,000 families",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "October 2016 Mediterranean cold front; wadi flash floods in Red Sea and Upper Egypt.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2016 Egypt floods",
+          "url": "https://en.wikipedia.org/wiki/2016_Egypt_floods"
+        },
+        {
+          "label": "ReliefWeb: Egypt Floods - Oct 2016",
+          "url": "https://reliefweb.int/disaster/fl-2016-000115-egy"
+        }
+      ],
+      "notes": "26 / 72 is the Health Ministry figure on the dedicated page (30 Oct). Government said the true toll may be higher (unreported). Distinct Maghreb/Nile leftover.",
+      "era": "2016",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Hurghada 51 mm in 24 h on 27 October (WMO)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2016 Egypt floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-lushi-2007",
+      "name": "2007 Lushi County flood",
+      "country": "China",
+      "region": "Lushi, Sanmenxia, Henan",
+      "location_label": "Lushi, Henan, China",
+      "lat": 34.0539,
+      "lng": 111.0475,
+      "geo_accuracy": "approx",
+      "geo_source": "Lushi County (Wikipedia 34°03′14″N 111°02′51″E); Luo River mountain county",
+      "flood_type": "flash",
+      "river_or_basin": "Luo River (Yellow)",
+      "river_or_facility": null,
+      "incident_date": "2007-07-28",
+      "latest_report_date": "2007-08-03",
+      "what_happened": "Mountain rain on 28–30 July 2007 produced a flash flood in Lushi County, Henan. July rainfall there was 361 mm against a 138.7 mm average. China News / dedicated zh page as of 14:00 on 3 August: 78 dead, 18 missing. 177,000 people affected, more than 10,000 rooms collapsed, 70–80% of county infrastructure damaged. Direct loss 1.41 billion yuan — about 11 times 2006 local budget revenue. Luo River sand-mining and hillside settlement were cited. Distinct from flood-henan-2021.",
+      "status": "Historical.",
+      "deaths": 78,
+      "injured": null,
+      "affected_or_evacuated": "177,000 people affected",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "July 2007 Luo-valley mountain rain; Lushi flash flood.",
+      "sources": [
+        {
+          "label": "Wikipedia (zh): 2007年卢氏县特大洪灾",
+          "url": "https://zh.wikipedia.org/wiki/2007%E5%B9%B4%E5%8D%A2%E6%B0%8F%E5%8E%BF%E7%89%B9%E5%A4%A7%E6%B4%AA%E7%81%BE"
+        }
+      ],
+      "notes": "78 dead / 18 missing as of 3 August on the dedicated zh page (China News). Distinct from flood-henan-2021. 2010 Lushi follow-on (3 dead) not added.",
+      "era": "2007",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "July 2007 county total 361 mm vs 138.7 mm average",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "1.41 billion yuan (about 11× 2006 local budget revenue)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Chinese Wikipedia: 2007年卢氏县特大洪灾."
+        }
+      ]
+    },
+    {
+      "id": "flood-uganda-mbale-2022",
+      "name": "2022 Eastern Uganda floods (Mbale)",
+      "country": "Uganda",
+      "region": "Elgon / Mbale–Kapchorwa–Sironko",
+      "location_label": "Mbale, Uganda",
+      "lat": 1.0789,
+      "lng": 34.18,
+      "geo_accuracy": "approx",
+      "geo_source": "Mbale (Wikipedia 1°04′44″N 34°10′48″E); city and district with 21 of 24 URCS deaths",
+      "flood_type": "flash",
+      "river_or_basin": "Nabuyonga / Namatala / Nashibiso",
+      "river_or_facility": null,
+      "incident_date": "2022-07-30",
+      "latest_report_date": "2022-08-03",
+      "what_happened": "Heavy rain on 30 July 2022 on the Elgon slopes overflowed the Nabuyonga, Namatala, Nashibiso and Napwoli and flooded Mbale, Kapchorwa, Sironko, Bulambuli, Bukedea and Butaleja. Uganda Red Cross DREF (ReliefWeb FL-2022-000275-UGA): 24 dead by 3 August (21 Mbale, 3 Kapchorwa), 3,748 households / 20,949 people affected, about 5,600 displaced. Four health centres submerged; 400,000 people cut off the national water grid. ECHO later cited media 29. Using the dated URCS 24.",
+      "status": "Historical.",
+      "deaths": 24,
+      "injured": null,
+      "affected_or_evacuated": "3,748 households / 20,949 people (URCS); about 5,600 displaced",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "30 July 2022 Elgon rain; flash floods and landslides on the Mbale–Kapchorwa belt.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Uganda Floods - Jul 2022",
+          "url": "https://reliefweb.int/disaster/fl-2022-000275-uga"
+        }
+      ],
+      "notes": "24 is the URCS DREF figure as of 3 August (21 Mbale + 3 Kapchorwa). ECHO media 29 stays in notes. No EN Wikipedia event page; ReliefWeb disaster page is enough.",
+      "era": "2022",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb: Uganda Floods Jul 2022 / URCS 24."
+        }
+      ]
+    },
+    {
+      "id": "flood-ethiopia-2023",
+      "name": "2023 Ethiopia OND floods",
+      "country": "Ethiopia",
+      "region": "Somali / South Ethiopia / Oromia / Afar",
+      "location_label": "Jijiga, Somali Region, Ethiopia",
+      "lat": 9.35,
+      "lng": 42.8,
+      "geo_accuracy": "region",
+      "geo_source": "Jijiga (Wikipedia 9°21′N 42°48′E); Somali Region capital. OCHA said 33 of 43 deaths were in Somali Region",
+      "flood_type": "riverine",
+      "river_or_basin": "Wabe Shebelle / Omo / Awash",
+      "river_or_facility": null,
+      "incident_date": "2023-10",
+      "latest_report_date": "2023-11-15",
+      "what_happened": "October–December 2023 rains under El Niño flooded southern and eastern Ethiopia. OCHA Flash Update No. 2 (15 November): more than 760,000 people affected, 43 killed (lede; 33 in Somali Region in the body), and 611,000 affected in Somali with only 8 percent reached. Dasenech woreda in South Ethiopia was about 65 percent flooded. Oromia had more than 67,000 affected; Afar Zone 3 saw 2,225 households displaced. Distinct from flood-ethiopia-2016 and flood-ethiopia-diredawa-2006.",
+      "status": "Historical.",
+      "deaths": 43,
+      "injured": null,
+      "affected_or_evacuated": "More than 760,000 affected; 611,000 in Somali Region",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "El Niño OND 2023 rains; riverine flooding in Somali, South Ethiopia, Oromia and Afar.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Ethiopia Floods Flash Update #2, 15 November 2023",
+          "url": "https://reliefweb.int/report/ethiopia/ethiopia-floods-flash-update-2-15-november-2023"
+        }
+      ],
+      "notes": "43 is the OCHA lede on 15 Nov 2023 (33 Somali in the body). Distinct from flood-ethiopia-2016. No EN Wikipedia event page; ReliefWeb is enough.",
+      "era": "2023",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb: Ethiopia Floods Flash Update #2 (15 Nov 2023)."
         }
       ]
     }
