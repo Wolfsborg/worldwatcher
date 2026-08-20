@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 161,
+  "count": 181,
   "events": [
     {
       "id": "flood-assam-2026",
@@ -9146,6 +9146,1087 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added to the archive."
+        }
+      ]
+    },
+    {
+      "id": "flood-st-petersburg-1824",
+      "name": "1824 St. Petersburg flood",
+      "country": "Russia",
+      "region": "Saint Petersburg / Neva delta",
+      "location_label": "Saint Petersburg, Russia",
+      "lat": 59.9375,
+      "lng": 30.30861,
+      "geo_accuracy": "approx",
+      "geo_source": "Saint Petersburg (Wikipedia coordinates); event page and Floods in Saint Petersburg locate the record Neva surge in the city",
+      "flood_type": "storm_surge",
+      "river_or_basin": "Neva / Gulf of Finland",
+      "river_or_facility": "Neva River",
+      "incident_date": "1824-11-19",
+      "latest_report_date": "1824-11-19",
+      "what_happened": "On 19 November 1824 (7 November Old Style) a Baltic storm surge drove the Neva to 421 cm above datum at 14:00, the highest flood on the city's gauge record. Wikipedia's event stub and the Floods in Saint Petersburg article call it the deadliest flood in the history of Russia and St. Petersburg and the flood that inspired Pushkin's The Bronze Horseman. The event page gives 200–600 deaths. The Environment & Society Portal essay cited there says several hundred people died, Vasilevsky Island was worst hit, and recovery took more than a decade.",
+      "status": "Historical.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "storm_surge"
+      ],
+      "cause_summary": "West wind and a Baltic storm surge up the Gulf of Finland met the Neva in the shallow, narrowing delta.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1824 St. Petersburg flood",
+          "url": "https://en.wikipedia.org/wiki/1824_St._Petersburg_flood"
+        },
+        {
+          "label": "Wikipedia: Floods in Saint Petersburg",
+          "url": "https://en.wikipedia.org/wiki/Floods_in_Saint_Petersburg"
+        }
+      ],
+      "notes": "Deaths 200–600 on the event-page infobox; Floods in Saint Petersburg says several hundred. Range left in notes; deaths set null.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 1824 St. Petersburg flood and Floods in Saint Petersburg (Presidential Library / Environment & Society Portal cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-pentecost-1999",
+      "name": "1999 Pentecost flood",
+      "country": "Germany",
+      "region": "Bavaria / Vorarlberg / Tirol",
+      "location_label": "Sonthofen, Bavaria, Germany",
+      "lat": 47.51583,
+      "lng": 10.28111,
+      "geo_accuracy": "approx",
+      "geo_source": "Sonthofen (Wikipedia coordinates); event page says Iller causeways failed and flooded Sonthofen",
+      "flood_type": "riverine",
+      "river_or_basin": "Iller / Ammer / Isar / Rhine",
+      "river_or_facility": "Iller River",
+      "incident_date": "1999-05-22",
+      "latest_report_date": "1999-05-22",
+      "what_happened": "The Pfingsthochwasser of late May 1999 was a named 100-year flood on already high Alpine meltwater. Storm Quartus on 22 May dropped about 180 litres/m² on the northern Alps, expanding the Ammersee and the Amper and Isar. Wikipedia says causeways on the Iller failed, flooding Sonthofen, parts of Augsburg and Neustadt; Hindelang-Hinterstein reached a 250-year peak. The Rhine flood hit Lake Constance at Hard and Bregenz; Pflach in the Lechtal was flooded. The Sylvenstein reservoir lowered the Isar through Munich. A BBC report cited on the page recorded two deaths in Bavaria.",
+      "status": "Historical.",
+      "deaths": 2,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "snowmelt"
+      ],
+      "cause_summary": "Heavy Pentecost rain on Alpine rivers already high with spring meltwater.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1999 Pentecost flood",
+          "url": "https://en.wikipedia.org/wiki/1999_Pentecost_flood"
+        }
+      ],
+      "notes": "2 is the BBC figure cited on the event page (Two die in Bavarian floods, 22 May 1999). Named Pfingsthochwasser; later compared to August 2005 Alpine high water.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "100-year flood (Wikipedia); 250-year peak at Hindelang-Hinterstein",
+      "rainfall_mm": "About 180 L/m² from storm Quartus on 22 May (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 1999 Pentecost flood (BBC 22 May 1999 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-europe-2005",
+      "name": "2005 European floods",
+      "country": "Switzerland",
+      "region": "Switzerland / Austria / Romania / Germany / Bulgaria",
+      "location_label": "Bern, Switzerland",
+      "lat": 46.94806,
+      "lng": 7.4475,
+      "geo_accuracy": "approx",
+      "geo_source": "Bern (Wikipedia coordinates); event page says the Aare burst its banks in the Swiss capital",
+      "flood_type": "riverine",
+      "river_or_basin": "Aare / Rhine / Danube",
+      "river_or_facility": "Aare River",
+      "incident_date": "2005-08",
+      "latest_report_date": "2005-08-27",
+      "what_happened": "August 2005 record rain produced the worst European floods since 2002 across Romania, Switzerland, Austria, Germany and neighbouring states. Wikipedia records 62 deaths (31 Romania, 20 Bulgaria, 6 Switzerland, 5 Austria and Germany). The Aare burst its banks in Bern; 400 people were evacuated in Brienz; Lauterbrunnen was cut off except by helicopter or high Alpine passes. Tyrol and Vorarlberg lost road access; the Arlberg road and rail were washed away. Romania's damage was put at more than 5 billion lei (€1.5 billion), with 31 districts and over 500 villages affected.",
+      "status": "Historical.",
+      "deaths": 62,
+      "injured": null,
+      "affected_or_evacuated": "Thousands evacuated (Wikipedia); 1,473 evacuated in Iași, Suceava and Botoșani from 16 August",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record August rainfall over the Alps and the Romanian Carpathians.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2005 European floods",
+          "url": "https://en.wikipedia.org/wiki/2005_European_floods"
+        }
+      ],
+      "notes": "62 is the Wikipedia death-toll total. Swiss/Austrian Alpine episode is the pin (Bern); Romania had the most deaths (31).",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "More than 5 billion lei / €1.5 billion in Romania (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2005 European floods (BBC / CBS August 2005 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-europe-2018",
+      "name": "2018 European floods",
+      "country": "France",
+      "region": "Aude / Mallorca / Italy / Iberia",
+      "location_label": "Carcassonne, Aude, France",
+      "lat": 43.21333,
+      "lng": 2.35083,
+      "geo_accuracy": "approx",
+      "geo_source": "Carcassonne (Wikipedia coordinates); event page says all roads were inaccessible there during the 15 October Aude floods",
+      "flood_type": "flash",
+      "river_or_basin": "Aude / western Mediterranean",
+      "river_or_facility": "Aude River",
+      "incident_date": "2018-10-04",
+      "latest_report_date": "2018-11-04",
+      "what_happened": "From 4 October into early November 2018, Mediterranean storms flooded Calabria, Mallorca, southwest France, Sardinia, parts of Portugal and the United Kingdom, then Italy again. Wikipedia records 69 deaths: 36 Italy, 16 France, 13 Spain, 2 United Kingdom, 2 Portugal. On 15 October at least 14 people died in the Aude; a bridge collapsed at Villegailhenc and Carcassonne's roads were cut. Aude damage was about €200 million. Mallorca's 9 October flood killed 13, including six foreign tourists. Late-October Italian storms left Venice under a 156 cm acqua alta.",
+      "status": "Historical.",
+      "deaths": 69,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "tropical_cyclone"
+      ],
+      "cause_summary": "A stalled Mediterranean episode, fed in the Aude by remnants of Hurricane Leslie, produced repeated flash floods.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2018 European floods",
+          "url": "https://en.wikipedia.org/wiki/2018_European_floods"
+        }
+      ],
+      "notes": "69 is the Wikipedia event-page total. The 15 October Aude flash flood (14 of France's 16 deaths) is the leftover named episode; no standalone EN Aude page.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About €200 million in the Aude (LCI, cited on Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2018 European floods (covers the 2018 Aude episode; LCI / BBC cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-sudan-1988",
+      "name": "1988 Sudan floods",
+      "country": "Sudan",
+      "region": "Khartoum",
+      "location_label": "Khartoum, Sudan",
+      "lat": 15.6,
+      "lng": 32.5,
+      "geo_accuracy": "approx",
+      "geo_source": "Khartoum (Wikipedia coordinates); event page is the Khartoum August 1988 rain flood",
+      "flood_type": "flash",
+      "river_or_basin": "Nile / Khartoum urban drainage",
+      "river_or_facility": "Khartoum urban drainage",
+      "incident_date": "1988-08-04",
+      "latest_report_date": "1989-01-06",
+      "what_happened": "In early August 1988 severe floods struck Khartoum. On 4 August the capital received 8.4 inches (210 mm) of rain in 24 hours, more than twice the usual annual rainfall; further heavy rain fell on 11 and 13 August. Wikipedia, citing a CDC MMWR of 6 January 1989, says the floods destroyed an estimated 127,000 dwellings that had housed about 750,000 people, most of them already displaced from elsewhere in Sudan, and that 80 people died. Food, water, sanitation, transport and communications were seriously disrupted.",
+      "status": "Historical.",
+      "deaths": 80,
+      "injured": null,
+      "affected_or_evacuated": "About 750,000 inhabitants of 127,000 destroyed dwellings (CDC MMWR, cited on Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Extreme 24-hour rain over Khartoum, more than twice the usual annual total.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1988 Sudan floods",
+          "url": "https://en.wikipedia.org/wiki/1988_Sudan_floods"
+        }
+      ],
+      "notes": "80 is the CDC MMWR figure on the event page. List of floods in Sudan gives 76 dead for 1988; using the dedicated-page figure.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "210 mm / 8.4 in in 24 h on 4 August in Khartoum (Wikipedia / CDC)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 1988 Sudan floods (CDC MMWR 6 Jan 1989 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-sudan-2024",
+      "name": "2024 Sudan floods",
+      "country": "Sudan",
+      "region": "Kassala / Gezira / East Darfur / North Kordofan",
+      "location_label": "Kassala, Sudan",
+      "lat": 15.45,
+      "lng": 36.4,
+      "geo_accuracy": "approx",
+      "geo_source": "Kassala (Wikipedia coordinates); event page lists Kassala State first and cites 118 mm there on 25–26 July",
+      "flood_type": "riverine",
+      "river_or_basin": "Mereb / Nile tributaries",
+      "river_or_facility": "Mereb River",
+      "incident_date": "2024-07-24",
+      "latest_report_date": "2024-08-13",
+      "what_happened": "From 24 July 2024 heavy rain flooded Kassala, Gezira, East Darfur and North Kordofan during the Sudanese civil war, hitting IDP camps including Zamzam near El Fasher. The Kassala Meteorological Department recorded 118 mm in Kassala on 25–26 July. On 13 August Sudan's Interior Ministry said at least 68 people had been killed, 44,000 displaced since 1 July, and more than 12,000 houses and 198,000 feddans of farmland damaged. Wikipedia's infobox lists 68+ deaths. The separate 24 August Arbaat Dam collapse near Port Sudan is a structural dam failure and is not counted here.",
+      "status": "Historical (2024 rainy season).",
+      "deaths": 68,
+      "injured": 7,
+      "affected_or_evacuated": "At least 44,000 displaced; 12,000+ houses destroyed or damaged (Interior Ministry, 13 Aug 2024, cited on Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Exceptionally heavy July–August rain over eastern and western Sudan, worsened by war-time displacement into undrained camps.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2024 Sudan floods",
+          "url": "https://en.wikipedia.org/wiki/2024_Sudan_floods"
+        }
+      ],
+      "notes": "68 is the Interior Ministry figure of 13 August 2024 (Reuters, cited on Wikipedia). Infobox says 68+. Arbaat Dam collapse deaths are excluded as a structural dam failure.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "118 mm in Kassala, 95 mm Wad Sheriffe, 74 mm Gharb Kassala on 25–26 July (Kassala Meteorological Department / Wikipedia)",
+      "inundation_area": "198,000 feddans (~205,500 acres) of farmland damaged (Wikipedia infobox)",
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2024 Sudan floods (Interior Ministry / Reuters 13 Aug 2024 cited there). Arbaat Dam collapse excluded."
+        }
+      ]
+    },
+    {
+      "id": "flood-ethiopia-2016",
+      "name": "2016 Ethiopian flood",
+      "country": "Ethiopia",
+      "region": "Somali / Oromia / SNNPR / Lower Omo / Dire Dawa",
+      "location_label": "Jijiga, Somali Region, Ethiopia",
+      "lat": 9.35,
+      "lng": 42.8,
+      "geo_accuracy": "approx",
+      "geo_source": "Jijiga (Wikipedia coordinates); event page says the majority of deaths occurred in Jijiga",
+      "flood_type": "flash",
+      "river_or_basin": "Ethiopian highland and lowland basins",
+      "river_or_facility": "Jijiga urban drainage / seasonal rivers",
+      "incident_date": "2016-04-06",
+      "latest_report_date": "2016-09-02",
+      "what_happened": "Early 2016 seasonal rains produced deadly floods across Ethiopia after the 2015 El Niño drought. Wikipedia's event page says at least 200 people died and more than 200,000 were left homeless, with the majority of deaths in Jijiga; the infobox lists 202+ deaths. A later passage cites at least 202 deaths from floods and landslides in Oromia and the south, more than 1,000 cattle killed and 559 hectares of crops damaged. NDRMC had warned in early April that flash and river floods were likely in the south and south-east.",
+      "status": "Historical.",
+      "deaths": 202,
+      "injured": null,
+      "affected_or_evacuated": "Over 200,000 homeless (Wikipedia); nearly 20,000 families displaced (FloodList, cited there)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Early belg / Kiremt rains after the 2015 El Niño drought, a La Niña flood year in Ethiopia's historical series.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2016 Ethiopian flood",
+          "url": "https://en.wikipedia.org/wiki/2016_Ethiopian_flood"
+        }
+      ],
+      "notes": "202 is the later dated figure on the event page (Oromia and southern floods). Infobox 202+. No dedicated EN page for the leftover 2006 Ethiopia floods; this is the well-sourced named substitute.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2016 Ethiopian flood (VOA / Al Jazeera / FloodList cited there). Substitute for unsourced 2006 Ethiopia page."
+        }
+      ]
+    },
+    {
+      "id": "flood-south-africa-2025",
+      "name": "June 2025 South Africa floods",
+      "country": "South Africa",
+      "region": "Eastern Cape (OR Tambo / Mthatha)",
+      "location_label": "Mthatha, Eastern Cape, South Africa",
+      "lat": -31.58861,
+      "lng": 28.79,
+      "geo_accuracy": "approx",
+      "geo_source": "Mthatha (Wikipedia coordinates); event page centres the 3–4 m floodwaters and the school-bus deaths there",
+      "flood_type": "flash",
+      "river_or_basin": "Mthatha / Eastern Cape coastal rivers",
+      "river_or_facility": "Mthatha River",
+      "incident_date": "2025-06-10",
+      "latest_report_date": "2025-07-04",
+      "what_happened": "A cold front from 10 June 2025 brought torrential rain, wind and snow. Rivers around Mthatha burst their banks with floodwaters 3–4 metres deep; homes, vehicles and a high-school bus were swept away. Wikipedia tracks the toll from 57 on 12 June to 103 on 4 July (Eastern Cape Provincial Government: 32 school-going children among 40 children and 63 adults). A national disaster was declared on 18 June. By 4 July, 4,724 people were homeless and 2,145 dwellings partly damaged. Officials dismissed a rumour that Mthatha Dam sluices had been opened; the dam has no sluice gates.",
+      "status": "Historical. National disaster declared 18 June 2025.",
+      "deaths": 103,
+      "injured": null,
+      "affected_or_evacuated": "4,724 homeless; 2,145 dwellings partly damaged (Eastern Cape Provincial Government, 4 July 2025, cited on Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "A powerful June cold front over the Eastern Cape; night-time river rises around Mthatha.",
+      "sources": [
+        {
+          "label": "Wikipedia: June 2025 South Africa floods",
+          "url": "https://en.wikipedia.org/wiki/June_2025_South_Africa_floods"
+        }
+      ],
+      "notes": "103 is the Eastern Cape Provincial Government figure as of 4 July 2025, the latest dated tally on the event page. Repair cost estimate US$288 million (27 June).",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About US$288 million reconstruction (Williams, 27 June 2025, cited on Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: June 2025 South Africa floods (Eastern Cape PG 4 July 2025 / AP cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-zimbabwe-2026",
+      "name": "2026 Zimbabwe floods",
+      "country": "Zimbabwe",
+      "region": "Harare / Mberengwa / nationwide",
+      "location_label": "Harare, Zimbabwe",
+      "lat": -17.82917,
+      "lng": 31.05222,
+      "geo_accuracy": "approx",
+      "geo_source": "Harare (Wikipedia coordinates); event page names Mbare, Highfield and the CBD flood warnings",
+      "flood_type": "flash",
+      "river_or_basin": "Manyame / Mwenezi / Zimbabwe plateau",
+      "river_or_facility": "Harare urban drainage / Mwenezi River",
+      "incident_date": "2026-01-04",
+      "latest_report_date": "2026-03-19",
+      "what_happened": "Rains from mid-December 2025 produced early-2026 floods across Zimbabwe. On 4 January 2026 streets in Mbare, New Canaan, Highfield and Dumbujena flooded; ZINWA issued warnings and on 13 January Harare City Council told residents to leave the CBD. In March floods washed away the Jeka-Chegato Bridge on the Mwenezi in Mberengwa North. Wikipedia's body cites NewsDay for 70 deaths and about 250,000 people affected; the infobox says 100+; a 19 March 2026 ZimEye headline cited there says 134. 237 schools were damaged.",
+      "status": "Seasonal emergency / recovery as of March 2026.",
+      "deaths": 70,
+      "injured": null,
+      "affected_or_evacuated": "About 250,000 people affected (Wikipedia / OCHA Flash Update 27 Jan 2026 cited there)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Prolonged mid-December 2025 to March 2026 rains over Harare and southern districts.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2026 Zimbabwe floods",
+          "url": "https://en.wikipedia.org/wiki/2026_Zimbabwe_floods"
+        }
+      ],
+      "notes": "70 is the NewsDay figure in the article body. Infobox 100+; ZimEye 19 March 2026 headline 134. Using the body figure; range in notes.",
+      "era": "2026",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2026 Zimbabwe floods (NewsDay / OCHA Jan 2026 / ZimEye 19 Mar cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-santa-catarina-2008",
+      "name": "2008 Santa Catarina floods",
+      "country": "Brazil",
+      "region": "Itajaí Valley, Santa Catarina",
+      "location_label": "Itajaí, Santa Catarina, Brazil",
+      "lat": -26.9,
+      "lng": -48.66667,
+      "geo_accuracy": "approx",
+      "geo_source": "Itajaí (Wikipedia coordinates); event-page photograph and Vale do Itajaí 11 m rise",
+      "flood_type": "riverine",
+      "river_or_basin": "Itajaí-Açu",
+      "river_or_facility": "Itajaí-Açu River",
+      "incident_date": "2008-11-20",
+      "latest_report_date": "2008-12-14",
+      "what_happened": "After two months of coastal rain, 20–23 November 2008 storms triggered floods and landslides across Santa Catarina. Wikipedia says about 60 towns and more than 1.5 million people were affected, at least 128 people were killed, and more than 78,700 were forced to evacuate. Vale do Itajaí water rose 11 metres above normal. Blumenau's mayor declared a state of emergency on 23 November. Governor Luiz Henrique da Silveira called it the state's worst weather tragedy and said Blumenau had to be rebuilt. The federal government released US$854 million on 27 November.",
+      "status": "Historical.",
+      "deaths": 128,
+      "injured": null,
+      "affected_or_evacuated": "Over 78,700 evacuated; about 1.5 million affected in ~60 towns (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Prolonged coastal rain then a late-November storm on saturated slopes in the Itajaí Valley.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2008 Santa Catarina floods",
+          "url": "https://en.wikipedia.org/wiki/2008_Santa_Catarina_floods"
+        }
+      ],
+      "notes": "128 is the Folha Online 14 December 2008 figure cited on the event page. Earlier wires were 45–109.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "Federal aid US$854 million decreed 27 Nov 2008 (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2008 Santa Catarina floods (Folha 14 Dec 2008 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-matthew-haiti-2016",
+      "name": "Hurricane Matthew flooding in Haiti",
+      "country": "Haiti",
+      "region": "Tiburon Peninsula (Grand'Anse / Sud)",
+      "location_label": "Jérémie, Grand'Anse, Haiti",
+      "lat": 18.65,
+      "lng": -74.11667,
+      "geo_accuracy": "approx",
+      "geo_source": "Jérémie (Wikipedia coordinates); effects page says 80% of structures there were destroyed",
+      "flood_type": "storm_surge",
+      "river_or_basin": "Tiburon Peninsula watersheds",
+      "river_or_facility": "Southern Haiti coastal rivers",
+      "incident_date": "2016-10-04",
+      "latest_report_date": "2016-10-15",
+      "what_happened": "Hurricane Matthew made landfall near Les Anglais on 4 October 2016 as a Category 4 with 150 mph winds, the strongest Haitian landfall since Cleo in 1964. The dedicated effects page records 20–40 inches of rain on the south coast, a storm surge of about 9.8 ft that flooded at least 11 municipalities, and about 200,000 homes destroyed or badly damaged. Jérémie lost most roofs; 80% of structures were destroyed. The Haitian government death toll on the page is 674; an earlier government figure of 546 (15 October) and unconfirmed reports above 1,600 are also noted. Damage about US$2.8 billion; 1.4 million people needed aid.",
+      "status": "Historical.",
+      "deaths": 674,
+      "injured": null,
+      "affected_or_evacuated": "1.4 million in need of humanitarian aid; 175,509 in 224 shelters within six days (Wikipedia effects page)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "storm_surge",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Category 4 landfall on the Tiburon Peninsula with extreme rain and a ~3 m storm surge.",
+      "sources": [
+        {
+          "label": "Wikipedia: Effects of Hurricane Matthew in Haiti",
+          "url": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Matthew_in_Haiti"
+        }
+      ],
+      "notes": "674 is the Haitian government figure on the dedicated effects-page infobox. 546 was the 15 October government tally; some early reports exceeded 1,600. Using the page's latest stated government total.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "510–1,020 mm (20–40 in) across southern Haiti (Wikipedia effects page)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "US$2.8 billion (Wikipedia effects-page infobox); World Bank / IDB also cited ~$1.89 billion",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Effects of Hurricane Matthew in Haiti (Haitian government toll cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-eta-2020",
+      "name": "Hurricane Eta floods",
+      "country": "Nicaragua",
+      "region": "Nicaragua / Honduras / Guatemala / southern Mexico",
+      "location_label": "Puerto Cabezas (Bilwi), Nicaragua",
+      "lat": 14.02807,
+      "lng": -83.38079,
+      "geo_accuracy": "approx",
+      "geo_source": "Puerto Cabezas (Wikipedia coordinates); NHC landfall ~15 n mi SSW of the city",
+      "flood_type": "flash",
+      "river_or_basin": "Coco / Central American Caribbean slope",
+      "river_or_facility": "Northeastern Nicaragua rivers",
+      "incident_date": "2020-11-03",
+      "latest_report_date": "2020-12",
+      "what_happened": "Hurricane Eta made landfall about 15 n mi south-southwest of Puerto Cabezas on 3 November 2020 as a Category 4. Inland rain produced catastrophic flash floods and landslides across Central America. Wikipedia records at least 175 deaths and more than 100 missing, with about US$8.3 billion damage as of December 2020. The NHC tropical cyclone report cited from that page gives at least 165 direct deaths (74 Honduras, 60 Guatemala, 27 Mexico). A 26–33 ft storm surge was reported at landfall. Iota struck the same coast two weeks later.",
+      "status": "Historical.",
+      "deaths": 175,
+      "injured": null,
+      "affected_or_evacuated": "UN estimate 4.9 million adversely impacted (NHC TCR, cited via Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall",
+        "storm_surge"
+      ],
+      "cause_summary": "Slow-moving Category 4 landfall then days of extreme rain on Central American mountains.",
+      "sources": [
+        {
+          "label": "Wikipedia: Hurricane Eta",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Eta"
+        }
+      ],
+      "notes": "175 is the Wikipedia infobox / December 2020 figure. NHC TCR gives at least 165 direct deaths and notes undercounting. Using the event-page total; NHC range in notes.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Peak 26.55 in (674 mm) at Puerto Corinto, Nicaragua (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About US$8.3 billion as of December 2020 (Wikipedia); Aon ~$6.8 billion for Central America in the NHC TCR",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Hurricane Eta (NHC TCR / Aon December 2020 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-iota-2020",
+      "name": "Hurricane Iota floods",
+      "country": "Nicaragua",
+      "region": "Nicaragua / Honduras / Colombia (Providencia)",
+      "location_label": "Puerto Cabezas (Bilwi), Nicaragua",
+      "lat": 14.02807,
+      "lng": -83.38079,
+      "geo_accuracy": "approx",
+      "geo_source": "Puerto Cabezas / Bilwi (Wikipedia coordinates); Iota landfall near Haulover, about 25 mi SSW of Bilwi",
+      "flood_type": "flash",
+      "river_or_basin": "Coco / Central American Caribbean slope",
+      "river_or_facility": "Northeastern Nicaragua rivers",
+      "incident_date": "2020-11-17",
+      "latest_report_date": "2021-05-18",
+      "what_happened": "Hurricane Iota made landfall near Haulover, Nicaragua, around 03:40 UTC on 17 November 2020 as a Category 4, about 14–15 miles south of Eta's landfall two weeks earlier, on already saturated ground. Wikipedia's infobox lists 84 deaths, 41 missing and US$1.4 billion damage. The country table on the same page sums to 84 (39 Nicaragua, 13 Honduras, 10 Colombia). A storm surge of at least 26 ft occurred near Haulover and Wawa Bar. Providencia lost 98–99% of structures. About 5.2 million people were affected.",
+      "status": "Historical.",
+      "deaths": 84,
+      "injured": null,
+      "affected_or_evacuated": "About 5.2 million people affected (Wikipedia); 63,000 evacuated in Nicaragua",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall",
+        "storm_surge"
+      ],
+      "cause_summary": "Category 4 landfall on soils still saturated from Hurricane Eta two weeks earlier.",
+      "sources": [
+        {
+          "label": "Wikipedia: Hurricane Iota",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Iota"
+        }
+      ],
+      "notes": "84 is the Wikipedia infobox total. Early body text said at least 67. Using the infobox / country-table total. 41 still listed missing.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "US$1.4 billion (Wikipedia infobox); Nicaragua government later cited US$743 million for Eta+Iota together",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Hurricane Iota (NHC TCR 18 May 2021 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-floyd-1999",
+      "name": "Hurricane Floyd flooding",
+      "country": "United States",
+      "region": "Eastern North Carolina / Mid-Atlantic",
+      "location_label": "Tarboro, North Carolina, USA",
+      "lat": 35.905,
+      "lng": -77.55639,
+      "geo_accuracy": "approx",
+      "geo_source": "Tarboro (Wikipedia coordinates); event page says the Tar there suffered the worst flooding and Princeville was under 20 ft for ten days",
+      "flood_type": "riverine",
+      "river_or_basin": "Tar / Neuse / Cape Fear",
+      "river_or_facility": "Tar River",
+      "incident_date": "1999-09-16",
+      "latest_report_date": "1999-09-19",
+      "what_happened": "Hurricane Floyd made landfall at Cape Fear on 16 September 1999 as a Category 2 and then stalled rain over eastern North Carolina already wetted by Dennis. Wikipedia records 85 deaths and US$6.5 billion (1999 USD) damage, then the deadliest US hurricane since Agnes 1972. Nearly every river basin east of Raleigh exceeded 500-year flood levels. A gauge north of Southport recorded 24.06 in. The Tar at Tarboro/Greenville suffered the worst flooding; Princeville stayed under more than 20 ft for ten days after the levee failed. North Carolina had 52 of the 85 deaths and more than $3 billion damage.",
+      "status": "Historical. Name Floyd retired.",
+      "deaths": 85,
+      "injured": null,
+      "affected_or_evacuated": "About 2.6 million coastal residents ordered to evacuate (Wikipedia); 10,000 in temporary shelters in North Carolina",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Large Category 2 landfall dumping days of rain on soils already saturated by Hurricane Dennis.",
+      "sources": [
+        {
+          "label": "Wikipedia: Hurricane Floyd",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Floyd"
+        }
+      ],
+      "notes": "85 is the Wikipedia infobox death toll. 52 of those were in North Carolina. Peak rain 24.06 in north of Southport.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "500-year floods on nearly every basin east of Raleigh (Wikipedia)",
+      "rainfall_mm": "24.06 in (611 mm) north of Southport, NC, the US storm total (Wikipedia)",
+      "inundation_area": "About 6,600 sq mi (17,000 km²) in North Carolina (Wikipedia)",
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "US$6.5 billion (1999 USD) (Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Hurricane Floyd (NHC / USGS flooding assessment cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-irene-2011",
+      "name": "Hurricane Irene flooding",
+      "country": "United States",
+      "region": "Vermont / Northeast / Puerto Rico",
+      "location_label": "Waterbury, Vermont, USA",
+      "lat": 44.38528,
+      "lng": -72.75556,
+      "geo_accuracy": "approx",
+      "geo_source": "Waterbury (Wikipedia coordinates); Irene's inland flood destroyed much of the Winooski valley including Waterbury",
+      "flood_type": "flash",
+      "river_or_basin": "Winooski / Ottauquechee / White / Hudson",
+      "river_or_facility": "Winooski River",
+      "incident_date": "2011-08-28",
+      "latest_report_date": "2011-12-14",
+      "what_happened": "Hurricane Irene made US landfall near Cape Lookout on 27 August 2011 as a Category 1, then crossed New Jersey and Brooklyn as a tropical storm and became extratropical over Vermont on 29 August. Wikipedia records 58 deaths (49 direct, 9 indirect) and about US$14.2 billion damage. Vermont had almost every river in flood; state road and bridge repairs were first estimated above $700 million and NCDC later put Vermont damage above $1.3 billion. Up to 11 in of rain fell. Prattsville, New York, lost much of the village. About 7.4 million US customers lost power.",
+      "status": "Historical. Name Irene retired.",
+      "deaths": 58,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "A large hurricane's remnant rain on saturated New England and New York valleys.",
+      "sources": [
+        {
+          "label": "Wikipedia: Hurricane Irene",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Irene"
+        }
+      ],
+      "notes": "58 is the Wikipedia infobox total (49 direct, 9 indirect). US damage ~$13.5 billion of the $14.2 billion storm total.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "100-year floods in at least six Northeastern states; 500-year in Greene and Schoharie counties, NY (Wikipedia)",
+      "rainfall_mm": "Up to 11 in (280 mm) in Vermont; 22.04 in (560 mm) at Gurabo, Puerto Rico (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About US$14.2 billion (2011 USD) (Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Hurricane Irene (NHC TCR 14 Dec 2011 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-ian-2022",
+      "name": "Hurricane Ian flooding",
+      "country": "United States",
+      "region": "Southwest Florida (Lee / Charlotte / Collier)",
+      "location_label": "Fort Myers, Florida, USA",
+      "lat": 26.62333,
+      "lng": -81.85556,
+      "geo_accuracy": "approx",
+      "geo_source": "Fort Myers (Wikipedia coordinates); event page says Fort Myers, Cape Coral and Naples were particularly hard hit by 10–15 ft storm surge",
+      "flood_type": "storm_surge",
+      "river_or_basin": "Caloosahatchee / Gulf coast",
+      "river_or_facility": "Caloosahatchee River / barrier-island Gulf shore",
+      "incident_date": "2022-09-28",
+      "latest_report_date": "2023-02-03",
+      "what_happened": "Hurricane Ian peaked as a Category 5 and made landfall on Cayo Costa on 28 September 2022 as a Category 4 with 150 mph winds, then a second landfall south of Punta Gorda. Wikipedia records 161 deaths (150 Florida, 5 Cuba, 5 North Carolina, 1 Virginia) and about US$112 billion damage, the costliest Florida hurricane. A 10–15 ft storm surge levelled Fort Myers Beach, Sanibel and Pine Island and dropped the Sanibel and Pine Island causeways. Ponce Inlet recorded 31.52 in of rain. Ian later made a final landfall near Georgetown, South Carolina, on 30 September.",
+      "status": "Historical. Name Ian retired.",
+      "deaths": 161,
+      "injured": null,
+      "affected_or_evacuated": "More than 2.4 million people in Florida lost power (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "storm_surge",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Category 4 landfall on Southwest Florida with a 10–15 ft storm surge and extreme inland rain.",
+      "sources": [
+        {
+          "label": "Wikipedia: Hurricane Ian",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Ian"
+        }
+      ],
+      "notes": "161 is the Wikipedia infobox total. Florida Medical Examiners Commission 149 as of 3 Feb 2023 is the dated Florida subset; 7 Cuban-migrant offshore deaths are included in Florida's 150 on the page table.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "31.52 in (801 mm) at Ponce Inlet, Florida (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About US$112 billion (2022 USD) (NOAA / Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Hurricane Ian (NOAA / Florida Medical Examiners cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-kansas-1951",
+      "name": "Great Flood of 1951",
+      "country": "United States",
+      "region": "Eastern Kansas / Missouri (Kansas / Neosho / Marais des Cygnes)",
+      "location_label": "Topeka, Kansas, USA",
+      "lat": 39.03472,
+      "lng": -95.69556,
+      "geo_accuracy": "approx",
+      "geo_source": "Topeka (Wikipedia coordinates); event page says ~24,000 people were evacuated there as the Kansas River crested 40.8 ft on 13 July",
+      "flood_type": "riverine",
+      "river_or_basin": "Kansas / Missouri / Neosho / Marais des Cygnes",
+      "river_or_facility": "Kansas River",
+      "incident_date": "1951-07-13",
+      "latest_report_date": "1951-07-20",
+      "what_happened": "Mid-July 1951 rains raised the Kansas, Neosho, Marais des Cygnes and Verdigris. Wikipedia records 17 deaths, 518,000 people displaced, and more than $935 million damage (about $11.6 billion in 2025 dollars). Eight to 16 inches fell between 9 and 13 July; 13 July was the peak. Manhattan's downtown was under 8 feet; Topeka evacuated about 24,000; Kansas City levees overtopped in Argentine and Armourdale and wrecked the stockyards. On 13 July about 1,074,000 acres in Kansas and 926,000 acres in Missouri were flooded. President Truman called it one of the worst water disasters the country had suffered.",
+      "status": "Historical. Prompted a large Kansas River reservoir and levee programme.",
+      "deaths": 17,
+      "injured": null,
+      "affected_or_evacuated": "518,000 displaced (Wikipedia); ~24,000 evacuated from Topeka",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Days of extreme July rain over the Kansas River basin after a wet May–June.",
+      "sources": [
+        {
+          "label": "Wikipedia: Great Flood of 1951",
+          "url": "https://en.wikipedia.org/wiki/Great_Flood_of_1951"
+        }
+      ],
+      "notes": "17 deaths and 518,000 displaced are the Wikipedia lead figures. Kansas River crests exceeded official gauges in places.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "8–16 in (200–410 mm) across the region 9–13 July; 11 in in two hours at Hays in May (Wikipedia)",
+      "inundation_area": "1,074,000 acres in Kansas and 926,000 acres in Missouri on 13 July (Wikipedia)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "More than $935 million then / about $11.6 billion in 2025 dollars (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Great Flood of 1951 (USGS FS 041-01 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-kyushu-1953",
+      "name": "1953 Northern Kyushu flood",
+      "country": "Japan",
+      "region": "Fukuoka / Saga / Kumamoto / Ōita",
+      "location_label": "Kurume, Fukuoka, Japan",
+      "lat": 33.31917,
+      "lng": 130.50833,
+      "geo_accuracy": "approx",
+      "geo_source": "Kurume (Wikipedia coordinates); event page says 80% of the city flooded up to 3 m on the Chikugo",
+      "flood_type": "riverine",
+      "river_or_basin": "Chikugo / Shirakawa",
+      "river_or_facility": "Chikugo River",
+      "incident_date": "1953-06-25",
+      "latest_report_date": "1953-06-29",
+      "what_happened": "A stalled Meiyu front dropped about 1,000 mm of rain on Mount Aso and Mount Hiko from 25–29 June 1953. Wikipedia's event page records 771 dead or missing, 450,000 houses flooded and about 1 million people affected. Kurume was 80% flooded, 1–3 m deep; Kumamoto remembers it as the 6.26 Shirakawa flood. Uenoda in Ōita measured 1,148.5 mm in five days. The disaster drove a Tennessee Valley-style dam programme on the Chikugo. The page notes 1953 also brought the separate Wakayama / Kishu disaster.",
+      "status": "Historical.",
+      "deaths": 771,
+      "injured": 2873,
+      "affected_or_evacuated": "About 1 million people affected; 450,000 houses flooded (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stalled Meiyu front over volcanic, recently deforested northern Kyushu catchments.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1953 Northern Kyushu flood",
+          "url": "https://en.wikipedia.org/wiki/1953_Northern_Kyushu_flood"
+        }
+      ],
+      "notes": "771 is the event-page infobox (dead or missing). List of disasters in Japan by death toll gives 1,001 official for the North Kyushu flood. Using the dedicated-page infobox; official list figure in notes. Injured 2,873 is the sum of the Fukuoka police table on the page (1,402+337+337+558+239).",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "1,148.5 mm in five days at Uenoda, Ōita; 1,000 mm over Aso and Hiko (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "¥222 billion (Wikipedia infobox); Fukuoka Prefecture ¥79.3 billion, twice its yearly budget",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 1953 Northern Kyushu flood (JMA / Chikugo 50-year history cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-wakayama-1953",
+      "name": "1953 Wakayama flood",
+      "country": "Japan",
+      "region": "Kii Peninsula, Wakayama Prefecture",
+      "location_label": "Wakayama, Japan",
+      "lat": 34.23333,
+      "lng": 135.16667,
+      "geo_accuracy": "approx",
+      "geo_source": "Wakayama city (Wikipedia coordinates); event page is the Kishu / Nanki heavy rain on the Kii Peninsula",
+      "flood_type": "flash",
+      "river_or_basin": "Kii Peninsula rivers",
+      "river_or_facility": "Wakayama Prefecture rivers",
+      "incident_date": "1953-07-18",
+      "latest_report_date": "1953-07-25",
+      "what_happened": "The Kishu flood / Nanki heavy rain of 16–25 July 1953 produced landslides and dike failures across the Kii Peninsula. Wikipedia's dedicated stub says 713 people died and 411 went missing around 18 July. The List of disasters in Japan by death toll, cited from the same cluster of 1953 pages, gives 1,015 official dead for the Wakayama flood. Together with the June northern Kyushu flood it is why 1953 is remembered in Japan as a year of great water disasters and a trigger for postwar dam building.",
+      "status": "Historical.",
+      "deaths": 713,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Mid-July cloudbursts and landslides on the Kii Peninsula with widespread dike collapse.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1953 Wakayama flood",
+          "url": "https://en.wikipedia.org/wiki/1953_Wakayama_flood"
+        }
+      ],
+      "notes": "713 dead and 411 missing are the dedicated-page figures. List of disasters in Japan by death toll gives 1,015 official. Using 713; official/missing range in notes.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 1953 Wakayama flood (JMA Nanki heavy rain page cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-chittagong-2026",
+      "name": "2026 Chittagong floods",
+      "country": "Bangladesh",
+      "region": "Greater Chittagong / Cox's Bazar / Bandarban",
+      "location_label": "Chittagong, Bangladesh",
+      "lat": 22.335,
+      "lng": 91.8325,
+      "geo_accuracy": "approx",
+      "geo_source": "Chittagong (Wikipedia coordinates); event page names Satkania, Banshkhali, Chandanaish and Lohagara as worst-hit upazilas",
+      "flood_type": "flash",
+      "river_or_basin": "Chittagong Hill Tracts / Karnaphuli",
+      "river_or_facility": "Chittagong hill torrents / Karnaphuli",
+      "incident_date": "2026-07-06",
+      "latest_report_date": "2026-07-23",
+      "what_happened": "A monsoon depression and hill torrents flooded Greater Chittagong in early July 2026. Wikipedia's infobox lists 50+ deaths and 800,000+ displaced; the body says at least 800,000 people in the greater district were affected, worst in Satkania, Banshkhali, Chandanaish and Lohagara. The UN RC sitrep on ReliefWeb (23 July 2026) reported 59 deaths in seven districts, 1.28 million people affected and 74,479 houses damaged. BMD recorded 283 mm in Chattogram in the 24 hours to 7 July. Remaining HSC exams under the Chattogram board were postponed, feeding nationwide student protests.",
+      "status": "Ongoing recovery as of late July 2026.",
+      "deaths": 59,
+      "injured": null,
+      "affected_or_evacuated": "1.28 million affected in seven districts; 38,422 in 1,047 shelters as of 12 July (UN RC / ReliefWeb)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Monsoon depression and upstream hill torrents; officials also blamed closed sluice gates at fish and salt farms.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2026 Chittagong floods",
+          "url": "https://en.wikipedia.org/wiki/2026_Chittagong_floods"
+        },
+        {
+          "label": "ReliefWeb: Bangladesh Flash Floods Jul 2026 (UN RC 23 Jul 2026)",
+          "url": "https://reliefweb.int/disaster/fl-2026-000109-bgd"
+        }
+      ],
+      "notes": "59 is the UN RC figure as of 22 July 2026 on ReliefWeb, later than the Wikipedia infobox 50+. Using the dated UN tally.",
+      "era": "2026",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "283 mm in Chattogram in 24 h to 06:00 on 7 July 2026 (BMD / ReliefWeb)",
+      "inundation_area": "15,910 ha of farmland heavily impacted (DAE, cited on Wikipedia)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "Fisheries Tk 109.23 crore in Chattogram District (District Fisheries Office / Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2026 Chittagong floods and ReliefWeb UN RC 23 July 2026."
         }
       ]
     }
