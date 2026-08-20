@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1152,
+  "count": 1168,
   "current_count": 27,
-  "historical_count": 1125,
+  "historical_count": 1141,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -63050,6 +63050,971 @@
           "url": "https://en.wikipedia.org/wiki/Kai%C5%A1iadorys"
         }
       ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "NPDP leftover 31 after the earlier 2015 SC pond slice. Statewide 19 flood deaths not copied onto this dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 3.048,
+      "reservoir_capacity": "about 223260 m3 (NPDP max storage)",
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "cleveland-street-2015-10-04",
+      "name": "Cleveland Street Dam (Shuford Strock / SCNONAME 38036)",
+      "country": "United States",
+      "region": "Orangeburg County, South Carolina",
+      "location_label": "Cleveland Street / Shuford Strock Dam (SCNONAME 38036), Orangeburg County, South Carolina",
+      "lat": 33.52294114,
+      "lng": -80.51387012,
+      "geo_accuracy": "site",
+      "geo_source": "Stanford NPDP October 2015 South Carolina Dam Failures table / SCDHEC Failed Dam Inspection Reports 2015: 33.52294114, -80.51387012 (D3743).",
+      "river_or_facility": "Cleveland Street Dam / Shuford Strock Dam (SCNONAME 38036) on Browning Branch",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "NPDP lists this small C3 earth recreation dam among the regulated dams that failed in the 1–5 October 2015 South Carolina flood after rainfall far above its spillway design.",
+      "incident_date": "2015-10-04",
+      "latest_report_date": "2016",
+      "what_happened": "Cleveland Street Dam / Shuford Strock Dam (SCNONAME 38036, SCDHEC D3743) in Orangeburg County is one of the regulated dams Stanford NPDP and SCDHEC list as failed in the 1–5 October 2015 South Carolina flood. NPDP publishes the site at 33.52294114 N, 80.51387012 W, height about 3.048 m, max storage about 223260 m3, earthfill, recreation, hazard C3, no EAP. FEMA South Carolina Dam Failure Assessment names Browning Branch and a 1960 year. SCDHEC posted the failed-dam inspection zip and noted work with the owners and SCDOT to evaluate the structure. The flood killed 19 people statewide; no source fetched assigned deaths to this dam.",
+      "status": "historical / failed October 2015; SCDHEC status after the flood was evaluation with owners and SCDOT",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Stanford NPDP — October 2015 South Carolina Dam Failures (SCNONAME 38036 Cleveland Street)",
+          "url": "https://npdp.stanford.edu/2015_SC_Flood_Failures"
+        },
+        {
+          "label": "SCDHEC — Failed Dam Inspection Reports 2015 (Cleveland Street / Shuford Strock D3743)",
+          "url": "https://scdhec.gov/failed-dam-inspection-reports-2015"
+        },
+        {
+          "label": "FEMA — South Carolina Dam Failure Assessment and Advisement (SCNONAME 38036 / Browning Branch)",
+          "url": "https://damfailures.org/sites/default/files/wp-pdf/IR_South-Carolina-Dam-Failure-Swarm.pdf"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Exact 1990 calendar day not in the papers fetched. 1994 re-breach is a separate record. NID pin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "U.S. Army / Fort Rucker (now Fort Novosel)",
+      "year_built": "1935 (NID / CCC 1930s)",
+      "height_m": 13.7,
+      "reservoir_capacity": "17600 acre-feet max / 9000 acre-feet normal (NID)",
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "U.S. Army Corps of Engineers Mobile District",
+      "verification": "confirmed",
+      "id": "lake-tholocco-1990",
+      "name": "Lake Tholocco Dam (1990 auxiliary-spillway breach)",
+      "country": "United States",
+      "region": "Fort Rucker (now Fort Novosel), Dale County, Alabama",
+      "location_label": "Lake Tholocco Dam on Claybank Creek, Fort Rucker, Dale County, Alabama",
+      "lat": 31.385,
+      "lng": -85.72167,
+      "geo_accuracy": "site",
+      "geo_source": "NID AL00665 / LakesOnline Lake Tholocco Dam 31.385, -85.72167. GNIS Lake Tholloco Dam is 31.38722, -85.72278 (same structure).",
+      "river_or_facility": "Lake Tholocco Dam on Claybank Creek (NID AL00665)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "spillway"
+      ],
+      "cause_summary": "Hansen / USACE Mobile District RCC paper: the unlined auxiliary spillway on the right abutment failed in 1990 when a tropical storm dumped 14.5 inches of rain on the site in five hours; flood water eroded the earthen spillway control section and emptied the reservoir.",
+      "incident_date": "1990",
+      "latest_report_date": "2014",
+      "what_happened": "Lake Tholocco Dam, a CCC earth embankment of the 1930s on Claybank Creek at Fort Rucker, failed in 1990. Ken Hansen USACE Mobile District project description and the later RCC overtopping-protection paper: a tropical storm dumped 14.5 inches of rain in five hours; the unlined auxiliary spillway on the right abutment failed, water overtopped, and the reservoir was completely lost. NID AL00665: 45 ft earth dam, 2700 ft long, 17600 acre-feet max / 9000 acre-feet normal, 680-acre lake, recreation, significant hazard, owner Fort Rucker / U.S. Army. The 1994 re-breach after repairs is a separate record. No source fetched gave a death count or an exact 1990 calendar day.",
+      "status": "repaired after 1990; failed again in 1994; RCC overlay 2000",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Ken Hansen — Lake Tholocco Dam Ft. Rucker project description (1990 and 1994 breaches; RCC 2000)",
+          "url": "https://ken-hansen.com/projects/Lake_Tholocco_Dam.pdf"
+        },
+        {
+          "label": "Hansen / USACE — Performance of RCC used for overtopping protection (14.5 in / 5 hr; unlined auxiliary spillway failed twice)",
+          "url": "https://doi.org/10.25675/10217/179788"
+        },
+        {
+          "label": "NID / LakesOnline — Lake Tholocco Dam AL00665 coordinates and dimensions",
+          "url": "https://tholocco.lakesonline.com/Dam.asp"
+        },
+        {
+          "label": "U.S. Army — A lake by any other name (CCC 1930s; 1994 photo of the emptied lake)",
+          "url": "https://www.army.mil/article/279805/a_lake_by_any_other_name"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Exact 1994 calendar day not in the papers fetched. 1990 first breach is a separate record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "U.S. Army / Fort Rucker (now Fort Novosel)",
+      "year_built": "1935 (NID / CCC 1930s); RCC overlay 2000",
+      "height_m": 13.7,
+      "reservoir_capacity": "17600 acre-feet max / 9000 acre-feet normal (NID)",
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "RCC rehabilitation about $1.435 million (Hansen)",
+      "investigating_agency": "U.S. Army Corps of Engineers Mobile District",
+      "verification": "confirmed",
+      "id": "lake-tholocco-1994",
+      "name": "Lake Tholocco Dam (1994 auxiliary-spillway re-breach)",
+      "country": "United States",
+      "region": "Fort Rucker (now Fort Novosel), Dale County, Alabama",
+      "location_label": "Lake Tholocco Dam on Claybank Creek, Fort Rucker, Dale County, Alabama",
+      "lat": 31.385,
+      "lng": -85.72167,
+      "geo_accuracy": "site",
+      "geo_source": "NID AL00665 / LakesOnline Lake Tholocco Dam 31.385, -85.72167. Same structure as the 1990 record.",
+      "river_or_facility": "Lake Tholocco Dam on Claybank Creek (NID AL00665)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "spillway"
+      ],
+      "cause_summary": "Hansen / USACE Mobile District: after the 1990 washout was repaired, the unlined auxiliary spillway failed again in 1994; flood waters exceeded the two spillways and eroded the auxiliary-spillway control section, emptying the reservoir.",
+      "incident_date": "1994",
+      "latest_report_date": "2023-03-22",
+      "what_happened": "In 1994 Lake Tholocco Dam at Fort Rucker failed again. Hansen / USACE Mobile District RCC paper: after repairs to the 1990 breach, the unlined auxiliary spillway failed a second time and the reservoir was completely lost. U.S. Army A lake by any other name publishes a contemporaneous photo captioned Tholocco dam breaks and dries up the lake in 1994. The lake stayed empty until 2000, when the Corps of Engineers Mobile District placed a 1550-ft roller-compacted-concrete stepped overlay on the 6H:1V downstream slope (about 26000 yd3 RCC, about $1.435 million) so the dam could overtop safely. The 1990 first breach is a separate record. No source fetched gave a death count or an exact 1994 calendar day.",
+      "status": "rehabilitated 2000 with RCC overtopping protection; later overtopped safely (Ivan 2004 and later)",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Ken Hansen — Lake Tholocco Dam Ft. Rucker (second 1990s breach; RCC 2000)",
+          "url": "https://ken-hansen.com/projects/Lake_Tholocco_Dam.pdf"
+        },
+        {
+          "label": "Hansen / USACE — Performance of RCC used for overtopping protection (1994 re-failure; empty until 2000)",
+          "url": "https://doi.org/10.25675/10217/179788"
+        },
+        {
+          "label": "U.S. Army — A lake by any other name (photo: Tholocco dam breaks and dries up the lake in 1994)",
+          "url": "https://www.army.mil/article/279805/a_lake_by_any_other_name"
+        },
+        {
+          "label": "NID / LakesOnline — Lake Tholocco Dam AL00665",
+          "url": "https://tholocco.lakesonline.com/Dam.asp"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is the EPA East Gypsum Stack, not the plant centroid and not Bangs Lake itself.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Mississippi Phosphates Corporation",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 17 million gallons of acidic wastewater (EPA EE/CA / DOJ)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Mississippi Department of Environmental Quality; U.S. Department of Justice / EPA",
+      "verification": "confirmed",
+      "id": "bangs-lake-egs-2005-04-14",
+      "name": "Mississippi Phosphates East Gypsum Stack (Bangs Lake)",
+      "country": "United States",
+      "region": "Pascagoula, Jackson County, Mississippi",
+      "location_label": "East Gypsum Stack, Mississippi Phosphates Corp., 601 Industrial Road, Pascagoula, Mississippi",
+      "lat": 30.373958,
+      "lng": -88.490336,
+      "geo_accuracy": "site",
+      "geo_source": "EPA EE/CA (SEMSPUB 11095514): East Gypsum Stack 30d 22m 26.25s N, 88d 29m 25.21s W. Plant complex is separately listed.",
+      "river_or_facility": "Mississippi Phosphates Corporation East Gypsum Stack; discharge to Bangs Lake / Grand Bay NERR, Bayou Casotte, Tillman Creek",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "poor_maintenance"
+      ],
+      "cause_summary": "EPA EE/CA citing Weston 2007 and DOJ 2015: a containment dike at the East Gypsum Stack failed as it was being raised. MDEQ preliminary investigation said the company was increasing pond capacity faster than normal.",
+      "incident_date": "2005-04-14",
+      "latest_report_date": "2015-05-15",
+      "what_happened": "On 14 April 2005 a containment dike at the East Gypsum Stack of Mississippi Phosphates Corporation in Pascagoula failed while the stack was being raised. EPA EE/CA and DOJ: about 17 million gallons of acidic process water (pH about 2.2-2.4) reached Bangs Lake and the Grand Bay National Estuarine Research Reserve, Bayou Casotte, and Tillman Creek, killing vegetation and aquatic life. DOJ 15 May 2015: MPC pleaded guilty to a Clean Water Act felony over the discharge. No source fetched gave a human death count.",
+      "status": "historical / plant closed 2014; Superfund site; East Gypsum Stack later under EPA closure",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "EPA EE/CA — Closure of the East Gypsum Stack and North Ponds, Mississippi Phosphates (17 Mgal; EGS coordinates)",
+          "url": "https://semspub.epa.gov/work/04/11095514.pdf"
+        },
+        {
+          "label": "U.S. DOJ — 15 May 2015: MPC guilty plea; April 2005 more than 17 million gallons into Bangs Lake / Grand Bay",
+          "url": "https://www.justice.gov/opa/pr/mississippi-phosphates-corp-pleads-guilty-clean-water-act-violation-and-agrees-transfer-320"
+        },
+        {
+          "label": "WISE Uranium — Chronology of major tailings dam failures (Bangs Lake, 14 April 2005)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Fish-kill figures not treated as human deaths. Pin is the Wikipedia/site centroid, not a surveyed 1990 cut. WISE date is 1 November; EPA site-visit report 28 October is used as the incident day.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Brewer Gold Company",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "more than 10 million gallons of cyanide solution (EPA)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "EPA; South Carolina DHEC",
+      "verification": "confirmed",
+      "id": "brewer-gold-1990-10-28",
+      "name": "Brewer Gold Mine cyanide-solution dam",
+      "country": "United States",
+      "region": "About one mile west of Jefferson, Chesterfield County, South Carolina",
+      "location_label": "Brewer Gold Mine heap-leach / cyanide-solution dam, Chesterfield County, South Carolina",
+      "lat": 34.63583,
+      "lng": -80.41556,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Brewer Gold Mine 34.63583, -80.41556. Site centroid; 1990 dam cut not surveyed.",
+      "river_or_facility": "Brewer Gold Company plastic-lined cyanide-solution pond; Little Fork Creek / Lynches River",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "EPA Superfund site profile: following large rainstorms a dam broke and more than 10 million gallons of stored cyanide solution escaped into Little Fork Creek.",
+      "incident_date": "1990-10-28",
+      "latest_report_date": "2024",
+      "what_happened": "On 28 October 1990 a dam at the Brewer Gold Mine near Jefferson, South Carolina, failed after large rainstorms. EPA Superfund profile and Five-Year Review: more than 10 million gallons of cyanide solution from a plastic-lined pond flowed into Little Fork Creek; fish were killed in the creek and for nearly 50 miles down the Lynches River. EPA NEPIS site-visit report dates the dam failure to 28 October 1990; production resumed 20 June 1991 after the pond and dam were redesigned. The 1000-acre site later became an EPA Superfund site after the company abandoned acid-rock-drainage treatment in 1999. No source fetched gave a human death count.",
+      "status": "historical / pond rebuilt 1991; mining ended 1995; Superfund site after 1999 abandonment",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "EPA Superfund — Brewer Gold Mine (1990 dam break; >10 million gallons cyanide into Little Fork Creek)",
+          "url": "https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.Cleanup&id=0405550"
+        },
+        {
+          "label": "EPA NEPIS — Mine Site Visit, Brewer Gold Company (failure dated 28 October 1990)",
+          "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1015HP8.txt"
+        },
+        {
+          "label": "Wikipedia — Brewer Gold Mine (coordinates; 50-mile Lynches River fish kill)",
+          "url": "https://en.wikipedia.org/wiki/Brewer_Gold_Mine"
+        },
+        {
+          "label": "WISE Uranium — Chronology (Brewer Gold Mine row; 41640 m3)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is the shared GNIS tailings-dam feature, not a surveyed 1997 cut. 1991 Magma Dam 3 on Pinto Creek is a separate earlier record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "BHP Copper (Pinto Valley)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "more than 317000 cubic yards (Phoenix New Times); WISE 230000 m3",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "pinto-valley-1997-10-22",
+      "name": "Pinto Valley / Middle Goose tailings dam (BHP Copper)",
+      "country": "United States",
+      "region": "About five miles west of Miami, Gila County, Arizona",
+      "location_label": "Pinto Valley tailings dams, Gila County, Arizona (Middle Goose / BHP Copper 1997 break)",
+      "lat": 33.40839,
+      "lng": -110.984,
+      "geo_accuracy": "region",
+      "geo_source": "GNIS Pinto Valley Tailings Dam Number One / Two / Three 33.40839, -110.98400 (shared dam feature). 1997 cut not separately surveyed.",
+      "river_or_facility": "BHP Copper Pinto Valley tailings impoundment (Middle Goose); Pinto Creek",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "Phoenix New Times: on 22 October 1997 a tailings impoundment blew out under pressure from rocky mine overburden loaded on top of still-plastic slimes.",
+      "incident_date": "1997-10-22",
+      "latest_report_date": "1999",
+      "what_happened": "On 22 October 1997 a BHP Copper tailings impoundment at Pinto Valley, about five miles west of Miami, Arizona, failed. Phoenix New Times: more than 317000 cubic yards of toothpaste-consistency mining waste squeezed from the heap and flowed into Pinto Creek, filling it rim to rim — 70 ft across and 42 ft deep in places — for about three-quarters of a mile, with gray liquid running another three-quarters of a mile downstream. WISE (USCOLD compilation): 230000 m3 of tailings and mine rock covering about 16 hectares. Cleanup on Tonto National Forest land included a temporary 53-ft / 500-ft upstream dam and pumping. No source fetched gave a death count.",
+      "status": "historical / tailings cleaned from Pinto Creek; mine later operated by others",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Phoenix New Times — Cleaning the Creek (22 Oct 1997; 317000 yd3 into Pinto Creek)",
+          "url": "https://www.phoenixnewtimes.com/news/cleaning-the-creek-6422080/"
+        },
+        {
+          "label": "WISE Uranium — Chronology (Pinto Valley, 22 Oct 1997; 230000 m3)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "GNIS / TopoQuest — Pinto Valley Tailings Dam Number One 33.40839, -110.98400",
+          "url": "https://topoquest.com/place/arizona/dam/pinto-valley-tailings-dam-number-one/39703"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Frances statewide deaths not copied. Pin is the NID Gardinier gypsum-field dike at Riverview/Gibsonton, not a surveyed crest cut. FAST-41 listing longitude -81.39 is 1 degree off the US 41 site and was not used.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Cargill Crop Nutrition (later Mosaic Fertilizer, LLC)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 65 million gallons of acidic process water (NOAA DARP/EA)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Florida DEP; NOAA natural-resource trustees",
+      "verification": "confirmed",
+      "id": "riverview-gypsum-2004-09-05",
+      "name": "Riverview phosphogypsum stack dike (Cargill / Mosaic)",
+      "country": "United States",
+      "region": "Riverview, Hillsborough County, Florida",
+      "location_label": "Cargill Crop Nutrition / Mosaic Riverview phosphogypsum stack, Hillsborough County, Florida",
+      "lat": 27.87,
+      "lng": -82.39,
+      "geo_accuracy": "region",
+      "geo_source": "NID FL00174 Gypsum Field Dike (Gardinier Inc.), Gibsonton / unnamed pond 27.87, -82.39. Facility is the former Cargill / now Mosaic Riverview stack on US 41. Stack-crest cut not surveyed.",
+      "river_or_facility": "Riverview phosphogypsum stack; South Archie Creek Canal / Hillsborough Bay",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "NOAA DARP/EA: early on 5 September 2004, during Hurricane Frances, high winds and rainfall eroded a berm at the top of the phosphogypsum stack; about 65 million gallons of acidic process water discharged until the breach was closed on 6 September.",
+      "incident_date": "2004-09-05",
+      "latest_report_date": "2012",
+      "what_happened": "Early on 5 September 2004, during Hurricane Frances, a berm at the top of the Cargill Crop Nutrition (later Mosaic) phosphogypsum stack in Riverview, Florida, failed. NOAA final DARP/EA: high winds and rainfall eroded the berm; about 65 million gallons of acidic process water (pH approaching 2) ran through swales to South Archie Creek Canal and Hillsborough Bay until the breach was closed on 6 September, killing and injuring vegetation and aquatic organisms in open water, marshes and mangroves. Contemporary Tampa coverage: a 100-ft section of the dike around about 1 billion gallons of process water on a 180-ft stack broke after 24 hours of Frances wind and waves; DEP had already found the southwest dike 15 ft wide, 3 ft under the required width. WISE lists about 227000 m3. No source fetched gave a human death count.",
+      "status": "historical / stack later operated/closed by Mosaic; NRDA restoration under NOAA trustees",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "NOAA DARRP — Final DARP/EA, Riverview phosphogypsum stack discharge 5-6 September 2004 (65 million gallons)",
+          "url": "https://darrp.noaa.gov/sites/default/files/case-documents/Mosaic_FinalNaturalResourceDamageAssessment.pdf"
+        },
+        {
+          "label": "IATP / Tampa — Cargill repairs dike breached by storm (100-ft break; 65 million gallons; Frances)",
+          "url": "https://www.iatp.org/news/cargill-repairs-dike-breached-by-storm"
+        },
+        {
+          "label": "WISE Uranium — Chronology (Riverview / Cargill, 5 September 2004)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "NID / DamLookup — Gypsum Field Dike FL00174 27.87, -82.39 (Gardinier / Gibsonton)",
+          "url": "https://damlookup.com/dam/fl00174"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from the WFK watershed plan (No one was injured or killed) for this storm five breaches. 2018 flood-cluster damage not copied as a death count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Vernon County (USDA-NRCS PL-566)",
+      "year_built": "1969",
+      "height_m": 11.9,
+      "reservoir_capacity": "1565 acre-feet flood storage (Vernon County)",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "USDA-NRCS; Wisconsin DNR; Vernon County Land and Water Conservation",
+      "verification": "confirmed",
+      "id": "jersey-valley-2018-08-28",
+      "name": "Jersey Valley Dam (West Fork Kickapoo 1)",
+      "country": "United States",
+      "region": "Town of Christiana, Vernon County, Wisconsin",
+      "location_label": "Jersey Valley / West Fork Kickapoo 1 Dam on County Highway X, Vernon County, Wisconsin",
+      "lat": 43.68887,
+      "lng": -90.7987,
+      "geo_accuracy": "site",
+      "geo_source": "NID WI00418 / DamLookup West Fork Kickapoo 1 (Jersey Valley Lake) 43.68887, -90.79870.",
+      "river_or_facility": "West Fork Kickapoo 1 (Jersey Valley Lake) Dam, PL-566",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "spillway",
+        "foundation"
+      ],
+      "cause_summary": "ASDSO and the WFK watershed plan: auxiliary spillway / west-end embankment failed along the earth-fill–fractured Jordan sandstone interface during the 27-28 August 2018 storm; WFK-1 breached without the crest overtopping after the auxiliary spillway took uncontrolled flow.",
+      "incident_date": "2018-08-28",
+      "latest_report_date": "2024-11-15",
+      "what_happened": "By about 6 a.m. on 28 August 2018 Jersey Valley Dam (West Fork Kickapoo 1, NID WI00418) on the West Fork Kickapoo in Vernon County failed during a stalled convective storm that put up to 11 inches of rain on the watershed overnight. Vernon County / La Crosse Broadcaster: the auxiliary spillways could not keep up. Wisconsin Historical Society: the dam failed along the auxiliary spillway, washing out the west end of the embankment. UW-Extension summary: WFK-1 breached without overtopping after emergency-spillway design capacity was exceeded. Vernon County: 1969 NRCS PL-566 earth dam, 39.2 ft high, 320 ft long, 1565 acre-feet flood storage, high hazard, public recreation pool. Watershed plan and news: no one was injured or killed. Federal Register 15 November 2024 ROD: decommission the WFK dams and replace Jersey Valley about 1000 ft downstream.",
+      "status": "breached 2018; ROD to replace about 1000 ft downstream and decommission the other WFK PL-566 dams",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "ASDSO — 2018 Breach of Five Dams in Wisconsin (WFK and Coon Creek)",
+          "url": "https://damsafety.org/content/2018-breach-five-dams-wisconsin-what-happened"
+        },
+        {
+          "label": "WFK watershed plan — Jersey Valley (WFK 1) and Mlsna failed 27-28 August 2018; no one injured or killed",
+          "url": "https://www.wfkandccwatersheds.com/west-fork-kickapoo"
+        },
+        {
+          "label": "Vernon County Land and Water — West Fork 01 Jersey Valley Dam (1969; 39.2 ft; CTH X)",
+          "url": "https://www.vernoncountywi.gov/departments/land_and_water_conservation/flood_control_structures/dams.php"
+        },
+        {
+          "label": "DamLookup / NID WI00418 — West Fork Kickapoo 1 43.68887, -90.79870",
+          "url": "https://damlookup.com/dam/wi00418"
+        },
+        {
+          "label": "La Crosse Broadcaster / madison.com — Jersey Valley and Mlsna failed by 6 a.m. 28 August 2018",
+          "url": "https://madison.com/article_53d74621-b95c-5559-8776-906852eb47e5.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from the WFK watershed plan for this storm. Combined watershed flood losses not copied here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Vernon County / Mlsna Trust (USDA-NRCS PL-566)",
+      "year_built": "1956",
+      "height_m": 9.6,
+      "reservoir_capacity": "257 acre-feet flood storage (Vernon County)",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "USDA-NRCS; Wisconsin DNR; Vernon County Land and Water Conservation",
+      "verification": "confirmed",
+      "id": "mlsna-2018-08-28",
+      "name": "Mlsna Dam (West Fork Kickapoo Pilot)",
+      "country": "United States",
+      "region": "Town of Clinton, Vernon County, Wisconsin",
+      "location_label": "Mlsna / West Fork Kickapoo Pilot Dam on Knapp Valley Road, Vernon County, Wisconsin",
+      "lat": 43.71218,
+      "lng": -90.75239,
+      "geo_accuracy": "site",
+      "geo_source": "NID WI00403 / DamLookup Mlsna 43.71218, -90.75239.",
+      "river_or_facility": "Mlsna Dam (WFK Pilot) on an unnamed tributary of Knapp Creek, PL-566",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "foundation"
+      ],
+      "cause_summary": "WFK watershed plan: Mlsna (WFK Pilot) overtopped and breached along the earth-fill–Jordan sandstone interface during the 27-28 August 2018 storm; the breach ran full depth to the valley floor.",
+      "incident_date": "2018-08-28",
+      "latest_report_date": "2025",
+      "what_happened": "Mlsna Dam (West Fork Kickapoo Pilot, NID WI00403) in the Town of Clinton, Vernon County, failed during the 27-28 August 2018 storm with Jersey Valley. Vernon County: 1956 NRCS dry dam, 31.5 ft high, 500 ft long, 257 acre-feet flood storage, 948-acre watershed, high hazard, Knapp Valley Road. SWNews4U / NRCS: by 28 August the Mlsna flood pool was completely drained below the principal-spillway inlet. WPR 2025: Vernon County later decommissioned Mlsna with a state DNR grant, the first of the breached PL-566 dams to be removed. Watershed plan: no one was injured or killed. Combined five-dam flood damage is not copied onto this structure.",
+      "status": "decommissioned after the 2018 breach (Vernon County / DNR grant)",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "WFK watershed plan — Mlsna (WFK Pilot) failed 27-28 August 2018; no one injured or killed",
+          "url": "https://www.wfkandccwatersheds.com/west-fork-kickapoo"
+        },
+        {
+          "label": "Vernon County — West Fork PM Pilot Mlsna (1956; Knapp Valley Road; 31.5 ft)",
+          "url": "https://www.vernoncountywi.gov/departments/land_and_water_conservation/flood_control_structures/dams.php"
+        },
+        {
+          "label": "DamLookup / NID WI00403 — Mlsna 43.71218, -90.75239",
+          "url": "https://damlookup.com/dam/wi00403"
+        },
+        {
+          "label": "WPR — Vernon County removes first dam (Mlsna decommissioning after 2018 breach)",
+          "url": "https://www.wpr.org/news/vernon-county-removes-first-dam-federal-funding"
+        },
+        {
+          "label": "ASDSO — 2018 Breach of Five Dams in Wisconsin",
+          "url": "https://damsafety.org/content/2018-breach-five-dams-wisconsin-what-happened"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from ASDSO incident WI00373-3337. ASDSO date row is 29 August; contemporaneous NRCS site visits were 28 August after the overnight breach. Combined watershed flood losses not copied here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Monroe County (USDA-NRCS PL-566)",
+      "year_built": "1963",
+      "height_m": 14.0,
+      "reservoir_capacity": "271 acre-feet max (ASDSO / NID)",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "USDA-NRCS; Wisconsin DNR; Monroe County Land Conservation",
+      "verification": "confirmed",
+      "id": "luckasson-cc21-2018-08-28",
+      "name": "Luckasson Dam (Coon Creek 21)",
+      "country": "United States",
+      "region": "Monroe County, Wisconsin (Rullands Coulee)",
+      "location_label": "Coon Creek 21 / Luckasson Dam on a tributary of Rullands Coulee Creek, Monroe County, Wisconsin",
+      "lat": 43.7314,
+      "lng": -90.8419,
+      "geo_accuracy": "site",
+      "geo_source": "ASDSO incident WI00373-3337 / NID WI00373 43.7314, -90.8419. GNIS Coon Creek 21 D6025 Dam 43.73164, -90.84180.",
+      "river_or_facility": "Coon Creek 21 (Luckasson / Tucker / Rulland) Dam, PL-566",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "foundation"
+      ],
+      "cause_summary": "ASDSO WI00373-3337: high flows breached the auxiliary spillway and abutment. ASDSO Wisconsin paper: the three Coon Creek dams breached in the groin opposite the auxiliary spillway on erodible soils over fractured sandstone.",
+      "incident_date": "2018-08-28",
+      "latest_report_date": "2018",
+      "what_happened": "Coon Creek 21 (Luckasson Dam, NID WI00373) in Monroe County failed overnight 27-28 August 2018. ASDSO incident WI00373-3337: high flows breached the auxiliary spillway and abutment; EAP enacted the next morning; 0 fatalities, 0 evacuated; bridges, roads, culverts, farmstead outbuildings and an abandoned house knocked off its foundation downstream of one of the Coon Creek dams. NID: 46 ft earth dam, 271 acre-feet max, completed 1963, low hazard, Monroe County / USDA-NRCS. WFK/CC watershed pages list Luckasson (CC-21) with Blihovde and Korn as the three Coon Creek breaches. Combined five-dam flood losses are not copied onto this structure.",
+      "status": "historical / breached 2018; later proposed for PL-566 decommissioning",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "ASDSO incident WI00373-3337 — Coon Creek 21 failure; 0 fatalities; 43.7314, -90.8419",
+          "url": "https://damsafety.org/incidents/wi00373-3337"
+        },
+        {
+          "label": "ASDSO — 2018 Breach of Five Dams in Wisconsin",
+          "url": "https://damsafety.org/content/2018-breach-five-dams-wisconsin-what-happened"
+        },
+        {
+          "label": "GNIS / TopoQuest — Coon Creek 21 D6025 Dam 43.73164, -90.84180",
+          "url": "https://topoquest.com/place/wisconsin/dam/coon-creek-21-d6025-dam/1792369"
+        },
+        {
+          "label": "WFK/CC watershed — Luckasson (CC 21) listed with the 2018 Coon Creek breaches",
+          "url": "https://www.wfkandccwatersheds.com/west-fork-kickapoo"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from the WFK/CC watershed plan for this storm. Combined watershed flood losses not copied here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Monroe County (USDA-NRCS PL-566)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "USDA-NRCS; Wisconsin DNR; Monroe County Land Conservation",
+      "verification": "confirmed",
+      "id": "blihovde-cc23-2018-08-28",
+      "name": "Blihovde Dam (Coon Creek 23)",
+      "country": "United States",
+      "region": "Monroe County, Wisconsin",
+      "location_label": "Coon Creek 23 / Blihovde Dam, Monroe County, Wisconsin",
+      "lat": 43.7433,
+      "lng": -90.8418,
+      "geo_accuracy": "site",
+      "geo_source": "GNIS Coon Creek 23 D-6025 Dam 43.74330, -90.84180 (NAD83).",
+      "river_or_facility": "Coon Creek 23 (Blihovde / Bilhovde) Dam, PL-566",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "foundation"
+      ],
+      "cause_summary": "ASDSO Wisconsin paper and WFK/CC watershed plan: CC-23 breached in the groin opposite the auxiliary spillway on erodible soils over fractured sandstone during the 27-28 August 2018 overtopping.",
+      "incident_date": "2018-08-28",
+      "latest_report_date": "2024",
+      "what_happened": "Coon Creek 23 (Blihovde / Bilhovde Dam) in Monroe County failed during the 27-28 August 2018 storm. WFK/CC watershed plan and SWNews4U: Blihovde (CC-23) is one of the three Coon Creek dams that breached and drained below the principal-spillway inlet; NRCS technicians visited the site on 28 August. ASDSO: the Coon Creek breaches were in the groin opposite the auxiliary spillway. UW-Extension: CC-23 was among the four dams that overtopped and then breached. WPR PEIS briefing labels CC 23 Bilhovde Dam Failure – Monroe County. Watershed plan: no one was injured or killed. Combined five-dam flood losses are not copied onto this structure.",
+      "status": "historical / breached 2018; later proposed for PL-566 decommissioning",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "WFK/CC watershed — Blihovde (CC23) listed with the 2018 Coon Creek breaches",
+          "url": "https://www.wfkandccwatersheds.com/west-fork-kickapoo"
+        },
+        {
+          "label": "GNIS / TopoQuest — Coon Creek 23 D-6025 Dam 43.74330, -90.84180",
+          "url": "https://topoquest.com/place/wisconsin/dam/coon-creek-23-d-6025-dam/1792365"
+        },
+        {
+          "label": "ASDSO — 2018 Breach of Five Dams in Wisconsin (Coon Creek groin breaches)",
+          "url": "https://damsafety.org/content/2018-breach-five-dams-wisconsin-what-happened"
+        },
+        {
+          "label": "SWNews4U — five dams including Bilhovde (CC-23); NRCS visit 28 August",
+          "url": "https://www.swnews4u.com/local/public-safety/three-counties-collaborate-watersheds-study-around-breached-dams/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from the WFK/CC watershed plan for this storm. Combined watershed flood losses not copied here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Monroe County (USDA-NRCS PL-566)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "USDA-NRCS; Wisconsin DNR; Monroe County Land Conservation",
+      "verification": "confirmed",
+      "id": "korn-cc29-2018-08-28",
+      "name": "Korn Dam (Coon Creek 29)",
+      "country": "United States",
+      "region": "Monroe County, Wisconsin",
+      "location_label": "Coon Creek 29 / Korn Dam, Monroe County, Wisconsin",
+      "lat": 43.7666,
+      "lng": -90.8968,
+      "geo_accuracy": "site",
+      "geo_source": "GNIS Coon Creek 29 D-6025 Dam 43.7666, -90.8968 (NAD83), listed on the Coon Creek 21 TopoQuest nearby-features table.",
+      "river_or_facility": "Coon Creek 29 (Korn) Dam, PL-566",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "foundation"
+      ],
+      "cause_summary": "ASDSO Wisconsin paper and WFK/CC watershed plan: CC-29 breached in the groin opposite the auxiliary spillway on erodible soils over fractured sandstone during the 27-28 August 2018 overtopping.",
+      "incident_date": "2018-08-28",
+      "latest_report_date": "2024",
+      "what_happened": "Coon Creek 29 (Korn Dam) in Monroe County failed during the 27-28 August 2018 storm. WFK/CC watershed plan and SWNews4U: Korn (CC-29) is one of the three Coon Creek dams that breached and drained below the principal-spillway inlet; NRCS technicians visited the site on 28 August. UW-Extension: CC-29 was among the four dams that overtopped and then breached. WPR PEIS briefing labels CC 29 Korn Dam Failure – Monroe County. Journal Sentinel 2024 lists Korn with the five 2018 failures later proposed for decommissioning. Watershed plan: no one was injured or killed. Combined five-dam flood losses are not copied onto this structure.",
+      "status": "historical / breached 2018; later proposed for PL-566 decommissioning",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "WFK/CC watershed — Korn (CC 29) listed with the 2018 Coon Creek breaches",
+          "url": "https://www.wfkandccwatersheds.com/west-fork-kickapoo"
+        },
+        {
+          "label": "GNIS / TopoQuest — Coon Creek 21 page nearby Coon Creek 29 D-6025 Dam 43.7666, -90.8968",
+          "url": "https://topoquest.com/place/wisconsin/dam/coon-creek-21-d6025-dam/1792369"
+        },
+        {
+          "label": "ASDSO — 2018 Breach of Five Dams in Wisconsin",
+          "url": "https://damsafety.org/content/2018-breach-five-dams-wisconsin-what-happened"
+        },
+        {
+          "label": "Milwaukee Journal Sentinel — five 2018 failures including Korn Dam",
+          "url": "https://www.jsonline.com/story/news/local/wisconsin/2024/08/15/wisconsin-counties-decommission-23-pl-566-dams-after-5-failed-in-storm/74720638007/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Milk River Joint Board / Montana Free Press (no one was hurt). Pin is the named Camp 9 / Hook's Hideaway property at the siphon, not a surveyed barrel coordinate. Imperial Canal 1905 not added (Mexico).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "U.S. Bureau of Reclamation / Milk River Project",
+      "year_built": "1915",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "U.S. Bureau of Reclamation",
+      "verification": "confirmed",
+      "id": "st-mary-siphon-2024-06-17",
+      "name": "St. Mary Canal siphon (Babb)",
+      "country": "United States",
+      "region": "About eight miles north of Babb, Glacier County, Montana (Blackfeet Nation)",
+      "location_label": "St. Mary Canal siphon on Camp 9 Road near Hook's Hideaway, north of Babb, Montana",
+      "lat": 48.94523,
+      "lng": -113.37014,
+      "geo_accuracy": "region",
+      "geo_source": "OpenGovCA / Google place Hooks Hideaway, 291 Camp 9 Road, Babb 48.9452328, -113.3701408. Milk River Project and Reclamation: the siphon is on Camp 9 Road at Hook's Hideaway. Named impacted property; siphon barrels not separately surveyed.",
+      "river_or_facility": "St. Mary Canal St. Mary River siphon (Milk River Project), two 90-inch riveted-steel barrels",
+      "type": "sluice",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Bureau of Reclamation / Milk River Project: both 100-plus-year-old siphon barrels suffered structural failure after Reclamation had been monitoring a crack; the hillside and concrete footings washed out.",
+      "incident_date": "2024-06-17",
+      "latest_report_date": "2024-06-18",
+      "what_happened": "On 17 June 2024 the St. Mary Canal siphon about eight miles north of Babb, Montana, failed. Reclamation: at about 8:45 a.m. a siphon barrel breached with about 600 cfs in the canal; washouts 30-50 ft deep; diversions from the St. Mary River to the Milk River were stopped. Montana Free Press / Milk River Joint Board: Reclamation had been monitoring a crack; the pair of 90-inch riveted-steel barrels (about 3200-3600 ft across the St. Mary valley) failed — one in the morning, the second about five hours later — and the inlets also gave way; Hook's Hide-Away bar, hotel and roping arena on Camp 9 Road were significantly impacted; no one was hurt. The 1915 canal supplies most Milk River Project irrigation (about 120000 acres) and municipal water. No source fetched gave a death other than the Board no one was hurt.",
+      "status": "siphon destroyed; replacement designed 2024-25 (HDR / Reclamation / Milk River Joint Board)",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "NBC Montana / Reclamation — St. Mary Canal siphon breached 8:45 a.m. 17 June 2024; 600 cfs; 30-50 ft washouts",
+          "url": "https://nbcmontana.com/news/local/st-mary-canal-breach-causes-flooding-and-erosion-in-babb-montana"
+        },
+        {
+          "label": "Montana Free Press — catastrophic failure of St. Mary siphons; no one hurt; Hook's Hide-Away impacted",
+          "url": "https://montanafreepress.org/2024/06/17/catastrophic-failure-of-st-mary-siphon-leads-to-localized-flooding-in-babb/"
+        },
+        {
+          "label": "montana right now / Reclamation — both siphon barrels failed about 8 miles north of Babb",
+          "url": "https://www.montanarightnow.com/kalispell/bureau-of-reclamation-releases-new-updates-on-the-st-mary-canal-siphon-breach-in-babb/article_9b90d2e4-2e6b-11ef-8d12-43380a83411c.html"
+        },
+        {
+          "label": "OpenGovCA — Hooks Hideaway, 291 Camp 9 Road, Babb 48.9452328, -113.3701408",
+          "url": "https://opengovca.com/place/ChIJAQAAALDJaFMR1Rhtm_-A5zs"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Caged-trout bioassay is not a human death count. Pin is the HMDB ponds pullout, not a surveyed 1975 cut. Lake Emma / American Tunnel 1978 is a mine inrush, not added here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Standard Metals (Mayflower / Shenandoah-Dives Mill)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 50000-75000 tons of tailings (HCN / EPA fact sheet; Land Desk)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mayflower-mill-1975-06",
+      "name": "Mayflower Mill tailings pond (Standard Metals / Silverton)",
+      "country": "United States",
+      "region": "Northeast of Silverton, San Juan County, Colorado",
+      "location_label": "Mayflower (Shenandoah-Dives) Mill tailings ponds on the Animas River, San Juan County, Colorado",
+      "lat": 37.82402,
+      "lng": -107.63468,
+      "geo_accuracy": "region",
+      "geo_source": "HMDB Mayflower Mill Tailing Ponds marker / viewing pullout on County Road 2 37.82401553, -107.63468182. Ponds lie immediately adjacent, southwest of the mill (NHL mill building is 37.829028, -107.62750). 1975 cut not surveyed.",
+      "river_or_facility": "Standard Metals Mayflower Mill tailings ponds; Animas River",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Land Desk / KSUT citing contemporary Durango Herald: heavy rain on still-icy tailings ponds at Standard Metals Mayflower Mill caused a sand wall to give way in June 1975.",
+      "incident_date": "1975-06",
+      "latest_report_date": "2021-12-03",
+      "what_happened": "In June 1975 a tailings pond at Standard Metals Mayflower Mill (Shenandoah-Dives), just northeast of Silverton, Colorado, breached. KSUT / Land Desk: rain on icy containment ponds caused a sand wall to give way; about 75000 tons of mill tailings entered the Animas and ran the color of aluminum paint to Durango; 27 of 31 caged rainbow trout died within 24 hours; cyanide was detected at Farmington. High Country News / EPA Gold King watershed fact sheet: tens of thousands of gallons plus about 50000 tons of heavy-metal-loaded tailings; the river was affected for about 100 miles. WISE lists a June 1975 Silverton metal-tailings dam failure (116000 tonnes; about 160 km of the Animas). No source fetched gave a human death count or an exact June day.",
+      "status": "historical / ponds later reclaimed (Sunnyside Gold 1990s); mill is a National Historic Landmark",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "KSUT / Land Desk — The silt remembers (June 1975 Mayflower Mill; ~75000 tons)",
+          "url": "https://www.ksut.org/environment-climate/2021-12-03/the-land-desk-the-silt-remembers"
+        },
+        {
+          "label": "High Country News — When our river turned orange (1975 tailings pile NE of Silverton; ~50000 tons)",
+          "url": "https://www.hcn.org/articles/when-our-river-turned-orange-animas-river-spill/"
+        },
+        {
+          "label": "EPA — Gold King Mine watershed fact sheet (1975 Animas tailings breach)",
+          "url": "https://www.epa.gov/sites/default/files/2015-10/documents/1622621.pdf"
+        },
+        {
+          "label": "HMDB — Mayflower Mill Tailing Ponds marker 37.82401553, -107.63468182",
+          "url": "https://www.hmdb.org/m.asp?m=177662"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is the shared Pinto Valley tailings GNIS, not the Superior Magma mill GNIS (Queen Creek, not Pinto Creek). March 1991 follow-on release recorded only in the narrative. 1997 BHP break is a separate record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Magma Copper",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "WISE 8000 m3; EPA compilation about 150-250 tons of tailings and 2 million gallons of water",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "U.S. EPA Region 9",
+      "verification": "confirmed",
+      "id": "magma-dam3-1991-01-04",
+      "name": "Magma Mine Tailings Dam No. 3 (Pinto Creek)",
+      "country": "United States",
+      "region": "Pinto Valley / Miami area, Gila County, Arizona",
+      "location_label": "Magma Copper Tailings Dam No. 3 at Pinto Valley, Gila County, Arizona",
+      "lat": 33.40839,
+      "lng": -110.984,
+      "geo_accuracy": "region",
+      "geo_source": "GNIS Pinto Valley Tailings Dam Number Three 33.408387, -110.984004 (shared with dams 1 and 2). Pinto Creek is the WISE/EPA receiving water. Superior-area Magma tailings GNIS was not used (different drainage).",
+      "river_or_facility": "Magma Copper Tailings Dam No. 3; Pinto Creek",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "WISE (USCOLD compilation): Magma Mine Dam 3 failed on 4 January 1991 and tailings and water entered Pinto Creek. EPA 1997 damage-cases compilation describes a face failure of Tailings Dam Number 3 releasing tailings and water to Pinto Creek; the January driver is not further specified in the excerpt fetched.",
+      "incident_date": "1991-01-04",
+      "latest_report_date": "1997",
+      "what_happened": "On 4 January 1991 Tailings Dam No. 3 at Magma Copper Pinto Valley operation failed. WISE: 8000 m3; tailings and water entered Pinto Creek. EPA 1997 Damage Cases And Environmental Releases From Mines And Mineral Processing Sites: the face of Tailings Dam Number 3 failed, releasing about 150-250 tons of tailings and about two million gallons of water into Pinto Creek. A further release from the same pile on 1 March 1991 after heavy precipitation (about 3.4 million gallons) is noted in that compilation and is not given its own record here. EPA Region 9 issued a Clean Water Act order on 27 November 1991. No source fetched gave a death count. The 22 October 1997 BHP Pinto Valley failure is a separate later record.",
+      "status": "historical / later BHP operation; 1997 Pinto Valley break is a separate record",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WISE Uranium — Chronology (Magma Mine Dam 3, 4 January 1991; Pinto Creek)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "EPA — Damage Cases And Environmental Releases From Mines And Mineral Processing Sites (1997) (Dam 3 face; Pinto Creek)",
+          "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=94005KD8.txt"
+        },
+        {
+          "label": "GNIS / TopoQuest — Pinto Valley Tailings Dam Number Three 33.408387, -110.984004",
+          "url": "https://topoquest.com/place/arizona/dam/pinto-valley-tailings-dam-number-three/39704"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is the GNIS community, not a surveyed hollow impoundment. Do not confuse with the 2010 Upper Big Branch mine explosion at Montcoal.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Peabody Coal Co. (Montcoal No. 7)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 87000 m3 of water and slurry (WISE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "montcoal-no7-1987-04-08",
+      "name": "Montcoal No. 7 / Lower Big Branch coal-slurry impoundment",
+      "country": "United States",
+      "region": "Montcoal, Raleigh County, West Virginia",
+      "location_label": "Peabody Montcoal No. 7 Lower Big Branch slurry impoundment, Raleigh County, West Virginia",
+      "lat": 37.913997,
+      "lng": -81.535666,
+      "geo_accuracy": "region",
+      "geo_source": "GNIS / TopoQuest Montcoal populated place 37.913997, -81.535666. Impoundment was on Lower Big Branch at the Montcoal No. 7 complex; not a surveyed dam pin (no NID coordinate fetched).",
+      "river_or_facility": "Peabody Coal Montcoal No. 7 Lower Big Branch coal-slurry impoundment",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "spillway"
+      ],
+      "cause_summary": "WISE (USCOLD / ICOLD compilations): Montcoal No. 7 dam failed on 8 April 1987 after a spillway-pipe breach, releasing about 87000 m3 of water and slurry.",
+      "incident_date": "1987-04-08",
+      "latest_report_date": "2026-08-19",
+      "what_happened": "On 8 April 1987 a coal-slurry impoundment at Peabody Coal Montcoal No. 7 complex in Raleigh County, West Virginia, failed. WISE chronology of major tailings dam failures: dam failure after a spillway-pipe breach; about 87000 cubic meters of water and slurry; tailings flow about 80 km downstream. That volume matches a later secondary compilation citing about 23 million gallons of water, slurry and fine coal refuse from the Lower Big Branch impoundment at the same complex and date. Montcoal is the GNIS community at the former No. 7 mines (later the Upper Big Branch / Performance Coal site). The 2010 Upper Big Branch mine explosion is a separate underground disaster and is not this record. No source fetched gave a death count.",
+      "status": "historical / Montcoal No. 7 later sold; 2010 UBB explosion is a separate event",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WISE Uranium — Chronology (Montcoal No. 7, 8 April 1987; spillway pipe; 87000 m3; 80 km)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "TopoQuest / GNIS — Montcoal, Raleigh County, WV 37.913997, -81.535666",
+          "url": "https://topoquest.com/place/west-virginia/populated-place/montcoal/1555151"
+        },
+        {
+          "label": "CoalcampUSA — Montcoal mines (Peabody operated No. 7 from 1984)",
+          "url": "https://coalcampusa.com/sowv/kanawha/montcoal-wv/montcoal-wv.htm"
+        }
+      ],
+      "severity": "major"
     }
   ]
 }
