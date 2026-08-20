@@ -473,7 +473,7 @@
     return new Cesium.Color(r, g, b, alpha);
   }
 
-  function updateMapData() {
+  function rebuildIncidents() {
     if (!viewer) return;
     
     incidentEntities.forEach(e => viewer.entities.remove(e));
@@ -482,8 +482,6 @@
     labelEntities = [];
     
     const rows = currentIncidents;
-    const height = viewer.camera.positionCartographic.height;
-    const showLabels = height < 2000000 && pinNamesEnabled;
     
     rows.forEach(inc => {
       if (typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
@@ -511,23 +509,58 @@
       
       incidentEntities.push(entity);
       
-      if (showLabels) {
-        const labelEntity = viewer.entities.add({
-          position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat),
-          label: {
-            text: inc.name,
-            font: "11px 'IBM Plex Sans', sans-serif",
-            fillColor: Cesium.Color.fromCssColorString("#f3efe6"),
-            outlineColor: Cesium.Color.fromCssColorString("rgba(11, 13, 16, 0.85)"),
-            outlineWidth: 1.5,
-            style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-            pixelOffset: new Cesium.Cartesian2(0, -r - 5),
-            disableDepthTestDistance: Number.POSITIVE_INFINITY,
-            heightReference: Cesium.HeightReference.NONE
-          }
-        });
-        labelEntities.push(labelEntity);
+      const labelEntity = viewer.entities.add({
+        position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat),
+        label: {
+          text: inc.name,
+          font: "11px 'IBM Plex Sans', sans-serif",
+          fillColor: Cesium.Color.fromCssColorString("#f3efe6"),
+          outlineColor: Cesium.Color.fromCssColorString("rgba(11, 13, 16, 0.85)"),
+          outlineWidth: 1.5,
+          style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+          pixelOffset: new Cesium.Cartesian2(0, -r - 5),
+          disableDepthTestDistance: Number.POSITIVE_INFINITY,
+          heightReference: Cesium.HeightReference.NONE,
+          show: false
+        }
+      });
+      labelEntities.push(labelEntity);
+    });
+    
+    updateLabels();
+  }
+
+  function updateLabels() {
+    if (!viewer || labelEntities.length === 0) return;
+    
+    const height = viewer.camera.positionCartographic.height;
+    const showLabels = height < 2000000 && pinNamesEnabled;
+    
+    if (!showLabels) {
+      labelEntities.forEach(label => {
+        label.label.show = false;
+      });
+      return;
+    }
+    
+    const rect = viewer.camera.computeViewRectangle();
+    if (!rect) {
+      labelEntities.forEach(label => {
+        label.label.show = false;
+      });
+      return;
+    }
+    
+    labelEntities.forEach(label => {
+      const position = label.position.getValue(Cesium.JulianDate.now());
+      if (!position) {
+        label.label.show = false;
+        return;
       }
+      
+      const cartographic = Cesium.Cartographic.fromCartesian(position);
+      const inView = Cesium.Rectangle.contains(rect, cartographic);
+      label.label.show = inView;
     });
   }
 
@@ -829,7 +862,7 @@
     currentIncidents = rows;
     updateStats(rows);
     renderList(rows);
-    updateMapData();
+    rebuildIncidents();
     if (selectedId && !rows.some((r) => r.id === selectedId)) {
       closeDetail();
     } else if (selectedId) {
@@ -1114,7 +1147,7 @@
 
     viewer.camera.moveEnd.addEventListener(() => {
       updateBaseLayer();
-      updateMapData();
+      updateLabels();
     });
 
     viewer.screenSpaceEventHandler.setInputAction((movement) => {
@@ -1184,7 +1217,7 @@
       localStorage.setItem("ww-pin-names", pinNamesEnabled ? "on" : "off");
       labelsBtn.classList.toggle("is-active", pinNamesEnabled);
       labelsBtn.setAttribute("aria-pressed", pinNamesEnabled ? "true" : "false");
-      updateMapData();
+      updateLabels();
     });
     labelsToggle.appendChild(labelsBtn);
     wrap.appendChild(labelsToggle);
