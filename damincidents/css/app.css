@@ -1665,6 +1665,10 @@ button.chip {
   margin: 0;
 }
 
+#dashboard-period-chips .chip::before {
+  display: none;
+}
+
 .dashboard-controls .field-label {
   margin-bottom: 2px;
 }
