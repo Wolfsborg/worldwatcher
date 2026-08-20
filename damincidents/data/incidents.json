@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1095,
+  "count": 1115,
   "current_count": 27,
-  "historical_count": 1068,
+  "historical_count": 1088,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -59928,6 +59928,1165 @@
         {
           "label": "Japanese Wikipedia — 新市町",
           "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B8%82%E7%94%BA"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 300 houses damaged and 600 in shelters (La Jornada); El País: four shelters for about 1,500; 450 ha of crops",
+      "notes": "Deaths 9 from El País 16 Aug 2002 (Gelista / Gobernación) and La Jornada 17 Aug Fox visit. Proceso 15 Aug had 13 for La Ventilla — earlier count, not used. Do not copy SLP+Zacatecas regional 12–15. La Ventilla and Presa Dolores treated as one 1848 masonry dam at the hacienda.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1848",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "large breach (gigantesco boquete) photographed at Fox visit (La Jornada)",
+      "downstream_risk": "La Ventilla and neighbouring Villa de Reyes communities",
+      "economic_damage": null,
+      "investigating_agency": "CNA; CENAPRED / Protección Civil (Segob)",
+      "verification": "confirmed",
+      "id": "la-ventilla-dolores-2002-08-15",
+      "name": "La Ventilla / Presa Dolores (Villa de Reyes)",
+      "country": "Mexico",
+      "region": "La Ventilla, Villa de Reyes Municipality, San Luis Potosí",
+      "location_label": "Hacienda La Ventilla stone dam (Presa Dolores), Villa de Reyes, SLP, Mexico",
+      "lat": 21.77389,
+      "lng": -101.03028,
+      "geo_accuracy": "region",
+      "geo_source": "Spanish Wikipedia / Wikidata Q20256098 La Ventilla 21°46′26″N, 101°01′49″W (21.77389, −101.03028). Fox stood at the Presa Dolores breach in this locality; SLP tourism: stone dam at the hacienda.",
+      "river_or_facility": "Presa Dolores / Presa La Ventilla (hacienda masonry irrigation dam)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Tropical wave 33 rain on 14–15 August 2002 overtopped and tore a large breach (boquete) in the 1848 masonry irrigation dam at La Ventilla. CNA satellite note: strongest activity 19:00 on 14 August to 06:00 on 15 August.",
+      "incident_date": "2002-08-15",
+      "latest_report_date": "2002-09-05",
+      "what_happened": "On the night of 14–15 August 2002 the masonry irrigation dam at La Ventilla, Villa de Reyes, San Luis Potosí, failed in tropical-wave-33 rain. Protección Civil / CNA called the structure presa La Ventilla and said it was totally lost (CNA via La Jornada). President Fox visited the community on 16 August and stood at the large breach the water had torn in Presa Dolores (La Jornada 17 Aug). Governor Silva Nieto: the work dates from 1848; there had been an overflow in 1976, not of this size. El País (16 Aug), citing Gobernación spokesman Carlos Gelista: nine people from two families died in San Luis Potosí where La Ventilla overflowed; two people missing; 450 ha of crops damaged; four shelters for about 1,500. La Jornada: about 300 houses damaged and 600 people in shelters in Villa de Reyes. DOF FONDEN: atypical rains 14–16 August in Villa de Reyes. Statewide SLP+Zacatecas death totals are not copied onto this dam.",
+      "status": "Failed August 2002 (large breach). Later local monitoring still refers to a Presa La Ventilla in Villa de Reyes.",
+      "deaths": 9,
+      "sources": [
+        {
+          "label": "El País — 11 dead after two dams overflowed (Gelista: 9 at La Ventilla)",
+          "url": "https://elpais.com/internacional/2002/08/16/actualidad/1029448802_850215.html"
+        },
+        {
+          "label": "Proceso — emergency; La Ventilla plus four Zacatecas dams",
+          "url": "https://www.proceso.com.mx/nacional/2002/8/15/estado-de-emergencia-en-slp-zacatecas-hay-15-muertos-en-total-5596.html"
+        },
+        {
+          "label": "La Jornada 17 Aug 2002 — Fox at Presa Dolores boquete; 9 dead (snippet cache)",
+          "url": "https://www.jornada.com.mx/2002/08/17/026n1est.php?origen=index.html"
+        },
+        {
+          "label": "DOF 5 Sep 2002 — FONDEN disaster declaration Villa de Reyes 14–16 Aug",
+          "url": "https://diariooficial.gob.mx/nota_detalle.php?codigo=720622&fecha=05%2F09%2F2002"
+        },
+        {
+          "label": "Wikidata Q20256098 — La Ventilla coordinates",
+          "url": "https://www.wikidata.org/wiki/Q20256098"
+        },
+        {
+          "label": "SLP tourism — Hacienda La Ventilla stone dam",
+          "url": "https://turismo.slp.gob.mx/lugares/hacienda-la-ventilla/"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "160 houses and 2,000 damnificados in Villa García (La Jornada); El País: three shelters for about 1,000",
+      "notes": "Deaths 2 from El País 16 Aug for this dam. Do not copy the lumped Zacatecas 2 dead / 4 missing for four dams, nor the SLP+Zacatecas regional total.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "more than 30 million pesos in Villa García municipality (La Jornada, state government)",
+      "investigating_agency": "CNA Zacatecas; Protección Civil",
+      "verification": "confirmed",
+      "id": "el-capulin-villa-garcia-2002-08-15",
+      "name": "El Capulín Dam (Villa García)",
+      "country": "Mexico",
+      "region": "Ejido El Capulín / Presa del Capulín, Villa García Municipality, Zacatecas",
+      "location_label": "Presa El Capulín, Villa García, Zacatecas, Mexico",
+      "lat": 22.19556,
+      "lng": -101.94556,
+      "geo_accuracy": "region",
+      "geo_source": "GeoNames 8870675 / Swedish Wikipedia Presa del Capulín settlement, Villa García, 22°11′44″N 101°56′44″W (22.19556, −101.94556). Rehabilitation project: Ejido El Capulín, Villa García.",
+      "river_or_facility": "Presa El Capulín (irrigation storage)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "CNA state manager Oscar Gutiérrez Santana (La Jornada): collapse after 71.5 mm of rain; lack of desilting (desazolve) was given as the cause.",
+      "incident_date": "2002-08-15",
+      "latest_report_date": "2002-08-17",
+      "what_happened": "On 14–15 August 2002 tropical-wave-33 rain overflowed and collapsed Presa El Capulín at Villa García, Zacatecas. El País (16 Aug), citing Gelista / Gobernación: two people died and one was missing at this dam; three shelters for about 1,000 in Villa García. La Jornada 17 Aug: 160 houses affected, about ten cars lost, 2,000 damnificados in Villa García; CNA measured 71.5 mm and blamed lack of desilting. Proceso listed El Capulín together with Malpaso, Santa Rosa and El Fuerte as Zacatecas overflows; El País attributes the two Zacatecas deaths specifically to El Capulín. The other three named Zacatecas dams are not given separate death counts here.",
+      "status": "Collapsed / overflowed August 2002. Later rehabilitation of the curtain is described in a local project sheet.",
+      "deaths": 2,
+      "sources": [
+        {
+          "label": "El País — El Capulín overflow; 2 dead (16 Aug 2002)",
+          "url": "https://elpais.com/internacional/2002/08/16/actualidad/1029448802_850215.html"
+        },
+        {
+          "label": "La Jornada 17 Aug 2002 — CNA 71.5 mm; lack of desilting (snippet cache)",
+          "url": "https://www.jornada.com.mx/2002/08/17/026n1est.php?origen=index.html"
+        },
+        {
+          "label": "Proceso — El Capulín among four Zacatecas dams",
+          "url": "https://www.proceso.com.mx/nacional/2002/8/15/estado-de-emergencia-en-slp-zacatecas-hay-15-muertos-en-total-5596.html"
+        },
+        {
+          "label": "Swedish Wikipedia / GeoNames — Presa del Capulín, Villa García",
+          "url": "https://sv.wikipedia.org/wiki/Presa_del_Capul%C3%ADn"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "more than 6,700 households / 80 ha (Aragón-Durand 2009 via SciELO); thousands of residents on rooftops (La Jornada)",
+      "notes": "Deaths null. Do not copy regional storm deaths onto this levee. 7 m vs 16 m opening: both contemporaneous; recorded as a range.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "La Jornada: 7 m edge opening (also a 3 m boquete in one paragraph); Protección Civil Edomex via Milenio: 16 m fracture in the lower left bordo",
+      "downstream_risk": "Valle de Chalco, Chalco, Ixtapaluca; Mexico–Puebla highway",
+      "economic_damage": null,
+      "investigating_agency": "CNDH (Rec. 16/2000); CONAGUA; CENAPRED; Protección Civil Edomex",
+      "verification": "confirmed",
+      "id": "canal-la-compania-2000-06-01",
+      "name": "Canal de La Compañía levee (Valle de Chalco 2000)",
+      "country": "Mexico",
+      "region": "Valle de Chalco Solidaridad / Chalco / Ixtapaluca, State of Mexico",
+      "location_label": "Canal de La Compañía at Mexico–Puebla km 27+600, Valle de Chalco, Mexico",
+      "lat": 19.29167,
+      "lng": -98.93889,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Valle de Chalco Solidaridad 19°17′30″N 98°56′20″W (19.29167, −98.93889). La Jornada / Milenio: main 2000 opening at km 27+600 of the Mexico–Puebla highway; further fractures at colonia El Molino, Ixtapaluca.",
+      "river_or_facility": "Canal / Río La Compañía (open sewage and storm canal; levee bordos)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "La Jornada 2 June 2000: neighbours had reported wall fractures for more than three years; torrential rain from 21:00 on 31 May tore a section of the canal bordo.",
+      "incident_date": "2000-06-01",
+      "latest_report_date": "2000",
+      "what_happened": "In the early hours of 1 June 2000 a levee of the Canal de La Compañía sewage-and-storm canal failed at Valle de Chalco, State of Mexico. La Jornada (2 June): rain from 21:00 on 31 May; about 5,000 people climbed onto roofs as water reached almost 2 m; a 7 m opening in the canal edge, and two fractures at El Molino, Ixtapaluca; main opening near km 27+600 of the Mexico–Puebla highway. Milenio (citing Protección Civil Edomex / CENAPRED): a 16 m fracture in the lower left bordo; DOF emergency for Chalco, Valle de Chalco and Ixtapaluca. CNDH Recomendación 16/2000 opened an ex officio file on the 1 June bordo rupture. Academic review (Aragón-Durand 2009 via SciELO): 80 ha flooded; more than 6,700 households affected. No sourced death count for this levee.",
+      "status": "Levee repaired; canal later piped. Failed again in February 2010 (separate record).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "La Jornada 2 June 2000 — Valle de Chalco canal bordo collapse",
+          "url": "https://www.jornada.com.mx/2000/06/02/valle.html"
+        },
+        {
+          "label": "CNDH Recomendación 16/2000 — 1 June 2000 La Compañía bordo rupture",
+          "url": "https://www.cndh.org.mx/sites/default/files/doc/Recomendaciones/2000/REC_2000_016.pdf"
+        },
+        {
+          "label": "Milenio — 2000 La Compañía overflow retrospective",
+          "url": "https://www.milenio.com/estados/inundacion-chalco-2000-cuando-canal-la-compania-se-desbordo"
+        },
+        {
+          "label": "SciELO — Valle de Chalco Solidaridad case study (2000/2010 LCC)",
+          "url": "http://www.scielo.org.mx/scielo.php?pid=S0188-46112018000300011&script=sci_arttext"
+        },
+        {
+          "label": "Wikipedia — Valle de Chalco Solidaridad coordinates",
+          "url": "https://en.wikipedia.org/wiki/Valle_de_Chalco"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 2,000 dwellings and more than 12,000 inhabitants in named Valle de Chalco colonias (La Jornada 6 Feb 2010)",
+      "notes": "Deaths null. Do not use the two burned truck drivers or the 25 deaths in four entities as this levee's death toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "Luege 6 Feb: more than 70 m long, 20 m wide, 5 m high; CONAGUA 14 Feb: boquete more than 50 m",
+      "downstream_risk": "Valle de Chalco, Chalco, Mexico–Puebla highway",
+      "economic_damage": null,
+      "investigating_agency": "CONAGUA; Segob / Protección Civil",
+      "verification": "confirmed",
+      "id": "canal-la-compania-2010-02-05",
+      "name": "Canal de La Compañía levee (Valle de Chalco 2010)",
+      "country": "Mexico",
+      "region": "Colonias Avándaro, El Triunfo, San Isidro, Valle de Chalco Solidaridad, State of Mexico",
+      "location_label": "Canal de La Compañía left dike, Valle de Chalco / Mexico–Puebla km 27.5, Mexico",
+      "lat": 19.29167,
+      "lng": -98.93889,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Valle de Chalco Solidaridad 19.29167, −98.93889. La Jornada: Avándaro / El Triunfo / San Isidro; CONAGUA later worked km 27.5–28.5 of the Mexico–Puebla highway.",
+      "river_or_facility": "Canal / Río La Compañía left-bank dike",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "CONAGUA director Luege (La Jornada 6 Feb 2010): a containment wall fractured at 01:30 on 5 February; he called the opening similar to the 2000 catastrophe in the same municipality.",
+      "incident_date": "2010-02-05",
+      "latest_report_date": "2010-02-15",
+      "what_happened": "At 01:30 on 5 February 2010 a containment wall of Canal Río La Compañía fractured at colonia Avándaro, Valle de Chalco. La Jornada 6 Feb: sewage covered the Mexico–Puebla highway within minutes; CONAGUA's José Luis Luege Tamargo described an opening more than 70 m long, 20 m wide and 5 m high, similar to 2000. Same paper: about 2,000 dwellings flooded and more than 12,000 inhabitants affected in Avándaro, El Triunfo, Unión de Guadalupe and San Isidro. Segob emergency for Ecatepec, Nezahualcóyotl and Valle de Chalco (this canal plus the same-week Los Remedios break). La Jornada 15 Feb: CONAGUA closed a boquete of more than 50 m on 14 February and reopened the highway; pumping up to 8 m³/s via the deep tunnel; highway water up to 2.50 m. Two truck drivers who burned after crashing in the floodwaters are a traffic event in the inundation, not recorded as dam deaths. The four-state 25-death rain total is not copied onto this levee.",
+      "status": "Boquete closed 14 February 2010 (CONAGUA). Canal later piped.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "La Jornada 6 Feb 2010 — La Compañía dike fracture; Luege 70×20×5 m",
+          "url": "https://www.jornada.com.mx/2010/02/06/estados/023n1est"
+        },
+        {
+          "label": "La Jornada 6 Feb 2010 — 2,000 dwellings / 12,000 inhabitants",
+          "url": "https://www.jornada.com.mx/2010/02/06/estados/022n1est"
+        },
+        {
+          "label": "La Jornada 15 Feb 2010 — boquete closed after 10 days",
+          "url": "https://www.jornada.com.mx/2010/02/15/estados/033n1est"
+        },
+        {
+          "label": "Wikipedia — Valle de Chalco Solidaridad coordinates",
+          "url": "https://en.wikipedia.org/wiki/Valle_de_Chalco"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Peña Nieto: 1,500 dwellings Ecatepec and 2,500 Nezahualcóyotl; 15,000–20,000 people. La Jornada 6 Feb: same house counts",
+      "notes": "Deaths null. Separate from the 5 February La Compañía break ~25 km SSE.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 30 m (municipal officials / Peña Nieto)",
+      "downstream_risk": "Colonias Valle de Aragón, Plazas de Aragón, Impulsora (Neza); Ecatepec riverside colonias",
+      "economic_damage": null,
+      "investigating_agency": "CONAGUA; CAEM; Protección Civil Edomex",
+      "verification": "confirmed",
+      "id": "rio-los-remedios-2010-02-04",
+      "name": "Río de los Remedios levee (Ecatepec–Neza 2010)",
+      "country": "Mexico",
+      "region": "Periférico Oriente × Circuito Exterior Mexiquense, Ecatepec / Nezahualcóyotl, State of Mexico",
+      "location_label": "Río de los Remedios dike at Periférico Oriente and Circuito Exterior Mexiquense, Mexico",
+      "lat": 19.48713,
+      "lng": -99.01611,
+      "geo_accuracy": "approx",
+      "geo_source": "OSM / geoview Circuito Exterior Mexiquense Bicentenario way at this interchange 19.48713, −99.01611. Peña Nieto / La Jornada: fracture at that crossing.",
+      "river_or_facility": "Río / Canal de los Remedios levee (sewage canal)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Governor Peña Nieto (5 Feb 2010): the embankment fractured at Periférico Oriente and Circuito Exterior Mexiquense under extra pressure from more than 30 hours of unusual rain.",
+      "incident_date": "2010-02-04",
+      "latest_report_date": "2010-02-09",
+      "what_happened": "On the afternoon of 4 February 2010 a roughly 30 m fracture opened in the Río de los Remedios sewage-canal levee at the Periférico Oriente / Circuito Exterior Mexiquense crossing on the Ecatepec–Nezahualcóyotl line. La Jornada 6 Feb: municipal officials said the 30 m fracture was plugged overnight with concrete blocks and sacks; 2,500 houses affected in Nezahualcóyotl and 1,500 in Ecatepec. Peña Nieto on 5 Feb: 15,000–20,000 people affected in both localities; 1,500 dwellings with some damage in Ecatepec and 2,500 in Nezahualcóyotl. Neighbours in Plazas de Aragón had warned four months earlier of a pavement fracture at that dike (La Jornada 9 Feb). No sourced death count for this levee. The four-state rain death total is not copied here.",
+      "status": "Plugged 4–5 February 2010; steel sheet piles later. A later distributor bridge was built over this crossing.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "La Jornada 6 Feb 2010 — 30 m Los Remedios fracture",
+          "url": "https://www.jornada.com.mx/2010/02/06/estados/022n1est"
+        },
+        {
+          "label": "Panorama del Pacífico 5 Feb 2010 — Peña Nieto at the crossing",
+          "url": "https://www.panoramadelpacifico.com/inician-trabajos-de-reparacion-en-fractura-de-rio-de-los-remedios/"
+        },
+        {
+          "label": "La Jornada 9 Feb 2010 — Neza damage; prior pavement warning",
+          "url": "https://www.jornada.com.mx/2010/02/09/estados/029n1est"
+        },
+        {
+          "label": "geoview — Circuito Exterior Mexiquense at the interchange",
+          "url": "https://mx.geoview.info/circuito_exterior_mexiquense_bicentenario,186463163w"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from Autlán's Jalisco namesake. Profepa's Jan 2003 Malila air-emission fine is a separate enforcement action.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Compañía Minera Autlán",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 4,000 m³ (SEMARNAT / CNA via Defiende La Sierra)",
+      "breach_size": null,
+      "downstream_risk": "Arroyo Cuatitlanapa; houses and roads about 1 km downstream",
+      "economic_damage": null,
+      "investigating_agency": "CNA (dictamen); SEMARNAT",
+      "verification": "confirmed",
+      "id": "autlan-molango-tsf-2003-01-05",
+      "name": "Minera Autlán Molango tailings dam",
+      "country": "Mexico",
+      "region": "Unidad Molango / Malila, Molango de Escamilla, Hidalgo",
+      "location_label": "Autlán manganese tailings dam, Molango, Hidalgo, Mexico",
+      "lat": 20.79,
+      "lng": -98.73,
+      "geo_accuracy": "region",
+      "geo_source": "OCMAL Unidad Molango, minera Autlán 20.79, −98.73. Wikipedia Molango town 20.78444, −98.71750 is the municipal seat, not a surveyed crest.",
+      "river_or_facility": "Compañía Minera Autlán Molango tailings dam; Arroyo Cuatitlanapa",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "CNA dictamen (Defiende La Sierra citing the commission): poor compaction of the embankment, extra horizontal load from a raise without a stability analysis, a very steep/slender slope; piping from the poor compaction not ruled out.",
+      "incident_date": "2003-01-05",
+      "latest_report_date": "2009",
+      "what_happened": "On 5 January 2003 the tailings-dam bordo at Compañía Minera Autlán's Molango manganese operation, Hidalgo, collapsed. SEMARNAT recuento (Reforma / Adriana Alatorre via vLex): about 4,000 m³ of hazardous residues spilled, some reaching Arroyo Cuatitlanapa. Defiende La Sierra, citing the CNA dictamen: about 1.4 ha affected; tailings deposited about 1 km downstream, joined Cuatitlanapa, and affected houses and roads. SEMARNAT's 1987–2008 recuento lists this among at least 19 important Mexican tailings-dam accidents. No sourced death count.",
+      "status": "Historical TSF bordo collapse. Autlán Molango unit remained in operation in later years.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "vLex / Reforma — SEMARNAT recuento; Autlán Jan 2003 4,000 m³",
+          "url": "https://vlex.com.mx/vid/contaminan-agua-residuos-mineros-76827521"
+        },
+        {
+          "label": "Defiende La Sierra — Autlán 5 Jan 2003; CNA dictamen",
+          "url": "https://defiendelasierra.org/accidentes-mineros/"
+        },
+        {
+          "label": "OCMAL — Unidad Molango Autlán coordinates 20.79, −98.73",
+          "url": "https://mapa.conflictosmineros.net/ocmal_db-v2/proyecto/view/546"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Volume left as a sourced range; not averaged. PROFEPA later disputed public-health risk; the rupture itself is not disputed.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Minerales y Minas Mexicanas (Grupo México concession)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "range in sourced figures: 150,000 t (mayor/company), about 300,000 t (Gaceta UDG / PROFEPA), about 400,000 t (workers via La Jornada)",
+      "breach_size": null,
+      "downstream_risk": "Río Bolaños; Chimaltitlán, San Martín, La Joya, Mamantla",
+      "economic_damage": null,
+      "investigating_agency": "PROFEPA Jalisco; CONAGUA",
+      "verification": "confirmed",
+      "id": "bolanos-tsf-2010-08-07",
+      "name": "Bolaños mine old tailings dam",
+      "country": "Mexico",
+      "region": "Bolaños, northern Jalisco (Sierra Los Huicholes)",
+      "location_label": "Old Bolaños silver-mine tailings dam, Bolaños, Jalisco, Mexico",
+      "lat": 21.83056,
+      "lng": -103.78056,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Bolaños Municipality seat 21°49′50″N 103°46′50″W (21.83056, −103.78056). La Jornada: the mine and town share the name.",
+      "river_or_facility": "Mina Bolaños old tailings dam (Minerales y Minas Mexicanas / Grupo México); Río Bolaños",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance",
+        "structural_design"
+      ],
+      "cause_summary": "Mine workers (La Jornada 16 Aug 2010): part of the old tailings-dam curtain collapsed the night of 7 August; they said they had warned the dam was poorly designed and managers only ordered desilting.",
+      "incident_date": "2010-08-07",
+      "latest_report_date": "2010-09",
+      "what_happened": "On the night of 7 August 2010 part of the curtain of the old tailings dam at the Bolaños silver-gold mine, Bolaños, Jalisco, collapsed into the Río Bolaños. La Jornada 16 Aug (workers / Grupo México mine): the old dam held about 2 million tonnes; employees said about 400,000 tonnes had entered the river by that Sunday. Gaceta UDG: rupture on Sunday 8 August of a Minerales y Minas Mexicanas dam, 300,000 tonnes, carried 32 km; UAG lab the next day reported lead 479.08 ppm vs NOM-127 0.025, arsenic 0.45 vs 0.05, mercury 0.14 vs 0.001. Municipal president López Raygoza (Agustín del Castillo): company estimate at least 150,000 tonnes of 20-year-old stored material, reaching past San Martín de Bolaños; fish kill, no cattle deaths reported to him. PROFEPA later said accredited tests were below limits and still opened a case for the abandoned dam (about 300,000 tonnes of mud). No sourced human death count.",
+      "status": "Old TSF curtain failed August 2010; PROFEPA required stabilization and an abandonment programme.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "La Jornada 16 Aug 2010 — Bolaños old TSF curtain; night of 7 Aug",
+          "url": "https://www.jornada.com.mx/2010/08/16/estados/032n2est"
+        },
+        {
+          "label": "Gaceta UDG — 300,000 t; UAG metal analyses",
+          "url": "https://www.gaceta.udg.mx/en-las-aguas-turbias-del-rio-bolanos/"
+        },
+        {
+          "label": "Agustín del Castillo — mayor: at least 150,000 t",
+          "url": "http://agustindelcastillo.blogspot.com/2010/08/mina-descargo-150-mil-toneladas-al-rio.html"
+        },
+        {
+          "label": "Wikipedia — Bolaños Municipality coordinates",
+          "url": "https://en.wikipedia.org/wiki/Bola%C3%B1os_Municipality"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Year-only date as given in the CNA/SEMARNAT compilation. Deaths null. Distinct from the 1996 No. 5 and 1997 No. 2 spills.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Industriales Peñoles S.A. de C.V. (then)",
+      "year_built": "1970s",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 1,500 tonnes of tailings (Defiende La Sierra / CNA file)",
+      "breach_size": null,
+      "downstream_risk": "Maconí channels and Río Moctezuma about 10 km",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "la-negra-3-1987",
+      "name": "La Negra tailings dam No. 3 (Maconí)",
+      "country": "Mexico",
+      "region": "Maconí, Cadereyta de Montes, Querétaro",
+      "location_label": "La Negra mine tailings dam No. 3, Maconí, Querétaro, Mexico",
+      "lat": 20.835173,
+      "lng": -99.522369,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia La Negra mine 20°50′07″N 99°31′21″W (20.835173, −99.522369); five TSFs upstream of the Maconí. SciELO: deposit 3 is 530 m from the river.",
+      "river_or_facility": "La Negra / Industrias Peñoles tailings dam No. 3; Maconí / Moctezuma",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Defiende La Sierra (CNA/SEMARNAT-cited compilation): torrential rain caused sloughing (desgajamiento) of the No. 3 tailings-dam curtain.",
+      "incident_date": "1987",
+      "latest_report_date": "2013",
+      "what_happened": "In 1987 the curtain of tailings dam No. 3 at La Negra mine, Maconí, Cadereyta, Querétaro, sloughed in torrential rain (Defiende La Sierra, citing the CNA/SEMARNAT accident file). About 1,500 tonnes of tailings; impact reached the Río Moctezuma about 10 km away. SEMARNAT's 1987–2008 recuento (Reforma) names important La Negra spills in 1987, 1996 and 1997 affecting the Moctezuma. Santos-Jallath et al., Boletín SGM 65(3) 2013: Mexican environmental authorities (Cofemer 2012) recorded three tailings spills onto the channels of deposits 2, 3 and 5 during the first operating period (1970–2000). No sourced death count.",
+      "status": "Deposit 3 later closed (SciELO 2013: deposits 1–4 closed; 5 operating).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Defiende La Sierra — La Negra No. 3 1987; 1,500 t",
+          "url": "https://defiendelasierra.org/accidentes-mineros/"
+        },
+        {
+          "label": "vLex / Reforma — SEMARNAT recuento; La Negra 1987/1996/1997",
+          "url": "https://vlex.com.mx/vid/contaminan-agua-residuos-mineros-76827521"
+        },
+        {
+          "label": "Santos-Jallath et al., Bol. SGM 65(3) 2013 — three Cofemer spills 1970–2000",
+          "url": "https://www.scielo.org.mx/scielo.php?pid=S1405-33222013000300015&script=sci_arttext"
+        },
+        {
+          "label": "Wikipedia — La Negra mine (coords; five TSFs)",
+          "url": "https://en.wikipedia.org/wiki/La_Negra_mine"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Decant/appurtenance spill, not a full curtain collapse. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Industriales Peñoles S.A. de C.V. (then)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 50 tonnes (Defiende La Sierra / CNA file)",
+      "breach_size": null,
+      "downstream_risk": "about 4 km down the deposit-5 channel toward the Maconí",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "la-negra-5-1996",
+      "name": "La Negra tailings dam No. 5 decant (Maconí)",
+      "country": "Mexico",
+      "region": "Maconí, Cadereyta de Montes, Querétaro",
+      "location_label": "La Negra mine tailings dam No. 5, Maconí, Querétaro, Mexico",
+      "lat": 20.835173,
+      "lng": -99.522369,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia La Negra mine 20.835173, −99.522369. SciELO: deposit 5 is 2,000 m from the Maconí.",
+      "river_or_facility": "La Negra tailings dam No. 5 decant pipe and water-recovery pond",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Defiende La Sierra (CNA/SEMARNAT file): torrential rain and operating errors; tailings escaped through the decant pipe and silted the water-recovery pond.",
+      "incident_date": "1996",
+      "latest_report_date": "2013",
+      "what_happened": "In 1996 tailings dam No. 5 at La Negra, Maconí, spilled through the decant pipe (tubería decantadora), with tailings silted in the water-recovery pond (Defiende La Sierra / CNA file). Cause given as torrential rain and operating errors. About 50 tonnes; impact about 4 km downstream. SEMARNAT recuento and Santos-Jallath et al. 2013 (Cofemer 2012) confirm a No. 5-channel spill in the 1970–2000 operating period. No sourced death count.",
+      "status": "Deposit 5 was the operating TSF as of the 2013 SciELO paper.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Defiende La Sierra — La Negra No. 5 1996 decant spill; 50 t",
+          "url": "https://defiendelasierra.org/accidentes-mineros/"
+        },
+        {
+          "label": "vLex / Reforma — SEMARNAT recuento; La Negra 1996",
+          "url": "https://vlex.com.mx/vid/contaminan-agua-residuos-mineros-76827521"
+        },
+        {
+          "label": "Santos-Jallath et al., Bol. SGM 65(3) 2013",
+          "url": "https://www.scielo.org.mx/scielo.php?pid=S1405-33222013000300015&script=sci_arttext"
+        },
+        {
+          "label": "Wikipedia — La Negra mine",
+          "url": "https://en.wikipedia.org/wiki/La_Negra_mine"
+        }
+      ],
+      "severity": "minor"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year-only date as given.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Industriales Peñoles S.A. de C.V. (then)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 750 tonnes (Defiende La Sierra / CNA file)",
+      "breach_size": null,
+      "downstream_risk": "Maconí channels and Río Moctezuma about 10 km",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "la-negra-2-1997",
+      "name": "La Negra tailings dam No. 2 (Maconí)",
+      "country": "Mexico",
+      "region": "Maconí, Cadereyta de Montes, Querétaro",
+      "location_label": "La Negra mine tailings dam No. 2, Maconí, Querétaro, Mexico",
+      "lat": 20.835173,
+      "lng": -99.522369,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia La Negra mine 20.835173, −99.522369. SciELO: deposit 2 is 495 m from the Maconí.",
+      "river_or_facility": "La Negra tailings dam No. 2; Maconí / Moctezuma",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Defiende La Sierra (CNA/SEMARNAT file): torrential rain and lack of maintenance of storm-water diversion works; curtain sloughing.",
+      "incident_date": "1997",
+      "latest_report_date": "2013",
+      "what_happened": "In 1997 the curtain of tailings dam No. 2 at La Negra, Maconí, sloughed (Defiende La Sierra / CNA file). Cause given as torrential rain and lack of maintenance of pluvial diversion works. About 750 tonnes; impact reached the Río Moctezuma about 10 km away. Confirmed as one of the three Cofemer-recorded spills on the deposit 2/3/5 channels (Santos-Jallath et al. 2013). No sourced death count.",
+      "status": "Deposit 2 later closed (SciELO 2013).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Defiende La Sierra — La Negra No. 2 1997; 750 t",
+          "url": "https://defiendelasierra.org/accidentes-mineros/"
+        },
+        {
+          "label": "vLex / Reforma — SEMARNAT recuento; La Negra 1997",
+          "url": "https://vlex.com.mx/vid/contaminan-agua-residuos-mineros-76827521"
+        },
+        {
+          "label": "Santos-Jallath et al., Bol. SGM 65(3) 2013",
+          "url": "https://www.scielo.org.mx/scielo.php?pid=S1405-33222013000300015&script=sci_arttext"
+        },
+        {
+          "label": "Wikipedia — La Negra mine",
+          "url": "https://en.wikipedia.org/wiki/La_Negra_mine"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Incident, not a breach. Deaths null. Distinct from the 2013 La Villita gate record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Comisión Federal de Electricidad",
+      "year_built": "1962–1965",
+      "height_m": 149,
+      "reservoir_capacity": "12,000 million m³ (Wikipedia Infiernillo Reservoir)",
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "infiernillo-1979-03-14",
+      "name": "El Infiernillo (Adolfo López Mateos) 1979 earthquake deformation",
+      "country": "Mexico",
+      "region": "Arteaga, Michoacán / La Unión, Guerrero (Balsas River border)",
+      "location_label": "Infiernillo Dam, Balsas River, Michoacán–Guerrero, Mexico",
+      "lat": 18.27306,
+      "lng": -101.89278,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Infiernillo Dam 18°16′23″N 101°53′34″W (18.27306, −101.89278)",
+      "river_or_facility": "Presa Adolfo López Mateos (El Infiernillo), Río Balsas",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "ASCE 1982 (Reséndiz, Romo, Moreno): the 14 March 1979 M 7.6 earthquake, epicentre about 110 km from the dam, produced measurable settlement, slope distortion and cracking. Crest settlement from compaction exceeded that from shear distortion.",
+      "incident_date": "1979-03-14",
+      "latest_report_date": "1982",
+      "what_happened": "On 14 March 1979 the Petatlán earthquake (M 7.6) shook CFE's El Infiernillo (Adolfo López Mateos) rockfill dam on the Balsas (149 m, opened 1965). Reséndiz, Romo and Moreno, Journal of the Geotechnical Engineering Division 108(1) 1982: measurable deformations in both Infiernillo and La Villita, including settlement, slope distortion and cracking; accelerations were recorded on rock and on the embankments. The paper does not describe a breach or loss of the reservoir. No sourced death count for the dam.",
+      "status": "Remained in service. Further seismic deformation in 1985 (separate record).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Reséndiz, Romo, Moreno 1982 — El Infiernillo and La Villita seismic behavior",
+          "url": "https://doi.org/10.1061/AJGEB6.0001225"
+        },
+        {
+          "label": "Wikipedia — Infiernillo Dam (coords, 149 m, 1965)",
+          "url": "https://en.wikipedia.org/wiki/Infiernillo_Dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Incident, not a breach. Distinct from la-villita-gate-2013-05-31 (skipped this slice as already in).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "CONAGUA / CFE",
+      "year_built": null,
+      "height_m": 60,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "la-villita-1979-03-14",
+      "name": "La Villita (José María Morelos) 1979 earthquake deformation",
+      "country": "Mexico",
+      "region": "Lázaro Cárdenas, Michoacán, Río Balsas",
+      "location_label": "La Villita / José María Morelos Dam, Michoacán, Mexico",
+      "lat": 18.047425,
+      "lng": -102.180344,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Presa José María Morelos 18°02′51″N 102°10′49″W (18.047425, −102.180344); same pin as the 2013 gate record.",
+      "river_or_facility": "Presa José María Morelos y Pavón (La Villita), Río Balsas",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "ASCE 1982: the 14 March 1979 M 7.6 event about 110 km away produced measurable settlement, slope distortion and cracking at the 60 m earth-and-rockfill dam.",
+      "incident_date": "1979-03-14",
+      "latest_report_date": "1990",
+      "what_happened": "On 14 March 1979 the same Petatlán M 7.6 earthquake that deformed Infiernillo also produced measurable settlement, slope distortion and cracking at La Villita (José María Morelos), a 60 m earth-and-rockfill dam on the Balsas about 350 km southwest of Mexico City (ASCE 1982; Abdel-Ghaffar and Scott 1990 note five later earthquakes with significant localized deformation). CFE 1980 report: performance including the 14 March 1979 earthquake. The dam was not breached. No sourced death count.",
+      "status": "Remained in service. Further deformation in 1985; radial-gate failure in 2013 is a separate record.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Reséndiz, Romo, Moreno 1982 — Infiernillo and La Villita",
+          "url": "https://doi.org/10.1061/AJGEB6.0001225"
+        },
+        {
+          "label": "ASCE 1990 — La Villita response during five earthquakes",
+          "url": "https://ascelibrary.org/doi/10.1061/%28ASCE%290733-9410%281990%29116%3A10%281443%29"
+        },
+        {
+          "label": "Spanish Wikipedia — Presa José María Morelos (coords)",
+          "url": "https://es.wikipedia.org/wiki/Presa_Jos%C3%A9_Mar%C3%ADa_Morelos"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the 1985 Mexico City earthquake death toll onto this dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Comisión Federal de Electricidad",
+      "year_built": "1962–1965",
+      "height_m": 149,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "infiernillo-1985-09-19",
+      "name": "El Infiernillo 1985 Michoacán earthquake settlement",
+      "country": "Mexico",
+      "region": "Arteaga, Michoacán / La Unión, Guerrero (Balsas River border)",
+      "location_label": "Infiernillo Dam, Balsas River, Michoacán–Guerrero, Mexico",
+      "lat": 18.27306,
+      "lng": -101.89278,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Infiernillo Dam 18.27306, −101.89278",
+      "river_or_facility": "Presa Adolfo López Mateos (El Infiernillo), Río Balsas",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "Romo and Villarraga 1989 (cited in MST 1991 conference paper): 12.7 cm of the dam's post-construction settlement was recorded immediately after the 19 September 1985 main events; overall seismic behavior described as good, with longitudinal cracks at the core–backfill interfaces.",
+      "incident_date": "1985-09-19",
+      "latest_report_date": "1991",
+      "what_happened": "The 19 September 1985 Michoacán earthquake (and aftershocks) produced further deformation at El Infiernillo, about 68–146 km from the epicentre depending on the paper. Geotechnical lessons paper (MST / Jaime et al. citing Romo and Villarraga 1989): overall seismic behavior good; longitudinal cracks probably from differential settlement at core–backfill interfaces; Infiernillo had settled 1.65 m (0.2% of height) since completion in 1965, of which 12.7 cm was recorded immediately after the 1985 main events; 66% of settlement concentrated in the upper 60 m. No breach. No sourced death count for the dam. National 1985 earthquake deaths are not copied here.",
+      "status": "Remained in service after 1985.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "MST 1991 — Geotechnical lessons; Infiernillo 12.7 cm after 1985",
+          "url": "https://scholarsmine.mst.edu/context/icrageesd/article/3637/viewcontent/Geotechnical_lessons_learned_from_Mexico_and_other_recent_earthquakes.pdf"
+        },
+        {
+          "label": "Wikipedia — Infiernillo Dam",
+          "url": "https://en.wikipedia.org/wiki/Infiernillo_Dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from la-villita-gate-2013-05-31.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "CONAGUA / CFE",
+      "year_built": null,
+      "height_m": 60,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "la-villita-1985-09-19",
+      "name": "La Villita 1985 Michoacán earthquake settlement",
+      "country": "Mexico",
+      "region": "Lázaro Cárdenas, Michoacán, Río Balsas",
+      "location_label": "La Villita / José María Morelos Dam, Michoacán, Mexico",
+      "lat": 18.047425,
+      "lng": -102.180344,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Presa José María Morelos 18.047425, −102.180344",
+      "river_or_facility": "Presa José María Morelos y Pavón (La Villita), Río Balsas",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "MST 1991 paper citing González-Valencia 1986: La Villita saw 0.7 g transverse acceleration; 31.8 cm vertical settlement and about 15 cm horizontal from the main shock and aftershocks; longitudinal cracking limited to the crest road base.",
+      "incident_date": "1985-09-19",
+      "latest_report_date": "1991",
+      "what_happened": "The 19 September 1985 Michoacán earthquake produced the largest of several documented localized deformations at La Villita. MST 1991 / González-Valencia 1986: maximum acceleration 0.7 g transversely; maximum vertical settlement from the main shock and aftershocks 31.8 cm; horizontal displacements about 15 cm; longitudinal cracking affected only the road base on the crest. Overall seismic behavior described as good; the dam was not breached. No sourced death count for the dam. National 1985 deaths are not copied here.",
+      "status": "Remained in service. 2013 radial-gate failure is a separate record.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "MST 1991 — La Villita 31.8 cm / 0.7 g in 1985",
+          "url": "https://scholarsmine.mst.edu/context/icrageesd/article/3637/viewcontent/Geotechnical_lessons_learned_from_Mexico_and_other_recent_earthquakes.pdf"
+        },
+        {
+          "label": "ASCE 1990 — La Villita five-earthquake deformations",
+          "url": "https://ascelibrary.org/doi/10.1061/%28ASCE%290733-9410%281990%29116%3A10%281443%29"
+        },
+        {
+          "label": "Spanish Wikipedia — Presa José María Morelos",
+          "url": "https://es.wikipedia.org/wiki/Presa_Jos%C3%A9_Mar%C3%ADa_Morelos"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year-only date. Compilation says Colima; pin is the named Cuale district in Jalisco.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Grupo Peñoles",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "more than 2,000 tonnes of tailings (Defiende La Sierra / CNA file)",
+      "breach_size": null,
+      "downstream_risk": "50 km downstream (compilation; river not named in the fetched extract)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "cuale-tsf-1990",
+      "name": "El Cuale tailings dam (Peñoles)",
+      "country": "Mexico",
+      "region": "Cuale mining district, Talpa de Allende area, Jalisco (Peñoles)",
+      "location_label": "El Cuale district tailings dam, Jalisco, Mexico",
+      "lat": 20.37694,
+      "lng": -105.10667,
+      "geo_accuracy": "region",
+      "geo_source": "PorterGeo Cuale District centred on 20°22′37″N, 105°06′24″W (20.37694, −105.10667). Defiende La Sierra lists the operator as Grupo Peñoles and the state as Colima; the named Cuale district is in Jalisco.",
+      "river_or_facility": "Mina Cuale / Grupo Peñoles tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "structural_design"
+      ],
+      "cause_summary": "Defiende La Sierra (CNA/SEMARNAT file): curtain sloughing from lack of torrential-flow diversion works.",
+      "incident_date": "1990",
+      "latest_report_date": "1990",
+      "what_happened": "In 1990 the tailings-dam bordo at Mina Cuale (Grupo Peñoles) sloughed because storm-water diversion works were lacking (Defiende La Sierra / CNA file). More than 2,000 tonnes of tailings; the spill reached 50 km downstream. PorterGeo: Peñoles-era Cuale district mining (Zimapán S.A. de C.V. in the 1980s) ceased in 1989 once easy reserves were mined. No sourced death count. The compilation's 'Colima' label is kept as a source wording; the named Cuale district coordinates used here are Jalisco.",
+      "status": "Historical TSF slough; district mining had largely ceased by 1989–1990.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Defiende La Sierra — Mina Cuale 1990; >2,000 t; 50 km",
+          "url": "https://defiendelasierra.org/accidentes-mineros/"
+        },
+        {
+          "label": "PorterGeo — Cuale District centre coordinates",
+          "url": "https://portergeo.com.au/database/mineinfo.asp?mineid=mn1805"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year-only date as given. Do not copy the 1995 Colima earthquake regional death toll onto this TSF.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Peña Colorada (later Consorcio Minero Benito Juárez / ArcelorMittal interest)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "pena-colorada-1995",
+      "name": "Peña Colorada tailings dam (1995 earthquake slide)",
+      "country": "Mexico",
+      "region": "Minatitlán, Colima (Manzanillo Municipality)",
+      "location_label": "Peña Colorada iron-ore tailings dam, Minatitlán, Colima, Mexico",
+      "lat": 19.379191,
+      "lng": -104.103721,
+      "geo_accuracy": "approx",
+      "geo_source": "GEM ArcelorMittal Peña Colorada Mine 19.379191, −104.103721 (exact mine asset). Mindat Peña Colorada 19°22′32″N, 104°06′00″W nearby.",
+      "river_or_facility": "Mina Peña Colorada tailings dam",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "Defiende La Sierra (CNA/SEMARNAT file): curtain slide in a magnitude-7.5 earthquake with epicentral distance 55 km.",
+      "incident_date": "1995",
+      "latest_report_date": "1995",
+      "what_happened": "In 1995 the tailings-dam curtain at Peña Colorada, Minatitlán, Colima, slid during a magnitude-7.5 earthquake 55 km away (Defiende La Sierra / CNA file). The compilation does not give a release volume or deaths. The dam is not described as a full breach. National/regional 1995 Colima earthquake deaths are not copied onto this TSF.",
+      "status": "Mine remained a major iron operation (later ArcelorMittal / Consorcio Minero Benito Juárez Peña Colorada).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Defiende La Sierra — Peña Colorada 1995 seismic curtain slide",
+          "url": "https://defiendelasierra.org/accidentes-mineros/"
+        },
+        {
+          "label": "GEM — ArcelorMittal Peña Colorada Mine coordinates",
+          "url": "https://www.gem.wiki/ArcelorMittal_Pena_Colorada_Mine"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Not the 1937 Los Cedros Michoacán TSF (already in). Arroyo Los Cedros here is the Guanajuato drainage.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Minera Las Torres",
+      "year_built": null,
+      "height_m": 26.62,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "more than 1,000 tonnes of tailings (CNA file / CIATEC thesis)",
+      "breach_size": null,
+      "downstream_risk": "Arroyo Los Cedros up to 15 km",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "las-torres-coronelas-1988",
+      "name": "Las Torres / Las Coronelas 1 tailings dam culvert",
+      "country": "Mexico",
+      "region": "Guanajuato, Guanajuato (Las Torres TSF / Arroyo Los Cedros)",
+      "location_label": "Las Coronelas I cell, Las Torres TSF, Guanajuato, Mexico",
+      "lat": 20.984486,
+      "lng": -101.217711,
+      "geo_accuracy": "approx",
+      "geo_source": "Fresnillo plc 21 June 2019 Church of England tailings statement: Las Coronelas I 20°59′4.15″N, 101°13′3.76″W (20.984486, −101.217711).",
+      "river_or_facility": "Presa Las Coronelas 1, Mina Las Torres; Arroyo Los Cedros",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "Defiende La Sierra (CNA/SEMARNAT file) and CIATEC thesis table: rupture of the central culvert (alcantarilla) of Presa Las Coronelas 1 from calculation errors.",
+      "incident_date": "1988",
+      "latest_report_date": "2011",
+      "what_happened": "In 1988 the central culvert of Presa Las Coronelas 1 at Mina Las Torres, Guanajuato, ruptured because of calculation errors (Defiende La Sierra / CNA file; same wording in José Esparza CIATEC 2011 thesis table of Guanajuato tailings accidents). More than 1,000 tonnes of tailings; impact on Arroyo Los Cedros up to 15 km. Fresnillo 2019 statement lists Las Torres TSF as three upstream deposits in six cells, including Coronelas I (26.62 m) owned by Minera Las Torres, inactive. No sourced death count.",
+      "status": "Coronelas I inactive as of the 2019 Fresnillo statement.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Defiende La Sierra — Las Torres / Coronelas 1 1988; >1,000 t",
+          "url": "https://defiendelasierra.org/accidentes-mineros/"
+        },
+        {
+          "label": "Esparza CIATEC 2011 thesis — same Coronelas 1 / Los Cedros table",
+          "url": "https://ciatec.repositorioinstitucional.mx/jspui/bitstream/1019/13/1/tesis%20Jose%20Esparza%2008-02-2011_c%20%281%29.pdf"
+        },
+        {
+          "label": "Fresnillo 21 Jun 2019 — Las Torres / Coronelas I coordinates",
+          "url": "https://app-fresnillo-cm-prod.azurewebsites.net/media/3s1hbkbf/090719-fres-tailings-dam-statement-21jun19.pdf"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year-only date.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Industrias Peñoles (Unidad El Monte, then)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "250 tonnes of tailings (Defiende La Sierra / CNA file)",
+      "breach_size": null,
+      "downstream_risk": "12 km (compilation; watercourse not named in the fetched extract)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "el-monte-zimapan-1992",
+      "name": "El Monte (Zimapán) tailings dam culvert",
+      "country": "Mexico",
+      "region": "Zimapán Municipality, Hidalgo (El Monte / Carrizal unit)",
+      "location_label": "El Monte mine tailings dam, Zimapán, Hidalgo, Mexico",
+      "lat": 20.785139,
+      "lng": -99.417361,
+      "geo_accuracy": "region",
+      "geo_source": "Santacruz Silver SEC technical report: Zimapán property centred 20°47′6.5″N, 99°25′2.5″W (20.785139, −99.417361), including El Monte mine and El Monte plant.",
+      "river_or_facility": "Unidad El Monte tailings dam, Zimapán (Peñoles then); central culvert",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "foundation",
+        "structural_design"
+      ],
+      "cause_summary": "Defiende La Sierra (CNA/SEMARNAT file): sinking of the central culvert (hundimiento de alcantarilla central).",
+      "incident_date": "1992",
+      "latest_report_date": "1992",
+      "what_happened": "In 1992 the central culvert of the El Monte unit tailings dam at Zimapán, Hidalgo, sank (Defiende La Sierra / CNA file). About 250 tonnes of tailings; impact 12 km away. El Monte is the historic Peñoles lead-zinc-silver mill in the Zimapán district (later leased/bought by Santacruz Silver with Carrizal). No sourced death count.",
+      "status": "Historical culvert failure at the El Monte TSF. District still mined.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Defiende La Sierra — El Monte Zimapán 1992; 250 t",
+          "url": "https://defiendelasierra.org/accidentes-mineros/"
+        },
+        {
+          "label": "Santacruz Silver SEC exhibit — Zimapán / El Monte centre coordinates",
+          "url": "https://www.sec.gov/Archives/edgar/data/1548536/000149315226020908/ex99-19.htm"
+        }
+      ],
+      "severity": "minor"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Outlet/decant leak, not a full breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Minera Las Torres",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "250 tonnes (CNA file / CIATEC thesis)",
+      "breach_size": null,
+      "downstream_risk": "Arroyo Los Cedros about 5 km",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "las-torres-1993",
+      "name": "Las Torres tailings dam (1993 chino leak)",
+      "country": "Mexico",
+      "region": "Guanajuato, Guanajuato (Las Torres TSF / Arroyo Los Cedros)",
+      "location_label": "Las Torres TSF, Guanajuato, Mexico",
+      "lat": 20.984486,
+      "lng": -101.217711,
+      "geo_accuracy": "approx",
+      "geo_source": "Fresnillo 2019 Las Coronelas I 20.984486, −101.217711 (same Las Torres TSF complex as the 1988 culvert).",
+      "river_or_facility": "Mina Las Torres tailings dam; Arroyo Los Cedros",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "Defiende La Sierra / CIATEC thesis: 250 tonnes spilled through a poorly sealed chino (decant/outlet).",
+      "incident_date": "1993",
+      "latest_report_date": "2011",
+      "what_happened": "In 1993 Mina Las Torres, Guanajuato, spilled 250 tonnes of tailings through a poorly sealed chino (Defiende La Sierra / CNA file; Esparza CIATEC 2011 thesis table). Impact on 5 km of Arroyo Los Cedros. No sourced death count. Separate from the 1988 Coronelas 1 culvert rupture at the same complex.",
+      "status": "Las Torres TSF inactive as of the 2019 Fresnillo statement.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Defiende La Sierra — Las Torres 1993; 250 t chino",
+          "url": "https://defiendelasierra.org/accidentes-mineros/"
+        },
+        {
+          "label": "Esparza CIATEC 2011 thesis — same 1993 row",
+          "url": "https://ciatec.repositorioinstitucional.mx/jspui/bitstream/1019/13/1/tesis%20Jose%20Esparza%2008-02-2011_c%20%281%29.pdf"
+        },
+        {
+          "label": "Fresnillo 21 Jun 2019 — Las Torres TSF coordinates",
+          "url": "https://app-fresnillo-cm-prod.azurewebsites.net/media/3s1hbkbf/090719-fres-tailings-dam-statement-21jun19.pdf"
+        }
+      ],
+      "severity": "minor"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Radio Venceremos 500 or official ~100 combat casualties onto the dam. Same class of war_attack plant damage as cinco-de-noviembre-1988-05-11.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "CEL",
+      "year_built": "1976",
+      "height_m": 90,
+      "reservoir_capacity": "2,180 million m³ (Wikipedia)",
+      "construction": "concrete_gravity",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "cerron-grande-1984-06-28",
+      "name": "Cerrón Grande hydro plant FMLN attack",
+      "country": "El Salvador",
+      "region": "Potonico (Chalatenango) / Jutiapa (Cabañas), Río Lempa",
+      "location_label": "Cerrón Grande Dam, Lempa River, El Salvador",
+      "lat": 13.940083,
+      "lng": -88.900361,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Cerrón Grande Dam 13°56′24.3″N 88°54′01.3″W (13.940083, −88.900361)",
+      "river_or_facility": "Central Hidroeléctrica Cerrón Grande (Lake Suchitlán), Río Lempa",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "war_attack"
+      ],
+      "cause_summary": "New York Times 29 June 1984: FMLN overran El Salvador's largest hydro dam from 02:00; they destroyed the 135 MW plant's electrical generating substation but not the central computerized control room or the dam wall.",
+      "incident_date": "1984-06-28",
+      "latest_report_date": "1984-06-30",
+      "what_happened": "On 28 June 1984 (NYT 29 June: 'today'), FMLN guerrillas overran Cerrón Grande, El Salvador's largest hydroelectric dam on the Lempa (concrete gravity, 90 m, 800 m crest, opened 1976; CEL). An eight-hour battle from 02:00 destroyed the electrical generating substation; the central computerized control room was not destroyed. About 700 Salvadoran paratroops counter-attacked from 08:00 and retook the dam within three hours. La Vanguardia 30 June: Radio Venceremos claimed 500 army dead and wounded; official military sources put casualties around 100 — combat figures, not a dam-failure death toll, and not copied onto this record. The dam wall is not described as breached.",
+      "status": "Substation destroyed 28 June 1984; dam retained. Plant later refurbished (2003–2007) to 170 MW.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "New York Times 29 June 1984 — rebels capture Cerrón Grande; substation destroyed",
+          "url": "https://www.nytimes.com/1984/06/29/world/el-salvador-rebels-capture-dam-before-being-driven-off.html"
+        },
+        {
+          "label": "La Vanguardia 30 June 1984 — ten-hour occupation; casualty claims",
+          "url": "https://hemeroteca-paginas.lavanguardia.com/LVE08/HEM/1984/06/30/LVG19840630-001.pdf"
+        },
+        {
+          "label": "Wikipedia — Cerrón Grande Dam (coords, 90 m, 1976)",
+          "url": "https://en.wikipedia.org/wiki/Cerr%C3%B3n_Grande_Dam"
         }
       ],
       "severity": "moderate"
