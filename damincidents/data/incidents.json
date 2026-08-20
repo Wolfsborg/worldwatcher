@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1220,
+  "count": 1240,
   "current_count": 27,
-  "historical_count": 1193,
+  "historical_count": 1213,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -66768,6 +66768,1166 @@
         {
           "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示, appendix 9.20 丹江口小寨子河",
           "url": "https://www.ecsponline.com/goods.php?id=29975"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: post-1925; EA lists severity 3 (stability concern, not a release). Incident date July 1954 first-filling leaks; dam completed 1955.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Fife Regional Council (now Scottish Water)",
+      "year_built": "1955",
+      "height_m": 45,
+      "reservoir_capacity": "5,040×10³ m³ (EA) / about 4,844 million litres (Gazetteer)",
+      "construction": "concrete_gravity",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Fife Regional Authority / Babtie–Johnston panel work",
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": 0,
+      "id": "glendevon-upper-1954-07",
+      "name": "Upper Glendevon Dam first-filling leakage and uplift",
+      "region": "Glen Devon, Ochil Hills, Perth and Kinross, Scotland",
+      "location_label": "Upper Glendevon Reservoir dam, Glen Devon, United Kingdom",
+      "lat": 56.22086,
+      "lng": -3.76163,
+      "geo_accuracy": "exact",
+      "geo_source": "HES Trove Upper Glendevon Reservoir And Dam NN 9086 0454 / 56.22086, -3.76163",
+      "river_or_facility": "Upper Glendevon Reservoir / River Devon headwaters",
+      "causes": [
+        "construction_first_filling",
+        "foundation",
+        "structural_design"
+      ],
+      "cause_summary": "EA: first-filling leaks through monolith joints and a honeycombed mass-concrete gravity dam on brecciated andesite, with high uplift and no grout curtain.",
+      "incident_date": "1954-07",
+      "latest_report_date": "1996",
+      "what_happened": "Upper Glendevon is a 45 m mass-concrete gravity dam in 24 monoliths, built 1950–55 for Fife Regional Council (EA capacity 5,040×10³ m³). Charles, Tedd and Warren (EA 2011, incident 95): during impounding in July 1954, water appeared in such quantity while the stilling basin was being built that sub-drainage was provided. Leakage through vertical joints reached 27 l/s by 1956; fluorescein showed flows through the concrete. High uplift forced emptying and grouting in 1959–60 (520 t curtain, 200 t blanket). In 1958 toe uplift reached about 40 per cent of full head. October 1969 leakage emerged in the river bed 30 m downstream. A four-metre top-water restriction (almost 30 per cent of usable storage) was imposed, lifted 1973 and re-imposed 1979 after a nearby tremor. 1992–94 remedial: a downstream rockfill embankment and new south spillway (MacDonald/Kerr/Johnston; Gazetteer for Scotland: £5.24 million, 280,000 m³ rockfill; reopened 26 October 1994). No deaths.",
+      "status": "Strengthened with downstream rockfill 1994; in service (Scottish Water).",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "HES Trove — Upper Glendevon Reservoir And Dam (NN90SW 62)",
+          "url": "https://www.trove.scot/place/254823"
+        },
+        {
+          "label": "Gazetteer for Scotland — Upper Glendevon Reservoir",
+          "url": "https://www.scottish-places.info/features/featurefirst15627.html"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: post-1925; emergency drawdown, no release of the reservoir. HES height 48 m used (EA sheet 50 m; table 37 m).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "North of Scotland Hydro-Electric Board (now SSE)",
+      "year_built": "1951",
+      "height_m": 48,
+      "reservoir_capacity": "223,000×10³ m³ (EA)",
+      "construction": "concrete_gravity",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Scottish Hydro-Electric / Hinks–Gosschalk",
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": 0,
+      "id": "mullardoch-1986-07-04",
+      "name": "Mullardoch Dam gallery leakage and cracking",
+      "region": "Glen Cannich, Highland, Scotland",
+      "location_label": "Mullardoch Dam, Glen Cannich, United Kingdom",
+      "lat": 57.33804,
+      "lng": -4.95511,
+      "geo_accuracy": "exact",
+      "geo_source": "Historic Environment Scotland LB51703 NH 22241 31365",
+      "river_or_facility": "Loch Mullardoch / River Cannich (Glen Affric hydro scheme)",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "EA: sudden rise in gallery leakage and opening of near-horizontal cracks from longitudinal compressive stress (calcite in joints plus valley closure) at the 140° central buttress.",
+      "incident_date": "1986-07-04",
+      "latest_report_date": "1993",
+      "what_happened": "Mullardoch is a 730 m mass-concrete gravity dam of unusual arrowhead plan (two flanks meet at 140° at a central buttress), completed 1951 for the Glen Affric scheme (HES: 727 m long, 48 m high; EA sheet height 50 m, capacity 223,000×10³ m³). EA 2011 incident 97: on 4 July 1986 weekly surveillance found gallery leakage up from 0.16 l/s (25 June) to 5.2 l/s. Pre-existing near-horizontal gallery cracks had opened up to 1.5 mm, mainly in two blocks about 15 m either side of the buttress, with water issuing under pressure and a sharp rise in uplift. The reservoir was lowered 7 m within 24 hours. Gosschalk et al. (1991): 3-D modelling blamed build-up of longitudinal compression from calcium-carbonate deposition in vertical joints plus valley-side closure, tilting the central buttress under high temperature. Remedial: foundation drainage/pressure-relief holes and 26 restressable vertical tendons plus transverse gallery tendons on the four central blocks (Hinks et al., 1990; Hayward, NCE 25 Oct 1990). No deaths.",
+      "status": "Post-tensioned 1986–90s; still in service (SSE).",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Historic Environment Scotland — Mullardoch Dam LB51703",
+          "url": "https://portal.historicenvironment.scot/apex/f?p=1505:300:::::VIEWTYPE,VIEWREF:designation,LB51703"
+        },
+        {
+          "label": "HES Trove — Mullardoch Dam",
+          "url": "https://www.trove.scot/place/81412"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: post-1925; discovered cracks, not a gate failure in service. EA table severity 3.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Scottish Hydro-Electric (now SSE)",
+      "year_built": "1957",
+      "height_m": 16,
+      "reservoir_capacity": "1,640×10³ m³ (EA)",
+      "construction": "concrete_gravity",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Scottish Hydro-Electric",
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "spillway",
+      "category": "incident",
+      "deaths": 0,
+      "id": "dundreggan-1998",
+      "name": "Dundreggan Dam radial-gate vibration fatigue cracks",
+      "region": "Glenmoriston, Highland, Scotland",
+      "location_label": "Dundreggan Dam, Glenmoriston, United Kingdom",
+      "lat": 57.20206,
+      "lng": -4.72083,
+      "geo_accuracy": "exact",
+      "geo_source": "HES Trove Dundreggan Dam NH 35732 15646 / 57.20206, -4.72083",
+      "river_or_facility": "Dundreggan Reservoir / River Moriston (Garry–Moriston scheme)",
+      "causes": [
+        "operational_gate",
+        "structural_design"
+      ],
+      "cause_summary": "EA: a change in gate operation caused severe vibration at low openings; fatigue cracks formed in the vertical skin-plate stiffener webs of a radial flood gate.",
+      "incident_date": "1998",
+      "latest_report_date": "2000",
+      "what_happened": "Dundreggan is a 16 m concrete gravity dam (completed 1957; EA capacity 1,640×10³ m³) on the River Moriston with two radial flood gates 8.25 m high by 8.69 m wide (HES: also a central drum gate; about 55 ft high). EA 2011 incident 99: after the Folsom (California) gate failure, Scottish Hydro-Electric inspected its gates. The left-bank radial gate was taken out of service in summer 1998 to fit self-lubricating trunnion bearings; inspection found cracks in the web of the vertical skin-plate stiffener beams. A change in operation had caused severe vibration at low openings and fatigue cracking. The gate-lip geometry was modified to give a clean flow separation (Lewin, 1995); vibration stopped. HES notes 1999 refurbishment. No reservoir release and no deaths.",
+      "status": "Gate lip modified; dam refurbished 1999; in service (SSE).",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "HES Trove — Dundreggan Dam",
+          "url": "https://canmore.org.uk/site/312947/dundreggan-dam"
+        },
+        {
+          "label": "Highland HER — MHG30014 Dundreggan Dam",
+          "url": "https://her.highland.gov.uk/Monument/MHG30014"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: construction slip, empty. Not given its own EA incident number (narrative only). Distinct from Abberton and Chingford, already live.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Anglian Water (historically Northampton waterworks)",
+      "year_built": "1939",
+      "height_m": null,
+      "reservoir_capacity": "2,064,000 m³ (Wikipedia list of UK reservoirs)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": 0,
+      "id": "hollowell-1937-10",
+      "name": "Hollowell Reservoir construction slip",
+      "region": "Hollowell / Guilsborough, West Northamptonshire, England",
+      "location_label": "Hollowell Reservoir, Northamptonshire, United Kingdom",
+      "lat": 52.34534,
+      "lng": -0.98854,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia list of UK reservoirs (Hollowell) 52°20′43″N 0°59′19″W / SP6900072400",
+      "river_or_facility": "Hollowell Reservoir",
+      "causes": [
+        "construction_first_filling",
+        "foundation"
+      ],
+      "cause_summary": "EA: one of three major 1937 UK construction slips (with Abberton and Chingford); Bridle: sudden strain-softening clay-foundation failure during construction.",
+      "incident_date": "1937-10",
+      "latest_report_date": "2023",
+      "what_happened": "Hollowell is a water-supply embankment in Northamptonshire (Wikipedia list: built 1936–39; SP 69000 72400). Charles, Tedd and Warren (EA 2011 §2.4): during 1937 major slips occurred at three embankment dams under construction — Abberton in July, Hollowell in October, and the better-known William Girling (Chingford) downstream slip at the end of July. Rodney Bridle (Ground Engineering, 2026 comment on White Horse Reservoir) groups Hollowell with Chingford, Abberton (1937) and Carsington (1984) as sudden construction failures in strain-softening clay foundation materials, with no prior movement. The reservoir was completed 1939 and remains in service. No reservoir was yet impounded at the slip; no deaths.",
+      "status": "Completed 1939; in service (Anglian Water).",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Wikipedia — List of reservoirs in the United Kingdom (Hollowell)",
+          "url": "https://en.wikipedia.org/wiki/List_of_reservoirs_in_the_United_Kingdom"
+        },
+        {
+          "label": "Northamptonshire HER — Hollowell Reservoir (MNN166033)",
+          "url": "https://her.northamptonshire.gov.uk/Monument/MNN166033"
+        },
+        {
+          "label": "Ground Engineering — Bridle comment grouping Hollowell 1937 with Chingford/Abberton/Carsington",
+          "url": "https://www.geplus.co.uk/news/clay-strength-validated-as-thames-water-searches-for-5-7bn-reservoir-contractor-23-01-2026/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: pre-1925 leakage/settlement, not in EA Table 1-1 fatalities. Do not use the Pontsticill 1927 crest as this dam; pin is Coflein's Pentwyn dam SO 055145.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Merthyr / Taff Fechan Water Supply Board (now Dŵr Cymru)",
+      "year_built": "1863",
+      "height_m": 9.5,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": null,
+      "id": "pentwyn-1882",
+      "name": "Pentwyn (Taff Fechan / Dol-y-gaer) Dam cut-off internal erosion",
+      "region": "Pontsticill / Talybont-on-Usk, Powys–Merthyr Tydfil, Wales",
+      "location_label": "Pentwyn Reservoir dam, Taf Fechan, United Kingdom",
+      "lat": 51.8211,
+      "lng": -3.37247,
+      "geo_accuracy": "site",
+      "geo_source": "Coflein NPRN 402612 dam at approximately SO 055145",
+      "river_or_facility": "Pentwyn / Taff Fechan Reservoir (later drowned by Pontsticill)",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation"
+      ],
+      "cause_summary": "EA/Binnie: puddle-clay cut-off on Carboniferous Limestone and a valley fault leaked and settled; springs in the deep clay-filled trench.",
+      "incident_date": "1882",
+      "latest_report_date": "1987",
+      "what_happened": "Pentwyn (also Pen-twyn / Taff Fechan / Dol-y-gaer) is a 9.5–10 m puddle-clay-core embankment completed 1863 under Thomas Hawksley (Coflein: reservoir built 1858–62, dam about SO 055145). EA 2011 incident 27: part of the dam was founded on Carboniferous Limestone of unknown depth; the cut-off trench was clay-filled. Serious leakage exceeding 500 l/s was accompanied by settlement. Various repairs 1882–1923 including drilling and grouting gave only temporary improvement. Wikipedia (Pontsticill): after completion the reservoir suffered major losses through fractures related to the Neath Disturbance. The dam was replaced in 1927 by the 110 ft Pontsticill embankment, which at top water is continuous with the old Pentwyn water-body. No sourced death toll for the 1882 leakage.",
+      "status": "Superseded 1927 by Pontsticill Dam; old basin remains as the upper reach.",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Coflein — Pen-Twyn / Pentwyn Reservoir (NPRN 402612)",
+          "url": "https://coflein.gov.uk/en/site/402612/"
+        },
+        {
+          "label": "Wikipedia — Pontsticill Reservoir (Pentwyn losses / Neath Disturbance)",
+          "url": "https://en.wikipedia.org/wiki/Pontsticill_Reservoir"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: post-1925; leakage/saturation, no breach. Wikipedia SSSI built-year 1896; EA construction date 1895 used.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Bath City Waterworks (now Wessex Water)",
+      "year_built": "1895",
+      "height_m": 15.5,
+      "reservoir_capacity": "231×10³ m³ (EA)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Building Research Station / Penman et al.",
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": 0,
+      "id": "monkswood-1931-09-04",
+      "name": "Monkswood Reservoir core leakage and downstream saturation",
+      "region": "Cold Ashton / Monkswood Valley, South Gloucestershire (near Bath), England",
+      "location_label": "Monkswood Reservoir, near Bath, United Kingdom",
+      "lat": 51.43837,
+      "lng": -2.35099,
+      "geo_accuracy": "site",
+      "geo_source": "British Place Names Monkswood Reservoir ST757711 51°26′18″N 2°21′1″W (reservoir centre)",
+      "river_or_facility": "Monkswood Reservoir / SSSI valley north of Bath",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "EA: leakage through the upper puddle-clay core (top of core locally below overflow sill) saturated the downstream fill; 1931 subsidence.",
+      "incident_date": "1931-09-04",
+      "latest_report_date": "2000",
+      "what_happened": "Monkswood is a 15.5 m puddle-clay-core embankment near Bath, completed 1895 (EA capacity 231×10³ m³; Wikipedia SSSI: reservoir built 1896, now Wessex Water). Founded on alluvium, peat and solifluction over Blue Lias; berms were added near the end of construction. EA 2011 incident 17: on 4 September 1931 a localised downstream-slope subsidence developed. Exploratory excavation found free-flowing water through the fill and internal erosion. Leakage on the downstream berm was significant only when the reservoir was within 0.3 m of top water; a gauging chamber showed flow rising sharply within 3 m of TWL. Trial pits later found the top of the core lower than the overflow sill in places. 1931–32 cement-sand grouting (about 280 t in 47 holes) cut leakage from 1.1 to 0.1 l/s, but by 1935 it had returned. 1945 sheet piles 6 m into the core had no effect. A 15 m single-phase slurry trench along the full crest in 1998 (Penman, Hoskins, Tedd & Harrison, BDS 2000) appears to have stopped the leak. No deaths.",
+      "status": "Slurry-trench cut-off 1998; in service (Wessex Water).",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Wikipedia — Monkswood Valley (reservoir in the SSSI)",
+          "url": "https://en.wikipedia.org/wiki/Monkswood_Valley"
+        },
+        {
+          "label": "British Place Names — Monkswood Reservoir ST757711",
+          "url": "https://www.britishplacenames.uk/monkswood-reservoir-stroud-st757711"
+        },
+        {
+          "label": "Penman, Hoskins, Tedd & Harrison 2000 — Monkswood reservoir, the leaking Bath water (BDS)",
+          "url": "https://www.icevirtuallibrary.com/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Police stood by to evacuate the town below (EA); no sourced count of actual evacuees",
+      "notes": "Deaths 0: post-1925; emergency drawdown, no breach. Do not use the EA Catchment Explorer NZ0632567870 water-body NGR (Whittle Dene / different Harlow Hill). Pin is the listed water tower beside the Harrogate works.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Harrogate waterworks (historically)",
+      "year_built": "1868",
+      "height_m": 9,
+      "reservoir_capacity": "65×10³ m³ (EA)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": 0,
+      "id": "harlow-hill-1951-12-18",
+      "name": "Harlow Hill service reservoir downstream slip",
+      "region": "Harlow Hill, Harrogate, North Yorkshire, England",
+      "location_label": "Harlow Hill open service reservoir, Harrogate, United Kingdom",
+      "lat": 53.98305,
+      "lng": -1.56174,
+      "geo_accuracy": "site",
+      "geo_source": "Historic England Harlow Hill Water Tower SE2883854199 (Grade II, overlooks the Harrogate waterworks / service reservoir)",
+      "river_or_facility": "Harlow Hill open service reservoir (Harrogate supply)",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "EA/Davies 1953: deep-seated downstream slip on 1:1.9 clay slopes after an extremely wet autumn; toe had been cut for a road and replaced by a retaining wall.",
+      "incident_date": "1951-12-18",
+      "latest_report_date": "1953",
+      "what_happened": "Harlow Hill is a 9 m puddle-clay-core earthfill forming an open rectangular service reservoir perched about 70 m above Harrogate (EA: completed 1868, capacity 65×10³ m³; table built-year 1871). Embankments on three sides, slopes 1:1.9. EA 2011 incident 55: after an extremely wet autumn a major downstream slip on 18 December 1951 left a danger of breach. Vertical movement of 0.3 m on a slip plane beside the core, 0.23 m uplift at the toe against a concrete retaining wall, continuing at 0.01 m/h. Emergency day-and-night works: fastest possible drawdown; 33,000 sandbags and 400 t of sand in 'pavement buttresses' on the toe; tarpaulins; police ready to evacuate; well-points and attempted horizontal drains. History: upstream slips after construction and later; 1887 drought shrinkage cracks; a public road had removed about 3 m of toe. Fill was low-permeability clay; slopes always marginally stable. Davies (1953) published the case. No deaths.",
+      "status": "Emergency toe weighting 1951; service reservoir still on Harlow Hill.",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Historic England — Harlow Hill Water Tower (1315812)",
+          "url": "https://britishlistedbuildings.co.uk/101315812-harlow-hill-water-tower-harrogate"
+        },
+        {
+          "label": "Geograph — Harlow Hill Water Tower overlooks Harrogate Waterworks (SE2854)",
+          "url": "https://www.geograph.org.uk/photo/69928"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: post-1925; spillway-side erosion, dam not breached. Crest pin not published; NS7438 is the named Kype Water square at the reservoir outlet.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Hamilton Town Council (now Scottish Water)",
+      "year_built": "1898",
+      "height_m": 17,
+      "reservoir_capacity": "670×10³ m³ (EA)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "spillway",
+      "category": "incident",
+      "deaths": 0,
+      "id": "kype-1977-10",
+      "name": "Kype Reservoir spillway-channel erosion",
+      "region": "4 miles southeast of Strathaven, South Lanarkshire, Scotland",
+      "location_label": "Kype Reservoir, South Lanarkshire, United Kingdom",
+      "lat": 55.61922,
+      "lng": -4.0023,
+      "geo_accuracy": "site",
+      "geo_source": "Geograph place Kype Water/NS7438 (reservoir is the source of Kype Water; NS7337 photos are south of the reservoir)",
+      "river_or_facility": "Kype Reservoir / Kype Water",
+      "causes": [
+        "spillway",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "EA: October 1977 flood (estimated 1 in 200–400 years) overtopped the spillway-channel walls and eroded about 60 m³ of rock beside the spillway.",
+      "incident_date": "1977-10",
+      "latest_report_date": "1984",
+      "what_happened": "Kype is a 17 m earth embankment built 1898 for Hamilton Town Council (EA capacity 670×10³ m³; Gazetteer for Scotland: 13.6 ha, 4 miles SE of Strathaven, now Scottish Water). The overflow is 35 m wide on natural ground. EA 2011 incident 79: after heavy rain in October 1977 the spillway-channel walls were overtopped at night and about 60 m³ of rock was eroded beside the channel, with minor damage at the mitre. A flood study and hydraulic model followed; the 1978 ICE Floods Guide design flow was three times the flood that overtopped the walls. 1982 works raised the upper spillway capacity, applied a proprietary mattress to one bank, and added a 650 mm precast wave wall on the crest (Little, 1984). No dam breach and no deaths.",
+      "status": "Spillway enlarged 1982; in service (Scottish Water).",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Gazetteer for Scotland — Kype Reservoir",
+          "url": "https://www.scottish-places.info/features/featurefirst8081.html"
+        },
+        {
+          "label": "Geograph — Kype Water / NS7438 and NS7337 south of Kype reservoir",
+          "url": "https://www.geograph.org.uk/gridref/NS7337"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: post-1925; overtopping without reported breach. Table year 1949 vs sheet 12 Aug 1948 — sheet date used.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Scottish Water (historically North Berwick supply)",
+      "year_built": "1900",
+      "height_m": 15,
+      "reservoir_capacity": "286×10³ m³ (EA)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": 0,
+      "id": "thorters-1948-08-12",
+      "name": "Thorters (Thorter) Reservoir flood overtopping",
+      "region": "Lammermuir foothills, 1¼ miles southeast of Garvald, East Lothian, Scotland",
+      "location_label": "Thorters Reservoir, East Lothian, United Kingdom",
+      "lat": 55.91696,
+      "lng": -2.63355,
+      "geo_accuracy": "site",
+      "geo_source": "Geograph NT6069 Thorters Reservoir (Lisa Jarvis) OSGB NT 605 695 / 55°55.0555′N 2°37.9558′W",
+      "river_or_facility": "Thorters / Thorter Reservoir (North Berwick supply)",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "EA: 15 m homogeneous embankment overtopped in the 12 August 1948 south-east Scotland flood; spillway undersized (Moffat, 1975).",
+      "incident_date": "1948-08-12",
+      "latest_report_date": "1975",
+      "what_happened": "Thorters (Gazetteer: Thorter / Thorters Reservoir) is a 15 m homogeneous earth embankment completed 1900 (EA capacity 286×10³ m³), now a Scottish Water supply for North Berwick in the Lammermuir foothills 1¼ miles SE of Garvald. EA 2011 incident 74: the dam was overtopped during the abnormal south-east Scotland flood of 12 August 1948. Lesson recorded: inadequate spillway (Moffat, 1975). EA table lists incident year 1949; the detailed sheet date 12 August 1948 is used (that flood is the documented SE Scotland event). No breach and no sourced deaths.",
+      "status": "Still in service (Scottish Water).",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Gazetteer for Scotland — Thorter Reservoir",
+          "url": "https://www.scottish-places.info/features/featurefirst17806.html"
+        },
+        {
+          "label": "Geograph — Thorters Reservoir NT6069",
+          "url": "https://www.geograph.org.uk/photo/1093823"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: post-1925. Table year 1945 vs sheet 12 Aug 1946 — sheet date used. Geograph formed-year 1866 vs EA constructed 1885.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Cragside / National Trust (historically Armstrong)",
+      "year_built": "1885",
+      "height_m": 11,
+      "reservoir_capacity": "100×10³ m³ (EA)",
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": 0,
+      "id": "tumbleton-1946-08-12",
+      "name": "Tumbleton Lake dam overtopping (Cragside)",
+      "region": "Cragside Estate, Rothbury, Northumberland, England",
+      "location_label": "Tumbleton Lake dam, Cragside, United Kingdom",
+      "lat": 55.3168,
+      "lng": -1.89046,
+      "geo_accuracy": "exact",
+      "geo_source": "Geograph NU0702 Archimedes-screw intake on the Tumbleton Lake dam NU 0705 0253",
+      "river_or_facility": "Tumbleton Lake / Debdon Burn (Cragside)",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "EA: torrential rain 12 August 1946 overtopped the 11 m embankment, destroyed the spillway channel and scoured the downstream face; spillway undersized.",
+      "incident_date": "1946-08-12",
+      "latest_report_date": "1992",
+      "what_happened": "Tumbleton Lake is an 11 m homogeneous embankment near Rothbury, constructed 1885 (EA capacity 100×10³ m³; Geograph: one of Armstrong's Cragside lakes, Debdon Burn dammed 1866). EA 2011 incident 72: torrential rain across Northumberland on 12 August 1946 overtopped the dam and brought it close to failure. The spillway channel was destroyed, a bridge over it severely damaged, and the downstream face scoured. A lesser overtopping had occurred on 21 July 1927. The structure was so impaired it was kept empty for many years (Archer, 1992). EA table year 1945; the detailed sheet date 12 August 1946 is used. National Trust Cragside later installed an Archimedes screw on the dam face (Geograph 2014). No sourced deaths.",
+      "status": "Kept empty for many years after 1946; lake and dam remain on the National Trust Cragside estate.",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Geograph — Archimedes screw, Tumbleton Lake dam (NU0702)",
+          "url": "https://www.geograph.org.uk/photo/6293419"
+        },
+        {
+          "label": "Geograph — Tumbleton Lake, Cragside",
+          "url": "https://www.geograph.org.uk/photo/6289918"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: EA and contemporary accounts — no lives lost. Do not copy Comrie earthquake house-damage onto the dam. Pin is the rebuilt Earlsburn No.1 on Earl's Burn (site).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Mill-owners consortium (later Falkirk and Larbert Water Trust / Scottish Water)",
+      "year_built": null,
+      "height_m": 6,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": "200-acre reservoir emptied (contemporary Pilot via history.scot)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "deaths": 0,
+      "id": "earlsburn-1839-10-24",
+      "name": "Earlsburn mill-owners dam burst (1839 Comrie earthquake)",
+      "region": "Earl's Burn / Touchadam Muir, about 6 miles WSW of Stirling, Scotland",
+      "location_label": "Earlsburn Reservoir, Stirling, United Kingdom",
+      "lat": 56.08232,
+      "lng": -4.09376,
+      "geo_accuracy": "site",
+      "geo_source": "British Place Names Earlsburn Reservoir Number 1 NS698897 (rebuilt supply reservoir on the Earl's Burn)",
+      "river_or_facility": "Earlsburn / Earl's Burn (Carron headwaters)",
+      "causes": [
+        "earthquake",
+        "poor_maintenance",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "EA/Musson: 6 m peat-and-earth mill dam with a narrow clay core, waterlogged after two days' rain, collapsed about eight hours after the 23 October 1839 Comrie ML 4.8 earthquake.",
+      "incident_date": "1839-10-24",
+      "latest_report_date": "1991",
+      "what_happened": "The original Earlsburn dam was built for a consortium of mill owners southwest of Stirling, probably not long before 1839 (Pilot/history.scot: about four years old; 200-acre reservoir). EA 2011 incident 54: peat and earth with a narrow silty-clay core to rock, most of the dam on peat. A survey had pronounced it 'in a proper state of repair'. It collapsed some eight hours after the 23 October 1839 Comrie earthquake (ML 4.8, ~32 km away, PGA about 0.04 g — Hinks 2012 / Musson 1991). The flood caused several thousand pounds of damage; EA: no lives were lost. Musson concludes the earthquake triggered the burst even if it was not the principal cause — a poorly built 6 m bank waterlogged after two days of heavy rain. Falkirk Local History Society: later rebuilt by the Falkirk and Larbert Water Trust as a more substantial supply dam (today's Earlsburn No.1, Gazetteer, Scottish Water). Pin is the rebuilt reservoir on the same burn, not a surveyed 1839 crest.",
+      "status": "Rebuilt as Earlsburn No.1 water-supply reservoir; in service (Scottish Water).",
+      "severity": "catastrophic",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Musson 1991 — The Earl's Burn Dam Burst of 1839 (Dams and Reservoirs) cited by Hinks 2012 BDS",
+          "url": "https://britishdams.org/2012conf/papers/2%20Geotechnical%20issues%20of%20dam%20construction%20and%20maintenance/Papers/2.5%20Hinks%20-%20Behaviour%20of%20embankment%20dams%20in%20earthquakes.pdf"
+        },
+        {
+          "label": "Falkirk Local History Society — Earlsburn Reservoir",
+          "url": "https://falkirklocalhistory.club/around-the-area/buildings/watermills/earlsburn-reservoir/"
+        },
+        {
+          "label": "British Place Names — Earlsburn Reservoir Number 1 NS698897",
+          "url": "https://britishplacenames.uk/earlsburn-reservoir-number-1-stirling-ns698897"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: post-1925. Wikipedia SSSI grid is the reservoir/dam site.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Dŵr Cymru Welsh Water",
+      "year_built": "1877",
+      "height_m": 13,
+      "reservoir_capacity": "350×10³ m³ (EA)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": 0,
+      "id": "craig-y-pistyll-1939",
+      "name": "Craig-y-Pistyll homogeneous dam internal erosion",
+      "region": "Llyn Craig-y-pistyll, Ceredigion, Wales",
+      "location_label": "Craig-y-pistyll Reservoir, Ceredigion, United Kingdom",
+      "lat": 52.45346,
+      "lng": -3.8946,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Craig-y-pistyll) SN7135285633 / 52.453456°N 3.894603°W",
+      "river_or_facility": "Llyn Craig-y-Pistyll (Aberystwyth / North Ceredigion supply)",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "EA: long-term internal erosion of a homogeneous shale-fill dam without a core, revealed when the upstream face caved in during a 1939 drawdown.",
+      "incident_date": "1939",
+      "latest_report_date": "1976",
+      "what_happened": "Craig-y-Pistyll is a 13 m homogeneous embankment in Ceredigion, completed 1877 (EA capacity 350×10³ m³), founded on shale and built of weathered shaley matrix without a core or cut-off (a clay blanket was added in 1966). It supplies the Aberystwyth area (Dŵr Cymru; Wikipedia SSSI). EA 2011 incident 18: the reservoir was drawn down in 1939 for draw-off-tunnel repairs; the upstream face caved in. The collapse was filled; leakage occurred on refilling and was stopped by pressure grouting with 315 t of cement and 14 m³ of bitumen emulsion (Parkman, 1976). Lesson: long-term internal erosion had gone unobserved until drawdown. No deaths.",
+      "status": "Grouted 1939; clay blanket 1966; in service (Dŵr Cymru).",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Wikipedia — Craig-y-pistyll",
+          "url": "https://en.wikipedia.org/wiki/Craig-y-pistyll"
+        },
+        {
+          "label": "Dŵr Cymru — North Ceredigion zonal summary (Llyn Craig Y Pistyll)",
+          "url": "https://www.dwrcymru.com/-/media/Project/Files/Page-Documents/Corporate/Environment/Water-Resources/Revised-Draft-Drought-Plan-2020/Zonal-Summaries/Annex-1q---N-Ceredigion.ashx"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: post-1925. Sheet heading November 1984 is later movement; January 1975 drawdown slips are the dated incident (table year 1975).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Hertfordshire County Council / Aldenham Country Park (historically Grand Junction Canal Company)",
+      "year_built": "1795",
+      "height_m": 8,
+      "reservoir_capacity": "78×10³ m³ (EA table); about 539,000 m³ (STRABAG project page)",
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Panel engineers / HCC",
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": 0,
+      "id": "aldenham-1975-01",
+      "name": "Aldenham Reservoir tree-removal slope slips",
+      "region": "Aldenham Country Park, Elstree, Hertfordshire, England",
+      "location_label": "Aldenham Reservoir dam, Elstree, United Kingdom",
+      "lat": 51.64583,
+      "lng": -0.31111,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Aldenham Reservoir) 51°38′45″N 0°18′40″W",
+      "river_or_facility": "Aldenham Reservoir / River Colne compensation (Grand Junction Canal)",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "EA: 1930s-Act recommendations led to stripping trees from crest and downstream shoulder; after January 1975 drawdown the uncompacted London Clay slipped upstream and downstream.",
+      "incident_date": "1975-01",
+      "latest_report_date": "2019",
+      "what_happened": "Aldenham is a 7–9 m homogeneous London-Clay embankment completed 1795 (raised 1802) to compensate mill owners and the Grand Junction Canal (EA capacity 78×10³ m³; STRABAG/HCC: about 539,000 m³ and 480 m crest). EA 2011 incident 59: the bank had been prone to instability since construction. Early-1970s Reservoirs Act recommendations included removing all trees and undergrowth from the crest and upper downstream slope and a marginal crest raise. After drawdown in January 1975 two areas of the upstream slope slipped and two minor slips occurred on the 1:5 downstream slope. EA: vegetation had lowered pore pressures and rooted the surface; stripping it, possibly plus crest fill, was enough to allow movement. A shear surface was found at about 1 m depth. 1980s drainage trenches, 1990s sheet piling and later soil nailing did not fully stop movement (Heritage Gateway: trees removed 1975, gradual clay-fill movement). Hughes 2019 s.10 inspection: dam stable but needing longer-term repair. No deaths.",
+      "status": "In service as a country-park reservoir; further embankment works reported 2020s.",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Wikipedia — Aldenham Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Aldenham_Reservoir"
+        },
+        {
+          "label": "Heritage Gateway — Aldenham Dam MHT9040 (trees removed 1975)",
+          "url": "https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?resourceID=1008&uid=MHT9040"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: pre-1925 thermal cracking, not in EA fatality table. HES NGR is the listed dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "British Aluminium / Alcan (now hydro to Lochaber)",
+      "year_built": "1907",
+      "height_m": 25,
+      "reservoir_capacity": "111,300×10³ m³ (EA)",
+      "construction": "concrete_gravity",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": null,
+      "id": "blackwater-1909",
+      "name": "Blackwater Dam thermal cracking (Kinlochleven)",
+      "region": "Blackwater Reservoir above Kinlochleven, Highland, Scotland",
+      "location_label": "Blackwater Dam, Kinlochleven, United Kingdom",
+      "lat": 56.70203,
+      "lng": -4.8638,
+      "geo_accuracy": "exact",
+      "geo_source": "Historic Environment Scotland LB51833 NN 24765 60366",
+      "river_or_facility": "Blackwater Reservoir / Kinlochleven hydro-aluminium scheme",
+      "causes": [
+        "construction_first_filling",
+        "structural_design"
+      ],
+      "cause_summary": "EA: vertical cooling/hydration cracks shortly after completion of a mass-concrete gravity dam built without vertical construction joints.",
+      "incident_date": "1909",
+      "latest_report_date": "2004",
+      "what_happened": "Blackwater is a 25 m mass-concrete gravity dam completed 1907 (EA; HES listing 1904–09) to power the Kinlochleven aluminium smelter (EA capacity 111,300×10³ m³). First UK dam with timber shuttering on both faces; granite displacers up to 10 t; no vertical construction joints, like contemporary Eigiau; narrow section; uplift not in the design. EA 2011 incident 93: shortly after completion, seven main vertical cracks up to 2.4 mm opened from the crest (barely perceptible at the base) and seeped. Worst cracking was in the northern part, attributed to faster summer-1908 placing and heat of hydration. Safety was not immediately threatened; silicate and fine grout failed to seal the cracks; peat drawn into the cracks reduced seepage. Later investigations (Morgan & Thomas 1961; Wallis et al. 2004) found the hearting generally sound. EA: the case helped introduce expansion joints on later British concrete dams. No deaths.",
+      "status": "In service for hydro (smelter closed 2000; powerhouse still generates).",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Historic Environment Scotland — Blackwater Dam LB51833",
+          "url": "https://portal.historicenvironment.scot/apex/f?p=1505:300:::::VIEWTYPE,VIEWREF:designation,LB51833"
+        },
+        {
+          "label": "Wikipedia — Kinlochleven hydroelectric scheme",
+          "url": "https://en.wikipedia.org/wiki/Kinlochleven_hydroelectric_scheme"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: post-1925; wave damage, dam not threatened. EA table severity 3.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Lothian Regional Council (now Scottish Water)",
+      "year_built": "1982",
+      "height_m": 56,
+      "reservoir_capacity": "61,400×10³ m³ (EA / Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": 0,
+      "id": "megget-1984-01",
+      "name": "Megget Dam first-filling riprap wave damage",
+      "region": "Megget valley, Ettrick Forest, Scottish Borders, Scotland",
+      "location_label": "Megget Reservoir dam, Scottish Borders, United Kingdom",
+      "lat": 55.49473,
+      "lng": -3.25149,
+      "geo_accuracy": "exact",
+      "geo_source": "HES Trove Megget Reservoir Dam NT 21030 23038 / 55.49473, -3.25149",
+      "river_or_facility": "Megget Reservoir / Megget Water",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "EA: first-filling storm waves exceeded the design height and displaced riprap on the 1:1.5 upstream face; prediction methods had underestimated wave height on a 4 km fetch.",
+      "incident_date": "1984-01",
+      "latest_report_date": "1998",
+      "what_happened": "Megget is a 56 m gravel-fill embankment with a central asphaltic core, 570 m long, completed 1982 and opened 30 September 1983 (EA/Wikipedia capacity 61,400,000 m³) — the largest earth dam in Scotland, supplying Edinburgh. Maximum fetch 4 km along the prevailing wind. Upstream slope 1:1.5 with 1.8 m protection, the top 1.2 m heavy riprap to 900 mm. EA 2011 incident 85: during first filling a severe January 1984 storm damaged the riprap (Gallacher et al.); the same storm damaged Kielder blockwork. Further storms displaced individual stones or groups. No emergency action. Later pattern-grouting of riprap with bituminous grout (Hay-Smith 1998) increased mass while leaving ungrouted drainage panels. No deaths.",
+      "status": "Pattern-grouted riprap; in service (Scottish Water).",
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Wikipedia — Megget Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Megget_Reservoir"
+        },
+        {
+          "label": "HES Trove — Megget Reservoir Dam",
+          "url": "https://www.trove.scot/place/310716"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: post-1925; same storm as Megget; wave damage only.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Northumbrian Water",
+      "year_built": "1982",
+      "height_m": 52,
+      "reservoir_capacity": "200,000×10³ m³ (EA table) / 200 billion litres (ICE)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "United Kingdom",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "deaths": 0,
+      "id": "kielder-1984-01",
+      "name": "Kielder Dam upstream blockwork wave damage",
+      "region": "Kielder Water, North Tyne, Northumberland, England",
+      "location_label": "Kielder Water dam, Northumberland, United Kingdom",
+      "lat": 55.17804,
+      "lng": -2.46114,
+      "geo_accuracy": "exact",
+      "geo_source": "Geograph NY7087 Kielder Water Dam NY 7073 8718 / 55°10.6826′N 2°27.6681′W",
+      "river_or_facility": "Kielder Water / River North Tyne",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "EA: the January 1984 storm that damaged Megget also damaged concrete blockwork on Kielder's upstream face.",
+      "incident_date": "1984-01",
+      "latest_report_date": "2011",
+      "what_happened": "Kielder is a 52–55 m earthfill dam completed 1982 (EA table 55 m, 200,000×10³ m³; ICE: 1.2 km long, 52 m high, ~200 billion litres), the UK's largest-capacity reservoir. EA 2011 incident 86 (and the Megget sheet): the same severe January 1984 storm that displaced Megget riprap damaged the upstream concrete blockwork at Kielder. EA table: 'wave damage to upstream concrete blockwork', severity 2. No emergency drawdown or breach is described. The dam remains the headworks of the Kielder transfer scheme. No deaths.",
+      "status": "In service (Northumbrian Water).",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (Charles, Tedd & Warren, 2011)",
+          "url": "https://assets.publishing.service.gov.uk/media/603369e7e90e07660cc43890/_Lessons_from_Historical_Dam_Incidents_Technical_Report.pdf"
+        },
+        {
+          "label": "Geograph — Kielder Water Dam NY7087",
+          "url": "https://www.geograph.org.uk/photo/5473074"
+        },
+        {
+          "label": "ICE — Kielder Water Scheme",
+          "url": "https://www.ice.org.uk/what-is-civil-engineering/infrastructure-projects/kielder-water-scheme"
+        },
+        {
+          "label": "Wikipedia — Kielder Water",
+          "url": "https://en.wikipedia.org/wiki/Kielder_Water"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 humans (ARIA/press); 6 sheep drowned — not copied as human deaths. Volume conflict documented.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ondulia (Jean-Marc Pringuet)",
+      "year_built": "early 1970s (actu.fr)",
+      "height_m": null,
+      "reservoir_capacity": "48,000 m³ maximum (operator / ARIA wave); Wikipedia 150,000 m³",
+      "construction": "unknown",
+      "purpose": "hydro",
+      "volume_released": "48,000 m³ (ARIA); operator estimate ~30,000 m³ at 01:00",
+      "breach_size": "Right-bank foundation hole enlarged to empty the pond",
+      "downstream_risk": "Hameau des Dazes / confluence with the Lot 1.8 km",
+      "economic_damage": "Hydro site expected months to a year offline (Centre Presse)",
+      "investigating_agency": "DREAL / hydraulic-works inspectorate (ARIA)",
+      "verification": "confirmed",
+      "country": "France",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "id": "espeyrac-daze-2023-12-06",
+      "name": "Barrage de la Daze (Espeyrac) foundation piping",
+      "region": "Espeyrac, Aveyron, Occitanie",
+      "location_label": "Lac de la Daze dam, Espeyrac, France",
+      "lat": 44.62667,
+      "lng": 2.49889,
+      "geo_accuracy": "site",
+      "geo_source": "French Wikipedia Lac de la Daze 44°37′36″N 2°29′56″E",
+      "river_or_facility": "Ruisseau de la Daze (affluent of the Lot)",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation"
+      ],
+      "cause_summary": "ARIA / operator: a leak at the right-bank foundation (renard hydraulique) enlarged overnight and emptied the unclassed hydro pond.",
+      "incident_date": "2023-12-06",
+      "latest_report_date": "2023-12-09",
+      "what_happened": "The unclassed Daze dam at Espeyrac (in service from the early 1970s; Wikipedia lake volume 150,000 m³; operator Ondulia later said maximum 48,000 m³) retains a head-pond on the ruisseau de la Daze above the Lot. ARIA 61508: about 01:30 on 6 December 2023 the reservoir emptied completely. A wave of 48,000 m³ (ARIA) ran 1.8 km down the Daze to the Lot. The operator had seen a small foundation leak 48 hours earlier and a larger hole about 15:00 the day before; it then grew until the pond drained. Cause: scour at the right-bank toe plus erosion under the dam. Six sheep drowned; a house's water and sewer connections and access track were damaged; two vehicles and farm kit were carried away. La Dépêche headline 150,000 m³ vs Ondulia/ARIA 30,000–48,000 m³ — ARIA/operator figures used for volume. No human deaths.",
+      "status": "Cofferdam and foundation repairs ordered; site offline for months (Ondulia).",
+      "deaths": 0,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "ARIA 61508 — Vidange totale d'un barrage par affouillement (Espeyrac, 6 Dec 2023)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/61508/"
+        },
+        {
+          "label": "French Wikipedia — Lac de la Daze",
+          "url": "https://fr.wikipedia.org/wiki/Lac_de_la_Daze"
+        },
+        {
+          "label": "La Dépêche — Rupture d'un barrage en Aveyron (7 Dec 2023)",
+          "url": "https://www.ladepeche.fr/2023/12/07/rupture-dun-barrage-en-aveyron-150-000-m3-deau-se-vident-en-dix-minutes-plusieurs-animaux-tues-11626255.php"
+        },
+        {
+          "label": "Centre Presse — Ondulia on the Daze failure (9 Dec 2023)",
+          "url": "https://www.centrepresseaveyron.fr/2023/12/09/rupture-du-barrage-despeyrac-en-aveyron-lentreprise-ondulia-catastrophee-le-site-pourrait-rester-ferme-des-mois-11629321.php"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: pipe burst and seepage, no breach. Downstream 30,000 figure is a study scenario, not an evacuation count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Centre des monuments nationaux (since 2015)",
+      "year_built": "17th century (Étang Neuf ~1690s)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "ARIA / Hauts-de-Seine préfecture",
+      "verification": "confirmed",
+      "country": "France",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "id": "ville-davray-2018-08-22",
+      "name": "Ville-d'Avray / Étangs de Corot pond-dam water-main burst",
+      "region": "Ville-d'Avray, Hauts-de-Seine",
+      "location_label": "Étangs de Corot / Ville-d'Avray pond dam, France",
+      "lat": 48.8201,
+      "lng": 2.1794,
+      "geo_accuracy": "site",
+      "geo_source": "Ministère des Sports / commune-mairie Étang de la Ville d'Avray 48.82010, 2.17940 (Rue des 2 Étangs)",
+      "river_or_facility": "Étangs de Corot (Vieil Étang / Étang Neuf)",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "ARIA: a potable-water main through the pond embankment burst; water ran along the fill and through an existing downstream sinkhole.",
+      "incident_date": "2018-08-22",
+      "latest_report_date": "2020",
+      "what_happened": "The Étangs de Corot at Ville-d'Avray are two 17th-century ponds (Vieil Étang and Étang Neuf) whose dikes feed the Saint-Cloud domain. ARIA 52504 (22 August 2018): about 13:45 a potable-water pipe crossing the pond dam burst. Water was present along about two-thirds of the embankment. Regulation gates were opened to hold the pond down; the leak was stopped about 16:00. Water had passed masonry-wall joints and an existing downstream-face sinkhole (fontis). Trenches were cut for repairs and backfilled; silt was cleared; the manager began moving utilities out of the dam. A 2016 hazard study had already classed the dikes C and warned of rupture risk to tens of thousands downstream (Val de Seine Vert / préfecture: about 30,000–33,000). Emergency consolidation works began autumn 2019 (CMN / franceinfo). No deaths.",
+      "status": "Consolidation works from 2019 on both dikes (CMN).",
+      "deaths": 0,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "ARIA 52504 — Endommagement d'un barrage d'étang (Ville-d'Avray, 22 Aug 2018)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/52504/"
+        },
+        {
+          "label": "French Wikipedia — Étangs de Corot",
+          "url": "https://fr.wikipedia.org/wiki/%C3%89tangs_de_Corot"
+        },
+        {
+          "label": "franceinfo — Étangs de Corot safety works (18 Oct 2020)",
+          "url": "https://www.franceinfo.fr/culture/arts-expos/peinture/etangs-de-corot-a-ville-d-avray-des-travaux-au-coeur-d-une-polemique-entre-securite-et-patrimoine_4146737.html"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: no source gives a count for this dike. Do not copy the wider January 2022 Garonne flood toll. Pin is the flooded Bénis quarter.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Terres des Confluences / private field owners (disputed)",
+      "year_built": "about a century ago (Radio Totem)",
+      "height_m": 4,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 700 m of a >3 km dike damaged (ARIA / La Dépêche)",
+      "downstream_risk": "Quartiers Bénis and Rivière Basse",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "France",
+      "type": "levee_embankment",
+      "category": "failure",
+      "id": "castelsarrasin-benis-2022-01-10",
+      "name": "Castelsarrasin Garonne earth dike (Bénis / Rivière Basse)",
+      "region": "Bénis and Rivière Basse, Castelsarrasin, Tarn-et-Garonne",
+      "location_label": "Garonne earth dike at Bénis, Castelsarrasin, France",
+      "lat": 44.02619,
+      "lng": 1.14247,
+      "geo_accuracy": "site",
+      "geo_source": "Adresses-françaises Chemin de Bénis, Castelsarrasin 44.02619, 1.14247 (flooded quarter behind the dike)",
+      "river_or_facility": "Garonne earth dike (Terres des Confluences)",
+      "causes": [
+        "poor_maintenance",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ARIA / La Dépêche: a 4 m earth dike, unmaintained and riddled with animal burrows and brambles, breached over about 700 m in the January 2022 Garonne flood.",
+      "incident_date": "2022-01-10",
+      "latest_report_date": "2022-01-19",
+      "what_happened": "ARIA 58547 (10 January 2022, Castelsarrasin): after severe flooding a 4 m earth dike ruptured and was heavily damaged over 700 m, flooding two residential quarters. Press (Radio Totem / La Dépêche / Journal Toulousain): the Bénis and Rivière Basse quarters, which had not flooded for decades, were inundated. The bank is one of about twenty ~century-old peasant dikes on the intercommunality, more than 3 km long; this reach had not been maintained, was overgrown with brambles, and was pierced by burrows, letting the Garonne in (Hugues Samain, Terres des Confluences). The communauté de communes plugged breaches in emergency with a mechanical excavator. No sourced death toll for this dike. Pin is the Bénis street/quarter, not a surveyed breach chainage.",
+      "status": "Emergency plugging January 2022; maintenance responsibility still disputed.",
+      "deaths": null,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "ARIA 58547 — Rupture d'une digue (Castelsarrasin, 10 Jan 2022)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/58547/"
+        },
+        {
+          "label": "La Dépêche — Rupture d'une digue de terre à Castelsarrasin (19 Jan 2022)",
+          "url": "https://www.ladepeche.fr/2022/01/19/inondations-la-rupture-dune-digue-de-la-garonne-pointee-du-doigt-apres-les-inondations-10055529.php"
+        },
+        {
+          "label": "Radio Totem — Bénis and Rivière Basse flooded after the dike gave way",
+          "url": "https://www.radiototem.net/tarn-et-garonne/9750-exclusif-crue-de-garonne-une-digue-de-castelsarrasin-a-cede-et-cause-de-nombreux-degats"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "1,465 people rescued from drowning in Vendée (Norois citing fire service) — regional figure, not used as this dike's evacuee count",
+      "notes": "Deaths 29 from named La Faute-sur-Mer / Digue Est sources. Do not copy 47 national or 12 Charente-Maritime onto this dike. Commune pin (region); crest chainage of Digue Est not published in fetched sources.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Association syndicale de la Vallée du Lay (ASVL) / commune",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "Lay dike overtopped (Cahiers Nantais: no rupture); separate dune breach at La Belle-Henriette",
+      "downstream_risk": "Low-lying housing behind Digue Est (most victims <400 m behind a dike — Vinet)",
+      "economic_damage": null,
+      "investigating_agency": "CETMEF / DDTM 85 / Nantes administrative courts",
+      "verification": "confirmed",
+      "country": "France",
+      "type": "levee_embankment",
+      "category": "incident",
+      "id": "faute-sur-mer-digue-est-2010-02-28",
+      "name": "La Faute-sur-Mer Digue Est (Xynthia overtopping)",
+      "region": "La Faute-sur-Mer (now L'Aiguillon-la-Presqu'île), Vendée",
+      "location_label": "Digue Est, La Faute-sur-Mer, Vendée, France",
+      "lat": 46.3328,
+      "lng": -1.3214,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (La Faute-sur-Mer) 46°19′58″N 1°19′17″W — commune on the Lay; Digue Est is the eastern estuary dike",
+      "river_or_facility": "Digue Est / Lay estuary (ASVL)",
+      "causes": [
+        "overtopping",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Nantes CAA / CETMEF: storm-surge overtopping of the named Digue Est along the Lay (about 2 hours); ASVL had not raised the dike. Cahiers Nantais: the Lay dike was overtopped without a breach; a separate dune breach occurred at La Belle-Henriette.",
+      "incident_date": "2010-02-28",
+      "latest_report_date": "2019",
+      "what_happened": "On the night of 27–28 February 2010, storm Xynthia and a 102-coefficient tide overtopped the eastern protection dike of La Faute-sur-Mer along the Lay estuary (ouvrage « Digue Est », association syndicale de la Vallée du Lay). Nantes Cour administrative d'appel (2019): the submersion of Digue Est drowned several people in the commune and caused heavy damage; liability split commune 50%, State 35%, ASVL 15% (failure to raise the dike / PPRI / information). Wikigeotech/CETMEF: overtopping of the east dike lasted about 2 hours, water rising on average ~1 m/h (peaks 3–6 m/h); low spots were overtopped as far as the Braud barrage. Cahiers Nantais: the Lay dike was overtopped without rupturing; the sea also breached the ocean dune at La Belle-Henriette, creating a pincer. Ouest-France: water >1.5 m in the town. Deaths at La Faute-sur-Mer 29 (Norois / Chauveau; 12 further Xynthia deaths in Charente-Maritime are a different coast and are not copied here).",
+      "status": "Post-Xynthia dike works and 'zone noire' clearances; commune merged 2022.",
+      "deaths": 29,
+      "severity": "catastrophic",
+      "sources": [
+        {
+          "label": "Cour administrative d'appel de Nantes — Tempête Xynthia / Digue Est",
+          "url": "https://nantes.cour-administrative-appel.fr/decisions-de-justice/dernieres-decisions/tempete-xynthia"
+        },
+        {
+          "label": "Wikigeotech — Impacts de la tempête Xynthia en Vendée",
+          "url": "http://wikigeotech.developpement-durable.gouv.fr/index.php/Impacts_de_la_temp%C3%AAte_Xynthia_en_Vend%C3%A9e"
+        },
+        {
+          "label": "Cahiers Nantais — La catastrophe Xynthia (Lay dike overtopped, Belle-Henriette dune breach)",
+          "url": "https://cahiers-nantais.fr/index.php?id=837"
+        },
+        {
+          "label": "Wikipedia — La Faute-sur-Mer",
+          "url": "https://en.wikipedia.org/wiki/La_Faute-sur-Mer"
         }
       ]
     }
