@@ -1357,6 +1357,7 @@
       cesiumViewer.scene.globe.baseColor = Cesium.Color.fromCssColorString("#0b0d10");
       cesiumViewer.scene.backgroundColor = Cesium.Color.fromCssColorString("#0b0d10");
       cesiumViewer.scene.globe.translucency.enabled = false;
+      cesiumViewer.scene.globe.depthTestAgainstTerrain = true;
       
       if (cesiumViewer.scene.skyBox) cesiumViewer.scene.skyBox.show = false;
       if (cesiumViewer.scene.sun) cesiumViewer.scene.sun.show = false;
@@ -1366,6 +1367,7 @@
         new Cesium.UrlTemplateImageryProvider({
           url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
           subdomains: ["a", "b", "c", "d"],
+          tilingScheme: new Cesium.WebMercatorTilingScheme(),
         })
       );
       
@@ -1419,11 +1421,13 @@
       layers.addImageryProvider(
         new Cesium.UrlTemplateImageryProvider({
           url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+          tilingScheme: new Cesium.WebMercatorTilingScheme(),
         })
       );
       layers.addImageryProvider(
         new Cesium.UrlTemplateImageryProvider({
           url: "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
+          tilingScheme: new Cesium.WebMercatorTilingScheme(),
         })
       );
     } else {
@@ -1431,6 +1435,7 @@
         new Cesium.UrlTemplateImageryProvider({
           url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
           subdomains: ["a", "b", "c", "d"],
+          tilingScheme: new Cesium.WebMercatorTilingScheme(),
         })
       );
     }
@@ -1483,17 +1488,16 @@
         }
         
         const point = globePointPrimitives.add({
-          position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat, 2500),
+          position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat, 8000),
           pixelSize: r * 2,
           color: cesiumColor.withAlpha(uncertain ? 0.55 : 0.88),
           outlineColor: Cesium.Color.fromCssColorString("#f3efe6").withAlpha(0.85),
           outlineWidth: 1.5,
-          disableDepthTestDistance: Number.POSITIVE_INFINITY,
         });
         point._incidentId = inc.id;
         
         const label = globeLabelCollection.add({
-          position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat, 2500),
+          position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat, 8000),
           text: inc.name,
           font: "11px sans-serif",
           fillColor: Cesium.Color.fromCssColorString("#f3efe6"),
@@ -1503,7 +1507,6 @@
           outlineColor: Cesium.Color.fromCssColorString("rgba(243, 239, 230, 0.22)"),
           outlineWidth: 1,
           pixelOffset: new Cesium.Cartesian2(0, -20),
-          disableDepthTestDistance: Number.POSITIVE_INFINITY,
           showBackground: true,
           show: false,
         });
