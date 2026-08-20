@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 689,
-  "current_count": 24,
-  "historical_count": 665,
+  "count": 709,
+  "current_count": 25,
+  "historical_count": 684,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -37576,6 +37576,1085 @@
         }
       ],
       "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: sources describe ecological catastrophe and village flooding, not a human death count. Date 15 Sep from Dyakiv/Maydan; Ukrainian Wikipedia plant page says 14 Sep after the same rain. Not Kakhovka and not Kurenivka.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Stebnyk DGKhP Polimineral (Soviet potash combine)",
+      "year_built": "1970s",
+      "height_m": 21.5,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": "about 4.5 million m³ / >5 million t brine and silt (Dyakiv; Ukrainian Wikipedia)",
+      "breach_size": null,
+      "downstream_risk": "Solonytsia–Tysmenytsia–Dniester; Moldova water intakes",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "stebnyk-2-1983-09-15",
+      "name": "Stebnyk potash tailings dam No. 2 (Polimineral)",
+      "country": "Ukraine",
+      "region": "Stebnyk, Drohobych Raion, Lviv Oblast",
+      "location_label": "Stebnyk tailings storage, NE outskirts of Stebnyk, Lviv Oblast, Ukraine",
+      "lat": 49.31752,
+      "lng": 23.57443,
+      "geo_accuracy": "site",
+      "geo_source": "Wikimapia — Хвостосховище Стебницького калійного заводу 49.3175194, 23.5744257",
+      "river_or_facility": "Stebnyk TSF section 2 / Solonytsia → Tysmenytsia → Dniester",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "foundation",
+        "structural_design",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Dyakiv & Kytsmur (Lviv geology): construction on mixed Quaternary/Neogene clays and frozen soils, under-compaction, no solid-phase beaches against the inner slope; a three-day rain (12–14 Sep 1983) triggered the breach.",
+      "incident_date": "1983-09-15",
+      "latest_report_date": "2022",
+      "what_happened": "On 15 September 1983 (Maydan / Dyakiv: 18:00; Ukrainian Wikipedia plant page dates the rain-triggered breach 14 September) the earth dam of Stebnyk tailings section 2 failed between pickets 7 and 8. Academic papers: about 4.5–5 million m³ / more than 5 million tonnes of concentrated brine and silt entered the Solonytsia, then the Tysmenytsia and the Dniester, reaching the Black Sea within a day. Villages Ranevychi, Pochaievychi and Mykhailevychi were flooded; 251 ha contaminated; the Lviv–Truskavets railway was damaged; plants in several Ukrainian oblasts and Moldova were paused. Damages more than 62 million Soviet roubles. No sourced human death count for the breach itself. Dam later strengthened; facility remains a watch.",
+      "status": "Historical TSF breach; dam later reinforced; remaining brine still stored.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Dyakiv & Kytsmur — 15 Sep 1983 Stebnyk hydrodynamic accident (Lviv geology PDF)",
+          "url": "https://geology.lnu.edu.ua/wp-content/uploads/2022/01/10-pp106-124.pdf"
+        },
+        {
+          "label": "Ukrainian Wikipedia — Стебницьке ДГХП Полімінерал (14 Sep rain-triggered breach; >5 million t)",
+          "url": "https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%B1%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B5_%D0%94%D0%93%D0%A5%D0%9F_%D0%9F%D0%BE%D0%BB%D1%96%D0%BC%D1%96%D0%BD%D0%B5%D1%80%D0%B0%D0%BB"
+        },
+        {
+          "label": "Maydan Drohobych — 40 years on (15 Sep 1983 18:00)",
+          "url": "http://maydan.drohobych.net/?p=141149"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "112 houses flooded; residents of Hdantsivka and Motronivka evacuated (Ukrainska Pravda)",
+      "notes": "Deaths 0 from Vilkul/BBC 15 Sep 2022 (no casualties). Do not copy Kakhovka 2023 war/flood totals. Chornohirka detonations were controlled emergency works, not a second failure record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 24,
+      "reservoir_capacity": "308.5 million m³ (Encyclopedia of Modern Ukraine)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": "first-stage discharge about 100 m³/s (Kolomiyets / REACH)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "karachunivske-2022-09-14",
+      "name": "Karachunivske (Karachun) Reservoir dam",
+      "country": "Ukraine",
+      "region": "western outskirts of Kryvyi Rih, Dnipropetrovsk Oblast",
+      "location_label": "Karachunivske Reservoir dam on the Inhulets, Kryvyi Rih, Ukraine",
+      "lat": 47.91778,
+      "lng": 33.22417,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikidata Q4214504 Karachunivka Reservoir 47°55′4″N 33°13′27″E (reservoir/GNS pin)",
+      "river_or_facility": "Karachunivske Reservoir / Inhulets River",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "war_attack"
+      ],
+      "cause_summary": "BBC, CNN, Ukrainska Pravda and Hydropower & Dams International: Russian cruise missiles (Zelenskyy/Vilkul: up to eight) struck the hydro-mechanical structures on 14 September 2022.",
+      "incident_date": "2022-09-14",
+      "latest_report_date": "2022-09-16",
+      "what_happened": "On 14 September 2022 at about 17:00, Russian missiles hit the Karachunivske dam that supplies Kryvyi Rih. Hydropower & Dams International (Kolomiyets): gates, crane and administrative buildings damaged; first-stage discharge about 100 m³/s; Inhulets rose about 2–3 m; about 112 houses flooded; partial evacuation in two city districts. Overnight, Ukrainian services carried out two controlled detonations of a downstream dam at Chornohirka to increase river capacity and installed a temporary sluice. BBC (15 Sep): city head Oleksandr Vilkul said there were no casualties; water levels had dropped considerably by Thursday morning. Encyclopedia of Modern Ukraine: reservoir volume 308.5 million m³. Not Kakhovka.",
+      "status": "Damaged 2022; emergency repairs; city water later restored.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "BBC — Houses flooded after missiles hit major dam (no casualties)",
+          "url": "https://www.bbc.com/news/world-europe-62910245"
+        },
+        {
+          "label": "Hydropower & Dams International — Missile attack on the Karachun dam",
+          "url": "https://www.hydropower-dams.com/news/missile-attack-on-the-karachun-dam-ukraine/"
+        },
+        {
+          "label": "Ukrainska Pravda — 112 houses; two downstream detonations",
+          "url": "https://www.pravda.com.ua/eng/news/2022/09/15/7367521/"
+        },
+        {
+          "label": "CNN — Russia hits dam in central Ukraine",
+          "url": "https://www.cnn.com/2022/09/15/europe/russia-ukraine-kryvyi-rih-dam-strike-intl"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": 16,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 15 from BBC 19 Oct and Interfax/DW 20 Oct confirmed count. Early missing figures (BBC 13; DW 5; German Wikipedia 6) are not added to the death total.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "OOO Sisim (Sibzoloto holding)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Investigative Committee of Russia (Krasnoyarsk / Khakassia)",
+      "verification": "confirmed",
+      "id": "seiba-shchetinkino-2019-10-19",
+      "name": "Seiba River gold-mine dams (Sisim / Shchetinkino)",
+      "country": "Russia",
+      "region": "Shchetinkino, Kuraginsky District, Krasnoyarsk Krai",
+      "location_label": "Seiba River artisanal gold-mine dams near Shchetinkino, Krasnoyarsk Krai",
+      "lat": 54.54828,
+      "lng": 93.44844,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia list of dam accidents (Damm am Fluss Seiba, Schetinkino) 54°32′53.8″N 93°26′54.4″E",
+      "river_or_facility": "Cascade of five process dams on the Seiba River (Sisim artel)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance",
+        "structural_design"
+      ],
+      "cause_summary": "Investigative Committee: five dams built illegally without permits to drain groundwater for gold mining; the highest failed in heavy rain and a cascade broke the four below.",
+      "incident_date": "2019-10-19",
+      "latest_report_date": "2019-10-20",
+      "what_happened": "At about 06:00 local time on 19 October 2019 a process-pond dam on the Seiba River near Shchetinkino failed in heavy rain. BBC: at least 15 gold miners died and others were missing after water flooded workers' cabins; the regional head called the hydro-technical facility self-constructed and in violation of safety rules. DW/Interfax (20 Oct): Investigative Committee said the breach started at the highest of five illegal dams and a chain reaction broke four more; CEO, site chief and foreman of OOO Sisim (Sibzoloto holding) detained; 16 injured. German Wikipedia later listed 15 dead plus 6 missing.",
+      "status": "Historical illegal cascade failure; criminal case opened.",
+      "deaths": 15,
+      "sources": [
+        {
+          "label": "BBC — Russia dam collapse at Siberia gold mine kills 15",
+          "url": "https://www.bbc.com/news/world-europe-50108413"
+        },
+        {
+          "label": "DW — Russia arrests 3 over gold mine dam collapse",
+          "url": "https://www.dw.com/en/russia-arrests-3-over-gold-mine-dam-collapse/a-50907356"
+        },
+        {
+          "label": "Interfax — five dams destroyed; 15 dead",
+          "url": "https://www.interfax.ru/russia/681068"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "163 evacuated (EAN / Rostekhnadzor 5 Sep 2024)",
+      "notes": "Deaths null: contemporaneous MCHS/Moscow Times/EAN reports describe evacuations and water-supply loss, not a death count. Not Orsk.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1979",
+      "height_m": null,
+      "reservoir_capacity": "7.8 million m³ (Chelyabinsk MCHS)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": "about 100 m of a 500 m dam (MCHS)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ural directorate of Rostekhnadzor",
+      "verification": "confirmed",
+      "id": "kialimskoye-2024-07-26",
+      "name": "Kialimskoye Reservoir dam (Karabash)",
+      "country": "Russia",
+      "region": "Karabash urban okrug, Chelyabinsk Oblast",
+      "location_label": "Kialimskoye Reservoir, Karabash, Chelyabinsk Oblast, Russia",
+      "lat": 55.4055,
+      "lng": 60.13816,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia list of dam accidents (Kialimskoje, Karabasch) 55°24′19.8″N 60°8′17.4″E",
+      "river_or_facility": "Kialimskoye Reservoir / Bolshoy Kialim (to Argazi Reservoir)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Chelyabinsk MCHS: heavy rain and increased inflow washed out 100 m of the 500 m dam. Later Rostekhnadzor: no maintenance, no staff certification, no monitoring instruments.",
+      "incident_date": "2024-07-26",
+      "latest_report_date": "2024-09-05",
+      "what_happened": "At 19:10 MSK on 26 July 2024 the duty desk at Karabash reported that rain had washed out 100 m of the Kialimskoye dam (MCHS: total length 500 m, reservoir 7.8 million m³). Floodwater moved toward Kialim, Mukhametovo, Baydashevo and Karasevo. Moscow Times: dam built 1979; about 200 people live in the four villages. EAN/Rostekhnadzor (5 Sep 2024): 163 people evacuated; Karabash lost drinking water; inspection found gross operating violations and sent materials to prosecutors. No sourced death count.",
+      "status": "Breached 2024; emergency works; reconstruction planned.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Chelyabinsk MCHS — Прорыв плотины в Карабашском ГО (26 Jul 2024)",
+          "url": "https://74.mchs.gov.ru/deyatelnost/press-centr/operativnaya-informaciya/5329681"
+        },
+        {
+          "label": "Moscow Times — Dam collapses in Chelyabinsk Region",
+          "url": "https://www.themoscowtimes.com/2024/07/26/dam-collapses-in-russias-chelyabinsk-region-forcing-hundreds-to-flee-a85848"
+        },
+        {
+          "label": "EAN — Rostekhnadzor: gross violations (5 Sep 2024)",
+          "url": "https://eanews.ru/chelyabinsk/20240905175001/proryv-plotiny-v-chelyabinskoy-oblasti-proizoshel-iz-za-grubyh-narusheniy"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 2 from Sembenelli via German Wikipedia. The 2023 Armenian reconstruction paper confirms the 31 May 1994 date but does not state a death count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1988–1992",
+      "height_m": null,
+      "reservoir_capacity": "planned reconstruction 1.7 million m³ (RA government programme)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "artik-1994-05-31",
+      "name": "Artik Reservoir dam (Karnut / Artikjur)",
+      "country": "Armenia",
+      "region": "northwest of Artik, Shirak Province",
+      "location_label": "Artik Reservoir on the Artikjur (Karangu / Karkachun), Shirak, Armenia",
+      "lat": 40.66111,
+      "lng": 43.90278,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia / DeWiki Artik-Staudamm 40°39′40″N 43°54′10″E",
+      "river_or_facility": "Artik Reservoir / Artikjur tributary of the Karkachun (Karangu)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Sembenelli (Dam Safety 1998), summarised by German Wikipedia: spring 1994 reservoir rise, increased seepage, suffosion and piping around a mid-height outlet, then collapse of a dam section — compared to Teton.",
+      "incident_date": "1994-05-31",
+      "latest_report_date": "2023",
+      "what_happened": "Mkrtchyan et al. (Bulletin of Armenian National Agrarian University, 2023): the Artik Reservoir, built 1988–1992 by Glkhhayjrshin / Volgogradshin on the Artikjur northwest of Artik, failed on 31 May 1994 during floods in the Karangu basin and lost its regulating function for 420 ha of irrigation in Nor Kyank, Vardakar, Panik, Meghrashen and Anushavan. German Wikipedia / Sembenelli: a whole dam section collapsed; the flood wave inundated two villages, killing two people. Reconstruction of a 1.7 million m³ reservoir on the same site is in the 2021–2026 government programme.",
+      "status": "Failed 1994; reconstruction planned on the former site.",
+      "deaths": 2,
+      "sources": [
+        {
+          "label": "Mkrtchyan et al. — Artik Reservoir reconstruction ESS (failure 31 May 1994)",
+          "url": "http://bulletin.am/wp-content/uploads/2024/01/9-Mkrtchyan-Arevik-et-al-F1.docx.pdf"
+        },
+        {
+          "label": "DeWiki — Artik-Staudamm (Sembenelli 1998; 2 deaths)",
+          "url": "https://www.dewiki.de/Lexikon/Artik-Staudamm"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "partial evacuation; two settlements >12,000 people threatened (MDPI)",
+      "notes": "Deaths null: MDPI describes evacuation threat, not a death count. Not Shcherbakovskoye and not Kyzyl-Agash.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ministry of Agriculture of Kazakhstan (technical passport cited by MDPI)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "nearly 0.5 million m³ (MDPI)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "voroshilov-2024-03-30",
+      "name": "Voroshilov Reservoir dam",
+      "country": "Kazakhstan",
+      "region": "Baykent, Ili District, Almaty Region",
+      "location_label": "Voroshilov Reservoir on the Zharmukhambet, Ili District, Almaty Region",
+      "lat": 43.45083,
+      "lng": 76.80944,
+      "geo_accuracy": "exact",
+      "geo_source": "MDPI Applied Sciences 16(4):1861 (2026) 43°27′3″N 76°48′34″E",
+      "river_or_facility": "Voroshilov Reservoir / Zharmukhambet River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "MDPI case study: sudden breach at 15:50 local time on 30 March 2024 during the spring flood; eyewitnesses said the failure took about 30 minutes. Mechanism beyond flood inflow is not independently established in the paper.",
+      "incident_date": "2024-03-30",
+      "latest_report_date": "2026",
+      "what_happened": "On 30 March 2024 at 15:50 the Voroshilov irrigation/fish-farm reservoir near Baykent failed. MDPI: reservoir volume nearly 0.5 million m³ emptied in about five hours; the breach wave eroded the emergency-spillway channel and destroyed two small downstream hydraulic structures; flood threat to two settlements with more than 12,000 people and partial evacuation. Same spring-flood season as Shcherbakovskoye (Aktobe) — a different named dam. No sourced death count for this structure.",
+      "status": "Historical 2024 breach; documented as a field case for breach modelling.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "MDPI Applied Sciences — Integrated Numerical Modeling of Dam Breach (Voroshilov 30 Mar 2024)",
+          "url": "https://www.mdpi.com/2076-3417/16/4/1861"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Category incident, not a dam-body failure. Deaths 75 from Wikipedia's later official tally (10 Sep 2009: 75 confirmed, one still listed missing). 1979/1985/1988 spillway and first-filling events are noted here, not given separate IDs. Not Kiselevskaya or Tirlyan.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "RusHydro",
+      "year_built": "1963–1985",
+      "height_m": 242,
+      "reservoir_capacity": "31.3 km³ (Wikipedia)",
+      "construction": "concrete_arch",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "engine-room rebuild alone about $1.2 billion (Energy Minister Shmatko, Wikipedia)",
+      "investigating_agency": "Rostekhnadzor (official report 3 October 2009)",
+      "verification": "confirmed",
+      "id": "sayano-shushenskaya-2009-08-17",
+      "name": "Sayano-Shushenskaya hydropower plant (turbine hall)",
+      "country": "Russia",
+      "region": "Cheryomushki / Sayanogorsk, Khakassia",
+      "location_label": "Sayano-Shushenskaya HPP on the Yenisei, Khakassia, Russia",
+      "lat": 52.82583,
+      "lng": 91.37028,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Sayano-Shushenskaya Dam) 52°49′33″N 91°22′13″E",
+      "river_or_facility": "Sayano-Shushenskaya HPP / Yenisei River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "structural_design",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Official Rostekhnadzor report (3 Oct 2009), summarised by Wikipedia: turbine 2 vibrations caused fatigue of cover bolts; the unit entered a prohibited power band and the cover failed under about 20 atmospheres.",
+      "incident_date": "2009-08-17",
+      "latest_report_date": "2014-11-12",
+      "what_happened": "At 08:13 on 17 August 2009 turbine-generator 2 at Sayano-Shushenskaya tore from its casing, flooded the turbine hall and collapsed the ceiling. Wikipedia (official report): 75 people confirmed dead including one pregnant woman; transformer oil spilled (at least 40 t over about 80 km of the Yenisei). The 242 m arch-gravity dam itself was not breached. Wikipedia also records earlier non-breach incidents at the same plant: 23 May 1979 first-filling flood of the machine hall; 1985 and 1988 spring-flood damage to the spillway floor and stilling basin. Plant rebuilt; all 10 units operational again by November 2014.",
+      "status": "Powerhouse rebuilt; dam still operating.",
+      "deaths": 75,
+      "sources": [
+        {
+          "label": "Wikipedia — Sayano-Shushenskaya Dam (75 dead; official report summary)",
+          "url": "https://en.wikipedia.org/wiki/Sayano-Shushenskaya_Dam"
+        },
+        {
+          "label": "Wikipedia — List of dam failures (notes: not a dam-body failure)",
+          "url": "https://en.wikipedia.org/wiki/List_of_dam_failures"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: WISE lists '?'. Town pin; exact 1975 breach crest not separately published in the sources fetched. Not Plakalnitsa and not Ivanovo.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "250,000 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "madjarevo-1975-04",
+      "name": "Madjarevo (Madzharovo) tailings dam",
+      "country": "Bulgaria",
+      "region": "Madzharovo, Haskovo / Kardzhali (Eastern Rhodopes)",
+      "location_label": "Madzharovo lead-zinc-gold tailings, Eastern Rhodopes, Bulgaria",
+      "lat": 41.63833,
+      "lng": 25.86167,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikimapia Madzharovo town 41°38′18″N 25°51′42″E (mine/tailings in the same ore field)",
+      "river_or_facility": "Madjarevo / Madzharovo mine tailings (lead, zinc, gold)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "structural_design"
+      ],
+      "cause_summary": "WISE chronology: rising of tailings above design level overloaded the decant tower and collectors.",
+      "incident_date": "1975-04",
+      "latest_report_date": "2015-07-21",
+      "what_happened": "WISE Uranium Project chronology of major tailings dam failures (updated 19 Aug 2026; row also in the 2014 Bowker/Chambers compilation): in April 1975 the Madjarevo lead-zinc-gold tailings dam in Bulgaria failed after tailings were raised above the design level, overloading the decant tower and collectors, releasing 250,000 m³. WISE marks deaths and downstream impacts as unknown. Madzharovo is the Eastern Rhodope lead-zinc camp (not Plakalnitsa 1966 and not Ivanovo 2012).",
+      "status": "Historical TSF failure; mine later closed / heaps reclaimed.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WISE Uranium Project — Chronology of major tailings dam failures (Madjarevo, Apr 1975)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: WISE lists '?'. Plant pin; 1992 breach crest not separately published. Not a reservoir-dam failure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Maritsa Iztok 1 TPP (later AES Galabovo on the same complex)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "unknown",
+      "volume_released": "500,000 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "maritsa-istok-1-1992-03-01",
+      "name": "Maritsa Istok 1 ash/cinder dam",
+      "country": "Bulgaria",
+      "region": "Galabovo / near Stara Zagora, Stara Zagora Province",
+      "location_label": "Maritsa Iztok-1 (AES Galabovo) ash pond, Stara Zagora Province, Bulgaria",
+      "lat": 42.1573,
+      "lng": 25.9084,
+      "geo_accuracy": "approx",
+      "geo_source": "GEM wiki Maritsa Iztok-1 power station 42.1573, 25.9084 (exact plant; 1992 ash pond was on the west of the old site)",
+      "river_or_facility": "Maritsa Istok 1 TPP ash/cinder embankment",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "WISE: dam failure from inundation of the beach (ash/cinder embankment).",
+      "incident_date": "1992-03-01",
+      "latest_report_date": "2015-07-21",
+      "what_happened": "WISE chronology: on 1 March 1992 the Maritsa Istok 1 ash/cinder dam near Stara Zagora failed after inundation of the beach, releasing 500,000 m³. WISE marks deaths and other impacts as unknown. A later World Bank ESIA for the replacement AES Maritza East 1 plant describes a now-reclaimed ash pond west of the demolished older units at Galabovo, on the north shore of Rozov Kladenets Lake. Not Ivanovo 2012 and not Plakalnitsa 1966.",
+      "status": "Historical ash-dam failure; old pond later reclaimed / plant rebuilt.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WISE Uranium Project — Chronology of major tailings dam failures (Maritsa Istok 1, 1 Mar 1992)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "World Bank ESIA E1173 — reclaimed ME-1 ash pond at Galabovo",
+          "url": "https://documents1.worldbank.org/curated/en/638961468006032685/txt/E1173.txt"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: LSM says evacuation was prepared then unnecessary; no death figure. Village pin for the mill lake. Ordinary regional flood damage is not copied as a dam-break toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "2026",
+      "owner_operator": "Talsi Municipality",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "dursupe-mill-2026-07-20",
+      "name": "Dursupe mill dam",
+      "country": "Latvia",
+      "region": "Dursupe, Balgale Parish, Talsi Municipality",
+      "location_label": "Dursupe mill lake dam, Talsi Municipality, Latvia",
+      "lat": 57.19139,
+      "lng": 22.87444,
+      "geo_accuracy": "approx",
+      "geo_source": "Latvian Wikipedia Dursupe 57°11′29″N 22°52′28″E (village on the Dursupe River / P128)",
+      "river_or_facility": "Dursupe mill lake / Dursupe River",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "LSM and Talsi council: more than 74 mm of rain on the evening of 20 July 2026 (almost a monthly norm) breached the mill dam.",
+      "incident_date": "2026-07-20",
+      "latest_report_date": "2026-07-28",
+      "what_happened": "On the night of 20–21 July 2026 the municipal Dursupe mill-lake dam in Talsi Municipality breached after intense rain. LSM (21 and 28 July): the lake overflowed, flooded adjoining land and washed out local roads including the Sloka–Talsi regional road (P128); public buildings in Talsi and Pastende were flooded; 53 road sections were later counted damaged. Boat evacuation in Balgale parish was prepared but not needed. LIFE GoodWater IP / LVĢMC: the breach highlighted unregistered historic mill dams. Council chair Ansis Bērziņš said restoration versus demolition is under discussion. No sourced death count.",
+      "status": "Breached July 2026; restore-or-remove under municipal debate.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "LSM English — Two roads washed away in Talsi district (21 Jul 2026)",
+          "url": "https://eng.lsm.lv/article/weather/weather/21.07.2026-two-roads-washed-away-in-talsi-district.a655738/"
+        },
+        {
+          "label": "LSM English — Rain damaged 53 road sections; mill dam cited (28 Jul 2026)",
+          "url": "https://eng.lsm.lv/article/economy/transport/28.07.2026-rain-damaged-53-road-sections-in-talsi-vicinity-last-week.a656648/"
+        },
+        {
+          "label": "LIFE GoodWater IP — Dursupe mill-dam breach and unregistered obstacles",
+          "url": "https://www.goodwater.lv/dursupes-dzirnavu-aizsprosta-parravums-izgaismo-robus-latvijas-hidrotehnisko-buvju-uzraudziba/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 5 from German Wikipedia table. Senohraby text says several lives without a number. Not Desná 1916 and not Mladotice 1872.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "hubacov-1974-08-18",
+      "name": "Hubačov pond dam (Hubačovský rybník)",
+      "country": "Czechia",
+      "region": "Mirošovice / Senohraby, near Prague",
+      "location_label": "Hubačov pond, Mirošovice–Senohraby, Czechia",
+      "lat": 49.91287,
+      "lng": 14.72557,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia list of dam accidents (Hubacov, Mirosovice) 49°54′46.3″N 14°43′32″E",
+      "river_or_facility": "Hubačovský rybník / Hrušov valley",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Senohraby municipal commemoration: persistent rains on 18 August 1974 breached the Hubačov pond dam.",
+      "incident_date": "1974-08-18",
+      "latest_report_date": "2024-08",
+      "what_happened": "On Sunday 18 August 1974 the dam of Hubačovský rybník failed after persistent rain. The Senohraby municipal site, at the 50th-anniversary plaque unveiling, calls it the most tragic day in the village's history: the wave in a few minutes wrecked houses, flats and cottages in the Hrušov valley and caused several deaths. German Wikipedia's accident list gives 5 dead and the coordinates used here.",
+      "status": "Historical pond-dam breach; memorial plaque (2024).",
+      "deaths": 5,
+      "sources": [
+        {
+          "label": "Obec Senohraby — 50th anniversary plaque, 18 Aug 1974 Hubačov breach",
+          "url": "https://www.senohraby.cz/prakticke-info/kultura-a-sport/odhaleni-pametni-desky-k-vyroci-50-let-od-protrzeni-hraze-hubacovskeho-rybnika-2396cs.html"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen (Hubacov, 5 dead)",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 54 from Yafyazova/Zems 'at the minimum'. Travel pages saying 'hundreds' are not used. Not Usoi/Sarez.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "natural landslide dam (Holocene)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": "debris-flow volume 5.8 million m³ (Zems 1976 via Yafyazova)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lake-issyk-1963-07-07",
+      "name": "Lake Issyk (Esik) landslide dam",
+      "country": "Kazakhstan",
+      "region": "Issyk Gorge, Trans-Ili Alatau, Almaty Region",
+      "location_label": "Lake Issyk, Issyk Gorge, Almaty Region, Kazakhstan",
+      "lat": 43.2531,
+      "lng": 77.4847,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Lake Issyk) 43°15′11″N 77°29′05″E",
+      "river_or_facility": "Lake Issyk natural landslide dam / Issyk (Esik) River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "landslide",
+        "overtopping"
+      ],
+      "cause_summary": "Wikipedia: an ancient landslide dam was destroyed by another landslide/debris flow in 1963. Zems (1976) via Yafyazova: glacial Lake No. 17 on the Zharsay glacier burst through an underground channel and the debris flow overtopped and breached Lake Issyk's natural dam.",
+      "incident_date": "1963-07-07",
+      "latest_report_date": "2015-07-06",
+      "what_happened": "Lake Issyk was impounded by a roughly 300 m natural landslide dam (Wikipedia: formed 8–10 millennia ago; ~1,850 × 500 m, 50–79 m deep, 1,756 m asl). On 7 July 1963 a glacial debris flow from Zharsay entered the lake and destroyed the western dam; the emptying flood damaged the town of Esik. Yafyazova (citing Zems 1976): at minimum 54 people resting near the lake were killed; peak debris-flow discharge 7–12 thousand m³/s, volume 5.8 million m³. The lake was later partly recreated behind a rebuilt dam. Not Issyk-Kul in Kyrgyzstan and not Kyzyl-Agash 2010.",
+      "status": "Natural dam destroyed 1963; lake later partly restored behind a new dam.",
+      "deaths": 54,
+      "sources": [
+        {
+          "label": "Wikipedia — Lake Issyk (1963 landslide-dam destruction)",
+          "url": "https://en.wikipedia.org/wiki/Lake_Issyk"
+        },
+        {
+          "label": "Yafyazova — Disastrous debris flows in Kazakhstan (minimum 54 dead)",
+          "url": "https://rosa.uniroma1.it/rosa02/engineering_geology_environment/article/download/1386/1280/3989"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Orsk flood deaths or house counts onto this dam. Category incident: sourced as overtopping, not a breach of the dam body.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "after 1957 flood",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "novotroitsk-sazanye-2024-04-08",
+      "name": "Novotroitsk Sazanye protective dam",
+      "country": "Russia",
+      "region": "Novotroitsk, Orenburg Oblast",
+      "location_label": "Sazanye Lake protective dam, Novotroitsk, Orenburg Oblast",
+      "lat": 51.19,
+      "lng": 58.32639,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikimapia Lake (Novotroitsk / Sazanye) 51°11′24″N 58°19′35″E; Wikipedia Novotroitsk 51°12′14″N 58°18′41″E",
+      "river_or_facility": "Protective dam at Lake Sazanye (Ural River flood, 1957 works)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Governor Pasler and mayor Menshikov: Ural floodwater overtopped the 1957 protective dam that keeps Sazanye Lake out of the town; crews were dumping fill. Not described as a structural collapse.",
+      "incident_date": "2024-04-08",
+      "latest_report_date": "2024-04-10",
+      "what_happened": "On the morning of 8 April 2024, during the same Ural flood that had already breached the Orsk embankment, water overtopped the Novotroitsk protective dam. Parliamentary Gazette / Pasler: the dam was built after the 1957 flood to protect the town from Sazanye Lake; water was at 8.5 m; Sevastopolskaya Street was evacuated and filling of the dam began. Interfax (10 Apr): mayor Menshikov said water had fallen 17 cm from the peak and pumping back to the Ural could start after another 70 cm drop. Separate named structure from Orsk. No sourced death count for this overtopping.",
+      "status": "Overtopped April 2024; water later receded.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Парламентская газета — Novotroitsk dam overtopping; 1957 Sazanye dam",
+          "url": "https://www.pnp.ru/incident/v-novotroicke-orenburgskoy-oblasti-voda-perelilas-cherez-dambu.html"
+        },
+        {
+          "label": "Interfax — water receding 10 Apr 2024",
+          "url": "https://www.interfax.ru/russia/955091"
+        },
+        {
+          "label": "Moscow Times — Orenburg historic flood (Novotroitsk overflow)",
+          "url": "https://www.themoscowtimes.com/2024/04/10/devastating-to-see-russias-orenburg-region-battles-historic-flood-a84780"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "154 evacuated (Kazinform)",
+      "notes": "Deaths 0 from the operational-headquarters statement (no casualties; no residential flooding). Village-road pin, not a surveyed crest. Not Sokolok and not Shcherbakovskoye.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "zhalgansay-2024-05-22",
+      "name": "Zhalgansay village-road dam (Makhambet)",
+      "country": "Kazakhstan",
+      "region": "Zhalgansay, Makhambet District, Atyrau Region",
+      "location_label": "Protective dam at the Zhalgansay village road, Atyrau Region",
+      "lat": 47.61028,
+      "lng": 51.61028,
+      "geo_accuracy": "approx",
+      "geo_source": "Kazakh Wikipedia Жалғансай 47°36′37″N 51°36′37″E (village; Kazinform: dam at the village-road entrance)",
+      "river_or_facility": "Zhalgansay road-entrance flood dam (Zhaiyk / Ural floodplain)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Atyrau operational headquarters via Kazinform: the dam at the village-road entrance ruptured at 23:41 on 22 May 2024 as Ural (Zhaiyk) floodwater rose.",
+      "incident_date": "2024-05-22",
+      "latest_report_date": "2024-05-23",
+      "what_happened": "On 22 May 2024 at 23:41 the protective dam at the entrance to the Zhalgansay village road in Makhambet District ruptured. Kazinform / operational headquarters: 154 people were evacuated to the district centre; the eroded dam was fully restored by 04:20; there were no instances of residential flooding or casualties; Makhambet water level 1,020 cm. Separate from the 24 May Sokolok channel dam collapse and from Shcherbakovskoye (Aktobe).",
+      "status": "Restored within hours on 23 May 2024.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Kazinform — Evacuated residents return home to Zhalgansay (no casualties)",
+          "url": "https://qazinform.com/news/evacuated-residents-return-home-to-zhalgansay-village-in-atyrau-region-fe2df9"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 19 from Nature 26 Mar 1987 contemporaneous 'at least 19 lives' for the Sargazon burst. DFO 31 is a country-flood figure and is not used. Date 16 Mar from Nature 'last week' plus DFO start date. German Wikipedia 16 Apr 1987 conflict noted and set aside. Coords from the German table (Sargazonskaja, Sargazon).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "about US$450 million (German Wikipedia table)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sargazon-1987-03-16",
+      "name": "Sargazon dam (Sargazonskaya)",
+      "country": "Tajikistan",
+      "region": "Sargazon, Khatlon / former Kulob foothills",
+      "location_label": "Sargazon dam, Tajikistan",
+      "lat": 38.06823,
+      "lng": 69.23641,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia list of dam accidents (Sargazonskaja, Sargazon) 38°4′5.6″N 69°14′11.1″E",
+      "river_or_facility": "Sargazonskaya dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "landslide",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Vera Rich, Nature 326:325 (26 March 1987): the Sargazon dam-burst was caused by a mudflow initiated by torrential rains.",
+      "incident_date": "1987-03-16",
+      "latest_report_date": "1987-03-26",
+      "what_happened": "Nature (Vera Rich, 26 March 1987) reported the dam-burst at the Sargazon reservoir in the Tajik SSR 'last week' with the loss of at least 19 lives, caused by a mudflow started by torrential rains. The Dartmouth Flood Observatory later listed a Tajikistan heavy-rain flood 16–17 March 1987 (report 126) with 31 regional deaths — that regional total is not copied onto this dam. German Wikipedia's accident table date 16 April 1987 is rejected here because it post-dates the Nature article. Not Usoi/Sarez (1911 landslide dam, still a watch).",
+      "status": "Historical mudflow-triggered burst.",
+      "deaths": 19,
+      "sources": [
+        {
+          "label": "Vera Rich — Burst raises doubts about Soviet hydroelectricity dam (Nature 326:325)",
+          "url": "https://www.nature.com/articles/326325b0"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen (Sargazonskaja, 16 Apr 1987, 19–31 dead)",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "15 workers evacuated from the powerhouse (RusHydro)",
+      "notes": "Deaths 0: RusHydro says all 15 left the building. Category incident: foundation sag and flooding of an unfinished powerhouse, not a reservoir-dam breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "RusHydro",
+      "year_built": "construction started 2007",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "RusHydro / Rostekhnadzor surveys",
+      "verification": "confirmed",
+      "id": "zagorskaya-2-2013-09-17",
+      "name": "Zagorskaya PSP-2 powerhouse (construction)",
+      "country": "Russia",
+      "region": "Sergiev Posad District, Moscow Oblast",
+      "location_label": "Zagorskaya pumped-storage plant No. 2, Sergiev Posad, Russia",
+      "lat": 56.48167,
+      "lng": 38.19111,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Zagorsk Pumped Storage Station 56°28′54″N 38°11′28″E (Zagorsk-1; Zagorsk-2 is adjacent)",
+      "river_or_facility": "Zagorskaya GAES-2 / lower reservoir on the Kunya system",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "foundation",
+        "construction_first_filling"
+      ],
+      "cause_summary": "RusHydro: inefficient impervious system and insufficient exploration of the soft-soil foundation; soil erosion under the powerhouse caused the building to sag and flood through broken expansion joints.",
+      "incident_date": "2013-09-17",
+      "latest_report_date": "2026-05-27",
+      "what_happened": "Seepage into the unfinished Zagorskaya-2 turbine room was noticed at 22:13 MSK on 17 September 2013 (RusHydro; some English reports say workers first saw water on 13 Sep). All 15 people in the powerhouse left. The building subsided and the turbine room flooded. RusHydro isolated the powerhouse from the lower reservoir with an earthfill cofferdam, pumped it out, and later injected more than 20,000 m³ of grout. Kommersant (2025) and a May 2026 note: restoration still aimed at 2028 commissioning. No deaths. Not a dam-body breach of Zagorsk-1.",
+      "status": "Powerhouse stabilised; commissioning still planned 2028.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Renewable Energy World — Soil caused seepage at Zagorskaya 2",
+          "url": "https://www.renewableenergyworld.com/energy-storage/pumped-storage/soil-caused-seepage-at-zagorskaya-2-pumped-storage-plant-rushydro-says/"
+        },
+        {
+          "label": "NS Energy — RusHydro Zagorskaya PSP-2 survey results",
+          "url": "https://www.nsenergybusiness.com/news/newsrushydro-announces-zagorskaya-pumped-storage-plant-no2-survey-results-281113/"
+        },
+        {
+          "label": "Wikipedia — Zagorsk Pumped Storage Station",
+          "url": "https://en.wikipedia.org/wiki/Zagorsk_Pumped_Storage_Station"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: WISE lists no fatalities. Pit/complex pin; the named ravine is not separately coordinated in the sources fetched. Cause unknown — not guessed.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Lebedinsky GOK",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "3.5 million m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "balka-chuficheva-1981-01-20",
+      "name": "Balka Chuficheva tailings dam (Lebedinsky GOK)",
+      "country": "Russia",
+      "region": "Gubkin, Belgorod Oblast (Kursk Magnetic Anomaly)",
+      "location_label": "Lebedinsky GOK tailings / Balka Chuficheva, Gubkin, Belgorod Oblast",
+      "lat": 51.28274,
+      "lng": 37.6313,
+      "geo_accuracy": "approx",
+      "geo_source": "GEM wiki Metalloinvest Lebedinsky Mine 51.282740, 37.631296 (open pit; WISE names the 1981 dam Balka Chuficheva at Lebedinsky)",
+      "river_or_facility": "Balka Chuficheva iron-ore tailings dam, Lebedinsky GOK",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "WISE chronology records a dam failure on 20 January 1981; it does not state a mechanism.",
+      "incident_date": "1981-01-20",
+      "latest_report_date": "2015-07-21",
+      "what_happened": "WISE Uranium Project chronology (also in the 2014 Bowker/Chambers compilation): on 20 January 1981 the Balka Chuficheva iron tailings dam at Lebedinsky, Russia, failed and released 3.5 million m³; tailings travelled 1.3 km. WISE does not give a death count or a cause. Lebedinsky GOK at Gubkin began wet-magnetic concentration in the 1970s and still operates a large tailings complex. Cause left unknown.",
+      "status": "Historical TSF failure; Lebedinsky GOK still operating.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WISE Uranium Project — Chronology of major tailings dam failures (Balka Chuficheva, 20 Jan 1981)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Region pin for a 40+ km channel; breach crest not published. Not Zhalgansay and not Shcherbakovskoye. Not the later 2024 reconstruction works on the same channel.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sokolok-2024-05-24",
+      "name": "Sokolok channel dam (Atyrau)",
+      "country": "Kazakhstan",
+      "region": "Atyrau Region (Sokolok channel, Zhaiyk / Ural redistribution)",
+      "location_label": "Sokolok flood-protection dam along the Sokolok channel, Atyrau Region",
+      "lat": 47.11667,
+      "lng": 51.88333,
+      "geo_accuracy": "region",
+      "geo_source": "Atyrau city 47.11667, 51.88333 — Sokolok is a ~43.6 km channel from the Ural north of the city toward the Caspian; Kazinform does not publish a breach crest",
+      "river_or_facility": "Sokolok channel flood dam (Zhaiyk / Ural)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Atyrau operational headquarters via Kazinform: large amounts of water and strong wind collapsed the Sokolok dam along the channel on 24 May 2024.",
+      "incident_date": "2024-05-24",
+      "latest_report_date": "2024-05-24",
+      "what_happened": "On 24 May 2024 the Sokolok dam along the Sokolok flood-redistribution channel in Atyrau Region collapsed. Kazinform, citing the operational headquarters: the channel is a key part of moving Ural (Zhaiyk) floodwater away from Atyrau; the city has two protection lines; the second line was being fortified with sandbags. Separate from the 22 May Zhalgansay village-road dam rupture. No death figure in the headquarters note.",
+      "status": "2024 channel-dam collapse; second protection line reinforced.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Kazinform — Sokolok dam bursts in Atyrau region",
+          "url": "https://qazinform.com/news/sokolok-dam-bursts-in-atyrau-region-72a97e"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: sources describe house flooding and transboundary contamination, not a death count. Village pin; Geomin places the pond ~2 km below the village. Volume range left in volume_released. Not Mailuu-Suu.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ak-Tyuz / Aktyuz polymetal and thorium mine",
+      "year_built": "1954",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 630,000 m³ (Geomin); UNL ~600,000 m³; Wikipedia river page 1.5 million m³",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ak-tyuz-2-1964-12",
+      "name": "Ak-Tyuz (Ak-Tüz) tailings dam No. 2",
+      "country": "Kyrgyzstan",
+      "region": "Ak-Tüz, Kemin District, Chüy Region",
+      "location_label": "Tailings pond No. 2, right-bank tributary valley ~2 km below Ak-Tüz, Kichi-Kemin, Kyrgyzstan",
+      "lat": 42.87944,
+      "lng": 76.13417,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Ak-Tüz) 42°52′46″N 76°08′03″E; Geomin: pond in a tributary valley on the right bank of the Kichi-Kemin ca 2 km below the village",
+      "river_or_facility": "Ak-Tyuz TSF No. 2 / Kichi-Kemin → Chu (Shu)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Geomin: imperfect stabilization and bad maintenance plus earthquake and torrential rains ruptured the dam. UNL/AIP paper: a December 1964 seismic event destroyed tailings dam No. 2.",
+      "incident_date": "1964-12",
+      "latest_report_date": "2024",
+      "what_happened": "In December 1964 tailings dam No. 2 at the Ak-Tyuz (Aktyuz) polymetal/thorium works failed. Geomin: the pond, built in a right-bank tributary valley about 2 km below Ak-Tüz and in operation 1954–1972, held about 1,050,000 m³ by 1964; about 630,000 m³ of radioactive waste entered the Kichi-Kemin and travelled about 40 km, flooding houses in Ilyichevskoye, Dzhany-Dzhol, Kichi-Kemin, Boroldoy, Mikhailovka and Enbek (the last two in Kazakhstan) with sand up to 60 cm. Wikipedia (Kichi-Kemin): mudflows damaged pond No. 2 and about 1.5 million m³ of radioactive tailings contaminated the valley with thorium, lead, copper, zinc and beryllium. UNL water-centre paper: ~600,000 m³ after a December 1964 seismic event. No sourced human death count. Not Mailuu-Suu 1958.",
+      "status": "Historical TSF breach; scattered tailings remain a legacy along the Kichi-Kemin.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Geomin — Settling pond No. 2 (630,000 m³; earthquake and torrential rains)",
+          "url": "https://www.geominprojects.com/33-sources-of-contamination.html?jazyk=en"
+        },
+        {
+          "label": "UNL — Occurrence of Radionuclides… (December 1964; ~600,000 m³)",
+          "url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1078&context=watercenterpubs"
+        },
+        {
+          "label": "Wikipedia — Kichi-Kemin (river) (1964 mudflow damage to pond No. 2)",
+          "url": "https://en.wikipedia.org/wiki/Kichi-Kemin_(river)"
+        },
+        {
+          "label": "Wikipedia — Ak-Tüz (village coordinates)",
+          "url": "https://en.wikipedia.org/wiki/Ak-T%C3%BCz"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: WISE lists no fatalities. Mine pin; the 1976 crest is not separately coordinated. WISE spelling Zlevoto is treated as Zletovo. Volume discrepancy left explicit. Not Sasa.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Zletovo lead-zinc mine (Probištip)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "300,000 m³ (WISE); 150,000 m³ in a later Probištip remediation note",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "zletovo-1976-03-01",
+      "name": "Zletovo (Zlevoto) lead-zinc tailings dam",
+      "country": "North Macedonia",
+      "region": "Probištip, Kratovo–Zletovo ore district",
+      "location_label": "Zletovo mine tailings near the flotation plant, Probištip, North Macedonia",
+      "lat": 42.02667,
+      "lng": 22.19972,
+      "geo_accuracy": "approx",
+      "geo_source": "Mindat Zletovo Mine 42°1′36″N 22°11′59″E (mine; WISE names the 1976 dam Zlevoto at the lead-zinc works)",
+      "river_or_facility": "Zletovo TSF / Kiselica (Kiselicka) → Bregalnica",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "WISE chronology: dam failure from a high phreatic surface and seepage breakout on the embankment face.",
+      "incident_date": "1976-03-01",
+      "latest_report_date": "2015-07-21",
+      "what_happened": "WISE Uranium Project chronology (row also in Bowker/Chambers 2015): on 1 March 1976 the Zlevoto lead-zinc tailings dam in then-Yugoslavia failed after a high phreatic surface and seepage breakout on the face, releasing 300,000 m³ that reached and polluted a nearby river. A later Probištip remediation note (RawMatHub / Greek summary of the abandoned Zletovo dumps) independently dates a 1976 Zletovo tailings-lake failure and gives 150,000 m³ of contaminated water and mud into surrounding streams. Macedonian tailings papers place the Zletovo dumps along the Kiselica next to the Probištip plant; arid No. 4 operated 1970–1976 before a new TSF. WISE marks deaths unknown. Not Sasa 2003.",
+      "status": "Historical TSF failure; later dumps still exist near Probištip.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WISE Uranium Project — Chronology of major tailings dam failures (Zlevoto, 1 Mar 1976)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "RawMatHub — Probištip / Zletovo 1976 tailings-lake failure (150,000 m³)",
+          "url": "https://rawmathub.gr/enimerosi-gia-ti-viosimi-anaptyksi/enimerosi-gia-ti-diaxeirisi-apovliton/monades-paragogis-energeias-se-proin-xorous-apothesis-telmaton-sti-voreia-makedonia"
+        }
+      ],
+      "severity": "major"
     }
   ]
 }
