@@ -122,23 +122,20 @@
   let layer = "dams";
   const cache = { dams: null, floods: null };
 
-
   let all = [];
   let yearBounds = { min: 1864, max: 2026 };
   let selectedId = null;
   let lastDetailTab = "event";
-  let map, cluster, selectedLayer, fallbackLayer;
-  const markersById = new Map();
-  const fallbackMarkersById = new Map();
+  let map;
   let pinNamesEnabled = localStorage.getItem("ww-pin-names") !== "off";
-
+  let currentIncidents = [];
 
   function spec() { return LAYERS[layer] || LAYERS.dams; }
 
   function markerColor(inc) {
     if (layer === "floods") {
       if (inc.severity === "catastrophic") return COLORS.failure;
-      if (inc.severity === "major") return COLORS.partial;
+      if (inc.severity === "major") return COLORS.partial_breach;
       return COLORS.incident;
     }
     return COLORS[inc.category] || COLORS.incident;
@@ -436,42 +433,6 @@
       .replace(/"/g, "&quot;");
   }
 
-  function popupHtml(inc) {
-    const geo = locationLabel(inc);
-    const year = yearOf(inc);
-    const yearStr = year != null ? formatYear(year) : "";
-    return "<strong>" + escapeHtml(inc.name) + "</strong><br>" + escapeHtml(yearStr) +
-      (geo ? "<br><em>" + escapeHtml(geo) + "</em>" : "");
-  }
-
-  function rebuildMarkers(rows) {
-    cluster.clearLayers();
-    markersById.clear();
-    rows.forEach((inc) => {
-      if (typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
-      const r = markerRadius(inc.deaths);
-      const color = markerColor(inc);
-      const uncertain = locationUncertain(inc);
-      const cls = "site-marker" + (uncertain ? " is-uncertain" : "");
-      const icon = L.divIcon({
-        className: "",
-        iconSize: [r * 2, r * 2],
-        iconAnchor: [r, r],
-        html: '<div class="' + cls + '" style="width:' + (r * 2) + "px;height:" + (r * 2) +
-          "px;background:" + color + (uncertain ? ";opacity:0.55" : ";opacity:0.88") + '"></div>',
-      });
-      const m = L.marker([inc.lat, inc.lng], { icon, riseOnHover: true });
-      m.bindPopup(popupHtml(inc), { closeButton: false });
-      m.on("click", () => selectIncident(inc.id, { fromMap: true }));
-      m._incidentName = inc.name;
-      m._markerRadius = r;
-      cluster.addLayer(m);
-      markersById.set(inc.id, m);
-    });
-    updateFallbackMarkers();
-    updateNameLabels();
-  }
-
   function distanceKm(lat1, lng1, lat2, lng2) {
     const R = 6371;
     const dLat = (lat2 - lat1) * Math.PI / 180;
@@ -502,93 +463,74 @@
     return isolated;
   }
 
-  function updateFallbackMarkers() {
-    if (!fallbackLayer) return;
-    fallbackLayer.clearLayers();
-    fallbackMarkersById.clear();
-    const currentZoom = map.getZoom();
-    const rows = filtered();
-    const isolated = findIsolatedIncidents(rows, 350);
-    isolated.forEach((inc) => {
+  function updateMapData() {
+    if (!map || !map.loaded()) return;
+    
+    const rows = currentIncidents;
+    const zoom = map.getZoom();
+    
+    const features = rows.map(inc => {
+      if (typeof inc.lat !== "number" || typeof inc.lng !== "number") return null;
       const r = markerRadius(inc.deaths);
       const color = markerColor(inc);
       const uncertain = locationUncertain(inc);
-      const m = L.circleMarker([inc.lat, inc.lng], {
-        pane: "fallbackPane",
-        radius: r,
-        color: color,
-        weight: 0,
-        fillColor: color,
-        fillOpacity: uncertain ? 0.55 : 0.88,
+      
+      return {
+        type: "Feature",
+        geometry: {
+          type: "Point",
+          coordinates: [inc.lng, inc.lat]
+        },
+        properties: {
+          id: inc.id,
+          name: inc.name,
+          radius: r,
+          color: color,
+          opacity: uncertain ? 0.55 : 0.88,
+          deaths: inc.deaths || 0
+        }
+      };
+    }).filter(Boolean);
+
+    const isolated = findIsolatedIncidents(rows, 350);
+    const isolatedIds = new Set(isolated.map(i => i.id));
+    
+    const isolatedFeatures = features.filter(f => isolatedIds.has(f.properties.id));
+    const clusterableFeatures = features.filter(f => !isolatedIds.has(f.properties.id));
+
+    if (map.getSource("incidents")) {
+      map.getSource("incidents").setData({
+        type: "FeatureCollection",
+        features: clusterableFeatures
       });
-      m.bindPopup(popupHtml(inc), { closeButton: false });
-      m.on("click", () => selectIncident(inc.id, { fromMap: true }));
-      m._incidentName = inc.name;
-      m._markerRadius = r;
-      m.addTo(fallbackLayer);
-      fallbackMarkersById.set(inc.id, m);
-    });
-    updateNameLabels();
+    }
+
+    if (map.getSource("isolated-incidents")) {
+      map.getSource("isolated-incidents").setData({
+        type: "FeatureCollection",
+        features: isolatedFeatures
+      });
+    }
+
+    updateLabels();
   }
 
-  let nameLabelsTimer = null;
-  
-  function updateNameLabels() {
-    if (nameLabelsTimer) clearTimeout(nameLabelsTimer);
-    nameLabelsTimer = setTimeout(updateNameLabelsNow, 60);
-  }
-  
-  function updateNameLabelsNow() {
-    if (!map) return;
+  function updateLabels() {
+    if (!map || !map.loaded()) return;
+    
     const zoom = map.getZoom();
     const showLabels = zoom >= 10 && pinNamesEnabled;
     
-    if (!showLabels) {
-      cluster.eachLayer((m) => {
-        if (m && m.getTooltip()) m.unbindTooltip();
-      });
-      fallbackMarkersById.forEach((m) => {
-        if (m && m.getTooltip()) m.unbindTooltip();
-      });
-      selectedLayer.eachLayer((m) => {
-        if (m && m.getTooltip()) m.unbindTooltip();
-      });
-      return;
+    if (map.getLayoutProperty("incident-labels", "visibility") !== undefined) {
+      map.setLayoutProperty("incident-labels", "visibility", showLabels ? "visible" : "none");
     }
-    
-    const bounds = map.getBounds();
-    if (!bounds) return;
-    const padded = bounds.pad(0.15);
-    
-    const processMarker = (m) => {
-      if (!m || !m._incidentName) return;
-      const latlng = m.getLatLng();
-      if (!latlng) return;
-      
-      const inView = padded.contains(latlng);
-      const hasTooltip = m.getTooltip();
-      
-      if (inView && !hasTooltip) {
-        const r = m._markerRadius || 8;
-        m.bindTooltip(m._incidentName, {
-          permanent: true,
-          direction: "top",
-          offset: [0, -r],
-          className: "pin-name",
-          interactive: false,
-        });
-      } else if (!inView && hasTooltip) {
-        m.unbindTooltip();
-      }
-    };
-    
-    cluster.eachLayer(processMarker);
-    
-    fallbackMarkersById.forEach(processMarker);
-    
-    selectedLayer.eachLayer(processMarker);
+    if (map.getLayoutProperty("isolated-labels", "visibility") !== undefined) {
+      map.setLayoutProperty("isolated-labels", "visibility", showLabels ? "visible" : "none");
+    }
+    if (map.getLayoutProperty("cluster-labels", "visibility") !== undefined) {
+      map.setLayoutProperty("cluster-labels", "visibility", showLabels ? "visible" : "none");
+    }
   }
-
 
   const CONSTRUCTION_LABEL = {
     earthfill: "Earthfill",
@@ -820,12 +762,16 @@
     els.detail.hidden = false;
   }
 
-
   function closeDetail() {
     selectedId = null;
     els.detail.hidden = true;
     writeHash(null);
-    if (selectedLayer) selectedLayer.clearLayers();
+    if (map && map.getSource("selected-incident")) {
+      map.getSource("selected-incident").setData({
+        type: "FeatureCollection",
+        features: []
+      });
+    }
     [...els.list.querySelectorAll(".incident-item")].forEach((b) => b.classList.remove("is-selected"));
   }
 
@@ -833,47 +779,41 @@
     const narrow = window.matchMedia("(max-width: 980px)").matches;
     if (narrow) {
       const bottom = Math.round(window.innerHeight * 0.52) + 20;
-      return { paddingTopLeft: [16, 20], paddingBottomRight: [16, bottom] };
+      return { top: 20, left: 16, right: 16, bottom: bottom };
     }
-    return { paddingTopLeft: [416, 20], paddingBottomRight: [380, 64] };
+    return { top: 20, left: 416, right: 380, bottom: 64 };
   }
 
   function showSelectedPin(inc) {
-    if (!selectedLayer || typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
-    selectedLayer.clearLayers();
-    const m = L.circleMarker([inc.lat, inc.lng], {
-      pane: "selectedPane",
-      radius: 11,
-      color: "#f3efe6",
-      weight: 2,
-      fillColor: markerColor(inc),
-      fillOpacity: 0.95,
-      interactive: false,
-    });
-    m._incidentName = inc.name;
-    m._markerRadius = 11;
-    m.addTo(selectedLayer);
-    updateNameLabels();
+    if (!map || typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
+    
+    if (map.getSource("selected-incident")) {
+      map.getSource("selected-incident").setData({
+        type: "FeatureCollection",
+        features: [{
+          type: "Feature",
+          geometry: {
+            type: "Point",
+            coordinates: [inc.lng, inc.lat]
+          },
+          properties: {
+            color: markerColor(inc)
+          }
+        }]
+      });
+    }
   }
 
   function focusSelectedIncident(inc) {
-    map.invalidateSize();
-    map.setView([inc.lat, inc.lng], 13, { animate: false });
-    const size = map.getSize();
-    if (!size.x || !size.y) return;
-    const narrow = window.matchMedia("(max-width: 980px)").matches;
-    let dx = 0, dy = 0;
-    if (narrow) {
-      dy = -Math.round(size.y * 0.22);
-    } else {
-      const left = els.sidebar ? els.sidebar.getBoundingClientRect().width + 24 : 416;
-      const right = (!els.detail.hidden && els.detail)
-        ? els.detail.getBoundingClientRect().width + 24
-        : 0;
-      const visualCx = left + Math.max(80, size.x - left - right) / 2;
-      dx = Math.round(size.x / 2 - visualCx);
-    }
-    if (dx || dy) map.panBy([dx, dy], { animate: false });
+    if (!map || typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
+    
+    const padding = selectionPadding();
+    map.easeTo({
+      center: [inc.lng, inc.lat],
+      zoom: 13,
+      padding: padding,
+      duration: 800
+    });
   }
 
   function selectIncident(id, opts) {
@@ -901,9 +841,10 @@
 
   function apply() {
     const rows = filtered();
+    currentIncidents = rows;
     updateStats(rows);
     renderList(rows);
-    rebuildMarkers(rows);
+    updateMapData();
     if (selectedId && !rows.some((r) => r.id === selectedId)) {
       closeDetail();
     } else if (selectedId) {
@@ -1114,155 +1055,361 @@
     }
   }
 
-
   function initMap() {
-    map = L.map("map", {
-      zoomControl: false,
+    map = new maplibregl.Map({
+      container: "map",
+      style: {
+        version: 8,
+        sources: {
+          "carto-dark": {
+            type: "raster",
+            tiles: [
+              "https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+              "https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+              "https://c.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+              "https://d.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
+            ],
+            tileSize: 256,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          },
+          "esri-aerial": {
+            type: "raster",
+            tiles: [
+              "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+            ],
+            tileSize: 256,
+            attribution: "Tiles &copy; Esri"
+          },
+          "esri-labels": {
+            type: "raster",
+            tiles: [
+              "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
+            ],
+            tileSize: 256,
+            attribution: "Labels &copy; Esri"
+          }
+        },
+        layers: [
+          {
+            id: "carto-dark-layer",
+            type: "raster",
+            source: "carto-dark",
+            minzoom: 0,
+            maxzoom: 22
+          },
+          {
+            id: "esri-aerial-layer",
+            type: "raster",
+            source: "esri-aerial",
+            minzoom: 0,
+            maxzoom: 22,
+            layout: {
+              visibility: "none"
+            }
+          },
+          {
+            id: "esri-labels-layer",
+            type: "raster",
+            source: "esri-labels",
+            minzoom: 0,
+            maxzoom: 22,
+            layout: {
+              visibility: "none"
+            }
+          }
+        ],
+        glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf"
+      },
+      center: [12, 20],
+      zoom: 3,
+      projection: "globe",
       attributionControl: true,
-      worldCopyJump: true,
-      zoomSnap: 0.25,
-      zoomDelta: 0.5,
-    }).setView([20, 12], 3);
-    function landingView() {
-      if (selectedId) return;
-      const narrow = window.matchMedia("(max-width: 980px)").matches;
-      const left = narrow ? 16 : 416;
-      map.fitBounds([[-48, -128], [68, 158]], {
-        paddingTopLeft: [left, 20],
-        paddingBottomRight: [20, 64],
-        animate: false,
-        maxZoom: 4.25,
+      maxPitch: 0,
+      dragRotate: false,
+      touchPitch: false
+    });
+
+    map.on("load", () => {
+      map.addSource("incidents", {
+        type: "geojson",
+        data: { type: "FeatureCollection", features: [] },
+        cluster: true,
+        clusterMaxZoom: 7,
+        clusterRadius: 42
       });
-      const z = map.getZoom();
-      map.setMinZoom(Math.max(2.75, z - 0.35));
-    }
-    goToLanding = landingView;
-    map.whenReady(landingView);
-    window.addEventListener("resize", landingView);
-    const zoom = L.control.zoom({ position: "bottomright" }).addTo(map);
-    const dark = L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      subdomains: "abcd",
-      maxZoom: 19,
+
+      map.addSource("isolated-incidents", {
+        type: "geojson",
+        data: { type: "FeatureCollection", features: [] }
+      });
+
+      map.addSource("selected-incident", {
+        type: "geojson",
+        data: { type: "FeatureCollection", features: [] }
+      });
+
+      map.addLayer({
+        id: "clusters",
+        type: "circle",
+        source: "incidents",
+        filter: ["has", "point_count"],
+        paint: {
+          "circle-color": "#4aa3df",
+          "circle-radius": [
+            "step",
+            ["get", "point_count"],
+            15,
+            10, 18,
+            50, 22,
+            100, 26,
+            500, 30
+          ],
+          "circle-opacity": 0.88
+        }
+      });
+
+      map.addLayer({
+        id: "cluster-labels",
+        type: "symbol",
+        source: "incidents",
+        filter: ["has", "point_count"],
+        layout: {
+          "text-field": ["get", "point_count_abbreviated"],
+          "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+          "text-size": 12,
+          visibility: "none"
+        },
+        paint: {
+          "text-color": "#ffffff"
+        }
+      });
+
+      map.addLayer({
+        id: "incidents-layer",
+        type: "circle",
+        source: "incidents",
+        filter: ["!", ["has", "point_count"]],
+        paint: {
+          "circle-color": ["get", "color"],
+          "circle-radius": ["get", "radius"],
+          "circle-opacity": ["get", "opacity"]
+        }
+      });
+
+      map.addLayer({
+        id: "isolated-layer",
+        type: "circle",
+        source: "isolated-incidents",
+        paint: {
+          "circle-color": ["get", "color"],
+          "circle-radius": ["get", "radius"],
+          "circle-opacity": ["get", "opacity"]
+        }
+      });
+
+      map.addLayer({
+        id: "selected-layer",
+        type: "circle",
+        source: "selected-incident",
+        paint: {
+          "circle-color": ["get", "color"],
+          "circle-radius": 11,
+          "circle-opacity": 0.95,
+          "circle-stroke-color": "#f3efe6",
+          "circle-stroke-width": 2
+        }
+      });
+
+      map.addLayer({
+        id: "incident-labels",
+        type: "symbol",
+        source: "incidents",
+        filter: ["!", ["has", "point_count"]],
+        layout: {
+          "text-field": ["get", "name"],
+          "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
+          "text-size": 11,
+          "text-anchor": "top",
+          "text-offset": [0, 0.8],
+          visibility: "none"
+        },
+        paint: {
+          "text-color": "#f3efe6",
+          "text-halo-color": "rgba(11, 13, 16, 0.85)",
+          "text-halo-width": 1.5
+        }
+      });
+
+      map.addLayer({
+        id: "isolated-labels",
+        type: "symbol",
+        source: "isolated-incidents",
+        layout: {
+          "text-field": ["get", "name"],
+          "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
+          "text-size": 11,
+          "text-anchor": "top",
+          "text-offset": [0, 0.8],
+          visibility: "none"
+        },
+        paint: {
+          "text-color": "#f3efe6",
+          "text-halo-color": "rgba(11, 13, 16, 0.85)",
+          "text-halo-width": 1.5
+        }
+      });
+
+      map.on("click", "incidents-layer", (e) => {
+        const id = e.features[0].properties.id;
+        if (id) selectIncident(id, { fromMap: true });
+      });
+
+      map.on("click", "isolated-layer", (e) => {
+        const id = e.features[0].properties.id;
+        if (id) selectIncident(id, { fromMap: true });
+      });
+
+      map.on("click", "clusters", (e) => {
+        const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
+        const clusterId = features[0].properties.cluster_id;
+        map.getSource("incidents").getClusterExpansionZoom(clusterId, (err, zoom) => {
+          if (err) return;
+          map.easeTo({
+            center: features[0].geometry.coordinates,
+            zoom: zoom
+          });
+        });
+      });
+
+      map.on("mouseenter", "incidents-layer", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+      map.on("mouseleave", "incidents-layer", () => {
+        map.getCanvas().style.cursor = "";
+      });
+      map.on("mouseenter", "isolated-layer", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+      map.on("mouseleave", "isolated-layer", () => {
+        map.getCanvas().style.cursor = "";
+      });
+      map.on("mouseenter", "clusters", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+      map.on("mouseleave", "clusters", () => {
+        map.getCanvas().style.cursor = "";
+      });
+
+      map.on("zoom", updateLabels);
+      map.on("move", updateLabels);
+
+      loadLayer(layer, { id: hashId() });
     });
-    const aerial = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
-      attribution: "Tiles &copy; Esri",
-      maxZoom: 19,
-    });
-    const labels = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}", {
-      attribution: "Labels &copy; Esri",
-      maxZoom: 19,
-    });
-    dark.addTo(map);
+
     let baseMode = "auto";
-    let lastAerialState = false;
+
     function wantAerial() {
       if (baseMode === "aerial") return true;
       if (baseMode === "map") return false;
       return map.getZoom() >= 8;
     }
-    function showLayer(layer, on) {
-      if (on && !map.hasLayer(layer)) layer.addTo(map);
-      if (!on && map.hasLayer(layer)) map.removeLayer(layer);
-    }
+
     function syncBase() {
       const aerialOn = wantAerial();
-      const layerChanged = aerialOn !== lastAerialState;
-      showLayer(aerial, aerialOn);
-      showLayer(labels, aerialOn);
-      if (layerChanged) {
-        if (aerialOn && map.hasLayer(labels)) labels.bringToFront();
-        if (cluster && map.hasLayer(cluster)) cluster.bringToFront();
-        const markerPane = map.getPane("markerPane");
-        if (markerPane) markerPane.style.zIndex = 650;
-      }
-      lastAerialState = aerialOn;
+      map.setLayoutProperty("esri-aerial-layer", "visibility", aerialOn ? "visible" : "none");
+      map.setLayoutProperty("esri-labels-layer", "visibility", aerialOn ? "visible" : "none");
     }
+
     function setBaseMode(mode) {
       baseMode = mode;
-      box.querySelectorAll("button").forEach((b) => {
+      const buttons = document.querySelectorAll(".basemap-toggle button");
+      buttons.forEach((b) => {
         const on = b.dataset.base === mode;
         b.classList.toggle("is-active", on);
         b.setAttribute("aria-pressed", on ? "true" : "false");
       });
       syncBase();
     }
-    const BaseToggle = L.Control.extend({
-      options: { position: "bottomright" },
-      onAdd: function () {
-        const el = L.DomUtil.create("div", "basemap-toggle");
-        el.setAttribute("role", "group");
-        el.setAttribute("aria-label", "Base map");
-        [["auto", "Auto"], ["map", "Map"], ["aerial", "Aerial"]].forEach((pair) => {
-          const b = L.DomUtil.create("button", pair[0] === "auto" ? "is-active" : "", el);
-          b.type = "button";
-          b.dataset.base = pair[0];
-          b.textContent = pair[1];
-          b.setAttribute("aria-pressed", pair[0] === "auto" ? "true" : "false");
-        });
-        L.DomEvent.disableClickPropagation(el);
-        L.DomEvent.on(el, "click", function (e) {
-          const btn = e.target.closest("button");
-          if (btn && btn.dataset.base) setBaseMode(btn.dataset.base);
-        });
-        return el;
-      }
-    });
-    const box = new BaseToggle().addTo(map).getContainer();
+
+    map.on("zoom", syncBase);
+
+    function landingView() {
+      if (selectedId) return;
+      const narrow = window.matchMedia("(max-width: 980px)").matches;
+      const padding = narrow
+        ? { top: 20, left: 16, right: 16, bottom: 64 }
+        : { top: 20, left: 416, right: 20, bottom: 64 };
+      
+      map.fitBounds([[-128, -48], [158, 68]], {
+        padding: padding,
+        maxZoom: 4.25,
+        duration: 0
+      });
+      
+      const z = map.getZoom();
+      map.setMinZoom(Math.max(2.75, z - 0.35));
+    }
+    goToLanding = landingView;
     
-    const LabelsToggle = L.Control.extend({
-      options: { position: "bottomright" },
-      onAdd: function () {
-        const el = L.DomUtil.create("div", "labels-toggle");
-        el.setAttribute("role", "group");
-        el.setAttribute("aria-label", "Pin labels");
-        const b = L.DomUtil.create("button", pinNamesEnabled ? "is-active" : "", el);
-        b.type = "button";
-        b.id = "labels-toggle-btn";
-        b.textContent = "Labels";
-        b.setAttribute("aria-pressed", pinNamesEnabled ? "true" : "false");
-        L.DomEvent.disableClickPropagation(el);
-        L.DomEvent.on(el, "click", function () {
-          pinNamesEnabled = !pinNamesEnabled;
-          localStorage.setItem("ww-pin-names", pinNamesEnabled ? "on" : "off");
-          b.classList.toggle("is-active", pinNamesEnabled);
-          b.setAttribute("aria-pressed", pinNamesEnabled ? "true" : "false");
-          updateNameLabels();
-        });
-        return el;
-      }
-    });
-    const labelsBox = new LabelsToggle().addTo(map).getContainer();
-    
+    window.addEventListener("resize", landingView);
+    setTimeout(landingView, 100);
+
     const wrap = document.createElement("div");
     wrap.className = "map-controls";
-    wrap.appendChild(box);
-    wrap.appendChild(labelsBox);
-    wrap.appendChild(zoom.getContainer());
-    document.body.appendChild(wrap);
-    map.on("zoomend", syncBase);
-    syncBase();
-    map.createPane("selectedPane");
-    map.getPane("selectedPane").style.zIndex = 660;
-    map.createPane("fallbackPane");
-    map.getPane("fallbackPane").style.zIndex = 655;
-    selectedLayer = L.layerGroup().addTo(map);
-    fallbackLayer = L.layerGroup().addTo(map);
-    cluster = L.markerClusterGroup({
-      maxClusterRadius: 42,
-      showCoverageOnHover: false,
-      spiderfyOnMaxZoom: true,
-      disableClusteringAtZoom: 8,
-      animate: false,
-      removeOutsideVisibleBounds: false,
+
+    const baseToggle = document.createElement("div");
+    baseToggle.className = "basemap-toggle";
+    baseToggle.setAttribute("role", "group");
+    baseToggle.setAttribute("aria-label", "Base map");
+    [["auto", "Auto"], ["map", "Map"], ["aerial", "Aerial"]].forEach((pair) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.dataset.base = pair[0];
+      b.textContent = pair[1];
+      b.classList.toggle("is-active", pair[0] === "auto");
+      b.setAttribute("aria-pressed", pair[0] === "auto" ? "true" : "false");
+      b.addEventListener("click", () => setBaseMode(pair[0]));
+      baseToggle.appendChild(b);
     });
-    map.addLayer(cluster);
-    map.on("zoomend", updateFallbackMarkers);
-    map.on("zoomend", updateNameLabels);
-    map.on("moveend", updateNameLabels);
-    const resize = () => { map.invalidateSize(); landingView(); };
-    window.addEventListener("resize", resize);
-    setTimeout(resize, 80);
+    wrap.appendChild(baseToggle);
+
+    const labelsToggle = document.createElement("div");
+    labelsToggle.className = "labels-toggle";
+    labelsToggle.setAttribute("role", "group");
+    labelsToggle.setAttribute("aria-label", "Pin labels");
+    const labelsBtn = document.createElement("button");
+    labelsBtn.type = "button";
+    labelsBtn.id = "labels-toggle-btn";
+    labelsBtn.textContent = "Labels";
+    labelsBtn.classList.toggle("is-active", pinNamesEnabled);
+    labelsBtn.setAttribute("aria-pressed", pinNamesEnabled ? "true" : "false");
+    labelsBtn.addEventListener("click", () => {
+      pinNamesEnabled = !pinNamesEnabled;
+      localStorage.setItem("ww-pin-names", pinNamesEnabled ? "on" : "off");
+      labelsBtn.classList.toggle("is-active", pinNamesEnabled);
+      labelsBtn.setAttribute("aria-pressed", pinNamesEnabled ? "true" : "false");
+      updateLabels();
+    });
+    labelsToggle.appendChild(labelsBtn);
+    wrap.appendChild(labelsToggle);
+
+    const zoomControls = document.createElement("div");
+    zoomControls.className = "zoom-controls";
+    const zoomIn = document.createElement("button");
+    zoomIn.type = "button";
+    zoomIn.textContent = "+";
+    zoomIn.setAttribute("aria-label", "Zoom in");
+    zoomIn.addEventListener("click", () => map.zoomIn());
+    const zoomOut = document.createElement("button");
+    zoomOut.type = "button";
+    zoomOut.textContent = "−";
+    zoomOut.setAttribute("aria-label", "Zoom out");
+    zoomOut.addEventListener("click", () => map.zoomOut());
+    zoomControls.appendChild(zoomIn);
+    zoomControls.appendChild(zoomOut);
+    wrap.appendChild(zoomControls);
+
+    document.body.appendChild(wrap);
   }
 
   function useData(data, keepSelection) {
@@ -1369,5 +1516,4 @@
   initMap();
   bind();
   watchFace();
-  loadLayer(layer, { id: hashId() });
 })();
