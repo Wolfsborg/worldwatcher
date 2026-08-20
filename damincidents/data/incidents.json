@@ -1,10 +1,123 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1414,
-  "current_count": 28,
+  "count": 1416,
+  "current_count": 30,
   "historical_count": 1386,
   "incidents": [
+    {
+      "id": "thapanseik-dam-2026-08-06",
+      "name": "Thaphanseik Dam (Thapanseik / Thaphan Seik)",
+      "country": "Myanmar",
+      "region": "Kyunhla Township, Sagaing Region",
+      "location_label": "Kyunhla Township, Sagaing Region, Myanmar",
+      "lat": 23.305918,
+      "lng": 95.35833,
+      "geo_accuracy": "exact",
+      "geo_source": "AidData project 68078 (Thapanzeik HPP 23.305918, 95.358330)",
+      "river_or_facility": "Thaphanseik Dam on the Mu River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "This is a named spillway discharge, not a dam-body collapse: the military released large volumes when the reservoir neared a critical level and the Mu River overflowed downstream.",
+      "incident_date": "2026-08-06",
+      "latest_report_date": "2026-08-13",
+      "what_happened": "On 5–6 August 2026 the Myanmar military began large spillway discharges from Thaphanseik Dam on the Mu River in Kyunhla Township, Sagaing Region, after the reservoir neared a critical level (UCA News, 13 August, citing NUG). DVB English on 12 August reported that the Mu River overflowed when water was released from the dam on 6 August, and that the National Unity Government said 23 people had been killed and two were missing in 11 Sagaing townships (Shwebo, Taze, Kanbalu, Ayardaw, Depayin, Kyunhla, Kawlin, Wetet, Ye-U, Banmauk and Khin-U). A People's Defence Force source told DVB the flooding was caused by those spillway discharges. MGR Online, citing Mandalay Free Press on 10 August, said the dam opened gates without prior warning to downstream communities and put an earlier figure at at least 20 dead. UCA News on 13 August cited a later NUG statement of 25 dead and eight missing across 21 townships in a broader monsoon plus dam-release plus Ngawun-embankment flood; that 25 is a multi-event regional total and is not copied as this dam's toll. No source fetched described a structural collapse of the dam body.",
+      "status": "Spillway discharges of 5–6 August 2026. DVB on 12 August said the Mu River had eased but flooding had not receded. Dam body not reported breached.",
+      "deaths": 23,
+      "injured": null,
+      "affected_or_evacuated": "NUG via UCA News 13 Aug: more than 227,000 people from over 51,000 households in 14 Sagaing townships as of 12 August (regional flood figure after the release, not an exclusive dam-wave census)",
+      "verification": "official_alert",
+      "sources": [
+        {
+          "label": "DVB English (NUG / PDF, 12 Aug 2026)",
+          "url": "https://english.dvb.no/aid-workers-criticize-response-to-nationwide-flooding-nug-reports-25-dead-in-sagaing-magway-mandalay-and-ayeyarwady-regions/"
+        },
+        {
+          "label": "UCA News (NUG 13 Aug statement)",
+          "url": "https://www.ucanews.com/news/myanmar-floods-leave-hundreds-of-thousands-affected/114783"
+        },
+        {
+          "label": "MGR Online (Mandalay Free Press)",
+          "url": "https://mgronline.com/indochina/detail/9690000078559"
+        }
+      ],
+      "notes": "Not a dam-body failure. Deaths are NUG's 12 August figure for 11 Sagaing townships after the 6 August discharge (DVB); do not merge with the separate Ngawun embankment record (Ayeyarwady; AHA/DDM 1 death as of 18 August). Junta confirmation of the 23-death attribution was not found.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "2026",
+      "owner_operator": "Myanmar military / irrigation operator (MoALI historically)",
+      "year_built": 2001,
+      "height_m": 33,
+      "reservoir_capacity": "New Light of Myanmar (2001): 2,888,000 acre-ft; AidData: inundation about 397 km2",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Mu River towns including Shwebo, Taze, Kanbalu, Ye-U, Khin-U and neighbouring Mandalay Ngazun",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "uttendorf-tobersbach-2026-08-06",
+      "name": "Tobersbach check dam / retention basin (Uttendorf)",
+      "country": "Austria",
+      "region": "Uttendorf, Oberpinzgau, Salzburg",
+      "location_label": "Tobersbach, Uttendorf, Salzburg, Austria",
+      "lat": 47.285,
+      "lng": 12.5855,
+      "geo_accuracy": "approx",
+      "geo_source": "Orte-in-Österreich.de (Tobersbach locality 47.285, 12.5855)",
+      "river_or_facility": "Tobersbach Wildbachsperre / Rückhaltebecken",
+      "type": "weir",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Thunderstorm rain overwhelmed an ageing torrent check dam / retention basin on the Tobersbach.",
+      "incident_date": "2026-08-06",
+      "latest_report_date": "2026-08-07",
+      "what_happened": "On the afternoon of 6 August 2026, thunderstorm rain in Salzburg's Pinzgau overwhelmed an ageing torrent check dam / retention basin (Sperre / Rückhaltebecken) on the Tobersbach in Uttendorf. Salzburger Nachrichten quoted local fire-service spokesman Franz Fritzenwanger that the Sperre or Rückhaltebecken broke and water shot through the Tobersbach hamlet, flooding fields, meadows and cellars. Pinzgau civil-protection officer Stefan Herbst told SN an old Sperre could not hold the flows; a flood-protection project had been planned for autumn. Herbst said nobody was injured and that Uttendorf had field damage rather than building damage. ORF Salzburg likewise reported the Tobersbach overflow, streets blocked, cellars flooded and no injuries. A 7 August Salzburg24 follow-up said the older Wildbachsperre did not fail completely but exceeded its load; Land Salzburg then brought forward a €4.7 million Tobersbach protection project. This is a named check-dam / detention-structure incident, not a large reservoir-dam collapse.",
+      "status": "Partial check-dam / detention-basin failure on 6 August 2026. No injuries reported. Land Salzburg brought forward the planned Tobersbach flood-protection works on 7 August.",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "No Uttendorf evacuations sourced; 13 people were evacuated in nearby Stuhlfelden from a separate debris-blocked torrent, not this structure",
+      "verification": "official_alert",
+      "sources": [
+        {
+          "label": "Salzburger Nachrichten",
+          "url": "https://www.sn.at/salzburg/chronik/baeche-ueber-ufer-getreten-bruecken-weggerissen-strassen-verlegt-unwetter-forderten-einsatzkraefte-im-pinzgau-und-pongau-art-666256"
+        },
+        {
+          "label": "ORF Salzburg",
+          "url": "https://salzburg.orf.at/stories/3365941/"
+        },
+        {
+          "label": "Salzburg24 (7 Aug follow-up)",
+          "url": "https://www.salzburg24.at/news/salzburg/pinzgau/schutzbau-versagen-verhindert-katastrophe-nur-knapp-uttendorf-startet-nach-unwetter-sofort-millionenprojekt-art-334204"
+        }
+      ],
+      "notes": "German-language local coverage; English wires did not carry it. Stuhlfelden bridge washouts and Kötschachtal debris flows the same afternoon are ordinary flood/debris impacts, not merged into this record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "2026",
+      "owner_operator": "Wildbach- und Lawinenverbauung / Gemeinde Uttendorf (protection works)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "partial; Salzburg24 7 Aug said the Sperre did not break completely",
+      "downstream_risk": "Ortsteil Tobersbach, Uttendorf (fields, roads, some cellars)",
+      "economic_damage": null,
+      "investigating_agency": "Landesalarm- und Warnzentrale Salzburg / Pinzgau civil protection",
+      "severity": "minor"
+    },
     {
       "id": "na-lao-weir-2026-08-19",
       "name": "Na Lao irrigation weir",
