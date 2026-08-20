@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 988,
+  "count": 1009,
   "current_count": 26,
-  "historical_count": 962,
+  "historical_count": 983,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -53984,6 +53984,1211 @@
         }
       ],
       "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 623: Sheng 2023 narrative (deaths and missing). Table row 616. Not a 1960 Henan flood total. Pin is Gushi county seat, not a surveyed 1960 crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1958 (first dam, construction unfinished)",
+      "height_m": 15.0,
+      "reservoir_capacity": "700×10⁴ m³ (Sheng 2023 table)",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "baiguochong-1960-05-18",
+      "name": "Baiguochong (白果冲) Reservoir Dam",
+      "country": "China",
+      "region": "Fangji Town (方集镇), Gushi County, Xinyang, Henan; Shicao River (石槽河)",
+      "location_label": "Fangji / Gushi, Henan, China",
+      "lat": 32.183,
+      "lng": 115.667,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Gushi County) 32°11′N 115°40′E; Sheng et al. 2023 and Gushi rebuild notices place the 1960 dam on the Shicao River at Fangji Town, Xudian Village, about 30 km south of the county seat",
+      "river_or_facility": "Baiguochong Reservoir / Shicao River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "construction_first_filling",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Sheng et al. 2023 Table 1: clay-core earth dam, construction-period flood overtopping on 18 May 1960.",
+      "incident_date": "1960-05-18",
+      "latest_report_date": "2023",
+      "what_happened": "Sheng, Li and Sheng (Hydro-Science and Engineering, 2023) list Baiguochong, Gushi, Henan, failing on 18 May 1960: clay-core earth dam, height 15.0 m, storage 700×10⁴ m³ in their table, construction-period flood overtopping, 616 deaths in the table. The same paper's narrative says the construction-period overtopping caused 623 deaths and missing, of whom 616 were construction workers living below the dam. Gushi rebuild notices (Xinyang Evening News; henan.china.com.cn 2022): first built 1958 on the upper Shicao River; destroyed in a sudden rainstorm in 1960; a new dam at Xudian Village, Fangji Town, about 30 km south of Gushi county seat, began construction 28 December 2021.",
+      "status": "Historical construction-period overtopping failure. A later reservoir on the same river at Fangji/Xudian was started 2021.",
+      "deaths": 623,
+      "sources": [
+        {
+          "label": "Sheng, Li & Sheng 2023 — Statistical analysis of dam failure and its loss of life in China (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20220919001"
+        },
+        {
+          "label": "Xinyang Evening News — rebuild: Fangji Town Xudian Village, ~30 km south of Gushi; 1958/1960",
+          "url": "https://wanbao.xyxww.com.cn/html/2022-01/01/content_104031.htm"
+        },
+        {
+          "label": "Wikipedia — Gushi County (32.183°N 115.667°E)",
+          "url": "https://en.wikipedia.org/wiki/Gushi_County"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 119 from Sheng 2023 for this named dam. Pin is Ruzhou city, not a surveyed crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 30.0,
+      "reservoir_capacity": "1,150×10⁴ m³ (Sheng 2023 table)",
+      "construction": "masonry",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tengkou-1961-09-28",
+      "name": "Tengkou (滕口 / 腾口) Reservoir Dam",
+      "country": "China",
+      "region": "Linru County (now Ruzhou), Pingdingshan, Henan",
+      "location_label": "Ruzhou (former Linru), Henan, China",
+      "lat": 34.167,
+      "lng": 112.844,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Ruzhou) 34°10′01″N 112°50′38″E; Sheng et al. 2023 place the dam in Linru, Henan (Linru County was renamed Ruzhou in 1988)",
+      "river_or_facility": "Tengkou Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Sheng et al. 2023 Table 1: clay-faced masonry dam, flood overtopping on 28 September 1961.",
+      "incident_date": "1961-09-28",
+      "latest_report_date": "2023",
+      "what_happened": "Sheng et al. 2023 Table 1 lists Tengkou, Linru, Henan, 28 September 1961: clay-faced masonry dam, height 30.0 m, storage 1,150×10⁴ m³, flood overtopping, 119 deaths. A Ruzhou local feature (Yingxiang Net) on Yaoyuan Reservoir says the autumn 1961 rainstorm caused Linru County's Tengkou (腾口) Reservoir to fail with many casualties, after which some other Linru reservoirs were ordered demolished.",
+      "status": "Historical overtopping failure. Linru County is now Ruzhou.",
+      "deaths": 119,
+      "sources": [
+        {
+          "label": "Sheng, Li & Sheng 2023 — Statistical analysis of dam failure and its loss of life in China (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20220919001"
+        },
+        {
+          "label": "Yingxiang Net / Ruzhou — 1961 autumn Tengkou (腾口) failure in Linru",
+          "url": "http://rz.hnr.cn/rzdtsd/article/1/1450004829862748162"
+        },
+        {
+          "label": "Wikipedia — Ruzhou (34.167°N 112.844°E); formerly Linru County",
+          "url": "https://en.wikipedia.org/wiki/Ruzhou"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: no sourced dam-only fatality figure. Dunhuang-city inundation is not a death count. Pin is Dunhuang municipal seat, not the gorge crest 36 km SW.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1971–1975 (first stage)",
+      "height_m": null,
+      "reservoir_capacity": "first stage 15 million m³ (1975); later 46.40 million m³ (tender)",
+      "construction": "rockfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "danghe-auxiliary-1979-07-26",
+      "name": "Danghe Reservoir auxiliary dam (党河水库副坝)",
+      "country": "China",
+      "region": "Danghe gorge, about 36 km southwest of Dunhuang, Jiuquan, Gansu",
+      "location_label": "Dunhuang, Gansu, China",
+      "lat": 40.14111,
+      "lng": 94.66389,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Dunhuang municipal government) 40°08′28″N 94°39′50″E; Gansu tender: dam 36 km SW of Dunhuang at the Danghe gorge mouth",
+      "river_or_facility": "Danghe Reservoir auxiliary dam / Danghe (党河)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "Gansu reinforcement tender: the auxiliary dam was overtopped and failed in 1979. A desert-climate account: July 1979 snowmelt plus concentrated rain; flood gates were not opened; the dam broke on 26 July.",
+      "incident_date": "1979-07-26",
+      "latest_report_date": "2020-11-24",
+      "what_happened": "The Danghe Reservoir (construction started 1971; first stage in service 1975) lost its auxiliary dam in 1979. A Gansu provincial reinforcement tender states the auxiliary dam was overtopped and failed in 1979, then the works were raised and repeatedly strengthened. Dunhuang media: 1979–1980 auxiliary-dam rebuild among seven construction stages. A popular climate/history account dates the break to 26 July 1979 after the reservoir was held full (snowmelt plus abnormal rain; gates not opened) and says six townships and 21 villages were flooded and Dunhuang city was inundated; it does not give a death count. Present works: asphalt-concrete-core gravel dams; main dam 56.8 m; total storage 46.40 million m³.",
+      "status": "Auxiliary dam rebuilt 1979–80; later raised and reinforced.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Gansu economic-info tender — Danghe 36 km SW of Dunhuang; 1979 auxiliary-dam overtopping",
+          "url": "https://www.gsei.com.cn/html/1336/2019-10-22/content-255778.html"
+        },
+        {
+          "label": "Jiuquan / Dunhuang media — 1979–1980 auxiliary-dam rebuild among seven stages",
+          "url": "https://www.jiuquan.cc/70525.html"
+        },
+        {
+          "label": "Wikipedia — Dunhuang (40.14111°N 94.66389°E)",
+          "url": "https://en.wikipedia.org/wiki/Dunhuang"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Zhang et al. 2017 (险情报告及时, 均未造成人员伤亡). Pin is Zaoyang city, not a surveyed crest. Year only.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "baishuisi-1997",
+      "name": "Baishuisi (白水寺) Reservoir Dam",
+      "country": "China",
+      "region": "Zaoyang, Xiangyang, Hubei",
+      "location_label": "Zaoyang, Hubei, China",
+      "lat": 32.129,
+      "lng": 112.772,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Zaoyang government) 32°07′44″N 112°46′19″E; Zhang/Yang/Jiang 2014 appendix and 2017 paper place the 1997 failure at Zaoyang Baishuisi",
+      "river_or_facility": "Baishuisi Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Zhang, Yang and Jiang (2017) list Hubei Baishuisi (1997) among named failures; mechanism is not stated in the passages fetched. The 2014 monograph has a dedicated appendix chapter.",
+      "incident_date": "1997",
+      "latest_report_date": "2017",
+      "what_happened": "Zhang, Yang and Jiang (Scientia Sinica Technologica, 2017) cite the 1997 Hubei Baishuisi Reservoir dam failure and say timely hazard reporting meant no casualties. Their 2014 Science Press monograph has appendix chapter 9.15 on the Zaoyang Baishuisi failure. No dam-specific death count other than that zero-casualty statement was found.",
+      "status": "Historical named failure; no casualties in Zhang et al. 2017.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2017 — An analysis on laws of reservoir dam defects and breaches in China (Scientia Sinica Technologica)",
+          "url": "https://www.sciengine.com/doi/pdf/6587e7af874f4d0fb627e8f5103991dc"
+        },
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Wikipedia — Zaoyang (32.129°N 112.772°E)",
+          "url": "https://en.wikipedia.org/wiki/Zaoyang"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Zhang et al. 2017. Pin is Arun Banner seat (Naji), not a surveyed crest. Gonghe and Fugui not added as separate records.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "shengshui-1998-07-27",
+      "name": "Shengshui (圣水) Reservoir Dam",
+      "country": "China",
+      "region": "Arun Banner, Hulunbuir, Inner Mongolia",
+      "location_label": "Arun Banner, Inner Mongolia, China",
+      "lat": 48.133,
+      "lng": 123.467,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Arun Banner) 48°08′N 123°28′E; Inner Mongolia small-reservoir paper and Zhang et al. place Shengshui in Arun Banner",
+      "river_or_facility": "Shengshui Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Inner Mongolia small-reservoir paper: 27–28 July 1998, Shengshui, Gonghe and Fugui small reservoirs/ponds in Arun Banner failed after concentrated rain and large inflow; flood-control standard was low; none were overstored beforehand.",
+      "incident_date": "1998-07-27",
+      "latest_report_date": "2017",
+      "what_happened": "An Inner Mongolia small-reservoir failure paper: from 27 to 28 July 1998 the Shengshui, Gonghe and Fugui small reservoirs (ponds) in Arun Banner failed one after another; none had been overstored; the paper attributes concentrated rainfall, large inflow and low flood standards. Zhang et al. 2017 list Inner Mongolia Shengshui (1998) among failures with timely warning and no casualties. The 2014 monograph has appendix chapter 9.17. Gonghe and Fugui are named in the same event but are not given separate pins here.",
+      "status": "Historical small-reservoir overtopping cluster; Shengshui is the named case in Zhang et al.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2017 — An analysis on laws of reservoir dam defects and breaches in China (Scientia Sinica Technologica)",
+          "url": "https://www.sciengine.com/doi/pdf/6587e7af874f4d0fb627e8f5103991dc"
+        },
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Inner Mongolia small-reservoir dam-break paper — Shengshui, Gonghe, Fugui, 27–28 July 1998",
+          "url": "https://jxxfw.com/periodical/7e15d7a39ce1e4246645f92877a5076a.html"
+        },
+        {
+          "label": "Wikipedia — Arun Banner (48.133°N 123.467°E)",
+          "url": "https://en.wikipedia.org/wiki/Arun_Banner"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year only. Pin is Jianning county seat, not a surveyed crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kengjing-1998",
+      "name": "Kengjing (坑井) Reservoir Dam",
+      "country": "China",
+      "region": "Jianning County, Sanming, Fujian",
+      "location_label": "Jianning, Fujian, China",
+      "lat": 26.831,
+      "lng": 116.846,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Jianning County) 26°49′52″N 116°50′46″E; Zhang/Yang/Jiang 2014 appendix chapter 9.18 is the 1998 Jianning Kengjing failure",
+      "river_or_facility": "Kengjing Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Zhang, Yang and Jiang 2014 monograph appendix lists a 1998 Jianning, Fujian, Kengjing Reservoir dam failure. Mechanism is not stated in the contents page fetched.",
+      "incident_date": "1998",
+      "latest_report_date": "2014",
+      "what_happened": "Zhang, Yang and Jiang (Science Press, 2014), appendix 9.18, is a case chapter on the 1998 Kengjing Reservoir dam failure in Jianning County, Fujian. No death count or mechanism was given in the table of contents or other sources fetched this pass.",
+      "status": "Historical named failure in the 2014 monograph.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Wikipedia — Jianning County (26.831°N 116.846°E)",
+          "url": "https://en.wikipedia.org/wiki/Jianning_County"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Zhang et al. 2017. Pin is Gannan county seat. Year only.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sifangshan-1998",
+      "name": "Sifangshan (四方山) Reservoir Dam",
+      "country": "China",
+      "region": "Gannan County, Qiqihar, Heilongjiang",
+      "location_label": "Gannan, Heilongjiang, China",
+      "lat": 47.922,
+      "lng": 123.507,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Gannan County) 47°55′19″N 123°30′25″E; Zhang et al. 2014/2017 place the 1998 Sifangshan failure in Gannan, Heilongjiang",
+      "river_or_facility": "Sifangshan Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Zhang, Yang and Jiang (2017) list Heilongjiang Sifangshan (1998) among named failures; mechanism is not stated in the passages fetched.",
+      "incident_date": "1998",
+      "latest_report_date": "2017",
+      "what_happened": "Zhang et al. 2017 cite the 1998 Heilongjiang Sifangshan Reservoir dam failure and say timely hazard reporting meant no casualties. The 2014 monograph has appendix chapter 9.19 on the Gannan Sifangshan failure. No other death figure was found.",
+      "status": "Historical named failure; no casualties in Zhang et al. 2017.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2017 — An analysis on laws of reservoir dam defects and breaches in China (Scientia Sinica Technologica)",
+          "url": "https://www.sciengine.com/doi/pdf/6587e7af874f4d0fb627e8f5103991dc"
+        },
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Wikipedia — Gannan County (47.922°N 123.507°E)",
+          "url": "https://en.wikipedia.org/wiki/Gannan_County"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year only. Pin is Jarud Banner seat (Lubei), not the dam 25 km away. Height 15 m is the later notice figure, not confirmed as 1998.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1958 (first); enlarged 1969",
+      "height_m": 15,
+      "reservoir_capacity": "later notices: about 18.01 million m³ after reinforcement; Wikipedia normal 6.10 million m³",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "xiaohexi-1998",
+      "name": "Xiaohexi (小河西) Reservoir Dam",
+      "country": "China",
+      "region": "Xiangshan Town, Jarud Banner, Tongliao, Inner Mongolia; Baiyin Juliu / Tenggele Gol",
+      "location_label": "Jarud Banner, Inner Mongolia, China",
+      "lat": 44.55,
+      "lng": 120.917,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Jarud Banner) 44°33′N 120°55′E; Chinese Wikipedia and later reinforcement notices place Xiaohexi 25 km from Lubei, 600 m above Xiaohexi village",
+      "river_or_facility": "Xiaohexi Reservoir / Baiyin Juliu River (白音巨流河)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Zhang, Yang and Jiang 2014 monograph appendix 9.16 is a case chapter on the 1998 Tongliao Xiaohexi Reservoir dam failure. Mechanism is not stated in the contents page fetched.",
+      "incident_date": "1998",
+      "latest_report_date": "2014",
+      "what_happened": "Zhang, Yang and Jiang (2014) appendix 9.16 treats the 1998 Tongliao Xiaohexi Reservoir dam failure. Chinese Wikipedia and later Inner Mongolia Water Resources Department reinforcement papers place a homogeneous earth dam of that name in Xiangshan Town, Jarud Banner, 25 km from Lubei, 600 m upstream of Xiaohexi village, first built 1958 and enlarged 1969 (Wikipedia completion 1974). No death count was found this pass. The present dam is a later/reinforced structure and is not used as an exact 1998 crest pin.",
+      "status": "Historical named 1998 failure in the 2014 monograph; later reinforced.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Chinese Wikipedia — 小河西水库 (Jarud Banner)",
+          "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%B2%B3%E8%A5%BF%E6%B0%B4%E5%BA%93"
+        },
+        {
+          "label": "Wikipedia — Jarud Banner (44.550°N 120.917°E)",
+          "url": "https://en.wikipedia.org/wiki/Jarud_Banner"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year only. Pin is Yi'an county seat.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "yangchun-1998",
+      "name": "Yangchun (阳春) Reservoir Dam",
+      "country": "China",
+      "region": "Yi'an County, Qiqihar, Heilongjiang",
+      "location_label": "Yi'an, Heilongjiang, China",
+      "lat": 47.894,
+      "lng": 125.306,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Yi'an County) 47°53′38″N 125°18′22″E; Zhang/Yang/Jiang 2014 appendix 9.21 is the 1998 Yi'an Yangchun failure",
+      "river_or_facility": "Yangchun Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Zhang, Yang and Jiang 2014 monograph appendix lists a 1998 Yi'an, Heilongjiang, Yangchun Reservoir dam failure. Mechanism is not stated in the contents page fetched.",
+      "incident_date": "1998",
+      "latest_report_date": "2014",
+      "what_happened": "Zhang, Yang and Jiang (2014) appendix 9.21 is a case chapter on the 1998 Yangchun Reservoir dam failure in Yi'an County, Heilongjiang. No death count or mechanism was given in the sources fetched this pass.",
+      "status": "Historical named failure in the 2014 monograph.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Wikipedia — Yi'an County (47.894°N 125.306°E)",
+          "url": "https://en.wikipedia.org/wiki/Yi%27an_County"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year only. Pin is Laifeng county seat.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "youcaitian-2000",
+      "name": "Youcaitian (油菜田) Reservoir Dam",
+      "country": "China",
+      "region": "Laifeng County, Enshi, Hubei",
+      "location_label": "Laifeng, Hubei, China",
+      "lat": 29.5,
+      "lng": 109.4,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Laifeng County) 29°30′N 109°24′E; Zhang/Yang/Jiang 2014 appendix 9.23 is the 2000 Laifeng Youcaitian failure",
+      "river_or_facility": "Youcaitian Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Zhang, Yang and Jiang 2014 monograph appendix lists a 2000 Laifeng, Hubei, Youcaitian Reservoir dam failure. Mechanism is not stated in the contents page fetched.",
+      "incident_date": "2000",
+      "latest_report_date": "2014",
+      "what_happened": "Zhang, Yang and Jiang (2014) appendix 9.23 is a case chapter on the 2000 Youcaitian Reservoir dam failure in Laifeng County, Hubei. No death count or mechanism was given in the sources fetched this pass.",
+      "status": "Historical named failure in the 2014 monograph.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Wikipedia — Laifeng County (29.500°N 109.400°E)",
+          "url": "https://en.wikipedia.org/wiki/Laifeng_County"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is Jiashi county seat, not a surveyed crest. Cause mapped to earthquake + foundation from the liquefaction/breach row.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "9,750×10⁴ m³ (Xinjiang compilation table)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "auxiliary dam breach 50 m at 7+800 (Xinjiang table)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "xikeer-2002-03-03",
+      "name": "Xikeer (西克尔) Reservoir auxiliary dam",
+      "country": "China",
+      "region": "Jiashi (Payzawat) County, Kashgar, Xinjiang — Shekerkol / Xikeer area",
+      "location_label": "Jiashi County, Xinjiang, China",
+      "lat": 39.48833,
+      "lng": 76.7125,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Jiashi / Payzawat County) 39°29′18″N 76°42′45″E; the county contains Shekerkol Town (西克尔库勒镇); Xinjiang compilation places the 2002 auxiliary-dam breach at Xikeer, Jiashi",
+      "river_or_facility": "Xikeer Reservoir auxiliary dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "foundation"
+      ],
+      "cause_summary": "Xinjiang dam-failure table: on 3 March 2002 an Afghanistan Mw 7.1 earthquake caused foundation liquefaction and a 50 m breach of the auxiliary dam at chainage 7+800.",
+      "incident_date": "2002-03-03",
+      "latest_report_date": "2022",
+      "what_happened": "A Xinjiang reservoir-failure compilation table lists the Jiashi Xikeer (plain reservoir, storage 9,750×10⁴ m³ in that table) auxiliary dam failing on 3 March 2002: affected by an Afghanistan Mw 7.1 earthquake, foundation liquefaction, breach 50 m wide at chainage 7+800. Zhang, Yang and Jiang 2014 have appendix chapter 9.25 on the Kashgar Xikeer failure. No death count was found this pass. Jiashi County administers Shekerkol Town (西克尔库勒镇).",
+      "status": "Historical earthquake liquefaction of an auxiliary dam.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Xinjiang dam-failure compilation table (Water Resources and Hydropower Engineering preview) — Bayi 2004-01-21; Xikeer 2002-03-03",
+          "url": "https://sjwj.cbpt.cnki.net/portal/journal/portal/client/paper/preview?cache=false&filePath=history%2FEditor%2F2022%2F1231%2Fsjwj%2Fc6be1148-0124-4c67-8367-0d117f17b2ac.pdf"
+        },
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Wikipedia — Jiashi / Payzawat County (39.48833°N 76.71250°E); Shekerkol Town",
+          "url": "https://en.wikipedia.org/wiki/Jiashi_County"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Month from Li 2021 (2003年7月). Pin is Liangcheng county seat.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "wuhaohe-2003-07",
+      "name": "Wuhaohe (五号河) Reservoir Dam",
+      "country": "China",
+      "region": "Liangcheng County, Ulaan Chab, Inner Mongolia",
+      "location_label": "Liangcheng, Inner Mongolia, China",
+      "lat": 40.533,
+      "lng": 112.5,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Liangcheng County) 40°32′N 112°30′E; Li et al. 2021 place the July 2003 failure in Liangcheng",
+      "river_or_facility": "Wuhaohe Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "operational_gate",
+        "poor_maintenance",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Li et al. 2021: July 2003 heavy rain, but the fundamental cause was years of no maintenance; the three-bay flood-discharge tunnel gates could not be opened as the pool rose.",
+      "incident_date": "2003-07",
+      "latest_report_date": "2021",
+      "what_happened": "Li et al. (Hydro-Science and Engineering, 2021) describe the July 2003 failure of Wuhaohe Reservoir in Liangcheng County, Inner Mongolia: heavy rain, but the dam and outlet works had not been maintained for years, and the three-bay flood tunnel gates failed to open during the rising pool, so the dam was lost. Zhang, Yang and Jiang 2014 have appendix chapter 9.26. No death count was found this pass.",
+      "status": "Historical operational/maintenance failure in heavy rain.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Li et al. 2021 — Analysis of dam failure trend of China from 2000 to 2018 (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20201119001"
+        },
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Wikipedia — Liangcheng County (40.533°N 112.500°E)",
+          "url": "https://en.wikipedia.org/wiki/Liangcheng_County"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Zhang et al. 2017. Pin is Wujiaqu city, not a surveyed crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Xinjiang Production and Construction Corps 6th Division",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "bayi-2004-01-21",
+      "name": "Bayi (八一) Reservoir Dam (XPCC 6th Division)",
+      "country": "China",
+      "region": "Wujiaqu / XPCC 6th Division (102nd Regiment area), Xinjiang",
+      "location_label": "Wujiaqu, Xinjiang, China",
+      "lat": 44.167,
+      "lng": 87.543,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Wujiaqu) 44°10′01″N 87°32′35″E; Xinjiang table: XPCC 6th Division Bayi, 2004-01-21; Wujiaqu is the 6th Division city",
+      "river_or_facility": "Bayi Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "construction_first_filling"
+      ],
+      "cause_summary": "IWHR 2004 paper: seepage failure at the junction of a new flood-discharge culvert and the old earth dam in January 2004; Xinjiang table dates 21 January 2004, new sluice put in service before acceptance.",
+      "incident_date": "2004-01-21",
+      "latest_report_date": "2017",
+      "what_happened": "The Journal of China IWHR (2004) analyses the Bayi medium earth dam: a new flood-discharge culvert was cut into a narrow, steep excavation; fill was placed fast and poorly compacted, then the reservoir was filled at once; differential settlement opened a transverse crest crack; seepage exited high on the downstream face without a filter and the dam breached in January 2004. A Xinjiang compilation table dates 21 January 2004 (XPCC 6th Division; new sluice used before acceptance; piping). Zhang et al. 2017 say timely reporting meant no casualties. Li et al. 2021 group Bayi with other reinforcement-period seepage failures.",
+      "status": "Historical reinforcement-period seepage failure; no casualties in Zhang et al. 2017.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Sun et al., J. China IWHR 2004 — Bayi January 2004 seepage/breach analysis",
+          "url": "http://dianda.cqvip.com/Qikan/Article/Detail?from=Qikan_Article_Detail&id=10760162"
+        },
+        {
+          "label": "Xinjiang dam-failure compilation table (Water Resources and Hydropower Engineering preview) — Bayi 2004-01-21; Xikeer 2002-03-03",
+          "url": "https://sjwj.cbpt.cnki.net/portal/journal/portal/client/paper/preview?cache=false&filePath=history%2FEditor%2F2022%2F1231%2Fsjwj%2Fc6be1148-0124-4c67-8367-0d117f17b2ac.pdf"
+        },
+        {
+          "label": "Zhang, Yang & Jiang 2017 — An analysis on laws of reservoir dam defects and breaches in China (Scientia Sinica Technologica)",
+          "url": "https://www.sciengine.com/doi/pdf/6587e7af874f4d0fb627e8f5103991dc"
+        },
+        {
+          "label": "Li et al. 2021 — Analysis of dam failure trend of China from 2000 to 2018 (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20201119001"
+        },
+        {
+          "label": "Wikipedia — Wujiaqu (44.167°N 87.543°E), XPCC 6th Division city",
+          "url": "https://en.wikipedia.org/wiki/Wujiaqu"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year only. Pin is Gaotai county seat. Cause mapped to piping_internal_erosion from the mink-burrow statement.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tianchenghu-2005",
+      "name": "Tianchenghu (天城湖) Reservoir Dam",
+      "country": "China",
+      "region": "Gaotai County, Zhangye, Gansu",
+      "location_label": "Gaotai, Gansu, China",
+      "lat": 39.369259,
+      "lng": 99.813507,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Gaotai County) 39°22′09″N 99°48′49″E; Zhang et al. 2014/2017 place the 2005 Tianchenghu failure in Gaotai, Gansu",
+      "river_or_facility": "Tianchenghu Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Zhang, Yang and Jiang 2017: the 2005 Gansu Tianchenghu failure was caused by burrows from escaped farmed mink.",
+      "incident_date": "2005",
+      "latest_report_date": "2017",
+      "what_happened": "Zhang et al. 2017 mention the 2005 Gansu Tianchenghu Reservoir dam failure and attribute it to cavities from escaped farmed mink. The 2014 monograph has appendix chapter 9.27 on the Gaotai Tianchenghu failure. No death count was found this pass.",
+      "status": "Historical named failure (animal-burrow piping).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2017 — An analysis on laws of reservoir dam defects and breaches in China (Scientia Sinica Technologica)",
+          "url": "https://www.sciengine.com/doi/pdf/6587e7af874f4d0fb627e8f5103991dc"
+        },
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Wikipedia — Gaotai County (39.369259°N 99.813507°E)",
+          "url": "https://en.wikipedia.org/wiki/Gaotai_County"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year only. Pin is Yongfu county seat.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "shihuie-2006",
+      "name": "Shihui'e (石灰厄) Reservoir Dam",
+      "country": "China",
+      "region": "Yongfu County, Guilin, Guangxi",
+      "location_label": "Yongfu, Guangxi, China",
+      "lat": 24.9799,
+      "lng": 109.9831,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Yongfu County) 24°58′48″N 109°58′59″E; Zhang/Yang/Jiang 2014 appendix 9.28 is the 2006 Yongfu Shihui'e failure",
+      "river_or_facility": "Shihui'e Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Zhang, Yang and Jiang 2014 monograph appendix lists a 2006 Yongfu, Guangxi, Shihui'e Reservoir dam failure. Mechanism is not stated in the contents page fetched.",
+      "incident_date": "2006",
+      "latest_report_date": "2014",
+      "what_happened": "Zhang, Yang and Jiang (2014) appendix 9.28 is a case chapter on the 2006 Shihui'e Reservoir dam failure in Yongfu County, Guangxi. No death count or mechanism was given in the sources fetched this pass.",
+      "status": "Historical named failure in the 2014 monograph.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Wikipedia — Yongfu County (24.9799°N 109.9831°E)",
+          "url": "https://en.wikipedia.org/wiki/Yongfu_County"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Jia 2008 (溃坝洪水虽没有造成人员伤亡). Pin is Gaotai county seat. Height 8.67 m is the later repair-design maximum, not necessarily the 2007 failed section.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 8.67,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "41.5 m along axis, 89 m across; scour 8.5 m (May 2007 survey)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ministry of Water Resources accident investigation group",
+      "verification": "confirmed",
+      "id": "xiaohaizi-2007-04-19",
+      "name": "Xiaohaizi (小海子) lower reservoir dam",
+      "country": "China",
+      "region": "Gaotai County, Zhangye, Gansu — lower reservoir north dike",
+      "location_label": "Gaotai, Gansu, China",
+      "lat": 39.369259,
+      "lng": 99.813507,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Gaotai County) 39°22′09″N 99°48′49″E; MWR bulletin places the 19 April 2007 breach at Gaotai Xiaohaizi lower reservoir",
+      "river_or_facility": "Xiaohaizi lower reservoir (小海子水库下库)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Ministry of Water Resources 2007 bulletin: non-natural seepage failure; clay at the toe drain was damaged and defects in the upstream blanket were mishandled, so the foundation did not meet seepage-stability requirements.",
+      "incident_date": "2007-04-19",
+      "latest_report_date": "2008",
+      "what_happened": "On 19 April 2007 (about 12:10 in a later repair-supervision report) the north dike of Gaotai Xiaohaizi lower reservoir breached. MWR: a responsibility accident from seepage, not a natural flood; piping began at the toe drain, worked upstream, emptied the foundation and collapsed the bank. Breach mapping 2–8 May: stations 2+681–2+722.5, 41.5 m along the axis, 89 m across, scour hole 8.5 m deep. Jia (Gansu Water Resources, 2008): recently rehabilitated plain depression reservoir; flood caused no casualties but economic loss and public impact. Li et al. 2021 also cite illegal overstorage at Xiaohaizi.",
+      "status": "Historical reinforcement-period seepage failure; rebuilt.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "MWR bulletin via H2O-China — 19 Apr 2007 Gaotai Xiaohaizi; seepage responsibility accident",
+          "url": "https://www.h2o-china.com/news/59908.html"
+        },
+        {
+          "label": "Jia 2008 — Xiaohaizi dam-break analysis; no casualties",
+          "url": "http://dianda.cqvip.com/Qikan/Article/Detail?id=28423756"
+        },
+        {
+          "label": "Li et al. 2021 — Analysis of dam failure trend of China from 2000 to 2018 (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20201119001"
+        },
+        {
+          "label": "Wikipedia — Gaotai County (39.369259°N 99.813507°E)",
+          "url": "https://en.wikipedia.org/wiki/Gaotai_County"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year only. Pin is the Wikipedia reservoir coordinate, not a surveyed 2007 breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1976",
+      "height_m": null,
+      "reservoir_capacity": "5.32 million m³ normal (Chinese Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ganggang-2007",
+      "name": "Ganggang (岗岗) Reservoir Dam",
+      "country": "China",
+      "region": "Naiman Banner, Tongliao, Inner Mongolia; Mangniu River",
+      "location_label": "Naiman Banner, Inner Mongolia, China",
+      "lat": 42.467,
+      "lng": 120.717,
+      "geo_accuracy": "region",
+      "geo_source": "Chinese Wikipedia (岗岗水库) 42°28′N 120°43′E; Li et al. 2021 place the 2007 reinforcement-period seepage failure at Naiman Ganggang",
+      "river_or_facility": "Ganggang Reservoir / Mangniu River (忙牛河)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Li et al. 2021: 2007 Inner Mongolia Ganggang failed during rehabilitation because of insufficient site investigation, design/construction defects and poor management that produced serious seepage at the strengthened section.",
+      "incident_date": "2007",
+      "latest_report_date": "2021",
+      "what_happened": "Li et al. 2021 list Ganggang Reservoir, Inner Mongolia, among 2007 reinforcement-period seepage failures (with Bayi, Yingdeer and Xiaohaizi). Chinese Wikipedia: Ganggang Reservoir, Naiman Banner, Tongliao, on the Mangniu River, completed 1976, normal storage 5.32 million m³, catchment 109 km², coordinates 42°28′N 120°43′E. No death count and no day-of-month were found in the sources fetched this pass.",
+      "status": "Historical reinforcement-period seepage failure.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Li et al. 2021 — Analysis of dam failure trend of China from 2000 to 2018 (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20201119001"
+        },
+        {
+          "label": "Chinese Wikipedia — 岗岗水库 (42.467°N 120.717°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E5%B2%97%E5%B2%97%E6%B0%B4%E5%BA%93"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "officials said downstream people were moved; ~150 mu farmland flooded",
+      "notes": "Deaths 0 from the 2008 Nanning Daily report (未造成人员伤亡). Pin is Hengzhou city, not Xiatong village.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "1.66 million m³ total; 1.33 million m³ effective (Nanning Daily 2008)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "santuo-2008-07-13",
+      "name": "Santuo (三托) Reservoir Dam",
+      "country": "China",
+      "region": "Xiatong village, north Shitang Town, Hengxian (now Hengzhou), Nanning, Guangxi",
+      "location_label": "Shitang / Hengzhou, Guangxi, China",
+      "lat": 22.6799,
+      "lng": 109.2614,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Hengzhou) 22°40′48″N 109°15′41″E; Nanning Daily via Sohu places the dam at Xiatong village, north Shitang Town",
+      "river_or_facility": "Santuo Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Nanning Daily via Sohu: after 338.6 mm of rain at Shitang Town (6–12 July 2008) the small-1 homogeneous earth dam failed at 03:30 on 13 July.",
+      "incident_date": "2008-07-13",
+      "latest_report_date": "2008-07-14",
+      "what_happened": "Nanning Daily (Sohu, 14 July 2008): at 03:30 on 13 July 2008 Santuo Reservoir at Xiatong village, northern Shitang Town, Hengxian, failed in heavy rain. The report calls it a small-1 homogeneous earth dam, total storage 1.66 million m³, effective 1.33 million m³; Shitang Town had 338.6 mm from 20:00 on 6 July to 20:00 on 12 July; the reservoir rose and showed distress before the breach. Officials said timely evacuation meant no casualties; about 150 mu of farmland were flooded. Zhang, Yang and Jiang 2014 have appendix chapter 9.30.",
+      "status": "Historical rainfall failure; no casualties in the 2008 official report.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Nanning Daily via Sohu — 13 July 2008 03:30 Santuo breach; 0 dead; 150 mu",
+          "url": "https://news.sohu.com/20080714/n258118016.shtml"
+        },
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Wikipedia — Hengzhou (22.6799°N 109.2614°E); formerly Hengxian",
+          "url": "https://en.wikipedia.org/wiki/Hengzhou,_Guangxi"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is the Wikipedia reservoir coordinate. Quting is a separate live record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1958",
+      "height_m": null,
+      "reservoir_capacity": "6.00 million m³ normal (Chinese Wikipedia); small-1 (Sheng 2023)",
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "xinghuo-2013-02-01",
+      "name": "Xinghuo (星火) Reservoir Dam (Hailun Farm)",
+      "country": "China",
+      "region": "Hailun Farm / Hailun, Suihua, Heilongjiang",
+      "location_label": "Hailun, Heilongjiang, China",
+      "lat": 47.7235,
+      "lng": 126.8514,
+      "geo_accuracy": "approximate",
+      "geo_source": "Chinese Wikipedia (星火水库) 47°43′25″N 126°51′05″E; Sheng 2023 names Heilongjiang Hailun Farm Xinghuo small-1, 1 February 2013",
+      "river_or_facility": "Xinghuo Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Sheng 2023: 1 February 2013 Hailun Farm Xinghuo small-1, a fair-weather failure during rehabilitation, contact seepage at a through-dam structure. Li et al. 2021 also cite illegal overstorage.",
+      "incident_date": "2013-02-01",
+      "latest_report_date": "2023",
+      "what_happened": "Sheng et al. 2023: on 1 February 2013 the Hailun Farm Xinghuo small-1 reservoir in Heilongjiang failed in a 15-day cluster with Lianfeng (2 Feb) and Quting (16 Feb). Shared traits: rehabilitation works, fair-weather (晴天) failure, contact seepage at a through-dam structure, and the first signs were not found by operators. Li et al. 2021 add illegal overstorage at Xinghuo. Chinese Wikipedia: Hailun City reservoir, code BAB15601033, completed 1958, catchment 65 km², normal storage 6.00 million m³, coordinates 47°43′25″N 126°51′05″E. No death count was found this pass.",
+      "status": "Historical winter seepage failure during rehabilitation.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Sheng, Li & Sheng 2023 — Statistical analysis of dam failure and its loss of life in China (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20220919001"
+        },
+        {
+          "label": "Li et al. 2021 — Analysis of dam failure trend of China from 2000 to 2018 (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20201119001"
+        },
+        {
+          "label": "Chinese Wikipedia — 星火水库 (47.7235°N 126.8514°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E6%98%9F%E7%81%AB%E6%B0%B4%E5%BA%93"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": "19–20 frostbite (China Daily / People.cn)",
+      "affected_or_evacuated": "about 30 evacuated (China News); 30-plus trapped residents moved (China Daily)",
+      "notes": "Deaths 1 from China News / China Daily. Pin is Midong district seat, not Qiaziwan village. Quting is a separate live record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Midong District Water Affairs Bureau / water-management station",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": "more than 100,000 m³ (China News)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ürümqi Discipline Inspection / Supervision with technical departments",
+      "verification": "confirmed",
+      "id": "lianfeng-2013-02-02",
+      "name": "Lianfeng (联丰) Reservoir Dam",
+      "country": "China",
+      "region": "Qiaziwan / Midong District, Ürümqi, Xinjiang",
+      "location_label": "Midong, Ürümqi, Xinjiang, China",
+      "lat": 43.8,
+      "lng": 87.583,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Midong District) 43°48′N 87°35′E; China News / People.cn place the dam at Qiaziwan village, Midong, also described as Qidaowan township Lianfeng",
+      "river_or_facility": "Lianfeng Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "construction_first_filling"
+      ],
+      "cause_summary": "China News: seepage failure about 06:00 on 2 February 2013 during unfinished rehabilitation. City investigation: Midong water-station chief allowed filling before the works were fit to store water.",
+      "incident_date": "2013-02-02",
+      "latest_report_date": "2013-02-07",
+      "what_happened": "About 06:00 on 2 February 2013 the small Lianfeng Reservoir in Midong District, Ürümqi (China News: Qiaziwan village, works unfinished; People.cn also says Qidaowan township), failed by seepage and released more than 100,000 m³. China News the same day: about 30 people evacuated, 1 dead. People.cn/China Daily later: 1 dead, about 19–20 frostbitten, 30-plus trapped residents moved; Qidaowan–Miquan road cut. On 5–6 February the city called it a responsibility accident: filling was allowed before rehabilitation was finished; four Midong officials were disciplined. Sheng 2023 classifies Lianfeng as a Midong small-2, fair-weather through-dam contact-seepage failure.",
+      "status": "Responsibility accident during unfinished rehabilitation.",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "China News — 2 Feb 2013 06:00 Midong Lianfeng; ~30 evacuated; 1 dead",
+          "url": "https://www.chinanews.com.cn/gn/2013/02-02/4542918.shtml"
+        },
+        {
+          "label": "People.cn / China News — 1 dead, 20+ frostbite; Qidaowan Lianfeng seepage",
+          "url": "http://politics.people.com.cn/n/2013/0202/c70731-20413358.html"
+        },
+        {
+          "label": "China Daily — responsibility accident; 1 dead, 19 frostbite; four officials punished",
+          "url": "https://www.chinadaily.com.cn/dfpd/xj/bwzg/2013-02/07/content_16212833.htm"
+        },
+        {
+          "label": "Sheng, Li & Sheng 2023 — Statistical analysis of dam failure and its loss of life in China (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20220919001"
+        },
+        {
+          "label": "Wikipedia — Midong District (43.800°N 87.583°E)",
+          "url": "https://en.wikipedia.org/wiki/Midong_District"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Bayannur 14.63 million affected / 9,341 evacuated / 536 million yuan are regional flood figures, not copied. Pin is banner seat (Ulashan), not a surveyed crest. Sheyuegou is a separate live record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "zenglongchang-2018-07-19",
+      "name": "Zenglongchang (增隆昌) Reservoir auxiliary dam",
+      "country": "China",
+      "region": "Urad Front Banner, Bayannur, Inner Mongolia (upstream of Dashetai Reservoir)",
+      "location_label": "Urad Front Banner, Inner Mongolia, China",
+      "lat": 40.737,
+      "lng": 108.652,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Urad Front Banner) 40°44′13″N 108°39′07″E; China hydropower society and CNEB place the 19 July 2018 auxiliary-dam failure in Urad Front Banner, Bayannur",
+      "river_or_facility": "Zenglongchang Reservoir auxiliary dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "China Society for Hydropower Engineering: 19 July 2018, medium Zenglongchang, extreme flood, auxiliary-dam contact seepage. Li et al. 2021 also treat it as a through-dam culvert seepage case under extreme western rain.",
+      "incident_date": "2018-07-19",
+      "latest_report_date": "2021",
+      "what_happened": "On 19 July 2018 the auxiliary dam of the medium Zenglongchang Reservoir in Urad Front Banner, Bayannur, Inner Mongolia, failed. The China Society for Hydropower Engineering later wrote: extreme flood, auxiliary-dam contact seepage; rescue was organised but equipment was inadequate. Li et al. 2021 group it with through-dam culvert seepage failures and with Sheyuegou as western extreme-rain cases. China National Emergency Broadcasting / China News (23 July): night of 18–19 July rain; Zenglongchang's failure put downstream Dashetai Reservoir above warning level. The 23 July Bayannur flood bulletin (14.63 million people affected, 9,341 evacuated, 536 million yuan loss) is a regional flood total and is not copied onto this dam. No dam-only death count was found.",
+      "status": "Auxiliary-dam contact-seepage failure in extreme rain; later water-damage repairs listed for the banner.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "China Society for Hydropower Engineering — 19 July 2018 Zenglongchang medium; auxiliary-dam contact seepage",
+          "url": "http://old.hydropower.org.cn/showNewsDetail.asp?nsId=31171"
+        },
+        {
+          "label": "CNEB / China News — Zenglongchang failure; Dashetai above warning; regional flood 23 July",
+          "url": "http://www.cneb.gov.cn/2018/07/23/ARTI1532344374727609.shtml"
+        },
+        {
+          "label": "Li et al. 2021 — Analysis of dam failure trend of China from 2000 to 2018 (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20201119001"
+        },
+        {
+          "label": "Wikipedia — Urad Front Banner (40.737°N 108.652°E)",
+          "url": "https://en.wikipedia.org/wiki/Urad_Front_Banner"
+        }
+      ],
+      "severity": "major"
     }
   ]
 }
