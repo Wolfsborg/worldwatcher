@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 808,
+  "count": 829,
   "current_count": 25,
-  "historical_count": 783,
+  "historical_count": 804,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -44145,6 +44145,1161 @@
         }
       ],
       "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: CGJ states no loss of life associated with the Okanagan earth-dam failures in this series. Height not stated (82 m is crest length).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Penticton municipality",
+      "year_built": "1920",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": "about 370 000 m³ (CGJ)",
+      "breach_size": null,
+      "downstream_risk": "Penticton; Ellis Creek channel",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "ellis-creek-3-1921-05-19",
+      "name": "Ellis Creek No. 3 / Dufresne Dam (Penticton)",
+      "country": "Canada",
+      "region": "Ellis Creek above Penticton, British Columbia",
+      "location_label": "Ellis Creek canyon above Penticton, British Columbia, Canada",
+      "lat": 49.47889,
+      "lng": -119.59444,
+      "geo_accuracy": "region",
+      "geo_source": "WSC 08NM135 Ellis Creek at Penticton 49°28′44″N 119°35′40″W; CGJ: municipal dam on Ellis Creek above the town",
+      "river_or_facility": "Ellis Creek No. 3 (Dufresne Dam); Ellis Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Tannant & Skermer (CGJ 2013): after a hot day and heavy rain the one-year-old 82 m municipal dam broke late on 19 May 1921 and released about 370 000 m³.",
+      "incident_date": "1921-05-19",
+      "latest_report_date": "2013",
+      "what_happened": "Late on 19 May 1921 Penticton’s new Ellis Creek No. 3 (Dufresne) dam broke above the town (Septer 2006; Tannant & Skermer, Canadian Geotechnical Journal 50:820–833, 2013). After a hot day followed by heavy rain a surge came down Penticton and Ellis Creeks. The one-year-old, 82 m-long dam released about 370 000 m³ and was almost completely destroyed. On 20 May Ellis Creek overflowed in many places and flooded Penticton. CGJ: no loss of life in the Okanagan earth-dam series that includes this event.",
+      "status": "Destroyed 1921. Later Ellis Creek storage is a rebuilt municipal irrigation system (Ellis 2 / Ellis 4 / diversion).",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Tannant & Skermer, CGJ 50:820–833 (2013) — Ellis Creek No. 3 / Dufresne 19 May 1921",
+          "url": "https://doi.org/10.1139/cgj-2012-0206"
+        },
+        {
+          "label": "Tannant & Skermer 2011 — Geohazards in the South Okanagan",
+          "url": "https://doi.org/10.14288/1.0102564"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from the CGJ Okanagan series statement. Released volume not given in the fetched extracts.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Okanagan Falls homes and bridges",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "id": "allendale-shuttleworth-1928-05-15",
+      "name": "Allendale Dam (Shuttleworth Creek)",
+      "country": "Canada",
+      "region": "Shuttleworth Creek, Okanagan Falls, British Columbia",
+      "location_label": "Shuttleworth Creek at Okanagan Falls, British Columbia, Canada",
+      "lat": 49.34972,
+      "lng": -119.56778,
+      "geo_accuracy": "region",
+      "geo_source": "CGNDB Okanagan Falls 49.3497222, −119.5677778; CGJ: old Allendale dam on Shuttleworth Creek; creek enters Okanagan River just south of Okanagan Falls (OBWB)",
+      "river_or_facility": "Allendale Dam; Shuttleworth Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "CGJ: on the afternoon of 15 May 1928 the old Allendale dam on Shuttleworth Creek failed after an unusually wet preceding winter (Penticton Herald 1928).",
+      "incident_date": "1928-05-15",
+      "latest_report_date": "2013",
+      "what_happened": "On the afternoon of 15 May 1928 the old Allendale dam on Shuttleworth Creek failed, damaging homes and bridges in Okanagan Falls (Penticton Herald 1928; Tannant & Skermer, CGJ 2013). The preceding winter was reported unusually wet in the Okanagan Valley. CGJ: no loss of life in this Okanagan earth-dam series.",
+      "status": "Failed 1928. Later Shuttleworth storage is a different municipal/irrigation system.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Tannant & Skermer, CGJ 50:820–833 (2013) — Allendale 15 May 1928",
+          "url": "https://doi.org/10.1139/cgj-2012-0206"
+        },
+        {
+          "label": "OBWB — Shuttleworth Creek enters Okanagan River just south of Okanagan Falls",
+          "url": "https://obwb.ca/efndocs/EFN_report_2020_3_8.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 (CGJ: luckily there were no fatalities). Separate 1944 record for the second failure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1935",
+      "height_m": 10,
+      "reservoir_capacity": "1.2 million m³ design storage (CGJ)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": "about 123 000 m³ (CGJ)",
+      "breach_size": null,
+      "downstream_risk": "Okanagan Falls; Penticton–Oliver highway and CPR",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "campbell-meadows-1936-05-15",
+      "name": "Campbell Meadows Dam (Shuttleworth Creek, 1936)",
+      "country": "Canada",
+      "region": "Shuttleworth Creek headwaters, about 24 km east of Okanagan Falls, British Columbia",
+      "location_label": "Campbell Meadows / Shuttleworth Creek headwaters east of Okanagan Falls, British Columbia, Canada",
+      "lat": 49.35,
+      "lng": -119.24,
+      "geo_accuracy": "approx",
+      "geo_source": "CGJ: 10 m dam on Shuttleworth Creek headwaters 24 km east of Okanagan Falls; CGNDB Okanagan Falls 49.34972, −119.56778; 24 km east ≈ 49.35, −119.24",
+      "river_or_facility": "Campbell Meadows earthfill irrigation dam; Shuttleworth Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "construction_first_filling"
+      ],
+      "cause_summary": "CGJ: the new 10 m earthfill dam (built 1935) did not overtop (water stayed ≥1.2 m below the crest); seepage through the new fill is suspected. Released about 123 000 m³.",
+      "incident_date": "1936-05-15",
+      "latest_report_date": "2013",
+      "what_happened": "On the afternoon of 15 May 1936 the 10 m Campbell Meadows dam on the headwaters of Shuttleworth Creek failed (Penticton Herald 1936; Septer 2006; Tannant & Skermer, CGJ 2013). The earthfill dam, built in 1935 to store 1.2 million m³ for late-summer irrigation, had been weakened by two days of intermittent heavy rain. It did not overtop — water never rose within 1.2 m of the crest. About 123 000 m³ was released. Floodwater inundated farms at Okanagan Falls, demolished houses, drowned livestock, destroyed more than 1.6 km of highway and a small bridge, damaged orchards, and cut the Penticton–Oliver rail line and the main highway from the south. CGJ: no fatalities.",
+      "status": "Rebuilt after 1936; failed again 27 May 1944 and was not rebuilt.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Tannant & Skermer, CGJ 50:820–833 (2013) — Campbell Meadows 15 May 1936",
+          "url": "https://doi.org/10.1139/cgj-2012-0206"
+        },
+        {
+          "label": "Tannant & Skermer 2011 — Geohazards in the South Okanagan",
+          "url": "https://doi.org/10.14288/1.0102564"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from CGJ series statement. Cause left unknown — CGJ does not name a failure mode for 1941.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Penticton municipality",
+      "year_built": null,
+      "height_m": 10,
+      "reservoir_capacity": "about 900 000 m³ stored at failure (CGJ)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": "about 740 000 m³ (CGJ)",
+      "breach_size": null,
+      "downstream_risk": "Penticton",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "ellis-creek-4-1941-05-12",
+      "name": "Ellis Creek No. 4 Dam (Penticton, 1941)",
+      "country": "Canada",
+      "region": "Ellis Creek above Penticton, British Columbia",
+      "location_label": "Ellis Creek No. 4, above Penticton, British Columbia, Canada",
+      "lat": 49.48056,
+      "lng": -119.5625,
+      "geo_accuracy": "region",
+      "geo_source": "WSC 08NM122 Ellis Creek North Main Diversion 49°28′50″N 119°33′45″W (north-fork system; not the dam crest). CGJ: 10 m, 560 m-long No. 4 dam above Penticton.",
+      "river_or_facility": "Ellis Creek Dam No. 4; Ellis Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "CGJ: inspected just before failure with no seepage noted; reservoir not full (~900 000 m³). Cause of the night-time breach is not stated in the fetched extracts.",
+      "incident_date": "1941-05-12",
+      "latest_report_date": "2013",
+      "what_happened": "On the night of 12 May 1941 the 10 m-high, 560 m-long Ellis Creek No. 4 dam broke above Penticton (Penticton Herald 1941; Septer 2006; Tannant & Skermer, CGJ 2013). Storage had been tripled from the previous year by raising the dam 1.8 m. It was inspected just before failure with no seepage noted. The reservoir was not full and held about 900 000 m³; the failure released about 740 000 m³ that reached Penticton around 23:00. CGJ: no loss of life in this Okanagan series.",
+      "status": "Repaired (including a wooden spillway). Failed again in May 1942 at the repaired spillway section.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Tannant & Skermer, CGJ 50:820–833 (2013) — Ellis Creek No. 4, 12 May 1941",
+          "url": "https://doi.org/10.1139/cgj-2012-0206"
+        },
+        {
+          "label": "City of Penticton — Ellis Creek irrigation; later Ellis #4 at north-fork head",
+          "url": "https://www.penticton.ca/sites/default/files/docs/city-services/water-wastewater/2023-08-21-PDF-2022%20Annual%20Report%20-%20Water%20Treatment%20Plant.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from CGJ. Date 1942-05-23 is the CGJ start of the 23 May–16 June episode.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Penticton municipality",
+      "year_built": null,
+      "height_m": 10,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": "about 150 000 m³ (CGJ)",
+      "breach_size": "about 5 m wide near the timber spillway (CGJ)",
+      "downstream_risk": "Penticton downtown / business area",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "ellis-creek-4-1942-05-23",
+      "name": "Ellis Creek No. 4 Dam (Penticton, 1942 partial breach)",
+      "country": "Canada",
+      "region": "Ellis Creek above Penticton, British Columbia",
+      "location_label": "Ellis Creek No. 4, above Penticton, British Columbia, Canada",
+      "lat": 49.48056,
+      "lng": -119.5625,
+      "geo_accuracy": "region",
+      "geo_source": "Same No. 4 site as 1941 record. WSC 08NM122 Ellis Creek North Main Diversion 49°28′50″N 119°33′45″W.",
+      "river_or_facility": "Ellis Creek Dam No. 4 (repaired 1941 section with timber spillway); Ellis Creek",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "CGJ: around 23–24 May 1942 heavy rain and snowmelt caused partial failure at the 1941 repair, which contained a wooden spillway; a 5 m-wide breach there released about 150 000 m³.",
+      "incident_date": "1942-05-23",
+      "latest_report_date": "2013",
+      "what_happened": "Around 23–24 May 1942 heavy precipitation and snowmelt caused a partial failure of Ellis Creek Dam No. 4 (Faulkner 1942; Penticton Herald 1942; Septer 2006; Tannant & Skermer, CGJ 2013). The dam broke in the area repaired after the 1941 collapse, which contained a wooden spillway. Reservoir level rose from 3 m on 21 May to 8 m on 26 May. A 5 m-wide breach near the timber spillway released about 150 000 m³, adding to already overflowing Ellis and Penticton Creeks. By 26 May the entire Penticton business area was flooded for the first time. CGJ: no loss of life in this series.",
+      "status": "Partial breach 1942 at the timber-spillway repair. Later municipal Ellis Creek dams are a rebuilt system.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Tannant & Skermer, CGJ 50:820–833 (2013) — Ellis Creek No. 4, 23 May–16 June 1942",
+          "url": "https://doi.org/10.1139/cgj-2012-0206"
+        },
+        {
+          "label": "Tannant & Skermer 2011 — 1942 wooden-spillway failure",
+          "url": "https://doi.org/10.14288/1.0102564"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 (CGJ). Separate 1936 record for the first failure of the same dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1935",
+      "height_m": 10,
+      "reservoir_capacity": "about 620 000 m³ stored the day before (CGJ)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": "about 370 000 m³ over about 3 h (CGJ)",
+      "breach_size": null,
+      "downstream_risk": "Okanagan Falls orchards; CPR; town bridges",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "campbell-meadows-1944-05-27",
+      "name": "Campbell Meadows Dam (Shuttleworth Creek, 1944)",
+      "country": "Canada",
+      "region": "Shuttleworth Creek headwaters, about 24 km east of Okanagan Falls, British Columbia",
+      "location_label": "Campbell Meadows / Shuttleworth Creek headwaters east of Okanagan Falls, British Columbia, Canada",
+      "lat": 49.35,
+      "lng": -119.24,
+      "geo_accuracy": "approx",
+      "geo_source": "CGJ: same Campbell Meadows dam, 24 km east of Okanagan Falls; watchman witnessed the failure. Pin as 1936 record.",
+      "river_or_facility": "Campbell Meadows earthfill irrigation dam; Shuttleworth Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "CGJ: the watchman saw the failure; the dam was not overtopped (3 m freeboard after a drawdown). Failure likely internal seepage and piping. About 370 000 m³ left over about 3 hours.",
+      "incident_date": "1944-05-27",
+      "latest_report_date": "2013",
+      "what_happened": "On 27 May 1944 the Campbell Meadows dam on Shuttleworth Creek failed again, 24 km east of Okanagan Falls (Penticton Herald 1944; Septer 2006; Tannant & Skermer, CGJ 2013). Heavy rain then warm weather produced heavy runoff. The day before, 1 200 m³ had been released to keep the reservoir about half full (620 000 m³) with 3 m freeboard. The watchman witnessed the failure; it was not overtopped. About 370 000 m³ left over about 3 hours. Floodwater damaged orchards near Okanagan Falls, washed away two small town bridges and 90 m of CPR track. The dam was not rebuilt. CGJ: no fatalities.",
+      "status": "Not rebuilt after the 1944 failure.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Tannant & Skermer, CGJ 50:820–833 (2013) — Campbell Meadows 27 May 1944",
+          "url": "https://doi.org/10.1139/cgj-2012-0206"
+        },
+        {
+          "label": "Tannant & Skermer 2011 — Geohazards in the South Okanagan",
+          "url": "https://doi.org/10.14288/1.0102564"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 1: GNB West Branch livestock rescue + CDA one death from the Musquash failures. Do not copy the provincial flood total of 2 (includes Magaguadavic boat). Month-precision date (April 1923 freshet).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "New Brunswick Electric Power Commission (later NB Power)",
+      "year_built": "1921",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Musquash / South Branch cascade at Scott Falls",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "id": "musquash-log-falls-1923-04",
+      "name": "Musquash Log Falls Dam (West Branch earth wing)",
+      "country": "Canada",
+      "region": "West Branch Musquash River, Saint John County, New Brunswick",
+      "location_label": "Log Falls Dam, West Branch Musquash River, New Brunswick, Canada",
+      "lat": 45.20952,
+      "lng": -66.370776,
+      "geo_accuracy": "site",
+      "geo_source": "CGNDB Log Falls Dam (DAOBW) 45.20952, −66.370776; later 1967 rebuild at the same West Branch Musquash site",
+      "river_or_facility": "Log Falls Dam (West Branch wing / earth section); West Branch Musquash River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "CDA 2006 / ETDEWEB: 1923 flood overtopped the abutments of Log Falls Dam on the West Musquash; the earth section failed. GNB: a portion of the earth wing dam on the West Branch was washed out.",
+      "incident_date": "1923-04",
+      "latest_report_date": "2024-07-01",
+      "what_happened": "The Musquash hydroelectric project was completed in 1921 by the New Brunswick Electric Power Commission (CDA 2006). In the 29 April–9 May 1923 flood a portion of the earth wing dam on the West Branch was washed out (GNB Flood Details/76). CDA 2006: the flood overtopped the abutments of Log Falls Dam, causing it to fail; the release produced a cascade failure of Scott Falls Dam, with downstream loss of homes, roads, railways and bridges. GNB: the flood carried three dwellings, outbuildings and livestock; Clinche’s Bridge at Musquash was taken out; the NB Electric Power plant was disrupted. GNB Damage Details: two lives were lost in the provincial flood — one Magaguadavic boat drowning (not this dam) and one man drowned trying to save livestock, caught in the rush of water on the West Branch of the Musquash. CDA 2006 also records one death from the Musquash flooding. Deaths on this record are that one West Branch death only.",
+      "status": "Earth wing destroyed 1923. NB Power rebuilt; 1967 Log Falls Dam (56 ft / 17.1 m concrete gravity) is the current structure at the same site.",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "CDA 2006 / ETDEWEB — The 1923 Musquash Dam failures; Log Falls overtopped, Scott Falls cascade, one death",
+          "url": "https://www.osti.gov/etdeweb/biblio/20881721"
+        },
+        {
+          "label": "GNB Flood Details 1923-04-29 – 1923-05-09 — earth wing on West Branch washed out; West Branch livestock drowning",
+          "url": "https://www.elgegl.gnb.ca/0001/en/Flood/Details/76"
+        },
+        {
+          "label": "CGNDB — Log Falls Dam (DAOBW)",
+          "url": "https://toponymes.rncan.gc.ca/search-place-names/unique?id=DAOBW"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: the one sourced Musquash death is on musquash-log-falls-1923-04. Do not copy GNB provincial flood total of 2.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "New Brunswick Power",
+      "year_built": "1921",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Musquash River / NB Power station",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "musquash-scott-falls-1923-04",
+      "name": "Musquash Scott Falls Dam (1923 cascade)",
+      "country": "Canada",
+      "region": "South Branch Musquash River, Saint John County, New Brunswick",
+      "location_label": "Scott Falls Dam, South Branch Musquash River, New Brunswick, Canada",
+      "lat": 45.184313,
+      "lng": -66.361309,
+      "geo_accuracy": "site",
+      "geo_source": "Wikidata Q22391605 Scott Falls Dam 45.184313, −66.361309 (1967 rebuild at the 1921 South Branch site)",
+      "river_or_facility": "Scott Falls Dam; South Branch Musquash River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "CDA 2006: after Log Falls failed, the release produced a cascade failure of Scott Falls Dam.",
+      "incident_date": "1923-04",
+      "latest_report_date": "2024-07-01",
+      "what_happened": "The 1921 Scott Falls dam on the Musquash system failed in cascade when Log Falls released in the April 1923 flood (CDA 2006 / ETDEWEB). CDA records one death from the combined Musquash flooding — that death is on the Log Falls / West Branch record (GNB: man drowned saving livestock on the West Branch). This record does not copy that death. The later 1967 Scott Falls structure is at the same South Branch site (Wikidata Q22391605).",
+      "status": "Overtopped/failed 1923 in the Log Falls cascade. 1967 Scott Falls Dam (38 ft / 11.6 m concrete gravity) is the current structure.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "CDA 2006 / ETDEWEB — cascade failure of Scott Falls Dam after Log Falls",
+          "url": "https://www.osti.gov/etdeweb/biblio/20881721"
+        },
+        {
+          "label": "Wikidata Q22391605 — Scott Falls Dam coordinates",
+          "url": "https://www.wikidata.org/wiki/Q22391605"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy GNB provincial flood deaths (2).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Woodstock Electric Railway Light and Power Company",
+      "year_built": "1906",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Woodstock / Meduxnekeag",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "id": "woodstock-hayden-1923-04",
+      "name": "Hayden Dam (Woodstock / Meduxnekeag)",
+      "country": "Canada",
+      "region": "Meduxnekeag River at Woodstock, Carleton County, New Brunswick",
+      "location_label": "Hayden Dam site, Meduxnekeag River, Woodstock, New Brunswick, Canada",
+      "lat": 46.1478,
+      "lng": -67.5729,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Meduxnekeag River mouth at Woodstock 46.1478, −67.5729; Wikipedia Woodstock: 1906 Hayden dam and powerhouse on the Meduxnekeag, first NB hydro, destroyed by the 1923 freshet",
+      "river_or_facility": "Hayden Dam; Meduxnekeag River",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "GNB: a portion of the Woodstock power dam went out; the Electric Light and Power plant floated away. Wikipedia Woodstock: the Hayden dam and power station were destroyed by the 1923 freshet.",
+      "incident_date": "1923-04",
+      "latest_report_date": "2024",
+      "what_happened": "During the 29 April–9 May 1923 New Brunswick flood, a portion of the power dam at Woodstock went out and the Electric Light and Power plant floated away, later found on Sugar Island above Fredericton (GNB Flood Details/76). Wikipedia (Woodstock, New Brunswick): the Woodstock Electric Railway Light and Power Company built a dam and powerhouse on the Meduxnekeag in 1906 — the first hydro-electric station in the province, the Hayden dam — and it was destroyed by the 1923 freshet, which also washed out the Meduxnekeag bridge. GNB does not give a released volume or a death count at this dam. The provincial flood total of 2 deaths is not copied here.",
+      "status": "Portion of the dam went out in 1923. Later Hayden Dam / Woodstock hydro history is a separate rebuilt plant story.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "GNB Flood Details 1923 — portion of the Woodstock power dam went out",
+          "url": "https://www.elgegl.gnb.ca/0001/en/Flood/Details/76"
+        },
+        {
+          "label": "Wikipedia — Woodstock, New Brunswick (Hayden dam, 1906; destroyed 1923)",
+          "url": "https://en.wikipedia.org/wiki/Woodstock,_New_Brunswick"
+        },
+        {
+          "label": "Wikipedia — Meduxnekeag River mouth coordinates",
+          "url": "https://en.wikipedia.org/wiki/Meduxnekeag_River"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Trout Creek driving dam is a separate GNB-named washout — not merged.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": "60 ft (about 18 m) section carried out (GNB)",
+      "downstream_risk": "Sussex / Trout Creek; 600 000 bf of logs released",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "id": "rockville-dam-1923-04",
+      "name": "Rockville Dam (Trout Creek / Sussex)",
+      "country": "Canada",
+      "region": "Rockville, about 5 miles from Sussex, Kings County, New Brunswick",
+      "location_label": "Rockville settlement, Trout Creek drainage, near Sussex, New Brunswick, Canada",
+      "lat": 45.690751,
+      "lng": -65.432662,
+      "geo_accuracy": "region",
+      "geo_source": "CGNDB Rockville, Kings County (DACJY) 45.690751, −65.432662; GNB: 60 ft of the Rockville dam, 5 miles from Sussex",
+      "river_or_facility": "Rockville Dam (driving / mill dam); Trout Creek drainage near Sussex",
+      "type": "weir",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "GNB 1923 flood page: 60 feet of the dam at Rockville, 5 miles from Sussex, went out, taking 600 000 board feet of logs.",
+      "incident_date": "1923-04",
+      "latest_report_date": "2024",
+      "what_happened": "During the 29 April–9 May 1923 flood, a 60 foot (about 18 m) section of the Rockville dam, five miles (8 km) from Sussex, was carried out along with 600 000 board feet of logs, and the Rockville bridge was damaged (GNB Flood Details/76). GNB separately records that a driving dam at the head of Trout Creek went out — a different named structure, not merged here. No sourced death count at Rockville.",
+      "status": "60 ft section went out, 1923. Later Trout Creek / Sussex storage is a different system.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "GNB Flood Details 1923 — 60 ft of Rockville dam, 5 miles from Sussex",
+          "url": "https://www.elgegl.gnb.ca/0001/en/Flood/Details/76"
+        },
+        {
+          "label": "CGNDB — Rockville, Kings County (DACJY)",
+          "url": "https://toponymes.rncan.gc.ca/search-place-names/unique?id=DACJY"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Height 4 m is the 2003 design maximum (CRI). Not Mount Polley / Obed / Bloom Lake.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Abandoned mine; Ontario ENDM care and maintenance",
+      "year_built": "2003",
+      "height_m": 4,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Surrounding lands and Kamiskotia River (CRI)",
+      "economic_damage": null,
+      "investigating_agency": "Ontario ENDM / Climate Risk Institute CCRA",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "id": "kam-kotia-nut-2012-03-19",
+      "name": "Kam Kotia NUT tailings dam (Timmins)",
+      "country": "Canada",
+      "region": "Kam Kotia Mine, about 22 km northwest of Timmins, Ontario",
+      "location_label": "Northern Unimpounded Tailings (NUT) dam, Kam Kotia Mine, Timmins, Ontario, Canada",
+      "lat": 48.591247,
+      "lng": -81.605011,
+      "geo_accuracy": "site",
+      "geo_source": "Ontario Mineral Inventory MDI42A12SE00005 Kam Kotia Mine shaft (AMIS site visit) 48°35′28.49″N, 81°36′18.04″W; NUT impoundment is the NE tailings area on that site (CRI/ENDM)",
+      "river_or_facility": "Kam Kotia Northern Unimpounded Tailings (NUT) dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "CRI/ENDM: NUT impoundment dam (2003 design, max height 4 m) was overtopped and eroded during rapid March 2012 snowmelt; runoff flowed over the dam face and breached it on 19 March 2012.",
+      "incident_date": "2012-03-19",
+      "latest_report_date": "2022-02",
+      "what_happened": "On 19 March 2012 the North Unimpounded Tailings (NUT) impoundment dam at the abandoned Kam Kotia Mine near Timmins was breached during rapid snowmelt (Climate Risk Institute / Ontario ENDM CCRA; Figure 12 captioned 19 March 2012). The 2003 dam had a maximum height of 4 m (Granular B, clay core). Warm late-February/early-March weather, a new 0.75 m sand cover, and unfinished drainage works preceded the breach: runoff from the NIT and NUT areas flowed over the dam face, eroding it. Contaminated water and sediment reached surrounding lands and the Kamiskotia River; CRI: most material lost was sand from the cover and dam; tailings were exposed but still frozen. The dam was repaired and raised in 2014. No sourced fatality count.",
+      "status": "Failed 2012. Kam Kotia remains a provincial contaminated-site / rehabilitation project (ENDM).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Climate Risk Institute / ENDM — Kam Kotia CCRA; NUT dam breach 19 March 2012",
+          "url": "https://climateriskinstitute.ca/wp-content/uploads/2022/02/Kam-Kotia-Climate-Risk-Assessment-Report-Final-1.pdf"
+        },
+        {
+          "label": "Ontario Mineral Inventory MDI42A12SE00005 — Kam Kotia Mine coordinates",
+          "url": "https://www.geologyontario.mndm.gov.on.ca/mndmfiles/MDI/data/records/MDI42A12SE00005.html"
+        }
+      ]
+    },
+    {
+      "injured": 0,
+      "affected_or_evacuated": "at least two homes / one business displaced (Intelligencer; Global News)",
+      "notes": "Deaths 0 / injured 0 from contemporaneous no-injuries reporting. County Road 33 is the highway, not a canal reach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Innergex Renewable Energy",
+      "year_built": "2005",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Glen Miller / County Road 33 / Sonoco mill",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "id": "glen-miller-2019-06-15",
+      "name": "Glen Miller hydroelectric generating station (Trent Canal)",
+      "country": "Canada",
+      "region": "Glen Miller, Trenton / Quinte West, Ontario",
+      "location_label": "Glen Miller GS, Trent-Severn Waterway, Quinte West, Ontario, Canada",
+      "lat": 44.150553,
+      "lng": -77.5797,
+      "geo_accuracy": "region",
+      "geo_source": "Parks Canada Lock 3 Glen Miller 44°09′01.99″N 77°34′46.92″W; Innergex 8 MW run-of-river plant is on the same Trent River reach at the adjacent former Sonoco mill (Innergex site page)",
+      "river_or_facility": "Glen Miller GS; Trent-Severn Waterway / Canal Reach 33",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate"
+      ],
+      "cause_summary": "Global News / Intelligencer: after a Saturday morning power outage the Innergex dam’s backup generators failed, the gates/doors closed, and the Trent overflowed across County Road 33, collapsing the roadway. Not a collapse of the dam body.",
+      "incident_date": "2019-06-15",
+      "latest_report_date": "2019-06-16",
+      "what_happened": "On 15 June 2019 a power outage at Innergex’s 8 MW Glen Miller run-of-river plant on the Trent River at Quinte West (about 07:00) was followed by backup-generator failure; the dam doors/gates closed and river water overflowed into Glen Miller (Global News; Belleville Intelligencer). County Road 33 / Trenton-Frankford Road washed out — a gap several metres across and about a metre deep — exposing a high-pressure gas line. Intelligencer: no injuries; flood water entered at least two homes, one evacuated. Global News: people from one business and one residence displaced; a vehicle was swept into the Trent. Parks Canada limited flow from dams farther north; overflow stopped around 14:30. This is an operational-gate / overflow incident, not a dam-body breach.",
+      "status": "Overflow stopped the same afternoon; County Road 33 rebuilt. Dam body did not collapse.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Global News — dam malfunction after power outage; CR 33 collapse; no injuries",
+          "url": "https://globalnews.ca/news/5398506/dam-failure-road-quinte-west/"
+        },
+        {
+          "label": "Belleville Intelligencer — gates closed; no injuries; two homes flooded",
+          "url": "https://www.intelligencer.ca/news/local-news/dam-malfunction-causes-flooding-road-collapse"
+        },
+        {
+          "label": "Innergex — Glen Miller 8 MW, Trent River, commissioned 2005",
+          "url": "https://www.innergex.com/en/sites/glen-miller"
+        },
+        {
+          "label": "Parks Canada — Lock 3 Glen Miller coordinates",
+          "url": "https://parks.canada.ca/lhn-nhs/on/trentsevern/visit/posteeclusage-lockstation/ecluse-lock-03-glenmiller"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 5 from CENAPRED/Excélsior at the ranchería. Do not copy Zacatecas statewide 10 500 damnificados.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1790",
+      "height_m": 14,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "irrigation",
+      "volume_released": "maximum outflow estimated 260 m³/s (ASDSO 1993)",
+      "breach_size": null,
+      "downstream_risk": "Ranchería La Quemada about 2 km downstream (CENAPRED)",
+      "economic_damage": null,
+      "investigating_agency": "ASDSO conference paper / Mexican field investigation 1993",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "id": "la-quemada-1991-07-15",
+      "name": "La Quemada Dam (Zacatecas)",
+      "country": "Mexico",
+      "region": "Beside La Quemada / Chicomóztoc ruins, Villanueva Municipality, Zacatecas",
+      "location_label": "La Quemada dam beside the Chicomóztoc ruins, Zacatecas, Mexico",
+      "lat": 22.456389,
+      "lng": -102.821111,
+      "geo_accuracy": "region",
+      "geo_source": "Wikidata Q2112520 La Quemada archaeological site 22°27′23″N, 102°49′16″W; CENAPRED/Excélsior: dam beside the ruins, ranchería La Quemada about 2 km downstream",
+      "river_or_facility": "Presa La Quemada",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "foundation"
+      ],
+      "cause_summary": "ASDSO 1993: masonry dam (1790, 14 m, later raised 2 m) overtopped 1.1 m in an exceptional flood; spillway 20 m³/s vs estimated 260 m³/s outflow; failure by sliding of the base at the widest section.",
+      "incident_date": "1991-07-15",
+      "latest_report_date": "1993",
+      "what_happened": "On 15 July 1991 La Quemada Dam in Zacatecas failed (Martínez del Campo & Molina, ASDSO Dam Safety 1993). The masonry dam, built in 1790 on rhyolite and later raised 2 m, was 14 m high. An exceptional flood overtopped the crest by 1.1 m; maximum outflow was estimated at 260 m³/s against a spillway capacity of 20 m³/s. The paper concludes the failure was sliding of the base at the dam’s widest section. CENAPRED’s Excélsior clip (17 July 1991): the dam about 50 km south of Zacatecas city, beside the Chicomóztoc ruins, burst; five people drowned at ranchería La Quemada about 2 km downstream. Statewide 10 500 damnificados from the rains are a regional flood figure and are not copied onto this dam.",
+      "status": "Failed 15 July 1991. Masonry ruins / not rebuilt as the same high-hazard structure.",
+      "deaths": 5,
+      "sources": [
+        {
+          "label": "ASDSO — La Quemada Dam Failure, Zacatecas (Martínez del Campo & Molina, 1993)",
+          "url": "https://damsafety.org/content/la-quemada-dam-failure-zacatecas-mexico"
+        },
+        {
+          "label": "CENAPRED / Excélsior clip 17 July 1991 — five drowned at ranchería La Quemada",
+          "url": "https://www.files.cenapred.unam.mx/es/BibliotecaVirtual/1991C9/1991-7-17-C9-N159.PDF"
+        },
+        {
+          "label": "Wikidata Q2112520 — La Quemada site coordinates",
+          "url": "https://www.wikidata.org/wiki/Q2112520"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Dialnet dates first-filling internal erosion to July 1992; contemporary Tribuna date 16 July 1991 is used for the incident. Not a breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Comisión Nacional del Agua (CNA)",
+      "year_built": "1991",
+      "height_m": 44,
+      "reservoir_capacity": "6.5 million m³ design; reduced to 4.5 million m³ after the notch (CNA/Tribuna)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "CNA spillway notch about 3.5 m × 5 m (not a dam-body breach)",
+      "downstream_risk": "El Pueblito / Corregidora",
+      "economic_damage": null,
+      "investigating_agency": "CNA; later UNAM internal-erosion studies",
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "el-batan-1991-07-16",
+      "name": "El Batán Dam (Corregidora, Querétaro)",
+      "country": "Mexico",
+      "region": "Corregidora Municipality, Querétaro, on El Pueblito River",
+      "location_label": "Presa El Batán, Corregidora, Querétaro, Mexico",
+      "lat": 20.514083,
+      "lng": -100.43135,
+      "geo_accuracy": "site",
+      "geo_source": "MDPI Water 14:3040 (2022) sampling site BAT at El Batán dam 20°30.845′N, 100°25.881′W",
+      "river_or_facility": "Presa El Batán; Río El Pueblito",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "construction_first_filling",
+        "piping_internal_erosion",
+        "structural_design"
+      ],
+      "cause_summary": "Tribuna de Querétaro: first filling 16 July 1991 to 6.5 Mm³; crest settlement above the intake from vibrations; CNA blasted a spillway notch (about 3.5 × 5 m) to drop storage to 4.5 Mm³. Later UNAM/Dialnet work describes important internal erosion of the clay core on first filling. Not a breach.",
+      "incident_date": "1991-07-16",
+      "latest_report_date": "2015",
+      "what_happened": "El Batán Dam at Corregidora, Querétaro, was inaugurated 6 February 1991 (CNA; 44 m high, 2 040 m long; design 6.5 million m³). On 16 July 1991, five months later, torrential rain filled it to capacity on first filling (Tribuna de Querétaro, citing Diario de Querétaro and CNA state manager Jorge Izcabalceta). Operating the intake produced vibrations, differential settlement and a depression of the crest exactly above the intake pipe. Seepage of 100–150 L/s was reported in the lower core. CNA then blasted an escotadura in the spillway ogee — about 3.5 m high by 5 m wide — to cut storage from 6.5 to 4.5 million m³ as a safety margin because damage to the impermeable core was unknown. Later UNAM thesis / Dialnet filter paper describe important internal erosion of the clay core during first filling. The dam body was not breached.",
+      "status": "Not breached. Spillway notched; later instrumentation, filter/core repairs and reduced operating storage. Still in service as a Corregidora flood/irrigation reservoir.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Tribuna de Querétaro — first filling 16 July 1991; CNA spillway notch 6.5→4.5 Mm³",
+          "url": "https://tribunadequeretaro.com/informacion/la-presa-el-batan-sueno-de-once-meses-pesadilla-de-dos-sexenios/"
+        },
+        {
+          "label": "Dialnet — El Batán filter; internal core erosion on first filling",
+          "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=7357176"
+        },
+        {
+          "label": "MDPI Water 14:3040 — BAT sampling coordinates at El Batán dam",
+          "url": "https://www.mdpi.com/2073-4441/14/19/3040"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Month-precision date. Not a failure of the finished 187 m Aguamilpa CFRD (Wikipedia). height_m left null because no sourced cofferdam height.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Comisión Federal de Electricidad (CFE)",
+      "year_built": "1989",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Construction site / Río Grande de Santiago",
+      "economic_damage": null,
+      "investigating_agency": "Marengo / CFE construction-risk study",
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "aguamilpa-cofferdam-1992-01",
+      "name": "Aguamilpa upstream cofferdam (diversion overtopping)",
+      "country": "Mexico",
+      "region": "Río Grande de Santiago, Tepic Municipality, Nayarit",
+      "location_label": "Aguamilpa Dam site, Nayarit, Mexico",
+      "lat": 21.83944,
+      "lng": -104.80278,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Aguamilpa Dam 21°50′22″N 104°48′10″W (21.83944, −104.80278); cofferdam overtopping was at this construction site",
+      "river_or_facility": "Aguamilpa Solidaridad diversion / upstream cofferdam; Río Grande de Santiago",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "construction_first_filling",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Marengo, J. Hydraulic Engineering 132(11):1121–1127 (2006): in January 1992 the upstream cofferdam was overtopped and the diversion tunnels exceeded their hydraulic capacity. Not a failure of the finished 187 m CFRD.",
+      "incident_date": "1992-01",
+      "latest_report_date": "2006",
+      "what_happened": "During construction of Aguamilpa Dam (CFRD, 187 m; construction 1989–1993) the January 1992 flood overtopped the upstream cofferdam and pushed the diversion tunnels beyond their maximum hydraulic capacity (Humberto Marengo, Journal of Hydraulic Engineering 132(11), 2006). The paper is a case study of dam safety during construction, not a failure of the completed dam. No sourced fatality count for the cofferdam overtopping.",
+      "status": "Cofferdam overtopped January 1992 during construction. Finished Aguamilpa CFRD (1993/1994) is a different, operating structure.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Marengo, J. Hydraul. Eng. 132(11):1121–1127 (2006) — January 1992 cofferdam overtopping",
+          "url": "https://doi.org/10.1061/(ASCE)0733-9429(2006)132:11(1121)"
+        },
+        {
+          "label": "Wikipedia — Aguamilpa Dam coordinates and 187 m CFRD",
+          "url": "https://en.wikipedia.org/wiki/Aguamilpa_Dam"
+        }
+      ]
+    },
+    {
+      "injured": 0,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null; injured 0 for the two rescued fishermen (Quadratín). Do not merge with Ingrid/Manuel September 2013.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "CONAGUA / CFE",
+      "year_built": "1973",
+      "height_m": null,
+      "reservoir_capacity": "541 hm³ (Wikipedia)",
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": "about 731 m³/s through failed bay (CFE); CONAGUA also cited ~750 m³/s spillway + 1 200 m³/s turbines",
+      "breach_size": null,
+      "downstream_risk": "Río Balsas / Lázaro Cárdenas fishermen and crops",
+      "economic_damage": null,
+      "investigating_agency": "CFE / CONAGUA",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "id": "la-villita-gate-2013-05-31",
+      "name": "La Villita / José María Morelos radial gate 1",
+      "country": "Mexico",
+      "region": "Río Balsas at Lázaro Cárdenas / La Unión, Michoacán–Guerrero",
+      "location_label": "Presa José María Morelos (La Villita), Michoacán–Guerrero, Mexico",
+      "lat": 18.047425,
+      "lng": -102.180344,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Presa José María Morelos 18°02′51″N 102°10′49″W (18.047425, −102.180344)",
+      "river_or_facility": "Presa José María Morelos y Pavón (La Villita); Río Balsas",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "operational_gate"
+      ],
+      "cause_summary": "CFE/CONAGUA: sudden failure of the left support of service-spillway radial gate 1 at 15:25 on 31 May 2013; reservoir elev. 50.10 m; estimated 731 m³/s through the open bay. Dam body did not fail.",
+      "incident_date": "2013-05-31",
+      "latest_report_date": "2014-09-17",
+      "what_happened": "On Friday 31 May 2013 at 15:25 a sudden failure occurred at the left support of radial gate 1 on the service spillway of José María Morelos y Pavón (La Villita), owned by CONAGUA and operated by CFE (CFE technical note reproduced in later gate-rehab briefings). Reservoir elevation was 50.10 m; estimated discharge through the failed bay was 731 m³/s. CONAGUA’s Felipe Arreguín (La Voz de Michoacán): about 750 m³/s over the spillway plus 1 200 m³/s through the turbines, within the Balsas channel capacity of 4 500 m³/s. Quadratín (31 May): two fishermen trapped by the sudden release were rescued unhurt after about four hours; no housing damage reported that night. Permanent repairs (new gate 1, testera beam, stop-logs) were completed 17 September 2014. This is a gate incident, not the September 2013 Ingrid/Manuel season and not a dam-body breach.",
+      "status": "Gate 1 reconstructed; testera beams 2–8 strengthened. Completed 17 September 2014. Dam body intact.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Quadratín 31 May 2013 — gate 1 failure; two fishermen rescued unhurt",
+          "url": "https://archivo.quadratin.com.mx/principal/Rescatan-a-pescadores-atrapados-por-ruptura-en-presa/"
+        },
+        {
+          "label": "La Voz de Michoacán — CONAGUA/CFE; ~750 m³/s spillway + 1 200 m³/s turbines",
+          "url": "https://www.lavozdemichoacan.com.mx/regional/bajo-control-la-presa-jose-maria-morelos-la-villita-en-michoacan/"
+        },
+        {
+          "label": "Wikipedia — Presa José María Morelos coordinates",
+          "url": "https://es.wikipedia.org/wiki/Presa_Jos%C3%A9_Mar%C3%ADa_Morelos"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "La Venta Vieja (~300 inhabitants) destroyed; residents warned/evacuated (El Universal; Diario de Guerrero)",
+      "notes": "Deaths null. Do not copy Guerrero/Manuel flood tolls. 1967 Beulah overtopping is a separate earlier incident — not merged.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Comisión Federal de Electricidad (CFE)",
+      "year_built": "1965",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "La Venta Vieja / Papagayo / Tierra Colorada",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "ambrosio-figueroa-2013-09-15",
+      "name": "Ambrosio Figueroa / La Venta (Papagayo) gates",
+      "country": "Mexico",
+      "region": "Río Papagayo near Tierra Colorada / La Venta Vieja, Guerrero",
+      "location_label": "Central Ambrosio Figueroa (La Venta), Río Papagayo, Guerrero, Mexico",
+      "lat": 17.1171,
+      "lng": -99.5644,
+      "geo_accuracy": "site",
+      "geo_source": "Global Energy Monitor Ambrosio Figueroa hydroelectric plant 17.1171, −99.5644 (exact)",
+      "river_or_facility": "Presa / C.H. Ambrosio Figueroa (La Venta); Río Papagayo",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "operational_gate",
+        "overtopping"
+      ],
+      "cause_summary": "Tropical Storm Manuel: Papagayo rose over the dam; four of seven radial gates were torn off. El Universal / Diario de Guerrero: plant flooded, village of La Venta Vieja destroyed. CFE inspected the cortina and treated the dam body as standing; this is a gate/overtopping incident, not a dam-body collapse.",
+      "incident_date": "2013-09-15",
+      "latest_report_date": "2014-01-28",
+      "what_happened": "In the early hours of 15 September 2013, during Tropical Storm Manuel, the Papagayo overtopped Ambrosio Figueroa (La Venta) hydroelectric dam (inaugurated May 1965). El Universal: four gates broke and the flood destroyed the village of La Venta Vieja (about 300 inhabitants) in under two hours. Diario de Guerrero: residents were warned and evacuated to shelters in Tierra Colorada before the dam overtopped by several metres; CFE later inspected the cortina — the powerhouse and most plant infrastructure were devastated, the dam was inoperable, but CFE did not report a collapsed dam body. Andritz Hydro News 29: the plant was flooded and the radial gates, automation and electrical equipment were destroyed; CFE tendered a full rehab in 2014. No sourced fatality count at this dam or at La Venta Vieja is used here. Guerrero / Manuel regional death tolls are not copied.",
+      "status": "Plant flooded; four gates destroyed. Dam body remained; CFE rehab tender 2014 (Andritz). Village of La Venta Vieja destroyed.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "El Universal — 15 Sep 2013; four gates; La Venta Vieja (~300) destroyed",
+          "url": "https://archivo.eluniversal.com.mx/nacion-mexico/2013/impreso/en-2-horas-venta-vieja-desaparecio-209667.html"
+        },
+        {
+          "label": "Diario de Guerrero — warning/evacuation; water several metres over the cortina",
+          "url": "http://diariodegro.blogspot.com/2013/09/el-poblado-de-la-venta-fue-destruido.html"
+        },
+        {
+          "label": "Andritz Hydro News 29 — plant flooded; radial gates destroyed; 2014 rehab",
+          "url": "https://www.andritz.com/hydro-en/hydronews/hydro-news-29/hy-news-hn29-40-mexico-la-venta-hydro"
+        },
+        {
+          "label": "GEM — Ambrosio Figueroa coordinates 17.1171, −99.5644",
+          "url": "https://www.gem.wiki/Ambrosio_Figueroa_hydroelectric_plant"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. 1876 construction failure is mentioned as background, not a separate merged record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "National Irrigation Commission",
+      "year_built": "1876",
+      "height_m": 9,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "St Catherine Plains irrigation; Spanish Town NWC supply",
+      "economic_damage": "Reconstructed at J$257.5 million (NIC)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "rio-cobre-1991-05-21",
+      "name": "Rio Cobre Dam (Spanish Town diversion weir)",
+      "country": "Jamaica",
+      "region": "Rio Cobre near Spanish Town, Saint Catherine Parish",
+      "location_label": "Rio Cobre Dam, Saint Catherine, Jamaica",
+      "lat": 18.044506,
+      "lng": -76.980456,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Rio Cobre Dam 18°2′40.22″N 76°58′49.64″W (18.0445056, −76.9804556)",
+      "river_or_facility": "Rio Cobre Dam (NIC diversion weir); Rio Cobre",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "structural_design"
+      ],
+      "cause_summary": "NIC: flood rains of 21 May 1991 collapsed the dam. ASDSO 1995: the dam also failed during 1876 construction; the overflow section was extended to a lower design standard, and that extended overflow section is what failed in 1991.",
+      "incident_date": "1991-05-21",
+      "latest_report_date": "1995",
+      "what_happened": "Flood rains on 21 May 1991 collapsed the Rio Cobre diversion dam near Spanish Town (National Irrigation Commission; Jamaica Gleaner). About 6 705 ha (15 000 acres) of irrigation and fish farms on the St Catherine Plains lost water, and NWC lost up to 2.5 million gallons/day of raw water to the Spanish Town treatment plant. ASDSO 1995 (Newberry & French): investigations showed the dam also failed during construction in 1876 and that the overflow section was extended to a lesser design standard — it was that extended overflow section that failed. Reconstructed by May 1995 at J$257.5 million (NIC). Height 9 m (Wikipedia). No sourced fatality count.",
+      "status": "Reconstructed May 1995 (concrete gravity ogee on piled foundation). In service as NIC diversion dam.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "National Irrigation Commission — collapse 21 May 1991; 6 705 ha affected; rebuilt 1995",
+          "url": "https://www.nicjamaica.com/the-rio-cobre-dam-diverting-with-a-purpose/"
+        },
+        {
+          "label": "ASDSO 1995 — Reconstruction of Rio Cobre Dam; 1876 failure; lower-standard overflow section",
+          "url": "https://damsafety.org/content/reconstruction-rio-cobre-dam"
+        },
+        {
+          "label": "Wikipedia — Rio Cobre Dam coordinates and 9 m height",
+          "url": "https://en.wikipedia.org/wiki/Rio_Cobre_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Debby island-wide four deaths from Sarafinchin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Government of Saint Lucia / WASCO (later)",
+      "year_built": "1993",
+      "height_m": 45,
+      "reservoir_capacity": "2.6 million m³ (finished; Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": "about 40 m wide by 15 m deep in the rockfill (Sarafinchin)",
+      "downstream_risk": "Roseau River / Millet",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "john-compton-1994-09-10",
+      "name": "John Compton / Roseau Dam (incomplete CFRD, TS Debby)",
+      "country": "Saint Lucia",
+      "region": "Roseau River at Millet, Anse la Raye Quarter",
+      "location_label": "John Compton (Roseau) Dam, Millet, Saint Lucia",
+      "lat": 13.900347,
+      "lng": -60.987961,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia John Compton Dam 13°54′1.25″N 60°59′16.66″W (13.9003472, −60.9879611)",
+      "river_or_facility": "John Compton Dam (then Roseau Dam); Roseau River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Wikipedia / Sarafinchin: Tropical Storm Debby, 10 September 1994; rainfall exceeded the 1 000-year estimate and floods breached the incomplete CFRD. Sarafinchin: breach about 40 m wide by 15 m deep in the rockfill.",
+      "incident_date": "1994-09-10",
+      "latest_report_date": "2015",
+      "what_happened": "Construction of the Roseau (later John Compton) CFRD began April 1993. On 10 September 1994 Tropical Storm Debby struck Saint Lucia; rainfall exceeded the 1 000-year estimate and floods overtopped and breached the incomplete dam (Wikipedia; GFDRR country note). Sarafinchin (reconstruction engineer): a breach about 40 m wide by 15 m deep formed in the rockfill; two bulldozers parked on the crest were carried about 0.5 km downstream. The dam was completed October 1995 (about 45 m high, 200 m crest, 2.6 million m³ reservoir). Sarafinchin’s island-wide Debby figures (four deaths, 100 homes, ~1 000 landslides) are storm totals, not copied onto this dam. No sourced fatality count at the dam itself.",
+      "status": "Breached while incomplete; reconstructed and completed October 1995.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — John Compton Dam; TS Debby 10 Sep 1994 breach of incomplete CFRD",
+          "url": "https://en.wikipedia.org/wiki/John_Compton_Dam"
+        },
+        {
+          "label": "Sarafinchin — Roseau Dam Reconstruction; 40 m × 15 m breach",
+          "url": "http://www.sarafinchin.com/index.php/projects/caribbean/roseau-dam-reconstruction/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Tomas island-wide deaths. December 2013 landslide increment is mentioned as later related damage, not a separate merged record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "WASCO (Water and Sewerage Company Inc.)",
+      "year_built": "1995",
+      "height_m": 45,
+      "reservoir_capacity": "2.6 million m³ design; ~30% loss after Tomas/2013 (Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Northern Saint Lucia municipal supply / Roseau valley",
+      "economic_damage": null,
+      "investigating_agency": "Halcrow / Government of Saint Lucia",
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "john-compton-2010-10-30",
+      "name": "John Compton Dam (Hurricane Tomas overtopping / siltation)",
+      "country": "Saint Lucia",
+      "region": "Roseau River at Millet, Anse la Raye Quarter",
+      "location_label": "John Compton (Roseau) Dam, Millet, Saint Lucia",
+      "lat": 13.900347,
+      "lng": -60.987961,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia John Compton Dam 13.9003472, −60.9879611",
+      "river_or_facility": "John Compton Dam; Roseau Reservoir / Roseau River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "landslide"
+      ],
+      "cause_summary": "Yeoh (British Dam Society 2012): Tomas 30 October 2010; peak reservoir at least 3.35 m above the spillway crest (~293 m³/s). Wikipedia: Tomas and a December 2013 storm created large landslides that reduced reservoir capacity by 30 percent. Dam body was not breached.",
+      "incident_date": "2010-10-30",
+      "latest_report_date": "2014",
+      "what_happened": "On 30 October 2010 Hurricane Tomas passed over Saint Lucia and significantly damaged Roseau / John Compton Dam (Yeoh, BDS 2012). Peak reservoir level is not known precisely; indicators suggest at least 3.35 m above the spillway crest, about 293 m³/s (roughly 100-year). Halcrow inspected in early 2011 and commissioned a bathymetric survey. Wikipedia: Tomas (2010) and a severe December 2013 storm created large landslides in the reservoir that reduced capacity by 30 percent. The dam body was not breached. Island-wide Tomas deaths are not copied onto this dam.",
+      "status": "Dam body intact. Severe siltation; later desilting / rehab studies (WASCO / GFDRR / Halcrow).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Yeoh, BDS 2012 — Restoring storage after Tomas; ≥3.35 m above spillway; 293 m³/s",
+          "url": "https://britishdams.org/2012conf/papers/7%20Incidents%20and%20remedial%20works%20to%20existing%20dams/Papers/7.4%20Yeoh%20-%20Restoring%20Storage%20Capacity%20at%20Roseau%20Reservoir%20following%20Hurricane%20Tomas%20.pdf"
+        },
+        {
+          "label": "Wikipedia — John Compton Dam; Tomas/2013 landslides, ~30% capacity loss",
+          "url": "https://en.wikipedia.org/wiki/John_Compton_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 70 000 downstream urged to evacuate (Governor Rosselló / NWS, 22 Sep 2017)",
+      "notes": "Deaths null. Do not copy Hurricane Maria Puerto Rico death toll. Category is partial_breach of the spillway, not the embankment.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Puerto Rico Electric Power Authority (PREPA)",
+      "year_built": "1928",
+      "height_m": null,
+      "reservoir_capacity": "about 42 million m³ / 34 050 acre-ft normal (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": "scour hole in lower spillway chute (ASDSO: hundreds of feet long, tens of feet deep)",
+      "downstream_risk": "Guajataca River / ~70 000 downstream (governor estimate)",
+      "economic_damage": null,
+      "investigating_agency": "USACE / PREPA / ASDSO case study",
+      "verification": "confirmed",
+      "severity": "major",
+      "id": "guajataca-2017-09-22",
+      "name": "Guajataca Dam spillway (Hurricane Maria)",
+      "country": "Puerto Rico",
+      "region": "Lago Guajataca, San Sebastián / Quebradillas / Isabela, Puerto Rico",
+      "location_label": "Guajataca Dam, northwestern Puerto Rico",
+      "lat": 18.3975,
+      "lng": -66.92389,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Lago Guajataca 18°23′51″N 66°55′26″W (18.39750, −66.92389); dam is at the lake (PREPA / NID)",
+      "river_or_facility": "Guajataca Dam spillway; Río Guajataca",
+      "type": "spillway",
+      "category": "partial_breach",
+      "causes": [
+        "spillway",
+        "extreme_rainfall",
+        "foundation"
+      ],
+      "cause_summary": "ASDSO/USACE case study: Maria spillway flows undermined chute slabs on a landslide foundation, leaving a large scour hole in the lower spillway. Main embankment did not breach. NWS/Governor 22 Sep 2017: ~70 000 downstream urged to evacuate.",
+      "incident_date": "2017-09-22",
+      "latest_report_date": "2017-11-17",
+      "what_happened": "Hurricane Maria made landfall over Puerto Rico on 20 September 2017. On 22 September at 18:10 GMT operators announced the Guajataca Dam spillway was failing (Wikipedia; NWS). Governor Rosselló estimated close to 70 000 people could be affected if the dam collapsed and ordered evacuation. ASDSO/USACE: hydraulic-fill embankment (1928) on an active landslide complex; spillway flows exploited alignment and slab defects, head-cut the foundation, failed chute slabs, and left a scour hole hundreds of feet long and tens of feet deep in the lower chute; a 54-inch water siphon was severed. The main embankment did not fully breach. USACE emergency stabilization followed; Wikipedia: first-phase repairs to avoid flooding were completed 17 November 2017. No sourced death count at this dam. Island-wide Maria deaths are not copied here.",
+      "status": "Spillway partially failed; main embankment held. USACE IRRM / emergency repairs; longer-term rehab ongoing after 2017.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ASDSO Dam Failures — Guajataca Dam (Puerto Rico, 2017) case study",
+          "url": "https://damfailures.org/case-study/guajataca-dam-puerto-rico-2017"
+        },
+        {
+          "label": "New York Times 22 Sep 2017 — structural damage; ~70 000 evacuation estimate",
+          "url": "https://www.nytimes.com/2017/09/22/us/hurricane-maria-puerto-rico.html"
+        },
+        {
+          "label": "Wikipedia — Lago Guajataca / Guajataca Dam; 22 Sep 2017 spillway failure",
+          "url": "https://en.wikipedia.org/wiki/Guajataca_Dam"
+        }
+      ]
     }
   ]
 }
