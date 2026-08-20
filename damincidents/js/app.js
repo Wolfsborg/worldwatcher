@@ -346,8 +346,8 @@
 
   function syncPeriodFromYears() {
     if (!els.periods) return;
-    const ymin = parseInt(els.yearMin.value, 10);
-    const ymax = parseInt(els.yearMax.value, 10);
+    const ymin = parseYearInput(els.yearMin.value);
+    const ymax = parseYearInput(els.yearMax.value);
     let match = null;
     [...els.periods.querySelectorAll(".chip")].forEach((b) => {
       const r = periodRange(b.dataset.period);
