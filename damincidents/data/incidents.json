@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1371,
+  "count": 1393,
   "current_count": 28,
-  "historical_count": 1343,
+  "historical_count": 1365,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -75024,6 +75024,1237 @@
       "downstream_risk": null,
       "economic_damage": "None (ASDSO)",
       "investigating_agency": "Iowa DNR"
+    },
+    {
+      "id": "ha-ha-saddle-dike-1996-07-20",
+      "name": "Lake Ha! Ha! earthfill saddle dike (1996 breakout)",
+      "country": "Canada",
+      "region": "Ferland-et-Boilleau, Le Fjord-du-Saguenay, Quebec",
+      "location_label": "Lake Ha! Ha! saddle dike, Ferland-et-Boilleau, Quebec, Canada",
+      "lat": 48.039,
+      "lng": -70.845,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Lake Ha! Ha! 48.039, -70.845. Brooks & Lawrence (Geomorphology 1999): earthfill saddle dike near the outlet dam failed and cut a new outlet; CEHQ X0000856 is the 1997 replacement concrete spillway at the old outlet, not this pin.",
+      "river_or_facility": "Lake Ha! Ha! / Ha! Ha! River earthfill saddle dike",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "spillway"
+      ],
+      "cause_summary": "Brooks & Lawrence 1999: inadequate spill capacity at the outlet dam during the 18–21 July 1996 storm overtopped and eroded a nearby earthfill saddle dike; a new outlet formed and drained the reservoir.",
+      "incident_date": "1996-07-20",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "During the 18–21 July 1996 Saguenay storm the Lake Ha! Ha! earthfill saddle dike was overtopped and failed (Brooks & Lawrence, Geomorphology 28:141–167, 1999; Ville de Saguenay). A new outlet formed at the dike. The reservoir drained over about 18 hours: Brooks & Lawrence give the lake area shrinking from 8.1 km²; INRS extracts report about 26 million m³ leaving the lake; another routing paper cites about 59 million m³ drained. Peak outflow was about eight times the 100-year flood. A new channel several kilometres long was scoured through forest to the old outlet, washing out Highway 381. The 1997 CEHQ concrete spillway (X0000856) is a later replacement at the old outlet, not the failed dike. JIBC CDRP: no deaths or injuries linked directly to the 1996 dam failures. Do not copy the Saguenay flood-cluster 10 fatalities onto this dike.",
+      "status": "Failed 1996; lake outlet rebuilt as a 1997 concrete-gravity spillway (CEHQ X0000856)",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "Ferland-et-Boilleau isolated (Ville de Saguenay); cluster evacuations recorded on saguenay-dikes-1996-07-19",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Brooks & Lawrence 1999 — Lake Ha! Ha! drainage (Geomorphology)",
+          "url": "https://doi.org/10.1016/S0169-555X(98)00109-3"
+        },
+        {
+          "label": "Ville de Saguenay — Inondations de juillet 1996",
+          "url": "https://ville.saguenay.ca/la-ville-et-vie-democratique/patrimoine/%C3%A9v%C3%A9nements-historiques/inondations-de-juillet-1996-au-saguenay"
+        },
+        {
+          "label": "Wikipedia — Lake Ha! Ha!",
+          "url": "https://en.wikipedia.org/wiki/Lake_Ha!_Ha!"
+        },
+        {
+          "label": "JIBC CDRP — Dam failure (no deaths linked directly to 1996 dam failures)",
+          "url": "https://cdrp.jibc.ca/wp-content/uploads/2021/04/CDRP_HRA_DamFailure.pdf"
+        }
+      ],
+      "notes": "Named leftover from the saguenay-dikes-1996-07-19 cluster. Deaths 0 from CDRP (no deaths linked directly to the dam failures). Do not copy the flood-cluster 10.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": "about 26 million m³ (INRS extract of Brooks & Lawrence); routing papers also cite ~59 million m³ drained",
+      "breach_size": "new outlet at the failed saddle dike; new channel up to ~90 m wide and incised up to ~15 m (INRS / Brooks)",
+      "downstream_risk": "Ha! Ha! River valley; Highway 381; Ferland-et-Boilleau; La Baie / Grande-Baie",
+      "economic_damage": null,
+      "investigating_agency": "Commission scientifique et technique sur la gestion des barrages (Nicolet, 1997)"
+    },
+    {
+      "id": "chute-garneau-1996-07-20",
+      "name": "Chute-Garneau Dam (Rivière Chicoutimi, 1996 bypass)",
+      "country": "Canada",
+      "region": "Chicoutimi, Saguenay, Quebec",
+      "location_label": "Barrage de la Chute-Garneau, Rivière Chicoutimi, Saguenay, Quebec",
+      "lat": 48.386111,
+      "lng": -71.128611,
+      "geo_accuracy": "site",
+      "geo_source": "French Wikipedia Centrale de la Chute-Garneau 48°23′10″N 71°07′43″W.",
+      "river_or_facility": "Barrage / centrale de la Chute-Garneau; Rivière Chicoutimi",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Brooks & Lawrence: floodwaters overtopped and incised the bank immediately adjacent to the run-of-river dam, breaching the impoundment and diverting the river into a new channel.",
+      "incident_date": "1996-07-20",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 19–20 July 1996 extreme outflow from Lac Kénogami down the Rivière Chicoutimi overwhelmed the Chute-Garneau run-of-river dam. Brooks & Lawrence (Géographie physique et Quaternaire) and L'actualité: water cut an about 18 m-deep trench in clay beside the dam and diverted the entire river around it. The concrete dam stood but was left dry and non-functional above the new bed. Ten houses were destroyed in Laterrière and more in Chicoutimi (Kiddle / regional accounts). Hydro-Québec later studied the site; the plant was out of service after the flood and was later transferred to Ville de Saguenay and restarted in 2011. JIBC CDRP: no deaths or injuries linked directly to the 1996 dam failures. Do not copy the Saguenay flood-cluster 10 fatalities onto this dam.",
+      "status": "Bypassed 1996; later rehabilitated and returned to service (Ville de Saguenay / Hydro-Jonquière, 2011)",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Brooks & Lawrence — geomorphic effects, Saguenay 1996",
+          "url": "https://doi.org/10.7202/005639ar"
+        },
+        {
+          "label": "L'actualité — Saguenay juillet 1996 autopsie",
+          "url": "https://lactualite.com/environnement/saguenay-juillet-1996-autopsie-dune-catastrophe/"
+        },
+        {
+          "label": "Wikipédia — Centrale de la Chute-Garneau",
+          "url": "https://fr.wikipedia.org/wiki/Centrale_de_la_Chute-Garneau"
+        },
+        {
+          "label": "JIBC CDRP — no deaths linked directly to 1996 dam failures",
+          "url": "https://cdrp.jibc.ca/wp-content/uploads/2021/04/CDRP_HRA_DamFailure.pdf"
+        }
+      ],
+      "notes": "Named leftover from the saguenay-dikes-1996-07-19 cluster. Concrete dam stood; impoundment failed by abutment/bank incision. Deaths 0 from CDRP.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Hydro-Québec (1996); later Ville de Saguenay",
+      "year_built": "1925",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "about 18 m-deep bypass trench in clay beside the dam (L'actualité)",
+      "downstream_risk": "Laterrière and Chicoutimi; Pont-Arnaud immediately downstream",
+      "economic_damage": null,
+      "investigating_agency": "Hydro-Québec / Nicolet Commission"
+    },
+    {
+      "id": "pont-arnaud-1996-07-20",
+      "name": "Pont-Arnaud Dam (Rivière Chicoutimi, 1996 bypass)",
+      "country": "Canada",
+      "region": "Chicoutimi, Saguenay, Quebec",
+      "location_label": "Pont-Arnaud, Rivière Chicoutimi, Saguenay, Quebec",
+      "lat": 48.406944,
+      "lng": -71.124722,
+      "geo_accuracy": "site",
+      "geo_source": "French Wikipedia Pont-Arnaud 48°24′25″N 71°07′29″W.",
+      "river_or_facility": "Pont-Arnaud hydro / water-intake dam; Rivière Chicoutimi",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Brooks & Lawrence: floodwaters overtopped and incised the bank immediately adjacent to the dam, breaching the impoundment; L'actualité records an about 12 m-deep trench.",
+      "incident_date": "1996-07-20",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 19–20 July 1996, after Chute-Garneau was bypassed, the flood wave reached Pont-Arnaud about 3 km downstream on the Rivière Chicoutimi. Brooks & Lawrence and L'actualité: water cut an about 12 m-deep trench beside the dam and diverted the river. French Wikipedia: the works were hard-hit in the déluge; Chicoutimi's drinking-water intake was ripped out (Kiddle). The concrete dam stood but was left non-functional above the new bed. JIBC CDRP: no deaths or injuries linked directly to the 1996 dam failures. Do not copy the Saguenay flood-cluster 10 fatalities onto this dam.",
+      "status": "Bypassed 1996; later transferred to Ville de Saguenay with Chute-Garneau",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Brooks & Lawrence — geomorphic effects, Saguenay 1996",
+          "url": "https://doi.org/10.7202/005639ar"
+        },
+        {
+          "label": "L'actualité — Saguenay juillet 1996 autopsie",
+          "url": "https://lactualite.com/environnement/saguenay-juillet-1996-autopsie-dune-catastrophe/"
+        },
+        {
+          "label": "Wikipédia — Pont-Arnaud",
+          "url": "https://fr.wikipedia.org/wiki/Pont-Arnaud"
+        },
+        {
+          "label": "JIBC CDRP — no deaths linked directly to 1996 dam failures",
+          "url": "https://cdrp.jibc.ca/wp-content/uploads/2021/04/CDRP_HRA_DamFailure.pdf"
+        }
+      ],
+      "notes": "Named leftover from the saguenay-dikes-1996-07-19 cluster. Deaths 0 from CDRP.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Hydro-Québec (1996); later Ville de Saguenay",
+      "year_built": "1912",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "about 12 m-deep bypass trench beside the dam (L'actualité)",
+      "downstream_risk": "Chicoutimi drinking-water intake and lower Rivière Chicoutimi",
+      "economic_damage": null,
+      "investigating_agency": "Hydro-Québec / Nicolet Commission"
+    },
+    {
+      "id": "jonquiere-1996-07-20",
+      "name": "Jonquière Dam (Rivière aux Sables, 1996 bypass)",
+      "country": "Canada",
+      "region": "Jonquière, Saguenay, Quebec",
+      "location_label": "Barrage de la Jonquière, Rivière aux Sables, Saguenay, Quebec",
+      "lat": 48.421667,
+      "lng": -71.254167,
+      "geo_accuracy": "site",
+      "geo_source": "CEHQ répertoire X0000931 Barrage De La Jonquière NAD83 48°25′18″N 71°15′15″W.",
+      "river_or_facility": "Barrage de la Jonquière; Rivière aux Sables",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Brooks & Lawrence: at Jonquière (km 3.2 on Aux Sables) floodwaters overtopped and incised the bank beside the run-of-river dam, breaching the impoundment.",
+      "incident_date": "1996-07-20",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 19–20 July 1996 Lac Kénogami outflow down the Rivière aux Sables overwhelmed the Jonquière run-of-river dam. Brooks & Lawrence: floodwaters overtopped and incised an area immediately adjacent to the dam, breaching the impoundment and diverting the entire river into a newly eroded channel that rejoined downstream. The concrete dam stood but was left non-functional. CEHQ lists the present Barrage De La Jonquière (X0000931) as a 16.43 m concrete-gravity hydro dam of 1908, rehabilitated 1994, owned by Ville de Saguenay. JIBC CDRP: no deaths or injuries linked directly to the 1996 dam failures. Do not copy the Saguenay flood-cluster 10 fatalities onto this dam.",
+      "status": "Bypassed 1996; CEHQ still lists the concrete gravity dam in service under Ville de Saguenay",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Brooks & Lawrence — geomorphic effects, Saguenay 1996",
+          "url": "https://doi.org/10.7202/005639ar"
+        },
+        {
+          "label": "CEHQ — Barrage De La Jonquière X0000931",
+          "url": "https://www.cehq.gouv.qc.ca/barrages/detail.asp?no_mef_lieu=X0000931"
+        },
+        {
+          "label": "JIBC CDRP — no deaths linked directly to 1996 dam failures",
+          "url": "https://cdrp.jibc.ca/wp-content/uploads/2021/04/CDRP_HRA_DamFailure.pdf"
+        }
+      ],
+      "notes": "Named leftover from the saguenay-dikes-1996-07-19 cluster. Deaths 0 from CDRP.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ville de Saguenay (CEHQ)",
+      "year_built": "1908",
+      "height_m": 16.43,
+      "reservoir_capacity": "353 430 m³ (CEHQ)",
+      "construction": "concrete_gravity",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "adjacent-bank incision; dam left intact but non-functional (Brooks & Lawrence)",
+      "downstream_risk": "lower Rivière aux Sables; Chute-à-Besy",
+      "economic_damage": null,
+      "investigating_agency": "Nicolet Commission"
+    },
+    {
+      "id": "chute-a-besy-1996-07-20",
+      "name": "Chute-à-Besy Dam (Rivière aux Sables, 1996 bypass)",
+      "country": "Canada",
+      "region": "Jonquière, Saguenay, Quebec",
+      "location_label": "Barrage Bésy, Rivière aux Sables, Saguenay, Quebec",
+      "lat": 48.434444,
+      "lng": -71.248333,
+      "geo_accuracy": "site",
+      "geo_source": "CGNDB Barrage Bésy (ERITQ) 48.4344444, -71.2483333.",
+      "river_or_facility": "Barrage Bésy / Chute-à-Besy; Rivière aux Sables",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Brooks & Lawrence: at Chute-à-Besy (km 1.1 on Aux Sables) floodwaters overtopped and incised the bank beside the dam; the new channel rejoined about 500 m downstream.",
+      "incident_date": "1996-07-20",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 19–20 July 1996 the Rivière aux Sables flood bypassed the Chute-à-Besy run-of-river dam. Brooks & Lawrence: floodwaters overtopped and incised an area immediately adjacent to the dam, breaching the impoundment; the new channel rejoined the river about 500 m downstream — the longest of the four Aux Sables / Chicoutimi bypasses they mapped. The dam stood but was left non-functional. CGNDB official name Barrage Bésy. JIBC CDRP: no deaths or injuries linked directly to the 1996 dam failures. Do not copy the Saguenay flood-cluster 10 fatalities onto this dam.",
+      "status": "Bypassed 1996; structure remained",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Brooks & Lawrence — geomorphic effects, Saguenay 1996",
+          "url": "https://doi.org/10.7202/005639ar"
+        },
+        {
+          "label": "CGNDB — Barrage Bésy",
+          "url": "https://geonames.nrcan.gc.ca/search-place-names/unique?id=ERITQ"
+        },
+        {
+          "label": "JIBC CDRP — no deaths linked directly to 1996 dam failures",
+          "url": "https://cdrp.jibc.ca/wp-content/uploads/2021/04/CDRP_HRA_DamFailure.pdf"
+        }
+      ],
+      "notes": "Named leftover from the saguenay-dikes-1996-07-19 cluster. Deaths 0 from CDRP.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "adjacent-bank incision; new channel rejoined ~500 m downstream (Brooks & Lawrence)",
+      "downstream_risk": "lower Rivière aux Sables / Jonquière",
+      "economic_damage": null,
+      "investigating_agency": "Nicolet Commission"
+    },
+    {
+      "id": "portage-des-roches-1996-07-20",
+      "name": "Portage-des-Roches Dam (Lac Kénogami, 1996 overtopping)",
+      "country": "Canada",
+      "region": "Laterrière, Chicoutimi, Saguenay, Quebec",
+      "location_label": "Barrage de Portage-des-Roches, Lac Kénogami, Saguenay, Quebec",
+      "lat": 48.3103,
+      "lng": -71.21149,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Barrage de Portage-des-Roches 48.31030, -71.21149; CEHQ X0000899 48°18′34″N 71°12′42″W.",
+      "river_or_facility": "Barrage de Portage-des-Roches (Taschereau); Lac Kénogami / Rivière Chicoutimi",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "operational_gate",
+        "overtopping"
+      ],
+      "cause_summary": "Lac Kénogami rose above the concrete-dam crests (165.7 m; peak 166.08 m). Gates at Portage-des-Roches were opened fully; the dam was overtopped but did not fail.",
+      "incident_date": "1996-07-20",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 19–20 July 1996 Lac Kénogami inflow was estimated at about 2780 m³/s (Polymtl Aux Sables paper, citing Environnement et Faune Québec). Reservoir level reached 166.08 m, above the 165.7 m concrete-dam crests; Portage-des-Roches, Pibrac and associated dikes were overtopped. To keep the main dam from breaking, gates were opened fully and Chicoutimi River flow jumped from about 100 to about 1200 m³/s (regional accounts). The dam itself did not fail. Wikipedia: a later rehabilitation (spillway capacity, crest raise, remote steel gates) followed Nicolet Commission recommendations, about CA$50 million, completed around 2013. JIBC CDRP: no deaths or injuries linked directly to the 1996 dam failures. Do not copy the Saguenay flood-cluster 10 fatalities onto this dam.",
+      "status": "Stood 1996; rehabilitated after Nicolet (spillway / crest / gates, ~2010–2013)",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Wikipedia — Barrage de Portage-des-Roches",
+          "url": "https://en.wikipedia.org/wiki/Barrage_de_Portage-des-Roches"
+        },
+        {
+          "label": "CEHQ — Portage-des-Roches X0000899",
+          "url": "https://www.cehq.gouv.qc.ca/barrages/detail.asp?no_mef_lieu=X0000899"
+        },
+        {
+          "label": "Polymtl — Flooding of the Saguenay region 1996 Part 2",
+          "url": "https://publications.polymtl.ca/5312/1/2019_AlQasimi_Flooding_Saguenay_region_1996_Pt2.pdf"
+        },
+        {
+          "label": "JIBC CDRP — no deaths linked directly to 1996 dam failures",
+          "url": "https://cdrp.jibc.ca/wp-content/uploads/2021/04/CDRP_HRA_DamFailure.pdf"
+        }
+      ],
+      "notes": "Named leftover. Overtopping / full-gate release, not a breach. Deaths 0 from CDRP.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Gouvernement du Québec / Direction générale des barrages",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "multipurpose",
+      "volume_released": "Chicoutimi River outflow raised to about 1200 m³/s (regional accounts)",
+      "breach_size": null,
+      "downstream_risk": "Rivière Chicoutimi; Laterrière; Chute-Garneau; Pont-Arnaud; Chicoutimi",
+      "economic_damage": null,
+      "investigating_agency": "Nicolet Commission"
+    },
+    {
+      "id": "pibrac-est-1996-07-20",
+      "name": "Pibrac-Est Dam (Lac Kénogami / Aux Sables, 1996 overtopping)",
+      "country": "Canada",
+      "region": "Saguenay, Quebec",
+      "location_label": "Barrage Pibrac-Est, Lac Kénogami, Saguenay, Quebec",
+      "lat": 48.360556,
+      "lng": -71.269722,
+      "geo_accuracy": "site",
+      "geo_source": "CEHQ répertoire X0000937 Pibrac-Est, Barrage NAD83 48°21′38″N 71°16′11″W.",
+      "river_or_facility": "Barrage Pibrac-Est and adjoining Pibrac dikes; Lac Kénogami / Rivière aux Sables",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Lac Kénogami overtopped the Pibrac control dams and dikes. L'actualité: water reached the crest of a dike beside Pibrac; the dike's concrete core held.",
+      "incident_date": "1996-07-20",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 20 July 1996 Lac Kénogami overtopped the Pibrac-Est / Pibrac-Ouest control works that discharge to the Rivière aux Sables (Brooks & Lawrence; Polymtl). L'actualité: by sunset water had reached the crest of a dike beside the Pibrac barrage (MEF); the dike had a concrete core that remained intact. CEHQ lists Barrage Pibrac-Est (X0000937) as a 15.17 m, 1924 concrete-gravity regulation/hydro dam on Kénogami (629 888 000 m³ reservoir). The concrete dam and the cored dike held; Aux Sables run-of-river dams downstream were the ones bypassed. JIBC CDRP: no deaths or injuries linked directly to the 1996 dam failures. Do not copy the Saguenay flood-cluster 10 fatalities onto this dam.",
+      "status": "Overtopped 1996; concrete dam and cored dike held; still listed by CEHQ",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "CEHQ — Pibrac-Est, Barrage X0000937",
+          "url": "https://www.cehq.gouv.qc.ca/barrages/detail.asp?no_mef_lieu=X0000937"
+        },
+        {
+          "label": "L'actualité — Saguenay juillet 1996 autopsie",
+          "url": "https://lactualite.com/environnement/saguenay-juillet-1996-autopsie-dune-catastrophe/"
+        },
+        {
+          "label": "Brooks & Lawrence — geomorphic effects, Saguenay 1996",
+          "url": "https://doi.org/10.7202/005639ar"
+        },
+        {
+          "label": "JIBC CDRP — no deaths linked directly to 1996 dam failures",
+          "url": "https://cdrp.jibc.ca/wp-content/uploads/2021/04/CDRP_HRA_DamFailure.pdf"
+        }
+      ],
+      "notes": "Named leftover. Overtopping; core held. Deaths 0 from CDRP.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Direction générale des barrages (MELCCFP) — CEHQ",
+      "year_built": "1924",
+      "height_m": 15.17,
+      "reservoir_capacity": "629 888 000 m³ (CEHQ Kénogami)",
+      "construction": "concrete_gravity",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Rivière aux Sables; Jonquière; Chute-à-Besy",
+      "economic_damage": null,
+      "investigating_agency": "Nicolet Commission"
+    },
+    {
+      "id": "erindale-1910-03-07",
+      "name": "Erindale Hydroelectric Dam (Credit River, 1910 collapse)",
+      "country": "Canada",
+      "region": "Erindale, Mississauga, Ontario",
+      "location_label": "Erindale Park / Credit River at Dundas Street, Mississauga, Ontario",
+      "lat": 43.54444,
+      "lng": -79.65139,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Erindale, Mississauga 43.54444, -79.65139; Wikipedia / Heritage Mississauga: dam ruins just north of Dundas at the Erindale Park entrance.",
+      "river_or_facility": "Erindale Power Company dam; Credit River / Lake Erindale",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Heritage Mississauga: on 7 March 1910 a 35-foot-high centre portion of the nearly completed dam collapsed after a sudden spring thaw raised the pond.",
+      "incident_date": "1910-03-07",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "Construction of the Erindale hydro dam on the Credit River began in 1904 (Southern Light and Power), stalled in bankruptcy, and resumed under the Erindale Power Company in 1909. On 7 March 1910, while the last 150-foot mid-dam section was being filled and the powerhouse was already transmitting, a 35-foot-high centre portion collapsed as spring thaw raised the pond (Heritage Mississauga; Modern Mississauga; Mississauga Credit River EA appendix). The flood washed out a large section of Dundas Street and the Dundas Street bridge. The dam was patched by August 1910. No source fetched gave a death count at this dam; deaths left null.",
+      "status": "Patched 1910; later failed again in 1912 and 1923; dynamited 1941; site is now Erindale Park",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Heritage Mississauga — Erindale hydroelectric dam",
+          "url": "https://heritagemississauga.com/way-back-wednesday-the-fascinating-history-of-mississaugas-erindale-hydroelectric-dam/"
+        },
+        {
+          "label": "Modern Mississauga — Erindale dam history",
+          "url": "https://www.modernmississauga.com/main/2021/10/6/the-fascinating-history-of-mississaugas-erindale-hydroelectric-dam"
+        },
+        {
+          "label": "Wikipedia — Erindale, Mississauga (dam ruins / park)",
+          "url": "https://en.wikipedia.org/wiki/Erindale,_Mississauga"
+        }
+      ],
+      "notes": "Deaths null: no fetched source gives a count. Separate 1912 and 1923 records.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Erindale Power Company",
+      "year_built": "1910 (construction 1904–1910)",
+      "height_m": null,
+      "reservoir_capacity": "head pond about 125 acres (Heritage Mississauga)",
+      "construction": "embankment",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "35-foot-high centre portion collapsed (Heritage Mississauga)",
+      "downstream_risk": "Dundas Street and Dundas Street bridge over the Credit River",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "erindale-1912-04-06",
+      "name": "Erindale Hydroelectric Dam (Credit River, 1912 re-breach)",
+      "country": "Canada",
+      "region": "Erindale, Mississauga, Ontario",
+      "location_label": "Erindale Park / Credit River at Dundas Street, Mississauga, Ontario",
+      "lat": 43.54444,
+      "lng": -79.65139,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Erindale, Mississauga 43.54444, -79.65139; dam ruins just north of Dundas at the Erindale Park entrance.",
+      "river_or_facility": "Erindale Power Company dam; Credit River / Lake Erindale",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Heritage Mississauga: on 6 April 1912 a smaller dam upstream failed and a spring flood washed out a 10-foot-tall centre portion of the Erindale dam.",
+      "incident_date": "1912-04-06",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 6 April 1912 a smaller dam upstream of Erindale failed. The spring flood washed out a 10-foot-tall centre portion of the patched Erindale hydro dam and lowered Lake Erindale (Heritage Mississauga; Modern Mississauga; Mississauga Credit River EA appendix). The dam was repaired again. No source fetched gave a death count at this dam; deaths left null.",
+      "status": "Repaired after 1912; failed again in 1923",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Heritage Mississauga — Erindale hydroelectric dam",
+          "url": "https://heritagemississauga.com/way-back-wednesday-the-fascinating-history-of-mississaugas-erindale-hydroelectric-dam/"
+        },
+        {
+          "label": "Modern Mississauga — Erindale dam history",
+          "url": "https://www.modernmississauga.com/main/2021/10/6/the-fascinating-history-of-mississaugas-erindale-hydroelectric-dam"
+        },
+        {
+          "label": "Wikipedia — Erindale, Mississauga",
+          "url": "https://en.wikipedia.org/wiki/Erindale,_Mississauga"
+        }
+      ],
+      "notes": "Deaths null. Upstream unnamed small dam also failed; not given its own record (no pin).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Erindale Power Company",
+      "year_built": "1910",
+      "height_m": null,
+      "reservoir_capacity": "head pond about 125 acres (Heritage Mississauga)",
+      "construction": "embankment",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "10-foot-tall centre portion washed out (Heritage Mississauga)",
+      "downstream_risk": "Credit River / Dundas Street corridor",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "erindale-1923",
+      "name": "Erindale Hydroelectric Dam (Credit River, 1923 collapse)",
+      "country": "Canada",
+      "region": "Erindale, Mississauga, Ontario",
+      "location_label": "Erindale Park / Credit River at Dundas Street, Mississauga, Ontario",
+      "lat": 43.54444,
+      "lng": -79.65139,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Erindale, Mississauga 43.54444, -79.65139; dam ruins just north of Dundas at the Erindale Park entrance.",
+      "river_or_facility": "Erindale / Ontario Hydro dam; Credit River / Lake Erindale",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Heritage Mississauga: in 1923 part of the repaired centre section and sluiceway collapsed, lowering the head pond. Fetched accounts do not name a mechanism beyond that collapse.",
+      "incident_date": "1923",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "In 1923 the repaired Erindale dam collapsed again in part of the centre section and sluiceway, reducing Lake Erindale (Heritage Mississauga; Modern Mississauga). Ontario Hydro had bought the plant in 1916. The facility ran until mid-1923, when Niagara (Chippewa) power made it redundant. The pond was drained 1938–40 and the dam dynamited in 1941 after residents raised safety concerns; the powerhouse remnants were removed in 1977. No source fetched gave a death count; deaths left null.",
+      "status": "Part-collapsed 1923; plant closed mid-1923; dam dynamited 1941; Erindale Park on the former pond",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Heritage Mississauga — Erindale hydroelectric dam",
+          "url": "https://heritagemississauga.com/way-back-wednesday-the-fascinating-history-of-mississaugas-erindale-hydroelectric-dam/"
+        },
+        {
+          "label": "Modern Mississauga — Erindale dam history",
+          "url": "https://www.modernmississauga.com/main/2021/10/6/the-fascinating-history-of-mississaugas-erindale-hydroelectric-dam"
+        },
+        {
+          "label": "Wikipedia — Erindale, Mississauga",
+          "url": "https://en.wikipedia.org/wiki/Erindale,_Mississauga"
+        }
+      ],
+      "notes": "Deaths null. Day-of-month not given in fetched sources.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Hydro-Electric Power Commission of Ontario (from 1916)",
+      "year_built": "1910",
+      "height_m": null,
+      "reservoir_capacity": "head pond about 125 acres (Heritage Mississauga)",
+      "construction": "embankment",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "part of repaired centre section and sluiceway (Heritage Mississauga)",
+      "downstream_risk": "Credit River / former Lake Erindale shoreline",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "stanley-nashwaak-1923-04",
+      "name": "Stanley mill dam (Nashwaak River, 1923)",
+      "country": "Canada",
+      "region": "Stanley, York County, New Brunswick",
+      "location_label": "Stanley on the Nashwaak River, York County, New Brunswick",
+      "lat": 46.452194,
+      "lng": -66.984139,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Stanley, New Brunswick 46.452194, -66.984139. GNB flood report: a dam at Stanley broke. Historic mill dam was on the Nashwaak at the village.",
+      "river_or_facility": "Stanley mill dam; Nashwaak River",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "GNB flood details 1923-04-29–05-09: snowmelt, rain and log jams. A dam at Stanley broke and released a large quantity of logs.",
+      "incident_date": "1923-04",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "In the late-April 1923 New Brunswick freshet a dam at Stanley on the Nashwaak broke and released a large quantity of logs, which jammed against the steel highway bridge at Marysville and shifted it about six feet (GNB Flood Details 76). A mill was carried away; along a two-mile stretch only two of about 100 houses were not surrounded by water. This is the leftover named Stanley dam from the 1923 NB series (Musquash / Hayden / Rockville already in). GNB attributes the provincial two deaths to a Magaguadavic boat overturn and a Musquash livestock rescue — not to Stanley. Deaths left null. Do not copy the provincial 2 or the Musquash 1 onto this dam.",
+      "status": "historical / 1923 break",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "Nashwaak valley houses surrounded (GNB)",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "GNB Flood Details — 1923-04-29 to 1923-05-09",
+          "url": "https://www.elgegl.gnb.ca/0001/en/Flood/Details/76"
+        },
+        {
+          "label": "Wikipedia — Stanley, New Brunswick",
+          "url": "https://en.wikipedia.org/wiki/Stanley,_New_Brunswick"
+        }
+      ],
+      "notes": "Leftover named 1923 NB dam. Deaths null: GNB two provincial deaths are on other structures/events.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Marysville steel highway bridge; Nashwaak valley",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "dicks-lake-1923-04",
+      "name": "Dick's Lake dam (Hammond Parish, 1923)",
+      "country": "Canada",
+      "region": "Hammond Parish / Hammondvale, Kings County, New Brunswick",
+      "location_label": "Dick's Lake, Kings County, New Brunswick",
+      "lat": 45.552347,
+      "lng": -65.437045,
+      "geo_accuracy": "approx",
+      "geo_source": "NTS 021H11 Waterford / Canmaps Dicks Lake (Kings) 45°33′8″N 65°26′13″W. GNB 1923: a portion of the dam at Dick's Lake, Parish of Hammond, was taken out. Dicks Lake Road is at Hammondvale.",
+      "river_or_facility": "Dick's Lake dam; Hammond Parish",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "GNB flood details: in the Parish of Hammond a portion of the dam at Dick's Lake was taken out during the 1923 freshet.",
+      "incident_date": "1923-04",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "In the late-April 1923 New Brunswick freshet, in the Parish of Hammond, a portion of the dam at Dick's Lake was taken out (GNB Flood Details 76). This is a leftover named 1923 NB structure (held from the earlier CA-MX pass for want of a pin). Lake pin from NTS 021H11 Waterford. GNB two provincial deaths are not attached to this dam. Deaths left null.",
+      "status": "historical / 1923 partial washout",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "GNB Flood Details — 1923-04-29 to 1923-05-09",
+          "url": "https://www.elgegl.gnb.ca/0001/en/Flood/Details/76"
+        },
+        {
+          "label": "Canmaps / NTS 021H11 — Dicks Lake, Kings",
+          "url": "http://www.canmaps.com/topo/places/d/dakdc.htm"
+        }
+      ],
+      "notes": "Leftover named 1923 NB dam. Deaths null. Do not copy provincial 2.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": "a portion of the dam taken out (GNB)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "macdougall-lake-1923-04",
+      "name": "MacDougall Lake dam (Magaguadavic, 1923)",
+      "country": "Canada",
+      "region": "Charlotte County, New Brunswick (Magaguadavic River basin)",
+      "location_label": "McDougall Lake, Charlotte County, New Brunswick",
+      "lat": 45.323504,
+      "lng": -66.771657,
+      "geo_accuracy": "approx",
+      "geo_source": "CGNDB McDougall Lake (DAYMZ) 45.323504, -66.771657. GNB 1923 Magaguadavic basin: a portion of the dam at MacDougall Lake was washed out.",
+      "river_or_facility": "MacDougall / McDougall Lake dam; Magaguadavic River basin",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "GNB flood details: in the Magaguadavic River basin a portion of the dam at MacDougall Lake was washed out.",
+      "incident_date": "1923-04",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "In the late-April 1923 New Brunswick freshet, in the Magaguadavic River basin, a portion of the dam at MacDougall Lake was washed out (GNB Flood Details 76). Covered and highway bridges went out at Lee Settlement, Second Falls and Bonny River; about 25 families left St. George. GNB records one Magaguadavic drowning when a boat overturned in the swollen river — not attributed to this dam. Deaths left null. Do not copy that drowning or the provincial 2 onto this dam.",
+      "status": "historical / 1923 partial washout",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "GNB Flood Details — 1923-04-29 to 1923-05-09",
+          "url": "https://www.elgegl.gnb.ca/0001/en/Flood/Details/76"
+        },
+        {
+          "label": "CGNDB — McDougall Lake",
+          "url": "https://toponymes.rncan.gc.ca/search-place-names/unique/DAYMZ"
+        }
+      ],
+      "notes": "Leftover named 1923 NB dam. Deaths null. Do not copy the Magaguadavic boat drowning.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": "a portion of the dam washed out (GNB)",
+      "downstream_risk": "Magaguadavic River; Lee Settlement / Second Falls / Bonny River / St. George",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "ste-marthe-dike-2019-04-27",
+      "name": "Sainte-Marthe-sur-le-Lac dike (Lac des Deux Montagnes, 2019)",
+      "country": "Canada",
+      "region": "Sainte-Marthe-sur-le-Lac, Deux-Montagnes, Quebec",
+      "location_label": "Sainte-Marthe-sur-le-Lac lakeshore dike, Quebec",
+      "lat": 45.53,
+      "lng": -73.93,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Sainte-Marthe-sur-le-Lac 45.53, -73.93. CBC/Gazette: 50 m breach of the 1970s earth dike holding back Lac des Deux Montagnes, south of Oka Road.",
+      "river_or_facility": "Sainte-Marthe-sur-le-Lac flood dike; Lac des Deux Montagnes",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Montreal Gazette citing hydrologist Brissette: a weakness in the earth dike, not overtopping. The clay-and-grass dike was built about 1976 and had been inspected; it still breached.",
+      "incident_date": "2019-04-27",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On the evening of 27 April 2019 a section of the earth dike holding back Lac des Deux Montagnes breached at Sainte-Marthe-sur-le-Lac (CBC; Globe and Mail; Radio-Canada). CBC: about 50 m opening. Globe: about one-third of the town fled; 6,500 people evacuated; no one hurt or missing. Radio-Canada: about 2,500 residences evacuated. Montreal Gazette: the clay-and-grass dike, built about 1976, had held in 2017 and been raised in the days before; Brissette said the 2019 hole was a weakness, not overtopping. Temporary gravel dikes were built on 23rd and 29th Avenues. A later class-action and ownership dispute over the rebuilt wall followed. Do not copy wider 2019 Quebec flood evacuee totals onto this dike; use the town figures.",
+      "status": "Breached 2019; later rebuilt; ownership/financing dispute between the town and Quebec",
+      "deaths": 0,
+      "injured": 0,
+      "affected_or_evacuated": "about 6,500 evacuated; about 2,500 residences (Radio-Canada / Globe)",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "CBC — Sainte-Marthe-sur-le-Lac dike breach",
+          "url": "https://www.cbc.ca/news/canada/montreal/sainte-marthe-sur-le-lac-dike-breach-flooding-1.5114366"
+        },
+        {
+          "label": "Globe and Mail — Quebec dike breaks",
+          "url": "https://www.theglobeandmail.com/canada/article-quebec-dike-breaks-triggering-emergency-evacuation-near-montreal-and/"
+        },
+        {
+          "label": "Radio-Canada — rupture d'une digue",
+          "url": "https://ici.radio-canada.ca/nouvelle/1166655/rupture-digue-sainte-marthe-lac-evacuation-residences"
+        },
+        {
+          "label": "Wikipedia — Sainte-Marthe-sur-le-Lac",
+          "url": "https://en.wikipedia.org/wiki/Sainte-Marthe-sur-le-Lac"
+        }
+      ],
+      "notes": "Deaths 0 / injured 0 from Globe and CBC (nobody hurt or missing). Do not copy province-wide 2019 flood totals.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Gouvernement du Québec (1970s dike; later dispute with the town)",
+      "year_built": "about 1976 (Montreal Gazette)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 50 m (CBC)",
+      "downstream_risk": "Sainte-Marthe-sur-le-Lac south of Oka Road (1st–45th Avenue sector)",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "springbank-2008-06-19",
+      "name": "Springbank Dam (Thames River, 2008 gate failure)",
+      "country": "Canada",
+      "region": "London, Ontario",
+      "location_label": "Springbank Dam, Thames River, London, Ontario",
+      "lat": 42.960451,
+      "lng": -81.325395,
+      "geo_accuracy": "site",
+      "geo_source": "UTRCA / WATECH 2011 concrete-condition survey: 42.960451, -81.325395. City EIS: about 600 m east of Boler Road Bridge.",
+      "river_or_facility": "Springbank Dam; Thames River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "structural_design"
+      ],
+      "cause_summary": "City of London / UTRCA: during commissioning on 19 June 2008, Gate 1 malfunctioned after anchor bolts on one hinge failed; sediment jammed the gate.",
+      "incident_date": "2008-06-19",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "The 1929 Springbank recreational dam on the Thames in southwest London was rehabilitated in 2006–08 with four new steel gates. On 19 June 2008, during commissioning, Gate 1 malfunctioned after anchor bolts on one of two hinges failed (City of London FAQ; UTRCA). The remaining gates were lowered open. The dam has been inoperable since. London later sued contractors; council voted in January 2018 to decommission. Gate removal / shoreline restoration ran in 2024–25. No source fetched reported deaths. Deaths left null.",
+      "status": "Inoperable since 2008; decommissioned (gates removed 2024; concrete superstructure retained)",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "City of London — Springbank Dam FAQ (19 June 2008 Gate 1)",
+          "url": "https://getinvolved.london.ca/springbankdam/widgets/171713/faqs"
+        },
+        {
+          "label": "UTRCA — Springbank Dam update",
+          "url": "https://thamesriver.on.ca/water-management/recreational-dams/springbank-dam/springbank-dam-update/"
+        },
+        {
+          "label": "UTRCA / WATECH 2011 inspection (lat/lng)",
+          "url": "https://thamesriver.on.ca/wp-content/uploads/SpringbankDam-concreteconditionsurvey-2011Final.pdf"
+        }
+      ],
+      "notes": "Operational gate failure, not a flood breach. Deaths null. 1929 structure; historic washouts of the upstream predecessor are separate records.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "City of London (operated by UTRCA)",
+      "year_built": "1929 (rehabilitated 2006–08)",
+      "height_m": 9.8,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "about $6.8 million rehabilitation then litigation (London Free Press)",
+      "investigating_agency": null
+    },
+    {
+      "id": "springbank-2000-07-09",
+      "name": "Springbank Dam (Thames River, 2000 overtopping)",
+      "country": "Canada",
+      "region": "London, Ontario",
+      "location_label": "Springbank Dam, Thames River, London, Ontario",
+      "lat": 42.960451,
+      "lng": -81.325395,
+      "geo_accuracy": "site",
+      "geo_source": "UTRCA / WATECH 2011: 42.960451, -81.325395.",
+      "river_or_facility": "Springbank Dam; Thames River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "UTRCA: on 9 July 2000 the dam was overtopped during a flood because of debris accumulation, damaging the south bank.",
+      "incident_date": "2000-07-09",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 9 July 2000 the 1929 Springbank Dam on the Thames at London was overtopped during a flood after debris accumulated, damaging the south bank and raising safety concerns (UTRCA Springbank Dam page). That damage led to the 2003 EA and the 2006–08 gate rehabilitation that later failed in commissioning (see springbank-2008-06-19). No source fetched reported deaths. Deaths left null.",
+      "status": "Overtopped 2000; later rehabilitated; 2008 gate failure left it inoperable",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "UTRCA — Springbank Dam (9 July 2000 overtopping)",
+          "url": "https://thamesriver.on.ca/water-management/recreational-dams/springbank-dam/"
+        },
+        {
+          "label": "UTRCA / WATECH 2011 inspection (lat/lng)",
+          "url": "https://thamesriver.on.ca/wp-content/uploads/SpringbankDam-concreteconditionsurvey-2011Final.pdf"
+        }
+      ],
+      "notes": "Deaths null. Not a full breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "City of London (operated by UTRCA)",
+      "year_built": "1929",
+      "height_m": 9.8,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "south bank / Springbank Park",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "springbank-1883",
+      "name": "Springbank predecessor dam (Thames River, 1883 washout)",
+      "country": "Canada",
+      "region": "London, Ontario",
+      "location_label": "historic Springbank dam site, Thames River, London, Ontario (short distance upstream of the 1929 dam)",
+      "lat": 42.960451,
+      "lng": -81.325395,
+      "geo_accuracy": "approx",
+      "geo_source": "UTRCA: 1929 dam at 42.960451, -81.325395 replaced a dam a short distance upstream (east) that washed out in 1883, 1899 and 1917.",
+      "river_or_facility": "historic Springbank / water-power dam; Thames River",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "UTRCA: the original dam at this reach was washed out in 1883.",
+      "incident_date": "1883",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "UTRCA's Springbank Dam history: a recreational / water-power dam operated on this Thames reach from the 1870s. The original dam, a short distance upstream (east) of the later 1929 structure, was washed out in 1883 (and again in 1899 and 1917). It had been built to power pumping to a hilltop reservoir. No source fetched gave a death count; deaths left null.",
+      "status": "historical / 1883 washout; rebuilt and later washed out again",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "UTRCA — Springbank Dam history (1883 / 1899 / 1917 washouts)",
+          "url": "https://thamesriver.on.ca/water-management/recreational-dams/springbank-dam/springbank-dam-update/"
+        }
+      ],
+      "notes": "Pin is the 1929 dam; UTRCA says the washed-out original was a short distance upstream (east). Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "springbank-1899",
+      "name": "Springbank predecessor dam (Thames River, 1899 washout)",
+      "country": "Canada",
+      "region": "London, Ontario",
+      "location_label": "historic Springbank dam site, Thames River, London, Ontario (short distance upstream of the 1929 dam)",
+      "lat": 42.960451,
+      "lng": -81.325395,
+      "geo_accuracy": "approx",
+      "geo_source": "UTRCA: 1929 dam at 42.960451, -81.325395 replaced a dam a short distance upstream (east) that washed out in 1883, 1899 and 1917.",
+      "river_or_facility": "historic Springbank / water-power dam; Thames River",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "UTRCA: the original dam at this reach was washed out in 1899.",
+      "incident_date": "1899",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "UTRCA: the original Springbank-reach dam on the Thames, a short distance upstream of the later 1929 structure, was washed out in 1899 (after an 1883 washout). No source fetched gave a death count; deaths left null.",
+      "status": "historical / 1899 washout; rebuilt and later washed out in 1917",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "UTRCA — Springbank Dam history (1883 / 1899 / 1917 washouts)",
+          "url": "https://thamesriver.on.ca/water-management/recreational-dams/springbank-dam/springbank-dam-update/"
+        }
+      ],
+      "notes": "Pin is the 1929 dam; original was a short distance upstream. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "springbank-1917",
+      "name": "Springbank predecessor dam (Thames River, 1917 washout)",
+      "country": "Canada",
+      "region": "London, Ontario",
+      "location_label": "historic Springbank dam site, Thames River, London, Ontario (short distance upstream of the 1929 dam)",
+      "lat": 42.960451,
+      "lng": -81.325395,
+      "geo_accuracy": "approx",
+      "geo_source": "UTRCA: 1929 dam at 42.960451, -81.325395 replaced a dam a short distance upstream (east) that washed out in 1883, 1899 and 1917. No dam on the reach 1917–1929.",
+      "river_or_facility": "historic Springbank / water-power dam; Thames River",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "UTRCA: the original dam at this reach was washed out in 1917; the reach had no dam until 1929.",
+      "incident_date": "1917",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "UTRCA: the original Springbank-reach dam on the Thames was washed out in 1917. Between 1917 and 1929 there was no dam at this site; the present concrete dam was built in 1929 a short distance downstream. No source fetched gave a death count; deaths left null.",
+      "status": "historical / 1917 washout; no dam on the reach until 1929",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "UTRCA — Springbank Dam history (1883 / 1899 / 1917 washouts)",
+          "url": "https://thamesriver.on.ca/water-management/recreational-dams/springbank-dam/springbank-dam-update/"
+        }
+      ],
+      "notes": "Pin is the 1929 dam; original was a short distance upstream. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "chute-lake-2012-04-27",
+      "name": "Chute Lake Dam (Naramata, 2012 overtopping)",
+      "country": "Canada",
+      "region": "Chute Lake / Naramata, British Columbia",
+      "location_label": "Chute Lake outlet dam, Okanagan Mountain, British Columbia",
+      "lat": 49.69444,
+      "lng": -119.53139,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Chute Lake 49.69444, -119.53139. Tannant & Skermer: small concrete dam at the lake outlet.",
+      "river_or_facility": "Chute Lake Dam; Chute Creek / Ratnip Creek",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Tannant & Skermer (CGJ 2013): heavy spring rain and snowmelt overtopped the small concrete outlet dam by 60 cm on 27 April 2012.",
+      "incident_date": "2012-04-27",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 27 April 2012 heavy spring rain and snowmelt overtopped the small concrete dam at the outlet of Chute Lake near Naramata (Tannant & Skermer, Canadian Geotechnical Journal 2013, citing Penticton Western News; Vancouver Sun). Water was 60 cm above the dam and washed out the road below. An evacuation order covered 47 homes along Chute Creek because crossings might pond and fail; RDOS said the dam itself was intact though overflowing. Only the road was damaged. Deaths 0 from that CGJ statement (only the road damaged). Do not copy later Okanagan flood-cluster losses onto this dam.",
+      "status": "Overtopped 2012; dam held; road below washed out",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "evacuation order for 47 homes along Chute Creek (CGJ)",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Tannant & Skermer, CGJ — Okanagan earth dams (2012 Chute Lake)",
+          "url": "https://doi.org/10.1139/cgj-2012-0206"
+        },
+        {
+          "label": "Vancouver Sun — Chute Lake dam overflowing / Indian Rock evacuation",
+          "url": "https://vancouversun.com/news/three-southern-bc-communities-battling-flooding"
+        },
+        {
+          "label": "Wikipedia — Chute Lake",
+          "url": "https://en.wikipedia.org/wiki/Chute_Lake"
+        }
+      ],
+      "notes": "Incident (overtopping); dam held. Deaths 0 from CGJ (only the road damaged).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Chute Creek / Indian Rock / Naramata road crossings",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "key-lake-1984-01-05",
+      "name": "Key Lake process-water reservoir (1984 overtopping)",
+      "country": "Canada",
+      "region": "Athabasca Basin, northern Saskatchewan",
+      "location_label": "Key Lake mill, Athabasca Basin, Saskatchewan",
+      "lat": 57.20667,
+      "lng": -105.65917,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Key Lake mine 57.20667, -105.65917. WISE: overtopping of a process-water reservoir at the mill. Saskatchewan Environment final report: overflow onto a neighbouring lake (Gerald Lake), muskeg and a road.",
+      "river_or_facility": "Key Lake process-water / contaminated-water reservoir; Key Lake mill",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "poor_maintenance"
+      ],
+      "cause_summary": "WISE uranium chronology: overtopping of a process-water reservoir due to poor management. Saskatchewan Environment (March 1984): poor operation by Key Lake Mining Corp.",
+      "incident_date": "1984-01-05",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 5 January 1984 a storage reservoir of contaminated process water at the Key Lake uranium mill overtopped (WISE uranium tailings chronology; Saskatchewan Department of the Environment final report, March 1984). Outflow continued about two days onto ice of a neighbouring lake (Gerald Lake in later Hansard), into muskeg and onto a road, and partly undercut a retaining dike. WISE: 87,330 m³ of contaminated water. The Environment report concluded poor operation by Key Lake Mining Corp., expected minimal impact after cleanup, and called for regulatory and contingency improvements. No source fetched reported deaths. Deaths left null. This is a process-water reservoir, not the later Deilmann in-pit TMF.",
+      "status": "historic spill; mill later used the Deilmann pit as TMF; Key Lake mill since milled McArthur River ore",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "WISE — Chronology of uranium tailings dam failures (Key Lake 1984-01-05)",
+          "url": "https://www.wise-uranium.org/mdafu.html"
+        },
+        {
+          "label": "INIS — Key Lake spill final report (Saskatchewan Environment, March 1984)",
+          "url": "https://inis.iaea.org/records/tv13s-07f32"
+        },
+        {
+          "label": "Wikipedia — Key Lake mine",
+          "url": "https://en.wikipedia.org/wiki/Key_Lake_mine"
+        }
+      ],
+      "notes": "Deaths null. Process-water reservoir overtopping (WISE), recorded as type tailings because it is mill process containment. Pin is the Wikipedia mine/mill, not a separate reservoir survey.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Key Lake Mining Corp. (historic; now Cameco / Orano)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "mining",
+      "volume_released": "87,330 m³ contaminated water (WISE)",
+      "breach_size": "overtopping; retaining dike partly undercut (Saskatchewan Environment)",
+      "downstream_risk": "Gerald Lake / muskeg / road to the tailings area (Hansard / Environment report)",
+      "economic_damage": null,
+      "investigating_agency": "Saskatchewan Department of the Environment"
+    },
+    {
+      "id": "garnet-lake-1908-06-06",
+      "name": "Garnet Lake / Garnett Valley dam (1908)",
+      "country": "Canada",
+      "region": "Garnett Valley, Summerland, British Columbia",
+      "location_label": "Garnet Lake, Summerland, British Columbia",
+      "lat": 49.7,
+      "lng": -119.7833,
+      "geo_accuracy": "approx",
+      "geo_source": "NTS 082E12 Summerland / Canmaps Garnet Lake (Osoyoos Division Yale) 49°42′N 119°47′W. Penticton Western News: dam at Garnet Lake failed 6 June 1908.",
+      "river_or_facility": "Garnet Valley Land Company dam; Garnet Lake",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Penticton Western News / Summerland Museum: the Garnet Valley Land Company dam at Garnet Lake failed on 6 June 1908. Tannant & Skermer cite Wilson (1989) for an about-1907 Garnett Valley break. Fetched accounts do not name a mechanism.",
+      "incident_date": "1908-06-06",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On Saturday 6 June 1908 the Garnet Valley Land Company dam at Garnet Lake, Summerland, failed (Penticton Western News, citing Summerland Museum). Water ran down Garnett Valley and Peach Orchard Road to Okanagan Lake, damaging the road, bridges and culverts and destroying orchards. Tannant & Skermer (CGJ 2013) cite Wilson (1989) for an about-1907 Garnett Valley dam break that washed away at least one house and an orchard — treated here as the same named leftover event, with the dated 6 June 1908 newspaper figure preferred. No source fetched gave a death count; deaths left null. A later Garnet Valley / Garnet Dam still exists at the lake (2018 access-road work).",
+      "status": "historical / 1908 failure; later dam at Garnet Lake",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Penticton Western News — Garnet Lake dam failed 6 June 1908",
+          "url": "https://www.pentictonwesternnews.com/news/summerland-has-experienced-past-flood-damages-3641764"
+        },
+        {
+          "label": "Tannant & Skermer, CGJ — Garnett Valley about 1907 (Wilson 1989)",
+          "url": "https://doi.org/10.1139/cgj-2012-0206"
+        },
+        {
+          "label": "Canmaps / NTS 082E12 — Garnet Lake, Summerland",
+          "url": "http://www.canmaps.com/topo/places/j/jajpq.htm"
+        }
+      ],
+      "notes": "Leftover Okanagan named dam from Tannant & Skermer. Deaths null. Dated 1908-06-06 from the newspaper, not the CGJ 'around 1907'.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Garnet Valley Land Company (1908)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Garnett Valley; Peach Orchard Road; Okanagan Lake shore",
+      "economic_damage": null,
+      "investigating_agency": null
     }
   ]
 }
