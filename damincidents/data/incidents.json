@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 788,
+  "count": 808,
   "current_count": 25,
-  "historical_count": 763,
+  "historical_count": 783,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -42983,6 +42983,1168 @@
           "url": "https://en.wikipedia.org/wiki/Shiroro_Dam"
         }
       ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — PEHC, flood handout and Coloradoan do not give a fatality figure for the 1891 break. 1904 flood deaths are not copied here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Larimer County Ditch Company (1891)",
+      "year_built": "about 1887 (PEHC: enlargement the year after 1886 charter)",
+      "height_m": 3,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "chambers-1891-06-08",
+      "name": "Chambers Lake Dam (1891)",
+      "country": "United States",
+      "region": "Larimer County, Colorado (Poudre Canyon headwaters)",
+      "location_label": "Chambers Lake Dam on Joe Wright Creek, Larimer County, Colorado",
+      "lat": 40.60726,
+      "lng": -105.8444,
+      "geo_accuracy": "site",
+      "geo_source": "DamLookup / NID CO00127 Chambers Lake Dam 40.60726, -105.84440 (later rebuilt dam at the named site). Wikipedia Chambers Lake 40.6045224, -105.8533750",
+      "river_or_facility": "Chambers Lake Dam on Joe Wright Creek (Cache la Poudre headwaters)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "CSU PEHC: on 8 June 1891 the Chambers Lake dam broke after the Larimer County Ditch Company had enlarged the natural lake with a ten-foot-high dam.",
+      "incident_date": "1891-06-08",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 8 June 1891 the first Chambers Lake irrigation dam (about 10 ft, built after 1886 by the Larimer County Ditch Company) broke. CSU Public and Environmental History Center: the flood destroyed every bridge between the lake and Fort Collins and destroyed the community of Poudre City; peak discharge estimated at 21,000 cfs. Company engineer William Rist had inspected the dam that day. Property owners sued; the company dissolved and reformed as Water Supply and Storage Company on 23 July 1891. Fort Collins flood-history handout and the Coloradoan also treat the 1891 Poudre flood as a Chambers Lake dam failure. No source fetched gave a death count for this break.",
+      "status": "historical / dam later replaced (1904 log dam failed; 1910 and 1928 structures at the same named lake)",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "CSU PEHC — Chambers Lake (1891 break; 21,000 cfs; Poudre City)",
+          "url": "https://pehc.colostate.edu/digital_projects/dp/poudre-river/moving-storing/ditches-dams-diversions/chambers-lake/"
+        },
+        {
+          "label": "Fort Collins Utilities — Poudre Flood History handout (1891 Chambers Lake Dam Failure)",
+          "url": "https://www.fcgov.com/utilities/img/site_specific/uploads/Poudre_Flood_History_handout_2010.pdf"
+        },
+        {
+          "label": "DamLookup / NID CO00127 — Chambers Lake Dam",
+          "url": "https://damlookup.com/dam/co00127"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Coloradoan / flood handout give 1–2 deaths in the 1904 Poudre flood; they are not attributed as incremental dam-failure fatalities and are not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Water Supply and Storage Company",
+      "year_built": "1891–95 replacement (PEHC: twelve-foot log-reinforced dam)",
+      "height_m": 4,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "chambers-1904-05-20",
+      "name": "Chambers Lake Dam (1904)",
+      "country": "United States",
+      "region": "Larimer County, Colorado (Poudre Canyon headwaters)",
+      "location_label": "Chambers Lake Dam on Joe Wright Creek, Larimer County, Colorado",
+      "lat": 40.60726,
+      "lng": -105.8444,
+      "geo_accuracy": "site",
+      "geo_source": "DamLookup / NID CO00127 Chambers Lake Dam 40.60726, -105.84440 (later 1910/1928 dam at the named site)",
+      "river_or_facility": "Chambers Lake Dam on Joe Wright Creek (Cache la Poudre headwaters)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "PEHC: on 20 May 1904 heavy rainfall caused the Cache la Poudre to flood and the new twelve-foot-high, log-reinforced replacement Chambers Lake dam gave way.",
+      "incident_date": "1904-05-20",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On 20 May 1904, during a region-wide Poudre rain-and-snowmelt flood, the twelve-foot log-reinforced replacement Chambers Lake dam gave way (CSU PEHC, citing Fort Collins Express 25 May 1904). Water Supply and Storage later replaced it in 1910 with a 22-foot dam with release gates and a concrete spillway, then raised it to 58 feet by 1928 (still in place). The 1904 flood was the most financially damaging historic Poudre flood in Fort Collins accounts (150 homes swept away; all but one or two bridges destroyed). Those citywide flood consequences are not treated as incremental dam-failure facts here.",
+      "status": "historical / replaced 1910 and raised 1922–28; present NID CO00127 at the named lake",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "CSU PEHC — Chambers Lake (20 May 1904 log dam gave way)",
+          "url": "https://pehc.colostate.edu/digital_projects/dp/poudre-river/moving-storing/ditches-dams-diversions/chambers-lake/"
+        },
+        {
+          "label": "Cache la Poudre NHA — 1904 Poudre flood (context; not a dam-death count)",
+          "url": "https://poudreheritage.org/1904-flood-poudre-river-part-1/"
+        },
+        {
+          "label": "DamLookup / NID CO00127 — Chambers Lake Dam",
+          "url": "https://damlookup.com/dam/co00127"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from ASDSO compilation. Date 11 August from DNREC; compilation used 12 August.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "DNREC Division of Fish & Wildlife (state-owned at the 2016 reconstruction)",
+      "year_built": "1912 (NID DE00060; historic mill site)",
+      "height_m": null,
+      "reservoir_capacity": "60-acre impoundment (ASDSO 2013 compilation)",
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "about $500,000 (ASDSO 2013 compilation)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "hearns-pond-2001-08-11",
+      "name": "Hearns Pond Dam (2001)",
+      "country": "United States",
+      "region": "North of Seaford, Sussex County, Delaware",
+      "location_label": "Hearns Pond Dam on Clear Brook, Sussex County, Delaware",
+      "lat": 38.67929,
+      "lng": -75.59403,
+      "geo_accuracy": "site",
+      "geo_source": "DamLookup / NID DE00060 Hearns Pond Dam 38.67929, -75.59403; USGS 01487170 Hearns Pond near Seaford 38°40'48.2\"N 75°35'40.1\"W at northeast shore near spillway",
+      "river_or_facility": "Hearns Pond Dam on Clear Brook",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "spillway"
+      ],
+      "cause_summary": "DNREC/DelDOT: the dam was overtopped on 11 August 2001; the southern section of the earthen dam was completely washed out.",
+      "incident_date": "2001-08-11",
+      "latest_report_date": "2016-07-25",
+      "what_happened": "During the 11 August 2001 storm, Hearns Pond Dam north of Seaford was overtopped. DNREC: the southern section washed out completely, flooding Route 13A / Bridgeville Highway; sediment from the pond entered downstream waterways. ASDSO 2013 compilation: 12 August 2001, 0 fatalities, about $500,000 damage, 60-acre impoundment drained, washout of U.S. 13A. Residents of a Seaford healthcare facility were relocated until floodwaters subsided. The dam was rebuilt in 2002. A later 2006 overtopping is a separate record.",
+      "status": "rebuilt 2002; overtopped again 2006; later rehabilitated to Delaware dam-safety code (2016–17)",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Delaware News — DelDOT/DNREC reconstruction (2001 washout of southern section; US 13A)",
+          "url": "https://news.delaware.gov/2016/07/25/deldot-dnrec-begin-reconstruction-at-hearns-pond-dam-near-seaford/"
+        },
+        {
+          "label": "ASDSO US Failures/Incidents compilation — Hearns Pond 12 Aug 2001, 0 dead, $500k, 60 acres",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "DamLookup / NID DE00060",
+          "url": "https://damlookup.com/dam/de00060"
+        },
+        {
+          "label": "USGS 01487170 — Hearns Pond near Seaford (spillway pin)",
+          "url": "https://waterdata.usgs.gov/nwis/dv?referred_module=sw&site_no=01487170"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — 2006 accounts do not give a count. Not merged with the 2001 washout.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "DNREC Division of Fish & Wildlife",
+      "year_built": "1912 (NID); 2002 rebuild of the 2001 breach",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "hearns-pond-2006-06-25",
+      "name": "Hearns Pond Dam (2006)",
+      "country": "United States",
+      "region": "North of Seaford, Sussex County, Delaware",
+      "location_label": "Hearns Pond Dam on Clear Brook, Sussex County, Delaware",
+      "lat": 38.67929,
+      "lng": -75.59403,
+      "geo_accuracy": "site",
+      "geo_source": "DamLookup / NID DE00060 Hearns Pond Dam 38.67929, -75.59403",
+      "river_or_facility": "Hearns Pond Dam on Clear Brook",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "DNREC: on 25 June 2006 the dam was overtopped again and the 2002 rebuilt southern section was partially washed away.",
+      "incident_date": "2006-06-25",
+      "latest_report_date": "2016-07-25",
+      "what_happened": "On 25 June 2006 Hearns Pond Dam was overtopped again. DNREC / Delaware Public Media: the top couple of feet of the 2002 rebuilt southern section washed away. Healthcare-facility residents in Seaford were again relocated until floodwaters subsided. The section was rebuilt in 2007. A later joint DNREC–DelDOT rehabilitation (construction from 2016) brought the dam to Delaware dam-safety code with a larger concrete spillway and articulated-block overtopping protection.",
+      "status": "rebuilt 2007; later code rehabilitation completed after 2016",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Delaware News — 11 Aug 2001 and 25 June 2006 overtoppings",
+          "url": "https://news.delaware.gov/2016/07/25/deldot-dnrec-begin-reconstruction-at-hearns-pond-dam-near-seaford/"
+        },
+        {
+          "label": "Delaware Public Media — 2001 complete washout; 2006 top couple of feet",
+          "url": "https://www.delawarepublic.org/science-health-tech/2016-07-27/rehabilitation-to-hearns-pond-dam-first-of-efforts-to-bring-state-dams-up-to-code"
+        },
+        {
+          "label": "DelDOT — Hearns Pond Dam Improvements (design-storm capacity)",
+          "url": "https://deldot.gov/projects/archived/hearns_pond_dam/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "more than 1,500 evacuated (ASDSO incident RI00000-196)",
+      "notes": "Deaths null — no Harris Pond fatality figure in the RI Parks page or ASDSO incident. $31 million is citywide Diane damage, not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Woonsocket Water Division (present NID); historically Edward Harris / Privilege Mill",
+      "year_built": "about 1860s (RI Parks: 90-year-old embankment in 1955; Edward Harris mill pond)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "harris-pond-1955-08",
+      "name": "Harris Pond Dam (Woonsocket / Mill River)",
+      "country": "United States",
+      "region": "Woonsocket, Providence County, Rhode Island",
+      "location_label": "Harris Pond Dam on the Mill River, Woonsocket, Rhode Island",
+      "lat": 42.01641,
+      "lng": -71.50681,
+      "geo_accuracy": "site",
+      "geo_source": "DamLookup / NID RI03901 Harris Pond 42.01641, -71.50681 (1969 replacement dam at the named pond on the Mill River)",
+      "river_or_facility": "Harris Pond Dam on the Mill River (Privilege Mill / Edward Harris mill pond)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Rhode Island State Parks: in August 1955 Hurricane Diane put about 10.5 inches of rain on the Blackstone Valley; the 90-year-old dirt embankment at Harris Pond failed.",
+      "incident_date": "1955-08",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "In August 1955, Hurricane Diane delivered about 10.5 inches of rain over a couple of days on the Blackstone Valley. Rhode Island State Parks (WWII Veterans Memorial State Park history): the 90-year-old dirt embankment holding Harris Pond failed and a roughly 20-foot surge devastated the Social flatlands below; buildings collapsed; cemeteries washed out. ASDSO incident RI00000-196 and the 2013 compilation: earthen-embankment failure; more than 1,500 evacuated; Woonsocket flooded; the disaster inspired the city's later flood-control system. Citywide Diane damage of about $31 million is a storm total, not copied as dam-only damage. No source fetched gave a Harris Pond death count. Present NID RI03901 is a 1969 earth dam at the named water-supply pond.",
+      "status": "historical / replaced (NID RI03901 completed 1969)",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Rhode Island State Parks — WWII Veterans Memorial State Park history (Harris Pond 1955)",
+          "url": "https://riparks.ri.gov/History-HistoryWorldWarII"
+        },
+        {
+          "label": "ASDSO incident RI00000-196 — Harris Pond, >1,500 evacuated",
+          "url": "https://damsafety.org/incidents/RI00000-196"
+        },
+        {
+          "label": "DamLookup / NID RI03901",
+          "url": "https://damlookup.com/dam/ri03901"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 19 from Clio, Stories of Appalachia, and ASDSO compilation. Pin is the later Superfund plant/pond complex, not a surveyed 1924 breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Mathieson Alkali Works (1924)",
+      "year_built": "muck ponds in use from 1895 (EPA / Roanoke Times plant history)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "saltville-muck-1924-12-24",
+      "name": "Saltville muck dam (Mathieson Alkali / Palmertown)",
+      "country": "United States",
+      "region": "Saltville, Smyth County, Virginia (North Fork Holston River)",
+      "location_label": "Mathieson Alkali muck dam above Palmertown, Saltville, Virginia",
+      "lat": 36.8833,
+      "lng": -81.7833,
+      "geo_accuracy": "region",
+      "geo_source": "EPA Superfund SEMS extract for Saltville Waste Disposal Ponds (168 Perryville Rd) 36.8833, -81.7833 — later plant/pond complex; 1924 Palmertown dam was on the North Fork Holston at the same industrial site. Not a surveyed 1924 breach pin.",
+      "river_or_facility": "Mathieson Alkali Works muck dam on the North Fork of the Holston River",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "structural_design"
+      ],
+      "cause_summary": "Clio: a week of rain supersaturated the muck-dam walls; about 8 p.m. on Christmas Eve 1924 the section above Palmertown burst.",
+      "incident_date": "1924-12-24",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "On Christmas Eve 1924 the Mathieson Alkali Works muck dam at Saltville ruptured. Clio: around 8 p.m. the section above the company village of Palmertown burst without warning after a cold, very rainy day and a wet week; a sludge wave estimated in that account at 100 feet high and 300 feet across destroyed Palmertown and ran a quarter-mile upriver into Henryrown; boulders of 10–20 tons were thrown about 750 feet across the river. Stories of Appalachia and Clio: 19 people died, 12 of them children. ASDSO 2013 compilation: 24 December 1924, 19 dead; a man was held for dynamiting the dam but a grand jury dismissed for lack of evidence. Mathieson leveled the ruins and built new housing (Perryville). The later Olin waste ponds at the same plant are the Saltville Waste Disposal Ponds Superfund site.",
+      "status": "historical / Palmertown rebuilt as Perryville; later ponds are Superfund",
+      "deaths": 19,
+      "sources": [
+        {
+          "label": "Clio — Saltville Muck Dam Collapse (19 dead, 12 children; ~8 p.m. 24 Dec 1924)",
+          "url": "https://theclio.com/entry/77037"
+        },
+        {
+          "label": "Stories of Appalachia — Virginia's deadliest dam failure (19 dead)",
+          "url": "https://storiesofappalachia.com/?p=3279"
+        },
+        {
+          "label": "ASDSO US Failures/Incidents compilation — Saltville Muck 24 Dec 1924, 19 dead",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "EPA Superfund — Saltville Waste Disposal Ponds (168 Perryville Rd)",
+          "url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0302526"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 1 (Nellie Ball Woolum / Woolums). Pin is the inundated GNIS community, not the hollow impoundment.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Eastover Mining Company",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 125,000 cubic yards of saturated coal refuse (MSHA via WV Law Review)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Mine Safety and Health Administration (MSHA)",
+      "verification": "confirmed",
+      "id": "ages-coal-waste-1981-12-18",
+      "name": "Ages coal-waste impoundment (Eastover / Left Fork Ages Creek)",
+      "country": "United States",
+      "region": "Ages, Harlan County, Kentucky",
+      "location_label": "Eastover Mining coal-waste impoundment on Left Fork of Ages Creek, Ages, Kentucky",
+      "lat": 36.8578673,
+      "lng": -83.2462884,
+      "geo_accuracy": "region",
+      "geo_source": "GNIS Ages populated place 36.8578673, -83.2462884 (inundated community). MSHA/WV Law Review: impoundment was on Left Fork of Ages Creek and the slurry traveled about 4,400 feet to Ages. Not a surveyed dam pin (ASDSO KY00000-187 is 0,0).",
+      "river_or_facility": "Eastover Mining Company coal-waste impoundment on Left Fork of Ages Creek",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "WV Law Review citing the MSHA report: failure occasioned by a large quantity of water trapped within the refuse pile.",
+      "incident_date": "1981-12-18",
+      "latest_report_date": "2021",
+      "what_happened": "At about 3:30 a.m. on Friday 18 December 1981 an Eastover Mining Company coal-waste impoundment on the Left Fork of Ages Creek failed. West Virginia Law Review (citing MSHA): about 125,000 cubic yards of saturated coal refuse traveled more than 4,400 feet downstream to Ages, killing Nellie Ball Woolum, destroying three houses and damaging 30 others. ASDSO incident KY00000-187: 1 fatality (Nellie Woolums); precise date in that row is listed as December 1981. ASDSO 2021 DFIC paper: flooding killed one person and damaged over 30 residences; the event highlighted inspection and jurisdictional gaps after Buffalo Creek.",
+      "status": "historical / coal-waste pile gone as a live impoundment",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "WV Law Review — Federal Regulation of Coal Mine Waste Disposal (MSHA: 3:30 a.m. 18 Dec 1981; Nellie Ball Woolum; 125,000 cy)",
+          "url": "https://researchrepository.wvu.edu/cgi/viewcontent.cgi?article=2422&context=wvlr"
+        },
+        {
+          "label": "ASDSO — Story of a 1981 tailings dam failure in Ages, Kentucky (1 dead; >30 residences)",
+          "url": "https://damsafety.org/reference/story-1981-tailings-dam-failure-ages-kentucky-dfic-decade-series"
+        },
+        {
+          "label": "ASDSO incident KY00000-187",
+          "url": "https://damsafety.org/incidents/KY00000-187"
+        },
+        {
+          "label": "GNIS / geographic.org — Ages, Harlan County, Kentucky",
+          "url": "https://geographic.org/geographic_names/usaname.php?fid=usageo_438&uni=485792"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Seattle Times. Masonry Dam structure held; failure is the moraine-abutment outburst that destroyed Edgewick.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "City of Seattle (Cedar River / Masonry Dam)",
+      "year_built": "Masonry Dam 1914–18 (Cedar River / Seattle water supply; Ecology context)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "edgewick-boxley-1918-12-23",
+      "name": "Boxley Burst / Masonry Dam seepage (Edgewick 1918)",
+      "country": "United States",
+      "region": "Edgewick, King County, Washington (near North Bend)",
+      "location_label": "Edgewick on Boxley Creek / South Fork Snoqualmie River, King County, Washington",
+      "lat": 47.44833,
+      "lng": -121.72611,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Edgewick, Washington 47°26′54″N 121°43′34″W (GNIS 1530299) — destroyed settlement. WA Ecology: mudflow about 1 mile from the Cedar River / Masonry Dam reservoir.",
+      "river_or_facility": "Masonry Dam / Cedar River reservoir (Boxley Burst) above Edgewick",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation"
+      ],
+      "cause_summary": "WA Ecology notable-failures list: excessive seepage through a glacial-moraine abutment caused a mudflow about one mile from the reservoir and destroyed the railroad and the village of Eastwick/Edgewick.",
+      "incident_date": "1918-12-23",
+      "latest_report_date": "2026-08-20",
+      "what_happened": "About 2 a.m. on 23 December 1918, floodwater seeped through glacial debris near Seattle’s Cedar River / Masonry Dam and wiped out the logging town of Edgewick (also called Eastwick in later Ecology lists). Seattle Times: no one died; at least 12 families lost homes and belongings. Wikipedia: the town was completely destroyed in the dam-related burst known locally as the Boxley Blowout. WA Ecology: seepage through the glacial-moraine abutment; railroad line and village destroyed. The concrete Masonry Dam itself did not collapse.",
+      "status": "historical / Edgewick later partly resettled, then destroyed again in 1932",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Seattle Times — Edgewick wiped out twice (23 Dec 1918, ~2 a.m.; 0 dead; 12 families)",
+          "url": "https://www.seattletimes.com/seattle-news/northwest/when-a-dam-failed-and-wiped-out-a-washington-state-town-twice-in-15-years/"
+        },
+        {
+          "label": "WA Ecology — Notable Dam Failures (Boxley Burst / Masonry Dam seepage)",
+          "url": "https://appswr.ecology.wa.gov/docs/WaterRights/wrwebpdf/damfailure-ws.pdf"
+        },
+        {
+          "label": "Wikipedia — Edgewick, Washington (Boxley Blowout; 47.44833, -121.72611)",
+          "url": "https://en.wikipedia.org/wiki/Edgewick,_Washington"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 7 from HistoryLink, Ecology and ASDSO. Date 26 February from HistoryLink; ASDSO row says 7 February.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Chicago, Milwaukee, St. Paul & Pacific Railway (The Milwaukee Road)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "$35,000 railroad settlement (HistoryLink)",
+      "investigating_agency": "King County Sheriff; King County Coroner",
+      "verification": "confirmed",
+      "id": "edgewick-rr-fill-1932-02-26",
+      "name": "Edgewick / Eastwick railroad-fill dam (Boetzke Creek)",
+      "country": "United States",
+      "region": "Edgewick, King County, Washington (near North Bend)",
+      "location_label": "Milwaukee Road berm over Boetzke Creek above Edgewick, King County, Washington",
+      "lat": 47.44833,
+      "lng": -121.72611,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / GNIS Edgewick 47°26′54″N 121°43′34″W — destroyed settlement. HistoryLink: 175-foot berm over Boetzke Creek on Mount Washington.",
+      "river_or_facility": "Chicago, Milwaukee, St. Paul & Pacific Railway fill / culvert on Boetzke Creek",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "HistoryLink: two days of rain and snowmelt clogged the culvert under a 175-foot Milwaukee Road berm; the artificial dam burst.",
+      "incident_date": "1932-02-26",
+      "latest_report_date": "2014-01-16",
+      "what_happened": "On 26 February 1932 a torrent of water, mud and slash swept through Edgewick, killing seven people and injuring two (HistoryLink). King County Sheriff investigation: the Milwaukee Road had installed a culvert beneath a 175-foot berm over Boetzke Creek; rocks and logging debris clogged it and the fill burst. The railroad later paid a $35,000 settlement. WA Ecology and ASDSO list the same event as the Eastwick RR Fill failure (Ecology: 7 dead; village destroyed). ASDSO incident WA00000-190 dates it 7 February 1932; HistoryLink’s dated narrative of 26 February is used here.",
+      "status": "historical / village not rebuilt as a town",
+      "deaths": 7,
+      "sources": [
+        {
+          "label": "HistoryLink File 10704 — Edgewick flash flood 26 Feb 1932, 7 dead",
+          "url": "https://www.historylink.org/File/10704"
+        },
+        {
+          "label": "Seattle Times — second Edgewick wipeout (7 dead)",
+          "url": "https://www.seattletimes.com/seattle-news/northwest/when-a-dam-failed-and-wiped-out-a-washington-state-town-twice-in-15-years/"
+        },
+        {
+          "label": "WA Ecology — Eastwick RR Fill, 7 lives lost",
+          "url": "https://appswr.ecology.wa.gov/docs/WaterRights/wrwebpdf/damfailure-ws.pdf"
+        },
+        {
+          "label": "ASDSO incident WA00000-190 (lists 7 Feb 1932)",
+          "url": "https://damsafety.org/incidents/WA00000-190"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "75 left homeless (ASDSO compilation)",
+      "notes": "Deaths 0 from Ecology and ASDSO compilation. Month only (April 1938).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 15,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "loup-loup-1938-04",
+      "name": "Loup Loup Dam",
+      "country": "United States",
+      "region": "Near Malott, Okanogan County, Washington",
+      "location_label": "Loup Loup Dam on Loup Loup Creek, Okanogan County, Washington",
+      "lat": 48.3832,
+      "lng": -119.76451,
+      "geo_accuracy": "site",
+      "geo_source": "USGS GNIS / TopoQuest Loup Loup Dam (feature 1532478) N48.38320° W119.76451°",
+      "river_or_facility": "Loup Loup Dam on Loup Loup Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "ASDSO 2013 compilation: 50-foot hydraulic-fill dam failed when the emergency spillway was undercut during a flood.",
+      "incident_date": "1938-04",
+      "latest_report_date": "2013",
+      "what_happened": "In April 1938 the Loup Loup Dam near Malott failed. ASDSO compilation: 50-foot-high hydraulic-fill dam; emergency spillway undercut during a flood; 0 deaths; 25 homes destroyed and 75 people left homeless; about half a mile of state highway destroyed. WA Ecology notable-failures list: Okanogan County near Malott; 0 lives lost.",
+      "status": "historical",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "ASDSO US Failures/Incidents compilation — Loup Loup, April 1938, 0 dead, 25 homes",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "WA Ecology — Notable Dam Failures (Loup Loup, 0 lives)",
+          "url": "https://appswr.ecology.wa.gov/docs/WaterRights/wrwebpdf/damfailure-ws.pdf"
+        },
+        {
+          "label": "TopoQuest / GNIS — Loup Loup Dam",
+          "url": "https://topoquest.com/place/washington/dam/loup-loup-dam/1532478"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from ASDSO compilation. Incident row leaves fatalities blank; compilation is the dated 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Dorchester County DPW",
+      "year_built": "1972 (NID)",
+      "height_m": 3,
+      "reservoir_capacity": "228 acre-feet max / 44 acres (NID / ASDSO)",
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "about $2.5 million replacement (ASDSO 2013 compilation)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "galestown-2006-06-25",
+      "name": "Galestown Millpond Dam",
+      "country": "United States",
+      "region": "Galestown, Dorchester County, Maryland",
+      "location_label": "Galestown Millpond Dam on Gales Creek / Galestown-Reliance Road, Dorchester County, Maryland",
+      "lat": 38.5676,
+      "lng": -75.7135,
+      "geo_accuracy": "exact",
+      "geo_source": "ASDSO incident MD00124-3089 / NID MD00124 38.5676, -75.7135",
+      "river_or_facility": "Galestown Millpond Dam on Gales Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "spillway"
+      ],
+      "cause_summary": "ASDSO: dam breached in two locations after 10–15 inches of rain in 12 hours; partly attributed to debris blocking the spillway.",
+      "incident_date": "2006-06-25",
+      "latest_report_date": "2008",
+      "what_happened": "On 25 June 2006 Galestown Millpond Dam (NID MD00124) failed. ASDSO incident MD00124-3089: 9 ft earth dam, 44-acre / 228 acre-foot pond; breached in two places after 10–15 inches of rain in 12 hours; debris-blocked spillway. CMI reconstruction case: the decayed timber retaining wall failed, releasing the millpond and collapsing Galestown Road. ASDSO 2013 compilation: 0 fatalities; roads washed out; replacement about $2.5 million. Rebuilt 2008 (NID year modified) with FEMA/MEMA support.",
+      "status": "reconstructed 2008–09 (sheet-pile road/dam, box culvert, fish ladder)",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "ASDSO incident MD00124-3089 — two-location breach, 25 June 2006",
+          "url": "https://damsafety.org/incidents/MD00124-3089"
+        },
+        {
+          "label": "CMI — Galestown Road Dam Reconstruction (wall washed away; road collapsed)",
+          "url": "https://www.cmilc.com/case-studies/galestown-road-dam-reconstruction"
+        },
+        {
+          "label": "ASDSO US Failures/Incidents compilation — 0 dead; $2.5M replacement",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from ASDSO compilation. AP describes a partial collapse at the spillway.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 7,
+      "reservoir_capacity": "NID TX02803 listed as 22 ft / 1,900 ft earth dam (Snoflo/NID extract)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "rhine-pure-oil-2008-01-01",
+      "name": "Rhine Lake / Pure Oil Lake Dam",
+      "country": "United States",
+      "region": "Near Van, Van Zandt County, Texas",
+      "location_label": "Rhine Lake Dam (Pure Oil Lake), Van Zandt County, Texas",
+      "lat": 32.496269,
+      "lng": -95.676389,
+      "geo_accuracy": "site",
+      "geo_source": "USGS GNIS / TopoQuest Rhine Lake Dam N32.496269° W95.676389°. NID TX02803 Rhines Reservoir Dam on the Neches system.",
+      "river_or_facility": "Rhine Lake / Pure Oil Lake Dam (Rhines Reservoir, NID TX02803)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "spillway",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "MRT / AP: the roughly 50-foot-across spillway and dam at Rhine Lake (Pure Oil Lake) began giving way on 31 December 2007–1 January 2008.",
+      "incident_date": "2008-01-01",
+      "latest_report_date": "2008-01-01",
+      "what_happened": "On 1 January 2008 Van Zandt County authorities monitored a partial dam collapse at Rhine Lake, also known as Pure Oil Lake, a popular fishing lake near Van about 70 miles southeast of Dallas. Midland Reporter-Telegram (AP): the 50-foot-across spillway and dam began giving way the previous day; County Road 4912 was closed. ASDSO 2013 compilation: 1 January 2008, 0 fatalities; county road closed; 350-acre lake; dam failed at the spillway; both drought and flooding suspected.",
+      "status": "partial spillway/dam collapse 2008",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Midland Reporter-Telegram / AP — Part of East Texas dam breaks at Rhine Lake (1 Jan 2008)",
+          "url": "https://www.mrt.com/news/article/Part-of-East-Texas-dam-breaks-at-Rhine-Lake-7515948.php"
+        },
+        {
+          "label": "ASDSO US Failures/Incidents compilation — Pure Oil (Rhine) Lake, 0 dead, spillway",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "TopoQuest — Rhine Lake Dam",
+          "url": "https://topoquest.com/place/texas/reservoir/rhine-lake/1329138"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from ASDSO compilation. Countywide 500 displaced in Owen County is a flood total, not copied as dam-only.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Graybrook Conservancy District / Graybrook Conservation Association",
+      "year_built": "1945 (NID IN00389)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "graybrook-2008-06",
+      "name": "Graybrook / Greybrook Lake Dam",
+      "country": "United States",
+      "region": "Owen County, Indiana (west of Spencer)",
+      "location_label": "Graybrook Lake Dam on an unnamed tributary of East Fork Fish Creek, Owen County, Indiana",
+      "lat": 39.36544,
+      "lng": -86.8799,
+      "geo_accuracy": "site",
+      "geo_source": "DamLookup / NID IN00389 Graybrook Lake Dam 39.36544, -86.87990; TopoQuest Greybrook Lake Dam N39.36616° W86.88056°",
+      "river_or_facility": "Graybrook / Greybrook Lake Dam (Graybrook Conservancy District)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "spillway"
+      ],
+      "cause_summary": "ASDSO 2013 compilation: hydrologic deficiency and overtopping in the June 2008 Indiana floods; about 40-acre lake emptied.",
+      "incident_date": "2008-06",
+      "latest_report_date": "2008-06-08",
+      "what_happened": "During the June 2008 central Indiana floods, Graybrook (Greybrook) Lake Dam in Owen County failed. ASDSO compilation: 0 fatalities; dam severely damaged; about 40-acre lake emptied; owned by the Graybrook Conservation Association. Herald-Times (8 June 2008): Owen County EMA said a dam break west of Spencer at Lake Greybrook may have helped damage the Ind. 46 bridge. International Water Power later summarized DNR/USACE assessments of many private dams after the same floods.",
+      "status": "emptied 2008; later NID IN00389 still listed at the named dam",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "ASDSO US Failures/Incidents compilation — Graybrook, June 2008, 0 dead, ~40-acre lake emptied",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "Herald-Times — Underwater (8 June 2008; Greybrook dam break west of Spencer)",
+          "url": "https://www.heraldtimesonline.com/story/news/2008/06/08/underwater/117915834/"
+        },
+        {
+          "label": "DamLookup / NID IN00389",
+          "url": "https://damlookup.com/dam/in00389"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from ASDSO compilation.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Indiana Department of Natural Resources (state)",
+      "year_built": "1945 (NID); DNR tract also says a dam was built after the state acquired the land around 1930",
+      "height_m": 6,
+      "reservoir_capacity": "221 acre-feet max / about 12–17 acres (NID 12; ASDSO 17; DNR tract 13)",
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "bean-blossom-1993-11",
+      "name": "Bean Blossom / Beanblossom Lake Dam",
+      "country": "United States",
+      "region": "Morgan-Monroe State Forest, Monroe County, Indiana",
+      "location_label": "Bean Blossom Dam on Greasy Creek, Monroe County, Indiana",
+      "lat": 39.29437,
+      "lng": -86.43814,
+      "geo_accuracy": "site",
+      "geo_source": "DamLookup / NID IN00361 Bean Blossom Dam 39.29437, -86.43814; TopoQuest N39.29505° W86.44000°",
+      "river_or_facility": "Bean Blossom Dam on Greasy Creek (Beanblossom Lake)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Indiana DNR lists Bean Blossom, Monroe County, November 1993 among past dam failures. ASDSO compilation: earthen dam failed under heavy-rain pressure.",
+      "incident_date": "1993-11",
+      "latest_report_date": "1993-11-15",
+      "what_happened": "In November 1993 the state-owned Bean Blossom Dam on Greasy Creek in Morgan-Monroe State Forest failed. Indiana DNR forestry tract history: a dam across Greasy Creek had created an approximately 13-acre Beanblossom Lake; the dam was breached in the fall of 1993 and the lake completely drained. ASDSO compilation: 1993, Monroe County, 0 deaths; 17-acre lake water flowed over Anderson Road and forced one man from his home. NID IN00361: 21 ft / 12 acres / 221 acre-feet; last inspection 15 November 1993. Indiana DNR water page still lists it among past failures and publishes a photo of the failed dam.",
+      "status": "breached 1993; lakebed remains (DNR tract file: reconstruction was planned)",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Indiana DNR — Dams & Levees, past failures (Bean Blossom, November 1993)",
+          "url": "https://www.in.gov/dnr/water/dams-and-levees/"
+        },
+        {
+          "label": "Indiana DNR forestry tract file — dam breached fall 1993, ~13-acre lake drained",
+          "url": "https://www.in.gov/dnr/forestry/files/fo-MorganMonroeComp13Tract10Revised.pdf"
+        },
+        {
+          "label": "ASDSO US Failures/Incidents compilation — Bean Blossom Lake, 0 dead",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "DamLookup / NID IN00361",
+          "url": "https://damlookup.com/dam/in00361"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from ASDSO compilation. Prince’s North / Roger Lake overtoppings the same week are not invented as separate failures.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Earlham Lake Estates, Inc.",
+      "year_built": "1963 (NID IN00339)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "earlham-lake-2008-06",
+      "name": "Earlham Lake Dam",
+      "country": "United States",
+      "region": "Johnson County, Indiana (near Morgantown)",
+      "location_label": "Earlham Lake Dam on a tributary of Indian Creek, Johnson County, Indiana",
+      "lat": 39.34999,
+      "lng": -86.18447,
+      "geo_accuracy": "site",
+      "geo_source": "DamLookup / NID IN00339 Earlham Lake Dam 39.34999, -86.18447",
+      "river_or_facility": "Earlham Lake Dam (Earlham Lake Estates)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "spillway"
+      ],
+      "cause_summary": "International Water Power, citing Indiana DNR / USACE post-flood assessments: Earlham Lake Dam in Johnson County failed during the June 2008 floods.",
+      "incident_date": "2008-06",
+      "latest_report_date": "2008",
+      "what_happened": "During the June 2008 Indiana floods Earlham Lake Dam failed. International Water Power: DNR and USACE teams found Earlham Lake Dam in Johnson County had failed, while Prince’s North Lake and Roger Lake in the same county had overtopped. ASDSO 2013 compilation: 0 fatalities; Callon Road washed out, eliminating road access to 78 homes for 5 days; hydrologic deficiency / overtopping. NID IN00339: earth dam, 1963, significant hazard, later still listed unsatisfactory.",
+      "status": "failed 2008; NID IN00339 remains listed (unsatisfactory as of 2018 inspection extract)",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "International Water Power — Earlham Lake Dam failed (DNR/USACE June 2008 assessments)",
+          "url": "https://www.waterpowermagazine.com/news/action-needed-at-indiana-dams-following-floods/"
+        },
+        {
+          "label": "ASDSO US Failures/Incidents compilation — Earlham, 0 dead; Callon Road / 78 homes",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "DamLookup / NID IN00339",
+          "url": "https://damlookup.com/dam/in00339"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Ecology and ASDSO compilation.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "alexander-lake-1982-12",
+      "name": "Alexander Lake Dam",
+      "country": "United States",
+      "region": "Kitsap County near Bremerton / Gorst, Washington",
+      "location_label": "Alexander Lake Dam, Kitsap County, Washington",
+      "lat": 47.54565,
+      "lng": -122.72181,
+      "geo_accuracy": "site",
+      "geo_source": "USGS GNIS / TopoQuest Alexander Lake Dam (feature 1532240) N47.54565° W122.72181°",
+      "river_or_facility": "Alexander Lake Dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "WA Ecology: spillway undermined and failed during heavy rains (December 1982).",
+      "incident_date": "1982-12",
+      "latest_report_date": "2013",
+      "what_happened": "In December 1982 Alexander Lake Dam near Bremerton failed. WA Ecology notable-failures list: spillway undermined and failed during heavy rains; damage at a fish hatchery and homes in Gorst; 0 lives lost. ASDSO 2013 compilation repeats 0 deaths and hatchery/Gorst damage.",
+      "status": "historical / named dam still mapped at GNIS",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "WA Ecology — Notable Dam Failures (Alexander Lake, Dec 1982, 0 lives)",
+          "url": "https://appswr.ecology.wa.gov/docs/WaterRights/wrwebpdf/damfailure-ws.pdf"
+        },
+        {
+          "label": "ASDSO US Failures/Incidents compilation — Alexander Lake, Dec 1982, 0 dead",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "TopoQuest / GNIS — Alexander Lake Dam",
+          "url": "https://topoquest.com/place/washington/dam/alexander-lake-dam/1532240"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Ecology. Pin is the USGS-named dam to two decimals, not a surveyed 1950 breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "about $4,000 (WA Ecology)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lake-dawn-1950-02",
+      "name": "Lake Dawn Dam",
+      "country": "United States",
+      "region": "Clallam County near Port Angeles, Washington",
+      "location_label": "Lake Dawn Dam, Clallam County, Washington",
+      "lat": 48.04,
+      "lng": -123.42,
+      "geo_accuracy": "region",
+      "geo_source": "YellowMaps / USGS topo index Lake Dawn Dam, Clallam County 48.04, -123.42. ASDSO incident WA00000-194 has 0,0.",
+      "river_or_facility": "Lake Dawn Dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "WA Ecology: heavy rains caused overtopping and failure of the earthen dam (February 1950).",
+      "incident_date": "1950-02",
+      "latest_report_date": "2013",
+      "what_happened": "In February 1950 Lake Dawn Dam near Port Angeles failed. WA Ecology: heavy rains overtopped the earthen dam; 0 lives lost; 1 home destroyed; about $4,000 damage. ASDSO incident WA00000-194: failure, hydrologic/flooding, overtopping; precise calendar day unknown.",
+      "status": "historical / later Lake Dawn dam hydrologic analysis exists (Ecology OFTR 93-09, 1993)",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "WA Ecology — Notable Dam Failures (Lake Dawn, Feb 1950, 0 lives, 1 home, $4,000)",
+          "url": "https://appswr.ecology.wa.gov/docs/WaterRights/wrwebpdf/damfailure-ws.pdf"
+        },
+        {
+          "label": "ASDSO incident WA00000-194",
+          "url": "https://damsafety.org/incidents/WA00000-194"
+        },
+        {
+          "label": "YellowMaps — Lake Dawn Dam, Clallam County",
+          "url": "https://www.yellowmaps.com/usgs/topo.cfm?map=wa-1532581-lake-dawn-dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from ASDSO compilation and AP (homes not threatened). Pin is the village, not a surveyed dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Village of Breedsville",
+      "year_built": "1837 (AP / CBS)",
+      "height_m": null,
+      "reservoir_capacity": "8-acre pond (AP / CBS)",
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "breedsville-2008-09-17",
+      "name": "Breedsville Dam (South Branch Black River)",
+      "country": "United States",
+      "region": "Breedsville, Van Buren County, Michigan",
+      "location_label": "Breedsville Dam on the South Branch Black River, Breedsville, Michigan",
+      "lat": 42.346424,
+      "lng": -86.07308,
+      "geo_accuracy": "region",
+      "geo_source": "USGS GNIS / TopoQuest Breedsville populated place N42.346424° W86.073080°. Dam was at the village on the South Branch Black River (MI AG / EGLE). Not a surveyed abutment pin.",
+      "river_or_facility": "Breedsville Dam on the South Branch Black River",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Michigan AG / EGLE: in 2008 a dam at the village suffered a breach and an uncontrolled release of impounded water during heavy autumn rain.",
+      "incident_date": "2008-09-17",
+      "latest_report_date": "2022-02-15",
+      "what_happened": "In autumn 2008 the 1837 Breedsville Dam on the South Branch Black River burst. CBS/AP and mlive: 171-year-old dam; 8-acre pond; village of about 240; floodwaters did not threaten homes. Michigan Attorney General (2022): the 2008 breach caused an uncontrolled release; DEQ/EGLE told the village that reconstruction would need a permit. ASDSO compilation dates the break 17 September 2008, 0 fatalities, flooded park, earthen part of the 1837 Black River dam. Later unpermitted rebuild attempts led to a 2022 EGLE/AG suit and a dam-removal project at Breedsville Park.",
+      "status": "2008 breach; later unpermitted fill; state ordered removal",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Michigan AG — Nessel files action (2008 breach; uncontrolled release)",
+          "url": "https://www.michigan.gov/ag/news/press-releases/2022/02/15/ag-nessel-files-action-against-van-buren-county-village-for-violating-nrepa"
+        },
+        {
+          "label": "CBS Detroit / AP — 1837 dam burst in 2008; 8-acre pond",
+          "url": "https://www.cbsnews.com/detroit/news/egle-sues-michigan-village-over-its-attempt-to-rebuild-failed-dam/"
+        },
+        {
+          "label": "ASDSO US Failures/Incidents compilation — 17 Sept 2008, 0 dead, flooded park",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "TopoQuest / GNIS — Breedsville",
+          "url": "https://topoquest.com/place/michigan/civil/village-of-breedsville/2397447"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "upwards of 1,000 evacuated (ASDSO 2013 compilation; tagged Newmarket)",
+      "notes": "Deaths 0 from ASDSO compilation. Evacuation figure is the compilation’s, tagged Newmarket; dam pin is Nottingham Lake Dam NH00522.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Mill Pond View LLC (NID extract)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "nottingham-2007-04-16",
+      "name": "Nottingham Lake Dam (Little River)",
+      "country": "United States",
+      "region": "Nottingham, Rockingham County, New Hampshire",
+      "location_label": "Nottingham Lake Dam on the Little River, Nottingham, New Hampshire",
+      "lat": 43.1197,
+      "lng": -71.0508,
+      "geo_accuracy": "exact",
+      "geo_source": "DamLookup / NID NH00522 Nottingham Lake Dam 43.11970, -71.05080",
+      "river_or_facility": "Nottingham Lake Dam / Marston Pond / Little River Dam (NID NH00522)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "ASDSO 2013 compilation: Nottingham Dam NH00522 overtopped on 16 April 2007 during the Patriots' Day nor'easter.",
+      "incident_date": "2007-04-16",
+      "latest_report_date": "2008",
+      "what_happened": "On 16 April 2007, during the New England Patriots' Day storm, ASDSO’s compilation lists Nottingham Dam (NID NH00522) as overtopped, with 0 fatalities and 'upwards of 1000 evacuated,' tagging the row Newmarket. NID NH00522 is Nottingham Lake Dam on the Little River in the town of Nottingham (also called Marston Pond or Little River Dam), about six miles from Newmarket; the compilation’s Newmarket tag is not treated as a second dam. NID year modified 2008. Independent news confirmation of the 1,000-person figure at this dam was not re-fetched.",
+      "status": "overtopped 2007; NID lists year modified 2008",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "ASDSO US Failures/Incidents compilation — Nottingham Dam NH00522, 16 Apr 2007, 0 dead",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "DamLookup / NID NH00522 — Nottingham Lake Dam",
+          "url": "https://damlookup.com/dam/nh00522"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from ASDSO compilation. Hearne-town flood damage not copied. McGuire downstream not added as a separate record this pass.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Callaway Family Limited Partnership (NID extract)",
+      "year_built": "1961 (NID TX02133)",
+      "height_m": 6,
+      "reservoir_capacity": "298 acre-feet max / 25 acres (NID)",
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "callaway-2004-05-13",
+      "name": "Callaway Dam (Calloway Lake / McGuire Lakes No. 1)",
+      "country": "United States",
+      "region": "Near Hearne, Robertson County, Texas",
+      "location_label": "Callaway Dam on a tributary of Little Pin Oak Creek, Robertson County, Texas",
+      "lat": 30.9199,
+      "lng": -96.5468,
+      "geo_accuracy": "exact",
+      "geo_source": "ASDSO incident TX02133-2731 / NID TX02133 30.9199, -96.5468",
+      "river_or_facility": "Callaway Dam / Calloway Lake (NID TX02133; former name McGuire Lakes No. 1)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "ASDSO 2013 compilation: Callaway Dam was overtopped by about 1.5 feet in a storm of about 47% of the PMP (15 inches in 6 hours) before it failed. Texas Task Force 1: dam collapse at Calloway Lake.",
+      "incident_date": "2004-05-13",
+      "latest_report_date": "2004-05-14",
+      "what_happened": "On 13 May 2004, after extreme rain in the Brazos valley (Texas Task Force 1: more than 17 inches from 12 May in the basin), Callaway Dam near Hearne failed. ASDSO 2013 compilation: 0 fatalities; overtopped about 1.5 feet before failure; about 15 inches in 6 hours (~47% PMP); McGuire Dam downstream also overtopped at least 3 feet and failed (sequence unknown); the stream does not go through Hearne, so Hearne flooding is not attributed to these breaches. TX-TF1 after-action: neighboring Robertson County had a dam collapse at Calloway Lake. The later ASDSO incident row TX02133-2731 recodes the same date as non-failure overtopping; the 2013 compilation and TX-TF1 collapse language are used here. NID: 20 ft, 25 acres, 298 acre-feet, built 1961, modified 2006.",
+      "status": "2004 failure/collapse in 2013 ASDSO compilation and TX-TF1; NID modified 2006",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "ASDSO US Failures/Incidents compilation — Callaway 13 May 2004, overtopped 1.5 ft then failed",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "Texas Task Force 1 — May 2004 Central Texas Flood (Calloway Lake dam collapse)",
+          "url": "http://texastaskforce1.org/wp-content/uploads/2019/08/2004_May-Central-Texas-Flood.pdf"
+        },
+        {
+          "label": "ASDSO incident TX02133-2731 (later row: overtopping / non-failure)",
+          "url": "https://damsafety.org/incidents/TX02133-2731"
+        }
+      ],
+      "severity": "moderate"
     }
   ]
 }
