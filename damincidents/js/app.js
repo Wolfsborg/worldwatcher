@@ -224,6 +224,65 @@
     return String(y);
   }
 
+  let lastScreenInterval = null;
+
+  function updateLastScreen() {
+    if (lastScreenInterval) {
+      clearInterval(lastScreenInterval);
+      lastScreenInterval = null;
+    }
+
+    const updatedEl = document.getElementById("data-updated");
+    if (!updatedEl) return;
+
+    fetch("data/last-screen.json")
+      .then((res) => {
+        if (!res.ok) throw new Error("not found");
+        return res.json();
+      })
+      .then((data) => {
+        if (!data.at) {
+          updatedEl.textContent = "";
+          return;
+        }
+
+        function render() {
+          const atDate = new Date(data.at);
+          if (isNaN(atDate.getTime())) {
+            updatedEl.textContent = "";
+            return;
+          }
+
+          const now = new Date();
+          const nowUTC = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+          const atUTC = Date.UTC(atDate.getUTCFullYear(), atDate.getUTCMonth(), atDate.getUTCDate());
+
+          const hours = String(atDate.getUTCHours()).padStart(2, "0");
+          const minutes = String(atDate.getUTCMinutes()).padStart(2, "0");
+          const time = hours + ":" + minutes + " UTC";
+
+          let datePrefix = "";
+          if (atUTC < nowUTC) {
+            const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+            const day = atDate.getUTCDate();
+            const month = months[atDate.getUTCMonth()];
+            datePrefix = day + " " + month + ", ";
+          }
+
+          const diffMs = Date.now() - atDate.getTime();
+          const delayed = diffMs > 90 * 60 * 1000 ? " · delayed" : "";
+
+          updatedEl.textContent = "Last screen " + datePrefix + time + delayed;
+        }
+
+        render();
+        lastScreenInterval = setInterval(render, 60000);
+      })
+      .catch(() => {
+        updatedEl.textContent = "";
+      });
+  }
+
   function parseYearInput(str) {
     if (!str) return NaN;
     const s = String(str).trim().toUpperCase();
@@ -1486,10 +1545,7 @@
     const currentLayer = layer;
     cache[currentLayer] = data;
     all = data[s.rowsKey] || data.incidents || data.events || [];
-    const updatedEl = document.getElementById("data-updated");
-    if (updatedEl) {
-      updatedEl.textContent = s.credit + (data.updated ? " · data updated " + formatDate(data.updated) : "");
-    }
+    updateLastScreen();
     const years = all.map(yearOf).filter((y) => y != null);
     if (years.length) {
       yearBounds.min = Math.min.apply(null, years);
