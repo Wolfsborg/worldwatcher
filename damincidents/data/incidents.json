@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 590,
+  "count": 610,
   "current_count": 21,
-  "historical_count": 569,
+  "historical_count": 589,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -32074,6 +32074,1089 @@
         }
       ],
       "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: Wikipedia says several direct casualties but no sourced count, and long-term radiation illness is not a dam-break toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Zapadnyi Mining and Chemical Combine (Soviet)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "600,000 m³ of radioactive waste (Wikipedia)",
+      "breach_size": null,
+      "downstream_risk": "Mailuu-Suu River into Fergana Valley irrigation (Kara Darya)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mailuu-suu-7-1958-04-16",
+      "name": "Mailuu-Suu uranium tailings dam No. 7",
+      "country": "Kyrgyzstan",
+      "region": "Mailuu-Suu, Jalal-Abad Region",
+      "location_label": "Mailuu-Suu, Jalal-Abad, Kyrgyzstan",
+      "lat": 41.26,
+      "lng": 72.44972,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia (1958 Mailuu-Suu tailings dam failure) 41°15′36″N 72°26′59″E",
+      "river_or_facility": "Mailuu-Suu tailings dam #7 / Mailuu-Suu River (Kara Darya tributary)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "earthquake",
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Wikipedia, citing regional studies: poor design, neglect, heavy rainfall and a reported earthquake caused tailings dam No. 7 to fail on 16 April 1958.",
+      "incident_date": "1958-04-16",
+      "latest_report_date": "2017-12-30",
+      "what_happened": "On 16 April 1958, while uranium mining and processing at Mailuu-Suu were still operating, tailings dam No. 7 failed. Wikipedia: about half the impoundment — 600,000 m³ of radioactive waste — flowed into the Mailuu-Suu River about 30 m downhill and travelled about 40 km into Uzbekistan and the Fergana Valley. The page reports some fatalities, building destruction and flood-plain contamination but says official silence makes a death count impossible to isolate. Mining left 23 uranium tailings dams and 13 waste-rock dumps above the town.",
+      "status": "Historical TSF failure; World Bank / EBRD remediation later; remaining ponds still a watch.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — 1958 Mailuu-Suu tailings dam failure",
+          "url": "https://en.wikipedia.org/wiki/1958_Mailuu-Suu_tailings_dam_failure"
+        },
+        {
+          "label": "Wikipedia — Mailuu-Suu (same 600,000 m³ release)",
+          "url": "https://en.wikipedia.org/wiki/Mailuu-Suu"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "thousands displaced (IRIN 8 April 2005)",
+      "notes": "Deaths 20 from the later-dated IRIN 8 April 2005 figure. BBC the same week said at least 6. Not the wider 2005 Afghan flood death total.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ministry of Energy and Water (modern)",
+      "year_built": "10th century (Ghaznavid; later repairs)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "band-e-sultan-2005-03-29",
+      "name": "Band-e Sultan (Sultan Mahmud) Dam",
+      "country": "Afghanistan",
+      "region": "Jaghatu District, Maidan Wardak (Ghazni River, ~30 km NW of Ghazni)",
+      "location_label": "Band-e Sultan, Maidan Wardak / Ghazni, Afghanistan",
+      "lat": 33.76,
+      "lng": 68.38,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Sultan Dam) 33°45′36″N 68°22′48″E",
+      "river_or_facility": "Band-e Sultan / Ghazni River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "IRIN/UNAMA and BBC: snowmelt and heavy rain produced a huge inflow; the barrage ruptured/burst. Mechanism beyond flood inflow is not independently established.",
+      "incident_date": "2005-03-29",
+      "latest_report_date": "2005-04-08",
+      "what_happened": "The Band-e Sultan irrigation barrage on the Ghazni River burst in late March 2005 (IRIN: early Tuesday; contemporaneous reports 29 March), sending floodwater about 30 km south into Ghazni city. BBC (29 March): at least six dead; Ghazni governor said thousands of hectares washed away and hundreds of shops destroyed. IRIN/The New Humanitarian (8 April 2005): the burst killed at least 20, destroyed hundreds of houses and displaced thousands. Wikipedia: 10th-century Ghaznavid origin; later operational again.",
+      "status": "Historical breach; later operating / maintenance works reported.",
+      "deaths": 20,
+      "sources": [
+        {
+          "label": "BBC — Devastation as Afghan dam bursts (at least 6 dead)",
+          "url": "http://news.bbc.co.uk/2/hi/south_asia/4391251.stm"
+        },
+        {
+          "label": "ReliefWeb / IRIN — Dam burst causes flooding in Ghazni",
+          "url": "https://reliefweb.int/report/afghanistan/afghanistan-dam-burst-causes-flooding-ghazni"
+        },
+        {
+          "label": "The New Humanitarian — 8 April 2005 (at least 20 dead)",
+          "url": "https://www.thenewhumanitarian.org/news/2005/04/08-1"
+        },
+        {
+          "label": "Wikipedia — Sultan Dam",
+          "url": "https://en.wikipedia.org/wiki/Sultan_Dam"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "incident_date stored as -2650 (third-millennium BC midpoint used by Wikipedia 'first half of the third millennium'). Deaths unknown.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "~2650 BC (unfinished)",
+      "height_m": 14,
+      "reservoir_capacity": "designed ~465,000–625,000 m³ (never completed)",
+      "construction": "masonry",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sadd-el-kafara-c2650bce",
+      "name": "Sadd el-Kafara (Wadi al-Garawi)",
+      "country": "Egypt",
+      "region": "Wadi al-Garawi, ~10 km SE of Helwan, Cairo",
+      "location_label": "Wadi Garawi, Helwan, Egypt",
+      "lat": 29.79528,
+      "lng": 31.43194,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Sadd el-Kafara) 29°47′43″N 31°25′55″E",
+      "river_or_facility": "Sadd el-Kafara / Wadi Garawi",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "construction_first_filling",
+        "spillway"
+      ],
+      "cause_summary": "Wikipedia: incomplete masonry-embankment dam lacked a protected spillway and a diversion trench; a flood overtopped and eroded the unfinished downstream face and core.",
+      "incident_date": "-2650",
+      "latest_report_date": "2018-09-20",
+      "what_happened": "Sadd el-Kafara ('Dam of the Infidels') on Wadi al-Garawi, about 10 km southeast of Helwan, is the oldest known large dam. Wikipedia: built in the first half of the third millennium BC (~2650 BC) for flood control; under construction 10–12 years and never completed. A flood destroyed the unfinished central section (no siltation in the reservoir). Height about 14 m, length about 110–111 m. If completed it would have stored roughly 465,000–625,000 m³. Rediscovered by Georg Schweinfurth in 1885. No sourced death count.",
+      "status": "Ancient construction-period failure; abutments remain.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Sadd el-Kafara",
+          "url": "https://en.wikipedia.org/wiki/Sadd_el-Kafara"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": 9,
+      "affected_or_evacuated": "about 400 evacuated; IFRC up to 354 houses flooded",
+      "notes": "Deaths 5 from Tengrinews 8 April and IFRC. Early MCHS note said four; later figure used.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Agrofirma Shanyrak / Tabigat XXI (tenant; ownership disputed in the criminal case)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Karaganda Oblast prosecutor; Emergency Situations Ministry",
+      "verification": "confirmed",
+      "id": "kokpekty-2014-03-31",
+      "name": "Kokpekty reservoir dam",
+      "country": "Kazakhstan",
+      "region": "Kokpekty village, Bukhar-Zhyrau District, Karaganda Region",
+      "location_label": "Kokpekty, Karaganda Region, Kazakhstan",
+      "lat": 49.933489,
+      "lng": 73.286313,
+      "geo_accuracy": "approx",
+      "geo_source": "Yandex Maps — Көкпекті селосы, Бұқар жырау ауданы 49.933489, 73.286313 (village; dam immediately upstream)",
+      "river_or_facility": "Kokpekty reservoir / Kokpekty River (to Nura)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Emergencies Minister Bozhko: rapid thaw and a mass of snow sliding into the lake created a wave that overtopped the dam; ice had not melted. Workers had been cutting a bypass channel.",
+      "incident_date": "2014-03-31",
+      "latest_report_date": "2014-10-09",
+      "what_happened": "The privately maintained Kokpekty reservoir dam eroded and burst at about 01:30 on 31 March 2014 (Karaganda akimat; CAWater-Info). Tengrinews (8 April) and IFRC (ReliefWeb compilation, 9 Oct 2014): five people killed; IFRC also nine injured, up to 354 houses flooded, about 400 evacuated, water 1.5–1.8 m in the village. Prosecutor opened negligence cases against the owner/tenant and district officials. Not Kyzyl-Agash 2010.",
+      "status": "Historical private-reservoir breach.",
+      "deaths": 5,
+      "sources": [
+        {
+          "label": "ReliefWeb / IFRC — flash flood from dam burst, 5 dead",
+          "url": "https://reliefweb.int/disaster/ff-2014-000048-kaz"
+        },
+        {
+          "label": "Tengrinews — criminal cases, 5 dead",
+          "url": "https://en.tengrinews.kz/disasters/criminal-cases-in-deadly-kokpekty-dam-burst-252748/"
+        },
+        {
+          "label": "CAWater-Info — Размыв плотины в Кокпекты",
+          "url": "https://www.cawater-info.net/bk/dam-safety/kokpekty.htm"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "927 evacuated (215 children); 78 households flooded; 10 houses destroyed",
+      "notes": "Deaths null: prosecutor statement does not give a fatality count. Not the 2024 Orsk (Russia) failure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Department of Natural Resources, Aktobe Region",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Aiteke Bi District prosecutor",
+      "verification": "confirmed",
+      "id": "shcherbakovskoye-2024-03-30",
+      "name": "Shcherbakovskoye Dam",
+      "country": "Kazakhstan",
+      "region": "Aiteke Bi District, Aktobe Region (Irgiz floodplain / T. Zhurgenov village)",
+      "location_label": "Aiteke Bi District, Aktobe Region, Kazakhstan",
+      "lat": 49.99,
+      "lng": 60.87,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Ayteke Bi District) 49°59′24″N 60°52′12″E — district seat Temirbek Zhurgenov; prosecutor places the breach and flooded village in this district",
+      "river_or_facility": "Shcherbakovskoye Dam / Irgiz River floodplain",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "Aiteke Bi prosecutor: the dam, repaired in 2023 by SK Grand Canal and accepted by the regional natural-resources department, failed its function in the flood period; criminal case for negligence (Art. 371 CC RK).",
+      "incident_date": "2024-03-30",
+      "latest_report_date": "2024-04-04",
+      "what_happened": "The Shcherbakovskoye Dam in Aiteke Bi District, Aktobe Region, burst on 30 March 2024 (regional prosecutor). Authorities evacuated 927 people (215 children) from T. Zhurgenov village. The Irgiz floodplain overflowed: 78 households flooded, 10 houses destroyed, power/gas/water cut. The dam was on the books of the Aktobe regional Department of Natural Resources. No death count in the prosecutor statement. Separate from the Orsk (Russia) dam collapse the same spring.",
+      "status": "2024 flood-season breach; criminal negligence case registered.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "FBRK — prosecutor on Shcherbakovskoye dam breach",
+          "url": "https://www.fbrk.kz/en-gb/articles/criminal-proceedings-have-been-initiated-against-aktobe-officials-over-dam-breach"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 for the 7 May collapse (no fatalities in contemporaneous reports). June 2011 Dulkadir illness claims are not attached as this dam-break toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Eti Gümüş A.Ş.",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kütahya Governorate; later criminal cases",
+      "verification": "confirmed",
+      "id": "eti-gumus-2011-05-07",
+      "name": "Eti Gümüş Gümüşköy cyanide tailings dam",
+      "country": "Turkey",
+      "region": "Gümüşköy, Kütahya (about 34 km from the provincial centre)",
+      "location_label": "Gümüşköy, Kütahya, Turkey",
+      "lat": 39.472222,
+      "lng": 29.758333,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikidata Q6700098 Gümüşköy, Kütahya 39°28′20″N 29°45′30″E (village; plant is adjacent)",
+      "river_or_facility": "Eti Gümüş three-stage cyanide tailings dam",
+      "type": "tailings",
+      "category": "partial_breach",
+      "causes": [
+        "structural_design",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Contemporaneous AA/Bianet: the middle embankment of the three-stage cyanide tailings dam collapsed on 7 May 2011, sending supernatant into the lower cells and loading the last dike. TMMOB warned of a possible full release.",
+      "incident_date": "2011-05-07",
+      "latest_report_date": "2011-05-11",
+      "what_happened": "On 7 May 2011 the middle dike of Eti Gümüş A.Ş.'s three-stage cyanide tailings dam near Gümüşköy, Kütahya, collapsed. Water from the upper cell spread into the lower two; the lowest dike was at risk. Production was stopped; the governor said the situation was under control and that there was no cyanide release to villages that day. Bianet/TMMOB: cyanide tailings overflowed toward pond 1. Later June 2011 Dulkadir poisonings are a separate allegation and are not copied as this event's death or injury count. No fatalities reported for the 7 May collapse.",
+      "status": "Partial internal dike collapse; production halted then resumed.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Dünya — Siyanür barajında çökme (8 May 2011)",
+          "url": "https://www.dunya.com/gundem/siyanur-barajinda-cokme-haberi-144505"
+        },
+        {
+          "label": "Bianet — Kütahya siyanür tehlikesi (TMMOB)",
+          "url": "https://bianet.org/haber/kutahya-siyanur-tehlikesiyle-burun-buruna-129850"
+        },
+        {
+          "label": "Global Rights / Today's Zaman — villagers after tailings failure",
+          "url": "https://globalrights.info/2011/05/villagers-call-for-closure-of-kuetahya-company-after-tailings-failure/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Heap-leach pad, not a water-reservoir dam. Deaths 9 from Wikipedia after recovery of all victims. Separate from Yedikardeş 2021.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Anagold Madencilik (SSR Mining / Çalık Lidya)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 10 million m³ sliding mass (Wikipedia)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Erzincan prosecutor; AFAD",
+      "verification": "confirmed",
+      "id": "copler-heap-2024-02-13",
+      "name": "Çöpler gold mine heap-leach pad",
+      "country": "Turkey",
+      "region": "Çöpler, İliç, Erzincan Province",
+      "location_label": "Çöpler Gold Mine, İliç, Erzincan, Turkey",
+      "lat": 39.426,
+      "lng": 38.522,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Çöpler mine disaster) 39°25′34″N 38°31′19″E",
+      "river_or_facility": "Çöpler heap-leach pad / Sabırlı Stream (Euphrates tributary)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "landslide"
+      ],
+      "cause_summary": "Wikipedia / prosecutor: heap-leach pile about twice design height, excess solution, and blasting; SSR's later review blamed a third-party liner shear-strength error. Classed here as a mining-waste containment failure (heap-leach pad, not a conventional TSF).",
+      "incident_date": "2024-02-13",
+      "latest_report_date": "2024-06-10",
+      "what_happened": "At 14:28 TRT on 13 February 2024 the Çöpler gold-mine heap-leach pad at İliç failed as a flow-type landslide. Wikipedia: about 10 million m³ moved ~800 m toward a creek; nine workers were buried. All nine bodies were recovered by 10 June 2024. Anagold / SSR Mining operated the mine. Culverts on Sabırlı Stream were closed to keep cyanide-bearing material out of the Euphrates. Not the 2021 Yedikardeş tailings failure.",
+      "status": "Mine closed after the slide; nine dead recovered.",
+      "deaths": 9,
+      "sources": [
+        {
+          "label": "Wikipedia — Çöpler mine disaster",
+          "url": "https://en.wikipedia.org/wiki/%C3%87%C3%B6pler_mine_disaster"
+        },
+        {
+          "label": "BBC — Nine workers missing after landslide",
+          "url": "https://www.bbc.com/news/world-europe-68279916"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 for the dam. 2017 earthquake deaths (hundreds) are not a dam-break toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ministry of Water Resources",
+      "year_built": 1961,
+      "height_m": 128,
+      "reservoir_capacity": "3 billion m³ (Wikipedia total)",
+      "construction": "rockfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "World Bank / Ministry of Water Resources; University of Sulaimani",
+      "verification": "confirmed",
+      "id": "darbandikhan-2017-11-12",
+      "name": "Darbandikhan Dam (2017 earthquake damage)",
+      "country": "Iraq",
+      "region": "Darbandikhan, Sulaymaniyah Governorate, Kurdistan Region",
+      "location_label": "Darbandikhan Dam, Sulaymaniyah, Iraq",
+      "lat": 35.11278,
+      "lng": 45.70639,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Darbandikhan Dam) 35°06′46″N 45°42′23″E",
+      "river_or_facility": "Darbandikhan Dam / Sirwan (Diyala) River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "Mw 7.3 Sarpol-e Zahab earthquake of 12 November 2017, about 30 km from the dam, produced crest cracks, settlement and landslides onto the spillway. The dam did not breach.",
+      "incident_date": "2017-11-12",
+      "latest_report_date": "2017-11-27",
+      "what_happened": "The 12 November 2017 Iran–Iraq border earthquake damaged Darbandikhan Dam, a 128 m rockfill dam with clay core completed in 1961. Hydro Review / NRT: vertical and horizontal cracks in the upper dam, one about 450 m long; landslides put rock on the spillway; generation halted. Operators lowered the reservoir. World Bank and Ministry of Water Resources inspected Darbandikhan and Dokan. ICOLD/remediation papers: the dam survived; core was judged intact; later rehabilitation. No dam-related deaths. Earthquake fatalities on both sides of the border are a separate event and are not copied here.",
+      "status": "Earthquake-damaged; later rehabilitated; operating.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Wikipedia — Darbandikhan Dam",
+          "url": "https://en.wikipedia.org/wiki/Darbandikhan_Dam"
+        },
+        {
+          "label": "Hydro Review — earthquake damages Darbandikhan Dam",
+          "url": "https://www.renewableenergyworld.com/hydro-power/dams-civil-structures/deadly-iran-iraq-earthquake-damages-darbandikhan-dam/"
+        },
+        {
+          "label": "ReliefWeb — World Bank and ministry evaluate Darbandikhan and Dokan",
+          "url": "https://reliefweb.int/report/iraq/world-bank-and-ministry-water-resources-evaluate-darbandikhan-and-dokan-dams-following"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Separate from Fergoug/Habra 1881 and 1927 already in the DB.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1880–1882",
+      "height_m": 30,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "cheurfas-1885-02-08",
+      "name": "Cheurfas Dam (1885 abutment failure)",
+      "country": "Algeria",
+      "region": "Oued Mekerra, ~20 km upstream of Sig (Saint-Denis-du-Sig), Mascara / Oran",
+      "location_label": "Cheurfas Dam, Oued Mekerra, Algeria",
+      "lat": 35.4,
+      "lng": -0.25,
+      "geo_accuracy": "approx",
+      "geo_source": "Gazetteer / coordinategeografiche.it Barrage des Cheurfas 35.4 N, 0.25 W (spot dam feature)",
+      "river_or_facility": "Barrage des Cheurfas / Oued Mekerra",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Encyclopédie AFN and USGS PP 1723: the 1880–82 masonry dam's right abutment sat on talus and alluvium; the 8 February 1885 flood carried away the right half of the dam.",
+      "incident_date": "1885-02-08",
+      "latest_report_date": "2007",
+      "what_happened": "Cheurfas, a ~30–37 m masonry gravity dam built 1880–82 on the Oued Mekerra to irrigate the Sig plain, failed on 8 February 1885. Encyclopédie de l'AFN: the right-bank abutment ground was swept away, taking that part of the dam. USGS PP 1723 (Schuster): a flood removed the right half; the right end had been founded on talus/alluvium. Rebuilt by 1892 with a dog-leg onto limestone. The flood wave overthrew the downstream Sig reservoir the same day (separate record). No sourced death count for Cheurfas itself. Not Fergoug 1881 or 1927.",
+      "status": "Rebuilt 1892; later Cheurfas II replacement.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Encyclopédie de l'AFN — Barrage des Cheurfas",
+          "url": "https://encyclopedie-afn.org/Barrage_-_Cheurfas"
+        },
+        {
+          "label": "USGS PP 1723 — Cheurfas 1885 abutment/landslide case",
+          "url": "https://pubs.usgs.gov/pp/1723/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Same flood as Cheurfas; recorded as the named downstream dam that was overthrown.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sig-1885-02",
+      "name": "Sig reservoir dam (1885 cascade from Cheurfas)",
+      "country": "Algeria",
+      "region": "Sig (Saint-Denis-du-Sig), Mascara Province, Oued Mekerra / Sig River",
+      "location_label": "Sig, Mascara, Algeria",
+      "lat": 35.52778,
+      "lng": -0.18611,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Sig, Algeria) 35°31′40″N 0°11′10″W; town is just downstream of the historic Sig/Petit barrage",
+      "river_or_facility": "Sig / Saint-Denis-du-Sig reservoir on Oued Mekerra",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Contemporary Scientific American summary: the Cheurfas flood wave topped the Sig dam by 18 ft and overthrew it.",
+      "incident_date": "1885-02",
+      "latest_report_date": "1885",
+      "what_happened": "After the 8 February 1885 Cheurfas breach, the flood rushed down the Mekerra/Sig and overtopped the downstream Sig reservoir dam by about 18 feet, overthrowing it (Scientific American 'Reservoir Dams' compilation). Wikipedia (Sig) still describes Cheurfas dams 25 km upstream and a Petit Barrage 3.2 km upstream of town. No sourced death count isolated to the Sig dam. Cascade of Cheurfas, not a second Fergoug event.",
+      "status": "Historical cascade failure; later irrigation works at Sig.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Scientific American supplement — Reservoir Dams Part 6 (Cheurfas then Sig)",
+          "url": "https://chestofbooks.com/crafts/scientific-american/sup5/Reservoir-Dams-Part-6.html"
+        },
+        {
+          "label": "Wikipedia — Sig, Algeria (Cheurfas 25 km upstream)",
+          "url": "https://en.wikipedia.org/wiki/Sig,_Algeria"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 for the dam. Manjil earthquake fatalities are not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Regional Water Company of Gilan",
+      "year_built": 1962,
+      "height_m": 106,
+      "reservoir_capacity": "1.76–1.82 km³ (Wikipedia)",
+      "construction": "concrete",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sefid-rud-1990-06-21",
+      "name": "Sefidrud (Manjil) Dam — 1990 earthquake damage",
+      "country": "Iran",
+      "region": "Manjil, Gilan Province, Alborz",
+      "location_label": "Sefidrud Dam, Manjil, Iran",
+      "lat": 36.7586861,
+      "lng": 49.3877861,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Sefidrud Dam) 36°45′31.27″N 49°23′16.03″E",
+      "river_or_facility": "Sefidrud / Shahbanu Farah / Manjil Dam on Sefīd-Rūd",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "Wikipedia and WCEE: the 21 June 1990 Mw 7.4 Manjil earthquake cracked concrete along lift joints and buttress heads; the dam did not fail.",
+      "incident_date": "1990-06-21",
+      "latest_report_date": "2013-06-07",
+      "what_happened": "Sefidrud Dam (Manjil), a 106 m buttress dam completed 1962, stood near the epicentre of the 21 June 1990 Manjil–Rudbar earthquake. Wikipedia: portions of its concrete cracked; repairs and mitigation in 1991. WCEE reconnaissance: cracks along horizontal lift joints and spalling at vertical joints on central buttresses; carriageway slabs damaged; the dam experienced among the strongest shaking recorded on a large concrete dam and did not collapse. Nearby Sangar diversion-dam gates were damaged. No dam-break. The earthquake death toll (tens of thousands) is not this dam's toll.",
+      "status": "Repaired 1991; operating.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Wikipedia — Sefidrud Dam",
+          "url": "https://en.wikipedia.org/wiki/Sefidrud_Dam"
+        },
+        {
+          "label": "WCEE — Damage of Sefid Rud buttress dam, Manjil 1990",
+          "url": "https://wcee.nicee.org/wcee/article/17WCEE/2f-0002.pdf"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Watch, not a failure. Scenario death estimates (0.5–1.5 million) are not recorded as deaths. deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ministry of Water Resources",
+      "year_built": 1986,
+      "height_m": 113,
+      "reservoir_capacity": "11.1 km³ (Wikipedia total)",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "USACE; SIGIR; Trevi; Ministry of Water Resources",
+      "verification": "confirmed",
+      "id": "mosul-dam-watch",
+      "name": "Mosul Dam (foundation dissolution watch)",
+      "country": "Iraq",
+      "region": "Nineveh Governorate, ~45 mi / 70 km north of Mosul on the Tigris",
+      "location_label": "Mosul Dam, Nineveh, Iraq",
+      "lat": 36.63028,
+      "lng": 42.82306,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Mosul Dam) 36°37′49″N 42°49′23″E",
+      "river_or_facility": "Mosul Dam / Tigris (Lake Dahuk)",
+      "type": "reservoir_dam",
+      "category": "watch",
+      "causes": [
+        "foundation",
+        "poor_maintenance"
+      ],
+      "cause_summary": "USACE 2006 and later US/Iraqi statements: the earthfill dam sits on soluble gypsum; continuous grouting is required. Not a breach.",
+      "incident_date": "2016-02-29",
+      "latest_report_date": "2022-07-29",
+      "what_happened": "Mosul Dam (113 m earthfill, clay core; opened 7 July 1986) has required continuous foundation grouting since first filling because gypsum under the dam dissolves. USACE (2006) called it the most dangerous dam in the world for internal erosion of the foundation. On 29 February 2016 the US Embassy and Prime Minister Haider al-Abadi publicly warned of collapse risk and discussed evacuation along the Tigris; hypothetical death figures in those warnings are scenarios, not an event toll. Trevi began repair grouting in 2016; Iraqi officials said in 2017–2019 that acute danger had receded. The dam did not fail. ISIS held the site briefly in August 2014; it was retaken 17 August 2014. Not a war-destroyed dam.",
+      "status": "Operating; ongoing grouting / watch. Trevi repairs 2016–2019.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Mosul Dam",
+          "url": "https://en.wikipedia.org/wiki/Mosul_Dam"
+        },
+        {
+          "label": "The Economist — A watery time-bomb (13 Feb 2016)",
+          "url": "https://www.economist.com/middle-east-and-africa/2016/02/13/a-watery-time-bomb"
+        },
+        {
+          "label": "The Guardian — Iraqi PM and US warnings (29 Feb 2016)",
+          "url": "https://www.theguardian.com/world/2016/feb/29/mosul-dam-collapse-iraq-us-warning"
+        }
+      ],
+      "severity": "watch"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Watch / formation, not a failure. 1911 earthquake–landslide deaths not copied as a dam-break toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1911,
+      "height_m": 567,
+      "reservoir_capacity": "16.074 km³ (Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "usoi-sarez-watch",
+      "name": "Usoi landslide dam / Sarez Lake",
+      "country": "Tajikistan",
+      "region": "Murghab River, Gorno-Badakhshan (Pamir)",
+      "location_label": "Usoi Dam, Sarez Lake, Tajikistan",
+      "lat": 38.281,
+      "lng": 72.6134,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Usoi Dam) 38°16′52″N 72°36′48″E",
+      "river_or_facility": "Usoi Dam / Sarez Lake / Murghab (Bartang) River",
+      "type": "reservoir_dam",
+      "category": "watch",
+      "causes": [
+        "earthquake",
+        "landslide"
+      ],
+      "cause_summary": "Wikipedia: the 1911 Sarez earthquake triggered the landslide that created the dam. The dam has not failed; seepage roughly matches inflow. Ongoing seismic/landslide watch.",
+      "incident_date": "1911-02-18",
+      "latest_report_date": "2015-12-07",
+      "what_happened": "On 18 February 1911 (Usoi Dam Wikipedia) a large earthquake-triggered landslide on the Murghab River buried the village of Usoi and formed the world's tallest dam, natural or man-made (about 567 m), impounding Sarez Lake (~16 km³). Water does not overtop; it seeps through the dam at a rate that roughly matches inflow. USGS/UN and later papers treat a future breach as a high-consequence hazard for the Bartang–Panj. The dam survived the 7 December 2015 Tajikistan earthquake with no visible deterioration (Wikipedia). The 1911 landslide/earthquake deaths (Wikipedia Sarez: about 302, including Usoi village) are not a dam-break flood toll.",
+      "status": "Natural landslide dam still standing; long-term watch.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Usoi Dam",
+          "url": "https://en.wikipedia.org/wiki/Usoi_Dam"
+        },
+        {
+          "label": "Wikipedia — Sarez Lake",
+          "url": "https://en.wikipedia.org/wiki/Sarez_Lake"
+        }
+      ],
+      "severity": "watch"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Watch only. No failure and no sourced death count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1976,
+      "height_m": 125,
+      "reservoir_capacity": "560–575 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sarsang-watch",
+      "name": "Sarsang Reservoir dam",
+      "country": "Azerbaijan",
+      "region": "Tartar and Kalbajar districts (Tartar River)",
+      "location_label": "Sarsang Reservoir, Azerbaijan",
+      "lat": 40.1814028,
+      "lng": 46.6170667,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Sarsang Reservoir) 40°10′53.05″N 46°37′1.44″E",
+      "river_or_facility": "Sarsang Dam / Tartar River",
+      "type": "reservoir_dam",
+      "category": "watch",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "Wikipedia summarises Azerbaijan's position that poor maintenance during the Nagorno-Karabakh conflict left the 125 m dam a flood threat. No breach has occurred. The dispute is politicised; this record is a watch, not a failure.",
+      "incident_date": "2016",
+      "latest_report_date": "2026",
+      "what_happened": "Sarsang Reservoir was built on the Tartar River in 1976 (125 m dam; Wikipedia volume 560–575 million m³; 50 MW plant). During the Nagorno-Karabakh conflict Azerbaijan argued that lack of maintenance threatened hundreds of thousands downstream; a 2016 White House petition response is noted on the Wikipedia page. The dam did not fail. Azerbaijan announced reconstruction to begin around the reservoir's 50th year. Recorded as a named watch that was missing from the DB.",
+      "status": "Operating; reconstruction announced; watch not a breach.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Sarsang Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Sarsang_Reservoir"
+        }
+      ],
+      "severity": "watch"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the 2010 Pakistan flood death total onto Tori Bund. Upgraded from no-geo hold using Kandhkot pin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "MDPI: three openings with cumulative bottom width about 1,004 m",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tori-bund-2010-08-06",
+      "name": "Tori Bund (Indus right-bank levee)",
+      "country": "Pakistan",
+      "region": "Kandhkot taluka, Kashmore District, Sindh — Indus right bank ~30 km downstream of Guddu Barrage",
+      "location_label": "Tori Bund, Kandhkot, Sindh, Pakistan",
+      "lat": 28.244,
+      "lng": 69.181,
+      "geo_accuracy": "approx",
+      "geo_source": "Dawn locates the 6 Aug 2010 Tori dyke breach in Kandhkot taluka, Kashmore; pin is Wikipedia Kandhkot 28°14′38″N 69°10′52″E",
+      "river_or_facility": "Tori Bund / Tori Levee, Indus right bank",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "GSA Today / MDPI: Tori Bund breached 6–7 August 2010 on the rising flood, not at peak; levee had lost about 1.7 m of design height and was in poor repair. Overtopping was not the primary cause.",
+      "incident_date": "2010-08-06",
+      "latest_report_date": "2021-03-02",
+      "what_happened": "The Tori Bund, an Indus right-bank levee about 30 km downstream of Guddu Barrage in Kandhkot taluka, breached at mile 0/2 on 6 August 2010 (some papers 6–7 August), days before the flood crest. GSA Today: the northern avulsion inundated about 8,000 km². Dawn (2021): the breach spelled disaster from Kashmore along the right bank. Academic papers do not give a Tori-only death count; the 2010 Pakistan flood total is not copied here. Previously held no-geo; pin is Kandhkot town in the taluka of the breach.",
+      "status": "Historical Indus levee breach / avulsion; later rebuilt higher and wider.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "GSA Today — Causation of 2010 Indus flooding (Tori Bund 6–7 Aug)",
+          "url": "https://www.geosociety.org/gsa-today/january-2013/causation-and-avoidance-of-catastrophic-flooding-along-the-indus-river-pakistan"
+        },
+        {
+          "label": "MDPI Water — Tori levee breach flood hazard",
+          "url": "https://www.mdpi.com/2073-4441/13/5/604"
+        },
+        {
+          "label": "Dawn — Kashmore-Kandhkot history (Tori dyke 6 Aug 2010)",
+          "url": "https://www.dawn.com/news/1635837"
+        },
+        {
+          "label": "Wikipedia — Kandhkot (pin)",
+          "url": "https://en.wikipedia.org/wiki/Kandhkot"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "War-attack incident on ancient sluices. Not a re-broadcast of marib-ancient-575. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "8th century BC–6th century AD (ruins)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "marib-sluice-2015-05-31",
+      "name": "Great Dam of Marib northern sluice / southern spillway (2015 airstrike)",
+      "country": "Yemen",
+      "region": "Ma'rib, ~7 km SW of ancient Marib",
+      "location_label": "Ancient Marib Dam sluices, Yemen",
+      "lat": 15.396506,
+      "lng": 45.244231,
+      "geo_accuracy": "site",
+      "geo_source": "Structurae (Marib Dam) 15°23′47.42″N 45°14′39.23″E",
+      "river_or_facility": "Ancient Great Dam of Marib (northern sluice / southern spillway ruins)",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "war_attack"
+      ],
+      "cause_summary": "National Geographic, UNESCO-quoted coverage and EAMENA: a Saudi-led coalition airstrike in late May 2015 hit the ancient dam's stone sluice/spillway. Yemeni officials attributed the strike to the coalition.",
+      "incident_date": "2015-05-31",
+      "latest_report_date": "2015-06-12",
+      "what_happened": "The stone northern sluice and/or southern spillway of the already-ruined ancient Great Dam of Marib were damaged by an airstrike on the night of 31 May 2015 (Structurae; National Geographic 3 June; The Art Newspaper 12 June). DAI's Iris Gerlach was told the better-preserved northern sluice was hit; EAMENA describes a breach in the southern spillway stonework. UNESCO DG Irina Bokova called the dam one of the most important heritage sites on the Peninsula. This is war damage to the ancient hydraulic works, not a new reservoir-dam collapse. The ancient dam's 6th-century failure is a separate existing record (marib-ancient-575). No sourced deaths for this strike.",
+      "status": "Heritage damage to ancient sluices; modern 1980s dam is a separate structure upstream.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "National Geographic — Great Dam of Marib damaged in airstrike",
+          "url": "https://www.nationalgeographic.com/science/article/150603-Yemen-ancient-Sheba-dam-heritage-destruction-Middle-East-archaeology"
+        },
+        {
+          "label": "The Art Newspaper — Great Dam of Marib damaged",
+          "url": "https://www.theartnewspaper.com/2015/06/12/great-dam-of-marib-and-al-qahira-castle-in-yemen-damaged-by-saudi-airstrikes"
+        },
+        {
+          "label": "Structurae — Marib Dam (31 May 2015 airstrike)",
+          "url": "https://structurae.net/en/structures/marib-dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "950 evacuated (MES)",
+      "notes": "Deaths 0 from MES (no casualties). Glacier-melt outburst of a named lake dam, not unstructure flooding.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": "450,000–500,000 m³ (MES)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ministry of Emergency Situations of Kyrgyzstan",
+      "verification": "confirmed",
+      "id": "takyr-tor-2025-06-27",
+      "name": "Takyr-Tor glacial-lake dam",
+      "country": "Kyrgyzstan",
+      "region": "Issyk-Ata District, Chuy Region (Almaluu / Kebek-Biy / Gornaya Serafimovka)",
+      "location_label": "Takyr-Tor, Issyk-Ata, Chuy, Kyrgyzstan",
+      "lat": 42.6875,
+      "lng": 74.8445,
+      "geo_accuracy": "region",
+      "geo_source": "Falling Rain / Kyrgyz Wikipedia Almaluu (Ысык-Ата) 42.6875 N, 74.8445 E — downstream village named by MES; lake is the high-altitude source",
+      "river_or_facility": "Takyr-Tor mountain lake (natural dam)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Kyrgyz MES: outburst caused by glacier melt (not in the rainfall-overtopping vocab); water volume in the lake reached about 450,000–500,000 m³ and the dam breached at about 17:31 on 27 June 2025.",
+      "incident_date": "2025-06-27",
+      "latest_report_date": "2025-07-01",
+      "what_happened": "At about 17:31 on 27 June 2025 the natural dam of high-mountain Lake Takyr-Tor in Issyk-Ata District, Chuy Region, breached (MES / AKIpress). About 450,000–500,000 m³ were released. The flood destroyed a road bridge between Almaluu and Kebek-Biy (Gornaya Serafimovka). MES: 950 people evacuated; no casualties; houses and the care home were not threatened. International Charter activation 969. Moraine/ice-dam outburst, analogous to the existing Panjshir record — not ordinary valley flooding without a structure.",
+      "status": "GLOF; bridge destroyed; evacuees housed; no deaths reported.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "AKIpress — Takyr-Tor breach, 950 evacuated",
+          "url": "https://akipress.com/news:837106:Takyr-Tor_mountain_lake_breach__950_evacuated,_bridge_destroyed/"
+        },
+        {
+          "label": "Kyrgyz MES — Такыр-Тор 21:00",
+          "url": "https://www.mchs.gov.kg/ru/news/takyr-tor-kolu-bojuncha-saat-2100go-karata-maalymat/"
+        },
+        {
+          "label": "International Charter — Flood in Kyrgyzstan activation 969",
+          "url": "https://disasterscharter.org/activations/flood-in-kyrgyzstan-activation-969-"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. 1963 Moulouya flood deaths not copied. Construction-period foundation damage.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1967,
+      "height_m": 64,
+      "reservoir_capacity": "730 million m³ original (Wikipedia)",
+      "construction": "concrete",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mohamed-v-1963-05",
+      "name": "Mohamed V Dam (1963 left-bank foundation damage)",
+      "country": "Morocco",
+      "region": "Moulouya River, 35 km south of Zaio, Nador Province",
+      "location_label": "Mohamed V Dam, Nador, Morocco",
+      "lat": 34.66306,
+      "lng": -2.93833,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Mohamed V Dam) 34°39′47″N 02°56′18″W",
+      "river_or_facility": "Barrage Mohamed V / Moulouya River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "foundation"
+      ],
+      "cause_summary": "Yabiladi, quoting the Directorate of Surveillance and Risk Prevention: the May 1963 Moulouya flood carried away the left-bank foundation of the Mohamed V dam, then still being completed (opened 1967).",
+      "incident_date": "1963-05",
+      "latest_report_date": "2024",
+      "what_happened": "During the May 1963 Moulouya Valley floods, the left-bank foundation of the Mohamed V dam under construction on the Moulouya (35 km south of Zaio) was carried away (Yabiladi / Directorate of Surveillance and Risk Prevention). Wikipedia: the arch-gravity dam opened in 1967 (64 m; irrigation, 23 MW). The structure was later reinforced and operates. The ~170 deaths reported for the 1963 Moulouya floods are a basin flood figure and are not copied onto this dam. Incident, not a completed-dam collapse.",
+      "status": "Completed 1967; operating Ramsar reservoir.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Yabiladi — Morocco's 1963 floods (Mohamed V left bank)",
+          "url": "https://en.yabiladi.com/articles/details/153932/morocco-s-1963-floods-destruction-stamps.html"
+        },
+        {
+          "label": "Wikipedia — Mohamed V Dam",
+          "url": "https://en.wikipedia.org/wiki/Mohamed_V_Dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Jeddah city flood totals onto this dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "um-al-khair-2011-01",
+      "name": "Um Al-Khair Dam (Jeddah)",
+      "country": "Saudi Arabia",
+      "region": "Um Al-Khair, Jeddah, east of Al-Haramain highway, Wadi Mraikh",
+      "location_label": "Old Um Al-Khair Dam, Jeddah, Saudi Arabia",
+      "lat": 21.525,
+      "lng": 39.275,
+      "geo_accuracy": "site",
+      "geo_source": "Sustainability 15:1074 (2023): old Um Al-Khair dam between 21°31′–21°32′N and 39°16′–39°17′E; midpoint used",
+      "river_or_facility": "Um Al-Khair Dam / Wadi Mraikh",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Sustainability 2023: the Um Al-Khair dam was partially broken in the January 2011 Jeddah flash floods and was later demolished and replaced about 0.9 km east in 2012.",
+      "incident_date": "2011-01",
+      "latest_report_date": "2023-01-06",
+      "what_happened": "The Um Al-Khair flood-control dam in the Wadi Mraikh catchment, Jeddah, was partially broken during the January 2011 flash floods (Abdelkarim et al., Sustainability 15:1074). Authorities demolished it months later and built the New Um Al-Khair Dam in 2012 about 0.9 km east (serpentine earth dam, max height 9.5 m). Jeddah flood death totals from 2009 or 2011 are not copied onto this structure; the paper does not give a dam-only death count.",
+      "status": "Old dam demolished; replaced 2012.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Abdelkarim et al., Sustainability 15:1074 (2023) — old Um Al-Khair partially broken Jan 2011",
+          "url": "https://www.mdpi.com/2071-1050/15/2/1074"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the Al-Lith / Makkah flood death figure onto this unnamed-count dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "under construction 2018",
+      "height_m": null,
+      "reservoir_capacity": "about 90 million m³ (Arab News / ministry proposal)",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "wadi-al-lith-2018-11-23",
+      "name": "Wadi Al-Lith dam (under construction)",
+      "country": "Saudi Arabia",
+      "region": "Wadi Al-Lith, Makkah Province (upstream of Al-Lith city)",
+      "location_label": "Wadi Al-Lith, Makkah Province, Saudi Arabia",
+      "lat": 20.15,
+      "lng": 40.26667,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Al Lith) 20°9′0″N 40°16′0″E — city at the wadi mouth; peer-reviewed papers place the failed dam upstream in Wadi Al-Lith",
+      "river_or_facility": "Wadi Al-Lith dam (under construction, 2018)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Arab News 2 Dec 2018: the landfill liner of the dam still under construction collapsed. Youssef et al. 2021 and a 2026 Water-Climate paper treat 23 November 2018 as a dam-failure flood.",
+      "incident_date": "2018-11-23",
+      "latest_report_date": "2026",
+      "what_happened": "On 23 November 2018 an earthen dam under construction on Wadi Al-Lith failed during extreme upstream rain (Youssef et al., Zeitschrift für Geomorphologie 2021; IWA Water and Climate 2026). Arab News (2 Dec 2018): Makkah Gov. Prince Khaled Al-Faisal said the landfill liner of the still-unfinished Wadi Al-Lith dam had collapsed and ordered a remediation team; design storage about 90 million m³. Papers model a dam-breach wave reaching agricultural land and, later, Al-Lith city. Flood-event fatality figures in later risk papers are not isolated to this dam and are not copied. Pin is Al-Lith city (region), not a surveyed crest.",
+      "status": "Failed during construction; later replacement dam projects proposed/started.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Arab News — Wadi Al-Lith dam liner collapsed (2 Dec 2018)",
+          "url": "https://www.arabnews.com/node/1414536/saudi-arabia"
+        },
+        {
+          "label": "Youssef et al., Z. Geomorph. 63 (2021) — Al-Lith 23 Nov 2018 dam failure",
+          "url": "https://www.schweizerbart.de/papers/zfg/detail/63/98241/The_devastating_flood_in_the_arid_region_a_consequence_of_rainfall_and_dam_failure_Case_study_Al_Lith_flood_on_23th_November_2018_Kingdom_of_Saudi_Arabia"
+        },
+        {
+          "label": "Wikipedia — Al Lith (city pin)",
+          "url": "https://en.wikipedia.org/wiki/Al_Lith"
+        }
+      ],
+      "severity": "major"
     }
   ]
 }
