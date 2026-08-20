@@ -792,6 +792,7 @@
     "last_updated", "in_baseline",
     "flood_type", "river_or_basin", "peak_discharge", "return_period",
     "rainfall_mm", "inundation_area", "warning_issued", "related_dam_id",
+    "changelog",
   ]);
 
   function formatAttrValue(key, value) {
@@ -829,6 +830,34 @@
     keys.sort((a, b) => (ATTR_LABEL[a] || a).localeCompare(ATTR_LABEL[b] || b));
     if (!keys.length) return "";
     return "<h3>Additional attributes</h3>" + attrListHtml(inc, keys);
+  }
+
+  function changelogHtml(inc) {
+    const log = inc.changelog;
+    if (!log || !Array.isArray(log) || log.length === 0) return "";
+    
+    const BY_LABEL = {
+      night_qc: "Night QC",
+      historic_backfill: "Historic backfill",
+      hourly_watch: "Hourly watch",
+      qc: "QC",
+      backfill: "Backfill",
+    };
+    
+    const items = log.map((entry) => {
+      const dateStr = entry.date || "";
+      const formattedDate = formatDate(dateStr);
+      const byLabel = BY_LABEL[entry.by] || entry.by || "";
+      const changeText = escapeHtml(entry.change || "");
+      
+      return '<li class="changelog-item">' +
+        '<span class="changelog-date">' + escapeHtml(formattedDate) + '</span>' +
+        (byLabel ? ' · <span class="changelog-by">' + escapeHtml(byLabel) + '</span>' : '') +
+        (changeText ? ' · ' + changeText : '') +
+        '</li>';
+    }).join("");
+    
+    return "<h3>Change log</h3><ul class='changelog'>" + items + "</ul>";
   }
 
   function setDetailTab(name) {
@@ -917,6 +946,7 @@
         "<h3>Sources</h3><ul class='sources'>" + sources + "</ul>" +
         "<h3>Record</h3>" + attrListHtml(inc, META_KEYS) +
         extraAttributesHtml(inc) +
+        changelogHtml(inc) +
       "</div>";
     setDetailTab(lastDetailTab);
     els.detail.hidden = false;
