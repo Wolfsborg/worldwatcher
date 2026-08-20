@@ -927,10 +927,11 @@ html[data-theme="light"] .pin-name {
     top: auto;
     left: 12px;
     right: 12px;
-    bottom: 0;
+    bottom: env(safe-area-inset-bottom, 0px);
     width: auto;
-    max-height: 52vh;
+    max-height: 52dvh;
     border-radius: 16px 16px 0 0;
+    padding-bottom: max(20px, env(safe-area-inset-bottom, 0px));
   }
 }
 
@@ -1151,10 +1152,11 @@ textarea {
     top: auto;
     left: 12px;
     right: 12px;
-    bottom: 0;
+    bottom: env(safe-area-inset-bottom, 0px);
     width: auto;
-    max-height: 78vh;
+    max-height: 78dvh;
     border-radius: 16px 16px 0 0;
+    padding-bottom: max(18px, env(safe-area-inset-bottom, 0px));
   }
 }
 
@@ -1227,7 +1229,7 @@ input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; marg
   position: fixed;
   z-index: 18;
   left: 50%;
-  bottom: 16px;
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
   transform: translateX(-50%);
   display: flex;
   flex-direction: row;
@@ -1767,10 +1769,11 @@ button.chip {
     top: auto;
     left: 12px;
     right: 12px;
-    bottom: 0;
+    bottom: env(safe-area-inset-bottom, 0px);
     width: auto;
-    max-height: 70vh;
+    max-height: 70dvh;
     border-radius: 16px 16px 0 0;
+    padding-bottom: max(22px, env(safe-area-inset-bottom, 0px));
   }
   .stat-overview-grid {
     grid-template-columns: repeat(2, 1fr);
