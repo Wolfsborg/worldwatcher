@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 768,
+  "count": 788,
   "current_count": 25,
-  "historical_count": 743,
+  "historical_count": 763,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -41879,6 +41879,1110 @@
         }
       ],
       "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "ARA-Sul / Republic of Mozambique",
+      "year_built": "1977 (Water Power / Zutari; Wikipedia opening date also lists 2006 after later rehab)",
+      "height_m": 48,
+      "reservoir_capacity": "2.88 km³ (Wikipedia); Water Power also cites 2.9 million m³, treated as a unit error versus the km³ figure",
+      "construction": "embankment",
+      "purpose": "irrigation",
+      "volume_released": "uncontrolled outlet discharge ~1,000 m³/s (Zutari); reservoir not emptied in sources fetched",
+      "breach_size": null,
+      "downstream_risk": "downstream Olifants / Limpopo irrigation; structural safety of the dam threatened (Zutari)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "massingir-outlet-2008-05-22",
+      "name": "Massingir Dam bottom-outlet conduits (2008 burst)",
+      "country": "Mozambique",
+      "region": "Massingir District, Gaza Province, on the Rio dos Elefantes",
+      "location_label": "Massingir Dam, Gaza, Mozambique",
+      "lat": -23.87917,
+      "lng": 32.14444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Massingir Dam) 23°52′45″S 32°8′40″E",
+      "river_or_facility": "Barragem de Massingir / Rio dos Elefantes (Olifants)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "Water Power / NS Energy: the two 8×8 m horseshoe outlet conduits burst on 22 May 2008 after the highest hydrostatic pressure of the dam's life; cause given as deficient reinforcement detailing. Zutari: uncontrolled discharge about 1,000 m³/s.",
+      "incident_date": "2008-05-22",
+      "latest_report_date": "2018",
+      "what_happened": "On 22 May 2008 the two 8 m × 8 m horseshoe-shaped reinforced-concrete conduits that form Massingir Dam's bottom outlet works suffered a bursting failure. International Water Power (and the same article on NS Energy): reservoir level was 122.4 m, 7.4 m above the gated spillway sill, after crest gates had been installed a few years earlier — the highest hydrostatic pressure the conduits had seen. The right-hand downstream radial gate had been closed about six hours earlier. The paper attributes the failure to deficient reinforcement detailing that let pore pressure pull tensile steel from the curved faces. Zutari, later appointed for rehabilitation: sudden failure of the outlet conduits caused an uncontrolled discharge of about 1,000 m³/s and threatened the dam's structural safety. Demolition of loose concrete began in October 2008. No source fetched reported deaths from this outlet failure. Wikipedia gives the dam coordinates and 46 m height; Zutari gives 48 m and a 4.8 km crest.",
+      "status": "Outlet works failed 2008; later rehabilitated (steel liners / radial-gate works reported by Zutari and ATB).",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "International Water Power — Lessons from Massingir",
+          "url": "https://www.waterpowermagazine.com/analysis/lessons-from-massingir/"
+        },
+        {
+          "label": "Zutari — Massingir Dam rehabilitation",
+          "url": "https://www.zutari.com/project/massingir-dam/"
+        },
+        {
+          "label": "Wikipedia — Massingir Dam (coords)",
+          "url": "https://en.wikipedia.org/wiki/Massingir_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths 11: Battle of Calueque / Calueque Wikipedia — 8 SAI soldiers killed by a bomb at the dam. Not a flood death count. Do not copy wider battle or civil-war totals.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "incomplete 1976; rehab 2015",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": 11,
+      "id": "calueque-1988-06-27",
+      "name": "Calueque Dam (1988 Cuban airstrike)",
+      "country": "Angola",
+      "region": "Kunene River at Calueque, Kunene Province, near the Namibia border",
+      "location_label": "Calueque Dam, Kunene, Angola",
+      "lat": -17.272778,
+      "lng": 14.544444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Calueque Dam) 17°16′22″S 14°32′40″E",
+      "river_or_facility": "Calueque Dam / Kunene River (Ruacana scheme)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "war_attack"
+      ],
+      "cause_summary": "Wikipedia Calueque / Battle of Calueque and contemporaneous NYT/UPI: Cuban MiG-23s bombed the incomplete dam, bridge, sluice gates and pumps on 27 June 1988.",
+      "incident_date": "1988-06-27",
+      "latest_report_date": "2021-04-16",
+      "what_happened": "Construction of Calueque Dam on the Kunene began in 1972 and was abandoned about 70 percent complete in 1976 because of the Angolan Civil War. On 27 June 1988, during the Battle of Calueque, Cuban MiG-23s attacked the installation then occupied by South African forces. Wikipedia (Calueque): the first wave bombed the bridge and sluice gates; another bombed the pumps and generator; a third destroyed the pipeline to Ovamboland. Wikipedia (Battle of Calueque): the dam and improvised bridge were struck by parachute-retarded bombs; another bomb exploded near a parked Buffel and killed eleven South African soldiers from 8 SAI. Wikipedia Calueque Dam: the 1988 attack severely damaged the incomplete structure. Rehabilitation began in 2012 and was concluded in 2015. Deaths recorded here are the 11 soldiers killed by the bomb at the dam, not a flood toll; battle-wide SADF dead were 12.",
+      "status": "Damaged 1988; rehabilitated 2012–2015; operating.",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Wikipedia — Calueque Dam (coords; 1988 attack)",
+          "url": "https://en.wikipedia.org/wiki/Calueque_Dam"
+        },
+        {
+          "label": "Wikipedia — Calueque (bombing of sluices, pumps, pipeline; 11 SADF)",
+          "url": "https://en.wikipedia.org/wiki/Calueque"
+        },
+        {
+          "label": "Wikipedia — Battle of Calueque (27 June 1988 MiG strike)",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Calueque"
+        },
+        {
+          "label": "New York Times 30 June 1988 — Pretoria on the raid",
+          "url": "https://www.nytimes.com/1988/06/30/world/pretoria-says-angola-raid-is-threat-to-talks-on-peace.html"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1975,
+      "height_m": 58,
+      "reservoir_capacity": "2,547 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "gove-1986-08",
+      "name": "Gove Dam (August 1986 sabotage)",
+      "country": "Angola",
+      "region": "Kunene River about 75 km south of Huambo, Huambo Province",
+      "location_label": "Gove Dam, Huambo, Angola",
+      "lat": -13.451175,
+      "lng": 15.868336,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Gove Dam) 13°27′4.23″S 15°52′6.01″E",
+      "river_or_facility": "Gove Dam / Kunene River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "war_attack"
+      ],
+      "cause_summary": "APRH paper on Gove dam safety: first sabotage in August 1986 destroyed completion equipment, the construction camp, the water intake and the bottom outlet before foundation grouting was finished.",
+      "incident_date": "1986-08",
+      "latest_report_date": "2012",
+      "what_happened": "Gove Dam, an earth-and-rockfill embankment on the upper Kunene, was completed in 1975 (Wikipedia: 58 m high, 1,112 m long). An APRH (Portuguese Association of Water Resources) paper on the later repair says that in August 1986, while consolidation grouting of the fill and foundation waterproofing were still unfinished, a first sabotage destroyed completion equipment, the construction camp, the water intake and the bottom outlet. Many works from those years were never recorded on as-built drawings. No source fetched reported deaths for this 1986 attack. A second, more severe sabotage followed in February 1990 (separate record).",
+      "status": "Damaged 1986; further sabotage 1990; reinaugurated 2012.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "APRH — A barragem do Gove (1986 sabotage)",
+          "url": "https://aprh.pt/pt/publicacoes/artigos/a-barragem-do-gove-um-desafio-a-seguranca-de-barragens/"
+        },
+        {
+          "label": "Wikipedia — Gove Dam (coords; 1975; dynamite 1990)",
+          "url": "https://en.wikipedia.org/wiki/Gove_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1975,
+      "height_m": 58,
+      "reservoir_capacity": "2,547 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "gove-1990-02",
+      "name": "Gove Dam (February 1990 dynamite sabotage)",
+      "country": "Angola",
+      "region": "Kunene River about 75 km south of Huambo, Huambo Province",
+      "location_label": "Gove Dam, Huambo, Angola",
+      "lat": -13.451175,
+      "lng": 15.868336,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Gove Dam) 13°27′4.23″S 15°52′6.01″E",
+      "river_or_facility": "Gove Dam / Kunene River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "war_attack"
+      ],
+      "cause_summary": "Wikipedia: the dam was partially destroyed by dynamite in 1990. APRH: February 1990 sabotage with the reservoir at full supply; charges placed on the left side via the downstream gallery.",
+      "incident_date": "1990-02",
+      "latest_report_date": "2012",
+      "what_happened": "Wikipedia: Gove Dam was partially destroyed by dynamite in 1990 during the Angolan Civil War; power-station construction had already been halted by fighting. The APRH repair paper dates a second sabotage to February 1990, with the reservoir at normal water level (NPA) and charges placed on the left side using the downstream gallery; one 5 kg TNT charge did not explode and was recovered by troops assigned to save the dam. Emergency measures were taken in wartime. The paper says the dam was never fully operated from near-completion until more than 30 years later. President José Eduardo dos Santos formally inaugurated the rehabilitated dam and 60 MW power station in August 2012. No source fetched reported deaths for the 1990 blast.",
+      "status": "Partially destroyed 1990; rehabilitated and inaugurated 2012.",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Wikipedia — Gove Dam (partially destroyed by dynamite 1990)",
+          "url": "https://en.wikipedia.org/wiki/Gove_Dam"
+        },
+        {
+          "label": "APRH — A barragem do Gove (February 1990 sabotage)",
+          "url": "https://aprh.pt/pt/publicacoes/artigos/a-barragem-do-gove-um-desafio-a-seguranca-de-barragens/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths left null: MSF and Mail & Guardian displacement figures are used; no sourced Goronyo-specific fatality count. Do not copy national 2010 flood deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1984 (commissioned 1992)",
+      "height_m": 21,
+      "reservoir_capacity": "976 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": "more than 100,000 (MSF); more than 130,000 (Sokoto officials via Mail & Guardian)",
+      "deaths": null,
+      "id": "goronyo-2010-09-08",
+      "name": "Goronyo Dam spillway (2010 breach)",
+      "country": "Nigeria",
+      "region": "Goronyo LGA, Sokoto State, on the Rima River",
+      "location_label": "Goronyo Dam, Sokoto State, Nigeria",
+      "lat": 13.53056,
+      "lng": 5.88222,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Goronyo Dam) 13°31′50″N 05°52′56″E",
+      "river_or_facility": "Goronyo Dam / Rima River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "spillway",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia and MSF: after gates were opened on 1 September 2010 to relieve a dangerously full reservoir, the spillway completely failed around midnight 7–8 September.",
+      "incident_date": "2010-09-08",
+      "latest_report_date": "2010-09-29",
+      "what_happened": "Goronyo is a 21 m sand-fill dam, 12.5 km long, completed 1984 and commissioned 1992, with about 976 million m³ storage (Wikipedia). Late-August 2010 storms filled the reservoir to dangerous levels. Wikipedia and MSF: gates were opened on 1 September, flooding Kagara village. On 8 September the spillway completely failed. MSF (Chris Houston, 9 September): around midnight / 01:00 the spillway burst; Kagara was hit again and surrounding villages were swamped; MSF later wrote that more than 100,000 people were forced from their homes after a large section of the spillway collapsed. Mail & Guardian, citing Sokoto officials three weeks later: more than 130,000 displaced. BHR Group later modelled the emergency spillway that had been breached in 2010. No source fetched gave a death count specific to this spillway failure; national 2010 flood totals are not copied.",
+      "status": "Spillway breached 2010; later rehabilitation / hydraulic modelling reported.",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Wikipedia — Goronyo Dam (coords; 1 Sep gates; 8 Sep spillway failed)",
+          "url": "https://en.wikipedia.org/wiki/Goronyo_Dam"
+        },
+        {
+          "label": "MSF — 100,000 displaced after Goronyo spillway collapse",
+          "url": "https://www.doctorswithoutborders.org/latest/nigeria-100000-displaced-flooding-north"
+        },
+        {
+          "label": "MSF Houston interview — spillway failed ~01:00 8 Sep",
+          "url": "https://www.doctorswithoutborders.org/latest/floods-nigeria-all-their-homes-crops-and-food-destroyed"
+        },
+        {
+          "label": "Mail & Guardian 29 Sep 2010 — 130,000 displaced (Sokoto officials)",
+          "url": "https://mg.co.za/article/2010-09-29-nigerian-flood-victims-face-food-shortages-disease-outbreak/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null: no sourced 1994 fatality count. Do not copy 2024 Alau deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1984–1986",
+      "height_m": 9,
+      "reservoir_capacity": "112 million m³ (TheCable / existing 2024 record)",
+      "construction": "embankment",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": "about 400,000 displaced in Maiduguri (TheCable)",
+      "deaths": null,
+      "id": "alau-1994-09-13",
+      "name": "Alau Dam (1994 collapse)",
+      "country": "Nigeria",
+      "region": "Konduga LGA, Borno State",
+      "location_label": "Alau, southwest of Maiduguri, Borno State, Nigeria",
+      "lat": 11.72417,
+      "lng": 13.285,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Alau Dam) — same pin as 2024 record",
+      "river_or_facility": "Alau Dam / Lake Alau on the Ngadda River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "TheCable (10 Sep 2024 rewind) and Daily Trust: on 13 September 1994 Alau Dam collapsed and flooded Maiduguri. Separate from the 2024 collapse.",
+      "incident_date": "1994-09-13",
+      "latest_report_date": "2024-09-10",
+      "what_happened": "TheCable (10 September 2024 rewind): on 13 September 1994 about 400,000 people in Maiduguri were displaced by a flood caused by the collapse of Alau Dam. The dam, built in 1986 in Alau (Konduga LGA) with a stated maximum storage of 112 million m³, was intended for irrigation and Maiduguri domestic supply. Daily Trust later called the 13 September 1994 break catastrophic and cited the same 400,000 displacement figure. Wikipedia (Alau Dam / Borno State flooding) also lists a 1994 failure distinct from 2012 and 2024. No source fetched gave a death count for 1994; 2024 deaths are not copied onto this record.",
+      "status": "Collapsed 1994; later repaired and failed again in 2024 (separate record).",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "TheCable — REWIND: 13 Sep 1994 Alau collapse; 400,000 displaced",
+          "url": "https://www.thecable.ng/rewind-in-1994-alau-dam-collapsed-displacing-400000-persons-in-maiduguri/"
+        },
+        {
+          "label": "Daily Trust — Lessons from Alau Dam (13 Sep 1994 break)",
+          "url": "https://dailytrust.com/preparing-for-dam-breaks-flooding-lessons-from-alau-dam/"
+        },
+        {
+          "label": "Wikipedia — Alau Dam (1994 listed among prior failures)",
+          "url": "https://en.wikipedia.org/wiki/Alau_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null: no sourced 2012 Alau-specific fatality count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1984–1986",
+      "height_m": 9,
+      "reservoir_capacity": "112 million m³",
+      "construction": "embankment",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "alau-2012",
+      "name": "Alau Dam (2012 evacuation-valve release)",
+      "country": "Nigeria",
+      "region": "Konduga LGA, Borno State",
+      "location_label": "Alau, southwest of Maiduguri, Borno State, Nigeria",
+      "lat": 11.72417,
+      "lng": 13.285,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Alau Dam) — same pin as 2024 record",
+      "river_or_facility": "Alau Dam / Lake Alau on the Ngadda River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia (Alau Dam): in 2012 torrential rainfall caused the dam to open its evacuation valve, releasing a massive amount of water that flooded Maiduguri. Not treated here as a wall collapse (that is the 1994 and 2024 records).",
+      "incident_date": "2012",
+      "latest_report_date": "2024",
+      "what_happened": "Wikipedia (Alau Dam): in 2012 torrential rainfall caused the Alau Dam to open its evacuation valve, releasing a massive amount of water that caused flooding in Maiduguri and surrounding areas. Some 2024 recaps loosely say the dam 'broke' in 2012; this record follows Wikipedia's valve-opening description and is filed as a controlled release, separate from the 1994 and 2024 collapses. No source fetched gave a 2012 death count or a day-level date. National 2012 flood deaths are not copied.",
+      "status": "Valve release 2012; dam later collapsed in 2024 (separate record).",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikipedia — Alau Dam (2012 evacuation valve)",
+          "url": "https://en.wikipedia.org/wiki/Alau_Dam"
+        },
+        {
+          "label": "Vanguard — 2012 valve opening in 32-year recap",
+          "url": "https://www.vanguardngr.com/2024/09/maiduguri-deadly-flood-inside-ill-fated-dam-3rd-disaster-in-32-years/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ghana Water Company",
+      "year_built": "1974–1978",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "weija-2014-06",
+      "name": "Weija Dam (June 2014 controlled spillage)",
+      "country": "Ghana",
+      "region": "Weija, Greater Accra, on the Densu River",
+      "location_label": "Weija Dam, Accra, Ghana",
+      "lat": 5.56972,
+      "lng": -0.34417,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Weija Dam) 5°34′11″N 0°20′39″W",
+      "river_or_facility": "Weija Dam / Densu River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: June 2014 spillage flooded Glefe. Citi FM 10 June 2014 reported the Weija dam spillage flooding Glefe.",
+      "incident_date": "2014-06-10",
+      "latest_report_date": "2014-06-10",
+      "what_happened": "Weija Dam on the Densu, completed 1978 and operated by Ghana Water Company, is Accra's main raw-water reservoir (Wikipedia). In June 2014 a controlled spillage flooded Glefe. Wikipedia notes victims also blamed the Bortianor Traditional Council for not dredging the Densu mouth before Homowo. Citi FM dated the Glefe flooding report 10 June 2014. No source fetched reported deaths at this spill.",
+      "status": "Controlled spill 2014; dam operating.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikipedia — Weija Dam (coords; June 2014 Glefe spill)",
+          "url": "https://en.wikipedia.org/wiki/Weija_Dam"
+        },
+        {
+          "label": "Citi FM 10 June 2014 — Weija dam spillage floods Glefe",
+          "url": "https://citifmonline.com/2014/06/weija-dam-spillage-floods-glefe/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ghana Water Company",
+      "year_built": "1974–1978",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": null,
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "weija-2017-03",
+      "name": "Weija Dam (March 2017 controlled spillage)",
+      "country": "Ghana",
+      "region": "Weija, Greater Accra, on the Densu River",
+      "location_label": "Weija Dam, Accra, Ghana",
+      "lat": 5.56972,
+      "lng": -0.34417,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Weija Dam) 5°34′11″N 0°20′39″W",
+      "river_or_facility": "Weija Dam / Densu River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: in March 2017 GWCL spilled Weija to keep the reservoir below its maximum, flooding Tetegu and Oblogo.",
+      "incident_date": "2017-03",
+      "latest_report_date": "2017",
+      "what_happened": "Wikipedia (Weija Dam): in March 2017 the Ghana Water Company began to spill water to prevent the reservoir exceeding its maximum during the rainy season, causing flooding in Tetegu and Oblogo. Daily Graphic coverage of that spill is cited on the Wikipedia page. No source fetched reported deaths at this spill.",
+      "status": "Controlled spill 2017; dam operating.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikipedia — Weija Dam (March 2017 Tetegu / Oblogo)",
+          "url": "https://en.wikipedia.org/wiki/Weija_Dam"
+        },
+        {
+          "label": "Daily Graphic — Weija Dam spillage floods communities",
+          "url": "https://www.graphic.com.gh/news/general-news/weija-dam-spillage-floods-communities.html"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ghana Water Company",
+      "year_built": "1974–1978",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": null,
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "weija-2021-03-30",
+      "name": "Weija Dam (March 2021 controlled spillage)",
+      "country": "Ghana",
+      "region": "Weija, Greater Accra, on the Densu River",
+      "location_label": "Weija Dam, Accra, Ghana",
+      "lat": 5.56972,
+      "lng": -0.34417,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Weija Dam) 5°34′11″N 0°20′39″W",
+      "river_or_facility": "Weija Dam / Densu River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia / Angel Online 30 March 2021: GWCL opened three gates after the level jumped 1.9 ft in 24 hours to 48.1 ft, 1.1 ft above the 47 ft safe operating level.",
+      "incident_date": "2021-03-30",
+      "latest_report_date": "2021-03-30",
+      "what_happened": "Wikipedia (Weija Dam): in March 2021 the gates were opened after an abrupt 1.9-foot rise in 24 hours, from 46.2 ft to 48.1 ft — 1.1 ft above the 47 ft safe operating level — to guard against collapse. Angel Online (30 March 2021): GWCL opened three gates. No source fetched reported deaths at this spill.",
+      "status": "Controlled spill March 2021; dam operating.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikipedia — Weija Dam (March 2021 48.1 ft)",
+          "url": "https://en.wikipedia.org/wiki/Weija_Dam"
+        },
+        {
+          "label": "Angel Online 30 Mar 2021 — GWCL opens three Weija gates",
+          "url": "https://www.angelonline.com.gh/gwcl-opens-three-gates-of-weija-dam-to-allow-spillage/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null: Xinhua said no reported deaths yet on 7 Oct 2022; no later Weija-specific count fetched.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ghana Water Company",
+      "year_built": "1974–1978",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": null,
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": "thousands displaced (Xinhua 7 Oct 2022)",
+      "deaths": null,
+      "id": "weija-2022-10",
+      "name": "Weija Dam (October 2022 controlled spillage)",
+      "country": "Ghana",
+      "region": "Weija, Greater Accra, on the Densu River",
+      "location_label": "Weija Dam, Accra, Ghana",
+      "lat": 5.56972,
+      "lng": -0.34417,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Weija Dam) 5°34′11″N 0°20′39″W",
+      "river_or_facility": "Weija Dam / Densu River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: spilled twice in October 2022 after heavy rain (49.5 ft at the first opening). Xinhua 7 Oct 2022: thousands displaced; GWCL said the reservoir had exceeded maximum; no deaths yet reported that day.",
+      "incident_date": "2022-10",
+      "latest_report_date": "2022-10-27",
+      "what_happened": "Wikipedia (Weija Dam): in October 2022 the dam was spilled twice after heavy rainfall; the water level was 49.5 ft when gates were first opened and 47.9 ft at the later spill. Xinhua (7 October 2022): thousands of residents in southwestern Accra were displaced by the Weija spillage after weekend rains pushed the Densu reservoir above its maximum; GWCL communications manager Stanley Martey said the spill was necessary; Xinhua reported no deaths yet that day. Citinewsroom (27 October 2022): GWCL spilled again and asked residents to relocate. National Ghana flood deaths from other 2022 events are not copied. No later sourced Weija-specific death count was fetched.",
+      "status": "Controlled spills October 2022; dam operating.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikipedia — Weija Dam (October 2022 two spills)",
+          "url": "https://en.wikipedia.org/wiki/Weija_Dam"
+        },
+        {
+          "label": "Xinhua 7 Oct 2022 — thousands displaced; no deaths yet reported",
+          "url": "https://english.news.cn/20221008/0162c94d024f44aab8a7198dd1d61f54/c.html"
+        },
+        {
+          "label": "Citinewsroom 27 Oct 2022 — GWCL spills again",
+          "url": "https://www.citinewsroom.com/2022/10/gwcl-spills-excess-water-from-weija-dam-residents-asked-to-relocate/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Border dam; pin is the Wikipedia dam coordinate. Deaths null: not a breach. Do not use hypothetical failure fatalities.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Zambezi River Authority",
+      "year_built": 1960,
+      "height_m": 128,
+      "reservoir_capacity": "180–185 km³ (Wikipedia)",
+      "construction": "concrete_arch",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "kariba-plunge-pool-watch",
+      "name": "Kariba Dam (plunge-pool scour watch)",
+      "country": "Zimbabwe",
+      "region": "Kariba Gorge, Zambezi River (Zimbabwe–Zambia border)",
+      "location_label": "Kariba Dam, Zimbabwe / Zambia",
+      "lat": -16.52222,
+      "lng": 28.76167,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Kariba Dam) 16°31′20″S 28°45′42″E",
+      "river_or_facility": "Kariba Dam / Zambezi River (Lake Kariba)",
+      "type": "reservoir_dam",
+      "category": "watch",
+      "causes": [
+        "spillway",
+        "foundation"
+      ],
+      "cause_summary": "BBC 3 Oct 2014 and ZRA/KDRP: decades of spillway jets scoured an ~80 m plunge pool and a weak fault toward the dam toe. Rehabilitation, not a breach.",
+      "incident_date": "2014-10-03",
+      "latest_report_date": "2024",
+      "what_happened": "Kariba is a 128 m double-curvature arch dam opened in 1960, owned by the Zambezi River Authority (Wikipedia). BBC (3 October 2014), quoting engineers: spillway torrents had eroded the basalt into a vast crater undercutting the foundations; without repairs the dam could collapse. A March 2014 ZRA conference had already heard that the foundations had weakened (IRIN / New Zimbabwe). ZRA's later Kariba Dam Rehabilitation Project describes an ~80 m plunge pool, a weak fault, and reshaping works (excavation completed December 2023 per ZRA; cofferdam and concrete slab on the fault). This is a long-running safety watch, not a failure. Country coded Zimbabwe (Kariba town / south bank); the dam is jointly owned with Zambia. Construction-era worker deaths and hypothetical 3.5 million downstream lives are not copied as event deaths.",
+      "status": "Operating; plunge-pool reshape and spillway-gate rehab under KDRP (target mid-2020s).",
+      "verification": "confirmed",
+      "severity": "watch",
+      "sources": [
+        {
+          "label": "Wikipedia — Kariba Dam (coords; 2014 engineer warning; KDRP)",
+          "url": "https://en.wikipedia.org/wiki/Kariba_Dam"
+        },
+        {
+          "label": "BBC 3 Oct 2014 — engineers warn Kariba foundations scoured",
+          "url": "https://www.bbc.com/news/magazine-29419127"
+        },
+        {
+          "label": "ZRA — KDRP plunge-pool excavation complete (26 Dec 2023)",
+          "url": "https://www.zambezira.org/media-centre/press-release/update-kariba-dam-rehabilitation-project-kdrp"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Not a breach. Deaths null. Do not copy 2020 Tanzania national flood deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "TANESCO",
+      "year_built": "1967–1969",
+      "height_m": 43,
+      "reservoir_capacity": "600 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": "about 25,000 ordered to evacuate (Xinhua / Mwanga district)",
+      "deaths": null,
+      "id": "nyumba-ya-mungu-2020-01-08",
+      "name": "Nyumba ya Mungu Dam (2020 overflow / collapse warning)",
+      "country": "Tanzania",
+      "region": "Mwanga District, Kilimanjaro Region, on the Pangani River",
+      "location_label": "Nyumba ya Mungu Dam, Kilimanjaro, Tanzania",
+      "lat": -3.825833,
+      "lng": 37.469333,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Nyumba ya Mungu Dam) 03°49′33.0″S 37°28′9.6″E",
+      "river_or_facility": "Nyumba ya Mungu Dam / Pangani River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Xinhua 16 Feb 2020: Pangani Basin hydrologist said the 1960s dam started to overflow on 8 January 2020; Mwanga authorities ordered about 25,000 people to evacuate because the dam was 'on the brink of bursting'. It did not collapse in sources fetched.",
+      "incident_date": "2020-01-08",
+      "latest_report_date": "2020-02-17",
+      "what_happened": "Nyumba ya Mungu ('House of God') is a 43 m earth-and-rockfill dam on the Pangani completed in the late 1960s (Wikipedia: 8 MW, ~600 million m³). Xinhua (16 February 2020): Mwanga district ordered at least 25,000 villagers around the reservoir to evacuate because the dam was on the brink of bursting after overflowing in heavy rain. Pangani Basin hydrologist Philip Patrick said overflow began on 8 January 2020 and that Kilimanjaro, Simanjiro and Manyara authorities had been notified. FloodList repeated the ~25,000 evacuation order. No source fetched reported that the dam actually breached, and no death count for this overflow was fetched. National Tanzania flood deaths from that season are not copied.",
+      "status": "Overflowed January 2020; evacuation ordered mid-February; dam did not collapse in sources fetched.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Xinhua 16 Feb 2020 — 25,000 evacuate; overflow from 8 Jan",
+          "url": "http://www.xinhuanet.com/english/2020-02/17/c_138789344.htm"
+        },
+        {
+          "label": "FloodList — Nyumba ya Mungu collapse warning",
+          "url": "https://floodlist.com/africa/tanzania-evacuations-mwanga-dam-collapse-february-2020"
+        },
+        {
+          "label": "Wikipedia — Nyumba ya Mungu Dam (coords)",
+          "url": "https://en.wikipedia.org/wiki/Nyumba_ya_Mungu_Dam"
+        }
+      ]
+    },
+    {
+      "injured": "670 treated at Sendwe Hospital (interministerial report via Mongabay)",
+      "notes": "Deaths null: no sourced fatality count. Do not copy Kasulo Kolwezi missing-persons figures.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Congo Dongfang International Mining (CDM) / Zhejiang Huayou Cobalt",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "DRC Mines Ministry interministerial commission",
+      "affected_or_evacuated": "nearly 15,000 residents (ACP); 350 households assisted (commission via Mongabay)",
+      "deaths": null,
+      "id": "cdm-lubumbashi-2025-11-04",
+      "name": "CDM Lubumbashi containment / settling basin (2025 breach)",
+      "country": "Democratic Republic of the Congo",
+      "region": "Kasapa / Joli-Site, Commune Annexe, Lubumbashi, Haut-Katanga",
+      "location_label": "CDM plant, Kasapa, Lubumbashi, DRC",
+      "lat": -11.511389,
+      "lng": 27.425833,
+      "geo_accuracy": "site",
+      "geo_source": "sulphuric-acid.com CDM acid-plant pin 11°30′41″S 27°25′33″E (same CDM Lubumbashi works)",
+      "river_or_facility": "Congo Dongfang International Mining (CDM) main retention / settling basin",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance",
+        "structural_design"
+      ],
+      "cause_summary": "Semafor / BHRRC / JDD: on 4 November 2025 CDM's containment / main retention basin ruptured and released industrial effluent into Kasapa, Kamisepe and Kamatete. Mines minister said the works met no international standards.",
+      "incident_date": "2025-11-04",
+      "latest_report_date": "2026-03",
+      "what_happened": "On 4 November 2025 a containment dam / main retention basin at Congo Dongfang International Mining (CDM, Zhejiang Huayou Cobalt) in Lubumbashi failed. Semafor: the dam spilled 'several million cubic meters of electrolytes' that flooded hundreds of homes in three neighbourhoods. ACP: settling-pond water affected nearly 15,000 residents in Kasapa, Kamisipe and Kamatete; University of Lubumbashi experts cited copper-cobalt process chemicals and sulphuric acid; dead fish in the Lubumbashi River. JDD: rupture of the main retention basin on Tuesday 4 November; first seepage noted 3 November; Marché Moïse flooded. Mines minister Louis Watum, after a 6 November inspection, suspended CDM for three months, saying waste facilities lacked watertight barriers, structural stability, controls and an emergency plan. Mongabay (March 2026), citing the 13 February interministerial report: 670 people treated at Sendwe Hospital; assistance to 350 households. No source fetched gave a confirmed death count. Kasulo Kolwezi (Nov 2025) is a different event.",
+      "status": "Basin ruptured 4 Nov 2025; operations suspended; compensation process reported incomplete as of March 2026.",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Semafor — DRC suspends CDM after Lubumbashi dam spill",
+          "url": "https://www.semafor.com/article/11/10/2025/dr-congo-suspends-chinese-cobalt-miner-after-chemical-spill"
+        },
+        {
+          "label": "BHRRC — 4 Nov 2025 CDM containment dam failure",
+          "url": "https://www.business-humanrights.org/en/latest-news/drc-huayou-cobalt-subsidiary-suspended-operation-after-dam-failure-spilled-toxic-water-into-lubumbashi-incl-company-non-response/"
+        },
+        {
+          "label": "ACP — nearly 15,000 residents affected",
+          "url": "https://acp.cd/anglais/lubumbashi-the-waters-from-a-chinese-mining-companys-settling-pond-affects-nearly-15000-residents/"
+        },
+        {
+          "label": "Mongabay Mar 2026 — 670 treated; 350 households (commission)",
+          "url": "https://news.mongabay.com/2026/03/4-months-after-drc-mine-spill-residents-remain-impacted/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Cause left unknown: ZEMA statement as quoted does not name a mechanism. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Rongxin / Rongxing Investments Limited",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "ZEMA",
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "rongxing-2020-10-15",
+      "name": "Rongxin / Rongxing Kalulushi tailings ridge (2020 collapse)",
+      "country": "Zambia",
+      "region": "Chambishi / Kalulushi District, Copperbelt, near Luela Stream",
+      "location_label": "Rongxing plant, Kalulushi, Copperbelt, Zambia",
+      "lat": -12.688117,
+      "lng": 28.122706,
+      "geo_accuracy": "site",
+      "geo_source": "ZEMA EIS for Rongxing Investments — Leach Plant 2 12°41′17.22″S 28°7′21.74″E",
+      "river_or_facility": "Rongxin Investments tailings dam / Luela Stream (Kafue tributary)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Makanday quoting a ZEMA media statement dated 16 October 2020: the ridge of the tailings dam at Rongxin Investments collapsed on 15 October 2020, discharging slurry into Luela Stream.",
+      "incident_date": "2020-10-15",
+      "latest_report_date": "2020-10-16",
+      "what_happened": "Makanday, quoting a ZEMA media statement of 16 October 2020: the ridge of the tailings dam at the Rongxin Investments plant in Kalulushi collapsed on 15 October 2020, causing an abnormal discharge of slurry effluent into the Luela Stream. ZEMA inspectors confirmed large volumes of tailings in the waterway and ordered a suspension, clean-up and a remediation plan. No source fetched gave a death count or a ZEMA cause finding beyond the ridge collapse. This is separate from the March 2025 leakage inspection at the same plant and from the February 2025 Sino-Metals Leach failure (already in the database).",
+      "status": "Ridge collapsed 15 Oct 2020; ZEMA ordered suspension and clean-up.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Makanday — ZEMA 16 Oct 2020 statement: ridge collapsed 15 Oct",
+          "url": "https://makanday.org/toxic-injustice-they-forced-us-out-and-fenced-the-land-inside-the-luela-stream-disaster/"
+        },
+        {
+          "label": "ZEMA EIS — Rongxing site / leach-plant coordinates",
+          "url": "https://www.zema.org.zm/wp-content/uploads/2026/02/EIS-RENOVATION-AND-EXPANSION-PROJECT-OF-LEACH-PLANTS-1-2-AND-CONSTRUCTION-OF-A-COPPER-ORE-PROCESSING-PLANT-RONGXING-INVESTMENT-LT.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Rongxing Mineral Processing Plant / Rong Xing Investments",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "ZEMA; WARMA",
+      "affected_or_evacuated": "more than 200 farmers (Makanday)",
+      "deaths": null,
+      "id": "rongxing-2025-03-01",
+      "name": "Rongxing Kalulushi tailings dams (2025 acid leakage)",
+      "country": "Zambia",
+      "region": "Chambishi / Kalulushi District, Copperbelt, near Luela Stream",
+      "location_label": "Rongxing plant, Kalulushi, Copperbelt, Zambia",
+      "lat": -12.688117,
+      "lng": 28.122706,
+      "geo_accuracy": "site",
+      "geo_source": "ZEMA EIS for Rongxing Investments — Leach Plant 2 12°41′17.22″S 28°7′21.74″E",
+      "river_or_facility": "Rongxing Mineral Processing Plant tailings dams / Luela Stream",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "Zambia Monitor / Daily Nation: on 1 March 2025 ministers inspecting after Sino-Metals found egregious leakages from Rongxing tailings dams into nearby streams and shut the plant.",
+      "incident_date": "2025-03-01",
+      "latest_report_date": "2025-03",
+      "what_happened": "On 1 March 2025 (the Saturday after the 18 February Sino-Metals Leach failure), Water Minister Collins Nzovu and Copperbelt Minister Elisha Matambo inspected Rongxing Mineral Processing Plant in Kalulushi. Zambia Monitor: they found egregious leakages from tailings dams and effluent polluting nearby streams and ordered a halt. Daily Nation: the company said ministers found a small leakage and that excavators were blocking it; Nzovu warned that an unfixed tailings dam could collapse. ADF Magazine: acid leaking from the same kind of tailings dam. Makanday: more than 200 farmers affected on Luela Stream; a company source also mentioned a December 2024 overflow. This is a leakage / enforcement incident, not a wall collapse. No deaths sourced. Separate from the 15 October 2020 ridge collapse.",
+      "status": "Plant shut 1 March 2025 pending remedial works.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Zambia Monitor — ministers shut Rongxing over tailings leakages",
+          "url": "https://www.zambiamonitor.com/govt-shuts-down-chinese-firm-rongxing-over-acid-spillage-in-kalulushi/"
+        },
+        {
+          "label": "Daily Nation Zambia — licence suspended; small leakage",
+          "url": "https://dailynationzambia.com/2025/03/another-acid-leakage-as-rong-xing-mining-licence-is-suspended/"
+        },
+        {
+          "label": "Makanday — 200+ farmers; Luela Stream",
+          "url": "https://makanday.org/toxic-injustice-they-forced-us-out-and-fenced-the-land-inside-the-luela-stream-disaster/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1902 (raised 1912 and 1933)",
+      "height_m": 36,
+      "reservoir_capacity": "5.3 billion m³ (Wikipedia)",
+      "construction": "masonry",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "aswan-low-1946",
+      "name": "Aswan Low Dam (1946 near-overtopping)",
+      "country": "Egypt",
+      "region": "First Cataract, Aswan, Nile River",
+      "location_label": "Aswan Low Dam, Aswan, Egypt",
+      "lat": 24.03389,
+      "lng": 32.86583,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Aswan Low Dam) 24°02′02″N 32°51′57″E",
+      "river_or_facility": "Aswan Low Dam / Old Aswan Dam, Nile",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "Wikipedia: after two heightenings the dam still did not meet irrigation demand and in 1946 it was nearly overtopped in an effort to maximize pool elevation, which led to the High Dam investigation.",
+      "incident_date": "1946",
+      "latest_report_date": "2011",
+      "what_happened": "The Aswan Low (Old Aswan) Dam is a masonry gravity-buttress dam built 1899–1902 and raised in 1907–1912 and 1929–1933 to a crest 36 m above the original riverbed (Wikipedia). Wikipedia: those heightenings still did not meet irrigation demands and in 1946 the dam was nearly overtopped in an effort to maximize pool elevation. That near-overtopping led to investigation and construction of the Aswan High Dam about 6 km upstream. This is a near-miss, not a breach. No deaths sourced.",
+      "status": "Near-overtopping 1946; dam still operating as High Dam tailwater control.",
+      "verification": "confirmed",
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "Wikipedia — Aswan Low Dam (1946 nearly overtopped)",
+          "url": "https://en.wikipedia.org/wiki/Aswan_Low_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null: no sourced fatality count for this breach. Do not copy Niamey citywide 2020 flood deaths. Pin is the flooded hospital, not a surveyed dike crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "lamorde-dike-2020-09-06",
+      "name": "Lamordé protection dike (6 September 2020 breach)",
+      "country": "Niger",
+      "region": "Lamordé, right bank of the Niger River, Niamey Arrondissement 5",
+      "location_label": "Lamordé dike, Niamey, Niger",
+      "lat": 13.50401,
+      "lng": 2.081947,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Lamordé University Hospital) 13°30′14″N 2°04′55″E — hospital flooded when the dike failed; not the dike crest",
+      "river_or_facility": "Digue de protection de Lamordé / Niger River",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "ActuNiger 6 Sep 2020 and Climate Services flood note: the raised Lamordé dike gave way about 07:00 on 6 September 2020 as the Niger reached a then-record 680 cm. MDPI 2021: breaks from panel disconnection and seepage.",
+      "incident_date": "2020-09-06",
+      "latest_report_date": "2021",
+      "what_happened": "On Sunday 6 September 2020 the earth flood-protection dike at Lamordé on Niamey's right bank failed. ActuNiger: the dike 'a fini par céder' that morning after extreme rains; authorities evacuated Lamordé. A Climate Services / AGRHYMET mapping note: at 07:00 the river hit 680 cm; the raised Lamordé dike gave way and flooded Lamordé, Zamargandey, Karadjé and right-bank low ground, plus Gamkalley and Saga on the left bank; EMIG and Lamordé Hospital (CHU) were flooded. The same note says dikes had already begun to yield at 659 cm on 23 August. MDPI Water (2021): the 2020 flood surpassed levees in all four sectors; sector A (Lamordé) broke on 6 September at 679 cm from panel disconnection and seepage (ADCP 1.5–2 m/s on the embankments); the gauge later peaked at 699–701 cm on 8 September, the highest since 1929. Citywide 31,000 sinistrés / 5,000 collapsed houses cited by ActuNiger to 31 August are city flood figures, not copied as this dike's death or displacement count. No sourced death count for the Lamordé breach itself.",
+      "status": "Dike breached 6 Sep 2020; hospital and right-bank quarters flooded.",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "ActuNiger 6 Sep 2020 — digue de Lamordé a cédé",
+          "url": "https://www.actuniger.com/societe/16592-inondations-la-digue-de-protection-de-lamorde-a-cede-les-populations-encore-sous-la-menace-des-eaux.html"
+        },
+        {
+          "label": "Climate Services — Niamey Aug–Sep 2020 flood note (07:00 / 680 cm)",
+          "url": "https://climateservices.it/wp-content/uploads/2020/09/note-inondation-niamey.pdf"
+        },
+        {
+          "label": "MDPI Water 2021 — Lamordé break 6 Sep at 679 cm",
+          "url": "https://www.mdpi.com/2073-4441/13/12/1659"
+        },
+        {
+          "label": "Wikipedia — Lamordé University Hospital (coords)",
+          "url": "https://en.wikipedia.org/wiki/Lamord%C3%A9_University_Hospital"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. Do not copy the paper's 1999 Kano death figure onto this 2003 release.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1990 (Wikipedia operating date)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": "about 10,000 (Ketsho / Kede) plus 13,500 (Lakpam and Shiroro) per IJERT",
+      "deaths": null,
+      "id": "shiroro-2003-09-11",
+      "name": "Shiroro Dam (11 September 2003 controlled release)",
+      "country": "Nigeria",
+      "region": "Shiroro, Niger State, on the Kaduna River",
+      "location_label": "Shiroro Dam, Niger State, Nigeria",
+      "lat": 9.975,
+      "lng": 6.83444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Shiroro Hydroelectric Power Station) 9°58′30″N 6°50′04″E",
+      "river_or_facility": "Shiroro Dam / Kaduna River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "IJERT dam-disasters paper: on Saturday 11 September 2003 a downpour plus NEPA release of excess water from Shiroro flooded villages in Kede, Lakpma and Shiroro LGAs.",
+      "incident_date": "2003-09-11",
+      "latest_report_date": "2012",
+      "what_happened": "IJERT ('Dam Development and Disasters in Nigeria') describes the 11 September 2003 flood as the result of a downpour and the release of excess water from Shiroro Hydro-Electric Dam by NEPA. It says about 10,000 people in Ketsho (Kede LGA) were displaced and moved toward Kwara, and another 13,500 in Lakpam and Shiroro were left homeless; named villages include Galadima Kogo, Gofa, Kusasun, Pai, Lagodo, Nakapinda and Karai. Wikipedia supplies the dam coordinates and ~600 MW plant. No source fetched gave a death count for this 2003 release. National or Kano flood deaths from other years are not copied.",
+      "status": "Controlled release 11 Sep 2003; dam operating.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "IJERT — Dam Development and Disasters in Nigeria (11 Sep 2003 Shiroro release)",
+          "url": "https://www.ijert.org/dam-development-and-disasters-in-nigeria"
+        },
+        {
+          "label": "Wikipedia — Shiroro Hydroelectric Power Station (coords)",
+          "url": "https://en.wikipedia.org/wiki/Shiroro_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null: the paper's 8 Kano deaths are a different flood and are not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1990 (Wikipedia operating date)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": null,
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "shiroro-1999",
+      "name": "Shiroro Dam (1999 controlled release)",
+      "country": "Nigeria",
+      "region": "Shiroro, Niger State, on the Kaduna River",
+      "location_label": "Shiroro Dam, Niger State, Nigeria",
+      "lat": 9.975,
+      "lng": 6.83444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Shiroro Hydroelectric Power Station) 9°58′30″N 6°50′04″E",
+      "river_or_facility": "Shiroro Dam / Kaduna River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate"
+      ],
+      "cause_summary": "IJERT: in 1999 at least seven local government districts in the state were flooded when water from Shiroro Dam was released.",
+      "incident_date": "1999",
+      "latest_report_date": "2012",
+      "what_happened": "IJERT ('Dam Development and Disasters in Nigeria') states that in 1999 at least seven local government districts in the state were flooded when water from Shiroro Dam was released, and that thousands of houses, schools and hospitals were destroyed or damaged. The same paragraph then cites eight killed and 2,215 displaced in Kano State flooding — a different state, not copied onto this Shiroro record. No day-level date and no Shiroro-specific death count were fetched. Separate from the 11 September 2003 release.",
+      "status": "Controlled release 1999; dam operating.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "IJERT — Dam Development and Disasters in Nigeria (1999 Shiroro release)",
+          "url": "https://www.ijert.org/dam-development-and-disasters-in-nigeria"
+        },
+        {
+          "label": "Wikipedia — Shiroro Hydroelectric Power Station (coords)",
+          "url": "https://en.wikipedia.org/wiki/Shiroro_Dam"
+        }
+      ]
     }
   ]
 }
