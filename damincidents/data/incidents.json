@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1168,
+  "count": 1185,
   "current_count": 27,
-  "historical_count": 1141,
+  "historical_count": 1158,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -64015,6 +64015,935 @@
         }
       ],
       "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the Typhoon Hagibis national toll or Saitama flood totals onto this opening. Distinct from oppegawa-hiratsuka-shinden-2019-10-13.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 5.2,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 40 m (Enomoto Table 2 / MLIT)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kanto Regional Development Bureau MLIT / Investigation Committee for the Levee Breach by the 2019 Typhoon Hagibis in the Kanto Region",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "oppegawa-shodai-2019-10-13",
+      "name": "Oppegawa left-bank levee at Shōdai 7.6 k (Higashimatsuyama)",
+      "region": "Shōdai, Higashimatsuyama, Saitama Prefecture",
+      "location_label": "Oppegawa left bank 7.6 k at Shōdai, Higashimatsuyama, Japan",
+      "lat": 35.99473,
+      "lng": 139.41683,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al., Soils and Foundations 61 (2021) Table 2 (GSI / Kanto Hagibis Levee Investigation Committee) 35.99473 N, 139.41683 E. MLIT: 東松山市正代地先.",
+      "river_or_facility": "Oppegawa (越辺川) left bank 7.6 k, Arakawa system",
+      "cause_summary": "Enomoto et al.: landward overtopping; breach at the corner immediately upstream of the Tsukumogawa floodgate, extending about 40 m onto the Tsukumogawa left levee. No sand boils.",
+      "what_happened": "During Typhoon Hagibis the nationally managed Oppegawa left bank at 7.6 k (Shōdai, Higashimatsuyama) breached. Enomoto et al. (Soils and Foundations 2021) Table 2, from GSI and the Kanto investigation committee: 40 m opening, relative height 5.2 m, landward overflow more than 0.4 m. The opening sat at the Tsukumogawa confluence corner. MLIT (via contemporaneous notices) confirmed a breach around 06:00 on 13 October 2019 at 東松山市正代地先 (first reported about 20 m, later 40 m). Together with the Tokigawa 0.4 k opening, about 160 ha in this levee-and-terrace pocket was inundated. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) — Kanto Hagibis levees Table 2",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "Tokyo Tech T2R2 open copy of the same paper",
+          "url": "http://t2r2.star.titech.ac.jp/rrws/file/CTT100842308/ATD100000413/"
+        },
+        {
+          "label": "MLIT Kanto — 入間川流域緊急治水対策プロジェクト 参考資料 (Shōdai 7.6 k)",
+          "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000767133.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Kawagoe inundation about 1,900 ha from this Oppegawa breach (MLIT contemporaneous)",
+      "notes": "Deaths null. 1,900 ha is the MLIT Kawagoe inundation attributed to this opening, not a prefecture total. Do not copy Hagibis national deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 4.7,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 70 m (Enomoto Table 2 / MLIT)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kanto Regional Development Bureau MLIT / Kanto Hagibis Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "oppegawa-hiratsuka-shinden-2019-10-13",
+      "name": "Oppegawa right-bank levee at Hiratsuka-shinden 0.0 k (Kawagoe)",
+      "region": "Hiratsuka-shinden, Kawagoe, Saitama Prefecture",
+      "location_label": "Oppegawa right bank 0.0 k at Hiratsuka-shinden, Kawagoe, Japan",
+      "lat": 35.95911,
+      "lng": 139.46846,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 35.95911 N, 139.46846 E. MLIT: 川越市平塚新田地先.",
+      "river_or_facility": "Oppegawa (越辺川) right bank 0.0 k, Arakawa system",
+      "cause_summary": "Enomoto et al.: landward overtopping of the nationally managed right bank at 0.0 k; relative height 4.7 m; overflow more than 0.4 m; maximum scour about 2.0 m.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Oppegawa right bank at 0.0 k (Hiratsuka-shinden, Kawagoe). Enomoto Table 2: 70 m breach. MLIT Iruma-basin project materials list the same 70 m opening at 川越市平塚新田地先. Contemporaneous MLIT/drainage notices: about 1,900 ha in Kawagoe inundated from this Oppegawa breach, largely drained by the morning of 15 October. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "MLIT Kanto — 入間川流域緊急治水対策プロジェクト 参考資料 (Hiratsuka-shinden 0.0 k)",
+          "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000767133.pdf"
+        },
+        {
+          "label": "Wikipedia — Kawagoe, Saitama",
+          "url": "https://en.wikipedia.org/wiki/Kawagoe,_Saitama"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from tokigawa-kuzubukuro-2019-10-13 and tokigawa-r59-2019-10-13 further upstream. Do not copy Hagibis national deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 4.3,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 90 m (Enomoto Table 2 / MLIT)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kanto Regional Development Bureau MLIT / Kanto Hagibis Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "tokigawa-hayamata-2019-10-13",
+      "name": "Tokigawa right-bank levee at Hayamata 0.4 k (Higashimatsuyama)",
+      "region": "Hayamata, Higashimatsuyama, Saitama Prefecture",
+      "location_label": "Tokigawa right bank 0.4 k at Hayamata, Higashimatsuyama, Japan",
+      "lat": 35.9977,
+      "lng": 139.4222,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 35.99770 N, 139.42220 E. MLIT: 東松山市早俣地先.",
+      "river_or_facility": "Tokigawa (都幾川) right bank 0.4 k, Arakawa system",
+      "cause_summary": "Enomoto et al.: landward overtopping on the outer bank of a gentle bend near the Oppegawa confluence; overflow more than 0.9 m; levee mainly silt on soft alluvial clay. No sand boils.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Tokigawa right bank at 0.4 k (Hayamata, Higashimatsuyama), about 90 m, on the outer bend near the Oppegawa confluence. Enomoto et al.: overflow traces more than 0.9 m above crest on 0.0–0.6 k including the breached section; soils at the raise/widen fill sat on an older silty levee. MLIT confirmed a breach around 07:15 on 13 October 2019 (first reported about 100 m, later 90 m) at 東松山市早俣地先. Combined with Oppegawa 7.6 k, about 160 ha in the enclosed pocket flooded. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2 / §2.2",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "MLIT Kanto — 入間川流域緊急治水対策プロジェクト 参考資料 (Hayamata 0.4 k)",
+          "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000767133.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Early MLIT listed 6.2 k 越水; later committee/Enomoto record 6.5 k 決壊. Do not copy the 140 ha series total as this opening alone. Prefecture-managed Tokigawa right bank 1.4 k at Kanbe is a different opening (no GSI pin fetched).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 2.8,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 30 m (Enomoto Table 2)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kanto Regional Development Bureau MLIT / Kanto Hagibis Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "moderate",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "tokigawa-kuzubukuro-2019-10-13",
+      "name": "Tokigawa left-bank levee at Kuzubukuro 6.5 k (Higashimatsuyama)",
+      "region": "Kuzubukuro, Higashimatsuyama, Saitama Prefecture",
+      "location_label": "Tokigawa left bank 6.5 k at Kuzubukuro, Higashimatsuyama, Japan",
+      "lat": 36.02339,
+      "lng": 139.37121,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 36.02339 N, 139.37121 E. MLIT names the left-bank reach 東松山市葛袋地先.",
+      "river_or_facility": "Tokigawa (都幾川) left bank 6.5 k, Arakawa system",
+      "cause_summary": "Enomoto et al.: overtopping erosion of a temporary/provisional levee at a water-colliding front near tributary confluences; overflow more than 0.25 m along about 600 m (6.0–6.6 k). No sand boils.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Tokigawa left bank at 6.5 k (Kuzubukuro reach, Higashimatsuyama) about 30 m. Enomoto et al.: a temporary levee at a colliding front; overflow depth more than 0.25 m; silt/clay levee on alluvial clay. An early MLIT Iruma notice listed left-bank 6.2 k at 葛袋 as overtopping; the later Kanto investigation report and Enomoto Table 2 record a 30 m breach at 6.5 k. Opposite-bank 5.9 k and a prefecture-managed opening at 1.4 k (not this record) were in the same reach; about 140 ha of plain was inundated from the series. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2 / §2.3",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "MLIT Kanto — 荒川水系都幾川 堤防調査報告書 (6.5 k / 5.9 k)",
+          "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000784447.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from tokigawa-hayamata-2019-10-13 (0.4 k) and tokigawa-kuzubukuro-2019-10-13 (6.5 k).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 3.0,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 20 m (Enomoto Table 2)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kanto Regional Development Bureau MLIT / Kanto Hagibis Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "moderate",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "tokigawa-r59-2019-10-13",
+      "name": "Tokigawa right-bank levee at 5.9 k (Higashimatsuyama)",
+      "region": "Higashimatsuyama, Saitama Prefecture",
+      "location_label": "Tokigawa right bank 5.9 k, Higashimatsuyama, Japan",
+      "lat": 36.01953,
+      "lng": 139.37711,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 36.01953 N, 139.37711 E — opposite-bank opening to the 6.5 k left-bank breach. No separate 地先 name beyond Higashimatsuyama in the sources fetched.",
+      "river_or_facility": "Tokigawa (都幾川) right bank 5.9 k, Arakawa system",
+      "cause_summary": "Enomoto et al.: landward overtopping of a temporary levee on the opposite bank to 6.5 k; overflow about 0.15 m; maximum scour about 1.5 m.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Tokigawa right bank at 5.9 k, about 20 m, opposite the 6.5 k Kuzubukuro left-bank breach. Enomoto et al. treat both as temporary levees in the same overtopped reach. The Kanto investigation report on Tokigawa 6.5 k / 5.9 k analyses both openings. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2 / §2.3",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "MLIT Kanto — 荒川水系都幾川 堤防調査報告書",
+          "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000784447.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Ibaraki's typhoon deaths (2) or the upper-Abukuma 19 onto this Naka opening. Distinct from naka-shimoisehata-2019-10-13 and naka-shimoedo-2019-10-13.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 3.2,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 200 m (Enomoto Table 2 / Ibaraki prefecture)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kanto Regional Development Bureau MLIT / Kanto Hagibis Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "naka-noguchi-2019-10-13",
+      "name": "Naka River left-bank levee at Noguchi 40.0 k (Hitachiōmiya)",
+      "region": "Noguchi, Hitachiōmiya, Ibaraki Prefecture",
+      "location_label": "Naka River left bank 40.0 k at Noguchi, Hitachiōmiya, Japan",
+      "lat": 36.55771,
+      "lng": 140.31223,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 36.55771 N, 140.31223 E. Ibaraki prefecture: 常陸大宮市野口地先.",
+      "river_or_facility": "Naka River (那珂川) left bank 40.0 k",
+      "cause_summary": "Enomoto et al. / committee: overtopping was the major cause; overflow more than 0.60 m at the breached section and less than 0.60 m on the surviving downstream crest. Seepage and erosion also possible contributing causes. No sand boils reported.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Naka left bank at 40.0 k (Noguchi, Hitachiōmiya) about 200 m. Enomoto et al. §4.2: original section about 3 m high, 1:2 slopes; overtopping erosion of the land-side slope in four observed steps. Ibaraki prefecture flood sheets list the same 200 m at 常陸大宮市野口地先. Peak river level at Noguchi observatory was early on 13 October. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2 / §4.2",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "Ibaraki prefecture — 令和元年台風第19号による被災状況（那珂川）",
+          "url": "https://www.pref.ibaraki.jp/doboku/kasen/19gou/documents/04.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from naka-noguchi-2019-10-13 (opposite bank, 40.0 k) and naka-shimoedo-2019-10-13 (28.6 k).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 2.7,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 250 m (Enomoto Table 2 / Ibaraki prefecture)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kanto Regional Development Bureau MLIT / Kanto Hagibis Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "naka-shimoisehata-2019-10-13",
+      "name": "Naka River right-bank levee at Shimoisehata 41.2 k (Hitachiōmiya)",
+      "region": "Shimoisehata, Hitachiōmiya, Ibaraki Prefecture",
+      "location_label": "Naka River right bank 41.2 k at Shimoisehata, Hitachiōmiya, Japan",
+      "lat": 36.56039,
+      "lng": 140.30039,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 36.56039 N, 140.30039 E. Ibaraki prefecture: 常陸大宮市下伊勢畑地先.",
+      "river_or_facility": "Naka River (那珂川) right bank 41.2 k",
+      "cause_summary": "Enomoto et al.: land-side slope erosion by overtopping (overflow more than 0.9 m). River-side slope undamaged; no sand boils five days after. Progressive failure into a short block-revetment reach.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Naka right bank at 41.2 k (Shimoisehata, Hitachiōmiya) about 250 m. Enomoto et al. §4.3: collapsed section about 4.9 m slope length and 3.7 m crest width; land-side blocks collapsed; river-side slope intact. Ibaraki prefecture lists the same 250 m at 下伊勢畑地先. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2 / §4.3",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "Ibaraki prefecture — 令和元年台風第19号による被災状況（那珂川）",
+          "url": "https://www.pref.ibaraki.jp/doboku/kasen/19gou/documents/04.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Ibaraki typhoon deaths onto this opening. Distinct from the two Hitachiōmiya Naka openings.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 3.2,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 250 m (Enomoto Table 2 / Ibaraki prefecture)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kanto Regional Development Bureau MLIT / Kanto Hagibis Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "naka-shimoedo-2019-10-13",
+      "name": "Naka River right-bank levee at Shimoedo 28.6 k (Naka)",
+      "region": "Shimoedo, Naka, Ibaraki Prefecture",
+      "location_label": "Naka River right bank 28.6 k at Shimoedo, Naka, Japan",
+      "lat": 36.48552,
+      "lng": 140.39566,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 36.48552 N, 140.39566 E. Ibaraki prefecture: 那珂市下江戸地先.",
+      "river_or_facility": "Naka River (那珂川) right bank 28.6 k",
+      "cause_summary": "Nikkei xTECH / MLIT committee table: overtopping was the estimated main factor at Naka right bank 28.6 k (seepage and erosion marked absent). Enomoto Table 2: landward overtopping, overflow 0.4 m, scour about 2.3 m.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Naka right bank at 28.6 k (Shimoedo, Naka City) about 250 m. Enomoto Table 2 and Ibaraki prefecture flood sheets agree on the 250 m length at 那珂市下江戸地先. Nikkei, citing the MLIT committee, lists this as one of the 12 nationally managed openings whose main mechanism was overtopping. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "Ibaraki prefecture — 令和元年台風第19号による被災状況（那珂川）",
+          "url": "https://www.pref.ibaraki.jp/doboku/kasen/19gou/documents/04.pdf"
+        },
+        {
+          "label": "Nikkei xTECH — MLIT committee overtopping table (Naka 28.6 k)",
+          "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00085/022000001/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Breach length stored from Enomoto Table 2 (100 m); Ibaraki 400 m is a contemporaneous damage-extent figure, kept in notes. Distinct from kuji-shiobara / kuji-onuki / kuji-shimomachi.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 3.1,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 100 m (Enomoto Table 2); Ibaraki listed 400 m damage extent at Tomioka",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kanto Regional Development Bureau MLIT / Kanto Hagibis Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "kuji-tomioka-2019-10-13",
+      "name": "Kuji River left-bank levee at Tomioka 25.5 k (Hitachiōmiya)",
+      "region": "Tomioka, Hitachiōmiya, Ibaraki Prefecture",
+      "location_label": "Kuji River left bank 25.5 k at Tomioka, Hitachiōmiya, Japan",
+      "lat": 36.5534,
+      "lng": 140.42643,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 36.55340 N, 140.42643 E. Ibaraki prefecture: 常陸大宮市富岡地先.",
+      "river_or_facility": "Kuji River (久慈川) left bank 25.5 k",
+      "cause_summary": "Enomoto et al.: landward overtopping; overflow 0.3 m; sandy/silty fill. Nikkei/MLIT committee: overtopping main factor.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Kuji left bank at 25.5 k (Tomioka, Hitachiōmiya). Enomoto Table 2: 100 m breach, relative height 3.1 m. Ibaraki prefecture's damage sheet lists 400 m 被害延長 at 常陸大宮市富岡地先 — a longer damage-extent figure than the later committee breach length. Kegano observatory had 207 mm in 48 h; Tomioka hydrograph peaked early on 13 October. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "Ibaraki prefecture — 令和元年台風第19号による被災状況（久慈川）",
+          "url": "https://www.pref.ibaraki.jp/doboku/kasen/19gou/documents/02.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from kuji-tomioka-2019-10-13 (25.5 k) and kuji-onuki-2019-10-13 (34.0 k).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 2.7,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 64 m (Enomoto Table 2 / Ibaraki prefecture)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kanto Regional Development Bureau MLIT / Kanto Hagibis Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "kuji-shiobara-2019-10-13",
+      "name": "Kuji River left-bank levee at Shiobara 27.0 k (Hitachiōmiya)",
+      "region": "Shiobara, Hitachiōmiya, Ibaraki Prefecture",
+      "location_label": "Kuji River left bank 27.0 k at Shiobara, Hitachiōmiya, Japan",
+      "lat": 36.56547,
+      "lng": 140.41746,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 36.56547 N, 140.41746 E. Ibaraki prefecture: 常陸大宮市塩原地先.",
+      "river_or_facility": "Kuji River (久慈川) left bank 27.0 k",
+      "cause_summary": "Enomoto et al.: landward overtopping; overflow 0.55 m; scour about 4.6 m. Nikkei/MLIT: overtopping main, seepage a possible contributor.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Kuji left bank at 27.0 k (Shiobara, Hitachiōmiya) about 64 m. Enomoto Table 2 and Ibaraki prefecture agree on 64 m at 塩原地先. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "Ibaraki prefecture — 令和元年台風第19号による被災状況（久慈川）",
+          "url": "https://www.pref.ibaraki.jp/doboku/kasen/19gou/documents/02.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Prefecture-managed reach; national restoration. Distinct from the three nationally managed Kuji 25.5–27 k openings.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 3.5,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 60 m (Enomoto Table 2 / Enomoto §5.2)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ibaraki prefecture / Kanto Regional Development Bureau MLIT",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "kuji-onuki-2019-10-13",
+      "name": "Kuji River left-bank levee at Onuki 34.0 k (Hitachiōmiya)",
+      "region": "Onuki, Hitachiōmiya, Ibaraki Prefecture",
+      "location_label": "Kuji River left bank 34.0 k at Onuki, Hitachiōmiya, Japan",
+      "lat": 36.60089,
+      "lng": 140.40947,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 36.60089 N, 140.40947 E (prefecture-managed; national restoration). Ibaraki prefecture: 常陸大宮市小貫地先.",
+      "river_or_facility": "Kuji River (久慈川) left bank 34.0 k",
+      "cause_summary": "Enomoto et al. §5.2: land-side slope erosion by overtopping; no sand boils about two weeks later; soil deposited on the protected side. Crest pavement and revetment blocks had covered most of the later-breached section.",
+      "what_happened": "Typhoon Hagibis opened the prefecture-managed Kuji left bank at 34.0 k (Onuki, Hitachiōmiya) about 60 m (slope length about 5 m). Enomoto et al.: restoration was undertaken by the national government. Ibaraki prefecture lists the opening at 小貫地先. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2 / §5.2",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "Ibaraki prefecture — 令和元年台風第19号による被災状況（久慈川）",
+          "url": "https://www.pref.ibaraki.jp/doboku/kasen/19gou/documents/02.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Mechanism is riverward/backwater overtopping, not copied from the opposite-bank Tomioka opening.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 2.5,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 40 m (Enomoto Table 2 / Ibaraki prefecture)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kanto Regional Development Bureau MLIT / Kanto Hagibis Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "kuji-shimomachi-2019-10-13",
+      "name": "Kuji River right-bank levee at Shimomachi 25.5 k (Hitachiōmiya)",
+      "region": "Shimomachi, Hitachiōmiya, Ibaraki Prefecture",
+      "location_label": "Kuji River right bank 25.5 k at Shimomachi, Hitachiōmiya, Japan",
+      "lat": 36.55298,
+      "lng": 140.4233,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 36.55298 N, 140.42330 E. Ibaraki prefecture: 常陸大宮市下町地先.",
+      "river_or_facility": "Kuji River (久慈川) right bank 25.5 k",
+      "cause_summary": "Enomoto Table 2: riverward overtopping (RW), overflow 0.2 m. Nikkei/MLIT committee: the estimated main factor was overtopping from the protected side toward the river, not ordinary landward overflow.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Kuji right bank at 25.5 k (Shimomachi, Hitachiōmiya) about 40 m. Enomoto Table 2 marks overtopping direction as riverward. Nikkei, citing the MLIT committee, lists this as one of two nationally managed openings (with Abukuma Hamao) driven by overtopping from the land side toward the channel. Ibaraki prefecture lists 40 m at 下町地先. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "Ibaraki prefecture — 令和元年台風第19号による被災状況（久慈川）",
+          "url": "https://www.pref.ibaraki.jp/doboku/kasen/19gou/documents/02.pdf"
+        },
+        {
+          "label": "Nikkei xTECH — MLIT committee table (Kuji R 25.5 k riverward)",
+          "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00085/022000001/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from asakawa-matsue-15-2019-10-13.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 4.2,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 60 m (Enomoto Table 2)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ibaraki prefecture / Kanto Regional Development Bureau MLIT",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "asakawa-matsue-06-2019-10-13",
+      "name": "Asakawa right-bank levee at Matsue 0.6 k (Hitachiōta)",
+      "region": "Matsue, Hitachiōta, Ibaraki Prefecture",
+      "location_label": "Asakawa right bank 0.6 k at Matsue, Hitachiōta, Japan",
+      "lat": 36.51038,
+      "lng": 140.47398,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 36.51038 N, 140.47398 E (prefecture-managed; national restoration). MLIT restoration video list: 常陸太田市松栄地先.",
+      "river_or_facility": "Asakawa (浅川) right bank 0.6 k, Kuji system",
+      "cause_summary": "Enomoto Table 2: riverward overtopping; relative height 4.2 m; scour about 5.5 m. Mainichi: Asakawa at 常陸太田市松栄町.",
+      "what_happened": "Typhoon Hagibis opened the prefecture-managed Asakawa right bank at 0.6 k (Matsue, Hitachiōta) about 60 m. Enomoto Table 2: national government undertook restoration. Mainichi's 15 October 2019 list of 73 openings includes Asakawa at 松栄町. Distinct from the 1.5 k opening on the same right bank. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "Mainichi — 台風19号で堤防が決壊した52河川73カ所 (Asakawa 松栄町)",
+          "url": "https://mainichi.jp/articles/20191015/k00/00m/040/280000c"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from asakawa-matsue-06-2019-10-13.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 1.8,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 40 m (Enomoto Table 2)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ibaraki prefecture / Kanto Regional Development Bureau MLIT",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "moderate",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "asakawa-matsue-15-2019-10-13",
+      "name": "Asakawa right-bank levee at Matsue 1.5 k (Hitachiōta)",
+      "region": "Matsue, Hitachiōta, Ibaraki Prefecture",
+      "location_label": "Asakawa right bank 1.5 k at Matsue, Hitachiōta, Japan",
+      "lat": 36.51504,
+      "lng": 140.47045,
+      "geo_accuracy": "exact",
+      "geo_source": "Enomoto et al. Table 2 36.51504 N, 140.47045 E (prefecture-managed; national restoration). MLIT restoration video list: 常陸太田市松栄地先.",
+      "river_or_facility": "Asakawa (浅川) right bank 1.5 k, Kuji system",
+      "cause_summary": "Enomoto Table 2: riverward overtopping; relative height 1.8 m; scour about 2.0 m.",
+      "what_happened": "Typhoon Hagibis opened a second prefecture-managed Asakawa right-bank section at 1.5 k (Matsue, Hitachiōta), about 40 m, upstream of the 0.6 k opening. Enomoto Table 2: national restoration. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) Table 2",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Motomiya 7, Marumori 10, upper-Abukuma 19, or the Hagibis national toll. Distinct from marumori-levees-2019-10-12 already in the DB. Pin is the former Hamada village, not a crest survey.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 50 m (MLIT Tohoku emergency restoration notice)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Tohoku Regional Development Bureau MLIT — Abukuma Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "abukuma-hamao-2019-10-13",
+      "name": "Abukuma River left-bank levee at Hamao 98.6 k (Sukagawa)",
+      "region": "Hamao, Sukagawa, Fukushima Prefecture",
+      "location_label": "Abukuma left bank 98.6 k at Hamao, Sukagawa, Japan",
+      "lat": 37.28178,
+      "lng": 140.39214,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (浜田村) 37.28178 N, 140.39214 E — former village office at Wada; Hamao is one of the three villages that formed Hamada, on the Abukuma west bank. Not a surveyed crest.",
+      "river_or_facility": "Abukuma River (阿武隈川) left bank 98.6 k",
+      "cause_summary": "Nikkei / MLIT committee: overtopping from the protected side toward the river (backward breach). JSCE: the only nationally managed Abukuma breach; water flowed from outside the levee back into the channel.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Abukuma left bank at 98.6 k (Hamao, Sukagawa), the only national-managed breach on the Abukuma. MLIT Tohoku emergency notices: about 50 m; works started 15:00 on 14 October; temporary fill 17:00 on 18 October; earth cutoff complete 20:00 on 8 November. MLIT press: an Abukuma Levee Investigation Committee was stood up for this opening. JSCE: a backward breach from the land side into the river; 19 national-managed overtoppings elsewhere on the upper Abukuma did not breach. Adjacent Hamao retarding basin stored about 2.6 million m³. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "MLIT Tohoku — 緊急復旧工事 (Hamao 98.6 k, about 50 m)",
+          "url": "http://www.thr.mlit.go.jp/bumon/kisya/saigai/images/77948_2_5.pdf"
+        },
+        {
+          "label": "MLIT — 阿武隈川堤防調査委員会 (left bank 98.6 k, Sukagawa Hamao)",
+          "url": "https://www.mlit.go.jp/report/press/mizukokudo05_hh_000075.html"
+        },
+        {
+          "label": "Nikkei xTECH — MLIT committee table (Abukuma 98.6 k land-to-river)",
+          "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00085/022000001/"
+        },
+        {
+          "label": "Japanese Wikipedia — 浜田村 (Fukushima)",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B5%9C%E7%94%B0%E6%9D%91_(%E7%A6%8F%E5%B3%B6%E7%9C%8C)"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Miyagi/Hagibis national deaths. JP2 leftover named this opening; pin is Kasagawa/Ōsato town hall, not a crest survey. Distinct from marumori-levees-2019-10-12.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 100 m (MLIT Tohoku emergency restoration notice)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Tohoku Regional Development Bureau MLIT",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "yoshida-kasagawa-2019-10-13",
+      "name": "Yoshida River left-bank levee at Kasagawa 20.9 k (Ōsato)",
+      "region": "Kasagawa aza Denzaburō, Ōsato, Kurokawa District, Miyagi Prefecture",
+      "location_label": "Yoshida left bank 20.9 k at Kasagawa, Ōsato, Japan",
+      "lat": 38.42425,
+      "lng": 141.00447,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (粕川村) / English Wikipedia (Ōsato) 38.42425 N, 141.00447 E — Ōsato town hall is at Kasagawa Nishinagasaki. MLIT names the opening 大郷町粕川字伝三郎地先. Not a surveyed crest.",
+      "river_or_facility": "Yoshida River (吉田川) left bank 20.9 k, Naruse system",
+      "cause_summary": "Nikkei / MLIT committee: overtopping at Yoshida left bank 20.9 k. MLIT Tohoku: nationally managed opening at Kasagawa aza Denzaburō.",
+      "what_happened": "Typhoon Hagibis opened the nationally managed Yoshida left bank at 20.9 k (Kasagawa aza Denzaburō, Ōsato, Miyagi) about 100 m. MLIT Tohoku emergency notices: works started 12:00 on 13 October; temporary fill closed the gap on 17 October and was completed 16:00 on 18 October, with sheet-pile double cutoff continuing. Nikkei, citing the MLIT committee, lists this among the 12 nationally managed openings, with overtopping as the estimated main factor. No death count is given for this named opening.",
+      "sources": [
+        {
+          "label": "MLIT Tohoku — 緊急復旧工事 (Yoshida 20.9 k, about 100 m, Kasagawa Denzaburō)",
+          "url": "http://www.thr.mlit.go.jp/bumon/kisya/saigai/images/77948_2_5.pdf"
+        },
+        {
+          "label": "Nikkei xTECH — MLIT committee table (Yoshida 20.9 k)",
+          "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00085/022000001/"
+        },
+        {
+          "label": "Wikipedia — Ōsato, Miyagi",
+          "url": "https://en.wikipedia.org/wiki/%C5%8Csato,_Miyagi"
+        },
+        {
+          "label": "Japanese Wikipedia — 粕川村 (Miyagi)",
+          "url": "https://ja.wikipedia.org/wiki/%E7%B2%95%E5%B7%9D%E6%9D%91_(%E5%AE%AE%E5%9F%8E%E7%9C%8C)"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Cluster at the named Akasu Bridge reach rather than four duplicate pins. Do not copy Ibaraki typhoon deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 80 m and 120 m on the right bank across Akasu Bridge; also about 55 m left bank ~400 m upstream and about 35 m left bank downstream (Enomoto §5.3)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ibaraki prefecture / Kanto Hagibis Levee Investigation Committee",
+      "verification": "confirmed",
+      "country": "Japan",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-04-01",
+      "deaths": null,
+      "severity": "major",
+      "status": "Historical Typhoon Hagibis (Reiwa 1 East Japan Typhoon) levee breach; emergency closure then reconstruction.",
+      "id": "sato-akasu-2019-10-13",
+      "name": "Sato River levees at Akasu Bridge (Hitachiōta)",
+      "region": "Jōfukuji-chō / Chinone-chō, Hitachiōta, Ibaraki Prefecture",
+      "location_label": "Sato River at Akasu Bridge, Hitachiōta, Japan",
+      "lat": 36.5808,
+      "lng": 140.5423,
+      "geo_accuracy": "approx",
+      "geo_source": "Enomoto et al. Fig. 29 caption: Akasu Bridge 36.5808 N, 140.5423 E. Openings are immediately upstream and downstream of that bridge, not a surveyed crest of each gap.",
+      "river_or_facility": "Sato River (里川) right and left banks at Akasu Bridge, Kuji system",
+      "cause_summary": "Enomoto et al.: overtopping at sharp bends; driftwood caught on Akasu Bridge piers locally raised water and eroded the land-side slope. Fill materials were non-/low-plastic sandy or gravelly soils.",
+      "what_happened": "Typhoon Hagibis opened several Sato River (里川, Kuji tributary) levees at Jōfukuji-chō and Chinone-chō, Hitachiōta. Enomoto et al. §5.3: at Akasu Bridge (36.5808 N, 140.5423 E) the right bank failed about 80 m and 120 m on either side of the six-span bridge, which trapped driftwood; a further left-bank opening about 55 m lay about 400 m upstream and another left-bank opening about 35 m downstream. Mainichi's 15 October list includes 里川 at 茅根町 and 常福地町. No death count is given for these named openings; they are recorded as one bridge-reach cluster.",
+      "sources": [
+        {
+          "label": "Enomoto et al., Soils and Foundations 61 (2021) §5.3 / Fig. 29",
+          "url": "https://doi.org/10.1016/j.sandf.2021.01.007"
+        },
+        {
+          "label": "Mainichi — 台風19号で堤防が決壊した52河川73カ所 (里川)",
+          "url": "https://mainichi.jp/articles/20191015/k00/00m/040/280000c"
+        }
+      ]
     }
   ]
 }
