@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 254,
+  "count": 280,
   "events": [
     {
       "id": "flood-assam-2026",
@@ -14213,6 +14213,1394 @@
           "date": "2026-08-20",
           "by": "historic_backfill",
           "change": "Added from Wikipedia 2025 Philippine monsoon floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-all-saints-1304",
+      "name": "All Saints' Flood (1304)",
+      "country": "Germany",
+      "region": "Western Pomerania / Rügen–Usedom",
+      "location_label": "Stralsund, Western Pomerania, Germany",
+      "lat": 54.3092,
+      "lng": 13.0819,
+      "geo_accuracy": "approx",
+      "geo_source": "Stralsund (Wikipedia coordinates 54.3092°N, 13.0819°E); event page is the Pomeranian Baltic coast and the Rügen–Ruden land bridge lost in the surge",
+      "flood_type": "storm_surge",
+      "river_or_basin": "southwestern Baltic / Greifswalder Bodden",
+      "river_or_facility": "Greifswalder Bodden threshold / Ruden channel",
+      "incident_date": "1304-11-01",
+      "latest_report_date": "1304-11-01",
+      "what_happened": "A 1 November 1304 Baltic storm surge, named from Johann Berckmann's later Stralsund chronicle, struck Western Pomerania. Water piled in the central Baltic under westerlies then surged onto the Pomeranian coast when the wind shifted northeast. Chronicles say 271 people died. The flood drowned the Rügen–Ruden land bridge, opened a new Baltic channel and flooded villages on Ruden; later writers also link breaches at Usedom and the Swine.",
+      "status": "Historical.",
+      "deaths": 271,
+      "injured": null,
+      "affected_or_evacuated": "Two villages on Ruden reported drowned; further land-loss along Mönchgut and Ruden",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "storm_surge"
+      ],
+      "cause_summary": "Baltic storm surge: westerly setup then a sudden northeasterly shift onto the Pomeranian coast.",
+      "sources": [
+        {
+          "label": "Wikipedia: All Saints' Flood (1304)",
+          "url": "https://en.wikipedia.org/wiki/All_Saints%27_Flood_(1304)"
+        }
+      ],
+      "notes": "271 is the death figure on the dedicated EN event page. The All Saints dating is from Berckmann (d. 1560) and is not independently confirmed, though 1304 is treated as probable. Distinct from flood-all-saints-1170 and flood-all-saints-1570.",
+      "era": "1304",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: All Saints' Flood (1304)."
+        }
+      ]
+    },
+    {
+      "id": "flood-all-saints-1436",
+      "name": "All Saints' Day Flood of 1436",
+      "country": "Germany",
+      "region": "North Frisia / German Bight",
+      "location_label": "Tetenbüll, North Frisia, Germany",
+      "lat": 54.3539,
+      "lng": 8.8261,
+      "geo_accuracy": "approx",
+      "geo_source": "Tetenbüll (Wikipedia coordinates 54.3539°N, 8.8261°E); the event page says 180 died in this North Frisian village alone",
+      "flood_type": "storm_surge",
+      "river_or_basin": "North Sea / German Bight",
+      "river_or_facility": "Oste / Kehdingen dikes",
+      "incident_date": "1436-11-01",
+      "latest_report_date": "1436-11-01",
+      "what_happened": "A 1 November 1436 storm tide hit the entire North Sea coast of the German Bight. In Tetenbüll alone 180 people died. Eidum on Sylt was destroyed and its people later founded Westerland; List on Sylt was abandoned and rebuilt further west. Dykes burst along the Oste and in Kehdingen. Pellworm was separated from Nordstrand and was not re-diked until 1550.",
+      "status": "Historical.",
+      "deaths": 180,
+      "injured": null,
+      "affected_or_evacuated": "Eidum destroyed; List on Sylt abandoned and rebuilt; Pellworm separated from Nordstrand",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "storm_surge"
+      ],
+      "cause_summary": "North Sea storm tide on the German Bight (Allerheiligenflut).",
+      "sources": [
+        {
+          "label": "Wikipedia: All Saints Day Flood of 1436",
+          "url": "https://en.wikipedia.org/wiki/All_Saints_Day_Flood_of_1436"
+        }
+      ],
+      "notes": "180 is the only sourced village count on the dedicated page (Tetenbüll). Europe list says >180; further uncounted deaths likely. Distinct from flood-all-saints-1170, flood-all-saints-1304 and flood-all-saints-1570.",
+      "era": "1436",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: All Saints Day Flood of 1436."
+        }
+      ]
+    },
+    {
+      "id": "flood-storofsen-1789",
+      "name": "Storofsen flood",
+      "country": "Norway",
+      "region": "eastern Norway / Gudbrandsdalen–Østerdalen",
+      "location_label": "Lillehammer / Lake Mjøsa, Norway",
+      "lat": 61.1167,
+      "lng": 10.4667,
+      "geo_accuracy": "approx",
+      "geo_source": "Lillehammer (Wikipedia coordinates 61.1167°N, 10.4667°E) on Lake Mjøsa, which the event page says rose 10 m above normal",
+      "flood_type": "riverine",
+      "river_or_basin": "Glomma / Gudbrandsdalslågen / Mjøsa",
+      "river_or_facility": "Lake Mjøsa",
+      "incident_date": "1789-07-01",
+      "latest_report_date": "1789-07-31",
+      "what_happened": "Storofsen (Ofsen) struck eastern Norway in July 1789. The Glomma and Gudbrandsdalslågen overflowed and Lake Mjøsa rose ten metres above normal. Sixty-three people vanished, thousands of houses were destroyed and thousands of livestock were killed. Kvikne Copper Works were wrecked. Afterwards, fogd Jens Holmboe helped about forty flood-hit families from Gudbrandsdalen and Østerdalen resettle in Målselvdalen between 1791 and 1800.",
+      "status": "Historical.",
+      "deaths": 63,
+      "injured": null,
+      "affected_or_evacuated": "Thousands of houses destroyed; about 40 families later resettled in Målselv/Bardu",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "snowmelt"
+      ],
+      "cause_summary": "Heavy rain and snowmelt on the Glomma and Gudbrandsdalslågen.",
+      "sources": [
+        {
+          "label": "Wikipedia: Storofsen",
+          "url": "https://en.wikipedia.org/wiki/Storofsen"
+        }
+      ],
+      "notes": "63 vanished is the dedicated-page / Store norske leksikon figure. Exact July day not given; using month start. Nordic named historic event with a sourced pin.",
+      "era": "1789",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Storofsen."
+        }
+      ]
+    },
+    {
+      "id": "flood-europe-1910",
+      "name": "1910 European floods",
+      "country": "Hungary",
+      "region": "Ahr valley / Kingdom of Hungary / Lake Lucerne",
+      "location_label": "Schuld, Ahr valley, Germany",
+      "lat": 50.4458,
+      "lng": 6.8894,
+      "geo_accuracy": "approx",
+      "geo_source": "Schuld (Wikipedia coordinates 50.4458°N, 6.8894°E); event page says the Ahr town lost at least 50 when a bridge gave way, part of ~200 German deaths",
+      "flood_type": "riverine",
+      "river_or_basin": "Ahr / Great Morava / Alpine lakes",
+      "river_or_facility": "Ahr",
+      "incident_date": "1910-06-14",
+      "latest_report_date": "1910-06-20",
+      "what_happened": "Mid-June 1910 rains flooded Central Europe. The Ahr in Germany killed up to 200, including at least 50 in Schuld after a bridge collapsed; almost every bridge in the valley was destroyed. Switzerland lost at least 26 around Lake Lucerne. Contemporary reports said more than 1,000 died in the Kingdom of Hungary, 'exceeding all records'. Serbia's Great Morava killed 35 around Jagodina. The dedicated page totals 1,200+.",
+      "status": "Historical.",
+      "deaths": 1200,
+      "injured": null,
+      "affected_or_evacuated": "Villages washed away in Germany and Austria-Hungary; Lucerne and Zürich lighting systems failed",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Several days of heavy rain across Central Europe in mid-June 1910.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1910 European floods",
+          "url": "https://en.wikipedia.org/wiki/1910_European_floods"
+        }
+      ],
+      "notes": "Infobox 1,200+ (~200 Germany, ~1,000 Hungary, 26 Switzerland, 35 Serbia). Using 1200 as the page total. Distinct from the 1910 Paris flood (0 deaths; not added).",
+      "era": "1910",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 1910 European floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-autumn-2000",
+      "name": "Autumn 2000 Western Europe floods",
+      "country": "United Kingdom",
+      "region": "Kent / Sussex / Severn / Yorkshire Ouse",
+      "location_label": "Uckfield, East Sussex, United Kingdom",
+      "lat": 50.97,
+      "lng": 0.1,
+      "geo_accuracy": "approx",
+      "geo_source": "Uckfield (Wikipedia coordinates 50.97°N, 0.10°E); 12 October thunderstorms dropped 150 mm overnight and a lifeboat rescued 20 from a supermarket",
+      "flood_type": "riverine",
+      "river_or_basin": "Medway / Ouse / Severn / Thames / Trent / Wharfe / Dee",
+      "river_or_facility": "River Ouse (Yorkshire)",
+      "incident_date": "2000-10-12",
+      "latest_report_date": "2001-11-01",
+      "what_happened": "The wettest UK autumn since records began in 1766, as successive cyclones (including Nicole, Oratia and Rebekka) sat under a southerly jet. Kent and Sussex flooded in October; Shropshire, Worcestershire and Yorkshire followed in November. About 10,000 homes flooded in 700 places. Peak flows on the Thames, Trent, Severn, Wharfe and Dee were the highest in 60 years; York's Ouse was the highest since the 17th century. The dedicated page records 20 deaths and more than $2 billion damage across western Europe.",
+      "status": "Historical.",
+      "deaths": 20,
+      "injured": null,
+      "affected_or_evacuated": "10,000 homes flooded in 700 UK locations; 280,000 properties protected by defences",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Slow-moving Atlantic cyclones and a southerly jet; wettest England-and-Wales autumn on the 1766 series.",
+      "sources": [
+        {
+          "label": "Wikipedia: Autumn 2000 Western Europe floods",
+          "url": "https://en.wikipedia.org/wiki/Autumn_2000_Western_Europe_floods"
+        }
+      ],
+      "notes": "20 is the dedicated-page death total. Distinct from flood-uk-2007, flood-uk-2009 and flood-uk-2019.",
+      "era": "2000",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "150 mm overnight at Uckfield, 12 October; England and Wales autumn 503 mm",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "Estimated to exceed $2 billion (page infobox); UK flooded-property cost about £1 billion (ICE/Defra review)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Autumn 2000 Western Europe floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-europe-2011",
+      "name": "2011 European floods",
+      "country": "Italy",
+      "region": "Liguria / Tuscany / Cinque Terre / Dublin",
+      "location_label": "Genoa, Liguria, Italy",
+      "lat": 44.4072,
+      "lng": 8.9339,
+      "geo_accuracy": "approx",
+      "geo_source": "Genoa (Wikipedia coordinates 44.4072°N, 8.9339°E); 356 mm in six hours on 4 November killed about six in the port city",
+      "flood_type": "flash",
+      "river_or_basin": "Po / Ligurian catchments / Var / Liffey",
+      "river_or_facility": "Genoa urban streams",
+      "incident_date": "2011-10-25",
+      "latest_report_date": "2011-11-10",
+      "what_happened": "Autumn 2011 storms including Cyclone Meeno and Tropical Storm Rolf flooded Ireland, Italy, France and Spain. Dublin declared a major emergency after 85 mm in three hours on 24 October; two people died in Ireland. Liguria and Tuscany declared emergencies after floods killed 10 on 27 October. Genoa then took 356 mm in six hours on 4 November. Five died in southern France. The dedicated page totals 17 deaths and more than €926 million damage.",
+      "status": "Historical.",
+      "deaths": 17,
+      "injured": null,
+      "affected_or_evacuated": "Thousands of homes and businesses flooded in Ireland; ~750 evacuated in Fréjus, Roquebrune and Tourves",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Autumn Mediterranean and Atlantic storms (Meeno, Rolf) on saturated catchments.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2011 European floods",
+          "url": "https://en.wikipedia.org/wiki/2011_European_floods"
+        }
+      ],
+      "notes": "17 is the dedicated-page total (Italy + Ireland + France). Distinct from flood-var-2010 and flood-europe-2013.",
+      "era": "2011",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "356 mm in 6 hours in Genoa, 4 November; 85 mm in 3 hours across Dublin, 24 October",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": ">€926 million (2011); French preliminary €550–800 million",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2011 European floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-bulgaria-2014",
+      "name": "2014 Bulgarian floods",
+      "country": "Bulgaria",
+      "region": "northeastern Bulgaria / Varna–Dobrich–Shumen",
+      "location_label": "Asparuhovo, Varna, Bulgaria",
+      "lat": 43.179,
+      "lng": 27.888,
+      "geo_accuracy": "approx",
+      "geo_source": "Asparuhovo, Varna (Wikipedia coordinates 43.179°N, 27.888°E); 13 of 16 deaths were in this district, including four children",
+      "flood_type": "flash",
+      "river_or_basin": "Batova / Black Sea coastal catchments",
+      "river_or_facility": "Batova River",
+      "incident_date": "2014-06-19",
+      "latest_report_date": "2014-06-26",
+      "what_happened": "A Mediterranean cyclone dumped 60–155 L/m² — a full June's rain — on northeastern Bulgaria on 19 June 2014. Flash floods killed 16: 13 in Varna's Asparuhovo district (four of them children; the last, a six-year-old, found 26 June), one in Dobrich and two children at Tsani Ganchevo, Shumen. Houses were swept away; Albena hotels were evacuated when the Batova burst. Romania's Constanța coast was also hit. A national day of mourning was held on 23 June.",
+      "status": "Historical.",
+      "deaths": 16,
+      "injured": null,
+      "affected_or_evacuated": "About 1,000 Asparuhovo residents under evacuation orders by 27 June; 860 rescued or evacuated by the army nationwide",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Mediterranean cyclone; extreme 24-hour and hourly rain on the Black Sea coast.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2014 Bulgarian floods",
+          "url": "https://en.wikipedia.org/wiki/2014_Bulgarian_floods"
+        }
+      ],
+      "notes": "16 is the final dedicated-page tally after the 26 June recovery in Asparuhovo. Distinct from flood-balkans-2014 (May).",
+      "era": "2014",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "90–155 L/m² in 24 h in Dobrich Province; 140–200 mm/h locally in the far northeast",
+      "inundation_area": null,
+      "warning_issued": "NIMH Varna memo to the local administration on 18 June warning of intense rain and hail on the 19th",
+      "related_dam_id": null,
+      "economic_damage": "€311 million+ (page infobox); Varna infrastructure at least 30 million leva",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2014 Bulgarian floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-europe-2016",
+      "name": "2016 European floods",
+      "country": "Germany",
+      "region": "Bavaria / Baden-Württemberg / Seine basin",
+      "location_label": "Simbach am Inn, Bavaria, Germany",
+      "lat": 48.2667,
+      "lng": 13.0167,
+      "geo_accuracy": "approx",
+      "geo_source": "Simbach am Inn (Wikipedia coordinates 48.2667°N, 13.0167°E); the Simbach stream rose from 0.5 m to 5 m in hours; most Bavarian deaths were here",
+      "flood_type": "flash",
+      "river_or_basin": "Inn / Kocher / Seine / Danube / Rhine",
+      "river_or_facility": "Simbach stream",
+      "incident_date": "2016-05-29",
+      "latest_report_date": "2016-06-04",
+      "what_happened": "Late-May and early-June 2016 rains flooded Germany, France, Belgium, Romania and neighbours. Braunsbach was buried under debris on 29 May. At least 11 died in Germany, including seven in Bavaria around Simbach am Inn and Triftern. The Seine closed the Louvre for two days and peaked near 6.3 m in Paris. Belgium lost three, France five and Romania two. The dedicated page totals 21 deaths; Bavarian insured damage alone exceeded €1 billion.",
+      "status": "Historical.",
+      "deaths": 21,
+      "injured": null,
+      "affected_or_evacuated": "Town evacuated on the Seine; 200 evacuated in eastern Romania",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Multi-day May–June thunderstorms on the Neckar, Danube, Rhine and Seine.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2016 European floods",
+          "url": "https://en.wikipedia.org/wiki/2016_European_floods"
+        }
+      ],
+      "notes": "21 is the page total (table 11 DE + 5 FR + 3 BE + 2 RO). Distinct from flood-europe-2013, flood-europe-2018 and flood-europe-2021.",
+      "era": "2016",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "€1 billion+ in Bavaria alone (page infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2016 European floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-macedonia-2016",
+      "name": "2016 Macedonian floods",
+      "country": "North Macedonia",
+      "region": "Skopje / western North Macedonia",
+      "location_label": "Skopje, North Macedonia",
+      "lat": 41.9961,
+      "lng": 21.4317,
+      "geo_accuracy": "approx",
+      "geo_source": "Skopje (Wikipedia coordinates 41.9961°N, 21.4317°E); 93 mm in two hours on the capital, a full August month",
+      "flood_type": "flash",
+      "river_or_basin": "Vardar / Skopje basin",
+      "river_or_facility": null,
+      "incident_date": "2016-08-06",
+      "latest_report_date": "2016-08-08",
+      "what_happened": "On the afternoon of 6 August 2016 a storm hit Skopje and western Macedonia. About 93 litres per square metre fell in two hours — a typical August month — with more than 800 lightning strikes in the first two hours and water 1.5 m deep. At least 21 people died. Three villages northeast of the city were cut off by landslides. The government declared a state of emergency and 8 August a national day of mourning.",
+      "status": "Historical.",
+      "deaths": 21,
+      "injured": null,
+      "affected_or_evacuated": "Dozens injured or missing; army deployed; three villages cut off",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Extreme August thunderstorm over Skopje; a month of rain in two hours.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2016 Macedonian floods",
+          "url": "https://en.wikipedia.org/wiki/2016_Macedonian_floods"
+        }
+      ],
+      "notes": "21+ is the dedicated-page / Reuters / BBC figure. Distinct from flood-europe-2016 (May–June).",
+      "era": "2016",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "93 mm in 2 hours in Skopje (Macedonia weather service)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2016 Macedonian floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-uk-2019",
+      "name": "2019–20 United Kingdom floods",
+      "country": "United Kingdom",
+      "region": "Yorkshire / Midlands / South Wales",
+      "location_label": "Doncaster, South Yorkshire, United Kingdom",
+      "lat": 53.5228,
+      "lng": -1.1325,
+      "geo_accuracy": "approx",
+      "geo_source": "Doncaster (Wikipedia coordinates 53.5228°N, 1.1325°W); River Don record levels and Fishlake/Bentley evacuations in November 2019",
+      "flood_type": "riverine",
+      "river_or_basin": "Don / Derwent / Severn / Taff / Wye / Teme",
+      "river_or_facility": "River Don",
+      "incident_date": "2019-11-07",
+      "latest_report_date": "2020-02-29",
+      "what_happened": "Saturated autumn catchments then Storms Ciara and Dennis produced the wettest February in England and Wales since 1766. November flooding killed former Derbyshire High Sheriff Annie Hall in the Derwent at Matlock and swamped Fishlake and Doncaster. Dennis then set record levels on the Wye and Taff; a woman was swept into the Teme near Tenbury and later found dead, and one person died in the Tawe near Swansea. The dedicated page records 11+ deaths and at least £150 million damage.",
+      "status": "Historical.",
+      "deaths": 11,
+      "injured": null,
+      "affected_or_evacuated": "At least 1,758 properties flooded in November by council counts (Guardian); Fishlake, Pontypridd and Tenbury among the worst-hit",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Saturated soils plus Storms Ciara and Dennis; wettest February in the England-and-Wales 1766 series.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2019–20 United Kingdom floods",
+          "url": "https://en.wikipedia.org/wiki/2019%E2%80%9320_United_Kingdom_floods"
+        }
+      ],
+      "notes": "11+ is the dedicated-page infobox. Distinct from flood-uk-2007, flood-uk-2009, flood-desmond-2015 and flood-autumn-2000.",
+      "era": "2019",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": "Multiple Environment Agency severe flood warnings; South Wales Police major incident in February",
+      "related_dam_id": null,
+      "economic_damage": "At least £150 million (page infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2019–20 United Kingdom floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-gloria-2020",
+      "name": "Storm Gloria floods",
+      "country": "Spain",
+      "region": "Valencian Community / Catalonia / Ebro delta / Balearics",
+      "location_label": "Tortosa / Ebro delta, Catalonia, Spain",
+      "lat": 40.8125,
+      "lng": 0.5211,
+      "geo_accuracy": "approx",
+      "geo_source": "Tortosa at the Ebro (approx 40.8125°N, 0.5211°E); the storm surge ran up to 3 km inland through the delta rice paddies",
+      "flood_type": "coastal",
+      "river_or_basin": "Ebro / Mediterranean coastal catchments",
+      "river_or_facility": "Ebro delta",
+      "incident_date": "2020-01-19",
+      "latest_report_date": "2020-01-28",
+      "what_happened": "AEMET named Gloria on 18 January 2020. After landfall near Santander it stalled over the western Mediterranean. Rain, snow and a record surge (8.44 m significant wave height off Valencia) flooded southeastern Spain and the Balearics between 19 and 21 January. The Ebro delta was inundated up to 3 km inland. Across Spain 13–14 people were killed and three or four remained missing. Southern France evacuated about 2,000. Barx recorded 433 mm.",
+      "status": "Historical.",
+      "deaths": 14,
+      "injured": null,
+      "affected_or_evacuated": "2,000 homes evacuated in southern France; 130,000 Catalan students missed school; 337,000+ power outages",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "storm_surge"
+      ],
+      "cause_summary": "Named Mediterranean storm stalled off eastern Spain; record waves and multi-day rain.",
+      "sources": [
+        {
+          "label": "Wikipedia: Storm Gloria",
+          "url": "https://en.wikipedia.org/wiki/Storm_Gloria"
+        }
+      ],
+      "notes": "Infobox 14 fatalities + 3 missing; BBC 23 Jan said the Spanish toll had risen to 13. Using 14. Distinct from flood-spain-2024 and flood-valencia-1957.",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "433 mm at Barx, 19–23 January (more than four times the January average)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "At least $200 million (2020)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Storm Gloria."
+        }
+      ]
+    },
+    {
+      "id": "flood-bosnia-2024",
+      "name": "2024 Bosnia and Herzegovina floods",
+      "country": "Bosnia and Herzegovina",
+      "region": "Jablanica / Konjic / Fojnica / Neretva",
+      "location_label": "Jablanica, Bosnia and Herzegovina",
+      "lat": 43.662,
+      "lng": 17.7618,
+      "geo_accuracy": "approx",
+      "geo_source": "Jablanica (Wikipedia coordinates 43.6620°N, 17.7618°E); Donja Jablanica landslide and flash flood killed 19 of 27",
+      "flood_type": "flash",
+      "river_or_basin": "Neretva",
+      "river_or_facility": "Neretva / Donja Jablanica",
+      "incident_date": "2024-10-03",
+      "latest_report_date": "2024-10-16",
+      "what_happened": "On the night of 3–4 October 2024 an Adriatic atmospheric river produced Bosnia's worst floods since 2014. Flash floods and landslides cut Jablanica, Konjic, Fojnica, Kiseljak and Kreševo. Twenty-seven people were confirmed dead: 19 in Jablanica (mostly Donja Jablanica, where houses were buried and only a mosque minaret stood above the debris), five in Konjic and three in Fojnica. Entity governments declared 8 October a day of mourning. A quarry above Donja Jablanica was put under investigation.",
+      "status": "Historical.",
+      "deaths": 27,
+      "injured": null,
+      "affected_or_evacuated": "Towns and villages cut off; Sarajevo–Mostar road closed; EU Civil Protection Mechanism activated",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Atmospheric river over the Adriatic; flash floods and landslides on the Neretva.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2024 Bosnia and Herzegovina floods",
+          "url": "https://en.wikipedia.org/wiki/2024_Bosnia_and_Herzegovina_floods"
+        }
+      ],
+      "notes": "27 is the dedicated-page total (19+5+3). AP 14 Oct still said 26 plus one missing; the page uses the later 27 after the last Konjic recovery. Distinct from flood-balkans-2014 and flood-central-europe-2024.",
+      "era": "2024",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2024 Bosnia and Herzegovina floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-nagasaki-1982",
+      "name": "1982 Nagasaki flood",
+      "country": "Japan",
+      "region": "Nagasaki / Kumamoto",
+      "location_label": "Nagasaki, Japan",
+      "lat": 32.7447,
+      "lng": 129.8736,
+      "geo_accuracy": "approx",
+      "geo_source": "Nagasaki (Wikipedia coordinates 32.7447°N, 129.8736°E); named 7.23 Nagasaki Flood",
+      "flood_type": "flash",
+      "river_or_basin": "Nagasaki urban rivers / Meiyu front",
+      "river_or_facility": null,
+      "incident_date": "1982-07-23",
+      "latest_report_date": "1982-07-25",
+      "what_happened": "A Meiyu-front cloudburst on 23 July 1982 dumped 100–187 mm an hour on Nagasaki. Rivers overflowed and mudflows ran through the city; water reached 2.05 m above the surface. A Japanese government report recorded 299 dead in Nagasaki Prefecture and 23 in Kumamoto. JMA named the 23–25 July rains the July 1982 heavy rain; the prefecture calls it the 7.23 Nagasaki Flood.",
+      "status": "Historical.",
+      "deaths": 322,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Meiyu-front cloudburst; extreme hourly rain and landslides.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1982 Nagasaki flood",
+          "url": "https://en.wikipedia.org/wiki/1982_Nagasaki_flood"
+        }
+      ],
+      "notes": "322 = 299 Nagasaki + 23 Kumamoto from the Japanese government report cited on the dedicated page. Distinct from flood-isahaya-1957 and flood-kyushu-1953.",
+      "era": "1982",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "100–187 mm per hour around Nagasaki, 23 July 1982",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 1982 Nagasaki flood."
+        }
+      ]
+    },
+    {
+      "id": "flood-kyushu-2017",
+      "name": "2017 Northern Kyushu floods",
+      "country": "Japan",
+      "region": "Fukuoka / Ōita (Asakura, Hita)",
+      "location_label": "Asakura, Fukuoka, Japan",
+      "lat": 33.4233,
+      "lng": 130.6656,
+      "geo_accuracy": "approx",
+      "geo_source": "Asakura, Fukuoka (Wikipedia coordinates 33.4233°N, 130.6656°E); 500 mm in 12 hours on 5 July, a day above the city's July average",
+      "flood_type": "flash",
+      "river_or_basin": "Chikugo / northern Kyushu catchments",
+      "river_or_facility": null,
+      "incident_date": "2017-07-05",
+      "latest_report_date": "2017-07-12",
+      "what_happened": "Severe Tropical Storm Nanmadol made landfall near Nagasaki on 4 July 2017 and then stalled as a rainstorm over northern Kyushu. Asakura recorded 500 mm in 12 hours on 5 July and Fukuoka 774 mm in nine hours. Landslides hit 44 places and floods 38; more than 2,600 homes were destroyed. Forty-two people died by drowning or landslide. Damage was about ¥190 billion (US$1.68 billion). Prime Minister Abe cancelled a European trip to visit the area.",
+      "status": "Historical.",
+      "deaths": 42,
+      "injured": 39,
+      "affected_or_evacuated": "1,724 evacuated in Fukuoka and Ōita; advisories to at least 20,000",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "tropical_cyclone"
+      ],
+      "cause_summary": "Nanmadol landfall then extreme orographic rain over Fukuoka and Ōita.",
+      "sources": [
+        {
+          "label": "Wikipedia: Tropical Storm Nanmadol (2017) / 2017 Northern Kyushu floods",
+          "url": "https://en.wikipedia.org/wiki/2017_Northern_Kyushu_floods"
+        }
+      ],
+      "notes": "42 dead, 2 missing, 39 injured on the dedicated storm/flood page. Distinct from flood-kyushu-1953, flood-kyushu-2020 and flood-japan-2018.",
+      "era": "2017",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "774 mm in 9 hours in Fukuoka Prefecture; 500 mm in 12 hours in Asakura; 545–632 mm in 24 hours in Ōita",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "¥190 billion (US$1.68 billion)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Tropical Storm Nanmadol (2017) / 2017 Northern Kyushu floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-korea-2020",
+      "name": "2020 Korea floods",
+      "country": "South Korea",
+      "region": "southern South Korea / Korean Peninsula",
+      "location_label": "Busan, South Korea",
+      "lat": 35.18,
+      "lng": 129.075,
+      "geo_accuracy": "approx",
+      "geo_source": "Busan (Wikipedia coordinates 35.18°N, 129.075°E); early-July flooding in the south, where most 2020 fatalities occurred",
+      "flood_type": "monsoon",
+      "river_or_basin": "southern Korean monsoon catchments",
+      "river_or_facility": null,
+      "incident_date": "2020-07-10",
+      "latest_report_date": "2020-08-10",
+      "what_happened": "The 2020 East Asian rainy season, later extended by Typhoon Hagupit and Tropical Storm Jangmi, flooded southern South Korea from June into mid-August — the second-longest rainy season on record after 2013. Busan flooded in early July. As of 10 August 2020, 32 people had died in South Korea. Damage was put at ₩1.04 trillion (US$875 million). North Korea issued a red rainfall alert; KCNA reported damage but no official fatalities.",
+      "status": "Historical.",
+      "deaths": 32,
+      "injured": null,
+      "affected_or_evacuated": "Hundreds in COVID-constrained shelters; North Korean reconstruction in North Hwanghae later in the year",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon",
+        "tropical_cyclone"
+      ],
+      "cause_summary": "Record-length jangma, then Hagupit and Jangmi rainfall on the southern peninsula.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 Korea floods",
+          "url": "https://en.wikipedia.org/wiki/2020_Korea_floods"
+        }
+      ],
+      "notes": "32 is the 10 August 2020 South Korea figure on the dedicated page. North Korean deaths not given. Distinct from flood-south-korea-2023 and flood-korea-2022.",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "₩1.04 trillion (US$875 million), South Korea Ministry of the Interior and Safety",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2020 Korea floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-korea-2022",
+      "name": "2022 South Korea floods",
+      "country": "South Korea",
+      "region": "Seoul / Gangnam / Dongjak",
+      "location_label": "Gangnam District, Seoul, South Korea",
+      "lat": 37.4967,
+      "lng": 127.0275,
+      "geo_accuracy": "approx",
+      "geo_source": "Gangnam District (Wikipedia coordinates 37.4967°N, 127.0275°E); capital floods of 8 August, heaviest rain in 80 years",
+      "flood_type": "urban",
+      "river_or_basin": "Han River",
+      "river_or_facility": "Han River",
+      "incident_date": "2022-08-08",
+      "latest_report_date": "2022-08-10",
+      "what_happened": "On 8 August 2022 Seoul's heaviest rain in 80 years flooded Gangnam and neighbouring districts. Dongjak recorded 43 cm (17 in). The Han swelled on 10 August. At least nine people were killed, 2,800 buildings were damaged and 163 people in Seoul were made homeless. Landslide warnings covered 50 cities and towns. President Yoon warned of further rain.",
+      "status": "Historical.",
+      "deaths": 9,
+      "injured": 0,
+      "affected_or_evacuated": "163 homeless in Seoul; 2,800 buildings damaged",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "urban_drainage"
+      ],
+      "cause_summary": "Record urban cloudburst on Seoul; Han River overflow.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2022 South Korea floods",
+          "url": "https://en.wikipedia.org/wiki/2022_South_Korea_floods"
+        }
+      ],
+      "notes": "9 is the dedicated-page death total. Distinct from flood-korea-2020 and flood-south-korea-2023.",
+      "era": "2022",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "430 mm (17 in) in Dongjak District, Seoul",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2022 South Korea floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-nk-2016",
+      "name": "2016 North Korean floods (Lionrock remnants)",
+      "country": "North Korea",
+      "region": "North Hamgyong / Tumen River",
+      "location_label": "Hoeryong, North Hamgyong, North Korea",
+      "lat": 42.4333,
+      "lng": 129.75,
+      "geo_accuracy": "approx",
+      "geo_source": "Hoeryong (Wikipedia coordinates 42.4333°N, 129.75°E); more than 104,000 lost clean water in the city; Tumen basin was the core of the disaster",
+      "flood_type": "riverine",
+      "river_or_basin": "Tumen River",
+      "river_or_facility": "Tumen River",
+      "incident_date": "2016-08-29",
+      "latest_report_date": "2016-10-06",
+      "what_happened": "Remnants of Typhoon Lionrock combined with a China low to drop what KCNA called the heaviest North Hamgyong rain since 1945 (320 mm in two days at Kyonghung). The Tumen and tributaries flooded about 16,000 ha of farmland. Over 35,500 houses were damaged and about 25,000 destroyed; 107,000 people left their homes. A five-storey collapse in Ryanggang killed 34. Floods related to Lionrock killed at least 525 in North Korea. The government made a rare public appeal for international aid.",
+      "status": "Historical.",
+      "deaths": 525,
+      "injured": null,
+      "affected_or_evacuated": "107,000 displaced; ~600,000 affected by water cuts; 44,000 pre-evacuated in flood-prone areas",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall",
+        "tropical_cyclone"
+      ],
+      "cause_summary": "Lionrock remnants plus a China low; extreme Tumen-basin rain.",
+      "sources": [
+        {
+          "label": "Wikipedia: Typhoon Lionrock (2016 North Korean floods)",
+          "url": "https://en.wikipedia.org/wiki/2016_North_Korean_floods"
+        }
+      ],
+      "notes": "525 is the dedicated-page North Korea flood death figure. Japan landfall deaths (22) are a separate Lionrock impact and are not included. Distinct from flood-korea-2020.",
+      "era": "2016",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "320 mm in two days, Kyonghung County",
+      "inundation_area": "About 16,000 ha farmland inundated, of which 10,145 ha wrecked",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Typhoon Lionrock (2016 North Korean floods)."
+        }
+      ]
+    },
+    {
+      "id": "flood-fifi-1974",
+      "name": "Hurricane Fifi flooding in Honduras",
+      "country": "Honduras",
+      "region": "Choloma / north coast / Sula valley",
+      "location_label": "Choloma, Cortés, Honduras",
+      "lat": 15.6333,
+      "lng": -88.0,
+      "geo_accuracy": "approx",
+      "geo_source": "Choloma (Wikipedia coordinates 15.6333°N, 88.00°W); a blocked Choloma River then a bridge-break flood killed an estimated 2,800–5,000 of the town's 7,000 people overnight",
+      "flood_type": "cyclone",
+      "river_or_basin": "Choloma / Ulúa / north-coast catchments",
+      "river_or_facility": "Choloma River",
+      "incident_date": "1974-09-18",
+      "latest_report_date": "1974-09-24",
+      "what_happened": "Category 2 Hurricane Fifi brushed northern Honduras on 18–19 September 1974 and stalled rain on the mountains. About 610 mm fell in three days. A mudslide dammed the Choloma River; when a concrete bridge failed upstream on 20 September the release destroyed Choloma overnight (about 2,800–5,000 of 7,000 residents). Coastal towns including Omoa were wrecked. The banana crop was wiped out. The dedicated page totals 8,210 fatalities (third-deadliest Atlantic hurricane), almost all from freshwater flooding and mudslides, not wind.",
+      "status": "Historical.",
+      "deaths": 8210,
+      "injured": null,
+      "affected_or_evacuated": "150,000–500,000 homeless (Red Cross vs Honduran government); 350,000 in shelters by 24 September",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Slow hurricane rainfall and mountain runoff; Choloma landslide dam-break flood.",
+      "sources": [
+        {
+          "label": "Wikipedia: Hurricane Fifi",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Fifi"
+        }
+      ],
+      "notes": "8,210 is the page's tabulated total (Honduras 8,000–10,000, Guatemala 200, El Salvador 10). Range 8,000–10,000 remains in many summaries. Flood-dominant, same treatment as flood-mitch-1998. Not a dam-structure failure.",
+      "era": "1974",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "About 610 mm (24 in) in three days over Honduras; 370 mm in four days at Chinandega, Nicaragua",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "$1.8 billion (1974 USD)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Hurricane Fifi."
+        }
+      ]
+    },
+    {
+      "id": "flood-stan-2005",
+      "name": "Hurricane Stan floods",
+      "country": "Guatemala",
+      "region": "Guatemala highlands / Chiapas / Central America",
+      "location_label": "Santiago Atitlán, Sololá, Guatemala",
+      "lat": 14.6333,
+      "lng": -91.2333,
+      "geo_accuracy": "approx",
+      "geo_source": "Santiago Atitlán (Wikipedia coordinates 14.6333°N, 91.2333°W); Stan's rainfall triggered the deadly Panabaj mudslide above the town, emblematic of the Guatemala toll",
+      "flood_type": "cyclone",
+      "river_or_basin": "Guatemalan highlands / Sierra Madre de Chiapas",
+      "river_or_facility": null,
+      "incident_date": "2005-10-04",
+      "latest_report_date": "2005-10-15",
+      "what_happened": "Hurricane Stan (October 2005) was a modest cyclone inside a much larger Central American rain event. Torrential rain set off mudslides and river floods in Guatemala, southern Mexico, El Salvador and neighbours. Guatemala took most of the 1,673 deaths, many in highland slides that erased villages (including Panabaj above Santiago Atitlán). In Mexico, Chiapas, Veracruz, Oaxaca, Puebla and Quintana Roo flooded; 86 died in Chiapas. Regional damage was about $3.9 billion.",
+      "status": "Historical.",
+      "deaths": 1673,
+      "injured": null,
+      "affected_or_evacuated": "Tens of thousands displaced; 55,038 houses damaged in the five worst-hit Mexican states",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stan's broad rain shield; mudslides and river floods, especially in Guatemala.",
+      "sources": [
+        {
+          "label": "Wikipedia: Hurricane Stan",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Stan"
+        }
+      ],
+      "notes": "1,673 is the dedicated-page regional death total, mostly Guatemala mudslides. Flood-dominant, same treatment as flood-mitch-1998 and flood-fifi-1974. Distinct from flood-guatemala-1949.",
+      "era": "2005",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "$3.9 billion across the region; Mex$13.7 billion direct damage in five Mexican states",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Hurricane Stan."
+        }
+      ]
+    },
+    {
+      "id": "flood-haiti-2023",
+      "name": "2023 Haiti floods",
+      "country": "Haiti",
+      "region": "Ouest / Nippes / Sud-Est / Nord-Ouest / Centre",
+      "location_label": "Port-au-Prince, Haiti",
+      "lat": 18.5364,
+      "lng": -72.3464,
+      "geo_accuracy": "approx",
+      "geo_source": "Port-au-Prince (Wikipedia coordinates 18.5364°N, 72.3464°W); the event page says damage was particularly severe around the capital",
+      "flood_type": "flash",
+      "river_or_basin": "Haitian coastal and southern catchments",
+      "river_or_facility": null,
+      "incident_date": "2023-06-02",
+      "latest_report_date": "2023-06-08",
+      "what_happened": "After late-May rains saturated soils, a stationary low flooded Haiti on 2–3 June 2023. Five departments were hit; Port-au-Prince was among the worst. As of 6 June the dedicated page records 51 dead, 140 injured and 18 missing. About 37,375 people were affected and 13,390 displaced; 13,591 homes were flooded and 820 destroyed. Three rivers isolated Jérémie. OCHA and civil protection led relief amid gang violence. Subsequent 4 and 6 June quakes (four more dead) are not in this flood tally.",
+      "status": "Historical.",
+      "deaths": 51,
+      "injured": 140,
+      "affected_or_evacuated": "37,375 affected; 13,390 displaced; 13,591 homes flooded, 820 destroyed",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stationary low on already saturated soils; river overflows and landslides.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2023 Haiti floods",
+          "url": "https://en.wikipedia.org/wiki/2023_Haiti_floods"
+        }
+      ],
+      "notes": "51 dead / 140 injured / 18 missing as of 6 June 2023 on the dedicated page (OCHA flash and PAHO sitrep). Distinct from flood-haiti-2004 and flood-matthew-haiti-2016.",
+      "era": "2023",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2023 Haiti floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-california-2023",
+      "name": "2022–2023 California floods",
+      "country": "United States",
+      "region": "California / Nevada",
+      "location_label": "Sacramento, California, United States",
+      "lat": 38.5817,
+      "lng": -121.4944,
+      "geo_accuracy": "approx",
+      "geo_source": "Sacramento (Wikipedia coordinates 38.5817°N, 121.4944°W); Sacramento County had five of the storm deaths, the highest county toll",
+      "flood_type": "riverine",
+      "river_or_basin": "Sacramento / Cosumnes / Salinas / Pajaro / Tulare Lake",
+      "river_or_facility": "Cosumnes River / Tulare Lake",
+      "incident_date": "2022-12-31",
+      "latest_report_date": "2023-03-25",
+      "what_happened": "A train of atmospheric rivers from 31 December 2022 to 25 March 2023 flooded California and neighbouring Nevada. San Francisco had 5.46 in on 31 December, its second-wettest day. Levees failed on the Cosumnes and later the Pajaro; Tulare Lake refilled for the first time since 1997. At least 22 people died. About 200,000 customers lost power in the first storms and 6,000 were ordered to evacuate. Damage was about $4.6 billion. Newsom and Biden issued emergency and major-disaster declarations.",
+      "status": "Historical.",
+      "deaths": 22,
+      "injured": null,
+      "affected_or_evacuated": "6,000 ordered to evacuate; 200,000 homes and businesses lost power in December–January",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Repeated atmospheric rivers after multi-year drought; levee breaks and valley flooding.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2022–2023 California floods",
+          "url": "https://en.wikipedia.org/wiki/2022%E2%80%932023_California_floods"
+        }
+      ],
+      "notes": "22+ is the dedicated-page death total. Distinct from flood-california-1862 and flood-los-angeles-1938.",
+      "era": "2023",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "139 mm (5.46 in) in San Francisco on 31 December; 16-day area average 8.61 in to 11 January",
+      "inundation_area": null,
+      "warning_issued": "California state of emergency 4 January 2023; federal emergency 9 January",
+      "related_dam_id": null,
+      "economic_damage": "$4.6 billion (2023 USD, NCEI billion-dollar disasters)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2022–2023 California floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-east-africa-2020",
+      "name": "2020 East Africa floods",
+      "country": "Kenya",
+      "region": "Kenya / Rwanda / DRC / Horn",
+      "location_label": "Nairobi, Kenya",
+      "lat": -1.2864,
+      "lng": 36.8172,
+      "geo_accuracy": "approx",
+      "geo_source": "Nairobi (Wikipedia coordinates 1.2864°S, 36.8172°E); Kenya had 237 of the 453 deaths and 29 of 47 counties flooded",
+      "flood_type": "riverine",
+      "river_or_basin": "Nzoia / East African Great Lakes / Horn catchments",
+      "river_or_facility": "Nzoia River",
+      "incident_date": "2020-03-02",
+      "latest_report_date": "2020-05-13",
+      "what_happened": "A positive Indian Ocean Dipole and a wet 2019 short-rains season left East Africa primed. Long rains from March 2020 then flooded Rwanda, Kenya, Somalia, Burundi, Ethiopia, Uganda, DRC, Djibouti and Tanzania. The dedicated page totals 453 deaths: 237 Kenya, 97 Rwanda, 44 DRC, 34 Ethiopia, 21 Somalia, 11 Uganda, 8 Djibouti, 1 Burundi. More than 700,000 people were affected; 100,000-plus were displaced in Kenya alone after the Nzoia overflowed in Busia and Siaya.",
+      "status": "Historical.",
+      "deaths": 453,
+      "injured": null,
+      "affected_or_evacuated": "At least 700,000 affected; >100,000 displaced in Kenya; 800,000 Kenyans in 161,000 households adversely affected",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Positive IOD hangover plus extreme March–May long rains across East Africa.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 East Africa floods",
+          "url": "https://en.wikipedia.org/wiki/2020_East_Africa_floods"
+        }
+      ],
+      "notes": "453 is the dedicated-page country sum. Distinct from flood-kenya-2024, flood-kenya-2026, flood-ethiopia-2016 and flood-somalia-2023. Not dam-structure.",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2020 East Africa floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-freddy-2023",
+      "name": "Cyclone Freddy floods",
+      "country": "Malawi",
+      "region": "southern Malawi / Blantyre / Mozambique Zambezia",
+      "location_label": "Blantyre, Malawi",
+      "lat": -15.7861,
+      "lng": 35.0058,
+      "geo_accuracy": "approx",
+      "geo_source": "Blantyre (Wikipedia coordinates 15.7861°S, 35.0058°E); 192 of Malawi's 1,216 deaths were in the city, including at least 40 children",
+      "flood_type": "cyclone",
+      "river_or_basin": "Shire / southern Malawi / Zambezi",
+      "river_or_facility": "Shire River",
+      "incident_date": "2023-03-11",
+      "latest_report_date": "2023-04-16",
+      "what_happened": "Record-duration Cyclone Freddy made its final landfall near Quelimane, Mozambique, on 11 March 2023 and then dumped a month of rain in a day on southern Malawi. Flash floods and landslides, especially in Blantyre, Phalombe, Mulanje, Chikhwawa and Nsanje, killed 1,216 in Malawi (192 in Blantyre). Mozambique lost 198 and Madagascar 17. The dedicated page totals 1,434 dead, 2,004 injured and about US$1.53 billion damage. Malawi's hydro grid was shut; cholera surged.",
+      "status": "Historical.",
+      "deaths": 1434,
+      "injured": 2004,
+      "affected_or_evacuated": "≥1.71 million affected; 508,244 displaced in 534 Malawi camps by 18 March; 180,000 displaced in Malawi at one count",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Freddy's third landfall and stall; catastrophic Malawi flash floods.",
+      "sources": [
+        {
+          "label": "Wikipedia: Cyclone Freddy",
+          "url": "https://en.wikipedia.org/wiki/Cyclone_Freddy"
+        }
+      ],
+      "notes": "1,434 is the dedicated-page total (Malawi 1,216, Mozambique 198, Madagascar 17, Zimbabwe 2, Mauritius 1). Flood-dominant inland, same treatment as flood-idai-2019. Distinct from flood-malawi-2015, flood-malawi-2026 and flood-mozambique-2026.",
+      "era": "2023",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "458 mm in 24 hours in Phalombe District (record); many districts 300 mm/day",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "US$1.53 billion (page infobox); Malawi US$506.7 million",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Cyclone Freddy."
+        }
+      ]
+    },
+    {
+      "id": "flood-afghanistan-2026",
+      "name": "2026 Afghanistan spring floods",
+      "country": "Afghanistan",
+      "region": "Nangarhar / eastern and southern Afghanistan",
+      "location_label": "Jalalabad, Nangarhar, Afghanistan",
+      "lat": 34.4342,
+      "lng": 70.4478,
+      "geo_accuracy": "approx",
+      "geo_source": "Jalalabad (Wikipedia coordinates 34.4342°N, 70.4478°E); OCHA says the east (Nangarhar 22,267 affected) was the worst-hit region",
+      "flood_type": "flash",
+      "river_or_basin": "Kabul–Jalalabad / Kunar / Laghman",
+      "river_or_facility": null,
+      "incident_date": "2026-03-26",
+      "latest_report_date": "2026-04-07",
+      "what_happened": "From 26 March to 6 April 2026, rainfall and flash floods hit 31 of Afghanistan's 34 provinces, 165 districts and 546 villages. OCHA Flash Update #1 (7 April) reported at least 93 killed, 181 injured and four missing, with more than 73,300 people (10,634 families) affected. Some 9,010 homes were hit (1,338 destroyed). The east was worst — Nangarhar, Kunar and Laghman — with landslides on the Kabul–Jalalabad, Jalalabad–Asadabad and Jalalabad–Torkham roads. A 5 April Hindu Kush earthquake (14 dead in Kabul) is listed separately by OCHA and is not in the 93.",
+      "status": "Assessments ongoing as of 7 April 2026; rains easing.",
+      "deaths": 93,
+      "injured": 181,
+      "affected_or_evacuated": "More than 73,300 people (10,634 families) affected; 1,338 homes destroyed, 7,672 damaged",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Early-spring heavy rain and flash floods, worst in the east.",
+      "sources": [
+        {
+          "label": "OCHA: Afghanistan Flash Update #1, flooding 26 March–6 April 2026",
+          "url": "https://www.unocha.org/publications/report/afghanistan/afghanistan-flash-update-1-flooding-afghanistan-26-march-6-april-2026"
+        }
+      ],
+      "notes": "93 dead / 181 injured as of 7 April 2026 (OCHA). Distinct from flood-afghanistan-2024 and the 20–23 July 2026 Parun/Nuristan flash floods (23 dead). Earthquake deaths on 5 April are excluded.",
+      "era": "2026",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from OCHA: Afghanistan Flash Update #1, flooding 26 March–6 April 2026."
+        }
+      ]
+    },
+    {
+      "id": "flood-rwanda-2023",
+      "name": "2023 Rwanda floods",
+      "country": "Rwanda",
+      "region": "Western Province / Lake Kivu / Sebeya",
+      "location_label": "Rubavu (Gisenyi), Rwanda",
+      "lat": -1.7,
+      "lng": 29.25,
+      "geo_accuracy": "approx",
+      "geo_source": "Gisenyi/Rubavu (Wikipedia coordinates 1.70°S, 29.25°E); most Western Province deaths were near Lake Kivu; the prime minister attended a Rubavu burial on 4 May",
+      "flood_type": "flash",
+      "river_or_basin": "Sebeya / Lake Kivu catchments",
+      "river_or_facility": "Sebeya River",
+      "incident_date": "2023-05-02",
+      "latest_report_date": "2023-05-04",
+      "what_happened": "After a wet start to 2023, extreme rain from about 18:00 local time on 2 May flooded north-western Rwanda overnight. The Sebeya burst its banks. Rutsiro, Nyabihu, Rubavu and Ngororero were worst hit; most Western Province deaths were near Lake Kivu. At least 135 people were killed, 110 injured and about 20,000 displaced. Some 5,100–5,963 homes were destroyed. The event sits on the 2023 African Great Lakes floods page, which also records far larger DRC Kalehe losses that overlap flood-drc-2024 and are not double-counted here.",
+      "status": "Historical.",
+      "deaths": 135,
+      "injured": 110,
+      "affected_or_evacuated": "About 20,000 displaced; 5,100–5,963 homes destroyed and 2,500 damaged",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Overnight 2 May cloudburst on saturated north-western hills; Sebeya overflow and landslides.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2023 African Great Lakes floods",
+          "url": "https://en.wikipedia.org/wiki/2023_African_Great_Lakes_floods"
+        }
+      ],
+      "notes": "135 is the Rwanda figure on the dedicated Great Lakes page (Statesman / later tallies). Infobox 130 as of 3 May is stale. DRC Kalehe (~440) is not added — likely overlaps flood-drc-2024.",
+      "era": "2023",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2023 African Great Lakes floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-kalimantan-2021",
+      "name": "2021 South Kalimantan floods",
+      "country": "Indonesia",
+      "region": "South Kalimantan / Banjarmasin / Tanah Laut",
+      "location_label": "Banjarmasin, South Kalimantan, Indonesia",
+      "lat": -3.32,
+      "lng": 114.5925,
+      "geo_accuracy": "approx",
+      "geo_source": "Banjarmasin (Wikipedia coordinates 3.32°S, 114.5925°E); among the worst-hit cities on the dedicated page",
+      "flood_type": "riverine",
+      "river_or_basin": "Barito / South Kalimantan rivers",
+      "river_or_facility": null,
+      "incident_date": "2021-01-09",
+      "latest_report_date": "2021-01-18",
+      "what_happened": "From 9 January 2021 South Kalimantan saw its first major flood in fifty years and the worst in ten. Rivers overflowed across Banjarmasin, Central Hulu Sungai and Tanah Laut. Fifteen people died and more than 100,000 were evacuated. WALHI blamed unreclaimed mine pits and oil-palm conversion as well as the rain. President Widodo visited on 18 January after a #KalselJugaIndonesia campaign over thin national coverage.",
+      "status": "Historical.",
+      "deaths": 15,
+      "injured": null,
+      "affected_or_evacuated": "More than 100,000 evacuated; CNN Indonesia 18 January: 5 dead and 112,000 displaced at one count, later raised to 15",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Intense January rain on degraded catchments; mine pits and oil palm cited by WALHI.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2021 South Kalimantan floods",
+          "url": "https://en.wikipedia.org/wiki/2021_South_Kalimantan_floods"
+        }
+      ],
+      "notes": "15 is the dedicated-page death total. Distinct from flood-jakarta-2007/2013/2020 and flood-sumatra-2025.",
+      "era": "2021",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2021 South Kalimantan floods."
         }
       ]
     }
