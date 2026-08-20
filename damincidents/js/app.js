@@ -985,6 +985,7 @@
     });
     dark.addTo(map);
     let baseMode = "auto";
+    let lastAerialState = false;
     function wantAerial() {
       if (baseMode === "aerial") return true;
       if (baseMode === "map") return false;
@@ -996,12 +997,16 @@
     }
     function syncBase() {
       const aerialOn = wantAerial();
+      const layerChanged = aerialOn !== lastAerialState;
       showLayer(aerial, aerialOn);
       showLayer(labels, aerialOn);
-      if (aerialOn && map.hasLayer(labels)) labels.bringToFront();
-      if (cluster && map.hasLayer(cluster)) cluster.bringToFront();
-      const markerPane = map.getPane("markerPane");
-      if (markerPane) markerPane.style.zIndex = 650;
+      if (layerChanged) {
+        if (aerialOn && map.hasLayer(labels)) labels.bringToFront();
+        if (cluster && map.hasLayer(cluster)) cluster.bringToFront();
+        const markerPane = map.getPane("markerPane");
+        if (markerPane) markerPane.style.zIndex = 650;
+      }
+      lastAerialState = aerialOn;
     }
     function setBaseMode(mode) {
       baseMode = mode;
@@ -1050,6 +1055,7 @@
       spiderfyOnMaxZoom: true,
       disableClusteringAtZoom: 8,
       animate: false,
+      removeOutsideVisibleBounds: false,
     });
     map.addLayer(cluster);
     const resize = () => { map.invalidateSize(); landingView(); };
