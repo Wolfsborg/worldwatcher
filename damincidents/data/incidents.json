@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 709,
+  "count": 729,
   "current_count": 25,
-  "historical_count": 684,
+  "historical_count": 704,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -38655,6 +38655,1089 @@
         }
       ],
       "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Bi Chunfu (1995) via Wikipedia: about 5 million living on inundated land; early Communist estimates 5–6.1 million",
+      "notes": "Deaths 400000: Wang Zhibin 1986 and Bi Chunfu 1995 professional total (flood/famine/plague) cited by Wikipedia. Immediate drowning 30000 (Kuo 2015) to 89000 (CAS 1995). 893303 (1948 Nationalist relief) discredited on that page. Pin is Huayuankou town, not a surveyed 1938 cut.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "huayuankou-1938-06-07",
+      "name": "Huayuankou Yellow River levee (花园口决堤)",
+      "country": "China",
+      "region": "Huayuankou, Huiji District, Zhengzhou, Henan",
+      "location_label": "Huayuankou, Zhengzhou, Henan, China",
+      "lat": 34.87694,
+      "lng": 113.67278,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Huayuankou, Zhengzhou) 34°52′37″N 113°40′22″E",
+      "river_or_facility": "Yellow River south-bank levee at Huayuankou",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "war_attack"
+      ],
+      "cause_summary": "Wikipedia (1938 Yellow River flood): National Revolutionary Army, on Chiang Kai-shek's order, destroyed the Huayuankou dike on 5–7 June 1938 to block the Japanese advance after Zhaokou explosives failed.",
+      "incident_date": "1938-06-07",
+      "latest_report_date": "2023",
+      "what_happened": "After the Battle of Xuzhou, the National Revolutionary Army opened the Yellow River dikes near Zhengzhou. Wikipedia: the original plan was explosives at Zhaokou; when that failed, the south-bank dike at Huayuankou was destroyed on 5 and 7 June 1938 by tunneling. The first flood wave reached Zhongmu County on 13 June. The river left its course until dike repairs were completed in March 1947 (a 1946 UNRRA attempt failed in summer flows). Wikipedia's professional sources put immediate drowning at 30,000–89,000 and total deaths from drowning, famine and plague at 400,000–500,000; a 1948 Nationalist relief figure of 893,303 is described there as discredited.",
+      "status": "Levee restored 1947; river returned to its pre-1938 course.",
+      "deaths": 400000,
+      "sources": [
+        {
+          "label": "Wikipedia — 1938 Yellow River flood",
+          "url": "https://en.wikipedia.org/wiki/1938_Yellow_River_flood"
+        },
+        {
+          "label": "Wikipedia — Huayuankou, Zhengzhou",
+          "url": "https://en.wikipedia.org/wiki/Huayuankou,_Zhengzhou"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": 27,
+      "affected_or_evacuated": "80 households / 210 rooms damaged (Zhejiang Daily 10 Aug sitrep)",
+      "notes": "Deaths 11 from the 11 August compiled account that identified the last missing person. 10 was the 10 August 11:30 sitrep. Pin is Dachangtu / Changtu town, not a surveyed dam crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 28.5,
+      "reservoir_capacity": "238,000 m³ (Zhejiang Daily); early CNTV wire said 180,000 m³",
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "shenjiakeng-2012-08-10",
+      "name": "Shenjiakeng (沈家坑) Reservoir Dam",
+      "country": "China",
+      "region": "Changtu Town, Daishan County, Zhoushan, Zhejiang",
+      "location_label": "Changtu, Daishan, Zhoushan, Zhejiang, China",
+      "lat": 30.24945,
+      "lng": 122.32852,
+      "geo_accuracy": "region",
+      "geo_source": "ChinaWiki Dachangtu mountain (Changtu Town) 30.24945°N 122.32852°E; Zhejiang Daily places the dam in Changtu Town",
+      "river_or_facility": "Shenjiakeng Reservoir, Changtu",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Zhejiang Daily / Zhejiang Online: small earth dam collapsed about 05:00 on 10 August 2012 after Typhoon Haikui downpours; provincial notice said the cause was still under investigation that day.",
+      "incident_date": "2012-08-10",
+      "latest_report_date": "2012-08-11",
+      "what_happened": "Shenjiakeng Reservoir in Changtu Town, Daishan County, Zhoushan, failed about 05:00 on 10 August 2012. Zhejiang Daily: catchment 0.26 km², earth dam 28.5 m high, total storage 238,000 m³ (small-II). As of 11:30 that day the county reported 10 dead, 27 injured (1 serious), 210 rooms damaged in 80 households. A later 11 August account (Chinese encyclopedia compilation of the same incident) says a missing person was found dead the next morning, bringing the toll to 11. NDTV/Xinhua same day: 10 killed, 27 injured.",
+      "status": "Historical small-reservoir failure after Typhoon Haikui.",
+      "deaths": 11,
+      "sources": [
+        {
+          "label": "Zhejiang Daily / Zhejiang Online — Changtu Shenjiakeng collapse",
+          "url": "http://zjnews.zjol.com.cn/05zjnews/system/2012/08/11/018728892.shtml"
+        },
+        {
+          "label": "NDTV / Xinhua — 10 killed, 27 injured",
+          "url": "https://www.ndtv.com/world-news/10-killed-27-injured-in-dam-burst-in-china-496271"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "parts of Jiujiang under about 7 ft of water (Independent)",
+      "notes": "Deaths null. Reuters/ADRC 78 dead in eastern Jiujiang is a city flood-season figure, not copied onto this breach. 1998 Yangtze national toll not copied. Pin is Jiujiang municipal government (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 64 m wide, 7 m scour (Deltares); Independent contemporaneous 130 ft",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "jiujiang-city-defence-1998-08-07",
+      "name": "Jiujiang City Defence dike (Yangtze)",
+      "country": "China",
+      "region": "Jiujiang, Jiangxi (urban flood-wall on the Yangtze)",
+      "location_label": "Jiujiang, Jiangxi, China",
+      "lat": 29.661,
+      "lng": 115.954,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Jiujiang municipal government) 29°39′40″N 115°57′14″E; Independent: breach near the city ship docks",
+      "river_or_facility": "Yangtze River City Defence dike / flood-wall, Jiujiang",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Deltares analysis of 1998 Yangtze dike breaches: piping with subsequent sliding of the inner slope; urban dike with a flood-wall on top.",
+      "incident_date": "1998-08-07",
+      "latest_report_date": "1998-08-14",
+      "what_happened": "The Jiujiang City Defence dike on the Yangtze breached on the afternoon of 7 August 1998 (The Independent: Friday afternoon, near the ship docks). Deltares: final breach about 64 m wide, maximum scour 7 m, piping then inner-slope sliding. About 30,000 people worked to plug the gap; boats loaded with stone, coal, soybeans and rice were sunk in the hole. Xinhua said a rescue ship later hit the dike and widened it. ADRC/Reuters (14 Aug) said repair of the breach was finished earlier that week but the city's west side remained underwater. No death count is given for this named breach alone.",
+      "status": "Breach repaired within about a week (Reuters 14 Aug 1998).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "The Independent — Battle to save flood city",
+          "url": "https://www.independent.co.uk/news/battle-to-save-flood-city-1170629.html"
+        },
+        {
+          "label": "Deltares — Analysis of 1998 Chinese dike breaches (Jiujiang City Defence)",
+          "url": "https://v-web002.deltares.nl/sterktenoodmaatregelen/images/c/c9/Analysis_of_1998_dike_breaches_along_the_Yangtze_River_and_tributaries.pdf"
+        },
+        {
+          "label": "ADRC / Reuters — Jiujiang breach repair (14 Aug 1998)",
+          "url": "https://www.adrc.asia/view_disaster_en.php?KEY=12&lang="
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "60,000 evacuated (Sixth Tone)",
+      "notes": "Deaths 44 = 19 troops + 25 townspeople in Sixth Tone for this named breach. 1998 Yangtze national toll not copied. Pin is Paizhouwan town (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "Deltares Paizhou case: about 760 m wide, 32.1 m deep",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "paizhouwan-1998-08-01",
+      "name": "Paizhouwan (牌洲湾 / 簰洲湾) Yangtze embankment",
+      "country": "China",
+      "region": "Paizhouwan Town, Jiayu County, Xianning, Hubei",
+      "location_label": "Paizhouwan, Jiayu, Hubei, China",
+      "lat": 30.20944,
+      "lng": 113.92775,
+      "geo_accuracy": "region",
+      "geo_source": "OpenStreetMap / Geokeo (Paizhouwan / Pazhouwan town) 30.20944N 113.92775E",
+      "river_or_facility": "Paizhouwan / Henzheng dike ring, Yangtze right bank",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Deltares 1998 Yangtze review: Paizhouwan / Henzheng dike-ring breaches were caused by piping. Sixth Tone: the Paizhouwan embankment broke on the evening of 1 August 1998.",
+      "incident_date": "1998-08-01",
+      "latest_report_date": "2016-07",
+      "what_happened": "On the evening of 1 August 1998 the Paizhouwan (簰洲湾) farmer/main-dike ring on the Yangtze at Jiayu County, Hubei, breached. Sixth Tone: 19 government troops and 25 townspeople died; 60,000 were evacuated. Deltares: piping; final breach about 760 m wide and 32.1 m deep at the Paizhou dike case. After 1998 the state rebuilt and raised the ~41.5 km Paizhouwan dike (Baidu / local encyclopedia).",
+      "status": "Rebuilt and raised after 1998; still a Yangtze flood-control polder.",
+      "deaths": 44,
+      "sources": [
+        {
+          "label": "Sixth Tone — Paizhouwan 1 Aug 1998 embankment break",
+          "url": "https://www.sixthtone.com/news/1826"
+        },
+        {
+          "label": "Deltares — 1998 Yangtze dike breaches (Paizhouwan / Henzheng)",
+          "url": "https://v-web002.deltares.nl/sterktenoodmaatregelen/images/c/c9/Analysis_of_1998_dike_breaches_along_the_Yangtze_River_and_tributaries.pdf"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths ~20 from WISE. Pin is the mine deposit, not a surveyed tailings crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 700,000 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "jinduicheng-1988-04-30",
+      "name": "Jinduicheng (金堆城) molybdenum tailings dam",
+      "country": "China",
+      "region": "Huazhou District (formerly Huaxian), Weinan, Shaanxi",
+      "location_label": "Jinduicheng, Huazhou, Shaanxi, China",
+      "lat": 34.33083,
+      "lng": 109.95472,
+      "geo_accuracy": "region",
+      "geo_source": "PorterGeo Jinduicheng deposit 34°19′51″N 109°57′17″E (mine, not a surveyed tailings-crest pin)",
+      "river_or_facility": "Jinduicheng molybdenum tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "spillway",
+        "overtopping"
+      ],
+      "cause_summary": "WISE Uranium chronology: breach of the dam wall after spillway blockage raised the pond too high; about 700,000 m³ released.",
+      "incident_date": "1988-04-30",
+      "latest_report_date": "2026-08-19",
+      "what_happened": "WISE Uranium Project chronology of major tailings dam failures: on 30 April 1988 the Jinduicheng molybdenum tailings dam in Shaanxi breached after spillway blockage raised the pond. About 700,000 m³ were released and approximately 20 people were killed. PorterGeo places the Jinduicheng porphyry Mo deposit at 34°19′51″N 109°57′17″E, about 100 km east of Xi'an.",
+      "status": "Historical tailings-dam failure at an operating molybdenum mine.",
+      "deaths": 20,
+      "sources": [
+        {
+          "label": "WISE Uranium — Chronology of major tailings dam failures (Jinduicheng 30 Apr 1988)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "PorterGeo — Jinduicheng deposit location",
+          "url": "https://portergeo.com.au/database/mineinfo.php?mineid=mn636"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: WISE gives no count. Pin is Dexing city (region), not a surveyed tailings crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 30,000 m³ (WISE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "yinshan-dexing-2009-11-25",
+      "name": "Yinshan (银山) mine tailings dam",
+      "country": "China",
+      "region": "Dexing, Shangrao, Jiangxi",
+      "location_label": "Dexing, Jiangxi, China",
+      "lat": 28.9306,
+      "lng": 117.5947,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Dexing, Jiangxi) 28°55′50″N 117°35′41″E; WISE places Yinshan mine in Jiangxi Province (Jiangxi Copper)",
+      "river_or_facility": "Yinshan lead-zinc tailings dam (Jiangxi Copper)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "WISE: tailings dam failure after heavy rainfall; about 30,000 m³ released, pollution swept 3 km downstream.",
+      "incident_date": "2009-11-25",
+      "latest_report_date": "2026-08-19",
+      "what_happened": "WISE Uranium chronology: on 25 November 2009 the Yinshan mine tailings dam in Jiangxi (Jiangxi Copper Co., lead-zinc) failed after heavy rainfall. About 30,000 m³ were released and pollution swept 3 km downstream. No death count is given. Pin is Dexing city, the Jiangxi Copper mining centre associated with Yinshan.",
+      "status": "Historical tailings release; no fatality figure in WISE.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WISE Uranium — Yinshan mine 25 Nov 2009",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Dexing, Jiangxi",
+          "url": "https://en.wikipedia.org/wiki/Dexing,_Jiangxi"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 8–10 thousand shifted; 10 villages inundated (GoI sitrep 48)",
+      "notes": "Deaths null: sitrep says 4 persons missing, not a confirmed death count. Pin is Katangi town (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1921,
+      "height_m": 15.4,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "jamunia-2002-08-20",
+      "name": "Jamunia (Jamuniya) Dam",
+      "country": "India",
+      "region": "Katangi / Waraseoni, Balaghat district, Madhya Pradesh",
+      "location_label": "Katangi, Balaghat, Madhya Pradesh, India",
+      "lat": 21.77333,
+      "lng": 79.80389,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Katangi) 21°46′24″N 79°48′14″E; ReliefWeb places the washed-away dam in Katangi Block; WRIS Waraseoni/Balaghat 1921, 15.4 m matches CWC",
+      "river_or_facility": "Jamuniya Nala / Jamunia Dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "CWC / Iyer table: earth dam 15.40 m, completed 1921, failed 2002, piping leading to breaching. ReliefWeb: washed away on the morning of 20 August 2002.",
+      "incident_date": "2002-08-20",
+      "latest_report_date": "2002-08-22",
+      "what_happened": "India-WRIS lists Jamunia Dam on Jamuniya Nala at Waraseoni, Balaghat, completed 1921, earthen, height 15.4 m — matching the CWC/Iyer row (Madhya Pradesh Jamunia, earth, 15.40 m, 1921, failed 2002, piping). Government of India Flood Situation Report No. 48: Dam Jamuniya in Katangi Block, Balaghat, washed away on the morning of 20 August 2002, inundating 10 villages; about 8–10 thousand people shifted to relief camps; about 200 animals and 4 persons missing; over 450 houses damaged. By 22 August people were returning home. No confirmed death count is given.",
+      "status": "Historical irrigation-dam breach; later WRIS still lists a Jamunia Dam at Waraseoni.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ReliefWeb — GoI Flood Situation Report No. 48 (Jamuniya 20 Aug 2002)",
+          "url": "https://reliefweb.int/report/india/government-india-flood-situation-report-no-48"
+        },
+        {
+          "label": "Iyer / CWC — Jamunia 2002 piping",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "Wikipedia — Katangi",
+          "url": "https://en.wikipedia.org/wiki/Katangi"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Cause unknown: CWC says only 'Breaching'. Separate from Galwa Dam in the same tehsil.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1960,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "galwania-1961",
+      "name": "Galwania Dam",
+      "country": "India",
+      "region": "Uniara, Tonk district, Rajasthan",
+      "location_label": "Uniara, Tonk, Rajasthan, India",
+      "lat": 25.861,
+      "lng": 76.192,
+      "geo_accuracy": "exact",
+      "geo_source": "India-WRIS / NHP dam inventory extract (Galwania Dam, Uniara, Tonk) 25.861°N 76.192°E",
+      "river_or_facility": "Galwania Dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "CWC / Iyer table: Rajasthan Galwania, earth, completed 1960, failed 1961, 'Breaching'. No further mechanism is given, so cause is recorded as unknown.",
+      "incident_date": "1961",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "CWC / Iyer hydraulic-safety lecture table lists Rajasthan Galwania, earth dam, completed 1960, failed 1961 by breaching. India-WRIS lists Galwania Dam at Uniara, Tonk (Ganga basin), earthen, distinct from the nearby Galwa Dam (completed 1960, height 16.35 m). No death count is given.",
+      "status": "WRIS still lists Galwania Dam at Uniara, Tonk (later structure or rebuilt).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Iyer / CWC — Galwania 1961",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "India-WRIS — Dams in Rajasthan (Galwania Dam, Uniara, Tonk)",
+          "url": "https://indiawris.gov.in/wiki/doku.php?id=dams_in_rajasthan"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Cause unknown (CWC 'Breaching' only). Pin is Ahraura town (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "CWC 1953 (failed the year of completion); WRIS rebuilt 1955",
+      "height_m": 22.8,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ahraura-1953",
+      "name": "Ahraura (Ahrura) Dam",
+      "country": "India",
+      "region": "Ahraura / Chunar, Mirzapur district, Uttar Pradesh",
+      "location_label": "Ahraura, Mirzapur, Uttar Pradesh, India",
+      "lat": 25.02,
+      "lng": 83.01,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Ahraura) 25°01′N 83°01′E; WRIS places Ahraura Dam on the Garai at Chunar, Mirzapur, height 22.87 m",
+      "river_or_facility": "Ahraura Dam / Garai River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "CWC / Iyer: Uttar Pradesh Ahrura, earth, 22.80 m, completed 1953, failed 1953, 'Breaching'. No further mechanism, so cause is unknown.",
+      "incident_date": "1953",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "CWC / Iyer table: Uttar Pradesh Ahrura, earth, 22.80 m, completed 1953, failed 1953 by breaching. India-WRIS lists Ahraura Dam on the Garai at Chunar, Mirzapur, earthen, crest 1,219.5 m, height 22.87 m, completed 1955 — matching height and place, consistent with rebuilding after a 1953 failure. No death count is given. Pin is Ahraura town.",
+      "status": "WRIS lists a completed 1955 Ahraura Dam at Chunar (rebuilt after the CWC 1953 failure).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Iyer / CWC — Ahrura 1953",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "India-WRIS — Dams in Ganga Basin (Ahraura Dam, Chunar)",
+          "url": "https://indiawris.gov.in/wiki/doku.php?id=dams_in_ganga_basin"
+        },
+        {
+          "label": "Wikipedia — Ahraura",
+          "url": "https://en.wikipedia.org/wiki/Ahraura"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is Sandur town (region). CWC spelling Ankhamanhal; WRIS Ankamanhal.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1988,
+      "height_m": 21.29,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ankamanhal-2010",
+      "name": "Ankamanhal (Ankhamanhal) Dam",
+      "country": "India",
+      "region": "Sandur taluk, Ballari district, Karnataka",
+      "location_label": "Sandur, Ballari, Karnataka, India",
+      "lat": 15.1,
+      "lng": 76.55,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Sandur, Karnataka) 15°06′N 76°33′E; WRIS Ankamanhal Dam, Sandur, Bellary, 1988, 21.29 m matches CWC",
+      "river_or_facility": "Ankamanhal Dam / Krishna–Tungabhadra",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "CWC / Iyer: Karnataka Ankhamanhal, earth, 21.29 m, completed 1988, failed 2010, overtopping by wave action and slip failure.",
+      "incident_date": "2010",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "CWC / Iyer table: Karnataka Ankhamanhal, earth, 21.29 m, completed 1988, failed 2010 by overtopping from wave action and slip failure. India-WRIS lists Ankamanhal Dam at Sandur, Bellary (now Ballari), irrigation, Krishna/Tungabhadra, completed 1988, earthen, length 278 m, height 21.29 m — exact match. No death count is given. Pin is Sandur town.",
+      "status": "Historical 2010 overtopping; WRIS still lists the Sandur dam.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Iyer / CWC — Ankhamanhal 2010",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "India-WRIS — Dams in Karnataka (Ankamanhal Dam, Sandur)",
+          "url": "https://indiawris.gov.in/wiki/doku.php?id=dams_in_karnataka"
+        },
+        {
+          "label": "Wikipedia — Sandur, Karnataka",
+          "url": "https://en.wikipedia.org/wiki/Sandur,_Karnataka"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is Raipur town (region). WRIS tehsil is Pali; Wikipedia now files the same town under Beawar after district reorganisation.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "CWC 1954; WRIS rebuilt 1959",
+      "height_m": 12.2,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "girinanda-1955",
+      "name": "Girinanda Dam",
+      "country": "India",
+      "region": "Raipur tehsil, Pali district (now also listed under Beawar), Rajasthan",
+      "location_label": "Raipur, Pali / Beawar, Rajasthan, India",
+      "lat": 26.05,
+      "lng": 74.02,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Raipur, Rajasthan) 26°03′N 74°01′E; WRIS Girinanda Dam, Luni, Raipur, Pali, height 12.2 m matches CWC",
+      "river_or_facility": "Girinanda Dam / Luni River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "CWC / Iyer: Rajasthan Girinanda, earth, 12.20 m, completed 1954, failed 1955, overtopping followed by breaching.",
+      "incident_date": "1955",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "CWC / Iyer table: Rajasthan Girinanda, earth, 12.20 m, completed 1954, failed 1955 by overtopping then breaching. India-WRIS lists Girinanda Dam on the Luni at Raipur, Pali, irrigation, completed 1959, earthen, length 351 m, height 12.2 m — height and place match, completion 1959 consistent with rebuilding after a 1955 failure. No death count is given.",
+      "status": "WRIS lists a completed 1959 Girinanda Dam at Raipur, Pali (rebuilt after the CWC 1955 failure).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Iyer / CWC — Girinanda 1955",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "India-WRIS — Dams in Rajasthan (Girinanda Dam, Raipur, Pali)",
+          "url": "https://indiawris.gov.in/wiki/doku.php?id=dams_in_rajasthan"
+        },
+        {
+          "label": "Wikipedia — Raipur, Rajasthan",
+          "url": "https://en.wikipedia.org/wiki/Raipur,_Rajasthan"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Cause unknown (CWC 'Breach' only). Pin is Raisen district HQ (region), not the unmatched Wikimapia farm pin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1998,
+      "height_m": 16.73,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "piplai-2005",
+      "name": "Piplai Dam",
+      "country": "India",
+      "region": "Raisen district, Madhya Pradesh",
+      "location_label": "Raisen, Madhya Pradesh, India",
+      "lat": 23.33,
+      "lng": 77.8,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Raisen) 23°20′N 77°48′E; CWC places Piplai in Madhya Pradesh, completed 1998, height 16.73 m; a Wikimapia 1998 Piplai Dam sits in Raisen — pin is the district HQ, not that farm pin",
+      "river_or_facility": "Piplai Dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "CWC / Iyer: Madhya Pradesh Piplai, earth, 16.73 m, completed 1998, failed 2005, 'Breach'. No mechanism, so cause is unknown.",
+      "incident_date": "2005",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "CWC / Iyer table: Madhya Pradesh Piplai, earth, 16.73 m, completed 1998, failed 2005 by breach. No death count is given. A Wikimapia entry titled Piplai Dam in Raisen says 'Made in 1998' and irrigation of 306 ha; that year matches CWC but the height is not stated there, so the farm pin is not used. The map pin here is Raisen district headquarters (region).",
+      "status": "Historical CWC 2005 breach.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Iyer / CWC — Piplai 2005",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "Wikipedia — Raisen",
+          "url": "https://en.wikipedia.org/wiki/Raisen"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is Betul city (region), not a surveyed crest at Partapur.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1956,
+      "height_m": 21.3,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sampna-1964",
+      "name": "Sampna (Sanpna) Dam",
+      "country": "India",
+      "region": "Partapur / Betul, Betul district, Madhya Pradesh",
+      "location_label": "Betul, Madhya Pradesh, India",
+      "lat": 21.905,
+      "lng": 77.902,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Betul) 21°54′18″N 77°54′07″E; Jatland places Sanpna Dam near Partapur in Betul tehsil; CWC Sampna 21.30 m, 1956, slope failure 1964",
+      "river_or_facility": "Sampna / Sanpna Dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "CWC / Iyer: Madhya Pradesh Sampna, earth, 21.30 m, completed 1956, failed 1964, slope failure on account of inappropriate materials. Sinha (1968) 'Dams in Distress' also analyses the Sampna slope failure.",
+      "incident_date": "1964",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "CWC / Iyer table: Madhya Pradesh Sampna, earth, 21.30 m, completed 1956, failed 1964 by slope failure from inappropriate materials. A 1968 'Dams in Distress' paper analyses the Sampna Dam slope failure. Jatland (Laxman Burdak, site visits 1993–94) places Sanpna Dam near Partapur village, Betul tehsil, as the oldest reservoir in Betul district. MPWRD later listed SAMPNA among DRIP rehabilitation dams. No death count is given. Pin is Betul city (region).",
+      "status": "Later listed by MPWRD for DRIP rehabilitation (SAMPNA).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Iyer / CWC — Sampna 1964",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "Sinha — Dams in Distress (Sampna slope failure)",
+          "url": "https://doi.org/10.58837/chula.taic.3202"
+        },
+        {
+          "label": "Wikipedia — Betul, Madhya Pradesh",
+          "url": "https://en.wikipedia.org/wiki/Betul,_Madhya_Pradesh"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Separate incident from the 1854 Ansei collapse of the same named pond. Pin is the present rebuilt lake.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "701–704 (first dam)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mannoike-818",
+      "name": "Mannō-ike (満濃池) dam (818 flood rupture)",
+      "country": "Japan",
+      "region": "Mannō, Kagawa Prefecture, Shikoku",
+      "location_label": "Mannō, Kagawa, Japan",
+      "lat": 34.162,
+      "lng": 133.874,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Manno Lake) 34°09′43″N 133°52′26″E (present rebuilt dam / lake)",
+      "river_or_facility": "Mannō-ike / Kanakura River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Wikipedia (Manno Lake): in 818 (Kōnin 9) the Mannō Pond dam ruptured due to flooding. MLIT tourism text: the dam burst in 818 and was rebuilt three years later under Kūkai.",
+      "incident_date": "818",
+      "latest_report_date": "2022-05-01",
+      "what_happened": "Wikipedia history of Mannō Lake: the first dam was built in the Taihō era (701–704). In 818 the dam ruptured due to flooding. In 821 Kūkai was sent to oversee reconstruction, finished in about three months. Between 821 and 1184 the dam collapsed and was restored many times; after 1184 rebuilding was abandoned until 1628. No death count is given for 818. Coords are the present lake / rebuilt dam.",
+      "status": "Rebuilt 821 (Kūkai); later medieval collapses; present dam is a later reconstruction.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Manno Lake (818 rupture)",
+          "url": "https://en.wikipedia.org/wiki/Manno_Lake"
+        },
+        {
+          "label": "MLIT — Manno Reservoir (818 burst, Kūkai rebuild)",
+          "url": "https://www.mlit.go.jp/tagengo-db/en/R1-02555.html"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Height ~23 m from the JSCE table for the failed embankment. Pin is the present lake. Separate from the 818 flood rupture.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1631 reconstruction of the pond that failed",
+      "height_m": 23.4,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mannoike-1854",
+      "name": "Mannō-ike (満濃池) dam (1854 Ansei collapse)",
+      "country": "Japan",
+      "region": "Mannō, Kagawa Prefecture, Shikoku",
+      "location_label": "Mannō, Kagawa, Japan",
+      "lat": 34.162,
+      "lng": 133.874,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Manno Lake) 34°09′43″N 133°52′26″E (present rebuilt dam / lake)",
+      "river_or_facility": "Mannō-ike / Kanakura River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Tani / JSCE fill-dam earthquake paper: after the 24 July 1854 Ansei-Nankai earthquake, leakage was reported about one month later and the embankment failed six days after that; piping is suggested. Wikipedia: dam collapses due to earthquake (Ansei 1).",
+      "incident_date": "1854",
+      "latest_report_date": "2022-05-01",
+      "what_happened": "The 1631 Takamatsu-domain reconstruction of Mannō-ike (about 23 m high) collapsed in 1854. A JSCE earthquake-damage paper: leakage appeared in the embankment about one month after the 24 July 1854 Ansei-Nankai earthquake (M 8.4) and failure followed six days later; the authors suggest piping. Wikipedia: dam collapses due to earthquake; restoration completed in 1870 (Meiji 3). Irrigation was interrupted for about 15 years (secondary summaries). No death count is given. The present 32 m earthfill dam dates from a later reconstruction (Wikipedia dam page: 1959).",
+      "status": "Restored 1870; present dam is a later reconstruction (1959 on the dam page).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Manno Lake (1854 collapse)",
+          "url": "https://en.wikipedia.org/wiki/Manno_Lake"
+        },
+        {
+          "label": "Tani — Earthquake Damage to Fill Dams (Manno-ike 1854)",
+          "url": "https://scholarsmine.mst.edu/cgi/viewcontent.cgi?article=2153&context=icchge"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 3 from the J-STAGE Nakanoshima Kariyata paper, not the prefecture flood total. Pin is Mitsuke city (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kariyata-nakanoshima-2004-07-13",
+      "name": "Kariyata River levee at Nakanoshima / Mitsuke",
+      "country": "Japan",
+      "region": "Nakanoshima (now Nagaoka) and Mitsuke, Niigata",
+      "location_label": "Mitsuke / Nakanoshima, Niigata, Japan",
+      "lat": 37.531583,
+      "lng": 138.91275,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Mitsuke) 37°31′53.7″N 138°54′45.9″E; papers place the fatal breach at then-Nakanoshima Town on the Kariyata, which divides Mitsuke",
+      "river_or_facility": "Kariyata River levee",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "13 July 2004 Chuetsu cloudburst; academic papers describe a rapid levee breach on the Kariyata at Nakanoshima with further breaches on the Ikarashi and Chigoshimizu.",
+      "incident_date": "2004-07-13",
+      "latest_report_date": "2006",
+      "what_happened": "Heavy rain on 13 July 2004 breached levees on the Kariyata, Ikarashi and Chigoshimizu rivers in Niigata's Chuetsu area. A J-STAGE evacuation study: the Kariyata break at Nakanoshima Town left 3 people dead and 53 houses broken. Niigata University / JJSEG papers: the central Nakanoshima urban area was flooded by a rapid Kariyata breach; house damage concentrated about 250 m from the break. Sanjo, Mitsuke and Nakanoshima stood under muddy water. Pin is Mitsuke city, which the Kariyata divides; the fatal Nakanoshima site is the adjoining former town (merged into Nagaoka in 2005).",
+      "status": "Historical 2004 Niigata flood levee breach; Nakanoshima is now part of Nagaoka.",
+      "deaths": 3,
+      "sources": [
+        {
+          "label": "J-STAGE — Kariyata levee break at Nakanoshima, 3 dead, 53 houses",
+          "url": "https://www.jstage.jst.go.jp/article/river/12/0/12_7/_article/-char/en"
+        },
+        {
+          "label": "JJSEG — Kariyata / Ikarashi / Chigoshimizu 13 July 2004",
+          "url": "https://doi.org/10.5110/jjseg.46.153"
+        },
+        {
+          "label": "Wikipedia — Mitsuke, Niigata",
+          "url": "https://en.wikipedia.org/wiki/Mitsuke,_Niigata"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": 2,
+      "affected_or_evacuated": "more than 1,000 houses damaged in Marumori (MDPI)",
+      "notes": "Deaths 10 from the MDPI Marumori paper for this town's levee-breach flooding. National Typhoon Hagibis death toll not copied. Pin is Marumori town office (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "marumori-levees-2019-10-12",
+      "name": "Marumori town levees (Abukuma tributaries)",
+      "country": "Japan",
+      "region": "Marumori, Igu District, Miyagi",
+      "location_label": "Marumori, Miyagi, Japan",
+      "lat": 37.911444,
+      "lng": 140.765389,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Marumori, Miyagi) 37°54′41.2″N 140°45′55.4″E",
+      "river_or_facility": "Abukuma, Uchi, Shin and Gofukuya river levees at Marumori",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "MDPI Water 13:244: Typhoon Hagibis (2019) overflow at constrictions (tributary junctions and embankment intersections); more than 47 levee-breach locations along the Abukuma and tributaries, especially Uchi, Shin and Gofukuya.",
+      "incident_date": "2019-10-12",
+      "latest_report_date": "2021-01-21",
+      "what_happened": "During Typhoon Hagibis, Hippo Station on the upper Abukuma received nearly 600 mm in 24 h. MDPI (2021): more than 47 levee breaches along the Abukuma and its tributaries, especially the Uchi, Shin and Gofukuya, produced severe flooding in Marumori Town — 10 dead, two injured, and more than 1,000 houses damaged. Field survey the next day (13 October) attributed confluence breaches to river-level rise and secondary breaches to floodwater already in the paddy fields.",
+      "status": "Historical 2019 Hagibis levee-breach cluster at Marumori.",
+      "deaths": 10,
+      "sources": [
+        {
+          "label": "MDPI Water — Marumori levee breaching, Typhoon Hagibis",
+          "url": "https://www.mdpi.com/2073-4441/13/2/244"
+        },
+        {
+          "label": "Wikipedia — Marumori, Miyagi",
+          "url": "https://en.wikipedia.org/wiki/Marumori,_Miyagi"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 5 from Vuichard/Zimmermann and The Record Nepal. Construction unknown (moraine dam, not a designed fill).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": "6–10 million m³ (literature range); GAPHAZ 6 million m³",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "about US$1.5 million (Vuichard 1986) to $3 million (The Record Nepal)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "dig-tsho-1985-08-04",
+      "name": "Dig Tsho (Langmoche) moraine dam",
+      "country": "Nepal",
+      "region": "Langmoche Valley, Khumbu, Solukhumbu",
+      "location_label": "Dig Tsho, Langmoche, Solukhumbu, Nepal",
+      "lat": 27.873611,
+      "lng": 86.593611,
+      "geo_accuracy": "exact",
+      "geo_source": "Bajracharya et al., Mountain Research and Development — Dig Tsho 27°52′25″N 86°35′37″E, 4365 m",
+      "river_or_facility": "Dig Tsho / Langmuche Glacier / Bhote Koshi–Dudh Koshi",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "landslide",
+        "overtopping"
+      ],
+      "cause_summary": "Vuichard and Zimmermann / GAPHAZ: a ~150,000 m³ ice avalanche into Dig Tsho generated a wave that overtopped and breached the moraine dam.",
+      "incident_date": "1985-08-04",
+      "latest_report_date": "2007",
+      "what_happened": "On 4 August 1985 Dig Tsho, a moraine-dammed lake in the Langmoche valley (Khumbu), drained after an ice avalanche from Langmuche Glacier. Bajracharya et al.: 27°52′25″N 86°35′37″E, 4,365 m. Vuichard/Zimmermann and The Record Nepal: 5 people killed; nearly completed Namche Small Hydroelectric Project destroyed (about US$1.5–3 million); 14 bridges and about 30 houses lost; 6–10 million m³ released over about four hours. Peak discharge estimates in the literature range from about 1,600 to 2,000 m³/s.",
+      "status": "Historical GLOF; lake largely emptied.",
+      "deaths": 5,
+      "sources": [
+        {
+          "label": "Bajracharya et al. — Dig Tsho coordinates and 4 Aug 1985 burst",
+          "url": "https://doi.org/10.1659/mrd.0783"
+        },
+        {
+          "label": "The Record Nepal — Dig Tsho, 5 killed, Namche hydro destroyed",
+          "url": "https://www.recordnepal.com/as-the-earth-warms-and-glaciers-melt-the-risk-of-glacial-lake-outburst-floods-grows"
+        },
+        {
+          "label": "GAPHAZ / Vuichard & Zimmermann — Langmoche 1985",
+          "url": "https://www.mn.uio.no/geo/english/research/projects/gaphaz/database-old/hot/LANGMOCHE.htm"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: sources say 'many lives' / 'took many lives' without a count. Not a copy of any other Dudh Koshi flood.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": "17.66 million m³ (Dwivedi et al. 2000)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "nearly US$2 million (GAPHAZ)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tam-pokhari-1998-09-03",
+      "name": "Tam Pokhari (Sabai) moraine dam",
+      "country": "Nepal",
+      "region": "Dudh Koshi basin, eastern Nepal (Sabai Glacier)",
+      "location_label": "Tam Pokhari, Dudh Koshi, Nepal",
+      "lat": 27.7425,
+      "lng": 86.947778,
+      "geo_accuracy": "exact",
+      "geo_source": "Dwivedi, Acharya & Simard, Journal of Nepal Geological Society 22 (2000) — 27°44′33″N 86°56′52″E",
+      "river_or_facility": "Tam Pokhari / Sabai Glacier / Dudh Koshi",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "landslide"
+      ],
+      "cause_summary": "GAPHAZ: ice avalanche from Sabai Glacier into Tam Pokhari destroyed the impounding moraine on 3 September 1998. WECS paper: 17.66 million m³ released.",
+      "incident_date": "1998-09-03",
+      "latest_report_date": "2000-12-01",
+      "what_happened": "On 3 September 1998 Tam Pokhari, a moraine-dammed lake in eastern Nepal (Dwivedi et al.: 86°56′52″E, 27°44′33″N), breached and released 17.66 million m³. Sediment temporarily dammed the Dudh Koshi and inundated it up to 2 km upstream. GAPHAZ: an ice avalanche from Sabai Glacier destroyed the moraine; 'many lives' and nearly US$2 million damage downstream. No numbered death toll is given in the WECS paper or the GAPHAZ card.",
+      "status": "Historical GLOF.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Dwivedi et al. — Tam Pokhari GLOF 3 Sep 1998",
+          "url": "https://www.nepjol.info/index.php/JNGS/article/view/32429"
+        },
+        {
+          "label": "GAPHAZ — Sabai / Tam Pokhari 1998",
+          "url": "https://www.mn.uio.no/geo/english/research/projects/gaphaz/database-old/hot/SABAI.htm"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 200–300 households evacuated (VietnamPlus)",
+      "notes": "Deaths 0: VietnamPlus and Tuoi Tre both say no casualties. Reservoir-volume figures differ between VietnamPlus and VOV; both noted.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Bắc Khê 1 Hydro Electricity JSC",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "VietnamPlus 1.572 million m³; VOV 'over 4.2 million m³'",
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "about 4–5 m wide, 3–4 m deep (VietnamPlus)",
+      "downstream_risk": null,
+      "economic_damage": "about VND 50 billion / US$1.9 million (Tuoi Tre)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "bac-khe-1-2025-10-07",
+      "name": "Bắc Khê 1 hydropower dam",
+      "country": "Vietnam",
+      "region": "Tân Tiến commune (formerly Kim Đồng, Tràng Định), Lạng Sơn",
+      "location_label": "Bắc Khê, Tân Tiến, Lạng Sơn, Vietnam",
+      "lat": 22.286111,
+      "lng": 106.394444,
+      "geo_accuracy": "exact",
+      "geo_source": "Lạng Sơn People's Committee planning approval (Thư viện Pháp luật): 22°17′10″N 106°23′40″E on the Bắc Khê River",
+      "river_or_facility": "Bắc Khê 1 hydropower dam / Bắc Khê River (Kỳ Cùng tributary)",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "VietnamPlus / Tuoi Tre: Typhoon Matmo rain raised inflow to 1,562 m³/s; a section of concrete at the water intake / gate collapsed about 13:30 on 7 October 2025.",
+      "incident_date": "2025-10-07",
+      "latest_report_date": "2025-10-08",
+      "what_happened": "Bắc Khê 1 (2.4 MW; planning catchment 325 km²; VietnamPlus reservoir about 1.572 million m³; VOV later said over 4.2 million m³) on the Bắc Khê in Tân Tiến, Lạng Sơn, suffered a partial collapse at about 13:30 on 7 October 2025 in Typhoon Matmo rain. Inflow/outflow reached 1,562 m³/s at noon. Breach about 4–5 m long and 3–4 m (VietnamPlus) or 4–5 m × 4 m (Tuoi Tre). Control room destroyed. No casualties; 200–300 downstream households had been evacuated after cracks were seen that morning. Tuoi Tre: about VND 50 billion (US$1.9 million) damage.",
+      "status": "Partial breach October 2025; residents evacuated; damage under assessment.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "VietnamPlus — Bac Khe 1 collapses, residents evacuated",
+          "url": "https://en.vietnamplus.vn/bac-khe-1-hydropower-dam-collapses-all-residents-evacuated-post329963.vnp"
+        },
+        {
+          "label": "Tuoi Tre — US$1.9 million damage, 7 Oct 2025",
+          "url": "https://news.tuoitre.vn/northern-vietnam-hydropower-dam-collapse-causes-19mn-in-damage-103251008122021914.htm"
+        },
+        {
+          "label": "Thư viện Pháp luật — Bac Khe 1 planning coordinates",
+          "url": "https://thuvienphapluat.vn/phap-luat/thuy-dien-bac-khe-1-o-dau-thuy-dien-bac-khe-1-o-tinh-nao-thuy-dien-bac-khe-1-o-xa-nao-sau-sap-nhap-777768-235794.html"
+        }
+      ],
+      "severity": "moderate"
     }
   ]
 }
