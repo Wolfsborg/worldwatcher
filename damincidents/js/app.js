@@ -126,9 +126,12 @@
   let yearBounds = { min: 1864, max: 2026 };
   let selectedId = null;
   let lastDetailTab = "event";
-  let map;
+  let viewer;
   let pinNamesEnabled = localStorage.getItem("ww-pin-names") !== "off";
   let currentIncidents = [];
+  let incidentEntities = [];
+  let labelEntities = [];
+  let selectedEntity = null;
 
   function spec() { return LAYERS[layer] || LAYERS.dams; }
 
@@ -463,70 +466,69 @@
     return isolated;
   }
 
+  function hexToColor(hex, alpha = 1.0) {
+    const r = parseInt(hex.slice(1, 3), 16) / 255;
+    const g = parseInt(hex.slice(3, 5), 16) / 255;
+    const b = parseInt(hex.slice(5, 7), 16) / 255;
+    return new Cesium.Color(r, g, b, alpha);
+  }
+
   function updateMapData() {
-    if (!map || !map.loaded()) return;
+    if (!viewer) return;
+    
+    incidentEntities.forEach(e => viewer.entities.remove(e));
+    labelEntities.forEach(e => viewer.entities.remove(e));
+    incidentEntities = [];
+    labelEntities = [];
     
     const rows = currentIncidents;
-    const zoom = map.getZoom();
+    const height = viewer.camera.positionCartographic.height;
+    const showLabels = height < 2000000 && pinNamesEnabled;
     
-    const features = rows.map(inc => {
-      if (typeof inc.lat !== "number" || typeof inc.lng !== "number") return null;
+    rows.forEach(inc => {
+      if (typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
+      
       const r = markerRadius(inc.deaths);
       const color = markerColor(inc);
       const uncertain = locationUncertain(inc);
+      const alpha = uncertain ? 0.55 : 0.88;
       
-      return {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [inc.lng, inc.lat]
+      const entity = viewer.entities.add({
+        position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat),
+        point: {
+          pixelSize: r * 2,
+          color: hexToColor(color, alpha),
+          outlineColor: Cesium.Color.fromCssColorString("rgba(243, 239, 230, 0.85)"),
+          outlineWidth: 1.5,
+          disableDepthTestDistance: Number.POSITIVE_INFINITY
         },
         properties: {
           id: inc.id,
           name: inc.name,
-          radius: r,
-          color: color,
-          opacity: uncertain ? 0.55 : 0.88,
-          deaths: inc.deaths || 0
+          incident: inc
         }
-      };
-    }).filter(Boolean);
-
-    const isolated = findIsolatedIncidents(rows, 350);
-    const isolatedIds = new Set(isolated.map(i => i.id));
-    
-    const isolatedFeatures = features.filter(f => isolatedIds.has(f.properties.id));
-    const clusterableFeatures = features.filter(f => !isolatedIds.has(f.properties.id));
-
-    if (map.getSource("incidents")) {
-      map.getSource("incidents").setData({
-        type: "FeatureCollection",
-        features: clusterableFeatures
       });
-    }
-
-    if (map.getSource("isolated-incidents")) {
-      map.getSource("isolated-incidents").setData({
-        type: "FeatureCollection",
-        features: isolatedFeatures
-      });
-    }
-
-    updateLabels();
-  }
-
-  function updateLabels() {
-    if (!map || !map.loaded()) return;
-    
-    const zoom = map.getZoom();
-    const showLabels = zoom >= 10 && pinNamesEnabled;
-    
-    if (map.getLayoutProperty("incident-labels", "visibility") !== undefined) {
-      map.setLayoutProperty("incident-labels", "visibility", showLabels ? "visible" : "none");
-    }
-    if (map.getLayoutProperty("isolated-labels", "visibility") !== undefined) {
-      map.setLayoutProperty("isolated-labels", "visibility", showLabels ? "visible" : "none");
-    }
+      
+      incidentEntities.push(entity);
+      
+      if (showLabels) {
+        const labelEntity = viewer.entities.add({
+          position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat),
+          label: {
+            text: inc.name,
+            font: "11px 'IBM Plex Sans', sans-serif",
+            fillColor: Cesium.Color.fromCssColorString("#f3efe6"),
+            outlineColor: Cesium.Color.fromCssColorString("rgba(11, 13, 16, 0.85)"),
+            outlineWidth: 1.5,
+            style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+            pixelOffset: new Cesium.Cartesian2(0, -r - 5),
+            disableDepthTestDistance: Number.POSITIVE_INFINITY,
+            heightReference: Cesium.HeightReference.NONE
+          }
+        });
+        labelEntities.push(labelEntity);
+      }
+    });
   }
 
   const CONSTRUCTION_LABEL = {
@@ -763,53 +765,39 @@
     selectedId = null;
     els.detail.hidden = true;
     writeHash(null);
-    if (map && map.getSource("selected-incident")) {
-      map.getSource("selected-incident").setData({
-        type: "FeatureCollection",
-        features: []
-      });
+    if (selectedEntity) {
+      viewer.entities.remove(selectedEntity);
+      selectedEntity = null;
     }
     [...els.list.querySelectorAll(".incident-item")].forEach((b) => b.classList.remove("is-selected"));
   }
 
-  function selectionPadding() {
-    const narrow = window.matchMedia("(max-width: 980px)").matches;
-    if (narrow) {
-      const bottom = Math.round(window.innerHeight * 0.52) + 20;
-      return { top: 20, left: 16, right: 16, bottom: bottom };
-    }
-    return { top: 20, left: 416, right: 380, bottom: 64 };
-  }
-
   function showSelectedPin(inc) {
-    if (!map || typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
+    if (!viewer || typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
     
-    if (map.getSource("selected-incident")) {
-      map.getSource("selected-incident").setData({
-        type: "FeatureCollection",
-        features: [{
-          type: "Feature",
-          geometry: {
-            type: "Point",
-            coordinates: [inc.lng, inc.lat]
-          },
-          properties: {
-            color: markerColor(inc)
-          }
-        }]
-      });
+    if (selectedEntity) {
+      viewer.entities.remove(selectedEntity);
     }
+    
+    const color = markerColor(inc);
+    selectedEntity = viewer.entities.add({
+      position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat),
+      point: {
+        pixelSize: 22,
+        color: hexToColor(color, 0.95),
+        outlineColor: Cesium.Color.fromCssColorString("#f3efe6"),
+        outlineWidth: 2,
+        disableDepthTestDistance: Number.POSITIVE_INFINITY
+      }
+    });
   }
 
   function focusSelectedIncident(inc) {
-    if (!map || typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
+    if (!viewer || typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
     
-    const padding = selectionPadding();
-    map.easeTo({
-      center: [inc.lng, inc.lat],
-      zoom: 13,
-      padding: padding,
-      duration: 800
+    viewer.camera.flyTo({
+      destination: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat, 100000),
+      duration: 1.5
     });
   }
 
@@ -1053,325 +1041,106 @@
   }
 
   function initMap() {
-    map = new maplibregl.Map({
-      container: "map",
-      style: {
-        version: 8,
-        projection: {
-          type: "globe"
-        },
-        sources: {
-          "carto-dark": {
-            type: "raster",
-            tiles: [
-              "https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
-              "https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
-              "https://c.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
-              "https://d.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
-            ],
-            tileSize: 256,
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          },
-          "esri-aerial": {
-            type: "raster",
-            tiles: [
-              "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-            ],
-            tileSize: 256,
-            attribution: "Tiles &copy; Esri"
-          },
-          "esri-labels": {
-            type: "raster",
-            tiles: [
-              "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
-            ],
-            tileSize: 256,
-            attribution: "Labels &copy; Esri"
-          }
-        },
-        layers: [
-          {
-            id: "carto-dark-layer",
-            type: "raster",
-            source: "carto-dark",
-            minzoom: 0,
-            maxzoom: 22
-          },
-          {
-            id: "esri-aerial-layer",
-            type: "raster",
-            source: "esri-aerial",
-            minzoom: 0,
-            maxzoom: 22,
-            layout: {
-              visibility: "none"
-            }
-          },
-          {
-            id: "esri-labels-layer",
-            type: "raster",
-            source: "esri-labels",
-            minzoom: 0,
-            maxzoom: 22,
-            layout: {
-              visibility: "none"
-            }
-          }
-        ],
-        glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf"
-      },
-      center: [12, 20],
-      zoom: 3,
-      attributionControl: true,
-      maxPitch: 0,
-      dragRotate: false,
-      touchPitch: false
+    viewer = new Cesium.Viewer("map", {
+      sceneModePicker: false,
+      navigationHelpButton: false,
+      animation: false,
+      timeline: false,
+      geocoder: false,
+      homeButton: false,
+      baseLayerPicker: false,
+      fullscreenButton: false,
+      infoBox: false,
+      selectionIndicator: false,
+      shadows: false,
+      shouldAnimate: false
     });
 
-    map.on("load", () => {
-      map.addSource("incidents", {
-        type: "geojson",
-        data: { type: "FeatureCollection", features: [] },
-        cluster: true,
-        clusterMaxZoom: 7,
-        clusterRadius: 42
-      });
+    viewer.scene.globe.baseColor = Cesium.Color.fromCssColorString("#0d0d0d");
+    viewer.scene.globe.showGroundAtmosphere = true;
+    viewer.scene.backgroundColor = Cesium.Color.fromCssColorString("#0d0d0d");
+    
+    viewer.imageryLayers.removeAll();
+    
+    const cartoDark = viewer.imageryLayers.addImageryProvider(
+      new Cesium.UrlTemplateImageryProvider({
+        url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+        subdomains: ["a", "b", "c", "d"],
+        credit: "© OpenStreetMap © CARTO"
+      })
+    );
 
-      map.addSource("isolated-incidents", {
-        type: "geojson",
-        data: { type: "FeatureCollection", features: [] }
-      });
+    const esriAerial = viewer.imageryLayers.addImageryProvider(
+      new Cesium.UrlTemplateImageryProvider({
+        url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        credit: "Tiles © Esri"
+      })
+    );
+    esriAerial.show = false;
 
-      map.addSource("selected-incident", {
-        type: "geojson",
-        data: { type: "FeatureCollection", features: [] }
-      });
-
-      map.addLayer({
-        id: "clusters",
-        type: "circle",
-        source: "incidents",
-        filter: ["has", "point_count"],
-        paint: {
-          "circle-color": "#4aa3df",
-          "circle-radius": [
-            "step",
-            ["get", "point_count"],
-            15,
-            10, 18,
-            50, 22,
-            100, 26,
-            500, 30
-          ],
-          "circle-opacity": 0.88
-        }
-      });
-
-      map.addLayer({
-        id: "cluster-labels",
-        type: "symbol",
-        source: "incidents",
-        filter: ["has", "point_count"],
-        layout: {
-          "text-field": ["get", "point_count_abbreviated"],
-          "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-          "text-size": 12
-        },
-        paint: {
-          "text-color": "#ffffff"
-        }
-      });
-
-      map.addLayer({
-        id: "incidents-layer",
-        type: "circle",
-        source: "incidents",
-        filter: ["!", ["has", "point_count"]],
-        paint: {
-          "circle-color": ["get", "color"],
-          "circle-radius": ["get", "radius"],
-          "circle-opacity": ["get", "opacity"]
-        }
-      });
-
-      map.addLayer({
-        id: "isolated-layer",
-        type: "circle",
-        source: "isolated-incidents",
-        paint: {
-          "circle-color": ["get", "color"],
-          "circle-radius": ["get", "radius"],
-          "circle-opacity": ["get", "opacity"]
-        }
-      });
-
-      map.addLayer({
-        id: "selected-layer",
-        type: "circle",
-        source: "selected-incident",
-        paint: {
-          "circle-color": ["get", "color"],
-          "circle-radius": 11,
-          "circle-opacity": 0.95,
-          "circle-stroke-color": "#f3efe6",
-          "circle-stroke-width": 2
-        }
-      });
-
-      map.addLayer({
-        id: "incident-labels",
-        type: "symbol",
-        source: "incidents",
-        filter: ["!", ["has", "point_count"]],
-        layout: {
-          "text-field": ["get", "name"],
-          "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
-          "text-size": 11,
-          "text-anchor": "top",
-          "text-offset": [0, 0.8],
-          visibility: "none"
-        },
-        paint: {
-          "text-color": "#f3efe6",
-          "text-halo-color": "rgba(11, 13, 16, 0.85)",
-          "text-halo-width": 1.5
-        }
-      });
-
-      map.addLayer({
-        id: "isolated-labels",
-        type: "symbol",
-        source: "isolated-incidents",
-        layout: {
-          "text-field": ["get", "name"],
-          "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
-          "text-size": 11,
-          "text-anchor": "top",
-          "text-offset": [0, 0.8],
-          visibility: "none"
-        },
-        paint: {
-          "text-color": "#f3efe6",
-          "text-halo-color": "rgba(11, 13, 16, 0.85)",
-          "text-halo-width": 1.5
-        }
-      });
-
-      let popup = new maplibregl.Popup({
-        closeButton: false,
-        closeOnClick: false,
-        className: "incident-popup"
-      });
-
-      function showPopup(e, layerId) {
-        const feature = e.features[0];
-        const inc = all.find(i => i.id === feature.properties.id);
-        if (!inc) return;
-        
-        map.getCanvas().style.cursor = "pointer";
-        
-        const geo = locationLabel(inc);
-        const year = yearOf(inc);
-        const yearStr = year != null ? formatYear(year) : "";
-        const html = "<strong>" + escapeHtml(inc.name) + "</strong><br>" + escapeHtml(yearStr) +
-          (geo ? "<br><em>" + escapeHtml(geo) + "</em>" : "");
-        
-        popup.setLngLat(feature.geometry.coordinates)
-          .setHTML(html)
-          .addTo(map);
-      }
-
-      function hidePopup() {
-        map.getCanvas().style.cursor = "";
-        popup.remove();
-      }
-
-      map.on("click", "incidents-layer", (e) => {
-        const id = e.features[0].properties.id;
-        if (id) selectIncident(id, { fromMap: true });
-      });
-
-      map.on("click", "isolated-layer", (e) => {
-        const id = e.features[0].properties.id;
-        if (id) selectIncident(id, { fromMap: true });
-      });
-
-      map.on("click", "clusters", (e) => {
-        const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
-        const clusterId = features[0].properties.cluster_id;
-        map.getSource("incidents").getClusterExpansionZoom(clusterId, (err, zoom) => {
-          if (err) return;
-          map.easeTo({
-            center: features[0].geometry.coordinates,
-            zoom: zoom
-          });
-        });
-      });
-
-      map.on("mouseenter", "incidents-layer", (e) => showPopup(e, "incidents-layer"));
-      map.on("mouseleave", "incidents-layer", hidePopup);
-      map.on("mouseenter", "isolated-layer", (e) => showPopup(e, "isolated-layer"));
-      map.on("mouseleave", "isolated-layer", hidePopup);
-      map.on("mouseenter", "clusters", () => {
-        map.getCanvas().style.cursor = "pointer";
-      });
-      map.on("mouseleave", "clusters", () => {
-        map.getCanvas().style.cursor = "";
-      });
-
-      map.on("zoom", updateLabels);
-      map.on("move", updateLabels);
-
-      loadLayer(layer, { id: hashId() });
-    });
+    const esriLabels = viewer.imageryLayers.addImageryProvider(
+      new Cesium.UrlTemplateImageryProvider({
+        url: "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
+        credit: "Labels © Esri"
+      })
+    );
+    esriLabels.show = false;
 
     let baseMode = "auto";
 
-    function wantAerial() {
-      if (baseMode === "aerial") return true;
-      if (baseMode === "map") return false;
-      return map.getZoom() >= 8;
+    function updateBaseLayer() {
+      const height = viewer.camera.positionCartographic.height;
+      
+      if (baseMode === "map") {
+        cartoDark.show = true;
+        esriAerial.show = false;
+        esriLabels.show = false;
+      } else if (baseMode === "aerial") {
+        cartoDark.show = false;
+        esriAerial.show = true;
+        esriLabels.show = true;
+      } else {
+        if (height < 2000000) {
+          cartoDark.show = false;
+          esriAerial.show = true;
+          esriLabels.show = true;
+        } else {
+          cartoDark.show = true;
+          esriAerial.show = false;
+          esriLabels.show = false;
+        }
+      }
     }
 
-    function syncBase() {
-      const aerialOn = wantAerial();
-      map.setLayoutProperty("esri-aerial-layer", "visibility", aerialOn ? "visible" : "none");
-      map.setLayoutProperty("esri-labels-layer", "visibility", aerialOn ? "visible" : "none");
-    }
+    viewer.camera.moveEnd.addEventListener(() => {
+      updateBaseLayer();
+      updateMapData();
+    });
 
-    function setBaseMode(mode) {
-      baseMode = mode;
-      const buttons = document.querySelectorAll(".basemap-toggle button");
-      buttons.forEach((b) => {
-        const on = b.dataset.base === mode;
-        b.classList.toggle("is-active", on);
-        b.setAttribute("aria-pressed", on ? "true" : "false");
-      });
-      syncBase();
-    }
-
-    map.on("zoom", syncBase);
+    viewer.screenSpaceEventHandler.setInputAction((movement) => {
+      const pickedObject = viewer.scene.pick(movement.position);
+      if (Cesium.defined(pickedObject) && pickedObject.id && pickedObject.id.properties) {
+        const props = pickedObject.id.properties;
+        if (props.id && props.id.getValue) {
+          const id = props.id.getValue();
+          selectIncident(id, { fromMap: true });
+        }
+      }
+    }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
 
     function landingView() {
       if (selectedId) return;
-      const narrow = window.matchMedia("(max-width: 980px)").matches;
-      const padding = narrow
-        ? { top: 20, left: 16, right: 16, bottom: 64 }
-        : { top: 20, left: 416, right: 20, bottom: 64 };
-      
-      map.fitBounds([[-128, -48], [158, 68]], {
-        padding: padding,
-        maxZoom: 4.25,
+      viewer.camera.flyTo({
+        destination: Cesium.Cartesian3.fromDegrees(0, 30, 15000000),
         duration: 0
       });
-      
-      const z = map.getZoom();
-      map.setMinZoom(Math.max(2.75, z - 0.35));
     }
     goToLanding = landingView;
-    
-    window.addEventListener("resize", landingView);
-    setTimeout(landingView, 100);
+
+    setTimeout(() => {
+      landingView();
+      loadLayer(layer, { id: hashId() });
+    }, 100);
 
     const wrap = document.createElement("div");
     wrap.className = "map-controls";
@@ -1387,7 +1156,15 @@
       b.textContent = pair[1];
       b.classList.toggle("is-active", pair[0] === "auto");
       b.setAttribute("aria-pressed", pair[0] === "auto" ? "true" : "false");
-      b.addEventListener("click", () => setBaseMode(pair[0]));
+      b.addEventListener("click", () => {
+        baseMode = pair[0];
+        document.querySelectorAll(".basemap-toggle button").forEach((btn) => {
+          const on = btn.dataset.base === pair[0];
+          btn.classList.toggle("is-active", on);
+          btn.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+        updateBaseLayer();
+      });
       baseToggle.appendChild(b);
     });
     wrap.appendChild(baseToggle);
@@ -1407,7 +1184,7 @@
       localStorage.setItem("ww-pin-names", pinNamesEnabled ? "on" : "off");
       labelsBtn.classList.toggle("is-active", pinNamesEnabled);
       labelsBtn.setAttribute("aria-pressed", pinNamesEnabled ? "true" : "false");
-      updateLabels();
+      updateMapData();
     });
     labelsToggle.appendChild(labelsBtn);
     wrap.appendChild(labelsToggle);
@@ -1418,12 +1195,16 @@
     zoomIn.type = "button";
     zoomIn.textContent = "+";
     zoomIn.setAttribute("aria-label", "Zoom in");
-    zoomIn.addEventListener("click", () => map.zoomIn());
+    zoomIn.addEventListener("click", () => {
+      viewer.camera.zoomIn(viewer.camera.positionCartographic.height * 0.5);
+    });
     const zoomOut = document.createElement("button");
     zoomOut.type = "button";
     zoomOut.textContent = "−";
     zoomOut.setAttribute("aria-label", "Zoom out");
-    zoomOut.addEventListener("click", () => map.zoomOut());
+    zoomOut.addEventListener("click", () => {
+      viewer.camera.zoomOut(viewer.camera.positionCartographic.height * 0.5);
+    });
     zoomControls.appendChild(zoomIn);
     zoomControls.appendChild(zoomOut);
     wrap.appendChild(zoomControls);
@@ -1532,7 +1313,7 @@
 
   layer = hashLayer();
   updateLayerChrome();
-  initMap();
   bind();
   watchFace();
+  initMap();
 })();
