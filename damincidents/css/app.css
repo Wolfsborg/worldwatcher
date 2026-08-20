@@ -594,9 +594,9 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
   padding: 0 8px 16px;
   overflow-x: hidden;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   flex: 1 1 0;
   min-height: 80px;
-  -webkit-overflow-scrolling: touch;
 }
 
 .incident-item {
@@ -733,6 +733,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
   min-height: 0;
   overflow-x: hidden;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   max-width: 100%;
 }
 .detail[hidden] { display: none; }
@@ -924,12 +925,16 @@ html[data-theme="light"] .pin-name {
   .sidebar-toggle { display: block; }
   .stat-value { font-size: 16px; }
   .detail {
-    top: auto;
+    top: calc(100dvh - 52dvh);
+    top: calc(100vh - 52dvh);
     left: 12px;
     right: 12px;
-    bottom: env(safe-area-inset-bottom, 0px);
+    bottom: auto;
     width: auto;
+    height: 52dvh;
+    height: 52vh;
     max-height: 52dvh;
+    max-height: 52vh;
     border-radius: 16px 16px 0 0;
     padding-bottom: max(20px, env(safe-area-inset-bottom, 0px));
   }
@@ -1054,6 +1059,7 @@ textarea {
   flex: 1 1 0;
   min-height: 0;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
   padding-right: 4px;
 }
 .maintain-row {
@@ -1149,12 +1155,16 @@ textarea {
 
 @media (max-width: 980px) {
   .maintain {
-    top: auto;
+    top: calc(100dvh - 78dvh);
+    top: calc(100vh - 78dvh);
     left: 12px;
     right: 12px;
-    bottom: env(safe-area-inset-bottom, 0px);
+    bottom: auto;
     width: auto;
+    height: 78dvh;
+    height: 78vh;
     max-height: 78dvh;
+    max-height: 78vh;
     border-radius: 16px 16px 0 0;
     padding-bottom: max(18px, env(safe-area-inset-bottom, 0px));
   }
@@ -1511,6 +1521,7 @@ button.chip {
   min-height: 0;
   overflow-x: hidden;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding-right: 4px;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -1766,12 +1777,16 @@ button.chip {
 
 @media (max-width: 980px) {
   .stats-panel {
-    top: auto;
+    top: calc(100dvh - 70dvh);
+    top: calc(100vh - 70dvh);
     left: 12px;
     right: 12px;
-    bottom: env(safe-area-inset-bottom, 0px);
+    bottom: auto;
     width: auto;
+    height: 70dvh;
+    height: 70vh;
     max-height: 70dvh;
+    max-height: 70vh;
     border-radius: 16px 16px 0 0;
     padding-bottom: max(22px, env(safe-area-inset-bottom, 0px));
   }
