@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 630,
-  "current_count": 21,
-  "historical_count": 609,
+  "count": 650,
+  "current_count": 22,
+  "historical_count": 628,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -34232,6 +34232,1158 @@
       "downstream_risk": null,
       "economic_damage": null,
       "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: Suárez compilation says El Guapo is the only Venezuelan dam failure with recorded fatalities. Town pin, not a surveyed crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "oil-industry water supply (Paraguaná); later abandoned",
+      "year_built": "1956–1957",
+      "height_m": 16,
+      "reservoir_capacity": "615,000 m³ (Suárez Villar technical book)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Wolfskill and Lambe (1969 laboratory/stability study)",
+      "verification": "confirmed",
+      "id": "siburua-1964",
+      "name": "Siburúa Dam",
+      "country": "Venezuela",
+      "region": "South of Coro, near Meachiche / Siburúa, Falcón (Sierra de San Luis)",
+      "location_label": "Siburúa, Falcón, Venezuela",
+      "lat": 11.319167,
+      "lng": -69.576944,
+      "geo_accuracy": "region",
+      "geo_source": "nona.net gazetteer Siburúa 11°19′9″N 69°34′37″W; technical book: south of Coro near Meachiche",
+      "river_or_facility": "Embalse Siburúa (off-stream, fed by sierra springs)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "structural_design"
+      ],
+      "cause_summary": "Suárez Villar compilation and a Venezuelan earth-dam review: a deep downstream-slope slide in a homogeneous clay section near the abutment while the reservoir was full, after a 1959 rapid-drawdown slide on the upstream face. Wolfskill and Lambe (1969) attributed the slides to brittle medium-plasticity clays.",
+      "incident_date": "1964",
+      "latest_report_date": "2016",
+      "what_happened": "Embalse Siburúa is a small off-stream earth dam south of Coro, Falcón, built 1956–1957 to supply oil facilities on the Paraguaná Peninsula (technical book: zoned at the highest section, homogeneous near the abutments; maximum height 16 m; reservoir 615,000 m³). A 1959 rapid drawdown produced an upstream-slope slide. In 1964, with the reservoir full, a deep slide occurred on the downstream face near the hillside, forcing a complete drawdown. Laboratory and stability work by Wolfskill and Lambe in 1969 found brittle medium-plasticity clays. The dam was left out of service after El Isiro entered operation. Suárez Villar / Frontiers (2020) list it among Venezuela’s seven historic dam failures (slope slippage, 1964) and state that El Guapo is the only Venezuelan dam failure with recorded loss of life.",
+      "status": "Abandoned after 1964; out of service.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Suárez Villar — Lecciones aprendidas de los incidentes y fallas en las presas de Venezuela (damfailures.org PDF)",
+          "url": "https://damfailures.org/sites/default/files/wp-pdf/Lecciones-Aprendidas-de-los-Incidentes-y-Fallas-en-las-Presas-de-Venezuela.pdf"
+        },
+        {
+          "label": "Frontiers in Sustainable Food Systems 2020 — Venezuela dam-failure table (Siburúa slope slippage 1964)",
+          "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2020.624066/full"
+        },
+        {
+          "label": "Fallas en presas de tierra (Venezuela case notes: 1959/1964 slides; Wolfskill & Lambe 1969)",
+          "url": "https://idoc.tips/fallas-en-presas-de-tierra-pdf-free.html"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": "several (earth-dam review; no count)",
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from the national compilation (only El Guapo had fatalities). Injured left as 'several' — no numeric count. Town pin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ministerio de Sanidad y Asistencia Social (construction)",
+      "year_built": "1965",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "las-tinas-1965",
+      "name": "Las Tinas Dam",
+      "country": "Venezuela",
+      "region": "Near San Antonio de Tamanaco, Guárico",
+      "location_label": "San Antonio de Tamanaco, Guárico, Venezuela",
+      "lat": 9.676667,
+      "lng": -66.045,
+      "geo_accuracy": "region",
+      "geo_source": "gelvez.com.ve / GeoNames San Antonio de Tamanaco 9°40′36″N 66°2′42″W; dam described as in the vicinity",
+      "river_or_facility": "Embalse Las Tinas",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Venezuelan earth-dam review: a tunnel formed through the homogeneous clay embankment (dispersive clays), emptying the reservoir. Frontiers table: ‘dispersive clays’, 1965.",
+      "incident_date": "1965",
+      "latest_report_date": "2020",
+      "what_happened": "Las Tinas, a homogeneous clay dam built in 1965 by the Ministry of Health and Social Assistance near San Antonio de Tamanaco, Guárico, failed the same year when a tunnel formed through the embankment and the reservoir emptied. The Venezuelan earth-dam review says the flood reached a hamlet downstream and injured several people. Suárez Villar / Frontiers list it among the country’s seven historic failures (dispersive clays, 1965) and state that El Guapo is the only Venezuelan dam failure with recorded loss of life.",
+      "status": "Historical piping failure; reservoir emptied.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Suárez Villar — Lecciones aprendidas (Las Tinas 1965)",
+          "url": "https://damfailures.org/sites/default/files/wp-pdf/Lecciones-Aprendidas-de-los-Incidentes-y-Fallas-en-las-Presas-de-Venezuela.pdf"
+        },
+        {
+          "label": "Frontiers 2020 — Venezuela dam-failure table (Las Tinas dispersive clays 1965)",
+          "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2020.624066/full"
+        },
+        {
+          "label": "Fallas en presas de tierra — Las Tinas piping / hamlet injuries",
+          "url": "https://idoc.tips/fallas-en-presas-de-tierra-pdf-free.html"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "River pin, not a surveyed dam crest. Deaths 0 from the national compilation. Distinct from the José Antonio Páez / Santo Domingo arch dam, which is fed by Río Aracay but is not this sediment barrage.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "entered service February 1983",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": "left half of the dam collapsed after ~1 m overtopping (earth-dam review)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "aracay-1986-08-21",
+      "name": "Aracay sediment dam",
+      "country": "Venezuela",
+      "region": "Río Aracay, Mérida / Barinas highlands",
+      "location_label": "Río Aracay, Mérida, Venezuela",
+      "lat": 8.888333,
+      "lng": -70.6325,
+      "geo_accuracy": "region",
+      "geo_source": "tutiempo.net / gazetteer Río Aracay 8.8883333, −70.6325; dam is a sediment barrage on that river, not a surveyed crest",
+      "river_or_facility": "Presa Aracay (sediment retention on Río Aracay)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Earth-dam review: a flood of about 200 m³/s (about the design flood) overtopped the full crest by about 1 m and collapsed the left half. Frontiers table: dispersive clays, 21 August 1986.",
+      "incident_date": "1986-08-21",
+      "latest_report_date": "2020",
+      "what_happened": "The Aracay sediment dam entered service in February 1983 to trap solids on the Río Aracay and had stored about 228,200 m³ of sediment when, on 21 August 1986, intense basin rain produced a flood of about 200 m³/s. The Venezuelan earth-dam review says the flood overtopped the entire crest by about 1 m and collapsed the left half of the dam. Suárez Villar / Frontiers list the date and classify the failure with dispersive clays. El Guapo remains the only Venezuelan dam failure with recorded loss of life in that compilation.",
+      "status": "Historical overtopping collapse of a sediment barrage.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Suárez Villar — Lecciones aprendidas (Aracay 21 Aug 1986)",
+          "url": "https://damfailures.org/sites/default/files/wp-pdf/Lecciones-Aprendidas-de-los-Incidentes-y-Fallas-en-las-Presas-de-Venezuela.pdf"
+        },
+        {
+          "label": "Frontiers 2020 — Venezuela dam-failure table (Aracay dispersive clays 21 Aug 1986)",
+          "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2020.624066/full"
+        },
+        {
+          "label": "Fallas en presas de tierra — Aracay overtopping narrative",
+          "url": "https://idoc.tips/fallas-en-presas-de-tierra-pdf-free.html"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Mirimire town pin (dam is NW of the town). Deaths 0 from the national compilation. Distinct from El Guapo (Dec 1999).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "HIDROFALCON / INOS (construction)",
+      "year_built": "1980–1987",
+      "height_m": 22.4,
+      "reservoir_capacity": "15.92 hm³ maximum (2011 Falcón fiche)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "el-cristo-1999-04-09",
+      "name": "El Cristo Dam (Mirimire)",
+      "country": "Venezuela",
+      "region": "Río El Cristo, northwest of Mirimire, Acosta, Falcón",
+      "location_label": "Mirimire, Falcón, Venezuela",
+      "lat": 11.1602,
+      "lng": -68.72604,
+      "geo_accuracy": "region",
+      "geo_source": "database.earth / GeoCountries Mirimire 11.1602, −68.726; official Falcón fiche: dam on Río El Cristo NW of Mirimire",
+      "river_or_facility": "Embalse El Cristo / Río El Cristo",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Earth-dam review and Frontiers: April 1999 rain filled the reservoir; the undersized buried-box spillway was exceeded and the embankment overtopped, then breached by regressive erosion in the centre of the crest.",
+      "incident_date": "1999-04-09",
+      "latest_report_date": "2011",
+      "what_happened": "El Cristo is a homogeneous medium/high-plasticity clay embankment on the Río El Cristo northwest of Mirimire, Falcón (official 2011 Falcón environmental fiche: height 22.4 m; crest 209 m; maximum storage 15.92 hm³; buried rectangular spillway 3×2 m, design discharge 9.23 m³/s; built 1980–1987 for potable supply). Exceptional April 1999 rain filled the reservoir; the spillway began to operate the day after the storm started. The pool rose until the dam overtopped. Flow first ran along the whole crest, then concentrated in four weaker zones and finally in the centre, where regressive erosion removed the embankment and the work collapsed. Suárez Villar / Frontiers date the failure 9 April 1999 (underestimated flood / overflow). El Guapo is the only Venezuelan dam failure with recorded loss of life in that compilation.",
+      "status": "Historical overtopping collapse.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Falcón 2011 Informe Geoambiental — Embalse El Cristo fiche",
+          "url": "https://www.yumpu.com/es/document/view/14110715/16cpzcm/228"
+        },
+        {
+          "label": "Frontiers 2020 — El Cristo 9 Apr 1999 overflow",
+          "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2020.624066/full"
+        },
+        {
+          "label": "Fallas en presas de tierra — El Cristo overtopping narrative",
+          "url": "https://idoc.tips/fallas-en-presas-de-tierra-pdf-free.html"
+        },
+        {
+          "label": "Suárez Villar — Lecciones aprendidas (El Cristo)",
+          "url": "https://damfailures.org/sites/default/files/wp-pdf/Lecciones-Aprendidas-de-los-Incidentes-y-Fallas-en-las-Presas-de-Venezuela.pdf"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Town pin 3.5 km east of the dam. Deaths 0 from the national compilation. Distinct from El Guapo (16 Dec 1999) and from the 2010 Játira fuse-dike incident.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "MinAmb / MOP and DGRH (design); INTEVEN (construction)",
+      "year_built": "1964–1971",
+      "height_m": 7.2,
+      "reservoir_capacity": "70.63 hm³ maximum (2011 Falcón fiche)",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "jatira-tocuyo-1999-12-17",
+      "name": "Játira–Tacarigua / Tocuyo de la Costa Dam (1999)",
+      "country": "Venezuela",
+      "region": "3.5 km west of Tocuyo de la Costa, Acosta, Falcón",
+      "location_label": "Tocuyo de la Costa, Falcón, Venezuela",
+      "lat": 11.0357,
+      "lng": -68.37448,
+      "geo_accuracy": "region",
+      "geo_source": "database.earth Tocuyo de la Costa 11.0357, −68.37448; 2011 Falcón fiche: dam 3.5 km west of the town",
+      "river_or_facility": "Embalse Tocuyo de la Costa — presa Tacarigua and dique Játira (Río Játira / Río Tacarigua)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Suárez Villar / Frontiers: underestimated flood and overflow on 17 December 1999, the day after El Guapo, during the same coastal rains.",
+      "incident_date": "1999-12-17",
+      "latest_report_date": "2011",
+      "what_happened": "The Tocuyo de la Costa scheme (presa Tacarigua and dique Játira) is a pair of homogeneous clay embankments 3.5 km west of Tocuyo de la Costa, Falcón (2011 fiche: built 1964–1971; heights 7.20 m and 6 m; crests 1,164 m and 5,013 m; maximum storage 70.63 hm³; spillway design 15.92 m³/s). Suárez Villar / Frontiers list a failure of Tocuyo de la Costa (Játira) on 17 December 1999 by underestimated flood and overflow — the day after El Guapo, in the same December 1999 rains. The 2011 fiche still describes the works as operating for potable supply, irrigation and flood mitigation. El Guapo is the only Venezuelan dam failure with recorded loss of life in that compilation.",
+      "status": "Historical 1999 overflow failure; scheme later operating (2011 fiche). Separate 2010 fuse-dike incident is a later record.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Falcón 2011 Informe Geoambiental — Embalse Tocuyo de la Costa / Játira–Tacarigua",
+          "url": "https://www.yumpu.com/es/document/view/14110715/16cpzcm/20"
+        },
+        {
+          "label": "Frontiers 2020 — Tocuyo de la Costa (Játira) 17 Dec 1999",
+          "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2020.624066/full"
+        },
+        {
+          "label": "Suárez Villar — Lecciones aprendidas (Tocuyo de la Costa / Játira)",
+          "url": "https://damfailures.org/sites/default/files/wp-pdf/Lecciones-Aprendidas-de-los-Incidentes-y-Fallas-en-las-Presas-de-Venezuela.pdf"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 17,000 residents of Tocuyo de la Costa and Boca del Tocuyo (El Universal 29 Dec 2010 reprint)",
+      "notes": "Deaths null: national rain toll not copied. Distinct from the 17 Dec 1999 overflow of the same scheme. Town pin 3.5 km east of the dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "HIDROFALCON / national civil protection",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "jatira-2010-12",
+      "name": "Játira / Tocuyo de la Costa fuse dike (2010)",
+      "country": "Venezuela",
+      "region": "3.5 km west of Tocuyo de la Costa, Acosta, Falcón",
+      "location_label": "Tocuyo de la Costa, Falcón, Venezuela",
+      "lat": 11.0357,
+      "lng": -68.37448,
+      "geo_accuracy": "region",
+      "geo_source": "same scheme pin as jatira-tocuyo-1999-12-17; 2011 fiche 3.5 km west of town",
+      "river_or_facility": "Embalse Tocuyo de la Costa — dique de contención / fusible Játira",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "December 2010 coastal rains: the Játira containment / fuse dike was reported fractured or opened to drop the reservoir and spare the main dam. Officials and PROVEA described evacuations in Tocuyo de la Costa and nearby settlements.",
+      "incident_date": "2010-12",
+      "latest_report_date": "2011-01-04",
+      "what_happened": "In December 2010, after days of rain in Falcón, the Játira / Tocuyo de la Costa scheme again came under flood load. El Universal (29 December 2010, local reprint) reported that the Játira fuse dike had ruptured, that evacuations of Tocuyo de la Costa had begun, and that Boca del Tocuyo would also be evacuated — about 17,000 people in the two towns. Governor Stella Lugo said President Chávez had authorised evacuation and later relocation. A later local compilation (Weffer 2015) says the 2010 flood broke the Játira–Tacarigua dike and that a service spillway and gabion wall were built afterwards. National death totals for the December 2010 rains are not used here — no source isolated fatalities from this dike.",
+      "status": "Fuse / containment dike opened or fractured; main scheme later operating.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "El Universal 29 Dec 2010 reprint — fuse dike rupture; ~17,000 in Tocuyo de la Costa and Boca del Tocuyo",
+          "url": "http://efectotocuyo.blogspot.com/2010/12/predidente-de-la-republica-autoriza.html"
+        },
+        {
+          "label": "Weffer 2015 compilation — Játira–Tacarigua dike rupture in the 2010 flood",
+          "url": "http://frankjhonattanweffervasquez.blogspot.com/2015/11/desbordamientos-y-tragedias-del-rio.html"
+        },
+        {
+          "label": "Falcón 2011 Informe Geoambiental — Embalse Tocuyo de la Costa / Játira–Tacarigua fiche",
+          "url": "https://www.yumpu.com/es/document/view/14110715/16cpzcm/20"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 300 people evacuated from the nearest hamlet (AVN / Jaua 5 Dec 2010); later press also said 300 families",
+      "notes": "Deaths 0: Jaua/AVN same day and Frontiers (only El Guapo had fatalities). OSM reservoir centroid, not a surveyed crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "MOP (construction); later HIDROLAGO / MinAmb",
+      "year_built": "mid-1970s",
+      "height_m": 34.3,
+      "reservoir_capacity": "266 million m³ (Jaua 2010); 211.55 million m³ (iAgua rehabilitation note)",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": "most of the reservoir emptied through the closure-dike gully (Tekhné); peak ~2,200 m³/s",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Suárez Villar / Tekhné 2018 technical paper",
+      "verification": "confirmed",
+      "id": "manuelote-2010-12-05",
+      "name": "Manuelote / Socuy Dam (2010)",
+      "country": "Venezuela",
+      "region": "Río Socuy, Sierra de Perijá, Zulia",
+      "location_label": "Embalse Manuelote / Socuy, Zulia, Venezuela",
+      "lat": 10.91917,
+      "lng": -72.26264,
+      "geo_accuracy": "approx",
+      "geo_source": "OpenStreetMap relation 3429313 Embalse Manuelote 10.91917, −72.26264 (reservoir centroid)",
+      "river_or_facility": "Embalse Manuelote (Presa Socuy)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Tekhné 2018: 5 Dec 2010 Socuy flood raised the pool to ~8 cm below crest; the homogeneous earth closure dike failed by regressive erosion / piping near the spillway and emptied most of the reservoir (~2,200 m³/s peak). Frontiers table: seepage / underestimated flood / overflow, 5 Dec 2010.",
+      "incident_date": "2010-12-05",
+      "latest_report_date": "2018-11-30",
+      "what_happened": "Manuelote (Embalse Socuy) is a zoned earth dam on the Río Socuy about 100 km northwest of Maracaibo (Tekhné: main dam height 34.3 m, crest 1,300 m at 56.00 m asl; homogeneous earth closure dike 13.5 m × 1,600 m; built mid-1970s by MOP for Maracaibo / El Tablazo supply and flood control). On 5 December 2010 an exceptional Socuy flood raised the pool almost to the crest. Witnesses told Tekhné the water did not overtop at the breach — about 8 cm below — then the closure dike collapsed suddenly by regressive erosion, cutting a gully that emptied most of the reservoir and stopped transfers to Tulé. Peak outflow was estimated at about 2,200 m³/s. Vice-president Elías Jaua (AVN, 5 Dec 2010) said the 35 m / 266 million m³ dam had given way, about 300 people were evacuated from the nearest hamlet, and there was no loss of life. Frontiers (2020) lists Manuelote among Venezuela’s seven historic dam failures and states El Guapo is the only Venezuelan dam failure with recorded fatalities.",
+      "status": "Closure dike failed 5 Dec 2010; later repaired (Tekhné). Reservoir operating.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Tekhné 2018 — Presa Manuelote: closure-dike failure and repair (PDF)",
+          "url": "https://revistasenlinea.saber.ucab.edu.ve/index.php/tekhne/article/download/3936/3321/12770"
+        },
+        {
+          "label": "Tekhné 2018 — article landing page",
+          "url": "https://revistasenlinea.saber.ucab.edu.ve/index.php/tekhne/article/view/3936"
+        },
+        {
+          "label": "AVN via Aporrea 5 Dec 2010 — 300 evacuated; Jaua: no deaths",
+          "url": "https://www.aporrea.org/regionales/n170867.html"
+        },
+        {
+          "label": "Frontiers 2020 — Venezuela dam-failure table (Manuelote 5 Dec 2010)",
+          "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2020.624066/full"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Incident: main concrete dam held. Deaths 0 from ETHW (avoiding loss of life). Distinct from ordinary 1959 flood without a structure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "UTE (Uruguay)",
+      "year_built": "1937–1948",
+      "height_m": 26,
+      "reservoir_capacity": "8,800 hm³ (es.wikipedia)",
+      "construction": "concrete_gravity",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "rincon-del-bonete-1959-04",
+      "name": "Rincón del Bonete Dam (1959 flood)",
+      "country": "Uruguay",
+      "region": "Río Negro, Tacuarembó / Durazno",
+      "location_label": "Embalse Rincón del Bonete, Uruguay",
+      "lat": -32.830833,
+      "lng": -56.421111,
+      "geo_accuracy": "exact",
+      "geo_source": "Spanish Wikipedia Rincón del Bonete −32.830833, −56.421111",
+      "river_or_facility": "Rincón del Bonete / Gabriel Terra Dam, Río Negro",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "April 1959 Río Negro flood: the main concrete dam held; auxiliary earth dikes were overtopped and later blasted to relieve the reservoir. IEEE: loss of life avoided.",
+      "incident_date": "1959-04",
+      "latest_report_date": "2008",
+      "what_happened": "In April 1959 an exceptional flood on the Río Negro filled Rincón del Bonete (Gabriel Terra), then Uruguay’s principal hydroelectric reservoir. Contemporary and later engineering accounts say the main concrete dam held while auxiliary earth dikes were overtopped; operators later blasted sections of the dikes to drop the pool. IEEE’s historical note on the event states that loss of life was avoided. The main dam remained in service.",
+      "status": "Main dam held; auxiliary dikes damaged and partly blasted. Reservoir still operating.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "ETHW IEEE Milestone — Rincón del Bonete 1959 flood epilog (main dam held; life avoided)",
+          "url": "https://ethw.org/Milestones:Rinc%C3%B3n_del_Bonete,_1945"
+        },
+        {
+          "label": "Wikipedia (es) — Rincón del Bonete (coords; 1959 overtopping and auxiliary-dike blasts)",
+          "url": "https://es.wikipedia.org/wiki/Rinc%C3%B3n_del_Bonete"
+        },
+        {
+          "label": "Ecos del Hum — Operación Terraplén 19 Apr 1959 (two breaching blasts)",
+          "url": "https://ecosdelhum.com.uy/contenido/1087/19-abril-1959-inundaciones-del-59-operacion-terraplen-la-voladura-o-brecha"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: no source isolated fatalities at Mancotal (Mitch national toll not copied). Distinct from virgen-dam-1998-10.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "ENEL / Hidrogesa (Nicaragua)",
+      "year_built": "1964",
+      "height_m": 50,
+      "reservoir_capacity": "435 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mancotal-1998-10",
+      "name": "Mancotal Dam (Hurricane Mitch)",
+      "country": "Nicaragua",
+      "region": "Río Tuma, Jinotega",
+      "location_label": "Mancotal Dam, Jinotega, Nicaragua",
+      "lat": 13.245,
+      "lng": -85.90194,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Mancotal Dam 13°14′42″N 85°54′07″W",
+      "river_or_facility": "Mancotal Dam / Lake Apanás–Asturias, Río Tuma",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Hurricane Mitch (October 1998) overtopped Mancotal; Wikipedia and later hydropower notes say the dam was nearly destroyed. Distinct from the Virgen dam failure on the same storm.",
+      "incident_date": "1998-10",
+      "latest_report_date": "2024",
+      "what_happened": "Mancotal is a 50 m hydropower dam (Lake Apanás–Asturias, about 435 million m³) on the Río Tuma in Jinotega. During Hurricane Mitch in October 1998 the dam was overtopped and, in Wikipedia’s wording, nearly destroyed. It was later repaired and remains the intake dam for the Centroamérica plant. This is a separate structure from the Virgen dam, which failed in the same storm (already in the database).",
+      "status": "Nearly destroyed in Mitch; later repaired and operating.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Mancotal Dam (coords; Mitch nearly destroyed)",
+          "url": "https://en.wikipedia.org/wiki/Mancotal_Dam"
+        },
+        {
+          "label": "Nicaraguan hydropower notes — Lake Apanás / Centroamérica after Mitch",
+          "url": "https://en.wikipedia.org/wiki/Lake_Apan%C3%A1s"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Region pin reused from Mancotal (immediately downstream). Deaths null. Distinct from virgen-dam-1998-10 and from mancotal-1998-10.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "ENEL / Hidrogesa (Nicaragua)",
+      "year_built": "1985",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "el-dorado-nicaragua-1998-10",
+      "name": "El Dorado Dam / Lake Asturias (Hurricane Mitch)",
+      "country": "Nicaragua",
+      "region": "Immediately downstream of Mancotal, Jinotega",
+      "location_label": "El Dorado / Lake Asturias, Jinotega, Nicaragua",
+      "lat": 13.245,
+      "lng": -85.90194,
+      "geo_accuracy": "region",
+      "geo_source": "immediately downstream of Mancotal; same Wikipedia pin used as region accuracy",
+      "river_or_facility": "El Dorado Dam, Lake Asturias (below Mancotal)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Same Mitch sequence as Mancotal: Wikipedia’s Lake Apanás / Mancotal notes place El Dorado immediately downstream and under the same 1998 flood load.",
+      "incident_date": "1998-10",
+      "latest_report_date": "2024",
+      "what_happened": "El Dorado closes Lake Asturias immediately downstream of Mancotal on the Río Tuma chain. Wikipedia’s Mancotal / Lake Apanás articles treat the pair as one hydropower cascade and place both under Hurricane Mitch in October 1998. No separate fatality figure is given for El Dorado.",
+      "status": "Mitch flood load on the Asturias / El Dorado structure; later operating.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Mancotal Dam (El Dorado immediately downstream)",
+          "url": "https://en.wikipedia.org/wiki/Mancotal_Dam"
+        },
+        {
+          "label": "Wikipedia — Lake Apanás",
+          "url": "https://en.wikipedia.org/wiki/Lake_Apan%C3%A1s"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 20,000 people left their homes (Chaco Día por Día, 43rd anniversary)",
+      "notes": "Town pin at Puerto Vilelas, not a surveyed crest. Deaths null: 1982–83 Paraná flood toll not copied onto this structure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Chaco provincial flood-defence works",
+      "year_built": "inaugurated 1978-05-31",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "rio-negro-chaco-1982-07-28",
+      "name": "Río Negro regulator dam (Puerto Vilelas / Gran Resistencia)",
+      "country": "Argentina",
+      "region": "Mouth of the Río Negro at the Paraná, Puerto Vilelas, Chaco",
+      "location_label": "Puerto Vilelas, Chaco, Argentina",
+      "lat": -27.5141,
+      "lng": -58.9391,
+      "geo_accuracy": "region",
+      "geo_source": "FallingRain / GeoNames Puerto Vilelas −27.5141, −58.9391; regulator at the river mouth / port",
+      "river_or_facility": "Dique regulador del Río Negro (inaugurated 31 May 1978)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "28 July 1982, 15:30: five of eight gates of the 1978 Río Negro regulator gave way as the Paraná rose, flooding the Río Negro valley through Gran Resistencia. Later accounts cite construction-quality doubts; a judicial case did not prove negligence.",
+      "incident_date": "1982-07-28",
+      "latest_report_date": "2025",
+      "what_happened": "The Río Negro regulator dam at Puerto Vilelas, inaugurated 31 May 1978 as the eastern front of Gran Resistencia’s flood defences, failed on 28 July 1982. Cuaderno Urbano: on 26 July the Paraná reached 48.87 m; two days later five of the eight gates gave way at about 15:30 and water entered the urban lowlands to about 48.60 m. Chaco Día por Día (43rd anniversary): about 20,000 people left their homes. Mundourbano (UNQ): nobody had verified or maintained the work during its four-year life; after the break the Río Negro valley flooded. No source isolated a death count to this structure — the 1982–83 Paraná flood deaths are not copied here.",
+      "status": "Regulator failed 28 Jul 1982; later defence works rebuilt the recinto.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Chaco Día por Día — 43 years after the regulator collapse; 15:30 28 Jul 1982; ~20,000 left homes",
+          "url": "https://chacodiapordia.com/a-43-anos-de-la-tragedia-del-dique-el-dia-que-el-rio-negro-arraso-con-todo/"
+        },
+        {
+          "label": "Cuaderno Urbano / UNNE — five of eight gates failed 28 Jul 1982",
+          "url": "https://revistas.unne.edu.ar/index.php/crn/article/view/2064"
+        },
+        {
+          "label": "Mundourbano UNQ — regulator built 1978, broke July 1982; no maintenance",
+          "url": "http://mundourbano.unq.edu.ar/index.php/ano-2014/79-numero-44/254-inundaciones-en-el-chaco"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 850 hectares of rice farms submerged (Citi Newsroom / Ghanaian Times)",
+      "notes": "Deaths null: regional flood deaths not copied. Distinct from Iduapriem Beposo TSF (already in DB).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ghana Irrigation Development Authority / ICOUR",
+      "year_built": "1975–1985",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tono-2019-10",
+      "name": "Tono Irrigation Dam (spillway / embankment washout)",
+      "country": "Ghana",
+      "region": "Kassena-Nankana Municipality, Upper East Region",
+      "location_label": "Tono Dam, Upper East, Ghana",
+      "lat": 10.8820917,
+      "lng": -1.1653639,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Tono Dam (Ghana) 10°52′55.53″N 1°09′55.31″W",
+      "river_or_facility": "Tono Dam / Tono River irrigation scheme",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "spillway",
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "October 2019 torrential rain exceeded the dam’s volume; Citi Newsroom and Ghanaian Times: the spillway, retaining walls, floor and embankment collapsed and about 850 ha of rice were submerged.",
+      "incident_date": "2019-10",
+      "latest_report_date": "2021",
+      "what_happened": "Tono is a large irrigation dam in Kassena-Nankana, Upper East (Wikipedia: built 1975–1985; about 2 km long; irrigates some 2,490 ha). In October 2019, after about two weeks of torrential rain, the spillway, retaining walls, concrete floor and embankment were washed out. Citi Newsroom (Nov 2019): Agriculture Minister Owusu Afriyie Akoto inspected the damage, said about 850 hectares of rice farms were submerged, and discussed extending the spillway from 60 m to 100 m. Ghanaian Times: Vice-President Bawumia visited and promised reconstruction. Graphic Online later described a World Bank / GCAP rebuild of a roughly 500 m × 50 m spillway channel that had not been in the original rehabilitation contract. No source isolated fatalities to this washout.",
+      "status": "Spillway and embankment washed out Oct 2019; later reconstructed (GCAP / World Bank).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Citi Newsroom Nov 2019 — collapsed Tono spillway; 850 ha rice; minister inspection",
+          "url": "https://www.citinewsroom.com/2019/11/u-e-collapsed-tono-dam-spillway-to-be-fixed-soon-agric-minister-assures/"
+        },
+        {
+          "label": "Ghanaian Times — VP: reconstruct Tono; two weeks of October rain; retaining walls, spillway, floor, embankment",
+          "url": "https://ghanaiantimes.com.gh/govt-will-reconstruct-tono-irrigation-dam-veep/"
+        },
+        {
+          "label": "Graphic Online — Tono spillway reconstruction after Oct 2019 damage",
+          "url": "https://graphic.com.gh/news/general-news/ghana-news-tono-irrigation-reconstruction-ready-in-october.html"
+        },
+        {
+          "label": "Wikipedia — Tono Dam (Ghana) coords",
+          "url": "https://en.wikipedia.org/wiki/Tono_Dam_(Ghana)"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "38,624 displaced (presidential committee via MyJoyOnline); VRA/GNA about 39,000",
+      "notes": "Deaths 0: FIG and The Conversation (no reported / no official deaths). Distinct from Bagré 2026 watch already in DB.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Volta River Authority",
+      "year_built": "1961–1965",
+      "height_m": 114,
+      "reservoir_capacity": "148 km³ (Lake Volta, Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Presidential committee on the 2023 Akosombo spillage",
+      "verification": "confirmed",
+      "id": "akosombo-kpong-2023-09-15",
+      "name": "Akosombo and Kpong Dams (2023 controlled spillage)",
+      "country": "Ghana",
+      "region": "Akosombo gorge, Eastern Region; flooding along the lower Volta",
+      "location_label": "Akosombo Dam, Ghana",
+      "lat": 6.29972,
+      "lng": 0.05944,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Akosombo Dam 6°17′59″N 0°3′34″E",
+      "river_or_facility": "Akosombo Dam and Kpong Dam, Volta River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "VRA opened Akosombo and Kpong spillways from 15 September 2023 (ended 1 Nov 2023 per GNA; committee: 15 Sep–30 Oct) after Lake Volta rose toward the 84.73 m maximum, flooding lower Volta districts.",
+      "incident_date": "2023-09-15",
+      "latest_report_date": "2025",
+      "what_happened": "On 15 September 2023 the Volta River Authority began a controlled spillage from Akosombo and Kpong after heavy inflow raised Lake Volta. GNA (1 Nov 2023): VRA ended the spill that day; it had started 15 September, was intensified for three weeks, flooded eight districts, and displaced about 39,000 residents. A later presidential committee (MyJoyOnline) dated the spill 15 September–30 October 2023, about 8 million acre-feet in 46 days, and 38,624 people displaced. FIG 2025: over 31,000 displaced and no reported fatalities. The Conversation: over 26,000 displaced; no deaths officially announced; last recorded spill 2010. Akosombo itself (Wikipedia: 114 m rockfill, Lake Volta 148 km³) held.",
+      "status": "Controlled spill ended Nov 2023; dam operating.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Ghana News Agency 1 Nov 2023 — VRA ends spill; started 15 Sep; ~39,000 displaced",
+          "url": "https://gna.org.gh/2023/11/vra-ends-controlled-spillage-of-akosombo-dam/"
+        },
+        {
+          "label": "MyJoyOnline — committee: 15 Sep–30 Oct 2023; 38,624 displaced; 8 MAF",
+          "url": "https://www.myjoyonline.com/akosombo-dam-spillage-15-critical-findings-from-committee-report/"
+        },
+        {
+          "label": "FIG 2025 — Akosombo 2023 case study; no reported fatalities",
+          "url": "https://fig.net/resources/proceedings/fig_proceedings/fig2025/papers/ts02b/TS02B_bleboo_kponor_13417.pdf"
+        },
+        {
+          "label": "The Conversation — no deaths officially announced; last spill 2010",
+          "url": "https://theconversation.com/ghana-akosombo-dam-disaster-reveals-a-history-of-negligence-that-continues-to-this-day-217598"
+        },
+        {
+          "label": "Wikipedia — Akosombo Dam (coords; 2010 and 2023 spills)",
+          "url": "https://en.wikipedia.org/wiki/Akosombo_Dam"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from the 2023 spill. Forecast ‘150,000 may be affected’ not used as an outcome.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Volta River Authority",
+      "year_built": "1961–1965",
+      "height_m": 114,
+      "reservoir_capacity": "148 km³ (Lake Volta, Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "akosombo-2010-spill",
+      "name": "Akosombo Dam (2010 controlled spillage)",
+      "country": "Ghana",
+      "region": "Akosombo gorge, Eastern Region",
+      "location_label": "Akosombo Dam, Ghana",
+      "lat": 6.29972,
+      "lng": 0.05944,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Akosombo Dam 6°17′59″N 0°3′34″E",
+      "river_or_facility": "Akosombo Dam, Volta River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "VRA opened spillway gates on 1 November 2010 at lake level 84.45 m (historic high) and closed them 24 November at 84.38 m. Wikipedia: several weeks of spill caused some flooding downstream.",
+      "incident_date": "2010-11-01",
+      "latest_report_date": "2010-11-26",
+      "what_happened": "After the highest recorded Lake Volta level, VRA began a controlled opening of Akosombo’s spillway gates on 1 November 2010 at 84.45 m (GhanaWeb / GNA 26 Nov 2010) and closed them at noon on 24 November at 84.38 m. MyJoyOnline (1 Nov 2010): four of twelve gates opened; VRA said the lake had peaked for the first time in 20 years. Wikipedia: water was spilled for several weeks and caused some flooding downstream. Pre-spill NADMO forecasts of who might be affected are not used as an outcome count. No source isolated fatalities to this spill.",
+      "status": "Controlled spill 1–24 Nov 2010; dam operating.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "GhanaWeb / GNA 26 Nov 2010 — spill 1–24 Nov; opened at 84.45 m, closed at 84.38 m",
+          "url": "https://www.ghanaweb.com/GhanaHomePage/NewsArchive/VRA-ends-spillage-from-Volta-Dam-198319"
+        },
+        {
+          "label": "MyJoyOnline 1 Nov 2010 — VRA opens spillways; first peak in 20 years",
+          "url": "https://www.myjoyonline.com/vra-opens-spillways-of-akosombo-dam/"
+        },
+        {
+          "label": "Wikipedia — Akosombo Dam (2010 historic level 84.45 m; some flooding downstream)",
+          "url": "https://en.wikipedia.org/wiki/Akosombo_Dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "more than 10,000 homes and 10,000 ha farmland submerged on the lower Benue (Wikipedia)",
+      "notes": "Deaths null: Adamawa/Kano flood deaths not isolated to this dam (Kano is a different basin). Distinct from Mbankolo 2023 (already in DB).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "AES / later Eneo (operator notes on later releases)",
+      "year_built": "1977–1982",
+      "height_m": 40,
+      "reservoir_capacity": "7.7 billion m³ original potential (Wikipedia); 1.6 billion m³ cited for 2021 after siltation",
+      "construction": "unknown",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lagdo-2012-08-24",
+      "name": "Lagdo Dam (2012 controlled release)",
+      "country": "Cameroon",
+      "region": "Benue River, about 50 km south of Garoua, North Region",
+      "location_label": "Lagdo Reservoir, Cameroon",
+      "lat": 8.883,
+      "lng": 13.967,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Lagdo Reservoir 8°53′N 13°58′E",
+      "river_or_facility": "Lagdo Dam, Benue River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "NEMA: Cameroon released excess Lagdo water on 24 August 2012 after a 23 August High Commission note. Wikipedia: downstream flooding in Adamawa and the lower Benue.",
+      "incident_date": "2012-08-24",
+      "latest_report_date": "2013",
+      "what_happened": "Lagdo is a 1977–1982 dam on the Benue (Wikipedia: 308 m long, 40 m high; reservoir originally 7.7 billion m³). NEMA DG Sani-Sidi (28 Aug 2012): excess water was released from Lagdo on 24 August 2012 after a 23 August note from the Cameroon High Commission that further releases could continue into October. Wikipedia: the 2012 release flooded Adamawa State and the lower Benue, with more than 10,000 homes and 10,000 ha of farmland affected around Makurdi. Wikipedia also says ‘more than 10 deaths’ in Adamawa; Vanguard (29 Aug 2012) attributed 15 deaths in Kano and a further 15 in Adamawa to the same flood. Those figures mix distant basins and are not isolated to this structure, so deaths are left null.",
+      "status": "Controlled release 24 Aug 2012 onward; dam operating.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "NEMA DG remarks 28 Aug 2012 — Lagdo release 24 Aug 2012",
+          "url": "https://nema.gov.ng/remarks-by-dg-nema-on-the-release-of-water-from-lagdo-dam/"
+        },
+        {
+          "label": "Wikipedia — Lagdo Reservoir (coords; 2012 and 2022 releases)",
+          "url": "https://en.wikipedia.org/wiki/Lagdo_Reservoir"
+        },
+        {
+          "label": "Vanguard 29 Aug 2012 — contemporaneous flood reporting after the release",
+          "url": "https://www.vanguardngr.com/2012/08/disaster-from-cameroon-excess-water-from-lagdo-dam-kills-15-in-kano/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: Adamawa 25 and national 2022 flood toll not copied. Distinct from the 2012 release.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Eneo (2022 operator note on Wikipedia)",
+      "year_built": "1977–1982",
+      "height_m": 40,
+      "reservoir_capacity": "7.7 billion m³ original potential (Wikipedia)",
+      "construction": "unknown",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lagdo-2022-09-13",
+      "name": "Lagdo Dam (2022 controlled release)",
+      "country": "Cameroon",
+      "region": "Benue River, about 50 km south of Garoua, North Region",
+      "location_label": "Lagdo Reservoir, Cameroon",
+      "lat": 8.883,
+      "lng": 13.967,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Lagdo Reservoir 8°53′N 13°58′E",
+      "river_or_facility": "Lagdo Dam, Benue River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "NIHSA: Cameroon opened Lagdo at 08:50 on 13 September 2022 at about 615 m³/s to secure the works. Nigeria’s water minister later said 80% of that year’s floods were rainfall, not Lagdo.",
+      "incident_date": "2022-09-13",
+      "latest_report_date": "2023-03",
+      "what_happened": "Punch interview with NIHSA boss Clement Nze: Cameroon opened Lagdo on 13 September 2022 at 08:50, spilling about 615 m³/s, and Nigeria was told the next day. Wikipedia: the September 2022 operation released water to secure the installations; Nigerian authorities linked farmland flooding in 13 states and cited 25 deaths in Adamawa, but Minister Suleiman Adamu said 80% of the floods were rainfall, not Lagdo, and pointed to Katsina Ala and other tributaries. Those Adamawa deaths are not isolated to this release, so deaths are left null.",
+      "status": "Controlled release from 13 Sep 2022; dam operating.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Punch — NIHSA: Lagdo opened 13 Sep 2022 08:50 at 615 m³/s",
+          "url": "https://punchng.com/cameroon-opened-lagdo-dam-without-informing-nigeria-nihsa-boss-nze/"
+        },
+        {
+          "label": "Wikipedia — Lagdo Reservoir (2022 release; minister 80% rainfall)",
+          "url": "https://en.wikipedia.org/wiki/Lagdo_Reservoir"
+        },
+        {
+          "label": "TheCable — 80% of floods caused by rainfall not Lagdo, says minister",
+          "url": "https://www.thecable.ng/80-of-floods-caused-by-rainfall-not-lagdo-dam-says-minister/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Mines pin, not a surveyed Dam C crest. Deaths null: Nyamwamba flood toll not copied. Progressive incident, not a single-day breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Kilembe Mines (historic); site now a government / local-government concern",
+      "year_built": "dumped 1956–1982",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kilembe-dam-c-2014",
+      "name": "Kilembe Mines Dam C tailings (Nyamwamba erosion)",
+      "country": "Uganda",
+      "region": "Kilembe, Kasese District, Western Region",
+      "location_label": "Kilembe Mines tailings, Kasese, Uganda",
+      "lat": 0.20833,
+      "lng": 30.00694,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Kilembe Mines 0°12′30″N 30°00′25″E; Dam C is one of eleven Kilembe TSFs in that valley",
+      "river_or_facility": "Kilembe Mines Dam C (copper–cobalt tailings), River Nyamwamba",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "NHESS 2026: after the 2012 Rwenzori fire, Nyamwamba widening breached Kilembe Co–Cu tailings and mobilised an estimated 744,000 t of a 15 Mt deposit into the river (mapped since 2014). Nile Post: local geologists name the collapsing pile Dam C, one of eleven TSFs left when mining stopped in 1982.",
+      "incident_date": "2014",
+      "latest_report_date": "2026",
+      "what_happened": "Kilembe Mines (1956–1982) left about 15 Mt of cupriferous and cobaltiferous tailings in the Nyamwamba valley. NHESS (Copernicus, 2026) maps erosional banks and slumps and estimates 744,000 t of that deposit entered the river after post-2012 channel widening, with the loss visible between 2006 and 2023 imagery. Nile Post / AllAfrica: Kasese leaders say recurring floods are collapsing Dam C — one of eleven named tailings dams — into the Nyamwamba, with local estimates of more than two million tonnes already lost. No source isolates deaths to Dam C itself (Nyamwamba flood deaths are not copied).",
+      "status": "Progressive erosion of Dam C / Kilembe tailings into the Nyamwamba; unrepaired.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "NHESS 26, 3045–2026 — 744,000 t of 15 Mt Kilembe tailings into the Nyamwamba",
+          "url": "https://nhess.copernicus.org/articles/26/3045/2026/"
+        },
+        {
+          "label": "Nile Post — Dam C among eleven Kilembe TSFs collapsing into the Nyamwamba",
+          "url": "https://nilepost.co.ug/news/323949/floods-sweep-away-millions-in-mineral-wealth-as-kilembe-tailings-collapse-into-river-nyamwamba"
+        },
+        {
+          "label": "Wikipedia — Kilembe Mines (coords)",
+          "url": "https://en.wikipedia.org/wiki/Kilembe_Mines"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from the DCC the same day. Ndaragwa town pin, not a surveyed crest. Distinct from patel-solai-2018-05-09.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "County Government of Nyandarua / KCSAP",
+      "year_built": "tendered 2022 (KCSAP)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "umoja-mbuyu-2023-11-22",
+      "name": "Umoja Mbuyu Dam",
+      "country": "Kenya",
+      "region": "Leshau Pondo ward, Ndaragwa Sub-County, Nyandarua (Laikipia border)",
+      "location_label": "Ndaragwa, Nyandarua, Kenya",
+      "lat": -0.0559,
+      "lng": 36.5289,
+      "geo_accuracy": "region",
+      "geo_source": "FallingRain Ndaragwa −0.0559, 36.5289; dam is in Leshau Pondo ward of Ndaragwa",
+      "river_or_facility": "Umoja Mbuyu concrete dam (KCSAP / Nyandarua County)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "structural_design"
+      ],
+      "cause_summary": "KNA 22 Nov 2023: the Umoja Mbuyu dam wall collapsed about 06:00; DCC Anjerine Were said no fatalities. KBC: residents blamed shoddy construction of the new KCSAP dam.",
+      "incident_date": "2023-11-22",
+      "latest_report_date": "2023-11-25",
+      "what_happened": "The Umoja Mbuyu dam in Leshau Pondo ward, Ndaragwa, Nyandarua — a Kenya Climate Smart Agriculture Project concrete dam put to tender in 2022 — filled in heavy rain and its wall collapsed about 06:00 on 22 November 2023. Kenya News Agency, quoting Nyandarua North DCC Anjerine Were: all the water went downstream; no fatalities; onions and potatoes were destroyed at Pesi. KBC (25 Nov): the dam on the Laikipia–Nyandarua border was washed away and residents said the contractor did a shoddy job. Distinct from Patel Solai 2018 (already in the database).",
+      "status": "Wall collapsed 22 Nov 2023.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Kenya News Agency 22 Nov 2023 — wall collapsed ~06:00; DCC: no fatalities",
+          "url": "https://www.kenyanews.go.ke/umoja-mbuyu-dam-in-nyandarua-north-bursts-its-walls/"
+        },
+        {
+          "label": "KBC 25 Nov 2023 — Umoja Mbuyu / Buyu washed away; residents blame contractor",
+          "url": "https://www.kbc.co.ke/umoja-mbuyu-dam-wall-collapses-following-heavy-rains-in-nyandarua/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Watch, not a breach. Deaths null (construction deaths are on the separate 2014 record). Distinct from el-corazon-imbabura-2023-11-04.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "2026",
+      "owner_operator": "CELEC / Sinohydro–PowerChina",
+      "year_built": "2010–2016",
+      "height_m": 31.8,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "official_alert",
+      "id": "coca-codo-sinclair-watch",
+      "name": "Coca Codo Sinclair Dam (cracks and regressive erosion)",
+      "country": "Ecuador",
+      "region": "Coca River, El Reventador, Napo / Sucumbíos",
+      "location_label": "Coca Codo Sinclair Dam, Ecuador",
+      "lat": -0.1978,
+      "lng": -77.6858,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Coca Codo Sinclair Dam 0°11′52″S 77°41′09″W",
+      "river_or_facility": "Coca Codo Sinclair hydroelectric dam, Coca River",
+      "type": "reservoir_dam",
+      "category": "watch",
+      "causes": [
+        "structural_design",
+        "foundation"
+      ],
+      "cause_summary": "CELEC (Dec 2018): 7,648 cracks in the generator hall and equipment, first seen in 2014. USGS (Jan 2024): the Coca regressive-erosion front was about 7 km from the intake. Reuters (10 Apr 2026): Ecuador settled with PowerChina for $400 million; PowerChina to operate 25 years.",
+      "incident_date": "2018-12",
+      "latest_report_date": "2026-04-10",
+      "what_happened": "Coca Codo Sinclair (Sinohydro / PowerChina; 1,500 MW; Wikipedia: 31.8 m concrete-face rockfill, opened 2016) has been under structural and river-erosion watch since CELEC reported 7,648 cracks in December 2018 (first noted 2014). After San Rafael Falls collapsed in 2020, headward erosion on the Coca River threatened the intake; USGS scientists said in January 2024 the front was about 7 km away. On 10 April 2026 Reuters reported a $400 million settlement in which Ecuador keeps ownership and PowerChina operates and repairs the plant for 25 years. This is a watch, not a reservoir-release failure. The 13 December 2014 pressure-well construction accident is a separate record.",
+      "status": "Operating under watch; 2026 PowerChina settlement for repairs.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Coca Codo Sinclair Dam (coords; 7,648 cracks; USGS 7 km; 2026 settlement)",
+          "url": "https://en.wikipedia.org/wiki/Coca_Codo_Sinclair_Dam"
+        },
+        {
+          "label": "New York Times 24 Dec 2018 — cracks; China-financed dam",
+          "url": "https://www.nytimes.com/2018/12/24/world/americas/ecuador-china-dam.html"
+        },
+        {
+          "label": "Reuters 10 Apr 2026 — $400 million PowerChina settlement",
+          "url": "https://www.reuters.com/world/americas/ecuador-hands-hydroelectric-plant-power-china-400-million-arbitration-deal-2026-04-10/"
+        }
+      ],
+      "severity": "watch"
+    },
+    {
+      "injured": 12,
+      "affected_or_evacuated": null,
+      "notes": "Construction accident, not a reservoir release. Distinct from the later cracks / erosion watch.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Sinohydro (constructor); Ecuador electricity ministry",
+      "year_built": "under construction 2014",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Fiscalía General del Estado (inquiry opened 13–17 Dec 2014)",
+      "verification": "confirmed",
+      "id": "coca-codo-pressure-well-2014-12-13",
+      "name": "Coca Codo Sinclair pressure well 1 (construction collapse)",
+      "country": "Ecuador",
+      "region": "Powerhouse pressure shaft, Napo / Sucumbíos (El Chaco / Gonzalo Pizarro)",
+      "location_label": "Coca Codo Sinclair powerhouse, Ecuador",
+      "lat": -0.1978,
+      "lng": -77.6858,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Coca Codo Sinclair Dam 0°11′52″S 77°41′09″W; collapse was in pressure well 1 at the underground powerhouse, not the intake dam",
+      "river_or_facility": "Coca Codo Sinclair — pozo de presión 1 / casa de máquinas",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "construction_first_filling"
+      ],
+      "cause_summary": "AP 15 Dec 2014: Chinese embassy said a collapse in a pressure well at the Sinohydro site killed 13 (10 Ecuadorian, 3 Chinese) and injured 12. Not a reservoir release.",
+      "incident_date": "2014-12-13",
+      "latest_report_date": "2014-12-17",
+      "what_happened": "On the evening of 13 December 2014 a collapse in pressure well 1 at the Coca Codo Sinclair underground powerhouse killed 13 workers and injured 12. AP, quoting the Chinese embassy in Quito: 10 Ecuadorians and 3 Chinese dead; two of the injured were in serious condition. La República / ministry: the accident was about 20:30 Saturday in the vertical pressure shaft at the machine hall on the Napo–Sucumbíos line. El Telégrafo (17 Dec 2014): the prosecutor opened an inquiry into the landslide and flooding of pressure pipe 1. This is a construction accident, not a reservoir-release failure.",
+      "status": "Construction accident; plant later completed (2016).",
+      "deaths": 13,
+      "sources": [
+        {
+          "label": "AP 15 Dec 2014 — 13 killed, 12 injured; pressure-well collapse",
+          "url": "https://apnews.com/general-news-7b32c7b84b204f0286c31b4c97fe3b0a"
+        },
+        {
+          "label": "La República EC 14 Dec 2014 — 20:30 Saturday; pressure well 1; 13 dead",
+          "url": "https://www.larepublica.ec/blog/2014/12/14/derrumbe-en-coca-codo-sinclair-deja-victimas-mortales/"
+        },
+        {
+          "label": "El Telégrafo 17 Dec 2014 — Fiscalía inquiry",
+          "url": "https://www.eltelegrafo.com.ec/noticias/informacion-general/220/acciones-emprendidas-por-tragedia-en-coca-codo-sinclair"
+        }
+      ],
       "severity": "major"
     }
   ]
