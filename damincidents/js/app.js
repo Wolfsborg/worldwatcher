@@ -1395,11 +1395,11 @@
     const labelsToggle = document.createElement("div");
     labelsToggle.className = "labels-toggle";
     labelsToggle.setAttribute("role", "group");
-    labelsToggle.setAttribute("aria-label", "Pin labels");
+    labelsToggle.setAttribute("aria-label", "Dam labels");
     const labelsBtn = document.createElement("button");
     labelsBtn.type = "button";
     labelsBtn.id = "labels-toggle-btn";
-    labelsBtn.textContent = "Labels";
+    labelsBtn.textContent = "Dam labels";
     labelsBtn.classList.toggle("is-active", pinNamesEnabled);
     labelsBtn.setAttribute("aria-pressed", pinNamesEnabled ? "true" : "false");
     labelsBtn.addEventListener("click", () => {
