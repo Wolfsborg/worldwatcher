@@ -76,6 +76,12 @@
   if (openBtn) openBtn.addEventListener("click", () => openReport(null));
   if (closeBtn) closeBtn.addEventListener("click", closeReport);
   if (sendBtn) sendBtn.addEventListener("click", send);
+  if (form) {
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      send();
+    });
+  }
   if (detailBtn) {
     detailBtn.addEventListener("click", () => {
       const title = document.getElementById("detail-title");
