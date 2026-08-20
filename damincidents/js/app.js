@@ -870,6 +870,7 @@
     closeDetail();
     closeStats();
     apply();
+    els.list.scrollTop = 0;
     goToLanding();
   }
 
@@ -1148,6 +1149,7 @@
     fillCauseFilter();
     apply();
     if (!keepSelection) {
+      els.list.scrollTop = 0;
       closeDetail();
       goToLanding();
     }
