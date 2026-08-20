@@ -587,10 +587,10 @@
         '<span class="item-date">' + formatDate(inc.incident_date) + "</span>" +
         '<span class="item-name">' + escapeHtml(inc.name) + "</span>" +
         '<span class="item-meta"><span>' + escapeHtml(inc.country) + "</span>" +
-        '<span class="item-cat cat-' + (inc.category || inc.severity || "incident") + '">' +
+        '<span class="item-cat cat-' + escapeHtml(inc.category || inc.severity || "incident") + '">' +
         escapeHtml(layer === "floods"
           ? (FLOOD_TYPE_LABEL[inc.flood_type] || inc.flood_type || "Flood")
-          : (CATEGORY_LABEL[inc.category] || inc.category)) + "</span>" +
+          : (CATEGORY_LABEL[inc.category] || inc.category || "Incident")) + "</span>" +
         (inc.causes && inc.causes[0] ? '<span class="item-cause">' + escapeHtml(CAUSE_LABEL[inc.causes[0]] || inc.causes[0]) + "</span>" : "") +
         (locationUncertain(inc) ? '<span class="item-geo">Location uncertain</span>' : "") +
         deaths + "</span>";
@@ -959,9 +959,12 @@
         ' <button type="button" class="text-btn pin-fix" data-pin-fix="1">Suggest a better pin</button></p>'
       : "";
     const sources = (inc.sources || []).map((s) => {
-      const url = s.url || "";
+      const url = (s.url || "").trim();
       const label = escapeHtml(s.label || url);
       if (!url) return "<li>" + label + "</li>";
+      if (!url.startsWith("http://") && !url.startsWith("https://")) {
+        return "<li>" + label + "</li>";
+      }
       return '<li><a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' + label + "</a></li>";
     }).join("");
     const causeBlock = (inc.causes && inc.causes.length
@@ -988,8 +991,8 @@
       '<div class="badges">' +
         (layer === "floods"
           ? '<span class="badge cat-incident">' + escapeHtml(FLOOD_TYPE_LABEL[inc.flood_type] || inc.flood_type || "Flood") + "</span>"
-          : '<span class="badge cat-' + inc.category + '">' + (CATEGORY_LABEL[inc.category] || inc.category) + "</span>" +
-            '<span class="badge">' + (TYPE_LABEL[inc.type] || inc.type || "") + "</span>") +
+          : '<span class="badge cat-' + escapeHtml(inc.category || "incident") + '">' + escapeHtml(CATEGORY_LABEL[inc.category] || inc.category || "Incident") + "</span>" +
+            '<span class="badge">' + escapeHtml(TYPE_LABEL[inc.type] || inc.type || "") + "</span>") +
         (inc.verification ? '<span class="badge">' + escapeHtml(inc.verification) + "</span>" : "") +
         (inc.severity ? '<span class="badge">' + escapeHtml(SEVERITY_LABEL[inc.severity] || inc.severity) + "</span>" : "") +
       "</div>" + geoNote +

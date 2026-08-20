@@ -31,6 +31,17 @@ class Handler(SimpleHTTPRequestHandler):
         self.wfile.write(body)
 
     def _read_json(self):
+        content_type = self.headers.get("Content-Type", "")
+        if not content_type.startswith("application/json"):
+            raise ValueError("Content-Type must be application/json")
+        
+        origin = self.headers.get("Origin", "")
+        host = self.headers.get("Host", "")
+        if origin and origin not in ("http://127.0.0.1:8080", "http://localhost:8080"):
+            raise ValueError("Origin not allowed")
+        if host and host not in ("127.0.0.1:8080", "localhost:8080"):
+            raise ValueError("Host not allowed")
+        
         length = int(self.headers.get("Content-Length") or 0)
         raw = self.rfile.read(length) if length else b""
         if not raw:
@@ -51,6 +62,8 @@ class Handler(SimpleHTTPRequestHandler):
         path = urlparse(self.path).path
         try:
             body = self._read_json()
+        except ValueError as exc:
+            return self._send_json(400, {"error": str(exc)})
         except json.JSONDecodeError:
             return self._send_json(400, {"error": "invalid json"})
 

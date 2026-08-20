@@ -11,11 +11,11 @@ import json
 import math
 import re
 import shutil
-from datetime import datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 
-TODAY = "2026-08-19"
-SYNC_DIR = Path("/workspace/dam-incidents")
+TODAY = date.today().isoformat()
+SYNC_DIR = Path("/workspace/dam-incidents") if Path("/workspace/dam-incidents").is_dir() else None
 
 NAME_DATE_DAYS = 14
 GEO_DATE_DAYS = 21
@@ -102,7 +102,7 @@ def save_db(path, db):
     csv_path = path.with_suffix(".csv")
     _write_csv(csv_path, incidents)
 
-    if SYNC_DIR.is_dir():
+    if SYNC_DIR and SYNC_DIR.is_dir():
         dest_json = SYNC_DIR / "incidents.json"
         dest_csv = SYNC_DIR / "incidents.csv"
         if path.resolve() != dest_json.resolve():
