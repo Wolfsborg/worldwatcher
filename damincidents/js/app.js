@@ -530,15 +530,44 @@
     updateNameLabels();
   }
 
+  let nameLabelsTimer = null;
+  
   function updateNameLabels() {
+    if (nameLabelsTimer) clearTimeout(nameLabelsTimer);
+    nameLabelsTimer = setTimeout(updateNameLabelsNow, 60);
+  }
+  
+  function updateNameLabelsNow() {
     if (!map) return;
     const zoom = map.getZoom();
     const showLabels = zoom >= 10;
     
+    if (!showLabels) {
+      cluster.eachLayer((m) => {
+        if (m && m.getTooltip()) m.unbindTooltip();
+      });
+      fallbackMarkersById.forEach((m) => {
+        if (m && m.getTooltip()) m.unbindTooltip();
+      });
+      selectedLayer.eachLayer((m) => {
+        if (m && m.getTooltip()) m.unbindTooltip();
+      });
+      return;
+    }
+    
+    const bounds = map.getBounds();
+    if (!bounds) return;
+    const padded = bounds.pad(0.15);
+    
     const processMarker = (m) => {
       if (!m || !m._incidentName) return;
+      const latlng = m.getLatLng();
+      if (!latlng) return;
+      
+      const inView = padded.contains(latlng);
       const hasTooltip = m.getTooltip();
-      if (showLabels && !hasTooltip) {
+      
+      if (inView && !hasTooltip) {
         const r = m._markerRadius || 8;
         m.bindTooltip(m._incidentName, {
           permanent: true,
@@ -547,7 +576,7 @@
           className: "pin-name",
           interactive: false,
         });
-      } else if (!showLabels && hasTooltip) {
+      } else if (!inView && hasTooltip) {
         m.unbindTooltip();
       }
     };
@@ -1203,6 +1232,7 @@
     map.addLayer(cluster);
     map.on("zoomend", updateFallbackMarkers);
     map.on("zoomend", updateNameLabels);
+    map.on("moveend", updateNameLabels);
     const resize = () => { map.invalidateSize(); landingView(); };
     window.addEventListener("resize", resize);
     setTimeout(resize, 80);
