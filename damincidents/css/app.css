@@ -752,6 +752,11 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 .sources { list-style: none; padding: 0; margin: 0; }
 .sources li { margin: 0 0 6px; }
 
+.changelog { list-style: none; padding: 0; margin: 0; }
+.changelog li { margin: 0 0 8px; line-height: 1.5; }
+.changelog-date { color: var(--muted); }
+.changelog-by { color: var(--text); font-weight: 500; }
+
 .sidebar-toggle {
   display: none;
   position: fixed;
@@ -1268,7 +1273,8 @@ input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; marg
 #detail-body,
 .tab-panel,
 .attr-list,
-.sources {
+.sources,
+.changelog {
   max-width: 100%;
   min-width: 0;
   overflow-x: hidden;
@@ -1278,6 +1284,7 @@ input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; marg
 .detail a,
 .sources li,
 .sources a,
+.changelog li,
 .attr-row,
 .attr-row dt,
 .attr-row dd,
