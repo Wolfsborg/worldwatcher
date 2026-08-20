@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 343,
+  "count": 356,
   "events": [
     {
       "id": "flood-assam-2026",
@@ -18997,6 +18997,723 @@
           "date": "2026-08-20",
           "by": "historic_backfill",
           "change": "Added from ReliefWeb: Ethiopia Floods Flash Update #2 (15 Nov 2023)."
+        }
+      ]
+    },
+    {
+      "id": "flood-sarno-1998",
+      "name": "1998 Sarno and Quindici floods",
+      "country": "Italy",
+      "region": "Campania / Salerno–Avellino",
+      "location_label": "Sarno, Campania, Italy",
+      "lat": 40.817,
+      "lng": 14.617,
+      "geo_accuracy": "approx",
+      "geo_source": "Sarno (Wikipedia 40°49′N 14°37′E); 137 of 161 deaths were in this comune",
+      "flood_type": "flash",
+      "river_or_basin": "Pizzo d'Alvano pyroclastic slopes / Sarno",
+      "river_or_facility": null,
+      "incident_date": "1998-05-05",
+      "latest_report_date": "1998-05-06",
+      "what_happened": "On 5–6 May 1998, 240–300 mm of rain in 72 hours sent more than 140 debris flows off Mount Pizzo d'Alvano into Sarno, Siano and Bracigliano (Salerno) and Quindici (Avellino). The dedicated English Wikipedia page, also titled the 1998 Sarno and Quindici floods, records 161 dead (137 Sarno, 11 Quindici, 7 Bracigliano, 5 Siano, 1 San Felice a Cancello), 360 injured and 1,350–3,000 displaced. A midnight flow buried Villa Malta hospital. Italy's worst hydrogeological disaster of the last 50 years after Vajont and Stava (Protezione Civile).",
+      "status": "Historical.",
+      "deaths": 161,
+      "injured": 360,
+      "affected_or_evacuated": "1,350–3,000 displaced (Wikipedia infobox)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "May 1998 Campania cloudburst; pyroclastic debris flows off Pizzo d'Alvano into Sarno and Quindici.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1998 Sarno and Quindici landslides",
+          "url": "https://en.wikipedia.org/wiki/1998_Sarno_and_Quindici_landslides"
+        },
+        {
+          "label": "Protezione Civile: The Sarno and Quindici flood",
+          "url": "https://servizio-nazionale.protezionecivile.gov.it/en/pagina-base/sarno-and-quindici-flood/"
+        }
+      ],
+      "notes": "161 is the event-page municipality table. Protezione Civile says 160 (137 in Sarno). Distinct from flood-messina-2009 and flood-piedmont-1994. Not a dam failure.",
+      "era": "1998",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "240–300 mm in 72 hours (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 1998 Sarno and Quindici landslides."
+        }
+      ]
+    },
+    {
+      "id": "flood-genoa-1970",
+      "name": "1970 Genoa flood",
+      "country": "Italy",
+      "region": "Liguria",
+      "location_label": "Genoa, Liguria, Italy",
+      "lat": 44.4111,
+      "lng": 8.9328,
+      "geo_accuracy": "approx",
+      "geo_source": "Genoa (Wikipedia 44°24′40″N 8°55′58″E); Bisagno / Fereggiano / Leira overflowed the city",
+      "flood_type": "flash",
+      "river_or_basin": "Bisagno / Fereggiano / Leira / Polcevera",
+      "river_or_facility": null,
+      "incident_date": "1970-10-07",
+      "latest_report_date": "1970-10-08",
+      "what_happened": "On 7–8 October 1970 a Ligurian cloudburst dropped 948 mm in 24 hours at Bolzaneto. The Leira killed 13 in Voltri on the evening of the 7th; the Bisagno and Fereggiano then flooded Marassi, Quezzi, Foce and Brignole. Italian Wikipedia infobox: 35 dead, 8 missing, at least 100 injured, more than 2,000 displaced. The medieval Sant'Agata bridge on the Bisagno lost two arches. Worst Genoa flood of the 20th century; later 2011 and 2014 pulses live under flood-europe-2011 / later Liguria pages and are not merged here.",
+      "status": "Historical.",
+      "deaths": 35,
+      "injured": 100,
+      "affected_or_evacuated": "More than 2,000 displaced (it Wikipedia infobox)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "7–8 October 1970 Ligurian cloudburst; Bisagno, Fereggiano and Leira flash flood.",
+      "sources": [
+        {
+          "label": "Wikipedia (it): Alluvione di Genova del 7 ottobre 1970",
+          "url": "https://it.wikipedia.org/wiki/Alluvione_di_Genova_del_7_ottobre_1970"
+        }
+      ],
+      "notes": "35 confirmed dead on the it infobox; 8 missing stay in notes (43 victims in some press). Vigili del Fuoco also cite 35+8. Distinct from flood-europe-2011 (Genoa 2011) and flood-florence-1966.",
+      "era": "1970",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "948 mm in 24 h at Bolzaneto (it Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Italian Wikipedia: Alluvione di Genova del 7 ottobre 1970."
+        }
+      ]
+    },
+    {
+      "id": "flood-valtellina-1987",
+      "name": "1987 Valtellina flood",
+      "country": "Italy",
+      "region": "Lombardy / Sondrio",
+      "location_label": "Val Pola, Valdisotto, Sondrio, Italy",
+      "lat": 46.379,
+      "lng": 10.34,
+      "geo_accuracy": "approx",
+      "geo_source": "Val Pola landslide coordinates on the it event page (46°22′44.4″N 10°20′24″E)",
+      "flood_type": "flash",
+      "river_or_basin": "Adda / Tartano / Mallero",
+      "river_or_facility": null,
+      "incident_date": "1987-07-18",
+      "latest_report_date": "1987-07-28",
+      "what_happened": "From 18–28 July 1987 rain and glacier melt flooded Valtellina. On 18 July a debris flow cut the La Quiete condominium at Tartano (21 dead including 11 tourists) and the Adda broke its bank at Berbenno. On 28 July the Val Pola rock avalanche destroyed Sant'Antonio Morignone and Aquilone and dammed the Adda; the lake was later drained by controlled overtopping and bypass tunnels (the dam did not fail). Italian Wikipedia infobox: 53 dead, 200+ injured, 1,500–3,000 displaced, about 4,000 billion lire damage. EN page is Val Pola landslide; the named flood article is the it page.",
+      "status": "Historical.",
+      "deaths": 53,
+      "injured": 200,
+      "affected_or_evacuated": "1,500–3,000 displaced (it Wikipedia infobox)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "July 1987 Alpine rain and melt; Tartano debris flow and Val Pola avalanche that dammed the Adda (dam did not collapse).",
+      "sources": [
+        {
+          "label": "Wikipedia (it): Alluvione della Valtellina del 1987",
+          "url": "https://it.wikipedia.org/wiki/Alluvione_della_Valtellina_del_1987"
+        },
+        {
+          "label": "Wikipedia: Val Pola landslide",
+          "url": "https://en.wikipedia.org/wiki/Val_Pola_landslide"
+        }
+      ],
+      "notes": "53 is the it flood-page infobox (whole 18–28 July sequence). Val Pola avalanche itself killed 27–35 of those. Landslide dam on the Adda was drained; not a structural dam failure. Distinct from Vajont / Val di Stava (incidents.json).",
+      "era": "1987",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "More than 600 mm mid-July (Costa 1991, cited on EN Val Pola page)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About 4,000 billion lire / €400 million (it / EN pages)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Italian Wikipedia: Alluvione della Valtellina del 1987."
+        }
+      ]
+    },
+    {
+      "id": "flood-japan-1972",
+      "name": "1972 July Japan heavy rain (Shōwa 47)",
+      "country": "Japan",
+      "region": "Kyushu / Shikoku / Chūgoku / Tōkai",
+      "location_label": "Kami-Amakusa (Himedo), Kumamoto, Japan",
+      "lat": 32.5875,
+      "lng": 130.43056,
+      "geo_accuracy": "approx",
+      "geo_source": "Kami-Amakusa (Wikipedia 32°35′15″N 130°25′50″E); Himedo on Amakusa was the deadliest cluster (122 dead)",
+      "flood_type": "riverine",
+      "river_or_basin": "Amakusa slopes / Shimanto / Gōnokawa / Yahagi",
+      "river_or_facility": null,
+      "incident_date": "1972-07-03",
+      "latest_report_date": "1972-07",
+      "what_happened": "JMA named the 3–13 July 1972 Baiu-front rains 昭和47年7月豪雨. A Fire and Disaster Management Agency white paper on the ja infobox records 421 dead, 26 missing, 1,056 injured, 2,977 houses destroyed and 55,537 above-floor flooded. Worst clusters: Amakusa/Himedo landslide (about 122 dead) and Tosayamada/Shigeto, Kōchi (about 60). Later pulses hit Shimane (Shinji Lake dike), Hiroshima/Okayama and Aichi–Gifu. Designated a severe disaster.",
+      "status": "Historical.",
+      "deaths": 421,
+      "injured": 1056,
+      "affected_or_evacuated": "2,977 houses destroyed; 55,537 above-floor flooded (Fire White Paper / ja infobox)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "July 1972 Baiu-front gouu named by JMA; Amakusa and Tosa-Yamada the deadliest clusters.",
+      "sources": [
+        {
+          "label": "Wikipedia (ja): 昭和47年7月豪雨",
+          "url": "https://ja.wikipedia.org/wiki/%E6%98%AD%E5%92%8C47%E5%B9%B47%E6%9C%88%E8%B1%AA%E9%9B%A8"
+        },
+        {
+          "label": "JMA: 昭和47年7月豪雨",
+          "url": "https://www.data.jma.go.jp/stats/data/bosai/report/1972/19720703/19720703.html"
+        }
+      ],
+      "notes": "421 dead / 26 missing on the ja infobox (Fire White Paper). JMA page same 421/26. Early police table 396/44 stays in notes. Distinct from flood-nagasaki-1982 and flood-japan-2018.",
+      "era": "1972",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Kyushu/Shikoku 500–800 mm 3–6 July; some mountains ~1,000 mm 10–13 July (ja page)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Japanese Wikipedia / JMA: 昭和47年7月豪雨."
+        }
+      ]
+    },
+    {
+      "id": "flood-japan-1983",
+      "name": "1983 July Japan heavy rain (Shōwa 58 / Hamada)",
+      "country": "Japan",
+      "region": "San'in / Shimane",
+      "location_label": "Hamada, Shimane, Japan",
+      "lat": 34.9,
+      "lng": 132.08333,
+      "geo_accuracy": "approx",
+      "geo_source": "Hamada (Wikipedia 34°54′N 132°05′E); rain centre 521.5 mm / 91 mm/h; 103 of 112 deaths in Shimane",
+      "flood_type": "flash",
+      "river_or_basin": "Masuda / Hamada coastal streams / Gōnokawa",
+      "river_or_facility": null,
+      "incident_date": "1983-07-20",
+      "latest_report_date": "1983-07-23",
+      "what_happened": "JMA named the 20–23 July 1983 Baiu rains 昭和58年7月豪雨. A Fire White Paper on the ja infobox records 112 dead, 5 missing, 193 injured, 1,098 houses destroyed. About 103 of the dead were in western Shimane (Hamada, Misumi, Masuda); 91 of Shimane's dead/missing were in landslides. Hamada recorded 521.5 mm total and 91 mm/h. Iwami rivers overflowed; the Masuda flood was on the Masuda River, not the Takatsu. Worst postwar flood for western Shimane; Nagasaki 1982 was the previous year's analogue and is already on file.",
+      "status": "Historical.",
+      "deaths": 112,
+      "injured": 193,
+      "affected_or_evacuated": "1,098 houses destroyed; 7,484 above-floor flooded (ja infobox)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "July 1983 Baiu-front gouu on western Shimane, centred on Hamada.",
+      "sources": [
+        {
+          "label": "Wikipedia (ja): 昭和58年7月豪雨",
+          "url": "https://ja.wikipedia.org/wiki/%E6%98%AD%E5%92%8C58%E5%B9%B47%E6%9C%88%E8%B1%AA%E9%9B%A8"
+        }
+      ],
+      "notes": "112 dead / 5 missing on the ja infobox (Fire White Paper). NIED Chūgoku table 109/4 stays in notes. Distinct from flood-nagasaki-1982 and flood-japan-1972.",
+      "era": "1983",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Hamada 521.5 mm total; 91.0 mm/h; 331.5 mm/day (ja infobox)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Japanese Wikipedia: 昭和58年7月豪雨."
+        }
+      ]
+    },
+    {
+      "id": "flood-kagoshima-1993",
+      "name": "1993 August Kagoshima heavy rain (8.1 / 8.6)",
+      "country": "Japan",
+      "region": "Kagoshima / Kyushu",
+      "location_label": "Kagoshima, Japan",
+      "lat": 31.59694,
+      "lng": 130.55722,
+      "geo_accuracy": "approx",
+      "geo_source": "Kagoshima (Wikipedia 31°35′49″N 130°33′26″E); 8.6 pulse killed 48 in the city",
+      "flood_type": "flash",
+      "river_or_basin": "Kōtsuki / Aira slopes / Ryūgamizu",
+      "river_or_facility": null,
+      "incident_date": "1993-08-01",
+      "latest_report_date": "1993-08-06",
+      "what_happened": "JMA named the 1 and 6 August 1993 Kagoshima cloudbursts 平成5年8月豪雨 (8.1 and 8.6). NIED 1995 on the ja infobox: 71 dead, 142 injured, 437 houses destroyed, 9,118 above-floor flooded (8.1+8.6 combined). 8.1 killed 23 in Aira; 8.6 killed 48 in Kagoshima city (Kōtsuki overflow, Hanakura hospital landslide 15 dead, Ryūgamizu station debris flows that trapped about 2,500). Mizobe 450 mm/day; Koriyama 99.5 mm/h.",
+      "status": "Historical.",
+      "deaths": 71,
+      "injured": 142,
+      "affected_or_evacuated": "437 houses destroyed; 9,118 above-floor flooded (NIED / ja infobox)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "August 1993 Kagoshima 8.1/8.6 gouu named by JMA.",
+      "sources": [
+        {
+          "label": "Wikipedia (ja): 平成5年8月豪雨",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E6%88%905%E5%B9%B48%E6%9C%88%E8%B1%AA%E9%9B%A8"
+        }
+      ],
+      "notes": "71 is the NIED combined 8.1+8.6 figure on the ja infobox. 8.6 city pulse 48+1 missing in the body. Distinct from flood-kyushu-1953 and flood-kyushu-2017.",
+      "era": "1993",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Mizobe 450 mm/day (8.1); Koriyama 99.5 mm/h (8.6)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Japanese Wikipedia: 平成5年8月豪雨."
+        }
+      ]
+    },
+    {
+      "id": "flood-chugoku-kyushu-2009",
+      "name": "2009 Chūgoku–northern Kyushu heavy rain",
+      "country": "Japan",
+      "region": "Yamaguchi / Fukuoka / northern Kyushu",
+      "location_label": "Hōfu, Yamaguchi, Japan",
+      "lat": 34.05056,
+      "lng": 131.56278,
+      "geo_accuracy": "approx",
+      "geo_source": "Hōfu (Wikipedia 34°03′02″N 131°33′46″E); 17 of 36 deaths were in Yamaguchi, many in Hōfu debris flows",
+      "flood_type": "flash",
+      "river_or_basin": "Saba / Tsurugi / northern Kyushu rivers",
+      "river_or_facility": null,
+      "incident_date": "2009-07-19",
+      "latest_report_date": "2009-07-26",
+      "what_happened": "JMA named the 19–26 July 2009 rains 平成21年7月中国・九州北部豪雨. Ja infobox (JMA): 36 dead, 59 injured, 52 houses destroyed, 2,139 above-floor flooded. Yamaguchi (Hōfu nursing-home debris flow and Tsurugawa) had 17 dead; Fukuoka, Nagasaki and Ōita had the rest. Fukuoka Airport recorded 114 mm in one hour; Hita 702 mm in eight days. Designated a severe disaster for farm damage.",
+      "status": "Historical.",
+      "deaths": 36,
+      "injured": 59,
+      "affected_or_evacuated": "52 houses destroyed; 2,139 above-floor flooded (JMA / ja infobox)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "July 2009 Baiu-front gouu on Chūgoku and northern Kyushu, named by JMA.",
+      "sources": [
+        {
+          "label": "Wikipedia (ja): 平成21年7月中国・九州北部豪雨",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E6%88%9021%E5%B9%B47%E6%9C%88%E4%B8%AD%E5%9B%BD%E3%83%BB%E4%B9%9D%E5%B7%9E%E5%8C%97%E9%83%A8%E8%B1%AA%E9%9B%A8"
+        }
+      ],
+      "notes": "36 dead on the JMA/ja infobox. Distinct from flood-kyushu-2012 (not on file as that year), flood-kyushu-2017 and flood-japan-2018. Minamihata Dam spill scare was operational, not a collapse.",
+      "era": "2009",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Fukuoka Airport 114 mm/h; Hita 702 mm in 8 days (ja page)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Japanese Wikipedia: 平成21年7月中国・九州北部豪雨."
+        }
+      ]
+    },
+    {
+      "id": "flood-romania-2010",
+      "name": "2010 Romanian floods",
+      "country": "Romania",
+      "region": "Suceava / Botoșani / Siret–Danube",
+      "location_label": "Dorohoi, Botoșani, Romania",
+      "lat": 47.95,
+      "lng": 26.4,
+      "geo_accuracy": "approx",
+      "geo_source": "Dorohoi (Wikipedia 47°57′N 26°24′E); six of the first deaths were in this town on 28–29 June",
+      "flood_type": "riverine",
+      "river_or_basin": "Siret / Prut / Danube",
+      "river_or_facility": null,
+      "incident_date": "2010-06-28",
+      "latest_report_date": "2010-07-06",
+      "what_happened": "Late-June 2010 rains flooded north-east Romania, especially Suceava and Botoșani, then the Siret and Danube at Galați. The dedicated English Wikipedia page infobox: at least 23 deaths, €65 million damage by 6 July, 12,237 people affected. Body text cites 21 dead and 3 missing in Romania; six died in Dorohoi when water rose just over a metre. Ukraine's Chernivtsi oblast was also hit (1 dead). Distinct from flood-central-europe-2010 (May–June Poland, 37 dead).",
+      "status": "Historical.",
+      "deaths": 23,
+      "injured": null,
+      "affected_or_evacuated": "12,237 affected; hundreds evacuated in Suceava and Botoșani (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Late-June 2010 Siret–Prut floods in north-east Romania.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2010 Romanian floods",
+          "url": "https://en.wikipedia.org/wiki/2010_Romanian_floods"
+        }
+      ],
+      "notes": "23 is the dedicated-page infobox. Lead/body 21+3 missing. Distinct from flood-central-europe-2010 and flood-romania-1970.",
+      "era": "2010",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "Danube at Galați 16,055 m³/s on 5 July (Wikipedia)",
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "€65 million by 6 July (Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2010 Romanian floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-ghardaia-2008",
+      "name": "2008 Ghardaïa floods",
+      "country": "Algeria",
+      "region": "M'zab / Ghardaïa",
+      "location_label": "Ghardaïa, Algeria",
+      "lat": 32.4833,
+      "lng": 3.6667,
+      "geo_accuracy": "approx",
+      "geo_source": "Ghardaïa (Wikipedia 32°29′N 3°40′E); Oued M'zab overflowed the oasis town",
+      "flood_type": "flash",
+      "river_or_basin": "Oued M'zab",
+      "river_or_facility": null,
+      "incident_date": "2008-10-02",
+      "latest_report_date": "2008-10-11",
+      "what_happened": "On 2 October 2008 heavy rain sent the Oued M'zab over its banks in and around the Algerian oasis of Ghardaïa. ReliefWeb disaster FF-2008-000178-DZA and the IFRC emergency appeal: 89 dead, 50 injured, 11,800 families affected, eight of 13 daïras in a state of emergency. Mud reached 8 m in places; more than 1,400 traditional stone-and-mud houses were flooded. Worst floods in the M'zab in decades. Distinct from flood-bab-el-oued-2001.",
+      "status": "Historical.",
+      "deaths": 89,
+      "injured": 50,
+      "affected_or_evacuated": "11,800 families affected / left homeless (IFRC 11 Oct 2008)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "2 October 2008 Oued M'zab flash flood at Ghardaïa.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Algeria Flash Floods - Oct 2008",
+          "url": "https://reliefweb.int/disaster/ff-2008-000178-dza"
+        },
+        {
+          "label": "ReliefWeb: IFRC Emergency Appeal MDRDZ001",
+          "url": "https://reliefweb.int/report/algeria/algeria-floods-ghardaia-emergency-appeal-no-mdrdz001"
+        }
+      ],
+      "notes": "89 is the IFRC/ReliefWeb figure from the 11 October coordination cell. No EN Wikipedia event page; ReliefWeb disaster + appeal are enough. Distinct Maghreb event from flood-bab-el-oued-2001 and flood-morocco-2014.",
+      "era": "2008",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb: Algeria Flash Floods Oct 2008 / IFRC MDRDZ001."
+        }
+      ]
+    },
+    {
+      "id": "flood-niger-2019",
+      "name": "2019 Niger floods",
+      "country": "Niger",
+      "region": "Maradi / Zinder / Agadez / Niger basin",
+      "location_label": "Maradi, Niger",
+      "lat": 13.49167,
+      "lng": 7.09639,
+      "geo_accuracy": "region",
+      "geo_source": "Maradi (Wikipedia 13°29′30″N 7°05′47″E); OCHA said Maradi, Zinder and Agadez held 67% of the affected",
+      "flood_type": "riverine",
+      "river_or_basin": "Niger River / southern wadis",
+      "river_or_facility": null,
+      "incident_date": "2019-08",
+      "latest_report_date": "2019-09-26",
+      "what_happened": "Rains from June 2019 flooded several localities; the Niger basin reached flood stage in late August. ReliefWeb disaster FL-2019-000101-NER: OCHA 3 September cited 42 dead, 5,497 homes destroyed, 66,464 affected. OCHA 26 September: more than 211,000 affected, 57 dead, 16,375 houses destroyed. Using the dated 26 September 57. Distinct from flood-niger-2021. Not the dam-mixed 2024–25 West Africa / Nigeria season.",
+      "status": "Historical.",
+      "deaths": 57,
+      "injured": null,
+      "affected_or_evacuated": "More than 211,000 affected; 16,375 houses destroyed (OCHA 26 Sep 2019)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "2019 Niger-basin and southern-wadi floods; Maradi–Zinder–Agadez heaviest.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Niger Floods - Aug 2019",
+          "url": "https://reliefweb.int/disaster/fl-2019-000101-ner"
+        }
+      ],
+      "notes": "57 is OCHA 26 Sep 2019 on the ReliefWeb disaster page. Earlier OCHA 3 Sep 42 stays in notes. Distinct from flood-niger-2021 and flood-nigeria-2012. No dam collapse on the sitrep.",
+      "era": "2019",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb: Niger Floods Aug 2019 / OCHA 26 Sep 57."
+        }
+      ]
+    },
+    {
+      "id": "flood-chad-2024",
+      "name": "2024 Chad floods",
+      "country": "Chad",
+      "region": "Lac / Mandoul / Moyen-Chari / Tandjilé / N'Djamena",
+      "location_label": "Bol, Lac Province, Chad",
+      "lat": 13.4583,
+      "lng": 14.7333,
+      "geo_accuracy": "region",
+      "geo_source": "Bol (Wikipedia 13°27′N 14°44′E); Lac was the worst-hit province (277,409 people, OCHA 15 Oct)",
+      "flood_type": "riverine",
+      "river_or_basin": "Chari / Logone / Lake Chad",
+      "river_or_facility": null,
+      "incident_date": "2024-07",
+      "latest_report_date": "2024-10-15",
+      "what_happened": "From late July 2024, rains flooded all 23 provinces of Chad. OCHA Situation Report No. 4 (15 October): 1,941,869 people / 342,471 households affected, 576 dead. Worst-hit provinces: Lac (277,409 people), Mandoul (267,408), Moyen-Chari (245,531), Tandjilé (226,535), Mayo-Kebbi Est (218,238), Batha (172,750). About 217,000 houses destroyed, 432,000 ha of fields lost, 72,000 livestock drowned. Chari at N'Djamena later exceeded the 2022 crest. Distinct from flood-chad-2022.",
+      "status": "Historical.",
+      "deaths": 576,
+      "injured": null,
+      "affected_or_evacuated": "1,941,869 people / 342,471 households (OCHA 15 Oct 2024)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "July–October 2024 nationwide Chad rains and Chari–Logone riverine flood.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Tchad inondations sitrep n°04, 15 October 2024",
+          "url": "https://reliefweb.int/report/chad/tchad-situation-des-inondations-rapport-de-situation-ndeg-04-15102024"
+        }
+      ],
+      "notes": "576 is OCHA sitrep 4 (15 Oct 2024), same figure on UNICEF flash update 25 Oct. Distinct from flood-chad-2022. No dam collapse on the sitrep.",
+      "era": "2024",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "432,000 ha of fields destroyed (OCHA 15 Oct)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb: Tchad inondations sitrep n°04 (15 Oct 2024)."
+        }
+      ]
+    },
+    {
+      "id": "flood-la-paz-2002",
+      "name": "2002 La Paz floods",
+      "country": "Bolivia",
+      "region": "La Paz",
+      "location_label": "La Paz, Bolivia",
+      "lat": -16.5,
+      "lng": -68.15,
+      "geo_accuracy": "approx",
+      "geo_source": "La Paz (Wikipedia 16°30′S 68°09′W); Choqueyapu and Honda Street were the flood axis",
+      "flood_type": "flash",
+      "river_or_basin": "Choqueyapu",
+      "river_or_facility": null,
+      "incident_date": "2002-02-19",
+      "latest_report_date": "2002-02-21",
+      "what_happened": "On 19 February 2002 a 90-minute hailstorm (about 40 cm of hail on Honda Street) collapsed the Choqueyapu sewer-channel and sent torrents through downtown and south La Paz. The dedicated English Wikipedia page records at least 69 deaths and 150 treated in hospitals; 200 families left their houses; about US$60 million damage. BBC on 21 February had said 50. UN emergency team deployed. Andes leftover with a dedicated event page.",
+      "status": "Historical.",
+      "deaths": 69,
+      "injured": 150,
+      "affected_or_evacuated": "200 families left their houses (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "19 February 2002 La Paz hailstorm; Choqueyapu channel collapse and urban flash flood.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2002 La Paz floods",
+          "url": "https://en.wikipedia.org/wiki/2002_La_Paz_floods"
+        },
+        {
+          "label": "BBC: Fifty dead in shock Bolivian flood",
+          "url": "https://news.bbc.co.uk/2/hi/americas/1833175.stm"
+        }
+      ],
+      "notes": "69 is the dedicated-page final figure. BBC 50 on 21 Feb stays in notes. Distinct from flood-bolivia-2025. Not a dam failure.",
+      "era": "2002",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "About 40 cm of hail on Honda Street (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About US$60 million (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2002 La Paz floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-bolivia-2025",
+      "name": "2025 Bolivia floods",
+      "country": "Bolivia",
+      "region": "Beni / La Paz / Santa Cruz / Cochabamba",
+      "location_label": "Trinidad, Beni, Bolivia",
+      "lat": -14.82917,
+      "lng": -64.90139,
+      "geo_accuracy": "region",
+      "geo_source": "Trinidad (Wikipedia 14°49′45″S 64°54′5″W); Reuters 8 Apr filed from Beni; IFRC DREF names Beni among the worst-hit departments",
+      "flood_type": "riverine",
+      "river_or_basin": "Mamoré / Amazon lowlands / Andean valleys",
+      "river_or_facility": null,
+      "incident_date": "2025-03",
+      "latest_report_date": "2025-04-25",
+      "what_happened": "The 2024–25 Bolivian rainy season flooded all nine departments. President Arce declared a national emergency on 26 March 2025. Dedicated English Wikipedia infobox: more than 55 dead; about 593,023 families affected by late April. Reuters 8 April (Beni): at least 55 dead, 590,000 families hit; Puerto Almacén and Puerto Ballivián emptied. IFRC DREF MDRBO018 (25 April) repeats 55 dead, 8 missing, 1,208 houses destroyed. Using the dated 55. Distinct from flood-la-paz-2002.",
+      "status": "Historical.",
+      "deaths": 55,
+      "injured": null,
+      "affected_or_evacuated": "593,023 families affected; more than 100,000 displaced (Wikipedia / IFRC 25 Apr 2025)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "2024–25 Bolivian rainy-season riverine floods, worst in Beni, La Paz, Santa Cruz and Cochabamba.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2025 Bolivia floods",
+          "url": "https://en.wikipedia.org/wiki/2025_Bolivia_floods"
+        },
+        {
+          "label": "ReliefWeb: Bolivia Heavy Rains and Floods - Mar 2025",
+          "url": "https://reliefweb.int/disaster/fl-2025-000038-bol"
+        },
+        {
+          "label": "Reuters: Bolivia declares emergency after floods kill over 50",
+          "url": "https://www.reuters.com/world/americas/bolivia-declares-emergency-after-floods-kill-over-50-2025-03-26/"
+        }
+      ],
+      "notes": "55 is the IFRC DREF / Reuters April figure used on the dedicated Wikipedia page. Infobox writes >55. Distinct from flood-la-paz-2002. No dam collapse on the sitreps.",
+      "era": "2025",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia / ReliefWeb: 2025 Bolivia floods."
         }
       ]
     }
