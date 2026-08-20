@@ -296,8 +296,12 @@
   }
 
   function markerRadius(deaths) {
-    if (deaths == null || deaths === 0) return 8;
-    return Math.min(26, 8 + Math.log10(deaths + 1) * 5.2);
+    const isMobile = window.matchMedia("(max-width: 980px)").matches;
+    if (deaths == null || deaths === 0) return isMobile ? 6 : 8;
+    const base = isMobile ? 6 : 8;
+    const max = isMobile ? 16 : 26;
+    const scale = isMobile ? 3.64 : 5.2;
+    return Math.min(max, base + Math.log10(deaths + 1) * scale);
   }
 
   function activeCategories() {
@@ -1537,15 +1541,38 @@
     map.getPane("fallbackPane").style.zIndex = 655;
     selectedLayer = L.layerGroup().addTo(map);
     fallbackLayer = L.layerGroup().addTo(map);
-    cluster = L.markerClusterGroup({
-      maxClusterRadius: 42,
-      showCoverageOnHover: false,
-      spiderfyOnMaxZoom: true,
-      disableClusteringAtZoom: 8,
-      animate: false,
-      removeOutsideVisibleBounds: false,
-    });
+    
+    function createClusterGroup() {
+      const isMobile = window.matchMedia("(max-width: 980px)").matches;
+      return L.markerClusterGroup({
+        maxClusterRadius: isMobile ? 90 : 42,
+        showCoverageOnHover: false,
+        spiderfyOnMaxZoom: true,
+        disableClusteringAtZoom: isMobile ? 10 : 8,
+        animate: false,
+        removeOutsideVisibleBounds: false,
+      });
+    }
+    
+    cluster = createClusterGroup();
     map.addLayer(cluster);
+    
+    let resizeTimer = null;
+    window.addEventListener("resize", function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function() {
+        const wasMobile = cluster.options.maxClusterRadius === 90;
+        const isMobile = window.matchMedia("(max-width: 980px)").matches;
+        if (wasMobile !== isMobile) {
+          const oldCluster = cluster;
+          cluster = createClusterGroup();
+          map.removeLayer(oldCluster);
+          map.addLayer(cluster);
+          const rows = filtered();
+          rebuildMarkers(rows);
+        }
+      }, 250);
+    });
     map.on("zoomend", updateFallbackMarkers);
     map.on("zoomend", updateNameLabels);
     map.on("moveend", updateNameLabels);
