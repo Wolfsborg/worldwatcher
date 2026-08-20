@@ -1408,6 +1408,7 @@
     if (!container) return;
     
     let baseMode = "auto";
+    let lastAerialState = null;
     
     const style = {
       version: 8,
@@ -1475,6 +1476,20 @@
     globeMap.on("load", function () {
       globeMap.setProjection({ type: "globe" });
       
+      const canvas = document.createElement("canvas");
+      canvas.width = 32;
+      canvas.height = 32;
+      const ctx = canvas.getContext("2d");
+      ctx.fillStyle = "#ffffff";
+      ctx.strokeStyle = "rgba(243, 239, 230, 0.85)";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.arc(16, 16, 13, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+      
+      globeMap.addImage("pin-dot", canvas, { sdf: true });
+      
       globeMap.addSource("incidents", {
         type: "geojson",
         data: { type: "FeatureCollection", features: [] },
@@ -1483,25 +1498,21 @@
       
       globeMap.addLayer({
         id: "incident-circles",
-        type: "circle",
+        type: "symbol",
         source: "incidents",
         minzoom: 0,
         maxzoom: 24,
+        layout: {
+          "icon-image": "pin-dot",
+          "icon-size": 0.45,
+          "icon-allow-overlap": true,
+          "icon-ignore-placement": true,
+          "icon-pitch-alignment": "viewport",
+          "icon-rotation-alignment": "viewport"
+        },
         paint: {
-          "circle-radius": [
-            "interpolate", ["linear"], ["zoom"],
-            0, 2.5,
-            2, 3,
-            5, 4,
-            8, ["coalesce", ["to-number", ["get", "radius"]], 6],
-            14, ["coalesce", ["to-number", ["get", "radius"]], 6]
-          ],
-          "circle-color": ["get", "color"],
-          "circle-opacity": ["get", "opacity"],
-          "circle-stroke-width": 1.5,
-          "circle-stroke-color": "rgba(243, 239, 230, 0.85)",
-          "circle-pitch-alignment": "viewport",
-          "circle-pitch-scale": "viewport"
+          "icon-color": ["get", "color"],
+          "icon-opacity": ["get", "opacity"]
         }
       });
       
@@ -1540,22 +1551,26 @@
         globeMap.getCanvas().style.cursor = "";
       });
       
-      globeMap.on("zoom", function () {
+      globeMap.on("zoomend", function () {
         const zoom = globeMap.getZoom();
         const showLabels = zoom >= 10 && pinNamesEnabled;
         globeMap.setLayoutProperty("incident-labels", "visibility", showLabels ? "visible" : "none");
         
         if (baseMode === "auto") {
           const aerialOn = zoom >= 8;
-          globeMap.setLayoutProperty("carto-dark-layer", "visibility", aerialOn ? "none" : "visible");
-          globeMap.setLayoutProperty("esri-aerial-layer", "visibility", aerialOn ? "visible" : "none");
-          globeMap.setLayoutProperty("esri-labels-layer", "visibility", aerialOn ? "visible" : "none");
-          
-          if (globeMap.getLayer("incident-circles")) {
-            globeMap.moveLayer("incident-circles");
-          }
-          if (globeMap.getLayer("incident-labels")) {
-            globeMap.moveLayer("incident-labels");
+          if (lastAerialState !== aerialOn) {
+            globeMap.setLayoutProperty("carto-dark-layer", "visibility", aerialOn ? "none" : "visible");
+            globeMap.setLayoutProperty("esri-aerial-layer", "visibility", aerialOn ? "visible" : "none");
+            globeMap.setLayoutProperty("esri-labels-layer", "visibility", aerialOn ? "visible" : "none");
+            
+            if (globeMap.getLayer("incident-circles")) {
+              globeMap.moveLayer("incident-circles");
+            }
+            if (globeMap.getLayer("incident-labels")) {
+              globeMap.moveLayer("incident-labels");
+            }
+            
+            lastAerialState = aerialOn;
           }
         }
       });
@@ -1566,6 +1581,9 @@
       } else {
         console.log("MapLibre globe projection confirmed");
       }
+      
+      const zoom = globeMap.getZoom();
+      lastAerialState = baseMode === "auto" ? zoom >= 8 : (baseMode === "aerial");
       
       if (globeMap.getLayer("incident-circles")) {
         globeMap.moveLayer("incident-circles");
@@ -1584,15 +1602,18 @@
         globeMap.setLayoutProperty("carto-dark-layer", "visibility", "none");
         globeMap.setLayoutProperty("esri-aerial-layer", "visibility", "visible");
         globeMap.setLayoutProperty("esri-labels-layer", "visibility", "visible");
+        lastAerialState = true;
       } else if (mode === "map") {
         globeMap.setLayoutProperty("carto-dark-layer", "visibility", "visible");
         globeMap.setLayoutProperty("esri-aerial-layer", "visibility", "none");
         globeMap.setLayoutProperty("esri-labels-layer", "visibility", "none");
+        lastAerialState = false;
       } else {
         const aerialOn = zoom >= 8;
         globeMap.setLayoutProperty("carto-dark-layer", "visibility", aerialOn ? "none" : "visible");
         globeMap.setLayoutProperty("esri-aerial-layer", "visibility", aerialOn ? "visible" : "none");
         globeMap.setLayoutProperty("esri-labels-layer", "visibility", aerialOn ? "visible" : "none");
+        lastAerialState = aerialOn;
       }
       
       if (globeMap.getLayer("incident-circles")) {
