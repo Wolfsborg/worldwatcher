@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 669,
-  "current_count": 22,
-  "historical_count": 647,
+  "count": 689,
+  "current_count": 24,
+  "historical_count": 665,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -36419,6 +36419,1160 @@
         {
           "label": "ASDSO incident WA00320-2267",
           "url": "https://damsafety.org/incidents/wa00320-2267"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 14 for this dam (UTAS/AIDR). AIDR's 22 is the wider April 1929 northern Tasmania flood, not copied onto this record. Pin is the 1936 replacement at the same site (ExplorOz / same-site rebuild).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Briseis Tin and General Mining Co. Ltd.",
+      "year_built": "1920s (failed 1929); replacement 1936",
+      "height_m": 27,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "briseis-cascade-1929-04-04",
+      "name": "Briseis / Cascade Dam (Derby)",
+      "country": "Australia",
+      "region": "Derby, north-east Tasmania",
+      "location_label": "Cascade River above Derby, Tasmania",
+      "lat": -41.17442,
+      "lng": 147.82444,
+      "geo_accuracy": "site",
+      "geo_source": "ExplorOz Cascade Dam TAS −41.17442, 147.82444 (1936 replacement at the same Cascade River site; geomechanics.org.au Decked Rockfill Dams in Tasmania: rebuilt at the same site)",
+      "river_or_facility": "Briseis / Cascade Dam, Cascade River (Briseis Tin and General Mining Co.)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "UTAS Companion / geomechanics paper: after 450 mm in two days and 125 mm in 1.5 hours on the catchment, water over the crest (~1.14–1.8 m) and the rockfill-concrete dam burst about 16:30 on 4 April 1929.",
+      "incident_date": "1929-04-04",
+      "latest_report_date": "2006",
+      "what_happened": "On 4 April 1929 the Briseis Dam on the Cascade River above Derby, Tasmania — built to supply water for hydraulic tin mining — failed after unprecedented rain. The UTAS Companion to Tasmanian History: 450 mm in the previous two days, then 125 mm in 1.5 hours on the catchment; the dam burst and a wall of water engulfed houses and the Briseis Mine workings. Fourteen people were killed (UTAS Companion; AIDR: 14 of 22 regional flood deaths were at this dam). The geomechanics paper records a witness at about 16:30 and notes the 1936 Cascade Dam replacement was built at the same site.",
+      "status": "Failed 4 April 1929. Replacement Cascade Dam (1936) still operating.",
+      "deaths": 14,
+      "sources": [
+        {
+          "label": "UTAS Companion to Tasmanian History — Briseis Dam Disaster (14 lives)",
+          "url": "https://www.utas.edu.au/library/companion_to_tasmanian_history/B/Briseis%20Dam%20Disaster.htm"
+        },
+        {
+          "label": "AIDR — Tasmania Flood 1929 (14 at Briseis Dam; 22 in the wider floods)",
+          "url": "https://knowledge.aidr.org.au/resources/flood-tasmania-1929/"
+        },
+        {
+          "label": "Decked Rockfill Dams in Tasmania — Briseis failure and same-site 1936 rebuild",
+          "url": "https://geomechanics.org.au/wp-content/uploads/2023/02/37_4_3.pdf"
+        },
+        {
+          "label": "Wikipedia — Cascade River (Tasmania)",
+          "url": "https://en.wikipedia.org/wiki/Cascade_River_(Tasmania)"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: no source gave a fatality count for the 1929 slump. Pin is today's enlarged dam at the same site.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "State Rivers and Water Supply Commission of Victoria (then)",
+      "year_built": "1915–1929 (original); enlarged 1951–1955",
+      "height_m": 42,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "eildon-subsidence-1929-04-26",
+      "name": "Eildon (Sugarloaf) Dam upstream-face subsidence",
+      "country": "Australia",
+      "region": "Lake Eildon, Victorian Alps, Victoria",
+      "location_label": "Eildon Dam, Goulburn River, Victoria",
+      "lat": -37.22222,
+      "lng": 145.92583,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Eildon Dam −37.22222, 145.92583 (1955 enlargement at the same site)",
+      "river_or_facility": "Eildon / Sugarloaf Reservoir, Goulburn River",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "foundation",
+        "structural_design",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Institution of Engineers Australia (Speedie 1948) and ICE discussion (1938): late-construction / early-service subsidence of the upstream rockfill; water into the clay/concrete core; over 350 m of upstream rockfill slumped; core cracked.",
+      "incident_date": "1929-04-26",
+      "latest_report_date": "1948",
+      "what_happened": "The original Eildon (Sugarloaf) rockfill dam on the Goulburn River first filled in August 1927. On 26 April 1929 evidence of failure was observed: more than 350 m of upstream rockfill slumped and the concrete core cracked (contemporary board of inquiry / later engineering papers). Speedie (IEAust 1948) describes a subsidence at a late stage of construction that forced extensive investigation of fill and foundation before the later enlargement. The dam was modified in 1929 and 1935 and later enlarged (1951–55) at the same site as today's Lake Eildon. No sourced death count for the 1929 slump.",
+      "status": "Slump 1929; remediated; later enlarged. Reservoir still operating.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Eildon Dam (coords; 1929/1935 modifications; 1955 enlargement)",
+          "url": "https://en.wikipedia.org/wiki/Eildon_Dam"
+        },
+        {
+          "label": "Speedie, IEAust 1948 — Investigation and designs for Eildon Dam enlargement (subsidence)",
+          "url": "https://www.eoas.info/bib/ASBS14388.htm"
+        },
+        {
+          "label": "ICE 1938 — Subsidence of a rockfill dam and remedial measures at Eildon Reservoir",
+          "url": "https://doi.org/10.1680/ijoti.1938.14642"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Incident date 1976: Wikipedia commissioning 1973 / completion 1976; ANCOLD places the Great Scour in the 1970s. Exact first-scour day not given. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "WaterNSW (now); NSW Water Conservation & Irrigation Commission (then)",
+      "year_built": "1968–1976",
+      "height_m": 113,
+      "reservoir_capacity": "1,364,000 ML (Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "NSW Department of Water Resources / WaterNSW",
+      "verification": "confirmed",
+      "id": "copeton-spillway-scour-1976",
+      "name": "Copeton Dam unlined spillway granite scour",
+      "country": "Australia",
+      "region": "Gwydir River, New England, New South Wales",
+      "location_label": "Copeton Dam, southwest of Inverell, NSW",
+      "lat": -29.90639,
+      "lng": 150.92722,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Copeton Dam −29.90639, 150.92722",
+      "river_or_facility": "Copeton Dam spillway, Gwydir River",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "spillway"
+      ],
+      "cause_summary": "Wikipedia / Woodward: unexpected erosion of hard unweathered granite in the unlined spillway discharge channel from rock failure under high in-situ compressive stress; training wall and anchored slab added.",
+      "incident_date": "1976",
+      "latest_report_date": "2023",
+      "what_happened": "After Copeton Dam on the Gwydir River was commissioned (1973) and completed (1976), the unlined spillway discharge channel suffered unexpected erosion of hard, sound granite — Wikipedia and designer Richard Woodward describe rock failure under high in-situ compressive stress, a mechanism they say had not been reported elsewhere. Remedial works split the spillway with a training wall and added an anchored concrete slab in the main scour channel. ANCOLD (2023) reviews the 1970s 'Great Scour' and the 2022 flood-of-record spill. The embankment itself did not fail. No sourced deaths.",
+      "status": "Spillway scoured in the 1970s; remediated. Dam still operating. Fuse-plug upgrade completed 2013.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Copeton Dam (coords; unexpected granite scour; remedial works)",
+          "url": "https://en.wikipedia.org/wiki/Copeton_Dam"
+        },
+        {
+          "label": "ANCOLD 2023 — Copeton Dam: Performance of the Great Scour Case Study in the Floods of 2022",
+          "url": "https://ancold.org.au/product/2023-copeton-dam-performance-of-the-great-scour-case-study-in-the-floods-of-2022/"
+        },
+        {
+          "label": "Richard Woodward — Copeton Dam Spillway",
+          "url": "https://www.richardwoodward.com.au/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: do not copy the 2010–11 Queensland flood toll onto the dam record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Seqwater",
+      "year_built": "1977–1985",
+      "height_m": 59,
+      "reservoir_capacity": "1,165,238 ML supply storage (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "Commission / later litigation over Brisbane flood damages; no single dam-only figure used here",
+      "investigating_agency": "Queensland Floods Commission of Inquiry",
+      "verification": "confirmed",
+      "id": "wivenhoe-2011-01",
+      "name": "Wivenhoe Dam (January 2011 flood operations)",
+      "country": "Australia",
+      "region": "South East Queensland (Brisbane River)",
+      "location_label": "Wivenhoe Dam, about 80 km from Brisbane",
+      "lat": -27.39389,
+      "lng": 152.60778,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Wivenhoe Dam −27.39389, 152.60778",
+      "river_or_facility": "Wivenhoe Dam (and Somerset Dam upstream), Brisbane River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "QFCI: largest recorded inflows; dam reached 191% of supply storage on 11 Jan 2011; Commission found Wivenhoe was operated in breach of the flood manual between 8–9 January. Independent hydrologist said operators achieved close to the best possible flood-mitigation result. 59% of downstream flooding was from dam releases (QFCI / Babister).",
+      "incident_date": "2011-01-11",
+      "latest_report_date": "2012-03",
+      "what_happened": "In January 2011 Wivenhoe Dam recorded its largest inflows. Wikipedia: on 11 January the reservoir reached 191% of normal water-supply storage (60 cm below the auxiliary spillway). The Queensland Floods Commission of Inquiry found the flood engineers did not comply with the Wivenhoe/Somerset operations manual in the lead-up to the peak, while the Commission's hydrologist Mark Babister said they achieved close to the best possible flood-mitigation result and that 59% of downstream flooding was caused by water released from the dam. The Crime and Misconduct Commission later found no basis for charging the engineers. The embankment did not fail. Queensland 2010–11 flood deaths are not copied onto this record.",
+      "status": "Dam held. Operating rules and the flood manual were reviewed after the inquiry.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Wivenhoe Dam (coords; 191% on 11 Jan 2011)",
+          "url": "https://en.wikipedia.org/wiki/Wivenhoe_Dam"
+        },
+        {
+          "label": "Wikipedia — Commission of Inquiry into the 2010–2011 Queensland floods",
+          "url": "https://en.wikipedia.org/wiki/Commission_of_Inquiry_into_the_2010%E2%80%932011_Queensland_floods"
+        },
+        {
+          "label": "ASDSO — Wivenhoe Dam (Australia, 2011) case study",
+          "url": "https://damfailures.org/case-study/wivenhoe-dam-australia-2011"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: do not copy the Queensland flood toll. Companion record to wivenhoe-2011-01; different dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Seqwater",
+      "year_built": "1935–1959",
+      "height_m": 50,
+      "reservoir_capacity": "904,000 ML total (Wikipedia)",
+      "construction": "concrete_gravity",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Queensland Floods Commission of Inquiry",
+      "verification": "confirmed",
+      "id": "somerset-2011-01",
+      "name": "Somerset Dam (January 2011 flood operations)",
+      "country": "Australia",
+      "region": "Stanley River, Somerset Region, Queensland",
+      "location_label": "Somerset Dam, Stanley River, Queensland",
+      "lat": -27.1154,
+      "lng": 152.5566,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Somerset Dam −27.1154, 152.5566",
+      "river_or_facility": "Somerset Dam, Stanley River (releases into Wivenhoe)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "QFCI Chapter 16: Somerset and Wivenhoe were operated together under the flood-mitigation manual during the January 2011 event. Same inquiry findings as Wivenhoe on manual compliance.",
+      "incident_date": "2011-01",
+      "latest_report_date": "2012-03",
+      "what_happened": "Somerset Dam on the Stanley River is the upstream flood-mitigation storage of the Seqwater pair with Wivenhoe. The Queensland Floods Commission of Inquiry examined operation of both dams in January 2011 (Chapter 16). Seqwater's flood-event report covers Somerset and Wivenhoe together from 6–19 January 2011. The concrete gravity dam did not fail. Queensland flood deaths are not copied onto this record. Distinct structure from Wivenhoe.",
+      "status": "Dam held. Same inquiry as Wivenhoe.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Somerset Dam (coords)",
+          "url": "https://en.wikipedia.org/wiki/Somerset_Dam"
+        },
+        {
+          "label": "QFCI Final Report Chapter 16 — Operation of Wivenhoe and Somerset dams",
+          "url": "http://www.floodcommission.qld.gov.au/__data/assets/pdf_file/0011/11720/QFCI-Final-Report-Chapter-16-Operation-of-Wivenhoe-and-Somerset-dams.pdf"
+        },
+        {
+          "label": "Seqwater — January 2011 Flood Event Report on Somerset Dam and Wivenhoe Dam",
+          "url": "http://www.floodcommission.qld.gov.au/__data/assets/pdf_file/0017/4292/QFCI_Exhibit_24_January_2011_Flood_Event_Report_on_the_Operation_of_Somerset_and_Wivenhoe.pdf"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "UCC: c. 2,000 students evacuated from affected buildings",
+      "notes": "Deaths null: do not copy Cork city flood deaths onto the dam. Carrigadrohid is the upstream Lee dam in the same release, not a separate record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "ESB Group",
+      "year_built": "1953–1957",
+      "height_m": 45,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "around €100 million to Cork (Wikipedia); UCC claimed ~€20 million",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "inniscarra-2009-11-19",
+      "name": "Inniscarra Dam (November 2009 Lee releases)",
+      "country": "Ireland",
+      "region": "Inniscarra, County Cork",
+      "location_label": "Inniscarra Dam, River Lee, County Cork",
+      "lat": 51.9,
+      "lng": -8.66194,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Inniscarra Dam 51°54′00″N 8°39′43″W",
+      "river_or_facility": "Inniscarra Dam (Lee scheme; Carrigadrohid upstream), River Lee",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ESB opened sluices on 19 November 2009 as inflow reached about 800 m³/s; peak discharge 535 m³/s (above the 450 m³/s last warned to Cork City Council). Wikipedia: the dam over-flooded and caused around €100 million damage in Cork.",
+      "incident_date": "2009-11-19",
+      "latest_report_date": "2015-10-05",
+      "what_happened": "On 19–20 November 2009, after prolonged rain on the Lee catchment, ESB increased discharges from Inniscarra Dam (and Carrigadrohid upstream). Cork City Council's account: warnings rose from 150 to 450 m³/s; the peak release was 535 m³/s while about 800 m³/s was entering the reservoir (Irish Examiner / Independent). UCC: flooding began in the early hours of 20 November after the release rate was increased; 29 UCC buildings affected. Wikipedia: the dam over-flooded and caused around €100 million damage. ESB said the releases were required to keep the dam controlled. The buttress dam did not fail. Cork city flood deaths, if any, are not isolated to this dam in the sources fetched.",
+      "status": "Dam held. Later High Court litigation over flood damage (Irish Times 5 Oct 2015).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Inniscarra Dam (coords; Nov 2009 over-flood; ~€100m)",
+          "url": "https://en.wikipedia.org/wiki/Inniscarra_Dam"
+        },
+        {
+          "label": "Irish Examiner — ESB peak 535 m³/s vs 450 m³/s last warning",
+          "url": "https://www.irishexaminer.com/news/arid-30437417.html"
+        },
+        {
+          "label": "New Civil Engineer — Flood anger over Irish dam opening",
+          "url": "https://www.newcivilengineer.com/latest/flood-anger-over-irish-dam-opening-23-11-2009/"
+        },
+        {
+          "label": "UCC — Report on Major Flood Damage 19/20 Nov 09",
+          "url": "https://www.ucc.ie/en/media/mandc/Revised-Report-on-Major-Flood-Damage.pdf"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: paper does not give a fatality count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Landsvirkjun",
+      "year_built": "1973–1975",
+      "height_m": 44,
+      "reservoir_capacity": "195 million m³ (ISSMGE)",
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": "leakage >20 m³/s at first filling, later ~6 m³/s (ISSMGE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sigalda-1976-08",
+      "name": "Sigalda Dam first-impounding leakage",
+      "country": "Iceland",
+      "region": "Tungnaá, southern Highlands (Ásahreppur)",
+      "location_label": "Sigalda Dam / Krókslón, Tungnaá, Iceland",
+      "lat": 64.1732,
+      "lng": -19.127,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Sigalda Power Plant 64°10′24″N 19°07′37″W",
+      "river_or_facility": "Sigalda asphalt-faced rockfill dam, Tungnaá (Krókslón reservoir)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "construction_first_filling",
+        "foundation"
+      ],
+      "cause_summary": "ISSMGE Kristinsson et al.: during first impounding in August 1976, leakage far above design entered the dam body from pervious lava-flow abutments; high pore pressure; filling stopped. Leakage later reduced from >20 m³/s to about 6 m³/s by sealing and self-sealing.",
+      "incident_date": "1976-08",
+      "latest_report_date": "2019",
+      "what_happened": "The Sigalda asphalt-faced rockfill dam on the Tungnaá was completed in late 1975. During first impounding in August 1976, ISSMGE (Kristinsson et al., ECSMGE 2019) report leakage much larger than expected through pervious postglacial lava-flow abutments; water entered the rockfill and pore pressure rose, so filling was stopped. The reservoir could not be filled to spillway level until sealing works; it reached spillway crest in 1980. Over 40 years leakage fell from more than 20 m³/s to about 6 m³/s. The dam remained stable. No sourced deaths.",
+      "status": "First filling interrupted 1976; sealed; still operating (Landsvirkjun).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ISSMGE ECSMGE 2019 — Kristinsson et al., Sigalda first impounding leakage",
+          "url": "https://www.issmge.org/uploads/publications/51/75/1078-ecsmge-2019_Kristinsson.pdf"
+        },
+        {
+          "label": "Wikipedia — Sigalda Power Plant (coords; dam 925 m × 40 m)",
+          "url": "https://en.wikipedia.org/wiki/Sigalda_Power_Plant"
+        },
+        {
+          "label": "Landsvirkjun — Sigalda Power Station",
+          "url": "https://www.landsvirkjun.com/powerstations/sigoldustod"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: tunnel collapse sources do not give a casualty figure. Río Negro/massacre deaths are a separate crime, not this tunnel event.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "INDE / EGEE",
+      "year_built": "1976–1983 (commercial 1985)",
+      "height_m": 90,
+      "reservoir_capacity": "460 million m³ (Wikipedia)",
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "World Bank / IDB / INDE",
+      "verification": "confirmed",
+      "id": "chixoy-tunnel-1983",
+      "name": "Chixoy power-tunnel lining collapse",
+      "country": "Guatemala",
+      "region": "San Cristóbal Verapaz / Chixoy River (Alta Verapaz–El Quiché–Baja Verapaz)",
+      "location_label": "Chixoy Hydroelectric Dam, Guatemala",
+      "lat": 15.281536,
+      "lng": -90.490952,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Chixoy Hydroelectric Dam 15.281536, −90.490952",
+      "river_or_facility": "Chixoy (Pueblo Viejo–Quixal) 26 km power tunnel",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "structural_design",
+        "foundation"
+      ],
+      "cause_summary": "World Bank PCR: in late 1983 the tunnel lining collapsed in zones because the design was based on an incomplete understanding of heterogeneous/karst geology. Plant shut; commercial operation delayed to November 1985.",
+      "incident_date": "1983",
+      "latest_report_date": "1987-05-01",
+      "what_happened": "After Chixoy's reservoir was filled and the plant started in 1983, the 26 km headrace tunnel lining collapsed in places. The World Bank completion report: lining collapsed in late 1983 because the design approach did not fully understand the geology; commercial operation was delayed to November 1985 (41 months later than planned). International Rivers / CS Monitor: severe water losses prompted shutdown within months; INDE later threatened a lawsuit over the tunnel collapse. This record is the tunnel incident only. Río Negro massacre deaths (1980–82, during construction/resettlement) are not copied onto this record.",
+      "status": "Tunnel repaired; additional tunnel built 1990 (Italian funding). Plant still operating.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "World Bank — Guatemala Chixoy Power Project completion (tunnel lining collapse late 1983)",
+          "url": "https://documents1.worldbank.org/curated/en/799331468915006193/pdf/Guatemala-Chixoy-Power-Project.pdf"
+        },
+        {
+          "label": "Wikipedia — Chixoy Hydroelectric Dam (coords; first-year tunnel repairs)",
+          "url": "https://en.wikipedia.org/wiki/Chixoy_Hydroelectric_Dam"
+        },
+        {
+          "label": "CS Monitor 1 May 1987 — tunnel collapse delayed opening two years",
+          "url": "https://www.csmonitor.com/1987/0501/odam.html"
+        },
+        {
+          "label": "International Rivers — Chixoy Dam Legacy Issues Study vol. 1 (shutdown after water losses)",
+          "url": "https://www.internationalrivers.org/wp-content/uploads/sites/86/2020/06/Chixoy-Dam-Legal-Issues-Study-vol-1.pdf"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: sources describe a near-miss, no fatality figure. Mitch 1998 is not this incident (dam performed as flood control).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "ENEE",
+      "year_built": "1980–1985",
+      "height_m": 226,
+      "reservoir_capacity": "5,700 million m³ (Wikipedia)",
+      "construction": "concrete_arch",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "ENEE / IDB",
+      "verification": "confirmed",
+      "id": "el-cajon-seepage-1994-04-24",
+      "name": "El Cajón (Francisco Morazán) foundation seepage / powerhouse near-flood",
+      "country": "Honduras",
+      "region": "Cortés / Comayagua River canyon",
+      "location_label": "El Cajón Dam, Honduras",
+      "lat": 15.07972,
+      "lng": -87.55889,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia El Cajón Dam (Honduras) 15.07972, −87.55889",
+      "river_or_facility": "Central Hidroeléctrica Francisco Morazán (El Cajón)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "foundation"
+      ],
+      "cause_summary": "IDB: by 1993 leakage into the powerhouse sump reached 1,600 L/s, discolored with clay from karst/fissures. On 24 April 1994 a power surge stopped the sump pumps; water nearly reached floor level before turbines restarted.",
+      "incident_date": "1994-04-24",
+      "latest_report_date": "2009",
+      "what_happened": "El Cajón (Francisco Morazán), a 226 m double-curvature arch dam, developed large foundation leaks through limestone karst. The Inter-American Development Bank account: by 1993 water was entering the powerhouse at about 1,600 litres per second, discolored with clay. On 24 April 1994 a power surge knocked out electricity nationwide; the sump pumps stopped and emergency generators failed to start; geologist Jorge Flores said water nearly reached floor level before the turbines restarted and drove the pumps. IDB and ICOLD papers describe later grouting (including plastic/wooden balls and polypropylene sacks). The arch dam itself did not fail. No sourced deaths. Hurricane Mitch 1998 flood-control performance is a separate non-failure event and is not this record.",
+      "status": "Grouted; still Honduras's main hydro plant.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "IDB — Ingenuity saves dam (1,600 L/s; 24 Apr 1994 near-flood)",
+          "url": "https://www.iadb.org/en/news/ingenuity-saves-dam"
+        },
+        {
+          "label": "Wikipedia — El Cajón Dam (Honduras) (coords; 24 Apr 1994 powerhouse almost flooded)",
+          "url": "https://en.wikipedia.org/wiki/El_Caj%C3%B3n_Dam_(Honduras)"
+        },
+        {
+          "label": "Structurae — El Cajón Dam (24 April 1994 power-surge note)",
+          "url": "https://structurae.net/en/structures/el-cajon-dam"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: ICE/press do not give a casualty figure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Instituto Costarricense de Electricidad (ICE)",
+      "year_built": "2009–2016",
+      "height_m": 130,
+      "reservoir_capacity": "118 million m³ (Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "ICE / Aresep",
+      "verification": "confirmed",
+      "id": "reventazon-seepage-2016",
+      "name": "Reventazón spillway-foundation seepage (first filling)",
+      "country": "Costa Rica",
+      "region": "Siquirres, Limón Province",
+      "location_label": "Reventazón Dam, Reventazón River, Costa Rica",
+      "lat": 10.0655694,
+      "lng": -83.5802194,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Reventazón Dam 10.0655694, −83.5802194",
+      "river_or_facility": "Reventazón hydroelectric dam spillway / drainage galleries",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "construction_first_filling",
+        "foundation"
+      ],
+      "cause_summary": "ICE/La Nación: during first filling, infiltration jumped when the reservoir reached 230 m asl (max operation 265 m). December 2016 granular dump temporarily cut a leak that later returned; one gallery carried up to 180 L/s.",
+      "incident_date": "2016-12",
+      "latest_report_date": "2022",
+      "what_happened": "Reventazón, a 130 m CFRD inaugurated 16 September 2016, developed seepage in the rock mass under the spillway during first filling. ICE's report to Aresep (via La Nación): a sudden rise in gallery infiltration at reservoir level 230 m asl; in December 2016 ICE dumped granular material upstream to plug a crack; the leak returned. One affected gallery later carried up to 180 litres per second (about 80% of that gallery's capacity). ICE limited the reservoir (about 95%) and later built anchors, a concrete slab and secant piles. ICE told the securities market the geology of the spillway massif was an unforeseen condition. No sourced deaths.",
+      "status": "Operating with a restricted reservoir and ongoing grouting/monitoring.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "La Nación — Grieta en presa del Reventazón (first filling; 180 L/s; Dec 2016 dump)",
+          "url": "https://www.nacion.com/el-pais/infraestructura/grieta-en-presa-del-reventazon-causa-fuerte/ZR5ZTGKRYFEM7H7OWDLQ6XL3EY/story/"
+        },
+        {
+          "label": "El Mundo CR — ICE confirma filtraciones (95% limit; millimetric movement)",
+          "url": "https://elmundo.cr/costa-rica/ice-confirma-existencia-filtraciones-proyecto-reventazon/"
+        },
+        {
+          "label": "Wikipedia — Reventazón Dam (coords; inaugurated 16 Sep 2016)",
+          "url": "https://en.wikipedia.org/wiki/Reventaz%C3%B3n_Dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "2010 Agatha cofferdam/right-bank failure was at the original site before relocation — held separately (no original-site coords).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "CEL (Comisión Ejecutiva Hidroeléctrica del Río Lempa)",
+      "year_built": "2008–2023 (relocated after 2010)",
+      "height_m": 87.5,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "CEL",
+      "verification": "confirmed",
+      "id": "el-chaparral-2023-02",
+      "name": "El Chaparral (3 de Febrero) first-fill cracks / emergency empty",
+      "country": "El Salvador",
+      "region": "San Luis de la Reina, San Miguel (Río Torola)",
+      "location_label": "El Chaparral / 3 de Febrero Dam, Torola River",
+      "lat": 13.862667,
+      "lng": -88.350972,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia 3 February Hydroelectric Dam 13.862667, −88.350972",
+      "river_or_facility": "Central Hidroeléctrica 3 de Febrero (El Chaparral), Torola River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "construction_first_filling",
+        "structural_design"
+      ],
+      "cause_summary": "El Diario de Hoy: reservoir filling began September 2022; emptied in emergency from early February 2023 after cracks and severe leaks in the powerhouse walls and the dam (dique). CEL direct-contracted Tyazhmas for $860,000.",
+      "incident_date": "2023-02",
+      "latest_report_date": "2023-10-19",
+      "what_happened": "The El Chaparral RCC dam on the Torola (renamed 3 de Febrero) began filling in September 2022. El Diario de Hoy, citing workers and a 10 January 2023 CEL board paper: from early February 2023 the reservoir was emptied in emergency because of cracking and severe leaks in the powerhouse walls and the retaining dike. CEL awarded a $860,000 direct contract to Tyazhmas to protect the powerhouse. An IEEE/CONCAPAN paper (2023) independently notes that just before inauguration the reservoir was voided urgently because of cracks on the dike. The plant was inaugurated 19 October 2023. No sourced deaths.",
+      "status": "Emptied Feb 2023; repaired; inaugurated 19 Oct 2023.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "El Diario de Hoy — Presa vacía por grave filtración (early Feb 2023; $860k Tyazhmas)",
+          "url": "https://www.elsalvador.com/h-noticias/h-nacional/proyecto-hidroelectrico-el-chaparral-cel-centrales-hidroelectricas-gobierno-/1048569/2023/"
+        },
+        {
+          "label": "El Diario de Hoy — filling Sep 2022 then emergency empty",
+          "url": "https://www.elsalvador.com/h-noticias/h-nacional/presa-el-chaparral-15-anos-corrupcion-promesas-incumplidas/1063388/2023/"
+        },
+        {
+          "label": "Wikipedia — 3 February Hydroelectric Dam (coords; opened 19 Oct 2023)",
+          "url": "https://en.wikipedia.org/wiki/3_February_Hydroelectric_Dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: fetched sources do not give a fatality count for the 11 May 1988 attack.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "CEL",
+      "year_built": "1951–1954",
+      "height_m": 65,
+      "reservoir_capacity": null,
+      "construction": "concrete_gravity",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "cinco-de-noviembre-1988-05-11",
+      "name": "5 de Noviembre hydro plant FMLN attack",
+      "country": "El Salvador",
+      "region": "Lempa River, Cabañas / Chalatenango",
+      "location_label": "Central Hidroeléctrica 5 de Noviembre, Río Lempa",
+      "lat": 13.9908,
+      "lng": -88.7579,
+      "geo_accuracy": "exact",
+      "geo_source": "GEM / GEO Cinco de Noviembre 13.9908, −88.7579",
+      "river_or_facility": "Central Hidroeléctrica 5 de Noviembre (La Chorrera del Guayabo), Río Lempa",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "war_attack"
+      ],
+      "cause_summary": "Elsalvadoreshermoso / contemporary press: on 11 May 1988 an FMLN attack damaged the control panel and destroyed five transformers (then valued at about $100,000). Plant later returned to service.",
+      "incident_date": "1988-05-11",
+      "latest_report_date": "1988",
+      "what_happened": "On 11 May 1988, during the Salvadoran civil war, FMLN guerrillas attacked the 5 de Noviembre hydroelectric plant on the Lempa — El Salvador's first large hydro dam (concrete gravity, 65 m, opened 21 June 1954). Local historical accounts citing period media: the attack seriously damaged the control panel and destroyed five transformers then valued at about $100,000. The dam wall is not described as breached. No sourced death count for this attack in the pages fetched. The plant remained in CEL's system.",
+      "status": "Plant damaged 11 May 1988; later returned to service.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Elsalvadoreshermoso — Presa 5 de Noviembre (11 May 1988 FMLN; transformers)",
+          "url": "https://elsalvadoreshermoso.com/presa-5-de-noviembre-el-salvador/"
+        },
+        {
+          "label": "GEM — 5 De Noviembre hydroelectric plant (coords 13.9908, −88.7579)",
+          "url": "https://www.gem.wiki/5_De_Noviembre_hydroelectric_plant"
+        },
+        {
+          "label": "EcuRed — Central Hidroeléctrica 5 de Noviembre (65 m gravity; site)",
+          "url": "http://ecuadmin.ecured.cu/Central_Hidroel%C3%A9ctrica_5_de_Noviembre"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "more than 60,000 displaced; 12,321 houses affected (El Caribe)",
+      "notes": "Deaths 33: El Caribe figure for this desfogue, not a national Olga total. Hurricane David 1979 plant damage is a different event.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Dominican Hydroelectric Generation Company / INDRHI",
+      "year_built": "Tavera 1969–1973; Bao 1981",
+      "height_m": 82,
+      "reservoir_capacity": "Tavera 170 million m³; Bao 280 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "RD$1,967 million recovery (El Caribe)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tavera-olga-2007-12-11",
+      "name": "Tavera–Bao Storm Olga emergency release",
+      "country": "Dominican Republic",
+      "region": "Santiago Province (Yaque del Norte)",
+      "location_label": "Tavera–Bao dam complex, south of Santiago",
+      "lat": 19.3103917,
+      "lng": -70.743675,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Bao-Tavera Dams 19.3103917, −70.743675",
+      "river_or_facility": "Complejo Tavera–Bao, Yaque del Norte / Bao",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "El Caribe: desfogue began 23:00 on 11 December 2007 when the reservoir reached elevation 327.65 m, 15 m above the normal maximum, after Storm Olga brought about 51 million m³ / 340 mm on the Yaque del Norte basin.",
+      "incident_date": "2007-12-11",
+      "latest_report_date": "2007-12",
+      "what_happened": "On the night of 11–12 December 2007, during Storm Olga, INDRHI opened Tavera’s outlets. El Caribe: the release started at 23:00 on 11 December when the pool reached 327.65 m — 15 m above the normal maximum — after about 51 million m³ (≈340 mm) fell on the Yaque del Norte basin. El Caribe attributes the desfogue damages as 33 dead, more than 60,000 displaced, 12,321 houses affected, and about RD$1,967 million in recovery cost. The embankment dams did not fail. National Olga deaths beyond this sourced desfogue figure are not added.",
+      "status": "Dams held. Complex still operating.",
+      "deaths": 33,
+      "sources": [
+        {
+          "label": "El Caribe — La presa de Tavera, su historia y sus desfogues (11 Dec 2007; 33 dead)",
+          "url": "https://www.elcaribe.com.do/sin-categoria/presa-tavera-historia-sus-desfogues/"
+        },
+        {
+          "label": "Listín Diario 14 Dec 2007 — Tavera design / fuse spillway elevations",
+          "url": "https://listindiario.com/la-republica/2007/12/14/40751/presa-de-tavera-fue-la-primera-en-su-genero.html"
+        },
+        {
+          "label": "Wikipedia — Bao-Tavera Dams (coords)",
+          "url": "https://en.wikipedia.org/wiki/Tavera_Dam"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "thousands evacuated downstream (Juventud Rebelde)",
+      "notes": "Deaths 2: named repair-crew drownings (Paneca, Morgado). No sourced downstream flood death count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Instituto Nacional de Recursos Hidráulicos (Cuba)",
+      "year_built": "1969–1972",
+      "height_m": 38,
+      "reservoir_capacity": "1,020 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "zaza-1972-06-17",
+      "name": "Zaza Dam first-fill tubular-spillway rupture",
+      "country": "Cuba",
+      "region": "Sancti Spíritus Province (Zaza River)",
+      "location_label": "Presa Zaza, ~15 km southwest of Sancti Spíritus",
+      "lat": 21.803675,
+      "lng": -79.35565,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Zaza Dam 21.803675, −79.35565",
+      "river_or_facility": "Presa Zaza, Río Zaza (provisional tubular spillway / underground pipes)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "construction_first_filling",
+        "spillway"
+      ],
+      "cause_summary": "Escambray memoria: Saturday 17 June 1972 ~18:30, while closing valves on the underground pipes, a pipe ruptured; water, slope falls and cracks opened in a reach of the embankment. Controlled by 24 June.",
+      "incident_date": "1972-06-17",
+      "latest_report_date": "2017",
+      "what_happened": "Zaza, Cuba's largest reservoir, filled in weeks in May–June 1972 instead of the planned five years. Escambray's documented memoir: from 20 May to 17 June the reservoir gained more than 600 million m³; at about 18:30 on Saturday 17 June, while operators were closing the two valves on the underground pipes that had been feeding the Mapos rice scheme, a pipe ruptured and water, detachments and cracks opened in a stretch of the embankment slope. Juventud Rebelde: thousands of Sancti Spíritus residents were evacuated (the paper says in about 40 minutes) and two UJC members, Orlando Paneca and Marcelino Morgado, drowned when a barge carrying clay trucks capsized in the whirlpool. The leak was stopped on 24 June. The dam remains in service.",
+      "status": "Pipe/slope incident controlled 24 June 1972. Dam still Cuba's largest reservoir.",
+      "deaths": 2,
+      "sources": [
+        {
+          "label": "Escambray 2017 — Presa Zaza: 17 June 1972 pipe rupture; slope cracks",
+          "url": "https://www.escambray.cu/2017/presa-zaza-fiera-de-agua-enjaulada/"
+        },
+        {
+          "label": "Juventud Rebelde 19 Jul 2016 — two UJC workers drowned; seven-day repair",
+          "url": "https://www.juventudrebelde.cu/cuba/2016-07-19/como-un-mar-tierra-adentro"
+        },
+        {
+          "label": "Wikipedia — Zaza Dam (coords; completed 1972)",
+          "url": "https://en.wikipedia.org/wiki/Zaza_Dam"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: Kef deputy Imed Sediri, La Presse 19 June 2026. Volume figures 21 vs 29 million m³ both sourced.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "2026",
+      "owner_operator": "Direction générale des barrages, ministère de l'Agriculture",
+      "year_built": "1949–1956",
+      "height_m": 65,
+      "reservoir_capacity": "300 million m³ original (heavily silted)",
+      "construction": "concrete_arch",
+      "purpose": "irrigation",
+      "volume_released": "about 21–29 million m³ (La Presse / Tunisie Numérique)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mellegue-gate-2026-06-17",
+      "name": "Mellègue (Nebeur) Dam outlet-gate failure",
+      "country": "Tunisia",
+      "region": "Nebeur, Kef Governorate",
+      "location_label": "Barrage Mellègue / Nebeur, Oued Mellègue",
+      "lat": 36.314281,
+      "lng": 8.702361,
+      "geo_accuracy": "exact",
+      "geo_source": "French Wikipedia / Academic Barrage Mellègue 36°18′51″N 8°42′08″E",
+      "river_or_facility": "Barrage Mellègue (Nebeur), Oued Mellègue",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate"
+      ],
+      "cause_summary": "TAP / La Presse: on 17 June 2026 after a routine 100,000 m³ irrigation release, a 70-tonne outlet gate left its axis and ran uncontrolled (about 400 m³/s). About 21–29 million m³ left the reservoir; captured downstream at Sidi Salem. No structural damage; no deaths (Kef deputy).",
+      "incident_date": "2026-06-17",
+      "latest_report_date": "2026-06-23",
+      "what_happened": "On 17 June 2026, after a routine evening irrigation release of about 100,000 m³ from Mellègue (Nebeur) Dam toward Jendouba, the outlet gate — a 70-tonne gate in service since 1954 — left its axis while being closed (Faïez Msallem, Director-General of Dams, TAP/La Presse). Uncontrolled discharge was about 400 m³/s. Released volume was later given as about 21 million m³ (Kef deputy / La Presse 19 June) or about 29 million m³ with ~8 million retained (Msallem). Water went down Oued Mellègue into the Medjerda and was absorbed at Sidi Salem. First inspections found no structural damage. Deputy Imed Sediri: no deaths and no major material damage. The multiple-arch dam (65 m, 1954–56) remained standing.",
+      "status": "Gate incident 17 June 2026; dam structurally intact. Replacement Mellègue supérieur already planned.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "La Presse 23 Jun 2026 — Msallem: 17 June; 70 t gate; no structural damage",
+          "url": "https://www.lapresse.tn/2026/06/23/barrage-mellegue-les-eaux-deversees-absorbees-et-redirigees-avec-succes/"
+        },
+        {
+          "label": "La Presse 19 Jun 2026 — ~21 million m³; deputy: no deaths",
+          "url": "https://www.lapresse.tn/2026/06/19/panne-au-barrage-de-mellegue-21-millions-de-m%C2%B3-deau-relaches-en-quelques-heures/"
+        },
+        {
+          "label": "Tunisie Numérique — ~29 million m³; 8 million retained",
+          "url": "https://www.tunisienumerique.com/incident-du-barrage-de-mellegue-ce-que-lon-sait-apres-lecoulement-de-29-millions-de-m%c2%b3/"
+        },
+        {
+          "label": "fr.Wikipedia — Barrage Mellègue (Nebeur; 65 m)",
+          "url": "https://fr.wikipedia.org/wiki/Barrage_Mell%C3%A8gue"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": 0,
+      "affected_or_evacuated": "10 people from 10 households (Rescue Board / interior minister)",
+      "notes": "Deaths 0: Rescue Board, no casualties. Later official line: dam bodies intact, abutment/ground failure. Pin is Pokardi (upstream first failure).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "2026",
+      "owner_operator": "Tõrva municipality",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Tõrva crisis commission / Environment Agency / Estonian University of Life Sciences",
+      "verification": "confirmed",
+      "id": "tikste-pokardi-2026-07-09",
+      "name": "Pokardi and Tikste weirs (Tõrva flood)",
+      "country": "Estonia",
+      "region": "Tõrva, Valga County",
+      "location_label": "Pokardi / Tikste paisjärv, Tõrva",
+      "lat": 57.995833,
+      "lng": 25.898611,
+      "geo_accuracy": "exact",
+      "geo_source": "Estonian Wikipedia Pokardi paisjärv 57°59′45″N 25°53′55″E (upstream weir)",
+      "river_or_facility": "Pokardi pais and Tikste Dam / Tikste järv, Pokardi (Tikste) oja",
+      "type": "weir",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Õhtuleht / ERR: on the morning of 9 July 2026 the Pokardi weir failed in cloudburst rain; Tikste Dam overflowed and later the ground beside it failed. Officials later said the dam structures themselves were not breached.",
+      "incident_date": "2026-07-09",
+      "latest_report_date": "2026-07",
+      "what_happened": "On the morning of 9 July 2026, after heavy overnight rain, the Pokardi weir on Pokardi oja above Tõrva failed (Õhtuleht; mayor Kalle Vister to ERR). Water from Tikste Lake overflowed the Tikste Dam and flooded houses; Vister first said Tikste Dam later also failed. A follow-up ERR piece: the municipality later said the dams themselves remained intact and were not breached; collapse of natural ground next to the Tikste Dam carved a new channel. Rescue Board: ten households, ten people evacuated, three physically carried out; no casualties. University of Life Sciences: 47.45 mm in 490 minutes (about an 11.6-year rainfall) and said regulation or maintenance, not rain alone, likely contributed. A bridge on Piima tänav collapsed.",
+      "status": "Weir/abutment washout 9 July 2026; dam bodies later described as intact. Recovery works ongoing.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "ERR — 8 people evacuated; mayor: upstream dam failed, Tikste overflowed then failed",
+          "url": "https://news.err.ee/1610073592/8-people-evacuated-after-dam-floods-in-torva"
+        },
+        {
+          "label": "Õhtuleht — Pokardi and Tikste weirs; 10 evacuated; no casualties",
+          "url": "https://www.ohtuleht.ee/1161918/fotod-torvas-uputab-kumme-inimest-evakueeriti-kogunes-kriisikomisjon"
+        },
+        {
+          "label": "ERR — later: dam structures intact; ground next to Tikste failed",
+          "url": "https://news.err.ee/1610074831/torva-starts-recovering-as-officials-explain-what-caused-floods"
+        },
+        {
+          "label": "et.Wikipedia — Pokardi paisjärv (coords)",
+          "url": "https://et.wikipedia.org/wiki/Pokardi_paisj%C3%A4rv"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: no fatality figure in company/ELY updates. Cause left unknown: liner holes not explained in fetched sources.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Agnico Eagle Finland Oy",
+      "year_built": "mine opened 2008",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "seepage 350→250 m³/h; uncontrolled off-site discharge stopped within 36 h (company)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Lapland ELY / Kainuu ELY Dam Safety Authority",
+      "verification": "confirmed",
+      "id": "kittila-np3-2015-09-14",
+      "name": "Kittilä (Suurikuusikko) NP3 holding-pond seepage",
+      "country": "Finland",
+      "region": "Kittilä, Lapland",
+      "location_label": "Kittilä / Suurikuusikko gold mine, Finnish Lapland",
+      "lat": 67.91389,
+      "lng": 25.4,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Kittilä mine 67°54′50″N 25°24′00″E",
+      "river_or_facility": "Agnico Eagle NP3 holding / tailings pond, Kittilä mine",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Agnico Eagle 2015: seepage found 14 September at the toe of NP3 through the pond-bottom liner; initial ~350 m³/h, later ~250 m³/h. ELY: dam collapse was not an acute risk. Cause of liner holes not established in the fetched updates.",
+      "incident_date": "2015-09-14",
+      "latest_report_date": "2015-11-16",
+      "what_happened": "On 14 September 2015 a routine inspection at Agnico Eagle's Kittilä (Suurikuusikko) gold mine found seepage at the toe of holding pond NP3. The company: flow through the bottom liner started at about 350 m³/h and was cut to about 250 m³/h by dumping moraine; within 36 hours uncontrolled discharge to the environment had stopped because seepage was pumped back. A second leak was reported that autumn. Lapland ELY called the situation serious but said there was no acute risk of the dam collapsing. By mid-November ELY said the leak was under control; sulphate rose in the Seurujoki. No sourced deaths.",
+      "status": "Seepage controlled by Nov 2015; pond drained for liner repair.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Agnico Eagle ePressi — NP3 seepage 14 Sep 2015; 350 then 250 m³/h",
+          "url": "https://www.epressi.com/tiedotteet/kauppa/agnico-eagle-kittila-mine-provides-an-update-on-water-seepage-event.html"
+        },
+        {
+          "label": "Finland Times 31 Oct 2015 — ELY: serious, no acute collapse risk",
+          "url": "https://www.finlandtimes.fi/business/2015/10/31/21896/Leakage-in-Kittil%C3%A4-gold-mine-termed-serious"
+        },
+        {
+          "label": "Finland Times 16 Nov 2015 — leak under control; sulphate in Seurujoki",
+          "url": "http://www.finlandtimes.fi/business/2015/11/16/22391/Kittil%C3%A4-gold-mine-leak-under-control"
+        },
+        {
+          "label": "Wikipedia — Kittilä mine (coords)",
+          "url": "https://en.wikipedia.org/wiki/Kittil%C3%A4_mine"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. 2017 construction cracks are a separate chronic issue, not merged into this shutdown.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Uganda Electricity Generation Company Limited (UEGCL)",
+      "year_built": "2015–2019",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ministry of Energy / Parliament Natural Resources Committee",
+      "verification": "confirmed",
+      "id": "isimba-2022-08-08",
+      "name": "Isimba powerhouse flooding (radial-gate incident)",
+      "country": "Uganda",
+      "region": "Isimba, Kamuli / Kayunga (Victoria Nile)",
+      "location_label": "Isimba Hydroelectric Power Station, Victoria Nile",
+      "lat": 0.77167,
+      "lng": 33.04222,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Isimba Hydroelectric Power Station 0.77167, 33.04222",
+      "river_or_facility": "Isimba HPP powerhouse / radial outflow gates, Victoria Nile",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate"
+      ],
+      "cause_summary": "Energy minister / UEGCL: shut down 8 August 2022 after water entered the powerhouse during maintenance. Monitor: defective radial outflow gate and/or human error (wrong gates). PS Bateebe: not a river-hydrology flood.",
+      "incident_date": "2022-08-08",
+      "latest_report_date": "2022-08",
+      "what_happened": "On 8 August 2022 Isimba HPP (183.2 MW, commissioned 21 March 2019) was taken off the grid after water flooded the powerhouse. Minister Ruth Nankabirwa: operational challenges during contractor maintenance; shutdown as a safety procedure; generation expected within three weeks. The Monitor and Independent: sources described a defective radial outflow gate and/or an operator opening outflow instead of inflow gates; Permanent Secretary Irene Bateebe said it was human/operational error, not river hydrology. The dam wall is not described as damaged. No sourced deaths. Separate 2017 construction-crack reports are background, not this event.",
+      "status": "Emergency shutdown 8 Aug 2022; generation later restored. Plant still operating.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "The Independent — shutdown 8 Aug 2022; minister notice",
+          "url": "https://www.independent.co.ug/isimba-hydropower-station-shutdown-for-three-weeks/"
+        },
+        {
+          "label": "Daily Monitor — how Isimba plunged Uganda into darkness (gate / human error)",
+          "url": "https://www.monitor.co.ug/uganda/news/national/how-isimba-plunged-uganda-into-darkness-3921110"
+        },
+        {
+          "label": "Wikipedia — Isimba Hydroelectric Power Station (coords; commissioned 21 Mar 2019)",
+          "url": "https://en.wikipedia.org/wiki/Isimba_Hydroelectric_Power_Station"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: MP/villager figures (18–20) were disputed by Barrick and are not a confirmed dam-event register.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Barrick Gold / Placer Dome Tanzania (then); later Acacia Mining",
+      "year_built": "mine opened 2002",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "National Environment Management Council (Tanzania)",
+      "verification": "confirmed",
+      "id": "north-mara-2009-05",
+      "name": "North Mara containment-pond seepage (Tigithe River)",
+      "country": "Tanzania",
+      "region": "Tarime District, Mara Region",
+      "location_label": "North Mara Gold Mine, Tarime, Tanzania",
+      "lat": -1.467,
+      "lng": 34.517,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia North Mara Gold Mine 01°28′S 034°31′E",
+      "river_or_facility": "North Mara mine containment / tailings ponds, Tigithe River",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "IPS / Barrick 14 May 2009 statement: acidic water from waste-dump containment ponds seeped through containing walls into the Tigithe; pH about 4.8 one kilometre downstream. Detected by monitoring about 4 May; widely reported 9–11 May.",
+      "incident_date": "2009-05-04",
+      "latest_report_date": "2010-06",
+      "what_happened": "In early May 2009, acidic water from containment ponds at Barrick's North Mara gold mine seeped through pond walls into the Tigithe River (IPS correction: seepage, first detected by monitoring on 4 May, not a 9 May overflow). Barrick's 14 May statement: pH about 4.8 a kilometre downstream, attributed to water from waste-dump containment ponds. MiningWatch later sampled the spill area and the tailings dam and found very high arsenic and other metals. Villager death claims (MPs later cited 18) were denied by the company; the Tanzanian government said in June 2010 the river was again potable after liner replacement. No confirmed sourced death count is used here.",
+      "status": "Seepage 2009; Barrick replaced about 40,000 m² of liner (company/government 2010). Mine later operated by Acacia/Barrick.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "IPS 18 May 2009 — seepage through containment walls; Barrick pH 4.8",
+          "url": "https://www.ipsnews.net/2009/05/environment-tanzania-villagers-fearful-after-mine-water-discharged-into-river/"
+        },
+        {
+          "label": "MiningWatch 17 Nov 2009 — samples at May spill area and tailings dam",
+          "url": "https://www.miningwatch.ca/news/2009/11/17/dangerous-levels-arsenic-found-near-tanzania-mine"
+        },
+        {
+          "label": "Wikipedia — North Mara Gold Mine (coords; 2009–10 pollution dispute)",
+          "url": "https://en.wikipedia.org/wiki/North_Mara_Gold_Mine"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Separate from the 1970s Great Scour record. Exact 2022 spill day not in the fetched ANCOLD abstract.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "WaterNSW",
+      "year_built": "1968–1976",
+      "height_m": 113,
+      "reservoir_capacity": "1,364,000 ML (Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "WaterNSW / ANCOLD case study",
+      "verification": "confirmed",
+      "id": "copeton-spillway-2022",
+      "name": "Copeton Dam 2022 flood-of-record spill",
+      "country": "Australia",
+      "region": "Gwydir River, New England, New South Wales",
+      "location_label": "Copeton Dam, southwest of Inverell, NSW",
+      "lat": -29.90639,
+      "lng": 150.92722,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Copeton Dam −29.90639, 150.92722",
+      "river_or_facility": "Copeton Dam service spillway, Gwydir River",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "spillway",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ANCOLD 2023: in 2022 the Copeton service spillway experienced its flood of record, having not spilled for 40 years. Paper reviews scour against 1970s predictions. Embankment did not fail.",
+      "incident_date": "2022",
+      "latest_report_date": "2023",
+      "what_happened": "In 2022 Copeton Dam's service spillway passed its flood of record after about 40 years without a spill (Pells, Duwell and Parmar, ANCOLD 2023). The paper uses modern survey to review erosion against earlier Great Scour predictions and discusses further scour-protection options. Wikipedia's Copeton article records the 1970s granite-scour mechanism and the later training-wall split. The embankment did not fail. No sourced deaths.",
+      "status": "Spilled 2022; dam still operating.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ANCOLD 2023 — Copeton Dam: Performance of the Great Scour Case Study in the Floods of 2022",
+          "url": "https://ancold.org.au/product/2023-copeton-dam-performance-of-the-great-scour-case-study-in-the-floods-of-2022/"
+        },
+        {
+          "label": "Wikipedia — Copeton Dam (coords; 1970s scour background)",
+          "url": "https://en.wikipedia.org/wiki/Copeton_Dam"
         }
       ],
       "severity": "moderate"
