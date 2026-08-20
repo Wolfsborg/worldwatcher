@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 200,
+  "count": 226,
   "events": [
     {
       "id": "flood-assam-2026",
@@ -11292,6 +11292,1431 @@
           "date": "2026-08-20",
           "by": "historic_backfill",
           "change": "Added from Wikipedia: Cyclone Ditwah."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "About 4,500 m³/s on the Vltava at Prague (cs.wikipedia / Prague city history)",
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-czech-1845",
+      "name": "1845 Czech flood (Velká povodeň 1845)",
+      "country": "Czech Republic",
+      "region": "Vltava / Elbe / Moravia",
+      "location_label": "Prague, Czech Republic",
+      "lat": 50.0875,
+      "lng": 14.42138889,
+      "geo_source": "Prague (Wikipedia coordinates 50.0875°N, 14.42138889°E); Czech Wikipedia event page and Prague city history name the Vltava through the Old Town and Karlín as the measured crest",
+      "flood_type": "riverine",
+      "river_or_basin": "Vltava / Labe (Elbe)",
+      "river_or_facility": "Vltava at Prague",
+      "incident_date": "1845-03-28",
+      "latest_report_date": "1845-03-31",
+      "what_happened": "The March 1845 snowmelt-and-rain flood was one of the largest modern floods on the Vltava and Elbe in Bohemia and Moravia, exceeded in Prague only in 2002. Czech Wikipedia estimates the Vltava peak through Prague at about 4,500 m³/s. Prague city history records the crest on 29 March at 5.77 m above the Old Town gauge, with 114 streets and 946 of 3,106 houses flooded and 1,657 families left without shelter; almost all of Karlín was underwater. The dedicated event page does not give a death toll.",
+      "status": "Historical.",
+      "deaths": null,
+      "affected_or_evacuated": "1,657 families without shelter in Prague; 946 houses flooded (Prague city history)",
+      "severity": "major",
+      "causes": [
+        "snowmelt",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Late-March thaw and rain on a snow-rich Vltava–Elbe catchment.",
+      "sources": [
+        {
+          "label": "Wikipedia (cs): Povodeň v Česku (1845)",
+          "url": "https://cs.wikipedia.org/wiki/Povode%C5%88_v_%C4%8Cesku_(1845)"
+        },
+        {
+          "label": "Praha.eu: Povodně v Praze — ohlédnutí do historie",
+          "url": "https://praha.eu/w/povodne_v_praze_ohlednuti_do_historie_602107"
+        }
+      ],
+      "notes": "Deaths null: the dedicated Czech Wikipedia event page and the Prague municipal history give houses, families and the 4,500 m³/s estimate, but no sourced fatality count. Do not invent.",
+      "era": "1845",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Czech Wikipedia: Povodeň v Česku (1845) and Praha.eu flood history."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "San Bernardino 1,118 mm in 8 days; 467 mm in 2 days (Oeschger / Storm Archive)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-switzerland-1868",
+      "name": "1868 Switzerland floods",
+      "country": "Switzerland",
+      "region": "Ticino / Graubünden / Valais / Uri",
+      "location_label": "Bodio, Ticino, Switzerland",
+      "lat": 46.38,
+      "lng": 8.907,
+      "geo_source": "Bodio TI (German Wikipedia coordinates 46.38°N, 8.907°E); Swiss Storm Archive names Bodio in the Leventina as the deadliest site (22 of 51 deaths)",
+      "flood_type": "flash",
+      "river_or_basin": "Ticino / Maggia / Verzasca / Rhone / Rhine",
+      "river_or_facility": "Lago Maggiore",
+      "incident_date": "1868-09-27",
+      "latest_report_date": "1868-10-04",
+      "what_happened": "Two extreme rain spells (27–28 September and 1–5 October 1868) on already wet Alpine catchments flooded Ticino, Graubünden, Valais, Uri and St. Gallen. The University of Bern Oeschger Centre reconstruction records 1,118 mm in eight days on the San Bernardino pass and the highest Lago Maggiore stage ever measured (199.98 m a.s.l. on 4 October). The Swiss Storm Archive and the Oeschger brochure both give 51 deaths nationwide, 41 of them in Ticino, including 22 at Bodio where 30 houses were destroyed. Damage is estimated at about one billion francs in year-2000 prices.",
+      "status": "Historical.",
+      "deaths": 51,
+      "affected_or_evacuated": null,
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall",
+        "snowmelt"
+      ],
+      "cause_summary": "Two multi-day autumn rainstorms plus föhn snowmelt on both sides of the Alpine crest.",
+      "sources": [
+        {
+          "label": "University of Bern / Oeschger Centre: Ein Extremhochwasser, das die Schweiz prägte",
+          "url": "https://www.uniaktuell.unibe.ch/2018/ein_extremhochwasser_das_die_schweiz_praegte/index_ger.html"
+        },
+        {
+          "label": "Schweizer Sturmarchiv: 18680927 01 Flood Suedschweiz",
+          "url": "https://www.sturmarchiv.ch/index.php?title=18680927_01_Flood_Suedschweiz"
+        }
+      ],
+      "notes": "51 is the nationwide figure on both the University of Bern Oeschger Centre page and the Swiss Storm Archive. The archive breaks out 41 Ticino / 22 Bodio. No dedicated German Wikipedia event page; this uses the national academic reconstruction plus the storm archive.",
+      "era": "1868",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from University of Bern Oeschger Centre 1868 flood reconstruction and Swiss Storm Archive."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "1,890 m³/s at Murcia; more than 2,000 m³/s estimated at Orihuela (Wikipedia)",
+      "return_period": null,
+      "rainfall_mm": "About 600 mm in one hour estimated at the Guadalentín headwaters (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-santa-teresa-1879",
+      "name": "Santa Teresa flood (Riada de Santa Teresa)",
+      "country": "Spain",
+      "region": "Murcia / Vega Baja del Segura / Guadalentín",
+      "location_label": "Murcia, Spain",
+      "lat": 37.9833,
+      "lng": -1.1303,
+      "geo_source": "Murcia (Wikipedia coordinates 37.9833°N, 1.1303°W); English and Spanish event pages name the Segura through the city centre after it overtopped the Malecón",
+      "flood_type": "flash",
+      "river_or_basin": "Segura / Guadalentín",
+      "river_or_facility": "Malecón, Murcia",
+      "incident_date": "1879-10-15",
+      "latest_report_date": "1879-10-15",
+      "what_happened": "On 15 October 1879 the Segura and Guadalentín rose after extreme rain at the Guadalentín headwaters (an estimated 600 mm in one hour). Wikipedia records 1,890 m³/s at Murcia and more than 2,000 m³/s at Orihuela. The Segura overtopped the Malecón and flooded the city centre; streets in Orihuela reached 3.80 m. The catastrophe left more than a thousand dead: 761 in Murcia, 300 in Orihuela, 13 in Lorca, two in Librilla and one in Cieza. 5,762 houses were destroyed and 22,469 animals died.",
+      "status": "Historical.",
+      "deaths": 1077,
+      "affected_or_evacuated": "5,762 houses destroyed in Murcia and Lorca (Wikipedia)",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Extreme convective rain on the Guadalentín–Segura headwaters, producing a flash flood through Murcia and Orihuela.",
+      "sources": [
+        {
+          "label": "Wikipedia: Santa Teresa flood",
+          "url": "https://en.wikipedia.org/wiki/Santa_Teresa_flood"
+        },
+        {
+          "label": "Wikipedia (es): Riada de Santa Teresa",
+          "url": "https://es.wikipedia.org/wiki/Riada_de_Santa_Teresa"
+        }
+      ],
+      "notes": "1,077 is the sum of the locality table on the English and Spanish event pages (761+300+13+2+1). Infoboxes say more than 1,000. Using the summed named localities.",
+      "era": "1879",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Santa Teresa flood and Spanish Wikipedia: Riada de Santa Teresa."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "More than 150,000 ha in Bavaria; 2,000 ha in Linz; Eferding basin about three times Lake Traunsee (de.wikipedia)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-danube-1954",
+      "name": "1954 Danube flood (Donauhochwasser 1954)",
+      "country": "Austria",
+      "region": "Upper Austria / Bavaria / Vienna",
+      "location_label": "Linz, Austria",
+      "lat": 48.30583333,
+      "lng": 14.28638889,
+      "geo_source": "Linz (Wikipedia coordinates 48.30583333°N, 14.28638889°E); German Wikipedia event page records the 9.62 m Linz gauge on 11 July, not reached again in 2002",
+      "flood_type": "riverine",
+      "river_or_basin": "Danube / Inn",
+      "river_or_facility": "Danube at Linz",
+      "incident_date": "1954-07-07",
+      "latest_report_date": "1954-07-13",
+      "what_happened": "Rain from 7–11 July 1954 over the Bavarian and Austrian Alpine foreland, after weeks of wet weather, produced an extreme Danube flood from Regensburg downstream. German Wikipedia records more than 400 mm in south-east Bavaria, 9,000 people evacuated and 12 deaths in Bavaria, and more than 150,000 ha inundated. In Upper Austria it was the strongest flood of the 20th century: 2,000 ha of Linz underwater, 5,500 people evacuated, and a 9.62 m gauge on 11 July that the August 2002 flood did not reach (8.20 m). Vienna's Handelskai and Prater were flooded.",
+      "status": "Historical.",
+      "deaths": 12,
+      "affected_or_evacuated": "9,000 evacuated in Bavaria; 5,500 in Linz (de.wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Multi-day July rain on the Bavarian–Austrian Alpine foreland, with the Inn almost three times the Danube at Passau.",
+      "sources": [
+        {
+          "label": "Wikipedia (de): Donauhochwasser 1954",
+          "url": "https://de.wikipedia.org/wiki/Donauhochwasser_1954"
+        }
+      ],
+      "notes": "12 is the Bavarian death toll on the German event page. The page does not give a separate Austrian fatality figure. Using the only sourced count; Austrian deaths if any are unknown here.",
+      "era": "1954",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from German Wikipedia: Donauhochwasser 1954."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "Eel River at Scotia 752,000 cfs / 21,300 m³/s (Wikipedia / USGS)",
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "Willamette 152,789 acres; Central Valley 375,000 acres (Wikipedia)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "More than $540 million contemporaneous; USGS later equivalent about $3.9 billion",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-christmas-1964",
+      "name": "Christmas flood of 1964",
+      "country": "United States",
+      "region": "Pacific Northwest / Northern California",
+      "location_label": "Oregon City, Oregon, United States",
+      "lat": 45.3569,
+      "lng": -122.6067,
+      "geo_source": "Oregon City (Wikipedia coordinates 45.3569°N, 122.6067°W); the event-page lead photograph is Willamette Falls at Oregon City",
+      "flood_type": "riverine",
+      "river_or_basin": "Willamette / Eel / Klamath / Smith / Trinity",
+      "river_or_facility": "Willamette Falls / Eel River at Scotia",
+      "incident_date": "1964-12-18",
+      "latest_report_date": "1965-01-07",
+      "what_happened": "A mid-December freeze and snowpack was followed by a warm atmospheric river from 18 December 1964 into early January 1965. Every Oregon river went above flood stage; the Willamette inundated 152,789 acres. In California the Eel at Scotia peaked at 752,000 cfs, towns along the Eel, Klamath and Smith were destroyed, and 34 counties were declared disaster areas. USGS's 50th-anniversary feature gives 47 deaths, thousands homeless and more than $540 million damage ($3.9 billion in later dollars). Wikipedia separately cites 17 or 18 deaths in Oregon and 19 in California.",
+      "status": "Historical.",
+      "deaths": 47,
+      "affected_or_evacuated": "Thousands homeless (USGS)",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall",
+        "snowmelt"
+      ],
+      "cause_summary": "Rain-on-snow atmospheric river on frozen ground across Oregon, California, Washington, Idaho and Nevada.",
+      "sources": [
+        {
+          "label": "Wikipedia: Christmas flood of 1964",
+          "url": "https://en.wikipedia.org/wiki/Christmas_flood_of_1964"
+        },
+        {
+          "label": "USGS: The Christmas Flood of 1964",
+          "url": "https://www.usgs.gov/news/featured-story/christmas-flood-1964"
+        }
+      ],
+      "notes": "47 is the USGS 50th-anniversary nationwide figure. Wikipedia's state splits (17–18 Oregon, 19 California) sum lower and omit other states. Using the later USGS total; the state splits stay in this note. Hell Hole Dam (then unfinished) failed as a secondary effect and is not treated as a structural dam-collapse event here.",
+      "era": "1964",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Christmas flood of 1964 and USGS featured story."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "At least $500 million; perhaps over $1 billion (Wikipedia)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-romania-1970",
+      "name": "1970 floods in Romania",
+      "country": "Romania",
+      "region": "Nationwide (37 of 39 counties)",
+      "location_label": "Alba Iulia, Romania",
+      "lat": 46.06694444,
+      "lng": 23.57,
+      "geo_source": "Alba Iulia (Wikipedia coordinates 46.06694444°N, 23.57°E); the event-page lead photograph is flood victims in Alba Iulia, May 1970",
+      "flood_type": "riverine",
+      "river_or_basin": "Danube / Someș / Tisza / Olt / Prut / Siret",
+      "river_or_facility": null,
+      "incident_date": "1970-05-12",
+      "latest_report_date": "1970-06-15",
+      "what_happened": "From about 12 May into mid-June 1970, torrential rain, wind and a Carpathian snowmelt heatwave produced the deadliest modern Romanian floods. Wikipedia records 209 deaths, 41,000 houses damaged or destroyed, at least 265,000 homeless, more than a million arable acres inundated and at least 240,000 evacuated. Thirty-seven of 39 counties were hit; Sighișoara, Mediaș, Sibiu, Satu Mare, Galați and Brăila were among the threatened cities. Damage was at least $500 million and perhaps over $1 billion.",
+      "status": "Historical.",
+      "deaths": 209,
+      "affected_or_evacuated": "At least 240,000 evacuated; 265,000 homeless (Wikipedia)",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall",
+        "snowmelt"
+      ],
+      "cause_summary": "May–June rain plus a heatwave melt of Carpathian snow, swelling the Danube and Transylvanian tributaries.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1970 floods in Romania",
+          "url": "https://en.wikipedia.org/wiki/1970_floods_in_Romania"
+        }
+      ],
+      "notes": "209 is the Wikipedia infobox and body figure. A 3 June 1970 New York Times piece cited on the page had 161 on the Danube earlier in the event.",
+      "era": "1970",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 1970 floods in Romania."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "About 300-year (Tiroler Tageszeitung, cited in anniversary coverage)",
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-oetztal-1987",
+      "name": "1987 Ötztal flood",
+      "country": "Austria",
+      "region": "Ötztal, Tyrol",
+      "location_label": "Längenfeld, Tyrol, Austria",
+      "lat": 47.06666667,
+      "lng": 10.96666667,
+      "geo_source": "Längenfeld (Wikipedia coordinates 47.06666667°N, 10.96666667°E); ORF and Tiroler Tageszeitung name the Ferdinandsbrücke between Umhausen and Längenfeld as the site of the 13 deaths",
+      "flood_type": "flash",
+      "river_or_basin": "Ötztaler Ache / Inn",
+      "river_or_facility": "Ferdinandsbrücke, Längenfeld",
+      "incident_date": "1987-08-24",
+      "latest_report_date": "1987-08-25",
+      "what_happened": "After a hot day, prolonged rain on 24–25 August 1987 sent the Ötztaler Ache over its banks. ORF Tirol records that a bridge between Umhausen and Längenfeld was torn away and 13 people died in the night of 24–25 August when warnings reached drivers too late. The rear valley was supplied by army helicopter for days; the Timmelsjoch was used as the road link. Tiroler Tageszeitung later called it a roughly 300-year event. There is no dedicated Wikipedia event page; the river article and national/regional outlets document the named disaster.",
+      "status": "Historical.",
+      "deaths": 13,
+      "affected_or_evacuated": null,
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Prolonged August rain and glacier melt on the Ötztaler Ache, destroying the Längenfeld bridge.",
+      "sources": [
+        {
+          "label": "ORF Tirol: Ötztal gedenkt Katastrophe vor 20 Jahren",
+          "url": "https://tirv1.orf.at/stories/216981"
+        },
+        {
+          "label": "Wikipedia (de): Ötztaler Ache (Hochwasser 1987)",
+          "url": "https://de.wikipedia.org/wiki/%C3%96tztaler_Ache"
+        }
+      ],
+      "notes": "13 is the ORF Tirol and German Wikipedia river-article figure. No dedicated event page; ORF is the national public broadcaster.",
+      "era": "1987",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ORF Tirol anniversary report and German Wikipedia: Ötztaler Ache."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "About 100-year (fr.wikipedia)",
+      "rainfall_mm": "420 mm at Mas-de-Ponge (gauge overflowed); 311 mm at Nîmes-Kennedy (fr.wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "More than €600 million in later equivalent (fr.wikipedia)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-nimes-1988",
+      "name": "1988 Nîmes flood",
+      "country": "France",
+      "region": "Gard / Nîmes",
+      "location_label": "Nîmes, France",
+      "lat": 43.83833333,
+      "lng": 4.35972222,
+      "geo_source": "Nîmes (Wikipedia coordinates 43.83833333°N, 4.35972222°E); French Wikipedia event page is the 3 October 1988 flood of the city",
+      "flood_type": "flash",
+      "river_or_basin": "Cadereaux of Nîmes / Vistre",
+      "river_or_facility": null,
+      "incident_date": "1988-10-03",
+      "latest_report_date": "1988-10-03",
+      "what_happened": "A stationary Mediterranean thunderstorm on 2–3 October 1988 dumped the equivalent of six months of rain on the garrigue above Nîmes. French Wikipedia records 420 mm at Mas-de-Ponge (the gauge overflowed) and 263–311 mm in the city, turning the cadereaux into torrents through the centre. The infobox lists 11 dead, including two helicopter rescue pilots; the body also says ten or eleven. About 45,000 people were affected and 70 communes were classed as natural-disaster zones. Damage exceeded €600 million in later equivalent.",
+      "status": "Historical.",
+      "deaths": 11,
+      "affected_or_evacuated": "45,000 affected; 70 communes (fr.wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stationary Mediterranean thunderstorm on the garrigue catchments that drain through Nîmes.",
+      "sources": [
+        {
+          "label": "Wikipedia (fr): Inondation du 3 octobre 1988 de Nîmes",
+          "url": "https://fr.wikipedia.org/wiki/Inondation_du_3_octobre_1988_de_N%C3%AEmes"
+        }
+      ],
+      "notes": "11 is the French Wikipedia infobox. The body says ten or eleven, including two helicopter pilots. Using the infobox figure; 10 stays in this note.",
+      "era": "1988",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from French Wikipedia: Inondation du 3 octobre 1988 de Nîmes."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "About 100-year on the Ouvèze (fr.wikipedia)",
+      "rainfall_mm": "Entrechaux 300 mm in 6 hours; Vaison 179–183 mm afternoon burst (fr.wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About €460 million later estimate; 500 million francs contemporaneous (fr.wikipedia)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-vaison-1992",
+      "name": "1992 Vaison-la-Romaine flood",
+      "country": "France",
+      "region": "Vaucluse / Ouvèze",
+      "location_label": "Vaison-la-Romaine, France",
+      "lat": 44.2422,
+      "lng": 5.0724,
+      "geo_source": "Vaison-la-Romaine (Wikipedia coordinates 44.2422°N, 5.0724°E); French Wikipedia event page is the 22 September 1992 Ouvèze flood through the town",
+      "flood_type": "flash",
+      "river_or_basin": "Ouvèze / Brégoux / Salette",
+      "river_or_facility": "Roman bridge, Vaison-la-Romaine",
+      "incident_date": "1992-09-22",
+      "latest_report_date": "1993-01-01",
+      "what_happened": "On 22 September 1992 a stationary storm on the west flank of Mont Ventoux produced a roughly 100-year flash flood of the Ouvèze. About 183 mm fell in the afternoon at Vaison after a quieter morning; Entrechaux recorded 300 mm in six hours. The municipal campsite and the Théos estate on the right bank were swept away; water at the Roman bridge rose about 15 m above normal. French Wikipedia's most commonly cited toll is 46 dead (34 at Vaison) plus four missing; the lede also gives 37 dead and four missing in four communes. Sixty-three Vaucluse communes were hit. Damage was later put at about €460 million.",
+      "status": "Historical.",
+      "deaths": 46,
+      "affected_or_evacuated": "9,000 declared disaster victims in commemorative France 3 coverage; 2,300 houses or shops damaged in Vaucluse (fr.wikipedia)",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stationary thunderstorm on the Ouvèze catchment west of Mont Ventoux, with campsite and housing in the floodway.",
+      "sources": [
+        {
+          "label": "Wikipedia (fr): Inondation de Vaison-la-Romaine en septembre 1992",
+          "url": "https://fr.wikipedia.org/wiki/Inondation_de_Vaison-la-Romaine_en_septembre_1992"
+        }
+      ],
+      "notes": "46 is the figure the French event page says is most generally given (34 at Vaison plus downstream deaths). The lede says 37 dead and 4 missing (citation needed). France 3 anniversary coverage used 39 plus 4 missing. Using 46; the lede 37+4 stays in this note.",
+      "era": "1992",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from French Wikipedia: Inondation de Vaison-la-Romaine en septembre 1992."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "27.85 in / 707 mm near Americus (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "$1.03 billion (1994 USD, NHC/Wikipedia infobox)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-alberto-1994",
+      "name": "Tropical Storm Alberto flooding",
+      "country": "United States",
+      "region": "Georgia / Alabama / Florida Panhandle",
+      "location_label": "Americus, Georgia, United States",
+      "lat": 32.07527778,
+      "lng": -84.22666667,
+      "geo_source": "Americus, Georgia (Wikipedia coordinates 32.07527778°N, 84.22666667°W); the storm page records the 27.85 in / 707 mm point rainfall near Americus and nine road deaths there",
+      "flood_type": "riverine",
+      "river_or_basin": "Flint / Ocmulgee / Chattahoochee / Apalachicola",
+      "river_or_facility": null,
+      "incident_date": "1994-07-03",
+      "latest_report_date": "1994-07-14",
+      "what_happened": "Tropical Storm Alberto made landfall near Destin, Florida, on 3 July 1994 and then stalled over Georgia and Alabama. Wikipedia's NHC-based infobox records 33 deaths (31 Georgia, 2 Alabama) and $1.03 billion damage (1994 USD). Up to 27.85 in (707 mm) fell near Americus; the Flint and Ocmulgee exceeded 100-year floods, about 1,000 bridges closed, and Albany and Macon lost water treatment. About 50,000 people fled their homes. Other sources on the page put damage at $1.5–2 billion and deaths closer to 38.",
+      "status": "Historical.",
+      "deaths": 33,
+      "affected_or_evacuated": "About 50,000 fled their homes (Wikipedia / NWS)",
+      "severity": "major",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stalling tropical-storm remnants over saturated central Georgia, producing record Flint and Ocmulgee floods.",
+      "sources": [
+        {
+          "label": "Wikipedia: Tropical Storm Alberto (1994)",
+          "url": "https://en.wikipedia.org/wiki/Tropical_Storm_Alberto_(1994)"
+        }
+      ],
+      "notes": "33 is the Wikipedia/NHC infobox. The page also says other sources place the toll closer to 38 and damage at $1.5–2 billion. Using the NHC 33; 38 stays in this note.",
+      "era": "1994",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Tropical Storm Alberto (1994)."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "About 100 km² (cs.wikipedia)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "1.927 billion Kč (cs.wikipedia)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-east-bohemia-1998",
+      "name": "1998 Eastern Bohemia flood",
+      "country": "Czech Republic",
+      "region": "Hradec Králové / Orlické hory",
+      "location_label": "Kounov, Rychnov nad Kněžnou, Czech Republic",
+      "lat": 50.29888889,
+      "lng": 16.25805556,
+      "geo_source": "Kounov (Wikipedia coordinates 50.29888889°N, 16.25805556°E); Czech Wikipedia names Kounov as the worst-hit village (about 10 houses destroyed)",
+      "flood_type": "flash",
+      "river_or_basin": "Bělá / Dědina (Zlatý potok)",
+      "river_or_facility": null,
+      "incident_date": "1998-07-22",
+      "latest_report_date": "1998-07-23",
+      "what_happened": "Overnight 22–23 July 1998, torrential rain in the Orlické hory raised the Bělá and Dědina by up to three metres and flooded about 100 km² and 30 municipalities in Rychnov nad Kněžnou, Náchod and Hradec Králové districts. Czech Wikipedia records six people drowned (five men and one woman) at Deštné, Skuhrov, Kounov, Dobré, Masty and Pulice, plus a seventh indirect death of a volunteer rescuer in a car accident at Černíkovice. About 800 people were evacuated. Damage was put at 1.927 billion Kč.",
+      "status": "Historical.",
+      "deaths": 6,
+      "affected_or_evacuated": "About 800 evacuated (cs.wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Overnight cloudburst on the Bělá and Dědina in the Orlické hory.",
+      "sources": [
+        {
+          "label": "Wikipedia (cs): Povodeň ve východních Čechách (1998)",
+          "url": "https://cs.wikipedia.org/wiki/Povode%C5%88_ve_v%C3%BDchodn%C3%ADch_%C4%8Cech%C3%A1ch_(1998)"
+        }
+      ],
+      "notes": "6 is the direct drowning toll on the Czech event page. A seventh, indirect, death (volunteer rescuer in a crash) is recorded separately and is not added to the deaths field.",
+      "era": "1998",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Czech Wikipedia: Povodeň ve východních Čechách (1998)."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Lézignan-Corbières 624 mm in 36 hours (fr.wikipedia / L'Indépendant cited there)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "3.5 billion francs (fr.wikipedia)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-aude-1999",
+      "name": "1999 Aude floods",
+      "country": "France",
+      "region": "Aude / Hérault / Pyrénées-Orientales / Tarn",
+      "location_label": "Lézignan-Corbières, France",
+      "lat": 43.2014,
+      "lng": 2.7584,
+      "geo_source": "Lézignan-Corbières (Wikipedia coordinates 43.2014°N, 2.7584°E); French Wikipedia and L'Indépendant cite 624 mm there in 36 hours, the departmental rainfall maximum",
+      "flood_type": "flash",
+      "river_or_basin": "Aude / Orbieu / Agly / Berre / Thoré",
+      "river_or_facility": null,
+      "incident_date": "1999-11-12",
+      "latest_report_date": "1999-11-14",
+      "what_happened": "A late Mediterranean episode on 11–14 November 1999 flooded the lower Aude and neighbouring Hérault, Pyrénées-Orientales and Tarn. French Wikipedia records 35 deaths (26 Aude, 5 Tarn, 3 Pyrénées-Orientales, 2 Hérault), 6,000 evacuated, 14 bridges destroyed in the Aude and 431 communes recognised as natural-disaster zones. About 50 stations exceeded 200 mm in 48 hours; Lézignan-Corbières recorded 624 mm in 36 hours. Damage was about 3.5 billion francs.",
+      "status": "Historical.",
+      "deaths": 35,
+      "affected_or_evacuated": "6,000 evacuated (fr.wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Late-season Mediterranean rainstorm on the Aude, Agly, Berre and Thoré, worsened by a storm surge that blocked drainage.",
+      "sources": [
+        {
+          "label": "Wikipedia (fr): Inondations de 1999 dans l'Aude",
+          "url": "https://fr.wikipedia.org/wiki/Inondations_de_1999_dans_l%27Aude"
+        }
+      ],
+      "notes": "35 is the French Wikipedia departmental table (26+5+3+2). France 3 has used 25 dead and one missing in the Aude alone. Using the event-page total.",
+      "era": "1999",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from French Wikipedia: Inondations de 1999 dans l'Aude."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "580 mm on 14 October at Lago Paione (de.wikipedia)",
+      "inundation_area": "1,027 ha on the Valais Rhone plain (de.wikipedia)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": 128,
+      "id": "flood-alps-2000",
+      "name": "2000 Alpine flood (Alpenhochwasser 2000)",
+      "country": "Switzerland",
+      "region": "Valais / Ticino / Piedmont",
+      "location_label": "Gondo, Valais, Switzerland",
+      "lat": 46.195843,
+      "lng": 8.139565,
+      "geo_source": "Gondo (German Wikipedia coordinates 46.195843°N, 8.139565°E); the German event page names the 14 October Gondo landslide-flood as the single worst site (13 of 16 Valais deaths)",
+      "flood_type": "flash",
+      "river_or_basin": "Rhone / Po / Toce / Doveria",
+      "river_or_facility": "Rhone dykes, Chamoson / Lago Maggiore",
+      "incident_date": "2000-10-14",
+      "latest_report_date": "2000-10-25",
+      "what_happened": "From 10–16 October 2000 a stalled Mediterranean fetch produced extreme rain on the southern Alps. German Wikipedia records 23 dead, 128 injured and 11 missing in Piedmont, and 16 dead in Valais — the canton's worst 20th-century flood — including 13 at Gondo when a landslide destroyed ten houses on 14 October. Lago Maggiore reached its highest 20th-century stage and flooded Locarno. In the Rhone plain 1,027 ha were underwater after dyke breaches at Chamoson and Sion. Canal 9's anniversary tally for Valais is 16 (13 Gondo, 2 Neubrück, 1 Martigny).",
+      "status": "Historical.",
+      "deaths": 39,
+      "affected_or_evacuated": null,
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Six-day southerly Mediterranean rainstorm on Piedmont, Ticino and Valais, with a landslide-flood through Gondo.",
+      "sources": [
+        {
+          "label": "Wikipedia (de): Alpenhochwasser 2000",
+          "url": "https://de.wikipedia.org/wiki/Alpenhochwasser_2000"
+        }
+      ],
+      "notes": "39 is 23 Piedmont + 16 Valais as stated on the German event page. Piedmont also listed 11 missing. Using the summed named-country figures from the same page.",
+      "era": "2000",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from German Wikipedia: Alpenhochwasser 2000."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "687 mm in 24 hours at Anduze; 635 mm at Saint-Christol-lès-Alès (France 3)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "France 3 more than €830 million; Delrieu et al. €1.2 billion",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-gard-2002",
+      "name": "2002 Gard floods",
+      "country": "France",
+      "region": "Gard / Cévennes",
+      "location_label": "Anduze, France",
+      "lat": 44.053475,
+      "lng": 3.98657222,
+      "geo_source": "Anduze (Wikipedia coordinates 44.053475°N, 3.98657222°E); France 3 and hydrometeorological papers name Anduze / Saint-Christol-lès-Alès as the 600–687 mm rainfall centre",
+      "flood_type": "flash",
+      "river_or_basin": "Gardon / Cèze / Vidourle / Vistre",
+      "river_or_facility": null,
+      "incident_date": "2002-09-08",
+      "latest_report_date": "2002-09-09",
+      "what_happened": "On 8–9 September 2002 a Cévennes Mediterranean episode produced one of the largest flash floods in modern French records. France 3's 20-year retrospective recorded 687 mm in 24 hours at Anduze, 22 dead, 299 of 353 Gard communes disaster-listed and more than €830 million damage. Encyclopædia Universalis contemporaneously gave 23 dead. The Delrieu et al. OHM-CV monograph used 24 casualties and €1.2 billion. More than 90 percent of Gard communes were affected; Alès's dyke failed on the evening of 9 September.",
+      "status": "Historical.",
+      "deaths": 23,
+      "affected_or_evacuated": "299 of 353 Gard communes disaster-listed (France 3)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stationary Cévennes thunderstorm producing 600–700 mm in 24 hours on the Gardon, Cèze and Vidourle.",
+      "sources": [
+        {
+          "label": "France 3: Inondations dans le Gard, 20 ans après (22 morts)",
+          "url": "https://france3-regions.franceinfo.fr/occitanie/gard/nimes/inondations-dans-le-gard-il-y-a-20-ans-des-pluies-diluviennes-faisaient-22-morts-et-des-milliers-de-sinistres-2608656.html"
+        },
+        {
+          "label": "Encyclopædia Universalis: 8–9 septembre 2002, inondations meurtrières dans le Sud-Est",
+          "url": "https://www.universalis.fr/evenement/8-9-septembre-2002-inondations-meurtrieres-dans-le-sud-est/"
+        }
+      ],
+      "notes": "23 is the contemporaneous Universalis figure. France 3's 2022 retrospective used 22; Delrieu et al. used 24. No dedicated French Wikipedia event page. Using 23; 22 and 24 stay in this note.",
+      "era": "2002",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from France 3 20-year retrospective and Encyclopædia Universalis 8–9 September 2002 entry."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About 5 billion Kč (cs.wikipedia event page / iDNES cited there)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-czech-2006",
+      "name": "2006 Czech flood",
+      "country": "Czech Republic",
+      "region": "Lužnice / Dyje / Labe / Morava",
+      "location_label": "Veselí nad Lužnicí, Czech Republic",
+      "lat": 49.18666667,
+      "lng": 14.69888889,
+      "geo_source": "Veselí nad Lužnicí (Wikipedia coordinates 49.18666667°N, 14.69888889°E); Czech Wikipedia names it the worst-hit town (up to 400 dwellings flooded)",
+      "flood_type": "riverine",
+      "river_or_basin": "Lužnice / Vltava / Labe / Dyje / Morava",
+      "river_or_facility": "Nové Mlýny / Vltava cascade",
+      "incident_date": "2006-03-25",
+      "latest_report_date": "2006-04-05",
+      "what_happened": "At the end of March 2006, rain plus a rapid thaw of a heavy snowpack flooded much of the Czech Republic and neighbouring Central Europe. The dedicated Czech Wikipedia page dates the main wave 25 March–5 April, with Q50–Q100 on some reaches and the worst urban flooding at Veselí nad Lužnicí (up to 400 homes), Planá nad Lužnicí, Znojmo, Ústí nad Labem and Olomouc. Seven regions and several hundred municipalities were hit. Total damage reached about 5 billion Kč. The event page does not itself state deaths; the Czech flood-list article gives 7 victims.",
+      "status": "Historical.",
+      "deaths": 7,
+      "affected_or_evacuated": null,
+      "severity": "major",
+      "causes": [
+        "snowmelt",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Rain-on-snow March–April thaw on the Lužnice, Dyje, Elbe and Morava.",
+      "sources": [
+        {
+          "label": "Wikipedia (cs): Povodeň v Česku (2006)",
+          "url": "https://cs.wikipedia.org/wiki/Povode%C5%88_v_%C4%8Cesku_(2006)"
+        },
+        {
+          "label": "Wikipedia (cs): Seznam povodní v Česku (7 obětí)",
+          "url": "https://cs.wikipedia.org/wiki/Seznam_povodn%C3%AD_v_%C4%8Cesku"
+        }
+      ],
+      "notes": "7 is the figure on the Czech Wikipedia list of floods, not on the dedicated 2006 event page (which gives damage but no toll). Using the list figure; if a later official count differs it should replace this.",
+      "era": "2006",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Czech Wikipedia: Povodeň v Česku (2006) and Seznam povodní v Česku."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "314.4 mm in 24 hours at Seathwaite Farm, Borrowdale (Met Office / Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "ABI: Cumbria and Scotland claims could exceed £100 million (Wikipedia)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-uk-2009",
+      "name": "2009 Great Britain and Ireland floods",
+      "country": "United Kingdom",
+      "region": "Cumbria / Cork / Powys",
+      "location_label": "Cockermouth, Cumbria, United Kingdom",
+      "lat": 54.6613,
+      "lng": -3.362,
+      "geo_source": "Cockermouth (Wikipedia coordinates 54.6613°N, 3.362°W); the event page names Cumbria as the worst-hit British county and Cockermouth as the town with more than 200 rescues",
+      "flood_type": "riverine",
+      "river_or_basin": "Derwent / Cocker / Lee / Shannon",
+      "river_or_facility": "Northside Bridge, Workington",
+      "incident_date": "2009-11-19",
+      "latest_report_date": "2009-11-24",
+      "what_happened": "November 2009 was the wettest month in the UK since records began in 1914. On 19–20 November a depression flooded Cumbria: Seathwaite Farm recorded a then-UK record 314.4 mm in 24 hours, Cockermouth saw about 2.5 m of water, and Workington's Northside Bridge collapsed, killing PC Bill Barker. Wikipedia's infobox lists 4 flood deaths (the officer, a Dartmoor canoeist on 21 November, and two in Powys). Cork lost running water for more than ten days after the Lee flooded the treatment plant. ABI damage in Cumbria and Scotland was put above £100 million.",
+      "status": "Historical.",
+      "deaths": 4,
+      "affected_or_evacuated": "More than 200 rescued in Cockermouth; 40,000 homes without water in Ireland (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record November rainfall, worst on the Cumbrian Derwent and Cocker and on the Irish Lee and Shannon.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2009 Great Britain and Ireland floods",
+          "url": "https://en.wikipedia.org/wiki/2009_Great_Britain_and_Ireland_floods"
+        }
+      ],
+      "notes": "4 is the Wikipedia infobox flood-death total (Workington officer, Dartmoor canoeist, two Powys). The page also maps separate wind deaths, which are not included.",
+      "era": "2009",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2009 Great Britain and Ireland floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About €2.5 billion in Poland (Wikipedia)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-central-europe-2010",
+      "name": "2010 Central European floods",
+      "country": "Poland",
+      "region": "Vistula / Oder / southern Poland",
+      "location_label": "Gliwice, Poland",
+      "lat": 50.29416667,
+      "lng": 18.66583333,
+      "geo_source": "Gliwice (Wikipedia coordinates 50.29416667°N, 18.66583333°E); the event page lead image and geotag are the Silesian University of Technology floods in Gliwice, 18 May",
+      "flood_type": "riverine",
+      "river_or_basin": "Vistula / Oder / Poprad / Sajó",
+      "river_or_facility": null,
+      "incident_date": "2010-05-16",
+      "latest_report_date": "2010-06-05",
+      "what_happened": "In May–June 2010, days of rain produced the worst Polish flood in 160 years according to Prime Minister Donald Tusk, plus flooding in Austria, the Czech Republic, Hungary, Slovakia and Serbia. Wikipedia records 37 deaths (Poland 25, Austria 3, Serbia 2, Hungary 2, Slovakia 3, Czech Republic 2) and about 23,000 evacuated. Kraków declared an emergency; the Vistula broke banks at Płock and Sandomierz; Auschwitz-Birkenau closed. Polish damage was estimated at €2.5 billion.",
+      "status": "Historical.",
+      "deaths": 37,
+      "affected_or_evacuated": "About 23,000 evacuated (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "May–June persistent rain on the Vistula, Oder and Carpathian tributaries, worst in southern Poland.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2010 Central European floods",
+          "url": "https://en.wikipedia.org/wiki/2010_Central_European_floods"
+        }
+      ],
+      "notes": "37 is the Wikipedia infobox and country table (25+3+2+2+1+2+1+1 as printed). Distinct from flood-europe-2009 and flood-central-europe-2013/2024 already on file.",
+      "era": "2010",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2010 Central European floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About US$5 billion (Wikipedia)",
+      "category": "incident",
+      "injured": 65,
+      "id": "flood-colombia-2011",
+      "name": "2011 Colombia floods",
+      "country": "Colombia",
+      "region": "Magdalena / Cauca / Caldas",
+      "location_label": "Manizales, Caldas, Colombia",
+      "lat": 5.0675,
+      "lng": -75.51,
+      "geo_source": "Manizales (Wikipedia coordinates 5.0675°N, 75.51°W); the event page names the 6 November Manizales landslide (45 dead) as the deadliest single site of the second rainy season",
+      "flood_type": "riverine",
+      "river_or_basin": "Magdalena / Cauca",
+      "river_or_facility": null,
+      "incident_date": "2011-04-23",
+      "latest_report_date": "2011-11-08",
+      "what_happened": "Colombia's 2011 rainy seasons produced two flood-and-landslide waves. Wikipedia's opening paragraph says the April wave killed at least 187 people, affected 1.2 million, destroyed 1,450 houses and damaged 149,270, and left more than 69,000 homeless, with damage estimated at US$5 billion. A second wave from September killed another 81, wounded 65 and affected about 289,000. The Magdalena reached a then-record level; a 6 November landslide in Manizales killed 45. A nationwide emergency was declared on 23 April.",
+      "status": "Historical.",
+      "deaths": 268,
+      "affected_or_evacuated": "1.2 million affected in the first wave; about 289,000 in the second (Wikipedia)",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Two 2011 rainy-season waves overflowing the Magdalena and Cauca, with deadly landslides at Manizales.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2011 Colombia floods",
+          "url": "https://en.wikipedia.org/wiki/2011_Colombia_floods"
+        }
+      ],
+      "notes": "268 is 187 (April body figure) plus 81 (September–November body figure) from the same event page. The infobox also says 'at least 400' for April, which is not used because the body gives 187. Distinct from flood-colombia-2010.",
+      "era": "2011",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2011 Colombia floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Cannes 180 mm in 3 hours / 107 mm in 1 hour; Mandelieu 159 mm in 3 hours (fr.wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "Up to €650 million (Le Monde, 9 October 2015, cited on fr.wikipedia)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-alpes-maritimes-2015",
+      "name": "2015 Alpes-Maritimes floods",
+      "country": "France",
+      "region": "Alpes-Maritimes / Côte d'Azur",
+      "location_label": "Mandelieu-la-Napoule, France",
+      "lat": 43.5464,
+      "lng": 6.9381,
+      "geo_source": "Mandelieu-la-Napoule (Wikipedia coordinates 43.5464°N, 6.9381°E); French Wikipedia names eight of the 20 deaths in underground car parks there",
+      "flood_type": "flash",
+      "river_or_basin": "Siagne / Brague / Riou de l'Argentière / Grande Frayère",
+      "river_or_facility": null,
+      "incident_date": "2015-10-03",
+      "latest_report_date": "2015-10-05",
+      "what_happened": "On the evening of 3 October 2015 a stationary thunderstorm dumped 180 mm in three hours at Cannes (107 mm in one hour) and 159 mm at Mandelieu. Coastal rivers and urban runoff flooded Cannes, Antibes, Vallauris, Biot and Mandelieu-la-Napoule. French Wikipedia's 5 October tally is 20 dead: 8 at Mandelieu (underground parks), 5 at Cannes, 3 at Vallauris, 3 at a Biot care home and 1 at an Antibes campsite. President Hollande declared a natural disaster. Le Monde put insured losses up to €650 million.",
+      "status": "Historical.",
+      "deaths": 20,
+      "affected_or_evacuated": null,
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Three-hour stationary coastal thunderstorm on small Côte d'Azur catchments and underground car parks.",
+      "sources": [
+        {
+          "label": "Wikipedia (fr): Inondations d'octobre 2015 dans les Alpes-Maritimes",
+          "url": "https://fr.wikipedia.org/wiki/Inondations_d'octobre_2015_dans_les_Alpes-Maritimes"
+        }
+      ],
+      "notes": "20 is the 5 October provisional figure on the French event page (Le Monde / Nice-Matin cited there). Earlier 4 October tallies were 17 dead and 4 missing.",
+      "era": "2015",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from French Wikipedia: Inondations d'octobre 2015 dans les Alpes-Maritimes."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "PDNA: $193.4 million damages and losses; $250.2 million recovery needs",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-somalia-2023",
+      "name": "2023 Somalia Deyr floods",
+      "country": "Somalia",
+      "region": "Shabelle / Juba / South West / Jubaland / Hirshabelle",
+      "location_label": "Beledweyne, Somalia",
+      "lat": 4.73583333,
+      "lng": 45.20361111,
+      "geo_source": "Beledweyne (Wikipedia coordinates 4.73583333°N, 45.20361111°E); OCHA Deyr sitreps name the Shabelle at Belet Weyne / Jowhar as the principal riverine floodway",
+      "flood_type": "riverine",
+      "river_or_basin": "Shabelle / Juba",
+      "river_or_facility": null,
+      "incident_date": "2023-10-04",
+      "latest_report_date": "2023-12-03",
+      "what_happened": "El Niño Deyr rains from early October 2023 produced Somalia's worst recent seasonal flood. OCHA's Situation Report No. 3 (3 December 2023) recorded more than 2.4 million people affected, more than one million displaced and 110 killed in at least 36 districts. The later SoDMA / UN / World Bank / EU Rapid Post-Disaster Needs Assessment put the toll at 2.48 million affected, more than 1.2 million displaced, 118 dead, $193.4 million in damages and losses and $250.2 million in recovery needs across 16 districts. South West and Jubaland were the worst-hit states.",
+      "status": "Recovery; PDNA published after the season.",
+      "deaths": 118,
+      "affected_or_evacuated": "2.48 million affected; more than 1.2 million displaced (PDNA)",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "El Niño-enhanced Deyr (October–December) rains overflowing the Shabelle and Juba.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Somalia 2023 Deyr Floods Rapid PDNA",
+          "url": "https://reliefweb.int/report/somalia/somalia-2023-deyr-floods-rapid-post-disaster-needs-assessment-report"
+        },
+        {
+          "label": "ReliefWeb: Somalia 2023 Deyr Season Floods Situation Report No. 3 (3 December 2023)",
+          "url": "https://reliefweb.int/report/somalia/somalia-2023-deyr-season-floods-situation-report-no-3-3-december-2023"
+        }
+      ],
+      "notes": "118 is the later PDNA death figure. OCHA Sitrep No. 3 of 3 December 2023 had 110. Using the later assessment; 110 stays in this note.",
+      "era": "2023",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb Somalia 2023 Deyr PDNA and OCHA Situation Report No. 3 (3 December 2023)."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "682 mm in 24 hours at Bertioga; 626 mm at São Sebastião (Wikipedia / MetSul)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": 24,
+      "id": "flood-sao-paulo-2023",
+      "name": "2023 São Paulo floods and landslides",
+      "country": "Brazil",
+      "region": "São Paulo north coast / São Sebastião",
+      "location_label": "São Sebastião, São Paulo, Brazil",
+      "lat": -23.807837,
+      "lng": -45.402709,
+      "geo_source": "São Sebastião (Wikipedia coordinates 23.807837°S, 45.402709°W); the event page attributes 64 of 65 deaths to the municipality",
+      "flood_type": "flash",
+      "river_or_basin": "Serra do Mar coastal catchments",
+      "river_or_facility": null,
+      "incident_date": "2023-02-18",
+      "latest_report_date": "2023-02-26",
+      "what_happened": "Over the 2023 Carnival weekend a coastal low dumped record rain on São Paulo's north shore. Wikipedia records 682 mm in 24 hours at Bertioga — the highest such total then documented in Brazil — and 626 mm at São Sebastião. As of 26 February, 65 people were dead (64 in São Sebastião), 24 injured, 58 missing and at least 2,496 displaced. President Lula visited; a 180-day state of calamity was declared. Carnival was cancelled in the worst-hit towns.",
+      "status": "Historical.",
+      "deaths": 65,
+      "affected_or_evacuated": "At least 2,496 displaced or homeless (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Orographic 24-hour rainfall extreme on the Serra do Mar above São Sebastião, triggering landslides.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2023 São Paulo floods and landslides",
+          "url": "https://en.wikipedia.org/wiki/2023_S%C3%A3o_Paulo_floods_and_landslides"
+        }
+      ],
+      "notes": "65 is the Wikipedia infobox as of 26 February 2023 (Correio Braziliense cited for the last Vila Sahy recovery). Distinct from flood-petropolis-2022.",
+      "era": "2023",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2023 São Paulo floods and landslides."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": 2600,
+      "id": "flood-afghanistan-2024",
+      "name": "2024 Afghanistan–Pakistan floods",
+      "country": "Afghanistan",
+      "region": "Baghlan / northeast Afghanistan / Pakistan",
+      "location_label": "Baghlan, Afghanistan",
+      "lat": 36.13277778,
+      "lng": 68.7,
+      "geo_source": "Baghlan (Wikipedia coordinates 36.13277778°N, 68.7°E); the event page names Baghlan Province (300 dead on 10–11 May) as the single deadliest district cluster",
+      "flood_type": "flash",
+      "river_or_basin": "Kunduz / Amu Darya tributaries / Kabul / Indus tributaries",
+      "river_or_facility": null,
+      "incident_date": "2024-03-06",
+      "latest_report_date": "2024-09-04",
+      "what_happened": "From 6 March to 4 September 2024, unusual spring and summer rains produced flash floods across Afghanistan and Pakistan. Wikipedia's infobox records 1,084 dead, 2,600 injured and 40 missing (about 700 in Afghanistan, 384 in Pakistan). The UN said the 10–11 May Afghan wave alone killed 540, including 300 in Baghlan Province. IFRC's later Afghanistan final report (MDRAF015) used at least 300 dead and more than 40,000 homes damaged in 33 of 34 Afghan provinces for the April–mid-May peak. Pakistani NDMA figures cited on the page include 245 dead in 27 days of August.",
+      "status": "Historical.",
+      "deaths": 1084,
+      "affected_or_evacuated": "OCHA: more than 25,000 Afghan families affected in the April wave (Wikipedia)",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Spring–summer convective rains on dry winter soils in Afghanistan and Pakistan, worst in Baghlan in May.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2024 Afghanistan–Pakistan floods",
+          "url": "https://en.wikipedia.org/wiki/2024_Afghanistan%E2%80%93Pakistan_floods"
+        },
+        {
+          "label": "ReliefWeb: Afghanistan Floods Final Report MDRAF015",
+          "url": "https://reliefweb.int/report/afghanistan/afghanistan-floods-final-report-mdraf015"
+        }
+      ],
+      "notes": "1,084 is the Wikipedia infobox (700 Afghanistan + 384 Pakistan as broken out in the notes). IFRC MDRAF015 used at least 300 for the April–mid-May Afghan peak only. Distinct from flood-pakistan-2022 and flood-pakistan-2025.",
+      "era": "2024",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2024 Afghanistan–Pakistan floods and IFRC MDRAF015 final report."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-drc-2024",
+      "name": "2023–24 DR Congo floods",
+      "country": "Democratic Republic of the Congo",
+      "region": "Kinshasa / South Kivu / Kasai-Central / Équateur",
+      "location_label": "Kinshasa, Democratic Republic of the Congo",
+      "lat": -4.32194444,
+      "lng": 15.31194444,
+      "geo_source": "Kinshasa (Wikipedia coordinates 4.32194444°S, 15.31194444°E); ECHO's 12 January 2024 flash names the capital as one of the most affected areas of the Congo River rise",
+      "flood_type": "riverine",
+      "river_or_basin": "Congo River",
+      "river_or_facility": null,
+      "incident_date": "2023-12-28",
+      "latest_report_date": "2024-01-12",
+      "what_happened": "Heavy rain from late December 2023 raised the Congo River and triggered floods and landslides in eastern, southern and capital-region DRC. ReliefWeb's disaster page (FL-2024-000009-COD) cites ECHO on 3 January 2024: 60 dead (22 Kasai-Central, 20 Bukavu, 20 Burhinyi) and more than 1,400 houses damaged. ECHO's 12 January update, still on that page, said at least 300 people had died and nearly 300,000 households were affected, with Kinshasa among the worst-hit and tens of thousands of houses destroyed.",
+      "status": "Historical (2023–24 season).",
+      "deaths": 300,
+      "affected_or_evacuated": "Nearly 300,000 households affected (ECHO, 12 January 2024, via ReliefWeb)",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Late-2023 / early-2024 rains raising the Congo River, with floods and landslides in Kinshasa and the east.",
+      "sources": [
+        {
+          "label": "ReliefWeb: DR Congo Floods – Jan 2024 (FL-2024-000009-COD)",
+          "url": "https://reliefweb.int/disaster/fl-2024-000009-cod"
+        }
+      ],
+      "notes": "300 is the 12 January 2024 ECHO figure on the ReliefWeb disaster page. The 3 January ECHO flash had 60. Using the later dated tally.",
+      "era": "2024",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb DR Congo Floods Jan 2024 disaster page (ECHO 3 and 12 January 2024)."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-switzerland-2024",
+      "name": "2024 Switzerland floods",
+      "country": "Switzerland",
+      "region": "Valle Maggia / Mesolcina / Valais",
+      "location_label": "Cevio, Ticino, Switzerland",
+      "lat": 46.31666667,
+      "lng": 8.65,
+      "geo_source": "Cevio (Wikipedia coordinates 46.31666667°N, 8.65°E); the English event page lead photograph is the destroyed Visletto bridge on the Maggia near Cevio",
+      "flood_type": "flash",
+      "river_or_basin": "Maggia / Moesa / Rhone / Rhine",
+      "river_or_facility": "Visletto bridge, Cevio",
+      "incident_date": "2024-06-21",
+      "latest_report_date": "2024-07-22",
+      "what_happened": "June 2024 storms produced a series of Swiss floods, landslides and debris flows. Wikipedia's dedicated page records at least 18 deaths. The 21–22 June Mesolcina debris flows destroyed houses at Sorte and cut the A13. On 29–30 June the upper Maggia (Val Bavona, Val Lavizzara) saw catastrophic debris flows: 100 buildings destroyed, the Visletto bridge lost, and seven people killed. MeteoSwiss later restated 7 dead and one still missing in the Maggia valley alone. Val Bavona stayed closed to tourism for nine months.",
+      "status": "Historical. Bavona reopened to tourism in 2025.",
+      "deaths": 18,
+      "affected_or_evacuated": null,
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Repeated June southerly thunderstorms on the Maggia, Moesa and Valais torrents.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2024 Switzerland floods",
+          "url": "https://en.wikipedia.org/wiki/2024_Switzerland_floods"
+        },
+        {
+          "label": "MeteoSwiss: Überschwemmungen im oberen Maggiatal, 29–30 June 2024",
+          "url": "https://www.meteoschweiz.admin.ch/ueber-uns/meteoschweiz-blog/de/2025/08/ueberschwemmung-maggia-juni-2024-teil1.html"
+        }
+      ],
+      "notes": "18 is the English Wikipedia infobox for the whole June series. The Maggia episode alone is 7 dead (MeteoSwiss / the same page). Using the nationwide June total; 7 Maggia stays in this note.",
+      "era": "2024",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2024 Switzerland floods and MeteoSwiss Maggia June 2024 blog."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "More than 371,475 acres of farmland (Wikipedia)",
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-punjab-india-2025",
+      "name": "2025 Punjab, India floods",
+      "country": "India",
+      "region": "Indian Punjab / Ravi–Beas–Sutlej",
+      "location_label": "Gurdaspur, Punjab, India",
+      "lat": 32.0333,
+      "lng": 75.4,
+      "geo_source": "Gurdaspur (Wikipedia coordinates 32.0333°N, 75.4°E); the event page lists Gurdaspur among the worst-hit districts and the site of an army helicopter airlift",
+      "flood_type": "riverine",
+      "river_or_basin": "Ravi / Beas / Sutlej",
+      "river_or_facility": "Pong / Ranjit Sagar / Bhakra (controlled releases, not a dam collapse)",
+      "incident_date": "2025-08-25",
+      "latest_report_date": "2025-09-12",
+      "what_happened": "In late August 2025, heavy monsoon rain in Himachal Pradesh and Jammu and Kashmir, plus surplus releases from Pong, Ranjit Sagar and Bhakra, produced Indian Punjab's worst flood since 1988. Wikipedia records about 1,400 villages inundated, more than 371,475 acres of farmland submerged and roughly 350,000 residents affected. NDTV on 12 September 2025, cited on the page, put the death toll at 55; earlier BBC/state figures were about 29–30. Schools closed into early September. These are controlled reservoir releases, not a structural dam failure.",
+      "status": "Recovery as of September 2025 sitreps.",
+      "deaths": 55,
+      "affected_or_evacuated": "About 350,000 residents affected; 11,330 evacuated in combined army/NDRF operations (Wikipedia / The Tribune)",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Monsoon rain on the upper Ravi–Beas–Sutlej plus surplus releases from Pong, Ranjit Sagar and Bhakra.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2025 Punjab, India floods",
+          "url": "https://en.wikipedia.org/wiki/2025_Punjab,_India_floods"
+        }
+      ],
+      "notes": "55 is the 12 September 2025 NDTV figure cited on Wikipedia. Earlier BBC/state tallies were about 29–30. Using the later dated 55. Distinct from flood-pakistan-2025 (Pakistan monsoon). Dam releases are operational, not a collapse; related_dam_id left null.",
+      "era": "2025",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2025 Punjab, India floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-somalia-2025",
+      "name": "2025 Somalia Gu floods",
+      "country": "Somalia",
+      "region": "Banadir / Hirshabelle / Jubaland / South West",
+      "location_label": "Beledweyne, Somalia",
+      "lat": 4.73583333,
+      "lng": 45.20361111,
+      "geo_source": "Beledweyne (Wikipedia coordinates 4.73583333°N, 45.20361111°E); OCHA 2025 Gu sitreps name Jowhar / Middle Shabelle and Banadir flash floods; Beledweyne is the sourced Shabelle-valley pin already used for the riverine floodway",
+      "flood_type": "flash",
+      "river_or_basin": "Shabelle / Banadir coastal catchments",
+      "river_or_facility": null,
+      "incident_date": "2025-04-15",
+      "latest_report_date": "2025-05-20",
+      "what_happened": "Somalia's 2025 Gu (April–June) rains produced flash floods from mid-April. OCHA Situation Report No. 1 (20 May 2025) recorded at least 17 dead and 84,000 people affected, with widespread infrastructure damage. A 9 May Banadir storm killed nine and affected about 24,600; on 12 May floods hit Jowhar displacement sites (about 16,200 IDPs). The 2025 Humanitarian Needs and Response Plan was only 11 percent funded at the time of the sitrep.",
+      "status": "Seasonal flooding as of 20 May 2025 sitrep.",
+      "deaths": 17,
+      "affected_or_evacuated": "At least 84,000 affected (OCHA, 20 May 2025)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Gu-season flash floods in Banadir, Hirshabelle, Jubaland and South West, including IDP sites at Jowhar.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Somalia 2025 Gu Seasonal Floods Situation Report No. 1 (20 May 2025)",
+          "url": "https://reliefweb.int/report/somalia/somalia-2025-gu-april-june-seasonal-floods-situation-report-no-1-20-may-2025"
+        }
+      ],
+      "notes": "17 is the OCHA 20 May 2025 sitrep figure (also in the 13 May flash update). Distinct from flood-somalia-2023 (Deyr). Jowhar itself has no Wikipedia coordinates in the fetch used for this pass, so the pin is the sourced Beledweyne Shabelle-valley city rather than an invented Jowhar point.",
+      "era": "2025",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb / OCHA Somalia 2025 Gu Situation Report No. 1 (20 May 2025)."
         }
       ]
     }
