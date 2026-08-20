@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 873,
-  "current_count": 25,
-  "historical_count": 848,
+  "count": 893,
+  "current_count": 26,
+  "historical_count": 867,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -47644,6 +47644,1116 @@
         }
       ],
       "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 4 from Malay Mail 28 Oct 2013 (confirmed). Wikipedia listed 3 dead and 1 missing; the later confirmed count is used. Not a dam breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Tenaga Nasional Berhad",
+      "year_built": "1963",
+      "height_m": 39.6,
+      "reservoir_capacity": "about 4.7–6.7 million m³ (USM / FloodList figures differ)",
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sultan-abu-bakar-bertam-2013-10-23",
+      "name": "Sultan Abu Bakar Dam (Ringlet) operational release",
+      "country": "Malaysia",
+      "region": "Ringlet / Bertam Valley, Cameron Highlands, Pahang",
+      "location_label": "Sultan Abu Bakar Dam, Ringlet, Cameron Highlands, Malaysia",
+      "lat": 4.4229,
+      "lng": 101.3894,
+      "geo_accuracy": "exact",
+      "geo_source": "Global Energy Observatory / USM thesis: Sultan Abu Bakar Dam 4.4229, 101.3894",
+      "river_or_facility": "Sultan Abu Bakar Dam / Ringlet Reservoir / Sungai Bertam",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "TNB discharged Ringlet Reservoir three times (midnight, 01:00, 02:45) on 23 October 2013 after a rapid rise; the Bertam then overtopped its banks. A 2026 High Court judgment found TNB negligent for operating without functioning flow-measurement instruments.",
+      "incident_date": "2013-10-23",
+      "latest_report_date": "2026-05",
+      "what_happened": "After continuous rain from the evening of 22 October 2013, Tenaga Nasional Berhad released water from Sultan Abu Bakar Dam at Ringlet three times (midnight, 1:00 a.m. and 2:45 a.m. on 23 October). Wikipedia (2013 Cameron Highlands mud floods): the Bertam rose and left its banks; about 10 kongsi houses on the banks were destroyed, about 80 houses damaged and 100 vehicles damaged. Malay Mail (28 Oct 2013) quoting TNB: four people were confirmed dead after Sungai Bertam overflowed following the release. TNB said the reservoir rose 0.59 m per hour — about 13 times a normal monsoon rate — and that surplus water had to be discharged in stages to avert automatic full opening of all four spillway gates. FloodList: the dam is 39.6 m high and was commissioned in 1963. In May 2026 the New Straits Times reported that 100 Bertam Valley residents were awarded RM4.7 million after the High Court found TNB fully liable and negligent because the dam had no functioning flow-measurement instruments.",
+      "status": "Dam remained standing; 2026 court held TNB liable for the release.",
+      "deaths": 4,
+      "sources": [
+        {
+          "label": "Wikipedia — 2013 Cameron Highlands mud floods",
+          "url": "https://en.wikipedia.org/wiki/2013_Cameron_Highlands_mud_floods"
+        },
+        {
+          "label": "Malay Mail — TNB: four confirmed dead after Ringlet release (28 Oct 2013)",
+          "url": "https://www.malaymail.com/news/malaysia/2013/10/28/tnb-president-water-release-from-cameron-highlands-dam-due-to-exceptional-s/551931"
+        },
+        {
+          "label": "NST — Bertam Valley residents awarded RM4.7mil (2026)",
+          "url": "https://www.nst.com.my/news/nation/2026/05/1432840/bertam-valley-residents-awarded-rm47mil-damages-over-2013-floods"
+        },
+        {
+          "label": "FloodList — What went wrong at Lake Ringlet",
+          "url": "https://floodlist.com/asia/floods-lake-ringlet-malaysia"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: papers and news fetched do not give a dam-specific death count. Sakon Nakhon town flood totals not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1953–1956",
+      "height_m": 8.3,
+      "reservoir_capacity": "2.4 million m³ design; about 3.0 million m³ at overtopping (APST 2020)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "two gaps: ~20 m × 4 m and ~50 m × 8–9 m (APST 2019)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "huai-sai-kamin-2017-07-28",
+      "name": "Huai Sai Kamin irrigation dam",
+      "country": "Thailand",
+      "region": "Khamin area, Mueang district, Sakon Nakhon Province",
+      "location_label": "Huai Sai Kamin Dam, Sakon Nakhon, Thailand",
+      "lat": 17.219719,
+      "lng": 104.0293357,
+      "geo_accuracy": "exact",
+      "geo_source": "Satarugsa et al. APST 24(3) cite Google Street View of the dam crest at 17.219719, 104.0293357",
+      "river_or_facility": "Huai Sai Kamin Dam / Huai Sai and Huai Nam Bo tributaries",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway",
+        "poor_maintenance"
+      ],
+      "cause_summary": "APST 2019: tropical depression Sonca overtopped the 8.3 m earth dam; spillway capacity was reduced by weed/debris; deepest breach on the buried Huai Nam Bo channel.",
+      "incident_date": "2017-07-28",
+      "latest_report_date": "2019-06-18",
+      "what_happened": "The Huai Sai Kamin homogeneous earth dam (built 1953–1956; height 8.3 m; crest about 1,300 m; design storage 2.4 million m³) in Sakon Nakhon failed on the morning of 28 July 2017. Satarugsa et al. (Asia-Pacific Journal of Science and Technology, 2019) and a companion hydrological paper (2020): tropical depression Sonca produced about 410 mm in 24 hours (about a 52-year rainfall); locals put the breach around 08:00–09:00; two breaches formed (about 20 m × 4 m near the left end and about 50 m × 8–9 m at the left irrigation conduit); the spillway was partly broken. Routing at overtopping: about 3.0 million m³ in store and 0.6 million m³ above the spillway; observed spillway outflow 25.24 m³/s versus a design 85 m³/s, with water weed blocking the spillway. No source fetched stated deaths at this dam.",
+      "status": "Breached and emptied; temporary plug with nearby soil (APST).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Satarugsa et al., APST 24(3) — 2017 Thailand embankment failures",
+          "url": "https://so01.tci-thaijo.org/index.php/APST/article/view/142130"
+        },
+        {
+          "label": "Satarugsa et al., APST — Huai Sai Kamin hydrology",
+          "url": "https://so01.tci-thaijo.org/index.php/APST/article/view/151889"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Not the Chai Nat Nong Sano reservoir on Wikimapia.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "about 2004",
+      "height_m": null,
+      "reservoir_capacity": "0.7 million m³ maximum; about 0.6 million m³ at failure (APST)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "nong-sano-2017-10-18",
+      "name": "Nong Sano reservoir embankment",
+      "country": "Thailand",
+      "region": "Tambon Phaniat, Khok Samrong District, Lopburi Province",
+      "location_label": "Nong Sano reservoir, Khok Samrong, Lopburi, Thailand",
+      "lat": 15.0315871,
+      "lng": 100.789227,
+      "geo_accuracy": "exact",
+      "geo_source": "Satarugsa et al. APST 24(3) cite Google Street View of the Nong Sano embankment at 15.0315871, 100.789227",
+      "river_or_facility": "Nong Sano reservoir (Phaniat, Khok Samrong)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "APST 2019: piping through dispersive (crumb Grade 3) sandy lean clay in the embankment; water below maximum storage; only 2.5 mm of rain that day.",
+      "incident_date": "2017-10-18",
+      "latest_report_date": "2019-06-18",
+      "what_happened": "About 04:00 on 18 October 2017 the earth embankment of Nong Sano reservoir in tambon Phaniat, Amphoe Khok Samrong, Lopburi, breached. Thai PBS: water spilled into Khok Samrong after a gap several metres wide opened. Satarugsa et al. (APST 2019): the small reservoir (built about 2004; catchment 0.64 km²; maximum storage 0.7 million m³) held about 0.6 million m³ — below the maximum — when a small hole widened until the soil above collapsed; crumb tests classed the embankment clay as dispersive (Grade 3). Rain that day at the nearby gauge was 2.5 mm. Immediate repairs used wood piles and soil-filled bags. No source fetched stated deaths.",
+      "status": "Embankment breached and reservoir emptied; emergency plug (APST).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Thai PBS — Nong Sano embankment breach, 18 Oct 2017",
+          "url": "https://www.thaipbs.or.th/news/content/267018"
+        },
+        {
+          "label": "Satarugsa et al., APST 24(3) — Nong Sano dispersive-clay piping",
+          "url": "https://so01.tci-thaijo.org/index.php/APST/article/view/142130"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 1: named construction driver. Not Dakrong 3 (already live).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Công ty Cổ phần thủy điện Hồng Phát Đak Mek",
+      "year_built": "under construction (started 2009)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "province: 109 m of a 165 m dam; investor claimed 60 m of 80 m (Tien Phong)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Kon Tum inter-agency team (Industry, Construction, Labour, Police)",
+      "verification": "confirmed",
+      "id": "dak-mek-3-2012-11-22",
+      "name": "Dak Mek 3 hydropower dam (construction collapse)",
+      "country": "Vietnam",
+      "region": "Dak Choong commune, Dak Glei District, Kon Tum",
+      "location_label": "Dak Choong, Dak Glei, Kon Tum, Vietnam",
+      "lat": 15.1964612,
+      "lng": 107.7921814,
+      "geo_accuracy": "region",
+      "geo_source": "OpenStreetMap (Ngục Đắk Glei / Đắk Choong, Đắk Glei) 15.1964612, 107.7921814 — commune pin, not a surveyed dam crest",
+      "river_or_facility": "Dak Mek 3 hydropower (Hồng Phát) / Dak Mek stream",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Kon Tum inter-agency check and later consultant: the gravity-dam core was built of stream sand, gravel and cobbles instead of specified M150 mass concrete; a construction truck on the crest then pushed the unfinished upstream wall over.",
+      "incident_date": "2012-11-22",
+      "latest_report_date": "2012-11-29",
+      "what_happened": "About 18:00 on 22 November 2012 the unfinished Dak Mek 3 hydropower dam (7.5 MW; Hồng Phát Dak Mek; started March 2009) at Dak Choong, Dak Glei, Kon Tum, collapsed. Nguoi Dua Tin citing the provincial conclusion: an upstream wall about 80 m long and nearly 9 m high fell; more than 700 m³ of rock and concrete killed driver Nguyen Viet Hung, 28, of Quang Nam. Tuoi Tre described broken concrete blocks in the river and a crushed dump truck. A 29 November Kon Tum press conference (Tien Phong) said the core that should have been rubble concrete with M150 grout was instead earth, sand and stone. Dan Tri: the change turned a gravity dam into a buttress-like shell, and lateral pressure from the fill plus an overloaded truck pushed the upstream wall down. One construction worker died; no downstream village death count was given in the stories fetched.",
+      "status": "Construction stopped; investor ordered to suspend work and hand over files.",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "Người Đưa Tin — Dak Mek 3 built with stream cobbles; 1 death",
+          "url": "https://www.nguoiduatin.vn/dak-mek-3-bi-vo-vi-dung-da-cuoi-duoi-suoi-lam-than-dap-20461199.htm"
+        },
+        {
+          "label": "Tiền Phong — Kon Tum press conference, construction not as designed",
+          "url": "https://tienphong.vn/vo-dap-thuy-dien-dak-mek-3-vi-xay-bang-dat-cat-da-post602508.tpo"
+        },
+        {
+          "label": "Dân trí — consultant: core changed from M150 concrete to sand and gravel",
+          "url": "https://dantri.com.vn/thoi-su/vo-dap-thuy-dien-la-do-thi-cong-sai-thiet-ke-1356473618.htm"
+        },
+        {
+          "label": "Tuổi Trẻ — Dak Mek 3 collapse site, 22 Nov 2012",
+          "url": "https://tuoitre.vn/vo-dap-thuy-dien-dak-mek-3-522090.htm"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Ha Tinh / Nghe An / Quang Binh flood-week totals not copied onto Khe Mo.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "nearly 1 million m³ (VNCOLD)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "about 30 m (Tiền Phong)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "khe-mo-2010-10-16",
+      "name": "Khe Mo irrigation dam",
+      "country": "Vietnam",
+      "region": "Son Ham commune, Huong Son District, Ha Tinh",
+      "location_label": "Son Ham / Pho Chau, Huong Son, Ha Tinh, Vietnam",
+      "lat": 18.5112015,
+      "lng": 105.4221761,
+      "geo_accuracy": "region",
+      "geo_source": "OpenStreetMap (Phố Châu, Hương Sơn) 18.5112015, 105.4221761 — district-capital pin; dam is in xã Sơn Hàm",
+      "river_or_facility": "Khe Mo irrigation dam / Khe Mo stream",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "VnExpress and VNCOLD: flood water stood about 1 m above the safe level and overtopped the small earth dam, which was under repair.",
+      "incident_date": "2010-10-16",
+      "latest_report_date": "2010-10-24",
+      "what_happened": "At about 07:00 on 16 October 2010 the small Khe Mo earth dam at xom 1, xa Son Ham, Huong Son, Ha Tinh, breached. VnExpress: inflow stood about 1 m above the safe level after days of rain. VNCOLD photo note (24 Oct 2010): a small earth dam making a reservoir of nearly 1 million m³ for local water supply and irrigation, under repair when the flood overtopped it. Tien Phong: a gap of about 30 m; Son Ham and Son Phu were under water for about an hour before the flood dropped; county leaders were on site by 10:00. Tien Phong and VnExpress describe evacuations onto higher ground. No source fetched stated deaths at this dam. Central-province flood deaths that week are not copied here.",
+      "status": "Breach about 30 m; water dropped the same morning (Tien Phong).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "VnExpress — Khe Mo irrigation dam burst, 16 Oct 2010",
+          "url": "https://vnexpress.net/vo-dap-thuy-loi-hang-ngan-dan-so-tan-tranh-lu-2177780.html"
+        },
+        {
+          "label": "VNCOLD — Khe Mo photos, 16 Oct 2010",
+          "url": "https://vncold.vn/NewsDetails/Index/2198"
+        },
+        {
+          "label": "Tiền Phong — ~30 m breach at Khe Mo",
+          "url": "https://tienphong.vn/vo-dap-khe-mo-hang-nghin-nguoi-dan-hoang-hot-post515649.tpo"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. VnExpress 3 Thanh Hoa / 28 regional flood deaths are storm totals, not a Cua Dat dam-break count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "under construction 2004–2010",
+      "height_m": 118.5,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": "more than 100 m of unfinished main dam; ~600,000 m³ rock (VNCOLD / Nong Nghiep)",
+      "downstream_risk": null,
+      "economic_damage": "about VND 200 billion to the works (Nong Nghiep / VNCOLD)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "cua-dat-2007-10-05",
+      "name": "Cua Dat main dam (construction diversion overflow)",
+      "country": "Vietnam",
+      "region": "Xuan My / Yen Nhan, Thuong Xuan District, Thanh Hoa",
+      "location_label": "Cua Dat Reservoir, Thuong Xuan, Thanh Hoa, Vietnam",
+      "lat": 19.9348241,
+      "lng": 105.1686869,
+      "geo_accuracy": "exact",
+      "geo_source": "OpenStreetMap (Hồ Cửa Đạt reservoir) 19.9348241, 105.1686869",
+      "river_or_facility": "Cua Dat CFRD (under construction) / Chu River",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "construction_first_filling"
+      ],
+      "cause_summary": "VNCOLD / Nong Nghiep: a Chu River flood of about 1–1.5% frequency (well above the 5% / 5,050 m³/s diversion design) eroded more than 100 m of the unfinished main rockfill.",
+      "incident_date": "2007-10-05",
+      "latest_report_date": "2007",
+      "what_happened": "About 11:00 on 5 October 2007, while Cua Dat (CFRD; later crest 118.5 m) was still under construction on the Chu River in Thuong Xuan, Thanh Hoa, more than 100 m of the unfinished main dam was washed out. Nong Nghiep / VNCOLD: about 600,000 m³ of rock went; damage to the works about VND 200 billion. Diversion that flood season was through a tunnel plus a 210 m unfinished river-bed section designed for a 5% flood (5,050 m³/s); the October flood was assessed at about 1–1.5% frequency. VNCOLD said the head across the dam was small and the construction washout did not add a dam-break wave beyond the natural flood. VnExpress bundled 3 Thanh Hoa deaths and 28 regional flood deaths into the same storm story; those figures are not attributed to the Cua Dat washout and are not copied here.",
+      "status": "Construction-period erosion of unfinished main dam; project later completed (Vinaconex: 2004–2010).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Nông nghiệp / VNCOLD — Cua Dat main-dam washout 5 Oct 2007",
+          "url": "https://nongnghiepmoitruong.vn/lu-lich-su-tren-song-chu-huc-vo-dap-cua-dat-d1309.html"
+        },
+        {
+          "label": "VnExpress — Cua Dat construction washout (same-day flood wrap)",
+          "url": "https://vnexpress.net/vo-dap-hang-chuc-nghin-nha-chim-trong-nuoc-2091330.html"
+        },
+        {
+          "label": "Dân trí — Cua Dat diversion standard (TCVN 285, 5%)",
+          "url": "https://dantri.com.vn/thoi-su/cong-trinh-cua-dat-co-ap-dung-sai-tieu-chuan-1192875545.htm"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 88,
+      "notes": "Deaths 0 from provincial / VnExpress / NLD. ICOLD Aussois 2017 'Ha Dong' note is this Quang Ninh reservoir, not Hanoi Ha Dong.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ministry of Agriculture and Rural Development (investor, VnExpress)",
+      "year_built": "2006–2011",
+      "height_m": 27.5,
+      "reservoir_capacity": "15 million m³ (VnExpress / minister); useful storage 12.3 million m³ (TLU)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "about 50 m of saddle dam No. 2 (VnExpress / provincial report)",
+      "downstream_risk": null,
+      "economic_damage": "about VND 20 billion (VnExpress, provincial flood board)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "dam-ha-dong-saddle2-2014-10-30",
+      "name": "Dam Ha Dong saddle dam No. 2",
+      "country": "Vietnam",
+      "region": "Quang Loi / Quang Tan, Dam Ha District, Quang Ninh",
+      "location_label": "Dam Ha Dong reservoir, Dam Ha, Quang Ninh, Vietnam",
+      "lat": 21.4041134,
+      "lng": 107.5666876,
+      "geo_accuracy": "exact",
+      "geo_source": "OpenStreetMap (Hồ Đầm Hà Động) 21.4041134, 107.5666876",
+      "river_or_facility": "Dam Ha Dong reservoir / Dam Ha River — saddle dam No. 2",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "Quang Ninh report and Construction Minister: water rose over the main-dam overflow by 1–1.5 m; managers were slow to spill; saddle dam No. 2 then breached about 50 m.",
+      "incident_date": "2014-10-30",
+      "latest_report_date": "2014-10-31",
+      "what_happened": "Around 04:30–07:00 on 30 October 2014, after about 200 mm of rain on 29 October, saddle dam No. 2 of Dam Ha Dong irrigation reservoir (xa Quang Loi, Dam Ha, Quang Ninh) breached. Vietnam Plus: floodwater entered Quang Loi, Quang Tan and Dam Ha town; more than 100 households were moved. NLD: nearly 5,000 people isolated; no casualties. Provincial report (Thoi bao Tai chinh): water overtopped the main-dam overflow by 1–1.5 m, more than 50 m of the No. 2 flood-saddle failed, and the main-dam downstream face eroded; 88 households (nearly 400 people) were moved; no deaths. VnExpress quoting Construction Minister Trinh Dinh Dung: a 50 m saddle breach by 05:30; management was passive so spilling was ineffective. Same story: height 27.5 m, storage 15 million m³; 88 houses flooded; about VND 20 billion damage. Water receded by 11:00 the same day.",
+      "status": "Saddle No. 2 breached ~50 m; main dam eroded but standing; no deaths (provincial / VnExpress).",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "VietnamPlus — Dam Ha Dong saddle breach, 30 Oct 2014",
+          "url": "https://www.vietnamplus.vn/vo-dap-thuy-loi-dam-ha-dong-di-doi-khan-hon-100-ho-dan-post288829.vnp"
+        },
+        {
+          "label": "VnExpress — Construction minister: management caused Dam Ha breach; 0 deaths",
+          "url": "https://vnexpress.net/bo-truong-xay-dung-vo-dap-dam-ha-co-nguyen-nhan-do-quan-ly-3101060.html"
+        },
+        {
+          "label": "NLD — nearly 5,000 isolated; no casualties",
+          "url": "https://nld.com.vn/thoi-su-trong-nuoc/vo-dap-phu-dam-ha-gan-5000-nguoi-dan-bi-co-lap-trong-bien-nuoc-20141030132251816.htm"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 sourced. Promoted from dams-nogeo-held. Not Ia Krel 2 (already live).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Công ty Cổ phần thủy điện Khải Hoàng",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "about 50 m of unfinished wall (CAND); nearly 100 m × 4 m dam body (VNA)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ia-glae-2-2023-10-09",
+      "name": "Ia Glae 2 hydropower spillway wall",
+      "country": "Vietnam",
+      "region": "Ia Ga / Ia Ve, Chu Prong District, Gia Lai",
+      "location_label": "Chu Prong, Gia Lai, Vietnam",
+      "lat": 13.7571965,
+      "lng": 107.8882538,
+      "geo_accuracy": "region",
+      "geo_source": "OpenStreetMap (Xã Chư Prông) 13.7571965, 107.8882538 — district-capital pin; plant is on Ia Glae stream in Ia Ga / Ia Ve",
+      "river_or_facility": "Ia Glae 2 hydropower (under construction) / Ia Glae stream",
+      "type": "spillway",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Chu Prong investigation: contractor did not follow the approved wet-season diversion and construction sequence; an unfinished upstream concrete wall washed out.",
+      "incident_date": "2023-10-09",
+      "latest_report_date": "2023-12-15",
+      "what_happened": "On the night of 8–9 October 2023 an unfinished free-spillway wall at Ia Glae 2 hydropower (Khải Hoàng, Chu Prong, Gia Lai) was washed out. CAND: about 50 m of concrete wall. Vietnam News Agency / Chinhsach: nearly 100 m long, 4 m high dam body damaged; 12 MW plant still under construction. Chu Prong later fined the investor for not checking the contractor and for missing an approved flood plan (Tien Phong, 15 Dec 2023). No lives lost; crops and water for 19 households were hit. Promoted from the no-geo hold after a Chu Prong pin was sourced.",
+      "status": "Construction-period spillway-wall failure; investor and contractor fined.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "CAND — Ia Glae 2 investigation (~50 m wall)",
+          "url": "https://cand.vn/to-dieu-tra-bao-cao-gi-ve-su-co-vo-dap-tai-thuy-dien-ia-glae-2-post714216.html"
+        },
+        {
+          "label": "Tiền Phong — investor and contractor fined",
+          "url": "https://hoahoctro.tienphong.vn/phat-chu-dau-tu-va-don-vi-thi-cong-vu-vo-tuong-dap-thuy-dien-o-gia-lai-post1595878.tpo"
+        },
+        {
+          "label": "Vietnam News — floods damage Gia Lai hydropower plant",
+          "url": "https://vietnamnews.vn/society/1595041/floods-damage-hydropower-plant-in-gia-lai-province.html"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0. Main dam body did not breach (BWS).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Balai Wilayah Sungai Bali-Penida",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "stilling-basin wall about 14 m high × 33.5 m (Radar Jawa Pos)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "titab-spillway-2018-02-06",
+      "name": "Titab-Ularan Dam spillway stilling-basin wall",
+      "country": "Indonesia",
+      "region": "Ularan, Seririt / Busungbiu, Buleleng, Bali",
+      "location_label": "Titab Dam, Buleleng, Bali, Indonesia",
+      "lat": -8.2440888,
+      "lng": 114.9428242,
+      "geo_accuracy": "exact",
+      "geo_source": "OpenStreetMap (Bendungan Titab Ularan) -8.2440888, 114.9428242",
+      "river_or_facility": "Titab-Ularan Dam spillway stilling basin",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "foundation",
+        "poor_maintenance"
+      ],
+      "cause_summary": "BWS Bali-Penida: a 30 L/s spring behind the stilling-basin wall, plus a blocked underdrain, built pressure and pushed out the concrete wing — not the main dam.",
+      "incident_date": "2018-02-06",
+      "latest_report_date": "2018-02-08",
+      "what_happened": "On 6 February 2018 a concrete retaining wall on the downstream spillway stilling basin of Titab-Ularan Dam, Buleleng, Bali, collapsed. Bisnis quoting BWS Bali-Penida head Ketut Jayada: about 15:00 WITA; the wall is separate from the dam body and sits downstream; the dam itself kept working. Radar Jawa Pos: the broken wall was about 14 m high and 33.5 m long (Bisnis: 12 m × 36 m). Jayada said a known spring of about 30 litres per second had a drain that was not working, so groundwater pressure failed the wall in clear weather. Balipuspanews: no deaths. BWS invited the Dam Safety Commission to inspect.",
+      "status": "Spillway-basin wing failed; main dam reported intact (BWS).",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Bisnis — Titab spillway wall, 6 Feb 2018; dam still safe",
+          "url": "https://kabar24.bisnis.com/read/20180208/78/736160/ini-penyebab-jebolnya-dinding-tanggul-bendungan-titab-di-buleleng"
+        },
+        {
+          "label": "Balipuspanews — no deaths; Ularan downstream wall",
+          "url": "https://www.balipuspanews.com/waduh-bendungan-titab-ularan-ambrol.html"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 10,
+      "notes": "Deaths 0 (PDRRMO). Separate from tarlac-san-isidro-dike-2026-08-17.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "DPWH Pampanga 1st District Engineering Office / Eddmari Construction and Trading",
+      "year_built": "2023–2024 (under construction / just completed; accounts differ)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 30–50 m (SunStar / iOrbit)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "candating-arayat-dike-2024-08-17",
+      "name": "Candating Pampanga River flood-control dike (2024)",
+      "country": "Philippines",
+      "region": "Barangay Candating, Arayat, Pampanga",
+      "location_label": "Candating, Arayat, Pampanga, Philippines",
+      "lat": 15.1492847,
+      "lng": 120.8116649,
+      "geo_accuracy": "region",
+      "geo_source": "OpenStreetMap (Barangay Candating) 15.1492847, 120.8116649",
+      "river_or_facility": "Pampanga River flood-control / slope protection, Candating",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "poor_maintenance"
+      ],
+      "cause_summary": "DPWH Pampanga 1st DEO 18 Aug 2024: saturated embankment after typhoons bent sheet piles and shifted deadman anchors; later DPWH/Dizon reviews called the foundation and design substandard.",
+      "incident_date": "2024-08-17",
+      "latest_report_date": "2026-01-26",
+      "what_happened": "Over the weekend of 17–18 August 2024, about 30–50 m of the DPWH flood-control slope protection on the Pampanga River at Barangay Candating, Arayat, collapsed. SunStar (19 Aug 2024): about 30 m of the P91.48-million Flood Management Program structure; PDRRMO recorded no casualties. iOrbit / project engineer Emiljan Quito to DE Almer Miranda (18 Aug): Station 0+030 to 0+060 failed after typhoon saturation and seepage; sheet piles bent and deadman anchors moved; a riverside whirlpool was seen. Inquirer later: at least 10 families evacuated. Subsequent 2026 DPWH statements (after a later collapse) said the 2024 failure showed a faulty foundation/design. Not the already-live Tarlac San Isidro dike.",
+      "status": "30–50 m of new slope protection collapsed; no casualties (PDRRMO).",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "SunStar — Arayat dike breached, 19 Aug 2024; 0 casualties",
+          "url": "https://www.sunstar.com.ph/pampanga/arayat-dike-breached"
+        },
+        {
+          "label": "iOrbit — P91-M Candating slope protection, Sta 0+030–0+060",
+          "url": "https://iorbitnews.com/p91-m-slope-protection-project-in-arayat-sinks/"
+        },
+        {
+          "label": "Inquirer — DPWH to overhaul Arayat dike after 2024 collapse",
+          "url": "https://newsinfo.inquirer.net/2173537/dpwh-design-of-faulty-dike-in-arayat-to-be-revised"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null (no count in the January 2026 stories fetched). Same barangay as the 2024 record; separate date.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "2026",
+      "owner_operator": "DPWH / Eddmari Construction and Trading",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "candating-arayat-dike-2026-01-23",
+      "name": "Candating Pampanga River flood-control dike (2026 re-collapse)",
+      "country": "Philippines",
+      "region": "Barangay Candating, Arayat, Pampanga",
+      "location_label": "Candating, Arayat, Pampanga, Philippines",
+      "lat": 15.1492847,
+      "lng": 120.8116649,
+      "geo_accuracy": "region",
+      "geo_source": "OpenStreetMap (Barangay Candating) 15.1492847, 120.8116649",
+      "river_or_facility": "Pampanga River flood-control / slope protection, Candating",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "DPWH Secretary Vince Dizon, January 2026: the Candating flood-control design was not correct; foundations were insufficient.",
+      "incident_date": "2026-01-23",
+      "latest_report_date": "2026-01-28",
+      "what_happened": "On 23 January 2026 the Candating, Arayat, flood-control structure on the Pampanga River collapsed again after the August 2024 failure and incomplete rehabilitation. Punto Central Luzon: at least 16 homes damaged. Philstar (26 Jan 2026): Dizon said the design 'is not correct' and DPWH would investigate. Tribune (28 Jan): DPWH began a technical assessment and said it would overhaul the design; the 2024 collapse had already been blamed on foundation flaws. No source fetched stated deaths in the January 2026 collapse.",
+      "status": "Re-collapsed January 2026; DPWH ordered a design overhaul.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Punto! — Candating collapses anew, 23 Jan 2026",
+          "url": "https://punto.com.ph/jan-23-2026-candating-flood-control-collapses-anew/"
+        },
+        {
+          "label": "Philstar — Dizon: Candating design not correct",
+          "url": "https://www.philstar.com/headlines/2026/01/26/2503648/substandard-flood-control-dike-collapse-pampanga-under-probe"
+        },
+        {
+          "label": "Daily Tribune — DPWH begins probe, 28 Jan 2026",
+          "url": "https://tribune.net.ph/2026/01/28/dpwh-begins-probe-overhaul-of-collapsed-candating-flood-dike"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year-only date as published. Not the live Tarlac San Isidro dike.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "project cost P47 million (GMA)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lourdes-bamban-dike-2024",
+      "name": "Lourdes River Dike (Parua River, Bamban)",
+      "country": "Philippines",
+      "region": "Lourdes, Bamban, Tarlac — Parua River",
+      "location_label": "Lourdes, Bamban, Tarlac, Philippines",
+      "lat": 15.2654976,
+      "lng": 120.5572594,
+      "geo_accuracy": "region",
+      "geo_source": "OpenStreetMap (Bamban / Lourdes, MacArthur Highway) 15.2654976, 120.5572594 — town pin, not a surveyed breach",
+      "river_or_facility": "Lourdes River Dike / Parua River",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "GMA KMJS: the P47-million Lourdes dike along the Parua River in Bamban collapsed in 2024, two years after rehabilitation; an engineer said it was unreinforced concrete lining, poorly matched to Pinatubo lahar.",
+      "incident_date": "2024",
+      "latest_report_date": "2025-09",
+      "what_happened": "GMA News (Kapuso Mo, Jessica Soho) reported that the Lourdes River Dike on the Parua River in Bamban, Tarlac, a P47-million flood-control project, collapsed in 2024 two years after it was rehabilitated. An engineer interviewed for the segment said the work was a concrete lining without steel reinforcement and that lahar from Mount Pinatubo plus high velocity would undermine sheet-pile designs that rely on the riverbed. Tarlakenyo (September 2025) repeated the same 2024 collapse and cost. No day-of-month and no death count were given in the stories fetched.",
+      "status": "Collapsed in 2024 after a 2022 rehabilitation (GMA).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "GMA — KMJS failed flood-control projects (Lourdes River Dike)",
+          "url": "https://www.gmanetwork.com/news/topstories/regions/957530/kmjs-flood-control-projects-pampanga-tarlac/story/"
+        },
+        {
+          "label": "Tarlakenyo — Lourdes dike collapse in 2024",
+          "url": "https://tarlakenyo.com/2025/09/tarlacs-contractors-cash-in-but-floods-rage-on/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": 7,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: ABC 'feared drowned' and ODC 'missing' are not a confirmed count. Not the 2018 Lao Xe-Pian flood into Cambodia.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "China Datang Corporation / C.H.D. (Cambodia) Hydropower Development Co. Ltd.",
+      "year_built": "under construction (2008/2010–2013; Phase 1 completed 2013 per AidData)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "stung-atay-2012-12-01",
+      "name": "Stung Atay hydropower tunnel / reservoir works",
+      "country": "Cambodia",
+      "region": "O'Som commune, Veal Veng District, Pursat",
+      "location_label": "Stung Atay Dam, Veal Veng, Pursat, Cambodia",
+      "lat": 11.972222,
+      "lng": 103.145278,
+      "geo_accuracy": "exact",
+      "geo_source": "AidData Stung Atay project record: 11°58′20″N 103°08′43″E",
+      "river_or_facility": "Stung Atay hydropower dam (China Datang / C.H.D. Cambodia)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "construction_first_filling"
+      ],
+      "cause_summary": "Open Development Cambodia and ABC/AFP: during turbine tests on Saturday 1 December 2012 a concrete tunnel section (ODC) / part of the reservoir works (AFP via district police) failed under water pressure.",
+      "incident_date": "2012-12-01",
+      "latest_report_date": "2012-12-03",
+      "what_happened": "On Saturday 1 December 2012, while the 120 MW Stung Atay hydropower project in Veal Veng, Pursat, was testing a turbine, a concrete tunnel section failed. Open Development Cambodia: four Cambodian workers were seriously injured and three others were washed away and still missing when ODC reported; China Datang was building the then-$225 million dam, slated for completion in May 2013. ABC News citing AFP and Veal Veng police chief Theang Leng: four people missing, feared drowned; seven other workers injured, many with broken bones; he described heavy water pressure causing part of the reservoir to collapse. AidData gives the dam site as 11°58′20″N 103°08′43″E. No later sourced confirmed death count was fetched; missing workers are not recorded as deaths.",
+      "status": "Construction-period tunnel/reservoir-works failure; work halted (AFP).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Open Development Cambodia — Atai tunnel breach; 3 missing, 4 injured",
+          "url": "https://opendevelopmentcambodia.net/news/government-silent-on-atai-dam-damage/"
+        },
+        {
+          "label": "ABC / AFP — four feared dead at Stung Atay, 3 Dec 2012",
+          "url": "https://www.abc.net.au/news/2012-12-03/an-cambodia-dam/4403764"
+        },
+        {
+          "label": "AidData — Stung Atay coordinates 11°58′20″N 103°08′43″E",
+          "url": "https://china.aiddata.org/projects/48921/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": 9,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 14 are the underpass victims of this named levee breach, not the national 47-death monsoon total.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "National Assembly parliamentary investigation; Cheongju / provincial probes",
+      "verification": "confirmed",
+      "id": "osong-miho-embankment-2023-07-15",
+      "name": "Miho River temporary embankment (Osong / Gungpyeong 2)",
+      "country": "South Korea",
+      "region": "Osong-eup, Heungdeok-gu, Cheongju, North Chungcheong",
+      "location_label": "Gungpyeong 2 Underpass / Miho River, Osong, Cheongju, South Korea",
+      "lat": 36.6223806,
+      "lng": 127.3452333,
+      "geo_accuracy": "region",
+      "geo_source": "Korean Wikipedia (궁평2지하차도 침수 사고) 36°37′20.57″N 127°20′42.84″E — underpass pin; the breached temporary levee was reported about 550 m away",
+      "river_or_facility": "Miho River (Miho-gang) temporary embankment at Mihocheon Bridge works",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "structural_design"
+      ],
+      "cause_summary": "Korean Wikipedia and later court/parliamentary accounts: a temporary embankment built for Mihocheon Bridge widening failed in extreme rain; floodwater filled Gungpyeong 2 Underpass in minutes.",
+      "incident_date": "2023-07-15",
+      "latest_report_date": "2024",
+      "what_happened": "On 15 July 2023 a temporary embankment on the Miho River at Osong, Cheongju, failed during record monsoon rain. English Wikipedia (2023 South Korea floods): 14 people died when vehicles were trapped in Gungpyeong No. 2 Underpass after the Miho banks broke; fire officials said the tunnel filled in two to three minutes, trapping 15 vehicles. Korea JoongAng Daily: the temporary embankment collapse put about 60,000 tons of water into the underpass; 14 dead and 16 injured. Korean Wikipedia: first reports about 08:45; final toll 14 dead and 9 rescued; cause listed as the 2023 rains plus removal of a bank for Mihocheon Bridge widening; the failed bank was about 550 m from the underpass. A flood warning had been issued hours earlier. National 47-death storm totals are not copied onto this levee.",
+      "status": "Temporary levee failed; 14 underpass deaths attributed to the breach (Wikipedia / JoongAng).",
+      "deaths": 14,
+      "sources": [
+        {
+          "label": "Wikipedia — 2023 South Korea floods (Gungpyeong No. 2; 14 deaths)",
+          "url": "https://en.wikipedia.org/wiki/2023_South_Korea_floods"
+        },
+        {
+          "label": "Korea JoongAng Daily — temporary embankment; 14 dead, 16 injured",
+          "url": "https://www.koreajoongangdaily.com/korea/national-assembly-approves-probe-into-osong-underpass-disaster/12448852"
+        },
+        {
+          "label": "Korean Wikipedia — 궁평2지하차도 침수 사고 (coords; 14 dead)",
+          "url": "https://ko.wikipedia.org/wiki/%EA%B6%81%ED%8F%892%EC%A7%80%ED%95%98%EC%B0%A8%EB%8F%84_%EC%B9%A8%EC%88%98_%EC%82%AC%EA%B3%A0"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Promoted from dams-nogeo-held. Not merged into Sanyang. Bukjwa is a separate Anseong reservoir.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "jucheon-anseong-2020-08-02",
+      "name": "Jucheon Reservoir (Anseong)",
+      "country": "South Korea",
+      "region": "Iljuk-myeon, Anseong, Gyeonggi",
+      "location_label": "Iljuk-myeon, Anseong, South Korea",
+      "lat": 37.09139,
+      "lng": 127.47091,
+      "geo_accuracy": "region",
+      "geo_source": "OpenStreetMap (Iljuk-myeon, Anseong) 37.09139, 127.47091 — township pin, same method as live Sanyang/Icheon",
+      "river_or_facility": "Jucheon Reservoir (주천저수지), Iljuk-myeon",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Yonhap 2 Aug 2020: the Jucheon Reservoir bank in Iljuk, Anseong, partially collapsed the same morning as Icheon Sanyang.",
+      "incident_date": "2020-08-02",
+      "latest_report_date": "2021",
+      "what_happened": "Yonhap (2 Aug 2020) reported that Anseong's Jucheon Reservoir in Iljuk-myeon lost part of its bank in the same Gyeonggi cloudburst as Icheon Sanyang (already live). Newspim the same day: Anseong Jucheon Reservoir's levee was partly washed out. A Korean Geographical Society paper later named Anseong Bukjwa Reservoir as a separate August collapse and described a Jucheon 'collapse crisis' that evacuated about 350 households / 700 people. Promoted from the no-geo hold after an Iljuk-myeon pin was sourced. Gyeonggi storm deaths that day (Yonhap: a landslide at a chicken farm, not this reservoir) are not copied here.",
+      "status": "Partial bank loss, 2 Aug 2020 (Yonhap).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Yonhap — Gyeonggi storm wrap (Jucheon partial collapse)",
+          "url": "https://www.yna.co.kr/view/AKR20200802044651061"
+        },
+        {
+          "label": "Newspim — Anseong Jucheon levee partly lost",
+          "url": "https://www.newspim.com/news/view/20200802000177"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Not Jucheon and not Sanyang. Gyeonggi storm deaths not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "more than 50 years before 2020 (Gyeonggi Province)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "bukjwa-anseong-2020-08",
+      "name": "Bukjwa Reservoir (Anseong)",
+      "country": "South Korea",
+      "region": "Anseong, Gyeonggi",
+      "location_label": "Anseong, Gyeonggi, South Korea",
+      "lat": 37.007773,
+      "lng": 127.279971,
+      "geo_accuracy": "region",
+      "geo_source": "OpenStreetMap (Anseong-si) 37.007773, 127.279971 — city pin; reservoir township not in OSM under this name",
+      "river_or_facility": "Bukjwa Reservoir (북좌저수지), Anseong",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Gyeonggi Province (Hansung News) and Kyunghyang: Bukjwa, a 50-year-old agricultural reservoir, lost its embankment in the 28 July–11 August 2020 rains; officials cited a small or missing spillway and no emergency gate.",
+      "incident_date": "2020-08",
+      "latest_report_date": "2020-12-17",
+      "what_happened": "Gyeonggi Province said it would rebuild Icheon Sanyang and Anseong Bukjwa reservoirs after the late-July to 11 August 2020 rains collapsed their embankments, flooded houses, greenhouses and farmland (Hansung News, 17 Dec 2020). The province said both reservoirs were more than 50 years old, with undersized or missing spillways and no emergency gates. Kyunghyang (16 Sep 2020) likewise named Icheon Sanyang and Anseong Bukjwa as embankments that collapsed in the early-August rains. A Korean Geographical Society paper also lists Anseong Bukjwa with Icheon Sanyang and Chungju Jikdong. This is a separate named reservoir from Jucheon in Iljuk. No source fetched stated deaths at Bukjwa.",
+      "status": "Embankment collapse in the 2020 Gyeonggi rains; province funded rebuild.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Hansung News — Gyeonggi rebuild of Sanyang and Bukjwa",
+          "url": "http://www.ihansung.co.kr/59892"
+        },
+        {
+          "label": "Kyunghyang — Sanyang and Bukjwa embankments collapsed",
+          "url": "https://www.khan.co.kr/article/202009161651001"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Chungbuk 2 Aug landslide/stream deaths not copied. Tanbang and Motjugol not added in this slice (no separate township pin fetched).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "Chungbuk put three reservoirs (Jikdong, Tanbang, Motjugol) at about KRW 4.1 billion combined — not Jikdong alone",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "jikdong-chungju-2020-08-02",
+      "name": "Jikdong Reservoir (Chungju)",
+      "country": "South Korea",
+      "region": "Eomjeong-myeon, Chungju, North Chungcheong",
+      "location_label": "Eomjeong-myeon, Chungju, South Korea",
+      "lat": 37.1122643,
+      "lng": 127.9196189,
+      "geo_accuracy": "region",
+      "geo_source": "OpenStreetMap (Eomjeong-myeon, Chungju) 37.1122643, 127.9196189 — township pin used in same-day Dong-A coverage of Jikdong village",
+      "river_or_facility": "Jikdong Reservoir (직동저수지), Chungju",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Chungbuk Water Journal: Chungju Jikdong and Tanbang plus Jecheon Motjugol lost embankments in the August 2020 rains; causes listed as extreme rain, small storage and debris-blocked spillways.",
+      "incident_date": "2020-08-02",
+      "latest_report_date": "2020-09-17",
+      "what_happened": "Chungbuk Province (Water Journal) reported that in the August 2020 rains the embankments of Chungju Jikdong Reservoir, Chungju Tanbang Reservoir and Jecheon Motjugol Reservoir were washed out, with about KRW 4.1 billion damage; listed causes were intense rainfall, insufficient storage and spillways blocked by landslide timber. A Korean Geographical Society paper names Chungju Jikdong with Icheon Sanyang and Anseong Bukjwa as August 2020 bank collapses. Dong-A Ilbo's 2 August Chungbuk wrap describes extreme rain in northern Chungju including Eomjeong but does not attach a death to Jikdong; provincial landslide and stream deaths that day are not copied onto this reservoir.",
+      "status": "Embankment washed out, August 2020 (Chungbuk / Water Journal).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Water Journal — Chungbuk: Jikdong, Tanbang, Motjugol embankments lost",
+          "url": "https://www.waterjournal.co.kr/news/articleView.html?idxno=51902"
+        },
+        {
+          "label": "Korean Geographical Society — Jikdong listed with Sanyang and Bukjwa",
+          "url": "https://journal.kgeography.or.kr/articles/xml/m4W7/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 6 confirmed (4 miners + 2 rescuers). 50+ missing not added. Not Seikmu 2025 or Lone Khin 2024 (already live). 2020 Wai Khar waste-heap landslide not added (slope, not a named pond/dam in the sources fetched).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Unity Co. (mine); Myanmar Thura / Shwe Nagar Koe Kaung (miners' companies)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "maw-wun-kalay-pond-2019-04-22",
+      "name": "Maw Wun Kalay jade-mine mud pond",
+      "country": "Myanmar",
+      "region": "Maw Wun Kalay, Hpakant, Kachin State",
+      "location_label": "Maw Wun Kalay, Hpakant, Kachin, Myanmar",
+      "lat": 25.625,
+      "lng": 96.28,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (April 2019 Hpakant jade mine collapse) 25°37′30″N 96°16′48″E",
+      "river_or_facility": "Unity Co. jade-mine mud/tailings pond, Maw Wun Kalay",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "Wikipedia / Reuters / Al Jazeera: a mud-filled pond at a Hpakant jade mine collapsed at 23:30 on 22 April 2019 and buried miners in housing below.",
+      "incident_date": "2019-04-22",
+      "latest_report_date": "2019-05-17",
+      "what_happened": "At 23:30 on 22 April 2019 a mud-filled pond at a jade mine near Maw Wun Kalay, Hpakant, collapsed. Wikipedia: mud and tailings buried miners asleep in residences below, up to 30.5 m of mud; miners were from Myanmar Thura and Shwe Nagar Koe Kaung; the mine was operated by Unity Co. Four miners' bodies were recovered; the search stopped on 26 April after another slide killed two rescuers; more than 50 others were missing and feared dead. Wikipedia's infobox records 6 confirmed deaths (including the two rescuers). Reuters (17 May 2019) and Al Jazeera reported more than 50 feared dead. Confirmed recovered deaths remain 6; the missing are not added as a death count.",
+      "status": "Pond collapsed; search stopped after a second slide (26 Apr 2019).",
+      "deaths": 6,
+      "sources": [
+        {
+          "label": "Wikipedia — April 2019 Hpakant jade mine collapse (6 confirmed deaths)",
+          "url": "https://en.wikipedia.org/wiki/April_2019_Hpakant_jade_mine_collapse"
+        },
+        {
+          "label": "Al Jazeera — more than 50 feared dead",
+          "url": "https://www.aljazeera.com/news/2019/4/23/more-than-50-feared-dead-after-landslide-at-myanmar-jade-mine"
+        },
+        {
+          "label": "Reuters — Lives are cheap (17 May 2019)",
+          "url": "https://www.reuters.com/article/world/lives-are-cheap-grief-anger-as-landslide-rocks-myanmars-jade-hills-idUSKCN1SN03K/"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Wikipedia 471 / other 398–465 figures are the combined landslide-plus-dam village loss, not a dam-break-only count. Morakot island totals not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 50,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "xiaolin-landslide-dam-2009-08-09",
+      "name": "Xiaolin (Siaolin) landslide dam",
+      "country": "Taiwan",
+      "region": "Siaolin Village, Jiasian District, Kaohsiung",
+      "location_label": "Siaolin Village, Kaohsiung, Taiwan",
+      "lat": 23.162497,
+      "lng": 120.644388,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Siaolin Village) 23°09′45″N 120°38′40″E",
+      "river_or_facility": "Xiaolin landslide dam / Qishan River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "landslide",
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Wu, Chen and Feng (Landslides 2014) and Wikipedia: Typhoon Morakot debris from Xiandu Mountain dammed the Qishan River at 06:16 on 9 August 2009; the landslide dam overtopped and failed the same morning.",
+      "incident_date": "2009-08-09",
+      "latest_report_date": "2014",
+      "what_happened": "At 06:16 on 9 August 2009, during Typhoon Morakot, a deep-seated landslide on Xiandu Mountain entered the Qishan River above Siaolin (Xiaolin) Village, Kaohsiung, and formed a landslide dam. Wu et al. (Landslides, 2014): deposit area 0.18 km², volume 10.5 million m³, maximum height 50 m; overtopping failure began at 08:03; the dam lasted about 107 minutes. Wikipedia (Siaolin Village): the first slide already covered the northern half of the village; within about 50 minutes the dam failed and a second debris flow covered the rest; 471 people died in the combined incident. The 471 figure is a village-destruction total for landslide plus dam-break and is not copied onto the dam alone.",
+      "status": "Landslide dam gone the same morning; village destroyed.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Siaolin Village (landslide dam; 471 combined village deaths)",
+          "url": "https://en.wikipedia.org/wiki/Siaolin_Village"
+        },
+        {
+          "label": "Wu, Chen, Feng, Landslides 2014 — Xiaolin landslide dam (06:16 form; 08:03 fail)",
+          "url": "https://link.springer.com/article/10.1007/s10346-013-0394-4"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 at this dam. 1999 Chi-Chi ~2,400 island deaths not copied. Not a re-add of Shihgang.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 30.3,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "shuishe-1999-09-21",
+      "name": "Shuishe (Shuishih) Dam, Sun Moon Lake",
+      "country": "Taiwan",
+      "region": "Yuchi Township, Nantou County — Sun Moon Lake",
+      "location_label": "Shuishe Dam, Sun Moon Lake, Nantou, Taiwan",
+      "lat": 23.8627842,
+      "lng": 120.9017446,
+      "geo_accuracy": "exact",
+      "geo_source": "OpenStreetMap (水社壩) 23.8627842, 120.9017446",
+      "river_or_facility": "Shuishe (Shuishih) Dam / Sun Moon Lake",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "J-STAGE reconnaissance of 1999 Chi-Chi (Jiji) earthquake: Shuishe, a 30.3 m earth dam with a vertical concrete core at Sun Moon Lake, had several longitudinal cracks and settlement exceeding 10 cm. It did not breach.",
+      "incident_date": "1999-09-21",
+      "latest_report_date": "2001",
+      "what_happened": "The 21 September 1999 Chi-Chi earthquake (Mw 7.5) damaged several Taiwanese dams. A J-STAGE paper ('On Damage to Dams in Taiwan due to the 1999 Chichi Earthquake') records Shuishe (Shuishih) Dam at Sun Moon Lake as a 30.3 m earth dam with a vertical concrete core that developed several longitudinal cracks and settlement of more than 10 cm. Toushe (19 m) had similar cracking; Liyutan (96 m rockfill) had a 10 cm crest opening and about 10 cm settlement. The paper's catastrophic collapse is Shihgang (already live). Shuishe did not fail as a dam-break. The island earthquake death toll is not copied here.",
+      "status": "Cracked and settled; no breach (J-STAGE).",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "J-STAGE — Chi-Chi earthquake dam damage (Shuishe 30.3 m; cracks, >10 cm settlement)",
+          "url": "https://www.jstage.jst.go.jp/article/jsde1991/10/2/10_2_138/_pdf"
+        },
+        {
+          "label": "Wikipedia — Shigang Dam (same earthquake; already live as shihgang-1999-09-21)",
+          "url": "https://en.wikipedia.org/wiki/Shihgang_Dam"
+        }
+      ],
+      "severity": "minor"
     }
   ]
 }
