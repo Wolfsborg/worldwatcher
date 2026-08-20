@@ -363,8 +363,7 @@
     const q = els.search.value.trim().toLowerCase();
     const cats = activeCategories();
     const cause = els.cause ? els.cause.value : "";
-    const ymin = parseInt(els.yearMin.value, 10);
-    const ymax = parseInt(els.yearMax.value, 10);
+    const [ymin, ymax] = yearPair();
     return all.filter((inc) => {
       const y = yearOf(inc);
       if (y != null && (y < ymin || y > ymax)) return false;
