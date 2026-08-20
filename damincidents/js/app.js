@@ -5,7 +5,7 @@
     dams: {
       id: "dams",
       title: "Dam Incidents",
-      subtitle: "Sourced failures and watches, 1864–2026",
+      subtitle: "Sourced failures and watches",
       dataUrl: "data/incidents.json",
       rowsKey: "incidents",
       statLabel: "Incidents",
@@ -131,6 +131,7 @@
   const markersById = new Map();
   const fallbackMarkersById = new Map();
   let pinNamesEnabled = localStorage.getItem("ww-pin-names") !== "off";
+  let currentTheme = localStorage.getItem("ww-theme") || "dark";
 
 
   function spec() { return LAYERS[layer] || LAYERS.dams; }
@@ -1145,6 +1146,11 @@
       subdomains: "abcd",
       maxZoom: 19,
     });
+    const light = L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: "abcd",
+      maxZoom: 19,
+    });
     const aerial = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
       attribution: "Tiles &copy; Esri",
       maxZoom: 19,
@@ -1153,7 +1159,8 @@
       attribution: "Labels &copy; Esri",
       maxZoom: 19,
     });
-    dark.addTo(map);
+    const baseLayer = currentTheme === "light" ? light : dark;
+    baseLayer.addTo(map);
     let baseMode = "auto";
     let lastAerialState = false;
     function wantAerial() {
@@ -1177,6 +1184,13 @@
         if (markerPane) markerPane.style.zIndex = 650;
       }
       lastAerialState = aerialOn;
+    }
+    function switchBaseLayer() {
+      const isLight = currentTheme === "light";
+      const newBase = isLight ? light : dark;
+      const oldBase = isLight ? dark : light;
+      if (map.hasLayer(oldBase)) map.removeLayer(oldBase);
+      if (!map.hasLayer(newBase) && !wantAerial()) newBase.addTo(map);
     }
     function setBaseMode(mode) {
       baseMode = mode;
@@ -1234,10 +1248,36 @@
     });
     const labelsBox = new LabelsToggle().addTo(map).getContainer();
     
+    const ThemeToggle = L.Control.extend({
+      options: { position: "bottomright" },
+      onAdd: function () {
+        const el = L.DomUtil.create("div", "theme-toggle");
+        el.setAttribute("role", "group");
+        el.setAttribute("aria-label", "Theme");
+        const b = L.DomUtil.create("button", currentTheme === "light" ? "is-active" : "", el);
+        b.type = "button";
+        b.id = "theme-toggle-btn";
+        b.textContent = "Light";
+        b.setAttribute("aria-pressed", currentTheme === "light" ? "true" : "false");
+        L.DomEvent.disableClickPropagation(el);
+        L.DomEvent.on(el, "click", function () {
+          currentTheme = currentTheme === "light" ? "dark" : "light";
+          localStorage.setItem("ww-theme", currentTheme);
+          document.documentElement.setAttribute("data-theme", currentTheme === "light" ? "light" : "");
+          b.classList.toggle("is-active", currentTheme === "light");
+          b.setAttribute("aria-pressed", currentTheme === "light" ? "true" : "false");
+          switchBaseLayer();
+        });
+        return el;
+      }
+    });
+    const themeBox = new ThemeToggle().addTo(map).getContainer();
+    
     const wrap = document.createElement("div");
     wrap.className = "map-controls";
     wrap.appendChild(box);
     wrap.appendChild(labelsBox);
+    wrap.appendChild(themeBox);
     wrap.appendChild(zoom.getContainer());
     document.body.appendChild(wrap);
     map.on("zoomend", syncBase);
@@ -1278,6 +1318,11 @@
     if (years.length) {
       yearBounds.min = Math.min.apply(null, years);
       yearBounds.max = Math.max.apply(null, years);
+    }
+    if (currentLayer === "dams" && els.subtitle && years.length) {
+      els.subtitle.textContent = "Sourced failures and watches, " + formatYear(yearBounds.min) + "–" + formatYear(yearBounds.max);
+    } else if (currentLayer === "floods" && els.subtitle) {
+      els.subtitle.textContent = "Major named floods only";
     }
     els.yearMin.min = yearBounds.min;
     els.yearMin.max = yearBounds.max;
