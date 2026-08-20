@@ -258,7 +258,8 @@
     if (period === "decade") return [y - 9, y];
     if (period === "century") return [2000, y];
     if (period === "historical") return [minB, 1999];
-    if (period === "pre1700") return [minB, Math.min(1699, maxB)];
+    if (period === "pre1900") return [minB, 1899];
+    if (period === "pre1800") return [minB, 1799];
     return [minB, maxB];
   }
 
