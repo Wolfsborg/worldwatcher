@@ -135,8 +135,9 @@
   let globeEnabled = localStorage.getItem("ww-globe") === "on";
   let cesiumViewer = null;
   let cesiumLoaded = false;
-  let cesiumEntities = [];
-  let globeDataSource = null;
+  let globePointPrimitives = null;
+  let globeLabelCollection = null;
+  let globePoints = [];
   let leafletSyncBase = null;
 
 
@@ -1316,6 +1317,7 @@
     };
     script.onerror = function () {
       console.error("Failed to load Cesium");
+      document.body.classList.remove("ww-globe-on");
       globeEnabled = false;
       localStorage.setItem("ww-globe", "off");
       const btn = document.getElementById("globe-toggle-btn");
@@ -1333,6 +1335,7 @@
       const container = document.getElementById("globe");
       container.style.display = "block";
       document.getElementById("map").style.display = "none";
+      document.body.classList.add("ww-globe-on");
       
       cesiumViewer = new Cesium.Viewer(container, {
         baseLayer: false,
@@ -1349,8 +1352,11 @@
         creditContainer: document.createElement("div"),
       });
       
+      cesiumViewer.scene.mode = Cesium.SceneMode.SCENE3D;
       cesiumViewer.scene.globe.enableLighting = false;
+      cesiumViewer.scene.globe.baseColor = Cesium.Color.fromCssColorString("#0b0d10");
       cesiumViewer.scene.backgroundColor = Cesium.Color.fromCssColorString("#0b0d10");
+      cesiumViewer.scene.globe.translucency.enabled = false;
       
       if (cesiumViewer.scene.skyBox) cesiumViewer.scene.skyBox.show = false;
       if (cesiumViewer.scene.sun) cesiumViewer.scene.sun.show = false;
@@ -1363,8 +1369,8 @@
         })
       );
       
-      globeDataSource = new Cesium.CustomDataSource("dams");
-      cesiumViewer.dataSources.add(globeDataSource);
+      globePointPrimitives = cesiumViewer.scene.primitives.add(new Cesium.PointPrimitiveCollection());
+      globeLabelCollection = cesiumViewer.scene.primitives.add(new Cesium.LabelCollection());
       
       cesiumViewer.scene.camera.moveEnd.addEventListener(function () {
         updateGlobeLabels();
@@ -1374,14 +1380,15 @@
       const handler = new Cesium.ScreenSpaceEventHandler(cesiumViewer.scene.canvas);
       handler.setInputAction(function (movement) {
         const picked = cesiumViewer.scene.pick(movement.position);
-        if (picked && picked.id && picked.id._incidentId) {
-          selectIncident(picked.id._incidentId, { fromMap: true });
+        if (picked && picked.primitive && picked.primitive._incidentId) {
+          selectIncident(picked.primitive._incidentId, { fromMap: true });
         }
       }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
       
       cesiumViewer.resize();
     } catch (err) {
       console.error("Failed to initialize Cesium globe:", err);
+      document.body.classList.remove("ww-globe-on");
       document.getElementById("globe").style.display = "none";
       document.getElementById("map").style.display = "block";
       if (map) map.invalidateSize();
@@ -1393,6 +1400,8 @@
         btn.setAttribute("aria-pressed", "false");
       }
       cesiumViewer = null;
+      globePointPrimitives = null;
+      globeLabelCollection = null;
     }
   }
 
@@ -1454,10 +1463,12 @@
   }
 
   function rebuildGlobeMarkers(rows) {
-    if (!cesiumViewer || !globeDataSource) return;
+    if (!cesiumViewer || !globePointPrimitives || !globeLabelCollection) return;
     try {
-      globeDataSource.entities.removeAll();
-      cesiumEntities = [];
+      globePointPrimitives.removeAll();
+      globeLabelCollection.removeAll();
+      globePoints = [];
+      
       rows.forEach((inc) => {
         if (typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
         const r = markerRadius(inc.deaths);
@@ -1471,35 +1482,38 @@
           cesiumColor = Cesium.Color.fromCssColorString("#4aa3df");
         }
         
-        const entity = globeDataSource.entities.add({
-          position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat, 0),
-          point: {
-            pixelSize: r * 2,
-            color: cesiumColor.withAlpha(uncertain ? 0.55 : 0.88),
-            outlineColor: Cesium.Color.fromCssColorString("#f3efe6").withAlpha(0.85),
-            outlineWidth: 1.5,
-            disableDepthTestDistance: Number.POSITIVE_INFINITY,
-          },
-          label: new Cesium.LabelGraphics({
-            text: inc.name,
-            font: "11px sans-serif",
-            fillColor: Cesium.Color.fromCssColorString("#f3efe6"),
-            backgroundColor: Cesium.Color.fromCssColorString("rgba(11, 13, 16, 0.85)"),
-            backgroundPadding: new Cesium.Cartesian2(8, 3),
-            style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-            outlineColor: Cesium.Color.fromCssColorString("rgba(243, 239, 230, 0.22)"),
-            outlineWidth: 1,
-            pixelOffset: new Cesium.Cartesian2(0, -20),
-            disableDepthTestDistance: Number.POSITIVE_INFINITY,
-            showBackground: true,
-            show: false,
-          }),
+        const point = globePointPrimitives.add({
+          position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat, 2500),
+          pixelSize: r * 2,
+          color: cesiumColor.withAlpha(uncertain ? 0.55 : 0.88),
+          outlineColor: Cesium.Color.fromCssColorString("#f3efe6").withAlpha(0.85),
+          outlineWidth: 1.5,
+          disableDepthTestDistance: Number.POSITIVE_INFINITY,
         });
-        entity._incidentId = inc.id;
-        entity._incidentName = inc.name;
-        entity._incidentLat = inc.lat;
-        entity._incidentLng = inc.lng;
-        cesiumEntities.push(entity);
+        point._incidentId = inc.id;
+        
+        const label = globeLabelCollection.add({
+          position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat, 2500),
+          text: inc.name,
+          font: "11px sans-serif",
+          fillColor: Cesium.Color.fromCssColorString("#f3efe6"),
+          backgroundColor: Cesium.Color.fromCssColorString("rgba(11, 13, 16, 0.85)"),
+          backgroundPadding: new Cesium.Cartesian2(8, 3),
+          style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+          outlineColor: Cesium.Color.fromCssColorString("rgba(243, 239, 230, 0.22)"),
+          outlineWidth: 1,
+          pixelOffset: new Cesium.Cartesian2(0, -20),
+          disableDepthTestDistance: Number.POSITIVE_INFINITY,
+          showBackground: true,
+          show: false,
+        });
+        
+        globePoints.push({
+          point: point,
+          label: label,
+          lat: inc.lat,
+          lng: inc.lng,
+        });
       });
       updateGlobeLabels();
     } catch (err) {
@@ -1513,19 +1527,17 @@
     const height = camera.positionCartographic.height;
     const showLabels = height < 2e6 && pinNamesEnabled;
     if (!showLabels) {
-      cesiumEntities.forEach((entity) => {
-        if (entity.label) entity.label.show = false;
+      globePoints.forEach((item) => {
+        if (item.label) item.label.show = false;
       });
       return;
     }
     const viewRect = camera.computeViewRectangle();
     if (!viewRect) return;
-    cesiumEntities.forEach((entity) => {
-      if (!entity.label) return;
-      const lng = entity._incidentLng;
-      const lat = entity._incidentLat;
-      const inView = Cesium.Rectangle.contains(viewRect, Cesium.Cartographic.fromDegrees(lng, lat));
-      entity.label.show = inView;
+    globePoints.forEach((item) => {
+      if (!item.label) return;
+      const inView = Cesium.Rectangle.contains(viewRect, Cesium.Cartographic.fromDegrees(item.lng, item.lat));
+      item.label.show = inView;
     });
   }
 
@@ -1558,6 +1570,7 @@
 
   function showGlobe() {
     if (!cesiumViewer) return;
+    document.body.classList.add("ww-globe-on");
     document.getElementById("map").style.display = "none";
     document.getElementById("globe").style.display = "block";
     cesiumViewer.resize();
@@ -1579,6 +1592,7 @@
   }
 
   function hideGlobe() {
+    document.body.classList.remove("ww-globe-on");
     document.getElementById("globe").style.display = "none";
     document.getElementById("map").style.display = "block";
     if (map) {

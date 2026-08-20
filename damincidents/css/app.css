@@ -86,6 +86,22 @@ html, body {
   height: 100% !important;
 }
 
+body.ww-globe-on #map,
+body.ww-globe-on #map.leaflet-container {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  z-index: -2 !important;
+}
+
+body.ww-globe-on #globe {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 1 !important;
+  background: #0b0d10;
+}
+
 .panel {
   background: var(--panel);
   backdrop-filter: blur(16px);
