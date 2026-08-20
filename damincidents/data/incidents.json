@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1393,
+  "count": 1414,
   "current_count": 28,
-  "historical_count": 1365,
+  "historical_count": 1386,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -76255,6 +76255,1217 @@
       "downstream_risk": "Garnett Valley; Peach Orchard Road; Okanagan Lake shore",
       "economic_damage": null,
       "investigating_agency": null
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 1 (Nelani Koefer) from Wikipedia Blackwater and ABC/coroner. Do not copy any regional flood total.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "SunWater",
+      "year_built": "raised 1997 (SunWater Nogoa–Mackenzie weirs page)",
+      "height_m": null,
+      "reservoir_capacity": "19,973 ML (SunWater Bedford Weir)",
+      "construction": "concrete",
+      "purpose": "irrigation",
+      "volume_released": "more than 6,000 ML (ABC 25 Nov 2008; Wikipedia Blackwater)",
+      "breach_size": null,
+      "downstream_risk": "Recreation area immediately downstream of the weir",
+      "economic_damage": null,
+      "investigating_agency": "Queensland State Coroner; Workplace Health and Safety Queensland",
+      "verification": "confirmed",
+      "id": "bedford-weir-2008-11-23",
+      "name": "Bedford Weir inflatable rubber dam (fabridam) collapse",
+      "country": "Australia",
+      "region": "Mackenzie River about 25 km north of Blackwater, Central Highlands, Queensland",
+      "location_label": "Bedford Weir, Mackenzie River, Blackwater, Queensland, Australia",
+      "lat": -23.372499,
+      "lng": 148.838882,
+      "geo_accuracy": "site",
+      "geo_source": "ExplorOz Bedford Weir QLD 23°22′21″S 148°50′20″E (weir campground on Blackwater–Cooroorah Road at the weir)",
+      "river_or_facility": "Bedford Weir / Nogoa–Mackenzie scheme; Mackenzie River",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Queensland coroner (17 Mar 2016): collapse caused by a manufacturing fault in the Trelleborg inflatable rubber barrier. ABC inquest: leaks and internal cracks reported in years before the burst.",
+      "incident_date": "2008-11-23",
+      "latest_report_date": "2016-03-17",
+      "what_happened": "Wikipedia Blackwater and ABC: on 23 November 2008 a fabridam / inflatable rubber barrier on SunWater’s Bedford Weir on the Mackenzie River near Blackwater suddenly failed, releasing about 6,000 ML into a popular recreation area. Four-year-old Nelani Koefer, paddling downstream, was swept away and drowned; her body was recovered the next day. ABC 25 Nov 2008: Premier Bligh ordered the weir drained so the bladder underside could be inspected. A 2015–16 coronial inquest found a manufacturing fault; the coroner advised that such inflatable walls should be removed and not used again. In 2013 SunWater and Trelleborg were each fined $80,000 under workplace-safety law. SunWater later decommissioned the Bedford rubber dam and deflated similar bags at other weirs.",
+      "status": "Rubber dam removed / decommissioned; concrete weir remains (SunWater).",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "Wikipedia — Blackwater, Queensland (2008 Bedford Weir fabridam failure; 6,000 ML; Nelani Koefer)",
+          "url": "https://en.wikipedia.org/wiki/Blackwater,_Queensland"
+        },
+        {
+          "label": "ABC News 25 Nov 2008 — Weir to be drained after child drowns (6,000 ML)",
+          "url": "https://www.abc.net.au/news/2008-11-25/weir-to-be-drained-after-child-drowns/217858"
+        },
+        {
+          "label": "ABC News 18 Mar 2016 — Coroner warns against inflatable barriers",
+          "url": "https://www.abc.net.au/news/2016-03-18/nelani-koefer-inquest-coroner-warns-against-inflatable-barriers/7258726"
+        },
+        {
+          "label": "SunWater — Nogoa Mackenzie weirs (Bedford Weir 19,973 ML)",
+          "url": "https://www.sunwater.com.au/weirs-and-barrages/nogoa-mackenzie/"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Water Power says no loss of life; that is not rewritten as 0. Distinct from the 1999 rupture.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Delta Electricity (then); EnergyAustralia (later)",
+      "year_built": "1982–83; rubber dams 1994",
+      "height_m": 50,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "water_supply",
+      "volume_released": "about 1,600 ML (International Water Power)",
+      "breach_size": null,
+      "downstream_risk": "Coxs River about 2 km below the dam",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lyell-dam-1997-02",
+      "name": "Lyell Dam inflatable rubber dam uncontrolled deflation (1997)",
+      "country": "Australia",
+      "region": "Coxs River about 8 km south-west of Lithgow, New South Wales",
+      "location_label": "Lyell Dam / Lake Lyell, Coxs River, Lithgow, NSW, Australia",
+      "lat": -33.525003,
+      "lng": 150.077225,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikidata Lake Lyell Q1800985 33°31′30.01″S 150°4′38.01″E (lake; dam and spillway at the southern end)",
+      "river_or_facility": "Lyell (Lilyvale) Dam / Lake Lyell; Coxs River Water Supply Scheme",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "structural_design"
+      ],
+      "cause_summary": "International Water Power: February 1997 uncontrolled deflation most probably from a software malfunction in the programmable logic controller. ANCOLD 2000 paper: design deficiencies in the control system.",
+      "incident_date": "1997-02",
+      "latest_report_date": "2001",
+      "what_happened": "Lyell Dam is a concrete-faced rockfill dam completed 1982–83 on the Coxs River near Lithgow to supply cooling water to Wallerawang and Mount Piper power stations (ANCOLD; International Water Power). In 1994 two 40 m × 3.5 m inflatable rubber dams were added on the spillway crest. In February 1997 a spontaneous uncontrolled deflation released about 1,600 ML over five hours (Water Power); the river 2 km downstream rose 2.3 m with a peak of 120 m³/s. Investigation blamed the automatic-deflation PLC. Bags later re-inflated. A second, separate rupture on 11 April 1999 is recorded as lyell-dam-1999-04-11. Water Power: neither incident caused loss of life; only minor downstream property damage.",
+      "status": "Rubber dams later removed; Hydroplus fusegates installed (ANCOLD 2001/2002).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "International Water Power — Defusing the situation (Feb 1997 1,600 ML; 11 Apr 1999 6,000 ML)",
+          "url": "https://www.waterpowermagazine.com/analysis/defusing-the-situation/"
+        },
+        {
+          "label": "ANCOLD 2000 — Lyell Dam Rubber Dam Incidents",
+          "url": "https://ancold.org.au/product/2000-lyell-dam-rubber-dam-incidents/"
+        },
+        {
+          "label": "ANCOLD 2001 — Restoration of Storage Capacity at Lyell Dam",
+          "url": "https://ancold.org.au/product/2001-restoration-of-storage-capacity-at-lyell-dam/"
+        },
+        {
+          "label": "Wikidata — Lake Lyell Q1800985 33°31′30.01″S 150°4′38.01″E",
+          "url": "https://www.wikidata.org/wiki/Q1800985"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from lyell-dam-1997-02.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Delta Electricity (then); EnergyAustralia (later)",
+      "year_built": "1982–83; rubber dams 1994",
+      "height_m": 50,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "water_supply",
+      "volume_released": "almost 6,000 ML (International Water Power; ANCOLD 2000)",
+      "breach_size": null,
+      "downstream_risk": "Coxs River about 2 km below the dam",
+      "economic_damage": null,
+      "investigating_agency": "Delta Electricity post-failure inspection; Dam Safety Emergency Plan activated",
+      "verification": "confirmed",
+      "id": "lyell-dam-1999-04-11",
+      "name": "Lyell Dam inflatable rubber dam rupture (1999)",
+      "country": "Australia",
+      "region": "Coxs River about 8 km south-west of Lithgow, New South Wales",
+      "location_label": "Lyell Dam / Lake Lyell, Coxs River, Lithgow, NSW, Australia",
+      "lat": -33.525003,
+      "lng": 150.077225,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikidata Lake Lyell Q1800985 33°31′30.01″S 150°4′38.01″E (lake; dam and spillway at the southern end)",
+      "river_or_facility": "Lyell (Lilyvale) Dam / Lake Lyell; Coxs River Water Supply Scheme",
+      "type": "spillway",
+      "category": "failure",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "International Water Power and ANCOLD 2000: spontaneous rupture of one rubber dam on 11 April 1999 from a manufacturing defect (air pocket in the rubber layers expanding in sun).",
+      "incident_date": "1999-04-11",
+      "latest_report_date": "2002",
+      "what_happened": "On Sunday 11 April 1999 the other Lyell spillway rubber dam ruptured without warning and deflated instantaneously, releasing almost 6,000 ML (Water Power; ANCOLD 2000). About 2 km downstream the river rose 2.5 m with a peak of 150 m³/s. The Dam Safety Emergency Plan was activated. Post-failure inspection pointed to a manufacturing defect. Rubber dams were not re-inflated; Delta Electricity later restored storage with Hydroplus fusegates (ANCOLD 2001/2002). Water Power: no loss of life; only minor downstream property damage. Distinct from the February 1997 PLC deflation.",
+      "status": "Rubber dams permanently removed; fusegates installed.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "International Water Power — Defusing the situation (11 Apr 1999 rupture; 6,000 ML)",
+          "url": "https://www.waterpowermagazine.com/analysis/defusing-the-situation/"
+        },
+        {
+          "label": "ANCOLD 2000 — Lyell Dam Rubber Dam Incidents",
+          "url": "https://ancold.org.au/product/2000-lyell-dam-rubber-dam-incidents/"
+        },
+        {
+          "label": "ANCOLD 2001 — Restoration of Storage Capacity at Lyell Dam",
+          "url": "https://ancold.org.au/product/2001-restoration-of-storage-capacity-at-lyell-dam/"
+        },
+        {
+          "label": "Wikidata — Lake Lyell Q1800985",
+          "url": "https://www.wikidata.org/wiki/Q1800985"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Tunbridge residents evacuated (ABC 10 Apr 2006)",
+      "notes": "Deaths null. Piping incident, not a breach. Town pin used; dam is immediately upstream of Tunbridge on the Blackman River.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "2003–2004",
+      "height_m": 27,
+      "reservoir_capacity": "about 7,300 ML (ANCOLD 2011)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Tasmania Department of Primary Industries and Water (ABC 2006); ANCOLD case paper 2011",
+      "verification": "confirmed",
+      "id": "blackman-dam-2005-10-13",
+      "name": "Blackman Dam (Tunbridge) piping incident",
+      "country": "Australia",
+      "region": "Blackman River upstream of Tunbridge, Tasmanian Midlands",
+      "location_label": "Blackman Dam, upstream of Tunbridge, Tasmania, Australia",
+      "lat": -42.1268,
+      "lng": 147.4468,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Tunbridge 42°07′36″S 147°26′48″E (township; Wikipedia: Blackman River flows through via the Blackman Dam; ANCOLD: dam is upstream of Tunbridge)",
+      "river_or_facility": "Blackman Dam / Blackman River Dam",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion",
+        "construction_first_filling",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ANCOLD 2011: after substantial first filling and a heavy rain, seepage on the far left abutment rose from garden-hose to 100 mm pipe flow and discoloured — piping. Emergency drawdown avoided a breach.",
+      "incident_date": "2005-10-13",
+      "latest_report_date": "2011",
+      "what_happened": "ANCOLD 2011 (Hanslow & Brett): Blackman Dam is a 27 m zoned earthfill irrigation dam (about 7,300 ML; High C) built November 2003–September 2004 upstream of Tunbridge. Filling began in 2005. On the morning of Thursday 13 October 2005 operators reported garden-hose seepage on the far left abutment; by mid-afternoon it was 100 mm pipe flow and discoloured. The Dam Safety Emergency Plan was activated. A breach was avoided. ABC 10 Apr 2006: residents of Tunbridge were evacuated the previous October after the dam began to leak; by April 2006 storage was about 1,000 ML (one-fifth) so investigation could start. Embankment repairs were completed by mid-2010; first filling after repair in 2011 (ANCOLD). No source fetched gave a death count.",
+      "status": "Repaired by mid-2010; refilled 2011 (ANCOLD).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ANCOLD 2011 — Blackman Dam Failure Emergency Management (13 Oct 2005 piping)",
+          "url": "https://ancold.org.au/product/2011-blackman-dam-failure-emergency-management/"
+        },
+        {
+          "label": "ABC News 10 Apr 2006 — Damaged Tunbridge Dam able to meet needs",
+          "url": "https://www.abc.net.au/news/2006-04-10/damaged-tunbridge-dam-able-to-meet-needs/1727638"
+        },
+        {
+          "label": "Wikipedia — Tunbridge, Tasmania (Blackman River via Blackman Dam; 42°07′36″S 147°26′48″E)",
+          "url": "https://en.wikipedia.org/wiki/Tunbridge,_Tasmania"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Overtopping incident, not a breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Hepburn Shire Council",
+      "year_built": "1929",
+      "height_m": 12,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lake-daylesford-2000-10-24",
+      "name": "Lake Daylesford Dam overtopping",
+      "country": "Australia",
+      "region": "Daylesford, Hepburn Shire, central Victoria",
+      "location_label": "Lake Daylesford Dam, Wombat Creek, Daylesford, Victoria, Australia",
+      "lat": -37.34722,
+      "lng": 144.13778,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Lake Daylesford 37°20′50″S 144°08′16″E",
+      "river_or_facility": "Daylesford Dam / Lake Daylesford; Wombat Creek",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "spillway"
+      ],
+      "cause_summary": "ANCOLD 2002: 24 October 2000 heavy rain overtopped the 12 m embankment. Existing side-channel spillway AEP less than 1 in 20 versus ANCOLD 1 in 1,000 target.",
+      "incident_date": "2000-10-24",
+      "latest_report_date": "2002",
+      "what_happened": "ANCOLD 2002 (Taylor, Maisano & Conway): Daylesford Dam forms ornamental Lake Daylesford on Wombat Creek in the town. On 24 October 2000 the 12 m embankment was overtopped after heavy rain and was in danger of breaching. Hepburn Shire commissioned a safety review, surveillance program and emergency plan. The side-channel spillway (30 m concrete sill into a 5 m unlined trough) could pass only 24 m³/s (AEP < 1 in 20) against a 120 m³/s / 1-in-1,000 ANCOLD target. Wikipedia: dam wall built across Wombat Creek in 1929. No source fetched reported a breach or a death count.",
+      "status": "Overtopped 2000; safety review and upgrade options documented 2002. Lake remains.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ANCOLD 2002 — Lake Daylesford Dam: Safety Review Following Overtopping",
+          "url": "https://ancold.org.au/product/2002-lake-daylesford-dam-safety-review-following-overtopping/"
+        },
+        {
+          "label": "Wikipedia — Lake Daylesford 37°20′50″S 144°08′16″E",
+          "url": "https://en.wikipedia.org/wiki/Lake_Daylesford"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "3 persons isolated upstream (QFCI submission)",
+      "notes": "Deaths null. Gate-operation incident, not a dam-wall failure. Do not copy 2011/2013 regional flood deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Fraser Coast Regional Council / Wide Bay Water",
+      "year_built": "1984; Stage 2 gates 2007",
+      "height_m": 31.6,
+      "reservoir_capacity": "28,411 ML (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Queensland Floods Commission of Inquiry (Lenthalls chapter)",
+      "verification": "confirmed",
+      "id": "lenthalls-dam-gates-2008-02",
+      "name": "Lenthalls Dam crest-gate seizure (2008)",
+      "country": "Australia",
+      "region": "Burrum River near Duckinwilla, Fraser Coast, Wide Bay-Burnett, Queensland",
+      "location_label": "Lenthalls Dam / Lake Lenthall, Burrum River, Queensland, Australia",
+      "lat": -25.401162,
+      "lng": 152.531691,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Lenthalls Dam 25°24′04″S 152°31′54″E",
+      "river_or_facility": "Lenthalls Dam / Lake Lenthall; Burrum River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate"
+      ],
+      "cause_summary": "Queensland Floods Commission submission: crest gates installed 2007 failed to operate as designed from January 2008; February 2008 flood, all gates inoperable (seal friction).",
+      "incident_date": "2008-02",
+      "latest_report_date": "2012",
+      "what_happened": "Lenthalls Dam (Burrum No. 3) is an earth-and-rockfill water-supply dam for Hervey Bay (Wikipedia: 31.6 m; 28,411 ML; gates added in the 2007 Stage 2 raise). A QFCI public submission on the dam: the 2007 crest gates failed to operate as designed from January 2008; in a February 2008 moderate flood all gates were inoperable and did not lower to release water. Manual operation did not occur. The Emergency Action Plan was not implemented and upstream sites were not evacuated; three people were isolated by upstream flooding 1.4 m over the seized gates. Cause given as seal friction. Wikipedia: a further spillway-gate upgrade was completed in 2015. No source fetched gave a death count. Distinct from the January 2013 flood-of-record spill (lenthalls-dam-2013-01).",
+      "status": "Gates later modified (Wikipedia 2015 upgrade). Dam operational (Fraser Coast / Wide Bay Water).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "QFCI submission — Lenthalls crest gates failed from Jan 2008; Feb 2008 all gates inoperable",
+          "url": "http://www.floodcommission.qld.gov.au/__data/assets/pdf_file/0018/11808/Submission_of_Esther_Allan_with_attachments__undated.PDF"
+        },
+        {
+          "label": "QFCI Final Report Chapter 17 — Other dam issues (Lenthalls)",
+          "url": "http://www.floodcommission.qld.gov.au/__data/assets/pdf_file/0012/11721/QFCI-Final-Report-Chapter-17-Other-dam-issues.pdf"
+        },
+        {
+          "label": "Wikipedia — Lenthalls Dam 25°24′04″S 152°31′54″E",
+          "url": "https://en.wikipedia.org/wiki/Lenthalls_Dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Flood-of-record spill, not a collapse. Distinct from 2008 gate seizure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Fraser Coast Regional Council / Wide Bay Water",
+      "year_built": "1984; Stage 2 2007",
+      "height_m": 31.6,
+      "reservoir_capacity": "28,411 ML (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lenthalls-dam-2013-01",
+      "name": "Lenthalls Dam (January 2013 flood-of-record spill)",
+      "country": "Australia",
+      "region": "Burrum River near Duckinwilla, Fraser Coast, Wide Bay-Burnett, Queensland",
+      "location_label": "Lenthalls Dam / Lake Lenthall, Burrum River, Queensland, Australia",
+      "lat": -25.401162,
+      "lng": 152.531691,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Lenthalls Dam 25°24′04″S 152°31′54″E",
+      "river_or_facility": "Lenthalls Dam / Lake Lenthall; Burrum River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: ex-Tropical Cyclone Oswald, January 2013 — lake reached 30.4 m AHD, 4.4 m over the spillway, highest recorded level.",
+      "incident_date": "2013-01",
+      "latest_report_date": "2025-09-30",
+      "what_happened": "Wikipedia Lenthalls Dam: in January 2013 heavy rain from ex-Tropical Cyclone Oswald took Lake Lenthall to its highest recorded level of 30.4 m AHD, 4.4 m over the spillway. The dam is a 31.6 m earth-and-rockfill water-supply storage (28,411 ML) with five controlled spillway gates. Distinct from the 2008 crest-gate seizure (lenthalls-dam-gates-2008-02). No source fetched reported a dam-wall failure or a death count at this dam. Do not copy Oswald/Burnett regional flood deaths onto this structure.",
+      "status": "Operational; 2015 spillway-gate modifications (Wikipedia).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Lenthalls Dam (Jan 2013 30.4 m AHD; 4.4 m over spillway)",
+          "url": "https://en.wikipedia.org/wiki/Lenthalls_Dam"
+        },
+        {
+          "label": "ANCOLD Register of Large Dams Australia-2015 (cited on Wikipedia row 288)",
+          "url": "https://www.ancold.org.au/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Spillway damage, not a dam-wall collapse. Distinct from the March 1890 overflow.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Board of Waterworks (then); Seqwater (now)",
+      "year_built": "1882–1885",
+      "height_m": 26,
+      "reservoir_capacity": "801 ML (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "gold-creek-spillway-1887-01",
+      "name": "Gold Creek Dam unlined spillway damage (January 1887)",
+      "country": "Australia",
+      "region": "Gold Creek, Brookfield / Brisbane Forest Park, south-east Queensland",
+      "location_label": "Gold Creek Dam, Brookfield, Queensland, Australia",
+      "lat": -27.46083,
+      "lng": 152.88111,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Gold Creek Dam 27°27′39″S 152°52′52″E",
+      "river_or_facility": "Gold Creek Dam / Gold Creek Reservoir",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Chanson & Whitmore: January 1887 large overflow badly damaged the original unlined rock spillway (crude left-abutment channel). A second damaging overflow followed in March 1890.",
+      "incident_date": "1887-01",
+      "latest_report_date": "1998",
+      "what_happened": "Gold Creek Dam is an 1882–85 earthfill Brisbane water-supply dam (Wikipedia: 26 m; 801 ML). Chanson & Whitmore (Canadian Journal of Civil Engineering 1998) and Chanson’s UQ Gold Creek page: the original 1885 spillway was a crude unlined channel on the left abutment. In January 1887 a large overflow (Chanson: about 170 m³/s, then the maximum observed flood) badly damaged the unlined rock. The channel had already been widened 15 m in 1887. A further damaging overflow in March 1890 is a separate record (gold-creek-spillway-1890-03). The 1890 masonry/concrete stepped spillway that followed is described as the world’s first concrete stepped spillway. No death count fetched.",
+      "status": "Spillway rebuilt 1890; later crest lowerings 1975 and 1998. Dam remains (Seqwater).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Gold Creek Dam (Jan 1887 / Mar 1890 spillway damage; 27°27′39″S 152°52′52″E)",
+          "url": "https://en.wikipedia.org/wiki/Gold_Creek_Dam"
+        },
+        {
+          "label": "Chanson UQ — Gold Creek dam and its historical stepped spillway",
+          "url": "https://staff.civil.uq.edu.au/h.chanson/gold_crk.html"
+        },
+        {
+          "label": "Chanson & Whitmore 1998 — Canadian Journal of Civil Engineering (cited on Wikipedia)",
+          "url": "https://doi.org/10.1139/l98-005"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from gold-creek-spillway-1887-01.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Board of Waterworks (then); Seqwater (now)",
+      "year_built": "1882–1885",
+      "height_m": 26,
+      "reservoir_capacity": "801 ML (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "gold-creek-spillway-1890-03",
+      "name": "Gold Creek Dam unlined spillway damage (March 1890)",
+      "country": "Australia",
+      "region": "Gold Creek, Brookfield / Brisbane Forest Park, south-east Queensland",
+      "location_label": "Gold Creek Dam, Brookfield, Queensland, Australia",
+      "lat": -27.46083,
+      "lng": 152.88111,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Gold Creek Dam 27°27′39″S 152°52′52″E",
+      "river_or_facility": "Gold Creek Dam / Gold Creek Reservoir",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Chanson & Whitmore: March 1890 large overflow again badly damaged the unlined rock spillway, after which the 1890 concrete stepped spillway was built.",
+      "incident_date": "1890-03",
+      "latest_report_date": "1998",
+      "what_happened": "A second named damaging overflow at Gold Creek Dam. Wikipedia and Chanson: in March 1890 a large overflow badly damaged the still-unlined rock spillway. As a result a masonry/concrete stepped spillway (twelve 1.5 m steps) was built in 1890 — the first of its type. Distinct from the January 1887 overflow (gold-creek-spillway-1887-01). No death count fetched.",
+      "status": "1890 stepped spillway still in use (with later crest lowerings).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Gold Creek Dam (March 1890 spillway damage)",
+          "url": "https://en.wikipedia.org/wiki/Gold_Creek_Dam"
+        },
+        {
+          "label": "Chanson UQ — Gold Creek historical stepped spillway",
+          "url": "https://staff.civil.uq.edu.au/h.chanson/gold_crk.html"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Leakage into subsoil, not a wall collapse. Cause unknown — sources do not give a mechanism beyond leakage. WISE date used.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Western Mining Corporation (then); BHP (now)",
+      "year_built": "mine opened 1988",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "up to 5 million m³ contaminated water into subsoil (WISE; Wikipedia)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "olympic-dam-1994-02-14",
+      "name": "Olympic Dam tailings containment leakage (1994)",
+      "country": "Australia",
+      "region": "Olympic Dam / Roxby Downs, South Australia",
+      "location_label": "Olympic Dam tailings storage, Roxby Downs, South Australia, Australia",
+      "lat": -30.44,
+      "lng": 136.87306,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Olympic Dam mine 30°26′24″S 136°52′23″E (mine; open-air tailings storage facilities are on the Special Mining Lease at the mine)",
+      "river_or_facility": "Olympic Dam tailings storage facilities",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "WISE chronology 14 Feb 1994: leakage of the tailings dam during two years or more; up to 5 million m³ of contaminated water into subsoil. Wikipedia Tailings dam failure page restates the WMC admission.",
+      "incident_date": "1994-02-14",
+      "latest_report_date": "2019-06-20",
+      "what_happened": "WISE Chronology of major tailings dam failures lists 14 February 1994 at Olympic Dam, Roxby Downs (WMC Ltd.; copper, uranium): leakage of the tailings dam during two years or more, releasing up to 5 million m³ of contaminated water into the subsoil. Wikipedia Tailings dam failure: in 1994 Western Mining Corporation admitted the uranium tailings containment had released up to 5 million m³ into the subsoil. This is a dated leakage into the ground, not a structural embankment collapse. No death count fetched. ABC 2019 later reported BHP rating Olympic Dam TSFs 1–4 as extreme consequence; that is a risk rating, not this 1994 event.",
+      "status": "Mine and TSFs still operating (BHP). 1994 event was leakage, not a collapse.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WISE — Chronology of major tailings dam failures (14 Feb 1994 Olympic Dam; ≤5 million m³)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Wikipedia — Tailings dam failure (1994 WMC Olympic Dam admission)",
+          "url": "https://en.wikipedia.org/wiki/Tailings_dam_failure"
+        },
+        {
+          "label": "Wikipedia — Olympic Dam mine 30°26′24″S 136°52′23″E",
+          "url": "https://en.wikipedia.org/wiki/Olympic_Dam_mine"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Incident / precautionary drawdown, not a collapse.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Murray–Darling Basin Authority (Goulburn-Murray Water / WaterNSW operators)",
+      "year_built": "1919–1936; enlarged 1950–1961",
+      "height_m": 51,
+      "reservoir_capacity": "3,036,500 ML (Wikipedia)",
+      "construction": "concrete_gravity",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Murray–Darling Basin Commission / Authority",
+      "verification": "confirmed",
+      "id": "hume-dam-1996",
+      "name": "Hume Dam southern-junction movement and precautionary drawdown",
+      "country": "Australia",
+      "region": "Murray River at the NSW/Victoria border, about 11 km east of Albury",
+      "location_label": "Hume Dam / Lake Hume, Albury–Wodonga, Australia",
+      "lat": -36.10833,
+      "lng": 147.03111,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Hume Dam 36°06′30″S 147°01′52″E",
+      "river_or_facility": "Hume Dam / Lake Hume; Murray River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "foundation"
+      ],
+      "cause_summary": "MDBA and MDBC 7 Oct 1996: monitoring during grouting at the southern embankment–spillway junction detected about 5 mm core-wall movement; water level lowered 5 m as a precaution while remedial works were brought forward.",
+      "incident_date": "1996-10",
+      "latest_report_date": "2013",
+      "what_happened": "Wikipedia Hume Dam and MDBA: early-1990s monitoring showed leakage and slight foundation movement at the southern embankment / concrete spillway junction. MDBC media release 7 October 1996: during grouting to improve the seal, 5 mm movement of the core wall was recorded; planned strengthening of the main embankment and concrete training wall was brought forward and the reservoir was lowered. MDBA: the water level was lowered 5 m; initial remedial works finished November 1997 and the program completed 2003. Further filter/drainage and buttress works ran 2007–2013 (ANCOLD 2011). Authorities denied an immediate collapse threat. No source fetched reported a breach or a death count. This is a dam-safety incident and precautionary drawdown, not a failure.",
+      "status": "Remedial works 1996–2003 and 2007–2013 completed. Dam operational (MDBA).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Hume Dam (1990s movement; 2007–2013 upgrades; 36°06′30″S 147°01′52″E)",
+          "url": "https://en.wikipedia.org/wiki/Hume_Dam"
+        },
+        {
+          "label": "MDBA — Hume Dam (1996 5 m drawdown after junction movement)",
+          "url": "https://www.mdba.gov.au/water-management/infrastructure/hume-dam"
+        },
+        {
+          "label": "MDBC media release 7 Oct 1996 — 5 mm core-wall movement; works brought forward",
+          "url": "http://www.albury.net.au/MDBC7oct.htm"
+        },
+        {
+          "label": "ANCOLD 2011 — Hume Dam Spillway Southern Junction Filter and Drainage Works",
+          "url": "https://ancold.org.au/product/2011-hume-dam-spillway-southern-junction-filter-and-drainage-works/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "98 properties near Tumbarumba evacuated (ABC 16 Oct 2010)",
+      "notes": "Deaths null. Locality pin used for the named lake at Mannus. Do not copy 2010 NSW flood-cluster deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Tumbarumba Shire (then); Snowy Valleys Council (later)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": "about one third of the wall washed away (Wikipedia Mannus)",
+      "downstream_risk": "Mannus Creek; Tumbarumba district; Murray system",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mannus-dam-2010-10-16",
+      "name": "Mannus Dam / Lake Mannus overtopping failure",
+      "country": "Australia",
+      "region": "Mannus, about 9 km west of Tumbarumba, Snowy Valleys, New South Wales",
+      "location_label": "Lake Mannus Dam, Mannus, NSW, Australia",
+      "lat": -35.79917,
+      "lng": 147.93722,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Mannus, New South Wales 35°47′57″S 147°56′14″E (locality; Wikipedia describes the lake/dam failure at Mannus)",
+      "river_or_facility": "Mannus Dam / Lake Mannus; Mannus Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Wikipedia Mannus: October 2010 runoff put about 600 mm of water over the dam wall (about 3 m above the spillway); about one third of the wall washed away on 16 October. ABC: SES called it a controlled rather than catastrophic failure.",
+      "incident_date": "2010-10-16",
+      "latest_report_date": "2010-12-14",
+      "what_happened": "Wikipedia Mannus: after days of rain in October 2010, Mannus Lake overtopped — about 600 mm over the wall, about 3 m above the spillway. About one third of the wall was washed away early on Saturday 16 October 2010, emptying the lake. ABC 15 Oct 2010: SES controller James McTavish said the dam had failed but rather than a catastrophic failure it was controlled; water proceeded down Mannus Creek toward the Murray. About 98 properties near Tumbarumba were evacuated. ABC 14 Dec 2010: the wall broke in the October floods; council discussed a $2–6 million rebuild. Leed later reconstructed the embankment and spillways and increased capacity to 2,350 ML. No death or injury count fetched.",
+      "status": "Failed 2010; later reconstructed (Leed / Snowy Valleys / NSW Public Works).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Mannus, New South Wales (16 Oct 2010; one third of wall; 35°47′57″S 147°56′14″E)",
+          "url": "https://en.wikipedia.org/wiki/Mannus,_New_South_Wales"
+        },
+        {
+          "label": "ABC News 15 Oct 2010 — dam near Tumbarumba has failed; controlled",
+          "url": "https://www.abc.net.au/news/2010-10-15/flooding-isolates-nsw-towns/2299838"
+        },
+        {
+          "label": "ABC News 16 Oct 2010 — 98 properties evacuated",
+          "url": "https://www.abc.net.au/news/2010-10-16/residents-flee-as-creek-bursts-banks/2300224"
+        },
+        {
+          "label": "ABC News 14 Dec 2010 — up to $6m to rebuild Mannus Dam",
+          "url": "https://www.abc.net.au/news/2010-12-14/up-to-6m-to-rebuild-tumbarumbas-mannus-dam/2373140"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "nine properties evacuated; about 250 homes warned (ABC / Brisbane Times)",
+      "notes": "Deaths null. Locality-centre pin; dam is on Dalrymple Creek at Talgai, not a Warwick centroid. Named leftover farm dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Joe Bolzan / Bolzan family farm",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "430 ML (ABC); some reports 433 ML",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "hole about 3.5 m × 1.5 m, later about 4.5–5 m (ABC/AAP); wall did not fully collapse",
+      "downstream_risk": "Talgai West Road / Dalrymple Creek Road properties",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "bolzan-quarry-2020-02-14",
+      "name": "Bolzan irrigation dam (Talgai) wall hole",
+      "country": "Australia",
+      "region": "Dalrymple Creek near Talgai, about 30 km north-west of Warwick, Southern Downs, Queensland",
+      "location_label": "Bolzan farm irrigation dam, Talgai, Queensland, Australia",
+      "lat": -28.0391,
+      "lng": 151.8819,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Talgai, Queensland 28°02′21″S 151°52′55″E (centre of locality; ABC: dam on the Bolzan family farm on Dalrymple Creek near Talgai, flood expected between Talgai West Road and Dalrymple Creek Road)",
+      "river_or_facility": "Bolzan Quarry Dam (name used by council; ABC: irrigation dam on the Bolzan farm, not linked to a quarry); Dalrymple Creek",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "ABC/AAP: landowner spotted a 3.5 m × 1.5 m hole in the earth wall on 14 Feb 2020 after the 430 ML dam was at capacity. AAP: prolonged drought may have dried and cracked the clay liner.",
+      "incident_date": "2020-02-14",
+      "latest_report_date": "2020-02-16",
+      "what_happened": "ABC 15 Feb 2020: an emergency warning was issued after a 3.5 m by 1.5 m hole formed in the side of a 430 ML irrigation dam on the Bolzan family farm on Dalrymple Creek near Talgai, about 30 km north of Warwick. Rebecca Bolzan said her father Joe Bolzan spotted the hole about 17:00 Friday and that the dam was not linked to a quarry. Council named it Bolzan Quarry Dam. About 250 homes were warned; nine properties between Talgai West Road and Dalrymple Creek Road were evacuated. The hole grew to about 4.5–5 m (AAP 16 Feb). Water gushed; level dropped about 25% overnight. The wall did not fully collapse. Police revoked the emergency declaration on Sunday 16 Feb. No death count fetched.",
+      "status": "Partial hole in the earth wall; full collapse did not occur. Emergency declaration revoked 16 Feb 2020.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ABC News 15 Feb 2020 — hole in 430 ML Bolzan farm dam at Talgai",
+          "url": "https://www.abc.net.au/news/2020-02-15/locals-evacuate-from-queensland-dam-failure-at-talgai/11968580"
+        },
+        {
+          "label": "ABC News 16 Feb 2020 — emergency declaration revoked",
+          "url": "https://www.abc.net.au/news/2020-02-16/residents-allowed-to-return-to-area-near-leaking-talgai-dam/11969788"
+        },
+        {
+          "label": "Brisbane Times 15 Feb 2020 — Bolzan Quarry Dam",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/dam-expected-to-fail-residents-told-to-flee-talgai-flood-20200215-p5412a.html"
+        },
+        {
+          "label": "Wikipedia — Talgai, Queensland 28°02′21″S 151°52′55″E",
+          "url": "https://en.wikipedia.org/wiki/Talgai,_Queensland"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year-only date (first filling after 1967/68 commissioning). Piping incident, not a breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Hydro Tasmania",
+      "year_built": "1963–1967",
+      "height_m": 43,
+      "reservoir_capacity": "130.49 GL (Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Hydro Tasmania / Entura portfolio risk assessment",
+      "verification": "confirmed",
+      "id": "rowallan-piping-1968",
+      "name": "Rowallan Dam first-filling piping (adjacent to spillway walls)",
+      "country": "Australia",
+      "region": "Mersey River, about 25 km south of Liena, northern Tasmania",
+      "location_label": "Rowallan Dam, Lake Rowallan, Mersey River, Tasmania, Australia",
+      "lat": -41.73081,
+      "lng": 146.215357,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Rowallan Dam 41°43′51″S 146°12′55″E",
+      "river_or_facility": "Rowallan Dam / Lake Rowallan; Mersey–Forth scheme",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Entura: the dam suffered a piping incident adjacent to the spillway walls when it was first filled. Filters were later judged not to meet modern standards.",
+      "incident_date": "1968",
+      "latest_report_date": "2015-04-16",
+      "what_happened": "Wikipedia Rowallan Dam: 43 m earth-faced rockfill on the Mersey, completed 1967, commissioned for hydro in 1968 (Hydro Tasmania). Entura: a 2006 portfolio risk assessment flagged a relatively high piping probability; the dam had suffered a piping incident adjacent to the spillway walls on first filling. Wikipedia also records 2010 leakage reports and 2013 wall movement of millimetres, leading to 2012–15 spillway and crest-to-foundation reconstruction (ABC 16 Apr 2015: $13.4 million upgrade). This record is the first-filling piping incident. No source fetched gave a day or a death count.",
+      "status": "Major upgrade completed 2015 (Hydro Tasmania / Entura). Operational.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Entura — Using risk assessment to guide dam safety upgrades (first-fill piping at spillway walls)",
+          "url": "https://entura.com.au/using-risk-assessment-to-guide-dam-safety-upgrades/"
+        },
+        {
+          "label": "Wikipedia — Rowallan Dam 41°43′51″S 146°12′55″E (1967; 2010 leak; 2013 movement; 2015 rebuild)",
+          "url": "https://en.wikipedia.org/wiki/Rowallan_Dam"
+        },
+        {
+          "label": "ABC News 16 Apr 2015 — Rowallan upgrade",
+          "url": "https://www.abc.net.au/news/2015-04-16/rowellan-dam-to-last-another-150-years-after-upgrade/6398454"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from paradise-burnett-2013-01. Do not copy SEQ/Burnett 2011 flood deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Burnett Water / Sunwater",
+      "year_built": "2003–2005",
+      "height_m": 37,
+      "reservoir_capacity": "300,000 ML (original FSL)",
+      "construction": "concrete_gravity",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Paradise Dam Commission of Inquiry (2020)",
+      "verification": "confirmed",
+      "id": "paradise-2011-01",
+      "name": "Paradise Dam (Burnett River) 2010–11 spillway-apron damage",
+      "country": "Australia",
+      "region": "Burnett River near Biggenden, Wide Bay-Burnett, Queensland",
+      "location_label": "Paradise Dam, Burnett River, Queensland, Australia",
+      "lat": -25.350231,
+      "lng": 151.918602,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Paradise Dam (Queensland) 25.350231°S 151.918602°E",
+      "river_or_facility": "Paradise Dam / Burnett River Dam; Lake Paradise",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Paradise Dam Commission of Inquiry 2020 and 2013 dam-safety review: the Dec 2010–Jan 2011 flood (about 1-in-30 AEP) damaged the primary spillway apron by abrasion from rock and gravel (ball milling), lesser than the 2013 event.",
+      "incident_date": "2011-01",
+      "latest_report_date": "2020",
+      "what_happened": "Paradise Dam first filled in March 2010. The 2020 Commission of Inquiry treats the December 2010–January 2011 flood as a separate event from January 2013 (already recorded as paradise-burnett-2013-01). Both damaged the primary spillway apron. The 2011 event was about a 1-in-30 AEP (composite modelling paper) and caused abrasion of the 20 m apron and some training-wall/fishway damage (create digital / inquiry). The 2013 event was larger (about 1-in-170) and removed the end sill and scoured a 13 m hole — that is the existing 2013 record. No death count at the dam. Do not copy 2011 Queensland flood-cluster deaths onto this structure.",
+      "status": "Apron damaged 2011; more severe 2013 damage led to later spillway lowering and a recommended replacement (see paradise-burnett-2013-01).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Paradise Dam Commission of Inquiry Report 2020 (2011 event vs 2013 event)",
+          "url": "https://www.paradisedaminquiry.qld.gov.au/__data/assets/pdf_file/0008/1529081/report-april-2020.pdf"
+        },
+        {
+          "label": "Wikipedia — Paradise Dam (Queensland) 25.350231°S 151.918602°E",
+          "url": "https://en.wikipedia.org/wiki/Paradise_Dam_(Queensland)"
+        },
+        {
+          "label": "2013 dam-safety review — 2010/11 apron abrasion vs 2013 destruction",
+          "url": "https://www.southburnett.biz/pdfs/2013damreview.pdf"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Campbelltown pin is the sourced ‘near Campbelltown / 11 km from Adelaide’ location; the 1860 weir is a different site and is not used as this pin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "South Australian Water Commission / colonial Waterworks Department",
+      "year_built": "1857–1858",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "1858 Public Enquiry (SA Parliamentary Papers 19 and 73); SA Department of Mines 1977 note",
+      "verification": "confirmed",
+      "id": "torrens-gorge-weir-1858-07",
+      "name": "Torrens Gorge water-supply weir (1858 foundation failure)",
+      "country": "Australia",
+      "region": "River Torrens about 11 km from Adelaide near Campbelltown, South Australia",
+      "location_label": "1858 Torrens Gorge weir site near Campbelltown, South Australia, Australia",
+      "lat": -34.878,
+      "lng": 138.663,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Campbelltown, South Australia 34°52′41″S 138°39′47″E; Wikipedia River Torrens: 1858 supply weir 11 km from Adelaide near Campbelltown (site later abandoned; 1860 replacement weir was 16 km from the city — not this pin)",
+      "river_or_facility": "1858 Torrens Gorge water-supply weir; River Torrens (intended feed to Thorndon Park Reservoir)",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "construction_first_filling"
+      ],
+      "cause_summary": "SA Department of Mines RB 77/14 and Wikipedia River Torrens: unsuitable geology and poor contractor work; July 1858 test produced jets through foundation fissures; structure washed away / abandoned.",
+      "incident_date": "1858-07",
+      "latest_report_date": "1977",
+      "what_happened": "Wikipedia River Torrens: after the 1856 Waterworks Act, foundations were laid for Adelaide’s first major supply weir 11 km from the city near Campbelltown. Unsuitable geology and shoddy work by contractors Frost & Watson led to it being washed away in July 1858 and the site abandoned. SA Mines quarterly note ‘The Torrens Gorge Weir Disaster: 1858’: in July 1858, when the dam was tested, water jets broke out on the downstream side through fissures in the rock foundation; by September the structure was in danger of collapse and had to be completely replaced. A public inquiry (Parliamentary Papers 19 and 73) found geology a major cause; non-Portland local lime cement in the cutoff was also unsuitable. A replacement weir 16 km from the city was completed 4 June 1860 to feed Thorndon Park. No death count fetched.",
+      "status": "1858 site abandoned. Replacement 1860 weir at a different (further upstream) site.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — River Torrens (weir 11 km from Adelaide near Campbelltown washed away July 1858)",
+          "url": "https://en.wikipedia.org/wiki/River_Torrens"
+        },
+        {
+          "label": "SA Department of Mines RB 77/14 — The Torrens Gorge Weir Disaster: 1858",
+          "url": "https://demstedpprodaue12.blob.core.windows.net/mesac-public/resources/files/4354473/RB7700014.pdf"
+        },
+        {
+          "label": "Wikipedia — Campbelltown, South Australia 34°52′41″S 138°39′47″E",
+          "url": "https://en.wikipedia.org/wiki/Campbelltown,_South_Australia"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "homes in Te Teko, Edgecumbe and Thornton evacuated (Scoop 2004)",
+      "notes": "Deaths null. Distinct from edgecumbe-college-rd-2017-04-06. Town pin; breach was 1.5 km upstream on the eastern bank.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Environment Bay of Plenty / Bay of Plenty Regional Council",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 150 m wide; scour hole nearly 5 m deep, about 150 m inland (O’Halloran / Scoop)",
+      "downstream_risk": "Rangitāiki Plains; Edgecumbe, Te Teko, Thornton",
+      "economic_damage": null,
+      "investigating_agency": "Marianne O’Halloran independent geotechnical report for Environment BOP",
+      "verification": "confirmed",
+      "id": "rangitaiki-edgecumbe-2004-07-18",
+      "name": "Rangitāiki River stopbank breach upstream of Edgecumbe (2004)",
+      "country": "New Zealand",
+      "region": "Rangitāiki Plains, 1.5 km upstream of Edgecumbe, Bay of Plenty, North Island",
+      "location_label": "Rangitāiki eastern stopbank about 1.5 km upstream of Edgecumbe, New Zealand",
+      "lat": -37.975,
+      "lng": 176.825,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Edgecumbe 37.9750°S 176.8250°E; Scoop/Environment BOP: eastern-bank breach 1.5 km upstream of Edgecumbe (not the 2017 College Road breach)",
+      "river_or_facility": "Rangitāiki River stopbank (eastern bank, just upstream of Edgecumbe)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "piping_internal_erosion",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Marianne O’Halloran report (Environment BOP / NZ Herald): unfavourable soils — thin silt over permeable pumice sand; heave in a paddock well out from the toe worked back to the bank. Not overtopping. Jeff Jones: ‘it just blew out.’",
+      "incident_date": "2004-07-18",
+      "latest_report_date": "2004-08",
+      "what_happened": "Scoop / Environment Bay of Plenty: on the morning of Sunday 18 July 2004 a stopbank breach 1.5 km upstream of Edgecumbe on the eastern bank of the Rangitāiki sent floodwater across farmland; homes in Te Teko, Edgecumbe and Thornton were evacuated. The breach grew to about 150 m and scoured a hole nearly 5 m deep extending about 150 m inland (O’Halloran). NZ Herald: the flood was the biggest since 1944. Distinct from the 6 April 2017 College Road breach (edgecumbe-college-rd-2017-04-06). No source fetched gave a death count for this 2004 breach. Do not copy any 2017 or regional flood total.",
+      "status": "Historical 2004 breach; later strengthening. A different section failed at College Road in 2017.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Scoop — Environment BOP flood update (1.5 km upstream; 150 m eastern-bank breach)",
+          "url": "https://www.scoop.co.nz/stories/AK0407/S00162/flood-update-from-environment-bay-of-plenty.htm"
+        },
+        {
+          "label": "Scoop — Unfavourable soil cause of stopbank failure (18 July; O’Halloran)",
+          "url": "https://www.scoop.co.nz/stories/AK0408/S00283.htm"
+        },
+        {
+          "label": "NZ Herald — BOP stopbank breach due to soil conditions",
+          "url": "https://www.nzherald.co.nz/nz/bop-stopbank-breach-due-to-soil-conditions-report-says/6WD3ULLEZYRV3J45QLGX6K7GUY/"
+        },
+        {
+          "label": "Wikipedia — Edgecumbe 37.9750°S 176.8250°E",
+          "url": "https://en.wikipedia.org/wiki/Edgecumbe"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "as many as eight farmhouses evacuated (Hauraki Mayor / RNZ)",
+      "notes": "Deaths null. Locality pin. WRC ponding-design note recorded; RNZ/ODT still describe a named breach/burst.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Waikato Regional Council",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Patetonga / Awaiti farmland and ponding zones, Hauraki Plains",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "piako-patetonga-2017-04",
+      "name": "Piako River stopbank breach near Patetonga",
+      "country": "New Zealand",
+      "region": "Hauraki Plains near Patetonga (Paeroa–Tahuna Road / Awaiti Road), Waikato, North Island",
+      "location_label": "Piako River stopbank near Patetonga, Hauraki Plains, New Zealand",
+      "lat": -37.400834,
+      "lng": 175.46999,
+      "geo_accuracy": "approx",
+      "geo_source": "LINZ NZMS260 S13 Patetonga locality -37.400834, 175.46999; RNZ: breach near Patetonga in the Paeroa–Tahuna Road and Awaiti Road areas",
+      "river_or_facility": "Piako River stopbank (Patetonga / Awaiti)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "RNZ/ODT: Piako stopbank breached/burst near Patetonga after record river levels from April 2017 cyclones. Waikato Regional Council: overtopping into designated ponding is part of the Piako scheme design.",
+      "incident_date": "2017-04",
+      "latest_report_date": "2017",
+      "what_happened": "RNZ: police evacuated a small number of homes after a Piako River stopbank breached near Patetonga in the Paeroa–Tahuna Road and Awaiti Road areas during the April 2017 storms (ex-Tropical Cyclones Debbie and Cook). Hauraki Mayor John Tregidga said as many as eight farmhouses surrounded by water had been evacuated. ODT: the stopbank burst about 09:40 and a family was taken off a Patetonga property by boat. Waikato Regional Council said the Waitoa and Piako were the highest since records began in the 1980s and that spilling to ponding areas is how the Piako Flood Protection Scheme is designed to operate. No death count fetched. Do not copy Edgecumbe 2017 or regional cyclone deaths onto this Piako bank.",
+      "status": "Historical 2017 breach/overtopping on the Hauraki Plains scheme.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "RNZ — Evacuations in Waikato after stopbank breaches (Patetonga / Piako)",
+          "url": "https://www.rnz.co.nz/news/national/328899/evacuations-in-waikato-after-stopbank-breaches"
+        },
+        {
+          "label": "Otago Daily Times — Homes evacuated after stopbank fails (Patetonga)",
+          "url": "https://www.odt.co.nz/news/national/family-trapped-after-river-breaches-stopbank"
+        },
+        {
+          "label": "LINZ / NZMS260 S13 — Patetonga locality -37.400834, 175.46999",
+          "url": "https://www.backpack-newzealand.com/maps/all/patetonga-map-35702.php"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Tuamarina township advised to evacuate — about 270 residents / 99 properties (1News 17 Jul 2021)",
+      "notes": "Deaths null. Town pin for the named Tuamarina pocket breach. Distinct from other July 2021 Wairau banks.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Marlborough District Council",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Tuamarina pocket / township",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "wairau-tuamarina-2021-07",
+      "name": "Wairau / Waterfall Creek stopbank breach at Tuamarina",
+      "country": "New Zealand",
+      "region": "Waterfall Creek / Tuamarina pocket, Wairau Plain, Marlborough, South Island",
+      "location_label": "Waterfall Creek stopbank, Tuamarina, Marlborough, New Zealand",
+      "lat": -41.43028,
+      "lng": 173.96222,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Tuamarina 41°25′49″S 173°57′44″E; Scoop: Waterfall Creek at Tuamarina pocket was one of three key July 2021 stopbank failures",
+      "river_or_facility": "Wairau River scheme — Waterfall Creek stopbank (Tuamarina pocket)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Marlborough District Council (Scoop Nov 2021): Waterfall Creek at Tuamarina pocket failed from a combination of overtopping and variable stopbank construction quality.",
+      "incident_date": "2021-07-17",
+      "latest_report_date": "2021-11",
+      "what_happened": "During the July 2021 Wairau flood, Marlborough District Council (Scoop 17 Jul and Nov 2021) reported three key stopbank failures: Pukaka floodway east bank, Waterfall Creek at Tuamarina pocket, and lower Wairau at Morrins Hollow. 1News: all of Tuamarina township (about 270 residents / 99 properties) was advised to evacuate after a stopbank was breached. Preliminary assessment: Waterfall Creek was overtopping plus variable construction quality. Distinct from Spring Creek overtopping and Conders Bend overtopping in the same storm. No death count fetched. Do not copy any regional flood total onto this bank.",
+      "status": "Historical July 2021 breach; Wairau scheme later under staged upgrades.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Scoop — Wairau scheme July event (three key failures incl. Waterfall Creek Tuamarina)",
+          "url": "https://www.scoop.co.nz/stories/AK2111/S00386/wairau-scheme-demonstrates-its-worth-during-july-weather-event.htm"
+        },
+        {
+          "label": "1News 17 Jul 2021 — Tuamarina evacuated after stopbank breach",
+          "url": "https://www.1news.co.nz/2021/07/17/drone-footage-captures-swollen-river-flowing-under-sh1-bridge-in-marlborough/"
+        },
+        {
+          "label": "Wikipedia — Tuamarina 41°25′49″S 173°57′44″E",
+          "url": "https://en.wikipedia.org/wiki/Tuamarina"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Spring Creek township advised to evacuate — about 430 people / 162 properties (1News)",
+      "notes": "Deaths null. Town pin. Distinct from Tuamarina breach and Conders Bend overtopping.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Marlborough District Council",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Spring Creek township",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "wairau-spring-creek-2021-07",
+      "name": "Wairau / Spring Creek stopbank overtopping and piping",
+      "country": "New Zealand",
+      "region": "Spring Creek, Wairau Plain, Marlborough, South Island",
+      "location_label": "Spring Creek stopbank, Marlborough, New Zealand",
+      "lat": -41.46056,
+      "lng": 173.96278,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Spring Creek, New Zealand 41°27′38″S 173°57′46″E",
+      "river_or_facility": "Wairau River scheme — Spring Creek stopbank",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "MDC (Scoop): piping through a Spring Creek stopbank via an unsealed redundant septic-tank outfall; 1News: township evacuated after an overtopping stopbank.",
+      "incident_date": "2021-07-17",
+      "latest_report_date": "2021-11",
+      "what_happened": "In the same July 2021 Wairau flood, 1News reported that all of Spring Creek township (about 430 people in 162 properties) was advised to evacuate because of an overtopping stopbank. MDC’s November review (Scoop) separately recorded piping through a Spring Creek stopbank due to an unsealed but redundant septic-tank outfall, plus overtopping exacerbated by stock-crossing wear. Distinct from the Waterfall Creek / Tuamarina breach and from Conders Bend overtopping. No death count fetched.",
+      "status": "Historical July 2021 overtopping/piping.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "1News 17 Jul 2021 — Spring Creek evacuated after overtopping stopbank",
+          "url": "https://www.1news.co.nz/2021/07/17/drone-footage-captures-swollen-river-flowing-under-sh1-bridge-in-marlborough/"
+        },
+        {
+          "label": "Scoop — Wairau scheme July event (Spring Creek piping via septic outfall)",
+          "url": "https://www.scoop.co.nz/stories/AK2111/S00386/wairau-scheme-demonstrates-its-worth-during-july-weather-event.htm"
+        },
+        {
+          "label": "Wikipedia — Spring Creek, New Zealand 41°27′38″S 173°57′46″E",
+          "url": "https://en.wikipedia.org/wiki/Spring_Creek,_New_Zealand"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Lower Terrace, Renwick, asked to evacuate (Scoop 17 Jul 2021)",
+      "notes": "Deaths null. LINZ place pin at Conders Bend. Overtopping incident, not listed among the three key breaches.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Marlborough District Council",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Renwick Lower Terrace; old Upper Ōpaoa channel toward Blenheim",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "conders-bend-2021-07",
+      "name": "Conders Bend Wairau stopbank overtopping",
+      "country": "New Zealand",
+      "region": "Conders Bend near the SH6 Wairau (Renwick) bridge, Marlborough, South Island",
+      "location_label": "Conders Bend stopbank, Wairau River, Renwick, New Zealand",
+      "lat": -41.488389,
+      "lng": 173.801417,
+      "geo_accuracy": "site",
+      "geo_source": "LINZ NZMS260 P28 Conders Bend -41.488389, 173.801417; MDC: Conders stopbank/groyne at Conders Bend near the Wairau (Renwick) SH6 bridge",
+      "river_or_facility": "Wairau River scheme — Conders Bend stopbank / groyne",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Scoop 17 Jul 2021: the stopbank at Conders Bend overtopped; Lower Terrace Renwick asked to evacuate. MDC: this bank keeps the Wairau out of the old Upper Ōpaoa channel toward Blenheim.",
+      "incident_date": "2021-07-17",
+      "latest_report_date": "2021-11",
+      "what_happened": "Scoop 17 July 2021 (Marlborough emergency declaration): residents of the Lower Terrace in Renwick were asked to evacuate after the stopbank at Conders Bend overtopped. MDC river-works page: the Conders stopbank/groyne at Conders Bend near the Wairau (Renwick) SH6 bridge is vital in keeping the Wairau out of the old Upper Ōpaoa channel that leads to Blenheim. Resilient River Communities later described Stage 2 works including upgrade of a critical Waihopai stopbank that overtopped in 2021. Distinct from the three key breaches (Pukaka, Waterfall Creek, Morrins Hollow). No death count fetched.",
+      "status": "Overtopped July 2021; later scheme upgrades including groyne/stopbank work at this reach.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Scoop 17 Jul 2021 — Conders Bend stopbank overtopped; Renwick Lower Terrace evacuate",
+          "url": "https://www.scoop.co.nz/stories/AK2107/S00269/emergency-declared-in-marlborough.htm"
+        },
+        {
+          "label": "Marlborough District Council — River Works (Conders stopbank/groyne at Conders Bend)",
+          "url": "https://www.marlborough.govt.nz/services/river-management/river-works"
+        },
+        {
+          "label": "LINZ NZMS260 P28 — Conders Bend -41.488389, 173.801417",
+          "url": "https://www.backpack-newzealand.com/maps/all/conders-bend-map-18819.php"
+        }
+      ],
+      "severity": "moderate"
     }
   ]
 }
