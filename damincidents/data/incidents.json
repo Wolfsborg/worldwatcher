@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 570,
-  "current_count": 20,
-  "historical_count": 550,
+  "count": 590,
+  "current_count": 21,
+  "historical_count": 569,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -30979,6 +30979,1101 @@
       "downstream_risk": "Coimbra, Soure, Montemor-o-Velho, Baixo Mondego fields",
       "economic_damage": null,
       "investigating_agency": null
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths: 898 from 2018–2020 peer-reviewed tables. Wikipedia/Gu Zhun: nearly 1,000. Not a Banqiao-cluster event.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "about 20 million m³ (academic tables); Wikipedia normal capacity 27.92 million m³ for the later reservoir",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tiefosi-1960-05-17",
+      "name": "Tiefosi (铁佛寺) Reservoir Dam",
+      "country": "China",
+      "region": "Shangcheng County, Xinyang, Henan",
+      "location_label": "Shangcheng, Henan, China",
+      "lat": 31.7857,
+      "lng": 115.4207,
+      "geo_accuracy": "exact",
+      "geo_source": "Chinese Wikipedia (铁佛寺水库) 31°47′09″N 115°25′15″E",
+      "river_or_facility": "Tiefosi Reservoir, Shangcheng",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "construction_first_filling",
+        "structural_design"
+      ],
+      "cause_summary": "Chinese Wikipedia, citing Gu Zhun's diary: Great Leap Forward dam built from 1958 without survey, design drawings or engineers; collapsed during construction on 17 May 1960.",
+      "incident_date": "1960-05-17",
+      "latest_report_date": "2020-07-30",
+      "what_happened": "The Tiefosi earth dam in Shangcheng County, Henan, failed on 17 May 1960 while still under construction. Chinese Wikipedia, citing economist Gu Zhun's diary, describes a typical Great Leap Forward project ordered by the county party committee in 1958: no reconnaissance, no design, no drawings, no planning and no engineers, built by farmers and sent-down rightists under the slogan of more, faster, better, cheaper. Peer-reviewed dam-break papers (Sustainability 2020; IJERPH 2018) list Tiefosi as a clay-core dam of about 20 million m³ that failed on that date with 898 deaths. Wikipedia summarises the diary as nearly 1,000 deaths. The present reservoir page gives completion in 1968, consistent with later rebuilding.",
+      "status": "Historical construction-period failure; reservoir later completed (Wikipedia: 1968).",
+      "deaths": 898,
+      "sources": [
+        {
+          "label": "Chinese Wikipedia — 铁佛寺水库 (Gu Zhun diary)",
+          "url": "https://zh.wikipedia.org/wiki/%E9%93%81%E4%BD%9B%E5%AF%BA%E6%B0%B4%E5%BA%93"
+        },
+        {
+          "label": "He et al., Sustainability 12:6239 (2020) — Tiefosi 17 May 1960, 898 deaths",
+          "url": "https://doi.org/10.3390/su12156239"
+        },
+        {
+          "label": "Fu et al., IJERPH 15:886 (2018) — Tiefosi table",
+          "url": "https://doi.org/10.3390/ijerph15050886"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 707 from the 2018 academic table; the Wikipedia engineering article does not state a death toll. Coords are the rebuilt dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1958 (first dam); rebuilt 1974–1976",
+      "height_m": 24.1,
+      "reservoir_capacity": "then storage implied ~30 million m³; rebuilt total 119 million m³",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "181 m (Wikipedia / River and Lake Dictionary)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "longtun-1959-07-22",
+      "name": "Longtun (龙屯) Reservoir Dam",
+      "country": "China",
+      "region": "Suizhong County, Huludao, Liaoning",
+      "location_label": "Suizhong, Liaoning, China",
+      "lat": 40.365389,
+      "lng": 120.089806,
+      "geo_accuracy": "exact",
+      "geo_source": "Chinese Wikipedia (龙屯水库) 40°21′55.4″N 120°05′23.3″E (rebuilt dam site)",
+      "river_or_facility": "Longtun Reservoir / Wangbao River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Chinese Wikipedia: 22 July 1959 overtopping in a flood exceeding the then storage (rainfall 362 mm; flood volume 65.85 million m³, 2.2 times then capacity, beyond the 100-year flood).",
+      "incident_date": "1959-07-22",
+      "latest_report_date": "2018-04-27",
+      "what_happened": "Longtun Reservoir on the Wangbao River in Suizhong County, Liaoning, was begun in 1958 and overtopped on 22 July 1959. Chinese Wikipedia, citing the China River and Lake Dictionary, records 362 mm of rain that day, a flood volume of 65.85 million m³ (2.2 times the then storage) exceeding the 100-year flood, and a 181 m breach. Academic dam-break tables (IJERPH 2018) list a clay sloping-core dam of about 30 million m³ and 707 deaths. Reconstruction restarted December 1974 and was completed 17 November 1976 as a large reservoir (total storage 119 million m³; max height 24.1 m).",
+      "status": "Rebuilt 1974–1976; operating large reservoir.",
+      "deaths": 707,
+      "sources": [
+        {
+          "label": "Chinese Wikipedia — 龙屯水库",
+          "url": "https://zh.wikipedia.org/wiki/%E9%BE%99%E5%B1%AF%E6%B0%B4%E5%BA%93"
+        },
+        {
+          "label": "Fu et al., IJERPH 15:886 (2018) — Longtun 22 July 1959, 707 deaths",
+          "url": "https://doi.org/10.3390/ijerph15050886"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "64,941 people affected in 68 villages (Sustainability 2020)",
+      "notes": "Deaths: 943 in 2018–2020 academic tables and SciEngine; local gazetteer 937. Not the Hai basin flood total. Pin is Yi County seat (region), not a surveyed dam crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1958–1959",
+      "height_m": 35.8,
+      "reservoir_capacity": "40.5 million m³",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "80 m base / 155 m crest at the right end (Sustainability 2020)",
+      "downstream_risk": null,
+      "economic_damage": "15 million RMB (contemporary figure in Sustainability 2020)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "liujiatai-1963-08-08",
+      "name": "Liujiatai (刘家台) Reservoir Dam",
+      "country": "China",
+      "region": "Yi County / Liujiatai, Baoding, Hebei (Boundary River / Jiehe)",
+      "location_label": "Yi County, Baoding, Hebei, China",
+      "lat": 39.349,
+      "lng": 115.498,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Yi County, Hebei) 39°20′56″N 115°29′53″E; papers place the dam on the Boundary River in Yi County",
+      "river_or_facility": "Liujiatai Reservoir / Boundary River (Jiehe)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Sustainability 2020: 2–8 August 1963 rainstorm on the Boundary River (basin mean 898 mm; 448.5 mm on 7 August); low flood standard and poor construction; overtopped at 03:55 on 8 August.",
+      "incident_date": "1963-08-08",
+      "latest_report_date": "2020-07-30",
+      "what_happened": "Liujiatai Reservoir, a medium clay-core earth dam on the Boundary River in Yi County, Baoding, Hebei (construction Feb 1958–July 1959; height 35.8 m; storage 40.5 million m³), overtopped and breached at about 03:55 on 8 August 1963 during the Hai River '63.8' storm. He et al. (Sustainability 2020) give a right-end breach 80 m at the base and 155 m at the top, peak discharge about 28,600 m³/s, and damage to 68 villages within 30 km (64,941 people affected; 15 million RMB loss). Academic tables list 943 deaths; a local river-gazetteer account says 937, including five PLA soldiers. SciEngine's national dam-failure review lists Liujiatai among the Hai basin medium-reservoir overtopping failures that August.",
+      "status": "Historical Hai River '63.8' medium-reservoir failure.",
+      "deaths": 943,
+      "sources": [
+        {
+          "label": "He et al., Sustainability 12:6239 (2020) — Liujiatai case",
+          "url": "https://doi.org/10.3390/su12156239"
+        },
+        {
+          "label": "SciEngine dam-failure review — 刘家台 1963-08-08, 943 deaths",
+          "url": "https://www.sciengine.com/doi/pdf/DC9BFF247F8D4650B3FB750D0AD39EA6"
+        },
+        {
+          "label": "Wikipedia — Yi County, Hebei",
+          "url": "https://en.wikipedia.org/wiki/Yi_County,_Hebei"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 510 from SciEngine table for this named dam, not the Xingtai earthquake or the basin flood total. Pin is Xingtai city (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 31.0,
+      "reservoir_capacity": "about 27 million m³ (SciEngine 2,700×10⁴ m³)",
+      "construction": "rockfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "dongchuankou-1963-08-04",
+      "name": "Dongchuankou (东川口) Reservoir Dam",
+      "country": "China",
+      "region": "Xingtai, Hebei",
+      "location_label": "Xingtai, Hebei, China",
+      "lat": 37.0717,
+      "lng": 114.5048,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Xingtai municipal government) 37°04′18″N 114°30′17″E; SciEngine places Dongchuankou in Xingtai, Hebei",
+      "river_or_facility": "Dongchuankou Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "SciEngine national review: rockfill dam overtopped on 4 August 1963 in the Hai River '63.8' storm.",
+      "incident_date": "1963-08-04",
+      "latest_report_date": "2023",
+      "what_happened": "Dongchuankou Reservoir in Xingtai, Hebei, a 31 m rockfill dam with about 27 million m³ storage, overtopped and failed on 4 August 1963 during the Hai River '63.8' floods. SciEngine's review of Chinese dam failures lists it among the five medium reservoirs that failed by overtopping in Hebei that August (with 17 small-I and 297 small-II dams). The same table gives 510 deaths for Dongchuankou. This is a separate named structure from Liujiatai (Yi County, 8 August).",
+      "status": "Historical Hai River '63.8' medium-reservoir failure.",
+      "deaths": 510,
+      "sources": [
+        {
+          "label": "SciEngine dam-failure review — 东川口 邢台 1963-08-04, 510 deaths",
+          "url": "https://www.sciengine.com/doi/pdf/DC9BFF247F8D4650B3FB750D0AD39EA6"
+        },
+        {
+          "label": "Wikipedia — Xingtai",
+          "url": "https://en.wikipedia.org/wiki/Xingtai"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths: 941 in later peer-reviewed tables. A compiled Jiexi county statistical account gives 779 with an age breakdown. Recorded 941 as the later dated academic figure; 779 noted. Not a provincial flood total.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1958–1962 (first dam)",
+      "height_m": 45,
+      "reservoir_capacity": "Wikipedia normal 62.1 million m³; academic tables 78.8 million m³",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "hengjiang-1970-09-15",
+      "name": "Hengjiang (横江) Reservoir Dam",
+      "country": "China",
+      "region": "Hepo Subdistrict, Jiexi County, Jieyang, Guangdong",
+      "location_label": "Jiexi, Guangdong, China",
+      "lat": 23.49028,
+      "lng": 115.79417,
+      "geo_accuracy": "exact",
+      "geo_source": "Chinese Wikipedia (横江水库 (揭西)) 23°29′25″N 115°47′39″E",
+      "river_or_facility": "Hengjiang Reservoir / Hengjiang (Liangtian) River / Rongjiang South River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Local compiled account of Typhoon 7011: reservoir had been held high for winter storage; piping with muddy seepage from 04:00 on 15 September, collapse 07:15. Academic tables classify a homogeneous earth dam.",
+      "incident_date": "1970-09-15",
+      "latest_report_date": "2020-07-30",
+      "what_happened": "Hengjiang Reservoir at Xinsi village, Hepo, Jiexi County, Guangdong (homogeneous earth dam; Wikipedia: height 45 m, catchment 155 km², normal storage 62.1 million m³; academic tables 78.8 million m³), failed on 15 September 1970 in Typhoon 7011 rain. A compiled local statistical account says 463 mm in the reservoir area, inflow 1,120 m³/s, water rising from 71.62 m to 81.41 m (2 m below the crest), piping from 04:00 and collapse at 07:15 with peak outflow about 12,000 m³/s; 47 villages (4,160 households) destroyed, 27,635 rooms collapsed, 779 dead in the county account (361 children, 182 elderly, 236 adults). Peer-reviewed tables repeatedly list 941 deaths. Hepo and the Rongjiang South River dikes were flooded. Wikipedia dates construction Oct 1958–Feb 1962; a 2025 wetland notice says completed Oct 1971, consistent with rebuilding.",
+      "status": "Rebuilt; now a medium irrigation/flood/power reservoir and provincial wetland.",
+      "deaths": 941,
+      "sources": [
+        {
+          "label": "Chinese Wikipedia — 横江水库 (揭西)",
+          "url": "https://zh.wikipedia.org/wiki/%E6%A8%AA%E6%B1%9F%E6%B0%B4%E5%BA%93_(%E6%8F%AD%E8%A5%BF)"
+        },
+        {
+          "label": "He et al., Sustainability 12:6239 (2020) — Hengjiang 15 Sep 1970, 941 deaths",
+          "url": "https://doi.org/10.3390/su12156239"
+        },
+        {
+          "label": "Zhou et al., Water 11:2224 (2019) — Hengjiang 941 fatalities used as benchmark",
+          "url": "https://www.mdpi.com/2073-4441/11/11/2224"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 512 from academic tables for this named dam. Pin is Fushun city (region). Mechanism left unknown.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "about 3.1 million m³ (academic tables)",
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "hutai-1971-07-31",
+      "name": "Hutai (虎台) Reservoir Dam",
+      "country": "China",
+      "region": "Fushun, Liaoning",
+      "location_label": "Fushun, Liaoning, China",
+      "lat": 41.881,
+      "lng": 123.957,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Fushun municipal government) 41°52′52″N 123°57′25″E; academic tables place Hutai in Fushun, Liaoning",
+      "river_or_facility": "Hutai Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Peer-reviewed dam-break tables list Hutai, Fushun, as a clay-core dam that failed on 31 July 1971; mechanism not stated in the tables fetched.",
+      "incident_date": "1971-07-31",
+      "latest_report_date": "2020-07-30",
+      "what_happened": "Academic compilations of large Chinese dam breaks (Sustainability 2020; IJERPH 2018) list Hutai Dam in Fushun, Liaoning, as a clay-core earth dam of about 3.1 million m³ that failed on 31 July 1971 with 512 deaths. The tables do not state rainfall, overtopping or piping. A later Xinbin County tourism page describes a small Hutai reservoir at Hutai group, Wuniu village, Xiahe township — that may be a different or rebuilt pond and is not used here as the 1971 site.",
+      "status": "Historical named failure in academic dam-break tables.",
+      "deaths": 512,
+      "sources": [
+        {
+          "label": "He et al., Sustainability 12:6239 (2020) — Hutai, Fushun, 31 July 1971, 512 deaths",
+          "url": "https://doi.org/10.3390/su12156239"
+        },
+        {
+          "label": "Wikipedia — Fushun",
+          "url": "https://en.wikipedia.org/wiki/Fushun"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths left null. Do not copy Banqiao/Shimantan cluster 26,000 (or higher famine figures) onto Zhugou. Separate from Banqiao and Shimantan records already in the DB.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1958 (first dam); rebuilt 1995–1997",
+      "height_m": null,
+      "reservoir_capacity": "rebuilt total 11.2 million m³",
+      "construction": "unknown",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "zhugou-1975-08-07",
+      "name": "Zhugou (竹沟) Reservoir Dam",
+      "country": "China",
+      "region": "Zhugou Town, Queshan County, Zhumadian, Henan",
+      "location_label": "Zhugou, Queshan, Henan, China",
+      "lat": 32.7861,
+      "lng": 113.7105,
+      "geo_accuracy": "region",
+      "geo_source": "Fallingrain / town of Zhugou 32.7861°N 113.7105°E; reservoir is described as adjoining Zhugou Revolutionary Martyrs Cemetery, 1.5 km north of the town",
+      "river_or_facility": "Zhugou Reservoir (medium dam in the 1975 Zhumadian cascade)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Xu, Zhang and Jia (ASCE GeoCongress 2008): Banqiao, Shimantan, medium Zhugou and Tiangang, and 58 small dams overtopped in the 4–8 August 1975 storm. A Zhumadian flood-fighting chronicle says Zhugou breached about 22:00 on 7 August, before Banqiao.",
+      "incident_date": "1975-08-07",
+      "latest_report_date": "2008-03-07",
+      "what_happened": "Zhugou, a medium reservoir at Zhugou Town, Queshan County, Zhumadian, Henan (begun 1958), overtopped and failed about 22:00 on 7 August 1975 in the Typhoon Nina / '75.8' storm, before Banqiao and Shimantan. Xu, Zhang and Jia (ASCE 2008) treat Zhugou with Banqiao as a principal Zhumadian failure and state two large dams (Banqiao, Shimantan), two medium dams (Tiangang, Zhugou) and 58 small dams failed from overtopping. A local encyclopedia entry says the original reservoir failed in August 1975 and was rebuilt 1995–26 Dec 1997 (total storage 11.2 million m³; catchment 28.5 km²). No source fetched gives a Zhugou-only death toll.",
+      "status": "Rebuilt 1995–1997 as a medium irrigation/flood reservoir.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Xu, Zhang, Jia — Lessons from Catastrophic Dam Failures in August 1975 in Zhumadian (ASCE 2008)",
+          "url": "https://doi.org/10.1061/40971(310)20"
+        },
+        {
+          "label": "China Unofficial Archives — 75.8 flood chronicle (Zhugou ~22:00 7 Aug)",
+          "url": "https://minjian-danganguan.org/en/archive/4957"
+        },
+        {
+          "label": "Chinese encyclopedia entry — 竹沟水库 (1958; 1975 failure; 1995–97 rebuild)",
+          "url": "http://www.cnenc.net/b4330148.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "5,755 evacuated by 23:00 5 July (Huarong government); CGTN later 7,680+",
+      "notes": "Deaths 0 from official 'no casualties' reports for this breach. Not a Dongting/Yangtze season flood total. 1996 Tuanzhouyuan breach is a separate record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "226 m",
+      "downstream_risk": null,
+      "economic_damage": "NDRC 200 million yuan allocated to affected Hunan/Jiangxi counties (not a loss total)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tuanzhouyuan-dongting-2024-07-05",
+      "name": "Tuanzhouyuan Dongting Lake first-line dike",
+      "country": "China",
+      "region": "Tuanzhou Township, Huarong County, Yueyang, Hunan",
+      "location_label": "Tuanzhouyuan, Huarong, Hunan, China",
+      "lat": 29.33526111,
+      "lng": 112.80758306,
+      "geo_accuracy": "exact",
+      "geo_source": "Chinese Wikipedia (2024年洞庭湖决口) 29°20′6.940″N 112°48′27.299″E",
+      "river_or_facility": "Tuanzhouyuan first-line dike, East Dongting Lake",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Huarong government and Xinhua: piping/sand-boil on the Dongting first-line dike (stake 19+800) after a long high-water period; emergency plugging failed and the dike breached.",
+      "incident_date": "2024-07-05",
+      "latest_report_date": "2024-07-09",
+      "what_happened": "On 5 July 2024 the Dongting Lake first-line dike at Tuanzhouyuan, Huarong County, Hunan, developed piping about 16:00 (stake 19+800) and breached at 17:48 after emergency plugging failed. Chinese Wikipedia and state media: the gap grew from about 10 m to 226 m; about 47.6 km² of the 55 km² polder flooded (about 0.22 km³). Huarong government: 5,755 people evacuated by 23:00 on 5 July, no casualties reported. CGTN later said more than 7,680 relocated. The breach was closed about 22:30–22:31 on 8 July after more than 100,000 m³ of rock. NDRC allocated 200 million yuan for Huarong, Pingjiang and Jiangxi recovery. A second-line embankment toward Qiannan had piping that was reported controlled.",
+      "status": "Breach sealed 8 July 2024; polder pumping followed.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Chinese Wikipedia — 2024年洞庭湖决口",
+          "url": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%B4%9E%E5%BA%AD%E6%B9%96%E5%86%B3%E5%8F%A3"
+        },
+        {
+          "label": "People's Daily / China Daily — breach sealed",
+          "url": "https://en.people.cn/n3/2024/0709/c90000-20191233.html"
+        },
+        {
+          "label": "Huarong County government — first 30 hours",
+          "url": "https://www.huarong.gov.cn/33157/71776/content_2212394.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Separate from the 5 July 2024 breach at stake 19+800. Deaths null; no sourced count for 1996 at this polder.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 8 m then >30 m by 12:05 (gazetteer excerpt)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tuanzhouyuan-1996-07-19",
+      "name": "Tuanzhouyuan dike (1996 breach)",
+      "country": "China",
+      "region": "Tuanzhou Township, Huarong County, Yueyang, Hunan",
+      "location_label": "Tuanzhouyuan, Huarong, Hunan, China",
+      "lat": 29.33526111,
+      "lng": 112.80758306,
+      "geo_accuracy": "approx",
+      "geo_source": "Same polder as the 2024 breach; Chinese Wikipedia / Yueyang gazetteer place the 1996 gap at stake 14+800 (warehouse section), not 19+800",
+      "river_or_facility": "Tuanzhouyuan flood dike, Dongting Lake / Ouchi River",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Yueyang City gazetteer excerpt quoted in 2024 coverage: sand-boil under the dike at about 11:45 on 19 July 1996, then a black-mud boil and collapse.",
+      "incident_date": "1996-07-19",
+      "latest_report_date": "2024-07-06",
+      "what_happened": "Tuanzhouyuan, already called a high-risk Hunan polder, breached on 19 July 1996. The Yueyang City gazetteer account (quoted in 2024 Chinese coverage of the later breach) says that about 11:45 a fish-pond worker found a black-sand boil at stake 14+800 (warehouse section; crest then 36.65 m); within minutes a bowl-thick jet appeared, the dike sank and overtopped, and by 12:05 the gap was more than 30 m with outer-lake water at 35.23 m at Liumen lock. Wikipedia's 2024 Dongting article notes the 1996 polder failure. No death figure for the 1996 Tuanzhouyuan breach appears in the sources fetched.",
+      "status": "Historical polder failure; polder remained a designated flood-storage dike.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Tencent/Yueyang gazetteer excerpt — 1996 Tuanzhouyuan breach",
+          "url": "https://news.qq.com/rain/a/20240706A058VG00"
+        },
+        {
+          "label": "Chinese Wikipedia — 2024年洞庭湖决口 (notes 1996 failure)",
+          "url": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%B4%9E%E5%BA%AD%E6%B9%96%E5%86%B3%E5%8F%A3"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Separate from mochikoshi-no1-1978-01-14. Deaths null; do not copy WISE's 1 death or the earthquake's 25 dead onto No. 2.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 3,000 m³ (Wikipedia / Ishihara 1984)",
+      "breach_size": "crest about 20 m then 65 m (Ishihara 1984)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mochikoshi-no2-1978-01-15",
+      "name": "Mochikoshi No. 2 tailings dike",
+      "country": "Japan",
+      "region": "upper Kano River, Izu Peninsula, Shizuoka",
+      "location_label": "Mochikoshi gold mill TSF, Shizuoka, Japan",
+      "lat": 34.87372,
+      "lng": 138.85638,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (Mochikoshi, Shizuoka) — same Hozukizawa pond as mochikoshi-no1-1978-01-14 already in the DB",
+      "river_or_facility": "Hozukizawa / Mochikoshi gold-mill tailings pond, No. 2 dike",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "tailings_liquefaction"
+      ],
+      "cause_summary": "Ishihara (1984) and Wikipedia (citing Okusa & Anma 1980): delayed post-earthquake failure of No. 2 dike after liquefaction of pond tailings and rise of the phreatic surface; No. 1 had already failed in the 14 January main shock.",
+      "incident_date": "1978-01-15",
+      "latest_report_date": "1984-05-09",
+      "what_happened": "The second of three dikes around the Hozukizawa tailings pond at the Mochikoshi gold-silver mill failed on 15 January 1978, the day after the Izu-Oshima-Kinkai main shock that collapsed No. 1. Wikipedia, citing Okusa & Anma (Engineering Geology 1980): the second dike failed 5 hours 20 minutes after the largest aftershock and released about 3,000 m³ that travelled 150 m into a second valley; the third dike stood. Ishihara (1984 ICCHGE), using the investigation-committee report: a caretaker saw the crest sink about 13:00 on 15 January (about 24 hours after the main shock; aftershocks M5.8/5.4 around 07:31–07:36); the breach opened about 20 m at the crest and grew to 65 m; about 3,000 m³ (2,000 m³ slime + 1,000 m³ dike fill) flowed about 240 m. No source fetched attributes a death to No. 2 (WISE's one death is on the No. 1 record).",
+      "status": "Historical TSF dike failure; third dike undamaged.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — 1978 Izu Ōshima earthquake (Mochikoshi section)",
+          "url": "https://en.wikipedia.org/wiki/1978_Izu_%C5%8Cshima_earthquake"
+        },
+        {
+          "label": "Ishihara 1984 — Post-Earthquake Failure of a Tailings Dam (ICCHGE; No. 2 delayed breach)",
+          "url": "https://scholarsmine.mst.edu/icchge/1icchge/1icchge-theme5/13"
+        },
+        {
+          "label": "Okusa & Anma, Engineering Geology 16:195–224 (1980)",
+          "url": "https://doi.org/10.1016/0013-7952(80)90016-2"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Two named child deaths are for this 1993 dam, not the 1996 Boac spill. Do not copy later contamination-death claims from 1996 onto this record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Marcopper Mining Corporation (Placer Dome interest)",
+      "year_built": "1991",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "maguila-guila-1993-12-06",
+      "name": "Maguila-guila siltation dam (Marcopper)",
+      "country": "Philippines",
+      "region": "Mogpog, Marinduque",
+      "location_label": "Mogpog, Marinduque, Philippines",
+      "lat": 13.474,
+      "lng": 121.861,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Mogpog) 13°28′26″N 121°51′40″E",
+      "river_or_facility": "Maguila-guila siltation dam / Mogpog River / San Antonio waste rock",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "structural_design",
+        "poor_maintenance"
+      ],
+      "cause_summary": "1991 earthen silt dam on Maguila-guila Creek lacked an overflow; it burst in Typhoon Monang (Lola). A 2022 Marinduque RTC decision found Marcopper negligent in operation and maintenance and oversedimentation.",
+      "incident_date": "1993-12-06",
+      "latest_report_date": "2022-05-16",
+      "what_happened": "On the night of 6 December 1993 the Maguila-guila earthen siltation dam, built in 1991 to keep San Antonio waste-rock silt out of the Mogpog River, collapsed during Typhoon Monang. MiningWatch and the Mining Ombudsman: the flood destroyed houses, drowned livestock, contaminated farmland and killed two children, Christina Tagle (3) and Josephine Tagle (6). Marcopper blamed the typhoon; the rebuilt dam later received an overflow. In May 2022 Judge Emmanuel Recalde (Marinduque RTC Branch 38) found Marcopper liable in negligence for the 1993 breach. Distinct from the March 1996 Tapian-pit tunnel blowout already in the DB.",
+      "status": "Company found liable (2022); abandoned dam remains a long-term risk in later assessments.",
+      "deaths": 2,
+      "sources": [
+        {
+          "label": "Inquirer — court finds Marcopper liable for 1993 Maguila-guila disaster",
+          "url": "https://newsinfo.inquirer.net/1602074/court-finds-marcopper-liable-for-1993-disaster"
+        },
+        {
+          "label": "ReliefWeb / Mining Ombudsman — Marinduque case report",
+          "url": "https://reliefweb.int/report/philippines/mining-ombudsman-case-report-marinduque-island"
+        },
+        {
+          "label": "MiningWatch Canada — Mogpog River disaster 6 Dec 1993",
+          "url": "https://miningwatch.ca/sites/default/files/commemorationmarinduquemarch242020corrected.pdf"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Twin spills 11 and 31 Oct 2005 kept as one incident. Deaths null. Not a Marcopper event.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Lafayette Philippines, Inc. / Lafayette Mining",
+      "year_built": "2005 (milling started July)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "rapu-rapu-lafayette-2005-10-11",
+      "name": "Rapu-Rapu Lafayette tailings / cyanide spills",
+      "country": "Philippines",
+      "region": "Rapu-Rapu Island, Albay",
+      "location_label": "Rapu-Rapu, Albay, Philippines",
+      "lat": 13.18,
+      "lng": 124.13,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Rapu-Rapu) 13°11′N 124°08′E",
+      "river_or_facility": "Rapu-Rapu Polymetallic Project tailings dam / Ungay and Hollow Stone creeks",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance",
+        "operational_gate"
+      ],
+      "cause_summary": "Fact-finding and DENR: two October 2005 releases of cyanide-bearing tailings/effluent after heavy rain; engineers had warned the tailings embankment was not ready for full milling.",
+      "incident_date": "2005-10-11",
+      "latest_report_date": "2006-01-10",
+      "what_happened": "Lafayette Philippines' Rapu-Rapu polymetallic mine released cyanide-bearing tailings and effluent on 11 and 31 October 2005 after heavy rain. DENR/EMB and a later presidential fact-finding commission documented fish kills in Ungay and Hollow Stone creeks and along Albay/Sorsogon shores; cyanide in creeks and silt ponds far above the 0.05 ppm standard. DENR suspended milling and in January 2006 fined Lafayette 10.4 million pesos under the Clean Water Act (P200,000/day from 11 Oct to 14 Dec 2005). Company officials called the 31 October event a treated discharge; government inspectors on 5 November still found cyanide at least twice the standard. No human death count appears in these sources.",
+      "status": "Milling suspended; largest Clean Water Act fine then imposed by DENR.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Philstar — Lafayette fined P10.4 M (10 Jan 2006)",
+          "url": "https://www.philstar.com/nation/2006/01/10/315858/lafayette-fined-p104-m-rapu-rapu-mine-spills"
+        },
+        {
+          "label": "ABC News — Philippines probes Aust miner (9 Nov 2005)",
+          "url": "https://www.abc.net.au/news/2005-11-09/philippines-probes-aust-miner-over-contamination/736642"
+        },
+        {
+          "label": "Mines and Communities — Rapu-Rapu fact-finding summary",
+          "url": "https://www.minesandcommunities.org/article.php?a=2309"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Separate from mae-moh-2025-11-04. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Electricity Generating Authority of Thailand (EGAT)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 70 million m³ of dump material (WISE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mae-moh-west-dump-2018-03-18",
+      "name": "Mae Moh west dumpsite failure",
+      "country": "Thailand",
+      "region": "Mae Moh, Lampang Province",
+      "location_label": "Mae Moh Mine, Lampang, Thailand",
+      "lat": 18.27456,
+      "lng": 99.6518,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (Mae Moh, Lampang) — same mine as the 2025 waste-pile record already in the DB",
+      "river_or_facility": "Mae Moh Mine west dumpsite (EGAT lignite waste)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "landslide"
+      ],
+      "cause_summary": "WISE: failure of the west dumpsite over about 1.56 km² from a perched water table, high pore pressure and a weak basal layer at the hard-foundation / waste-dump interface.",
+      "incident_date": "2018-03-18",
+      "latest_report_date": "2026-08-19",
+      "what_happened": "On 18 March 2018 the west dumpsite at EGAT's Mae Moh lignite mine, Lampang, failed over about 1.56 km². WISE (updated 19 Aug 2026) cites a perched water table, high pore-water pressure and a weak basal layer and gives about 70 million m³ of dump material. No death figure is given. This is a separate event from the 4 November 2025 Mae Moh waste-pile landslide already in the DB.",
+      "status": "Historical waste-dump failure at an operating lignite mine.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WISE Uranium — chronology of major tailings dam failures (Mae Moh 18 Mar 2018)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "37 residents to Yul-myeon gymnasium; ~10 houses flooded (Yonhap)",
+      "notes": "Deaths null. Do not copy the 1 Gyeonggi storm death onto this reservoir. Jucheon Reservoir in Anseong is a separate same-day breach (held without a pin).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 4,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "about 30 m beside the spillway (Yonhap)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sanyang-icheon-2020-08-02",
+      "name": "Sanyang Reservoir (Icheon)",
+      "country": "South Korea",
+      "region": "Yul-myeon, Icheon, Gyeonggi",
+      "location_label": "Sanyang-ri, Yul-myeon, Icheon, South Korea",
+      "lat": 37.267,
+      "lng": 127.433,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Icheon) 37°16′N 127°26′E; Yonhap locates the reservoir in Yul-myeon",
+      "river_or_facility": "Sanyang Reservoir / Sanyangcheon",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Yonhap: part of the Yul-myeon Sanyang Reservoir bank collapsed about 07:30 on 2 August 2020 after extreme rain (Icheon totals >150 mm overnight; Anseong >100 mm/h).",
+      "incident_date": "2020-08-02",
+      "latest_report_date": "2021",
+      "what_happened": "About 07:30–07:32 on 2 August 2020 a section of the Sanyang Reservoir embankment in Yul-myeon, Icheon, Gyeonggi, failed in record rain. Yonhap: a roughly 30 m opening beside the spillway let the Sanyangcheon overflow; about 10 houses in Sanyang 1-ri flooded and 37 residents went to Yul-myeon gymnasium. Newspim: the 4 m bank impounded about 17,490 m². A Korean Geographical Society paper treats the collapse as a social disaster. Gyeonggi-wide the same storm killed one person and injured two — those casualties are not attributed to this reservoir in the sources fetched.",
+      "status": "Agricultural-reservoir embankment breach; later used as an evacuation-planning case.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Yonhap — Icheon Sanyang reservoir bank collapse (2 Aug 2020)",
+          "url": "https://www.yna.co.kr/view/AKR20200802004851061"
+        },
+        {
+          "label": "Yonhap — Gyeonggi storm wrap (Sanyang 30 m; 37 evacuated)",
+          "url": "https://www.yna.co.kr/view/AKR20200802044651061"
+        },
+        {
+          "label": "Wikipedia — Icheon",
+          "url": "https://en.wikipedia.org/wiki/Icheon"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Naganuma/Toyono: 3,305 houses above-floor flood (Shinano Mainichi via JSNDS)",
+      "notes": "Deaths 2 are the Shinano Mainichi figure for the Naganuma/Toyono inundation of this breach, not a prefecture typhoon total.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 70 m (academic papers / JSNDS)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "chikuma-hoyasu-2019-10-13",
+      "name": "Chikuma River levee at Hoyasu (Nagano)",
+      "country": "Japan",
+      "region": "Hoyasu / Naganuma, Nagano City, Nagano Prefecture",
+      "location_label": "Hoyasu left-bank levee, Nagano, Japan",
+      "lat": 36.64861,
+      "lng": 138.19472,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Nagano city) 36°38′55″N 138°11′41″E; breach is the left-bank levee at Hoyasu in Naganuma",
+      "river_or_facility": "Chikuma River (Shinano) left-bank levee, Hoyasu",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Investigation committee / Soils and Foundations: Typhoon Hagibis (No. 19) overtopped the left-bank levee; CCTV overflow 00:55 on 13 October; breach between 02:15 and 05:30.",
+      "incident_date": "2019-10-13",
+      "latest_report_date": "2021-07-01",
+      "what_happened": "In Typhoon Hagibis (Reiwa 1 East Japan Typhoon) the left-bank Chikuma River levee at Hoyasu, Nagano City, overtopped and breached. Academic reconstructions: overflow from 00:55 on 13 October 2019; a 70 m breach of a 30 m-wide revetment; inundation about 6 km wide and 2.23 km inland (about 950 ha). JSNDS, citing Shinano Mainichi (18 Oct 2019): 2 dead, 3,305 houses flooded above floor, 1,78x below floor in Naganuma/Toyono. The same reach had been widened as a sakura embankment completed in 2016. Distinct from the 2015 Kinugawa/Joso levee already in the DB.",
+      "status": "Historical national-managed levee breach; later risk-evaluation case.",
+      "deaths": 2,
+      "sources": [
+        {
+          "label": "Ohtsuka et al., Soils and Foundations (2021) — Chikuma levee damage",
+          "url": "https://doi.org/10.1016/j.sandf.2021.05.009"
+        },
+        {
+          "label": "JSNDS 40(2) — Hoyasu breach; 2 dead in Naganuma/Toyono",
+          "url": "https://www.jsnds.org/ssk/ssk_40_2_191.pdf"
+        },
+        {
+          "label": "Wikipedia — Nagano (city)",
+          "url": "https://en.wikipedia.org/wiki/Nagano_(city)"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Okayama prefecture or Mabi-district 2018 flood deaths onto this levee record unless a source ties them to these openings.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "oda-mabi-2018-07-07",
+      "name": "Oda / Suemasa River levees at Mabi (Kurashiki)",
+      "country": "Japan",
+      "region": "Mabi, Kurashiki, Okayama Prefecture",
+      "location_label": "Mabi, Kurashiki, Okayama, Japan",
+      "lat": 34.585,
+      "lng": 133.77222,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Kurashiki) 34°35′06″N 133°46′20″E; Mabi town was merged into Kurashiki in 2005",
+      "river_or_facility": "Oda River / Suemasa River levees, Mabi (Arii and Route 486 crossings)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "MLIT / E-journal GEO: July 2018 heavy rain; notable breaches on the Suemasa River about 700 m and 400 m above the Oda confluence at Mabi-Arii and National Route 486.",
+      "incident_date": "2018-07-07",
+      "latest_report_date": "2019",
+      "what_happened": "During the July 2018 West Japan heavy-rain disaster, levees on the Oda River system at Mabi, Kurashiki, Okayama, breached. An E-journal GEO paper citing MLIT describes marked breaches on the Suemasa River about 700 m upstream of the Oda confluence at Mabi-chō Arii (both banks) and about 400 m upstream at the Route 486 crossing (left bank), with overtopping on the right bank; many houses were swept or destroyed at the 700 m Arii site and a large scour hole formed. Mabi was the focus of Kurashiki's urban flooding. No source fetched gives a death count for these named levee openings alone.",
+      "status": "Historical levee breaches; Mabi recovery became a national 2018-flood case.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "E-journal GEO — Flood flows in Mabi, Kurashiki, 2018",
+          "url": "https://doi.org/10.4157/ejgeo.14.53"
+        },
+        {
+          "label": "Wikipedia — Kurashiki (Mabi merged 2005)",
+          "url": "https://en.wikipedia.org/wiki/Kurashiki"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Kumamoto/Kuma-basin 2020 flood deaths onto this city levee record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kuma-hitoyoshi-2020-07-04",
+      "name": "Kuma River levees at Hitoyoshi",
+      "country": "Japan",
+      "region": "Hitoyoshi, Kumamoto Prefecture",
+      "location_label": "Hitoyoshi, Kumamoto, Japan",
+      "lat": 32.21028,
+      "lng": 130.7625,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Hitoyoshi) 32°12′37″N 130°45′45″E; Kuma River runs through the city",
+      "river_or_facility": "Kuma River levees, Hitoyoshi basin",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "July 2020 Kyushu heavy rain: Kuma River flooding at Hitoyoshi with levee breaches and overtopping (Wikipedia Hitoyoshi see-also 2020 Kyushu floods).",
+      "incident_date": "2020-07-04",
+      "latest_report_date": "2020-07",
+      "what_happened": "In the July 2020 Kyushu heavy rains the Kuma River flooded Hitoyoshi, Kumamoto. Wikipedia's 2020 Kyushu floods article: the Kuma overran its banks in eleven places and breached one levee; a dike was breached near Hitoyoshi. A JSCE hydraulic paper reports two dike breaks on the Kuma, in low land downstream of Hitoyoshi City, attributed to strong return flow from the floodplain. Wikipedia Hitoyoshi gives city coordinates used for the pin. No source fetched gives a death count limited to these named openings; the 77-dead prefecture figure and the 17 Hitoyoshi city deaths are flood/landslide totals and are not copied here.",
+      "status": "Historical Kuma River urban levee/overtopping disaster.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — 2020 Kyushu floods (Kuma overran 11 places; one levee / dike breached near Hitoyoshi)",
+          "url": "https://en.wikipedia.org/wiki/2020_Kyushu_floods"
+        },
+        {
+          "label": "JSCE hydraulic paper — two Kuma River dike breaks downstream of Hitoyoshi",
+          "url": "https://www.jstage.jst.go.jp/article/jscejhe/77/1/77_203/_article/-char/en"
+        },
+        {
+          "label": "Wikipedia — Hitoyoshi, Kumamoto",
+          "url": "https://en.wikipedia.org/wiki/Hitoyoshi,_Kumamoto"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 for the 7 Sep breach (NASA/MDPI: no casualties). Do not copy the 156 Jure landslide deaths of 2 August onto the dam breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 55,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sunkoshi-jure-2014-09-07",
+      "name": "Sunkoshi (Jure) landslide-dam breach",
+      "country": "Nepal",
+      "region": "Jure, Sindhupalchok District, Bagmati",
+      "location_label": "Jure / Sunkoshi, Sindhupalchok, Nepal",
+      "lat": 27.767,
+      "lng": 85.7,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Sindhupalchok District) 27°46′N 85°42′E; landslide dam was at Jure village on the Sunkoshi",
+      "river_or_facility": "Jure landslide dam / Sunkoshi (Sunkosi) River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "landslide",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "2 August 2014 rockslide dammed the Sunkoshi; the earthen dam breached on 7 September 2014 after rain and after the army had cut outlet channels.",
+      "incident_date": "2014-09-07",
+      "latest_report_date": "2025",
+      "what_happened": "A 2 August 2014 rockslide at Jure, Sindhupalchok, blocked the Sunkoshi, buried houses and created a roughly 55 m landslide dam and lake (NASA Earth Observatory; ICL). Those 2 August landslide deaths (156 in ICL/NASA) are not this breach. After army outlet channels (2 August and a 30 August blast; widened to 52 m on 6 September), heavy rain raised the lake and the dam breached on 7 September 2014 (some NASA text says 6 September). NASA and a 2025 MDPI hydraulic paper: the outburst damaged houses up to about 6 km downstream; no casualties were reported from the breach because of evacuations.",
+      "status": "Landslide dam breached; highway and hydropower had already been hit on 2 August.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "NASA Earth Observatory — Before and After the Sunkosi Landslide",
+          "url": "https://science.nasa.gov/earth/earth-observatory/before-and-after-the-sunkosi-landslide-84406/"
+        },
+        {
+          "label": "ICL — Sunkoshi / Jure landslide",
+          "url": "https://www.landslides.org/report/sunkoshi-landslide/"
+        },
+        {
+          "label": "MDPI GeoHazards — Sunkoshi landslide-dam breach hydraulics",
+          "url": "https://www.mdpi.com/2624-795X/7/1/23"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy other Hpakant waste-heap death tolls onto this event.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "111 Jade Mining Co. (Kyaukmyet Shwe Pyi Company)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 3 million m³ (AGU estimate via WISE)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lone-khin-hpakant-2024-01-25",
+      "name": "Lone Khin jade tailings dam (Hpakant)",
+      "country": "Myanmar",
+      "region": "Lone Khin, Hpakant, Kachin State",
+      "location_label": "Lone Khin, Hpakant, Kachin, Myanmar",
+      "lat": 25.61235,
+      "lng": 96.31254,
+      "geo_accuracy": "region",
+      "geo_source": "Nominatim / Wikipedia (Hpakant town) — same pin basis as seikmu-hpakant-2025-01-13 already in the DB",
+      "river_or_facility": "Lone Khin / 111 Jade Mining Co. (Kyaukmyet Shwe Pyi) tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "WISE lists a tailings(?) dam failure; mechanism not stated. AGU Landslide Blog estimated about 3 million m³.",
+      "incident_date": "2024-01-25",
+      "latest_report_date": "2026-08-19",
+      "what_happened": "WISE (updated 19 Aug 2026) records a tailings dam failure about 25 January 2024 at Lone Khin, Hpakant, Kachin, attributed to 111 Jade Mining Co. (Kyaukmyet Shwe Pyi Company). AGU estimated about 3 million m³; the mud wave entered a lower basin/lake. WISE links a video of the collapse. No death figure is given in the WISE row. Distinct from Seikmu (13 Jan 2025) and other Hpakant waste-heap slides already in or held.",
+      "status": "Documented TSF/waste-dam collapse into a lower pond.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WISE Uranium — chronology (Lone Khin, 25 Jan 2024)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null (WISE says an operator was buried; no confirmed death count). Separate from imip-fatufia-2025-03-22.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "2026",
+      "owner_operator": "QMB New Energy Materials (GEM Co., Ltd. 55%)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "qmb-imip-2026-02-18",
+      "name": "QMB IMIP nickel tailings dam (Feb 2026)",
+      "country": "Indonesia",
+      "region": "Morowali Industrial Park, Morowali, Central Sulawesi",
+      "location_label": "IMIP, Morowali, Indonesia",
+      "lat": -2.79,
+      "lng": 122.1249,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (Bahodopi) — same park as imip-fatufia-2025-03-22 already in the DB",
+      "river_or_facility": "QMB New Energy Materials tailings dam, IMIP",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "landslide",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "WISE: landslide after heavy rain led to a tailings dam failure at QMB New Energy Materials (GEM Co. 55%).",
+      "incident_date": "2026-02-18",
+      "latest_report_date": "2026-08-19",
+      "what_happened": "WISE (updated 19 Aug 2026) records that on 18 February 2026 a landslide after heavy rain caused a tailings dam failure at QMB New Energy Materials (GEM Co., Ltd. of China 55%) inside Morowali Industrial Park (IMIP), Sulawesi. Several pieces of heavy equipment and an operator were buried. This is a later, separately dated IMIP TSF event from the 22 March 2025 Fatufia / PT IMIP failure already in the DB.",
+      "status": "WISE-listed TSF failure; operator reported buried.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WISE Uranium — chronology (IMIP QMB, 18 Feb 2026)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        }
+      ],
+      "severity": "moderate"
     }
   ]
 }
