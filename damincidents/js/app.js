@@ -146,8 +146,13 @@
 
   function markerColor(inc) {
     if (layer === "floods") {
-      if (inc.severity === "catastrophic") return COLORS.failure;
-      if (inc.severity === "major") return COLORS.partial;
+      const isLight = document.documentElement.dataset.theme === "light";
+      if (inc.severity === "catastrophic") {
+        return isLight ? getComputedStyle(document.documentElement).getPropertyValue('--failure-light').trim() || "#e85b52" : COLORS.failure;
+      }
+      if (inc.severity === "major") {
+        return isLight ? getComputedStyle(document.documentElement).getPropertyValue('--partial-light').trim() || "#e8892c" : COLORS.partial;
+      }
       return COLORS.incident;
     }
     return COLORS[inc.category] || COLORS.incident;
@@ -1032,10 +1037,12 @@
   function showSelectedPin(inc) {
     if (!selectedLayer || typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
     selectedLayer.clearLayers();
+    const isLight = document.documentElement.dataset.theme === "light";
+    const ringColor = isLight ? "#ffffff" : "#f3efe6";
     const m = L.circleMarker([inc.lat, inc.lng], {
       pane: "selectedPane",
       radius: 11,
-      color: "#f3efe6",
+      color: ringColor,
       weight: 2,
       fillColor: markerColor(inc),
       fillOpacity: 0.95,
@@ -1500,6 +1507,11 @@
           b.classList.toggle("is-active", currentTheme === "light");
           b.setAttribute("aria-pressed", currentTheme === "light" ? "true" : "false");
           switchBaseLayer();
+          apply();
+          if (selectedId) {
+            const inc = all.find((r) => r.id === selectedId);
+            if (inc) showSelectedPin(inc);
+          }
         });
         return el;
       }

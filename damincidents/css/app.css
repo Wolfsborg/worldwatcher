@@ -49,6 +49,8 @@ html[data-theme="light"] {
   --pin-label-bg: rgba(78, 127, 163, 0.92);
   --pin-label-border: rgba(78, 127, 163, 0.3);
   --pin-label-text: #ffffff;
+  --failure-light: #e85b52;
+  --partial-light: #e8892c;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -857,13 +859,16 @@ html[data-theme="light"] .leaflet-control-attribution a { color: var(--text); }
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
 }
 html[data-theme="light"] .site-marker {
+  border: 1.5px solid rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 0 1px var(--pin-ring, rgba(78, 127, 163, 0.6));
 }
+.marker-cluster,
 .marker-cluster-small,
 .marker-cluster-medium,
 .marker-cluster-large {
   background: rgba(243, 239, 230, 0.16);
 }
+.marker-cluster div,
 .marker-cluster-small div,
 .marker-cluster-medium div,
 .marker-cluster-large div {
@@ -872,11 +877,18 @@ html[data-theme="light"] .site-marker {
   font-family: var(--sans);
   font-weight: 500;
 }
+html[data-theme="light"] .marker-cluster,
+html[data-theme="light"] .marker-cluster-small,
+html[data-theme="light"] .marker-cluster-medium,
+html[data-theme="light"] .marker-cluster-large {
+  background: rgba(78, 127, 163, 0.3) !important;
+}
+html[data-theme="light"] .marker-cluster div,
 html[data-theme="light"] .marker-cluster-small div,
 html[data-theme="light"] .marker-cluster-medium div,
 html[data-theme="light"] .marker-cluster-large div {
-  background: var(--cluster-bg, #4e7fa3);
-  color: var(--cluster-text, #ffffff);
+  background: var(--cluster-bg, #4e7fa3) !important;
+  color: var(--cluster-text, #ffffff) !important;
 }
 
 .pin-name {
