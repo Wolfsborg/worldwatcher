@@ -8,3 +8,7 @@ previews/
 .vercel/
 
 .vercel
+
+# Test files
+test-bc-years.html
+BC_YEAR_FIX_SUMMARY.md

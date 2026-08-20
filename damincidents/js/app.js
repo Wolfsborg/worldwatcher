@@ -158,12 +158,21 @@
 
   function yearOf(inc) {
     if (!inc.incident_date) return null;
-    const y = parseInt(String(inc.incident_date).slice(0, 4), 10);
+    const str = String(inc.incident_date);
+    const y = parseInt(str.startsWith("-") ? str.slice(0, 5) : str.slice(0, 4), 10);
     return Number.isFinite(y) ? y : null;
   }
 
   function dateSortKey(inc) {
     const d = inc.incident_date || "";
+    const isBC = String(d).startsWith("-");
+    if (isBC) {
+      const rest = d.slice(1);
+      if (rest.length >= 10) return d;
+      if (rest.length === 7) return d + "-01";
+      if (rest.length === 4) return d + "-01-01";
+      return "-9999-01-01";
+    }
     if (d.length >= 10) return d;
     if (d.length === 7) return d + "-01";
     if (d.length === 4) return d + "-01-01";
@@ -173,15 +182,43 @@
   function formatDate(iso) {
     if (!iso) return "Date unknown";
     const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-    const p = String(iso).split("-");
-    if (p.length === 1) return p[0];
+    const str = String(iso);
+    const isBC = str.startsWith("-");
+    const dateStr = isBC ? str.slice(1) : str;
+    const p = dateStr.split("-");
+    
+    function bcSuffix(yearStr) {
+      const y = parseInt(yearStr, 10);
+      if (isBC) {
+        return (y === 0 ? "1" : yearStr) + " BC";
+      }
+      return yearStr;
+    }
+    
+    if (p.length === 1) return bcSuffix(p[0]);
     const mon = months[parseInt(p[1], 10) - 1] || p[1];
-    if (p.length === 2) return mon + " " + p[0];
-    return parseInt(p[2], 10) + " " + mon + " " + p[0];
+    if (p.length === 2) return mon + " " + bcSuffix(p[0]);
+    return parseInt(p[2], 10) + " " + mon + " " + bcSuffix(p[0]);
   }
 
   function formatNum(n) {
     return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
+  function formatYear(y) {
+    if (y < 1) {
+      const bc = y === 0 ? 1 : Math.abs(y);
+      return bc + " BC";
+    }
+    return String(y);
+  }
+
+  function parseYearInput(str) {
+    if (!str) return NaN;
+    const s = String(str).trim().toUpperCase();
+    const bcMatch = s.match(/^(\d+)\s*BC?$/);
+    if (bcMatch) return -parseInt(bcMatch[1], 10);
+    return parseInt(s, 10);
   }
 
   function markerRadius(deaths) {
@@ -224,8 +261,10 @@
   }
 
   function yearPair() {
-    let a = parseInt(els.yearMin.value, 10);
-    let b = parseInt(els.yearMax.value, 10);
+    let a = parseYearInput(els.yearMin.value);
+    let b = parseYearInput(els.yearMax.value);
+    if (Number.isNaN(a)) a = els.yearMin.dataset.numericValue ? parseInt(els.yearMin.dataset.numericValue, 10) : yearBounds.min;
+    if (Number.isNaN(b)) b = els.yearMax.dataset.numericValue ? parseInt(els.yearMax.dataset.numericValue, 10) : yearBounds.max;
     if (Number.isNaN(a)) a = yearBounds.min;
     if (Number.isNaN(b)) b = yearBounds.max;
     return [a, b];
@@ -299,15 +338,17 @@
     }
     min = Math.max(yearBounds.min, Math.min(yearBounds.max, min));
     max = Math.max(yearBounds.min, Math.min(yearBounds.max, max));
-    els.yearMin.value = min;
-    els.yearMax.value = max;
+    els.yearMin.value = formatYear(min);
+    els.yearMax.value = formatYear(max);
+    els.yearMin.dataset.numericValue = min;
+    els.yearMax.dataset.numericValue = max;
     paintYearSlider();
   }
 
   function syncPeriodFromYears() {
     if (!els.periods) return;
-    const ymin = parseInt(els.yearMin.value, 10);
-    const ymax = parseInt(els.yearMax.value, 10);
+    const ymin = parseYearInput(els.yearMin.value);
+    const ymax = parseYearInput(els.yearMax.value);
     let match = null;
     [...els.periods.querySelectorAll(".chip")].forEach((b) => {
       const r = periodRange(b.dataset.period);
@@ -397,7 +438,9 @@
 
   function popupHtml(inc) {
     const geo = locationLabel(inc);
-    return "<strong>" + escapeHtml(inc.name) + "</strong><br>" + escapeHtml(String(yearOf(inc) || "")) +
+    const year = yearOf(inc);
+    const yearStr = year != null ? formatYear(year) : "";
+    return "<strong>" + escapeHtml(inc.name) + "</strong><br>" + escapeHtml(yearStr) +
       (geo ? "<br><em>" + escapeHtml(geo) + "</em>" : "");
   }
 
