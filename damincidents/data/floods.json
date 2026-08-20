@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 226,
+  "count": 254,
   "events": [
     {
       "id": "flood-assam-2026",
@@ -12717,6 +12717,1502 @@
           "date": "2026-08-20",
           "by": "historic_backfill",
           "change": "Added from ReliefWeb / OCHA Somalia 2025 Gu Situation Report No. 1 (20 May 2025)."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "2,500 m³/s on the Berounka at Beroun (still unsurpassed); Vltava at Prague 3,300 m³/s (cs.wikipedia)",
+      "return_period": null,
+      "rainfall_mm": "237 mm in 1.5 hours at Mladotice (cs.wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-czech-1872",
+      "name": "1872 Bohemia flash flood",
+      "country": "Czech Republic",
+      "region": "Western and Central Bohemia / Berounka",
+      "location_label": "Beroun, Czech Republic",
+      "lat": 49.96416667,
+      "lng": 14.07388889,
+      "geo_source": "Beroun (Wikipedia coordinates 49.96416667°N, 14.07388889°E); Czech Wikipedia event page names the unmatched Berounka crest at Beroun (2,500 m³/s)",
+      "flood_type": "flash",
+      "river_or_basin": "Berounka / Blšanka / Střela / Vltava",
+      "river_or_facility": "Berounka at Beroun",
+      "incident_date": "1872-05-25",
+      "latest_report_date": "1872-05-26",
+      "what_happened": "A 25–26 May 1872 convective cloudburst over western and central Bohemia produced a 1,000-year flash flood on the Berounka. Czech Wikipedia records an official count of 337 dead, worst at Holedeč (43) and Nebřeziny (40). The night wave breached five fishpond dikes on the Blšanka and the Mladotice pond, and a landslide dammed Mladotický potok to form Odlezelské Lake. Academic reconstructions put fatalities at 240–300 (NHESS 2026 cites 244).",
+      "status": "Historical.",
+      "deaths": 337,
+      "affected_or_evacuated": "Thousands homeless; about 2,900 persons affected in the Natural Hazards floods database",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Afternoon cloudburst on the Blšanka–Střela front; night flood wave on the Berounka.",
+      "sources": [
+        {
+          "label": "Wikipedia (cs): Povodeň v Čechách (1872)",
+          "url": "https://cs.wikipedia.org/wiki/Povode%C5%88_v_%C4%8Cech%C3%A1ch_(1872)"
+        }
+      ],
+      "notes": "337 is the official count on the dedicated Czech Wikipedia event page. Documentary/academic range 240–300 (often 244) stays in notes. Pond-dike failures on the Blšanka and the Mladotice pond were consequences of the rainfall flood, not a standalone dam-collapse row.",
+      "era": "1872",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Czech Wikipedia Povodeň v Čechách (1872)."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "150 billion pesetas (Wikipedia infobox)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-spain-1983",
+      "name": "1983 Spanish floods (Basque Country)",
+      "country": "Spain",
+      "region": "Biscay / Gipuzkoa / Nervión–Ibaizabal",
+      "location_label": "Bilbao, Spain",
+      "lat": 43.25694444,
+      "lng": -2.92361111,
+      "geo_source": "Bilbao (Wikipedia coordinates 43.25694444°N, 2.92361111°W); event page names Casco Viejo at the Nervión–Ibaizabal confluence",
+      "flood_type": "riverine",
+      "river_or_basin": "Nervión / Ibaizabal / Deba / Oria / Urola",
+      "river_or_facility": "Nervión–Ibaizabal at Bilbao",
+      "incident_date": "1983-08-26",
+      "latest_report_date": "1983-08-27",
+      "what_happened": "Abnormally heavy rain on 25–27 August 1983 burst the Deba, Oria and Urola in Gipuzkoa, then flooded Bilbao at the Nervión–Ibaizabal confluence during Aste Nagusia. Water stood about 3 m deep in Casco Viejo. The dedicated Wikipedia page records 34 deaths and five missing, more than 5,000 evacuated, and 150 billion pesetas in damage — Spain's costliest floods until October 2024.",
+      "status": "Historical.",
+      "deaths": 34,
+      "affected_or_evacuated": "Over 5,000 evacuated in Bilbao (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Late-August cloudburst on Basque river confluences, worst at Bilbao.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1983 Spanish floods",
+          "url": "https://en.wikipedia.org/wiki/1983_Spanish_floods"
+        }
+      ],
+      "notes": "34 deaths plus five unaccounted for on the event page. Distinct from flood-spain-2024 (DANA) and flood-valles-1962 / flood-valencia-1957 / flood-santa-teresa-1879.",
+      "era": "1983",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 1983 Spanish floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "About 160 mm at Biescas; 200–250 mm estimated in the Arás headwaters (es.wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": 187,
+      "id": "flood-biescas-1996",
+      "name": "1996 Biescas campsite flood",
+      "country": "Spain",
+      "region": "Aragon / Pyrenees / Gállego",
+      "location_label": "Biescas, Huesca, Spain",
+      "lat": 42.63333333,
+      "lng": -0.15,
+      "geo_source": "Biescas (Wikipedia coordinates 42.63333333°N, 0.15°W); Spanish Wikipedia event page places Camping Las Nieves on the Arás fan about 1 km downstream of town",
+      "flood_type": "flash",
+      "river_or_basin": "Barranco de Arás / Río Gállego",
+      "river_or_facility": "Arás torrent at Las Nieves campsite",
+      "incident_date": "1996-08-07",
+      "latest_report_date": "1996-08-07",
+      "what_happened": "On 7 August 1996 a short convective storm sent a debris-laden flash flood down the Arás ravine onto Camping Las Nieves, built on the alluvial fan at the Gállego confluence just below Biescas. Spanish, Catalan and German Wikipedia event pages agree on 87 dead and 187 injured. Sediment-check dams in the torrent were swept out; a 2005 Audiencia Nacional ruling held the state and Aragón liable.",
+      "status": "Historical.",
+      "deaths": 87,
+      "affected_or_evacuated": null,
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Convective cloudburst on the Arás torrent; campsite sited on the fan.",
+      "sources": [
+        {
+          "label": "Wikipedia (es): Riada del camping de Biescas",
+          "url": "https://es.wikipedia.org/wiki/Riada_del_camping_de_Biescas"
+        },
+        {
+          "label": "Wikipedia (de): Unglück in Biescas",
+          "url": "https://de.wikipedia.org/wiki/Ungl%C3%BCck_in_Biescas"
+        }
+      ],
+      "notes": "87 is the figure on the dedicated Spanish and German Wikipedia pages (English Wikipedia town page says 86). No English event page.",
+      "era": "1996",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Spanish/German Wikipedia Riada del camping de Biescas."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "230 mm in three hours (officials, cited on Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": 95,
+      "id": "flood-messina-2009",
+      "name": "2009 Messina floods and mudslides",
+      "country": "Italy",
+      "region": "Sicily / Province of Messina",
+      "location_label": "Giampilieri Superiore, Messina, Italy",
+      "lat": 38.06666667,
+      "lng": 15.46666667,
+      "geo_source": "Giampilieri Superiore (Wikipedia coordinates 38.06666667°N, 15.46666667°E); event page names this frazione as buried in mud",
+      "flood_type": "flash",
+      "river_or_basin": "Ionian-coast torrents south of Messina",
+      "river_or_facility": null,
+      "incident_date": "2009-10-01",
+      "latest_report_date": "2009-10-10",
+      "what_happened": "On the night of 1–2 October 2009 about 230 mm of rain in three hours sent mudslides through Giampilieri Superiore, Scaletta Zanclea, Altolia and Briga Superiore on Sicily's Ionian coast. The dedicated Wikipedia page records at least 31 deaths, six missing and 95 injured; more than 400 people were left homeless. It was Italy's worst landslide disaster since Sarno 1998.",
+      "status": "Historical.",
+      "deaths": 31,
+      "affected_or_evacuated": "More than 400 homeless; at least 450 inhabitants of the comuni left homeless (Wikipedia, 8 Oct 2009)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Three-hour cloudburst on deforested Ionian-coast slopes; illegal building in torrent beds.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2009 Messina floods and mudslides",
+          "url": "https://en.wikipedia.org/wiki/2009_Messina_floods_and_mudslides"
+        }
+      ],
+      "notes": "Infobox 'at least 31 deaths, 6 missing'. Early press 13–28; Berlusconi briefly said the toll could reach 50. Using the event-page figure 31.",
+      "era": "2009",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2009 Messina floods and mudslides."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-thames-1928",
+      "name": "1928 Thames flood",
+      "country": "United Kingdom",
+      "region": "Greater London / tidal Thames",
+      "location_label": "Chelsea Embankment, London, United Kingdom",
+      "lat": 51.484,
+      "lng": -0.162,
+      "geo_source": "Event-page coordinates 51.484°N, 0.162°W at Chelsea Embankment, where a 75-foot section collapsed opposite the Tate",
+      "flood_type": "coastal",
+      "river_or_basin": "River Thames",
+      "river_or_facility": "Thames Embankment / Chelsea Embankment",
+      "incident_date": "1928-01-07",
+      "latest_report_date": "1928-01-09",
+      "what_happened": "A Cotswolds thaw and rain, a high spring tide and a North Sea storm surge combined on 7 January 1928 to produce the highest Thames level then recorded in London (5.55 m). Water overtopped the Embankment from the City to Putney; a 75-foot Chelsea Embankment section collapsed opposite the Tate. Fourteen people died, mostly in Millbank basements, and about 4,000 were made homeless. Last major flood of central London; a driver of the later Thames Barrier.",
+      "status": "Historical.",
+      "deaths": 14,
+      "affected_or_evacuated": "About 4,000 Londoners made homeless (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "storm_surge",
+        "snowmelt",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Snowmelt-and-rain flood wave meeting a North Sea surge and spring tide in dredged tidal Thames.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1928 Thames flood",
+          "url": "https://en.wikipedia.org/wiki/1928_Thames_flood"
+        }
+      ],
+      "notes": "14 is the Times / Wikipedia death-roll. Distinct from flood-north-sea-1953 and flood-lynmouth-1952.",
+      "era": "1928",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 1928 Thames flood."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "255 mm in one day at Hala Gąsienicowa, a then Polish record (Wikipedia)",
+      "inundation_area": "1,260 km² (Wikipedia)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About 60 million interwar zlotys / US$12 million (Wikipedia)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-poland-1934",
+      "name": "1934 flood in Poland",
+      "country": "Poland",
+      "region": "Lesser Poland / Dunajec–Vistula",
+      "location_label": "Dobczyce, Poland",
+      "lat": 49.88083333,
+      "lng": 20.09027778,
+      "geo_source": "Dobczyce (Wikipedia coordinates 49.88083333°N, 20.09027778°E); event-page image caption is flooded Lesser Poland around Dobczyce on the Raba",
+      "flood_type": "riverine",
+      "river_or_basin": "Dunajec / Raba / Wisłoka / Skawa / Vistula",
+      "river_or_facility": "Dunajec basin",
+      "incident_date": "1934-07-13",
+      "latest_report_date": "1934-07-22",
+      "what_happened": "Heavy rain in the Dunajec basin from 13 July 1934, peaking on 16 July (255 mm at Hala Gąsienicowa), spread to the Raba, Wisłoka and Skawa and then the Vistula. The dedicated Wikipedia page records 55 deaths, 1,260 km² flooded, 22,059 buildings damaged or destroyed and about 60 million zlotys of losses. The disaster led to the Porąbka and Rożnów reservoirs.",
+      "status": "Historical.",
+      "deaths": 55,
+      "affected_or_evacuated": null,
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Mid-July cloudburst in the Tatras and Gorce; flood wave on Dunajec tributaries into the Vistula.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1934 flood in Poland",
+          "url": "https://en.wikipedia.org/wiki/1934_flood_in_Poland"
+        }
+      ],
+      "notes": "Biggest flood of the Second Polish Republic on the dedicated event page. Distinct from flood-oder-1997 and flood-central-europe-2010.",
+      "era": "1934",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 1934 flood in Poland."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "Estimated 3,126 or 4,440 m³/s at Zagreb (Wikipedia notes both scholarly figures)",
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "About 60 km² of the city (Wikipedia)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "160 billion Yugoslav dinars / more than US$100 million (Wikipedia)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-zagreb-1964",
+      "name": "1964 Zagreb flood",
+      "country": "Croatia",
+      "region": "Zagreb / upper Sava",
+      "location_label": "Zagreb, Croatia",
+      "lat": 45.81305556,
+      "lng": 15.9775,
+      "geo_source": "Zagreb (Wikipedia coordinates 45.81305556°N, 15.9775°E); event page is the Sava through Trešnjevka and Trnje",
+      "flood_type": "riverine",
+      "river_or_basin": "Sava",
+      "river_or_facility": "Sava at Zagreb (Sava Bridge gauge)",
+      "incident_date": "1964-10-25",
+      "latest_report_date": "1964-10-28",
+      "what_happened": "A record Sava wave from rain in Slovenia overtopped Zagreb's embankments on 25–28 October 1964. The gauge at the Sava Bridge crested at 514 cm, 59 cm above 1933. About 60 km² of the city flooded, including working-class Trešnjevka and Trnje. The dedicated page records 17 direct deaths (some sources 14), 183,000 people living in the flooded area and 40,000 homeless. Last devastating river flood in Zagreb; the Sava–Odra canal followed.",
+      "status": "Historical.",
+      "deaths": 17,
+      "affected_or_evacuated": "183,000 living in the flooded area; 40,000 lost their homes (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "October rain on a saturated Sava catchment in Slovenia; embankments overtopped at Zagreb.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1964 Zagreb flood",
+          "url": "https://en.wikipedia.org/wiki/1964_Zagreb_flood"
+        }
+      ],
+      "notes": "17 direct deaths on the event-page infobox; some sources say 14. Using 17. Country recorded as Croatia (event was in SR Croatia, SFR Yugoslavia).",
+      "era": "1964",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 1964 Zagreb flood."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About 1,520 buildings damaged (Wikipedia infobox)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-attica-2017",
+      "name": "2017 West Attica floods",
+      "country": "Greece",
+      "region": "West Attica / Mandra–Nea Peramos",
+      "location_label": "Mandra, Attica, Greece",
+      "lat": 38.06666667,
+      "lng": 23.5,
+      "geo_source": "Mandra (Wikipedia coordinates 38.06666667°N, 23.5°E); event page names 23 of 24 deaths in Mandra",
+      "flood_type": "flash",
+      "river_or_basin": "West Attica torrents (Mandra / Nea Peramos)",
+      "river_or_facility": null,
+      "incident_date": "2017-11-15",
+      "latest_report_date": "2017-11-19",
+      "what_happened": "On the morning of 15 November 2017, Cyclone Numa / low Eurydice dumped extreme rain on West Attica. Flash floods in Mandra, Nea Peramos, Magoula and Elefsina killed 24 people (23 in Mandra, one in Nea Peramos) and damaged about 1,520 buildings. Wikipedia calls it the third-deadliest flood in Attica by fatality count. Three days of national mourning were declared.",
+      "status": "Historical.",
+      "deaths": 24,
+      "affected_or_evacuated": "About 1,520 buildings damaged (1,064 in Mandra; 448 in Megara / Nea Peramos)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Cyclone Numa / Eurydice cloudburst over West Attica catchments.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2017 West Attica floods",
+          "url": "https://en.wikipedia.org/wiki/2017_West_Attica_floods"
+        }
+      ],
+      "notes": "24 is the event-page figure (23 Mandra + 1 Nea Peramos). Distinct from Storm Daniel 2023 Thessaly, which has no dedicated flood page.",
+      "era": "2017",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2017 West Attica floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-hanshin-1938",
+      "name": "1938 Hanshin flood",
+      "country": "Japan",
+      "region": "Hyōgo / Mount Rokkō / Hanshin",
+      "location_label": "Kobe, Japan",
+      "lat": 34.69,
+      "lng": 135.19555556,
+      "geo_source": "Kobe (Wikipedia coordinates 34.69°N, 135.19555556°E); event page is the Mount Rokkō area including Kobe and Nishinomiya",
+      "flood_type": "flash",
+      "river_or_basin": "Rokkō-face torrents / Hanshin rivers",
+      "river_or_facility": null,
+      "incident_date": "1938-07-05",
+      "latest_report_date": "1938-07-05",
+      "what_happened": "Torrential July 1938 rain on Mount Rokkō sent flash floods and debris flows through Kobe and Nishinomiya. The dedicated English Wikipedia page, citing the official government report, says at least 715 people lost their lives. The disaster is remembered as 阪神大水害 and appears in Tanizaki's The Makioka Sisters.",
+      "status": "Historical.",
+      "deaths": 715,
+      "affected_or_evacuated": null,
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Seasonal cloudburst and debris flows off Mount Rokkō into the Hanshin cities.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1938 Hanshin flood",
+          "url": "https://en.wikipedia.org/wiki/1938_Hanshin_flood"
+        }
+      ],
+      "notes": "715 is the official-report figure on the dedicated event page. Older list-of-floods entries citing 925 stay in notes as a higher unofficial tally.",
+      "era": "1938",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 1938 Hanshin flood."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "1,109 mm in 24 hours (Ministry of Agriculture record cited on Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": 3860,
+      "id": "flood-isahaya-1957",
+      "name": "1957 Isahaya flood",
+      "country": "Japan",
+      "region": "Nagasaki / western Kyushu",
+      "location_label": "Isahaya, Nagasaki, Japan",
+      "lat": 32.84333333,
+      "lng": 130.05305556,
+      "geo_source": "Isahaya, Nagasaki (Wikipedia coordinates 32.84333333°N, 130.05305556°E); event page is the Honmei River through Isahaya",
+      "flood_type": "flash",
+      "river_or_basin": "Honmei River (Honmyōgawa)",
+      "river_or_facility": "Honmei River at Isahaya",
+      "incident_date": "1957-07-25",
+      "latest_report_date": "1957-07-28",
+      "what_happened": "From 25–28 July 1957 a stalled Baiu front dumped a then-Japanese-record 1,109 mm of rain in 24 hours on the Honmei basin. Debris flows and two flood waves wrecked Isahaya; stone Megane Bridge trapped debris and worsened the second wave. The Fire Services White Paper recorded 586 killed, 136 missing and 3,860 injured. The Isahaya Flood 30th Anniversary book puts dead and missing at 630.",
+      "status": "Historical.",
+      "deaths": 586,
+      "affected_or_evacuated": "1,564 houses completely destroyed; 24,046 flooded above floor level (White Paper, via Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stationary Baiu-front cloudburst on the Honmei; debris-choked Megane Bridge.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1957 Isahaya flood",
+          "url": "https://en.wikipedia.org/wiki/1957_Isahaya_flood"
+        }
+      ],
+      "notes": "586 killed is the White Paper figure on the event page. 630 dead-or-missing (anniversary book) and 136 missing stay in notes. Distinct from flood-kyushu-1953 and flood-wakayama-1953.",
+      "era": "1957",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 1957 Isahaya flood."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "Over 36,000 cfs on Willow Creek (Wikipedia)",
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "Over $600,000 (1903 USD; Wikipedia)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-heppner-1903",
+      "name": "Heppner flood of 1903",
+      "country": "United States",
+      "region": "Oregon / Willow Creek",
+      "location_label": "Heppner, Oregon, United States",
+      "lat": 45.35472222,
+      "lng": -119.55583333,
+      "geo_source": "Heppner, Oregon (Wikipedia coordinates 45.35472222°N, 119.55583333°W); dedicated event page",
+      "flood_type": "flash",
+      "river_or_basin": "Willow Creek / Balm Fork / Hinton Creek",
+      "river_or_facility": "Willow Creek at Heppner",
+      "incident_date": "1903-06-14",
+      "latest_report_date": "1903-06-14",
+      "what_happened": "On 14 June 1903 a thunderstorm on already-wet ground sent a 15-to-50-foot wall of water down Balm Fork and Willow Creek into Heppner, Oregon, after a steam laundry building failed as a debris dam. The dedicated page records 247 deaths — about a quarter of the town, Oregon's deadliest natural disaster, and the second-deadliest US flash flood after Johnstown 1889. Riders warned Lexington and Ione; no one died there, but sewage-contaminated wells later caused at least 18 typhoid deaths.",
+      "status": "Historical.",
+      "deaths": 247,
+      "affected_or_evacuated": "About 140 structures, one-third of Heppner, washed away (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Thunderstorm flash flood on Willow Creek after a laundry building acted as a debris dam.",
+      "sources": [
+        {
+          "label": "Wikipedia: Heppner flood of 1903",
+          "url": "https://en.wikipedia.org/wiki/Heppner_flood_of_1903"
+        }
+      ],
+      "notes": "247 is the event-page death toll. At least 18 later typhoid deaths in Lexington and Ione are not added to the flood figure. Johnstown 1889 stays in incidents.json as a dam failure.",
+      "era": "1903",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia Heppner flood of 1903."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Over 20 inches at McEwen, a Tennessee 24-hour record (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-tennessee-2021",
+      "name": "2021 Tennessee floods (Waverly)",
+      "country": "United States",
+      "region": "Middle Tennessee / Humphreys County",
+      "location_label": "Waverly, Tennessee, United States",
+      "lat": 36.08583333,
+      "lng": -87.78694444,
+      "geo_source": "Waverly, Tennessee (Wikipedia coordinates 36.08583333°N, 87.78694444°W); event page is Trace Creek through Waverly",
+      "flood_type": "flash",
+      "river_or_basin": "Trace Creek / Tennessee River tributaries",
+      "river_or_facility": "Trace Creek at Waverly",
+      "incident_date": "2021-08-21",
+      "latest_report_date": "2021-08-25",
+      "what_happened": "Between midnight and 10:00 CDT on 21 August 2021, 10–20 inches of rain fell across a five-county area of western Middle Tennessee. Runoff down Trace Creek destroyed much of Waverly. The dedicated Wikipedia page records 19 deaths in Waverly and one in nearby Hurricane Mills (20 total). Hundreds of homes and dozens of businesses were swept away. NWS and local officials called it one of Tennessee's worst natural disasters.",
+      "status": "Historical.",
+      "deaths": 20,
+      "affected_or_evacuated": "Hundreds of homes and dozens of businesses destroyed in Waverly (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record 24-hour cloudburst; Trace Creek flash flood through Waverly.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2021 Tennessee floods",
+          "url": "https://en.wikipedia.org/wiki/2021_Tennessee_floods"
+        }
+      ],
+      "notes": "20 = 19 Waverly + 1 Hurricane Mills on the event page. Waverly town page also says 20 in Humphreys County.",
+      "era": "2021",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2021 Tennessee floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "363 mm in one day at Sentul; 380 mm reported in Selangor (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "RM5.3–6.5 billion government estimate (Wikipedia infobox)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-malaysia-2021",
+      "name": "2021–2022 Malaysian floods",
+      "country": "Malaysia",
+      "region": "Selangor / Pahang / Klang Valley",
+      "location_label": "Shah Alam, Selangor, Malaysia",
+      "lat": 3.07222222,
+      "lng": 101.51666667,
+      "geo_source": "Shah Alam (Wikipedia coordinates 3.07222222°N, 101.51666667°E); event page names Taman Sri Muda / Shah Alam as the worst-hit township",
+      "flood_type": "riverine",
+      "river_or_basin": "Klang / Langat / Pahang rivers",
+      "river_or_facility": null,
+      "incident_date": "2021-12-16",
+      "latest_report_date": "2022-01-05",
+      "what_happened": "Tropical Depression 29W made landfall near Kuantan on 16 December 2021 and stalled over the peninsula. A 'once in a century' downpour flooded Selangor, Kuala Lumpur and Pahang. The dedicated page infobox records 54 dead and two missing (Bernama, 5 January 2022); a state table on the same page sums to 74. More than 71,000 people were displaced at peak. Worst damage at Taman Sri Muda, Shah Alam (14 deaths in that township).",
+      "status": "Historical.",
+      "deaths": 54,
+      "affected_or_evacuated": "71,000 displaced at peak; 125,490 cumulative (Wikipedia infobox)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Landfall and stalling of Tropical Depression 29W; record Klang Valley rain.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2021–2022 Malaysian floods",
+          "url": "https://en.wikipedia.org/wiki/2021%E2%80%932022_Malaysian_floods"
+        }
+      ],
+      "notes": "54 is the dated Bernama / infobox figure (5 Jan 2022). A deaths-by-state table on the same page sums to 74 with 17 missing — range stays in notes. Distinct from flood-malaysia-2014.",
+      "era": "2021",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2021–2022 Malaysian floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": 29,
+      "id": "flood-philippines-2022",
+      "name": "2022–2023 Philippine floods",
+      "country": "Philippines",
+      "region": "Mindanao / Visayas / Bicol / Mimaropa",
+      "location_label": "Ozamiz, Misamis Occidental, Philippines",
+      "lat": 8.15,
+      "lng": 123.85,
+      "geo_source": "Ozamiz (Wikipedia coordinates 8.15°N, 123.85°E); event page names Ozamiz, Oroquieta and Gingoog as the worst-hit cities",
+      "flood_type": "riverine",
+      "river_or_basin": "Mindanao and Eastern Visayas coastal catchments",
+      "river_or_facility": null,
+      "incident_date": "2022-12-18",
+      "latest_report_date": "2023-02-05",
+      "what_happened": "From 18 December 2022 to 5 February 2023 a shear line, northeast monsoon and low-pressure areas flooded Mindanao, the Visayas, Bicol and Mimaropa. Misamis Occidental declared a state of calamity; Ozamiz, Oroquieta and Gingoog were worst hit. Combined NDRRMC sitreps on the dedicated Wikipedia page total 97 dead, 29 injured and 25 missing (52+18+18 in December; 45+7+11 in January–February).",
+      "status": "Historical.",
+      "deaths": 97,
+      "affected_or_evacuated": null,
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon"
+      ],
+      "cause_summary": "Shear line, amihan and LPAs over Visayas and Mindanao.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2022–2023 Philippine floods",
+          "url": "https://en.wikipedia.org/wiki/2022%E2%80%932023_Philippine_floods"
+        }
+      ],
+      "notes": "97 is the combined NDRRMC sitrep total cited on the event page. Distinct from flood-ondoy-2009, flood-washi-2011 and flood-ormoc-1991.",
+      "era": "2022",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2022–2023 Philippine floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "More than 200 mm in 24 hours in Recife, Olinda, Jaboatão and others (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-pernambuco-2022",
+      "name": "2022 Northeastern Brazil floods and mudslides",
+      "country": "Brazil",
+      "region": "Pernambuco / Greater Recife",
+      "location_label": "Recife, Pernambuco, Brazil",
+      "lat": -8.05,
+      "lng": -34.9,
+      "geo_source": "Recife (Wikipedia coordinates 8.05°S, 34.9°W); event page names Greater Recife / Ibura as 106 of 109 deaths",
+      "flood_type": "flash",
+      "river_or_basin": "Capibaribe / Beberibe / coastal Pernambuco",
+      "river_or_facility": null,
+      "incident_date": "2022-05-23",
+      "latest_report_date": "2022-06-02",
+      "what_happened": "From 23 May 2022, rains far above the May average hit Pernambuco, Alagoas, Paraíba, Rio Grande do Norte and Sergipe. Greater Recife recorded more than 200 mm in 24 hours; Jardim Monte Verde in Ibura alone had 21 dead. The dedicated Wikipedia page records 109 deaths, with 106 in Greater Recife and at least 10 still missing at the time of writing. About 4,000 people were left homeless in Recife; more than 10,000 were homeless in Alagoas.",
+      "status": "Historical.",
+      "deaths": 109,
+      "affected_or_evacuated": "About 4,000 homeless in Greater Recife; more than 10,000 affected in Alagoas (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Eastern-wave / South Atlantic High rains over Greater Recife and the Zona da Mata.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2022 Northeastern Brazil floods and mudslides",
+          "url": "https://en.wikipedia.org/wiki/2022_Northeastern_Brazil_floods_and_mudslides"
+        }
+      ],
+      "notes": "109 is the event-page infobox. Distinct from flood-petropolis-2022, flood-sao-paulo-2023, flood-rs-brazil-2024 and flood-rio-2011.",
+      "era": "2022",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2022 Northeastern Brazil floods and mudslides."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "481 mm at Jacobabad in the 5–9 September wet spell, a monthly record (PMD via Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-pakistan-2012",
+      "name": "2012 Pakistan floods",
+      "country": "Pakistan",
+      "region": "Sindh / southern Punjab / Balochistan / Khyber Pakhtunkhwa",
+      "location_label": "Jacobabad, Sindh, Pakistan",
+      "lat": 28.27694444,
+      "lng": 68.45138889,
+      "geo_source": "Jacobabad (Wikipedia coordinates 28.27694444°N, 68.45138889°E); event-page rainfall table lists Jacobabad 481 mm, a monthly record",
+      "flood_type": "riverine",
+      "river_or_basin": "Indus / Kachhi / southern Punjab hill torrents",
+      "river_or_facility": null,
+      "incident_date": "2012-09-03",
+      "latest_report_date": "2012-10-17",
+      "what_happened": "A Bay of Bengal monsoon low entered Pakistan on 3 September 2012 and stalled until the 12th, breaking a 24-year rainfall record. Flash floods hit upper Sindh, Dera Ghazi Khan, Rajanpur and five districts of eastern Balochistan. The dedicated Wikipedia page, citing NDMA (17 October 2012), records 455 deaths and about five million people affected.",
+      "status": "Historical.",
+      "deaths": 455,
+      "affected_or_evacuated": "About five million affected (NDMA via Wikipedia, 17 Oct 2012)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon"
+      ],
+      "cause_summary": "Stalling Bay of Bengal monsoon low over Sindh and southern Punjab.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2012 Pakistan floods",
+          "url": "https://en.wikipedia.org/wiki/2012_Pakistan_floods"
+        }
+      ],
+      "notes": "455 is the NDMA 17 October 2012 figure cited on the event page. Distinct from flood-pakistan-2010, flood-pakistan-2022 and flood-pakistan-2025.",
+      "era": "2012",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2012 Pakistan floods (NDMA 17 Oct 2012)."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Over 400 mm in 48 hours at some stations; models locally to 1,281 mm (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": 228,
+      "id": "flood-turkey-2021",
+      "name": "2021 Turkish Black Sea floods",
+      "country": "Turkey",
+      "region": "Western Black Sea / Kastamonu–Sinop–Bartın",
+      "location_label": "Bozkurt, Kastamonu, Turkey",
+      "lat": 41.95888889,
+      "lng": 34.01305556,
+      "geo_source": "Bozkurt, Kastamonu (Wikipedia coordinates 41.95888889°N, 34.01305556°E); event section names Bozkurt as the worst-destroyed town",
+      "flood_type": "flash",
+      "river_or_basin": "Western Black Sea torrents (Ezine / Ayancık)",
+      "river_or_facility": null,
+      "incident_date": "2021-08-07",
+      "latest_report_date": "2022-08-11",
+      "what_happened": "Thunderstorms from 7–14 August 2021 stalled on Turkey's western Black Sea coast. Water rose about 4 m in Kastamonu, Sinop and Bartın; Bozkurt was largely destroyed by a log-choked torrent. The dedicated section of Floods in Turkey / 2021 coverage records 97 dead, about 228 injured and more than 1,800 evacuated. Interior Minister Soylu called it the worst flood disaster he had seen. The three provinces were declared disaster areas.",
+      "status": "Historical.",
+      "deaths": 97,
+      "affected_or_evacuated": "More than 1,800 evacuated; 2,472 in one official tally (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Week-long stalling thunderstorms on the western Black Sea; construction in floodplains.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2021 Turkish floods",
+          "url": "https://en.wikipedia.org/wiki/2021_Turkish_floods"
+        }
+      ],
+      "notes": "97 is the lede figure on the 2021 section. Mid-event press 31–81. 2023 Şanlıurfa–Adıyaman floods (21 dead) on the same wrapper page are a different event and are not added here.",
+      "era": "2021",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2021 Turkish floods (Black Sea)."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-tbilisi-2015",
+      "name": "2015 Tbilisi flood",
+      "country": "Georgia",
+      "region": "Tbilisi / Vere valley",
+      "location_label": "Tbilisi, Georgia",
+      "lat": 41.7225,
+      "lng": 44.7925,
+      "geo_source": "Tbilisi (Wikipedia coordinates 41.7225°N, 44.7925°E); event page is the Vere through Vake, Saburtalo, Heroes' Square and the zoo",
+      "flood_type": "flash",
+      "river_or_basin": "Vere / Mtkvari (Kura)",
+      "river_or_facility": "Vere River at Tbilisi Zoo / Heroes' Square",
+      "incident_date": "2015-06-13",
+      "latest_report_date": "2015-06-14",
+      "what_happened": "Hours of rain on 13 June 2015 triggered a landslide above Akhaldaba that twice dammed the Vere in Tbilisi. The resulting flood wrecked the Tbilisi Zoo, Heroes' Square and nearby streets. The dedicated Wikipedia page records at least 20 human deaths, including three zoo workers, and left about half the zoo's animals dead or loose.",
+      "status": "Historical.",
+      "deaths": 20,
+      "affected_or_evacuated": null,
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Rain-triggered landslide temporarily dammed the Vere in central Tbilisi.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2015 Tbilisi flood",
+          "url": "https://en.wikipedia.org/wiki/2015_Tbilisi_flood"
+        }
+      ],
+      "notes": "At least 20 human deaths on the event page. Animal deaths at the zoo are not counted in the human toll.",
+      "era": "2015",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2015 Tbilisi flood."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "At least US$152 million (Wikipedia infobox)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-wa-africa-2009",
+      "name": "2009 West Africa floods",
+      "country": "Burkina Faso",
+      "region": "West Africa / Sahel (12 countries)",
+      "location_label": "Ouagadougou, Burkina Faso",
+      "lat": 12.36861111,
+      "lng": -1.5275,
+      "geo_source": "Ouagadougou (Wikipedia coordinates 12.36861111°N, 1.5275°W); event page names the capital as the worst-hit place (150,000 fled; one-day rain equal to 25% of annual)",
+      "flood_type": "riverine",
+      "river_or_basin": "Niger / Volta / Senegal / Pendjari",
+      "river_or_facility": null,
+      "incident_date": "2009-06-01",
+      "latest_report_date": "2009-09-30",
+      "what_happened": "Exceptional West African monsoon rain from June to September 2009 burst the Pendjari, Niger, Volta and Senegal. The dedicated Wikipedia page records at least 193 deaths and 940,000 people affected across 12 countries. Burkina Faso was worst hit: 150,000 people fled their homes, mostly in Ouagadougou, where one day's rain equalled a quarter of the country's normal annual total.",
+      "status": "Historical.",
+      "deaths": 193,
+      "affected_or_evacuated": "940,000 people affected across 12 countries; 150,000 fled homes in Burkina Faso (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon"
+      ],
+      "cause_summary": "Above-normal West African monsoon; riverine flooding from the Sahel to the coast.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2009 West Africa floods",
+          "url": "https://en.wikipedia.org/wiki/2009_West_Africa_floods"
+        }
+      ],
+      "notes": "193 is the event-page 'at least' total. Country pin is Burkina Faso / Ouagadougou as the named worst-hit capital; the event spanned 12 countries.",
+      "era": "2009",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2009 West Africa floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "372.8 mm at Gunsan on 14 July; monsoon-season average 648.7 mm (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "₩751.3 billion / US$590 million (Wikipedia infobox)",
+      "category": "incident",
+      "injured": null,
+      "id": "flood-south-korea-2023",
+      "name": "2023 South Korea floods",
+      "country": "South Korea",
+      "region": "North Chungcheong / North Gyeongsang",
+      "location_label": "Yecheon County, North Gyeongsang, South Korea",
+      "lat": 36.65555557,
+      "lng": 128.45694445,
+      "geo_source": "Yecheon County (Wikipedia coordinates 36.65555557°N, 128.45694445°E); event page names the 15 July Baekseok-ri landslide in Yecheon",
+      "flood_type": "flash",
+      "river_or_basin": "Han / Nakdong monsoon catchments",
+      "river_or_facility": null,
+      "incident_date": "2023-06-25",
+      "latest_report_date": "2023-07-22",
+      "what_happened": "The 2023 East Asian rainy season (25 June–26 July) produced South Korea's heaviest downpour in 115 years. Floods and landslides, mainly in North Chungcheong and North Gyeongsang, killed 47 people with three still missing as of 22 July 2023 on the dedicated Wikipedia page. A 15 July landslide at Baekseok-ri, Yecheon, killed five elderly residents.",
+      "status": "Historical.",
+      "deaths": 47,
+      "affected_or_evacuated": null,
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon"
+      ],
+      "cause_summary": "Record East Asian monsoon rains and landslides in central-eastern South Korea.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2023 South Korea floods",
+          "url": "https://en.wikipedia.org/wiki/2023_South_Korea_floods"
+        }
+      ],
+      "notes": "47 dead and 3 missing as of 22 July 2023 on the event page. Distinct from 2020/2022/2024 Korea flood seasons, which are not added here.",
+      "era": "2023",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2023 South Korea floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-accra-2015",
+      "name": "2015 Accra floods",
+      "country": "Ghana",
+      "region": "Greater Accra",
+      "location_label": "Accra, Ghana",
+      "lat": 5.55,
+      "lng": -0.2,
+      "geo_source": "Accra (Wikipedia coordinates 5.55°N, 0.2°W); event page names Kaneshie, Graphic Road and the GOIL station near Kwame Nkrumah Interchange",
+      "flood_type": "flash",
+      "river_or_basin": "Odaw / Accra coastal drains",
+      "river_or_facility": null,
+      "incident_date": "2015-06-01",
+      "latest_report_date": "2015-06-04",
+      "what_happened": "Continuous rain from 1 June 2015 flooded Accra — Kaneshie market, Graphic Road and large parts of the city — killing at least 25 people by drowning. On 3 June a GOIL petrol station near Kwame Nkrumah Interchange exploded in the floodwaters and killed about 200 more. President Mahama declared three days of national mourning and released GH₵60 million for victims.",
+      "status": "Historical.",
+      "deaths": 25,
+      "affected_or_evacuated": null,
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Early-June rain on choked Accra drains; GOIL station fire in floodwater treated separately in notes.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2015 Accra floods",
+          "url": "https://en.wikipedia.org/wiki/2015_Accra_floods"
+        }
+      ],
+      "notes": "25 is the flood-drowning figure on the event page. The GOIL petrol-station explosion the same week killed about 200 more and is not added to the flood death field. Combined contemporary headlines of 150–200+ refer mainly to the fire.",
+      "era": "2015",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2015 Accra floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "580.5 mm near Ormoc, about 500 mm in three hours (PNOC gauge, Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "US$27.7 million (1991 USD; Wikipedia infobox)",
+      "category": "incident",
+      "injured": 3020,
+      "id": "flood-ormoc-1991",
+      "name": "1991 Ormoc flash flood (Tropical Storm Thelma / Uring)",
+      "country": "Philippines",
+      "region": "Leyte / Visayas",
+      "location_label": "Ormoc, Leyte, Philippines",
+      "lat": 11.0106,
+      "lng": 124.6075,
+      "geo_source": "Ormoc (Wikipedia coordinates 11.0106°N, 124.6075°E); Tropical Storm Thelma page is the dedicated narrative of the Anilao–Malbasag flash flood through the city",
+      "flood_type": "flash",
+      "river_or_basin": "Anilao / Malbasag",
+      "river_or_facility": "Anilao–Malbasag confluence at Ormoc",
+      "incident_date": "1991-11-05",
+      "latest_report_date": "1991-11-29",
+      "what_happened": "Weak Tropical Storm Thelma (Uring) stalled over the Visayas on 5 November 1991 and dropped about 500 mm of rain in three hours on the deforested Anilao–Malbasag watershed. A flash flood, worsened by debris dams and the Cogon Bridge constriction, inundated Ormoc in minutes. Wikipedia records 4,922 dead in the city and at least 5,081 confirmed dead nationwide, with another 1,941–3,084 missing and presumed dead. Then the deadliest Philippine tropical cyclone until Haiyan 2013.",
+      "status": "Historical.",
+      "deaths": 5081,
+      "affected_or_evacuated": "598,454 people affected; about 43,000 homeless (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Orographic cloudburst on a deforested Leyte watershed; flash flood at the Anilao–Malbasag bend.",
+      "sources": [
+        {
+          "label": "Wikipedia: Tropical Storm Thelma",
+          "url": "https://en.wikipedia.org/wiki/Tropical_Storm_Thelma"
+        }
+      ],
+      "notes": "5,081 confirmed dead on the Thelma page. 4,922 of those in Ormoc. Missing 1,941–3,084 not added. Same sourcing pattern as flood-ondoy-2009 and flood-washi-2011 (storm page that is the flood narrative).",
+      "era": "1991",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia Tropical Storm Thelma (Ormoc flash flood)."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "About 1,000 mm in Freetown from 1 July to mid-August, nearly triple the seasonal average (NWS CPC via Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-freetown-2017",
+      "name": "2017 Sierra Leone mudslides (Freetown)",
+      "country": "Sierra Leone",
+      "region": "Western Area / Freetown peninsula",
+      "location_label": "Regent / Sugar Loaf, Freetown, Sierra Leone",
+      "lat": 8.43389,
+      "lng": -13.22278,
+      "geo_source": "Event-page coordinates 8.43389°N, 13.22278°W for the Western Area Rural District mudslides (Sugar Loaf / Regent)",
+      "flood_type": "flash",
+      "river_or_basin": "Babadorie / Lumley Creek / Regent catchment",
+      "river_or_facility": null,
+      "incident_date": "2017-08-14",
+      "latest_report_date": "2017-08-31",
+      "what_happened": "After three days of rain, Sugar Loaf mountain above Freetown collapsed in two stages on the morning of 14 August 2017, sending a debris flood down the Babadorie valley and a second slide through Regent. The dedicated Wikipedia page, citing the World Bank rapid assessment, records a final official toll of 1,141 dead or missing and more than 3,000 homeless. President Koroma declared a state of emergency and seven days of mourning.",
+      "status": "Historical.",
+      "deaths": 1141,
+      "affected_or_evacuated": "More than 3,000 homeless (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Seasonal cloudburst on deforested Sugar Loaf slopes; debris flood into Freetown suburbs.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2017 Sierra Leone mudslides",
+          "url": "https://en.wikipedia.org/wiki/2017_Sierra_Leone_mudslides"
+        }
+      ],
+      "notes": "1,141 is the final official dead-or-missing figure on the event page (World Bank assessment). Early counts were 205 then ~1,000. Flood-and-mudslide event, same class as Messina 2009 / Petrópolis 2022.",
+      "era": "2017",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2017 Sierra Leone mudslides."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-hunter-1955",
+      "name": "1955 Hunter Valley floods",
+      "country": "Australia",
+      "region": "Hunter Valley / New South Wales",
+      "location_label": "Maitland, New South Wales, Australia",
+      "lat": -32.71666667,
+      "lng": 151.55,
+      "geo_source": "Maitland, New South Wales (Wikipedia coordinates 32.71666667°S, 151.55°E); event page is the Hunter through Maitland",
+      "flood_type": "riverine",
+      "river_or_basin": "Hunter River / Macquarie River",
+      "river_or_facility": "Hunter River at Maitland",
+      "incident_date": "1955-02-23",
+      "latest_report_date": "1955-03-01",
+      "what_happened": "On 23 February 1955 the Hunter River overwhelmed Maitland, exceeding the August 1952 record by nearly a metre and flooding as many as 5,000 homes with up to five metres of water. The dedicated Wikipedia page records 25 deaths in a week of flooding that also hit Dubbo and Gilgandra on the Macquarie. About 15,000 people were evacuated in Maitland; 58 homes were washed away and 103 damaged beyond repair. Often called one of Australia's most devastating floods.",
+      "status": "Historical.",
+      "deaths": 25,
+      "affected_or_evacuated": "15,000 evacuated in Maitland; 2,180 homes invaded by water there (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Late-February rain on the Hunter and Macquarie; record crest at Maitland.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1955 Hunter Valley floods",
+          "url": "https://en.wikipedia.org/wiki/1955_Hunter_Valley_floods"
+        }
+      ],
+      "notes": "25 deaths on the event page. Distinct from flood-brisbane-1974, flood-gundagai-1852 and flood-australia-east-2022.",
+      "era": "1955",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 1955 Hunter Valley floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "907 mm in 24 hours at Crohamhurst, then an Australian record (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-brisbane-1893",
+      "name": "1893 Brisbane flood (Black February)",
+      "country": "Australia",
+      "region": "Brisbane River / Queensland",
+      "location_label": "Brisbane, Queensland, Australia",
+      "lat": -27.46777778,
+      "lng": 153.02805556,
+      "geo_source": "Brisbane (Wikipedia coordinates 27.46777778°S, 153.02805556°E); dedicated 1893 Brisbane flood page",
+      "flood_type": "riverine",
+      "river_or_basin": "Brisbane River / Stanley River",
+      "river_or_facility": "Brisbane River at the City (Port Office) gauge",
+      "incident_date": "1893-02-06",
+      "latest_report_date": "1893-02-19",
+      "what_happened": "Three major Brisbane River floods in February 1893 — 6, 11 and 19 February, the first and third driven by tropical cyclones — were named Black February. The City gauge reached 8.35 m, second only to 1841 (8.43 m). Crohamhurst recorded 907 mm in 24 hours. The dedicated Wikipedia page records 35 deaths; the third flood left up to one-third of Brisbane's residents homeless.",
+      "status": "Historical.",
+      "deaths": 35,
+      "affected_or_evacuated": "Up to one-third of Brisbane residents homeless after the 19 February flood (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Three February tropical-cyclone rains on the Brisbane–Stanley catchment.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1893 Brisbane flood",
+          "url": "https://en.wikipedia.org/wiki/1893_Brisbane_flood"
+        }
+      ],
+      "notes": "35 deaths on the dedicated event page. Distinct from flood-brisbane-1974 and flood-australia-east-2022.",
+      "era": "1893",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 1893 Brisbane flood."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "130 mm in a few hours near Mocoa (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": 400,
+      "id": "flood-mocoa-2017",
+      "name": "2017 Mocoa landslide and flash flood",
+      "country": "Colombia",
+      "region": "Putumayo / Mocoa",
+      "location_label": "Mocoa, Putumayo, Colombia",
+      "lat": 1.15,
+      "lng": -76.6475,
+      "geo_source": "Event-page coordinates 1.15°N, 76.6475°W for the 2017 Mocoa landslide",
+      "flood_type": "flash",
+      "river_or_basin": "Mocoa / Sangoyaco / Mulata",
+      "river_or_facility": null,
+      "incident_date": "2017-04-01",
+      "latest_report_date": "2017-04-06",
+      "what_happened": "Overnight 31 March–1 April 2017 about 130 mm of rain in a few hours burst the Mocoa, Sangoyaco and Mulata rivers and sent mudflows through Mocoa, Putumayo, before dawn. The dedicated Wikipedia page records at least 336 dead (including 92 children), more than 400 injured and 200 missing as of 6 April — Colombia's third-deadliest weather disaster and the worst catastrophe in Mocoa's history.",
+      "status": "Historical.",
+      "deaths": 336,
+      "affected_or_evacuated": "200 missing as of 6 April 2017 (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Pre-dawn cloudburst; flash flood and debris flows on three rivers through Mocoa.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2017 Mocoa landslide",
+          "url": "https://en.wikipedia.org/wiki/2017_Mocoa_landslide"
+        }
+      ],
+      "notes": "336 is the event-page 'at least' figure (301 was an earlier 6 April running tally in some wrap-up articles). Distinct from flood-colombia-2010 and flood-colombia-2011.",
+      "era": "2017",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2017 Mocoa landslide."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": null,
+      "id": "flood-malaysia-2014",
+      "name": "2014–2015 Malaysian floods",
+      "country": "Malaysia",
+      "region": "Kelantan / Terengganu / Pahang / east-coast peninsula",
+      "location_label": "Kota Bharu, Kelantan, Malaysia",
+      "lat": 6.13333333,
+      "lng": 102.25,
+      "geo_source": "Kota Bharu (Wikipedia coordinates 6.13333333°N, 102.25°E); event page names Kelantan as the worst-hit state (354,800 affected)",
+      "flood_type": "riverine",
+      "river_or_basin": "Kelantan / Terengganu / Pahang rivers",
+      "river_or_facility": null,
+      "incident_date": "2014-12-15",
+      "latest_report_date": "2015-01-03",
+      "what_happened": "Northeast-monsoon floods from 15 December 2014 to 3 January 2015 were described as Malaysia's worst in decades. The dedicated Wikipedia page records more than 500,000 people affected — 354,800 of them in Kelantan — and 21 killed. Evacuees nationwide exceeded 200,000 by 28 December. A police helicopter crashed on a Kelantan patrol on 31 December, injuring four crew (not counted in the flood death toll).",
+      "status": "Historical.",
+      "deaths": 21,
+      "affected_or_evacuated": "More than 500,000 affected; 354,800 in Kelantan (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon"
+      ],
+      "cause_summary": "Northeast monsoon over the east-coast peninsula, worst in Kelantan.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2014–2015 Malaysian floods",
+          "url": "https://en.wikipedia.org/wiki/2014%E2%80%932015_Malaysian_floods"
+        }
+      ],
+      "notes": "21 killed on the event page. Distinct from the larger flood-malaysia-2021. Exact centre figures were acknowledged as uncertain at the time.",
+      "era": "2014",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2014–2015 Malaysian floods."
+        }
+      ]
+    },
+    {
+      "geo_accuracy": "approx",
+      "verification": "confirmed",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "injured": 10,
+      "id": "flood-philippines-2025",
+      "name": "2025 Philippine monsoon floods",
+      "country": "Philippines",
+      "region": "Luzon / Cagayan Valley / Central Luzon / Calabarzon",
+      "location_label": "Manila, Philippines",
+      "lat": 14.5958,
+      "lng": 120.9772,
+      "geo_source": "Manila (Wikipedia coordinates 14.5958°N, 120.9772°E); event page names Manila, Malabon, San Miguel and Cavite states of calamity and NLEX flooding",
+      "flood_type": "riverine",
+      "river_or_basin": "Luzon monsoon catchments / NLEX corridor",
+      "river_or_facility": null,
+      "incident_date": "2025-07-20",
+      "latest_report_date": "2025-07-22",
+      "what_happened": "A July 2025 southwest monsoon, enhanced by Tropical Storms Wipha and Co-may, flooded northern and central Luzon. The dedicated Wikipedia page records a final toll of 30 dead, 10 injured and 7 missing. More than 1.26 million people were affected at one count. States of calamity were declared in San Miguel, Manila, Malabon and Cavite; NLEX was impassable for hours.",
+      "status": "Historical.",
+      "deaths": 30,
+      "affected_or_evacuated": "1,266,322 individuals affected at the 22 July count (Wikipedia)",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon"
+      ],
+      "cause_summary": "Southwest monsoon enhanced by Wipha and Co-may over Luzon.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2025 Philippine monsoon floods",
+          "url": "https://en.wikipedia.org/wiki/2025_Philippine_monsoon_floods"
+        }
+      ],
+      "notes": "30 is the final reported toll on the dedicated event page. Distinct from flood-philippines-2022 and flood-yagi-2024.",
+      "era": "2025",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia 2025 Philippine monsoon floods."
         }
       ]
     }
