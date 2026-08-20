@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 965,
+  "count": 988,
   "current_count": 26,
-  "historical_count": 939,
+  "historical_count": 962,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -52709,6 +52709,1278 @@
         {
           "label": "G1 RN 30 Jul 2026 — Açude Outeiro ruptured 26 Jul; Igarn halted unlicensed rebuild; nobody injured",
           "url": "https://g1.globo.com/rn/rio-grande-do-norte/noticia/2026/07/30/obra-para-recuperar-acude-que-rompeu-no-interior-do-rn-e-suspensa-por-falta-de-licenca-diz-igarn.ghtml"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Height 10.67 m matches CWC and WRIS. Completion 1891 (CWC) vs 1930 (WRIS). Pin is Waghodia town (region), not a surveyed crest. Height below 15 m — no cutoff. Do not copy Vadodara flood totals. India Together 80-ft / Timbi wording is the 2005 monsoon, not this 2001 CWC row.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "CWC 1891; WRIS 1930",
+      "height_m": 10.67,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "100 m (DeshGujarat citing local daily)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "pratappura-2001",
+      "name": "Pratappura Dam (Waghodia)",
+      "country": "India",
+      "region": "Waghodia (Waghoriya) taluka, Vadodara district, Gujarat",
+      "location_label": "Waghodia, Vadodara, Gujarat, India",
+      "lat": 22.3,
+      "lng": 73.38,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Waghodia) 22°18′N 73°23′E; India-WRIS Pratappura Dam at Waghoriya, Vadodara, height 10.67 m matching CWC",
+      "river_or_facility": "Pratappura Dam on the Khari (Mahi basin)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "CWC / Iyer: Gujarat Pratappur, earth, 10.67 m, completed 1891, failed 2001, 'Breached on account of floods.' DeshGujarat, citing a local daily on the 2005 event, says four years earlier in 2001 Pratappura also saw a 100 m breach at the same place.",
+      "incident_date": "2001",
+      "latest_report_date": "2024-09-11",
+      "what_happened": "CWC / Iyer table: Gujarat Pratappur, earth, 10.67 m, completed 1891, failed 2001, breached on account of floods. India-WRIS lists Pratappura Dam on the Khari at Waghoriya, Vadodara, earthen, crest 2,500 m, height 10.67 m, completed 1930 — height matches the CWC row; completion year 1891 (CWC) vs 1930 (WRIS). DeshGujarat (11 Sept 2024), recapping a local daily on the later 2005 breach: four years earlier in 2001 a 100 metre breach was also witnessed in Pratappura, at the same place. No death count is given for this named 2001 dam failure; Vadodara city flood totals are not copied. Distinct from the 1 July 2005 and 13 August 2012 breaches at the same reservoir.",
+      "status": "Historical 2001 flood breach; WRIS still lists Pratappura Dam at Waghodia.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Iyer / CWC — Reported failure of dams in India",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "India-WRIS — Dams in Mahi Basin (Pratappura Dam, Waghoriya, 10.67 m)",
+          "url": "https://indiawris.gov.in/wiki/doku.php?id=dams_in_mahi_basin"
+        },
+        {
+          "label": "Wikipedia — Waghodia (22.30°N 73.38°E)",
+          "url": "https://en.wikipedia.org/wiki/Waghodia"
+        },
+        {
+          "label": "DeshGujarat — 2001 100 m Pratappura breach noted in 2005 flood recap",
+          "url": "https://deshgujarat.com/2024/09/11/more-vishamitri-floods-in-vadodara-in-20th-highest-rain-of-june-on-record-in-2005-caused-first-flood-of-century/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is Waghodia town (region), same taluka as Pratappura but a different named dam. Do not copy Vadodara 2005 flood totals. Not a CWC-table row.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "timbi-2005",
+      "name": "Timbi Irrigation Reservoir (Waghodia)",
+      "country": "India",
+      "region": "Timbi village, Waghodia taluka, Vadodara district, Gujarat",
+      "location_label": "Timbi / Waghodia, Vadodara, Gujarat, India",
+      "lat": 22.3,
+      "lng": 73.38,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Waghodia) 22°18′N 73°23′E; Timbi village is in Vaghodia taluka (same pin as Pratappura; different dam)",
+      "river_or_facility": "Timbi Irrigation Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "India Together on the late-June 2005 Vadodara rains (June 27 start; Bhuj 2001 earthquake mentioned as prior): Timbi dam also developed a breach, adding to the flood water after Pratappura.",
+      "incident_date": "2005-06",
+      "latest_report_date": "2005",
+      "what_happened": "India Together (Vadodara floods piece describing rains that began 27 June, and treating the 2001 Bhuj earthquake as a prior event): after the monsoon burst over the Pavagarh/Vishwamitri catchment, Pratappura breached and 'Yet another dam – Timbi – also developed a breach, adding to the floating stock of water.' Timbi village sits in Vaghodia taluka (pincode 391760). No death count is given for this named reservoir; Vadodara 2005 city/state flood totals are not copied. Separate from Pratappura 2001/2005/2012.",
+      "status": "Historical 2005 flood breach at a named irrigation reservoir.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "India Together — Vadodara floods; Timbi also breached",
+          "url": "https://indiatogether.org/vadodara-government/"
+        },
+        {
+          "label": "Wikipedia — Waghodia (22.30°N 73.38°E)",
+          "url": "https://en.wikipedia.org/wiki/Waghodia"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Cause unknown (CWC 'Breach' only). Pin is Sagar district HQ (region). Distinct from Chandora Dam, Betul (already live).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1926",
+      "height_m": 22.5,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "chandiya-2008",
+      "name": "Chandiya (Chandia Nalla) Dam",
+      "country": "India",
+      "region": "Sagar district, Madhya Pradesh (Chandiya Nalla Tank Project)",
+      "location_label": "Sagar, Madhya Pradesh, India",
+      "lat": 23.83,
+      "lng": 78.71,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Sagar, Madhya Pradesh) 23°50′N 78°43′E; CWC places Chandiya in Madhya Pradesh, completed 1926, height 22.50 m; Lok Sabha old-dams annex lists Chandia Nalla Upper Lower 1926 and DRIP-II Chandiya Nalla Tank Project, Sagar",
+      "river_or_facility": "Chandiya / Chandia Nalla tank",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "CWC / Iyer: Madhya Pradesh Chandiya, earth, 22.50 m, completed 1926, failed 2008, 'Breach.'",
+      "incident_date": "2008",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "CWC / Iyer table: Madhya Pradesh Chandiya, earth, 22.50 m, completed 1926, failed 2008 by breach. No death count is given. A Lok Sabha old-dams annex lists Madhya Pradesh Chandia Nalla Upper Lower, 1926; DRIP Phase II/III proposals include Chandiya Nalla Tank Project, Sagar district — year 1926 matches CWC. Pin is Sagar city (region), not a surveyed crest.",
+      "status": "Historical 2008 breach; later listed for DRIP rehabilitation as Chandiya Nalla Tank Project, Sagar.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Iyer / CWC — Reported failure of dams in India",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "Lok Sabha AU1074 annex — Chandia Nalla 1926 / Chandiya Nalla Tank Project Sagar",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/1715/AU1074.pdf"
+        },
+        {
+          "label": "Wikipedia — Sagar, Madhya Pradesh (23.83°N 78.71°E)",
+          "url": "https://en.wikipedia.org/wiki/Sagar,_Madhya_Pradesh"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Cause unknown (CWC 'Breaching' only). Pin is Sarangarh town (region). Height 20.00 m (CWC) vs 20.12 m (WRIS). Not the Kedarnath 2013 flood.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "CWC 1964; WRIS rebuilt 1971",
+      "height_m": 20.0,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kedarnala-1964",
+      "name": "Kedarnala (Kedarnalla) Dam",
+      "country": "India",
+      "region": "Sarangarh, Raigarh (now Sarangarh-Bilaigarh), Chhattisgarh — CWC listed under Madhya Pradesh (pre-2000 state)",
+      "location_label": "Sarangarh, Chhattisgarh, India",
+      "lat": 21.6,
+      "lng": 83.08,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Sarangarh) 21°36′N 83°05′E; India-WRIS Kedarnalla Dam on Kedar Nalla at Sarangarh, Raigarh, height 20.12 m vs CWC 20.00 m",
+      "river_or_facility": "Kedarnalla Dam on Kedar Nalla (Mahanadi basin)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "CWC / Iyer: Madhya Pradesh Kedarnala, earth, 20.00 m, completed 1964, failed 1964, 'Breaching.' WRIS later lists a Kedarnalla Dam at Sarangarh completed 1971, height 20.12 m.",
+      "incident_date": "1964",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "CWC / Iyer table: Madhya Pradesh Kedarnala, earth, 20.00 m, completed 1964, failed 1964 by breaching. No death count is given. India-WRIS lists Kedarnalla Dam on Kedar Nalla at Sarangarh, Raigarh, Chhattisgarh (Mahanadi basin), earthen, length 792 m, height 20.12 m, completed 1971 for hydroelectric/irrigation — height close to CWC 20.00 m; completion 1971 is consistent with rebuilding after a 1964 first-year failure. Sarangarh/Raigarh was in Madhya Pradesh until Chhattisgarh was created in 2000.",
+      "status": "WRIS still lists Kedarnalla Dam at Sarangarh (1971 rebuild).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Iyer / CWC — Reported failure of dams in India",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "India-WRIS — Dams in Chhattisgarh (Kedarnalla Dam, Sarangarh)",
+          "url": "https://indiawris.gov.in/wiki/doku.php?id=dams_in_chhattisgarh"
+        },
+        {
+          "label": "India-WRIS — Dams in Mahanadi Basin (Kedarnalla)",
+          "url": "https://indiawris.gov.in/wiki/doku.php?id=dams_in_mahanadi_basin"
+        },
+        {
+          "label": "Wikipedia — Sarangarh (21.6°N 83.08°E)",
+          "url": "https://en.wikipedia.org/wiki/Sarangarh"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Height 10.3 m — no 15 m cutoff. Cause poor_maintenance: SANDRP says IMD rain was not major. Pin is NRLD lat/lng quoted by SANDRP.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1986",
+      "height_m": 10.3,
+      "reservoir_capacity": "0.201 MCM gross / 0.170 MCM effective (NRLD via SANDRP)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "khanda-2020-09-23",
+      "name": "Khanda Dam (Sonhat, Korea)",
+      "country": "India",
+      "region": "Near Sonhat, Korea (Koriya) district, Chhattisgarh (Mahanadi basin)",
+      "location_label": "Khanda Dam, Korea district, Chhattisgarh, India",
+      "lat": 23.2925,
+      "lng": 82.6125,
+      "geo_accuracy": "site",
+      "geo_source": "SANDRP quoting CWC National Register of Large Dams: 23°17′33″N 82°36′45″E",
+      "river_or_facility": "Khanda Dam (stream to Gej / Hasdeo / Mahanadi)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "ANI/SANDRP: earthen dam burst about 06:30 on 23 September 2020; farmers said WRD had been told the dam was dilapidated. SANDRP: IMD 7.7 mm rain in Korea district that day, so rainfall was not a major reason.",
+      "incident_date": "2020-09-23",
+      "latest_report_date": "2020-09-24",
+      "what_happened": "SANDRP (24 Sept 2020) and ANI: the earthen Khanda dam in Korea district, Chhattisgarh, breached around 06:30 on Wednesday 23 September 2020. Farmers told ANI a government engineer had surveyed the dilapidated dam and left without reducing storage or opening canal gates; crops were destroyed. NRLD figures quoted by SANDRP: completed 1986, earthen, height 10.3 m, length 510 m, gross storage 0.201 MCM, nearest city Sonhat. IMD 7.7 mm rain for the 24 hours ending 08:30 on 23 September. No death count is given.",
+      "status": "Breached 2020.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SANDRP — Khanda Dam Breach in Chhattisgarh in Sept 2020 (NRLD coords)",
+          "url": "https://sandrp.in/2020/09/24/khanda-dam-breach-in-chhattisgarh-in-sept-2020/"
+        },
+        {
+          "label": "ANI — Flood like situation in Korea district after Khanda dam bursts",
+          "url": "https://www.aninews.in/news/national/general-news/flood-like-situation-in-chhattisgarhs-korea-district-after-khanda-dam-bursts20200924095648/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "hundreds left homes (SANDRP); alerts for about 20 villages",
+      "notes": "Deaths null. ETV Bharat 193 MCM not copied — SANDRP says NRLD has no matching dam. Pin is SANDRP lat/lng.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1889 (ETV Bharat via SANDRP)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "about 20 feet (SANDRP)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tonga-2024-08-12",
+      "name": "Tonga Dam (Sabalgarh, Morena)",
+      "country": "India",
+      "region": "Near Tonga village, about 20 km from Sabalgarh tehsil, Morena district, Madhya Pradesh",
+      "location_label": "Tonga Dam, Morena, Madhya Pradesh, India",
+      "lat": 26.239699,
+      "lng": 77.440024,
+      "geo_accuracy": "site",
+      "geo_source": "SANDRP: 26°14′22.9164″N 77°26′24.0864″E near Tonga village",
+      "river_or_facility": "Tonga Dam (Chambal basin streams; earthen embankments plus masonry wall)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "SANDRP: the dam first overflowed after rainfall; villagers saw a leak on the evening of 12 August 2024 that widened overnight to about 20 feet.",
+      "incident_date": "2024-08-12",
+      "latest_report_date": "2024-09-11",
+      "what_happened": "SANDRP (11 Sept 2024): a breach in the earthen Tonga dam flooded villages in Sabalgarh tehsil, Morena, on the night of 12–13 August 2024. Villagers noticed a small hole on the evening of 12 August; officials could not plug it; the leak widened to about 20 feet overnight. Downstream villages named include Tonga, Devpur, Kutghan Pura, Kori Pura, Pasaun and Rani Pura; flood alerts for about 20 villages. SANDRP quotes ETV Bharat that the dam was built in 1889 by the Scindia family, with about 450 m of main concrete wall and two long earthen embankments, about 80 percent full. SANDRP notes NRLD 2019/2023 list no 'Tonga' dam and questions the 193 MCM capacity figure, so that storage is not used here. No death count is given.",
+      "status": "Breached August 2024; officials said repair needed emptying.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SANDRP — August 2024: Tonga Dam Breach floods Madhya Pradesh villages",
+          "url": "https://sandrp.in/2024/09/11/august-2024-tonga-dam-breach-floods-madhya-pradesh-villages/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 52,
+      "notes": "Deaths null. Pin is Shahdol city (region), not a surveyed crest at Jetpur.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "2000",
+      "height_m": null,
+      "reservoir_capacity": "0.6 million m³ (SANDRP)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "karchul-2024-08-28",
+      "name": "Karchul Dam (Jetpur, Shahdol)",
+      "country": "India",
+      "region": "Jetpur tehsil, Shahdol district, Madhya Pradesh",
+      "location_label": "Jetpur / Shahdol, Madhya Pradesh, India",
+      "lat": 23.28,
+      "lng": 81.35,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Shahdol) 23°17′N 81°21′E; SANDRP places the dam in Jetpur tehsil of Shahdol district",
+      "river_or_facility": "Karchul Dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "SANDRP / Times of India: earthen wall breached on 28 August 2024 while the reservoir was full after heavy rain; locals alleged lack of maintenance.",
+      "incident_date": "2024-08-28",
+      "latest_report_date": "2024-09-01",
+      "what_happened": "SANDRP (1 Sept 2024): on 28 August 2024 the earthen wall of Karchul Dam in Jetpur tehsil, Shahdol district, Madhya Pradesh, breached. A midnight operation shifted about 52 people to a community building 3 km away in Bhathia. Times of India (quoted): officials said erosion was severe and rising water posed a significant risk; the dam was full due to recent heavy rains. SANDRP: reservoir 0.6 million m³, built 2000, irrigation capacity 65 ha. No death count is given.",
+      "status": "Breached August 2024.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SANDRP — Aug 2024: Karchul Earthen Dam Breach in Shahdol",
+          "url": "https://sandrp.in/2024/09/01/aug-2024-karchul-earthen-dam-breach-in-shahdol-madhya-pradesh-a-wake-up-call/"
+        },
+        {
+          "label": "Wikipedia — Shahdol (23.28°N 81.35°E)",
+          "url": "https://en.wikipedia.org/wiki/Shahdol"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: SANDRP 'no report of any human causality'. Pin is Lateri town (region), not a surveyed crest at Islamnagar.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Madhya Pradesh Forest Department (SANDRP)",
+      "year_built": "about 2021 (SANDRP: built a year ago)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lateri-islamnagar-2022-08-22",
+      "name": "Lateri / Islamnagar stop dam (Vidisha)",
+      "country": "India",
+      "region": "Islamnagar near Murvas, Lateri block, Vidisha district, Madhya Pradesh",
+      "location_label": "Lateri, Vidisha, Madhya Pradesh, India",
+      "lat": 24.05722,
+      "lng": 77.41056,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Lateri) 24°03′26″N 77°24′38″E; SANDRP places the stop dam at Islamnagar near Murvas in Lateri block",
+      "river_or_facility": "Lateri stop dam (Betwa basin); forest-department structure",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "SANDRP: portion of a forest-department stop dam collapsed on the morning of 22 August 2022 amid heavy rain.",
+      "incident_date": "2022-08-22",
+      "latest_report_date": "2022-08-23",
+      "what_happened": "SANDRP (23 Aug 2022): a portion of a stop dam in Lateri block, Vidisha district, collapsed on the morning of Monday 22 August 2022 amid heavy rains. The structure is at Islamnagar near Murvas; SANDRP says it was built a year earlier by the forest department in the Betwa basin. Downstream farmland of seven villages was flooded; administration evacuated people. SANDRP: 'There is no report of any human causality due to the incident.' Storage capacity at the time is not given.",
+      "status": "Collapsed August 2022.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "SANDRP — Madhya Pradesh: Collapse of Lateri Stop Dam in Vidisha",
+          "url": "https://sandrp.in/2022/08/23/madhya-pradesh-collapse-of-lateri-stop-dam-in-vidisha/"
+        },
+        {
+          "label": "Wikipedia — Lateri (24.05722°N 77.41056°E)",
+          "url": "https://en.wikipedia.org/wiki/Lateri"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 3550,
+      "notes": "Deaths null. Pin is Guna city (region), not a surveyed weir crest. Do not copy Guna district flood totals.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1956",
+      "height_m": null,
+      "reservoir_capacity": "4.74 MCM (SANDRP)",
+      "construction": "unknown",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "west weir damaged by 15 feet (SANDRP)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kalora-2025-07-29",
+      "name": "Kalora Dam west weir (Bamori, Guna)",
+      "country": "India",
+      "region": "Bamori area, Guna district, Madhya Pradesh",
+      "location_label": "Bamori / Guna, Madhya Pradesh, India",
+      "lat": 24.65,
+      "lng": 77.32,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Guna, India) 24°39′N 77°19′E; SANDRP/Business Standard place the west weir of Kalora Dam in Bamori, Guna",
+      "river_or_facility": "Kalora pond / dam west weir (Padon irrigation)",
+      "type": "weir",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "SANDRP: 12.92 inches of rain in 24 hours damaged the Kalora Dam west weir by 15 feet on 29 July 2025.",
+      "incident_date": "2025-07-29",
+      "latest_report_date": "2025-12-05",
+      "what_happened": "SANDRP (5 Dec 2025): in Guna, 12.92 inches of rain in 24 hours damaged the Kalora Dam west weir by 15 feet on 29 July 2025. The west weir breach in Bamori led water into villages including Singapore, Tumda, Kurka, Bandha, Umardha, Baniyani, Mamli and Biloda near the Rajasthan border. SANDRP: Kalora pond constructed 1956, storage 4.74 MCM, irrigation for the Padon area; alerts for 8 villages in Guna and 3 in Rajasthan, affecting 3,550 people. Business Standard quotes Guna Collector Kishore Kanyal on damage to Kalora dam of Bamori and advice to shift from Singapore, Tumda, Kudka, Bandha, Umradha and Baniyani. No death count is given for this named weir.",
+      "status": "West weir damaged July 2025; NDRF/Army deployed (SANDRP).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SANDRP — 2025 dam-induced floods (Kalora Dam weir, Guna)",
+          "url": "https://sandrp.in/2025/12/05/2025-dam-induced-flood-incidents-in-india/"
+        },
+        {
+          "label": "Business Standard — Guna Collector on Kalora dam, Bamori",
+          "url": "https://www.business-standard.com/india-news/army-called-in-as-heavy-rain-floods-parts-of-madhya-pradesh-s-shivpuri-125073000674_1.html"
+        },
+        {
+          "label": "Wikipedia — Guna, India (24.65°N 77.32°E)",
+          "url": "https://en.wikipedia.org/wiki/Guna,_India"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": 3,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 6: latest dated SANDRP 5 Dec 2025. Hindu CM 3 Sept: 4 dead / 3 missing. TOI: 5 recovered, 2 children missing. Injured 3 from Hindu. Pin is Balrampur town (region), not a surveyed crest at Dhaneshpur. Do not copy district rainfall deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "about 1980s (Hindu: four-decade-old)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "luti-satbahini-2025-09-02",
+      "name": "Luti / Lutti (Satbahini) Dam (Dhaneshpur)",
+      "country": "India",
+      "region": "Dhaneshpur village near Vishram Nagar, Balrampur-Ramanujganj district, Chhattisgarh",
+      "location_label": "Dhaneshpur / Balrampur, Chhattisgarh, India",
+      "lat": 23.605,
+      "lng": 83.617,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Balrampur, Chhattisgarh) 23°36′18″N 83°37′01″E; Hindu/SANDRP place Luti (Satbahini) Dam in Dhaneshpur village of Balrampur district",
+      "river_or_facility": "Luti / Lutti (Satbahini) Dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "The Hindu: four-decade-old Luti reservoir breached after heavy rain on the night of 2 September 2025. TOI: villagers said they had complained about seepage; CM later cited inspection lapses.",
+      "incident_date": "2025-09-02",
+      "latest_report_date": "2025-12-05",
+      "what_happened": "The Hindu (3 Sept 2025): a portion of a small dam collapsed in Balrampur district after heavy rain; CM statement named Luti (Satbahini) Dam in Dhaneshpur village, 4 dead, 3 injured, 3 missing that day. SDM: complaint about the four-decade-old Luti reservoir late 2 September. Times of India (CM review, Thursday after the breach): five bodies recovered (four Wednesday, one Thursday), two children still missing; villagers alleged earlier seepage complaints. SANDRP 5 Dec 2025 compilation: six killed, one remaining missing; six of the victims members of a single family about 500 m downstream; about 11 villagers swept away, three injured. Latest dated sourced death figure used here is 6 (SANDRP 5 Dec 2025).",
+      "status": "Breached 2 September 2025.",
+      "deaths": 6,
+      "sources": [
+        {
+          "label": "The Hindu — Luti (Satbahini) Dam, Dhaneshpur (3 Sept 2025)",
+          "url": "https://www.thehindu.com/news/national/chhattisgarh/dam-collapse-triggers-flash-flood-in-chhattisgarhs-balrampur-people-killed-and-missing/article70007096.ece"
+        },
+        {
+          "label": "Times of India — Lutti dam; 5 recovered, 2 children missing",
+          "url": "https://timesofindia.indiatimes.com/city/raipur/chhattisgarh-cm-pulls-up-officials-for-inspection-lapses-after-balrampur-dam-breach-kills-five-warns-of-zero-tolerance-for-negligence/articleshow/123701548.cms"
+        },
+        {
+          "label": "SANDRP — 2025 dam-induced floods (Luti 6 deaths)",
+          "url": "https://sandrp.in/2025/12/05/2025-dam-induced-flood-incidents-in-india/"
+        },
+        {
+          "label": "Wikipedia — Balrampur, Chhattisgarh (23.605°N 83.617°E)",
+          "url": "https://en.wikipedia.org/wiki/Balrampur,_Chhattisgarh"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is Rapar town (region), not a surveyed crest at Mevasa.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mevasa-2025-09-08",
+      "name": "Mevasa irrigation dam (Rapar, Kutch)",
+      "country": "India",
+      "region": "Mevasa village, Rapar taluka, Kachchh district, Gujarat",
+      "location_label": "Mevasa / Rapar, Kutch, Gujarat, India",
+      "lat": 23.573,
+      "lng": 70.6445,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Rapar) 23°34′23″N 70°38′40″E; SANDRP places the earthen irrigation bund in Mevasa village, Rapar taluka",
+      "river_or_facility": "Mevasa village irrigation dam (Gagodar River)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "SANDRP: earthen bund of the irrigation dam in Mevasa village, Rapar, was washed away on 8 September 2025; water flowed into the Gagodar River.",
+      "incident_date": "2025-09-08",
+      "latest_report_date": "2025-12-05",
+      "what_happened": "SANDRP (5 Dec 2025): the earthen bund of the irrigation dam in Mevasa village, Rapar taluka, Kutch, Gujarat, was washed away on 8 September 2025 and a massive quantity of water started flowing into the Gagodar River. Administration alerted downstream villages; some affected villagers were asked to shift. No death count is given for this named bund.",
+      "status": "Earthen bund washed away 8 September 2025.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SANDRP — 2025 dam-induced floods (Mevasa Dam Breach in Kutch)",
+          "url": "https://sandrp.in/2025/12/05/2025-dam-induced-flood-incidents-in-india/"
+        },
+        {
+          "label": "Wikipedia — Rapar (23.573°N 70.6445°E)",
+          "url": "https://en.wikipedia.org/wiki/Rapar"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 1: SANDRP employee swept away and recovered. Punjab 2025 flood totals not copied. Distinct from the 1955 weir-damage record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Punjab Department of Irrigation (Wikipedia)",
+      "year_built": "1875 weir; barrage 1955–59 (Wikipedia)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Punjab inquiry; State Dam Safety Organisation 5-member committee (SANDRP)",
+      "verification": "confirmed",
+      "id": "madhopur-barrage-2025-08-27",
+      "name": "Madhopur Headworks barrage gates (Ravi)",
+      "country": "India",
+      "region": "Madhopur, Pathankot district, Punjab (Ravi River; J&K border)",
+      "location_label": "Madhopur Headworks, Pathankot, Punjab, India",
+      "lat": 32.3767,
+      "lng": 75.6062,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia (Madhopur Headworks) 32°22′36″N 75°36′22″E",
+      "river_or_facility": "Madhopur Headworks / barrage on the Ravi; Upper Bari Doab Canal",
+      "type": "weir",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "poor_maintenance",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Indian Express / ThePrint / SANDRP: several of 54 gates jammed or failed to open under Ranjit Sagar releases; three gates collapsed on 27 August 2025. CWC-empanelled expert (ThePrint): lack of maintenance on a centuries-old base.",
+      "incident_date": "2025-08-27",
+      "latest_report_date": "2025-12-05",
+      "what_happened": "Wikipedia: Madhopur Headworks is an 1875 weir rebuilt as a barrage in 1955–59 after flood damage. SANDRP and Indian Express: on 27 August 2025, after Ranjit Sagar Dam released on the order of 2.12–2.21 lakh cusecs, three floodgates of Madhopur barrage at Pathankot collapsed while staff tried to open jammed gates. SANDRP: one irrigation employee was swept away and later recovered; 22 CRPF jawans were airlifted from a building that then collapsed. ThePrint: remaining gates failed to open; silt and trees jammed gates. Punjab ordered an inquiry and suspended three officers. Downstream Pathankot/Gurdaspur flood totals are not copied onto this gate failure.",
+      "status": "Three gates collapsed 27 August 2025; inquiry ordered.",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "Wikipedia — Madhopur Headworks (32.3767°N 75.6062°E)",
+          "url": "https://en.wikipedia.org/wiki/Madhopur_Headworks"
+        },
+        {
+          "label": "Indian Express — Why the Madhopur barrage gates broke",
+          "url": "https://indianexpress.com/article/explained/nature-or-negligence-why-madhopur-barrage-gates-broke-10218479/"
+        },
+        {
+          "label": "ThePrint — Madhopur barrage gates collapsed 27 Aug 2025",
+          "url": "https://theprint.in/india/negligence-meets-nature-why-punjabs-madhopur-barrage-gates-collapsed-in-the-face-of-a-raging-ravi/2739056/"
+        },
+        {
+          "label": "SANDRP — 2025 dam-induced floods (Madhopur gates; one employee recovered)",
+          "url": "https://sandrp.in/2025/12/05/2025-dam-induced-flood-incidents-in-india/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Dam body did not fail; one spillway shutter breached. Do not copy Ockhi/TN flood totals.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Tamil Nadu Public Works Department",
+      "year_built": "1957",
+      "height_m": 29.26,
+      "reservoir_capacity": "68.2 MCM initial; 47.16 MCM as of 2006 (Wikipedia sedimentation)",
+      "construction": "concrete_gravity",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "krishnagiri-shutter-2017-11-29",
+      "name": "Krishnagiri Reservoir Project shutter 1",
+      "country": "India",
+      "region": "Dhuduganahalli, Krishnagiri district, Tamil Nadu",
+      "location_label": "Krishnagiri Dam, Tamil Nadu, India",
+      "lat": 12.4937333,
+      "lng": 78.1781972,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia (Krishnagiri Dam) 12°29′37.44″N 78°10′41.51″E",
+      "river_or_facility": "Krishnagiri Reservoir Project (KRP) Dam on Thenpennai / Ponnaiyar",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "poor_maintenance"
+      ],
+      "cause_summary": "The Hindu via SANDRP (19 Dec 2017): shutter 1 metal plate was corroded (sill barely 6 mm); breach at sill level. Earlier Hindu report had also cited low-quality rubber sheets from 2016 DRIP repairs.",
+      "incident_date": "2017-11-29",
+      "latest_report_date": "2017-12-19",
+      "what_happened": "SANDRP / The Hindu: on the evening of 29 November 2017, shutter number 1 of Krishnagiri Reservoir Project dam breached. Villagers saw it about 16:00; about 4,000 cusecs were gushing by night. Reservoir was at about 51 ft vs 52 ft capacity after ~102 days high. Wikipedia: gravity dam, height 29.26 m, eight ogee spillway gates, opened 1957. Collector put five districts on alert. No death count is given. Cyclone Ockhi / Tamil Nadu rain totals are not copied.",
+      "status": "Shutter 1 damaged 2017; later dismantled/sealed for repair (SANDRP postscript).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SANDRP — Krishnagiri Dam shutter breach 29 Nov 2017",
+          "url": "https://sandrp.in/2017/12/01/krishnagiri-dam-breach-is-wake-call-for-dam-safety-in-tamil-nadu-and-elsewhere/"
+        },
+        {
+          "label": "Wikipedia — Krishnagiri Dam (12.4937333°N 78.1781972°E)",
+          "url": "https://en.wikipedia.org/wiki/Krishnagiri_Dam"
+        },
+        {
+          "label": "The Hindu — shutter thickness, corrosion led to KRP Dam breach",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/shutter-thickness-corrosion-that-escaped-inspection-led-to-krp-dam-breach/article21910144.ece"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: The News Minute 11 Aug 2024, 'No casualties have been reported so far.' Dam body did not fail. Pin is Wikipedia dam coordinates 15°18′N 76°20′E.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Tungabhadra Board",
+      "year_built": "1953",
+      "height_m": 49.5,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Tungabhadra Board expert committee headed by A. K. Bajaj, former CWC chairman (SANDRP postscript 6 Sept 2024)",
+      "verification": "confirmed",
+      "id": "tungabhadra-gate-2024-08-10",
+      "name": "Tungabhadra Dam crest gate 19",
+      "country": "India",
+      "region": "Hosapete / Munirabad, Vijayanagara and Koppal districts, Karnataka",
+      "location_label": "Tungabhadra Dam, Karnataka, India",
+      "lat": 15.3,
+      "lng": 76.333,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia (Tungabhadra Dam) 15°18′N 76°20′E",
+      "river_or_facility": "Tungabhadra Dam (Pampa Sagar) spillway, Krishna basin",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Tungabhadra Board: at 22:50 on 10 August 2024 spillway gate no. 19 was washed away from its groove after the operating chain snapped.",
+      "incident_date": "2024-08-10",
+      "latest_report_date": "2024-09-06",
+      "what_happened": "SANDRP / Indian Express / New Indian Express: around 22:50 on 10 August 2024, crest gate no. 19 of 33 at Tungabhadra Dam was washed away after its chain/weld failed. Board statement: ten spillway gates (12–21) were open 1.5 ft discharging 22,890 cusecs when gate 19 left its groove. The ~60×20 ft, ~20-tonne gate was swept hundreds of feet. Uncontrolled discharge through the gap; other gates opened; flood alerts downstream in Koppal, Vijayanagara, Ballari, Raichur. Substack compilation of the same incident: no reports of loss of life. Wikipedia: masonry dam completed 1953, height 49.5 m. Repairs required lowering storage.",
+      "status": "Gate 19 lost 10 August 2024; stop-log planned (SANDRP).",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "SANDRP — Tungabhadra Dam: a crest gate washed away in August 2024",
+          "url": "https://sandrp.in/2024/08/11/tungabhadra-dam-a-crest-gate-washed-away-in-august-2024/"
+        },
+        {
+          "label": "The News Minute — no casualties reported (11 Aug 2024)",
+          "url": "https://www.thenewsminute.com/karnataka/tungabhadra-dam-gate-washed-away-karnataka-and-ap-on-high-alert"
+        },
+        {
+          "label": "Indian Express — How Tungabhadra dam gate was swept away",
+          "url": "https://indianexpress.com/article/explained/tungabhadra-dam-gate-swept-away-karnataka-flood-alert-d-k-shivakumar-dam-repair-work-9510416/"
+        },
+        {
+          "label": "Wikipedia — Tungabhadra Dam (15.300°N 76.333°E)",
+          "url": "https://en.wikipedia.org/wiki/Tungabhadra_Dam"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Same site pin as the 2025 gate incident; different year and structure (original weir vs later barrage gates).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Punjab Department of Irrigation (Wikipedia)",
+      "year_built": "1875–1879",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "madhopur-weir-1955",
+      "name": "Madhopur Headworks original weir (1955 flood damage)",
+      "country": "India",
+      "region": "Madhopur, Pathankot district, Punjab (Ravi River)",
+      "location_label": "Madhopur Headworks, Pathankot, Punjab, India",
+      "lat": 32.3767,
+      "lng": 75.6062,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia (Madhopur Headworks) 32°22′36″N 75°36′22″E",
+      "river_or_facility": "Original Madhopur weir (1875–79) on the Ravi; later rebuilt as barrage",
+      "type": "weir",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: a full barrage was constructed in 1955 after the original weir of the Madhopur headwork got damaged in a flood.",
+      "incident_date": "1955",
+      "latest_report_date": "2020",
+      "what_happened": "Wikipedia (Madhopur Headworks): the British weir was added 1875–1879 (about 2,700 ft across the Ravi). 'In 1955, a full barrage was constructed at Madhopur after the original weir of the Madhopur headwork got damaged in a flood.' Over the next two years the Madhopur–Beas Link canal was added. No death count is given for the 1955 weir damage. Distinct from the 27 August 2025 gate collapse at the later barrage.",
+      "status": "Original weir damaged 1955; replaced by barrage 1955–59.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Madhopur Headworks (1955 weir damaged in a flood)",
+          "url": "https://en.wikipedia.org/wiki/Madhopur_Headworks"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "40 families evacuated (ThePrint)",
+      "notes": "Deaths 0: six-year-old washed away then rescued and hospitalised (Amar Ujala via SANDRP). Pin is Kirandul town (region), not a surveyed crest between pits 11 and 11B. Height 6 m — no 15 m cutoff.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "NMDC (National Mineral Development Corporation)",
+      "year_built": "1989 (SANDRP: check dam No. 6)",
+      "height_m": 6,
+      "reservoir_capacity": "10,000 m³ (SANDRP)",
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": "SANDRP: 6 m high, 40 m wide check dam; ThePrint: eastern wall of a 70×70×2.5 m sump also described",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "nmdc-kirandul-2024-07-21",
+      "name": "NMDC Bailadila iron-ore check dam (Kirandul)",
+      "country": "India",
+      "region": "Between mines 11B and 11, eastern ridge of Bailadila, Kirandul, Dantewada district, Chhattisgarh",
+      "location_label": "Kirandul, Dantewada, Chhattisgarh, India",
+      "lat": 18.6325,
+      "lng": 81.25944,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Kirandul) 18°37′57″N 81°15′34″E; SANDRP places the earthen check-dam between NMDC mines 11B and 11 above Kirandul",
+      "river_or_facility": "NMDC iron-ore check dam, Bailadila deposits 11 / 11B",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "SANDRP: earthen check-dam between mines 11B and 11 breached about 15:00 on 21 July 2024 following heavy rainfall.",
+      "incident_date": "2024-07-21",
+      "latest_report_date": "2024-07",
+      "what_happened": "SANDRP (July 2024): an NMDC iron-ore check-dam on the eastern ridge of the Bailadila range, between mines 11B and 11, breached around 15:00 on 21 July 2024 after heavy rain. Floodwater hit homes and vehicles in Bengali camp downhill in Kirandul. A six-year-old on the way to tuition was washed away and later rescued and hospitalised (Amar Ujala via SANDRP). No death count is given.",
+      "status": "Check-dam breached 21 July 2024.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "SANDRP — July 2024: NMDC iron-ore check-dam, Kirandul",
+          "url": "https://sandrp.in/2024/07/26/july-2024-nmdcs-iron-ore-check-dam-flood-disaster-in-chhattisgarh/"
+        },
+        {
+          "label": "ThePrint — 40 families evacuated, Kirandul tank breach",
+          "url": "https://theprint.in/india/breach-in-tank-causes-floods-in-chhattisgarhs-kirandul-town-40-families-evacuated/2184449/"
+        },
+        {
+          "label": "Wikipedia — Kirandul (18.6325°N 81.25944°E)",
+          "url": "https://en.wikipedia.org/wiki/Kirandul"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is Kamptee town (region). Do not merge with 2022 Koradi/Khasala.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "MAHAGENCO (Khaparkheda Thermal Power Station)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "khaparkheda-waregaon-2023-07-19",
+      "name": "Khaparkheda TPS fly-ash pond (Waregaon)",
+      "country": "India",
+      "region": "Waregaon, Kamptee taluka, Nagpur district, Maharashtra",
+      "location_label": "Waregaon / Kamptee, Nagpur, Maharashtra, India",
+      "lat": 21.2333,
+      "lng": 79.2,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Kamptee) 21°14′00″N 79°12′00″E; SANDRP places the KTPS fly-ash pond at Waregaon in Kamptee taluka",
+      "river_or_facility": "Khaparkheda Thermal Power Station fly-ash pond; Kanhan River",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "SANDRP: a portion of the full fly-ash pond wall collapsed about 08:00 on 19 July 2023 after heavy rain; complainants said MAHAGENCO had not kept 100% ash utilisation.",
+      "incident_date": "2023-07-19",
+      "latest_report_date": "2024-01-04",
+      "what_happened": "SANDRP (4 Jan 2024): on the morning of 19 July 2023 a portion of the Khaparkheda TPS (MAHAGENCO) fly-ash pond wall at Waregaon, Kamptee taluka, Nagpur, collapsed around 08:00. About 15 farms / about 100 acres were filled with ash sludge, which also entered the Kanhan River. No death count is given. Separate from the July 2022 Khasala/Koradi pond mentioned in the same article.",
+      "status": "Ash-pond wall collapsed 19 July 2023.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SANDRP — 2023 fly ash bund breaches (Khaparkheda / Waregaon 19 July)",
+          "url": "https://sandrp.in/2024/01/04/2023-fly-ash-bund-breach-incidents-in-india/"
+        },
+        {
+          "label": "Wikipedia — Kamptee (21.2333°N 79.2°E)",
+          "url": "https://en.wikipedia.org/wiki/Kamptee"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "32 families / 41 farmers (SANDRP)",
+      "notes": "Deaths null. Pin is Jharsuguda city (region). Distinct from jharsuguda-2017-08-28 Hindalco TSF.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "OPGC (Ib Thermal Power Station)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": "about 50 m (SANDRP)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ib-thermal-2023-12-09",
+      "name": "Ib Thermal Power Station fly-ash pond C (Lakhanpur)",
+      "country": "India",
+      "region": "Lakhanpur block, Jharsuguda district, Odisha (Kantatikra / Saradhapalli, Kumharbandh)",
+      "location_label": "Lakhanpur / Jharsuguda, Odisha, India",
+      "lat": 21.85,
+      "lng": 84.03,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Jharsuguda) 21°51′N 84°02′E; SANDRP places the OPGC Ib TPS pond C breach in Lakhanpur block",
+      "river_or_facility": "Ib Thermal Power Station (ITPS) fly-ash pond C",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "SANDRP / SPCB: pond C-block breached about 08:15 on 9 December 2023; OPGC blamed incessant rain; others alleged poor embankment maintenance. Breach about 50 m.",
+      "incident_date": "2023-12-09",
+      "latest_report_date": "2024-01-04",
+      "what_happened": "SANDRP (4 Jan 2024): at about 08:15 on 9 December 2023 a 50 m portion of the Ib Thermal Power Station (OPGC) fly-ash pond dyke in Lakhanpur block, Jharsuguda, collapsed, flooding farms at Kantatikra and Saradhapalli (Kumharbandh). Down to Earth via SANDRP: about 150 acres of paddy of Sardhapali and Kantatikira. 32 families / 41 farmers affected; people took refuge on another ash pond. Pond C about 110–120 acres. No death count is given. Distinct from the 2017 Hindalco Jharsuguda tailings record already live.",
+      "status": "Pond C dyke breached 9 December 2023; OPGC said 2–3 days to repair.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SANDRP — 2023 fly ash bund breaches (Ib TPS pond C, 9 Dec)",
+          "url": "https://sandrp.in/2024/01/04/2023-fly-ash-bund-breach-incidents-in-india/"
+        },
+        {
+          "label": "Wikipedia — Jharsuguda (21.85°N 84.03°E)",
+          "url": "https://en.wikipedia.org/wiki/Jharsuguda"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "9 families shifted (SANDRP)",
+      "notes": "Deaths null. Pin is Katghora town (region). Distinct from NTPC Dhanras 2024 and DSPM Godhi 2017 in the same district.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "CSPGC (Hasdeo / Korba West Thermal Power Station)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "htps-korba-2025-06-26",
+      "name": "Hasdeo / Korba West TPS fly-ash dam (Chhirhut)",
+      "country": "India",
+      "region": "Dindolbhantha near Chhirhut, Katghora tehsil, Korba district, Chhattisgarh",
+      "location_label": "Chhirhut / Katghora, Korba, Chhattisgarh, India",
+      "lat": 22.5,
+      "lng": 82.55,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Katghora) 22°30′N 82°33′E; SANDRP places the HTPS/KWTPS fly-ash dam near Chhirhut in Katghora tehsil",
+      "river_or_facility": "Hasdeo Thermal Power Station (HTPS / Korba West) fly-ash dam; Ahiran / Hasdeo",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "SANDRP: part of the fly-ash dam bund breached on the evening of 26 June 2025 after two days of rain; villagers said seepage complaints were ignored.",
+      "incident_date": "2025-06-26",
+      "latest_report_date": "2025-12-06",
+      "what_happened": "SANDRP (6 Dec 2025): on 26 June 2025 a part of the CSPGC Hasdeo/Korba West (HTPS/KWTPS) fly-ash dam bund near Dindolbhantha/Chhirhut, Katghora tehsil, Korba, breached after intermittent rain. About 60 ha pondage; slurry to the Ahiran, a Hasdeo tributary. Farmland of about 20 farmers flooded; 9 families shifted to the panchayat building. No death count is given.",
+      "status": "Bund breached 26 June 2025.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SANDRP — 2025 fly ash dam breach (HTPS Chhirhut, 26 June)",
+          "url": "https://sandrp.in/2025/12/06/2025-fly-ash-dam-breach-flood-in-india/"
+        },
+        {
+          "label": "Wikipedia — Katghora (22.5°N 82.55°E)",
+          "url": "https://en.wikipedia.org/wiki/Katghora"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Category incident: NTPC said the cut was intentional to avoid collapse. Pin is Korba city (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "NTPC (Korba Super Thermal Power Station)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ntpc-dhanras-2024-07-01",
+      "name": "NTPC Korba Super TPS fly-ash dyke (Dhanras)",
+      "country": "India",
+      "region": "Dhanras village, Korba district, Chhattisgarh",
+      "location_label": "Dhanras / Korba, Chhattisgarh, India",
+      "lat": 22.35,
+      "lng": 82.68,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Korba, Chhattisgarh) 22°21′N 82°41′E; SANDRP places the KSTPS dyke at Dhanras near the Hasdeo",
+      "river_or_facility": "NTPC Korba Super Thermal Power Station (KSTPS) fly-ash dyke, Dhanras",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "SANDRP: dyke at Dhanras flooded about 16 ha of paddy on 1 July 2024. NTPC said they intentionally breached part of the bund to avoid collapse in heavy rain.",
+      "incident_date": "2024-07-01",
+      "latest_report_date": "2025-12-06",
+      "what_happened": "SANDRP (6 Dec 2025, reviewing 2024): on 1 July 2024 a breach in the NTPC Korba Super Thermal Power Station fly-ash dyke at Dhanras flooded and damaged paddy on about 16 ha and part of the village. Dyke about 420 ha, 2,600 MW KSTPS, near the Hasdeo. Farmers blamed neglected monsoon maintenance; NTPC said they intentionally cut part of the bund to avoid collapse and that farmers would be compensated. No death count is given. 2021 overflow at the same village is a different date and is not this record.",
+      "status": "Partial intentional cut / breach 1 July 2024 (NTPC account).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SANDRP — 2025 fly-ash review (NTPC Dhanras 1 July 2024)",
+          "url": "https://sandrp.in/2025/12/06/2025-fly-ash-dam-breach-flood-in-india/"
+        },
+        {
+          "label": "Wikipedia — Korba, Chhattisgarh (22.35°N 82.68°E)",
+          "url": "https://en.wikipedia.org/wiki/Korba,_Chhattisgarh"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is Korba city (region). Distinct from 2017 Hindalco Jharsuguda TSF.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "DSPM Thermal Power Plant, Korba",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "dspm-godhi-2017-06-01",
+      "name": "DSPM Thermal Power Plant ash dam (Godhi, Korba)",
+      "country": "India",
+      "region": "Godhi village, Korba district, Chhattisgarh",
+      "location_label": "Godhi / Korba, Chhattisgarh, India",
+      "lat": 22.35,
+      "lng": 82.68,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Korba, Chhattisgarh) 22°21′N 82°41′E; SANDRP places the DSPM ash-dam breach near Godhi village",
+      "river_or_facility": "Dr. Shyama Prasad Mukherjee (DSPM) Thermal Power Plant ash dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "SANDRP: embankment of the DSPM ash dam breached suddenly on 1 June 2017 near Godhi; villagers alleged mismanagement of maintenance.",
+      "incident_date": "2017-06-01",
+      "latest_report_date": "2025-12-06",
+      "what_happened": "SANDRP (6 Dec 2025, Korba fly-ash chronology): on 1 June 2017 the embankment of the ash dam at the Dr. Shyama Prasad Mukherjee Thermal Power Plant in Korba breached suddenly near Godhi village, flooding surrounding fields. Villagers alleged mismanagement of the dam structure. No death count is given.",
+      "status": "Ash-dam embankment breached 1 June 2017.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SANDRP — 2025 fly-ash review (DSPM Godhi 1 June 2017)",
+          "url": "https://sandrp.in/2025/12/06/2025-fly-ash-dam-breach-flood-in-india/"
+        },
+        {
+          "label": "Wikipedia — Korba, Chhattisgarh (22.35°N 82.68°E)",
+          "url": "https://en.wikipedia.org/wiki/Korba,_Chhattisgarh"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "seven villages vacated (DeshGujarat local daily)",
+      "notes": "Deaths null. Do not copy Gujarat 2005 statewide flood deaths. Pin is Waghodia town (region). Distinct from pratappura-2001 and pratappura-2012-08-13.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "CWC 1891; WRIS 1930",
+      "height_m": 10.67,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "50 m (NIDM); 80 feet (India Together)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "pratappura-2005-07-01",
+      "name": "Pratappura Dam / Pratapsingh Tank (2005 breach)",
+      "country": "India",
+      "region": "Waghodia (Waghoriya) taluka, Vadodara district, Gujarat",
+      "location_label": "Waghodia, Vadodara, Gujarat, India",
+      "lat": 22.3,
+      "lng": 73.38,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Waghodia) 22°18′N 73°23′E; India-WRIS Pratappura Dam at Waghoriya, height 10.67 m",
+      "river_or_facility": "Pratappura Dam / Pratapsingh Tank on the Khari (Mahi basin); canals to Sayaji Sarovar / Vishwamitri",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "NIDM via DeshGujarat: 50 m-wide breach on Friday 1 July 2005 after overnight ~12 inch rain on the Pratappura catchment. India Together: 80-foot breach after rains from 27 June 2005.",
+      "incident_date": "2005-07-01",
+      "latest_report_date": "2024-09-11",
+      "what_happened": "NIDM (quoted by DeshGujarat, 11 Sept 2024): Pratappura dam (also Pratapsingh Tank), about 4,040 acres catchment, 7 gates; a 50-metre-wide breach on Friday 1 July 2005 inundated five nearby villages and sent a large flow into Vadodara. DeshGujarat local-daily recap: seven villages vacated (Shankarpura, Bodindra, Jarod, Paldi, Hansapura, Pratappura, Panch Devla); 12 inch overnight rain at Pratappura; the 2005 breach was reportedly at the same place as the 2001 100 m breach. India Together (same 2005 monsoon, treating Bhuj 2001 as prior): 80-foot breach in Pratappura and a breach at Timbi. Frontline: a wall of Pratapur dam broke and Ajwa gates were opened. No death count is given for this named dam; Gujarat/Vadodara 2005 flood totals (ReliefWeb 108 then 132 statewide) are not copied. Distinct from CWC 2001 and the 13 August 2012 partial breach.",
+      "status": "Breached 1 July 2005; later X-ray study and strengthening (NIDM via DeshGujarat).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "DeshGujarat / NIDM — Pratappura 50 m breach 1 July 2005",
+          "url": "https://deshgujarat.com/2024/09/11/more-vishamitri-floods-in-vadodara-in-20th-highest-rain-of-june-on-record-in-2005-caused-first-flood-of-century/"
+        },
+        {
+          "label": "India Together — Pratappura 80-foot breach and Timbi (2005 monsoon)",
+          "url": "https://indiatogether.org/vadodara-government/"
+        },
+        {
+          "label": "Frontline — Pratapur dam wall broke, Vadodara 2005",
+          "url": "https://frontline.thehindu.com/other/article30205626.ece"
+        },
+        {
+          "label": "India-WRIS — Dams in Mahi Basin (Pratappura Dam, Waghoriya, 10.67 m)",
+          "url": "https://indiawris.gov.in/wiki/doku.php?id=dams_in_mahi_basin"
+        },
+        {
+          "label": "Wikipedia — Waghodia (22.30°N 73.38°E)",
+          "url": "https://en.wikipedia.org/wiki/Waghodia"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: TOI quotes VMC commissioner that there was no damage to crops and life around the reservoir. Pin is Waghodia town (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Vadodara Municipal Corporation (TOI)",
+      "year_built": "CWC 1891; WRIS 1930",
+      "height_m": 10.67,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "~25 ft plus a new 10–15 ft opening (TOI 14 Aug 2012)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "pratappura-2012-08-13",
+      "name": "Pratappura Dam (2012 partial breach)",
+      "country": "India",
+      "region": "Waghodia (Waghoriya) taluka, Vadodara district, Gujarat",
+      "location_label": "Waghodia, Vadodara, Gujarat, India",
+      "lat": 22.3,
+      "lng": 73.38,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Waghodia) 22°18′N 73°23′E; same reservoir as the 2001 and 2005 records",
+      "river_or_facility": "Pratappura Dam / reservoir (earthen); discharge toward Vishwamitri",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "Times of India / NIDM via DeshGujarat: breach spotted 13 August 2012 morning (~4–5 ft), widened next day to ~25 ft with a new 10–15 ft opening nearby. Officials said 2005 repair soil may not have bound with the original earthen dam.",
+      "incident_date": "2012-08-13",
+      "latest_report_date": "2012-08-14",
+      "what_happened": "Times of India (Vadodara): an existing breach in Pratappura reservoir was spotted Monday 13 August 2012 morning at about four to five feet and by Tuesday had become about 25 feet wide; a new breach about 10–15 feet wide appeared near it. VMC commissioner Ashwini Kumar: water was discharging steadily, averting a flood-like situation in the city via the Vishwamitri; 'There is no damage to crops and life in the areas around the reservoir.' Officials suggested soil placed to repair the 2005 breach may not have bound with the original earthen dam. NIDM text quoted by DeshGujarat repeats the same 13–14 August 2012 sequence. Distinct from the 2001 and 1 July 2005 failures.",
+      "status": "Partial 2012 breach; officials said not to repair until after the monsoon.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Times of India — Breach in Pratappura widens, no flood threat (14 Aug 2012)",
+          "url": "https://timesofindia.indiatimes.com/city/vadodara/breach-in-pratappura-widens-but-no-flood-threat-to-city/articleshow/15500537.cms"
+        },
+        {
+          "label": "DeshGujarat / NIDM — 13 Aug 2012 Pratappura breach recap",
+          "url": "https://deshgujarat.com/2024/09/11/more-vishamitri-floods-in-vadodara-in-20th-highest-rain-of-june-on-record-in-2005-caused-first-flood-of-century/"
+        },
+        {
+          "label": "Wikipedia — Waghodia (22.30°N 73.38°E)",
+          "url": "https://en.wikipedia.org/wiki/Waghodia"
         }
       ],
       "severity": "moderate"
