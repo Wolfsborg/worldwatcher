@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1416,
+  "count": 1434,
   "current_count": 30,
-  "historical_count": 1386,
+  "historical_count": 1404,
   "incidents": [
     {
       "id": "thapanseik-dam-2026-08-06",
@@ -77579,6 +77579,1083 @@
         }
       ],
       "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Promoted from no-geo hold after MWR named Dulan County. Deaths null: no structure-specific count. Pin is Dulan county seat, not a surveyed crest. Not Ulan Yingdeer Town.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 20.0,
+      "reservoir_capacity": "1 million m³ total; 900,000 m³ stored at failure (MWR 2005)",
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": "900,000 m³ stored at failure (MWR 2005)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "yingdeer-2005-04-28",
+      "name": "Yingdeer (英德尔) Reservoir Dam",
+      "region": "Dulan County, Haixi Mongol and Tibetan Autonomous Prefecture, Qinghai",
+      "location_label": "Dulan County, Qinghai, China",
+      "lat": 36.3,
+      "lng": 98.083,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Dulan County seat / Qagan Us) 36°18′N 98°05′E. Minister Wang Shucheng (10 May 2005) names the failed dam as 青海省海西州都兰县英德尔水库. Not Yingdeer Town in Ulan County. Not a surveyed crest.",
+      "river_or_facility": "Yingdeer / Yingdeer sheep-farm Reservoir (英德尔水库 / 英德尔羊场水库)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "spillway",
+        "piping_internal_erosion",
+        "construction_first_filling"
+      ],
+      "cause_summary": "MWR 10 May 2005: 28 April 2005 Dulan Yingdeer breached at the spillway under earthquake and other factors. Li et al. 2021: 2005 Qinghai Yingdeer failed during rehabilitation from seepage at the strengthened section.",
+      "incident_date": "2005-04-28",
+      "latest_report_date": "2021",
+      "what_happened": "Minister of Water Resources Wang Shucheng, speaking on 10 May 2005, said that on 28 April 2005 Yingdeer Reservoir in Dulan County, Haixi, Qinghai (total storage 1 million m³, height 20 m) breached at the spillway under earthquake and other factors, with 900,000 m³ stored at failure. Li et al. 2021 list 2005 Qinghai Yingdeer among reinforcement-period seepage failures at the strengthened section. Later Dulan County maintenance tenders still name 英德尔水库 / 英德尔羊场水库 in Dulan. This is not Yingdeer Town (英德尔镇) in Ulan County. No death count in the fetched sources.",
+      "status": "Historical 2005 spillway/seepage failure during rehabilitation. Later Dulan tenders still name a Yingdeer reservoir.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wang Shucheng, Minister of Water Resources — 全国水库安全度汛电视电话会议 (gov.cn 10 May 2005): Dulan Yingdeer 28 Apr 2005 spillway breach",
+          "url": "https://www.gov.cn/ldhd/2005-05/10/content_2850.htm"
+        },
+        {
+          "label": "Li et al. 2021 — 2000—2018年中国水库溃坝规律分析与对策 (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20201119001"
+        },
+        {
+          "label": "Dulan County 2025 small-reservoir maintenance tender — 英德尔水库 still listed in Dulan",
+          "url": "http://www.dlztb.com/news/202505/21/309256.html"
+        },
+        {
+          "label": "Wikipedia — Dulan County (36.300°N 98.083°E)",
+          "url": "https://en.wikipedia.org/wiki/Dulan_County"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Promoted from no-geo hold after The Paper/State Flood HQ named Tianhong/Xianfeng. Deaths 0 from that named-structure briefing (提前转移, 没有造成人员伤亡). Not the 2016 Jiangxi flood death total (2). Distinct from 20 June 2016 Poyang Xiangyangwei/Bindian levee. Pin is Tianhong town, not the crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "meitanjing-2016",
+      "name": "Meitanjing (煤炭井) Reservoir Dam",
+      "region": "Xianfeng / Xianfeng Village (先锋村 / 先峰村), Tianhong Town, Pengze County, Jiujiang, Jiangxi",
+      "location_label": "Tianhong Town, Pengze, Jiangxi, China",
+      "lat": 29.68554,
+      "lng": 116.43971,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Tianhong Town) 29°41′08″N 116°26′23″E. The Paper / State Flood Control HQ: 彭泽县天红镇先锋村煤炭井小（2）型水库. Wikipedia lists 先峰村 among Tianhong villages. Not Pengze county seat. Not a surveyed crest.",
+      "river_or_facility": "Meitanjing (煤炭井) small (2) reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Li et al. 2021: 2016 Jiangxi Meitanjing failed by seepage at a through-dam culvert / structure junction. State Flood Control HQ via The Paper: Pengze Tianhong Xianfeng small (2) Meitanjing 出险决口 in the 18–21 June 2016 rain.",
+      "incident_date": "2016-06",
+      "latest_report_date": "2021",
+      "what_happened": "Li et al. 2021 name 2016 江西煤炭井水库 among conduit-seepage failures with comparatively bad public impact. The Paper, quoting the State Flood Control Headquarters on 21 June 2016, says Pengze County Tianhong Town Xianfeng Village Meitanjing small (2) reservoir 出险决口 during the 18–21 June northern Jiangxi rain, and that the danger-zone population had been moved in advance with no casualties. A March 2017 Jiangxi tender then covered 彭泽县煤炭井等18座小（2）型水库除险加固. Wikipedia Tianhong Town lists 先峰村 among its villages.",
+      "status": "2016 small-reservoir breach; 2017 Pengze repair package named Meitanjing.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Li et al. 2021 — 2000—2018年中国水库溃坝规律分析与对策 (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20201119001"
+        },
+        {
+          "label": "The Paper / State Flood Control HQ — 2 small reservoirs overtopped, Meitanjing breached, Xiangyangwei levee (21 June 2016)",
+          "url": "https://www.thepaper.cn/newsDetail_forward_1487100"
+        },
+        {
+          "label": "Jiangxi tender — 彭泽县煤炭井等18座小（2）型水库除险加固 (2017)",
+          "url": "http://www.dlztb.com/news/201702/23/158120.html"
+        },
+        {
+          "label": "Wikipedia — Tianhong Town (29.68554°N 116.43971°E); 先峰村 listed",
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E7%BA%A2%E9%95%87"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from State Flood HQ named-structure briefing. Not the 2016 Jiangxi flood death total (2). Pin is Houjiagang township, not the crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "dashuiyan-poyang-2016-06",
+      "name": "Dashuiyan (大水堰) Reservoir Dam",
+      "region": "Houjiagang Township, Poyang County, Shangrao, Jiangxi",
+      "location_label": "Houjiagang, Poyang, Jiangxi, China",
+      "lat": 29.52154,
+      "lng": 116.84775,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Houjiagang Township) 29°31′18″N 116°50′52″E. State Flood Control HQ via The Paper: 鄱阳县侯家岗乡大水堰 small (2) overtopping failure. Township pin, not a surveyed crest.",
+      "river_or_facility": "Dashuiyan (大水堰) small (2) reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "State Flood Control HQ via The Paper: Houjiagang Dashuiyan small (2) reservoir overtopped and failed in the 18–21 June 2016 northern Jiangxi rain.",
+      "incident_date": "2016-06",
+      "latest_report_date": "2016-06-21",
+      "what_happened": "The Paper, quoting the State Flood Control Headquarters on 21 June 2016, says that because of extreme rain Poyang County Houjiagang Township Dashuiyan and Xiejialong, two small (2) reservoirs, overtopped and failed (漫顶垮坝). Danger-zone residents were moved in advance; the briefing says no casualties on these named structures. Guangming Daily reprinted the same State Flood HQ line.",
+      "status": "Historical June 2016 small-reservoir overtopping failure.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "The Paper / State Flood Control HQ — 2 small reservoirs overtopped, Meitanjing breached, Xiangyangwei levee (21 June 2016)",
+          "url": "https://www.thepaper.cn/newsDetail_forward_1487100"
+        },
+        {
+          "label": "Guangming Daily — same State Flood HQ line: Houjiagang Dashuiyan and Xiejialong overtopped",
+          "url": "https://epaper.gmw.cn/gmrb/html/2016-06/22/nw.D110000gmrb_20160622_6-11.htm"
+        },
+        {
+          "label": "Wikipedia — Houjiagang Township (29.52154°N 116.84775°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E4%BE%AF%E5%AE%B6%E5%B2%97%E4%B9%A1"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from State Flood HQ named-structure briefing. Not the 2016 Jiangxi flood death total. Pin is Houjiagang township, not the crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "xiejialong-poyang-2016-06",
+      "name": "Xiejialong (谢家垅) Reservoir Dam",
+      "region": "Houjiagang Township, Poyang County, Shangrao, Jiangxi",
+      "location_label": "Houjiagang, Poyang, Jiangxi, China",
+      "lat": 29.52154,
+      "lng": 116.84775,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Houjiagang Township) 29°31′18″N 116°50′52″E. State Flood Control HQ via The Paper: 鄱阳县侯家岗乡谢家垅 small (2) overtopping failure. Township pin, not a surveyed crest.",
+      "river_or_facility": "Xiejialong (谢家垅) small (2) reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "State Flood Control HQ via The Paper: Houjiagang Xiejialong small (2) reservoir overtopped and failed in the 18–21 June 2016 northern Jiangxi rain.",
+      "incident_date": "2016-06",
+      "latest_report_date": "2016-06-21",
+      "what_happened": "The Paper / State Flood Control Headquarters 21 June 2016 briefing names Houjiagang Township Xiejialong together with Dashuiyan as the two small (2) reservoirs that overtopped and failed in the same rain. Residents were moved in advance; no casualties on these named structures.",
+      "status": "Historical June 2016 small-reservoir overtopping failure.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "The Paper / State Flood Control HQ — 2 small reservoirs overtopped, Meitanjing breached, Xiangyangwei levee (21 June 2016)",
+          "url": "https://www.thepaper.cn/newsDetail_forward_1487100"
+        },
+        {
+          "label": "Guangming Daily — same State Flood HQ line",
+          "url": "https://epaper.gmw.cn/gmrb/html/2016-06/22/nw.D110000gmrb_20160622_6-11.htm"
+        },
+        {
+          "label": "Wikipedia — Houjiagang Township (29.52154°N 116.84775°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E4%BE%AF%E5%AE%B6%E5%B2%97%E4%B9%A1"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 13000,
+      "notes": "Deaths 0 from State Flood HQ / county briefing for this named levee. Not the 2016 Jiangxi flood death total. Bindian Reservoir itself did not fail. Pin is Guxian town, not the opening.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 64–100 m (China Youth Daily ~100 m; later close-up ~64 m)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "xiangyangwei-bindian-2016-06-20",
+      "name": "Xiangyangwei / Xianghong Lianwei Bindian River levee (向阳圩 / 向红联圩滨田河堤)",
+      "region": "Guxian Town, Poyang County, Shangrao, Jiangxi — Changjiang right bank near Poyang Lake; breach about 1.5 km downstream of Tangkou Village, Xianghong Lianwei chainage 3+500–3+550",
+      "location_label": "Guxian Town, Poyang, Jiangxi, China",
+      "lat": 29.07911,
+      "lng": 116.867,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Guxian Town) 29°04′45″N 116°52′01″E. CNR/Jiangxi Flood HQ: breach at Guxian Tangkou Village ~1.5 km downstream. Town pin, not a surveyed opening.",
+      "river_or_facility": "Xiangyangwei / Xianghong Lianwei on Bindian River (滨田河), Changjiang tributary; upstream Bindian Reservoir itself held",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Jiangxi Flood HQ / China Youth Daily: high water, Bindian Reservoir spillway release and Changjiang flood peak stacked; a through-dike piping defect opened the Xianghong Lianwei Bindian reach.",
+      "incident_date": "2016-06-20",
+      "latest_report_date": "2016-06-24",
+      "what_happened": "At 19:20 on 20 June 2016 Xiangyangwei at Guxian Town, Poyang, failed. China Youth Daily: the opening was on the Xianghong Lianwei Bindian River reach (chainage 3+500–3+550), about 100 m wide. CNR: about 1.5 km downstream of Tangkou Village. The Paper: unreinforced ordinary polder, 3.35 km², 10,300 mu farmland, three administrative villages; nearest village about 3 km from the opening; 5,600 people threatened, 13,000 moved, no casualties. Bindian Reservoir 13 km upstream stored about 18 million m³ and cut the peak 88%. Closed 24 June after 47 hours. Distinct from Pengze Meitanjing and from Houjiagang Dashuiyan/Xiejialong.",
+      "status": "Breach closed 24 June 2016 after 47 hours.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "The Paper / State Flood Control HQ — 2 small reservoirs overtopped, Meitanjing breached, Xiangyangwei levee (21 June 2016)",
+          "url": "https://www.thepaper.cn/newsDetail_forward_1487100"
+        },
+        {
+          "label": "China Youth Daily — Xiangyangwei ~100 m; Xianghong Lianwei Bindian 3+500–3+550; piping",
+          "url": "https://zqb.cyol.com/html/2016-06/22/nw.D110000zgqnb_20160622_6-04.htm"
+        },
+        {
+          "label": "CNR — 19:20 20 June; Tangkou Village ~1.5 km downstream",
+          "url": "http://www.cnr.cn/newscenter/native/gd/20160621/t20160621_522453004.shtml"
+        },
+        {
+          "label": "The Paper — unreinforced polder; 47-hour close 24 June",
+          "url": "https://www.thepaper.cn/newsDetail_forward_1486619"
+        },
+        {
+          "label": "Wikipedia — Guxian Town (29.07911°N 116.867°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E5%8E%BF%E6%B8%A1%E9%95%87"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the 1975 Henan / Banqiao-cluster / 26,000 official or unofficial totals onto this one structure. Distinct from Banqiao, Shimantan and Zhugou already live. Pin is Wugang city, not the 1975 crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "about 27 million m³ at 1975 failure; rebuild 31.76 million m³ (2002)",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "tiangang-1975-08-08",
+      "name": "Tiangang (田岗) Reservoir Dam",
+      "region": "Tiangang Village, Wugong Township, Wugang, Pingdingshan, Henan — Gun River, Xiao Hong River tributary, about 5 km downstream of Shimantan",
+      "location_label": "Wugang (Tiangang Village), Henan, China",
+      "lat": 33.2937,
+      "lng": 113.52028,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Wugang) 33°17′37″N 113°31′13″E. Rebuild accounts place the dam at Wugong Township Tiangang Village, 5 km from Shimantan. City pin, not a surveyed 1975 crest.",
+      "river_or_facility": "Tiangang Reservoir / Gun River (滚河)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "China Historical Floods / Southern Weekend: after Shimantan overtopped about 00:30 on 8 August 1975, downstream medium Tiangang (storage about 27 million m³) then overtopped.",
+      "incident_date": "1975-08-08",
+      "latest_report_date": "2002",
+      "what_happened": "Zhang, Yang and Jiang 2014 appendix 9.10 is the 1975 Pingdingshan Tiangang case. Southern Weekend / Sina reprint of China Historical Floods: Shimantan overtopped about 00:30 on 8 August 1975 (peak about 30,000 m³/s); downstream Tiangang, a medium reservoir of about 27 million m³, then overtopped. Rebuild notices: the replacement is at Wugong Township Tiangang Village, Wugang, 5 km from Shimantan; new total storage 31.76 million m³, catchment 305 km²; construction 2000–2002. This is a named sister reservoir of Shimantan, not Banqiao and not the 58 unnamed small dams.",
+      "status": "Rebuilt 2000–2002 at Tiangang Village, Wugong, Wugang.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Sina / China Historical Floods reprint — Shimantan then Tiangang overtopped 8 Aug 1975",
+          "url": "http://news.sina.com.cn/c/2005-11-26/18098412465.shtml"
+        },
+        {
+          "label": "Tiangang Reservoir rebuild — Wugong Township Tiangang Village, 5 km from Shimantan",
+          "url": "https://www.kuaic.com/btx/at_28751.html"
+        },
+        {
+          "label": "Wikipedia — Wugang (33.2937°N 113.52028°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E8%88%9E%E9%92%A2%E5%B8%82"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. This is the named Zhang 2014 9.29 leftover (reservoir-area mountain / saddle used as dam), not a main concrete-arch crest collapse. Pin is the auction plant coordinate, not a surveyed 2007 opening.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "2003–2006 (first plant)",
+      "height_m": null,
+      "reservoir_capacity": "design later 50.66–75 million m³ (rebuild / auction figures differ)",
+      "construction": "concrete_arch",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": "51.7 m at the base (auction notice)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "majingao-2007-07-26",
+      "name": "Majingao / Puxin hydropower saddle (马颈坳谱新水电站库区山体)",
+      "region": "Zhengguang Village, Yangwu Township (then Xiangwu), Danzhai County, Qiandongnan, Guizhou — Paidiao River Majingao reach",
+      "location_label": "Zhengguang Village, Yangwu, Danzhai, Guizhou, China",
+      "lat": 26.15,
+      "lng": 107.15333,
+      "geo_accuracy": "approx",
+      "geo_source": "Danzhai Puxin hydropower auction listing: 东经107°9′12″ 北纬26°09′ (Zhengguang Village, Yangwu). Zhang 2014 appendix 9.29. Not a surveyed crest survey; minutes-level plant pin.",
+      "river_or_facility": "Majingao / Puxin hydropower reservoir, Paidiao River (排调河)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "landslide",
+        "extreme_rainfall",
+        "operational_gate",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Auction / county account: 26 July 2007 extreme flood; bottom-outlet working gate not installed as designed; right-bank mountain 'auxiliary dam' not strengthened; thin ridge between Wushui and Paidiao collapsed.",
+      "incident_date": "2007-07-26",
+      "latest_report_date": "2015",
+      "what_happened": "Zhang, Yang and Jiang 2014 appendix 9.29 is the 2007 Danzhai Majingao hydropower reservoir-area mountain collapse. A later asset-auction notice: the plant is at Zhengguang Village, Yangwu, Danzhai, 107°9′12″E 26°09′N; first stored 2006; on 26 July 2007 extreme flood, with the bottom-outlet working gate not installed and the right-bank mountain 'auxiliary dam' unstrengthened, the thin ridge between Wushui River and Paidiao trunk failed, leaving a 51.7 m (base) opening; generation stopped. A rebuilt medium concrete-arch plant later entered service (2015 county report: 50.66 million m³). 2023 flood-responsibility table still lists Majingao hydropower reservoir at Yangwu Zhengguang. No death count in the fetched sources.",
+      "status": "Ridge / saddle failed 2007; later rebuilt medium hydropower reservoir at the same named site.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Danzhai Puxin hydropower auction — Zhengguang, 107°9′12″E 26°09′N; 26 July 2007 51.7 m opening",
+          "url": "http://www.zichan.toocle.com/p17r3418t11/detail-57279436.html"
+        },
+        {
+          "label": "Danzhai 2023 flood-responsibility table — 马颈坳水电站水库 at Yangwu Zhengguang",
+          "url": "https://www.qdndz.gov.cn/zwgk/zdlygk/sljs/202304/t20230407_78943497.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the 1963 Hebei / Hai River 5,119–5,600 flood total onto this one dam. Distinct from Liujiatai and Dongchuankou already live, and from Lincheng main reservoir which held. Pin is Xishu town, not the 1963 crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1958–1959",
+      "height_m": 19.4,
+      "reservoir_capacity": "14.10 million m³ (gazetteer); Wikipedia normal 5.10 million m³",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "luomu-1963-08",
+      "name": "Luomu / Zilong Lake (乱木 / 子龙湖) Reservoir Dam",
+      "region": "East of Luanmu Village, Xishu Town, Lincheng County, Xingtai, Hebei — Saili Chuan, Zhi River south branch, Ziya / Hai River",
+      "location_label": "Xishu Town (Luanmu Village), Lincheng, Hebei, China",
+      "lat": 37.45665,
+      "lng": 114.38611,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Xishu Town) 37°27′23.9″N 114°23′10″E; Xishu village list includes 乱木村. Gazetteer: dam east/south of Luanmu Village. Town pin, not a surveyed 1963 crest.",
+      "river_or_facility": "Luomu / Zilong Lake Reservoir / Saili Chuan (赛里川)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Hai River 63.8 accounts list Luomu among the five medium Hebei reservoirs that failed by overtopping. Local gazetteer: 1963 flood washed out the auxiliary dam.",
+      "incident_date": "1963-08",
+      "latest_report_date": "2012",
+      "what_happened": "Zhang 2014 appendix 9.1 covers the five Hebei medium reservoirs in the 63.8 flood. Official and research lists name Luomu with Liujiatai, Dongchuankou, Mahe and Zuocun as the five medium failures (overtopping / above design). A Lincheng gazetteer (Zilong Lake / Luomu): homogeneous earth main dam 193 m long, 19.4 m high, storage 14.10 million m³, catchment 46 km², built 1958–59 at Luanmu Village, Xishu; 1963 flood washed out the auxiliary dam, flooded Lincheng county seat and took out the Fengcun Jingguang railway bridge. Wikipedia has a Luomu Reservoir stub (Lincheng, 1959). Distinct from Lincheng / Xishu / Qishan Lake main reservoir, which held.",
+      "status": "Auxiliary dam failed 1963; reservoir later continued as Zilong Lake.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Sheng, Li & Sheng 2023 — Statistical analysis of dam failure and its loss of life in China (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20220919001"
+        },
+        {
+          "label": "Zilong Lake / Luomu gazetteer — Luanmu Village, Xishu; 1963 auxiliary-dam washout",
+          "url": "https://www.kuaic.com/io/at_5054.html"
+        },
+        {
+          "label": "Wikipedia — Luomu Reservoir (Lincheng, 1959)",
+          "url": "https://zh.wikipedia.org/wiki/%E4%B9%B1%E6%9C%A8%E6%B0%B4%E5%BA%93"
+        },
+        {
+          "label": "Wikipedia — Xishu Town (37.45665°N 114.38611°E); 乱木村 listed",
+          "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%AB%96%E9%95%87"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the 1963 Hebei flood total. Not Tengzhou Mahe (Shandong). Pin is Neiqiu county seat, not the crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1958–1959",
+      "height_m": 20.1,
+      "reservoir_capacity": "24.45 million m³ (gazetteer)",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "mahe-neiqiu-1963-08",
+      "name": "Mahe (马河) Reservoir Dam (Neiqiu, Xiaomahe)",
+      "region": "Upper Xiaomahe, central Neiqiu County, Xingtai, Hebei",
+      "location_label": "Neiqiu County, Hebei, China",
+      "lat": 37.28617,
+      "lng": 114.5061,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Neiqiu County) 37°17′10″N 114°30′22″E. Gazetteer: Xingtai Neiqiu central Xiaomahe, built 1958–59. County pin, not a surveyed crest. Not Tengzhou Mahe in Shandong.",
+      "river_or_facility": "Mahe Reservoir / Xiaomahe (小马河), Baima River south branch",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Hai River 63.8 lists name Mahe among the five medium Hebei reservoirs that failed by overtopping / above design.",
+      "incident_date": "1963-08",
+      "latest_report_date": "2023",
+      "what_happened": "Zhang 2014 appendix 9.1 and Hai River 63.8 summaries list Mahe with Dongchuankou, Zuocun, Luomu and Liujiatai as the five medium Hebei failures. A Xingtai gazetteer: Neiqiu County central Xiaomahe, homogeneous earth main dam 180 m, height 20.1 m, storage 24.45 million m³, catchment 94 km², built 1958–59, flood control and irrigation. Xiaomahe itself is described as having Mahe Reservoir on its upper reach (source in Liulin, then Fengcun / Jindian). This is not the Shandong Tengzhou Mahe Reservoir.",
+      "status": "Historical 1963 medium-reservoir failure on Xiaomahe, Neiqiu.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "Sheng, Li & Sheng 2023 — Statistical analysis of dam failure and its loss of life in China (Hydro-Science and Engineering)",
+          "url": "https://doi.org/10.12170/20220919001"
+        },
+        {
+          "label": "Xiaomahe gazetteer — Mahe Reservoir on upper Xiaomahe, Neiqiu, 1959 medium dam",
+          "url": "https://m.baike.com/wikiid/954102923866041105"
+        },
+        {
+          "label": "Wikipedia — Neiqiu County (37.28617°N 114.5061°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E5%86%85%E4%B8%98%E5%8E%BF"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 1500,
+      "notes": "Category incident: culvert/outlet collapse, main dam held. Deaths 0 from named coverage (1,500 moved, dam saved). Pin is Linguan town, not the culvert.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1965",
+      "height_m": null,
+      "reservoir_capacity": "about 1.4 million m³ stored on 5 May 2010",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": "about 500,000 m³ (Sanxiang Metropolis Daily)",
+      "breach_size": "culvert outlet >10 m; inlet funnel ~15 m",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "zhongqiutian-2010-05-05",
+      "name": "Zhongqiutian (中秋田) Reservoir Dam",
+      "region": "Linguan Town, Anren County, Chenzhou, Hunan — downstream Nanping and Xiangrong villages",
+      "location_label": "Linguan Town, Anren, Hunan, China",
+      "lat": 26.54717,
+      "lng": 113.2818,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Linguan Town, Anren) 26°32′50″N 113°16′54″E. Sanxiang Metropolis Daily / Hunan TV: Linguan Town Zhongqiutian. Town pin, not a surveyed culvert.",
+      "river_or_facility": "Zhongqiutian Reservoir",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion",
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Sanxiang Metropolis Daily: 5 May 2010 after heavy rain the left-bank outlet culvert collapsed and released reservoir water; the main embankment was held by emergency work three days after a 2009–2010 rehabilitation contractor left.",
+      "incident_date": "2010-05-05",
+      "latest_report_date": "2010-05-07",
+      "what_happened": "About 00:10 on 5 May 2010 the left-bank outlet culvert at Zhongqiutian Reservoir, Linguan Town, Anren, collapsed after rain. Sanxiang Metropolis Daily / Hunan TV: built 1965, about 1.4 million m³ stored; a 10-plus-metre opening at the culvert outlet; inlet sank into a ~15 m funnel; about 500,000 m³ released and the pool fell ~3 m; the main dam was saved after trees were used to throttle the inlet and a toe berm was built. About 1,500 people from seven downstream villages (including Nanping and Xiangrong) were moved. The 2009–May 2010 rehabilitation (new outlet culvert, slope protection) had finished on 2 May, three days earlier. No death report in the fetched coverage.",
+      "status": "Culvert collapse contained 5 May 2010; main dam held.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Hunan TV / Jinghua Times — Linguan Zhongqiutian culvert 5 May 2010; 1,500 moved; dam held",
+          "url": "http://news.hunantv.com/x/f/20100507/335959.html"
+        },
+        {
+          "label": "HSW reprint of Sanxiang Metropolis Daily — same named reservoir",
+          "url": "http://news.hsw.cn/system/2010/05/07/050503529.shtml"
+        },
+        {
+          "label": "Wikipedia — Linguan Town, Anren (26.54717°N 113.2818°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E7%81%B5%E5%AE%98%E9%95%87_(%E5%AE%89%E4%BB%81%E5%8E%BF)"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from MNR named-structure statement. Category incident: drainage well, not crest. Pin is Taowan town. Distinct from Taoshi Xiangfen 2008 already live.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Luanchuan Longyu Molybdenum Co.",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Ministry of Ecology and Environment; MNR geohazard centre",
+      "verification": "confirmed",
+      "country": "China",
+      "id": "longyu-yulmugou-2017-02-14",
+      "name": "Longyu Yulmugou tailings dam No. 6 overflow well (龙宇钼业榆木沟)",
+      "region": "Taowan Town, Luanchuan County, Luoyang, Henan — Taowan North Gully to Yi River",
+      "location_label": "Taowan Town, Luanchuan, Henan, China",
+      "lat": 33.82626,
+      "lng": 111.46087,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Taowan Town) 33°49′35″N 111°27′39″E. MEE / Luanchuan: 陶湾镇榆木沟尾矿库. Town pin, not a surveyed well.",
+      "river_or_facility": "Longyu Molybdenum Yulmugou tailings pond No. 6 drainage well; Taowan North Gully / Yi River",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "structural_design",
+        "poor_maintenance"
+      ],
+      "cause_summary": "MEE case: 14 February 2017 20:06 No. 6 drainage well collapsed; tailings and water left through the well–flood tunnel–toe pond into Taowan North Gully and the Yi River.",
+      "incident_date": "2017-02-14",
+      "latest_report_date": "2019-12-28",
+      "what_happened": "MEE training case and Luanchuan notices: at 20:06 on 14 February 2017 the No. 6 drainage well of Longyu Molybdenum's Yulmugou tailings pond at Taowan Town collapsed. Tailings and recycle water passed the well, flood tunnel and toe emergency pond, then Taowan North Gully into the Yi River, and were stopped about 35 km downstream at Jinniuling Reservoir. About 43 km of river and the reservoir were polluted. MNR geological-hazard team: no dam-break debris flow after the well was plugged and a toe pond built; pool dropped about 8 m; no casualties. This is an overflow-well collapse, not a crest breach.",
+      "status": "Well plugged; environmental emergency on the Yi River. Not a crest breach.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "MEE — Longyu Yulmugou overflow-well collapse case (14 Feb 2017 20:06)",
+          "url": "https://www.mee.gov.cn/ywgz/hjyj/yjxy/201912/t20191228_752090.shtml"
+        },
+        {
+          "label": "MNR geohazard centre — Taowan Yulmugou; no casualties; well plugged",
+          "url": "https://dnr.gxzf.gov.cn/xwzx/gnzx/t16068205.shtml"
+        },
+        {
+          "label": "Wikipedia — Taowan Town (33.82626°N 111.46087°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E9%99%B6%E6%B9%BE%E9%95%87"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 148000,
+      "notes": "Deaths null. Do not copy 1998 Yangtze or Hubei provincial flood deaths onto this levee. Pin is Gong'an county seat, not Yanjatai crest. Distinct from Jiujiang city wall and Paizhouwan already live.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "185 m long, 10 m deep at September 1998 close-up (Life Times)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "mengxi-1998-08-07",
+      "name": "Mengxi polder levee (孟溪大垸 / 虎渡河严家台)",
+      "region": "Yanjatai reach of the Hudu River, Mengxi polder, Gong'an County, Jingzhou, Hubei — Nanping / Zhangtiansi / Huangshantou area",
+      "location_label": "Gong'an County (Mengxi), Hubei, China",
+      "lat": 30.06319,
+      "lng": 112.21917,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Gong'an County) 30°03′47″N 112°13′09″E. Hubei Daily: 7 August 1998 Hudu River Yanjatai opening into Mengxi polder. County pin, not a surveyed opening.",
+      "river_or_facility": "Mengxi polder / Hudu River (虎渡河) Yanjatai levee",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Hubei Daily / 1998 flood reviews: 7 August 1998 the Hudu River Yanjatai dangerous reach opened and flooded Mengxi, then Hubei's largest failed polder.",
+      "incident_date": "1998-08-07",
+      "latest_report_date": "2025-08-08",
+      "what_happened": "Hubei Daily (2025, Li Xiangqun anniversary): on 7 August 1998 the Yanjatai dangerous reach of the Hudu River, which runs through Gong'an, opened and Mengxi polder was inundated. Guangming / Life Times 12 September 1998: Mengxi was Hubei's largest 1998 failed polder, 148,000 disaster-affected; opening 185 m long and 10 m deep when close-up began. A 1999 State Council flood comparison names Hubei Mengxi as the larger civilian polder among the named 1998 failures (with Hunan Anzao, Linnan and Xiguan). Do not copy the 1998 Yangtze 1,075-polder or national death totals onto this levee.",
+      "status": "1998 Hudu River levee failure; later Jingnan Four Rivers reinforcement.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Hubei Daily — 7 Aug 1998 Hudu River Yanjatai opening, Mengxi polder",
+          "url": "https://epaper.hubeidaily.net/pad/content/202508/08/content_322680.html"
+        },
+        {
+          "label": "Guangming / Life Times — Mengxi 185 m × 10 m; 148,000 affected",
+          "url": "https://www.gmw.cn/01shsb/1998-09/12/GB/735%5ESH2-1209.htm"
+        },
+        {
+          "label": "1999 State Council flood comparison — named Mengxi as Hubei's larger 1998 civilian polder",
+          "url": "https://news.sina.com.cn/china/9904/042515.html"
+        },
+        {
+          "label": "Wikipedia — Gong'an County (30.06319°N 112.21917°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%AC%E5%AE%89%E5%8E%BF"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 107000,
+      "notes": "Deaths null. Do not copy 1998 Yangtze or Hunan provincial flood deaths. Pin is Anxiang county seat, not Shuyuanzhou crest. Distinct from 2024 Tuanzhouyuan already live.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 100 m at Shuyuanzhou (Anxiang museum / Sanxiang)",
+      "downstream_risk": null,
+      "economic_damage": "2.35 billion yuan (CMA 2016 revisit, this polder)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "anzao-1998-07-24",
+      "name": "Anzao polder / Shuyuanzhou levee (安造垸 书院洲)",
+      "region": "Shuyuanzhou (书院洲) / Chengguan cotton-mill reach, Anzao polder, Anxiang County, Changde, Hunan — Songzi River",
+      "location_label": "Anxiang County (Anzao), Hunan, China",
+      "lat": 29.41461,
+      "lng": 112.16582,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Anxiang County) 29°24′53″N 112°09′57″E. CMA / local accounts: 24 July 1998 Shuyuanzhou / Chengguan cotton-mill reach of Anzao. County pin, not a surveyed opening.",
+      "river_or_facility": "Anzao polder levee / Songzi River (松滋河) at Shuyuanzhou",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "CMA revisit: 24 July 1998 piping then collapse on the Anzao levee after Songzi, Hudu and Li floods met; design crest had been 39.38 m, 1998 peak 40.4 m.",
+      "incident_date": "1998-07-24",
+      "latest_report_date": "2016-05-25",
+      "what_happened": "China Meteorological Administration 2016 revisit: at 22:30 on 24 July 1998 the Anzao polder levee at Anxiang collapsed after piping; three townships flooded and 107,000 people were moved that night; direct loss 2.35 billion yuan. Sanxiang / Anxiang museum: Shuyuanzhou opening about 100 m about 21:00; flood ran through Anzhang and Anquan to Huangshantou north dike; 110,000 mu farmland, 91,500 people affected. A Changsha community archive dates the Chengguan cotton-mill reach collapse to 22:40. Closed after 19 days. 1999 State Council comparison names Anzao as Hunan's key 1998 polder failure. Do not copy the 1998 Yangtze total onto this levee.",
+      "status": "Closed after 19 days; later raised to the 1998 peak.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "CMA — 24 July 1998 22:30 Anzao collapse; 107,000 moved; 2.35 billion yuan",
+          "url": "https://www.cma.gov.cn/2011xwzx/2011xqxxw/2011xqxyw/201605/t20160525_312381.html"
+        },
+        {
+          "label": "Hunan Daily / VOC — Shuyuanzhou ~100 m; 91,500 affected",
+          "url": "https://m.voc.com.cn/xhn/news/201910/14437415.html"
+        },
+        {
+          "label": "1999 State Council flood comparison — Anzao named as Hunan key polder",
+          "url": "https://news.sina.com.cn/china/9904/042515.html"
+        },
+        {
+          "label": "Wikipedia — Anxiang County (29.41461°N 112.16582°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E4%B9%A1%E5%8E%BF"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 1998 Yangtze or Hunan provincial flood deaths. Pin is Linnan town, not the opening.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "linnan-1998-07",
+      "name": "Linnan polder (澧南垸)",
+      "region": "Right bank of the Li River at the Dao River mouth, Linnan Town, Li County, Changde, Hunan — opposite the county seat",
+      "location_label": "Linnan Town, Li County, Hunan, China",
+      "lat": 29.61841,
+      "lng": 111.74886,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Linnan Town) 29°37′06″N 111°44′56″E. Rednet / VOC: 1998 Linnan polder failed in the late-July Li River flood. Town pin, not a surveyed opening.",
+      "river_or_facility": "Linnan polder / Li River (澧水) right bank, Dao River tail",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Rednet 1998 Hunan flood review: 20–25 July Li River rain (basin mean 346 mm) pushed Jinshi and Shiguishan to record peaks and failed Linnan, Xiguan and Anzao polders.",
+      "incident_date": "1998-07",
+      "latest_report_date": "2024",
+      "what_happened": "Rednet's 1998 Hunan flood review says the 20–25 July Li River storm (basin mean 346 mm; Jinshi 24 July 45.01 m, 1.00 m above the previous record) caused Linnan, Xiguan and Anzao polders to fail. VOC 2024: Linnan, a 24-polder Dongting flood-storage dike on the Li right bank at the Dao tail, opposite the county seat, failed in 1998 and was emptied; 1999 onward 'flatten polder, move town' shifted households to Qiaojihe and Zhangjiatan high ground. 1999 State Council comparison names Linnan as a Hunan storage polder among the named 1998 failures. 2003 it was used as a planned storage polder. Do not copy the 1998 Yangtze total.",
+      "status": "Failed 1998; later a planned Dongting storage polder; residents moved to high ground.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Rednet — 1998 Hunan review: Linnan, Xiguan, Anzao failed in late-July Li flood",
+          "url": "https://moment.rednet.cn/rednetcms/news/20181114/1480821.html"
+        },
+        {
+          "label": "VOC — Linnan 1998 failure; 24 Dongting storage polders; later relocation",
+          "url": "https://m.voc.com.cn/xhn/news/202407/20374437.html"
+        },
+        {
+          "label": "1999 State Council flood comparison — Linnan named",
+          "url": "https://news.sina.com.cn/china/9904/042515.html"
+        },
+        {
+          "label": "Wikipedia — Linnan Town (29.61841°N 111.74886°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E6%BE%A7%E5%8D%97%E9%95%87"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 1998 Yangtze totals. Pin is Anxiang county seat (boundary polder), not the opening.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "xiguan-1998-07",
+      "name": "Xiguan polder (西官垸)",
+      "region": "Li County–Anxiang boundary, Changde, Hunan — Dongting storage polder",
+      "location_label": "Li County / Anxiang boundary, Hunan, China",
+      "lat": 29.41461,
+      "lng": 112.16582,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Anxiang County) 29°24′53″N 112°09′57″E. China Youth Daily: Xiguan sits on the Li County–Anxiang line. Anxiang county pin, not a surveyed opening.",
+      "river_or_facility": "Xiguan polder (西官垸) Dongting storage dike",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Rednet 1998 Hunan review names Xiguan with Linnan and Anzao as polders that failed in the late-July Li / West Dongting record flood.",
+      "incident_date": "1998-07",
+      "latest_report_date": "2002",
+      "what_happened": "Rednet's 1998 Hunan flood review lists Xiguan with Linnan and Anzao as polders that failed when the Li River and West Dongting set record peaks around 23–24 July 1998. The 1999 State Council comparison names Xiguan as a Hunan storage polder among the named 1998 failures. China Youth Daily 2002: Xiguan lies on the Li County–Anxiang line, 134,300 mu, 444 million m³ storage when used. Do not copy the 1998 Yangtze total.",
+      "status": "Failed 1998; remains a named Dongting storage polder.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Rednet — 1998 Hunan review: Xiguan failed with Linnan and Anzao",
+          "url": "https://moment.rednet.cn/rednetcms/news/20181114/1480821.html"
+        },
+        {
+          "label": "1999 State Council flood comparison — Xiguan named",
+          "url": "https://news.sina.com.cn/china/9904/042515.html"
+        },
+        {
+          "label": "China Youth Daily — Xiguan on Li–Anxiang line; 134,300 mu / 444 million m³ storage",
+          "url": "http://zqb.cyol.com/content/2002-08/24/content_517677.htm"
+        },
+        {
+          "label": "Wikipedia — Anxiang County (29.41461°N 112.16582°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E4%B9%A1%E5%8E%BF"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 1998 Yangtze totals. Pin is Hanshou county seat. 1995 and 1996 overtoppings noted but not given separate records this pass.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1975 (enclosure)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "qingshanhu-hanshou-1998",
+      "name": "Qingshanhu polder (青山湖垸 / 青山垸)",
+      "region": "South shore of West Dongting Lake, Hanshou County, Changde, Hunan",
+      "location_label": "Hanshou County (Qingshanhu), Hunan, China",
+      "lat": 28.90894,
+      "lng": 111.96143,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Hanshou County) 28.90894°N 111.96143°E. CCTV 2002 / Hunan tourism: Qingshanhu / Qingshan polder on West Dongting south shore, Hanshou. County pin, not a surveyed opening.",
+      "river_or_facility": "Qingshanhu / Qingshan polder, West Dongting",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "CCTV 2002 Changde return-land office: Qingshanhu polder overtopped in 1995, 1996 and 1998 after the 1975 enclosure; then listed for return-to-lake.",
+      "incident_date": "1998",
+      "latest_report_date": "2019",
+      "what_happened": "CCTV 2002: Qingshanhu polder on West Dongting, enclosed 1975 (16,600 mu), overtopped in 1995, 1996 and 1998 as the lake-plain rose and floodwater had no outlet; after 1998 it was listed for 'flatten polder, return land to lake'. Hunan tourism / WWF: about 5,000-plus households / 5,700 people lived in the 11 km² Qingshan polder (dike later to 37 m) before the 1998 flood and the 1999 WWF return-to-lake project. This record is the 1998 named overtopping, not the 1995 or 1996 events. Do not copy the 1998 Yangtze total.",
+      "status": "1998 overtopping; later returned to West Dongting wetland.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "CCTV 2002 — Qingshanhu overtopped 1995, 1996 and 1998; then return-to-lake",
+          "url": "http://finance.cctv.com/financial/jingji/sanji/diaocha/20020708/76.html"
+        },
+        {
+          "label": "Hunan Culture and Tourism — Qingshan polder 1998 flood then return-to-lake",
+          "url": "http://whhlyt.hunan.gov.cn/whhlyt/news/wlyw/201909/t20190910_5480982.html"
+        },
+        {
+          "label": "Wikipedia — Hanshou County (28.90894°N 111.96143°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E6%B1%89%E5%AF%BF%E5%8E%BF"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 1996 Hunan or Dongting flood totals. Pin is Hanshou county seat. Distinct from Qingshanhu in the same county.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1975–1976 (enclosure)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "weidihu-1996",
+      "name": "Weidihu polder (围堤湖蓄洪垸)",
+      "region": "Northern Hanshou County, Changde, Hunan — later merged into Longyang / Chenyang streets",
+      "location_label": "Hanshou County (Weidihu), Hunan, China",
+      "lat": 28.90894,
+      "lng": 111.96143,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Hanshou County) 28.90894°N 111.96143°E. TCMAP: Weidihu Township / enclosure in northern Hanshou, later Longyang. County pin, not a surveyed opening.",
+      "river_or_facility": "Weidihu storage polder, West Dongting / Yuan-Li tail",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "TCMAP Hanshou gazetteer: after 1995 and 1996 successive breaches the State Council listed Weidihu as a flatten-polder / storage polder. CCTV 2002: Weidihu farmers describe 1995 and 1996 polder failures.",
+      "incident_date": "1996",
+      "latest_report_date": "2004",
+      "what_happened": "A Hanshou township gazetteer (TCMAP): Weidihu was enclosed from West Dongting in 1975–76; after successive 1995 and 1996 breaches the State Council listed it as a flatten-polder / immigrant-farming area and one of the 24 Dongting storage polders; in 2004 Weidihu Township was merged into Longyang Town (now Chenyang / Longyang streets). CCTV 2002 quotes Weidihu farmers on houses lost in the 1995 and 1996 failures. This record is the 1996 named failure. No structure-specific death count.",
+      "status": "Failed 1995 and 1996; later a named Dongting storage polder; township merged 2004.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "TCMAP Hanshou gazetteer — Weidihu 1995 and 1996 breaches; later storage polder",
+          "url": "http://www.tcmap.com.cn/list/2/hanshouxiangejiedaoxiangzhenlishiyange.html"
+        },
+        {
+          "label": "CCTV 2002 — Weidihu farmers on 1995 and 1996 polder failures",
+          "url": "http://finance.cctv.com/financial/jingji/sanji/diaocha/20020708/76.html"
+        },
+        {
+          "label": "Wikipedia — Hanshou County (28.90894°N 111.96143°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E6%B1%89%E5%AF%BF%E5%8E%BF"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Cause unknown (chapter title only). Pin is Duolun county seat, not the crest. Not Xishanwan Reservoir.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "country": "China",
+      "id": "niuxinshan-1999",
+      "name": "Niuxinshan (牛心山) Reservoir Dam",
+      "region": "Duolun County, Xilin Gol, Inner Mongolia — Zhang 2014 appendix 9.22; Niuxinshan Village exists in Xigangou Township",
+      "location_label": "Duolun County, Inner Mongolia, China",
+      "lat": 42.19665,
+      "lng": 116.47142,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia (Duolun County seat) 42°11′48″N 116°28′17″E. Zhang 2014 appendix 9.22 is 1999 内蒙古多伦牛心山水库. TCMAP: Niuxinshan Village, Xigangou Township, Duolun. County pin, not a surveyed crest.",
+      "river_or_facility": "Niuxinshan Reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Zhang, Yang and Jiang 2014 list a 1999 Duolun Niuxinshan case chapter. Mechanism not in the fetched chapter title.",
+      "incident_date": "1999",
+      "latest_report_date": "2014",
+      "what_happened": "Zhang, Yang and Jiang 2014 appendix 9.22 is titled 1999年内蒙古多伦牛心山水库溃坝. A Duolun place-name directory lists Niuxinshan Village under Xigangou Township, adjacent to Xiaoshila, Yangpangou and other villages. No independent death count, height or mechanism was fetched beyond the named Zhang chapter. This is not Xishanwan / Duolun Lake (built 1998–99, still in service).",
+      "status": "Named 1999 Zhang 2014 failure; later facts thin.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Zhang, Yang & Jiang 2014 — 水库大坝病险和溃坝的研究与警示 (Science Press), appendix case chapters",
+          "url": "https://www.ecsponline.com/goods.php?id=29975"
+        },
+        {
+          "label": "TCMAP — Niuxinshan Village, Xigangou Township, Duolun",
+          "url": "http://tcmap.com.cn/neimenggu/duolun_xigangouxiang_niuxinshancun.html"
+        },
+        {
+          "label": "Wikipedia — Duolun County (42.19665°N 116.47142°E)",
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E4%BC%A6%E5%8E%BF"
+        }
+      ],
+      "severity": "major"
     }
   ]
 }
