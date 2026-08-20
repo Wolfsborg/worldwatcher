@@ -176,8 +176,17 @@
 
   function yearOf(inc) {
     if (!inc.incident_date) return null;
-    const y = parseInt(String(inc.incident_date).slice(0, 4), 10);
+    const str = String(inc.incident_date);
+    const y = parseInt(str.startsWith("-") ? str.slice(0, 5) : str.slice(0, 4), 10);
     return Number.isFinite(y) ? y : null;
+  }
+
+  function formatYear(y) {
+    if (y < 1) {
+      const bc = y === 0 ? 1 : Math.abs(y);
+      return bc + " BC";
+    }
+    return String(y);
   }
 
   function computeStats(data, layer) {
@@ -262,8 +271,8 @@
   }
 
   function renderOverview(stats, layer) {
-    const yearsSpan = stats.minYear && stats.maxYear 
-      ? `${stats.minYear}–${stats.maxYear}`
+    const yearsSpan = stats.minYear != null && stats.maxYear != null
+      ? `${formatYear(stats.minYear)}–${formatYear(stats.maxYear)}`
       : "—";
     
     const deathsDisplay = stats.unknownDeaths > 0
@@ -412,10 +421,14 @@
     const maxCount = Math.max(...decades.map(d => d[1]));
     const items = decades.map(([decade, count]) => {
       const width = maxCount ? (count / maxCount) * 100 : 0;
+      const decadeNum = parseInt(decade);
+      const decadeLabel = decadeNum < 1
+        ? `${Math.abs(decadeNum)}s BC`
+        : `${decadeNum}s`;
       return `
         <li class="stat-bar-item">
           <div class="stat-bar-label">
-            <span class="stat-bar-name">${decade}s</span>
+            <span class="stat-bar-name">${decadeLabel}</span>
             <span class="stat-bar-value">${formatNum(count)}</span>
           </div>
           <div class="stat-bar-track"><div class="stat-bar-fill" style="width:${width}%"></div></div>
