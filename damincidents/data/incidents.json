@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1071,
-  "current_count": 26,
-  "historical_count": 1045,
+  "count": 1095,
+  "current_count": 27,
+  "historical_count": 1068,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -58517,6 +58517,1420 @@
           "url": "https://en.wikipedia.org/wiki/Chicamba_Hydroelectric_Power_Station"
         }
       ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Prefecture-wide house counts are from the Wikipedia article for this named 横田切れ event, not a later flood total.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 360 m main opening at Yokota (Wikipedia); 874 openings prefecture-wide",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "yokota-gire-1896-07-22",
+      "name": "Shinano River levee at Yokota (横田切れ)",
+      "country": "Japan",
+      "region": "Yokota, Tsubame, Niigata Prefecture",
+      "location_label": "Former Yokota village levee, Tsubame, Niigata, Japan",
+      "lat": 37.67308,
+      "lng": 138.88222,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (燕市) 37.67308, 138.88222; the 1896 breach was at then Yokota village, now in Tsubame. Not a surveyed crest.",
+      "river_or_facility": "Shinano River levee at Yokota (横田切れ)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Japanese Wikipedia (横田切れ): days of rain raised the Shinano until the Yokota village levee failed on 22 July 1896.",
+      "incident_date": "1896-07-22",
+      "latest_report_date": "2024",
+      "what_happened": "Japanese Wikipedia (横田切れ): on 22 July 1896, after several days of rain, the Shinano River levee at Yokota village (West Kubiki / West Kanbara; now Tsubame City) failed over a main opening of about 360 m, and levees failed at 874 places in the prefecture. Inundation reached Sekiya in Niigata City: about 180 km², 43,600 houses flooded above or below floor, of which 25,000 houses were washed away. The disaster is the namesake 横田切れ and was a reason for later Ōkōzu diversion works. No death count is given on the Wikipedia page fetched.",
+      "status": "Historical Shinano levee disaster; Ōkōzu diversion later built.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Japanese Wikipedia — 横田切れ",
+          "url": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E7%94%B0%E5%88%87%E3%82%8C"
+        },
+        {
+          "label": "いちらん屋 — 日本の堤防の決壊事故の一覧",
+          "url": "https://ichiranya.com/society_culture/111-burst-accident-in-an-embankment.php"
+        },
+        {
+          "label": "Japanese Wikipedia — 燕市",
+          "url": "https://ja.wikipedia.org/wiki/%E7%87%95%E5%B8%82"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the Kathleen typhoon 1,077 dead / 853 missing (理科年表 via Wikipedia) onto this levee.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 340 m (Kazo city monument); about 350 m (MLIT Tone-jō)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tone-kazo-kathleen-1947-09-16",
+      "name": "Tone River right-bank levee at Shin-Kawa-dōri (Kathleen)",
+      "country": "Japan",
+      "region": "Shin-Kawa-dōri, Kazo, Saitama Prefecture",
+      "location_label": "Kathleen Park breach site, Shin-Kawa-dōri, Kazo, Japan",
+      "lat": 36.164186,
+      "lng": 139.668833,
+      "geo_accuracy": "approx",
+      "geo_source": "mapbinder Kathleen Park listing N36 9 51.07 E139 40 7.80 on the rebuilt Tone superlevee at the 1947 opening. Kazo city: the 決壊口跡 monument is in this park.",
+      "river_or_facility": "Tone River right-bank levee, Shin-Kawa-dōri (new-cut channel)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "MLIT Tone-jō / Kazo city: after Kathleen-typhoon rain the right-bank Tone levee at Shin-Kawa-dōri failed about 00:20 on 16 September 1947.",
+      "incident_date": "1947-09-16",
+      "latest_report_date": "2022-09-19",
+      "what_happened": "Kazo city monument text and tourism page: on the night of 15 September 1947 (16 September 00:20) Kathleen-typhoon rain opened about 340 m of the Tone right-bank levee at Shin-Kawa-dōri (then Higashi village, later Ōtone, now Kazo). MLIT Tone-jō / NARA air photo caption: about 350 m from 00:20 on 16 September. Floodwater crossed eastern Saitama into Katsushika, Adachi and Edogawa in Tokyo. A 1950 決壊碑 and later Kathleen Park stand on the rebuilt bank. No source fetched gives a death count for this opening alone.",
+      "status": "Rebuilt; Kathleen Park and breach monument on the superlevee.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Kazo city — 利根川堤防決壊口跡及び記念碑",
+          "url": "http://www.city.kazo.lg.jp/soshiki/shougai/kankou/ootonechiiki/6534.html"
+        },
+        {
+          "label": "MLIT Tone-jō — 写真・動画でみるカスリーン台風",
+          "url": "https://www.ktr.mlit.go.jp/tonejo/tonejo00189.html"
+        },
+        {
+          "label": "Japanese Wikipedia — カスリーン台風",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%B3%E5%8F%B0%E9%A2%A8"
+        },
+        {
+          "label": "mapbinder — カスリーン公園 coordinates",
+          "url": "http://mapbinder.com/Map/Japan/Saitama/KazoShi/Kathleen/Kathleen.html"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Ashikaga 286 or the Kathleen national total onto this Mikuni opening.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 380 m (MLIT Tone-jō)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "watarase-mikuni-1947-09-16",
+      "name": "Watarase River levee at Mikuni Bridge (Kathleen)",
+      "country": "Japan",
+      "region": "Mikuni Bridge, Kawabe (now Kazo), Saitama Prefecture",
+      "location_label": "Mikuni Bridge, Kazo, Saitama, Japan",
+      "lat": 36.13144,
+      "lng": 139.60178,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (加須市) 36.13144, 139.60178; MLIT places the opening at 三国橋, then Kawabe village, now Kazo. Not a surveyed crest.",
+      "river_or_facility": "Watarase River levee at Mikuni Bridge",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "MLIT Tone-jō: the Watarase levee at Mikuni Bridge failed about 00:15 on 16 September 1947, almost the same minute as the Tone Shin-Kawa-dōri opening.",
+      "incident_date": "1947-09-16",
+      "latest_report_date": "2022",
+      "what_happened": "MLIT Tone-jō caption on the GHQ/NARA air photo: at about 00:15 on 16 September 1947, nearly the same time as the Tone right-bank failure at Shin-Kawa-dōri, the Watarase levee at Mikuni Bridge in then Kawabe village (now Kazo) opened about 380 m. Separate from the Tone Kathleen-park record and from the Ashikaga / Iwai-yama Watarase opening (Wikipedia: 286 dead in eastern Ashikaga — not copied here).",
+      "status": "Historical Watarase levee opening the same night as Tone Shin-Kawa-dōri.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "MLIT Tone-jō — 写真・動画でみるカスリーン台風 (三国橋 約380 m)",
+          "url": "https://www.ktr.mlit.go.jp/tonejo/tonejo00189.html"
+        },
+        {
+          "label": "Japanese Wikipedia — 加須市",
+          "url": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E9%A0%88%E5%B8%82"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the Kathleen national total. Separate from tone-kazo-kathleen-1947-09-16.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 65 m at Tamamiya; about 100 m at Kuge (Wikipedia)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "arakawa-kuge-1947-09-15",
+      "name": "Arakawa levees at Tamamiya and Kuge (Kathleen)",
+      "country": "Japan",
+      "region": "Kōnosu and Kumagaya, Saitama Prefecture",
+      "location_label": "Arakawa at Kuge-shinden, Kumagaya, Saitama, Japan",
+      "lat": 36.14739,
+      "lng": 139.38864,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (熊谷市) 36.14739, 139.38864 for the Kuge-shinden opening; Tamamiya (now Kōnosu) is a second named opening the same evening. Not surveyed crests.",
+      "river_or_facility": "Arakawa left-bank levees at Ōma / Tamamiya and Kuge-shinden",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Japanese Wikipedia (カスリーン台風): Tamamiya (Kōnosu) left bank failed about 18:35 after a sluice broke; Kuge-shinden (Kumagaya) failed about 19:30 after overflow.",
+      "incident_date": "1947-09-15",
+      "latest_report_date": "2024",
+      "what_happened": "Japanese Wikipedia (カスリーン台風): on 15 September 1947 the Arakawa left bank failed about 65 m at Ōma, Tamamiya village (now Kōnosu) around 18:35 after a sluice (樋管) broke, and about 100 m at two places at Kuge-shinden, Kumagaya, around 19:30 after overflow. Arakawa and Tone floodwaters later met near Kasukabe on the 17th. No death count for these Arakawa openings in the sources fetched.",
+      "status": "Historical Arakawa openings; later two-se dam built upstream.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Japanese Wikipedia — カスリーン台風 (荒川破堤)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%B3%E5%8F%B0%E9%A2%A8"
+        },
+        {
+          "label": "いちらん屋 — 日本の堤防の決壊事故の一覧",
+          "url": "https://ichiranya.com/society_culture/111-burst-accident-in-an-embankment.php"
+        },
+        {
+          "label": "Japanese Wikipedia — 熊谷市",
+          "url": "https://ja.wikipedia.org/wiki/%E7%86%8A%E8%B0%B7%E5%B8%82"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 1953 West Japan flood deaths onto this dam. Date is the start of the 25–29 June event at the site; Wikipedia does not give a clock time.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Kyushu Electric (九州電力)",
+      "year_built": "1952–1954",
+      "height_m": 15.0,
+      "reservoir_capacity": "4,050,000 m³ (Wikipedia, completed dam)",
+      "construction": "concrete_gravity",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "yoake-1953-06-25",
+      "name": "Yoake Dam (夜明ダム, construction overtopping)",
+      "country": "Japan",
+      "region": "Ukiha, Fukuoka / Hita, Ōita (Chikugo River)",
+      "location_label": "Yoake Dam, Chikugo River, Fukuoka–Ōita, Japan",
+      "lat": 33.33833,
+      "lng": 130.84528,
+      "geo_accuracy": "exact",
+      "geo_source": "Japanese Wikipedia (夜明ダム) 33°20′18″N 130°50′43″E",
+      "river_or_facility": "Yoake Dam / Chikugo River (Kyushu Electric, under construction)",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "construction_first_filling",
+        "overtopping",
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Japanese Wikipedia: under construction in the June 1953 West Japan flood, only 3 of 8 gates worked; both abutments overtopped and part of the works washed out.",
+      "incident_date": "1953-06-25",
+      "latest_report_date": "1954",
+      "what_happened": "Japanese Wikipedia (夜明ダム): during the June 1953 West Japan flood (Chikugo basin more than 500 mm) the unfinished Kyushu Electric gravity dam had only 3 of 8 gates operable. Both banks overtopped and the works 'failed' (決壊); the body did not completely collapse, but equipment was damaged and washed out. A 1954 Fukuoka–Ōita joint 夜明ダム調査報告書, cited there, concluded downstream damage was from poor river works rather than a direct dam-break wave. Ōita CERD archive and Kyushu Electric construction-album captions place the flood at the dam in the 25–29 June 1953 event. No death count for the dam itself in the sources fetched. The dam was completed in May 1954 (height 15.0 m; 4.05 million m³; 12 MW Yoake power station).",
+      "status": "Completed May 1954 after the construction-period overtopping; in service as a hydro dam.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Japanese Wikipedia — 夜明ダム (建設中の決壊)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%A4%9C%E6%98%8E%E3%83%80%E3%83%A0"
+        },
+        {
+          "label": "いちらん屋 — 日本と世界のダムの決壊・崩壊・越流事故の一覧",
+          "url": "https://ichiranya.com/society_culture/079-collapse_of_a_dam.php"
+        },
+        {
+          "label": "Ōita CERD disaster archive — 昭和28年西日本水害 (夜明ダム)",
+          "url": "https://archive.cerd-edison.com/wind_rain/00543000/"
+        },
+        {
+          "label": "Japanese Wikipedia — 日本のダム",
+          "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E3%83%80%E3%83%A0"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Komae city 2024: 人的被害はありませんでした.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 260 m (Komae city / MLIT)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tama-komae-1974-09-01",
+      "name": "Tama River levee at Inari / Nikaryō Sukugawara weir (Komae)",
+      "country": "Japan",
+      "region": "Inari 4-chōme, Komae, Tokyo",
+      "location_label": "Tama breach monument, Inari, Komae, Tokyo, Japan",
+      "lat": 35.62340278,
+      "lng": 139.57626389,
+      "geo_accuracy": "exact",
+      "geo_source": "Japanese Wikipedia (多摩川水害) 35°37′24.25″N 139°34′34.55″E (決壊の碑 / Inari)",
+      "river_or_facility": "Tama River left-bank levee at Nikaryō Sukugawara weir",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Komae city / MLIT: Typhoon 16 flood scoured the riverbed at the fixed Nikaryō Sukugawara weir and opened about 260 m of the Komae left-bank levee.",
+      "incident_date": "1974-09-01",
+      "latest_report_date": "2024-09-01",
+      "what_happened": "Komae city (2024 50-year feature) and MLIT Tama disaster table: from 31 August 1974 Typhoon 16 rain raised the Tama; on 1 September the bank at the Nikaryō Sukugawara weir began to fail and about 260 m of levee opened. Nineteen houses in Inari were washed away (televised). Komae city: 'fortunately there were no human casualties' (人的被害はありませんでした); about 30 households lost land or household goods. The weir was later rebuilt movable (1999). The 多摩川決壊の碑 stands in Tama Free Plaza, Inari 4-chōme.",
+      "status": "Levee rebuilt; weir replaced with a movable weir (1999).",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Komae city — 多摩川堤防決壊を振り返る (2024-09-01, 人的被害なし / 19棟 / 260 m)",
+          "url": "https://www.city.komae.tokyo.jp/index.cfm/47,134631,c,html/134631/24-0901.pdf"
+        },
+        {
+          "label": "Japanese Wikipedia — 多摩川水害",
+          "url": "https://ja.wikipedia.org/wiki/%E5%A4%9A%E6%91%A9%E5%B7%9D%E6%B0%B4%E5%AE%B3"
+        },
+        {
+          "label": "MLIT — 多摩川の主な災害 (狛江 19棟)",
+          "url": "https://www.mlit.go.jp/river/toukei_chousa/kasen/jiten/nihon_kawa/0310_tamagawa/0310_tamagawa_02.html"
+        },
+        {
+          "label": "谷謙二 — 破堤地点空中写真集",
+          "url": "https://ktgis.net/disaster/dikebreak/index.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 1 is the Gifu prefecture 区長 killed in flood-fight at this breach. Do not copy the prefecture 8 dead / 1 missing.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 20 m opening, widening to about 80 m (Wikipedia / Gifu prefecture)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "nagara-anpachi-1976-09-12",
+      "name": "Nagara River right-bank levee at Ōmori, Anpachi (9.12)",
+      "country": "Japan",
+      "region": "Ōmori, Anpachi, Gifu Prefecture",
+      "location_label": "Nagara right bank at Ōmori, Anpachi, Gifu, Japan",
+      "lat": 35.33533,
+      "lng": 136.66539,
+      "geo_accuracy": "approx",
+      "geo_source": "Japanese Wikipedia (安八町) 35.33533, 136.66539. Gifu prefecture / 9.12 Wikipedia: the opening was at Ōmori, 300 m downstream of the Tōkaidō Shinkansen Nagara bridge. Not a surveyed crest.",
+      "river_or_facility": "Nagara River right-bank levee at Ōmori",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Gifu prefecture / Japanese Wikipedia (9.12水害): after days of Typhoon 17 rain the Ōmori right bank, already cracked that morning, opened at 10:28 on 12 September 1976.",
+      "incident_date": "1976-09-12",
+      "latest_report_date": "2026-06-07",
+      "what_happened": "Japanese Wikipedia (9.12水害) and Gifu prefecture disaster page: at 10:28 on 12 September 1976 the Nagara right bank at Ōmori, Anpachi, 300 m downstream of the Tōkaidō Shinkansen Nagara bridge, opened about 20 m and widened to about 80 m. Gifu prefecture: a district head (区長) doing flood-fight work was killed; 3,536 households in Anpachi and neighbouring Sunomata were flooded above floor; about ¥13 billion damage in the two towns. Wikipedia: Gifu Prefecture had 8 dead and 1 missing in the wider 9.12 rains (5 of the dead in Gifu City) — those prefecture figures are not used as this levee's toll.",
+      "status": "Emergency closure then reconstruction; 9.12 remains Anpachi's namesake flood.",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "Gifu prefecture — 9月12日豪雨災害（昭和51年）",
+          "url": "https://www.pref.gifu.lg.jp/page/6965.html"
+        },
+        {
+          "label": "Japanese Wikipedia — 9.12水害",
+          "url": "https://ja.wikipedia.org/wiki/9.12%E6%B0%B4%E5%AE%B3"
+        },
+        {
+          "label": "Japanese Wikipedia — 安八町",
+          "url": "https://ja.wikipedia.org/wiki/%E5%AE%89%E5%85%AB%E7%94%BA"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kokai-takasu-1981-08-24",
+      "name": "Kokai River levee at Takasu (Ryūgasaki)",
+      "country": "Japan",
+      "region": "Takasu, Ryūgasaki, Ibaraki Prefecture",
+      "location_label": "Kokai River at Takasu Bridge, Ryūgasaki, Japan",
+      "lat": 35.91156,
+      "lng": 140.18231,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (龍ケ崎市) 35.91156, 140.18231; NIED / Ryūgasaki city: the 1981 opening was just upstream of Takasu Bridge. Not a surveyed crest.",
+      "river_or_facility": "Kokai River levee at Takasu (old-channel cutoff / irrigation sluice)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Ryūgasaki city / NIED: the 24 August 1981 opening was at an old-channel cutoff with an irrigation sluice; water was about 3.5 m below the crest, so leakage rather than overtopping is inferred.",
+      "incident_date": "1981-08-24",
+      "latest_report_date": "2013-08-15",
+      "what_happened": "Ibaraki prefecture 県だより and Ryūgasaki city flood note: on 24 August 1981 the Kokai levee failed at Takasu between Ryūgasaki and then Fujishiro. NIED photo caption and the city page: the opening was at a Taishō-era main-channel cutoff fitted with an irrigation sluice, just upstream of Takasu Bridge; river level was about 3.5 m below the crest and Tone backwater had nearly stopped the current, so seepage is inferred. No death count for this opening in the sources fetched.",
+      "status": "Historical Kokai opening; later works include the Boshijima retarding basin after the 1986 floods.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Ryūgasaki city — 地形条件と河川洪水の危険性 (1981 高須)",
+          "url": "https://www.city.ryugasaki.ibaraki.jp/anzen/bousai/bousai_yomimono/bousai/2013081502897.html"
+        },
+        {
+          "label": "NIED — 写真4.1 龍ヶ崎における1981年の小貝川破堤",
+          "url": "https://dil.bosai.go.jp/workshop/02kouza_jirei/04kakoku_photo04_01.html"
+        },
+        {
+          "label": "Ibaraki prefecture 県だより No.114 — 小貝川が決壊",
+          "url": "https://www.pref.ibaraki.jp/bugai/koho/hodo/natsukashi-ibaraki/contents/documents/ibn-114.pdf"
+        },
+        {
+          "label": "谷謙二 — 破堤地点空中写真集",
+          "url": "https://ktgis.net/disaster/dikebreak/index.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Separate from kokai-hontoyoda-1986-08-06.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kokai-akahama-1986-08-05",
+      "name": "Kokai River levee at Akahama (Akeno / Chikusei)",
+      "country": "Japan",
+      "region": "Akahama, Chikusei (then Akeno), Ibaraki Prefecture",
+      "location_label": "Kokai River at Akahama, Chikusei, Ibaraki, Japan",
+      "lat": 36.30708,
+      "lng": 139.98314,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (筑西市) 36.30708, 139.98314; JSIDRE 1987: 5 August 1986 opening at Akahama, then Akeno Town. Not a surveyed crest.",
+      "river_or_facility": "Kokai River levee at Akahama",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "JSIDRE 1987 flood report: after the Kokai exceeded watch level, sandbagging at Akahama failed and the levee breached at 13:30 on 5 August 1986 (overtopping shown on the Akeno figure).",
+      "incident_date": "1986-08-05",
+      "latest_report_date": "1987",
+      "what_happened": "JSIDRE (農業土木学会誌 55-6, 1987): on 5 August 1986 the Kokai exceeded watch level; sandbagging began at 02:00 at Akahama, then Akeno Town (now Chikusei). The Akahama levee breached at 13:30. Ichiranya / Kokai Wikipedia also name Akahama among the 1986 openings. The next morning a separate opening occurred at Hon-Toyoda (separate record). No death count for Akahama in the sources fetched. The Boshijima retarding basin was later built at the Ōtani confluence after these 1986 floods.",
+      "status": "Historical 1986 Kokai opening; Boshijima retarding basin later built.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "JSIDRE 1987 — 昭和61年8月小貝川水害 (明野町赤浜 13:30 破堤)",
+          "url": "https://www.jstage.jst.go.jp/article/jjsidre1965/55/6/55_6_513/_pdf"
+        },
+        {
+          "label": "いちらん屋 — 日本の堤防の決壊事故の一覧",
+          "url": "https://ichiranya.com/society_culture/111-burst-accident-in-an-embankment.php"
+        },
+        {
+          "label": "Japanese Wikipedia — 筑西市",
+          "url": "https://ja.wikipedia.org/wiki/%E7%AD%91%E8%A5%BF%E5%B8%82"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Separate from kokai-akahama-1986-08-05.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "5 m at 09:50, about 70 m after two hours (JSIDRE 1987)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kokai-hontoyoda-1986-08-06",
+      "name": "Kokai River levee at Hon-Toyoda (Ishige / Jōsō)",
+      "country": "Japan",
+      "region": "Hon-Toyoda, Jōsō (then Ishige), Ibaraki Prefecture",
+      "location_label": "Kokai right bank at Hon-Toyoda, Jōsō, Ibaraki, Japan",
+      "lat": 36.02356,
+      "lng": 139.99383,
+      "geo_accuracy": "approx",
+      "geo_source": "Japanese Wikipedia (常総市) 36.02356, 139.99383. JSIDRE 1987: 300 m downstream of Nagamine Bridge (県道土浦・境線) at the Toyoda pumping sluice. Not a surveyed crest.",
+      "river_or_facility": "Kokai River right-bank levee at Hon-Toyoda (Toyoda pumping sluice)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "JSIDRE 1987: a day after the rain stopped, leakage began about 08:00 at the Toyoda sluice and the right bank opened at 09:50 on 6 August 1986.",
+      "incident_date": "1986-08-06",
+      "latest_report_date": "1987",
+      "what_happened": "JSIDRE 1987: on the morning of 6 August 1986, a day after the rain had stopped, the Kokai right bank at Hon-Toyoda, Ishige Town (now Jōsō), 300 m downstream of Nagamine Bridge, failed at the Toyoda pumping-station sluice built on the riverside. Leakage began about 08:00, a berm cracked, and a 5 m opening formed at 09:50, about 30 m after one hour and about 70 m after two hours. Floodwater filled Hon-Toyoda, Roken and Magarida and spilled into the Hachimangabori. Ryūgasaki city's later note says this 1986 Ishige/Toyoda failure, like 1981 Takasu, was at a sluice and was photographed as a seepage progression. No death count for this opening in the sources fetched.",
+      "status": "Historical 1986 Kokai sluice-seepage opening.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "JSIDRE 1987 — 石下町本豊田 6日 9:50 破堤",
+          "url": "https://www.jstage.jst.go.jp/article/jjsidre1965/55/6/55_6_513/_pdf"
+        },
+        {
+          "label": "Ryūgasaki city — 1986 石下町豊田 水門箇所",
+          "url": "https://www.city.ryugasaki.ibaraki.jp/anzen/bousai/bousai_yomimono/bousai/2013081502897.html"
+        },
+        {
+          "label": "Japanese Wikipedia — 常総市",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E7%B7%8F%E5%B8%82"
+        },
+        {
+          "label": "谷謙二 — 破堤地点空中写真集",
+          "url": "https://ktgis.net/disaster/dikebreak/index.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the Tōkai flood 10 dead onto this levee.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 100 m (Wikipedia 東海豪雨)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "shinkawa-ashihara-2000-09-11",
+      "name": "Shinkawa left-bank levee at Ashihara (Tōkai flood)",
+      "country": "Japan",
+      "region": "Ashihara-chō, Nishi-ku, Nagoya, Aichi Prefecture",
+      "location_label": "Shinkawa at Ashihara, Nishi-ku, Nagoya, Japan",
+      "lat": 35.18908333,
+      "lng": 136.89005556,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (西区 (名古屋市)) 35.18908333, 136.89005556; Wikipedia 東海豪雨 places the ~100 m left-bank opening at Ashihara-chō in this ward. Not a surveyed crest.",
+      "river_or_facility": "Shinkawa (Shōnai system) left-bank levee at Ashihara",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Japanese Wikipedia (東海豪雨): in the 11–12 September 2000 Tōkai rain the Shinkawa left bank at Ashihara opened about 100 m.",
+      "incident_date": "2000-09-11",
+      "latest_report_date": "2025-09-12",
+      "what_happened": "Japanese Wikipedia (東海豪雨): on 11–12 September 2000 the Shinkawa, a Shōnai floodway, had a left-bank opening about 100 m at Ashihara-chō, Nishi-ku, Nagoya, and Aichi had at least ten other openings. Nishibiwajima (now Kiyosu) and Nishi-ku flooded; residents later sued the state and prefecture over the Shōnai wash weir (suit failed through the Supreme Court). Yomiuri 12 September 2025 notes a memorial gathering at the Nagoya levee. No death count for the Ashihara opening; the Tōkai flood's 10 dead / 115 injured are not copied.",
+      "status": "Historical Tōkai-flood Shinkawa opening; later suits over the wash weir failed.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Japanese Wikipedia — 東海豪雨 (新川 あし原町 約100 m)",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E8%B1%AA%E9%9B%A8"
+        },
+        {
+          "label": "Japanese Wikipedia — 西区 (名古屋市)",
+          "url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E5%8C%BA_(%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B8%82)"
+        },
+        {
+          "label": "いちらん屋 — 日本の堤防の決壊事故の一覧",
+          "url": "https://ichiranya.com/society_culture/111-burst-accident-in-an-embankment.php"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": 80,
+      "affected_or_evacuated": "Sanjo city table: 9 dead, 1 serious, 79 slight",
+      "notes": "Deaths 9 from Sanjo city / mayor for the Ikarashi inundation through Sanjo. Do not copy the 16-dead Niigata–Fukushima storm total. Kariyata 3 stays on kariyata-nakanoshima-2004-07-13.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "117 m (Niigata prefecture / mayor)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ikarashi-suwa-2004-07-13",
+      "name": "Ikarashi River left-bank levee at Suwa / Magaribuchi (Sanjo)",
+      "country": "Japan",
+      "region": "Suwa (Magaribuchi), Sanjo, Niigata Prefecture",
+      "location_label": "Ikarashi left bank at Suwa, Sanjo, Niigata, Japan",
+      "lat": 37.63678,
+      "lng": 138.96167,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (三条市) 37.63678, 138.96167; Niigata prefecture / Sanjo mayor: the 13:07 opening was the left bank at Suwa (Magaribuchi), near the Shin'etsu Line railway bridge. Not a surveyed crest.",
+      "river_or_facility": "Ikarashi River left-bank levee at Suwa (Magaribuchi)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Niigata prefecture 7.13 report: the Ikarashi left bank at Suwa (Magaribuchi) opened 117 m at 13:07 on 13 July 2004 after overtopping.",
+      "incident_date": "2004-07-13",
+      "latest_report_date": "2014-07-01",
+      "what_happened": "Niigata prefecture 7.13 report and Ōkōzu chronology: at 13:07 on 13 July 2004 the Ikarashi left bank at Suwa (Magaribuchi), Sanjo, opened 117 m (overtopping had begun at Mitake / Nishi-Ōsaki from 10:00). Japanese Wikipedia (五十嵐川): the first opening was just upstream of the Shin'etsu Line railway bridge on the left bank. Sanjo mayor (2008) and Sanjo city: this Ikarashi inundation killed 9 people in Sanjo and flooded almost the whole left-bank (Rannan) urban area. Kariyata the same afternoon is a separate already-live record (kariyata-nakanoshima-2004-07-13, deaths 3).",
+      "status": "Channel rebuilt at the Suwa opening (works complete by March 2008 per mayor).",
+      "deaths": 9,
+      "sources": [
+        {
+          "label": "Niigata prefecture — ７．１３新潟豪雨 (五十嵐川 諏訪 117 m 13:07)",
+          "url": "https://www.pref.niigata.lg.jp/uploaded/attachment/27165.pdf"
+        },
+        {
+          "label": "Sanjo city — 7.13水害被害状況 (死者9)",
+          "url": "https://www.city.sanjo.niigata.jp/soshiki/somubu/gyoseika/bousai/kako/3088.html"
+        },
+        {
+          "label": "Sanjo mayor 2008 — 諏訪 117 m / 9 dead",
+          "url": "https://www.zenkokubousai.or.jp/monthly/image/20082006.pdf"
+        },
+        {
+          "label": "Japanese Wikipedia — 五十嵐川",
+          "url": "https://ja.wikipedia.org/wiki/%E4%BA%94%E5%8D%81%E5%B5%90%E5%B7%9D"
+        },
+        {
+          "label": "谷謙二 — 破堤地点空中写真集",
+          "url": "https://ktgis.net/disaster/dikebreak/index.html"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": 46,
+      "affected_or_evacuated": "about 18,000 in old Toyooka (city report)",
+      "notes": "Deaths 1 from old Toyooka city report. Do not copy Hyōgo 26. Separate from izushi-torii-2004-10-20.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "maruyama-tateno-2004-10-20",
+      "name": "Maruyama River right-bank levee at Tateno (Toyooka)",
+      "country": "Japan",
+      "region": "Tateno, Toyooka, Hyōgo Prefecture",
+      "location_label": "Maruyama right bank at Tateno, Toyooka, Japan",
+      "lat": 35.5445,
+      "lng": 134.82019,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (豊岡市) 35.5445, 134.82019; MLIT: opening at right bank 13.2 k, Tateno. Not a surveyed crest.",
+      "river_or_facility": "Maruyama River right-bank levee at Tateno (13.2 k)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "MLIT / Toyooka fire PDF: Typhoon Tokage overtopping; the Tateno right bank opened at 23:15 on 20 October 2004 after the river exceeded design high water.",
+      "incident_date": "2004-10-20",
+      "latest_report_date": "2024-10",
+      "what_happened": "MLIT Maruyama disaster table and Toyooka fire-department typhoon-23 PDF: on 20 October 2004 Typhoon Tokage raised the Maruyama at Tateno to TP +8.29 m (design high water 8.16 m). At 23:15 the right bank at Tateno (13.2 k) opened; a left-bank defect at Ichinichichi also occurred (time unknown). About 80% of Toyooka flooded from the river and trapped inner water. Toyooka city (old Toyooka): 1 dead, 46 injured, about 18,000 affected. Kobe Shimbun 20-year piece: 26 dead in Hyōgo Prefecture — that prefecture typhoon total is not used.",
+      "status": "Historical Maruyama urban levee opening; later improvement works still incomplete as of 2024 (Kobe Shimbun).",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "MLIT — 円山川の主な災害 (立野 13.2k 右岸決壊)",
+          "url": "https://www.mlit.go.jp/river/toukei_chousa/kasen/jiten/nihon_kawa/0602_maruyama/0602_maruyama_02.html"
+        },
+        {
+          "label": "Toyooka city — 旧豊岡市の被害と対応 (死者1 / 負傷46)",
+          "url": "https://www.city.toyooka.lg.jp/bosai/1019920/kakosaigai/1000640/1000649/1000654.html"
+        },
+        {
+          "label": "Toyooka FD — 台風23号記録 (23:15 立野右岸破堤)",
+          "url": "https://119.city.toyooka.lg.jp/cmsfiles/contents/0000000/19/taihuu23.pdf"
+        },
+        {
+          "label": "Japanese Wikipedia — 豊岡市",
+          "url": "https://ja.wikipedia.org/wiki/%E8%B1%8A%E5%B2%A1%E5%B8%82"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the old-Toyooka 1 or Hyōgo 26 onto this tributary opening.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "izushi-torii-2004-10-20",
+      "name": "Izushi River left-bank levee at Torii (Toyooka)",
+      "country": "Japan",
+      "region": "Torii, Izushi-chō, Toyooka, Hyōgo Prefecture",
+      "location_label": "Izushi left bank at Torii, Toyooka, Japan",
+      "lat": 35.5445,
+      "lng": 134.82019,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (豊岡市) 35.5445, 134.82019; MLIT names the opening at Izushi-chō Torii, left bank 5.3 k. Not a surveyed crest.",
+      "river_or_facility": "Izushi River left-bank levee at Torii (5.3 k)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "MLIT / Toyooka FD: Typhoon Tokage; Izushi left bank at Torii opened at 23:37 on 20 October 2004.",
+      "incident_date": "2004-10-20",
+      "latest_report_date": "2024",
+      "what_happened": "MLIT Maruyama page and Toyooka fire-department PDF: at 23:37 on 20 October 2004, after the Tateno Maruyama opening, the Izushi left bank at Torii, Izushi-chō (5.3 k) failed. Same Typhoon Tokage night as maruyama-tateno-2004-10-20. No source fetched gives a death count for the Torii opening alone.",
+      "status": "Historical Izushi tributary opening the same night as Tateno.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "MLIT — 円山川の主な災害 (出石川左岸 5.3k 鳥居)",
+          "url": "https://www.mlit.go.jp/river/toukei_chousa/kasen/jiten/nihon_kawa/0602_maruyama/0602_maruyama_02.html"
+        },
+        {
+          "label": "Toyooka FD — 台風23号記録 (23:37 出石町鳥居)",
+          "url": "https://119.city.toyooka.lg.jp/cmsfiles/contents/0000000/19/taihuu23.pdf"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Iwate–Miyagi inland-earthquake deaths onto this reservoir incident. Dam did not breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "MAFF Tohoku Regional Agricultural Administration / Kurihara dam office",
+      "year_built": "1974–1998",
+      "height_m": 74.4,
+      "reservoir_capacity": "14,130,000 m³ (Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "aratozawa-2008-06-14",
+      "name": "Aratozawa Dam (荒砥沢ダム) reservoir landslide",
+      "country": "Japan",
+      "region": "Kurikoma, Kurihara, Miyagi Prefecture",
+      "location_label": "Aratozawa Dam / Aizenko, Kurihara, Miyagi, Japan",
+      "lat": 38.8858,
+      "lng": 140.8572,
+      "geo_accuracy": "exact",
+      "geo_source": "Japanese Wikipedia (荒砥沢ダム) 38°53′09″N 140°51′26″E",
+      "river_or_facility": "Aratozawa Dam / Ni-hasama River (Aizenko)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake",
+        "landslide"
+      ],
+      "cause_summary": "Japanese Wikipedia: the 14 June 2008 Iwate–Miyagi inland earthquake triggered a very large landslide on the left-bank headwaters; debris entered the reservoir and a seiche overtopped the second service spillway, but the dam body held.",
+      "incident_date": "2008-06-14",
+      "latest_report_date": "2019-03-22",
+      "what_happened": "Japanese Wikipedia (荒砥沢ダム): at the 14 June 2008 Iwate–Miyagi inland earthquake a landslide about 1,300 m long, 900 m wide, 150 m scarp and about 67 million m³ (Wikipedia; PWRI 45 million m³ at an early Miyagi figure) entered Aizenko. A seiche overtopped the second service spillway (estimated more than 6 m) but did not overtop the crest; storage had been drawn down before the rainy season and the slide volume was about a tenth of storage. The dam settled but was not judged unstable. About 1.5 million m³ of sediment cut storage; MAFF built a 560,000 m³ substitute pond at Okitomi. Restoration finished in FY2011. No death count at the dam or this landslide in the sources fetched.",
+      "status": "Dam remained; landslide is a Kurikoma Geopark / Japanese Geological 100 site. Substitute pond built.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Japanese Wikipedia — 荒砥沢ダム (地震災害)",
+          "url": "https://ja.wikipedia.org/wiki/%E8%8D%92%E7%A0%A5%E6%B2%A2%E3%83%80%E3%83%A0"
+        },
+        {
+          "label": "PWRI — 大規模地すべり (荒砥沢)",
+          "url": "https://www.pwri.go.jp/jpn/research/disaster/iwate-miyagi/04_jisuberi.pdf"
+        },
+        {
+          "label": "Kurikoma Geopark — 荒砥沢地すべり",
+          "url": "https://www.kurikomageopark.jp/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Sanjo evacuation advisories up to 34,542 households (city chronology; city-wide, not this opening alone)",
+      "notes": "Deaths null. Do not copy 2011 Niigata–Fukushima flood deaths onto this levee.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "150 m confirmed, later about 300 m (Sanjo sabo note)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ikarashi-eguchi-2011-07-30",
+      "name": "Ikarashi River right-bank levee at Eguchi (Sanjo)",
+      "country": "Japan",
+      "region": "Eguchi, Sanjo, Niigata Prefecture",
+      "location_label": "Ikarashi right bank at Eguchi, Sanjo, Niigata, Japan",
+      "lat": 37.63678,
+      "lng": 138.96167,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (三条市) 37.63678, 138.96167; Niigata prefecture / Sanjo sabo note: right bank at Eguchi. Not a surveyed crest.",
+      "river_or_facility": "Ikarashi River right-bank levee at Eguchi",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Sanjo sabo chronology: a right-bank opening at Eguchi was confirmed at 05:00 on 30 July 2011 during the Niigata–Fukushima heavy rain.",
+      "incident_date": "2011-07-30",
+      "latest_report_date": "2011",
+      "what_happened": "Sanjo city sabo account: at 05:00 on 30 July 2011 a 150 m right-bank opening was confirmed at Eguchi on the Ikarashi; it was later found to be about 300 m. Niigata prefecture: the Ikarashi at Sanjo and five other rivers opened at nine places; about 150,000 households were advised or ordered to evacuate. Prefecture later said 2004-rebuilt Ikarashi urban reaches did not have an outer-water flood this time except this upstream/unimproved opening. Separate from ikarashi-suwa-2004-07-13. No death count for the Eguchi opening; other 2011 deaths (vehicle in a creek, etc.) are not copied.",
+      "status": "Historical 2011 Ikarashi opening at Eguchi.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Sabo association — 平成23年７月新潟・福島豪雨 (江口 5:00 150 m→300 m)",
+          "url": "http://www.sabo.or.jp/kaisyou/208/208-1/208-1.htm"
+        },
+        {
+          "label": "Niigata prefecture — 平成23年7月新潟・福島豪雨",
+          "url": "https://www.pref.niigata.lg.jp/site/saigai-archive/heavy-rain-niigata-and-fukushima-in-july2011.html"
+        },
+        {
+          "label": "いちらん屋 — 日本の堤防の決壊事故の一覧",
+          "url": "https://ichiranya.com/society_culture/111-burst-accident-in-an-embankment.php"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 2012 Kyushu-northern-rain deaths. Separate from okinohata-2012-07-14.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 50 m (JSCE / Kyushu planning association)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Yabe River levee investigation committee (August 2012)",
+      "verification": "confirmed",
+      "id": "yabe-rokugo-2012-07-14",
+      "name": "Yabe River right-bank levee at Rokugō (Yanagawa)",
+      "country": "Japan",
+      "region": "Rokugō, Yamato-chō, Yanagawa, Fukuoka Prefecture",
+      "location_label": "Yabe right bank 7.3 k, Rokugō, Yanagawa, Japan",
+      "lat": 33.16306,
+      "lng": 130.40581,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (柳川市) 33.16306, 130.40581; Kyushu planning association: right bank 7.3 k at Rokugō, upstream of Tsuru Bridge. Not a surveyed crest.",
+      "river_or_facility": "Yabe River right-bank levee at Rokugō (7k300)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Yabe levee investigation committee / JSCE: no overtopping; long time above design high water drove foundation-sand piping and a ~50 m opening at 13:20 on 14 July 2012.",
+      "incident_date": "2012-07-14",
+      "latest_report_date": "2013",
+      "what_happened": "Kyushu Regional Planning Association and JSCE 2012 Kyushu-northern-rain report: at about 13:20 on 14 July 2012 the Yabe right bank at 7k300, Rokugō, Yamato-chō, Yanagawa, opened about 50 m. The river had stayed above flood-danger / design high water for more than five hours without overtopping; the investigation committee concluded foundation-sand piping. First Class-A main-stem national-river breach since the 2006 Tenryū and first large national-river breach since Maruyama 2004 (MLIT 2012 water-disaster report). Yanagawa and Miyama had 697 houses flooded above floor and 1,111 below from this opening, the Okinohata openings, and inner water — those combined house counts are not treated as this levee's death toll. No death count for Rokugō in the sources fetched.",
+      "status": "Emergency rebuild then Yabe special-disaster and large-scale related projects.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "JSCE — 平成24年7月九州北部豪雨災害の概要 (矢部川 7k300 約50 m パイピング)",
+          "url": "https://committees.jsce.or.jp/report/system/files/1-1-6.pdf"
+        },
+        {
+          "label": "Kyushu Regional Planning Association — 矢部川 六合 13:20",
+          "url": "https://k-keikaku.or.jp/%E5%B9%B3%E6%88%9024%E5%B9%B47%E6%9C%88%E4%B9%9D%E5%B7%9E%E5%8C%97%E9%83%A8%E8%B1%AA%E9%9B%A8_%E7%81%BD%E5%AE%B3%E5%BE%A9%E6%97%A7%E3%81%AE%E5%AF%BE%E5%BF%9C/"
+        },
+        {
+          "label": "MLIT — 平成24年水害レポート (矢部川本川約50 m)",
+          "url": "https://www.mlit.go.jp/river/pamphlet_jirei/pdf/suigai2012.pdf"
+        },
+        {
+          "label": "Japanese Wikipedia — 柳川市",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9F%B3%E5%B7%9D%E5%B8%82"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Separate from yabe-rokugo-2012-07-14. Do not copy 2012 Kyushu-northern-rain deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 150 m at Nakayama and about 30 m at Hongō (Kyushu planning association)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "okinohata-2012-07-14",
+      "name": "Okinohata River levees at Nakayama and Hongō (Yanagawa)",
+      "country": "Japan",
+      "region": "Nakayama and Hongō, Yanagawa / Miyama, Fukuoka Prefecture",
+      "location_label": "Okinohata River, Yanagawa, Fukuoka, Japan",
+      "lat": 33.16306,
+      "lng": 130.40581,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (柳川市) 33.16306, 130.40581; Kyushu planning association: left bank Nakayama ~150 m and Hongō ~30 m. Not surveyed crests.",
+      "river_or_facility": "Okinohata River (Yabe distributary) levees at Nakayama and Hongō",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Kyushu planning association: witness times 08:55 Nakayama left bank about 150 m and 09:30 Hongō left bank about 30 m, both by overtopping, hours before the Yabe Rokugō piping breach.",
+      "incident_date": "2012-07-14",
+      "latest_report_date": "2013",
+      "what_happened": "Kyushu Regional Planning Association: on 14 July 2012, hours before the Yabe Rokugō opening, the prefecture-managed Okinohata (Yabe distributary) left bank failed about 150 m at Nakayama at 08:55 and about 30 m at Hongō at 09:30, both by overtopping. Combined with the later Yabe opening and inner water, Yanagawa and Miyama had 2,579 ha and 697 / 1,111 houses flooded. No death count for these Okinohata openings in the sources fetched.",
+      "status": "Historical Okinohata overtopping openings, same morning as yabe-rokugo-2012-07-14.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Kyushu Regional Planning Association — 沖端川 中山 8:55 / 本郷 9:30",
+          "url": "https://k-keikaku.or.jp/%E5%B9%B3%E6%88%9024%E5%B9%B4%E4%B9%9D%E5%B7%9E%E5%8C%97%E9%83%A8%E8%B1%AA%E9%9B%A8%E7%AD%89%E5%87%BA%E6%B0%B4_%E5%A0%A4%E9%98%B2%E6%B1%BA%E5%A3%8A%E3%81%AE%E8%A2%AB%E7%81%BD%E8%A6%81%E5%9B%A0/"
+        },
+        {
+          "label": "JSCE — 平成24年7月九州北部豪雨 (沖端川 2箇所)",
+          "url": "https://committees.jsce.or.jp/report/system/files/1-1-6.pdf"
+        },
+        {
+          "label": "いちらん屋 — 日本の堤防の決壊事故の一覧",
+          "url": "https://ichiranya.com/society_culture/111-burst-accident-in-an-embankment.php"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Hokkaido/Iwate Typhoon 10 deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 200 m (Cabinet Office / JSCE)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "satsunai-obihiro-2016-08-31",
+      "name": "Satsunai River left-bank levee at Nakajima (Obihiro)",
+      "country": "Japan",
+      "region": "Nakajima, Obihiro, Hokkaido",
+      "location_label": "Satsunai left bank near Totsutabetsu confluence, Obihiro, Japan",
+      "lat": 42.92397,
+      "lng": 143.19611,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (帯広市) 42.92397, 143.19611; Cabinet Office / JSCE: left bank about KP25 / Nakajima near the Totsutabetsu confluence. Not a surveyed crest.",
+      "river_or_facility": "Satsunai River left-bank levee at Nakajima (KP25; Totsutabetsu confluence)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Cabinet Office Typhoon 10 pack: Satsunai left bank near KP25, Obihiro, opened about 200 m; JSCE: about 200 m plus a Totsutabetsu opening, about 50 ha inundated.",
+      "incident_date": "2016-08-31",
+      "latest_report_date": "2017-05-01",
+      "what_happened": "Cabinet Office 平成28年台風第10号 pack and JSCE 2016 Hokkaido rain report: under Typhoon 10 rain the Satsunai left bank at about KP25 in Obihiro (Nakajima / Taishō-bridge area near the Totsutabetsu confluence) opened about 200 m; a Hokkaido-managed Totsutabetsu levee also opened and about 50 ha flooded at the confluence. Ichiranya gives about 05:20 and about 200 m at Nakajima. No death count for this Satsunai opening; Hokkaido typhoon deaths (cars off failed bridges at Shintoku and Taiki) are not copied.",
+      "status": "Emergency restoration completed (Cabinet Office pack).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Cabinet Office — 平成28年台風第10号 (札内川 帯広 左岸 KP25 約200 m)",
+          "url": "https://www.bousai.go.jp/updates/h28typhoon10/pdf/h28typhoon10_24.pdf"
+        },
+        {
+          "label": "JSCE — 2016年8月北海道豪雨災害調査団報告書",
+          "url": "https://committees.jsce.or.jp/report/system/files/2016%E5%B9%B48%E6%9C%88%E5%8C%97%E6%B5%B7%E9%81%93%E8%B1%AA%E9%9B%A8%E5%9C%9F%E6%9C%A8%E5%AD%A6%E4%BC%9A%E8%AA%BF%E6%9F%BB%E5%9B%A3%E5%A0%B1%E5%91%8A%E6%9B%B8_20170501.pdf"
+        },
+        {
+          "label": "いちらん屋 — 日本の堤防の決壊事故の一覧",
+          "url": "https://ichiranya.com/society_culture/111-burst-accident-in-an-embankment.php"
+        },
+        {
+          "label": "Japanese Wikipedia — 帯広市",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B8%AF%E5%BA%83%E5%B8%82"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Hokkaido Typhoon 10 bridge-fall deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "JSCE: about 300 m and 150 m at two Ikutora openings",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sorachi-ikutora-2016-08-31",
+      "name": "Sorachi River levees at Ikutora (Minamifurano)",
+      "country": "Japan",
+      "region": "Ikutora, Minamifurano, Hokkaido",
+      "location_label": "Sorachi left bank at Ikutora, Minamifurano, Hokkaido, Japan",
+      "lat": 43.16417,
+      "lng": 142.56856,
+      "geo_accuracy": "approx",
+      "geo_source": "Japanese Wikipedia (南富良野町) 43.16417, 142.56856 — Ikutora is the town centre. JSCE: two national-river openings at Ikutora. Not surveyed crests.",
+      "river_or_facility": "Sorachi River left-bank levees at Ikutora (plus Yukutorashubetsu overflow)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "JSCE 2016 Hokkaido report: two national-river openings at Ikutora (about 300 m upstream and 150 m downstream) on 31 August 2016 under Typhoon 10.",
+      "incident_date": "2016-08-31",
+      "latest_report_date": "2017-05-01",
+      "what_happened": "JSCE 2016 Hokkaido rain report: on 31 August 2016 the Sorachi left bank at Ikutora, Minamifurano, opened at two national-river places (about 300 m upstream and 150 m downstream), and with overflow from the prefecture-managed Yukutorashubetsu about 130 ha and about 189 houses plus a food plant flooded. Ishikari River Foundation: first national-river breach in Hokkaido since the 1981 flood; Kanayama Dam cut the peak for towns further downstream. Cabinet Office pack also lists Sorachi openings at Minamifurano (one row Taihei Bridge left bank about 60 m). No death count for the Ikutora levees; Hokkaido typhoon bridge-fall deaths are not copied.",
+      "status": "Historical Ikutora urban levee openings.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "JSCE — 2016年8月北海道豪雨 (空知川 幾寅 2箇所 300 m / 150 m)",
+          "url": "https://committees.jsce.or.jp/report/system/files/2016%E5%B9%B48%E6%9C%88%E5%8C%97%E6%B5%B7%E9%81%93%E8%B1%AA%E9%9B%A8%E5%9C%9F%E6%9C%A8%E5%AD%A6%E4%BC%9A%E8%AA%BF%E6%9F%BB%E5%9B%A3%E5%A0%B1%E5%91%8A%E6%9B%B8_20170501.pdf"
+        },
+        {
+          "label": "Ishikari River Foundation — 平成28年8月大雨 (幾寅市街)",
+          "url": "https://www.ishikari.or.jp/%E7%9F%B3%E7%8B%A9%E5%B7%9D%E3%81%AE%E9%98%B2%E7%81%BD/%E5%B9%B3%E6%88%9028%E5%B9%B48%E6%9C%88%E5%A4%A7%E9%9B%A8%E7%81%BD%E5%AE%B3/"
+        },
+        {
+          "label": "Cabinet Office — 平成28年台風第10号",
+          "url": "https://www.bousai.go.jp/updates/h28typhoon10/pdf/h28typhoon10_24.pdf"
+        },
+        {
+          "label": "Japanese Wikipedia — 南富良野町",
+          "url": "https://ja.wikipedia.org/wiki/%E5%8D%97%E5%AF%8C%E8%89%AF%E9%87%8E%E7%94%BA"
+        },
+        {
+          "label": "いちらん屋 — 日本の堤防の決壊事故の一覧",
+          "url": "https://ichiranya.com/society_culture/111-burst-accident-in-an-embankment.php"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": 4,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 1 and injured 4 from the Cabinet Office ため池 table for 大池. Do not copy Higashihiroshima or Hiroshima 2018 rain totals.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kurose-oike-yokoike-2018-07",
+      "name": "Yokoike and Ōike stacked farm ponds (Kurose, Higashihiroshima)",
+      "country": "Japan",
+      "region": "Kamihota, Kurose-chō, Higashihiroshima, Hiroshima Prefecture",
+      "location_label": "Yokoike / Ōike / Otoike cascade, Kamihota, Kurose, Japan",
+      "lat": 34.32469,
+      "lng": 132.67617,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (黒瀬町) 34.32469, 132.67617. Hiroshima prefecture designated-pond list: 乙池・大池・横池 are at 黒瀬町上保田字東畦. Not surveyed crests.",
+      "river_or_facility": "Yokoike and Ōike irrigation ponds above Otoike (重ね池)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "landslide",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Cabinet Office 平成30年7月豪雨 pack: a playground collapse above the ponds sent debris into the cascade; upstream Yokoike and Ōike failed, Otoike did not.",
+      "incident_date": "2018-07-07",
+      "latest_report_date": "2018-10-09",
+      "what_happened": "Cabinet Office July 2018 rain briefing (ため池 section): of a three-pond stack (乙池・大池・横池), upstream Yokoike and Ōike failed after debris from a collapsed playground entered the ponds; downstream Otoike took sediment but did not fail. The same pack's ため池 human-loss table: 1 dead, 4 injured, 1 house destroyed, 8 houses flooded below floor at Ōike. Hiroshima designated-pond list places all three at Kamihota, Kurose-chō, Higashihiroshima (字東畦). JSIDRE 10 September 2018 symposium list also names Higashihiroshima 大池 and 横池 among 32 failed ponds. Do not copy Higashihiroshima's 12 rain deaths.",
+      "status": "Two of three stacked ponds failed; Otoike held.",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "Cabinet Office — 平成30年7月豪雨の概要 (ため池決壊)",
+          "url": "https://www.bousai.go.jp/fusuigai/suigai_dosyaworking/pdf/dai3kai/sankosiryo1.pdf"
+        },
+        {
+          "label": "Hiroshima prefecture — 特定農業用ため池指定箇所リスト (黒瀬町上保田 乙池・大池・横池)",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/409365.pdf"
+        },
+        {
+          "label": "JSIDRE 2018-09-10 symposium — 32 failed ponds list",
+          "url": "https://janet-dr.com/050_saigaiji/2018/050_2018_gouu/20180910_houkoku/180910_0301_jsidre.pdf"
+        },
+        {
+          "label": "Japanese Wikipedia — 黒瀬町",
+          "url": "https://ja.wikipedia.org/wiki/%E9%BB%92%E7%80%AC%E7%94%BA"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 5 from Nikkei / CALL4 for Nomura district after this operation. Do not copy combined Seiyo+Ōzu 8 or 9.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "MLIT Shikoku Regional Development Office / Nomura Dam Control Office",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "nomura-2018-07-07",
+      "name": "Nomura Dam emergency flood operation (異常洪水時防災操作)",
+      "country": "Japan",
+      "region": "Nomura, Seiyo, Ehime Prefecture",
+      "location_label": "Nomura Dam, Hiji River, Seiyo, Ehime, Japan",
+      "lat": 33.35944444,
+      "lng": 132.62916667,
+      "geo_accuracy": "exact",
+      "geo_source": "Japanese Wikipedia (野村ダム) 33.35944444, 132.62916667",
+      "river_or_facility": "Nomura Dam / Hiji River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "MLIT Shikoku verification and Nikkei: after flood-control storage was exhausted, Nomura began 異常洪水時防災操作 about 06:20 on 7 July 2018 and released inflow.",
+      "incident_date": "2018-07-07",
+      "latest_report_date": "2021-06-30",
+      "what_happened": "Nikkei (19 July 2018) and Ehime University / MLIT verification write-up: on 7 July 2018 Nomura Dam (MLIT, Seiyo) started 異常洪水時防災操作 about 06:20 after rain exceeded the planned flood. Release rose toward about 1,750–1,797 m³/s. Nikkei and CALL4 litigation note: Nomura district centre flooded, about 650 houses, 5 residents died. A levee in Nomura also opened. Separate from kanogawa-2018-07-07. Combined Seiyo+Ōzu figures of 8 or 9 are not copied onto this dam.",
+      "status": "Operating dam; operation rules and warning practice later revised after the verification panel.",
+      "deaths": 5,
+      "sources": [
+        {
+          "label": "Nikkei — 豪雨ダム放流の検証 (野村 5人 / 約650戸)",
+          "url": "https://www.nikkei.com/article/DGXMZO33167890Z10C18A7CC1000/"
+        },
+        {
+          "label": "Ehime University — 野村ダム・鹿野川ダムの操作",
+          "url": "https://www.ehime-u.ac.jp/wp-content/uploads/2018/07/c9910d13129a1e4fb2469f0aaf75b1d1.pdf"
+        },
+        {
+          "label": "CALL4 — 野村 死者5 / 約650棟",
+          "url": "https://www.call4.jp/story/?p=1803"
+        },
+        {
+          "label": "Japanese Wikipedia — 野村ダム",
+          "url": "https://ja.wikipedia.org/wiki/%E9%87%8E%E6%9D%91%E3%83%80%E3%83%A0"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Ōzu counts are 3 or 4 depending on source; combined 8 or 9 not copied. Nomura 5 stays on nomura-2018-07-07.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "MLIT Shikoku Regional Development Bureau / Kanogawa Dam Control Office",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kanogawa-2018-07-07",
+      "name": "Kanogawa Dam emergency flood operation (異常洪水時防災操作)",
+      "country": "Japan",
+      "region": "Ōzu, Ehime Prefecture",
+      "location_label": "Kanogawa Dam, Hiji River, Ōzu, Ehime, Japan",
+      "lat": 33.45027778,
+      "lng": 132.68527778,
+      "geo_accuracy": "exact",
+      "geo_source": "Japanese Wikipedia (鹿野川ダム) 33.45027778, 132.68527778",
+      "river_or_facility": "Kanogawa Dam / Hiji River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Nikkei / MLIT verification: Kanogawa began 異常洪水時防災操作 about 07:35 on 7 July 2018, five minutes after Ōzu issued an evacuation order.",
+      "incident_date": "2018-07-07",
+      "latest_report_date": "2018-11-22",
+      "what_happened": "Nikkei (19 July 2018): Kanogawa Dam (Ōzu) was told a flood operation was possible at 05:10; Ōzu issued an evacuation order at 07:30 and the operation began about five minutes later. About 2,800 houses in Ōzu flooded. Nikkei in that article said 4 residents died in Ōzu; a later Yamba-net / Ehime Shimbun verification note said 3 in Ōzu and a combined Seiyo+Ōzu 8. No single consistent Ōzu-only figure is used. Separate from nomura-2018-07-07.",
+      "status": "Operating dam; rules and warning displays later revised.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Nikkei — 豪雨ダム放流の検証 (鹿野川 7:35 / 大洲 約2800戸)",
+          "url": "https://www.nikkei.com/article/DGXMZO33167890Z10C18A7CC1000/"
+        },
+        {
+          "label": "Nikkei — 情報伝達、不十分 (検証まとめ 2018-11-22)",
+          "url": "https://www.nikkei.com/article/DGXMZO38103590S8A121C1000000/"
+        },
+        {
+          "label": "Japanese Wikipedia — 鹿野川ダム",
+          "url": "https://ja.wikipedia.org/wiki/%E9%B9%BF%E9%87%8E%E5%B7%9D%E3%83%80%E3%83%A0"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "28 households / 67 people temporarily evacuated (Sanyo)",
+      "notes": "Deaths 0 from Sanyo / city: 人的被害なし. Not a 2018 pond.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "2026",
+      "owner_operator": "Fukuyama City (abolition announced)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "minamisako-ike-2026-06-27",
+      "name": "Minamisako-ike / Nanzako-ike farm pond (南迫池)",
+      "country": "Japan",
+      "region": "Kanamaru, Shinichi-chō, Fukuyama, Hiroshima Prefecture",
+      "location_label": "Minamisako-ike, Kanamaru, Shinichi, Fukuyama, Japan",
+      "lat": 34.55869,
+      "lng": 133.27331,
+      "geo_accuracy": "region",
+      "geo_source": "Japanese Wikipedia (新市町) 34.55869, 133.27331; Sanyo Shimbun / Chugoku Shimbun: the pond is at 新市町金丸. Not a surveyed crest.",
+      "river_or_facility": "Minamisako-ike (南迫池 / なんざこ池) irrigation pond",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Sanyo Shimbun / Fukuyama city: the agricultural pond failed in the early hours of 27 June 2026 after heavy rain (Shinichi district 260 mm from the 24th).",
+      "incident_date": "2026-06-27",
+      "latest_report_date": "2026-07-30",
+      "what_happened": "Sanyo Shimbun (27 June 2026) and 47News: around the early hours of 27 June 2026 Minamisako-ike (南迫池) at Kanamaru, Shinichi-chō, Fukuyama, failed. Sixteen houses flooded (13 below floor, 3 above); 28 households / 67 people sheltered; no human casualties. Fire service was called at about 03:30. Chugoku Shimbun 30 July 2026: Mayor Edahiro said the city will abolish the pond, start this fiscal year, finish by the end of FY2027. Hiroshima prefecture had rated it soundness A. Distinct from Fukuyama's seven 2018 pond failures.",
+      "status": "City decided 30 July 2026 to abolish the pond by end of FY2027.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Sanyo Shimbun — 福山・新市でため池決壊 (2026-06-27, 人的被害なし)",
+          "url": "https://www.sanyonews.jp/article/1945612"
+        },
+        {
+          "label": "47News / Kyodo — 南迫池 16棟浸水",
+          "url": "https://www.47news.jp/14537504.html"
+        },
+        {
+          "label": "Chugoku Shimbun — 南迫池を廃止方針 (2026-07-30)",
+          "url": "https://www.chugoku-np.co.jp/articles/-/872098"
+        },
+        {
+          "label": "Japanese Wikipedia — 新市町",
+          "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B8%82%E7%94%BA"
+        }
+      ],
+      "severity": "moderate"
     }
   ]
 }
