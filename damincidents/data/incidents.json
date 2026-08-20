@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1260,
+  "count": 1281,
   "current_count": 27,
-  "historical_count": 1233,
+  "historical_count": 1254,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -69059,6 +69059,1231 @@
       "downstream_risk": "Magro / Montroy and towns downstream — flood is from basin rain plus spillway, not a breach",
       "economic_damage": null,
       "investigating_agency": "MITECO / CHJ"
+    },
+    {
+      "id": "charron-bas-bizet-2010-02-28",
+      "name": "Charron sea dikes / Bas Bizet (Xynthia)",
+      "country": "France",
+      "region": "Charron, Charente-Maritime",
+      "location_label": "Digues de Charron (Bas Bizet / Digue Ouest), Charente-Maritime, France",
+      "lat": 46.2953,
+      "lng": -1.105,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Charron, Charente-Maritime 46°17′43″N 1°06′18″W — commune on the Sèvre Niortaise / Anse de l'Aiguillon; crest unpublished",
+      "river_or_facility": "Digues de Charron / Bas Bizet and Digue Ouest (Anse de l'Aiguillon)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping",
+        "poor_maintenance"
+      ],
+      "cause_summary": "France Bleu / ICI: storm-surge water entered through breaches in dikes already weakened by storm Martin 1999. Post-Xynthia State/E3S works lists name the Bas Bizet and Charron western dikes among the rebuilt Charente-Maritime systems.",
+      "incident_date": "2010-02-28",
+      "latest_report_date": "2020",
+      "what_happened": "On the night of 27–28 February 2010, storm Xynthia and a 102-coefficient tide submerged Charron (Charente-Maritime), on the Anse de l'Aiguillon / Sèvre Niortaise. France Bleu (ICI, 2020): first deputy Jacky Meunier said water entered through breaches in dikes left weakened by storm Martin 1999; about 200 houses were flooded and later listed for demolition (zones de solidarité). Franceinfo and ICI: three people died in the commune — a grandmother and her two grandchildren. BRGM RP-58261-FR lists Charron among communes where the absolute water level exceeded 4.5 m NGF. Ministry of Ecology / E3S 2016 name the digue du Bas Bizet (Charron) and Digue Ouest de Charron among post-Xynthia rebuilds. Do not copy 47 national or 12 Charente-Maritime Xynthia deaths onto this commune dike line.",
+      "status": "Post-Xynthia Bas Bizet and western dike rebuilds; northern works still incomplete as of 2020 (Le Monde).",
+      "deaths": 3,
+      "injured": null,
+      "affected_or_evacuated": "About 200 houses flooded / later demolished; ~160 families left the commune (ICI 2020) — commune figure, not used as a national Xynthia total",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "sources": [
+        {
+          "label": "Franceinfo — Xynthia: Charron 10 years on (3 deaths)",
+          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/tempetes/tempete-xynthia-dix-ans-apres-charron-reste-debout_3843665.html"
+        },
+        {
+          "label": "ICI / France Bleu — Charron dike breaches and 3 deaths",
+          "url": "https://www.ici.fr/infos/faits-divers-justice/10-ans-pres-xynthia-la-commune-de-charron-se-releve-lentement-1582737481"
+        },
+        {
+          "label": "BRGM RP-58261-FR — Xynthia preliminary mission (Charron >4.5 m NGF)",
+          "url": "https://infoterre.brgm.fr/rapports/RP-58261-FR.pdf"
+        },
+        {
+          "label": "E3S — Actions after Xynthia (Bas Bizet / Charron western dike)",
+          "url": "https://www.e3s-conferences.org/articles/e3sconf/pdf/2016/02/e3sconf_flood2016_20008.pdf"
+        },
+        {
+          "label": "Wikipedia — Charron, Charente-Maritime",
+          "url": "https://en.wikipedia.org/wiki/Charron,_Charente-Maritime"
+        }
+      ],
+      "notes": "Deaths 3 from named Charron sources (grandmother + two grandchildren). Do not copy 47 national or 12 Charente-Maritime onto this dike. Commune pin (region); Bas Bizet crest unpublished.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "Named breaches in Charron dikes (ICI); Bas Bizet / Digue Ouest later rebuilt (E3S)",
+      "downstream_risk": "Low-lying Charron housing behind the Anse de l'Aiguillon dikes",
+      "economic_damage": null,
+      "investigating_agency": "BRGM / Charente-Maritime prefecture / CETMEF"
+    },
+    {
+      "id": "boucholeurs-2010-02-28",
+      "name": "Les Boucholeurs sea walls and dunes (Xynthia)",
+      "country": "France",
+      "region": "Les Boucholeurs (Châtelaillon-Plage / Yves), Charente-Maritime",
+      "location_label": "Les Boucholeurs sea front and Yves reserve dunes, Charente-Maritime, France",
+      "lat": 46.0742,
+      "lng": -1.0867,
+      "geo_accuracy": "region",
+      "geo_source": "French Wikipedia Châtelaillon-Plage 46°04′27″N 1°05′12″W — village of Les Boucholeurs straddles Châtelaillon-Plage and Yves; crest unpublished",
+      "river_or_facility": "Ouvrages du front de mer des Boucholeurs / dunes of the Réserve naturelle d'Yves / Port Punay canal",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "Paralia / CMC 2015–2016 Xynthia case study: northern sea walls failed to stop wave overtopping (wave breaking caused two deaths); southern dunes were fragile and marsh storage was exceeded.",
+      "incident_date": "2010-02-28",
+      "latest_report_date": "2016",
+      "what_happened": "On 27–28 February 2010, storm Xynthia flooded Les Boucholeurs, the oyster-farming village astride Châtelaillon-Plage and Yves. France Digues: water reached 1.60 m in the rear of the village; about 400 people were housed that night. Paralia (Coastal flood protection systems, Xynthia feedback): to the north, sea walls did not protect enough against overtopping and wave breaking caused two deaths; to the south, dunes were very fragile and swamp storage was exceeded; the Port Punay canal directed flow into the low urban cell. Thirty-eight houses were later bought out (association Les Boucholeurs). Ministry of Ecology / E3S name the Boucholeurs district protection among post-Xynthia Charente-Maritime works. Do not copy 47 national Xynthia deaths onto this site.",
+      "status": "New sea wall and breakwaters built (Xynthia +20 cm); 38 houses demolished.",
+      "deaths": 2,
+      "injured": null,
+      "affected_or_evacuated": "About 400 people housed overnight (France Digues)",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Paralia — Coastal flood protection systems, Xynthia case studies (Boucholeurs: 2 deaths)",
+          "url": "https://doi.org/10.5150/revue-paralia.2016.s04"
+        },
+        {
+          "label": "France Digues — Châtelaillon-Plage et Yves / Boucholeurs",
+          "url": "https://www.france-digues.fr/actualites/chatelaillon-plage-et-yves-protegent-et-rehabilitent-leur-cote-17/"
+        },
+        {
+          "label": "E3S — Actions after Xynthia (Boucholeurs protection)",
+          "url": "https://www.e3s-conferences.org/articles/e3sconf/pdf/2016/02/e3sconf_flood2016_20008.pdf"
+        },
+        {
+          "label": "French Wikipedia — Châtelaillon-Plage (Les Boucholeurs)",
+          "url": "https://fr.wikipedia.org/wiki/Ch%C3%A2telaillon-Plage"
+        }
+      ],
+      "notes": "Deaths 2 from Paralia site write-up (wave breaking on the sea front). Do not copy 47 national or 12 Charente-Maritime onto this dike. Commune pin on Châtelaillon-Plage (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Communes of Châtelaillon-Plage and Yves / later SILYCAF",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "Sea-wall overtopping (north); fragile dune overflow (south) — Paralia",
+      "downstream_risk": "About 600 houses in Les Boucholeurs (RECONECT)",
+      "economic_damage": null,
+      "investigating_agency": "CEREMA / SILYCAF / Charente-Maritime prefecture"
+    },
+    {
+      "id": "boyardville-perrotine-2010-02-28",
+      "name": "Boyardville / La Perrotine canal dike (Xynthia)",
+      "country": "France",
+      "region": "Boyardville, Saint-Georges-d'Oléron, Charente-Maritime",
+      "location_label": "Digue du chenal de la Perrotine, Boyardville, Île d'Oléron, France",
+      "lat": 45.97,
+      "lng": -1.24,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Boyardville 45°58′N 1°14′W — village and marina on the Perrotine channel; crest unpublished",
+      "river_or_facility": "Digue / chenal de la Perrotine (Boyardville–Fort Royer)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "LIENSs / CRIHAM: the Perrotine canal dike ruptured; the channel funnelled the storm surge into Boyardville. Paralia: exceptional sea level perturbed the canal and flooded the Boyardville basin (1.40–1.65 m).",
+      "incident_date": "2010-02-28",
+      "latest_report_date": "2016",
+      "what_happened": "On 27–28 February 2010, storm Xynthia flooded Boyardville (Saint-Georges-d'Oléron) after rupture of the digue de la Perrotine. University of La Rochelle LIENSs and CRIHAM: the canal funnelled the storm surge; residential quarters from the marina to the RD 126 were submerged and Fort Royer oyster works south of the channel were damaged. Paralia Xynthia case study: Boyardville-basin flooding (water 1.40–1.65 m) caused a death. Cour des comptes 2012 thematic report places one Charente-Maritime death at Saint-Georges-d'Oléron. Ministry of Ecology lists Boyardville–La Perrotine among post-Xynthia protection works (outside the Moëze reserve dike). Do not copy 47 national Xynthia deaths onto this canal dike.",
+      "status": "Post-Xynthia Boyardville–La Perrotine protection works (Plan Digue).",
+      "deaths": 1,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "LIENSs / Univ. La Rochelle — Impacts de Xynthia à Oléron (rupture digue de la Perrotine)",
+          "url": "https://lienss.univ-larochelle.fr/IMG/pdf/RapportXynthiaOleron2.pdf"
+        },
+        {
+          "label": "CRIHAM — Xynthia Oléron (rupture digue de la Perrotine)",
+          "url": "https://criham.labo.univ-poitiers.fr/wp-content/uploads/sites/376/2016/01/2010_JE_xynthia-etude-comprendre-phenomene.pdf"
+        },
+        {
+          "label": "Paralia — Xynthia case studies (Boyardville death)",
+          "url": "https://doi.org/10.5150/revue-paralia.2016.s04"
+        },
+        {
+          "label": "Wikipedia — Boyardville",
+          "url": "https://en.wikipedia.org/wiki/Boyardville"
+        }
+      ],
+      "notes": "Deaths 1 from Paralia (Boyardville basin) / Cour des comptes (Saint-Georges-d'Oléron). Do not copy 47 national or 12 Charente-Maritime onto this dike. Village pin (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "Rupture of the Perrotine canal dike (LIENSs / CRIHAM)",
+      "downstream_risk": "Boyardville residential quarters and Fort Royer oyster zone",
+      "economic_damage": null,
+      "investigating_agency": "CEREMA / Charente-Maritime prefecture"
+    },
+    {
+      "id": "fouras-2010-02-28",
+      "name": "Fouras sea dikes / Pointe de la Fumée (Xynthia overtopping)",
+      "country": "France",
+      "region": "Fouras, Charente-Maritime",
+      "location_label": "Digues de Fouras (Prairie du Casino / Pointe de la Fumée), Charente-Maritime, France",
+      "lat": 45.9878,
+      "lng": -1.0931,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Fouras 45°59′16″N 1°05′35″W — peninsula commune; crest unpublished",
+      "river_or_facility": "Digues de Fouras / Pointe de la Fumée and Prairie du Casino",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "Wikibardig Xynthia solidarity-zone expertise: water reached Port Nord through the Prairie du Casino from dikes exposed to waves, or through properties along boulevard de la Jetée. Alouette: Pointe de la Fumée suffered heavy wave damage.",
+      "incident_date": "2010-02-28",
+      "latest_report_date": "2025",
+      "what_happened": "On 27–28 February 2010, storm Xynthia overtopped and wave-attacked the Fouras peninsula defences. Wikibardig (Site du Fouras — expertise des zones de solidarité Xynthia): levels reached 4.80 m NGF on the Pointe and 4.40 m NGF at Port Nord; water entered Port Nord across the Prairie du Casino from dikes exposed to waves. About 50 Port Nord houses took nearly 1 m of water. Wikibardig: no fatality was recorded at Fouras. The wave-exposed part of Pointe de la Fumée was classed a solidarity zone (116 dwellings). Alouette (2025): a new 700 m wave-breaking dike was later built at Pointe de la Fumée under Plan Digue. BRGM lists Fouras among Charente-Maritime communes hit. Do not copy 47 national Xynthia deaths onto this site.",
+      "status": "New 700 m Pointe de la Fumée dike completed 2025 (Plan Digue).",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikibardig — Site du Fouras, expertise zones de solidarité Xynthia",
+          "url": "http://wikibardig.developpement-durable.gouv.fr/index.php/Site_du_Fouras_-_Expertise_des_zones_de_solidarit%C3%A9_Xynthia"
+        },
+        {
+          "label": "Alouette — new Fouras dike 15 years after Xynthia",
+          "url": "https://www.alouette.fr/15-ans-apres-xynthia-une-nouvelle-digue-pour-proteger-fouras"
+        },
+        {
+          "label": "BRGM RP-58261-FR — Xynthia mission (Fouras listed)",
+          "url": "https://infoterre.brgm.fr/rapports/RP-58261-FR.pdf"
+        },
+        {
+          "label": "Wikipedia — Fouras",
+          "url": "https://en.wikipedia.org/wiki/Fouras"
+        }
+      ],
+      "notes": "Deaths 0: Wikibardig states no victim was recorded at Fouras. Do not copy 47 national Xynthia deaths. Commune pin (region); not a named catastrophic breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Commune / CA Rochefort Océan / Département (Plan Digue)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "Overtopping / wave attack of exposed Fouras dikes (Wikibardig); no sourced catastrophic breach length",
+      "downstream_risk": "Port Nord and Pointe de la Fumée housing",
+      "economic_damage": null,
+      "investigating_agency": "Xynthia solidarity-zone experts / Charente-Maritime prefecture"
+    },
+    {
+      "id": "ouzouer-loire-1846-10",
+      "name": "Loire levée at Ouzouer-sur-Loire (1846)",
+      "country": "France",
+      "region": "Ouzouer-sur-Loire, Loiret",
+      "location_label": "Déversoir d'Ouzouer site (1846 breach), Loiret, France",
+      "lat": 47.7667,
+      "lng": 2.4803,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Ouzouer-sur-Loire 47°46′00″N 2°28′49″E — commune at the head of the val d'Ouzouer; 1886 spillway sits on the 1846/1856/1866 breach site",
+      "river_or_facility": "Loire right-bank levée of the val d'Ouzouer (later Déversoir d'Ouzouer)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "French Wikipedia (système d'endiguement du Loiret): the 1886 Ouzouer spillway was built where breaches opened in 1846, 1856 and 1866. Persée (2012) classes most well-documented 1846 Loire breaches as overtopping.",
+      "incident_date": "1846-10",
+      "latest_report_date": "2015",
+      "what_happened": "French Wikipedia (Système d'endiguement de la Loire dans le Loiret): the 22 km val d'Ouzouer levée was breached in the great floods of 1846, 1856 and 1866; almost the whole val was submerged except a few plots at Saint-Père-sur-Loire. A spillway 878 m long (800 m threshold) with a ~1.20 m fusible earth banquette was built in 1886 at the site of those openings. Persée (Les Brèches des levées de la Loire, 2012) says five of seven well-documented 1846 breaches were overtopping. No death count is given for this opening; valley-wide flood deaths are not copied.",
+      "status": "Historic 1846 opening; site later occupied by the 1886 Déversoir d'Ouzouer.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "French Wikipedia — Système d'endiguement de la Loire dans le Loiret (val d'Ouzouer)",
+          "url": "https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27endiguement_de_la_Loire_dans_le_Loiret"
+        },
+        {
+          "label": "Persée — Les Brèches des levées de la Loire (1846 overtopping)",
+          "url": "https://www.persee.fr/doc/jhydr_0000-0001_2012_act_34_1_1248"
+        },
+        {
+          "label": "Wikipedia — Ouzouer-sur-Loire",
+          "url": "https://en.wikipedia.org/wiki/Ouzouer-sur-Loire"
+        }
+      ],
+      "notes": "Deaths null. Do not copy 1846 Loire valley totals onto this opening. Commune pin at the later spillway site.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "État (later DREAL / DDT Loiret)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Val d'Ouzouer (about 6,600 ha)",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "ouzouer-loire-1856-06",
+      "name": "Loire levée at Ouzouer-sur-Loire (1856)",
+      "country": "France",
+      "region": "Ouzouer-sur-Loire, Loiret",
+      "location_label": "Déversoir d'Ouzouer site (1856 breach), Loiret, France",
+      "lat": 47.7667,
+      "lng": 2.4803,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Ouzouer-sur-Loire 47°46′00″N 2°28′49″E — 1886 spillway on the 1846/1856/1866 breach site",
+      "river_or_facility": "Loire right-bank levée of the val d'Ouzouer (later Déversoir d'Ouzouer)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia Loiret dike system: breaches at this site in 1846, 1856 and 1866. Persée: two of three well-documented 1856 Loire breaches were overtopping.",
+      "incident_date": "1856-06",
+      "latest_report_date": "2015",
+      "what_happened": "French Wikipedia (Système d'endiguement de la Loire dans le Loiret): the val d'Ouzouer levée opened again in June 1856 at the same upstream site later occupied by the 1886 déversoir. The 1856 flood set record stages at Gien (7.19 m) and Orléans (7.10 m) and opened 160 breaches valley-wide (Wikipedia Levée de la Loire / Loiret system page). Persée (2012) classes two of three well-documented 1856 breaches as overtopping. No death count is given for the Ouzouer opening; valley-wide 1856 deaths are not copied.",
+      "status": "Historic 1856 opening; 1886 spillway later built on the site.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "French Wikipedia — Système d'endiguement de la Loire dans le Loiret",
+          "url": "https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27endiguement_de_la_Loire_dans_le_Loiret"
+        },
+        {
+          "label": "Persée — Les Brèches des levées de la Loire (1856)",
+          "url": "https://www.persee.fr/doc/jhydr_0000-0001_2012_act_34_1_1248"
+        },
+        {
+          "label": "Wikipedia — Ouzouer-sur-Loire",
+          "url": "https://en.wikipedia.org/wiki/Ouzouer-sur-Loire"
+        }
+      ],
+      "notes": "Deaths null. Do not copy 1856 Loire valley totals onto this opening.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "État (later DREAL / DDT Loiret)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Val d'Ouzouer",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "ouzouer-loire-1866-09",
+      "name": "Loire levée at Ouzouer-sur-Loire (1866)",
+      "country": "France",
+      "region": "Ouzouer-sur-Loire, Loiret",
+      "location_label": "Déversoir d'Ouzouer site (1866 breach), Loiret, France",
+      "lat": 47.7667,
+      "lng": 2.4803,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Ouzouer-sur-Loire 47°46′00″N 2°28′49″E — 1886 spillway on the 1846/1856/1866 breach site",
+      "river_or_facility": "Loire right-bank levée of the val d'Ouzouer (later Déversoir d'Ouzouer)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia Loiret dike system: 1866 reopened the same upstream Ouzouer site. Persée: all well-documented 1866 Loire breaches in that archive set were overtopping.",
+      "incident_date": "1866-09",
+      "latest_report_date": "2015",
+      "what_happened": "French Wikipedia (Système d'endiguement de la Loire dans le Loiret): the val d'Ouzouer levée opened again in September 1866 at the site where the 1886 déversoir was later built. Persée (2012) says all well-documented 1866 breaches in its archive set were overtopping. The Comoy commission after 1866 chose spillways at the heads of vals, including Ouzouer (built 1886). No death count is given for this opening; valley-wide 1866 deaths are not copied.",
+      "status": "Historic 1866 opening; 1886 spillway later built on the site.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "French Wikipedia — Système d'endiguement de la Loire dans le Loiret",
+          "url": "https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27endiguement_de_la_Loire_dans_le_Loiret"
+        },
+        {
+          "label": "Persée — Les Brèches des levées de la Loire (1866 overtopping)",
+          "url": "https://www.persee.fr/doc/jhydr_0000-0001_2012_act_34_1_1248"
+        },
+        {
+          "label": "DREAL Centre-Val de Loire — crue de 1866 (déversoir d'Ouzouer)",
+          "url": "https://www.centre-val-de-loire.developpement-durable.gouv.fr/souvenons-nous-la-grande-crue-de-septembre-1866-a3177.html"
+        }
+      ],
+      "notes": "Deaths null. Do not copy 1866 Loire valley totals onto this opening.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "État (later DREAL / DDT Loiret)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Val d'Ouzouer",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "bou-checy-loire-1866-09-27",
+      "name": "Loire levée at Bou / Chécy (1866)",
+      "country": "France",
+      "region": "Bou / Chécy, Loiret",
+      "location_label": "Levée du val de Bou (Bou–Chécy–Mardié), Loiret, France",
+      "lat": 47.8742,
+      "lng": 2.0483,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Bou, Loiret 47°52′27″N 2°02′54″E — village in the Loire meander; Chécy is on the same 6.75 km levée",
+      "river_or_facility": "Levée du val de Bou (Bou, Chécy, Mardié)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Archives départementales du Loiret: witnesses at Château de l'Isle saw the levée rupture at Bou on the night of 27–28 September 1866. Wikipedia val de Bou: several 19th-century breaches (upstream entry; downstream return openings).",
+      "incident_date": "1866-09-27",
+      "latest_report_date": "2015",
+      "what_happened": "Archives départementales du Loiret (La crue de 1866): in the night of 27–28 September 1866 the two keepers of Château de l'Isle (Saint-Denis-en-Val) saw the levée rupture at Bou; the flood wave wrecked most of the château. French Wikipedia (Bou / système d'endiguement): the 6.75 km continuous levée of the val de Bou (communes Bou, Chécy, Mardié) opened several times in the 19th-century floods — an upstream breach that filled the val and downstream return breaches on emptying. bou2040.fr: the 1866 flood (7.80 m at the Jargeau bridge) submerged the village and carried off several houses. No death count is given for this opening; valley-wide 1866 deaths are not copied.",
+      "status": "Historic 1866 opening of the val de Bou levée.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Archives du Loiret — La crue de 1866 (rupture de la levée à Bou)",
+          "url": "https://www.archives-loiret.fr/vie-culturelle-2/documents-du-mois/la-crue-de-1866"
+        },
+        {
+          "label": "French Wikipedia — Bou (val de Bou 19th-century breaches)",
+          "url": "https://fr.wikipedia.org/wiki/Bou_(Loiret)"
+        },
+        {
+          "label": "French Wikipedia — Système d'endiguement (val de Bou / Chécy)",
+          "url": "https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27endiguement_de_la_Loire_dans_le_Loiret"
+        },
+        {
+          "label": "Wikipedia — Bou, Loiret",
+          "url": "https://en.wikipedia.org/wiki/Bou,_Loiret"
+        }
+      ],
+      "notes": "Deaths null. Do not copy 1866 Loire valley totals. Covers leftover names Bou / Bouzy and Chécy on the same levée. Commune pin at Bou.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "État / later Orléans Métropole (GEMAPI)",
+      "year_built": "16th century (grande levée; later raised)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Val de Bou (Bou, Chécy, Mardié; ~650 ha)",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "combleux-loire-1998",
+      "name": "Loire levée toe at Combleux (1998 sheet piles)",
+      "country": "France",
+      "region": "Combleux, Loiret",
+      "location_label": "Levée de la Loire at Combleux, Loiret, France",
+      "lat": 47.9003,
+      "lng": 1.9914,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Combleux 47°54′01″N 1°59′29″E — commune on the Loire / Canal d'Orléans; crest unpublished",
+      "river_or_facility": "Levée de la Loire at Combleux (val d'Orléans right bank)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "foundation"
+      ],
+      "cause_summary": "French Wikipedia Levée de la Loire: the Combleux levee toe was damaged after lowering of the Loire bed; a 330 m sheet-pile wall was driven in 1998.",
+      "incident_date": "1998",
+      "latest_report_date": "1998",
+      "what_happened": "French Wikipedia (Levée de la Loire): in 1998, at Combleux, the toe of the Loire levée had been deteriorated following lowering of the river bed. A 330 m sheet-pile curtain was then driven to consolidate the structure. (A later 2001–2004 Jargeau sheet-pile job is a separate already-listed commune.) No source fetched reported deaths. This is a named leftover Combleux opening/repair, not a 19th-century flood breach.",
+      "status": "330 m sheet-pile toe wall placed in 1998.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "French Wikipedia — Levée de la Loire (Combleux 1998 palplanches)",
+          "url": "https://fr.wikipedia.org/wiki/Lev%C3%A9e_de_la_Loire"
+        },
+        {
+          "label": "Wikipedia — Combleux",
+          "url": "https://en.wikipedia.org/wiki/Combleux"
+        }
+      ],
+      "notes": "Deaths 0: no casualties in the fetched write-up. Not a 19th-century flood breach; leftover named Combleux works.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "État / DDT Loiret",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "330 m sheet-pile repair of deteriorated toe",
+      "downstream_risk": "Combleux / Orléans agglomeration",
+      "economic_damage": null,
+      "investigating_agency": "DDT Loiret / DREAL Centre"
+    },
+    {
+      "id": "mas-teissier-2003-12-03",
+      "name": "Mas Teissier SNCF trémie merlons (Rhône 2003)",
+      "country": "France",
+      "region": "Tarascon / Arles, Bouches-du-Rhône",
+      "location_label": "Trémie SNCF du Mas Teissier (Grand Mas), Tarascon–Arles railway, France",
+      "lat": 43.8058,
+      "lng": 4.6603,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Tarascon 43°48′21″N 4°39′37″E — Chemin du Mas Teissier / Trémie n°1 du Grand Mas is south of Tarascon on the Paris–Marseille line (massifcentralferroviaire PK 766.9); crest unpublished",
+      "river_or_facility": "Merlons / cavaliers de protection of the Mas Teissier (Grand Mas) SNCF trémie",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikibardig / DREAL Rhône-Alpes 2003 monograph: around 21:30 on 3 December, Rhône pressure opened the merlons protecting the SNCF underpasses at Mas Teissier and Ségonnaux by overtopping.",
+      "incident_date": "2003-12-03",
+      "latest_report_date": "2005",
+      "what_happened": "DREAL Rhône-Alpes monograph of the December 2003 Rhône flood and Wikibardig: the Rhône began to overflow into the ségonnaux on 2 December; water piled against the railway embankment. On 3 December around 21:30, pressure opened breaches in the merlons protecting the SNCF trémies at Mas Teissier and at Ségonnaux. Rhône water poured through the underpasses for about 30 hours into the Trébon plain north of Arles (about 16 million m³; 60 cm–2 m for 10–13 days). Géoconfluences names the merlons at mas Teissier and mas de Barachin (ancienne gare des Ségonnaux). Peak at Beaucaire ~12,500 m³/s on 4 December. Seven deaths are the regional 2003 episode total and are not copied onto this railway merlon.",
+      "status": "Trémies blocked on 4 December; historic 2003 railway-merlon failure.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Wikibardig — Crue historique du Rhône de 2003 (merlons Mas Teissier / Ségonnaux)",
+          "url": "http://wikibardig.developpement-durable.gouv.fr/index.php/Wikibardig:Crue_historique_du_Rh%C3%B4ne_de_2003"
+        },
+        {
+          "label": "DREAL Rhône-Alpes — Monographie crue du Rhône décembre 2003",
+          "url": "https://www.donnees.rhone-alpes.developpement-durable.gouv.fr/include/publi/pdf/Monographie_crue_rhone_200312.pdf"
+        },
+        {
+          "label": "Géoconfluences — Arles 2003 (mas Teissier merlons)",
+          "url": "https://geoconfluences.ens-lyon.fr/doc/transv/Risque/RisqueDoc.htm"
+        },
+        {
+          "label": "Wikipedia — Tarascon",
+          "url": "https://en.wikipedia.org/wiki/Tarascon"
+        }
+      ],
+      "notes": "Deaths null. Do not copy 7 regional Rhône 2003 deaths onto this merlon. Tarascon commune pin (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "SNCF / SYMADREM (later Camargue dikes)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": "About 16 million m³ into Trébon (sous-préfecture estimate, shared with Ségonnaux opening)",
+      "breach_size": "Merlon / cavalier breaches at the Mas Teissier trémie (Wikibardig)",
+      "downstream_risk": "Trébon / Monplaisir / ZI nord d'Arles",
+      "economic_damage": null,
+      "investigating_agency": "INRAE / Irstea / DREAL / mission inspection"
+    },
+    {
+      "id": "segonneaux-2003-12-03",
+      "name": "Ségonnaux SNCF trémie merlons (Rhône 2003)",
+      "country": "France",
+      "region": "Les Ségonnaux, Tarascon, Bouches-du-Rhône",
+      "location_label": "Trémie SNCF n°2 des Ségonnaux, Tarascon–Arles railway, France",
+      "lat": 43.751965,
+      "lng": 4.643973,
+      "geo_accuracy": "site",
+      "geo_source": "Trains d'Europe — Gare des Ségonnaux GPS 43.751965, 4.643973 (former station / trémie n°2 PK 768.5)",
+      "river_or_facility": "Merlons of the Ségonnaux SNCF trémie (mas de Barachin / ancienne gare)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Same 21:30 3 December 2003 overtopping of railway-underpass merlons as Mas Teissier. Massif Central Ferroviaire notes the Ségonnaux pont-rail favoured the December 2003 floods after a Rhône dike failure.",
+      "incident_date": "2003-12-03",
+      "latest_report_date": "2005",
+      "what_happened": "Wikibardig and the DREAL 2003 monograph: at about 21:30 on 3 December 2003 the merlons protecting the SNCF trémie at Ségonnaux (and at Mas Teissier) opened under Rhône pressure. Géoconfluences names mas de Barachin (ancienne gare des Ségonnaux). Water ran through the underpass into the lower Trébon (about 4 m NGF vs 6 m NGF west of the railway). Massif Central Ferroviaire: the Trémie n°2 des Ségonnaux pont-rail (PK 768.505) favoured the December 2003 inundation after the Rhône dike failure. Seven regional deaths are not copied onto this merlon.",
+      "status": "Historic 2003 railway-merlon failure.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Wikibardig — Crue du Rhône 2003 (Ségonnaux trémie)",
+          "url": "http://wikibardig.developpement-durable.gouv.fr/index.php/Wikibardig:Crue_historique_du_Rh%C3%B4ne_de_2003"
+        },
+        {
+          "label": "Trains d'Europe — Gare des Ségonnaux (GPS)",
+          "url": "https://www.trains-europe.fr/raildanslegard/ultra/gares13/les-segonnaux.htm"
+        },
+        {
+          "label": "Massif Central Ferroviaire — Pont Trémie n°2 des Ségonnaux (2003 floods)",
+          "url": "https://www.massifcentralferroviaire.com/fiches/fichepra.php?VARpontsrailsID=1274"
+        },
+        {
+          "label": "Géoconfluences — mas de Barachin / Ségonnaux",
+          "url": "https://geoconfluences.ens-lyon.fr/doc/transv/Risque/RisqueDoc.htm"
+        }
+      ],
+      "notes": "Deaths null. Do not copy 7 regional Rhône 2003 deaths. Site pin at former Ségonnaux station.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "SNCF",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "Merlon breaches at the Ségonnaux trémie",
+      "downstream_risk": "Trébon north of Arles",
+      "economic_damage": null,
+      "investigating_agency": "INRAE / Irstea / DREAL"
+    },
+    {
+      "id": "fourques-mas-argence-2003-12-03",
+      "name": "Fourques / Mas d'Argence Petit-Rhône dike (2003)",
+      "country": "France",
+      "region": "Fourques, Gard",
+      "location_label": "Digue du Petit-Rhône at Mas d'Argence, Fourques, Gard, France",
+      "lat": 43.6939,
+      "lng": 4.6111,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Fourques, Gard 43°41′38″N 4°36′40″E — commune at the Rhône / Petit-Rhône fork; Mas d'Argence is a named mas in the commune; crest unpublished",
+      "river_or_facility": "Digue gardoise du Petit-Rhône at Mas d'Argence",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "piping_internal_erosion",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikibardig citing Irstea (Patrice Mériaux, colloque d'Arles 2004): the Mas d'Argence breach was generated by overtopping, possibly with internal erosion. ICI: 150 m opening at 09:30 on 3 December.",
+      "incident_date": "2003-12-03",
+      "latest_report_date": "2023",
+      "what_happened": "On 3 December 2003 at about 09:30, the Petit-Rhône dike failed near Mas d'Argence between Fourques and Saint-Gilles. ICI (2023 anniversary): Yvan Cavallini described a 150 m gaping breach; water crossed the plain toward Bellegarde at 4–5 km/h; 310 people were disaster-declared in Fourques; the town centre was spared. Wikibardig: two major dike ruptures that morning, at Mas d'Argence and at Claire-Farine; Irstea (Mériaux, p. 72, Arles 2004) attributes them to overtopping, with a possible internal-erosion contribution at Mas d'Argence. The rebuilt dike uses clay, rock and concrete and fibre-optic crack detection (ICI). Seven regional 2003 deaths are not copied onto this dike.",
+      "status": "Rebuilt wider dike with fibre-optic monitoring (ICI 2023).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "310 disaster-declared at Fourques (ICI) — commune figure, not the regional evacuee total",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "ICI — Fourques 2003, brèche de 150 m au Mas d'Argence",
+          "url": "https://www.ici.fr/infos/faits-divers-justice/photos-il-y-a-20-ans-la-crue-du-rhone-devastait-une-partie-de-la-commune-de-fourques-6489714"
+        },
+        {
+          "label": "Wikibardig — Crue du Rhône 2003 (Mas d'Argence / Irstea Mériaux)",
+          "url": "http://wikibardig.developpement-durable.gouv.fr/index.php/Wikibardig:Crue_historique_du_Rh%C3%B4ne_de_2003"
+        },
+        {
+          "label": "Wikipedia — Fourques, Gard",
+          "url": "https://en.wikipedia.org/wiki/Fourques,_Gard"
+        }
+      ],
+      "notes": "Deaths null. Do not copy 7 regional Rhône 2003 deaths onto this dike. Commune pin (region).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Later SYMADREM (Camargue dikes from Dec 2004)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "About 150 m (ICI)",
+      "downstream_risk": "Fourques plain / Bellegarde / Petite Camargue gardoise",
+      "economic_damage": null,
+      "investigating_agency": "Irstea (Mériaux) / SYMADREM"
+    },
+    {
+      "id": "claire-farine-2003-12-03",
+      "name": "Claire-Farine Petit-Rhône dike (2003)",
+      "country": "France",
+      "region": "Saint-Gilles / Sylvéréal, Gard",
+      "location_label": "Digue du Petit-Rhône at Claire-Farine, between Saint-Gilles and Sylvéréal, Gard, France",
+      "lat": 43.6786,
+      "lng": 4.4317,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Saint-Gilles, Gard 43°40′43″N 4°25′54″E — Wikibardig places Claire-Farine between Saint-Gilles and Sylvéréal; crest unpublished",
+      "river_or_facility": "Digue gardoise du Petit-Rhône at Claire-Farine",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikibardig citing Irstea Mériaux: the Claire-Farine and Mas d'Argence openings on the morning of 3 December 2003 were generated by overtopping (breaches about the size of the river bed).",
+      "incident_date": "2003-12-03",
+      "latest_report_date": "2005",
+      "what_happened": "Wikibardig (Crue historique du Rhône de 2003): on the morning of 3 December 2003 two large dike ruptures opened at Mas d'Argence (Fourques–Saint-Gilles) and at Claire-Farine (Saint-Gilles–Sylvéréal). Irstea (Patrice Mériaux, colloque d'Arles 2004, p. 72) attributes both to overtopping; the openings were about the size of the river bed. The Claire-Farine breach is illustrated on mémoires-des-catastrophes.org (Wikibardig). These openings flooded the Gardoise Camargue plain from Beaucaire toward the sea (DREAL monograph: two openings in the Gard left-bank Petit-Rhône dike). Seven regional 2003 deaths are not copied onto this dike.",
+      "status": "Historic 2003 Petit-Rhône opening.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Wikibardig — Crue du Rhône 2003 (Claire-Farine)",
+          "url": "http://wikibardig.developpement-durable.gouv.fr/index.php/Wikibardig:Crue_historique_du_Rh%C3%B4ne_de_2003"
+        },
+        {
+          "label": "DREAL Rhône-Alpes — Monographie crue décembre 2003",
+          "url": "https://www.donnees.rhone-alpes.developpement-durable.gouv.fr/include/publi/pdf/Monographie_crue_rhone_200312.pdf"
+        },
+        {
+          "label": "Wikipedia — Saint-Gilles, Gard",
+          "url": "https://en.wikipedia.org/wiki/Saint-Gilles,_Gard"
+        }
+      ],
+      "notes": "Deaths null. Do not copy 7 regional Rhône 2003 deaths. Saint-Gilles commune pin (region); Claire-Farine hamlet crest unpublished.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Later SYMADREM",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "About the size of the river bed (Wikibardig / Irstea)",
+      "downstream_risk": "Petite Camargue gardoise / Saint-Gilles–Sylvéréal plain",
+      "economic_damage": null,
+      "investigating_agency": "Irstea (Mériaux)"
+    },
+    {
+      "id": "preignac-garonne-2021-02-02",
+      "name": "Preignac Garonne dike (20 m rupture / clapet)",
+      "country": "France",
+      "region": "Preignac, Gironde",
+      "location_label": "Garonne left-bank dike, Preignac, Gironde, France",
+      "lat": 44.5858,
+      "lng": -0.2942,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Preignac 44°35′09″N 0°17′39″W — commune downstream of Langon; crest unpublished",
+      "river_or_facility": "Digue de protection de la Garonne (Preignac / Preignac–Toulenne)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping",
+        "poor_maintenance",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ARIA: exceptional Garonne flood above the protection level opened a 20 m rupture and destroyed a pelle/clapet; Sud Ouest: openings formed on the falling flood, weakened by badger burrows.",
+      "incident_date": "2021-02-02",
+      "latest_report_date": "2021-03",
+      "what_happened": "ARIA 57026 (2 February 2021, Preignac, EISH Rouge): during a three-day exceptional Garonne flood a dike reach ruptured over 20 m; 700 m³ of farmland was carried away, exposing a sewer serving 800 households; the lift station and a winery-effluent plant were at risk; stage 9.40 m exceeded the protection level; two houses flooded and occupants evacuated. ARIA 57025 (Orange): important toe and crest erosion. ARIA 57027 (Rouge): the dike's pelle and clapet were destroyed. Sud Ouest: two openings remained a month later (widest about 8 m), attributed to the falling flood and badger burrows; about 15 riverside houses were hit. A full VTA of the structure was required. No source fetched reported deaths at this dike.",
+      "status": "Emergency watch and PCS update pending permanent repair; owner was a proprietors' association (Sud Ouest).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "Occupants of two houses evacuated (ARIA)",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "ARIA 57026 — Rupture d'une digue (Preignac, 20 m)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/57026/"
+        },
+        {
+          "label": "ARIA 57025 — Détérioration du pied d'une digue (Preignac)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/57025/"
+        },
+        {
+          "label": "ARIA 57027 — Rupture pelle et clapet (Preignac)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/57027/"
+        },
+        {
+          "label": "Sud Ouest — Preignac dike opened in two places",
+          "url": "https://www.sudouest.fr/gironde/langon/sud-gironde-le-village-de-preignac-desormais-menace-par-le-moindre-caprice-du-fleuve-1528132.php"
+        },
+        {
+          "label": "Wikipedia — Preignac",
+          "url": "https://en.wikipedia.org/wiki/Preignac"
+        }
+      ],
+      "notes": "Do not copy 2021 Garonne regional flood totals onto this dike. Deaths null: ARIA gives no fatality count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Association de propriétaires (Sud Ouest); CdC Convergence Garonne asked to take over",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": "700 m³ of farmland scoured (ARIA)",
+      "breach_size": "20 m rupture (ARIA 57026); Sud Ouest later described two openings, widest ~8 m",
+      "downstream_risk": "Preignac riverside houses, sewer for 800 households, winery plant",
+      "economic_damage": null,
+      "investigating_agency": "Gironde hydraulic-works control / ARIA"
+    },
+    {
+      "id": "bassanne-garonne-2021-02-04",
+      "name": "Bassanne Garonne protection dike (11 m rupture)",
+      "country": "France",
+      "region": "Bassanne, Gironde",
+      "location_label": "Garonne / Bassanne casier dike, Bassanne, Gironde, France",
+      "lat": 44.5603,
+      "lng": -0.0889,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Bassanne 44°33′37″N 0°05′20″W — commune on the Bassanne brook / left-bank Garonne casier; crest unpublished",
+      "river_or_facility": "Digue de protection de la Garonne (casier Barie–Bassanne)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ARIA 56820: two-day overtopping of the Garonne protection dike opened regressive erosion and an 11×6×2–3 m rupture.",
+      "incident_date": "2021-02-04",
+      "latest_report_date": "2021-02-04",
+      "what_happened": "ARIA 56820 (4 February 2021, Bassanne, EISH Rouge): during an exceptional flood the Garonne protection dike overtopped for two days. Regressive erosion on the outer side of the hydraulic casier became a rupture 11 m long, 6 m wide and 2–3 m high. Flood risk in a further flood was judged real; sandbags under geotextile were placed and the damage watched. ARIA 56865/56864 (Orange) record 25×3×2–3 m inner-casier regressive erosion at Bassanne. Sud Ouest: a breach of about ten metres opened along the Bassanne brook on the Barie–Bassanne casier. No source fetched reported deaths at this dike.",
+      "status": "Emergency sandbag/geotextile protection pending rebuild.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "ARIA 56820 — Rupture d'un tronçon de digue (Bassanne, 11 m)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/56820/"
+        },
+        {
+          "label": "ARIA 56865 — Surverse d'une digue (Bassanne)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/56865/"
+        },
+        {
+          "label": "Sud Ouest — Bassanne / Barie / Preignac breaches",
+          "url": "https://www.sudouest.fr/gironde/barie/digues-du-sud-gironde-ce-sera-la-catastrophe-si-on-ne-fait-rien-1261786.php"
+        },
+        {
+          "label": "Wikipedia — Bassanne",
+          "url": "https://en.wikipedia.org/wiki/Bassanne"
+        }
+      ],
+      "notes": "Do not copy 2021 Garonne regional flood totals onto this dike. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Communauté de communes du Réolais en Sud Gironde (GEMAPI)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "11 m × 6 m × 2–3 m (ARIA 56820)",
+      "downstream_risk": "Barie–Bassanne casier / Bassanne village",
+      "economic_damage": null,
+      "investigating_agency": "Digue manager / Gironde hydraulic-works control (ARIA)"
+    },
+    {
+      "id": "barie-garonne-2021-02",
+      "name": "Barie Garonne dike concrete shell (2021)",
+      "country": "France",
+      "region": "Barie, Gironde",
+      "location_label": "Garonne left-bank dike, Barie, Gironde, France",
+      "lat": 44.5711,
+      "lng": -0.1136,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Barie 44°34′16″N 0°06′49″W — left-bank commune next to Bassanne; crest unpublished",
+      "river_or_facility": "Digue de protection de la Garonne (Barie / casier Barie–Bassanne)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Sud Ouest: the February 2021 Garonne flood tore away part of the concrete shell protecting the Barie dike over several tens of metres; the paper lists Barie among communes where breaches or openings formed, including on the falling flood.",
+      "incident_date": "2021-02",
+      "latest_report_date": "2021-03",
+      "what_happened": "Sud Ouest (March 2021): after the February Garonne flood, several openings formed at Floudès, Bassanne, Barie and Preignac, some on the falling flood. At Barie, part of the concrete shell protecting the dike was torn away over several tens of metres. Mayor Bernard Pagot said a further rise would flood the village immediately. Later Sud Ouest (Réolais works): 29 sites on 28 km of dikes (Mongauzy, Bourdelles, Fontet, La Réole, Floudès, Bassanne, Barie) were repaired; Pagot, then GEMAPI vice-president, described the emergency rebuild. No ARIA sheet fetched names Barie as a separate Rouge rupture; no source fetched reported deaths at this dike.",
+      "status": "Included in 2021 Réolais emergency dike repairs.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Sud Ouest — Barie concrete shell torn over tens of metres",
+          "url": "https://www.sudouest.fr/gironde/barie/digues-du-sud-gironde-ce-sera-la-catastrophe-si-on-ne-fait-rien-1261786.php"
+        },
+        {
+          "label": "Sud Ouest — Réolais dike works (Barie among 29 sites)",
+          "url": "https://www.sudouest.fr/gironde/la-reole/inondations-en-sud-gironde-les-grands-travaux-sur-les-digues-ont-commence-dans-le-reolais-10842102.php"
+        },
+        {
+          "label": "Wikipedia — Barie",
+          "url": "https://en.wikipedia.org/wiki/Barie"
+        }
+      ],
+      "notes": "Do not copy 2021 Garonne regional flood totals. Deaths null. Concrete-shell damage; not given an ARIA Rouge rupture length in fetched sheets.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Communauté de communes du Réolais en Sud Gironde (GEMAPI)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "Concrete shell torn over several tens of metres (Sud Ouest)",
+      "downstream_risk": "Barie village / Barie–Bassanne casier",
+      "economic_damage": null,
+      "investigating_agency": "CdC Réolais GEMAPI"
+    },
+    {
+      "id": "matrot-2016-05-29",
+      "name": "Étang de Matrot dike (La Roche-en-Brenil)",
+      "country": "France",
+      "region": "La Roche-en-Brenil, Côte-d'Or",
+      "location_label": "Étang de Matrot dam, La Roche-en-Brenil, Côte-d'Or, France",
+      "lat": 47.3884,
+      "lng": 4.1789,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia La Roche-en-Brenil 47°23′18″N 4°10′44″E — Bien Public: Matrot is an Argentalet barrage pond on this commune; crest unpublished",
+      "river_or_facility": "Étang de Matrot / Argentalet",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Le Bien Public: on 29 May 2016 the Cassin pond dike failed around noon and four other dikes including Matrot, just downstream, then failed in the same cloudburst.",
+      "incident_date": "2016-05-29",
+      "latest_report_date": "2020-09-21",
+      "what_happened": "Le Bien Public: on Sunday 29 May 2016 around noon the dike of Étang de Cassin failed; four other dikes including Étang de Matrot, immediately downstream on the Argentalet at La Roche-en-Brenil, then suffered the same fate. Matrot is a 5 ha pond owned by the Bréon family for 40 years. A 2020 restoration (four months of works) was the first of five sector ponds to be rebuilt. The same day's press (Bien Public live) reported about 10 people evacuated from mills/barns in the Dompierre-en-Morvan / La Roche-en-Brenil / Précy-sous-Thil pond cluster and roads D15/D70 cut. Dompierre-en-Morvan 2016-05-29 is already a separate live record for a different named pond. No source fetched gave a death count at Matrot.",
+      "status": "Dike restored in 2020 (Bien Public).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Le Bien Public — Matrot dike restored four years after failure",
+          "url": "https://www.bienpublic.com/environnement/2020/09/21/quatre-ans-apres-avoir-cede-la-digue-de-l-etang-de-matrot-a-ete-restauree"
+        },
+        {
+          "label": "Le Bien Public — 29 May 2016 dikes fail at La Roche-en-Brenil",
+          "url": "https://www.bienpublic.com/edition-haute-cote-d-or/2016/05/29/la-roche-en-brenil-deux-routes-coupees-des-digues-qui-cedent-et-des-etangs-qui-debordent-ljpz"
+        },
+        {
+          "label": "Wikipedia — La Roche-en-Brenil",
+          "url": "https://en.wikipedia.org/wiki/La_Roche-en-Brenil"
+        }
+      ],
+      "notes": "Deaths null: press reports evacuations in the cluster, no Matrot fatality count. Do not copy other 29 May 2016 Morvan pond events onto this dike. Separate from already-live Dompierre-en-Morvan.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Famille Bréon (private, 5 ha)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Argentalet / roads D15–D70 / Clermont hamlet",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "cassin-2016-05-29",
+      "name": "Étang de Cassin dike (La Roche-en-Brenil)",
+      "country": "France",
+      "region": "La Roche-en-Brenil, Côte-d'Or",
+      "location_label": "Étang de Cassin dam, La Roche-en-Brenil, Côte-d'Or, France",
+      "lat": 47.3884,
+      "lng": 4.1789,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia La Roche-en-Brenil 47°23′18″N 4°10′44″E — Bien Public names Cassin as the first dike to fail that afternoon; crest unpublished",
+      "river_or_facility": "Étang de Cassin",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Le Bien Public: around noon on 29 May 2016 the Cassin pond dike failed suddenly in a cloudburst; four other sector dikes including Matrot then failed.",
+      "incident_date": "2016-05-29",
+      "latest_report_date": "2020-09-21",
+      "what_happened": "Le Bien Public (2020 retrospective): everyone in that part of the Morvan remembers the terrible afternoon of Sunday 29 May 2016, around noon, when the dike of Étang de Cassin suddenly failed. Four other dikes, including Matrot just downstream, then suffered the same fate. The 29 May 2016 live report describes pond-dike failures around Dompierre-en-Morvan, La Roche-en-Brenil and Précy-sous-Thil, about 10 people evacuated, and the D70 bridge at Clermont losing its safety barriers. No source fetched gave a death count at Cassin. Separate from already-live Dompierre-en-Morvan.",
+      "status": "Failed 2016; not the pond restored in the 2020 Matrot article.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Le Bien Public — Cassin failed first on 29 May 2016",
+          "url": "https://www.bienpublic.com/environnement/2020/09/21/quatre-ans-apres-avoir-cede-la-digue-de-l-etang-de-matrot-a-ete-restauree"
+        },
+        {
+          "label": "Le Bien Public — 29 May 2016 live (dikes fail)",
+          "url": "https://www.bienpublic.com/edition-haute-cote-d-or/2016/05/29/la-roche-en-brenil-deux-routes-coupees-des-digues-qui-cedent-et-des-etangs-qui-debordent-ljpz"
+        },
+        {
+          "label": "Wikipedia — La Roche-en-Brenil",
+          "url": "https://en.wikipedia.org/wiki/La_Roche-en-Brenil"
+        }
+      ],
+      "notes": "Deaths null. First named dike in the 29 May 2016 La Roche-en-Brenil cascade. Not Dompierre-en-Morvan (already live).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Downstream ponds including Matrot / Argentalet",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "cuxac-daude-2018-10-16",
+      "name": "Cuxac-d'Aude flood-protection dike (41 m breach)",
+      "country": "France",
+      "region": "Cuxac-d'Aude, Aude",
+      "location_label": "Flood-protection dike near the wastewater plant, Cuxac-d'Aude, France",
+      "lat": 43.2464,
+      "lng": 3.0,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Cuxac-d'Aude 43°14′47″N 3°00′00″E — Aude low-plain commune; crest unpublished",
+      "river_or_facility": "Digue de protection contre les inondations (Cuxac-d'Aude, near WWTP)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "ARIA 52859: a flood overtopping opened a 41 m breach in a protection dike beside a wastewater plant.",
+      "incident_date": "2018-10-16",
+      "latest_report_date": "2018-10-16",
+      "what_happened": "ARIA 52859 (16 October 2018, Cuxac-d'Aude, EISH Rouge): a 41 m breach was found in a flood-protection dike near a wastewater treatment plant. The operator feared a major discharge through the breach in a further flood. The gap was staked and emergency repairs with rock armour were carried out. ARIA states a flood overtopping caused the breach. No source fetched reported deaths at this dike.",
+      "status": "Emergency rock-armour repair after the 41 m opening.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "ARIA 52859 — Brèche dans une digue (Cuxac-d'Aude, 41 m)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/52859/"
+        },
+        {
+          "label": "Wikipedia — Cuxac-d'Aude",
+          "url": "https://en.wikipedia.org/wiki/Cuxac-d%27Aude"
+        }
+      ],
+      "notes": "Deaths null: ARIA gives no fatality count. Leftover named FR dike used to reach 20 after the leftover slice.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "41 m",
+      "downstream_risk": "Cuxac-d'Aude WWTP / protected floodplain",
+      "economic_damage": null,
+      "investigating_agency": "ARIA / Aude hydraulic-works control"
+    },
+    {
+      "id": "damgan-2023-10-29",
+      "name": "Damgan masonry sea-dike facing (storm Céline)",
+      "country": "France",
+      "region": "Damgan, Morbihan",
+      "location_label": "Masonry sea dike, Damgan, Morbihan, France",
+      "lat": 47.5206,
+      "lng": -2.5767,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Damgan 47°31′14″N 2°34′36″W — coastal commune; crest unpublished",
+      "river_or_facility": "Digue maçonnée de Damgan (Pénerf coast)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "ARIA 61783: storm Céline and an 80 cm surge, plus wave shock focused by a facing rock reef, collapsed 40 m of masonry facing and the lower concrete apron.",
+      "incident_date": "2023-10-29",
+      "latest_report_date": "2023-10-29",
+      "what_happened": "ARIA 61783 (29 October 2023, Damgan, EISH Orange): during storm Céline part of a masonry sea-dike facing ruptured. Damaged material was removed, earthworks done on the destroyed length, geotextile and rock placed, and a concrete toe beam poured. The collapse affected 40 m of masonry facing and the lower concrete paving. Sea level was raised by an 80 cm surge; damage is attributed to repeated wave shocks, with a rock front opposite the dike increasing wave speed and power. The hydraulic-works inspectorate ordered a detailed inspection by an approved owner and an evaluation of the conditions that led to the deterioration. No source fetched reported deaths.",
+      "status": "Emergency facing repair (geotextile, rock, concrete toe).",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "ARIA 61783 — Rupture du perré maçonné (Damgan, tempête Céline)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/61783/"
+        },
+        {
+          "label": "Wikipedia — Damgan",
+          "url": "https://en.wikipedia.org/wiki/Damgan"
+        }
+      ],
+      "notes": "Deaths 0: ARIA reports facing damage, no casualties. Leftover named FR coastal dike.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "40 m of masonry facing plus lower concrete apron (ARIA)",
+      "downstream_risk": "Damgan seafront",
+      "economic_damage": null,
+      "investigating_agency": "Inspection des ouvrages hydrauliques (ARIA)"
+    },
+    {
+      "id": "aken-elbe-2013-06-11",
+      "name": "Aken forest Elbe dike / Mutter Sturm (2013)",
+      "country": "Germany",
+      "region": "Aken (Elbe) / Dessau-Großkühnau, Saxony-Anhalt",
+      "location_label": "Elbe dike in the forest east of Aken (Mutter Sturm), Saxony-Anhalt, Germany",
+      "lat": 51.85,
+      "lng": 12.05,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Aken (Elbe) 51°51′N 12°03′E — left-bank Elbe town; MZ places the 11 June opening in the forest east of Aken toward Dessau; crest unpublished",
+      "river_or_facility": "Elbe left-bank dike (Aken forest / Mutter Sturm)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Mitteldeutsche Zeitung: the Elbe dike in the forest east of Aken broke around 05:00 on 11 June 2013; a 76-hour emergency dike was then closed in the woods.",
+      "incident_date": "2013-06-11",
+      "latest_report_date": "2013-06",
+      "what_happened": "Mitteldeutsche Zeitung: around 05:00 on Saturday 11 June 2013 the Elbe dike broke in a hard-to-reach forest east of Aken (Anhalt-Bitterfeld). Fire chief Siegfried Mehl found the opening and later also worked at Mutter Sturm, where Dessau crews had built an emergency dike at the lowest point after the high bank between the Mutter Sturm dike (west of Dessau-Großkühnau) and Aken was washed away. After 76 hours without a break, a new woodland dike was closed at 09:17 on the Tuesday and a hook dike on the Dessau road held water for a slow release. This is a separate named opening from already-live Fischbeck (10 June, right-bank Elbe) and Breitenhagen (9 June, Saale). No source fetched gave a death count for the Aken forest dike; 2013 Elbe regional deaths are not copied.",
+      "status": "Emergency woodland dike closed after 76 hours (MZ).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "MZ — Aken 11 June 2013 forest dike break (~05:00)",
+          "url": "https://www.mz.de/lokal/koethen/elbe-hochwasser-2013-in-aken-am-11-juni-gegen-5-uhr-brach-der-deich-2028132"
+        },
+        {
+          "label": "MZ — Mutter Sturm / Aken evacuation context",
+          "url": "https://www.mz.de/mitteldeutschland/hochwasser-in-sachsen-anhalt-deich-bei-bitterfeld-geschlossen-evakuierung-in-magdeburg-und-aken-2021267"
+        },
+        {
+          "label": "Wikipedia — Aken (Elbe)",
+          "url": "https://en.wikipedia.org/wiki/Aken_(Elbe)"
+        }
+      ],
+      "notes": "Deaths null. Do not copy 2013 Elbe/Saale regional deaths. Separate from Fischbeck 10 June and Breitenhagen 9 June (already live).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "LHW Sachsen-Anhalt / local dike associations",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Aken forest / Dessau-Großkühnau / Mosigkau approaches",
+      "economic_damage": null,
+      "investigating_agency": "Landesbetrieb für Hochwasserschutz Sachsen-Anhalt"
     }
   ]
 }
