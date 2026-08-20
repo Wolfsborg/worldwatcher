@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 549,
+  "count": 570,
   "current_count": 20,
-  "historical_count": 529,
+  "historical_count": 550,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -29821,6 +29821,1164 @@
       "economic_damage": null,
       "investigating_agency": "Paradise Dam Commission of Inquiry (2020); GHD / technical review panels",
       "severity": "major"
+    },
+    {
+      "id": "unterer-schalker-1733-12-26",
+      "name": "Unterer Schalker Teich (first filling)",
+      "country": "Germany",
+      "region": "Schulenberg, Oberharz, Lower Saxony",
+      "location_label": "Unterer Schalker Teich, Schulenberg, Harz, Germany",
+      "lat": 51.835898,
+      "lng": 10.393609,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia list of dam accidents (Unterer Schalker Teich) 51°50′9.2″N 10°23′37″E",
+      "river_or_facility": "Unterer Schalker Teich / Schalke (Oberharzer Wasserregal)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "construction_first_filling",
+        "structural_design"
+      ],
+      "cause_summary": "German Wikipedia / Harz mining-archive investigation: first-filling failure of a new core-sealed pond; water pressure shoved the too-narrow downstream shell after longitudinal cracks and settlements.",
+      "incident_date": "1733-12-26",
+      "latest_report_date": "1999-09",
+      "what_happened": "The Unterer Schalker Teich was newly built 1729–1733 as one of the first Oberharz ponds of the new type (core seal of turf sods). German Wikipedia: it was still in first filling when, on 26 December 1733, the dam broke after two weeks of longitudinal cracks between the core and the upstream fill and centimetre-scale settlements that crews were still packing that evening. The flood killed seven people in Schulenberg plus twelve cows and a horse. The 1733 mining-office investigation (Niedersächsisches Bergarchiv 1165/24; summarised by Wellner and Teicke 1999) attributed the break to insufficient downstream mass behind a mid-dam core. The dam was rebuilt wider in 1734.",
+      "status": "Rebuilt 1734; pond still in the UNESCO Oberharz water-management landscape.",
+      "deaths": 7,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "German Wikipedia — Unterer Schalker Teich",
+          "url": "https://de.wikipedia.org/wiki/Unterer_Schalker_Teich"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "notes": "Deaths: 7 (detailed German Wikipedia / investigation summary). The accident list table gives 9; this record uses the investigation-based 7.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Oberharz mining administration (historically)",
+      "year_built": "1729–1733",
+      "height_m": 11.28,
+      "reservoir_capacity": "151,000 m³ (present pond)",
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Schulenberg",
+      "economic_damage": null,
+      "investigating_agency": "Clausthal mining office (1733 investigation)"
+    },
+    {
+      "id": "silberteich-1760-12-04",
+      "name": "Silberteich (Andreasberger / Brunnenbacher Teich)",
+      "country": "Germany",
+      "region": "between Braunlage and Sankt Andreasberg, Harz, Lower Saxony",
+      "location_label": "Silberteich, Braunlage, Harz, Germany",
+      "lat": 51.72315,
+      "lng": 10.581003,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia list of dam accidents (Silberteich) 51°43′23.3″N 10°34′51.6″E",
+      "river_or_facility": "Silberteich / Brunnenbach (Oberharzer Wasserregal)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "German Wikipedia: dam overtopped at the ice-obstructed spillway during rain-on-snowmelt, then breached about 30 m; spillway judged too small.",
+      "incident_date": "1760-12-04",
+      "latest_report_date": "1989",
+      "what_happened": "Silberteich (then Andreasberger / Brunnenbacher Teich) was built in 1755 as an Oberharz core-sealed pond and raised twice during construction. German Wikipedia: in the night of 3–4 December 1760, rain and snowmelt overtopped the dam at the spillway, which ice floes had obstructed, and the dam broke over about 30 m. The flood destroyed Brunnenbachsmühle about 5 km downstream; all four inhabitants died. The pond was rebuilt in 1763. Martin Schmidt (1989) treats it as a documented Oberharz dam-damage case.",
+      "status": "Rebuilt 1763; pond remains in Harz National Park.",
+      "deaths": 4,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "German Wikipedia — Silberteich",
+          "url": "https://de.wikipedia.org/wiki/Silberteich"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "historically Harz mining authority; today Harz National Park",
+      "year_built": "1755",
+      "height_m": 8,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": "about 30 m",
+      "downstream_risk": "Brunnenbachsmühle, Brunnenbach valley",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "filzteich-1783-02-04",
+      "name": "Filzteich (Schneeberg)",
+      "country": "Germany",
+      "region": "Schneeberg / Hartmannsdorf, Erzgebirge, Saxony",
+      "location_label": "Filzteich, Schneeberg, Saxony, Germany",
+      "lat": 50.571465,
+      "lng": 12.609433,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia list of dam accidents (Filzteich) 50°34′17.3″N 12°36′34″E",
+      "river_or_facility": "Filzteich / Zschorlaubach (Schneeberg mining pond)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "poor_maintenance",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "German Wikipedia: rotting wooden bottom outlet (Striegel) left a cavity in the dam; rain and rapid snowmelt then breached the bank more than 22.5 m wide.",
+      "incident_date": "1783-02-04",
+      "latest_report_date": "1815",
+      "what_happened": "Filzteich, a Schneeberg tin-mining pond built 1483–1485, failed on 4 February 1783 after prolonged rain and rapid snowmelt. German Wikipedia: the dam tore more than 22.5 m (over 40 Dresden ells) and an 8 m flood wave ran toward Zschorlau and Auerhammer. In Zschorlau four houses were swept away and more than 30 badly damaged; mills were carried off; 18 people drowned; Zschorlau damage alone about 30,000 thalers. Forty miners underground survived because debris blocked the water-house door. The cited cause is decay of the wooden outlet trough, which let earth fall in and form a cavity. The dam was rebuilt by 1786 with a granite outlet. Aue's town chronicle also records an earlier 1573 Filzteich flood-break (not merged into this record).",
+      "status": "Rebuilt 1786; pond still in use (UNESCO Erzgebirge mining landscape).",
+      "deaths": 18,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "German Wikipedia — Filzteich",
+          "url": "https://de.wikipedia.org/wiki/Filzteich"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "notes": "1573 Filzteich break is a separate earlier event and is not given its own record here (thinner sourcing).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "historically Schneeberg mining; today Stadtwerke Schneeberg",
+      "year_built": "1483–1485",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": "more than 22.5 m",
+      "downstream_risk": "Zschorlau, Auerhammer, Schneeberg mines",
+      "economic_damage": "about 30,000 thalers in Zschorlau alone (contemporary account)",
+      "investigating_agency": null
+    },
+    {
+      "id": "mandelhoelzer-1855-07-22",
+      "name": "Mandelhölzer Teich (Wormkedamm)",
+      "country": "Germany",
+      "region": "Mandelholz, Oberharz am Brocken, Saxony-Anhalt",
+      "location_label": "Mandelholz / Wormke, Harz, Germany",
+      "lat": 51.7436,
+      "lng": 10.7242,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Mandelholz) hamlet at the Wormke/Kalte Bode confluence; German Wikipedia: dam was ~400 m upstream of Mandelholz",
+      "river_or_facility": "Mandelhölzer Teich / Wormketalsperre / Wormke",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Volksstimme / Harz sources: after a severe storm the overflow could not pass the flood and the Wormke dam breached.",
+      "incident_date": "1855-07-22",
+      "latest_report_date": "2010-07-22",
+      "what_happened": "The Mandelhölzer Teich (Wormkedamm) on the Wormke, a timber/ironworks pond above Mandelholz, failed on 22 July 1855. German Wikipedia and Volksstimme (quoting Christoph Unger): a great storm preceded the break; floodwater devastated Neue Hütte, Lüdershof, Rothehütte and Königshof (today Königshütte). Markers in the Königshütte foundry later showed a water mark of 1.37 m in the village. Harzlife: the dam in its last stage was about 10 m high and 115 m long. It was not rebuilt; remains are a stop on a local mining trail. No source fetched gave a death count.",
+      "status": "Not rebuilt; ruins remain. Later Mandelholztalsperre (1950s) is a different dam on the Kalte Bode.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "German Wikipedia — Mandelhölzer Teich",
+          "url": "https://de.wikipedia.org/wiki/Mandelh%C3%B6lzer_Teich"
+        },
+        {
+          "label": "Volksstimme — Heute vor 155 Jahren: Der Wormkedamm bricht",
+          "url": "https://www.volksstimme.de/lokal/wernigerode/heute-vor-155-jahren-der-wormkedamm-bricht-1779010"
+        },
+        {
+          "label": "harzlife — Wormke / Wormketalsperre",
+          "url": "https://www.harzlife.de/extra/wormke.html"
+        }
+      ],
+      "notes": "Deaths not given; left null. Distinct from the 1950s Mandelholztalsperre.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "by 15th century; rebuilt/enlarged around 1797 (Unger via Volksstimme)",
+      "height_m": 10,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Königshütte settlements on Wormke / Kalte Bode",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "gasco-1799-05-14",
+      "name": "Presa de El Gasco (construction collapse)",
+      "country": "Spain",
+      "region": "Galapagar / Torrelodones / Las Rozas, Community of Madrid",
+      "location_label": "El Gasco dam, Guadarrama River, Madrid, Spain",
+      "lat": 40.551265,
+      "lng": -3.945439,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia list of dam accidents (Gasco) 40°33′4.6″N 3°56′43.6″W",
+      "river_or_facility": "Presa de El Gasco / Canal del Guadarrama / Río Guadarrama",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "construction_first_filling",
+        "extreme_rainfall",
+        "structural_design"
+      ],
+      "cause_summary": "Spanish Wikipedia / Comunidad de Madrid: a storm on the night of 14 May 1799 collapsed part of the unfinished downstream face after water filled interior cells; the dam was still under construction (~53 m of a planned ~90 m).",
+      "incident_date": "1799-05-14",
+      "latest_report_date": "2024",
+      "what_happened": "El Gasco, Carlos Lemaur's unfinished masonry dam for the Canal del Guadarrama, was under construction when a severe storm on the night of 14 May 1799 collapsed part of the southern/downstream wall. Spanish Wikipedia: the dam had reached about 53 m. Comunidad de Madrid: water accumulated in the interior cells. The works were abandoned (formally 15 May 1799). Spanish Wikipedia stresses that finance (Banco de San Carlos liquidity crisis) and earlier slowdowns also explain why the canal was not restarted; the 1802 Puentes failure is named as a later political reason not to resume. No source fetched reported deaths at El Gasco.",
+      "status": "Abandoned unfinished; ruins remain a listed historic work.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Spanish Wikipedia — Presa de El Gasco",
+          "url": "https://es.wikipedia.org/wiki/Presa_de_El_Gasco"
+        },
+        {
+          "label": "Comunidad de Madrid — Presa de El Gasco y Canal del Guadarrama",
+          "url": "https://www.comunidad.madrid/patrimonio-cultural/presa-gasco-canal-guadarrama"
+        }
+      ],
+      "notes": "Construction-site wall collapse, not a completed-reservoir flood. Deaths not given; left null. Distinct from Puentes 1802 (already in the DB).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Canal del Guadarrama / Lemaur project",
+      "year_built": "1786–1799 (unfinished)",
+      "height_m": 53,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": "partial collapse of the downstream/southern face",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "sonzier-1888-11-06",
+      "name": "Sonzier tramway reservoir",
+      "country": "Switzerland",
+      "region": "Sonzier, Montreux, Canton of Vaud",
+      "location_label": "Sonzier, Montreux, Switzerland",
+      "lat": 46.44031,
+      "lng": 6.92518,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia list of dam accidents (Sonzier) approx. 46.44031 N, 6.92518 E",
+      "river_or_facility": "Sonzier reservoir for the Vevey–Montreux–Chillon–Villeneuve tramway",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "construction_first_filling"
+      ],
+      "cause_summary": "German Wikipedia / Schweizerische Bauzeitung: masonry or concrete gravity wall (about 8.5–10 m) failed about six months after the tramway opened; contemporary comment called the masonry weak.",
+      "incident_date": "1888-11-06",
+      "latest_report_date": "2021",
+      "what_happened": "At 05:00 on 6 November 1888 the Sonzier water reservoir above Montreux, built in 1888 to power Switzerland's first electric tramway (Vevey–Montreux–Chillon–Villeneuve), failed. German Wikipedia: the gravity wall is given as 8.5 or 10 m; storage two basins of 2,500 m3 each. The flood killed between 5 and 13 people depending on the source (figures 5, 7, 9 and 13 all appear). SVE Bulletin 2021 still cites 5–13 and calls it Switzerland's first and so far last serious dam accident. Courts acquitted those responsible. A. Vogel (1984) lists it among European masonry/concrete dam failures.",
+      "status": "Historical; Swiss dam-safety literature treats it as the country's only fatal reservoir-wall failure.",
+      "deaths": 5,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "German Wikipedia — Sonzier",
+          "url": "https://de.wikipedia.org/wiki/Sonzier"
+        },
+        {
+          "label": "SVE Bulletin 2021 — Sonzier 1888",
+          "url": "https://www.e-periodica.ch/cntmng?pid=sev-003%3A2021%3A112%3A%3A1003"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "notes": "Deaths recorded as 5 (lowest figure that all sources include). Range in sources is 5, 7, 9 or 13; SVE 2021 still says 5–13. Not treated as 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Société électrique Vevey / tramway company",
+      "year_built": "1888",
+      "height_m": 8.5,
+      "reservoir_capacity": "two basins of 2,500 m3 each",
+      "construction": "masonry",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Chauderon gorge / Montreux side",
+      "economic_damage": null,
+      "investigating_agency": "Swiss courts (acquittal)"
+    },
+    {
+      "id": "pilska-1854-06-22",
+      "name": "Pilská nádrž (Sofiin rybník)",
+      "country": "Czechia",
+      "region": "Obecnice / Bohutín, Příbram District, Central Bohemia",
+      "location_label": "Pilská Reservoir, Brdy, Czechia",
+      "lat": 49.67806,
+      "lng": 13.90639,
+      "geo_accuracy": "site",
+      "geo_source": "Czech Wikipedia (Pilská nádrž) 49°40′41″N 13°54′23″E",
+      "river_or_facility": "Pilská nádrž / Pilský potok (originally Sofiin rybník)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "extreme_rainfall",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Czech Wikipedia / Brdy local history: dam on unstable Cambrian bedrock with seepage during first filling; after long rains the embankment breached the night of 21–22 June 1854.",
+      "incident_date": "1854-06-22",
+      "latest_report_date": "2024",
+      "what_happened": "Pilská (Sofiin) reservoir above Příbram, built 1849–1853 by the Klein brothers for mine and smelter water, failed shortly after completion. Czech Wikipedia: after long rains the dam fully breached before midnight on 21 June 1854; the flood caused heavy damage in Bohutín and killed two people. A contemporary Příbram mining account (Solvayovy lomy text) dates the night to 22 June 1854, says the ~20 m dam reached 16.2 m, and likewise records two deaths, with riders sent down the Litavka to warn people. The dam was repaired 1854–1861; later reconstructions followed more seepage. Two deaths in Bohutín are the dam-flood figure used here.",
+      "status": "Rebuilt and later reconstructed; now a Příbram drinking-water reservoir.",
+      "deaths": 2,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Czech Wikipedia — Pilská nádrž",
+          "url": "https://cs.wikipedia.org/wiki/Pilsk%C3%A1_n%C3%A1dr%C5%BE"
+        },
+        {
+          "label": "Solvayovy lomy — Příbram ponds (contemporary 1854 account)",
+          "url": "https://podzemi.solvayovylomy.cz/cteni/Pribram1/14.htm"
+        }
+      ],
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1849–1853",
+      "height_m": 19,
+      "reservoir_capacity": "1.6 million m3 (design); later restricted",
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Bohutín, Vysoká Pec, Litavka",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "mladotice-1872-05-26",
+      "name": "Mladotický rybník (Mlatzer Teich)",
+      "country": "Czechia",
+      "region": "Mladotice, Plzeň Region",
+      "location_label": "Mladotice, Plzeň Region, Czechia",
+      "lat": 49.97093,
+      "lng": 13.34878,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia list of dam accidents (Mlatzer Teich) 49°58′15.4″N 13°20′55.6″E",
+      "river_or_facility": "Mladotický rybník / Mladotický potok / Střela",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "Czech Wikipedia: extreme cloudburst filled the pond; the outlet was not opened in time and could not later be reached; the dam then burst in two places.",
+      "incident_date": "1872-05-26",
+      "latest_report_date": "2022",
+      "what_happened": "On 25 May 1872 an extreme cloudburst hit western Bohemia (a priest at Žebnice measured 237 mm in about 90 minutes). Czech Wikipedia (Mladotický rybník): the large pond (then the largest in western Bohemia, about 91–92 ha) filled; the outlet was not opened in time; the dam cracked in two places during the night of 25–26 May and water entered the already flooded Střela. Ekolist / hydrologist Bohumír Janský: up to about 3.5 million m3 left the pond. Povodí Ohře: the Střela rise was mainly from this breach. The pond was not restored; a landslide a day or two later created Odlezelské Lake (a different event). The May 1872 Berounka flash flood as a whole killed on the order of 240–244 people across many municipalities — that regional flood toll is not applied to this dam.",
+      "status": "Not rebuilt; former pond floor is now an educational trail.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Czech Wikipedia — Mladotický rybník",
+          "url": "https://cs.wikipedia.org/wiki/Mladotick%C3%BD_rybn%C3%ADk"
+        },
+        {
+          "label": "Ekolist — 150 years since the Mladotice pond breach",
+          "url": "https://ekolist.cz/cz/zpravodajstvi/zpravy/mladotice-si-pripomnely-150-let-od-protrzeni-hraze-rybnika-po-prudkem-desti"
+        },
+        {
+          "label": "Povodí Ohře — 1872 Berounka/Střela flood note",
+          "url": "https://www.poh.cz/assets/File.ashx?id_dokumenty=11504&id_org=200341"
+        }
+      ],
+      "notes": "Deaths left null. Do not copy the 240–244 regional flash-flood toll. Ekolist/Janský separately mention 3 deaths in Plasy and about 43 in Nebřeziny on the Střela wave; those remain mixed with the already swollen river and are not recorded as a dam death count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "about 3.0–3.5 million m3 (German list / Janský)",
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": "up to about 3.5 million m3 (Janský via Ekolist)",
+      "breach_size": "two places in the dam (Czech Wikipedia)",
+      "downstream_risk": "Mladotický potok, Střela, Plasy, Nebřeziny",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "pontesei-1959-03-22",
+      "name": "Pontesei reservoir landslide wave",
+      "country": "Italy",
+      "region": "Forno di Zoldo / Maè valley, Province of Belluno, Veneto",
+      "location_label": "Lago di Pontesei, Belluno, Italy",
+      "lat": 46.33609,
+      "lng": 12.22682,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia list of dam accidents (Pontesei) 46°20′9.9″N 12°13′36.6″E",
+      "river_or_facility": "Pontesei Dam / Torrente Maè (Piave–Boite–Maè–Vajont system)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "landslide"
+      ],
+      "cause_summary": "English Wikipedia / ProgettoDighe: a 3–6 million m3 slide from Mount Castellin–Spiz entered the reservoir 13 m below full supply and generated a wave that overtopped the dam; the dam itself held.",
+      "incident_date": "1959-03-22",
+      "latest_report_date": "2002",
+      "what_happened": "On the morning of 22 March 1959 a landslide of about 3 million m3 (other technical papers 4.5–6 million m3) fell from the left bank of Lago di Pontesei into the reservoir, then about 13 m below full supply. English Wikipedia: the wave overtopped the dam and killed construction worker Arcangelo Tiziani, whose body was never found. ProgettoDighe: the dam (built 1955–57) suffered parapet/walkway damage but remained structurally sound; reservoir capacity later fell from about 9.09 to 5.8 million m3. The event is widely cited as a precursor warning for Vajont (already in the DB as a separate 1963 record).",
+      "status": "Dam standing; reservoir operated at a reduced level after later floods.",
+      "deaths": 1,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "English Wikipedia — Lago di Pontesei",
+          "url": "https://en.wikipedia.org/wiki/Lago_di_Pontesei"
+        },
+        {
+          "label": "ProgettoDighe — Pontesei",
+          "url": "https://progettodighe.it/dighe/pontesei/"
+        }
+      ],
+      "notes": "Not a dam-body collapse. One named death at the dam/powerhouse works. Distinct from Vajont 1963.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "SADE / later ENEL",
+      "year_built": "1955–1957",
+      "height_m": 93,
+      "reservoir_capacity": "9.09 million m3 before the slide; about 5.8 million m3 afterwards (Panizzo et al. citing Semenza)",
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Maè valley / powerhouse works immediately below the dam",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "idbar-1960",
+      "name": "Idbar Dam (Bašćica)",
+      "country": "Bosnia and Herzegovina",
+      "region": "Idbar, Konjic municipality, Herzegovina-Neretva",
+      "location_label": "Idbar Dam, Konjic, Bosnia and Herzegovina",
+      "lat": 43.665476,
+      "lng": 17.880136,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia list of dam accidents (Idbar) 43°39′55.7″N 17°52′48.5″E",
+      "river_or_facility": "Idbar Dam / Bašćica River (sediment trap for Jablanica Lake)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "structural_design",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Center for Environment / Riverwatch and regional press: designers underestimated Bašćica flash floods; the new concrete dam overtopped and cracked soon after 1959 commissioning and was taken out of service.",
+      "incident_date": "1960",
+      "latest_report_date": "2018-04-29",
+      "what_happened": "Idbar Dam on the Bašćica below Prenj, built in 1959 as a sediment trap for Jablanica Lake (not a power dam), failed in service almost immediately. Center for Environment: water accumulated and overflowed; the dam cracked and was later mined so the river could flow again. Blic / Haber: a large crack is still visible; locals later opened a road passage through the wall to Idbar village. German Wikipedia list: year 1960, 0 deaths. Riverwatch used the ruined wall for the 2018 Blue Heart premiere and repeats that it cracked soon after construction. No source fetched reported fatalities.",
+      "status": "Decommissioned ruin; road passage through the wall to Idbar.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Center for Environment — Freedom to the rivers (Idbar)",
+          "url": "https://czzs.org/freedom-to-the-rivers/"
+        },
+        {
+          "label": "Riverwatch — Blue Heart premiere on Idbar dam wall",
+          "url": "https://riverwatch.eu/en/balkanrivers/news/world-premiere-%E2%80%9Cblue-heart%E2%80%9C-film-dam-wall-bosnia-and-herzegovina"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "notes": "Exact calendar day in 1960 not given. Deaths: 0 from the German accident list; contemporaneous press does not report fatalities.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Yugoslav water/power authorities; contractor Željezničko građevinsko preduzeće Sarajevo (press)",
+      "year_built": "1959",
+      "height_m": 30,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "central crack; later a road opening through the wall",
+      "downstream_risk": "Bašćica / Jablanica Lake sediment (design purpose)",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "ibrastausee-1977-08-22",
+      "name": "Ibrastausee (Seepark Kirchheim)",
+      "country": "Germany",
+      "region": "Kirchheim, Hersfeld-Rotenburg, Hesse",
+      "location_label": "Ibrastausee, Kirchheim, Hesse, Germany",
+      "lat": 50.818056,
+      "lng": 9.528611,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Ibrastausee) 50°49′5″N 9°31′43″E",
+      "river_or_facility": "Ibrastausee / Ibra (tributary of the Aula)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "construction_first_filling",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "TUM review of the Ibra dam: during trial impoundment, seepage around the spillway and bottom outlet eroded fill and the embankment breached. Wikipedia dates the storm-day break 15:25 on 22 August 1977.",
+      "incident_date": "1977-08-22",
+      "latest_report_date": "2023",
+      "what_happened": "The Ibra earth dam at Kirchheim (built mid-1970s as a recreation lake) failed at 15:25 on 22 August 1977 during a storm, still in the trial-filling period. German Wikipedia: about 500,000 m3 (flood storage) ran out in a wave up to 3 m through Reimboldshausen, Gershausen, Kirchheim, Kleba, Hattenbach and Niederaula toward the Fulda. Livestock drowned; no people were hurt. Damage about 30 million DM. The Knüllwaldbahn track was washed out and the Niederaula–Oberaula section closed for good. TUM (Dittmar): progressive erosion from the upstream inlet during trial filling emptied the reservoir. The dam was rebuilt in 1979.",
+      "status": "Rebuilt 1979; lake still used as Seepark Kirchheim.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "German Wikipedia — Ibrastausee",
+          "url": "https://de.wikipedia.org/wiki/Ibrastausee"
+        },
+        {
+          "label": "TUM — Vertiefte Überprüfung der Ibratalsperre (Dittmar)",
+          "url": "https://www.cee.ed.tum.de/fileadmin/w00cbe/wb/Veranstaltungen/6-2_dittmar.pdf"
+        }
+      ],
+      "notes": "Wikipedia: people were not harmed. Deaths recorded as 0 from that sourced statement.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Gemeinde Kirchheim",
+      "year_built": "1974–1977",
+      "height_m": 7.5,
+      "reservoir_capacity": "400,000 m3 normal / 500,000 m3 flood (Wikipedia / TUM)",
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": "about 500,000 m3 (Wikipedia)",
+      "breach_size": null,
+      "downstream_risk": "Ibra and Aula villages to the Fulda",
+      "economic_damage": "30 million DM (Wikipedia)",
+      "investigating_agency": null
+    },
+    {
+      "id": "gissigheim-1984-06-21",
+      "name": "Rückhaltebecken Gissigheim",
+      "country": "Germany",
+      "region": "Königheim-Gissigheim, Main-Tauber-Kreis, Baden-Württemberg",
+      "location_label": "Gissigheim flood-retention basin, Königheim, Germany",
+      "lat": 49.578806,
+      "lng": 9.567639,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Rückhaltebecken Gissigheim / Fronleichnamsflut) 49°34′43.7″N 9°34′3.5″E",
+      "river_or_facility": "HRB Gissigheim / Brehmbach",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway",
+        "structural_design"
+      ],
+      "cause_summary": "German Wikipedia / Anton Rupp 2006: debris blocked the bottom outlet and the spillway screen; the dam overtopped by about 65 cm. The decisive weakness was cavities where the spillway was keyed into the dam, not only downstream erosion.",
+      "incident_date": "1984-06-21",
+      "latest_report_date": "2007",
+      "what_happened": "During the 21 June 1984 Fronleichnamsflut the small Gissigheim earth flood-retention dam (late 1950s; about 9.7 m; ordinary storage 144,000 m3) overtopped from about 16:00 and breached about 17:20. German Wikipedia: about 165,000 m3 stored at breach; peak breach flow about 80 m3/s; the second wave reached Kettenmühle at 17:42 and damaged most houses in Königheim to the second storey. The same page says the flood killed no one, injured nine, drowned 55 large and 700 small animals, destroyed 30 buildings and damaged 130; private damage about 33 million DM plus about 6 million DM public. The dam was not rebuilt (remains later removed).",
+      "status": "Not rebuilt; later replaced by HRB Königheim (2019–20).",
+      "deaths": 0,
+      "injured": 9,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "German Wikipedia — Rückhaltebecken Gissigheim",
+          "url": "https://de.wikipedia.org/wiki/R%C3%BCckhaltebecken_Gissigheim"
+        },
+        {
+          "label": "German Wikipedia — Fronleichnamsflut",
+          "url": "https://de.wikipedia.org/wiki/Fronleichnamsflut"
+        }
+      ],
+      "notes": "Deaths 0 and injured 9 are the Wikipedia flood-and-dam-break figures for this valley event.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Gemeinde Königheim / then WWA Künzelsau",
+      "year_built": "late 1950s",
+      "height_m": 9.7,
+      "reservoir_capacity": "144,000 m3 ordinary; about 165,000 m3 at breach",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": "about 165,000 m3 at breach (Wikipedia)",
+      "breach_size": null,
+      "downstream_risk": "Gissigheim, Königheim / Brehmbach",
+      "economic_damage": "about 39 million DM (33 private + 6 public)",
+      "investigating_agency": "LfU Baden-Württemberg (1985 hydrology); Anton Rupp 2006 review"
+    },
+    {
+      "id": "schlesingerteich-1997-09",
+      "name": "Schlesingerteich",
+      "country": "Austria",
+      "region": "Bärnkopf, Bezirk Zwettl, Lower Austria",
+      "location_label": "Schlesingerteich, Bärnkopf, Austria",
+      "lat": 48.38278,
+      "lng": 14.99806,
+      "geo_accuracy": "site",
+      "geo_source": "Local listing for Schlesingerteich 48.38278 N, 14.99806 E; German Wikipedia places it about 1 km south of Bärnkopf",
+      "river_or_facility": "Schlesingerteich / Kleine Ysper (historic timber-floating pond)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "German Wikipedia records a dam breach in 1997; mechanism is not stated in the pages fetched.",
+      "incident_date": "1997-09",
+      "latest_report_date": "1999",
+      "what_happened": "Schlesingerteich, a about 5.56 ha timber-floating pond built about 200 years ago near Bärnkopf, failed in 1997. Current German Wikipedia says September 1997; an older revision said July; a Bärnkopf municipal history page has been quoted as 15 October 1997. The municipality repaired the dam in 1999. The pond is again used for swimming and fishing. No source fetched gave deaths, injuries, or a cause mechanism.",
+      "status": "Repaired 1999; in recreational use.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "German Wikipedia — Schlesingerteich",
+          "url": "https://de.wikipedia.org/wiki/Schlesingerteich"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen (Austria section)",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "notes": "Month stored as 1997-09 (current de.wiki). July and 15 October 1997 also appear. Deaths not given; left null. Cause unknown.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Gemeinde Bärnkopf (1999 repair)",
+      "year_built": "about 1800s (timber floating)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Kleine Ysper / Bärnkopf",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "glashuette-2002-08-12",
+      "name": "Hochwasserrückhaltebecken Glashütte",
+      "country": "Germany",
+      "region": "Glashütte, Sächsische Schweiz-Osterzgebirge, Saxony",
+      "location_label": "HRB Glashütte, Brießnitzbach, Saxony, Germany",
+      "lat": 50.844609,
+      "lng": 13.754744,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikimedia/GMP caption on the rebuilt Prießnitzdamm 50.844609, 13.754744 (same site as the 1951–53 dam that failed)",
+      "river_or_facility": "HRB Glashütte / Brießnitzbach (Prießnitz), Müglitz tributary",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Bornschein and Pohl (IAHR 2003) and Daigner: undersized spillway and freeboard; bottom outlet blocked by debris; crest overtopped about 90 minutes, then the earth dam breached beside the spillway.",
+      "incident_date": "2002-08-12",
+      "latest_report_date": "2003-08",
+      "what_happened": "The small green flood-retention basin above Glashütte (built 1951–53; original storage about 50,000 m3) failed during the 12 August 2002 Saxony flood. Witness-based reconstruction (Bornschein and Pohl): the empty basin began filling about 09:00; spillway flow started about 12:30; overtopping followed; the dam failed between 16:10 and 16:40 (Daigner about 16:30). Peak breach outflow about 120 m3/s. The paper says the Müglitz peak was not increased but the rise was accelerated. Landestalsperrenverwaltung later rebuilt (2005–06) and enlarged the dam (2010–13) to about 30 m and 1.05 million m3. No source fetched reported deaths at this dam.",
+      "status": "Rebuilt and enlarged; in service as a dry basin.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Bornschein and Pohl — Dam break during the flood in Saxon/Germany August 2002 (IAHR)",
+          "url": "https://tud.qucosa.de/api/qucosa%3A28528/attachment/ATT-0/"
+        },
+        {
+          "label": "Daigner — Der Bruch des Hochwasserrückhaltebeckens Glashütte (PDF)",
+          "url": "http://rcswww.urz.tu-dresden.de/~daigner/pdf/glashuet.pdf"
+        },
+        {
+          "label": "Landestalsperrenverwaltung Sachsen — HRB Glashütte",
+          "url": "https://www.wasserwirtschaft.sachsen.de/HRB_Glashuette.html"
+        }
+      ],
+      "notes": "Deaths not given; left null. Do not copy the 2002 Elbe/Müglitz regional flood death toll onto this dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Landestalsperrenverwaltung Sachsen",
+      "year_built": "1951–1953",
+      "height_m": null,
+      "reservoir_capacity": "about 50,000 m3 at the 2002 failure (talsperren.net)",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "shallow breach first 3–5 m wide; dam gone within about 30 minutes (Bornschein and Pohl)",
+      "downstream_risk": "Glashütte and Müglitz valley",
+      "economic_damage": null,
+      "investigating_agency": "TU Dresden / Saxon flood commission (Kirchbachbericht)"
+    },
+    {
+      "id": "zlata-ktis-2002-08",
+      "name": "Zlatá Ktiš (Goldentisch) timber-floating pond",
+      "country": "Czechia",
+      "region": "Pohorská Ves / Novohradské hory, South Bohemian Region",
+      "location_label": "Zlatá Ktiš, Novohradské hory, Czechia",
+      "lat": 48.67516,
+      "lng": 14.71216,
+      "geo_accuracy": "approx",
+      "geo_source": "Vrcholovka pin Nad Zlatou Ktiší 48.67516 N, 14.71216 E (peak above the 766 m pond on the Černá)",
+      "river_or_facility": "Zlatá Ktiš klauzura / Černá (upstream of Soběnov)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Czech Wikipedia: the 18th-century timber-floating dam breached in the August 2002 floods; South Bohemia tourism text says that wave then breached Soběnov (already in the DB).",
+      "incident_date": "2002-08",
+      "latest_report_date": "2006",
+      "what_happened": "Zlatá Ktiš, the largest of eight Novohradské hory timber-floating ponds (built 1789–96 on the Černá; about 5.24 ha, municipal page 98,450 m3, 240 m dam), breached in the August 2002 Central European floods. Czech Wikipedia records the 2002 dam break (and an earlier 1794 dam injury, repaired 1796). South Bohemia / Soběnov pages say the Zlatá Ktiš failure sent the wave that breached the earthfill part of Soběnov Dam — Soběnov is already a separate DB record and is not merged here. The Zlatá Ktiš dam was restored in 2005 with a safer overflow. Wikipedia list / Soběnov sources: 0 fatalities at Soběnov; no separate death count is given for Zlatá Ktiš.",
+      "status": "Restored 2005.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Czech Wikipedia — Zlatá Ktiš",
+          "url": "https://cs.wikipedia.org/wiki/Zlat%C3%A1_Kti%C5%A1"
+        },
+        {
+          "label": "South Bohemia — Soběnov Reservoir (upstream Zlatá Ktiš breach)",
+          "url": "https://www.jiznicechy.cz/en/targets/1171-sobenov-reservoir"
+        },
+        {
+          "label": "hrady.cz — Zlatá Ktiš",
+          "url": "https://www.hrady.cz/technicka-pamatka-zlata-ktis/"
+        }
+      ],
+      "notes": "Cascade companion to Soběnov 2002 (already in DB). Deaths 0 from the Soběnov/Wikipedia list pairing; no contrary count found.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1789–1796",
+      "height_m": null,
+      "reservoir_capacity": "98,450 m3 (Pohorská Ves)",
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Černá valley / Soběnov Dam",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "montedoglio-2010-12-29",
+      "name": "Montedoglio Dam spillway",
+      "country": "Italy",
+      "region": "Anghiari / Sansepolcro, Province of Arezzo, Tuscany",
+      "location_label": "Montedoglio Dam, Tiber, Arezzo, Italy",
+      "lat": 43.59066,
+      "lng": 12.04801,
+      "geo_accuracy": "exact",
+      "geo_source": "EAUT operator page 43°35′26.38″N 12°02′52.84″E",
+      "river_or_facility": "Diga di Montedoglio / Fiume Tevere",
+      "type": "spillway",
+      "category": "partial_breach",
+      "causes": [
+        "spillway",
+        "construction_first_filling",
+        "structural_design"
+      ],
+      "cause_summary": "EGU/Tarpanelli et al.: during final tests raising the reservoir to the spillway crest, three concrete spillway blocks collapsed.",
+      "incident_date": "2010-12-29",
+      "latest_report_date": "2014",
+      "what_happened": "On 29 December 2010, during final tests that raised Lake Montedoglio to the spillway crest, three concrete blocks of the overflow spillway collapsed. EGU 2012: earth-fill dam 64.30 m high, about 153 million m3 at spillway level; no casualties after Civil Protection action; agricultural and infrastructure losses over 100 million euros. Repubblica: about a 30 m fracture in the spillway; engineer Stefano Cola said outflow fell from as much as 600 m3/s at the break to about 250 m3/s; the dam body remained. Sansepolcro and Tiber bridges were closed; some residents left homes overnight. ASCE later published a data/event analysis of the spillway collapse.",
+      "status": "Spillway failed; dam body intact; rehabilitation followed.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "on the order of 200 people moved overnight (EGU/press)",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "EGU 2012 — Analyzing the spillway failure of the Montedoglio dam",
+          "url": "https://meetingorganizer.copernicus.org/EGU2012/EGU2012-4487-1.pdf"
+        },
+        {
+          "label": "la Repubblica — Si rompe la diga sul Tevere",
+          "url": "http://genova.repubblica.it/cronaca/2010/12/30/news/si_rompe_diga_sul_tevere_paura_tra_toscana_e_umbria-10699361/"
+        },
+        {
+          "label": "EAUT — Diga di Montedoglio (coordinates)",
+          "url": "https://www.eaut.it/le-dighe/diga-di-montedoglio/"
+        }
+      ],
+      "notes": "Deaths 0 from EGU (luckily without casualties). Not a main-embankment collapse.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ente irriguo umbro-toscano / EAUT",
+      "year_built": "1978–1993 (in service from 1990 per Repubblica)",
+      "height_m": 64.3,
+      "reservoir_capacity": "about 153 million m3 at spillway (EGU)",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": "about 30 m of spillway (Repubblica / Cola)",
+      "downstream_risk": "Tiber toward Sansepolcro and Città di Castello",
+      "economic_damage": "over 100 million euros (EGU)",
+      "investigating_agency": "Italian Civil Protection / CNR IRPI studies"
+    },
+    {
+      "id": "sparmos-2016-03-27",
+      "name": "Sparmos Dam",
+      "country": "Greece",
+      "region": "Olimpiada / Elassona, Thessaly",
+      "location_label": "Sparmos Dam, Elassona, Greece",
+      "lat": 40.004289,
+      "lng": 22.291745,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia list of dam accidents (Sparmos) 40°0′15.4″N 22°17′30.3″E",
+      "river_or_facility": "Sparmos Dam",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation"
+      ],
+      "cause_summary": "ASCE / Dounias and Bardanis: homogeneous dam failed by internal erosion (underseepage) and, at another location, by rapid drawdown of the upstream slope.",
+      "incident_date": "2016-03-27",
+      "latest_report_date": "2021",
+      "what_happened": "Sparmos Dam in northern Greece (Elassona / Olimpiada) failed in 2016. German Wikipedia list dates the break 27 March 2016 and records 0 deaths. Dounias and Bardanis (2019, ICOLD) describe failure of a homogeneous dam by internal erosion. VandenBerge et al. (ASCE JGGE 2021) document a rapid-drawdown slide on the upstream face, with laboratory strengths from the dam, and treat it as a rare instrumented RDD case history. UAV papers reconstruct the failure geometry. No source fetched reported fatalities.",
+      "status": "Failed; used as a geotechnical case history.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen (Sparmos)",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        },
+        {
+          "label": "VandenBerge et al., ASCE JGGE 2021 — Rapid Drawdown Analyses of Sparmos Dam",
+          "url": "https://ascelibrary.org/doi/10.1061/%28ASCE%29GT.1943-5606.0002593"
+        }
+      ],
+      "notes": "Deaths 0 from the German accident list; ASCE papers describe the slides, not a downstream flood death toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "oberer-schalker-2017-07-26",
+      "name": "Oberer Schalker Teich (disused dam)",
+      "country": "Germany",
+      "region": "Oberschulenberg, Oberharz, Lower Saxony",
+      "location_label": "Oberer Schalker Teich above Schulenberg, Harz, Germany",
+      "lat": 51.8359,
+      "lng": 10.3936,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia (Unterer Schalker Teich): disused upper dam is a few hundred metres upstream of the lower pond at 51.835898 N, 10.393609 E",
+      "river_or_facility": "Oberer Schalker Teich / Schalke",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "German Wikipedia: after prolonged heavy rain the disused upper Schalke dam breached and sent a flood into the still-operating Unterer Schalker Teich.",
+      "incident_date": "2017-07-26",
+      "latest_report_date": "2020",
+      "what_happened": "On 26 July 2017 the dam of the long-disused Oberer Schalker Teich failed after prolonged heavy rain (Harz floods). German Wikipedia: Oberschulenberg was temporarily evacuated because authorities were not sure the lower Schalker Teich would hold the incoming wave. The lower dam did hold; only the lower pond's spillway needed repairs. Teicke and Malek (Unser Harz 6/2020) describe the upper-dam break. Goslarsche Zeitung reported the evacuation. No source fetched reported deaths.",
+      "status": "Upper dam remains a ruin; lower pond held.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "Oberschulenberg temporarily evacuated (Wikipedia / Goslarsche Zeitung)",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "German Wikipedia — Unterer Schalker Teich (2017 upper-dam section)",
+          "url": "https://de.wikipedia.org/wiki/Unterer_Schalker_Teich"
+        }
+      ],
+      "notes": "Separate from the 1733 lower-dam failure. Deaths not given; left null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Unterer Schalker Teich / Oberschulenberg",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "steinbachtal-2021-07-15",
+      "name": "Steinbachtalsperre (Euskirchen) overtopping",
+      "country": "Germany",
+      "region": "Euskirchen-Kirchheim, North Rhine-Westphalia",
+      "location_label": "Steinbachtal Dam, Euskirchen, Germany",
+      "lat": 50.590833,
+      "lng": 6.836667,
+      "geo_accuracy": "exact",
+      "geo_source": "English Wikipedia (Steinbachtal Dam) 50°35′27″N 6°50′12″E",
+      "river_or_facility": "Steinbachtalsperre / Steinbach (Erft tributary)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "English Wikipedia: spillway capacity was too small in the mid-July 2021 rain; the earth dam overtopped about three hours and large parts of the downstream face washed away.",
+      "incident_date": "2021-07-15",
+      "latest_report_date": "2021-07-16",
+      "what_happened": "During the mid-July 2021 Bernd/Ahr flood rains, Steinbachtalsperre (1934–36 earth/clay dam, height 23 m, about 1.06–1.2 million m3) overtopped for about three hours because the spillway was too small. English Wikipedia: much of the air side washed away and the dam was in danger of bursting; about 15,000 residents of Schweinheim, Flamersheim, Palmersheim, Swisttal villages and Rheinbach-Niederdrees/Oberdrees were evacuated. Stones from the dam blocked the bottom outlet; fire service and THW later cleared it and pumped the reservoir nearly empty. Evacuation was lifted after five days. WDR and Tagesschau reported the evacuations on 15 July 2021. The dam did not fully breach. No source fetched reported deaths at this dam.",
+      "status": "Overtopped and severely eroded; reservoir emptied; later repaired / returned to use.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "about 15,000 evacuated (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "English Wikipedia — Steinbachtal Dam",
+          "url": "https://en.wikipedia.org/wiki/Steinbachtal_Dam"
+        },
+        {
+          "label": "n-tv — Grundablass der Steinbachtalsperre wieder frei",
+          "url": "https://www.n-tv.de/regionales/nrw/Grundablass-der-Steinbachtalsperre-wieder-frei-article22689922.html"
+        }
+      ],
+      "notes": "Serious near-failure, not a full breach. Deaths not given; left null. Do not copy the 2021 Ahr/Erft regional flood death toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Zweckverband Steinbachtalsperre / Wasserversorgungsverband Euskirchen-Swisttal",
+      "year_built": "1934–1936",
+      "height_m": 23,
+      "reservoir_capacity": "1.06 million m3 active / 1.2 million m3 total (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": "downstream face largely washed away; dam not fully breached",
+      "downstream_risk": "Erft villages; about 15,000 evacuated",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "stronie-morawka-2024-09-15",
+      "name": "Stronie Śląskie dry reservoir (Morawka)",
+      "country": "Poland",
+      "region": "Stronie Śląskie, Lower Silesian Voivodeship",
+      "location_label": "Morawka dry flood reservoir, Stronie Śląskie, Poland",
+      "lat": 50.284597,
+      "lng": 16.876433,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia list of dam accidents (Morawka dam) 50°17′4.5″N 16°52′35.2″E",
+      "river_or_facility": "suchy zbiornik Stronie Śląskie / potok Morawka (Biała Lądecka)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Wody Polskie: Storm Boris inflow about 320 m3/s versus a 70–80 m3/s design; after the emergency spillway ran, the earth dam was eroded and the reservoir emptied uncontrollably.",
+      "incident_date": "2024-09-15",
+      "latest_report_date": "2025-09",
+      "what_happened": "The 1907 dry flood-retention reservoir on the Morawka above Stronie Śląskie (stone/earth dam about 500 m, up to 1.38 million m3; catchment 53.46 km2) failed on 15 September 2024 during Storm Boris. Wody Polskie: impoundment began 23:00 on 13 September; the surface spillway started 21:13 on 14 September; staff evacuated; about 10:35 on 15 September the earth dam washed out. Design flood 70–80 m3/s versus about 320 m3/s experienced. The uncontrolled emptying sent a flood through Stronie Śląskie, Lądek-Zdrój and on toward Kłodzko. Świdnica regional prosecutors opened an inquiry into an unintentional construction disaster. No dam-specific death count is given in the Wody Polskie statement or the anniversary reconstruction — the wider Storm Boris flood killed many people in the region and that regional toll is not copied here.",
+      "status": "Earth dam washed out; prosecutor investigation; reconstruction discussed.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Wody Polskie — statement on the Stronie Śląskie reservoir failure",
+          "url": "https://www.gov.pl/web/wody-polskie/awaria-zbiornika-stronie-slaskie--oswiadczenie-wod-polskich"
+        },
+        {
+          "label": "lokalno.pl — one year after the Stronie catastrophe",
+          "url": "https://www.lokalno.pl/articles/rok-po-katastrofie-w-stroniu-l-skim-przyczyny-skutki-i-odbudowa"
+        },
+        {
+          "label": "TVP Info — film of the Morawka dam breach",
+          "url": "https://www.tvp.info/82594022/stronie-slaskie-moment-przerwania-tamy-na-morawce-15-wrzesnia-wideo"
+        }
+      ],
+      "notes": "Deaths left null. Do not copy Storm Boris / Kłodzko regional flood deaths. German accident list mentions 1 death; no matching dam-attributed figure in the Polish official statement, so not used.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Państwowe Gospodarstwo Wodne Wody Polskie (RZGW Wrocław)",
+      "year_built": "1907",
+      "height_m": null,
+      "reservoir_capacity": "up to 1.38 million m3 (Wody Polskie)",
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "left abutment completely washed out (Obserwatorium Bezpieczeństwa analysis)",
+      "downstream_risk": "Stronie Śląskie, Lądek-Zdrój, Kłodzko valley",
+      "economic_damage": null,
+      "investigating_agency": "Prokuratura Okręgowa w Świdnicy; GINB"
+    },
+    {
+      "id": "mondego-casais-2001-01-27",
+      "name": "Baixo Mondego dikes (Casais / Montemor-o-Velho)",
+      "country": "Portugal",
+      "region": "Casais, Coimbra / Baixo Mondego, Coimbra District",
+      "location_label": "Baixo Mondego dikes, Coimbra, Portugal",
+      "lat": 40.2031,
+      "lng": -8.4103,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Coimbra) city pin; first 2001 breach described at Casais on the Mondego, with further breaks toward Montemor-o-Velho",
+      "river_or_facility": "diques do leito central do Mondego (Casais and Baixo Mondego)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Palrilha / JN and later anniversary reporting: three months of rain plus 26–27 January totals over Aguieira/Fronhas; the main-channel dikes overtopped and breached at about 12 locations after siltation and trees reduced channel capacity.",
+      "incident_date": "2001-01-27",
+      "latest_report_date": "2026-02-11",
+      "what_happened": "In late January 2001 the engineered Baixo Mondego main-channel dikes failed. JN summarising Paulo Palrilha's thesis: intense January rain ended with the dike bursting in 12 places. SIC Notícias (11 Feb 2026 anniversary): streets in Montemor-o-Velho became rivers, a century-old bridge fell, and about 400 families were displaced. 24noticias: 12–14 failure points, first recorded at Casais, when flow exceeded about 1,700 m3/s — below the dikes' design. No source fetched gave a death count for these dike breaks.",
+      "status": "Dikes later reinforced; 2019 and February 2026 Casais events are separate later incidents.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "about 400 families displaced (SIC Notícias anniversary)",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "JN — Cheias no Baixo Mondego (Palrilha thesis)",
+          "url": "https://www.jn.pt/arquivo/artigo/cheias-no-baixo-mondego-causadas-pela-precipitacao/466552"
+        },
+        {
+          "label": "SIC Notícias — 25 years since the Mondego dike bursts",
+          "url": "https://sicnoticias.pt/meteorologia/2026-02-11-video-ha-25-anos-diques-do-mondego-rebentaram-e-deixaram-400-familias-desalojadas-dc65038b"
+        },
+        {
+          "label": "24noticias — Coimbra / 2001 dike bursts",
+          "url": "https://24noticias.sapo.pt/atualidade/artigos/coimbra-ha-25-anos-o-rebentamento-dos-diques-mostrou-como-olhar-para-o-mondego"
+        }
+      ],
+      "notes": "Multi-point levee failures treated as one named 2001 event. Deaths not given; left null. 2026 Casais rupture is a later event and is not merged here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Portuguese State / APA",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 12–14 points on the main-channel dikes",
+      "downstream_risk": "Coimbra, Soure, Montemor-o-Velho, Baixo Mondego fields",
+      "economic_damage": null,
+      "investigating_agency": null
     }
   ]
 }
