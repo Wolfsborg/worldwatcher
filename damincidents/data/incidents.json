@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1009,
+  "count": 1029,
   "current_count": 26,
-  "historical_count": 983,
+  "historical_count": 1003,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -55186,6 +55186,1108 @@
         {
           "label": "Wikipedia — Urad Front Banner (40.737°N 108.652°E)",
           "url": "https://en.wikipedia.org/wiki/Urad_Front_Banner"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is the island centroid. 1983/2005/2017 Van Sickle breaches are separate records.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 1607 (formed 25 November 1914)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "van-sickle-island-1914-01",
+      "name": "Van Sickle Island levee (1914)",
+      "country": "United States",
+      "region": "Suisun Bay / Suisun Marsh, Solano County, California",
+      "location_label": "Van Sickle Island levees, Suisun Bay, California",
+      "lat": 38.06667,
+      "lng": -121.90111,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / GNIS Van Sickle Island 38°04′00″N 121°54′04″W. Island centroid; 1914 cut not surveyed.",
+      "river_or_facility": "Reclamation District 1607 levees, Van Sickle Island",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Wikipedia (citing Martinez Daily Gazette, 19 January 1914): in 1914 the levees broke and 2,500 acres of grain were ruined.",
+      "incident_date": "1914-01",
+      "latest_report_date": "2021-02-23",
+      "what_happened": "In 1914 the peat levees of Van Sickle Island in Suisun Bay broke. Wikipedia, citing the Martinez Daily Gazette of 19 January 1914 ('Floods imminent in great island tracts'): 2,500 acres of grain were ruined. Reclamation District 1607 had been established 25 November 1914 to handle drainage, irrigation and levee maintenance after earlier reclamation. No source fetched gave a death count or a surveyed 1914 breach coordinate.",
+      "status": "historical / island later used mainly for duck clubs; later breaches in 1983, 2005 and 2017 are separate records",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Van Sickle Island (1914: 2,500 acres of grain ruined when levees broke)",
+          "url": "https://en.wikipedia.org/wiki/Van_Sickle_Island"
+        },
+        {
+          "label": "Martinez Daily Gazette — 19 January 1914: Floods imminent in great island tracts",
+          "url": "https://en.wikipedia.org/wiki/Van_Sickle_Island#cite_note-21"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 75,
+      "notes": "Deaths null. Evacuation 75 is the Examiner figure for men on Empire Tract and Venice Island combined; not copied onto the Venice 1955 record. Pin is the tract centroid.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 2029",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "empire-tract-1955-12",
+      "name": "Empire Tract levee (1955)",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta, San Joaquin County, California",
+      "location_label": "Empire Tract, Sacramento–San Joaquin Delta, California",
+      "lat": 38.06528,
+      "lng": -121.48,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Empire Tract 38°03′55″N 121°28′48″W. Island centroid; 1955 cut not surveyed.",
+      "river_or_facility": "Reclamation District 2029 levees, Empire Tract",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia (citing San Francisco Examiner, 28 December 1955): levee failures on Empire Tract and nearby Venice Island in the December 1955 storms flooded both islands.",
+      "incident_date": "1955-12",
+      "latest_report_date": "2021-11-17",
+      "what_happened": "In December 1955 levee failures flooded Empire Tract and nearby Venice Island in the Sacramento–San Joaquin Delta. Wikipedia, citing the San Francisco Examiner of 28 December 1955 ('Army Repairs Bridges, Levees'): 75 men were working on the islands; 73 were evacuated by the Army with amphibious vehicles and two were picked up in helicopters. No source fetched gave a death count or a surveyed Empire Tract cut.",
+      "status": "historical / reclaimed; RD 2029 still maintains the tract",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Empire Tract (1955 levee failures; 75 men; Examiner 28 Dec 1955)",
+          "url": "https://en.wikipedia.org/wiki/Empire_Tract"
+        },
+        {
+          "label": "San Francisco Examiner — 28 December 1955: Army Repairs Bridges, Levees",
+          "url": "https://en.wikipedia.org/wiki/Empire_Tract#cite_note-20"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Combined 75-man evacuation is recorded on empire-tract-1955-12, not copied here. 1983 Venice break is a separate record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 2023",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "venice-island-1955-12",
+      "name": "Venice Island levee (1955)",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta, San Joaquin County, California",
+      "location_label": "Venice Island, Sacramento–San Joaquin Delta, California",
+      "lat": 38.075,
+      "lng": -121.53444,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Venice Island (California) 38°04′30″N 121°32′04″W. Island centroid; 1955 cut not surveyed.",
+      "river_or_facility": "Reclamation District 2023 levees, Venice Island",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia Empire Tract (citing San Francisco Examiner, 28 December 1955): levee failures on Empire Tract and nearby Venice Island flooded both islands in December 1955.",
+      "incident_date": "1955-12",
+      "latest_report_date": "2021-11-17",
+      "what_happened": "In December 1955 a levee failure flooded Venice Island together with adjoining Empire Tract. Wikipedia Empire Tract page, citing the San Francisco Examiner of 28 December 1955: 75 men were working on the islands; 73 were evacuated by the Army with amphibious vehicles and two were picked up in helicopters. No source fetched gave a Venice-only death count or a surveyed 1955 cut. The November 1983 Venice Island break is a separate record.",
+      "status": "historical / reclaimed; RD 2023 still maintains the island",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Empire Tract (1955: Empire Tract and nearby Venice Island flooded)",
+          "url": "https://en.wikipedia.org/wiki/Empire_Tract"
+        },
+        {
+          "label": "Wikipedia — Venice Island (California) coordinates / RD 2023",
+          "url": "https://en.wikipedia.org/wiki/Venice_Island_(California)"
+        },
+        {
+          "label": "San Francisco Examiner — 28 December 1955: Army Repairs Bridges, Levees",
+          "url": "https://en.wikipedia.org/wiki/Empire_Tract#cite_note-20"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 200,
+      "notes": "Deaths null. Evacuation 200 from the AP caption. SWRCB admin record groups Twitchell/Sherman/Mildred January 1969; Twitchell is not added without an island-specific flood source. Mildred 1983 is a separate record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 341",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sherman-island-1969-01-22",
+      "name": "Sherman Island levee (1969)",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta at the Sacramento–San Joaquin confluence, Sacramento County, California",
+      "location_label": "Sherman Island, Sacramento–San Joaquin Delta, California",
+      "lat": 38.05936,
+      "lng": -121.73329,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / GNIS Sherman Island 38.0593642, -121.7332878. Island centroid; 1969 cut not surveyed. Commons photo of north levee flood is camera location, not used as the breach pin.",
+      "river_or_facility": "Reclamation District 341 levees, Sherman Island",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "AP Wirephoto (22 January 1969): a protecting levee was breached by flood waters after a storm; Sacramento Bee (29 January): the levee gave way during the recent storm.",
+      "incident_date": "1969-01-22",
+      "latest_report_date": "1969-01-29",
+      "what_happened": "On or about Wednesday 22 January 1969 a levee on Sherman Island failed during a storm. AP Wirephoto published that day: the island, across the San Joaquin River north of Antioch, was about two-thirds under water after a protecting levee was breached; some 200 residents were evacuated to higher ground. Sacramento Bee 29 January 1969: only the levee outlined the flooded island, forcing hundreds of farm families to leave; a dredge had started closing the wide break, with the Army Corps of Engineers estimating five weeks. DWR later used a 1969 Sherman Island break as a stock flood-history image. No source fetched gave a death count.",
+      "status": "historical / reclaimed; RD 341 still maintains the island",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Calisphere / AP Wirephoto — 22 January 1969: Sherman Island two-thirds under water; 200 evacuated",
+          "url": "https://calisphere.org/item/47f348df5b4eade63e013ab9a1b3860e/"
+        },
+        {
+          "label": "Calisphere / Sacramento Bee — 29 January 1969: levee gave way; dredge closing the break",
+          "url": "https://calisphere.org/item/424cbc270fd8b5f86cd8f142da1feab1/"
+        },
+        {
+          "label": "Wikipedia — Sherman Island coordinates / RD 341",
+          "url": "https://en.wikipedia.org/wiki/Sherman_Island_(California)"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null on Webb. USGS OF 80-1005 one drowned is the combined Holland/Webb event; DWR Bulletin attributes the missing hunter to Holland Tract and is used there. Do not copy that 1 onto Webb.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 2026",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "webb-tract-1980-01-18",
+      "name": "Webb Tract levee (1980)",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta, Contra Costa County, California",
+      "location_label": "East levee of Webb Tract opposite Potato Slough / San Joaquin River, California",
+      "lat": 38.07972,
+      "lng": -121.60889,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Webb Tract 38°04′47″N 121°36′32″W. DWR Bulletin 69-80: east levee opposite the confluence of Potato Slough and the San Joaquin River. Island centroid, not a surveyed cut.",
+      "river_or_facility": "Reclamation District 2026 east levee, Webb Tract",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "DWR Bulletin 69-80: high Delta inflows, tides and winds; the DWR vessel Beowulf watched the east levee breach about 1645 hours on 18 January 1980.",
+      "incident_date": "1980-01-18",
+      "latest_report_date": "1987-11-16",
+      "what_happened": "At about 1645 hours on 18 January 1980 the east levee of Webb Tract breached opposite the confluence of Potato Slough and the San Joaquin River. DWR Bulletin 69-80: the DWR vessel Beowulf witnessed the break; the initial gap was about 200 feet and widened rapidly; about 5,200 acres were inundated. Los Angeles Times (1987): an 850-foot stretch of levee burst on the 5,400-acre island. USGS OF 80-1005: Holland and Webb failures formed a 9-mile lake over about 10,000 acres. No source fetched gave a Webb-only death count (the hunter death is recorded on Holland Tract).",
+      "status": "historical / reclaimed; later purchased by MWD",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "DWR Bulletin 69-80 — Beowulf witnessed Webb east-levee breach 1645 hrs 18 Jan 1980",
+          "url": "https://cawaterlibrary.net/wp-content/uploads/2023/06/Bulletin_69-80.pdf"
+        },
+        {
+          "label": "USGS OF 80-1005 — Holland and Webb levees failed; ~10,000 acres",
+          "url": "https://pubs.usgs.gov/of/1980/1005/report.pdf"
+        },
+        {
+          "label": "Los Angeles Times — 16 Nov 1987: 850-foot Webb Tract levee burst 18 Jan 1980",
+          "url": "https://www.latimes.com/archives/la-xpm-1987-11-16-mn-14179-story.html"
+        },
+        {
+          "label": "Wikipedia — Webb Tract coordinates",
+          "url": "https://en.wikipedia.org/wiki/Webb_Tract"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 1 from DWR Bulletin 69-80 (hunter presumed drowned on Holland). USGS combined Holland/Webb 'one drowned' is the same person, not added to Webb. Cattle losses are not a human death figure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 2025",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "holland-tract-1980-01-18",
+      "name": "Holland Tract levee (1980)",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta, Contra Costa County, California",
+      "location_label": "North levee of Holland Tract near the east-levee junction, California",
+      "lat": 37.99861,
+      "lng": -121.60222,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Holland Tract 37°59′55″N 121°36′08″W. DWR Bulletin 69-80: north levee near the junction of the east levee. Island centroid, not a surveyed cut.",
+      "river_or_facility": "Reclamation District 2025 north levee, Holland Tract",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "DWR Bulletin 69-80: about an hour after the Webb Tract break, the north levee of Holland Tract near the east-levee junction failed under the same high-water, tide and wind conditions.",
+      "incident_date": "1980-01-18",
+      "latest_report_date": "1980",
+      "what_happened": "About an hour after the 1645 Webb Tract break on 18 January 1980, the north levee of Holland Tract failed near the junction with the east levee. DWR Bulletin 69-80: about 4,100 acres were inundated; one hunter was reported missing by a companion and presumed drowned when swept away; numerous structures including resort facilities and dwellings were lost or damaged; about 1,500 head of cattle were trapped and less than one-third were rescued. USGS OF 80-1005: one person was drowned and about 900 head of cattle were lost when the Holland and Webb levees failed. The latest dated event-specific human death figure used here is DWR's one hunter presumed drowned on Holland Tract.",
+      "status": "historical / reclaimed; later purchased in large part by MWD",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "DWR Bulletin 69-80 — Holland north-levee break ~1 hour after Webb; hunter presumed drowned",
+          "url": "https://cawaterlibrary.net/wp-content/uploads/2023/06/Bulletin_69-80.pdf"
+        },
+        {
+          "label": "USGS OF 80-1005 — one person drowned when Holland and Webb levees failed",
+          "url": "https://pubs.usgs.gov/of/1980/1005/report.pdf"
+        },
+        {
+          "label": "Wikipedia — Holland Tract coordinates",
+          "url": "https://en.wikipedia.org/wiki/Holland_Tract"
+        },
+        {
+          "label": "Calisphere / Sacramento Bee — 20 January 1980: Holland Tract levee break",
+          "url": "https://calisphere.org/item/8ccaf71ac7521d5c44f7b9a72df7971b/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Not merged with the 24 December 1981 Prospect Island break (Sacramento Bee photo).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 1667",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "prospect-island-1980-02-21",
+      "name": "Prospect Island levee (1980)",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta, Solano County, California",
+      "location_label": "Prospect Island, Sacramento–San Joaquin Delta, California",
+      "lat": 38.2463,
+      "lng": -121.66551,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / GNIS Prospect Island 38.2463030, -121.6655110. Island centroid; 21 Feb 1980 cut not surveyed.",
+      "river_or_facility": "Reclamation District 1667 levees, Prospect Island",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "DWR Bulletin 69-80: about mid-day on 21 February 1980 the levees of 1,100-acre Prospect Island and 200-acre Dead Horse Island failed outside the main January flood-fight concentration.",
+      "incident_date": "1980-02-21",
+      "latest_report_date": "1980-02-23",
+      "what_happened": "About mid-day on 21 February 1980 the levees of Prospect Island (about 1,100 acres / 450 hectares) failed. DWR Bulletin 69-80 places the island about 10–12 miles north of Webb Tract and groups the break with Dead Horse Island the same day. Contemporary papers (North East Bay Independent, Press Democrat, Petaluma Argus-Courier, 22 February 1980) reported more islands submerged in the Delta floods. No source fetched gave a death count or a surveyed 1980 cut. The December 1981 Prospect Island break is a separate record.",
+      "status": "historical / later a restoration / Deep Water Ship Channel remnant island",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "DWR Bulletin 69-80 — mid-day 21 Feb 1980: Prospect Island and Dead Horse Island levees failed",
+          "url": "https://cawaterlibrary.net/wp-content/uploads/2023/06/Bulletin_69-80.pdf"
+        },
+        {
+          "label": "Wikipedia — Prospect Island coordinates; 1980-02-22 papers listed as refs",
+          "url": "https://en.wikipedia.org/wiki/Prospect_Island_(California)"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is the island centroid.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 2111",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "dead-horse-island-1980-02-21",
+      "name": "Dead Horse Island levee (1980)",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta, Sacramento County, California",
+      "location_label": "Dead Horse Island, Sacramento–San Joaquin Delta, California",
+      "lat": 38.22908,
+      "lng": -121.50218,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / GNIS Dead Horse Island 38.2290821, -121.5021750. Island centroid; 21 Feb 1980 cut not surveyed.",
+      "river_or_facility": "Reclamation District 2111 levees, Dead Horse Island",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "DWR Bulletin 69-80: about mid-day on 21 February 1980 the levees of 200-acre Dead Horse Island and 1,100-acre Prospect Island failed.",
+      "incident_date": "1980-02-21",
+      "latest_report_date": "1980",
+      "what_happened": "About mid-day on 21 February 1980 the levees of Dead Horse Island (about 200 acres / 80 hectares) failed. DWR Bulletin 69-80 groups the break with Prospect Island the same day, about 10–12 miles north of Webb Tract, outside the main January flood-fight concentration. No source fetched gave a death count or a surveyed 1980 cut.",
+      "status": "historical / private island, RD 2111",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "DWR Bulletin 69-80 — mid-day 21 Feb 1980: Dead Horse Island and Prospect Island levees failed",
+          "url": "https://cawaterlibrary.net/wp-content/uploads/2023/06/Bulletin_69-80.pdf"
+        },
+        {
+          "label": "Wikipedia — Dead Horse Island coordinates / RD 2111",
+          "url": "https://en.wikipedia.org/wiki/Dead_Horse_Island"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Not merged with jones-tract-2004-06-03 (Upper Jones / Middle River). The 23 October 1980 Santa Fe railroad-embankment failure is a separate record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 2039 (Jones Tract)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lower-jones-tract-1980-09-26",
+      "name": "Lower Jones Tract levee (1980)",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta, San Joaquin County, California (west of Stockton)",
+      "location_label": "Old River levee, northwest Lower Jones Tract, California",
+      "lat": 37.93716,
+      "lng": -121.48647,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Jones Tract 37.937158, -121.486473. DWR Bulletin 69-80: Old River on the northwest portion of Lower Jones Tract. Tract centroid, not a surveyed cut. Upper Jones 2004 is a separate record.",
+      "river_or_facility": "Old River levee, Lower Jones Tract (Reclamation District 2039)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "DWR Bulletin 69-80 and SWRCB admin record: levee failure at Old River on the northwest Lower Jones Tract about 5:30 p.m. on 26 September 1980 under normal summer conditions.",
+      "incident_date": "1980-09-26",
+      "latest_report_date": "1980-10-02",
+      "what_happened": "At about 5:30 p.m. on 26 September 1980 a levee failed at Old River on the northwest portion of the about 5,200-acre Lower Jones Tract, 10 miles west of Stockton. DWR Bulletin 69-80 records the break as a summer-condition failure. SWRCB admin record: flooded 5,200 acres; Director Robie then ordered a special Delta levee inspection. UPI 2 October 1980: flooding began the previous Friday when a 200-foot section of levee collapsed onto 5,700 acres of below-sea-level cropland; a Santa Fe railroad embankment then held the flood off Upper Jones (that embankment's 23 October failure is a separate record). No source fetched gave a death count.",
+      "status": "historical / pumped out and reclaimed; 2004 Upper Jones break is a separate record",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "DWR Bulletin 69-80 — 5:30 p.m. 26 Sep 1980: Old River, northwest Lower Jones Tract",
+          "url": "https://cawaterlibrary.net/wp-content/uploads/2023/06/Bulletin_69-80.pdf"
+        },
+        {
+          "label": "SWRCB 1995 WQCP admin record — Lower Jones 26 Sep 1980 summer-condition failure, 5,200 acres",
+          "url": "https://water.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/wq_control_plans/1995wqcp/admin_records/part05/338.pdf"
+        },
+        {
+          "label": "UPI — 2 October 1980: 200-foot levee collapsed Friday; 5,700 acres",
+          "url": "https://www.upi.com/Archives/1980/10/02/A-20-foot-high-Santa-Fe-railroad-embankment-holding-back/3044339307200/"
+        },
+        {
+          "label": "Wikipedia — Jones Tract coordinates",
+          "url": "https://en.wikipedia.org/wiki/Jones_Tract"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Separate from the 26 September 1980 Old River Lower Jones break and from the 3 June 2004 Upper Jones / Middle River break.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Atchison, Topeka and Santa Fe Railroad (then); later BNSF",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "upper-jones-rr-1980-10-23",
+      "name": "Upper Jones Tract Santa Fe railroad embankment (1980)",
+      "country": "United States",
+      "region": "Between Lower and Upper Jones Tract, Sacramento–San Joaquin Delta, San Joaquin County, California",
+      "location_label": "Santa Fe railroad embankment separating Lower and Upper Jones Tract, California",
+      "lat": 37.93716,
+      "lng": -121.48647,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Jones Tract 37.937158, -121.486473 — the BNSF/Amtrak alignment that bifurcates Upper and Lower Jones. Not a surveyed 1980 cut.",
+      "river_or_facility": "Atchison, Topeka and Santa Fe railroad embankment between Lower and Upper Jones Tract",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "SWRCB admin record: on 23 October 1980 the Santa Fe railroad embankment separating Lower Jones and Upper Jones failed after holding the 26 September Lower Jones flood.",
+      "incident_date": "1980-10-23",
+      "latest_report_date": "1980-10-23",
+      "what_happened": "On 23 October 1980 the Santa Fe railroad embankment that separates Lower Jones Tract from Upper Jones Tract failed. SWRCB admin record lists it as a distinct 1980 Delta flood after the 26 September Lower Jones Old River break. UPI 2 October had already reported the 20-foot sand-and-straw embankment leaking, with hundreds evacuated, while it still held the Lower Jones flood off pipelines. North East Bay Independent (23 October 1980), cited on the Prospect Island Wikipedia page, reported a new flood threatening East Bay water lines. No source fetched gave a death count.",
+      "status": "historical / alignment still carries BNSF freight and Amtrak Gold Runner",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SWRCB 1995 WQCP admin record — 23 Oct 1980: Santa Fe embankment separating Lower and Upper Jones failed",
+          "url": "https://water.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/wq_control_plans/1995wqcp/admin_records/part05/338.pdf"
+        },
+        {
+          "label": "UPI — 2 October 1980: 20-foot Santa Fe embankment leaking; hundreds evacuated",
+          "url": "https://www.upi.com/Archives/1980/10/02/A-20-foot-high-Santa-Fe-railroad-embankment-holding-back/3044339307200/"
+        },
+        {
+          "label": "Wikipedia — Jones Tract (railroad bifurcates the tracts)",
+          "url": "https://en.wikipedia.org/wiki/Jones_Tract"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Not merged with the 21 February 1980 Prospect Island break.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 1667",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "prospect-island-1981-12-24",
+      "name": "Prospect Island levee (1981)",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta, Solano County, California",
+      "location_label": "Prospect Island levee along Miner Slough, California",
+      "lat": 38.2463,
+      "lng": -121.66551,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / GNIS Prospect Island 38.2463030, -121.6655110. Sacramento Bee photo looks north along Miner Slough; island centroid, not a surveyed cut.",
+      "river_or_facility": "Prospect Island levee on Miner Slough",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Sacramento Bee caption printed 25 December 1981 (photo 24 December): Prospect Island levee break and ensuing flood, looking north along Miner Slough.",
+      "incident_date": "1981-12-24",
+      "latest_report_date": "1981-12-25",
+      "what_happened": "On 24 December 1981 a levee on Prospect Island broke, flooding the island. Sacramento Bee photograph by Richard Gilmore, caption printed 25 December 1981: 'Prospect Island levee break and ensuing flood is seen looking north along Miner Slough. A news helicopter sits on levee in foreground.' No source fetched gave a death count or a surveyed cut. The 21 February 1980 Prospect Island failure is a separate record.",
+      "status": "historical / later a restoration / Deep Water Ship Channel remnant island",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Calisphere / Sacramento Bee — 25 Dec 1981 caption: Prospect Island levee break looking north along Miner Slough",
+          "url": "https://calisphere.org/item/5ca1d6a7a07d9445ca13a936232ffc0b/"
+        },
+        {
+          "label": "Wikipedia — Prospect Island coordinates",
+          "url": "https://en.wikipedia.org/wiki/Prospect_Island_(California)"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 100,
+      "notes": "Deaths 0 from UPI 'no injuries were reported'. Evacuation >100 from UPI. Beaver/peat hypotheses are not coded as confirmed causes.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 2030 (Delta Farms)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "ultimately ~650 ft wide and scoured to −75 ft (RD 2030 map)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mcdonald-island-1982-08-23",
+      "name": "McDonald Island levee",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta, San Joaquin County, California (about 10 miles northwest of Stockton)",
+      "location_label": "Northwest Middle River levee, McDonald Island, 1 mile south of Columbia Cut, California",
+      "lat": 38.00131,
+      "lng": -121.48995,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / GNIS McDonald Island 38.001311, -121.489951. RD 2030 flood-contingency map: 1982 break near levee station 485+00. Island centroid, not a surveyed station pin.",
+      "river_or_facility": "Reclamation District 2030 levee on Middle River, McDonald Island (McDonald Tract)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "RD 2030 flood-contingency map: catastrophic stability failure of the levee about 3 a.m. on 23 August 1982 near station 485+00. UPI: officials said the break may have been caused by beaver burrows; DWR's Bill Helms said peat soils do not make good levees. Neither cause is treated as confirmed.",
+      "incident_date": "1982-08-23",
+      "latest_report_date": "2022-04",
+      "what_happened": "About 3 a.m. on Monday 23 August 1982 an earthen levee on the northwest side of McDonald Island failed on the Middle River about 1 mile south of Columbia Cut. UPI: more than 100 people were taken off the island, some from rooftops by helicopter; no injuries were reported; the break was about 250 feet at first and had widened to 400 feet by mid-afternoon; the about 9-square-mile farm tract is about 15 feet below sea level. RD 2030 map: the break ultimately scoured to about 650 feet wide and −75 feet deep. DWR Bulletin 69-82 cover photograph is the McDonald Island break. No source fetched gave a death count other than UPI's no-injuries report.",
+      "status": "historical / pumped out and reclaimed; RD 2030 still maintains the island",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "UPI — 23 August 1982: Middle River break; >100 evacuated; no injuries",
+          "url": "https://www.upi.com/Archives/1982/08/23/Levee-gives-way-farmworkers-flee/7121398923200/"
+        },
+        {
+          "label": "RD 2030 flood-contingency map — 3 a.m. 23 Aug 1982 station 485+00; 650 ft / −75 ft scour",
+          "url": "https://rd2030.com/wp-content/uploads/2022/04/Flood-Contingency-Map.pdf"
+        },
+        {
+          "label": "DWR Bulletin 69-82 — cover: McDonald Island levee break, August 1982",
+          "url": "https://h8b186.p3cdn2.secureserver.net/wp-content/uploads/2023/06/Bulletin_69-82.pdf"
+        },
+        {
+          "label": "Wikipedia — McDonald Island coordinates / RD 2030",
+          "url": "https://en.wikipedia.org/wiki/McDonald_Island_(California)"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Not merged with venice-island-1955-12.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 2023",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "venice-island-1983-11-30",
+      "name": "Venice Island levee (1983)",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta, San Joaquin County, California",
+      "location_label": "Venice Island, Sacramento–San Joaquin Delta, California",
+      "lat": 38.075,
+      "lng": -121.53444,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Venice Island (California) 38°04′30″N 121°32′04″W. Island centroid; 30 Nov 1983 cut not surveyed.",
+      "river_or_facility": "Reclamation District 2023 levees, Venice Island",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "DWR Bulletin 69-83: record-tying 9.8-foot tide at Rio Vista at 2:30 p.m. on 30 November 1983; at 5 p.m. a major levee break occurred at Venice Island and inundation was complete by the next day.",
+      "incident_date": "1983-11-30",
+      "latest_report_date": "1983",
+      "what_happened": "At 5 p.m. on 30 November 1983 a major levee break occurred at Venice Island. DWR Bulletin 69-83: a 30 November Gulf-of-Alaska storm produced 60–80 mph gusts, a record-low November barometer at Sacramento, heavy Delta inflows and a record-tying 9.8-foot tide at Rio Vista at 2:30 p.m.; inundation of Venice Island was complete by the next day. The December 1955 Venice Island flood is a separate record. No source fetched gave a death count.",
+      "status": "historical / reclaimed; RD 2023 still maintains the island",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "DWR Bulletin 69-83 — 5 p.m. 30 Nov 1983: major levee break at Venice Island",
+          "url": "https://cawaterlibrary.net/wp-content/uploads/2023/06/Bulletin_69-83.pdf"
+        },
+        {
+          "label": "Wikipedia — Venice Island coordinates / RD 2023",
+          "url": "https://en.wikipedia.org/wiki/Venice_Island_(California)"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. 2009 Tasman Resolution grounding is a separate incident (levee damage, island not inundated).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 2059",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "600 ft (Wikipedia / East Bay Times)",
+      "downstream_risk": null,
+      "economic_damage": "cleanup expected about $6 million (Wikipedia, 1983 dollars)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "bradford-island-1983-12-03",
+      "name": "Bradford Island levee (1983)",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta, Contra Costa County, California",
+      "location_label": "Bradford Island, Sacramento–San Joaquin Delta, California",
+      "lat": 38.07722,
+      "lng": -121.66333,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Bradford Island 38°04′38″N 121°39′48″W. Island centroid; 600-ft 1983 cut not surveyed.",
+      "river_or_facility": "Reclamation District 2059 levees, Bradford Island",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia and East Bay Times: a 3 December 1983 storm caused a 600-foot breach that flooded the island completely.",
+      "incident_date": "1983-12-03",
+      "latest_report_date": "2018-08-24",
+      "what_happened": "On 3 December 1983 a storm opened a 600-foot breach in the Bradford Island levees and flooded the 2,172-acre island completely. Wikipedia: residents were evacuated by ferry and most did not return; cleanup was expected to cost about $6 million; the Governor's request for a federal major-disaster declaration was rejected, but SBA later authorized disaster loans. East Bay Times (2018) repeats the 3 December 1983 / 600-foot figure. DWR aerial of 4 December 1983 shows the flooded island. Governor Deukmejian declared a state of emergency on 2 December for the broader Delta storm (Venice Island had broken 30 November). No source fetched gave a death count.",
+      "status": "historical / reclaimed; RD 2059 still maintains the island",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Bradford Island (3 Dec 1983: 600-foot breach; evacuated by ferry)",
+          "url": "https://en.wikipedia.org/wiki/Bradford_Island"
+        },
+        {
+          "label": "East Bay Times — 24 Aug 2018: 3 Dec 1983 storm; 600-foot-wide breach",
+          "url": "https://www.eastbaytimes.com/2018/08/24/bradford-island-looks-for-quick-levee-fix-to-avoid-flooding/"
+        },
+        {
+          "label": "NBC Los Angeles / DWR photo — 4 Dec 1983 aerial of Bradford Island after 600-foot break",
+          "url": "https://www.nbclosangeles.com/news/california-wildfires/historic-california-floods-storms-rain-images/10767/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Precise calendar day not given beyond early December / 4 Dec photo. 1914, 2005 and 2017 Van Sickle breaches are separate records.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 1607",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "van-sickle-island-1983-12",
+      "name": "Van Sickle Island levee (1983)",
+      "country": "United States",
+      "region": "Suisun Bay / Suisun Marsh, Solano County, California",
+      "location_label": "Van Sickle Island, Suisun Bay, California",
+      "lat": 38.06667,
+      "lng": -121.90111,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / GNIS Van Sickle Island 38°04′00″N 121°54′04″W. DWR aerial 4 Dec 1983 looks south toward the breach; island centroid, not a surveyed cut.",
+      "river_or_facility": "Reclamation District 1607 levees, Van Sickle Island",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia and DWR/NBC: December 1983 levee breaches inundated Van Sickle Island completely during the same Delta storm series that flooded Bradford Island.",
+      "incident_date": "1983-12",
+      "latest_report_date": "2017-02-16",
+      "what_happened": "In early December 1983 the levees of Van Sickle Island in Suisun Bay failed and the island was inundated completely. Wikipedia: December 1983 levee breaches were responsible for multiple Delta floods, including Bradford Island; Van Sickle was inundated completely. DWR aerial published by NBC, taken 4 December 1983, looks south toward a levee breach on Van Sickle Island; the state declared flooding in nearby Contra Costa County and RD 2059 a disaster on 9 December. No source fetched gave a death count or a surveyed Van Sickle cut.",
+      "status": "historical / later used mainly for duck clubs; 2005 and 2017 breaches are separate records",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Van Sickle Island (December 1983: inundated completely)",
+          "url": "https://en.wikipedia.org/wiki/Van_Sickle_Island"
+        },
+        {
+          "label": "NBC Los Angeles / DWR photo — 4 Dec 1983 aerial of Van Sickle Island levee breach",
+          "url": "https://www.nbclosangeles.com/news/california-wildfires/historic-california-floods-storms-rain-images/10767/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. No sourced million-gallon release figure for 1994; do not copy the 2016 215-million-gallon figure. Not merged with mosaic-new-wales-sinkhole-2016-08-27.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "IMC-Agrico Company (later Mosaic)",
+      "year_built": null,
+      "height_m": 61,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "about $7 million exploration and remediation (FDEP/Earthdoc)",
+      "investigating_agency": "Florida Department of Environmental Protection Phosphate Management Program",
+      "verification": "confirmed",
+      "id": "new-wales-sinkhole-1994-06-27",
+      "name": "IMC-Agrico New Wales phosphogypsum stack sinkhole (1994)",
+      "country": "United States",
+      "region": "New Wales plant south of Mulberry, Polk County, Florida",
+      "location_label": "Original 200-foot phosphogypsum stack, New Wales plant, Polk County, Florida",
+      "lat": 27.89833,
+      "lng": -82.01278,
+      "geo_accuracy": "region",
+      "geo_source": "Same New Wales plant pin as mosaic-new-wales-sinkhole-2016-08-27: Wikipedia (Mulberry, Florida); plant is south of Mulberry at 3095 Highway 640. 1994 cavity was in the original unlined stack, not a surveyed throat pin.",
+      "river_or_facility": "IMC-Agrico New Wales original phosphogypsum stack (Floridan aquifer)",
+      "type": "tailings",
+      "category": "incident",
+      "causes": [
+        "foundation"
+      ],
+      "cause_summary": "Ardaman/FDEP: on 27 June 1994 an erosion sinkhole opened through the original 200-foot phosphogypsum stack into a conduit that reached the Upper Floridan aquifer.",
+      "incident_date": "1994-06-27",
+      "latest_report_date": "1997",
+      "what_happened": "On 27 June 1994 an erosion sinkhole opened in the original about 200-foot phosphogypsum stack at IMC-Agrico's New Wales plant in Polk County, Florida. FDEP/Earthdoc: the depression was observed 185 feet deep and 120 feet wide, with a 480-foot conduit to the Upper Floridan aquifer. Ardaman: plant production wells pumping on the order of 8 million gallons per day were used as recovery wells and the papers state contamination was contained on the plant site; more than 3,800 cubic yards of pea-gravel concrete were injected about 400 feet beneath the stack surface. IMC spent about $7 million on exploration and remediation. No source fetched gave a death count or a released-volume figure comparable to the 2016 Mosaic sinkhole. The 27 August 2016 Mosaic New Wales sinkhole is a separate record.",
+      "status": "historical / original stack throat grouted; 2016 sinkhole is a later event at the same plant",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Ardaman — The hole story: 27 June 1994 New Wales stack sinkhole; 3,800 cy grout",
+          "url": "https://ardaman.com/wp-content/uploads/2023/01/6559f986-7427-47df-906b-3370fd94b973.pdf"
+        },
+        {
+          "label": "Earthdoc / FDEP — 185 ft deep, 120 ft wide, 480 ft conduit; ~$7 million",
+          "url": "https://www.earthdoc.org/content/papers/10.3997/2214-4609-pdb.204.1997_059"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Woosley: the two high-hazard failures did not cause loss of life. Alberto's 31 statewide deaths are not copied. Houston Lake / Lake Blackshear / West Leisure Lake are separate records.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Kraftsmans Association (1994); later Mikado Baptist Church (current NID owner on DamLookup)",
+      "year_built": null,
+      "height_m": 4,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Georgia DNR Safe Dams Program",
+      "verification": "confirmed",
+      "id": "kraftsman-lake-1994-07-05",
+      "name": "Kraftsman Lake Dam (Kraftsmans Association Lake Dam)",
+      "country": "United States",
+      "region": "Crawford County, Georgia (Whitewater Creek, near Byron)",
+      "location_label": "Kraftsmans Association Lake Dam on Whitewater Creek, Crawford County, Georgia",
+      "lat": 32.71444,
+      "lng": -83.78222,
+      "geo_accuracy": "exact",
+      "geo_source": "DamLookup / NID GA01235 Kraftsmans Association Lake Dam 32.71444, -83.78222 (rebuilt dam at the named site)",
+      "river_or_facility": "Kraftsman / Kraftsmans Association Lake Dam on Whitewater Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Tom Woosley (Georgia Safe Dams, 1995 ASDSO paper): Kraftsman Lake Dam was only capable of passing the 100-year storm; Crawford County received at least 16 inches of rain Monday/Tuesday and the dam failed around 8:00 a.m. Tuesday.",
+      "incident_date": "1994-07-05",
+      "latest_report_date": "2019",
+      "what_happened": "Around 8:00 a.m. on Tuesday 5 July 1994 the high-hazard Kraftsman Lake Dam in Crawford County, Georgia, failed during Tropical Storm Alberto rainfall. Woosley (Georgia Safe Dams, 1995): the office confirmed two high-hazard failures; Crawford County said it was too late — Kraftsman had already failed around 8 a.m.; the dam could pass only the 100-year storm and the area had at least 16 inches of rain. Macon Telegraph / GovTech (2019): Woosley said the two high-hazard breaches were Leisure Lake in Houston County and Kraftsman Lake; neither was in compliance in 1994; both were later rebuilt; the failures did not cause a loss of life. Alberto's statewide death toll is not copied onto this dam. Present NID GA01235 is the rebuilt earth dam (14 ft, recreation, now low hazard).",
+      "status": "historical / rebuilt at the same named site (NID GA01235, now low hazard)",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Woosley 1995 ASDSO — Kraftsman Lake Dam failed ~8:00 a.m. Tuesday; 16+ in rain; 100-year spillway",
+          "url": "https://damfailures.org/sites/default/files/wp-pdf/Woosley_GAflood1994.pdf"
+        },
+        {
+          "label": "Macon Telegraph / GovTech — two high-hazard 1994 breaches: Kraftsman and Leisure Lake; rebuilt; no lives lost from those failures",
+          "url": "https://www.govtech.com/em/preparedness/Could-Macon-Ga-Endure-Another-Storm-Like-Alberto.html"
+        },
+        {
+          "label": "DamLookup / NID GA01235 — Kraftsmans Association Lake Dam 32.71444, -83.78222",
+          "url": "https://damlookup.com/dam/ga01235"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is the island centroid.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 1607",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "van-sickle-island-2005-01-07",
+      "name": "Van Sickle Island levee (2005)",
+      "country": "United States",
+      "region": "Suisun Bay / Suisun Marsh, Solano County, California",
+      "location_label": "Van Sickle Island, Suisun Bay, California",
+      "lat": 38.06667,
+      "lng": -121.90111,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / GNIS Van Sickle Island 38°04′00″N 121°54′04″W. Island centroid; 7 Jan 2005 cut not surveyed.",
+      "river_or_facility": "Reclamation District 1607 levees, Van Sickle Island",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia (citing Vallejo Times-Herald, 8 January 2005): a winter storm with winds of nearly 60 mph and heavy rain caused a levee breach on Van Sickle Island on 7 January.",
+      "incident_date": "2005-01-07",
+      "latest_report_date": "2005-01-08",
+      "what_happened": "On 7 January 2005 a winter storm with winds of nearly 60 mph and heavy rain caused a levee breach on Van Sickle Island in Suisun Bay. Wikipedia cites the Vallejo Times-Herald of 8 January 2005. The 1914, 1983 and 2017 Van Sickle breaches are separate records. No source fetched gave a death count.",
+      "status": "historical / later 2017 king-tide breach is a separate record",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Van Sickle Island (7 January 2005 breach; Vallejo Times-Herald 8 Jan 2005)",
+          "url": "https://en.wikipedia.org/wiki/Van_Sickle_Island"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Incident, not a failure. Deaths null — no sourced fatality figure (and no breach). Do not treat unknown as 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "U.S. Army Corps of Engineers, Seattle District",
+      "year_built": 1961,
+      "height_m": 72,
+      "reservoir_capacity": "106,000 acre-feet (Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "USACE Seattle District",
+      "verification": "confirmed",
+      "id": "howard-hanson-2009-01",
+      "name": "Howard A. Hanson Dam (2009 right-abutment seepage)",
+      "country": "United States",
+      "region": "Eagle Gorge, Green River, King County, Washington (about 21 miles east of Auburn)",
+      "location_label": "Howard A. Hanson Dam on the Green River, King County, Washington",
+      "lat": 47.27821,
+      "lng": -121.78655,
+      "geo_accuracy": "exact",
+      "geo_source": "DamLookup / NID WA00298 47.27821, -121.78655; GNIS Howard A Hanson Dam 47.2782539, -121.7866009",
+      "river_or_facility": "Howard A. Hanson Dam / Howard A. Hanson Reservoir on the Green River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation"
+      ],
+      "cause_summary": "USACE / FEMA / Wikipedia: after a record flood pool in January 2009, two depressions, muddy seepage and high flow through the right abutment indicated possible internal erosion. Not a breach.",
+      "incident_date": "2009-01-09",
+      "latest_report_date": "2011-11",
+      "what_happened": "This is an incident, not a confirmed breach. On 9 January 2009 Howard A. Hanson Dam reached a record pool of 1,189 feet after inflows peaked at 30,500 cfs. USACE then found two depressions on the right abutment, sediment-laden water in the drainage tunnel, and higher-than-expected seepage. On 16 January USACE reduced the rated pool from 1,206 to 1,155 feet. FEMA appeal narrative and Wikipedia: interim seepage barrier and drainage work were in place by November 2009; well and drainage-tunnel work finished November 2011; the dam was later returned toward full flood storage. USACE estimated the January 2009 operation prevented about $3.9–4 billion in downstream damages. No source fetched treated this as a breach or gave a death count.",
+      "status": "incident / abutment grouted and drainage improved; dam remains in service",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Howard A. Hanson Dam (January 2009 record pool and right-abutment seepage)",
+          "url": "https://en.wikipedia.org/wiki/Howard_A._Hanson_Dam"
+        },
+        {
+          "label": "USACE Seattle District FAQ — two sinkholes, muddy seepage, high flow after 2009 pool of record",
+          "url": "https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Howard-Hanson-Dam/Information/"
+        },
+        {
+          "label": "FEMA appeal — 9 Jan 2009 pool 1,189 ft; 16 Jan capacity cut 1,206 to 1,155 ft",
+          "url": "https://www.fema.gov/appeal/howard-hanson-dam"
+        },
+        {
+          "label": "DamLookup / NID WA00298 — 47.27821, -121.78655",
+          "url": "https://damlookup.com/dam/wa00298"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is the island centroid.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Reclamation District 1607",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": "about 1,000 ft of levee overrun (Wikipedia / Mercury News)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "van-sickle-island-2017-01-12",
+      "name": "Van Sickle Island levee (2017)",
+      "country": "United States",
+      "region": "Suisun Bay / Suisun Marsh, Solano County, California",
+      "location_label": "Van Sickle Island, Suisun Bay, California",
+      "lat": 38.06667,
+      "lng": -121.90111,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / GNIS Van Sickle Island 38°04′00″N 121°54′04″W. Island centroid; 12 Jan 2017 1,000-ft overrun not surveyed as a cut pin.",
+      "river_or_facility": "Reclamation District 1607 levees, Van Sickle Island",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia (citing Mercury News and East Bay Times): a 12 January 2017 king tide overran about 1,000 feet of Van Sickle Island levee and the island flooded within hours. Suisun RCD director Steve Chappell called the damage the worst in the marsh.",
+      "incident_date": "2017-01-12",
+      "latest_report_date": "2017-01-13",
+      "what_happened": "On 12 January 2017 a king tide overran about 1,000 feet of Van Sickle Island levee in Suisun Marsh and the island flooded within hours. Wikipedia, citing Mercury News (12 January 2017) and East Bay Times (13 January 2017): 20 to 30 miles of Suisun Marsh levees were heavily damaged; Steve Chappell of the Suisun Resource Conservation District described Van Sickle's damage as the worst. The 1914, 1983 and 2005 Van Sickle breaches are separate records. No source fetched gave a death count.",
+      "status": "historical / RD 1607 later authorized Honker Bay and Sacramento River levee repairs",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Van Sickle Island (12 January 2017: 1,000 ft overrun; flooded within hours)",
+          "url": "https://en.wikipedia.org/wiki/Van_Sickle_Island"
+        },
+        {
+          "label": "Mercury News — 12 January 2017: multiple Delta levee breaches",
+          "url": "https://www.mercurynews.com/2017/01/12/bay-area-flooding-multiple-delta-levee-breaches-reported/"
+        },
+        {
+          "label": "East Bay Times — 13 January 2017: Delta islanders repair after floods",
+          "url": "https://www.eastbaytimes.com/2017/01/13/delta-islanders-repair-after-floods-look-toward-next-forecast/"
         }
       ],
       "severity": "major"
