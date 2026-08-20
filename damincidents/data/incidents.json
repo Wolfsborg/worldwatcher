@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 729,
+  "count": 768,
   "current_count": 25,
-  "historical_count": 704,
+  "historical_count": 743,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -39735,6 +39735,2147 @@
         {
           "label": "Thư viện Pháp luật — Bac Khe 1 planning coordinates",
           "url": "https://thuvienphapluat.vn/phap-luat/thuy-dien-bac-khe-1-o-dau-thuy-dien-bac-khe-1-o-tinh-nao-thuy-dien-bac-khe-1-o-xa-nao-sau-sap-nhap-777768-235794.html"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths: sources say people died but give no count. Left null. German Wikipedia accident-list table '5 mehrere' is not used as a sourced count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Republic of Siena (historically)",
+      "year_built": "1470–1492",
+      "height_m": 18,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Bruna valley / Maremma toward Grosseto",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "bruna-muracci-1492-12",
+      "name": "Bruna Dam / Diga dei Muracci (Lago di Pietra)",
+      "country": "Italy",
+      "region": "Gavorrano / Roccastrada, Province of Grosseto, Tuscany",
+      "location_label": "Diga dei Muracci ruins, Bruna River, Maremma, Italy",
+      "lat": 42.95,
+      "lng": 11.023611,
+      "geo_accuracy": "site",
+      "geo_source": "German Wikipedia Bruna-Staumauer 42.95, 11.023611 (ruins between Ribolla and Giuncarico)",
+      "river_or_facility": "Diga dei Muracci / Fiume Bruna (planned Lago di Pietra / Lago della Bruna)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "foundation"
+      ],
+      "cause_summary": "German Wikipedia / Adams (1984): the nearly finished Sienese gravity dam was already in poor condition; a written distress call of 4 December 1492 said it was about to break, and it failed in the last days of December.",
+      "incident_date": "1492-12",
+      "latest_report_date": "2012-04",
+      "what_happened": "The Republic of Siena began a gravity dam on the Bruna near Giuncarico in 1470 to create a fish-stocking lake (Lago di Pietra). German Wikipedia, following Adams (Technology and Culture, 1984) and Farinelli/Francovich: the wall was up to 18 m high, 12 m at the base, 6 m at the crest and about 300 m long. Design changes and extra stone were needed from 1471; overtopping damaged the downstream face in the 1470s. A last written call for Francesco di Giorgio Martini on 4 December 1492 said the dam was in great danger. It broke in the last days of December 1492, flooding the Maremma. People and animals died; no source fetched gives a death count. Rebuild plans (including Baldassare Peruzzi) were never carried out. Ruins remain on the Gavorrano–Roccastrada boundary.",
+      "status": "Failed 1492; ruins still visible. Not rebuilt.",
+      "deaths": null,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "German Wikipedia — Bruna-Staumauer",
+          "url": "https://de.wikipedia.org/wiki/Bruna-Staumauer"
+        },
+        {
+          "label": "IMSS — The dam on the Bruna River",
+          "url": "https://brunelleschi.imss.fi.it/genscheda.asp?appl=LIR&chiave=100617&lingua=ENG&xsl=sezione"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: Italian Wikipedia (Morti 0) and German Wikipedia (keine Todesopfer).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1949–1952",
+      "height_m": 15,
+      "reservoir_capacity": "311,000 m³ useful (IT wiki); 0.3 million m³ (DE wiki)",
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": "emptied in 65 minutes (IT wiki / ITCOLD)",
+      "breach_size": null,
+      "downstream_risk": "Rio Bianco / Slizza toward Tarvisio",
+      "economic_damage": null,
+      "investigating_agency": "Politecnico di Milano geodesy markers during operation (IT wiki)",
+      "verification": "confirmed",
+      "id": "rutte-1965-11-07",
+      "name": "Bacino di Rutte (Rutte multiple-arch dam)",
+      "country": "Italy",
+      "region": "Rutte Piccolo / Greuth, Tarvisio, Friuli-Venezia Giulia",
+      "location_label": "Bacino di Rutte, Tarvisio, Italy",
+      "lat": 46.492778,
+      "lng": 13.591111,
+      "geo_accuracy": "exact",
+      "geo_source": "Italian Wikipedia Bacino di Rutte 46°29′34″N 13°35′28″E",
+      "river_or_facility": "Bacino di Rutte / Rio Bianco (Slizza–Drava)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation"
+      ],
+      "cause_summary": "German Wikipedia and ITCOLD Belluco: after sediment was stripped from the emptied basin, refill water entered a first-filling crack and piped through fractured dolomite; buttresses collapsed on 7 November 1965.",
+      "incident_date": "1965-11-07",
+      "latest_report_date": "2025-11",
+      "what_happened": "The 15–20 m multiple-arch/buttress dam at Rutte, about 3 km from Tarvisio, was finished in 1952 (Cattaneo/Mussita). Italian and German Wikipedia: first filling already produced cracks between the bituminous basin lining and dolomite; sediment later self-sealed a crack. After 13 years the basin was emptied to remove about 9 m of sediment, exposing the fractured foundation. On 7 November 1965 the arches and buttresses collapsed and the reservoir emptied in 65 minutes into the Slizza. ITCOLD (Belluco): piping under arches 15–16 from about 10:40; reservoir empty in 65 minutes; peak about 160 m³/s. Italian Wikipedia and German Wikipedia: no deaths, material damage only. The empty basin was later used as quarry fill.",
+      "status": "Collapsed 1965. Basin later filled with quarry spoil.",
+      "deaths": 0,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Italian Wikipedia — Bacino di Rutte",
+          "url": "https://it.wikipedia.org/wiki/Bacino_di_Rutte"
+        },
+        {
+          "label": "German Wikipedia — Rutte-Talsperre",
+          "url": "https://de.wikipedia.org/wiki/Rutte-Talsperre"
+        },
+        {
+          "label": "ITCOLD — Belluco, The Rutte multiple arch dam (PDF)",
+          "url": "https://www.itcold.it/wp-content/uploads/2025/11/15-belluco4.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "three hotels evacuated (ORF)",
+      "notes": "Deaths 0: ORF (keine Toten und Verletzten). Foundation leak through unfrozen rock joints, not a crest collapse.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Schnalstaler Gletscherbahnen (ski area)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "10,000 m³ (ORF)",
+      "construction": "unknown",
+      "purpose": "recreation",
+      "volume_released": "about 10,000 m³ (ORF)",
+      "breach_size": null,
+      "downstream_risk": "Kurzras / Maso Corto hotels and valley ski run",
+      "economic_damage": null,
+      "investigating_agency": "South Tyrol provincial geologist; Amt für Wildbachverbauung",
+      "verification": "confirmed",
+      "id": "schnalstal-kurzras-2011-12-27",
+      "name": "Schnalstal glacier snowmaking pond (Kurzras)",
+      "country": "Italy",
+      "region": "Kurzras / Maso Corto, Schnals, South Tyrol",
+      "location_label": "Snowmaking pond below Schöne Aussicht, Schnalstal glacier, Italy",
+      "lat": 46.77998,
+      "lng": 10.794929,
+      "geo_accuracy": "site",
+      "geo_source": "German Wikipedia list of dam accidents (Staubecken am Schnalstaler Gletscher / Kurzras) 46.779980, 10.794929",
+      "river_or_facility": "Schnalstal glacier snowmaking reservoir / Schnalser Bach",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "foundation"
+      ],
+      "cause_summary": "ORF / South Tyrol provincial geologist Volkmar Mair: a mild autumn left ice-filled rock joints unfrozen; the 10,000 m³ pond drained through the fractured bedrock. Officials ruled out a construction defect.",
+      "incident_date": "2011-12-27",
+      "latest_report_date": "2011-12-29",
+      "what_happened": "On 27 December 2011 (ORF: Tuesday shortly before 17:30) the warden of the Schöne Aussicht hut reported that a snowmaking pond at about 2,800 m on the Schnalstal glacier was losing water. About 10,000 m³ drained; the Schnalser Bach overflowed, muddied the valley ski run at three places, flooded the road in front of hotels in Kurzras, and three hotels were evacuated. ORF: no deaths or injuries. Provincial geologist Volkmar Mair attributed the leak to an extremely mild autumn so that normally ice-filled joints in the fractured rock did not freeze, plus heat from the pond; he thought slow subsurface leakage had already been going on for days. Wildbachverbauung and water-works officials said the basin itself was intact and excluded construction defects. German Wikipedia lists the event under dam-installation accidents.",
+      "status": "Pond drained 2011; valley run later reopened. No deaths.",
+      "deaths": 0,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "tirol.ORF.at — Stausee in Südtirol ausgelaufen",
+          "url": "https://tirol.orf.at/v2/news/stories/2514964/"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen (Kurzras 2011)",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: no source fetched reported fatalities. Dated to the 1969 official reservoir restriction; lowering 2011–2014 is the later permanent mitigation.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "CVA (Compagnia Valdostana delle Acque); originally SIP",
+      "year_built": "1951–1960",
+      "height_m": 132,
+      "reservoir_capacity": "design 70 million m³; 1969 limit 6.8 million m³ (Barla); Wikipedia says limited to about 2 million m³",
+      "construction": "concrete_arch",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Valgrisenche",
+      "economic_damage": null,
+      "investigating_agency": "Italian Dam Authorities / RID",
+      "verification": "confirmed",
+      "id": "beauregard-1969",
+      "name": "Beauregard Dam (Valgrisenche DSGSD / crest lowering)",
+      "country": "Italy",
+      "region": "Valgrisenche, Aosta Valley",
+      "location_label": "Diga di Beauregard, Valgrisenche, Italy",
+      "lat": 45.60775,
+      "lng": 7.051228,
+      "geo_accuracy": "site",
+      "geo_source": "Italian Wikipedia Lago di Beauregard 45°36′27.9″N 7°03′04.42″E",
+      "river_or_facility": "Diga di Beauregard / Dora di Valgrisenche (Avise hydro)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "landslide",
+        "foundation"
+      ],
+      "cause_summary": "CVA and Italian Wikipedia: a deep-seated gravitational slope deformation on the left bank compressed the arch from first filling; Italian dam authorities limited the reservoir in 1969, and the crest was later demolished by 52 m (2011–2014).",
+      "incident_date": "1969",
+      "latest_report_date": "2015",
+      "what_happened": "Beauregard is a 132 m arch-gravity dam on the Dora di Valgrisenche, completed in the late 1950s (Italian Wikipedia: 1957–1960; CVA: mid-1950s) for the Avise plant. Monitoring from the first test fillings showed a deep-seated gravitational slope deformation on the left bank that pushed the arch upstream and cracked the downstream face. Italian Wikipedia: the design 70 million m³ at 1,770 m was limited to about 2 million m³; CVA/Barla: Italian Dam Authorities set a 1,710 m / 6.8 million m³ limit in 1969 (later lowered again in 1998). Fornet village re-emerged. CVA: 2011–2015 works lowered the crest 52 m (1,772 m to 1,720 m; height 132 m to 80 m) by explosives (Italian Wikipedia: demolition 20 October 2011–October 2014, 56 charges). No source fetched reported deaths.",
+      "status": "Crest lowered 52 m (2011–2014). Still in restricted hydro use (CVA).",
+      "deaths": 0,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Italian Wikipedia — Lago di Beauregard",
+          "url": "https://it.wikipedia.org/wiki/Lago_di_Beauregard"
+        },
+        {
+          "label": "CVA — Beauregard Dam",
+          "url": "https://cvaspa.it/en/beauregard-dam"
+        },
+        {
+          "label": "Barla et al. — Beauregard dam and left-slope DSGSD (ResearchGate)",
+          "url": "https://www.researchgate.net/publication/260848166_The_Beauregard_dam_Italy_and_the_deep-seated_gravitational_slope_deformation_on_the_left_slope"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the 1980 Irpinia regional earthquake death toll onto this unfinished-dam record. No source fetched gave a death count at the dam.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "EIPLI",
+      "year_built": "1979–1988 (interrupted 1980–1983)",
+      "height_m": 34.65,
+      "reservoir_capacity": "63 million m³ useful (IT wiki / EIPLI); restricted 44.7 million m³ at 432 m (EIPLI)",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Ofanto valley",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "conza-1980-11-23",
+      "name": "Conza Dam (construction damage, Irpinia earthquake)",
+      "country": "Italy",
+      "region": "Conza della Campania, Province of Avellino, Campania",
+      "location_label": "Diga di Conza, Ofanto River, Italy",
+      "lat": 40.881,
+      "lng": 15.31,
+      "geo_accuracy": "approx",
+      "geo_source": "Italian Wikipedia Lago di Conza 40°52′51.6″N 15°18′36″E (reservoir; dam at north end on the Ofanto)",
+      "river_or_facility": "Diga di Conza / Fiume Ofanto",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "Sica et al. / Dello Russo et al.: the unfinished zoned earthfill (shells about 15 m) was seriously deformed by the 23 November 1980 Irpinia M 6.9 earthquake; construction was stopped and the section redesigned.",
+      "incident_date": "1980-11-23",
+      "latest_report_date": "2026",
+      "what_happened": "Construction of the Conza zoned earth dam on the Ofanto began on 7 August 1979. A 2026 Engineering Geology paper (Sica and co-authors) and earlier Dello Russo et al. (2017): on 23 November 1980 the nearby Irpinia earthquake (Ms 6.9) struck while the shells were about 15 m high (top about 420 m asl) and the core 5 m lower; two sections were not yet built. The incomplete embankment was seriously damaged/deformed. Work stopped; the cross-section was redesigned under the 1982 Italian seismic rules (2 m higher, flatter slopes, wider crest). Fill restarted December 1983 and ended July 1988; first impounding 1 October 1992. EIPLI: still in experimental operation with a restricted level. No source fetched reported deaths at the dam itself. The regional earthquake death toll is not copied onto this record.",
+      "status": "Redesigned after 1980; experimental operation from 1992 with a restricted reservoir (EIPLI).",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Italian Wikipedia — Lago di Conza",
+          "url": "https://it.wikipedia.org/wiki/Lago_di_Conza"
+        },
+        {
+          "label": "EIPLI — Diga di Conza",
+          "url": "https://eipli.it/diga-di-conza/"
+        },
+        {
+          "label": "Dello Russo et al. 2017 — Near-source effects at Conza Dam (BEE)",
+          "url": "https://doi.org/10.1007/s10518-017-0138-2"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: no count found for the 1648 construction flood. Not merged with puentes-1802-04-30.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "City of Lorca (historically)",
+      "year_built": "1647–1648 (unfinished)",
+      "height_m": 23,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Lorca / Guadalentín",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "puentes-i-1648-08-05",
+      "name": "Puentes I Dam (construction flood)",
+      "country": "Spain",
+      "region": "Estrecho de Puentes, Lorca, Murcia",
+      "location_label": "Puentes dam site, Guadalentín, Lorca, Spain",
+      "lat": 37.735104,
+      "lng": -1.820129,
+      "geo_accuracy": "site",
+      "geo_source": "German Wikipedia list of dam accidents (Puentes I) 37.735104, -1.820129 — same gorge as later Puentes dams",
+      "river_or_facility": "Puentes I / Río Guadalentín (Lorca)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "construction_first_filling"
+      ],
+      "cause_summary": "ASDSO and GOING/ingenieria-civil: the first Puentes dam was destroyed during construction by a flood on 5 August 1648, just after the foundation was finished.",
+      "incident_date": "1648-08-05",
+      "latest_report_date": "2015",
+      "what_happened": "Four dams have stood in the Puentes gorge of the Guadalentín above Lorca. ASDSO (1802 Failure of Puentes II Dam): Puentes I was intended to be about 80 ft tall and was destroyed during construction in 1648 by a flood just after the foundation was completed. GOING (Colegio de Ingenieros): Lorca commissioned Pedro Guillén in 1647 for a 23 m dam; he finished the foundation in April 1648; on 5 August 1648 a flood scoured the foundation and ruined the work. German Wikipedia lists Puentes I on 1648-08-05 at the same coordinates as Puentes II. No source fetched gave a death count for 1648. The 1802 Puentes II failure is a separate record.",
+      "status": "Destroyed during construction 1648. Later dams built in the same gorge (Puentes II failed 1802).",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "ASDSO — 1802 Failure of Puentes II Dam (site history including Puentes I)",
+          "url": "https://damsafety.org/reference/1802-failure-puentes-ii-dam"
+        },
+        {
+          "label": "GOING — Presa de Puentes",
+          "url": "https://ingenieria-civil.org/GOING/obra.php?id=283"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen (Puentes I)",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: iAgua explicitly says no bibliographic references of victims. Coords are the present SEPREM dam in the same estrecho, not an independent 1766 pin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "historically local irrigation; SEPREM lists Sindicato Central de Riegos Río Huerva y Pantano Mezalocha for the later dam",
+      "year_built": "1743–1746",
+      "height_m": 23,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Huerva valley through Muel to the Ebro at Zaragoza",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mezalocha-1766-06-20",
+      "name": "Mezalocha Dam (1766 Huerva breach)",
+      "country": "Spain",
+      "region": "Mezalocha, Province of Zaragoza, Aragon",
+      "location_label": "Presa de Mezalocha, Río Huerva, Spain",
+      "lat": 41.42683,
+      "lng": -1.07628,
+      "geo_accuracy": "site",
+      "geo_source": "SEPREM inventory UTM 30 0660743 4587927 converted to 41.42683, -1.07628 (present dam in the same Huerva gorge; 1766 dam was at this estrecho)",
+      "river_or_facility": "Presa de Mezalocha / Río Huerva",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation",
+        "structural_design"
+      ],
+      "cause_summary": "iAgua / Confederación Hidrográfica del Ebro blog, citing Ignacio Jordán de Asso and Antonio Lasierra: the masonry arch-gravity dam, founded on alluvial gravels not rock, failed by piping (sifonamiento) on 20 June 1766.",
+      "incident_date": "1766-06-20",
+      "latest_report_date": "2016",
+      "what_happened": "A masonry arch-gravity dam about 23 m high and 58 m in crest length was finished at Mezalocha on the Huerva between 1743 and 1746. iAgua (CHE anniversary piece): Ignacio Jordán de Asso wrote that on 20 June 1766, without a river flood, the masonry in the gorge burst. Lasierra (1899) described piping under the central section founded on channel gravels and sands, plus an overly steep 0.3H:1V downstream face. The flood damaged the ermita of Nuestra Señora de la Fuente at Muel (1.80 m inundation on the Roman dam). iAgua: no bibliographic references of victims. The dam was later rebuilt (iAgua: reconstruction finished 1903; present SEPREM dam is the later structure in the same gorge).",
+      "status": "1766 dam failed. A later dam stands in the same gorge (SEPREM: in operation).",
+      "deaths": null,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "iAgua / CHE — 250 años de la rotura de la antigua presa de Mezalocha",
+          "url": "https://www.iagua.es/blogs/conoce-che-y-gestion-agua/250-anos-rotura-antigua-presa-mezalocha-hecho-que-inspiro-goya"
+        },
+        {
+          "label": "SEPREM — Presa Mezalocha inventory",
+          "url": "http://www.seprem.es/ficha.php?idpresa=681&p=27"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 54: official recognised count in El País 2015 and the Spanish Wikipedia dam-failure table. Wikipedia infobox 30–70 and later local estimates above 70 are noted; not used as the latest dated official figure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Hidroeléctrica Española (now Iberdrola)",
+      "year_built": "1958–1967 (construction period)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Tajo toward Portugal; workers in tunnel and dry bed",
+      "economic_damage": null,
+      "investigating_agency": "Judicial investigation closed 1970 without assigning culpability (El Periódico Extremadura 2024)",
+      "verification": "confirmed",
+      "id": "torrejon-el-rubio-1965-10-22",
+      "name": "Torrejón-Tajo / Torrejón-Tiétar cofferdam (Monfragüe)",
+      "country": "Spain",
+      "region": "Salto de Torrejón, Torrejón el Rubio / Toril / Serradilla, Cáceres",
+      "location_label": "Saltos de Torrejón, Tajo–Tiétar confluence, Monfragüe, Spain",
+      "lat": 39.835,
+      "lng": -5.986944,
+      "geo_accuracy": "site",
+      "geo_source": "Spanish Wikipedia Desastre de Torrejón 39°50′06″N 5°59′13″W",
+      "river_or_facility": "Presas de Torrejón-Tajo and Torrejón-Tiétar (construction cofferdam / floodgate)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "operational_gate",
+        "construction_first_filling",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "El País (2015) and Spanish Wikipedia: during a rainy-autumn test filling, a temporary floodgate/cofferdam (ataguía) on the connecting tunnel failed under reservoir pressure and drowned workers in the tunnel, powerhouse and dry riverbed.",
+      "incident_date": "1965-10-22",
+      "latest_report_date": "2024-10-24",
+      "what_happened": "On 22 October 1965, during construction of Hidroeléctrica Española's Torrejón-Tajo and Torrejón-Tiétar dams at the Tajo–Tiétar confluence (today Monfragüe), a temporary 14-tonne floodgate/cofferdam closing a 16 m-wide pumping tunnel burst. El País (21–26 October 2015): water flooded the tunnel, underground powerhouse and galleries and swept workers in the dry riverbed; spillways were then opened to recover bodies. Francoist censorship hid the scale. Official recognised death toll 54 (El País 2015; Spanish Wikipedia dam-failure list). Wikipedia infobox still gives a 30–70 range; later local press cites more than 70. This record uses the official 54. The finished dams later entered service; they were never officially inaugurated.",
+      "status": "Construction accident 1965. The two dams later entered service (Iberdrola).",
+      "deaths": 54,
+      "sources": [
+        {
+          "label": "El País English — How Franco covered up the Monfragüe dam disaster deaths (2015-10-26)",
+          "url": "https://english.elpais.com/elpais/2015/10/26/inenglish/1445857318_191651.html"
+        },
+        {
+          "label": "El País — Los 60 muertos de Monfragüe que Franco ocultó (2015-10-21)",
+          "url": "https://elpais.com/politica/2015/10/21/actualidad/1445458030_939038.html"
+        },
+        {
+          "label": "Spanish Wikipedia — Desastre de Torrejón",
+          "url": "https://es.wikipedia.org/wiki/Desastre_de_Torrej%C3%B3n"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 7: German Wikipedia article and accident-list table. Month only (March 1987). DE wiki 'bei Vigo' is a location error; the municipality is A Fonsagrada (Lugo). Coords 43.105, -7.13 are in that district, not Vigo city.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1958",
+      "height_m": 20,
+      "reservoir_capacity": "100,000 m³ (DE wiki); another figure 16 acre-feet ≈ 20,000 m³",
+      "construction": "concrete",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": "7 m² hole in one vault (DE wiki)",
+      "downstream_risk": "Fonsagrada district",
+      "economic_damage": null,
+      "investigating_agency": "ICOLD 1991 case study (Guerreiro et al.)",
+      "verification": "confirmed",
+      "id": "leguaseca-fonsagrada-1987-03",
+      "name": "Leguaseca / Fonsagrada Dam",
+      "country": "Spain",
+      "region": "A Fonsagrada, Province of Lugo, Galicia",
+      "location_label": "Presa de Leguaseca (Fonsagrada), Lugo, Spain",
+      "lat": 43.105,
+      "lng": -7.13,
+      "geo_accuracy": "site",
+      "geo_source": "German Wikipedia Leguaseca-Staumauer 43°6′18″N 7°7′48″W",
+      "river_or_facility": "Presa de Leguaseca / Fonsagrada (multiple-arch)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "poor_maintenance"
+      ],
+      "cause_summary": "German Wikipedia, citing Guerreiro et al. ICOLD 1991: a thin arch between two buttresses failed after concrete deterioration (acid/sulphate water, ettringite, freeze–thaw, thermal stress).",
+      "incident_date": "1987-03",
+      "latest_report_date": "1991",
+      "what_happened": "The Leguaseca (also Fonsagrada) dam in A Fonsagrada, Lugo, was a 20 m-high, 70 m-long concrete multiple-arch/buttress dam built in 1958 on rock, with a small reservoir (German Wikipedia: 100,000 m³, or about 20,000 m³ / 16 acre-feet in another figure). In March 1987 one vault between two piers broke, opening a 7 m² hole that emptied the reservoir. The reservoir was only sparsely filled; German Wikipedia still reports seven deaths. Post-failure tests (Guerreiro, Fernández Cuevas, Guerreiro and Gómez Laa, 17th ICOLD Congress, Vienna 1991) found the concrete had deteriorated in aggressive acidic, sulphate-rich water, with rusted reinforcement, ettringite and salt formation, freeze–thaw and solar thermal stress.",
+      "status": "Destroyed 1987.",
+      "deaths": 7,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "German Wikipedia — Leguaseca-Staumauer",
+          "url": "https://de.wikipedia.org/wiki/Leguaseca-Staumauer"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year only. Mine-site Wikipedia pin used for the riverine dams on the San Fins at the mine.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Industrias Gallegas / later Banco Pastor concession (FEG); WISE lists Industrias Gallegas and the mayor of Lousame",
+      "year_built": "1939 (larger dam)",
+      "height_m": 13,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "tens of thousands of m³ of sludge (WISE)",
+      "breach_size": null,
+      "downstream_risk": "Río San Fins / Lousame–Noia / Ría de Noia",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "san-finx-1960",
+      "name": "San Finx / San Fins tailings dam (Lousame)",
+      "country": "Spain",
+      "region": "Vilacoba, Lousame, A Coruña, Galicia",
+      "location_label": "Minas de San Finx, Lousame, Spain",
+      "lat": 42.752778,
+      "lng": -8.821944,
+      "geo_accuracy": "site",
+      "geo_source": "Spanish Wikipedia Minas de San Finx 42°45′10″N 8°49′19″W",
+      "river_or_facility": "San Finx / San Fins 1939 tailings dam on the Río San Fins",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Federación Ecoloxista Galega / Climática: failure of a gate on the larger 1939 riverine tailings dam (about 13–14 m high, 50 m long); Climática also cites heavy rain.",
+      "incident_date": "1960",
+      "latest_report_date": "2021",
+      "what_happened": "Tin–tungsten mines at San Finx (Lousame) built two riverine tailings dams on the San Fins in 1928 and 1939. Federación Ecoloxista Galega (2020) and a URV clinic case file: failure of a gate on the larger 1939 dam (about 13 m high, 50 m long) caused the 'catástrofe de 1960', sending sludge down the river to the Ría de Noia and sterilising farmland. Climática: rupture of one of the mine ponds in heavy rain, thousands of tonnes of contaminated sludge on valley fields; neighbour protests reached mayors under Franco. WISE lists a 1960 San Finx, Lousame, tin/tungsten tailings dam failure of tens of thousands of cubic metres. No source fetched gave a death count. The 1939 dam later stood abandoned and outside the 2009 reopening perimeter (Climática).",
+      "status": "1960 dam failed. Abandoned 1939 dam later flagged as collapse risk (Climática).",
+      "deaths": null,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Historia de Galicia — San Finx 1960",
+          "url": "https://historiadegalicia.gal/2019/04/1960-cando-unha-avalancha-de-residuos-mineiros-estivo-a-piques-de-arrasar-lousame-e-noia/"
+        },
+        {
+          "label": "Federación Ecoloxista Galega — San Finx dams (2020)",
+          "url": "https://federacionecoloxistagalega.org/2020/02/13/a-xunta-mentiu-a-onu-e-ao-parlamento-europeo-sobre-a-mina-de-san-finx/"
+        },
+        {
+          "label": "WISE Uranium — Chronology of major tailings dam failures (San Finx 1960)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        },
+        {
+          "label": "Spanish Wikipedia — Minas de San Finx",
+          "url": "https://es.wikipedia.org/wiki/Minas_de_San_Finx"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Release 50,000 m³ is El País/Junta; WWF 500,000 m³ not used as the latest official figure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Fertiberia and Foret (FMC)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "50,000 m³ acidic water (El País / Junta); Fertiberia 30,000–50,000 m³",
+      "breach_size": null,
+      "downstream_risk": "Ría de Huelva / Tinto–Odiel estuary",
+      "economic_damage": null,
+      "investigating_agency": "Consejería de Medio Ambiente, Junta de Andalucía (expediente)",
+      "verification": "confirmed",
+      "id": "huelva-fertiberia-1998-12-31",
+      "name": "Huelva phosphogypsum pond (Fertiberia / Foret)",
+      "country": "Spain",
+      "region": "Marismas del Rincón, Huelva, Andalusia",
+      "location_label": "Balsas de fosfoyesos, Marismas del Rincón, Huelva, Spain",
+      "lat": 37.24982,
+      "lng": -6.92125,
+      "geo_accuracy": "site",
+      "geo_source": "OpenStreetMap water body 'Balsas de Fosfoyesos', Huelva 37.24982, -6.92125; El País locates the 1998 pond in Marismas del Rincón",
+      "river_or_facility": "Fertiberia/Foret phosphogypsum pond, Marismas del Rincón / Río Tinto estuary",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "El País 2 January 1999: a 70 ha phosphogypsum pond collapsed during the 31 December 1998 storm and released about 50,000 m³ of acidic water to the ría. WWF/WISE: waves up to 4 m eroded the dam.",
+      "incident_date": "1998-12-31",
+      "latest_report_date": "1999-01-12",
+      "what_happened": "On 31 December 1998 a phosphogypsum pond of Fertiberia and Foret in the Marismas del Rincón, on the edge of Huelva, failed in a storm. El País (2 January 1999): about 50,000 m³ of acidic water entered the ría de Huelva; the 70 ha pond 'se desmoronó'. Operators cut the wall to transfer remaining contents into a lower clean-water pond and plugged cracks with cement sacks; Junta delegate Manuel Eugenio Romero said the leak was closed by the morning of 1 January. WISE/WWF: acidic and toxic water; Fertiberia later estimated 30,000–50,000 m³, WWF Spain claimed more like 500,000 m³. This record uses El País/Junta 50,000 m³. No source fetched reported deaths.",
+      "status": "Leak closed 1 January 1999. Phosphogypsum stacks remain on the Tinto marshes; stacking later halted by court order (2010, later sources).",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "El País — Vertido de 50.000 m³ de agua ácida (1999-01-02)",
+          "url": "https://elpais.com/diario/1999/01/02/sociedad/915231601_850215.html"
+        },
+        {
+          "label": "WISE Uranium — Chronology (Huelva 1998-12-31)",
+          "url": "https://www.wise-uranium.org/mdaf.html"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0. Year only. Not merged with the 2013 right-bank evacuation.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Confederación Hidrográfica del Ebro",
+      "year_built": "1959",
+      "height_m": 76.5,
+      "reservoir_capacity": "447 hm³ (present dam, Wikipedia)",
+      "construction": "concrete_gravity",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Sangüesa / Aragón valley",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "yesa-left-bank-2006",
+      "name": "Yesa Reservoir left-bank landslide (heightening works)",
+      "country": "Spain",
+      "region": "Yesa, Navarre / Zaragoza (Aragón River)",
+      "location_label": "Embalse de Yesa left bank, Spain",
+      "lat": 42.61528,
+      "lng": -1.17139,
+      "geo_accuracy": "site",
+      "geo_source": "English Wikipedia Yesa Reservoir 42°36′55″N 1°10′17″W",
+      "river_or_facility": "Presa de Yesa / Río Aragón (recrecimiento left slope)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "landslide",
+        "construction_first_filling"
+      ],
+      "cause_summary": "English Wikipedia: heightening works from 2001 produced left-bank cracks in 2004 and a 3.5 million m³ landslide in 2006 that threatened to fall into the reservoir.",
+      "incident_date": "2006",
+      "latest_report_date": "2021",
+      "what_happened": "Yesa is a 76 m gravity dam on the Aragón, inaugurated 1959–60. A heightening project to about 1,525 hm³ began in May 2001. English Wikipedia: the works ran into left-bank consolidation problems; large cracks appeared in 2004; in 2006 a landslide of 3.5 million cubic metres threatened to fall into the reservoir; in 2007 cracks reopened and the left-slope track collapsed. This is a slope-stability incident during dam-raising, not a dam-body breach. No source fetched reported deaths. A separate 2013 right-bank movement is a later record.",
+      "status": "Heightening works continued after slope treatment. Dam still in service.",
+      "deaths": 0,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "English Wikipedia — Yesa Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Yesa_Reservoir"
+        },
+        {
+          "label": "AGU Landslide Blog — Yesa (2013-05-28, site history)",
+          "url": "https://blogs.agu.org/landslideblog/2013/05/28/another-landslide-on-a-reservoir-flank-yesa-in-spain/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "19 dwellings in Mirador de Yesa and 44 in Lasaitasuna ordered out (CHE); AGU: 60 houses",
+      "notes": "Deaths 0. Separate from the 2006 left-bank landslide.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Confederación Hidrográfica del Ebro",
+      "year_built": "1959",
+      "height_m": 76.5,
+      "reservoir_capacity": "447 hm³ (Wikipedia)",
+      "construction": "concrete_gravity",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Yesa urbanisations; Sangüesa about 10 km downstream",
+      "economic_damage": null,
+      "investigating_agency": "Confederación Hidrográfica del Ebro",
+      "verification": "confirmed",
+      "id": "yesa-right-bank-2013-02",
+      "name": "Yesa Reservoir right-bank movement and evacuations",
+      "country": "Spain",
+      "region": "Yesa, Navarre",
+      "location_label": "Yesa dam right abutment / Mirador de Yesa, Spain",
+      "lat": 42.61528,
+      "lng": -1.17139,
+      "geo_accuracy": "site",
+      "geo_source": "English Wikipedia Yesa Reservoir 42°36′55″N 1°10′17″W",
+      "river_or_facility": "Presa de Yesa right abutment (recrecimiento)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "landslide"
+      ],
+      "cause_summary": "CHE 2014 report: right-bank movement led to emergency slope works authorised 7 February 2013 and a Yesa town-council eviction of Mirador de Yesa and part of Lasaitasuna (deadline 11 February 2013).",
+      "incident_date": "2013-02-08",
+      "latest_report_date": "2014-06-13",
+      "what_happened": "On 7 February 2013 the State Secretariat for the Environment authorised emergency works (up to €10 million) to improve the right-abutment slope at Yesa; work started that day (CHE report, 13 June 2014). On 8 February the Yesa council ordered evacuation of all 19 dwellings in urbanización Mirador de Yesa and 44 in Lasaitasuna because of detected slope movement, with a deadline of 20:00 on 11 February. AGU Landslide Blog (28 May 2013): 60 houses on the landslide were evacuated. Wikipedia: new cracks on the right slope in 2013. No source fetched reported deaths. The dam body was not reported to have breached.",
+      "status": "Emergency slope works 2013–14. CHE (June 2014) said global right-slope movement had become imperceptible from 30 March 2014. Heightening remains controversial.",
+      "deaths": 0,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "CHE — Informe del comportamiento de la ladera derecha (2014-06-13)",
+          "url": "https://chebro.es/documents/20121/286010/2014_06_13_Informe_Comportamiento_ladera_Yesa.pdf/0f37aa51-e406-5d3b-4683-8cd782fde539"
+        },
+        {
+          "label": "AGU Landslide Blog — Yesa (2013-05-28)",
+          "url": "https://blogs.agu.org/landslideblog/2013/05/28/another-landslide-on-a-reservoir-flank-yesa-in-spain/"
+        },
+        {
+          "label": "English Wikipedia — Yesa Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Yesa_Reservoir"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. El País describes overtopping of the dike, not a confirmed masonry breach. Date from El País 'ayer tarde' in the 10 September 1990 paper.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Patrimonio Nacional (later sources)",
+      "year_built": "16th century (Juan Bautista de Toledo / Juan de Herrera)",
+      "height_m": 6,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Historic centre of Aranjuez",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ontigola-1990-09-09",
+      "name": "Mar de Ontígola dam (Aranjuez overtopping)",
+      "country": "Spain",
+      "region": "Aranjuez, Community of Madrid",
+      "location_label": "Presa del Mar de Ontígola, Aranjuez, Spain",
+      "lat": 40.01242,
+      "lng": -3.60648,
+      "geo_accuracy": "site",
+      "geo_source": "Spanish Wikipedia Reserva del Regajal-Mar de Ontígola 40°00′45″N 3°36′23″W",
+      "river_or_facility": "Presa del Mar de Ontígola / Arroyo de Ontígola",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "El País 10 September 1990: a cloudburst the previous afternoon overtopped the Ontígola retaining dike; water and mud crossed historic Aranjuez. Later heritage notes say the spillways were not sized for a flood.",
+      "incident_date": "1990-09-09",
+      "latest_report_date": "2020-02",
+      "what_happened": "The 16th-century buttress/earthfill dam of the Mar de Ontígola (about 140–150 m long, 6 m high) above Aranjuez overtopped during a 9 September 1990 cloudburst. El País (10 September 1990): the wetland south of and above the town 'desbordó el dique de contención'; a torrent of water and mud crossed the historic centre, flooded the national-police building (seven patrol cars), the municipal library and ground floors, and ponded up to a metre in places. Madrid–south road and rail links were cut. El País does not describe a masonry collapse. Madrid Ciudadanía y Patrimonio later said the spillways were not prepared for a flood; a 2020 Aranjuez plenary cited masonry-buttress problems that had already caused important 1990 flooding. No source fetched reported deaths.",
+      "status": "Dam still stands; Hispania Nostra red-list heritage structure with later instability warnings (2011 type-A classification later revised).",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "El País — Una tromba de agua aisla Madrid con el sur (1990-09-10)",
+          "url": "https://elpais.com/diario/1990/09/10/madrid/652965856_850215.html"
+        },
+        {
+          "label": "Spanish Wikipedia — Reserva del Regajal-Mar de Ontígola",
+          "url": "https://es.wikipedia.org/wiki/Reserva_del_Regajal-Mar_de_Ont%C3%ADgola"
+        },
+        {
+          "label": "Hispania Nostra Lista Roja — Mar de Ontígola",
+          "url": "https://listaroja.hispanianostra.org/ficha/mar-de-ontigola/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0. Dated to 2006 when papers say leakage began to threaten safety — not a sudden collapse. Replacement 2013–14.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "EDP (Santa Luzia hydro)",
+      "year_built": "1940–1949",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete_arch",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Ceira / Alva basin",
+      "economic_damage": null,
+      "investigating_agency": "LNEC (ASR diagnosis)",
+      "verification": "confirmed",
+      "id": "alto-ceira-asr-2006",
+      "name": "Alto Ceira Dam (ASR / replacement)",
+      "country": "Portugal",
+      "region": "Coja, Municipality of Arganil, Coimbra District",
+      "location_label": "Barragem do Alto Ceira, Rio Ceira, Portugal",
+      "lat": 40.18903,
+      "lng": -7.84731,
+      "geo_accuracy": "site",
+      "geo_source": "Structurae Alto Ceira Dam 40°11′20.5″N 7°50′50.31″W",
+      "river_or_facility": "Barragem do Alto Ceira / Rio Ceira (Santa Luzia hydro)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "MDPI Buildings (2025) and Engineering Proceedings (2024): alkali–silica reaction in the 1949 thin arch, diagnosed from 1986, had by 2006 produced deep cracks and intensive leakage that threatened safety; the dam was replaced and partly demolished.",
+      "incident_date": "2006",
+      "latest_report_date": "2025",
+      "what_happened": "Alto Ceira I was a thin concrete arch finished in 1949 on the Ceira (Structurae: works 1940–49; 40°11′20.5″N 7°50′50.31″W). A 2025 Buildings paper: ASR assessment began in 1986 (quartzitic aggregate). Engineering Proceedings 2024: by 2006 crack depth and intensive leakage through the dam body had begun to threaten safety; rehabilitation was judged too difficult and expensive, so a new dam was built about 200 m downstream and the old dam was partly demolished and submerged in 2013. The 2025 paper: decommissioned and replaced by a new dam in 2014. EDP EIA: the new dam eliminates the structural-safety problem. No source fetched reported deaths or a sudden breach.",
+      "status": "Original dam partly demolished and submerged 2013; Alto Ceira II in service (2014).",
+      "deaths": 0,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Structurae — Alto Ceira Dam",
+          "url": "https://structurae.net/en/structures/alto-ceira-dam"
+        },
+        {
+          "label": "Batista et al. 2024 — AAR prediction, Alto Ceira (MDPI Eng. Proc.)",
+          "url": "https://www.mdpi.com/2673-4117/5/3/88"
+        },
+        {
+          "label": "Buildings 2025 — ASR case of the demolished Alto Ceira Dam",
+          "url": "https://www.mdpi.com/2075-5309/15/3/460"
+        },
+        {
+          "label": "EDP — New Alto Ceira Dam EIA non-technical summary",
+          "url": "https://www.edp.com/en/santa-luzia-hydroelectric-power-plant-new-alto-ceira-dam-environmental-impact-assessment-non"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0. Watch, not a collapse. Incident year 2001 is the date used in public summaries of documented anomalies; LNEC treats it in the expansive-reaction series. Not a sudden failure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Agência Portuguesa do Ambiente / SMAS Viseu",
+      "year_built": "1982–1984",
+      "height_m": 27,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Dão valley / Viseu supply",
+      "economic_damage": null,
+      "investigating_agency": "LNEC; APA",
+      "verification": "confirmed",
+      "id": "fagilde-structural",
+      "name": "Fagilde Dam (expansive concrete / replacement)",
+      "country": "Portugal",
+      "region": "Povolide (Viseu) / Fornos de Maceira Dão (Mangualde), Viseu District",
+      "location_label": "Barragem de Fagilde, Rio Dão, Portugal",
+      "lat": 40.633694,
+      "lng": -7.793194,
+      "geo_accuracy": "site",
+      "geo_source": "Portuguese Wikipedia Barragem de Fagilde 40°38′1.297″N 7°47′35.499″W",
+      "river_or_facility": "Barragem de Fagilde / Rio Dão",
+      "type": "reservoir_dam",
+      "category": "watch",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "LNEC and the Portuguese government: the 1984 concrete multiple-arch/buttress dam has expansive-reaction and hydraulic-safety anomalies; a new dam is to be built about 100 m downstream.",
+      "incident_date": "2001",
+      "latest_report_date": "2025",
+      "what_happened": "Fagilde is a 27 m concrete structure (central buttresses and two cylindrical vaults) on the Dão, finished 1984, supplying about 140,000 people in the Viseu area (Wikipedia; Viseu municipality). LNEC's review of Portuguese dams with expansive reactions includes Fagilde (limestone aggregate; first filling 1985–87). The Portuguese government and Viseu municipality: the 41-year-old dam shows structural and hydraulic-safety anomalies and is to be replaced by a new dam about 100 m downstream (announced investment about €30 million). This is a documented deterioration watch, not a sudden breach. No source fetched reported deaths or an uncontrolled release.",
+      "status": "In service with documented anomalies. Replacement dam announced downstream.",
+      "deaths": 0,
+      "severity": "watch",
+      "sources": [
+        {
+          "label": "Portuguese Wikipedia — Barragem de Fagilde",
+          "url": "https://pt.wikipedia.org/wiki/Barragem_de_Fagilde"
+        },
+        {
+          "label": "Portuguese government — Nova Barragem de Fagilde announcement",
+          "url": "https://www.portugal.gov.pt/pt/gc24/comunicacao/comunicado?i=governo-anuncia-construcao-de-nova-barragem-de-fagilde-em-viseu"
+        },
+        {
+          "label": "Câmara Municipal de Viseu — Nova Barragem de Fagilde",
+          "url": "https://www.cm-viseu.pt/pt/noticias/nova-barragem-de-fagilde-vai-avancar-e-permitira-duplicar-o-volume-de-armazenamento-de-agua-da-albufeira-que-atualmente-abastece-140-mil-habitantes/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Promoted from held: Wikipedia reservoir coordinates now sourced. Deaths 0.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "United Utilities (now); Liverpool Corporation Waterworks (then)",
+      "year_built": "1852–1857",
+      "height_m": 12.2,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "River Yarrow / Rivington",
+      "economic_damage": null,
+      "investigating_agency": "Panel engineer / United Utilities (Gardiner et al. 2004, cited by EA)",
+      "verification": "confirmed",
+      "id": "upper-rivington-2002-01-09",
+      "name": "Upper Rivington Reservoir (Yarrow embankment leak)",
+      "country": "United Kingdom",
+      "region": "Rivington, Lancashire, England",
+      "location_label": "Upper Rivington / Yarrow embankment, Lancashire, England",
+      "lat": 53.62889,
+      "lng": -2.57333,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Upper Rivington Reservoir 53°37′44″N 2°34′24″W",
+      "river_or_facility": "Upper Rivington Reservoir; Yarrow embankment culvert",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "EA: on 9 January 2002 a jet of about 15 l/s of discoloured water issued from a half-brick drain opening in the culvert downstream of the puddle core; emergency drawdown and grouting followed.",
+      "incident_date": "2002-01-09",
+      "latest_report_date": "2012-12",
+      "what_happened": "The Environment Agency report: on 9 January 2002 an operative driving across the Yarrow embankment of Upper Rivington Reservoir noticed a stream of discoloured water from the culvert. A jet of about 15 l/s issued from a half-brick drainage opening downstream of the puddle clay core. Scour valves were opened; the reservoir was 7 m below top water by 18 January. Grouting followed (Gardiner et al., 2004). Wikipedia: Upper Rivington is a Hawksley reservoir (1852–57) for Liverpool Corporation, with the 12.2 m Yarrow Embankment as one of two dams. Ground Engineering (2012) describes later core-strengthening on the same embankment. No source fetched reported deaths.",
+      "status": "Grouted and later strengthened; still in the Rivington chain (United Utilities).",
+      "deaths": 0,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        },
+        {
+          "label": "Wikipedia — Upper Rivington Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Upper_Rivington_Reservoir"
+        },
+        {
+          "label": "Ground Engineering — Strengthening the core (2012)",
+          "url": "https://www.geplus.co.uk/features/strengthening-the-core-03-12-2012/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Promoted from held: OS Pathfinder reservoir grid NO504131 converted to WGS84. Deaths 0. EA date 20 November 1984 kept.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "about 1900 (McManus: 84-year-old in 1984)",
+      "height_m": null,
+      "reservoir_capacity": "6.4×10⁴ m³ basin (McManus)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "St Andrews / Fife",
+      "economic_damage": null,
+      "investigating_agency": "BRE / panel engineer (EA)",
+      "verification": "confirmed",
+      "id": "lambieletham-1984-11-20",
+      "name": "Lambieletham Dam (St Andrews)",
+      "country": "United Kingdom",
+      "region": "North Lambieletham, near St Andrews, Fife, Scotland",
+      "location_label": "Lambieletham Reservoir site, Fife, Scotland",
+      "lat": 56.30771,
+      "lng": -2.80324,
+      "geo_accuracy": "site",
+      "geo_source": "Fife Place-name Data: OS Pathfinder Lambieletham Reservoir at North Lambieletham NO504131, converted 56.30771 N, 2.80324 W",
+      "river_or_facility": "Lambieletham Dam",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "EA: a wet spot became muddy seepage at an 8 m crack within 24 hours in November 1984; emergency emptying and later demolition. BRE concluded high pore pressures from hillside water saturating the downstream shoulder.",
+      "incident_date": "1984-11-20",
+      "latest_report_date": "1988",
+      "what_happened": "The Environment Agency report: a wet spot on the downstream slope of Lambieletham Dam near St Andrews was seen during routine surveillance in November 1984. Within 24 hours seepage increased and muddy water appeared at the base of an 8 m crack. A panel engineer ordered the fastest possible emptying; the reservoir was lowered 5 m in three days. The dam was demolished in October 1985. McManus (Scottish Geographical Magazine, 1988) describes the 84-year-old earthfill dam emptied in late November 1984 for suspected incipient failure and later removed. Fife Place-name Data places OS Pathfinder 'Lambieletham Reservoir' at North Lambieletham NO504131. No source fetched reported deaths.",
+      "status": "Demolished October 1985.",
+      "deaths": 0,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        },
+        {
+          "label": "McManus 1988 — A flood deposit in an emptied Scottish reservoir",
+          "url": "https://doi.org/10.1080/14702548808554776"
+        },
+        {
+          "label": "Fife Place-name Data — Lambieletham (NO504131 reservoir)",
+          "url": "https://www.fife-placenames.glasgow.ac.uk/placename/?id=1773"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Promoted from held: OSM farmyard Horndoyne, Kirkton of Oyne. Deaths 0: EA says no injuries to people.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1989–1990",
+      "height_m": null,
+      "reservoir_capacity": "about 23,000 m³ after the fact (EA)",
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "four houses and a caravan (EA)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "horndoyne-aberdeen-1990-11",
+      "name": "Horndoyne farm pond dam (Oyne, Aberdeenshire)",
+      "country": "United Kingdom",
+      "region": "Horndoyne farm, Kirkton of Oyne, Aberdeenshire, Scotland",
+      "location_label": "Horndoyne farm, Oyne, Aberdeenshire, Scotland",
+      "lat": 57.312767,
+      "lng": -2.547548,
+      "geo_accuracy": "site",
+      "geo_source": "OpenStreetMap farmyard named Horndoyne, Kirkton of Oyne, Aberdeenshire 57.312767, -2.547548 (EA: Horndoyne farm near Aberdeen)",
+      "river_or_facility": "Horndoyne farm embankment pond",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "EA: water trickled along the outlet pipe, developed into a stream taking earth, then a breach; a wall of water a metre or more deep flooded four houses and swept a caravan more than 100 m.",
+      "incident_date": "1990-11-17",
+      "latest_report_date": "2011-08",
+      "what_happened": "The Environment Agency report: a planning application for a 14,000 m³ pond at Horndoyne farm near Aberdeen was submitted in March 1989 and fell outside the Reservoirs Act 1975 25,000 m³ threshold. Impounding began in late autumn 1990; the embankment breached during the night of 17–18 November 1990. Four houses were flooded; a large residential caravan was swept over 100 m. No injuries to people. Later measurement suggested about 23,000 m³ storage. OpenStreetMap maps a farmyard named Horndoyne at Kirkton of Oyne, Aberdeenshire — the named farm in that parish, about 20 miles north-west of Aberdeen, matching the EA 'near Aberdeen' description.",
+      "status": "Breached 1990.",
+      "deaths": 0,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Environment Agency — Lessons from historical dam incidents (SC080046/R1)",
+          "url": "https://britishdams.org/assets/documents/Historical%20Lessons%20EA/Lessons%20from%20historical%20dam%20incidents_Report_SC080046_R1.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 400 homeless; about 60 houses destroyed (O Povo 2025)",
+      "notes": "Town-seat pin. Deaths 2 from the 2025 O Povo commemoration of the 1977 event.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1889",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "acude-nacao-itapipoca-1977-03-30",
+      "name": "Açude da Nação (Itapipoca)",
+      "country": "Brazil",
+      "region": "Itapipoca, Ceará",
+      "location_label": "Açude da Nação, Itapipoca, Ceará, Brazil",
+      "lat": -3.493889,
+      "lng": -39.578889,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Itapipoca) 3°29′38″S 39°34′44″W — municipal seat; urban açude, not a surveyed crest",
+      "river_or_facility": "Açude da Nação (Imperial-era town reservoir)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "O Povo (2025): built 1889 with Imperial (Nação) funds; ruptured 30 March 1977 after days of heavy rain.",
+      "incident_date": "1977-03-30",
+      "latest_report_date": "2025-05-17",
+      "what_happened": "Açude da Nação in Itapipoca, Ceará, an 1889 Imperial-era town dam, ruptured on 30 March 1977 after days of intense rain. O Povo (17 May 2025, 48-year commemoration): the disaster killed two people, destroyed about 60 houses and left about 400 people homeless. The reservoir still holds runoff from the serra and recharges local wells; in 2025 the state prosecutor warned of a possible new rupture while Sohidra inspectors said the mass was stable.",
+      "status": "Historic 1977 rupture; structure still in use as a town reservoir.",
+      "deaths": 2,
+      "sources": [
+        {
+          "label": "O Povo — 48 years after the disaster, Itapipoca residents fear a new Açude da Nação rupture",
+          "url": "https://www.opovo.com.br/noticias/ceara/itapipoca/2025/05/17/44-anos-apos-desastre-moradores-de-itapipoca-temem-novo-arrombamento-do-acude-da-nacao.html"
+        },
+        {
+          "label": "Wikipedia — Itapipoca",
+          "url": "https://en.wikipedia.org/wiki/Itapipoca"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 50 families (Estadão)",
+      "notes": "Deaths null: 2010 AL/PE regional flood deaths not copied onto this small açude.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "acude-nacoes-bom-conselho-2010-06",
+      "name": "Açude da Nação / das Nações (Bom Conselho)",
+      "country": "Brazil",
+      "region": "Bom Conselho, Pernambuco",
+      "location_label": "Açude da Nação, Bom Conselho, Pernambuco, Brazil",
+      "lat": -9.169722,
+      "lng": -36.679722,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Bom Conselho) 9°10′11″S 36°40′47″W — municipal seat, not a surveyed crest",
+      "river_or_facility": "Açude da Nação / das Nações (Bom Conselho)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "June 2010: Governor Eduardo Campos confirmed the small reservoir ruptured. Deputies alleged gates were kept closed despite cracks (Estadão).",
+      "incident_date": "2010-06",
+      "latest_report_date": "2010-06",
+      "what_happened": "In June 2010 the small Açude da Nação / das Nações at Bom Conselho, Pernambuco, ruptured during regional floods. Estadão: Governor Eduardo Campos said the dam of small proportions had burst; the wall failure flooded the town centre and about 50 families were affected. A later Estadão piece reported deputies accusing the municipality and a company of keeping gates closed despite cracks (Perdigão). No source isolated a death count to this structure — the 2010 Alagoas/Pernambuco regional flood toll is not copied here.",
+      "status": "Small-town reservoir ruptured June 2010.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Estadão — Governors deny dam ruptures caused the tragedy (Campos confirms Bom Conselho rupture of small proportions)",
+          "url": "https://www.estadao.com.br/brasil/governadores-negam-que-rompimento-de-barragens-provocou-tragedia/"
+        },
+        {
+          "label": "Estadão — In PE, company and prefecture accused over açude burst",
+          "url": "https://www.estadao.com.br/sao-paulo/em-pe-empresa-e-prefeitura-acusadas-de-estouro-de-acude-imp-/"
+        },
+        {
+          "label": "Wikipedia — Bom Conselho",
+          "url": "https://en.wikipedia.org/wiki/Bom_Conselho"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Distinct from Açude Tapuio at Tabuleiro do Norte, Ceará (separate 1985 event). Deaths null — thesis does not give a 1985 toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tapuio-santa-teresa-soledade-1985",
+      "name": "Açude Tapuio / Barragem Santa Teresa cascade (Soledade)",
+      "country": "Brazil",
+      "region": "Soledade, Paraíba",
+      "location_label": "Rio Quixudi / Taperoá, Soledade, Paraíba, Brazil",
+      "lat": -7.056944,
+      "lng": -36.362778,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Soledade, Paraíba) 7°03′25″S 36°21′46″W — municipal seat; Santa Teresa ~3 km from the urban area (UFCG thesis)",
+      "river_or_facility": "Açude Tapuio and Barragem Santa Teresa on the Rio Quixudi (Taperoá basin)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "UFCG thesis: the two main Quixudi reservoirs ruptured in series in 1985. Causes of dam accidents in the thesis framing include overtopping, internal erosion and foundation failures; this cascade is not given a separate mechanism.",
+      "incident_date": "1985",
+      "latest_report_date": "2023",
+      "what_happened": "In 1985 the two principal reservoirs of the Quixudi micro-basin (Taperoá sub-basin, Paraíba) ruptured in series: Açude Tapuio and, downstream, Barragem Santa Teresa. A UFCG thesis (IBICT/BDTD record) states Santa Teresa sits about 3 km from Soledade's urban area, where the Quixudi runs through five neighbourhoods. Only Tapuio is AESA-monitored and classed high-risk. The thesis models the Santa Teresa breach impact; it does not give a death count for 1985.",
+      "status": "Historic 1985 series rupture on the Quixudi.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "UFCG thesis (IBICT/BDTD) — Impacts of the Santa Teresa dam breach, Quixudi micro-basin, Soledade-PB",
+          "url": "https://bdtd.ibict.br/vufind/Record/UFCG_e4993ac04ed26067507d89eb19a6e5d8"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Town-seat pin. Not the Paraíba Tapuio/Santa Teresa cascade.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tapuio-tabuleiro-norte-1985",
+      "name": "Açude / Lagoa Tapuio (Tabuleiro do Norte)",
+      "country": "Brazil",
+      "region": "Tabuleiro do Norte / São João do Jaguaribe, Ceará",
+      "location_label": "Açude Tapuio, Tabuleiro do Norte, Ceará, Brazil",
+      "lat": -5.245556,
+      "lng": -38.130833,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / Anuário (Tabuleiro do Norte) 5°14′44″S 38°07′51″W — municipal seat, not a surveyed crest",
+      "river_or_facility": "Lagoa / Açude Tapuio (Tabuleiro do Norte)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "UFC communication thesis (Lima 2023): in the 1985 Ceará floods the Tapuio lagoon filled and ruptured (arrombou).",
+      "incident_date": "1985",
+      "latest_report_date": "2023",
+      "what_happened": "In 1985, a flood year in Ceará, the Lagoa/Açude Tapuio at Tabuleiro do Norte filled and ruptured. UFC thesis (Lima 2023, repositorio.ufc.br): the break caused destruction and four deaths when a crowd watched the flood take a stretch of BR-116 three kilometres downstream. An IBGE 1983 photograph titles the structure “Açude Tapuio : Tabuleiro do Norte, CE”. Distinct from the 1985 Tapuio–Santa Teresa cascade at Soledade, Paraíba.",
+      "status": "Historic 1985 small-reservoir rupture.",
+      "deaths": 4,
+      "sources": [
+        {
+          "label": "Lima, R.S. 2023 — UFC thesis (repositorio.ufc.br): 1985 Tapuio rupture, four deaths, BR-116",
+          "url": "https://repositorio.ufc.br/ri/bitstream/riufc/76198/3/2023_dis_rslima.pdf"
+        },
+        {
+          "label": "IBGE Library — photograph Açude Tapuio, Tabuleiro do Norte, CE (1983)",
+          "url": "https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?id=438155&view=detalhes"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Volume is the dated MPGO 344,000 m³ liquidation figure, not unsourced 'millions of m³' phrasing.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Mineração Serra Grande",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "344,000 m³ (MPGO / Brasil Mineral)",
+      "breach_size": null,
+      "downstream_risk": "Rio Vermelho (arsenic and cyanide effluent)",
+      "economic_damage": null,
+      "investigating_agency": "Ministério Público do Estado de Goiás",
+      "verification": "confirmed",
+      "id": "serra-grande-crixas-1994",
+      "name": "Mineração Serra Grande tailings dam (Crixás)",
+      "country": "Brazil",
+      "region": "Crixás, Goiás",
+      "location_label": "Mineração Serra Grande, Crixás, Goiás, Brazil",
+      "lat": -14.548889,
+      "lng": -49.968889,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Crixás) 14°32′56″S 49°58′08″W — municipal seat, not a TSF crest",
+      "river_or_facility": "Mineração Serra Grande gold tailings dam, Rio Vermelho",
+      "type": "tailings",
+      "category": "partial_breach",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "MPGO / Brasil Mineral: partial TSF rupture in 1994 released arsenic- and cyanide-bearing effluent to the Rio Vermelho. Mechanism not stated in the cited sources.",
+      "incident_date": "1994-02",
+      "latest_report_date": "2024",
+      "what_happened": "Mineração Serra Grande at Crixás, Goiás, had a partial tailings-dam rupture in 1994 (sources place it in February–March). The Goiás Public Prosecutor (MPGO), in a later damages action reported by Brasil Mineral, cites 344,000 m³ of effluent with arsenic and cyanide reaching the Rio Vermelho. Palu's Brazilian TSF-failure table lists Minera Serra Grande 1994 (gold, 2.25 Mt stored) without a released-volume figure. No death count is given.",
+      "status": "Historic partial TSF rupture; later prosecution over the 1994 release.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Brasil Mineral — MPGO files R$410 million action and seeks to block Serra Grande sale (344,000 m³ figure)",
+          "url": "https://brasilmineral.com.br/noticias/mpgo-move-acao-de-r-410-milhoes-e-quer-impedir-venda-da-serra-grande"
+        },
+        {
+          "label": "Palu — Review of tailings dam failures in Brazil (table: Minera Serra Grande 1994)",
+          "url": "https://www.engr.colostate.edu/~pierre/ce_old/Projects/Rising%20Stars%20Website/Palu%20Review%20of%20Tailings%20Dam%20Failures%20in%20Brazil-1.pdf"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — commemoration does not give a toll. Single local commemorative source.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mae-dagua-campo-redondo-1981-04-01",
+      "name": "Açude Mãe d'Água (Campo Redondo)",
+      "country": "Brazil",
+      "region": "Campo Redondo, Rio Grande do Norte",
+      "location_label": "Açude Mãe d'Água, Campo Redondo, Rio Grande do Norte, Brazil",
+      "lat": -6.24278,
+      "lng": -36.18278,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Campo Redondo, Rio Grande do Norte) 6°14′34″S 36°10′58″W — municipal seat, not a surveyed crest",
+      "river_or_facility": "Açude Mãe d'Água on the Trairi river system",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Local 45-year commemoration: after the reservoir reached capacity in torrential rain, the main wall burst near its centre on 1 April 1981 about 17:30.",
+      "incident_date": "1981-04-01",
+      "latest_report_date": "2026-04-01",
+      "what_happened": "On 1 April 1981 the main wall of Açude Mãe d'Água at Campo Redondo, Rio Grande do Norte, burst near its centre after heavy rain filled the reservoir. A local 45-year commemoration (Rádio Comunitária / FM Vale das Serras, 1 April 2026) describes the flood tearing out the town's only access bridge, inundating streets in Campo Redondo, and a telephone warning that allowed Santa Cruz downstream to be alerted. The piece calls it the region's greatest natural catastrophe and says lives were saved by the warning; it does not give a death count.",
+      "status": "Historic 1981 main-wall rupture.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Rádio Comunitária de Campo Redondo / FM Vale das Serras — 45 years since the 1 April 1981 Mãe d'Água burst",
+          "url": "https://fmvaledaserrasrn.blogspot.com/2026/04/hoje-1-de-abril-completa-45-anos-do.html"
+        },
+        {
+          "label": "Wikipedia — Campo Redondo, Rio Grande do Norte",
+          "url": "https://en.wikipedia.org/wiki/Campo_Redondo,_Rio_Grande_do_Norte"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 120,000 suddenly displaced (Vionnet 2006); Aletheia: more than 130,000 evacuated",
+      "notes": "Deaths 23 = official direct (Vionnet 2006 / Aletheia). Do not use Wikipedia flood-wide 154 as this structure's toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "unfinished gap on the order of 150 m (CONICET/CIMEC papers)",
+      "downstream_risk": null,
+      "economic_damage": "UN assessment cited on Wikipedia flood page: about US$1,000 million / ~12% of provincial GDP (flood-wide, not isolated to the levee)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "santa-fe-irigoyen-2003-04-29",
+      "name": "Unfinished western defence / Tramo 3 (Santa Fe 2003 flood)",
+      "country": "Argentina",
+      "region": "North-west Santa Fe city, Santa Fe Province",
+      "location_label": "Unfinished Salado defence, Santa Fe, Argentina",
+      "lat": -31.63333,
+      "lng": -60.7,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Santa Fe, Argentina) 31°38′00″S 60°42′00″W — city pin; the unfinished levee is on the north-west Salado front",
+      "river_or_facility": "Unfinished Tramo 3 western flood defence on the Salado (Irigoyen / north-west front)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Vionnet et al. 2006: the west side of Santa Fe was suddenly flooded when a protective levee failed during the record Salado flood. Aletheia: water entered on 29 April through the unfinished Tramo 3 gap.",
+      "incident_date": "2003-04-29",
+      "latest_report_date": "2006",
+      "what_happened": "At the end of April 2003 the Salado rose rapidly after heavy rain. Wikipedia flood page: on 28 April the river overflowed; about 100,000 people were evacuated and the page gives a flood-wide death figure of 154. Vionnet, Tassi, Rodríguez and Ferreira (IJRBM 2006) model the city flooding after a protective levee failed: about 120,000 people were suddenly displaced, 23 people died as a direct result of the flood, and 43 more are believed to have died from post-traumatic distress. Aletheia (UNLP): on 29 April water entered the city where Tramo 3 of a planned defence had not been finished, leaving 23 official deaths and more than 130,000 evacuees, with about one third of the city under water. CONICET/CIMEC papers describe an unfinished gap on the order of 150 m. This record uses the dated official-direct figure of 23 from Vionnet 2006 / Aletheia; Wikipedia's 154 is a flood-wide total and is not treated as this levee's isolated toll.",
+      "status": "Unfinished defence overtopped/failed April 2003; later works completed the western front.",
+      "deaths": 23,
+      "sources": [
+        {
+          "label": "Vionnet et al. 2006 — Numerical modelling of the catastrophic flooding of Santa Fe City (IJRBM)",
+          "url": "https://doi.org/10.1080/15715124.2006.9635299"
+        },
+        {
+          "label": "Aletheia (UNLP) — Memorias sumergidas: 29 April entry at unfinished Tramo 3; 23 official deaths",
+          "url": "http://aletheiaold.fahce.unlp.edu.ar/numeros/numero-5/numeros/numero-5/textos-de-otros-estudios-de-posgrado/memorias-sumergidas-memorias-emergentes.-el-caso-de-las-inundaciones-en-santa-fe"
+        },
+        {
+          "label": "Wikipedia — 2003 Santa Fe flood",
+          "url": "https://en.wikipedia.org/wiki/2003_Santa_Fe_flood"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 1,100–1,500 residents evacuated (contemporary accounts)",
+      "notes": "Deaths 0: Wikipedia/Infobae state no fatalities.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 4,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "epecuen-terraplen-1985-11-10",
+      "name": "Villa Epecuén protective terraplén",
+      "country": "Argentina",
+      "region": "Villa Epecuén, Adolfo Alsina, Buenos Aires Province",
+      "location_label": "Villa Epecuén, Buenos Aires, Argentina",
+      "lat": -37.131514,
+      "lng": -62.810125,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Villa Epecuén) −37.131514, −62.810125 — town pin, not a surveyed crest",
+      "river_or_facility": "Protective terraplén at Laguna Epecuén / Villa Epecuén",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Protective earth bank (about 4 m) failed at dawn on 10 November 1985 as Laguna Epecuén rose.",
+      "incident_date": "1985-11-10",
+      "latest_report_date": "2025",
+      "what_happened": "The protective terraplén of Villa Epecuén, a spa town on Laguna Epecuén in Buenos Aires Province, failed at dawn on 10 November 1985 (TN: about 04:00). Spanish Wikipedia and the municipal museum ('El día más triste') describe the earth bank giving way and the town being progressively submerged; residents were evacuated. Wikipedia/Infobae: no fatalities. The town remained under water for about 20 years and was abandoned.",
+      "status": "Town abandoned after 1985 overtopping; ruins remain a tourist site.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Wikipedia — Villa Epecuén",
+          "url": "https://es.wikipedia.org/wiki/Villa_Epecu%C3%A9n"
+        },
+        {
+          "label": "Museo Epecuén — El día más triste",
+          "url": "https://www.museoepecuen.gob.ar/salas/el-dia-mas-triste"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": "4 lightly injured (Defensa Civil via La Voz)",
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0: Defensa Civil reported no fatalities.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": ">500 million litres (La Voz)",
+      "construction": "embankment",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": "about 25 m wide × 10 m deep (La Voz); also described as 70 m × 25 m on the SE side",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "anillaco-2000-07-16",
+      "name": "Represa de Anillaco",
+      "country": "Argentina",
+      "region": "Anillaco, La Rioja",
+      "location_label": "Represa de Anillaco, La Rioja, Argentina",
+      "lat": -28.810556,
+      "lng": -66.954167,
+      "geo_accuracy": "approximate",
+      "geo_source": "Wikimapia (Represa de Anillaco) 28°48′38″S 66°57′15″W; town Wikipedia 28°48′00″S 66°56′00″W",
+      "river_or_facility": "Represa de Anillaco",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "La Voz/Intervoz: the wall failed on 16 July 2000 about 19:15 and the reservoir emptied onto south Anillaco. Mechanism not stated.",
+      "incident_date": "2000-07-16",
+      "latest_report_date": "2000-07-18",
+      "what_happened": "On 16 July 2000 at about 19:15 the wall of the Represa de Anillaco, La Rioja, failed and the reservoir emptied onto the south side of the town. La Voz/Intervoz (18 July 2000): the breach was described as about 25 m wide by 10 m deep (another passage gives 70 m long by 25 m high on the south-east side); the reservoir was about 900×600 m and held more than 500 million litres. Defensa Civil: no fatalities; four people lightly injured. Two cars on RN 75 were swept about 200 m.",
+      "status": "Historic 2000 complete emptying.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "La Voz / Intervoz — 18 July 2000 Anillaco dam break",
+          "url": "https://buscador.lavoz.com.ar/intervoz/2000/07/18/ig_n13.htm"
+        },
+        {
+          "label": "Wikimapia — Represa de Anillaco",
+          "url": "http://wikimapia.org/9393479/Represa-de-Anillaco"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Prefer the dated 1981 spillway destruction over looser 1978 'rotura' wording.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "figueroa-spillway-1981",
+      "name": "Dique Figueroa spillway (1981 Salado flood)",
+      "country": "Argentina",
+      "region": "Figueroa Department, Santiago del Estero",
+      "location_label": "Dique / Embalse Figueroa, Santiago del Estero, Argentina",
+      "lat": -27.088385,
+      "lng": -63.639486,
+      "geo_accuracy": "approximate",
+      "geo_source": "EcoRegistros (dique viejo Figueroa) −27.088385, −63.639486",
+      "river_or_facility": "Dique / Embalse Figueroa on the Río Salado (Santiago del Estero)",
+      "type": "spillway",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "ADN Santiago / local compilation: the 1981 Salado flood destroyed the Figueroa spillway. Earlier 1978 texts use 'rotura' more loosely.",
+      "incident_date": "1981",
+      "latest_report_date": "2011",
+      "what_happened": "Dique/Embalse Figueroa on the Salado in Santiago del Estero lost its spillway in the 1981 Salado flood (ADN Santiago / Biblioteca JWA compilation of the Figueroa system). 1978 accounts speak more loosely of a 'rotura'. The works were later reconstructed (2011 reinauguration). No source isolated a death count to this spillway.",
+      "status": "Spillway destroyed 1981; later reconstructed.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Biblioteca JWA — Sistema Figueroa (Santiago del Estero)",
+          "url": "https://bibliotecajwa.com.ar/santiago/doku.php/sistema-figueroa"
+        },
+        {
+          "label": "EcoRegistros — Dique viejo Figueroa (coordinates)",
+          "url": "https://www.ecoregistros.org/site/lugar.php?id=84597"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 200 from CNMH 'alrededor de 200' / Sintraelecol 'cerca de 200'. Dam-pin geo, not the intake scar.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Proyecto Hidroeléctrico Guavio (later EMGESA / Enel)",
+      "year_built": "opened 1989",
+      "height_m": 243,
+      "reservoir_capacity": null,
+      "construction": "rockfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Centro Nacional de Memoria Histórica (commemoration / memory work)",
+      "verification": "confirmed",
+      "id": "guavio-bocatoma-1983-07-28",
+      "name": "Proyecto Guavio intake / bocatoma landslide (construction)",
+      "country": "Colombia",
+      "region": "Ubalá, Cundinamarca",
+      "location_label": "Alberto Lleras (Guavio) project, Ubalá, Cundinamarca, Colombia",
+      "lat": 4.72472,
+      "lng": -73.48306,
+      "geo_accuracy": "approximate",
+      "geo_source": "Wikipedia (Alberto Lleras Dam) 4.72472, −73.48306 — dam pin; the 1983 landslide was at the project bocatoma/intake, not a dam-wall failure",
+      "river_or_facility": "Proyecto Hidroeléctrico Guavio / Alberto Lleras Dam (construction intake)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "landslide",
+        "construction_first_filling"
+      ],
+      "cause_summary": "28 July 1983 construction landslide buried workers at the Guavio bocatoma/intake. Not a completed-dam wall failure.",
+      "incident_date": "1983-07-28",
+      "latest_report_date": "2023",
+      "what_happened": "On 28 July 1983, during construction of the Guavio hydroelectric project (later Alberto Lleras Dam) at Ubalá, Cundinamarca, a landslide at the bocatoma/intake buried workers. Centro Nacional de Memoria Histórica: around 200 victims. Sintraelecol commemoration: about 200 workers. This is a construction incident, not a failure of the finished 243 m rockfill dam (opened 1989). Included on the same basis as other construction-phase hydro incidents already in this database.",
+      "status": "Construction landslide 1983; dam later completed (1989).",
+      "deaths": 200,
+      "sources": [
+        {
+          "label": "Centro Nacional de Memoria Histórica — La tragedia del Guavio y la memoria de sus víctimas",
+          "url": "https://www.centrodememoriahistorica.gov.co/la-tragedia-del-guavio-y-la-memoria-de-sus-victimas/"
+        },
+        {
+          "label": "Sintraelecol — 27 years since the Guavio tragedy (cerca de 200)",
+          "url": "https://sintraelecol.org/index.php/noticias/nacional/1788-se-conmemoran-27-anos-de-tragedia-del-guavio"
+        },
+        {
+          "label": "Wikipedia — Alberto Lleras Dam",
+          "url": "https://en.wikipedia.org/wiki/Alberto_Lleras_Dam"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "on the order of 3,000 people / 15 communities (advocacy tallies reported with the later court case)",
+      "notes": "Deaths null. Volume is ANLA's ~500,000 tonnes of sediment, not an unsourced m³ conversion.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "EPSA (later Celsia Colombia)",
+      "year_built": "1955",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": "about 500,000 tonnes of sediment (ANLA)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "ANLA / Ministerio del Medio Ambiente (2001 investigation)",
+      "verification": "confirmed",
+      "id": "bajo-anchicaya-2001-07-23",
+      "name": "Bajo Anchicayá / Embalse El Chidral sediment release",
+      "country": "Colombia",
+      "region": "Dagua / Buenaventura, Valle del Cauca",
+      "location_label": "Central Hidroeléctrica Bajo Anchicayá (presa El Chidral), Valle del Cauca, Colombia",
+      "lat": 3.5402,
+      "lng": -76.8551,
+      "geo_accuracy": "approximate",
+      "geo_source": "Global Energy Monitor (Bajo Anchicaya hydroelectric plant) 3.5402, −76.8551 (exact). ANLA: plant ~2 km from El Danubio (Dagua), ~95 km west of Cali",
+      "river_or_facility": "Presa El Chidral / Central Hidroeléctrica Bajo Anchicayá, Río Anchicayá",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate"
+      ],
+      "cause_summary": "EPSA opened the bottom outlet / desander gates at El Chidral, 21–23 July 2001, releasing stored sediment into the Río Anchicayá.",
+      "incident_date": "2001-07-23",
+      "latest_report_date": "2023",
+      "what_happened": "On 21–23 July 2001 the operator EPSA (later Celsia) opened the bottom outlet at Bajo Anchicayá (presa El Chidral) in Valle del Cauca. ANLA's project page and Resolución 809 recount an environmental investigation for evacuating about 500,000 tonnes of sediment from Embalse El Chidral into the Río Anchicayá. International Rivers, reporting the Constitutional Court decision years later, describes the release as affecting Afro-Colombian communities on the river (on the order of 3,000 people / 15 communities in advocacy tallies). The plant has operated since 1955. This is an operational sediment dump, not a dam-wall collapse. No death count is given.",
+      "status": "Operational sediment release; later court/ANLA proceedings.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ANLA — PIS Central Hidroeléctrica de Bajo Anchicayá (location; ~500,000 tonnes sediment investigation)",
+          "url": "https://www.anla.gov.co/01_anla/proyectos/proyecto-de-interes-en-seguimiento-central-hidroelectrica-de-bajo-anchicaya"
+        },
+        {
+          "label": "International Rivers — Anchicayá Dam: Constitutional Court decides for communities after 22 years",
+          "url": "https://www.internationalrivers.org/news/anchicaya-dam-colombian-constitutional-court-decides-in-favor-of-justice-for-anchicaya-communities-after-22-years/"
+        },
+        {
+          "label": "Global Energy Monitor — Bajo Anchicaya hydroelectric plant (coordinates)",
+          "url": "https://www.gem.wiki/Bajo_Anchicaya_hydroelectric_plant"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "254,000 affected (El Espectador retrospective); UNGRD 10 Nov 2021 snapshot 155,888 people / 38,972 families",
+      "notes": "Deaths null. 254,000 is the later dated El Espectador figure for the 2021 emergency; UNGRD Nov 2021 had 155,888.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "UNGRD",
+      "verification": "confirmed",
+      "id": "caregato-2021-08-27",
+      "name": "Dique Caregato / Cara de Gato (2021)",
+      "country": "Colombia",
+      "region": "San Jacinto del Cauca (corregimiento Bermúdez / Cara de Gato), Bolívar — La Mojana",
+      "location_label": "Dique Caregato, San Jacinto del Cauca, Bolívar, Colombia",
+      "lat": 8.25,
+      "lng": -74.7167,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (San Jacinto del Cauca) 8.25, −74.7167 — municipal pin, not a surveyed levee station",
+      "river_or_facility": "Dique / jarillón Caregato (Cara de Gato) on the left bank of the Río Cauca",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "UNGRD: on 27 August 2021 about 19:30 the rising Cauca broke the left-bank jarillón at Cara de Gato.",
+      "incident_date": "2021-08-27",
+      "latest_report_date": "2024",
+      "what_happened": "On 27 August 2021 about 19:30 the Río Cauca broke the left-bank flood embankment (jarillón) at Cara de Gato / Caregato in San Jacinto del Cauca, Bolívar, flooding La Mojana. UNGRD's 10 November 2021 situation note: the break affected municipalities in Bolívar, Sucre and Córdoba (then 38,972 families / 155,888 people in that snapshot). El Espectador later summarised the 2021 emergency as 254,000 people affected for about 30 months. Initial opening was described in contemporaneous coverage as on the order of 15 m, later widening. No source isolated a death count to this breach.",
+      "status": "Levee broke 27 Aug 2021; emergency closure works followed.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "UNGRD — Línea Caregato (27 August 2021 break)",
+          "url": "https://portal.gestiondelriesgo.gov.co/Paginas/Linea-Caregato.aspx"
+        },
+        {
+          "label": "UNGRD — Respuesta y atención en La Mojana, 10 Nov 2021 (19:30 break; 155,888 people)",
+          "url": "http://portal.gestiondelriesgo.gov.co/Documents/RESPUESTA-Y-ATENCION-LA-MOJANA-LA-MOJANA-10-11-2021.pdf"
+        },
+        {
+          "label": "El Espectador — UNGRD ends Caregato contract (254,000 affected in 2021)",
+          "url": "https://www.elespectador.com/ambiente/ungrd-cancela-contrato-de-la-obra-de-caregato-tras-incumplimientos-del-contratista/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "eleven municipalities in Córdoba, Bolívar, Sucre and Antioquia (El Espectador)",
+      "notes": "Deaths null. Separate from caregato-2021-08-27. Do not copy the 2021 254,000 figure onto 2024.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "UNGRD",
+      "verification": "confirmed",
+      "id": "caregato-2024-05",
+      "name": "Dique Caregato / Cara de Gato (2024 re-break)",
+      "country": "Colombia",
+      "region": "San Jacinto del Cauca, Bolívar — La Mojana",
+      "location_label": "Dique Caregato, San Jacinto del Cauca, Bolívar, Colombia",
+      "lat": 8.25,
+      "lng": -74.7167,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (San Jacinto del Cauca) 8.25, −74.7167 — same municipal pin as the 2021 break",
+      "river_or_facility": "Dique / jarillón Caregato (Cara de Gato) on the left bank of the Río Cauca",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "El Espectador: on 6 May 2024 the Caregato levee broke again, weeks after a UNGRD repair.",
+      "incident_date": "2024-05-06",
+      "latest_report_date": "2024",
+      "what_happened": "On 6 May 2024 the Caregato levee on the Cauca at San Jacinto del Cauca broke again, weeks after being repaired (El Espectador; UNGRD later cancelled the contractor). The 2024 re-break again flooded La Mojana municipalities in Córdoba, Bolívar, Sucre and Antioquia. This is recorded as a separate incident from the 27 August 2021 break. No source isolated a death count to the 2024 opening.",
+      "status": "Re-broke 6 May 2024 after repair.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "El Espectador — UNGRD ends Caregato contract (re-break 6 May 2024)",
+          "url": "https://www.elespectador.com/ambiente/ungrd-cancela-contrato-de-la-obra-de-caregato-tras-incumplimientos-del-contratista/"
+        },
+        {
+          "label": "El Espectador — Contractor abandoned Caregato works",
+          "url": "https://www.elespectador.com/ambiente/blog-el-rio/contratista-abandono-obra-en-el-dique-de-caregato-en-la-mojana-ungrd/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — no sourced count. Volume is the municipal 40–50 tonnes figure, not a later unsourced m³ conversion.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Austro Gold / Austrogold C Ltda.",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "40–50 tonnes of sediment and solids (El Mercurio, municipal inspector)",
+      "breach_size": null,
+      "downstream_risk": "Río Tenguel at Santa Martha",
+      "economic_damage": null,
+      "investigating_agency": "ARCER / Ministerio de Energía",
+      "verification": "confirmed",
+      "id": "armijos-ponce-enriquez-2020-07-02",
+      "name": "Relavera Armijos (Austro Gold)",
+      "country": "Ecuador",
+      "region": "Camilo Ponce Enríquez, Azuay",
+      "location_label": "Planta Armijos, sector 4 de Mayo / Santa Martha, Camilo Ponce Enríquez, Azuay, Ecuador",
+      "lat": -3.05,
+      "lng": -79.73333,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Camilo Ponce Enríquez) −3.05, −79.73333 — cantón seat, not a TSF crest",
+      "river_or_facility": "Relavera / planta de beneficio Armijos (Austro Gold), Río Tenguel",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "structural_design"
+      ],
+      "cause_summary": "Ministry / ARCER inspection 3 July 2020: a retaining wall of a tailings pond collapsed and sediment escaped down an adjacent quebrada.",
+      "incident_date": "2020-07-02",
+      "latest_report_date": "2020-07-04",
+      "what_happened": "On 2 July 2020 a retaining wall of the Armijos tailings pond at Austro Gold's processing plant in Camilo Ponce Enríquez, Azuay, collapsed. El Mercurio (3 July): municipal inspector Cristian Tomalá said 40–50 tonnes of sediment and solids ran down the mountain into the Río Tenguel at Santa Martha; the cantón closed the plant. The Ministry of Energy (3 July) confirmed the wall collapse and sediment in the Tenguel after an ARCER inspection and said mining activity at the plant would be sealed. No source in this set gives a death count.",
+      "status": "Small TSF wall collapse; plant closed after inspection.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Ministerio de Energía — Sobre el colapso de la relavera Armijos (3 July 2020)",
+          "url": "https://www.recursosyenergia.gob.ec/sobre-el-colapso-de-la-relavera-armijos-en-el-canton-camilo-ponce-enriquez-azuay/"
+        },
+        {
+          "label": "El Mercurio (Cuenca) — 40–50 tonnes to the Río Tenguel",
+          "url": "https://elmercurio.com.ec/actualidad/2020/07/03/el-colapso-de-una-relavera-en-ponce-enriquez-provoca-la-contaminacion-del-rio-tenguel/"
+        },
+        {
+          "label": "Wikipedia — Camilo Ponce Enríquez",
+          "url": "https://en.wikipedia.org/wiki/Camilo_Ponce_Enr%C3%ADquez,_Azuay"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: compilation says 'numerosos muertos' but gives no count. Do not invent a number. Camp/mountain-feet pin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 60,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Rímac contamination (compilation table)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "casapalca-1952",
+      "name": "Casapalca tailings dam (1952 earthquake)",
+      "country": "Peru",
+      "region": "Casapalca, Chicla District, Huarochirí, Lima Region",
+      "location_label": "Casapalca mining camp, Huarochirí, Peru",
+      "lat": -11.65583,
+      "lng": -76.21528,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Chuqi Chukchu): the mining village of Q'asa P'allqa (Casapalca) lies at the mountain's feet; peak 11°39′21″S 76°12′55″W. Region pin for the camp, not a TSF crest",
+      "river_or_facility": "Casapalca tailings dam (Rímac headwaters)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "Peruvian compilation 'Accidentes y fallas en presas de relave', Table I: Casapalca, 60 m, 1952, earthquake, afterwards abandoned.",
+      "incident_date": "1952",
+      "latest_report_date": "1952",
+      "what_happened": "A Peruvian geotechnical compilation of tailings-dam accidents (Tabla I) lists Casapalca as a 60 m tailings dam that failed in 1952 in an earthquake and was then abandoned. The same row records numerous deaths (numerosos muertos) and contamination of the Rímac. No numerical death toll is given in that table, so deaths are left null. Casapalca is the historic mining camp in Chicla District, Huarochirí.",
+      "status": "Historic 1952 seismic TSF failure; deposit abandoned.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Accidentes y fallas en presas de relave (Peru compilation, Tabla I: Casapalca 1952)",
+          "url": "https://pdfcoffee.com/download/accidentes-y-fallas-en-presas-de-relaves-en-peru-pdf-free.html"
+        },
+        {
+          "label": "Wikipedia — Chuqi Chukchu (Casapalca village at the mountain's feet)",
+          "url": "https://en.wikipedia.org/wiki/Chuqi_Chukchu"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — do not copy El Cobre 247. Commune pin only.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 25,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "el-cerrado-1965-03-28",
+      "name": "El Cerrado tailings dam (1965 earthquake)",
+      "country": "Chile",
+      "region": "Cabildo, Valparaíso Region",
+      "location_label": "El Cerrado tailings dam, Cabildo, Valparaíso, Chile",
+      "lat": -32.4275,
+      "lng": -71.06639,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Cabildo, Chile) 32°25′39″S 71°03′59″W — commune pin shared with Hierro Negro / Los Maquis; not a TSF crest",
+      "river_or_facility": "El Cerrado tailings dam (Cabildo)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "tailings_liquefaction"
+      ],
+      "cause_summary": "Villavicencio et al. 2014 table: El Cerrado, Cabildo, 28 March 1965, upstream, 25 m, SI+SID, La Ligua earthquake Ms 7.4.",
+      "incident_date": "1965-03-28",
+      "latest_report_date": "2014",
+      "what_happened": "Villavicencio, Espinace, Palma, Fourie and Valenzuela (Canadian Geotechnical Journal / ResearchGate table) list El Cerrado at Cabildo, Valparaíso, as an upstream tailings dam 25 m high that failed by seismic instability / seismic-induced deformation (SI+SID) in the 28 March 1965 La Ligua earthquake (Ms 7.4, R≈68 km). SMI-Chile's 60-year El Cobre note also names El Cerrado among other Valparaíso TSFs that collapsed that day. No death figure is given for this dam; El Cobre's toll is not copied here.",
+      "status": "Historical earthquake-induced TSF failure.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Villavicencio et al. 2014 — Failures of sand tailings dams in a highly seismic country (table: El Cerrado)",
+          "url": "https://doi.org/10.1139/cgj-2013-0142"
+        },
+        {
+          "label": "SMI-Chile — 60 years after the El Cobre tragedy (lists El Cerrado among 1965 collapses)",
+          "url": "https://smi-chile.com/60-years-after-the-el-cobre-tragedy-memories-preserved-and-lessons-learned/"
+        },
+        {
+          "label": "Espinace / PUCV — El desafío de la disposición de relaves en Chile",
+          "url": "https://sangeronimo.net/wp-content/uploads/2015/09/rac3bal-espinace.pdf"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — do not copy El Cobre 247. El Sauce 2 (5 m, SI+SID) not added.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 6,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "el-sauce-llayllay-1965-03-28",
+      "name": "El Sauce 1 tailings dam (1965 earthquake)",
+      "country": "Chile",
+      "region": "Llay Llay, Valparaíso Region",
+      "location_label": "El Sauce 1 tailings dam, Llay Llay, Valparaíso, Chile",
+      "lat": -32.840278,
+      "lng": -70.948333,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Llay-Llay) 32°50′25″S 70°56′54″W — commune pin, not a TSF crest",
+      "river_or_facility": "El Sauce 1 tailings dam (Llay Llay)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "tailings_liquefaction"
+      ],
+      "cause_summary": "Villavicencio et al. 2014: El Sauce 1, Llay Llay, 28 March 1965, upstream, 6 m, liquefaction and flow failure (LQ+FF), Ms 7.4.",
+      "incident_date": "1965-03-28",
+      "latest_report_date": "2014",
+      "what_happened": "Villavicencio et al. 2014 list El Sauce 1 at Llay Llay, Valparaíso, as a 6 m upstream tailings dam that failed by liquefaction and flow (LQ+FF) in the 28 March 1965 La Ligua earthquake (Ms 7.4, R≈66 km). The same table lists a separate El Sauce 2 (5 m, SI+SID, abandoned) that is not recorded here. No death figure is given for El Sauce 1; El Cobre's toll is not copied here.",
+      "status": "Historical earthquake-induced TSF flow failure.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Villavicencio et al. 2014 — Failures of sand tailings dams (table: El Sauce 1)",
+          "url": "https://doi.org/10.1139/cgj-2013-0142"
+        },
+        {
+          "label": "Wikipedia — Llay-Llay",
+          "url": "https://en.wikipedia.org/wiki/Llay-Llay"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — do not copy El Cobre 247. Thin: named in SMI-Chile's 1965 list; not in the Villavicencio numeric table. Commune pin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Santiago Mining Company / Anaconda (historic); later Sociedad Minera Pudahuel",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "la-africana-1965-03-28",
+      "name": "La Africana tailings dam (1965 earthquake)",
+      "country": "Chile",
+      "region": "Pudahuel, Santiago Metropolitan Region",
+      "location_label": "Ex-mina La Africana, Pudahuel, Santiago, Chile",
+      "lat": -33.45,
+      "lng": -70.76667,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Pudahuel) 33°27′S 70°46′W — commune pin. Mine/TSF is at Pudahuel / Lomas de Lo Aguirre, not a crest survey",
+      "river_or_facility": "La Africana copper tailings (ex-mina La Africana)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "SMI-Chile 60-year El Cobre note lists La Africana among other tailings dams that collapsed in the 28 March 1965 earthquake. Mechanism not itemised in that note.",
+      "incident_date": "1965-03-28",
+      "latest_report_date": "2025-03-27",
+      "what_happened": "SMI-Chile (27 March 2025), reviewing the 28 March 1965 earthquake, states that several other mining tailings dams collapsed besides El Cobre, and names La Africana with Los Maquis, Cerro Negro, Bellavista, El Cerrado and La Patagua, adding that none of those caused El Cobre's loss of life. The La Africana copper mine and tailings sit at Pudahuel in the Metropolitan Region (La Tercera; Nueva Pudahuel closure materials), even though the SMI-Chile sentence groups the list with Valparaíso dams. No death figure is given for La Africana; El Cobre's toll is not copied here.",
+      "status": "Named in the 1965 collapse list; later a closed/remediated liability at Pudahuel.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SMI-Chile — 60 years after the El Cobre tragedy (lists La Africana among 1965 collapses)",
+          "url": "https://smi-chile.com/60-years-after-the-el-cobre-tragedy-memories-preserved-and-lessons-learned/"
+        },
+        {
+          "label": "La Tercera — history of the abandoned La Africana copper mine, Pudahuel",
+          "url": "https://www.latercera.com/que-pasa/noticia/la-africana-la-desconocida-mina-de-cobre-abandonada-en-pudahuel-hace-45-anos/CGD2WZMYRJHR5G77NZWRJVV2AY/"
+        },
+        {
+          "label": "Wikipedia — Pudahuel",
+          "url": "https://en.wikipedia.org/wiki/Pudahuel"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Distinct from veta-de-agua-no1-1985-03-03 already in the database. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 20,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "veta-de-agua-no2-1981-11-07",
+      "name": "Veta de Agua No. 2 tailings dam",
+      "country": "Chile",
+      "region": "Nogales commune, Quillota Province, Valparaíso",
+      "location_label": "Veta de Agua No. 2 tailings dam, Nogales, Valparaíso, Chile",
+      "lat": -32.735,
+      "lng": -71.2025,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Nogales, Chile) 32°44′06″S 71°12′09″W; Villavicencio et al. 2014 locate Veta del Agua No. 2 at Nogales. Commune pin, not a TSF crest. Distinct from veta-de-agua-no1-1985-03-03",
+      "river_or_facility": "Veta de Agua No. 2 copper tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "earthquake",
+        "tailings_liquefaction"
+      ],
+      "cause_summary": "Villavicencio et al. 2014 / Espinace PUCV: Veta del Agua No. 2, Nogales, 7 November 1981, upstream 20 m, liquefaction and flow failure, Ms 6.5.",
+      "incident_date": "1981-11-07",
+      "latest_report_date": "2016",
+      "what_happened": "On 7 November 1981 Veta del Agua No. 2 at Nogales, Valparaíso, failed. Villavicencio et al. 2014: upstream, 20 m, slope 1.2:1, operating, liquefaction and flow failure (LQ+FF) in an intraplate earthquake Ms 6.5 (R≈85 km). Espinace/PUCV table: same date and height. A 2016 Obras y Proyectos paper notes the 20 m No. 2 dam failed in 1981 and the 24 m No. 1 dam failed in 1985. Distinct from the already-recorded 3 March 1985 No. 1 failure. No death figure is given.",
+      "status": "Historic seismic liquefaction failure, distinct from the 1985 No. 1 dam.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Villavicencio et al. 2014 — Failures of sand tailings dams (table: Veta del Agua No. 2, 7 Nov 1981)",
+          "url": "https://doi.org/10.1139/cgj-2013-0142"
+        },
+        {
+          "label": "Espinace / PUCV — El desafío de la disposición de relaves en Chile (Veta del Agua 2, 07/11/81)",
+          "url": "https://sangeronimo.net/wp-content/uploads/2015/09/rac3bal-espinace.pdf"
+        },
+        {
+          "label": "Obras y Proyectos 2016 — seismic performance of tailings sand dams (confirms 1981 No. 2 vs 1985 No. 1)",
+          "url": "https://doi.org/10.4067/s0718-28132016000100001"
         }
       ],
       "severity": "moderate"
