@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 136,
+  "count": 161,
   "events": [
     {
       "id": "flood-assam-2026",
@@ -6578,6 +6578,1338 @@
       "related_dam_id": null,
       "economic_damage": "About ₹10,000 crore in Himachal Pradesh (CM Sukhu, cited on Wikipedia)",
       "category": "incident"
+    },
+    {
+      "id": "flood-bristol-channel-1607",
+      "name": "1607 Bristol Channel floods",
+      "country": "United Kingdom",
+      "region": "Bristol Channel / Severn Estuary (Devon, Somerset, Gloucestershire, South Wales)",
+      "location_label": "Cardiff, Wales, United Kingdom",
+      "lat": 51.48167,
+      "lng": -3.17917,
+      "geo_accuracy": "approx",
+      "geo_source": "Cardiff city (Wikipedia coordinates); Wikipedia calls Cardiff the most badly affected town",
+      "flood_type": "storm_surge",
+      "river_or_basin": "Bristol Channel / Severn Estuary",
+      "river_or_facility": "Severn Estuary / Somerset Levels",
+      "incident_date": "1607-01-30",
+      "latest_report_date": "2007-01-30",
+      "what_happened": "Around noon on 30 January 1607 (Gregorian; 20 January 1606/07 Julian) a storm surge flooded the Bristol Channel and Severn Estuary. Low-lying land in Devon, Somerset, Gloucestershire and South Wales was inundated from Laugharne to above Chepstow. Cardiff was the worst-hit town; St Mary's Church foundations were destroyed. Contemporary and later estimates put the death toll at 2,000 or more; about 200 square miles of farmland were destroyed. Sea water reached Glastonbury Tor, 14 miles inland. Modern analysis (Horsburgh and Horritt, 2006) attributes the flood to a high spring tide plus a south-westerly gale, not a tsunami.",
+      "status": "Historical.",
+      "deaths": 2000,
+      "injured": null,
+      "affected_or_evacuated": "About 200 square miles (51,800 ha) of farmland destroyed (Wikipedia / RMS 2007 retrospective)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "storm_surge"
+      ],
+      "cause_summary": "High astronomical spring tide (7.86 m at Bristol Channel) combined with a severe south-westerly gale.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1607 Bristol Channel floods",
+          "url": "https://en.wikipedia.org/wiki/1607_Bristol_Channel_floods"
+        }
+      ],
+      "notes": "Deaths 2,000+ estimated on the Wikipedia infobox. Using 2000 as the lower sourced estimate, not a precise count. Date given in Gregorian form used by modern sources.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "About 200 square miles (52,000 ha) estimated",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 1607 Bristol Channel floods (BBC / RMS retrospective cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-baltic-1872",
+      "name": "1872 Baltic Sea flood",
+      "country": "Germany",
+      "region": "Baltic coast from Denmark to Pomerania (Eckernförde / Lolland / Falster)",
+      "location_label": "Eckernförde, Schleswig-Holstein, Germany",
+      "lat": 54.47417,
+      "lng": 9.83778,
+      "geo_accuracy": "approx",
+      "geo_source": "Eckernförde (Wikipedia coordinates); Wikipedia says it was the most heavily damaged German coastal town",
+      "flood_type": "storm_surge",
+      "river_or_basin": "Western Baltic Sea",
+      "river_or_facility": "Baltic coast / Bay of Eckernförde",
+      "incident_date": "1872-11-13",
+      "latest_report_date": "1872-11",
+      "what_happened": "On the night of 12–13 November 1872 a storm tide struck the Baltic coast from Denmark to Pomerania. After a south-westerly gale drove water toward Finland, the wind reversed from the northeast and pushed the piled-up water back onto the Danish–German coast. Peak water was about 3.3 m above sea level. Eckernförde was the worst-hit German town (78 houses destroyed, 138 damaged). Wikipedia records at least 271 deaths on the Baltic coast, 2,850 houses destroyed or badly damaged, and 15,160 people left homeless. On Falster 52 died; on Lolland 28; 32 died on land in Mecklenburg and West Pomerania.",
+      "status": "Historical. The Prerower Strom silted up; Zingst became a peninsula after 1874 dyke work.",
+      "deaths": 271,
+      "injured": null,
+      "affected_or_evacuated": "15,160 left homeless; 2,850 houses destroyed or badly damaged (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "storm_surge"
+      ],
+      "cause_summary": "Baltic storm tide after a wind reversal piled North Sea inflow against the Danish–German coast.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1872 Baltic Sea flood",
+          "url": "https://en.wikipedia.org/wiki/1872_Baltic_Sea_flood"
+        }
+      ],
+      "notes": "271 is Wikipedia's 'at least' coast-wide total. Highest recorded peak about 3.3 m above NN.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 1872 Baltic Sea flood."
+        }
+      ]
+    },
+    {
+      "id": "flood-miskolc-1878",
+      "name": "1878 flood in Miskolc",
+      "country": "Hungary",
+      "region": "Miskolc / Sajó–Szinva",
+      "location_label": "Miskolc, Hungary",
+      "lat": 48.10417,
+      "lng": 20.79167,
+      "geo_accuracy": "approx",
+      "geo_source": "Miskolc city (Wikipedia coordinates)",
+      "flood_type": "flash",
+      "river_or_basin": "Sajó / Szinva / Pece",
+      "river_or_facility": "Szinva stream",
+      "incident_date": "1878-08-30",
+      "latest_report_date": "1878-08",
+      "what_happened": "On 30 August 1878 storms from Transdanubia reached northern Hungary and swelled the Szinva and Pece streams through Miskolc. Water rose by about half a metre per minute; in some parts of the city it was 4–5 metres deep. Bridges, mills and houses were swept away. Wikipedia says the flood destroyed 2,000 buildings and killed almost 300 people, or about 400 if neighbouring areas (including Óhuta, where 73 houses were destroyed) are included. It remains remembered locally as the 'Great Flood' and the deadliest 19th-century flood in Hungary.",
+      "status": "Historical.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "2,000 buildings destroyed in Miskolc (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Intense storms swelled the Szinva and Pece through downtown Miskolc.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1878 flood in Miskolc",
+          "url": "https://en.wikipedia.org/wiki/1878_flood_in_Miskolc"
+        }
+      ],
+      "notes": "Deaths left null: Wikipedia gives almost 300 in the city, or about 400 including neighbouring areas. Range stays in notes.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 1878 flood in Miskolc."
+        }
+      ]
+    },
+    {
+      "id": "flood-vermont-1927",
+      "name": "Great Vermont Flood of 1927",
+      "country": "United States",
+      "region": "Vermont / New England",
+      "location_label": "Montpelier, Vermont, USA",
+      "lat": 44.25972,
+      "lng": -72.56472,
+      "geo_accuracy": "approx",
+      "geo_source": "Montpelier, the state capital on the Winooski (Wikipedia coordinates)",
+      "flood_type": "riverine",
+      "river_or_basin": "Winooski / statewide Vermont rivers",
+      "river_or_facility": "Winooski River",
+      "incident_date": "1927-11-03",
+      "latest_report_date": "1927-11-04",
+      "what_happened": "After a very wet October that saturated soils, record rain fell across Vermont on 2–4 November 1927 as a coastal low drew moisture from a tropical remnant. The U.S. Geological Survey estimated 53 percent of the state received more than six inches; Somerset recorded 9.86 inches. Rivers flooded statewide. Wikipedia records 85 deaths (84 in Vermont) and more than $50 million damage (1927 USD). The flood destroyed 1,285 bridges. Lieutenant Governor Samuel Hollister Jackson died trying to escape a flooded car. It remains Vermont's worst flood, later compared with Irene 2011 and July 2023.",
+      "status": "Historical. State later assumed a larger role in the statewide road system.",
+      "deaths": 85,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Saturated October soils plus 3–4 November orographic rain from a coastal low and tropical remnant.",
+      "sources": [
+        {
+          "label": "Wikipedia: Great Vermont Flood of 1927",
+          "url": "https://en.wikipedia.org/wiki/Great_Vermont_Flood_of_1927"
+        }
+      ],
+      "notes": "85 is the Wikipedia infobox total (84 in Vermont). Rain peak 9.86 in at Somerset.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "9.86 inches (250 mm) at Somerset; 8.71 inches at Northfield (Wikipedia / NOAA)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "More than $50 million (1927 USD) (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: Great Vermont Flood of 1927 (NWS/NOAA cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-okeechobee-1928",
+      "name": "1928 Okeechobee hurricane flood",
+      "country": "United States",
+      "region": "Lake Okeechobee / Palm Beach County, Florida",
+      "location_label": "Belle Glade, Florida, USA",
+      "lat": 26.69278,
+      "lng": -80.64306,
+      "geo_accuracy": "approx",
+      "geo_source": "Belle Glade on the southeast shore of Lake Okeechobee (Wikipedia coordinates); Florida Department of Health compiled 611 deaths in Belle Glade alone",
+      "flood_type": "storm_surge",
+      "river_or_basin": "Lake Okeechobee / Everglades",
+      "river_or_facility": "Lake Okeechobee dikes",
+      "incident_date": "1928-09-17",
+      "latest_report_date": "2003",
+      "what_happened": "The Okeechobee hurricane (San Felipe Segundo) made landfall near West Palm Beach on 17 September 1928 as a Category 4. Wind-driven water poured over the small dike at the south end of Lake Okeechobee, flooding hundreds of square miles to depths as great as 20 feet. Towns including Belle Glade, Canal Point, Chosen, Pahokee and South Bay were swept. In 2003 the U.S. death count was revised to at least 2,500. About 75 percent of the dead were migrant farm workers. The storm also killed 1,200 in Guadeloupe and 312 in Puerto Rico; those deaths are not in this Florida pin.",
+      "status": "Historical. Led to the Herbert Hoover Dike around Lake Okeechobee.",
+      "deaths": 2500,
+      "injured": null,
+      "affected_or_evacuated": "Governor Martin estimated 15,000 families homeless in Palm Beach County (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "storm_surge"
+      ],
+      "cause_summary": "Category 4 landfall drove Lake Okeechobee over a low southern dike.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1928 Okeechobee hurricane",
+          "url": "https://en.wikipedia.org/wiki/1928_Okeechobee_hurricane"
+        }
+      ],
+      "notes": "2,500 is the 2003 NWS revision for the United States ('at least'). Earlier Red Cross figure was 1,836. Storm-wide total including the Caribbean is 4,114+. Using the dated US flood figure for this pin.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About $25 million in Florida (1928 USD) (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 1928 Okeechobee hurricane (NWS 2003 death revision cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-northeast-1936",
+      "name": "1936 Northeastern United States flood",
+      "country": "United States",
+      "region": "New England / Mid-Atlantic / Ohio",
+      "location_label": "Hartford, Connecticut, USA",
+      "lat": 41.7625,
+      "lng": -72.67417,
+      "geo_accuracy": "approx",
+      "geo_source": "Hartford, where the Connecticut River still holds the 37.6 ft March 1936 record (Wikipedia coordinates)",
+      "flood_type": "riverine",
+      "river_or_basin": "Connecticut / Merrimack / Potomac / Ohio",
+      "river_or_facility": "Connecticut River",
+      "incident_date": "1936-03-12",
+      "latest_report_date": "1936-03-21",
+      "what_happened": "A snow-heavy winter followed by two March storm systems produced record floods across the Northeastern United States, the Mid-Atlantic and Ohio. The USGS called it one of the greatest rainfall concentrations on record for the area. The Connecticut River peaked at 37.6 feet in Hartford; the Merrimack set a 68.4-foot record in Lowell. By 21 March about 260,000 people were homeless. Wikipedia cites an estimated 150 to 200 deaths and hundreds of millions of dollars of 1936 damage. The Flood Control Act of 1936 followed.",
+      "status": "Historical. Directly prompted the Flood Control Act of 1936.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "About 260,000 homeless by 21 March (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "snowmelt",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Heavy winter snow plus two mid-March rainstorms and ice jams on New England rivers.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1936 Northeastern United States flood",
+          "url": "https://en.wikipedia.org/wiki/1936_Northeastern_United_States_flood"
+        }
+      ],
+      "notes": "Deaths left null: Wikipedia gives an estimated range of 150–200. Hartford crest 37.6 ft still stood as of 2015.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 1936 Northeastern United States flood (USGS 1936 report cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-camille-1969",
+      "name": "Hurricane Camille flooding",
+      "country": "United States",
+      "region": "Mississippi Gulf Coast / Nelson County, Virginia",
+      "location_label": "Bay St. Louis, Mississippi, USA",
+      "lat": 30.31472,
+      "lng": -89.34417,
+      "geo_accuracy": "approx",
+      "geo_source": "Bay St. Louis / Waveland landfall (Wikipedia coordinates); 24.6 ft storm surge later measured from debris at Pass Christian",
+      "flood_type": "storm_surge",
+      "river_or_basin": "Mississippi Sound / James–Rockfish (Virginia remnants)",
+      "river_or_facility": "Mississippi coast / Tye and Rockfish rivers in Virginia",
+      "incident_date": "1969-08-18",
+      "latest_report_date": "2016",
+      "what_happened": "Hurricane Camille made landfall near Waveland, Mississippi, on 18 August 1969 as a Category 5 with a then-record 24.6-foot storm surge at Pass Christian. Wikipedia records at least 343 deaths in the United States (172 in Mississippi, 9 in Louisiana, more than 153 in Virginia, 2 in West Virginia), plus 5 in Cuba, for a storm total above 348. After weakening inland, remnants produced a cloudburst over the Virginia Blue Ridge (27 inches near Massies Mill) that USGS called the worst natural disaster to strike Virginia. About 200,000 people were left homeless from Alabama to Louisiana.",
+      "status": "Historical. Name retired. Contributed to Saffir–Simpson scale and later Disaster Relief Acts.",
+      "deaths": 343,
+      "injured": null,
+      "affected_or_evacuated": "About 200,000 homeless from Alabama to Louisiana; more than 9,000 injured (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "storm_surge",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Category 5 Gulf landfall surge, then remnant cloudburst over the Virginia Blue Ridge.",
+      "sources": [
+        {
+          "label": "Wikipedia: Hurricane Camille",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Camille"
+        }
+      ],
+      "notes": "343 is the US death toll on Wikipedia (288 direct plus 55 indirect identified in a 2016 death-certificate study). Storm-wide total >348 including 5 in Cuba. Virginia flood deaths >153 are included in the 343.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "27 inches (690 mm) near Massies Mill, Virginia (Wikipedia / USGS)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "At least $1.42 billion in the United States (1969 USD) (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: Hurricane Camille."
+        }
+      ]
+    },
+    {
+      "id": "flood-vietnam-1999",
+      "name": "1999 Vietnamese floods",
+      "country": "Vietnam",
+      "region": "Central Vietnam (Thừa Thiên Huế / Quảng Nam / Quảng Trị)",
+      "location_label": "Huế, Vietnam",
+      "lat": 16.4639,
+      "lng": 107.5867,
+      "geo_accuracy": "approx",
+      "geo_source": "Huế (Wikipedia coordinates); 324 of 622 fatalities were in Thừa Thiên Huế province",
+      "flood_type": "riverine",
+      "river_or_basin": "Perfume (Hương) / Bồ / central Vietnam rivers",
+      "river_or_facility": "Perfume River",
+      "incident_date": "1999-10-18",
+      "latest_report_date": "1999-11-14",
+      "what_happened": "Tropical Storm Eve (Storm No. 9) and later cold-surge rains produced Vietnam's worst flooding in 40 years from 18 October to 7 November 1999. Streets in Huế were under up to three metres of water; the Perfume and Bồ rivers rose to 8–9 m. As of 14 November the Government of Vietnam reported 622 fatalities, 70 missing, more than 470,000 households affected, 41,846 homes destroyed and over 1 million people needing relief. Damage was 3.3 trillion đồng (US$237 million). A second episode in early December added further deaths (132 as of 8 December) that are not added into the 622 pin.",
+      "status": "Historical. December rains caused a second flood wave while relief was underway.",
+      "deaths": 622,
+      "injured": null,
+      "affected_or_evacuated": "Over 1 million needing relief; 15,000 evacuated in Thừa Thiên Huế as of 9 November (Wikipedia / CCFSC)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Tropical Storm Eve plus a November cold surge over central Vietnam river basins.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1999 Vietnamese floods",
+          "url": "https://en.wikipedia.org/wiki/1999_Vietnamese_floods"
+        }
+      ],
+      "notes": "622 fatalities and 70 missing are the Government of Vietnam figures as of 14 November 1999, cited on Wikipedia. December flood deaths (132 as of 8 Dec) are a later episode and not added here.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "US$237 million / 3.3 trillion đồng (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 1999 Vietnamese floods (OCHA/CCFSC figures cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-santa-fe-2003",
+      "name": "2003 Santa Fe flood",
+      "country": "Argentina",
+      "region": "Santa Fe Province",
+      "location_label": "Santa Fe, Argentina",
+      "lat": -31.63333,
+      "lng": -60.7,
+      "geo_accuracy": "approx",
+      "geo_source": "Santa Fe city (Wikipedia coordinates)",
+      "flood_type": "riverine",
+      "river_or_basin": "Salado (Santa Fe) / Paraná",
+      "river_or_facility": "Salado River",
+      "incident_date": "2003-04-28",
+      "latest_report_date": "2003-07-23",
+      "what_happened": "After several days of heavy rain the Salado River rose almost two metres in three hours and on 28 April 2003 overflowed into Santa Fe, the provincial capital. Wikipedia records about 100,000 people evacuated, 154 deaths, and 28,000 houses damaged or destroyed. More than 30,000 km² of farmland were lost. A dyke was blown to let water out of the city. A UN assessment requested by the governor put damage at about US$1 billion, about 12 percent of the province's GDP. The provincial government was criticised for ignoring warnings.",
+      "status": "Historical. President Duhalde declared a disaster zone.",
+      "deaths": 154,
+      "injured": null,
+      "affected_or_evacuated": "About 100,000 evacuated (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Rapid rise of the Salado after multi-day rain; flood defences on that river were incomplete.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2003 Santa Fe flood",
+          "url": "https://en.wikipedia.org/wiki/2003_Santa_Fe_flood"
+        }
+      ],
+      "notes": "154 deaths and 100,000 evacuated are the figures on the Wikipedia article. UN damage about US$1 billion (Newsfront, 23 July 2003, cited there).",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "Over 30,000 km² of farmland destroyed (Wikipedia)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About US$1 billion (UN assessment cited on Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2003 Santa Fe flood (BBC / UNDP cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-var-2010",
+      "name": "2010 Var floods",
+      "country": "France",
+      "region": "Var department (Draguignan / Fréjus / Trans-en-Provence)",
+      "location_label": "Draguignan, Var, France",
+      "lat": 43.5403,
+      "lng": 6.4667,
+      "geo_accuracy": "approx",
+      "geo_source": "Draguignan (Wikipedia coordinates); 12 of 27 deaths were there",
+      "flood_type": "flash",
+      "river_or_basin": "Argens / Nartuby",
+      "river_or_facility": "Argens river",
+      "incident_date": "2010-06-15",
+      "latest_report_date": "2010-06-18",
+      "what_happened": "Heavy rain on the evening of 15 June 2010 caused flash and river floods in the Var, the worst in the region since 1827. More than 400 mm fell in less than 24 hours. Wikipedia's infobox gives 27 deaths (12 in Draguignan, 4 in Trans-en-Provence, 3 at La Motte, 2 each in Roquebrune-sur-Argens and Saint-Aygulf, one each in Montauroux and Le Luc). Over 1,000 people were evacuated and 175,000 houses lost electricity. A TGV was stranded near Le Luc. Prime Minister Fillon announced a natural-catastrophe declaration for nine cantons.",
+      "status": "Historical.",
+      "deaths": 27,
+      "injured": null,
+      "affected_or_evacuated": "Over 1,000 evacuated from houses; 1,500 rescued in Fréjus (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "More than 400 mm in under 24 hours on the Argens basin.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2010 Var floods",
+          "url": "https://en.wikipedia.org/wiki/2010_Var_floods"
+        }
+      ],
+      "notes": "27 is the Wikipedia infobox total, with a municipal breakdown. Early BBC reports said at least 25.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "More than 400 mm in less than 24 hours (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2010 Var floods (BBC / Le Monde cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-nigeria-2012",
+      "name": "2012 Nigeria floods",
+      "country": "Nigeria",
+      "region": "Kogi / Benue / 30 of 36 states",
+      "location_label": "Lokoja, Kogi State, Nigeria",
+      "lat": 7.80194,
+      "lng": 6.74417,
+      "geo_accuracy": "approx",
+      "geo_source": "Lokoja at the Niger–Benue confluence (Wikipedia coordinates); Kogi was the worst-affected state",
+      "flood_type": "riverine",
+      "river_or_basin": "Niger / Benue",
+      "river_or_facility": "Niger and Benue rivers",
+      "incident_date": "2012-07",
+      "latest_report_date": "2012-11-05",
+      "what_happened": "Seasonal rains from early July 2012, worsened in September by a release from Cameroon's Lagdo Reservoir, produced what NEMA called Nigeria's worst floods in 40 years. Thirty of 36 states were affected. Reuters reported 363 deaths and more than 2.1 million displaced as of 5 November 2012. About seven million people were affected. Kogi State was worst hit (623,900 displaced; 152,575 hectares of farmland destroyed). President Jonathan called it a national disaster. NEMA later put damages and losses at ₦2.6 trillion.",
+      "status": "Historical.",
+      "deaths": 363,
+      "injured": null,
+      "affected_or_evacuated": "2.1 million displaced; about 7 million affected (Reuters / NEMA, cited on Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Seasonal rains plus Lagdo Reservoir releases on the Benue; poor drainage in cities.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2012 Nigeria floods",
+          "url": "https://en.wikipedia.org/wiki/2012_Nigeria_floods"
+        }
+      ],
+      "notes": "363 deaths and 2.1 million displaced are the Reuters/NEMA figures as of 5 November 2012. A September Lagdo release killed 30 in Benue; those deaths are inside the 363.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "₦2.6 trillion (NEMA, cited on Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2012 Nigeria floods (Reuters 5 Nov 2012 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-jakarta-2013",
+      "name": "2013 Jakarta flood",
+      "country": "Indonesia",
+      "region": "Jakarta / West Java / Banten",
+      "location_label": "Jakarta, Indonesia",
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "geo_accuracy": "approx",
+      "geo_source": "Jakarta city centre (same Wikipedia-style pin as flood-jakarta-2007 and flood-jakarta-2020)",
+      "flood_type": "riverine",
+      "river_or_basin": "Ciliwung / West Flood Canal",
+      "river_or_facility": "West Flood Canal dike (Menteng)",
+      "incident_date": "2013-01-15",
+      "latest_report_date": "2013-01-26",
+      "what_happened": "Heavy rain and clogged waterways flooded Jakarta from 15 January 2013. A 30-metre section of the West Flood Canal dike in Menteng collapsed and flooded nearby districts. Wikipedia records 41 deaths. About 20,000 people were evacuated on 17 January. Commuter trains and buses were suspended; flooding reached the presidential palace and postponed a meeting with Argentina's president. Seasonal flooding also hit other islands; those extra deaths are not added here.",
+      "status": "Historical.",
+      "deaths": 41,
+      "injured": null,
+      "affected_or_evacuated": "About 20,000 evacuated on 17 January (Wikipedia / Reuters)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "urban_drainage"
+      ],
+      "cause_summary": "Heavy rain on a low-lying city plus a West Flood Canal dike breach and debris-clogged canals.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2013 Jakarta flood",
+          "url": "https://en.wikipedia.org/wiki/2013_Jakarta_flood"
+        }
+      ],
+      "notes": "41 deaths are the Wikipedia / BPBD Jakarta figure for the Jakarta event.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2013 Jakarta flood (Reuters / BPBD cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-atacama-2015",
+      "name": "2015 Northern Chile floods and mudflow",
+      "country": "Chile",
+      "region": "Atacama / Antofagasta / Coquimbo",
+      "location_label": "Copiapó, Atacama, Chile",
+      "lat": -27.36639,
+      "lng": -70.33306,
+      "geo_accuracy": "approx",
+      "geo_source": "Copiapó (Wikipedia coordinates); president declared catastrophe for the Atacama Region including Copiapó",
+      "flood_type": "flash",
+      "river_or_basin": "Copiapó / Elqui / Atacama ravines",
+      "river_or_facility": "Copiapó River",
+      "incident_date": "2015-03-23",
+      "latest_report_date": "2015-03-30",
+      "what_happened": "An unusual cold front crossed the Andes on 23–25 March 2015 and brought the heaviest rain in about 80 years to the Atacama Desert. Flash floods and mudflows hit Antofagasta, Atacama and Coquimbo. ONEMI figures cited on Wikipedia: more than 27,413 people affected, 5,585 in shelters, 26 dead and 101 officially missing (later 125 missing in one ONEMI balance), and more than 28,000 houses damaged. President Bachelet declared a constitutional state of catastrophe for Atacama and later Antofagasta.",
+      "status": "Historical.",
+      "deaths": 26,
+      "injured": null,
+      "affected_or_evacuated": "27,413 affected; 5,585 in shelters (ONEMI, cited on Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Unseasonal Andean cold front over the Atacama produced flash floods and mudflows.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2015 Northern Chile floods and mudflow",
+          "url": "https://en.wikipedia.org/wiki/2015_Northern_Chile_floods_and_mudflow"
+        }
+      ],
+      "notes": "26 deaths are the Wikipedia infobox figure; 125 missing is also listed. Using the confirmed death count, not missing.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2015 Northern Chile floods and mudflow (ONEMI balances cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-myanmar-2015",
+      "name": "2015 Myanmar floods",
+      "country": "Myanmar",
+      "region": "Sagaing / Magway / Chin / Rakhine / Irrawaddy Delta",
+      "location_label": "Kalay, Sagaing Region, Myanmar",
+      "lat": 23.19444,
+      "lng": 94.02361,
+      "geo_accuracy": "approx",
+      "geo_source": "Kalay (Wikipedia coordinates); Wikipedia singles out Kalay Township as severely affected",
+      "flood_type": "riverine",
+      "river_or_basin": "Chindwin / Irrawaddy",
+      "river_or_facility": "Chindwin River",
+      "incident_date": "2015-07-16",
+      "latest_report_date": "2015-08-18",
+      "what_happened": "Unusually heavy monsoon rain from 16 July 2015, worsened by Cyclone Komen in late July, flooded 12 of Myanmar's 14 states and regions. The government declared a state of emergency on 30 July in Magway, Sagaing, Chin and Rakhine. Wikipedia records at least 103 deaths and up to 1 million people affected, most casualties from the Irrawaddy Delta. The Ministry of Agriculture reported more than 1.29 million acres inundated. OCHA recorded 15,239 houses destroyed.",
+      "status": "Historical. Government accepted international aid, unlike after Cyclone Nargis 2008.",
+      "deaths": 103,
+      "injured": null,
+      "affected_or_evacuated": "Up to 1 million affected (Wikipedia / Independent 10 Aug 2015)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "tropical_cyclone"
+      ],
+      "cause_summary": "Above-average monsoon rains plus Cyclone Komen; deforestation and irrigation cited as aggravating factors.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2015 Myanmar floods",
+          "url": "https://en.wikipedia.org/wiki/2015_Myanmar_floods"
+        }
+      ],
+      "notes": "103 is the Wikipedia infobox death toll. Independent/FloodList contemporaneous reports said about 100.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2015 Myanmar floods (Independent / OCHA cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-china-2017",
+      "name": "2017 China floods",
+      "country": "China",
+      "region": "Hunan / Guangxi / Yangtze basin (Ningxiang hardest hit)",
+      "location_label": "Changsha, Hunan, China",
+      "lat": 28.228,
+      "lng": 112.939,
+      "geo_accuracy": "approx",
+      "geo_source": "Changsha municipal government (Wikipedia coordinates); Xiangjiang at Changsha reached 39.21 m on 2 July, above a 36 m warning",
+      "flood_type": "riverine",
+      "river_or_basin": "Yangtze / Xiang / Zi / Yuan",
+      "river_or_facility": "Xiangjiang River",
+      "incident_date": "2017-06",
+      "latest_report_date": "2017-07-07",
+      "what_happened": "Meiyu-season rains from early June 2017 flooded southern and central China. Wikipedia's infobox gives 203+ deaths (44 of them in Ningxiang, Hunan, described as that county's worst natural disaster in 60 years). More than 14.9 million people in 10-plus provinces were affected; 18,100 houses were destroyed. The Xiangjiang at Changsha stood at 39.21 m on 2 July, 3.21 m above warning level. Direct damage was put at about US$5.70 billion. Several Hunan officials were later disciplined over the Ningxiang response.",
+      "status": "Historical.",
+      "deaths": 203,
+      "injured": null,
+      "affected_or_evacuated": "More than 14.9 million affected (State Flood Control HQ / Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Prolonged meiyu rains over the middle Yangtze and Xiang basins.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2017 China floods",
+          "url": "https://en.wikipedia.org/wiki/2017_China_floods"
+        }
+      ],
+      "notes": "203+ is the Wikipedia infobox total. A 3 July NCDR sitrep cited 48 deaths in eight southern provinces; later provincial tallies raised the season total. Using the infobox figure.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "US$5.70 billion (Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2017 China floods (NCDR / Xinhua cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-hagibis-2019",
+      "name": "Typhoon Hagibis floods",
+      "country": "Japan",
+      "region": "Eastern Honshu (Shizuoka / Greater Tokyo / Nagano)",
+      "location_label": "Nagano, Japan",
+      "lat": 36.64861,
+      "lng": 138.19472,
+      "geo_accuracy": "approx",
+      "geo_source": "Nagano city (Wikipedia coordinates); Hokuriku Shinkansen yard there was inundated",
+      "flood_type": "riverine",
+      "river_or_basin": "Chikuma / Tone / eastern Honshu rivers",
+      "river_or_facility": "Chikuma River",
+      "incident_date": "2019-10-12",
+      "latest_report_date": "2020-10-13",
+      "what_happened": "Typhoon Hagibis (Reiwa 1 East Japan Typhoon) made landfall on the Izu Peninsula on 12 October 2019 and caused severe flooding across eastern Japan. Japan's Fire and Disaster Management Agency, cited on Wikipedia, confirmed 139 dead (118 direct, 21 post-disaster) and 3 missing, with 388 injured. More than 270,000 households lost power. Ten Hokuriku Shinkansen trains in Nagano were written off after the yard flooded. National damage was ¥1.88 trillion (US$17.3 billion). It was Japan's deadliest typhoon since Fran in 1976.",
+      "status": "Historical. Name Hagibis retired; replaced by Ragasa.",
+      "deaths": 139,
+      "injured": 388,
+      "affected_or_evacuated": "Evacuation orders to more than 800,000 households; over 230,000 went to shelters (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "A very large typhoon stalled moisture over eastern Honshu river basins.",
+      "sources": [
+        {
+          "label": "Wikipedia: Typhoon Hagibis",
+          "url": "https://en.wikipedia.org/wiki/Typhoon_Hagibis"
+        }
+      ],
+      "notes": "139 deaths (118 direct, 21 post-disaster) and 3 missing are the FDMA figures cited on Wikipedia (report of 13 Oct 2020). Rain exceeded 76 cm in parts of Japan.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Over 76 cm (30 in) in parts of Japan (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "¥1.88 trillion / US$17.3 billion (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: Typhoon Hagibis (FDMA 2020 sitrep cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-sudan-2020",
+      "name": "2020 Sudan floods",
+      "country": "Sudan",
+      "region": "Blue Nile / Khartoum / 17 of 18 states",
+      "location_label": "Khartoum, Sudan",
+      "lat": 15.6,
+      "lng": 32.5,
+      "geo_accuracy": "approx",
+      "geo_source": "Khartoum (Wikipedia coordinates); Nile there reached a near-century high",
+      "flood_type": "riverine",
+      "river_or_basin": "Nile / Blue Nile",
+      "river_or_facility": "Blue Nile",
+      "incident_date": "2020-07",
+      "latest_report_date": "2021-03",
+      "what_happened": "Continuous 2020 rains, much of them over the Ethiopian highlands, drove the Blue Nile in Sudan to more than 17 metres — the highest in nearly a century according to the Ministry of Irrigation. Floods hit 17 of 18 states, destroyed more than 100,000 homes and affected more than 3 million people. The Security and Defense Council declared a three-month state of emergency. FAO said 2.2 million hectares of cropland were flooded. A UNDP Rapid PDNRA put damage at LS 243.4 billion (US$4.43 billion). Wikipedia's infobox gives about 100–500 deaths.",
+      "status": "Historical. Some farmlands were still flooded as of April 2023 per a cited ABC report.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "More than 3 million affected; 100,000+ homes destroyed (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record Blue Nile rise from Ethiopian highland monsoon rains.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 Sudan floods",
+          "url": "https://en.wikipedia.org/wiki/2020_Sudan_floods"
+        },
+        {
+          "label": "The Guardian: Sudan declares state of emergency",
+          "url": "https://www.theguardian.com/world/2020/sep/05/sudan-declares-state-of-emergency-as-record-flooding-kills-99-people"
+        }
+      ],
+      "notes": "Deaths left null: Wikipedia infobox is about 100–500. The Guardian on 5 Sep 2020 reported 99. Using neither as a single count.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "LS 243.4 billion / US$4.43 billion (UNDP Rapid PDNRA, cited on Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2020 Sudan floods (Guardian / UNDP / FAO cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-maharashtra-2021",
+      "name": "2021 Maharashtra floods",
+      "country": "India",
+      "region": "Western Maharashtra (Raigad / Satara / Sangli / Kolhapur)",
+      "location_label": "Kolhapur, Maharashtra, India",
+      "lat": 16.69167,
+      "lng": 74.23333,
+      "geo_accuracy": "approx",
+      "geo_source": "Kolhapur (Wikipedia coordinates); about 150,000 of 375,000 evacuees were from this district",
+      "flood_type": "riverine",
+      "river_or_basin": "Krishna / Koyna / western ghats rivers",
+      "river_or_facility": "Koyna Dam (releases) / Krishna basin",
+      "incident_date": "2021-07-22",
+      "latest_report_date": "2021-07-28",
+      "what_happened": "Western Maharashtra saw its heaviest July rain in 40 years from 22 July 2021. Thirteen districts were affected. The Times of India on 28 July, cited on Wikipedia, put the death toll at 209; an earlier 27 July political statement said 251. Over 375,000 people were evacuated (206,000 from Sangli, 150,000 from Kolhapur). About 200,000 hectares of crops and 800 bridges were hit. Damage was calculated at ₹4,000 crore (US$539 million). NDRF deployed 34 teams.",
+      "status": "Historical.",
+      "deaths": 209,
+      "injured": null,
+      "affected_or_evacuated": "Over 375,000 evacuated (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Arabian Sea moisture locked by a Bay of Bengal low produced extreme Western Ghats rain.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2021 Maharashtra floods",
+          "url": "https://en.wikipedia.org/wiki/2021_Maharashtra_floods"
+        }
+      ],
+      "notes": "209 is the Times of India figure as of 28 July 2021 (Wikipedia infobox). A 27 July statement by Nawab Malik said 251. Using the dated 28 July count. Infobox also lists 8 missing.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "₹4,000 crore / US$539 million (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2021 Maharashtra floods (Times of India 28 Jul 2021 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-petropolis-2022",
+      "name": "2022 Petrópolis floods",
+      "country": "Brazil",
+      "region": "Petrópolis, Rio de Janeiro",
+      "location_label": "Petrópolis, Rio de Janeiro, Brazil",
+      "lat": -22.505,
+      "lng": -43.17889,
+      "geo_accuracy": "approx",
+      "geo_source": "Petrópolis (Wikipedia coordinates)",
+      "flood_type": "flash",
+      "river_or_basin": "Quitandinha / Serra dos Órgãos slopes",
+      "river_or_facility": "Petrópolis hillside drainage",
+      "incident_date": "2022-02-15",
+      "latest_report_date": "2022-02-28",
+      "what_happened": "On 15 February 2022 Petrópolis received 258 mm of rain in three hours — more than the prior 30 days and the city's largest storm since records began in 1932 (Cemaden). Floods and mudslides destroyed hillside neighbourhoods. As of 28 February Wikipedia records 231 dead and 5 missing, exceeding the 1988 event (171 dead). Cemaden had issued a moderate landslide-risk alert two days earlier. Reconstruction costs exceeded R$1 billion.",
+      "status": "Historical. Three days of municipal mourning.",
+      "deaths": 231,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "258 mm in three hours on deforested, poorly drained hillsides already mapped as high risk.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2022 Petrópolis floods",
+          "url": "https://en.wikipedia.org/wiki/2022_Petr%C3%B3polis_floods"
+        },
+        {
+          "label": "Reuters: Death toll hits 176",
+          "url": "https://www.reuters.com/world/americas/death-toll-brazils-petropolis-mudslides-floods-hits-176-more-than-110-missing-2022-02-21/"
+        }
+      ],
+      "notes": "231 dead and 5 missing as of 28 February 2022 (Band Rio / The Rio Times, cited on Wikipedia). Rain 258 mm in three hours; 250 mm between 16:20 and 19:20.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "258 mm in three hours on 15 February (Cemaden / Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "More than R$1 billion reconstruction; R$665 million municipal GDP loss (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2022 Petrópolis floods (Band Rio 28 Feb 2022 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-sudan-2022",
+      "name": "2022 Sudan floods",
+      "country": "Sudan",
+      "region": "Gedaref / South Darfur / White Nile / 16 of 18 states",
+      "location_label": "Khartoum, Sudan",
+      "lat": 15.6,
+      "lng": 32.5,
+      "geo_accuracy": "approx",
+      "geo_source": "Khartoum (Wikipedia coordinates); Nile there passed the 16 m critical stage in August",
+      "flood_type": "riverine",
+      "river_or_basin": "Nile / Blue Nile",
+      "river_or_facility": "Nile",
+      "incident_date": "2022-05",
+      "latest_report_date": "2022-09-15",
+      "what_happened": "Sudan's 2022 rainy season from May flooded 16 of 18 states. The Nile at Khartoum reached 16.42 m on 23 August (critical 16 m; flood 16.5 m), described as a 70-year high. Africanews on 15 September 2022, cited on Wikipedia, reported 134 deaths and 16,900 homes destroyed. OCHA later put people affected above 314,500, exceeding 2021. IOM recorded 97,227 newly displaced by 20 October, many already IDPs. Worst-hit states included South Darfur, Gedaref, Central Darfur, White Nile and Kassala.",
+      "status": "Historical. Overlapped a post-coup political and economic crisis.",
+      "deaths": 134,
+      "injured": null,
+      "affected_or_evacuated": "314,500 affected; 97,227 newly displaced by 20 October (OCHA / IOM, cited on Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Above-average rainy-season rains and a 70-year Nile rise at Khartoum.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2022 Sudan floods",
+          "url": "https://en.wikipedia.org/wiki/2022_Sudan_floods"
+        },
+        {
+          "label": "Africanews: Sudan floods kill 134 people",
+          "url": "https://www.africanews.com/2022/09/15/sudan-floods-kill-134-people-destroy-16-900-homes/"
+        }
+      ],
+      "notes": "134 deaths and 16,900 homes destroyed are the Africanews 15 September 2022 figures cited on Wikipedia. Later OCHA round-ups raised the affected count but did not replace that death toll on the page.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2022 Sudan floods (Africanews 15 Sep 2022 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-slovenia-2023",
+      "name": "2023 Slovenia floods",
+      "country": "Slovenia",
+      "region": "Upper Carniola / Carinthia / Styria / Littoral",
+      "location_label": "Ljubljana, Slovenia",
+      "lat": 46.05139,
+      "lng": 14.50611,
+      "geo_accuracy": "approx",
+      "geo_source": "Ljubljana (Wikipedia coordinates); the Sava flooded in the capital on 4 August",
+      "flood_type": "riverine",
+      "river_or_basin": "Sava / Savinja / Sora / Gradaščica / Drava / Mur",
+      "river_or_facility": "Sava River",
+      "incident_date": "2023-08-03",
+      "latest_report_date": "2023-08-11",
+      "what_happened": "Storm Petar dropped 150–200 mm (275 mm in 48 hours at Loibl) on 3–4 August 2023 across the Julian Alps foothills. The Sava, Savinja, Sora and other rivers flooded Upper Carniola, Carinthia and Styria. Wikipedia records at least 7 deaths and at least €7 billion damage. Highways and rail lines closed; about 16,000 lost power. Neighbouring Austrian Carinthia and Croatian Drava/Mura reaches also flooded. ARSO issued a red warning.",
+      "status": "Historical. National Flood Protection and Rescue Plan and the army Vihra plan were activated.",
+      "deaths": 7,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stationary Mediterranean cyclone (Petar) after an already wet July.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2023 Slovenia floods",
+          "url": "https://en.wikipedia.org/wiki/2023_Slovenia_floods"
+        }
+      ],
+      "notes": "7 is Wikipedia's 'at least seven' (two elderly Slovenes drowned; two Dutch hikers killed, police said probably by lightning; others in a river, a cesspool, and Klagenfurt). Damage 'at least €7 billion'.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "150–200 mm widely; 275 mm in 48 hours at Loibl (ARSO, cited on Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "At least €7 billion (Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2023 Slovenia floods (ARSO / DW cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-vermont-2023",
+      "name": "Great Vermont Flood of July 2023",
+      "country": "United States",
+      "region": "Vermont / Hudson Valley / Northeastern United States",
+      "location_label": "Montpelier, Vermont, USA",
+      "lat": 44.25972,
+      "lng": -72.56472,
+      "geo_accuracy": "approx",
+      "geo_source": "Montpelier (Wikipedia coordinates); downtown was flooded and the city issued a travel ban",
+      "flood_type": "flash",
+      "river_or_basin": "Winooski / West River / Hudson",
+      "river_or_facility": "Winooski River",
+      "incident_date": "2023-07-10",
+      "latest_report_date": "2023-07-29",
+      "what_happened": "Slow-moving thunderstorms on already-saturated ground produced the event the National Weather Service in Burlington named the Great Vermont Flood of 10–11 July 2023. Downtown Montpelier flooded; I-89 closed. Calais recorded 9.20 inches. Wikipedia records 11 fatalities across several states and at least $2.2 billion damage. Two deaths were in Vermont (Barre and the Appalachian Trail near Stockbridge). Officials compared Vermont damage to worse than Irene. Further rounds hit the Northeast through 29 July, including a 15 July flash flood in Upper Makefield, Pennsylvania, that killed 7.",
+      "status": "Historical. President Biden declared a Vermont emergency.",
+      "deaths": 11,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stalled Atlantic moisture over soils already saturated from June rains.",
+      "sources": [
+        {
+          "label": "Wikipedia: July 2023 Northeastern United States floods",
+          "url": "https://en.wikipedia.org/wiki/2023_Vermont_floods"
+        }
+      ],
+      "notes": "11 is the Wikipedia infobox death toll for the multi-state July event. Two of those were in Vermont. Peak rain 10.49 in at Putnam Valley, NY; 9.20 in at Calais, VT.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "10.49 inches (266 mm) at Putnam Valley, NY; 9.20 inches at Calais, VT (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "At least $2.2 billion (2023 USD) (Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: July 2023 Northeastern United States floods (NWS Burlington naming cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-uae-2024",
+      "name": "2024 United Arab Emirates floods",
+      "country": "United Arab Emirates",
+      "region": "Dubai / Sharjah / Al Ain / northern emirates",
+      "location_label": "Dubai, United Arab Emirates",
+      "lat": 25.20472,
+      "lng": 55.27083,
+      "geo_accuracy": "approx",
+      "geo_source": "Dubai (Wikipedia coordinates); 164 mm fell at Dubai International Airport",
+      "flood_type": "flash",
+      "river_or_basin": "UAE coastal wadis / urban drainage",
+      "river_or_facility": "Dubai urban drainage / Al Ain wadis",
+      "incident_date": "2024-04-16",
+      "latest_report_date": "2024-09-10",
+      "what_happened": "On 16 April 2024 the UAE recorded its heaviest rain in 75 years of National Center of Meteorology records. Khatm Al Shakla in Al Ain measured 254.8 mm in less than 24 hours. All seven emirates flooded. Wikipedia records 5 deaths and Guy Carpenter insurance loss of US$2.9–3.4 billion (September 2024 update). Dubai International Airport cancelled 1,244 flights over two days. The event was part of the wider 2024 Persian Gulf floods. The government allocated AED 2 billion to repair homes.",
+      "status": "Historical.",
+      "deaths": 5,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "A Mediterranean trough combined with the Sudan low produced record 24-hour rain over the UAE.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2024 United Arab Emirates floods",
+          "url": "https://en.wikipedia.org/wiki/2024_United_Arab_Emirates_floods"
+        },
+        {
+          "label": "The Guardian: Dubai floods as heaviest rainfall in 75 years hits UAE",
+          "url": "https://www.theguardian.com/world/2024/apr/17/desert-city-of-dubai-floods-as-heaviest-rainfall-in-75-years-hits-uae"
+        }
+      ],
+      "notes": "5 deaths and US$2.9–3.4 billion insurance loss (Guy Carpenter, 10 Sep 2024) are the Wikipedia infobox figures. Peak 254.8 mm at Khatm Al Shakla, Al Ain.",
+      "era": "historical",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "254.8 mm in <24 h at Khatm Al Shakla, Al Ain; 164 mm at Dubai Airport (NCM / Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "US$2.9–3.4 billion insurance loss (Guy Carpenter, cited on Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2024 United Arab Emirates floods (Guardian / Guy Carpenter cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-mozambique-2026",
+      "name": "2025–26 Mozambique floods",
+      "country": "Mozambique",
+      "region": "Southern Mozambique (Gaza / Maputo / Limpopo and Incomati)",
+      "location_label": "Xai-Xai, Gaza, Mozambique",
+      "lat": -25.05,
+      "lng": 33.65,
+      "geo_accuracy": "approx",
+      "geo_source": "Xai-Xai (Wikipedia coordinates); Wikipedia lists it among the hardest-hit cities and later reports said the city was cut off",
+      "flood_type": "riverine",
+      "river_or_basin": "Limpopo / Incomati",
+      "river_or_facility": "Limpopo River",
+      "incident_date": "2025-12",
+      "latest_report_date": "2026-06-30",
+      "what_happened": "Weeks of rain from mid-December 2025 overflowed the Limpopo and Incomati and flooded southern and central Mozambique. Wikipedia's infobox gives 146 deaths as of 30 January 2026 and 30,000 homes damaged or destroyed. INGD said 600,000–800,000 people were affected by 27 January. The government declared a nationwide Red Alert on 16 January 2026. OCHA's 30 June 2026 dashboard said more than 724,000 people had been affected and that more than 516,000 had received some assistance. Compared locally to the 1997 floods and called the worst in a generation.",
+      "status": "Ongoing recovery as of mid-2026. HNRP Flood Addendum sought US$187 million.",
+      "deaths": 146,
+      "injured": null,
+      "affected_or_evacuated": "INGD 600,000–800,000 by 27 Jan; OCHA 724,000+ by 30 June 2026",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Prolonged December–January rains over the Limpopo and Incomati; reservoirs overwhelmed.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2025–26 Mozambique floods",
+          "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Mozambique_floods"
+        },
+        {
+          "label": "OCHA: Mozambique 2026 Flood Humanitarian Response as of 30 June 2026",
+          "url": "https://www.unocha.org/publications/report/mozambique/mozambique-2026-flood-humanitarian-response-30-june-2026-enpt"
+        }
+      ],
+      "notes": "146 is the Wikipedia infobox figure as of 30 January 2026. Later OCHA products update the affected count (724,000) but do not publish a replacement death toll on that page. Using the dated Wikipedia figure.",
+      "era": "2026",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2025–26 Mozambique floods (INGD / OCHA June 2026 cited there)."
+        }
+      ]
+    },
+    {
+      "id": "flood-malawi-2026",
+      "name": "2026 Malawi floods",
+      "country": "Malawi",
+      "region": "Southern Region / Shire basin (Chikwawa) and 29 councils",
+      "location_label": "Chikwawa, Malawi",
+      "lat": -16.035,
+      "lng": 34.801,
+      "geo_accuracy": "approx",
+      "geo_source": "Chikwawa (Wikipedia coordinates); Wikipedia says the Shire basin there was particularly affected",
+      "flood_type": "riverine",
+      "river_or_basin": "Shire",
+      "river_or_facility": "Shire River",
+      "incident_date": "2026-01",
+      "latest_report_date": "2026-01-22",
+      "what_happened": "Early-2026 rains flooded much of Malawi. DoDMA, in a statement signed by Commissioner Wilson Moleni and cited on Wikipedia, reported 40 deaths and 36,283 households affected in 29 councils (about 160,000 people). Chikwawa District on the Shire was particularly hard hit. The Malawi Red Cross assisted 20,000 people in Nkhotakota. The EU announced emergency aid. Wikipedia's infobox lists 40+ deaths.",
+      "status": "Seasonal emergency / recovery as of early 2026.",
+      "deaths": 40,
+      "injured": null,
+      "affected_or_evacuated": "36,283 households / about 160,000 people (DoDMA, cited on Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Seasonal heavy rain over the Shire and other basins.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2026 Malawi floods",
+          "url": "https://en.wikipedia.org/wiki/2026_Malawi_floods"
+        }
+      ],
+      "notes": "40 is the DoDMA figure as of 22 January 2026 (Malawi Voice / Nyasa Times, cited on Wikipedia). Infobox says 40+.",
+      "era": "2026",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added from Wikipedia: 2026 Malawi floods (DoDMA 22 Jan 2026 cited there)."
+        }
+      ]
     }
   ]
 }
