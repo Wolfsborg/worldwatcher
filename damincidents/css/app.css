@@ -64,8 +64,7 @@ html, body {
   border: 0;
 }
 
-#map,
-#map.leaflet-container {
+#map {
   position: fixed !important;
   inset: 0 !important;
   top: 0 !important;
@@ -78,6 +77,37 @@ html, body {
   margin: 0 !important;
   background: var(--bg);
   z-index: 0;
+}
+
+.cesium-viewer {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.cesium-viewer-bottom {
+  display: none !important;
+}
+
+.cesium-credit-textContainer {
+  background: rgba(18, 21, 26, 0.82) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--muted) !important;
+  font-size: 10px !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+}
+
+.cesium-credit-textContainer a {
+  color: var(--accent) !important;
+}
+
+.cesium-widget-credits {
+  display: block !important;
+}
+
+canvas.cesium-canvas {
+  outline: none !important;
 }
 
 .panel {
@@ -763,64 +793,6 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
   box-shadow: 0 -6px 0 var(--accent), 0 6px 0 var(--accent);
 }
 
-.leaflet-container { background: var(--bg); font-family: var(--sans); }
-.leaflet-popup-content-wrapper {
-  background: var(--panel-solid);
-  color: var(--text);
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-}
-.leaflet-popup-tip { background: var(--panel-solid); }
-.leaflet-popup-content { margin: 10px 12px; font-size: 13px; }
-.leaflet-popup-content strong { font-weight: 500; }
-.leaflet-control-attribution {
-  background: rgba(11, 13, 16, 0.72) !important;
-  color: var(--muted);
-  font-size: 12px;
-}
-.leaflet-control-attribution a { color: var(--accent); }
-.leaflet-bar a {
-  background: var(--panel-solid);
-  color: var(--text);
-  border-bottom-color: var(--line);
-}
-.leaflet-bar a:hover { background: #1a1e25; }
-
-.site-marker {
-  border-radius: 50%;
-  border: 1.5px solid rgba(243, 239, 230, 0.85);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
-}
-.marker-cluster-small,
-.marker-cluster-medium,
-.marker-cluster-large {
-  background: rgba(243, 239, 230, 0.16);
-}
-.marker-cluster-small div,
-.marker-cluster-medium div,
-.marker-cluster-large div {
-  background: rgba(18, 21, 26, 0.92);
-  color: var(--text);
-  font-family: var(--sans);
-  font-weight: 500;
-}
-
-.pin-name {
-  background: rgba(11, 13, 16, 0.85) !important;
-  border: 1px solid rgba(243, 239, 230, 0.22) !important;
-  color: #f3efe6 !important;
-  font-size: 11px !important;
-  font-weight: 500 !important;
-  padding: 3px 8px !important;
-  border-radius: 4px !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
-  white-space: nowrap !important;
-  pointer-events: none !important;
-  letter-spacing: 0.01em;
-}
-.pin-name::before {
-  display: none !important;
-}
 
 @media (max-width: 980px) {
   .sidebar {
@@ -1078,8 +1050,12 @@ input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 .maintain-form { display: flex; flex-direction: column; gap: var(--section-gap); }
 .maintain-row { gap: var(--gap); }
-.leaflet-control-attribution { max-width: 46vw; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.leaflet-bottom.leaflet-right { margin-bottom: 4px; }
+.cesium-credit-textContainer {
+  max-width: 46vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
 .detail-tabs {
   display: flex;
@@ -1179,8 +1155,7 @@ input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; marg
 }
 .basemap-toggle button,
 .labels-toggle button,
-.map-controls .leaflet-control-zoom a,
-.map-controls .leaflet-bar a {
+.zoom-controls button {
   appearance: none;
   display: inline-flex;
   align-items: center;
@@ -1209,15 +1184,18 @@ input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; marg
   color: var(--bg) !important;
   background: var(--accent) !important;
 }
-.map-controls .leaflet-control-zoom,
-.map-controls .leaflet-bar {
+.zoom-controls {
   display: flex !important;
   flex-direction: row !important;
   overflow: hidden;
 }
-.map-controls .leaflet-control-zoom a + a,
-.map-controls .leaflet-bar a + a {
-  border-top: 0 !important;
+.zoom-controls button {
+  font-size: 16px !important;
+  font-weight: 600;
+  padding: 6px 12px;
+}
+.zoom-controls button:hover {
+  background: rgba(243, 239, 230, 0.1) !important;
 }
 
 .incident-list,
