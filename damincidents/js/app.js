@@ -108,7 +108,6 @@
     statDeaths: document.getElementById("stat-deaths"),
     home: document.getElementById("home"),
     layerTabs: document.querySelector(".layer-tabs"),
-    subtitle: document.getElementById("layer-subtitle"),
     categoryBlock: document.getElementById("category-block"),
     causeBlock: document.getElementById("cause-block"),
     statCountLabel: document.getElementById("stat-count-label"),
@@ -1336,15 +1335,6 @@
   function updateLayerChrome() {
     const s = spec();
     document.title = "worldwatcher.app · " + s.title;
-    if (els.subtitle) {
-      if (layer === "floods" && s.subtitle) {
-        els.subtitle.textContent = s.subtitle;
-        els.subtitle.hidden = false;
-      } else {
-        els.subtitle.textContent = "";
-        els.subtitle.hidden = true;
-      }
-    }
     if (els.statCountLabel) els.statCountLabel.textContent = s.statLabel;
     if (els.recentHeading) els.recentHeading.textContent = s.recentLabel;
     if (els.categoryBlock) els.categoryBlock.hidden = !s.showCategory;
