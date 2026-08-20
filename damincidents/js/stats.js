@@ -189,8 +189,7 @@
     return String(y);
   }
 
-  function computeStats(data, layer) {
-    const incidents = data.incidents || data.events || [];
+  function computeStats(incidents, layer) {
     const totalIncidents = incidents.length;
     
     const countries = new Set();
@@ -444,8 +443,8 @@
     `;
   }
 
-  function renderStats(data, layer) {
-    const stats = computeStats(data, layer);
+  function renderStats(incidents, layer) {
+    const stats = computeStats(incidents, layer);
     
     const html = `
       <div class="stats-grid">
