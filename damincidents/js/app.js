@@ -131,6 +131,9 @@
   const markersById = new Map();
   const fallbackMarkersById = new Map();
   let pinNamesEnabled = localStorage.getItem("ww-pin-names") !== "off";
+  let globeEnabled = localStorage.getItem("ww-globe") === "on";
+  let globeMap = null;
+  let globeLibLoaded = false;
 
 
   function spec() { return LAYERS[layer] || LAYERS.dams; }
@@ -904,6 +907,9 @@
     updateStats(rows);
     renderList(rows);
     rebuildMarkers(rows);
+    if (globeEnabled && globeMap) {
+      updateGlobeData();
+    }
     if (selectedId && !rows.some((r) => r.id === selectedId)) {
       closeDetail();
     } else if (selectedId) {
@@ -1139,7 +1145,25 @@
     goToLanding = landingView;
     map.whenReady(landingView);
     window.addEventListener("resize", landingView);
-    const zoom = L.control.zoom({ position: "bottomright" }).addTo(map);
+    const zoom = L.control.zoom({ position: "bottomright" });
+    
+    const origZoomIn = zoom.options.zoomInText;
+    const origZoomOut = zoom.options.zoomOutText;
+    zoom._zoomIn = function () {
+      if (globeEnabled && globeMap) {
+        globeMap.zoomIn();
+      } else {
+        map.zoomIn(map.options.zoomDelta);
+      }
+    };
+    zoom._zoomOut = function () {
+      if (globeEnabled && globeMap) {
+        globeMap.zoomOut();
+      } else {
+        map.zoomOut(map.options.zoomDelta);
+      }
+    };
+    zoom.addTo(map);
     const dark = L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: "abcd",
@@ -1186,6 +1210,7 @@
         b.setAttribute("aria-pressed", on ? "true" : "false");
       });
       syncBase();
+      syncGlobeBaseMode(mode);
     }
     const BaseToggle = L.Control.extend({
       options: { position: "bottomright" },
@@ -1228,16 +1253,38 @@
           b.classList.toggle("is-active", pinNamesEnabled);
           b.setAttribute("aria-pressed", pinNamesEnabled ? "true" : "false");
           updateNameLabels();
+          syncGlobeLabels();
         });
         return el;
       }
     });
     const labelsBox = new LabelsToggle().addTo(map).getContainer();
     
+    const GlobeToggle = L.Control.extend({
+      options: { position: "bottomright" },
+      onAdd: function () {
+        const el = L.DomUtil.create("div", "globe-toggle");
+        el.setAttribute("role", "group");
+        el.setAttribute("aria-label", "Globe view");
+        const b = L.DomUtil.create("button", globeEnabled ? "is-active" : "", el);
+        b.type = "button";
+        b.id = "globe-toggle-btn";
+        b.textContent = "Globe";
+        b.setAttribute("aria-pressed", globeEnabled ? "true" : "false");
+        L.DomEvent.disableClickPropagation(el);
+        L.DomEvent.on(el, "click", function () {
+          toggleGlobe();
+        });
+        return el;
+      }
+    });
+    const globeBox = new GlobeToggle().addTo(map).getContainer();
+    
     const wrap = document.createElement("div");
     wrap.className = "map-controls";
     wrap.appendChild(box);
     wrap.appendChild(labelsBox);
+    wrap.appendChild(globeBox);
     wrap.appendChild(zoom.getContainer());
     document.body.appendChild(wrap);
     map.on("zoomend", syncBase);
@@ -1337,6 +1384,350 @@
     loadLayer(name);
   }
 
+  function loadMapLibreLib(callback) {
+    if (globeLibLoaded) {
+      callback();
+      return;
+    }
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.css";
+    document.head.appendChild(link);
+    const script = document.createElement("script");
+    script.src = "https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.js";
+    script.onload = function () {
+      globeLibLoaded = true;
+      callback();
+    };
+    document.head.appendChild(script);
+  }
+
+  function initGlobe() {
+    if (globeMap) return;
+    const container = document.getElementById("globe");
+    if (!container) return;
+    
+    let baseMode = "auto";
+    let lastAerialState = null;
+    
+    const style = {
+      version: 8,
+      projection: { type: "globe" },
+      glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
+      sources: {
+        "carto-dark": {
+          type: "raster",
+          tiles: ["https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+                  "https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+                  "https://c.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+                  "https://d.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"],
+          tileSize: 256,
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        },
+        "esri-aerial": {
+          type: "raster",
+          tiles: ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"],
+          tileSize: 256,
+          attribution: "Tiles &copy; Esri"
+        },
+        "esri-labels": {
+          type: "raster",
+          tiles: ["https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"],
+          tileSize: 256,
+          attribution: "Labels &copy; Esri"
+        }
+      },
+      layers: [
+        {
+          id: "carto-dark-layer",
+          type: "raster",
+          source: "carto-dark",
+          minzoom: 0,
+          maxzoom: 22
+        },
+        {
+          id: "esri-aerial-layer",
+          type: "raster",
+          source: "esri-aerial",
+          minzoom: 0,
+          maxzoom: 22,
+          layout: { visibility: "none" }
+        },
+        {
+          id: "esri-labels-layer",
+          type: "raster",
+          source: "esri-labels",
+          minzoom: 0,
+          maxzoom: 22,
+          layout: { visibility: "none" }
+        }
+      ]
+    };
+    
+    globeMap = new maplibregl.Map({
+      container: "globe",
+      style: style,
+      center: [12, 20],
+      zoom: 1.5,
+      projection: "globe",
+      attributionControl: true
+    });
+    
+    globeMap.on("load", function () {
+      globeMap.setProjection({ type: "globe" });
+      
+      const canvas = document.createElement("canvas");
+      canvas.width = 32;
+      canvas.height = 32;
+      const ctx = canvas.getContext("2d");
+      ctx.fillStyle = "#ffffff";
+      ctx.strokeStyle = "rgba(243, 239, 230, 0.85)";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.arc(16, 16, 13, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+      
+      globeMap.addImage("pin-dot", canvas, { sdf: true });
+      
+      globeMap.addSource("incidents", {
+        type: "geojson",
+        data: { type: "FeatureCollection", features: [] },
+        cluster: false
+      });
+      
+      globeMap.addLayer({
+        id: "incident-circles",
+        type: "symbol",
+        source: "incidents",
+        minzoom: 0,
+        maxzoom: 24,
+        layout: {
+          "icon-image": "pin-dot",
+          "icon-size": 0.45,
+          "icon-allow-overlap": true,
+          "icon-ignore-placement": true,
+          "icon-pitch-alignment": "viewport",
+          "icon-rotation-alignment": "viewport"
+        },
+        paint: {
+          "icon-color": ["get", "color"],
+          "icon-opacity": ["get", "opacity"]
+        }
+      });
+      
+      globeMap.addLayer({
+        id: "incident-labels",
+        type: "symbol",
+        source: "incidents",
+        filter: ["!", ["has", "point_count"]],
+        layout: {
+          "text-field": ["get", "name"],
+          "text-font": ["Open Sans Regular"],
+          "text-size": 11,
+          "text-offset": [0, -1.2],
+          "text-anchor": "top",
+          visibility: pinNamesEnabled && globeMap.getZoom() >= 10 ? "visible" : "none"
+        },
+        paint: {
+          "text-color": "#f3efe6",
+          "text-halo-color": "rgba(11, 13, 16, 0.85)",
+          "text-halo-width": 1.5
+        }
+      });
+      
+      globeMap.on("click", "incident-circles", function (e) {
+        if (e.features && e.features[0]) {
+          const id = e.features[0].properties.id;
+          selectIncident(id, { fromMap: true });
+        }
+      });
+      
+      globeMap.on("mouseenter", "incident-circles", function () {
+        globeMap.getCanvas().style.cursor = "pointer";
+      });
+      
+      globeMap.on("mouseleave", "incident-circles", function () {
+        globeMap.getCanvas().style.cursor = "";
+      });
+      
+      globeMap.on("zoomend", function () {
+        const zoom = globeMap.getZoom();
+        const showLabels = zoom >= 10 && pinNamesEnabled;
+        globeMap.setLayoutProperty("incident-labels", "visibility", showLabels ? "visible" : "none");
+        
+        if (baseMode === "auto") {
+          const aerialOn = zoom >= 8;
+          if (lastAerialState !== aerialOn) {
+            globeMap.setLayoutProperty("carto-dark-layer", "visibility", aerialOn ? "none" : "visible");
+            globeMap.setLayoutProperty("esri-aerial-layer", "visibility", aerialOn ? "visible" : "none");
+            globeMap.setLayoutProperty("esri-labels-layer", "visibility", aerialOn ? "visible" : "none");
+            
+            if (globeMap.getLayer("incident-circles")) {
+              globeMap.moveLayer("incident-circles");
+            }
+            if (globeMap.getLayer("incident-labels")) {
+              globeMap.moveLayer("incident-labels");
+            }
+            
+            lastAerialState = aerialOn;
+          }
+        }
+      });
+      
+      const proj = globeMap.getProjection();
+      if (proj.type !== "globe") {
+        console.warn("MapLibre projection is not globe:", proj);
+      } else {
+        console.log("MapLibre globe projection confirmed");
+      }
+      
+      const zoom = globeMap.getZoom();
+      lastAerialState = baseMode === "auto" ? zoom >= 8 : (baseMode === "aerial");
+      
+      if (globeMap.getLayer("incident-circles")) {
+        globeMap.moveLayer("incident-circles");
+      }
+      if (globeMap.getLayer("incident-labels")) {
+        globeMap.moveLayer("incident-labels");
+      }
+      
+      updateGlobeData();
+    });
+    
+    globeMap.setBaseMode = function (mode) {
+      baseMode = mode;
+      const zoom = globeMap.getZoom();
+      if (mode === "aerial") {
+        globeMap.setLayoutProperty("carto-dark-layer", "visibility", "none");
+        globeMap.setLayoutProperty("esri-aerial-layer", "visibility", "visible");
+        globeMap.setLayoutProperty("esri-labels-layer", "visibility", "visible");
+        lastAerialState = true;
+      } else if (mode === "map") {
+        globeMap.setLayoutProperty("carto-dark-layer", "visibility", "visible");
+        globeMap.setLayoutProperty("esri-aerial-layer", "visibility", "none");
+        globeMap.setLayoutProperty("esri-labels-layer", "visibility", "none");
+        lastAerialState = false;
+      } else {
+        const aerialOn = zoom >= 8;
+        globeMap.setLayoutProperty("carto-dark-layer", "visibility", aerialOn ? "none" : "visible");
+        globeMap.setLayoutProperty("esri-aerial-layer", "visibility", aerialOn ? "visible" : "none");
+        globeMap.setLayoutProperty("esri-labels-layer", "visibility", aerialOn ? "visible" : "none");
+        lastAerialState = aerialOn;
+      }
+      
+      if (globeMap.getLayer("incident-circles")) {
+        globeMap.moveLayer("incident-circles");
+      }
+      if (globeMap.getLayer("incident-labels")) {
+        globeMap.moveLayer("incident-labels");
+      }
+    };
+  }
+
+  function updateGlobeData() {
+    if (!globeMap) return;
+    const rows = filtered();
+    const features = rows.filter((inc) => {
+      return typeof inc.lat === "number" && typeof inc.lng === "number";
+    }).map((inc) => {
+      const r = markerRadius(inc.deaths);
+      const color = markerColor(inc);
+      const uncertain = locationUncertain(inc);
+      return {
+        type: "Feature",
+        geometry: {
+          type: "Point",
+          coordinates: [inc.lng, inc.lat]
+        },
+        properties: {
+          id: inc.id,
+          name: inc.name,
+          color: color,
+          radius: Math.min(10, r),
+          opacity: uncertain ? 0.55 : 0.88,
+          deaths: inc.deaths || 0
+        }
+      };
+    });
+    const geojson = {
+      type: "FeatureCollection",
+      features: features
+    };
+    const source = globeMap.getSource("incidents");
+    if (source) {
+      source.setData(geojson);
+      console.log("Globe updated with " + features.length + " incident pins");
+    } else {
+      console.warn("Globe source not ready, data will be set on load");
+    }
+  }
+
+  function toggleGlobe() {
+    globeEnabled = !globeEnabled;
+    localStorage.setItem("ww-globe", globeEnabled ? "on" : "off");
+    
+    const btn = document.getElementById("globe-toggle-btn");
+    if (btn) {
+      btn.classList.toggle("is-active", globeEnabled);
+      btn.setAttribute("aria-pressed", globeEnabled ? "true" : "false");
+    }
+    
+    if (globeEnabled) {
+      if (!globeLibLoaded) {
+        loadMapLibreLib(function () {
+          initGlobe();
+          showGlobeView();
+        });
+      } else {
+        if (!globeMap) initGlobe();
+        showGlobeView();
+      }
+    } else {
+      showLeafletView();
+    }
+  }
+
+  function showGlobeView() {
+    const mapEl = document.getElementById("map");
+    const globeEl = document.getElementById("globe");
+    if (mapEl) mapEl.style.display = "none";
+    if (globeEl) globeEl.style.display = "block";
+    if (globeMap) {
+      globeMap.resize();
+      updateGlobeData();
+      if (selectedId) {
+        const inc = all.find((r) => r.id === selectedId);
+        if (inc && typeof inc.lat === "number" && typeof inc.lng === "number") {
+          globeMap.flyTo({ center: [inc.lng, inc.lat], zoom: 13 });
+        }
+      } else {
+        globeMap.flyTo({ center: [12, 20], zoom: 1.5 });
+      }
+    }
+  }
+
+  function showLeafletView() {
+    const mapEl = document.getElementById("map");
+    const globeEl = document.getElementById("globe");
+    if (globeEl) globeEl.style.display = "none";
+    if (mapEl) mapEl.style.display = "block";
+    if (map) map.invalidateSize();
+  }
+
+  function syncGlobeBaseMode(mode) {
+    if (globeMap && globeMap.setBaseMode) {
+      globeMap.setBaseMode(mode);
+    }
+  }
+
+  function syncGlobeLabels() {
+    if (!globeMap || !globeMap.getLayer("incident-labels")) return;
+    const zoom = globeMap.getZoom();
+    const showLabels = zoom >= 10 && pinNamesEnabled;
+    globeMap.setLayoutProperty("incident-labels", "visibility", showLabels ? "visible" : "none");
+  }
+
   function watchFace() {
     const mark = document.querySelector(".brand-mark");
     if (!mark || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -1370,4 +1761,11 @@
   bind();
   watchFace();
   loadLayer(layer, { id: hashId() });
+  
+  if (globeEnabled) {
+    loadMapLibreLib(function () {
+      initGlobe();
+      showGlobeView();
+    });
+  }
 })();
