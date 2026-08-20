@@ -65,7 +65,8 @@ html, body {
 }
 
 #map,
-#map.leaflet-container {
+#map.leaflet-container,
+#globe {
   position: fixed !important;
   inset: 0 !important;
   top: 0 !important;
@@ -78,6 +79,11 @@ html, body {
   margin: 0 !important;
   background: var(--bg);
   z-index: 0;
+}
+
+#globe canvas {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .panel {
@@ -1177,8 +1183,19 @@ input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; marg
   background: transparent;
   box-shadow: none;
 }
+.globe-toggle {
+  display: flex;
+  flex-direction: row;
+  margin: 0 !important;
+  overflow: hidden;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
 .basemap-toggle button,
 .labels-toggle button,
+.globe-toggle button,
 .map-controls .leaflet-control-zoom a,
 .map-controls .leaflet-bar a {
   appearance: none;
@@ -1205,7 +1222,8 @@ input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; marg
   border-left: 0 !important;
 }
 .basemap-toggle button.is-active,
-.labels-toggle button.is-active {
+.labels-toggle button.is-active,
+.globe-toggle button.is-active {
   color: var(--bg) !important;
   background: var(--accent) !important;
 }

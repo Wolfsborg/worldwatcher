@@ -132,6 +132,13 @@
   const fallbackMarkersById = new Map();
   let pinNamesEnabled = localStorage.getItem("ww-pin-names") !== "off";
 
+  let globeEnabled = localStorage.getItem("ww-globe") === "on";
+  let cesiumViewer = null;
+  let cesiumLoaded = false;
+  let cesiumEntities = [];
+  let globeDataSource = null;
+  let leafletSyncBase = null;
+
 
   function spec() { return LAYERS[layer] || LAYERS.dams; }
 
@@ -539,6 +546,10 @@
   }
   
   function updateNameLabelsNow() {
+    if (globeEnabled && cesiumViewer) {
+      updateGlobeLabels();
+      return;
+    }
     if (!map) return;
     const zoom = map.getZoom();
     const showLabels = zoom >= 10 && pinNamesEnabled;
@@ -857,6 +868,13 @@
   }
 
   function focusSelectedIncident(inc) {
+    if (globeEnabled && cesiumViewer) {
+      cesiumViewer.camera.flyTo({
+        destination: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat, 500000),
+        duration: 1.5,
+      });
+      return;
+    }
     map.invalidateSize();
     map.setView([inc.lat, inc.lng], 13, { animate: false });
     const size = map.getSize();
@@ -903,7 +921,11 @@
     const rows = filtered();
     updateStats(rows);
     renderList(rows);
-    rebuildMarkers(rows);
+    if (globeEnabled && cesiumViewer) {
+      rebuildGlobeMarkers(rows);
+    } else {
+      rebuildMarkers(rows);
+    }
     if (selectedId && !rows.some((r) => r.id === selectedId)) {
       closeDetail();
     } else if (selectedId) {
@@ -1154,7 +1176,6 @@
       maxZoom: 19,
     });
     dark.addTo(map);
-    let baseMode = "auto";
     let lastAerialState = false;
     function wantAerial() {
       if (baseMode === "aerial") return true;
@@ -1178,15 +1199,7 @@
       }
       lastAerialState = aerialOn;
     }
-    function setBaseMode(mode) {
-      baseMode = mode;
-      box.querySelectorAll("button").forEach((b) => {
-        const on = b.dataset.base === mode;
-        b.classList.toggle("is-active", on);
-        b.setAttribute("aria-pressed", on ? "true" : "false");
-      });
-      syncBase();
-    }
+    leafletSyncBase = syncBase;
     const BaseToggle = L.Control.extend({
       options: { position: "bottomright" },
       onAdd: function () {
@@ -1209,7 +1222,6 @@
       }
     });
     const box = new BaseToggle().addTo(map).getContainer();
-    
     const LabelsToggle = L.Control.extend({
       options: { position: "bottomright" },
       onAdd: function () {
@@ -1234,10 +1246,31 @@
     });
     const labelsBox = new LabelsToggle().addTo(map).getContainer();
     
+    const GlobeToggle = L.Control.extend({
+      options: { position: "bottomright" },
+      onAdd: function () {
+        const el = L.DomUtil.create("div", "globe-toggle");
+        el.setAttribute("role", "group");
+        el.setAttribute("aria-label", "Globe view");
+        const b = L.DomUtil.create("button", globeEnabled ? "is-active" : "", el);
+        b.type = "button";
+        b.id = "globe-toggle-btn";
+        b.textContent = "Globe";
+        b.setAttribute("aria-pressed", globeEnabled ? "true" : "false");
+        L.DomEvent.disableClickPropagation(el);
+        L.DomEvent.on(el, "click", function () {
+          toggleGlobe();
+        });
+        return el;
+      }
+    });
+    const globeBox = new GlobeToggle().addTo(map).getContainer();
+    
     const wrap = document.createElement("div");
     wrap.className = "map-controls";
     wrap.appendChild(box);
     wrap.appendChild(labelsBox);
+    wrap.appendChild(globeBox);
     wrap.appendChild(zoom.getContainer());
     document.body.appendChild(wrap);
     map.on("zoomend", syncBase);
@@ -1263,6 +1296,240 @@
     const resize = () => { map.invalidateSize(); landingView(); };
     window.addEventListener("resize", resize);
     setTimeout(resize, 80);
+  }
+
+  function loadCesium(callback) {
+    if (cesiumLoaded) {
+      callback();
+      return;
+    }
+    window.CESIUM_BASE_URL = "https://unpkg.com/cesium@1.133.1/Build/Cesium/";
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = window.CESIUM_BASE_URL + "Widgets/widgets.css";
+    document.head.appendChild(link);
+    const script = document.createElement("script");
+    script.src = window.CESIUM_BASE_URL + "Cesium.js";
+    script.onload = function () {
+      cesiumLoaded = true;
+      callback();
+    };
+    script.onerror = function () {
+      console.error("Failed to load Cesium");
+    };
+    document.head.appendChild(script);
+  }
+
+  function initGlobe() {
+    if (cesiumViewer) return;
+    const container = document.getElementById("globe");
+    cesiumViewer = new Cesium.Viewer(container, {
+      baseLayerPicker: false,
+      geocoder: false,
+      homeButton: false,
+      sceneModePicker: false,
+      selectionIndicator: false,
+      infoBox: false,
+      navigationHelpButton: false,
+      timeline: false,
+      animation: false,
+      fullscreenButton: false,
+      creditContainer: document.createElement("div"),
+    });
+    cesiumViewer.scene.globe.enableLighting = false;
+    cesiumViewer.scene.backgroundColor = Cesium.Color.fromCssColorString("#0b0d10");
+    cesiumViewer.scene.skyBox = undefined;
+    cesiumViewer.scene.sun = undefined;
+    cesiumViewer.scene.moon = undefined;
+    
+    cesiumViewer.imageryLayers.removeAll();
+    cesiumViewer.imageryLayers.addImageryProvider(
+      new Cesium.UrlTemplateImageryProvider({
+        url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+        subdomains: ["a", "b", "c", "d"],
+      })
+    );
+    
+    globeDataSource = new Cesium.CustomDataSource("dams");
+    cesiumViewer.dataSources.add(globeDataSource);
+    cesiumViewer.scene.camera.moveEnd.addEventListener(updateGlobeLabels);
+    const handler = new Cesium.ScreenSpaceEventHandler(cesiumViewer.scene.canvas);
+    handler.setInputAction(function (movement) {
+      const picked = cesiumViewer.scene.pick(movement.position);
+      if (picked && picked.id && picked.id._incidentId) {
+        selectIncident(picked.id._incidentId, { fromMap: true });
+      }
+    }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
+  }
+
+  function syncGlobeBase() {
+    if (!cesiumViewer) return;
+    const height = cesiumViewer.camera.positionCartographic.height;
+    const wantAerial = baseMode === "aerial" || (baseMode === "auto" && height < 2e6);
+    const layers = cesiumViewer.imageryLayers;
+    layers.removeAll();
+    if (wantAerial) {
+      layers.addImageryProvider(
+        new Cesium.UrlTemplateImageryProvider({
+          url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        })
+      );
+      layers.addImageryProvider(
+        new Cesium.UrlTemplateImageryProvider({
+          url: "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
+        })
+      );
+    } else {
+      layers.addImageryProvider(
+        new Cesium.UrlTemplateImageryProvider({
+          url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+          subdomains: ["a", "b", "c", "d"],
+        })
+      );
+    }
+  }
+
+  let baseMode = "auto";
+
+  function setBaseMode(mode) {
+    baseMode = mode;
+    const box = document.querySelector(".basemap-toggle");
+    if (box) {
+      box.querySelectorAll("button").forEach((b) => {
+        const on = b.dataset.base === mode;
+        b.classList.toggle("is-active", on);
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+    }
+    if (globeEnabled && cesiumViewer) {
+      syncGlobeBase();
+    } else if (leafletSyncBase) {
+      leafletSyncBase();
+    }
+  }
+
+  function rebuildGlobeMarkers(rows) {
+    if (!cesiumViewer || !globeDataSource) return;
+    globeDataSource.entities.removeAll();
+    cesiumEntities = [];
+    rows.forEach((inc) => {
+      if (typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
+      const r = markerRadius(inc.deaths);
+      const color = markerColor(inc);
+      const uncertain = locationUncertain(inc);
+      const entity = globeDataSource.entities.add({
+        position: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat, 0),
+        point: {
+          pixelSize: r * 2,
+          color: Cesium.Color.fromCssColorString(color).withAlpha(uncertain ? 0.55 : 0.88),
+          outlineColor: Cesium.Color.fromCssColorString("#f3efe6").withAlpha(0.85),
+          outlineWidth: 1.5,
+          disableDepthTestDistance: Number.POSITIVE_INFINITY,
+        },
+      });
+      entity._incidentId = inc.id;
+      entity._incidentName = inc.name;
+      entity._incidentLat = inc.lat;
+      entity._incidentLng = inc.lng;
+      cesiumEntities.push(entity);
+    });
+    updateGlobeLabels();
+  }
+
+  function updateGlobeLabels() {
+    if (!cesiumViewer || !pinNamesEnabled) {
+      cesiumEntities.forEach((entity) => {
+        if (entity.label) entity.label = undefined;
+      });
+      return;
+    }
+    const camera = cesiumViewer.camera;
+    const height = camera.positionCartographic.height;
+    const showLabels = height < 2e6;
+    if (!showLabels) {
+      cesiumEntities.forEach((entity) => {
+        if (entity.label) entity.label = undefined;
+      });
+      return;
+    }
+    const viewRect = camera.computeViewRectangle();
+    if (!viewRect) return;
+    cesiumEntities.forEach((entity) => {
+      if (!entity._incidentName) return;
+      const lng = entity._incidentLng;
+      const lat = entity._incidentLat;
+      const inView = lng >= viewRect.west && lng <= viewRect.east && lat >= viewRect.south && lat <= viewRect.north;
+      if (inView && !entity.label) {
+        entity.label = new Cesium.LabelGraphics({
+          text: entity._incidentName,
+          font: "11px sans-serif",
+          fillColor: Cesium.Color.fromCssColorString("#f3efe6"),
+          backgroundColor: Cesium.Color.fromCssColorString("rgba(11, 13, 16, 0.85)"),
+          backgroundPadding: new Cesium.Cartesian2(8, 3),
+          style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+          outlineColor: Cesium.Color.fromCssColorString("rgba(243, 239, 230, 0.22)"),
+          outlineWidth: 1,
+          pixelOffset: new Cesium.Cartesian2(0, -20),
+          disableDepthTestDistance: Number.POSITIVE_INFINITY,
+          showBackground: true,
+        });
+      } else if (!inView && entity.label) {
+        entity.label = undefined;
+      }
+    });
+  }
+
+  function toggleGlobe() {
+    globeEnabled = !globeEnabled;
+    localStorage.setItem("ww-globe", globeEnabled ? "on" : "off");
+    const btn = document.getElementById("globe-toggle-btn");
+    if (btn) {
+      btn.classList.toggle("is-active", globeEnabled);
+      btn.setAttribute("aria-pressed", globeEnabled ? "true" : "false");
+    }
+    if (globeEnabled) {
+      if (!cesiumLoaded) {
+        loadCesium(function () {
+          initGlobe();
+          showGlobe();
+        });
+      } else {
+        if (!cesiumViewer) initGlobe();
+        showGlobe();
+      }
+    } else {
+      hideGlobe();
+    }
+  }
+
+  function showGlobe() {
+    document.getElementById("map").style.display = "none";
+    document.getElementById("globe").style.display = "block";
+    if (cesiumViewer) {
+      cesiumViewer.resize();
+      const rows = filtered();
+      rebuildGlobeMarkers(rows);
+      syncGlobeBase();
+      if (selectedId) {
+        const inc = all.find((r) => r.id === selectedId);
+        if (inc && typeof inc.lat === "number" && typeof inc.lng === "number") {
+          cesiumViewer.camera.flyTo({
+            destination: Cesium.Cartesian3.fromDegrees(inc.lng, inc.lat, 500000),
+            duration: 1.5,
+          });
+        }
+      } else {
+        cesiumViewer.camera.flyHome(0);
+      }
+    }
+  }
+
+  function hideGlobe() {
+    document.getElementById("globe").style.display = "none";
+    document.getElementById("map").style.display = "block";
+    if (map) {
+      map.invalidateSize();
+    }
   }
 
   function useData(data, keepSelection) {
@@ -1370,4 +1637,11 @@
   bind();
   watchFace();
   loadLayer(layer, { id: hashId() });
+  
+  if (globeEnabled) {
+    loadCesium(function () {
+      initGlobe();
+      showGlobe();
+    });
+  }
 })();
