@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 893,
+  "count": 913,
   "current_count": 26,
-  "historical_count": 867,
+  "historical_count": 887,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -48754,6 +48754,1178 @@
         }
       ],
       "severity": "minor"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — Advertiser, MSA, Chevallier and DelmarvaNow give no fatality figure. ASDSO row is dated 01/01/1909 with lat/lng 0,0; date used is MSA/Advertiser Friday 28 May 1909. Steam-roller hypothesis in the Eastern Shore piece is not treated as a confirmed cause.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Humphreys (named landowner; Chevallier: Humphreys defaulted on reconstruction)",
+      "year_built": "1743 (Chevallier / DelmarvaNow: Venables mill dam)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "humphreys-lake-1909-05-28",
+      "name": "Humphreys Lake Dam (Venables mill dam)",
+      "country": "United States",
+      "region": "Salisbury, Wicomico County, Maryland",
+      "location_label": "South Division Street mill dam on the east prong of the Wicomico River, Salisbury, Maryland",
+      "lat": 38.36417,
+      "lng": -75.6006,
+      "geo_accuracy": "site",
+      "geo_source": "Wicomico Public Library, 122 S. Division St., Salisbury 38.3641658, -75.6006034. George Chevallier (Salisbury News): the mill stood where the library now is and the dam was where the present South Division Street bridge crosses the east prong.",
+      "river_or_facility": "Humphreys Lake / Venables mill dam on the east prong of the Wicomico River",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Salisbury Advertiser (quoted by Secrets of the Eastern Shore): the bridge crossing Humphrey's Dam broke about 2 p.m. Friday and swept away a considerable portion of the surrounding dam. Pete Cooper's 2009 commemoration: it broke out of the blue and without obvious cause.",
+      "incident_date": "1909-05-28",
+      "latest_report_date": "2016-03-16",
+      "what_happened": "On Friday 28 May 1909 the earthen mill dam that created Humphreys Lake in downtown Salisbury failed. Maryland State Archives chronology: Humphrey's Dam burst, flooded Salisbury. Contemporaneous Salisbury Advertiser (quoted by Secrets of the Eastern Shore): the bridge crossing the dam broke about 2 p.m. and a torrent emptied the mile-long lake into the Wicomico; gas mains broke; crowds were held back. George Chevallier: William Venables' 1743 dam on the east prong powered a grist mill for more than 150 years; the mill site is now the Wicomico Public Library and the dam was at today's South Division Street bridge. DelmarvaNow: city officials never rebuilt it and the river reverted. No source fetched gave a death count.",
+      "status": "historical / not rebuilt; former lake bed is now East Main Street and City Park",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Maryland State Archives — Wicomico chronology (28 May 1909 Humphrey's Dam burst)",
+          "url": "https://msa.maryland.gov/msa/mdmanual/36loc/wi/chron/html/wichron.html"
+        },
+        {
+          "label": "Secrets of the Eastern Shore — Salisbury Advertiser: dam/bridge broke about 2 p.m. Friday, lake emptied",
+          "url": "https://www.secretsoftheeasternshore.com/the-accident-that-change-salisbury-forever/"
+        },
+        {
+          "label": "George Chevallier — mill at present library; dam at South Division Street bridge (1743 Venables)",
+          "url": "http://sbynews.blogspot.com/2016/03/legendary-coments-by-george-chevallier.html"
+        },
+        {
+          "label": "DelmarvaNow — May 1909 earthen dam at South Division Street failed; not rebuilt",
+          "url": "https://www.delmarvanow.com/story/news/local/maryland/2018/04/20/historic-dams-mill-ponds-can-pose-safety-concerns/498618002/"
+        },
+        {
+          "label": "ASDSO incident MD00000-198 — Humphreys Lake, dam built 1743",
+          "url": "https://damsafety.org/incidents/MD00000-198"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. 1937 inundation was reclaimed and is not this record. Little Franks Tract 1982 is a separate adjoining flood.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "reclaimed 1902–1906 (Wikipedia)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "franks-tract-1938-02",
+      "name": "Franks Tract / False River levee",
+      "country": "United States",
+      "region": "Sacramento–San Joaquin Delta between False River and Bethel Island, Contra Costa County, California",
+      "location_label": "False River levee at Franks Tract, Sacramento–San Joaquin Delta, California",
+      "lat": 38.04889,
+      "lng": -121.63778,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Franks Tract State Recreation Area 38°02′56″N 121°38′16″W (flooded tract). Breach was the False River levee, not a surveyed cut.",
+      "river_or_facility": "False River levee protecting Franks Tract",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Wikipedia (citing Thompson 1957 and Schell 1995): in February 1938 the False River levee broke and Franks Tract was flooded and never reclaimed.",
+      "incident_date": "1938-02",
+      "latest_report_date": "2018",
+      "what_happened": "Franks Tract, reclaimed about 1902–1906 for peat and crops, was inundated in February 1937 and reclaimed by October. In February 1938 the False River levee broke; the tract was not reclaimed and is now the flooded Franks Tract State Recreation Area (about 3,523 acres, established 1959). Wikipedia and CDFW treat the 1938 breach as the permanent flooding of the main tract. No source fetched gave a death count.",
+      "status": "historical / never reclaimed; now Franks Tract State Recreation Area",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Franks Tract SRA (February 1938 False River levee broke; never reclaimed)",
+          "url": "https://en.wikipedia.org/wiki/Franks_Tract_State_Recreation_Area"
+        },
+        {
+          "label": "CDFW — Franks Tract flooded by levee breaches; 3,532 acres",
+          "url": "https://wildlife.ca.gov/Conservation/Watersheds/Franks-Tract"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Pin is the SRA centroid, not a surveyed 1982 cut. Not merged with the 1938 Franks Tract False River breach.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "little-franks-tract-1982",
+      "name": "Little Franks Tract levee",
+      "country": "United States",
+      "region": "Adjoining Franks Tract between False River and Bethel Island, Contra Costa County, California",
+      "location_label": "Little Franks Tract, Sacramento–San Joaquin Delta, California",
+      "lat": 38.04889,
+      "lng": -121.63778,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Franks Tract SRA 38°02′56″N 121°38′16″W — Little Franks Tract is the smaller adjoining submerged property; no separate sourced breach pin.",
+      "river_or_facility": "Levees of Little Franks Tract (adjoining Franks Tract SRA)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Wikipedia: the Little Franks Tract was last flooded in 1982, and no attempt was ever made to restore it as farmland.",
+      "incident_date": "1982",
+      "latest_report_date": "2018",
+      "what_happened": "Little Franks Tract, the smaller property adjoining the 1938-flooded Franks Tract between False River and Bethel Island, was last flooded in 1982. Wikipedia: no attempt was made to restore it as farmland. CDFW Franks Tract Futures page groups Franks Tract (flooded since 1938) and Little Franks Tract (330 acres flooded since 1982) as shallow open water and remnant levees in the State Recreation Area. No source fetched gave a death count or a surveyed breach coordinate.",
+      "status": "historical / not reclaimed; part of Franks Tract SRA",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Franks Tract SRA (Little Franks Tract last flooded 1982; not restored)",
+          "url": "https://en.wikipedia.org/wiki/Franks_Tract_State_Recreation_Area"
+        },
+        {
+          "label": "CDFW — Little Franks Tract 330 acres flooded since 1982",
+          "url": "https://wildlife.ca.gov/Conservation/Watersheds/Franks-Tract"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Ecology. Precise calendar day unknown.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 8,
+      "reservoir_capacity": null,
+      "construction": "concrete_gravity",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "pillar-rock-1970-01",
+      "name": "Pillar Rock Dam",
+      "country": "United States",
+      "region": "Wahkiakum County, Washington",
+      "location_label": "Pillar Rock Dam Number One, Wahkiakum County, Washington",
+      "lat": 46.26316,
+      "lng": -123.58625,
+      "geo_accuracy": "site",
+      "geo_source": "USGS GNIS / TopoQuest Pillar Rock Dam Number One N46.26316° W123.58625° (Grays River quad)",
+      "river_or_facility": "Pillar Rock Dam (concrete gravity; logging-road fill upstream)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Washington Ecology notable-failures list: a logging-road-fill culvert blocked by debris overtopped and failed, causing the 25-foot concrete gravity dam to fail.",
+      "incident_date": "1970-01",
+      "latest_report_date": "2020",
+      "what_happened": "In January 1970 (Ecology; ASDSO row date 01/01/1970, precise day unknown) a debris-blocked logging-road-fill culvert overtopped and failed in Wahkiakum County, which then caused a 25-foot concrete gravity dam at Pillar Rock to fail. Ecology: 0 lives lost; 3 homes and a fish cannery destroyed. ASDSO incident WA00000-215: 3 habitable structures flooded; dam type PG, height 25 ft.",
+      "status": "historical",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "WA Ecology — Notable Dam Failures: Pillar Rock, January 1970, 0 dead, 3 homes and cannery",
+          "url": "https://appswr.ecology.wa.gov/docs/WaterRights/wrwebpdf/damfailure-ws.pdf"
+        },
+        {
+          "label": "ASDSO incident WA00000-215 — Pillar Rock",
+          "url": "https://damsafety.org/incidents/WA00000-215"
+        },
+        {
+          "label": "USGS / TopoQuest — Pillar Rock Dam Number One",
+          "url": "https://topoquest.com/place/washington/dam/pillar-rock-dam-number-one/1532702"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. $30 million is the suits figure in Bulletin 69, not a verified damage total. Pin is the island, not the marina cut.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "suits totalling over $30 million filed (DWR Bulletin 69)",
+      "investigating_agency": "California Department of Water Resources / USACE (repair)",
+      "verification": "confirmed",
+      "id": "brannan-andrus-1972-06-21",
+      "name": "Brannan-Andrus / Spindrift Marina levee",
+      "country": "United States",
+      "region": "Andrus and Brannan Islands, Sacramento County, California (Isleton)",
+      "location_label": "San Joaquin River levee at Spindrift Marina, Andrus Island, California",
+      "lat": 38.1577,
+      "lng": -121.59829,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Andrus Island / GNIS 38.157695, -121.598287. Sacramento Bee 21 June 1972: break at Spindrift Marina on the San Joaquin River side of Andrus Island about 10 miles east of Rio Vista. Island centroid, not a surveyed cut.",
+      "river_or_facility": "Non-project San Joaquin River levee, Brannan-Andrus Levee Maintenance District (Spindrift Marina)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "DWR Bulletin 69: a levee failed on 21 June 1972 during moderate tides and low river flows, inundating Brannan-Andrus Islands.",
+      "incident_date": "1972-06-21",
+      "latest_report_date": "1973",
+      "what_happened": "Early on 21 June 1972 a levee broke at Spindrift Marina on the San Joaquin River side of Andrus Island. DWR Bulletin 69 and State Lands Commission: Brannan-Andrus Islands flooded; Governor Reagan proclaimed an emergency the same day; suits totalling over $30 million were later filed. NBC/DWR photo captions: more than 12,000 acres and about 35 percent of Isleton flooded; USACE closed the breach on 26 July; federal disaster declared 27 June. DWR: the only major Central Valley flood event of 1972. No source fetched gave a death count for this breach.",
+      "status": "historical / repaired 1972; islands remain agricultural",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "DWR Bulletin 69 — California High Water 1972 (21 June Brannan-Andrus; moderate tides, low flows)",
+          "url": "https://cawaterlibrary.net/wp-content/uploads/2023/06/Bulletin_69__1972.pdf"
+        },
+        {
+          "label": "Sacramento Bee / Calisphere — break at Spindrift Marina, 21 June 1972",
+          "url": "https://calisphere.org/item/c1bf066abcf083968ad89ce878ccc6f3/"
+        },
+        {
+          "label": "Wikipedia — Andrus Island (GNIS coordinates)",
+          "url": "https://en.wikipedia.org/wiki/Andrus_Island"
+        },
+        {
+          "label": "DWR photo captions via NBC — 12,000 acres; 35% of Isleton; breach closed 26 July",
+          "url": "https://www.nbclosangeles.com/news/california-wildfires/historic-california-floods-storms-rain-images/10767/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year 1983 from Wikipedia and WaterBlog; no sourced day used.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mildred-island-1983",
+      "name": "Mildred Island levee",
+      "country": "United States",
+      "region": "San Joaquin River Delta, San Joaquin County, California",
+      "location_label": "Mildred Island, Sacramento–San Joaquin River Delta, California",
+      "lat": 37.98631,
+      "lng": -121.52301,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia / GNIS Mildred Island 37.9863117, -121.5230069. Island flooded; remnant levees remain. Not a surveyed breach pin.",
+      "river_or_facility": "Mildred Island levees (San Joaquin River / Latham Slough)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Wikipedia: Mildred Island flooded in 1983 and the land was abandoned. California WaterBlog (Lund): the Mildred Island levee failed in 1983.",
+      "incident_date": "1983",
+      "latest_report_date": "2013-06-17",
+      "what_happened": "In 1983 the levees protecting Mildred Island in the San Joaquin River Delta failed. Wikipedia: the island flooded and the land was abandoned; only remnant levees remain above water. California WaterBlog: owners abandoned the island after the 1983 levee failure; it became open-water habitat. CDFW site summary treats flooded Mildred Island and adjacent Latham Slough as a Significant Natural Area. No source fetched gave a death count or a precise calendar day.",
+      "status": "historical / not reclaimed; remnant ring levee",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Mildred Island (flooded 1983; abandoned; GNIS coordinates)",
+          "url": "https://en.wikipedia.org/wiki/Mildred_Island"
+        },
+        {
+          "label": "California WaterBlog — Mildred Island levee failed 1983; abandoned",
+          "url": "https://californiawaterblog.com/2011/03/09/sea-level-rise-and-delta-subsidence%e2%80%94the-demise-of-subsided-delta-islands/"
+        },
+        {
+          "label": "California WaterBlog — Mildred 1983 remains flooded",
+          "url": "https://californiawaterblog.com/2013/06/17/the-delta-wont-rise-again/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Ecology. Precise calendar day not in the Ecology list.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Iowa Beef Processors",
+      "year_built": null,
+      "height_m": 5,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": "about 270–300 acre-feet (Ecology narrative / notable-failures list)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "about $5 million (Ecology notable-failures list)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ibp-waste-pond-1993-01",
+      "name": "Iowa Beef Processors Waste Pond Dam No. 1",
+      "country": "United States",
+      "region": "Walla Walla County near Wallula / Richland, Washington",
+      "location_label": "Iowa Beef Processors waste pond, Walla Walla County, Washington",
+      "lat": 46.16319,
+      "lng": -118.89611,
+      "geo_accuracy": "site",
+      "geo_source": "USGS GNIS / TopoZone Iowa Beef Processors Waste Pond 46.1631905, -118.8961111 (Humorist quad)",
+      "river_or_facility": "Iowa Beef Processors Waste Pond Dam No. 1 (off-channel wastewater embankment)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "WA Ecology: snowmelt raised the lagoon near the crest; effluent entered animal holes near the crest and initiated an erosive breach.",
+      "incident_date": "1993-01",
+      "latest_report_date": "2011",
+      "what_happened": "In January 1993 the 15-foot Iowa Beef Processors waste-pond embankment near Wallula failed. Ecology notable-failures list: 0 lives lost; failure of the 15-foot embankment released 300 acre-feet of wastewater attributed to snowmelt entering animal burrows near the crest; washed out Union Pacific tracks and derailed 5 locomotives; about $5 million damage. Ecology narrative: over 270 acre-feet of effluent released; contained in a paper-mill lagoon just upstream of the Columbia. ASDSO 2013 compilation: Wallula, WA near Richland.",
+      "status": "historical",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "WA Ecology — Notable Dam Failures: IBP Waste Pond No. 1, January 1993, 0 dead, 300 acre-feet",
+          "url": "https://appswr.ecology.wa.gov/docs/WaterRights/wrwebpdf/damfailure-ws.pdf"
+        },
+        {
+          "label": "WA Ecology narrative — animal holes at crest; >270 acre-feet; UP derailment",
+          "url": "http://probeinternational.org/library/wp-content/uploads/2011/11/Reports-Notable-Dam-Failures-_-Dam-Safety-_-Water-Resources-Program-_-Washington-State-Department-of-Ecology.pdf"
+        },
+        {
+          "label": "USGS / TopoZone — Iowa Beef Processors Waste Pond",
+          "url": "https://www.topozone.com/washington/walla-walla-wa/reservoir/iowa-beef-processors-waste-pond/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — the rehab paper gives no fatality figure for this dam. Tropical Storm Alberto's regional death toll is not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "early 1840s mill site (ASDSO paper)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Georgia Safe Dams Program",
+      "verification": "confirmed",
+      "id": "houston-lake-1994-07-06",
+      "name": "Houston Lake Dam (Mossy Creek mill dam)",
+      "country": "United States",
+      "region": "Houston County near Perry, Georgia",
+      "location_label": "Houston Lake Dam on Mossy Creek, Houston County, Georgia",
+      "lat": 32.49987,
+      "lng": -83.6688,
+      "geo_accuracy": "exact",
+      "geo_source": "USGS GNIS / TopoQuest Houston Lake Dam N32.49987° W83.66880° (Perry East quad)",
+      "river_or_facility": "Houston Lake Dam on Mossy Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "ASDSO 1998 rehab paper: the dam failed shortly after midnight on 6 July 1994 due to excessive overtopping flows associated with Tropical Storm Alberto.",
+      "incident_date": "1994-07-06",
+      "latest_report_date": "1998-10-14",
+      "what_happened": "Shortly after midnight on 6 July 1994, Houston Lake Dam on Mossy Creek failed by overtopping during Tropical Storm Alberto. ASDSO conference paper (Powers and Walden): originally a mill site from the early 1840s, overtopped several times, last major spillway repair 1969; 1980 Phase I inspection said it would overtop 14.5 ft in the PMF and was unsafe; the 1994 breach opened about 130 ft adjacent to the concrete outlet, ripping off a discharge bay and bridge decking, with severe downstream-slope erosion. Drainage area 112 square miles. Georgia Highway 127 parallels the dam; a bridge sits about 300 ft downstream. Rebuilt with a labyrinth spillway after a 1997 design approval (construction contract $2.49 million). The paper does not give a death count for this dam.",
+      "status": "rebuilt 1997–98 with labyrinth spillway and armored overtopping section",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ASDSO — Rehabilitation of the Houston Lake Dam (failed after midnight 6 July 1994; 130-ft breach)",
+          "url": "https://damsafety.org/content/rehabilitation-houston-lake-dam-houston-county-georgia"
+        },
+        {
+          "label": "USGS / TopoQuest — Houston Lake Dam",
+          "url": "https://topoquest.com/place/georgia/dam/houston-lake-dam/336226"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 2 from PRFMA and NBC for the 1995 Pajaro levee flood. Not copied onto the 2023 record. Pin is the inundated CDP, not the cut.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Monterey County Water Resources Agency (maintenance; 1949 USACE project)",
+      "year_built": "1949 (USACE Pajaro River levee; PRFMA)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "more than $95 million (PRFMA); contemporaneous range $50–95 million (NBC)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "pajaro-levee-1995-03-11",
+      "name": "Pajaro River levee (1995)",
+      "country": "United States",
+      "region": "Town of Pajaro, Monterey County, California (Pajaro Valley)",
+      "location_label": "Pajaro River levee, Monterey County side upriver of Corralitos / Salsipuedes Creek, California",
+      "lat": 36.90165,
+      "lng": -121.7417,
+      "geo_accuracy": "region",
+      "geo_source": "USGS / TopoQuest Pajaro CDP N36.90165° W121.74170°. Court of Appeal (Arreola): overtopped on the Monterey side upriver from the Corralitos (Salsipuedes) Creek junction. Inundated-town pin, not a surveyed cut.",
+      "river_or_facility": "Pajaro River at Watsonville federal levee (1949 USACE project; Monterey County side)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "California Court of Appeal in Arreola v. County of Monterey: on the night of 10–11 March 1995 the river overtopped the levee on the Monterey side upriver from Corralitos (Salsipuedes) Creek; water eroded the back side and the levee gave way.",
+      "incident_date": "1995-03-11",
+      "latest_report_date": "2002",
+      "what_happened": "On the night of 10–11 March 1995 the 1949 USACE Pajaro River levee failed on the Monterey County side. Arreola: the river overtopped upriver of Corralitos/Salsipuedes Creek, eroded the landward face, and gave way, inundating the valley including the town of Pajaro. Los Angeles Times (1998): about 2,500 acres of farmland and Pajaro were submerged. Pajaro Regional Flood Management Agency: the 1995 flood caused more than $95 million in damage and two people died. NBC News: 1995 left two dead and $50–95 million in damage. A jury later found Santa Cruz and Monterey counties and Caltrans liable for maintenance failures.",
+      "status": "historical / levee remained in service and later failed again in 2023 (separate record)",
+      "deaths": 2,
+      "sources": [
+        {
+          "label": "Arreola v. County of Monterey, 99 Cal.App.4th 722 (2002) — overtopped Monterey side 10–11 March 1995, then gave way",
+          "url": "https://hallapproved.com/ca/cases/appeals/2002/2284793/"
+        },
+        {
+          "label": "PRFMA — 1995 flood more than $95 million and two deaths",
+          "url": "https://www.prfma.org/risk-management"
+        },
+        {
+          "label": "Los Angeles Times — 1995 Pajaro levees broke; 2,500 acres and Pajaro submerged",
+          "url": "https://www.latimes.com/archives/la-xpm-1998-aug-08-mn-11280-story.html"
+        },
+        {
+          "label": "NBC News — 1995 left two dead and $50–95 million damage",
+          "url": "https://www.nbcnews.com/news/latino/decades-levee-failures-disaster-latino-farming-town-rcna77009"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. 1979 partial collapse not added as a separate record this pass (less complete geo/date in sources fetched).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Lava Cap Gold Mining Corporation (historic mill); later Superfund",
+      "year_built": null,
+      "height_m": 18,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "mining",
+      "volume_released": "more than 10,000 cubic yards (CDHS); 8,000–10,000 m3 (USGS)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "U.S. EPA Region 9 / California DTSC",
+      "verification": "confirmed",
+      "id": "lava-cap-1997-01-01",
+      "name": "Lava Cap Mine log tailings dam",
+      "country": "United States",
+      "region": "About 5 miles southeast of Nevada City, Nevada County, California",
+      "location_label": "Lava Cap Mine log tailings dam on Little Clipper Creek, Nevada County, California",
+      "lat": 39.2275,
+      "lng": -120.96972,
+      "geo_accuracy": "site",
+      "geo_source": "Western Mining History / USGS Chicago Park shaft symbol 39.2275, -120.96972 (Lava Cap / historic Central Mine). USGS OFR 2009-1268: log dam was about 0.4 km below the flotation mill on Little Clipper Creek.",
+      "river_or_facility": "Lava Cap Mine log tailings dam on Little Clipper Creek",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "USGS OFR 2009-1268: the log dam failed during a storm that began 31 December 1996 and continued into January 1997. ASDSO 2013 compilation: rotted log in dam.",
+      "incident_date": "1997-01-01",
+      "latest_report_date": "2009",
+      "what_happened": "On 1 January 1997, after a multi-day storm, the remaining upper portion of the Lava Cap Mine log tailings dam on Little Clipper Creek collapsed. CDHS public-health assessment: a three-day storm; the 60-foot log dam breached and released more than 10,000 cubic yards of arsenic-bearing tailings into Little Clipper Creek, Clipper Creek and Lost Lake about 1.5 miles downstream. USGS: 8,000–10,000 m3 released; most fines deposited in Lost Lake. EPA listed the site on the NPL in February 1999 and did a 1997 removal. A 1979 partial collapse of the same log dam is noted in court findings but is not this record. No source fetched gave a death count.",
+      "status": "Superfund (NPL 1999); log dam removed/stabilized in 1997 EPA removal",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "CDHS public-health assessment — 1 Jan 1997 breach; >10,000 cy; 60-ft log dam",
+          "url": "https://www.impactassessment.com/reports/CDHS_2001_Public_Health_Assessment_Lava_Cap_Mine.pdf"
+        },
+        {
+          "label": "USGS OFR 2009-1268 — log dam 0.4 km below mill; 8,000–10,000 m3",
+          "url": "https://pubs.usgs.gov/publication/ofr20091268"
+        },
+        {
+          "label": "ITRC — Lava Cap Mine Superfund case study (upper half of log dam collapsed)",
+          "url": "https://projects.itrcweb.org/miningwaste-guidance/cs33_lava_mine.htm"
+        },
+        {
+          "label": "EPA Superfund profile — Lava Cap Mine, 14501 Lava Cap Mine Road",
+          "url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0904343"
+        },
+        {
+          "label": "Western Mining History — Lava Cap shaft 39.2275, -120.96972",
+          "url": "https://westernmininghistory.com/mine-detail/10310707/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Ecology. Precise calendar day not given. Pin is the NID Boeing Creek detention dam in Shoreline.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "n-boeing-creek-1997-01",
+      "name": "N. Boeing Creek Dam",
+      "country": "United States",
+      "region": "Shoreline, King County, Washington",
+      "location_label": "N. Boeing Creek Dam, Shoreline, Washington",
+      "lat": 47.75204,
+      "lng": -122.36007,
+      "geo_accuracy": "site",
+      "geo_source": "NID WA00483 Boeing Creek M1 Detention Dam 47.752040, -122.360070 (Shoreline). Ecology names N. Boeing Creek Dam; this is the named Boeing Creek detention dam in Shoreline on NID.",
+      "river_or_facility": "N. Boeing Creek Dam (detention)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "spillway",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "WA Ecology notable-failures list: seepage through the dam, poor hydraulic design, and no emergency spillway.",
+      "incident_date": "1997-01",
+      "latest_report_date": "2020",
+      "what_happened": "In January 1997 (Ecology; ASDSO row 01/01/1997) N. Boeing Creek Dam in Shoreline failed. Ecology: 0 lives lost; washed out a city intersection, utilities and a downstream detention pond. Causes listed as seepage through the dam, poor hydraulic design, and no emergency spillway. ASDSO WA00000-219: 0 habitable structures flooded.",
+      "status": "historical",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "WA Ecology — Notable Dam Failures: N. Boeing Creek Dam, January 1997, 0 dead",
+          "url": "https://appswr.ecology.wa.gov/docs/WaterRights/wrwebpdf/damfailure-ws.pdf"
+        },
+        {
+          "label": "ASDSO incident WA00000-219 — N Boeing Creek Dam",
+          "url": "https://damsafety.org/incidents/WA00000-219"
+        },
+        {
+          "label": "NID — WA00483 Boeing Creek M1 Detention Dam 47.752040, -122.360070",
+          "url": "https://nid.sec.usace.army.mil/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. 1995 repaired break mentioned in the narrative only; this record is the 1997 permanent failure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1917–1918 (CDFW / TPL)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "liberty-island-1997",
+      "name": "Liberty Island levee",
+      "country": "United States",
+      "region": "Southern Solano County, Cache Slough / Sacramento River, California",
+      "location_label": "Liberty Island, Sacramento–San Joaquin Delta, Solano County, California",
+      "lat": 38.28694,
+      "lng": -121.67861,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Liberty Island (California) 38°17′13″N 121°40′43″W. Flooded island; not a surveyed 1997 cut.",
+      "river_or_facility": "Liberty Island levees (Cache Slough / Prospect Slough / Shag Slough)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Trust for Public Land: after a 1995 southern-tip levee failure into Cache Slough was repaired, levees failed for good in 1997. CDFW: levees were constructed 1917–1918, failed in 1997, and the island was left flooded.",
+      "incident_date": "1997",
+      "latest_report_date": "2013-11-21",
+      "what_happened": "Liberty Island, about 5,210 acres in southern Solano County, was diked in 1917–1918 for farming. TPL and Bay Nature: the southern-tip levee failed into Cache Slough in 1995 and was repaired; in 1997 the levees failed for good and the island was left flooded. CDFW: failed in 1997 and left flooded, becoming a tidal freshwater wetland now managed as the Liberty Island Conservation Bank and Ecological Reserve. No source fetched gave a death count.",
+      "status": "historical / left flooded; conservation bank / ecological reserve",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Trust for Public Land — 1995 southern-tip failure repaired; 1997 failed for good",
+          "url": "https://www.tpl.org/our-work/liberty-island-conservation-bank"
+        },
+        {
+          "label": "Bay Nature — 1995 Cache Slough break repaired; 1997 failed for good",
+          "url": "https://baynature.org/article/the-future-of-the-delta-begins-on-liberty-island/"
+        },
+        {
+          "label": "CDFW — levees 1917–18; failed 1997; left flooded",
+          "url": "https://www.wildlife.ca.gov/Lands/Places-to-Visit/Liberty-Island-ER"
+        },
+        {
+          "label": "Wikipedia — Liberty Island, California 38°17′13″N 121°40′43″W",
+          "url": "https://en.wikipedia.org/wiki/Liberty_Island_(California)"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Ecology. Pin is the 2001 replacement dam at the same named reservoir site.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Broetje Orchards / FirstFruits",
+      "year_built": null,
+      "height_m": 8,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": "11 million gallons (Ecology notable-failures list)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "broetje-block-96-2000-04",
+      "name": "Broetje Orchards Block 96 irrigation reservoir",
+      "country": "United States",
+      "region": "Walla Walla County, Washington",
+      "location_label": "Broetje / FirstFruits irrigation reservoir (Block 96), Walla Walla County, Washington",
+      "lat": 46.37152,
+      "lng": -118.6316,
+      "geo_accuracy": "site",
+      "geo_source": "NID WA01839 Broetje Orchards Block 96 Reservoir 46.371520, -118.631600 (built 2001 replacement; same named site as the 2000 failure).",
+      "river_or_facility": "Broetje Orchards Block 96 off-channel irrigation reservoir",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "WA Ecology: the PVC liner leaked at the outlet pipe and initiated internal erosion along the pipeline.",
+      "incident_date": "2000-04",
+      "latest_report_date": "2020",
+      "what_happened": "In April 2000 (Ecology; ASDSO row 04/01/2000) a 26-foot irrigation reservoir at Broetje Orchards / FirstFruits in Walla Walla County failed. Ecology: 0 lives lost; 11 million gallons released; PVC liner leak at the outlet pipe initiated internal erosion along the pipeline; a youth camp and the Blue Mountain Railroad were damaged. The current NID dam at the same named site (WA01839) was built in 2001.",
+      "status": "replaced 2001 (NID WA01839 at the named site)",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "WA Ecology — Notable Dam Failures: Broetje, April 2000, 0 dead, 11 million gallons",
+          "url": "https://appswr.ecology.wa.gov/docs/WaterRights/wrwebpdf/damfailure-ws.pdf"
+        },
+        {
+          "label": "ASDSO incident WA00000-223 — Broetje FirstFruits, April 2000",
+          "url": "https://damsafety.org/incidents/WA00000-223"
+        },
+        {
+          "label": "NID — WA01839 Broetje Orchards Block 96 Reservoir (2001 replacement) 46.371520, -118.631600",
+          "url": "https://nid.sec.usace.army.mil/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from Star News 'No one was injured, officials said.' Hope Mills 2003 is already in the DB. McLaughlin Lake same morning is held (no NID pin).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Lake Upchurch Dam Preservation Association (NID)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lake-upchurch-2003-05-27",
+      "name": "Lake Upchurch Dam (Raeford Dam)",
+      "country": "United States",
+      "region": "Cumberland County on Rockfish Creek, North Carolina (Hope Mills area)",
+      "location_label": "Lake Upchurch Dam on Rockfish Creek, Cumberland County, North Carolina",
+      "lat": 34.95954,
+      "lng": -79.00062,
+      "geo_accuracy": "exact",
+      "geo_source": "NID NC01202 Lake Upchurch Dam 34.959540, -79.000620 (Rockfish Creek, Cumberland County).",
+      "river_or_facility": "Lake Upchurch Dam / Raeford Dam on Rockfish Creek",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Star News (Wilmington): breached around 2:30 a.m. 27 May 2003 after rain-swollen Lake Upchurch. ASDSO case paper: lateral breach upstream of the right abutment during the 25–26 May 2003 storm, with trees uprooted in the breach area and sequential failures of two small dams upstream.",
+      "incident_date": "2003-05-27",
+      "latest_report_date": "2010-06-17",
+      "what_happened": "About 2:30 a.m. on 27 May 2003, Lake Upchurch Dam (also called Raeford Dam) on Rockfish Creek in Cumberland County breached after heavy rain. Fayetteville Observer: Hope Mills Dam No. 1 had failed the afternoon before; McLaughlin Lake Dam in Hoke County failed later that morning. Town & Country: no injuries; the lake drained. The Observer later reported the 2003 breach in a 2010 sinkhole story. NID NC01202: earth dam on Rockfish Creek, owner Lake Upchurch Dam Preservation Association, purpose hydroelectric / historic mill. Hope Mills is already in the database and is not this record.",
+      "status": "repaired / still listed on NID as NC01202",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Fayetteville Observer — 27 May 2003: Upchurch about 2:30 a.m.; McLaughlin later that morning",
+          "url": "https://www.fayobserver.com/story/news/2010/06/17/sinkhole-found-at-lake-upchurch/21844969007/"
+        },
+        {
+          "label": "Star News — 28 May 2003: Upchurch breached about 2:30 a.m.; no one injured; McLaughlin same day",
+          "url": "https://www.starnewsonline.com/story/news/2003/05/28/rains-breach-additional-dams/30517964007/"
+        },
+        {
+          "label": "ASDSO — Lake Upchurch Dam: Revisited (lateral breach; trees; upstream dam cascade)",
+          "url": "https://damsafety.org/content/lake-upchurch-dam-revisited"
+        },
+        {
+          "label": "NID — NC01202 Lake Upchurch Dam 34.959540, -79.000620",
+          "url": "https://nid.sec.usace.army.mil/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from ASDSO paper 'no injuries reported'. Cause unknown: piping/burrows discussed as possibilities, not confirmed.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": "about 150,000 acre-feet into the tract (DWR / ASDSO paper)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "about $90 million (DWR / ASDSO 2013 paper)",
+      "investigating_agency": "California Department of Water Resources / Reclamation District 2039",
+      "verification": "confirmed",
+      "id": "jones-tract-2004-06-03",
+      "name": "Upper Jones Tract levee (Middle River)",
+      "country": "United States",
+      "region": "Jones Tract, San Joaquin County, California (Sacramento–San Joaquin Delta)",
+      "location_label": "West levee of Upper Jones Tract on Middle River, about 1/4 mile north of the Woodward Island ferry, California",
+      "lat": 37.93716,
+      "lng": -121.48647,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Jones Tract 37.937158, -121.486473. ASDSO 2013 paper: breach on the west levee about 1/4 mile north of the Woodward Island ferry landing. Tract centroid, not a surveyed cut.",
+      "river_or_facility": "Upper Jones Tract west levee on Middle River (Reclamation District 2039)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "DWR / ASDSO 2013 paper: the levee failed about 7:50 a.m. on 3 June 2004; there was no flood, high tide or earthquake. The paper explores seepage, piping and rodent burrows as possible mechanisms but does not state a confirmed cause.",
+      "incident_date": "2004-06-03",
+      "latest_report_date": "2013-09",
+      "what_happened": "About 7:50 a.m. on 3 June 2004 the west levee of Upper Jones Tract on Middle River failed. DWR and the ASDSO 2013 compilation paper: no flood, high tide or earthquake; about 12,000 acres of Upper and Lower Jones Tract flooded with about 150,000 acre-feet; the breach was closed 30 June; the tract was dewatered by 18 December. Estimated cost about $90 million. The paper: no injuries reported. Wikipedia: a 300-foot gap in the levee. USGS later used the flooding as a bathymetric study site.",
+      "status": "historical / closed 30 June 2004; dewatered 18 December 2004",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "DWR / ASDSO 2013 — Jones Tract Flood: An Overview (7:50 a.m. 3 June; no flood; $90M; no injuries)",
+          "url": "https://damsafety.org/content/jones-tract-flood-overview"
+        },
+        {
+          "label": "Wikipedia — Jones Tract (300-foot gap; 12,000 acres; 37.937158, -121.486473)",
+          "url": "https://en.wikipedia.org/wiki/Jones_Tract"
+        },
+        {
+          "label": "USGS — Jones Tract 2004 flood used as bathymetry site",
+          "url": "https://www.usgs.gov/centers/california-water-science-center/science/jones-tract-flood-2004"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — compilation says no residences but does not state a fatality figure. Pin is the island, not a surveyed cut.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": "20–25 ft (ASDSO 2013 compilation)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "wheeler-island-2005-07-22",
+      "name": "Wheeler Island levee",
+      "country": "United States",
+      "region": "Honker Bay / Suisun Bay, Solano County, California",
+      "location_label": "Wheeler Island, Honker Bay, Solano County, California",
+      "lat": 38.085,
+      "lng": -121.9375,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Wheeler Island 38°05′06″N 121°56′15″W. Isolated hunting island; not a surveyed breach pin.",
+      "river_or_facility": "Wheeler Island levee (Honker Bay)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "ASDSO 2013 compilation: 20–25 ft breach; Honker Bay flooded an isolated 1,000-acre hunting island with no residences.",
+      "incident_date": "2005-07-22",
+      "latest_report_date": "2013-09",
+      "what_happened": "On 22 July 2005 a levee on Wheeler Island, an isolated hunting island in Honker Bay, failed. ASDSO 2013 compilation of U.S. dam and levee incidents: a 20–25 foot breach flooded the roughly 1,000-acre island; no residences. Wikipedia lists Wheeler Island in Solano County at 38°05′06″N 121°56′15″W. No source fetched gave a death count.",
+      "status": "historical",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ASDSO 2013 — U.S. Dam and Levee Failures and Incidents compilation (Wheeler Island 22 July 2005)",
+          "url": "http://fmdam.org/wp-content/uploads/2013/09/US_FailuresIncidents.pdf"
+        },
+        {
+          "label": "Wikipedia — Wheeler Island, California 38°05′06″N 121°56′15″W",
+          "url": "https://en.wikipedia.org/wiki/Wheeler_Island_(California)"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — Missourian and ABC17 give no fatality figure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "moon-valley-2008-03",
+      "name": "Moon Valley Lake Dam (Hominy Branch)",
+      "country": "United States",
+      "region": "Columbia, Boone County, Missouri",
+      "location_label": "Moon Valley Lake Dam on Hominy Branch, Columbia, Missouri",
+      "lat": 38.94171,
+      "lng": -92.30518,
+      "geo_accuracy": "site",
+      "geo_source": "USGS GNIS / TopoQuest Moon Valley Lake Dam N38.941705° W92.305184° (Columbia quad)",
+      "river_or_facility": "Moon Valley Lake Dam on Hominy Branch",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Columbia Missourian: the unregulated dam failed during the week of 17 March 2008 and the 17-acre lake drained in a couple of days. No sourced mechanism beyond the failure itself.",
+      "incident_date": "2008-03",
+      "latest_report_date": "2018-10-10",
+      "what_happened": "During the week of 17 March 2008 the unregulated Moon Valley Lake Dam on Hominy Branch in Columbia failed. Columbia Missourian: the 17-acre lake drained in a couple of days. The story does not give a death count or a confirmed failure mechanism. TopoQuest/GNIS locates Moon Valley Lake Dam at 38.941705, -92.305184.",
+      "status": "historical",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Columbia Missourian — Hominy Branch dam broke week of 17 March 2008; 17-acre lake drained",
+          "url": "https://www.columbiamissourian.com/news/local/hominy-branch-dam-break-dries-up-moon-valley-lake/article_0517c554-15b8-5530-87c2-99ba0d5fbe39.html"
+        },
+        {
+          "label": "USGS / TopoQuest — Moon Valley Lake Dam N38.941705 W92.305184 (listed on Columbia quad)",
+          "url": "https://topoquest.com/place/missouri/dam/moores-lake-dam/761833"
+        },
+        {
+          "label": "ABC17 — 2008 Moon Valley Lake drain; city $400,000 sediment cleanup",
+          "url": "https://abc17news.com/news/2018/10/10/nearly-90-percent-of-dams-in-boone-county-unregulated/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "families across the street evacuated; Red Cross shelter 25 people (WTHR)",
+      "notes": "Deaths null — WTHR 'all residents accounted for' is not a sourced fatality count. Do not copy any regional 2008 flood toll. Earlham Lake and Graybrook are already in the DB.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "East Lake Lot Owners Association Incorporated (NID)",
+      "year_built": "1953 (NID / DamLookup IN00007)",
+      "height_m": 12,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "princes-east-lake-2008-06-07",
+      "name": "Prince's East Lake Dam",
+      "country": "United States",
+      "region": "Prince's Lakes, Johnson County, Indiana",
+      "location_label": "Prince's East Lake Dam, Johnson County, Indiana",
+      "lat": 39.34738,
+      "lng": -86.10088,
+      "geo_accuracy": "exact",
+      "geo_source": "DamLookup / NID IN00007 Prince's East Lake Dam 39.34738, -86.10088 (Johnson County; unnamed tributary of Mud Creek).",
+      "river_or_facility": "Prince's East Lake Dam (unnamed tributary of Mud Creek)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Associated Press / Sun Commercial: the dam at Prince's Lake in Johnson County was overtopped and failed early Saturday afternoon (7 June 2008). WTHR: East Lake was the first to develop a hole in its dam and began to break up.",
+      "incident_date": "2008-06-07",
+      "latest_report_date": "2008-06-09",
+      "what_happened": "On 7 June 2008, during the central Indiana flood, Prince's East Lake Dam overtopped and failed. Associated Press (via Sun Commercial): the dam at Prince's Lake was overtopped and failed early Saturday afternoon. WTHR: East Lake developed a hole and the dam began to break up; families across the street were evacuated; a Red Cross shelter housed 25 people; township supervisor said all residents had been accounted for. WISH-TV later: the 40-foot East Lake dam overtopped and years later was replaced with a concrete dam and new spillway. Commonwealth Engineers: 40 ft high, 650 ft long; emergency repair after the 7 June 2008 flood; later reconstructed with a 125-ft labyrinth spillway. DamLookup/NID IN00007: earth dam built 1953, owner East Lake Lot Owners Association. No source fetched gave a death count for this dam. Earlham Lake (already in the database) failed in the same county flood and is not this record.",
+      "status": "rebuilt with labyrinth spillway (Commonwealth Engineers / WISH-TV)",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "WTHR — East Lake dam developed a hole and began to break up; evacuations; all residents accounted for",
+          "url": "https://www.wthr.com/article/news/local/princes-lake-dam-breached/531-9733d465-385d-4236-b6d1-dac3d89a63c5"
+        },
+        {
+          "label": "AP / Sun Commercial — Prince's Lake dam overtopped and failed early Saturday afternoon",
+          "url": "https://www.suncommercial.com/gcdailyworld/archives/article_19087f6d-ff92-5d0b-814a-6bc8b317df58.html"
+        },
+        {
+          "label": "Insurance Journal / AP — 7 June 2008 Indiana flood; dams failing in Prince's Lakes area",
+          "url": "https://www.insurancejournal.com/news/midwest/2008/06/09/90759.htm"
+        },
+        {
+          "label": "WISH-TV — 40-ft East Lake dam overtopped 2008; later replaced with concrete spillway",
+          "url": "https://www.wishtv.com/news/aging-indiana-dams-prompt-concerns-of-catastrophic-collapse/"
+        },
+        {
+          "label": "Commonwealth Engineers — East Lake Dam rehab after 7 June 2008 flood; 40 ft, 650 ft",
+          "url": "https://commonwealthengineers.com/projects/east-lake-dam-rehabilitation-project-east-lake-lot-owners-association/"
+        },
+        {
+          "label": "DamLookup / NID IN00007 — Prince's East Lake Dam 39.34738, -86.10088",
+          "url": "https://damlookup.com/dam/in00007"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 12 homes damaged in 1–2 feet of water (Ecology)",
+      "notes": "Deaths 0 from Ecology. Pin is the 2019 replacement dam at the named Mill Creek Park site.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "City of Cosmopolis (replacement owner on NID / Daily World)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mill-creek-cosmopolis-2008-11-12",
+      "name": "Mill Creek Pond Dam (Cosmopolis)",
+      "country": "United States",
+      "region": "Cosmopolis, Grays Harbor County, Washington",
+      "location_label": "Mill Creek Pond / Mill Creek Park dam, Cosmopolis, Washington",
+      "lat": 46.95047,
+      "lng": -123.77138,
+      "geo_accuracy": "site",
+      "geo_source": "DamLookup / NID WA01730 Mill Creek Dam Cosmopolis 46.95047, -123.77138 (2019 replacement at the named park site).",
+      "river_or_facility": "Mill Creek Pond Dam (Mill Creek Park, Cosmopolis)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "WA Ecology: the dam gave way during heavy rains from the impact of falling trees; dislodged roots also dislodged a buried sheet pile at the right abutment.",
+      "incident_date": "2008-11-12",
+      "latest_report_date": "2018",
+      "what_happened": "On 12 November 2008 the earthen Mill Creek Pond dam in Cosmopolis failed. Pierce County HIRA dam-failure table and Ecology notable-failures list: November 12 / November 2008; 0 lives lost; pedestrian bridge washed out; about 12 homes damaged in 1–2 feet of water. Spokesman-Review (13 Nov 2008): the dam at Mill Creek Park collapsed after it was weakened by a falling tree; streets and nearby houses flooded with several inches of water. Daily World: torrential rains undercut a large alder above the dam; when it came down it took a chunk of the dam; the park and walkway were wiped out and the pond emptied. The present NID dam (WA01730) at the named site was completed in 2019.",
+      "status": "replaced 2019 (NID WA01730 at the named park site)",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "WA Ecology — Notable Dam Failures: Mill Creek Pond, November 2008, 0 dead; falling trees / sheet pile",
+          "url": "https://appswr.ecology.wa.gov/docs/WaterRights/wrwebpdf/damfailure-ws.pdf"
+        },
+        {
+          "label": "Pierce County HIRA — Mill Creek Dam, Cosmopolis, 12 November 2008",
+          "url": "https://www.piercecountywa.gov/DocumentCenter/View/114994/2020-PC-Dam-Failure-Final"
+        },
+        {
+          "label": "Spokesman-Review — 13 Nov 2008: Mill Creek Park dam collapsed after falling tree",
+          "url": "https://www.spokesman.com/stories/2008/nov/13/rain-pummels-west-side/"
+        },
+        {
+          "label": "Daily World — 2008 alder undercut the dam; park and walkway wiped out",
+          "url": "https://www.thedailyworld.com/news/mill-creek-dam-construction-nearly-complete/"
+        },
+        {
+          "label": "DamLookup / NID WA01730 — Mill Creek Dam Cosmopolis 46.95047, -123.77138",
+          "url": "https://damlookup.com/dam/wa01730"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 1,700 evacuated from Pajaro (AP / Pajaronian); more than 8,500 under orders or warnings in Monterey County (AP)",
+      "notes": "Deaths null — no sourced 2023 fatality figure. Do not copy the 1995 two deaths. Pin is Murphy Crossing, the named breach vicinity, not the town centroid.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Monterey County Water Resources Agency (maintenance; 1949 USACE project)",
+      "year_built": "1949 (USACE Pajaro River levee; PRFMA / NBC)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "pajaro-levee-2023-03-10",
+      "name": "Pajaro River levee (2023)",
+      "country": "United States",
+      "region": "Town of Pajaro, Monterey County, California (Pajaro Valley)",
+      "location_label": "Pajaro River levee, Monterey County side near Murphy Crossing Road, California",
+      "lat": 36.90551,
+      "lng": -121.67634,
+      "geo_accuracy": "site",
+      "geo_source": "USGS / TopoQuest Murphy Crossing N36.90551° W121.67634° (Pajaro River crossing). Pajaronian: breach around midnight near Murphy Crossing Road. LAT: three miles upstream from the town of Pajaro.",
+      "river_or_facility": "Pajaro River at Watsonville federal levee (1949 USACE project; Monterey County side near Murphy Crossing)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Los Angeles Times: patrols noticed bubbling in adjacent farmland at 11 p.m.; the levee failed about 30 minutes later during an atmospheric-river storm. Pajaronian: the breach happened around midnight near Murphy Crossing Road.",
+      "incident_date": "2023-03-10",
+      "latest_report_date": "2023-03-11",
+      "what_happened": "Late on 10 March 2023 the Monterey County Pajaro River levee failed near Murphy Crossing Road, about three miles upstream of the town of Pajaro. LAT: bubbling in adjacent farmland at 11 p.m., failure about 30 minutes later, about 100 feet wide. Pajaronian: around midnight; estimated 100-foot breach; roughly 1,700 residents evacuated. AP: more than 8,500 people under evacuation orders and warnings in Monterey County, including roughly 1,700 from Pajaro; crews had gone door to door Friday afternoon. NBC later: more than 1,700 evacuated and more than 200 homes with major damage or destroyed. No source fetched gave a death count for the 2023 breach; the 1995 Pajaro deaths are a separate record and are not copied here.",
+      "status": "historical / 2023 breach (same levee system as the 1995 record)",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Los Angeles Times — bubbling 11 p.m.; failed 30 minutes later; ~100 ft; 3 miles upstream",
+          "url": "https://www.latimes.com/california/story/2023-03-11/communities-along-central-coast-to-southern-sierra-hit-hardest-by-latest-storm"
+        },
+        {
+          "label": "Pajaronian — around midnight near Murphy Crossing Road; ~100 ft; ~1,700 evacuated",
+          "url": "https://pajaronian.com/pajaro-river-levee-breaches/"
+        },
+        {
+          "label": "AP — Pajaro levee breached; ~1,700 from Pajaro among 8,500 under orders/warnings",
+          "url": "https://apnews.com/article/california-atmospheric-river-storm-2677c9eeb138f2a672a2596ef4b1563e"
+        },
+        {
+          "label": "NBC News — 2023 Pajaro; >1,700 evacuated; 1995 deaths not this event",
+          "url": "https://www.nbcnews.com/news/latino/decades-levee-failures-disaster-latino-farming-town-rcna77009"
+        },
+        {
+          "label": "USGS / TopoQuest — Murphy Crossing N36.90551 W121.67634",
+          "url": "https://topoquest.com/place/california/crossing/murphy-crossing/1659198"
+        }
+      ],
+      "severity": "major"
     }
   ]
 }
