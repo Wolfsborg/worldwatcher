@@ -130,6 +130,7 @@
   let map, cluster, selectedLayer, fallbackLayer;
   const markersById = new Map();
   const fallbackMarkersById = new Map();
+  let pinNamesEnabled = localStorage.getItem("ww-pin-names") !== "off";
 
 
   function spec() { return LAYERS[layer] || LAYERS.dams; }
@@ -540,7 +541,7 @@
   function updateNameLabelsNow() {
     if (!map) return;
     const zoom = map.getZoom();
-    const showLabels = zoom >= 10;
+    const showLabels = zoom >= 10 && pinNamesEnabled;
     
     if (!showLabels) {
       cluster.eachLayer((m) => {
@@ -1208,9 +1209,35 @@
       }
     });
     const box = new BaseToggle().addTo(map).getContainer();
+    
+    const LabelsToggle = L.Control.extend({
+      options: { position: "bottomright" },
+      onAdd: function () {
+        const el = L.DomUtil.create("div", "labels-toggle");
+        el.setAttribute("role", "group");
+        el.setAttribute("aria-label", "Pin labels");
+        const b = L.DomUtil.create("button", pinNamesEnabled ? "is-active" : "", el);
+        b.type = "button";
+        b.id = "labels-toggle-btn";
+        b.textContent = "Labels";
+        b.setAttribute("aria-pressed", pinNamesEnabled ? "true" : "false");
+        L.DomEvent.disableClickPropagation(el);
+        L.DomEvent.on(el, "click", function () {
+          pinNamesEnabled = !pinNamesEnabled;
+          localStorage.setItem("ww-pin-names", pinNamesEnabled ? "on" : "off");
+          b.classList.toggle("is-active", pinNamesEnabled);
+          b.setAttribute("aria-pressed", pinNamesEnabled ? "true" : "false");
+          updateNameLabels();
+        });
+        return el;
+      }
+    });
+    const labelsBox = new LabelsToggle().addTo(map).getContainer();
+    
     const wrap = document.createElement("div");
     wrap.className = "map-controls";
     wrap.appendChild(box);
+    wrap.appendChild(labelsBox);
     wrap.appendChild(zoom.getContainer());
     document.body.appendChild(wrap);
     map.on("zoomend", syncBase);
