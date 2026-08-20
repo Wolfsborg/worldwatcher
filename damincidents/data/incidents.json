@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 849,
+  "count": 873,
   "current_count": 25,
-  "historical_count": 824,
+  "historical_count": 848,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -46331,6 +46331,1316 @@
         {
           "label": "SANDRP — NDSA panel report wrap, 3 Nov 2023",
           "url": "https://sandrp.in/2023/11/03/dam-safety-panel-report-of-medigadda-dam-disaster-indicts-telangana-lt-and-dam-safety-in-india/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": 3,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 5 from the 1928 土木建築工事画報 table on Japanese Wikipedia. Company history cited there says 7; German list says 7 and 28 Aug. Used the contemporary table and the 29 Aug time given in the same article.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Toshin Electric (東信電気); later TEPCO lineage",
+      "year_built": "1927",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "komoro-daiichi-1928-08-29",
+      "name": "Komoro No. 1 regulating pond (old Suginoki / 旧第一調整池)",
+      "country": "Japan",
+      "region": "Minamijo, Komoro, Nagano Prefecture",
+      "location_label": "Former Komoro first regulating pond, now Minamijo Park, Nagano, Japan",
+      "lat": 36.3166247,
+      "lng": 138.4239451,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (南城公園, 小諸市). Japanese Wikipedia: the failed first pond stood where Minamijo Park is now. German list gives a circa pin 36°14′48.8″N 138°27′17.1″E that was not used.",
+      "river_or_facility": "Toshin Electric Komoro power-station first regulating pond (buttress dam); Chikuma / Shinano system",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "structural_design"
+      ],
+      "cause_summary": "Japanese Wikipedia (日本のダム): the reinforced-concrete buttress dam collapsed because the foundation ground was poor; the left-bank foundation subsided.",
+      "incident_date": "1928-08-29",
+      "latest_report_date": "2001",
+      "what_happened": "Japanese Wikipedia (杉の木貯水池): at 16:08 on 29 August 1928 a whirlpool appeared at the left-bank water surface of Toshin Electric's newly finished Komoro first regulating pond and water burst from the dam bottom; the left-bank section then subsided with its foundation. Operators closed the intake and opened the sediment gate; the pond was empty by 20:02. The article's contemporary table (土木建築工事画報, 1928) lists 5 dead (1 man, 2 women, 2 children), 3 injured, 5 houses washed away, 1 house flooded, and about 6.5 ha inundated. A company history (千曲川電力所の歩み, 2001) cited in the same article says 7 dead and 9 houses lost. The site was abandoned; a replacement pond was later built at Imai, Saku (today's Suginoki reservoir). German Wikipedia list: 7 dead, 28 August 1928.",
+      "status": "Abandoned in place; replacement pond built at Imai, Saku (1937).",
+      "deaths": 5,
+      "sources": [
+        {
+          "label": "Japanese Wikipedia — 杉の木貯水池 (old first-pond failure table)",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%89%E3%81%AE%E6%9C%A8%E8%B2%AF%E6%B0%B4%E6%B1%A0"
+        },
+        {
+          "label": "Japanese Wikipedia — 日本のダム (failure list)",
+          "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E3%83%80%E3%83%A0"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 362 from Sakigake / Wikipedia for this first failure. Some later summaries give 374 for both 1936 failures combined (362+12). Cause left unknown; no fetched source states rain or liquefaction for 20 November.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Mitsubishi Mining (三菱鉱業); now Mitsubishi Materials lineage",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "osarizawa-nakazawa-1936-11-20",
+      "name": "Osarizawa Nakazawa tailings dam (中沢鉱滓ダム)",
+      "country": "Japan",
+      "region": "Osarizawa, Kazuno, Akita Prefecture",
+      "location_label": "Nakazawa TSF, Osarizawa mine, Kazuno, Akita, Japan",
+      "lat": 40.18842,
+      "lng": 140.756975,
+      "geo_accuracy": "approx",
+      "geo_source": "Jageocoder address node 秋田県鹿角市尾去沢字中沢 40.18842 N, 140.756975 E (named aza of the TSF). Wikipedia mine pin is 40.1833, 140.75; Nominatim historic-mine adit is 40.18578, 140.74668. Not a surveyed crest.",
+      "river_or_facility": "Mitsubishi Osarizawa mine Nakazawa sulphide-slime settling pond",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Japanese Wikipedia and Tokyo Nichinichi (21 Nov 1936 evening): the Nakazawa sulphide-slime settling dam failed about 04:00 on 20 November 1936. No mechanism (rain vs structural) is given in the sources fetched.",
+      "incident_date": "1936-11-20",
+      "latest_report_date": "2016-12-23",
+      "what_happened": "Japanese Wikipedia (尾去沢鉱山) and Sakigake (quoting the 21 Nov 1936 Akita Sakigake evening paper): about 04:00 on 20 November 1936 the Nakazawa dam that stored sulphide slime from Mitsubishi Mining's Osarizawa copper mine failed and buried downstream miners' barracks and the town. Sakigake / Wikipedia: 362 dead and 258 houses washed away. Tokyo Nichinichi (21 Nov 1936 evening, cited on Wikipedia): 'poison-water settling dam failed, 300 houses buried.' The Showa Emperor sent a chamberlain and a 7,000-yen relief gift. A rebuilt dam on the same site failed again on 22 December 1936 (separate record).",
+      "status": "Rebuilt after November; failed again in December 1936. Mine closed 1978; site later a historic mine park.",
+      "deaths": 362,
+      "sources": [
+        {
+          "label": "Japanese Wikipedia — 尾去沢鉱山 (鉱滓ダム決壊事故)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B0%BE%E5%8E%BB%E6%B2%A2%E9%89%B1%E5%B1%B1"
+        },
+        {
+          "label": "Akita Sakigake — ダム決壊の音が耳に (2016-12-23, citing 1936-11-21 evening paper)",
+          "url": "https://www.sakigake.jp/special/jidai/040/article_05.jsp"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 12 from Wikipedia for this second failure. Do not add the November 362. Tokyo Nichinichi '81 involved' is not used as a death count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Mitsubishi Mining (三菱鉱業)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "osarizawa-nakazawa-1936-12-22",
+      "name": "Osarizawa Nakazawa tailings dam (rebuild failure)",
+      "country": "Japan",
+      "region": "Osarizawa, Kazuno, Akita Prefecture",
+      "location_label": "Nakazawa TSF, Osarizawa mine, Kazuno, Akita, Japan",
+      "lat": 40.18842,
+      "lng": 140.756975,
+      "geo_accuracy": "approx",
+      "geo_source": "Same Jageocoder 字中沢 pin as osarizawa-nakazawa-1936-11-20",
+      "river_or_facility": "Mitsubishi Osarizawa mine Nakazawa sulphide-slime settling pond (under repair)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Japanese Wikipedia citing Tokyo Nichinichi 23 Dec 1936: the dam failed again at about 04:40 on 22 December 1936 while repairs from the 20 November failure were still under way. No further mechanism is given in the sources fetched.",
+      "incident_date": "1936-12-22",
+      "latest_report_date": "1994",
+      "what_happened": "Japanese Wikipedia: the Nakazawa dam, being repaired after the 20 November 1936 failure, failed again about 04:40 on 22 December 1936 and killed 12 people. Tokyo Nichinichi (23 Dec 1936 evening, cited there) headlined that the dam under repair failed again and 81 people were involved in the disaster (遭難). Separate from the November record.",
+      "status": "Second 1936 failure during reconstruction.",
+      "deaths": 12,
+      "sources": [
+        {
+          "label": "Japanese Wikipedia — 尾去沢鉱山 (citing Tokyo Nichinichi 1936-12-23)",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B0%BE%E5%8E%BB%E6%B2%A2%E9%89%B1%E5%B1%B1"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 1 (the recovered angler). Dam body did not collapse; this is a gate failure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Kansai Electric Power (関西電力)",
+      "year_built": "1961–1968",
+      "height_m": 25.2,
+      "reservoir_capacity": "5,119,000 m³ (Wikipedia)",
+      "construction": "concrete_gravity",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Wachi Dam Gate Accident Technical Investigation Committee (Kyoto DPRI / Yano)",
+      "verification": "confirmed",
+      "id": "wachi-gate-1967-07-02",
+      "name": "Wachi Dam Tainter gate No. 3",
+      "country": "Japan",
+      "region": "Obata-Shimonoge, Kyōtamba, Funai District, Kyoto Prefecture",
+      "location_label": "Wachi Dam, Yura River, Kyoto, Japan",
+      "lat": 35.25222,
+      "lng": 135.41667,
+      "geo_accuracy": "exact",
+      "geo_source": "Japanese Wikipedia (和知ダム) 35°15′08″N 135°25′00″E; Nominatim dam node 35.2521953, 135.4166963",
+      "river_or_facility": "Wachi Dam / Yura River; Kansai Electric Wachi power station",
+      "type": "spillway",
+      "category": "failure",
+      "causes": [
+        "structural_design",
+        "operational_gate"
+      ],
+      "cause_summary": "Japanese Wikipedia / Dampedia / Kyoto DPRI: Tainter gate No. 3 failed about a month after completion; investigation attributed collapse to insufficient strength of the gate legs (buckling) and design that omitted hydrodynamic load. Later papers also discuss flow-induced vibration at small openings.",
+      "incident_date": "1967-07-02",
+      "latest_report_date": "1978",
+      "what_happened": "Japanese Wikipedia and Mainichi (50-years-ago, 2017): on 2 July 1967, during heavy rain that rapidly raised the new Kansai Electric Wachi Dam on the Yura, the third gate blew out. Mainichi: the 35-tonne gate was carried about 100 m downstream; two ayu anglers were swept away and one body was found the next day. Dampedia: peak release about 780 m³/s; one angler died. Japanese Wikipedia cites Asahi 3 July 1967 ('new dam gate blown, evacuation warning') and 26 July 1967 ('lightweight gate / cheap construction'). Construction Ministry and MITI set up the Wachi Dam Gate Accident Technical Investigation Committee chaired by Yano Katsumasa (Kyoto DPRI). The dam (gravity concrete, 25.2 m, 5.119 million m³) later entered service in 1968 after gate reconstruction.",
+      "status": "Gate replaced; dam in service (Kansai Electric).",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "Japanese Wikipedia — 和知ダム",
+          "url": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%9F%A5%E3%83%80%E3%83%A0"
+        },
+        {
+          "label": "Mainichi — 関西５０年前：昭和42年7月2日 豪雨がダム壊す",
+          "url": "https://mainichi.jp/articles/20170629/oog/00m/040/126000c"
+        },
+        {
+          "label": "Dampedia — 和知ダム (gate accident summary)",
+          "url": "https://dampedia.com/list/kinki/kyoto/1404.html"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from the 2016 paper (no casualties at Naka-ike). Do not copy Fujinuma's 7–8 deaths or the Tohoku earthquake/tsunami national toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 11.4,
+      "reservoir_capacity": "35,000 m³ (JSIDRE 2014 note)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "nakaike-hokozuki-2011-03-11",
+      "name": "Naka-ike irrigation pond (中池, Hokozuki)",
+      "country": "Japan",
+      "region": "Hokozuki (桙衝), Sukagawa, Fukushima Prefecture",
+      "location_label": "Naka-ike, Hokozuki, Sukagawa, Fukushima, Japan",
+      "lat": 37.269615,
+      "lng": 140.256881,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (桙衝, 須賀川市). Sukagawa hazard-map title is 中池（桙衝）. Not a surveyed crest.",
+      "river_or_facility": "Naka-ike irrigation pond above Joga-ike (女鹿池)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "Hori et al. and J. Water, Energy and Environment: Naka-ike in Sukagawa was one of three Fukushima irrigation ponds that totally collapsed in the 11 March 2011 Tohoku earthquake.",
+      "incident_date": "2011-03-11",
+      "latest_report_date": "2016",
+      "what_happened": "JSIDRE / Hori et al.: three small earth dams in Fukushima totally collapsed in the 2011 Tohoku earthquake (Fujinuma plus two others). J. Water, Energy and Environment (2016): the other two were Naka-ike (Sukagawa) and Aota-shin-ike (Motomiya). Naka-ike floodwater entered the lower pond Joga-ike and then drained; that paper says there were no casualties at Naka-ike or Aota-shin-ike (unlike Fujinuma). A 2014 JSIDRE note: Naka-ike height 11.4 m, 35,000 m³; Joga-ike 6.9 m, 15,000 m³; breach outflow was stored then passed Joga-ike's spillway, crossed a national road, and entered a drain. The same paper says the flood wave grew about 16:30, nearly two hours after the 14:46 main shock.",
+      "status": "Collapsed 2011. Separate from Fujinuma.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Hori, Ueno, Matsushima 2012 — 福島県のため池被災の特徴と応急対策",
+          "url": "https://doi.org/10.24514/0002001450"
+        },
+        {
+          "label": "J. Water Energy Environ. — 藤沼ダムの決壊と住民の安全 (names Naka-ike and Aota-shin-ike)",
+          "url": "https://www.jstage.jst.go.jp/article/jwei/28/2/28_jwei280212/_pdf"
+        },
+        {
+          "label": "Sukagawa City — ため池ハザードマップ (中池／桙衝)",
+          "url": "https://www.city.sukagawa.fukushima.jp/kurashi/bosai/1013390/1001927.html"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from the 2016 paper. Do not copy Fujinuma or Tohoku national deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 8.3,
+      "reservoir_capacity": "17,000 m³ (JSIDRE inundation paper)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "aotashinike-motomiya-2011-03-11",
+      "name": "Aota-shin-ike irrigation pond (青田新池)",
+      "country": "Japan",
+      "region": "Aota, Motomiya, Fukushima Prefecture",
+      "location_label": "Aota-shin-ike, Motomiya, Fukushima, Japan",
+      "lat": 37.501962,
+      "lng": 140.374651,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (青田, 本宮市). Papers place Aota-shin-ike in Motomiya; floodwater went to Otani-ike. Not a surveyed crest.",
+      "river_or_facility": "Aota-shin-ike irrigation pond above Otani-ike (大谷池)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "J. Water, Energy and Environment (2016): Aota-shin-ike in Motomiya was the third of three Fukushima irrigation ponds that totally collapsed in the 11 March 2011 Tohoku earthquake.",
+      "incident_date": "2011-03-11",
+      "latest_report_date": "2016",
+      "what_happened": "JSIDRE inundation paper on Aota-shin-ike: a wrap-around embankment, height 8.3 m, 17,000 m³, failed at a bend. Most floodwater crossed paddy and entered Otani-ike, which rose near the crest but passed its spillway without overtopping. J. Water, Energy and Environment: floodwater passed about 100 m beside houses and entered Otani-ike; no casualties at this pond (unlike Fujinuma). Both ponds were nearly full at the time of the earthquake.",
+      "status": "Collapsed 2011.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "JSIDRE — 東日本大震災における決壊ため池の氾濫解析 (Aota-shin-ike)",
+          "url": "https://soil.en.a.u-tokyo.ac.jp/jsidre/search/PDFs/13/13007-01.pdf"
+        },
+        {
+          "label": "J. Water Energy Environ. — 藤沼ダムの決壊と住民の安全",
+          "url": "https://www.jstage.jst.go.jp/article/jwei/28/2/28_jwei280212/_pdf"
+        },
+        {
+          "label": "Hori, Ueno, Matsushima 2012 — three total collapses in Fukushima",
+          "url": "https://doi.org/10.24514/0002001450"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null; no source fetched gave a count. Year only (1742).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Harzwasserwerke (present)",
+      "year_built": "1728; raised 1740",
+      "height_m": 6.5,
+      "reservoir_capacity": "about 73,000 m³ (Harzlife, present pond)",
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "polstertaler-1742",
+      "name": "Polstertaler Teich",
+      "country": "Germany",
+      "region": "between Altenau and Clausthal-Zellerfeld, Oberharz, Lower Saxony",
+      "location_label": "Polstertaler Teich, Altenau, Harz, Germany",
+      "lat": 51.7976299,
+      "lng": 10.4120442,
+      "geo_accuracy": "exact",
+      "geo_source": "Nominatim (Polstertaler Teich, lake) 51.7976299, 10.4120442",
+      "river_or_facility": "Polstertaler Teich / Schwarzes Wasser (Oberharzer Wasserregal)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Harzlife: the 1740 raise was poorly tied into the old dam, combined with flood and a too-small spillway (Ausflut).",
+      "incident_date": "1742",
+      "latest_report_date": "2014",
+      "what_happened": "German Wikipedia list of dam accidents names Polstertaler Teich 1742 among German dam breaks. Harzlife and Ausflugsziele-Harz: the pond was built 1728 in the new Oberharz style and raised in 1740; two years later the dam broke. Harzlife: the likely cause was a poor connection of the raise to the old dam plus flood and an undersized spillway. The dam was repaired stronger; present dimensions about 140 m long and 6.50 m high, about 73,000 m³. It powered stamp mills in the Polstertal and later the Polsterberger Hubkunst. Now in the UNESCO Oberharz water-management landscape. No death count in the sources fetched.",
+      "status": "Repaired after 1742; pond remains (UNESCO Oberharz).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        },
+        {
+          "label": "Harzlife — Der Polstertaler Teich",
+          "url": "https://www.harzlife.de/teiche/polstertaler-teich.html"
+        },
+        {
+          "label": "Ausflugsziele-Harz — Polstertaler Teich",
+          "url": "https://www.ausflugsziele-harz.de/ausflugsziele-sehenswertes/baden/polstertaler-teich-altenau.htm"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year only (1752).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1716",
+      "height_m": null,
+      "reservoir_capacity": "about 300,000 m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "glasebacher-1752",
+      "name": "Glasebacher Teich",
+      "country": "Germany",
+      "region": "Straßberg, Unterharz, Saxony-Anhalt",
+      "location_label": "Glasebacher Teich, Straßberg, Harz, Germany",
+      "lat": 51.609466,
+      "lng": 11.060792,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Glasebacher Teich) API 51.609466, 11.060792",
+      "river_or_facility": "Glasebacher Teich / Glasebach (Unterharzer Teich- und Grabensystem)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "German Wikipedia: the dam broke in a storm in 1752 after the Striegel (bottom outlet) could no longer be operated.",
+      "incident_date": "1752",
+      "latest_report_date": "1810",
+      "what_happened": "German Wikipedia: Glasebacher Teich was a mining/power pond of about 300,000 m³ (second-largest Unterharz pond), built 1716 under mining director Christian Zacharias Koch on the Glasebach near Straßberg. In 1752, after a storm, the dam broke because the Striegel could no longer be worked. The flood destroyed Bärlochsmühle at the valley mouth. The remaining dam fragment is part of the Unterharz pond-and-ditch monument. Koch's account was excerpted by Keßler (Halle 1810). No death count in the sources fetched.",
+      "status": "Not restored; dam remnant remains as a monument.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "German Wikipedia — Glasebacher Teich",
+          "url": "https://de.wikipedia.org/wiki/Glasebacher_Teich"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: Wikipedia says person or property damage from the flood wave is not documented.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "c. 1620",
+      "height_m": 6,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Oberbergamt Clausthal (Ey report)",
+      "verification": "confirmed",
+      "id": "unterer-einersberger-1820-09-29",
+      "name": "Unterer Einersberger Teich",
+      "country": "Germany",
+      "region": "west of Zellerfeld, Clausthal-Zellerfeld, Lower Saxony",
+      "location_label": "Unterer Einersberger Teich remnant, Clausthal-Zellerfeld, Germany",
+      "lat": 51.812475,
+      "lng": 10.30376,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Unterer Einersberger Teich) API 51.812475, 10.30376",
+      "river_or_facility": "Unterer Einersberger Teich / Zellbach (Oberharzer Wasserregal)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Oberbergmeister Ey / Martin Schmidt: a cavity from internal erosion of a damaged turf-sod seal, without wave-protection riprap, opened a hole on the downstream face and the dam collapsed in fair weather at normal water.",
+      "incident_date": "1820-09-29",
+      "latest_report_date": "2012",
+      "what_happened": "German Wikipedia: the dam (about 110 m long, 6 m high, built around 1620) failed unexpectedly on the afternoon of 29 September 1820 in good weather at normal storage. Witness Böhler saw a large hole open on the air-side slope and the dam collapse seconds later. Woodcutter Papst had seen a hole in the crest the day before that gurgled and grew. The breach was about 20 m (11–12 Lachter) wide. Ey concluded the turf-sod seal was defective and lacked riprap, and that a cavity had grown inside until collapse. Person or property damage from the wave is not documented. The pond was not rebuilt; a shallow wetland remains at the listed ruin on the Harzwasserwerke 'Einersberger Teiche' water walk.",
+      "status": "Not rebuilt; dam ruin and wetland remain (UNESCO Oberharz).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "German Wikipedia — Unterer Einersberger Teich",
+          "url": "https://de.wikipedia.org/wiki/Unterer_Einersberger_Teich"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Contemporary Bergwerksfreund 1839 is cited on Wikipedia but was not fetched.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1674–1682",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "neuer-teich-freiberg-1839-06-02",
+      "name": "Neuer Teich (Freiberg / Kuhschachter Teich)",
+      "country": "Germany",
+      "region": "Neusorge / Oberloßnitz, Freiberg, Saxony",
+      "location_label": "Former Neuer Teich, Freiberg, Saxony, Germany",
+      "lat": 50.905872,
+      "lng": 13.358684,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Neuer Teich (Freiberg)) 50.905872, 13.358684",
+      "river_or_facility": "Neuer Teich / Münzbach (Freiberg municipal process-water pond)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "German Wikipedia: after cloudburst releases from the upstream Berthelsdorfer Hüttenteich, the Neuer Teich spillway (Fluter) could not be opened because it was nailed shut, and the dam broke about 04:00.",
+      "incident_date": "1839-06-02",
+      "latest_report_date": "1988",
+      "what_happened": "German Wikipedia: the municipal Neuer Teich on the Münzbach southeast of Freiberg-Neusorge was built 1674–1682 as a process-water pond (also feeding the Kuhschacht art ditch). On the evening of 1 June 1839, after heavy rain, the Berthelsdorfer Hüttenteich spillways were opened and water plus hillside runoff filled the Neuer Teich. About 03:00 on 2 June, Kunststeiger Müller found floodwater at Vorwerk A.B.C. and could not open the Neuer Teich Fluter because it was nailed; he went for help. About 04:00 the dam broke and a flood wave ran down the Freiberger Münzbachtal. The city later left the site waste ('Ausgerissener Teich'); a 1902 development plan used that name. No death count in the sources fetched.",
+      "status": "Not rebuilt as a reservoir; site later urbanised as Ausgerissener Teich.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "German Wikipedia — Neuer Teich (Freiberg)",
+          "url": "https://de.wikipedia.org/wiki/Neuer_Teich_(Freiberg)"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 13 from German Wikipedia (2 US + 11 German POWs). Freie Presse 12+3 and Grünbach '12 on 15 May' noted, not used. Cause unknown in the controlled vocab (munitions explosion after surrender, not combat war_attack).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Landestalsperrenverwaltung Sachsen (present)",
+      "year_built": "1920–1925",
+      "height_m": 25,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "muldenberg-1945-05-13",
+      "name": "Talsperre Muldenberg (ammunition explosion)",
+      "country": "Germany",
+      "region": "Muldenberg / Schöneck, Vogtlandkreis, Saxony",
+      "location_label": "Muldenberg Dam, Vogtland, Saxony, Germany",
+      "lat": 50.41027778,
+      "lng": 12.40138889,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Talsperre Muldenberg) API 50.41027778, 12.40138889",
+      "river_or_facility": "Talsperre Muldenberg / Rote Mulde, Weiße Mulde, Saubach",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "German Wikipedia: an explosion while sinking Wehrmacht ammunition into the reservoir on 13 May 1945 tore the masonry gravity dam. Not a hydrologic or first-filling failure.",
+      "incident_date": "1945-05-13",
+      "latest_report_date": "2015",
+      "what_happened": "German Wikipedia: the Intze-type rubble-masonry gravity dam (built 1920–1925; longest masonry crest in Saxony, 525 m of which 476 m visible) was badly damaged on 13 May 1945 when ammunition being sunk in the reservoir exploded. Wikipedia: two US soldiers and eleven German prisoners of war died; their common grave is about 200 m east of the site. The reservoir emptied over about six days; downstream settlements were not damaged. The wall was rebuilt 1946–1950 (a 90 m inspection/drainage gallery was added then). Freie Presse (eyewitness Lorenz) gives 12 German POWs and 3 US soldiers. Grünbach town page says 12 dead and dates 15 May. This record uses Wikipedia's 13 May and 13 dead (2+11).",
+      "status": "Rebuilt 1946–1950; rehabilitated 2001–2007; in service as drinking-water / flood-control dam.",
+      "deaths": 13,
+      "sources": [
+        {
+          "label": "German Wikipedia — Talsperre Muldenberg",
+          "url": "https://de.wikipedia.org/wiki/Talsperre_Muldenberg"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        },
+        {
+          "label": "Freie Presse — eyewitness of the 1945 explosion (toll variant)",
+          "url": "https://www.freiepresse.de/vogtland/auerbach/vogtlaender-erinnert-sich-an-talsperren-explosion-mit-tellermine-ich-hatte-das-scheissding-in-der-hand-artikel13838743"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 1,000 residents trapped in upper storeys (Wikipedia)",
+      "notes": "Deaths 0 at this dam (Wikipedia / Heimatverein). Do not copy the Arzell storm death or other 19 July 1966 regional deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1906",
+      "height_m": 6,
+      "reservoir_capacity": "about 164,000–170,000 m³ at failure (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "fischbeck-hrb-1966-07-19",
+      "name": "Rückhaltebecken Fischbeck (Nährenbach / Süntel)",
+      "country": "Germany",
+      "region": "Fischbeck am Süntel, Hessisch Oldendorf, Lower Saxony",
+      "location_label": "Fischbeck detention basin, Süntel, Lower Saxony, Germany",
+      "lat": 52.150248,
+      "lng": 9.309573,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Unwetter vom 19. Juli 1966) 52°9′0.9″N 9°18′34.5″E",
+      "river_or_facility": "Rückhaltebecken on the Nährenbach above Fischbeck",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "German Wikipedia: the 6 m earth dam (1906), with no bottom outlet, overtopped unnoticed in a cloudburst and then breached about 30 m.",
+      "incident_date": "1966-07-19",
+      "latest_report_date": "2009",
+      "what_happened": "German Wikipedia: after two days of rain, a thunderstorm dropped 80 mm in two hours on the Süntel on 19 July 1966. The 1906 detention basin about 300 m above Fischbeck (no Grundablass) overtopped about an hour after the storm began, then breached about 30 m around 18:50 (Hamburger Abendblatt) or 21:00 (another cited source), releasing about 164,000 m³ as a roughly 4 m wave. About 1,000 residents reached upper floors; 150 houses in Fischbeck were damaged (50 severely, 5 destroyed); livestock losses were high. Wikipedia and the Heimatverein: no human deaths at Fischbeck (one storm death at Arzell in North Hesse is a different place). The dam was later raised to 11.90 m (1968/69 and 1999) with a controlled outlet; capacity now about 935,000 m³.",
+      "status": "Rebuilt higher with outlet and alarm; in service.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "German Wikipedia — Unwetter vom 19. Juli 1966",
+          "url": "https://de.wikipedia.org/wiki/Unwetter_vom_19._Juli_1966"
+        },
+        {
+          "label": "Heimatverein Fischbeck — Die Flutkatastrophe von 1966",
+          "url": "https://www.heimatverein-fischbeck.de/die-flutkatastrophe-von-1966.html"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1749",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ballenstedt-1969-04-07",
+      "name": "Kunstteich Ballenstedt",
+      "country": "Germany",
+      "region": "Ballenstedt, Harz District, Saxony-Anhalt",
+      "location_label": "Kunstteich Ballenstedt, Harz, Germany",
+      "lat": 51.70638889,
+      "lng": 11.23722222,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Kunstteich Ballenstedt) API 51.70638889, 11.23722222",
+      "river_or_facility": "Kunstteich Ballenstedt / Garnwinde and Sauerbach",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "German Wikipedia: a dam-crest break near the Striegel during a flood on 7 April 1969.",
+      "incident_date": "1969-04-07",
+      "latest_report_date": "2009-04-07",
+      "what_happened": "German Wikipedia: the earth dam with internal seal (built 1749 for a neighbouring coal mine; later recreation / emergency drinking water) had a dam-crest break near the Striegel in a flood on 7 April 1969. The works were repaired through 1974 and the wooden bottom outlet was replaced with steel. Mitteldeutsche Zeitung 7 April 2009 ('Opperode in Wasser und Schlamm') is cited. No death count in the sources fetched.",
+      "status": "Repaired by 1974; still in use as a bathing/recreation pond.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "German Wikipedia — Kunstteich Ballenstedt",
+          "url": "https://de.wikipedia.org/wiki/Kunstteich_Ballenstedt"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 (Wikipedia: Todesopfer gab es nicht).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1950s",
+      "height_m": 6,
+      "reservoir_capacity": "300,000 m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "haslach-hrb-1969-08-17",
+      "name": "Hochwasserrückhaltebecken Haslach (Rot an der Rot)",
+      "country": "Germany",
+      "region": "between Haslach and Rot an der Rot, Biberach District, Baden-Württemberg",
+      "location_label": "Former Haslach detention basin, Rot an der Rot, Germany",
+      "lat": 47.996993,
+      "lng": 10.043769,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Hochwasserrückhaltebecken Haslach) 47°59′49.2″N 10°2′37.6″E",
+      "river_or_facility": "HRB Haslach / Haslach (Rot an der Rot)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "German Wikipedia / Hau & Butscher: spillway gates that had been open were closed around 18:00 at a sawmill owner's request, the 6 m earth dam then overtopped and breached the same evening.",
+      "incident_date": "1969-08-17",
+      "latest_report_date": "2008-08",
+      "what_happened": "German Wikipedia: the 1950s dry detention basin (homogeneous loamy-gravel dam about 6 m high, 300,000 m³, 1,200 mm outlet, two 2.50 m gated spillway openings) on the Haslach between Haslach and Rot an der Rot failed on 17 August 1969. A thunderstorm filled the basin; witnesses said the gates stayed open until about 18:00, then were closed to protect a downstream timber yard, after which the dam overtopped and broke before midnight. The other two basins (Pfaffenriederbach, Ölbach) held. No deaths; timber jammed a culvert and water entered ground-floor windows. The dam was not rebuilt; HRB Rappenbach and HRB Pfaffenrieder Bach were built later as replacements.",
+      "status": "Not rebuilt; remnants remain. Replacement basins built upstream.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "German Wikipedia — Hochwasserrückhaltebecken Haslach",
+          "url": "https://de.wikipedia.org/wiki/Hochwasserr%C3%BCckhaltebecken_Haslach"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Year only (1976). Not the Freiberg Neuer Teich.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": 12,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "neuer-teich-gernrode-1976",
+      "name": "Neuer Teich (Gernrode / Silberteich)",
+      "country": "Germany",
+      "region": "near Gernrode, Harz District, Saxony-Anhalt",
+      "location_label": "Neuer Teich, Gernrode, Harz, Germany",
+      "lat": 51.70583333,
+      "lng": 11.10361111,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Neuer Teich (Gernrode)) API 51.70583333, 11.10361111",
+      "river_or_facility": "Neuer Teich / Steinbach (Hagentalbach to Gernrode)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "German Wikipedia: the dam broke after a violent rain in 1976 and water reached Gernrode 3.5 km downstream.",
+      "incident_date": "1976",
+      "latest_report_date": "2013",
+      "what_happened": "German Wikipedia: the old mining pond on the Steinbach near Gernrode (formerly Silberteich; drinking-water storage for Gernrode until 1962) had its dam break after a violent rain in 1976; the water reached Gernrode 3.5 km away. The dam was then strengthened and given an overflow system. Maximum depth at the dam is 12 m. Kellermann chronicle of Gernrode (2013) is cited. German list of dam accidents also names Neuer Teich (Gernrode) 1976. No death count and no calendar day in the sources fetched.",
+      "status": "Dam strengthened with overflow after 1976; swimming banned.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "German Wikipedia — Neuer Teich (Gernrode)",
+          "url": "https://de.wikipedia.org/wiki/Neuer_Teich_(Gernrode)"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 3,000 in the area (ZEIT)",
+      "notes": "Deaths null. Do not copy the 2013 Elbe/Danube regional death toll. Different place from fischbeck-hrb-1966-07-19 (Süntel / Weser).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "fischbeck-elbe-2013-06-10",
+      "name": "Elbe main dike at Fischbeck (Saxony-Anhalt)",
+      "country": "Germany",
+      "region": "Fischbeck (Elbe), Wust-Fischbeck, Stendal District, Saxony-Anhalt",
+      "location_label": "Elbe right-bank dike, Fischbeck opposite Tangermünde, Germany",
+      "lat": 52.5400146,
+      "lng": 12.0157667,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (Fischbeck (Elbe) village). ZEIT: the breach was about 800 m from the village. Not a surveyed crest.",
+      "river_or_facility": "Elbe right-bank Hauptdeich at Fischbeck",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Jüpner (two years after) / ZEIT: after a landside crest crack and sandbag-raising, the raised crest was overtopped as the Elbe peak passed Tangermünde (838 cm, 38 cm above design) and the dike breached about 00:02 on 10 June 2013.",
+      "incident_date": "2013-06-10",
+      "latest_report_date": "2015",
+      "what_happened": "During the June 2013 Elbe flood the right-bank main dike at Fischbeck opposite Tangermünde failed about 00:02 on 10 June (Jüpner). ZEIT: the first tear was about 10 m and grew to about 50 m; about 1,000 m³/s entered; the village about 800 m away was about a metre under water; about 3,000 people in the area had to move to safety. Flooded area later exceeded 150 km². The gap was closed in a widely reported operation that floated and sank barges in the breach. No death count at this dike in the sources fetched.",
+      "status": "Breach closed with sunk barges; memorial later planned (zxc.wiki / local reporting).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ZEIT — Fischbeck steht nach Deichbruch unter Wasser",
+          "url": "https://www.zeit.de/gesellschaft/zeitgeschehen/2013-06/hochwasser-damm-fischbeck-sachsen-anhalt"
+        },
+        {
+          "label": "Jüpner — Deichbruch Fischbeck zwei Jahre danach (PDF)",
+          "url": "https://v-web002.deltares.nl/sterktenoodmaatregelen/images/c/cb/FA_Burkhard_Juepner_(2).pdf"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 (Swedish Wikipedia: Ingen människa kom till skada). Date 12 Nov from the Swedish article; German page notes some sources say 9 Nov.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Skellefteå Kraft (present); city of Skellefteå (builder)",
+      "year_built": "1939–1943",
+      "height_m": 21,
+      "reservoir_capacity": "1.8 million m³ emptied (German Wikipedia)",
+      "construction": "masonry",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "selsfors-1943-11-12",
+      "name": "Selsfors Dam (first filling)",
+      "country": "Sweden",
+      "region": "Skellefteå Municipality, Västerbottens län",
+      "location_label": "Selsfors Dam, Skellefteälven, Sweden",
+      "lat": 64.74111111,
+      "lng": 20.62972222,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Selsfors) 64°44′28″N 20°37′47″E",
+      "river_or_facility": "Selsfors kraftstation / Skellefteälven",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Swedish and German Wikipedia: during first filling, seepage through the foundation washed out fluvioglacial sand (piping) and the dam collapsed after about six hours.",
+      "incident_date": "1943-11-12",
+      "latest_report_date": "1995",
+      "what_happened": "Swedish Wikipedia (Selsfors kraftstation, citing Westerlund 1995): the city decided the dam on 7 April 1937; construction began March 1939 and was finished 1941; 21 m high, 200 m wide. On first filling the dam failed on 12 November 1943. Water had seeped in; in less than six hours enough material was removed by backward erosion. No one was hurt; the dam was rebuilt the next year; total cost 13.7 million kronor. German Wikipedia: some sources also give 9 November 1943; water was 18.2 m versus 20 m normal; 1.8 million m³ emptied; piping of fluvioglacial sand under the masonry pier dam. The power station later entered service in 1944.",
+      "status": "Rebuilt 1944; Skellefteå Kraft still operates the station.",
+      "deaths": 0,
+      "sources": [
+        {
+          "label": "Swedish Wikipedia — Selsfors kraftstation",
+          "url": "https://sv.wikipedia.org/wiki/Selsfors_kraftstation"
+        },
+        {
+          "label": "German Wikipedia — Selsfors",
+          "url": "https://de.wikipedia.org/wiki/Selsfors"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Polesine flood: about 180,000 displaced (Protezione Civile; regional, not this breach alone)",
+      "notes": "Deaths null. The ~100–101 Polesine flood deaths and 180,000 displaced are regional and are not assigned to these three openings.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "polesine-malcantone-1951-11-14",
+      "name": "Po left-bank levees at Paviole, Bosco and Malcantone (Polesine)",
+      "country": "Italy",
+      "region": "Canaro and Occhiobello, Province of Rovigo, Veneto",
+      "location_label": "Malcantone, Occhiobello, Po River, Italy",
+      "lat": 44.896375,
+      "lng": 11.5970588,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (Malcantone, Occhiobello) — one of the three named 14 Nov 1951 left-bank breaches. Not a surveyed crest.",
+      "river_or_facility": "Po River master levee (argine maestro) at Vallice di Paviole / Bosco / Malcantone",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Italian Wikipedia and Claps et al.: the left-bank master levee overtopped and opened three breaches on the evening of 14 November 1951 after days of rain on a wartime-damaged embankment.",
+      "incident_date": "1951-11-14",
+      "latest_report_date": "2012",
+      "what_happened": "Italian Wikipedia (Alluvione del Polesine del novembre 1951): after days of rain, the Po left-bank master levee failed at 19:45 on 14 November at Vallone/Vallice di Paviole (Canaro), at 20:00 at Bosco (Occhiobello), and about 20:15 at Malcantone (Occhiobello). Combined outflow is given as on the order of 6,000–9,500 m³/s versus a river peak around 12,800 m³/s. Claps et al. reconstruct overtopping (crest 13.35 m asl; peak water 13.58 m asl) and a final inundation of about 1,080 km² lasting into late November. Protezione Civile: more than 100,000 ha, about 100 dead and 180,000 displaced in the Polesine flood as a whole — those regional figures are not copied onto this levee record. Draining lasted until May 1952.",
+      "status": "Historic levee breaches; Polesine flood defences later rebuilt.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Italian Wikipedia — Alluvione del Polesine del novembre 1951",
+          "url": "https://it.wikipedia.org/wiki/Alluvione_del_Polesine_del_novembre_1951"
+        },
+        {
+          "label": "Claps et al. — Reconstruction and analysis of the Po River inundation of 1951",
+          "url": "https://www.idrologia.polito.it/~claps/Papers/hyp_2012.pdf"
+        },
+        {
+          "label": "Protezione Civile — The Polesine flood",
+          "url": "https://servizio-nazionale.protezionecivile.gov.it/en/pagina-base/polesine-flood/"
+        }
+      ],
+      "severity": "catastrophic"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 1,000 evacuated (Taccari / E3S)",
+      "notes": "Deaths 1 during relief operations (Taccari / E3S). Do not copy other Emilia flood deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": "about 36–38 million m³ (Orlandini / Taccari)",
+      "breach_size": "about 80 m wide to ground level (Orlandini / Taccari)",
+      "downstream_risk": null,
+      "economic_damage": "more than $500 million (Orlandini et al. 2015)",
+      "investigating_agency": "Scientific committee (D'Alpaos et al., Relazione tecnico-scientifica 2014)",
+      "verification": "confirmed",
+      "id": "secchia-san-matteo-2014-01-19",
+      "name": "Secchia right-bank levee at San Matteo",
+      "country": "Italy",
+      "region": "San Matteo, north of Modena, Emilia-Romagna",
+      "location_label": "Secchia levee, San Matteo, Modena, Italy",
+      "lat": 44.699403,
+      "lng": 10.944911,
+      "geo_accuracy": "exact",
+      "geo_source": "Orlandini et al. 2015 WRR 44°41′57.85″N 10°56′41.68″E",
+      "river_or_facility": "Secchia River right-bank levee at San Matteo",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "Orlandini et al. (WRR 2015) and the official scientific committee: animal burrows (badger/fox/porcupine) in the levee likely started internal erosion or collapse under a high but not extreme Secchia stage.",
+      "incident_date": "2014-01-19",
+      "latest_report_date": "2015",
+      "what_happened": "Orlandini et al.: a right-bank Secchia levee failed at San Matteo on 19 January 2014 (first seen about 06:30). About 36–38 million m³ left the river (peak about 434 m³/s at the breach); the gap grew to about 80 m wide and to ground level within nine hours. About 52 km² flooded, including Bastiglia and Bomporto; damage more than $500 million. Taccari thesis / E3S: about 1,000 people evacuated and one man died during relief. A developing breach on the neighbouring Panaro was held. The 2014 investigative report (D'Alpaos et al.) discusses internal erosion and burrows.",
+      "status": "Breached; later repaired.",
+      "deaths": 1,
+      "sources": [
+        {
+          "label": "Orlandini et al. 2015 — Evidence of an emerging levee failure mechanism (WRR)",
+          "url": "https://doi.org/10.1002/2015wr017426"
+        },
+        {
+          "label": "Taccari — Investigation of animal burrowing, San Matteo Secchia levee (E3S 2016)",
+          "url": "https://doi.org/10.1051/e3sconf/20160919001"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 2 as Wikipedia attributes them to this Sant'Agata breach/flood of the comune. Do not copy the regional May 2023 Emilia-Romagna death toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "santerno-santagata-2023-05-16",
+      "name": "Santerno levee at Sant'Agata sul Santerno",
+      "country": "Italy",
+      "region": "Sant'Agata sul Santerno, Ravenna, Emilia-Romagna",
+      "location_label": "Santerno levee, Sant'Agata sul Santerno, Italy",
+      "lat": 44.44217,
+      "lng": 11.860124,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (Sant'Agata sul Santerno). Italian Wikipedia: the levee broke at the town. Not a surveyed crest.",
+      "river_or_facility": "Santerno River levee at Sant'Agata sul Santerno",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Italian Wikipedia (2023 Emilia-Romagna flood): the Santerno levee broke at Sant'Agata sul Santerno during the 16–17 May 2023 rains.",
+      "incident_date": "2023-05-16",
+      "latest_report_date": "2023",
+      "what_happened": "Italian Wikipedia (Alluvione dell'Emilia-Romagna del 2023): in the night of 16–17 May 2023 the Santerno levee broke at Sant'Agata sul Santerno, flooding 90% of the comune and causing 2 deaths. The Santerno also broke further north at Cà di Lugo and at two points about 7 km south at Mordano and Bagnara di Romagna (those openings are not this record). Regional 2023 flood deaths and landslide deaths are not copied here.",
+      "status": "Historic 2023 breach; emergency works followed.",
+      "deaths": 2,
+      "sources": [
+        {
+          "label": "Italian Wikipedia — Alluvione dell'Emilia-Romagna del 2023",
+          "url": "https://it.wikipedia.org/wiki/Alluvione_dell%27Emilia-Romagna_del_2023"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the regional May 2023 Emilia-Romagna death toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "idice-lamotta-2023-05-17",
+      "name": "Idice levee at La Motta (Budrio / Molinella)",
+      "country": "Italy",
+      "region": "La Motta / Vedrana, between Budrio and Molinella, Bologna, Emilia-Romagna",
+      "location_label": "Idice levee, La Motta, Budrio, Italy",
+      "lat": 44.574989,
+      "lng": 11.5909383,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (La Motta, Vedrana, Budrio). Press and Regione place the collapse at Ponte della Motta. Not a surveyed crest.",
+      "river_or_facility": "Idice (Reno tributary) levee at La Motta / Ponte della Motta",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Regione Emilia-Romagna and Il Post: the Idice levee collapsed at Ponte della Motta between Budrio and Molinella in the 16–17 May 2023 flood; the river left its bed.",
+      "incident_date": "2023-05-17",
+      "latest_report_date": "2023-06",
+      "what_happened": "Il Post: by about 03:00 on 16 May it was clear the Idice would break between Molinella and Budrio; it broke toward Selva Malvezzi (right bank). Ponte della Motta, used as a lookout, collapsed the next morning with no one on it. Regione Emilia-Romagna June 2023: works at Ponte della Motta below 'the point where the levee collapsed'; a stone filter barrier was placed for a new levee; about 80,000 m³ of bed material to be removed over 2.5 km. Vigili del Fuoco (Reggio 2000): Idice levee break at Lamotta, plus other named breaks that night. No death count for this opening in the sources fetched.",
+      "status": "Emergency levee/bed works in 2023.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Il Post — Cos’ha lasciato l’Idice dopo aver travolto questo ponte",
+          "url": "https://www.ilpost.it/2023/05/22/idice-crollo-ponte-motta-molinella-alluvione/"
+        },
+        {
+          "label": "Regione Emilia-Romagna — Idice cantiere Ponte della Motta (June 2023)",
+          "url": "https://notizie.regione.emilia-romagna.it/comunicati/2023/giugno/alluvione-idice-prosegue-il-cantiere-all2019altezza-del-ponte-della-motta-parte-la-sistemazione-di-2-chilometri-e-mezzo-di-alveo-a-valle-del-punto-di-collasso-dell2019argine-per-garantire-il-deflusso-estivo-verranno-rimossi-80mila-metri-cubi-di-terreno"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy the 1997 Oder national/international death toll onto this dike.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "chalupki-oder-1997-07-08",
+      "name": "Oder dike at Chałupki",
+      "country": "Poland",
+      "region": "Chałupki, Gmina Krzyżanowice, Racibórz County, Silesian Voivodeship",
+      "location_label": "Oder dike, Chałupki, Poland",
+      "lat": 49.9251425,
+      "lng": 18.3179213,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (Chałupki, gmina Krzyżanowice). Polish Wikipedia: the Oder tore the dike at Chałupki. Not a surveyed crest.",
+      "river_or_facility": "Oder / Odra flood dike at Chałupki",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Polish Wikipedia (Powódź tysiąclecia): the Oder tore the dike at Chałupki as the July 1997 flood crossed from the Czech border toward Racibórz.",
+      "incident_date": "1997-07-08",
+      "latest_report_date": "1997",
+      "what_happened": "Polish Wikipedia: on Tuesday 8 July 1997 water reached the Wodzisław Śląski / Racibórz area (Oder about 3,500 m³/s, 3 m above the gauge). Water spread from Chałupki to Racibórz and tore the dike at Chałupki. That night a wave over 10.5 m reached Racibórz and broke dikes in Ostróg and Płonia (those later openings are not this record). English Wikipedia 1997 flood: 114 dead in the international flood (56 Poland) — not copied here. No Chałupki-specific death count in the sources fetched.",
+      "status": "Historic 1997 breach; Racibórz Dolny dry reservoir later built upstream.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Polish Wikipedia — Powódź tysiąclecia",
+          "url": "https://pl.wikipedia.org/wiki/Pow%C3%B3d%C5%BA_tysi%C4%85clecia"
+        },
+        {
+          "label": "English Wikipedia — 1997 Central European flood",
+          "url": "https://en.wikipedia.org/wiki/1997_Central_European_flood"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 4,500 in the threatened gmina (RMF 24); ~90% of gmina flooded",
+      "notes": "Deaths null. Do not copy 2010 Central European / Vistula flood deaths. Separate from niedow-2010-08-07.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "wilkow-zastow-2010-05-21",
+      "name": "Vistula levee at Zastów Polanowski (Wilków)",
+      "country": "Poland",
+      "region": "Zastów Polanowski, Gmina Wilków, Opole Lubelskie County, Lublin Voivodeship",
+      "location_label": "Vistula levee, Zastów Polanowski / Wilków, Poland",
+      "lat": 51.2833231,
+      "lng": 21.876981,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim (Zastów Polanowski). Wierzbicki: breach at km 350.5 near Wilków. Not a surveyed crest.",
+      "river_or_facility": "Vistula left-bank levee at Zastów Polanowski (km 350.5)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wierzbicki et al. / Hydrology 2023: the Vistula levee at the Wilków study reach breached at noon on 21 May 2010 during a 5,400 m³/s flood; a second wave overtopped the temporary cofferdam on 6 June.",
+      "incident_date": "2010-05-21",
+      "latest_report_date": "2023",
+      "what_happened": "Hydrology (2023): after a 18 May crest and a Popów breach 90 km upstream, the levee in the Wilków study area failed at noon on 21 May 2010 at 5,400 m³/s and flooded Wilków village and about 90% of gmina Wilków. Wierzbicki: the more serious Middle-Vistula failure was at Zastów Polanowski (km 350.5) near Wilków, inundating almost the whole gmina. RMF 24: a gap hundreds of metres long opened in minutes; about 4,500 people lived in the threatened area; amphibious vehicles and a helicopter were sent. A temporary cofferdam was overtopped shortly after midnight on 6 June (second wave ~6,000 m³/s). No death count for this levee in the sources fetched.",
+      "status": "Breached May 2010; temporary closure overtopped 6 June 2010.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Hydrology 2023 — 2010 Middle Vistula / Wilków levee breach",
+          "url": "https://doi.org/10.3390/hydrology10100191"
+        },
+        {
+          "label": "Wierzbicki — geological setting and 2010 Vistula levee failures (Wilków / Zastów)",
+          "url": "http://www.aquazone.com.pl/wp-content/uploads/2013/01/03-Wierzbicki.pdf"
+        },
+        {
+          "label": "RMF 24 — ewakuacja w gminie Wilków",
+          "url": "https://www.rmf24.pl/raporty/raport-polskapodwoda/fakty/news-dramatyczna-sytuacja-w-gminie-wilkow-ewakuacja-tysiecy-ludzi,nId,279457"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 24,000 evacuated from Obrenovac (RHMS Serbia note)",
+      "notes": "Deaths null. Do not copy the 2014 Serbia/Bosnia regional flood death toll onto these dikes. Pin is the UNDAC-photographed east-side Sava gap.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "obrenovac-sava-2014-05",
+      "name": "Sava / Kolubara dikes at Obrenovac",
+      "country": "Serbia",
+      "region": "Obrenovac, City of Belgrade",
+      "location_label": "Sava levee breach north of Obrenovac, Serbia",
+      "lat": 44.679769,
+      "lng": 20.223728,
+      "geo_accuracy": "exact",
+      "geo_source": "UNDAC Serbia Floods May 2014 report Photo 8: levee breach north of Obrenovac 44°40′47.17″N 20°13′25.42″E",
+      "river_or_facility": "Sava River levee north of Obrenovac (and Kolubara/Tamnava dikes upstream)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ICPDR/ISRBC Sava flood report: Obrenovac flooded after dikes on tributaries breached about 10 km upstream; the Sava dike then failed at two places. UNDAC confirmed a levee gap north of the town.",
+      "incident_date": "2014-05-16",
+      "latest_report_date": "2014-05-26",
+      "what_happened": "English Wikipedia / RHMS Serbia: in the night of 15–16 May 2014 the Kolubara rose several metres and flooded about 90% of Obrenovac; the town was evacuated (about 24,000 in the RHMS note; Wikipedia later says the national evacuated total exceeded 30,000). ICPDR/ISRBC: tributary dikes breached some 10 km upstream, then the Sava dike failed at two locations. UNDAC field inspection 25–26 May: a floodwall damaged on the west of the 180° bend north of Obrenovac and a levee gap on the east (coordinates above). No sourced death count for these dikes alone; national 2014 Balkan flood deaths are not copied.",
+      "status": "Breaches identified and later repaired; town recovered.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ICPDR / ISRBC — Floods in May 2014 in the Sava River Basin",
+          "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/sava_floods_report.pdf"
+        },
+        {
+          "label": "UNDAC — Final report Serbia Floods May 2014 (breach coordinates)",
+          "url": "https://reliefweb.int/attachments/25ac8d44-85c5-3b97-a047-a21ad2607153/Final%20UNDAC%20Report%20-%20Serbia%20Floods%20May2014.pdf"
+        },
+        {
+          "label": "English Wikipedia — 2014 Southeast Europe floods (Obrenovac)",
+          "url": "https://en.wikipedia.org/wiki/2014_Southeast_Europe_floods"
         }
       ],
       "severity": "major"
