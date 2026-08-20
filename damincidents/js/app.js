@@ -462,10 +462,13 @@
       const m = L.marker([inc.lat, inc.lng], { icon, riseOnHover: true });
       m.bindPopup(popupHtml(inc), { closeButton: false });
       m.on("click", () => selectIncident(inc.id, { fromMap: true }));
+      m._incidentName = inc.name;
+      m._markerRadius = r;
       cluster.addLayer(m);
       markersById.set(inc.id, m);
     });
     updateFallbackMarkers();
+    updateNameLabels();
   }
 
   function distanceKm(lat1, lng1, lat2, lng2) {
@@ -519,9 +522,41 @@
       });
       m.bindPopup(popupHtml(inc), { closeButton: false });
       m.on("click", () => selectIncident(inc.id, { fromMap: true }));
+      m._incidentName = inc.name;
+      m._markerRadius = r;
       m.addTo(fallbackLayer);
       fallbackMarkersById.set(inc.id, m);
     });
+    updateNameLabels();
+  }
+
+  function updateNameLabels() {
+    if (!map) return;
+    const zoom = map.getZoom();
+    const showLabels = zoom >= 10;
+    
+    const processMarker = (m) => {
+      if (!m || !m._incidentName) return;
+      const hasTooltip = m.getTooltip();
+      if (showLabels && !hasTooltip) {
+        const r = m._markerRadius || 8;
+        m.bindTooltip(m._incidentName, {
+          permanent: true,
+          direction: "top",
+          offset: [0, -r],
+          className: "pin-name",
+          interactive: false,
+        });
+      } else if (!showLabels && hasTooltip) {
+        m.unbindTooltip();
+      }
+    };
+    
+    cluster.eachLayer(processMarker);
+    
+    fallbackMarkersById.forEach(processMarker);
+    
+    selectedLayer.eachLayer(processMarker);
   }
 
 
@@ -776,7 +811,7 @@
   function showSelectedPin(inc) {
     if (!selectedLayer || typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
     selectedLayer.clearLayers();
-    L.circleMarker([inc.lat, inc.lng], {
+    const m = L.circleMarker([inc.lat, inc.lng], {
       pane: "selectedPane",
       radius: 11,
       color: "#f3efe6",
@@ -784,7 +819,11 @@
       fillColor: markerColor(inc),
       fillOpacity: 0.95,
       interactive: false,
-    }).addTo(selectedLayer);
+    });
+    m._incidentName = inc.name;
+    m._markerRadius = 11;
+    m.addTo(selectedLayer);
+    updateNameLabels();
   }
 
   function focusSelectedIncident(inc) {
@@ -1163,6 +1202,7 @@
     });
     map.addLayer(cluster);
     map.on("zoomend", updateFallbackMarkers);
+    map.on("zoomend", updateNameLabels);
     const resize = () => { map.invalidateSize(); landingView(); };
     window.addEventListener("resize", resize);
     setTimeout(resize, 80);
