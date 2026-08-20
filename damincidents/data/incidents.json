@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1326,
-  "current_count": 27,
-  "historical_count": 1299,
+  "count": 1347,
+  "current_count": 28,
+  "historical_count": 1319,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -72668,6 +72668,1151 @@
         {
           "label": "Regione / Agenzia — Via Ragazzena sormonto at Castiglione di Cervia",
           "url": "https://protezionecivile.regione.emilia-romagna.it/novita/notizie/2023/ottobre/ripristino-argini-e-pulizia-del-fiume-lavori-sul-savio-e-suoi-affluenti-nei-territori-di-forli-cesena-e-ravenna"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Separate from mittlerer-kiliansteich-1944. Do not copy later Harz flood totals.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "historic Straßberg mining waterworks; successor Talsperrenbetrieb Sachsen-Anhalt",
+      "year_built": "about 1703–1704",
+      "height_m": 10,
+      "reservoir_capacity": "about 80,000 m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": "dam failed 1901 and was not rebuilt",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "unterer-kiliansteich-1901",
+      "name": "Unterer Kiliansteich (1901 breach)",
+      "country": "Germany",
+      "region": "Straßberg, Harz District, Saxony-Anhalt",
+      "location_label": "Unterer Kiliansteich / later Talsperre Kiliansteich, Straßberg, Germany",
+      "lat": 51.605833,
+      "lng": 11.023056,
+      "geo_accuracy": "site",
+      "geo_source": "German Wikipedia Talsperre Kiliansteich 51°36′21″N 11°1′23″E — new dam built 1989–95 on the site of the lowest (unterer) dam. Kiliansteiche page 51°36′20″N 11°1′28″E for the cascade.",
+      "river_or_facility": "Unterer Kiliansteich / Büschengraben (Unterharzer Teich- und Grabensystem)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "German Wikipedia Unterer Kiliansteich: the earth dam with sod core failed in a 1901 flood and was not rebuilt.",
+      "incident_date": "1901",
+      "latest_report_date": "2010",
+      "what_happened": "The lowest pond of the Kiliansteiche mining cascade near Straßberg (built about 1703–04 under Georg Christoph von Utterodt; dam about 10 m, storage about 80,000 m³) failed in a 1901 flood. Wikipedia: the dam was not rebuilt. From 1989–95 Talsperrenbetrieb Sachsen-Anhalt built Talsperre Kiliansteich on that lowest-dam site (rockfill, 24.6 m, 1.069 million m³). The old wooden bottom outlet was salvaged 25 September 1990 and is now in the Glasebach mine museum. No death count for the 1901 breach in the sources fetched.",
+      "status": "Not rebuilt; site now occupied by Talsperre Kiliansteich (1995).",
+      "sources": [
+        {
+          "label": "German Wikipedia — Unterer Kiliansteich (1901 breach)",
+          "url": "https://de.wikipedia.org/wiki/Unterer_Kiliansteich"
+        },
+        {
+          "label": "German Wikipedia — Kiliansteiche (cascade; 1901/1944)",
+          "url": "https://de.wikipedia.org/wiki/Kiliansteiche"
+        },
+        {
+          "label": "German Wikipedia — Talsperre Kiliansteich (pin; rebuilt on lowest dam)",
+          "url": "https://de.wikipedia.org/wiki/Talsperre_Kiliansteich"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Separate from unterer-kiliansteich-1901. Do not copy 1944/Harz war or flood totals.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "historic Straßberg mining waterworks",
+      "year_built": "1703",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": "dam failed 1944; remnants later removed",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "mittlerer-kiliansteich-1944",
+      "name": "Mittlerer Kiliansteich (1944 flood breach)",
+      "country": "Germany",
+      "region": "Straßberg, Harz District, Saxony-Anhalt",
+      "location_label": "Mittlerer Kiliansteich (now flooded by Talsperre Kiliansteich), Straßberg, Germany",
+      "lat": 51.605624,
+      "lng": 11.024318,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia Kiliansteiche cascade 51°36′20″N 11°1′28″E. Middle dam stood between the surviving upper pond and the lower 1901 site; remnants removed when the 1989–95 reservoir was built.",
+      "river_or_facility": "Mittlerer Kiliansteich / Büschengraben",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "German Wikipedia Kiliansteiche: the middle pond dam failed in a 1944 flood and was not rebuilt.",
+      "incident_date": "1944",
+      "latest_report_date": "2010",
+      "what_happened": "The middle Kiliansteich of the Straßberg mining cascade (built 1703 under Georg Christoff von Utterodt) failed in a 1944 flood. Wikipedia: the dam was not rebuilt; during construction of Talsperre Kiliansteich the remaining middle-dam remnants were removed and the basin was flooded by the new reservoir. The upper Kiliansteich (1703–04) survives as the Vorsperre. No death count for the 1944 breach in the sources fetched.",
+      "status": "Not rebuilt; basin flooded by Talsperre Kiliansteich after 1989.",
+      "sources": [
+        {
+          "label": "German Wikipedia — Kiliansteiche (1944 middle-dam breach)",
+          "url": "https://de.wikipedia.org/wiki/Kiliansteiche"
+        },
+        {
+          "label": "German Wikipedia — Talsperre Kiliansteich",
+          "url": "https://de.wikipedia.org/wiki/Talsperre_Kiliansteich"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 1876 Elbe/Schönebeck flood totals onto the weir. Separate from glinde-elbe-1876-02.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "LHW Sachsen-Anhalt (successor operator)",
+      "year_built": "1871–1875",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "three weir piers collapsed after stilling-basin scour (Wikipedia)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "pretziener-wehr-1876-02",
+      "name": "Pretziener Wehr (1876 ice / stilling-basin damage)",
+      "country": "Germany",
+      "region": "Pretzien, Schönebeck, Saxony-Anhalt",
+      "location_label": "Pretziener Wehr, Elbe flood-relief weir, Pretzien, Germany",
+      "lat": 52.039197,
+      "lng": 11.828117,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia Pretziener Wehr 52°2′21.1″N 11°49′41.2″E",
+      "river_or_facility": "Pretziener Wehr / Elbe-Umflutkanal",
+      "type": "weir",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "operational_gate",
+        "structural_design"
+      ],
+      "cause_summary": "Wikipedia: in the February 1876 flood only about one third of the weir could be opened (gates and posts frozen in ice); the stilling basin was undersized, scour formed, and three weir piers collapsed.",
+      "incident_date": "1876-02",
+      "latest_report_date": "2015",
+      "what_happened": "Pretziener Wehr (movable sluice weir, in service 1875; then Europe's largest sluice weir) was meant to send Elbe flood water down the Umflutkanal around Magdeburg and Schönebeck. In February 1876 ice locked the gates and posts so only about a third of the weir could be opened. Wikipedia: the stilling basin below the weir was too weak, scour formed, and three weir piers collapsed. The left-bank Elbe dike at Glinde then failed (separate record). The weir was repaired, the stilling basin strengthened, and from December 1881 opening has been ruled by a Barby-gauge decree (open at 5.92 m). No death count at the weir in the sources fetched.",
+      "status": "Repaired after 1876; stilling basin strengthened; still in service.",
+      "sources": [
+        {
+          "label": "German Wikipedia — Pretziener Wehr (1876 ice and pier collapse)",
+          "url": "https://de.wikipedia.org/wiki/Pretziener_Wehr"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 1876 Elbe/Schönebeck flood totals. Separate from pretziener-wehr-1876-02.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 160 m torn away (Volksstimme / 1910 helper)",
+      "downstream_risk": "Glinde and Schönebeck",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "glinde-elbe-1876-02",
+      "name": "Glinde left-bank Elbe dike (1876)",
+      "country": "Germany",
+      "region": "Glinde, Barby / Schönebeck, Saxony-Anhalt",
+      "location_label": "Left-bank Elbe dike at Glinde, Saxony-Anhalt, Germany",
+      "lat": 52.008611,
+      "lng": 11.852222,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia Glinde (Barby) 52°0′31″N 11°51′8″E. Wikipedia Pretziener Wehr: the left Elbe dike failed at Glinde after the weir could not be fully opened.",
+      "river_or_facility": "Elbe left-bank dike at Glinde",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia Pretziener Wehr / Volksstimme: after the weir could not be fully opened in the February 1876 ice flood, the left Elbe dike at Glinde failed and flooded Schönebeck; about 160 m of dike was torn away (Volksstimme quoting a 1910 helper).",
+      "incident_date": "1876-02",
+      "latest_report_date": "2015",
+      "what_happened": "In the February 1876 Elbe ice flood the new Pretziener Wehr could not be fully opened. German Wikipedia: the left-bank Elbe dike at Glinde then failed, flooding Schönebeck and damaging a large part of the houses there. Volksstimme (local Glinde history): helpers had raised the dike with piles, boards, dung-straw, earth and sand; a shout of 'Zurück' came and about 160 m of dike was torn away; Glinde was the first village taken and stood under water except five hearths. A new Elbe dike from Schönebeck to Barby was built in 1878–79. No death count at this dike in the sources fetched.",
+      "status": "Dike rebuilt 1878–79 (Schönebeck–Barby).",
+      "sources": [
+        {
+          "label": "German Wikipedia — Pretziener Wehr (Glinde left-bank Elbe dike 1876)",
+          "url": "https://de.wikipedia.org/wiki/Pretziener_Wehr"
+        },
+        {
+          "label": "Volksstimme — Glinde sank in the 1876 Elbe flood (~160 m dike)",
+          "url": "https://www.volksstimme.de/lokal/stassfurt/bei-der-katastropheversank-glinde-in-elb-fluten-519638"
+        },
+        {
+          "label": "German Wikipedia — Glinde (Barby)",
+          "url": "https://de.wikipedia.org/wiki/Glinde_(Barby)"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Controlled opening, not a failure. Deaths null. Do not copy 2002 Elbe regional deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "LHW Sachsen-Anhalt",
+      "year_built": "1871–1875",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "flood_control",
+      "volume_released": "about 1,050 m³/s through the canal on 19 Aug 2002 (Wikipedia)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "LHW Sachsen-Anhalt",
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "pretziener-wehr-2002-08-15",
+      "name": "Pretziener Wehr (2002 Elbe controlled opening)",
+      "country": "Germany",
+      "region": "Pretzien, Schönebeck, Saxony-Anhalt",
+      "location_label": "Pretziener Wehr, Elbe-Umflutkanal, Pretzien, Germany",
+      "lat": 52.039197,
+      "lng": 11.828117,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia Pretziener Wehr 52°2′21.1″N 11°49′41.2″E",
+      "river_or_facility": "Pretziener Wehr / Elbe-Umflutkanal",
+      "type": "weir",
+      "category": "controlled_release",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: the weir was opened in the August 2002 Elbe flood; on 19 August about 1,050 m³/s (24% of the Barby discharge) went down the Umflutkanal.",
+      "incident_date": "2002-08-15",
+      "latest_report_date": "2015",
+      "what_happened": "During the August 2002 Elbe flood Pretziener Wehr was opened (Wikipedia 2002 flood: 15 August, south of Magdeburg) to send water down the 21 km Umflutkanal east of Magdeburg and Schönebeck. Wikipedia Pretziener Wehr: measurements on 19 August 2002 showed about 1,050 m³/s through the canal, 24% of the Barby discharge; the canal lowered the water by about 70 cm at Schönebeck and 50 cm at Magdeburg (design capacity 1,200 m³/s). The 2002 load led LHW to a later heritage-grade rehabilitation. This is a designed opening of a named weir, not a collapse. No death count at the weir. 2002 Elbe regional deaths are not copied.",
+      "status": "Opened as designed; later rehabilitated (abutments 2003–04; steel/masonry/electrics 2010).",
+      "sources": [
+        {
+          "label": "German Wikipedia — Pretziener Wehr (2002 1,050 m³/s / 24%)",
+          "url": "https://de.wikipedia.org/wiki/Pretziener_Wehr"
+        },
+        {
+          "label": "German Wikipedia — Hochwasser in Mitteleuropa 2002 (opened 15 Aug)",
+          "url": "https://de.wikipedia.org/wiki/Hochwasser_in_Mitteleuropa_2002"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Controlled opening, not a failure. Deaths null. Do not copy 2013 Elbe/Saale regional deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "LHW Sachsen-Anhalt",
+      "year_built": "1871–1875",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "LHW Sachsen-Anhalt",
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "pretziener-wehr-2013-06-03",
+      "name": "Pretziener Wehr (2013 Elbe controlled opening)",
+      "country": "Germany",
+      "region": "Pretzien, Schönebeck, Saxony-Anhalt",
+      "location_label": "Pretziener Wehr, Elbe-Umflutkanal, Pretzien, Germany",
+      "lat": 52.039197,
+      "lng": 11.828117,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia Pretziener Wehr 52°2′21.1″N 11°49′41.2″E",
+      "river_or_facility": "Pretziener Wehr / Elbe-Umflutkanal",
+      "type": "weir",
+      "category": "controlled_release",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: the weir was opened on 3 June 2013, about the 64th opening of the structure, during the June 2013 Elbe flood.",
+      "incident_date": "2013-06-03",
+      "latest_report_date": "2015",
+      "what_happened": "German Wikipedia Pretziener Wehr: the weir was opened on 3 June 2013 in the June 2013 Elbe flood — about the 64th opening of the 1875 sluice weir (most openings are in winter). LHW later used the 2013 event, with Fischbeck and Breitenhagen, in its Elbe-protection reporting. This is a designed opening, not a collapse. Separate from the already-live 2013 dike failures at Fischbeck, Breitenhagen, Aken and Seelhausen. No death count at the weir. 2013 Elbe regional deaths are not copied.",
+      "status": "Opened as designed 3 June 2013; weir remains in service.",
+      "sources": [
+        {
+          "label": "German Wikipedia — Pretziener Wehr (opened 3 June 2013)",
+          "url": "https://de.wikipedia.org/wiki/Pretziener_Wehr"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 2,000 in Pratau (Spiegel)",
+      "notes": "Deaths null. Do not copy 2002 Elbe/Wittenberg cluster totals. Separate from seegrehna and prettin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 200 m (RP)",
+      "downstream_risk": "Pratau; flood toward Kemberg",
+      "economic_damage": null,
+      "investigating_agency": "LHW / AG Hochwasser Sachsen-Anhalt 2002",
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "pratau-elbe-2002-08-18",
+      "name": "Pratau Elbe dike (2002)",
+      "country": "Germany",
+      "region": "Pratau, Lutherstadt Wittenberg, Saxony-Anhalt",
+      "location_label": "Elbe dike at Pratau, Wittenberg, Germany",
+      "lat": 51.84299,
+      "lng": 12.64329,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia Pratau 51.84299, 12.64329. Spiegel/RP: 200 m Elbe dike breach in the evacuated Wittenberg district.",
+      "river_or_facility": "Elbe dike at Pratau",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Spiegel: after crews were pulled off for safety, the Pratau Elbe dike failed in the night to Sunday 18 August 2002; RP: about 200 m wide, flood toward Kemberg.",
+      "incident_date": "2002-08-18",
+      "latest_report_date": "2002-08",
+      "what_happened": "Spiegel (18 Aug 2002): in the Wittenberg district of Pratau an Elbe dike failed in the night to Sunday after the defence was abandoned as life-threatening. About 2,000–2,400 residents had been evacuated (Pratau and Seegrehna from Friday). RP: the breach was about 200 m wide and the flood ran toward Kemberg; a emergency dike was planned to protect that town. The historic core of Wittenberg was not immediately threatened. Official SA 2002 review lists Pratau among the named dike breaches investigated. No death count at this dike. 2002 Elbe regional deaths are not copied.",
+      "status": "Breached 18 Aug 2002; later rebuilt in the LHW Elbe programme.",
+      "sources": [
+        {
+          "label": "Spiegel — Deichbruch at Wittenberg-Pratau (night to 18 Aug)",
+          "url": "https://www.spiegel.de/panorama/land-unter-in-sachsen-anhalt-deichbruch-bei-wittenberg-erste-siedlung-in-magdeburg-geraeumt-a-209979.html"
+        },
+        {
+          "label": "RP — 200 m Pratau Elbe dike, flood toward Kemberg",
+          "url": "https://rp-online.de/panorama/verzweifelter-kampf-um-deiche-an-der-elbe_aid-8665003"
+        },
+        {
+          "label": "German Wikipedia — Pratau",
+          "url": "https://de.wikipedia.org/wiki/Pratau"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Pratau and Seegrehna together about 3,000 (Spiegel)",
+      "notes": "Deaths null. Do not copy 2002 Elbe cluster totals. Separate from pratau and prettin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "LHW / AG Hochwasser Sachsen-Anhalt 2002",
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "seegrehna-elbe-2002-08-18",
+      "name": "Seegrehna Elbe dike (2002)",
+      "country": "Germany",
+      "region": "Seegrehna, Kemberg / Wittenberg, Saxony-Anhalt",
+      "location_label": "Elbe dike at Seegrehna, Saxony-Anhalt, Germany",
+      "lat": 51.831389,
+      "lng": 12.553056,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia Seegrehna 51°49′53″N 12°33′11″E",
+      "river_or_facility": "Elbe dike at Seegrehna",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia 2002 flood / MDR: the Elbe dike at Seegrehna (an IKSE-flagged weak reach) failed on 18 August 2002; Spiegel later: water through Seegrehna threatened Wörlitz Park and the A9.",
+      "incident_date": "2002-08-18",
+      "latest_report_date": "2021",
+      "what_happened": "German Wikipedia (2002 Central European flood): on 18 August dikes failed at Seegrehna and Wittenberg on the Elbe and at Dessau on the Mulde. MDR: IKSE had already flagged Seegrehna (Wittenberg district) as functionally unsafe before 2002. Official SA 2002 review lists the Seegrehna breach and the later Seegrehna closure among events investigated. Spiegel (20 Aug): water still entering through Seegrehna threatened historic Wörlitz Park and Autobahn A9. Pratau and Seegrehna had been evacuated from Friday (about 3,000). No death count at this dike. 2002 Elbe regional deaths are not copied.",
+      "status": "Breached 18 Aug 2002; later closed/rebuilt (LHW programme).",
+      "sources": [
+        {
+          "label": "German Wikipedia — 2002 flood (Seegrehna 18 Aug)",
+          "url": "https://de.wikipedia.org/wiki/Hochwasser_in_Mitteleuropa_2002"
+        },
+        {
+          "label": "MDR — IKSE-flagged Seegrehna reach failed 2002",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/hochwasser-deiche-sanierung-kosten-100.html"
+        },
+        {
+          "label": "Spiegel — Seegrehna inflow toward Wörlitz / A9",
+          "url": "https://www.spiegel.de/panorama/jahrhundertflut-brandenburg-laesst-elbwehre-oeffnen-a-210257.html"
+        },
+        {
+          "label": "German Wikipedia — Seegrehna",
+          "url": "https://de.wikipedia.org/wiki/Seegrehna"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 2002 Elbe/Wittenberg cluster totals. Separate from pratau and seegrehna.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 200 m (Spiegel)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "LHW / AG Hochwasser Sachsen-Anhalt 2002",
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "prettin-elbe-2002-08",
+      "name": "Prettin Elbe dike (2002)",
+      "country": "Germany",
+      "region": "Prettin, Annaburg, Wittenberg District, Saxony-Anhalt",
+      "location_label": "Elbe dike at Prettin, Saxony-Anhalt, Germany",
+      "lat": 51.667,
+      "lng": 12.917,
+      "geo_accuracy": "approx",
+      "geo_source": "English Wikipedia Prettin 51°40′N 12°55′E — east-bank Elbe town. Spiegel: largest Wittenberg-district breach, about 200 m, water through the town.",
+      "river_or_facility": "Elbe dike at Prettin",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Spiegel: the largest of seven Wittenberg-district dike breaches was at Prettin, about 200 m, with water running through the town.",
+      "incident_date": "2002-08",
+      "latest_report_date": "2002-08-19",
+      "what_happened": "Spiegel (19 Aug 2002): seven dike breaches were reported from the Elbe-side Wittenberg district; the largest was at Prettin, where the dike failed for about 200 m and water ran through the town. Tagesspiegel: after the Prettin breach of about 200 m, and after Seegrehna and Pratau, Wörlitz Park was threatened. Prettin sits on the east bank of the Elbe about 17 km north of Torgau. No death count at this dike. 2002 Elbe regional deaths are not copied.",
+      "status": "Breached August 2002; later rebuilt in the LHW Elbe programme.",
+      "sources": [
+        {
+          "label": "Spiegel — largest Wittenberg-district breach at Prettin (~200 m)",
+          "url": "https://www.spiegel.de/panorama/flutkatastrophe-helfer-sitzen-auf-daemmen-fest-a-210103.html"
+        },
+        {
+          "label": "Tagesspiegel — Prettin ~200 m, Seegrehna and Pratau",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/die-elbe-fliesst-immer-schneller-920863.html"
+        },
+        {
+          "label": "English Wikipedia — Prettin",
+          "url": "https://en.wikipedia.org/wiki/Prettin"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 2002 Elbe/Saxony cluster totals. Separate from dautzschen-elbe-2002-08.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 30 m (RP)",
+      "downstream_risk": "Großtreben north of Torgau",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "grosstreben-elbe-2002-08-18",
+      "name": "Torgau / Großtreben Elbe dike (2002)",
+      "country": "Germany",
+      "region": "Großtreben, Beilrode, Nordsachsen, Saxony",
+      "location_label": "Elbe dike toward Großtreben, north of Torgau, Saxony, Germany",
+      "lat": 51.6462,
+      "lng": 12.9837,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia Großtreben 51.6462, 12.9837. RP/Spiegel: 30 m Elbe dike breach at Torgau sent water into Großtreben north of the town.",
+      "river_or_facility": "Elbe dike at Torgau / Großtreben",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "RP/Spiegel: on Sunday morning 18 August 2002 a ~30 m Elbe dike at Torgau failed and water entered Großtreben north of the city.",
+      "incident_date": "2002-08-18",
+      "latest_report_date": "2002-08",
+      "what_happened": "RP and Spiegel (18 Aug 2002): on Sunday morning an Elbe dike at Torgau (Saxony) failed for about 30 m. RP: huge volumes entered Großtreben north of the city; last evacuations were running. Taz: after the Torgau, Dessau and Wittenberg breaches, settlements were flooded. Großtreben is the Elbe village north of Torgau (now Beilrode). This is a separate named opening from Dautzschen (also north of Torgau). No death count at this dike. 2002 Elbe regional deaths are not copied.",
+      "status": "Breached 18 Aug 2002.",
+      "sources": [
+        {
+          "label": "RP — 30 m Torgau Elbe dike, water into Großtreben",
+          "url": "https://rp-online.de/panorama/verzweifelter-kampf-um-deiche-an-der-elbe_aid-8665003"
+        },
+        {
+          "label": "Spiegel — Torgau dam break Sunday morning",
+          "url": "https://www.spiegel.de/panorama/katastrophenflut-dammbruch-bei-torgau-und-muehlberg-a-209984.html"
+        },
+        {
+          "label": "German Wikipedia — Großtreben",
+          "url": "https://de.wikipedia.org/wiki/Gro%C3%9Ftreben"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 2002 Elbe cluster totals. Separate from grosstreben-elbe-2002-08-18.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "dautzschen-elbe-2002-08",
+      "name": "Dautzschen Elbe dike (2002)",
+      "country": "Germany",
+      "region": "Dautzschen, Beilrode, Nordsachsen, Saxony",
+      "location_label": "Elbe dike at Dautzschen near Torgau, Saxony, Germany",
+      "lat": 51.636,
+      "lng": 13.0054,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia Dautzschen 51.636, 13.0054. Spiegel: named dike breach at Dautzschen near Torgau; Annaburg then threatened.",
+      "river_or_facility": "Elbe dike at Dautzschen",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Spiegel: after a dike breach at Dautzschen near Torgau the already-evacuated town of Annaburg was threatened; a 4 km emergency dike was built overnight.",
+      "incident_date": "2002-08",
+      "latest_report_date": "2002-08-19",
+      "what_happened": "Spiegel (19 Aug 2002): the situation at Dautzschen near Torgau (Saxony) was critical after a dike breach; evacuated Annaburg was then threatened. Overnight, Bundeswehr, THW and volunteers built a 4 km emergency dike. The Elbe at that gauge had fallen to 8.89 m by Monday morning (catastrophe alarm had been at 7.80 m). Dautzschen is a separate named Elbe village from Großtreben (both now in Beilrode). No death count at this dike. 2002 Elbe regional deaths are not copied.",
+      "status": "Breached August 2002; 4 km emergency dike built overnight (Spiegel).",
+      "sources": [
+        {
+          "label": "Spiegel — Dautzschen breach; Annaburg threatened; 4 km emergency dike",
+          "url": "https://www.spiegel.de/panorama/flutkatastrophe-helfer-sitzen-auf-daemmen-fest-a-210103.html"
+        },
+        {
+          "label": "German Wikipedia — Dautzschen",
+          "url": "https://de.wikipedia.org/wiki/Dautzschen"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Waldersee about 2,800 already evacuated (Spiegel)",
+      "notes": "Deaths null. Do not copy 2002 Elbe/Mulde cluster totals. Not the Seelhausen/Goitzsche Pouch–Löbnitz breach already live.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 20 m Mulde hole (Spiegel); Schwedenwall failed (Wikipedia)",
+      "downstream_risk": "Waldersee / Dessau-Roßlau",
+      "economic_damage": null,
+      "investigating_agency": "LHW / AG Hochwasser Sachsen-Anhalt 2002",
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "dessau-waldersee-mulde-2002-08-18",
+      "name": "Dessau-Waldersee Mulde dike / Schwedenwall (2002)",
+      "country": "Germany",
+      "region": "Waldersee, Dessau-Roßlau, Saxony-Anhalt",
+      "location_label": "Mulde dike / Schwedenwall, Waldersee, Dessau, Germany",
+      "lat": 51.850715,
+      "lng": 12.272092,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim / Wikipedia Schloss Luisium in Waldersee 51.850715, 12.272092. Wikipedia Waldersee: the Schwedenwall failed in August 2002 and the village stood more than 2 m deep.",
+      "river_or_facility": "Mulde dike / Schwedenwall at Dessau-Waldersee",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Spiegel/taz: a ~20 m irreparable hole in the Mulde dike at Dessau flooded Waldersee on 18 August 2002. Wikipedia Waldersee: the Schwedenwall failed; water more than 2 m; catastrophe alarm until 13 September.",
+      "incident_date": "2002-08-18",
+      "latest_report_date": "2009",
+      "what_happened": "Spiegel and taz (18–19 Aug 2002): a about 20 m hole in the Mulde dike at Dessau could not be repaired; water entered the Waldersee district (about 2,800 residents, already evacuated). Wikipedia Waldersee: simultaneous Elbe and Mulde floods broke the Schwedenwall (the flood wall Fürst Leopold had built after buying Mark Naundorf); water stood more than 2 m and drained slowly; catastrophe alarm for Dessau was lifted only on 13 September after 32 days. MDR: Waldersee was an IKSE-flagged weak reach. Official SA 2002 review lists the Dessau Mulde events. No death count at this dike. 2002 Elbe/Mulde regional deaths are not copied. Distinct from already-live Seelhausen / Lober-Leine (Pouch–Löbnitz).",
+      "status": "Schwedenwall breached; Waldersee flooded for weeks; later rebuilt.",
+      "sources": [
+        {
+          "label": "Spiegel — 20 m Mulde hole at Dessau-Waldersee",
+          "url": "https://www.spiegel.de/panorama/katastrophenflut-dammbruch-bei-torgau-und-muehlberg-a-209984.html"
+        },
+        {
+          "label": "taz — 20 m Mulde hole, Waldersee flooded",
+          "url": "https://taz.de/Die-verdammte-Elbe-bricht-aus/!1093493/"
+        },
+        {
+          "label": "German Wikipedia — Waldersee (Schwedenwall 2002)",
+          "url": "https://de.wikipedia.org/wiki/Waldersee_(Dessau-Ro%C3%9Flau)"
+        },
+        {
+          "label": "German Wikipedia — Luisium (Waldersee pin)",
+          "url": "https://de.wikipedia.org/wiki/Luisium"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 500 from Gübs / Klein-Gübs / Heyrothsberge / Königsborn (RP)",
+      "notes": "Deaths null. Do not copy 2002 Elbe/Magdeburg cluster totals. Separate from pretziener-wehr-2002-08-15 (the designed weir opening that fed this canal).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 50 m (Spiegel)",
+      "downstream_risk": "Gübs, Klein-Gübs, Heyrothsberge, Königsborn, Biederitz",
+      "economic_damage": null,
+      "investigating_agency": "LHW / AG Hochwasser Sachsen-Anhalt 2002",
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "heyrothsberge-umflutkanal-2002-08-20",
+      "name": "Heyrothsberge Elbe-Umflutkanal dike (2002)",
+      "country": "Germany",
+      "region": "Heyrothsberge, Biederitz, Jerichower Land, Saxony-Anhalt",
+      "location_label": "Elbe-Umflutkanal dike at Heyrothsberge east of Magdeburg, Germany",
+      "lat": 52.139722,
+      "lng": 11.734722,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia Heyrothsberge 52°8′23″N 11°44′5″E. RP/Spiegel: ~50 m hole in the Umflutkanal dike east of Magdeburg.",
+      "river_or_facility": "Elbe-Umflutkanal dike at Heyrothsberge",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "RP/Spiegel: on 20 August 2002 a ~50 m hole in the Umflutkanal dike at Heyrothsberge could not be closed; crews abandoned the wall and evacuated Gübs, Klein-Gübs and parts of Heyrothsberge, Königsborn and Biederitz.",
+      "incident_date": "2002-08-20",
+      "latest_report_date": "2002-08",
+      "what_happened": "RP and Spiegel (20 Aug 2002): after Pretziener Wehr had been opened the previous Thursday, a dike on the Elbe-Umflutkanal east of Magdeburg at Heyrothsberge failed. Spiegel: all attempts to close the about 50 m hole failed and crews abandoned the wall that afternoon. About 500 residents of Gübs, Klein-Gübs and parts of Königsborn and Heyrothsberge were moved; parts of Biederitz were then also evacuated. Official SA 2002 review lists Heyrothsberge among the named dike breaches investigated. Magdeburg itself was not immediately flooded. No death count at this dike. 2002 Elbe regional deaths are not copied.",
+      "status": "Abandoned 20 Aug 2002 after the ~50 m hole could not be closed; later rebuilt.",
+      "sources": [
+        {
+          "label": "RP — Umflutkanal dike east of Magdeburg could not be closed",
+          "url": "https://rp-online.de/panorama/nach-deichbruch-stroemt-weiter-wasser-in-die-elbeniederung_aid-8683395"
+        },
+        {
+          "label": "Spiegel — ~50 m Heyrothsberge hole abandoned; Biederitz evacuated",
+          "url": "https://www.spiegel.de/panorama/jahrhundertflut-brandenburg-laesst-elbwehre-oeffnen-a-210257.html"
+        },
+        {
+          "label": "German Wikipedia — Heyrothsberge",
+          "url": "https://de.wikipedia.org/wiki/Heyrothsberge"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Controlled opening, not a failure. Deaths null. Do not copy 2002 Elbe regional deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "state water administration (Brandenburg / Saxony-Anhalt Havel works)",
+      "year_built": "1954",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "neuwerben-wehr-2002-08",
+      "name": "Wehr Neuwerben / Havelort (2002 Elbe–Havel opening)",
+      "country": "Germany",
+      "region": "Havelort / Gnevsdorfer Vorfluter, Havelberg / Brandenburg–Saxony-Anhalt border",
+      "location_label": "Wehr Neuwerben on the Gnevsdorfer Vorfluter, Germany",
+      "lat": 52.876944,
+      "lng": 11.999444,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia Gnevsdorfer Vorfluter 52°52′37″N 11°59′58″E. Wehr Neuwerben closes the old Havel mouth (Havelort) at the head of this canal. Spiegel: Brandenburg ordered the weir opened to protect Wittenberge.",
+      "river_or_facility": "Wehr Neuwerben / Gnevsdorfer Vorfluter (Elbe–Havel)",
+      "type": "weir",
+      "category": "controlled_release",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Spiegel: to protect Wittenberge, Brandenburg ordered Wehr Neuwerben near Havelberg opened so part of the Elbe would run into the Havel; low Havel villages were warned of flooding.",
+      "incident_date": "2002-08",
+      "latest_report_date": "2002-08-20",
+      "what_happened": "Spiegel (20 Aug 2002): to protect Wittenberge (Brandenburg) from the Elbe flood, Wehr Neuwerben near Havelberg was to be opened that evening so part of the Elbe would be diverted into the Havel. Landkreis Stendal warned that Havel-lowland villages (Jederitz, Kümmernitz, Warnau, Rehberg) could flood and should prepare to evacuate. Wikipedia Gnevsdorfer Vorfluter: Wehr Neuwerben (finished 1954) closes the old Havel mouth at Havelort; at high Elbe the Havel is sent 11 km down the parallel canal to a lower mouth. This is a designed named-weir opening, not a collapse. No death count at the weir. 2002 Elbe regional deaths are not copied.",
+      "status": "Opened as a flood-relief weir in August 2002.",
+      "sources": [
+        {
+          "label": "Spiegel — Brandenburg opens Wehr Neuwerben for Wittenberge",
+          "url": "https://www.spiegel.de/panorama/jahrhundertflut-brandenburg-laesst-elbwehre-oeffnen-a-210257.html"
+        },
+        {
+          "label": "German Wikipedia — Gnevsdorfer Vorfluter / Wehr Neuwerben",
+          "url": "https://de.wikipedia.org/wiki/Gnevsdorfer_Vorfluter"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "about 700 in Ophoven (dpa/ZEIT)",
+      "notes": "Deaths null. Do not copy 2021 Ahr/Erft/NRW regional deaths. Named Ohe dike, not ordinary Ahr flood.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Ophoven / Wassenberg (Rur toward Roermond)",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "ohe-rur-2021-07-16",
+      "name": "Ohe Rur dike (2021)",
+      "country": "Germany",
+      "region": "Ohe, Wassenberg, Heinsberg District, North Rhine-Westphalia",
+      "location_label": "Rur dike at Ohe, Wassenberg, Germany",
+      "lat": 51.094926,
+      "lng": 6.133497,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim Ohe hamlet, Wassenberg 51.094926, 6.133497. Wasserverband Eifel-Rur (via Oellers/press): the dike at Ohe failed after Gut Wylack overtopped; water reached Ophoven via the ditch system and K34.",
+      "river_or_facility": "Rur dike at Ohe (Wassenberg)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wasserverband Eifel-Rur: first Gut Wylack was overtopped, then the dike at Ohe failed; water ran through ditches toward K34 and flooded Ophoven. Wikipedia Ophoven: the village was evacuated on 16 July 2021 after a dike breach.",
+      "incident_date": "2021-07-16",
+      "latest_report_date": "2021-07",
+      "what_happened": "During the mid-July 2021 Bernd flood the Rur left bank at Wassenberg failed. Wikipedia Ophoven: the whole village was evacuated on 16 July 2021 after a dike breach (WDR: 'Damm der Rur in Ophoven'). Later Wasserverband Eifel-Rur (quoted by MdB Oellers) said the water entered Ophoven by the back door: Gut Wylack was overtopped, then the dike at Ohe failed and water ran through a ditch system toward K34. About 700 Ophoven residents left. ZEIT/dpa and Spiegel reported the Rur dike failure and the Dutch-sluice dispute; that dispute is not treated as the cause here. No death count at this dike. 2021 Ahr/Erft regional deaths are not copied. Steinbachtalsperre is already live and is a different structure.",
+      "status": "Rur dike at Ohe failed 16 July 2021; Ophoven flooded and evacuated.",
+      "sources": [
+        {
+          "label": "German Wikipedia — Ophoven (evacuated 16 July 2021 after dike breach)",
+          "url": "https://de.wikipedia.org/wiki/Ophoven"
+        },
+        {
+          "label": "Oellers / Wasserverband Eifel-Rur — Ohe breach and Gut Wylack overtopping",
+          "url": "https://www.wilfried-oellers.de/presseartikel/nach-dem-hochwasser-wie-die-flut-nach-ophoven-kam/"
+        },
+        {
+          "label": "ZEIT/dpa — Rur dike, Ophoven partly under water, ~700 evacuated",
+          "url": "https://www.zeit.de/news/2021-07-17/deich-der-rur-gebrochen-stadtteil-evakuiert"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy May 2024 Saarland flood deaths. Ottweiler mobile dikes not added (not a permanent named dam).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "STEAG (power plant)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Kraftwerk Weiher site; Kohlbach / Schienenweg / Herrengrund",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "quierschied-kuehlweiher-2024-05-17",
+      "name": "Kraftwerk Weiher cooling-pond dam (Quierschied 2024)",
+      "country": "Germany",
+      "region": "Quierschied, Regionalverband Saarbrücken, Saarland",
+      "location_label": "Kühlweiher dam at Kraftwerk Weiher, Quierschied, Germany",
+      "lat": 49.334892,
+      "lng": 7.032524,
+      "geo_accuracy": "approx",
+      "geo_source": "Nominatim Kraftwerk Weiher, Quierschied 49.3348915, 7.0325238. Wikidata Q1786183 49°20′7.1″N 7°1′50.2″E. Regiojournal: cooling-pond dam at the plant on the Kohlbach failed about 19:15.",
+      "river_or_facility": "Kühlweiher / cooling pond at Kraftwerk Weiher (Kohlbach)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Regiojournal / Landesamt: the Kohlbach rose in the 17 May 2024 Saarland rain and the cooling-pond dam at Kraftwerk Weiher failed about 19:15 after THW pumping (16,000 L/min) could not hold it.",
+      "incident_date": "2024-05-17",
+      "latest_report_date": "2024-05-18",
+      "what_happened": "In the 17 May 2024 Saarland rain (locally more than 100 L/m²) Quierschied declared catastrophe alarm. Regiojournal: the Kohlbach rose and the dam of a cooling pond at Kraftwerk Weiher threatened to fail; THW pumped 16,000 litres/min out of the pond, in vain. About 19:15 the dam failed and flooded the plant site; the plant was shut down and district heat interrupted. Later the mayor said the worst expectations along Kohlbach, Schienenweg and Herrengrund had not been met. n-tv/BBK also warned after a dam break in Quierschied. No death count at this pond. Saarland flood deaths are not copied.",
+      "status": "Cooling-pond dam failed about 19:15 on 17 May 2024; plant shut down.",
+      "sources": [
+        {
+          "label": "Regiojournal — Kühlweiher dam at Kraftwerk Weiher ~19:15",
+          "url": "https://www.regiojournal.saarland/saarland/hochwasser-im-saarland-ueberblick-am-morgen-3000-einsaetze/"
+        },
+        {
+          "label": "n-tv — BBK warning after Quierschied dam break",
+          "url": "https://www.n-tv.de/panorama/Altstadt-im-saarlaendischen-Ottweiler-geflutet-article24950613.html"
+        },
+        {
+          "label": "German Wikipedia — Kraftwerk Weiher",
+          "url": "https://de.wikipedia.org/wiki/Kraftwerk_Weiher"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "Anhausen / Diedorf streets along Anhauser Bach; evacuation prepared (Landratsamt)",
+      "notes": "Deaths 0: Anhausen Wikipedia 'Personen kamen nicht zu Schaden'. Do not copy June 2024 Bavaria flood deaths (firefighter at Pfaffenhofen, etc.).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Forstverwaltung Haus Fugger-Babenhausen (ponds)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": "about 150 million litres from the pond chain (AA)",
+      "breach_size": "eastern driveable dam tore (AA)",
+      "downstream_risk": "Anhauser Bach / Anhausen / Diedorf",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": 0,
+      "id": "tannetweiher-2024-06-01",
+      "name": "Tannetweiher (Burgwalden) dam (2024)",
+      "country": "Germany",
+      "region": "Burgwalden, Bobingen, Augsburg District, Bavaria",
+      "location_label": "Tannetweiher dam, north of Burgwalden, Anhauser Tal, Germany",
+      "lat": 48.295149,
+      "lng": 10.765739,
+      "geo_accuracy": "site",
+      "geo_source": "Nominatim Tannetweiher wetland, Burgwalden 48.2951486, 10.7657389. Augsburger Allgemeine: the driveable eastern dam of Tannetweiher north of Burgwalden tore on 1 June 2024.",
+      "river_or_facility": "Tannetweiher (Fugger pond chain) / Anhauser Bach",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Augsburger Allgemeine: on 1 June 2024 the eastern driveable dam of Tannetweiher north of Burgwalden tore; water ran north along the pond chain and about 100 m into Anhauser Bach. Landratsamt also reported a dike giving way at Anhauser Weiher.",
+      "incident_date": "2024-06-01",
+      "latest_report_date": "2024-06-14",
+      "what_happened": "On 1 June 2024 in the southern-Germany flood, the named Tannetweiher in the Fugger pond chain north of Burgwalden (Bobingen) failed. Augsburger Allgemeine: the driveable dam tore at the eastern end; water then ran north, overtopped the last pond, and entered Anhauser Bach on a ~100 m front, joining Engelshofer Bach from a side-valley basin. Wikipedia Anhausen: a flood wave from a Burgwalden pond flooded streets and buildings along Anhauser Bach in Anhausen and Diedorf; no people were harmed. Landratsamt Augsburg (dpa): a dam broke at Burgwalden and a dike at Anhauser Weiher gave way; evacuation of Anhausen was prepared. About 150 million litres were reported from the pond chain. No death count other than Anhausen's 'Personen kamen nicht zu Schaden'. June 2024 Bavaria flood deaths are not copied.",
+      "status": "Eastern Tannetweiher dam tore 1 June 2024; Anhausen/Diedorf flooded.",
+      "sources": [
+        {
+          "label": "Augsburger Allgemeine — Tannetweiher eastern dam 1 June 2024",
+          "url": "https://www.augsburger-allgemeine.de/schwabmuenchen/burgwalden-anhausen-diedorf-teichbruch-von-burgwalden-wie-sich-das-unglueck-zutragen-hat-id71041351.html"
+        },
+        {
+          "label": "German Wikipedia — Anhausen (Diedorf); no persons harmed",
+          "url": "https://de.wikipedia.org/wiki/Anhausen_(Diedorf)"
+        },
+        {
+          "label": "ZEIT/dpa — Landratsamt: Burgwalden dam and Anhauser Weiher dike",
+          "url": "https://www.zeit.de/news/2024-06-01/dammbruch-bei-augsburg-menschen-werden-evakuiert"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Medieval tradition vs Vogel ice hypothesis both recorded; no invented cause beyond sources.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "Nero (54–68)",
+      "height_m": 40,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "subiaco-1305-02-20",
+      "name": "Subiaco Dam (Nero / Aniene, 1305)",
+      "country": "Italy",
+      "region": "Subiaco, Lazio",
+      "location_label": "Roman Subiaco dam on the Aniene, Subiaco, Italy",
+      "lat": 41.910635,
+      "lng": 13.125161,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia Liste von Stauanlagenunfällen 41°54′38.3″N 13°7′30.6″E. German Wikipedia Staumauer von Subiaco: debated between the gorge at Ponte di San Mauro and a site ~200 m upstream.",
+      "river_or_facility": "Staumauer von Subiaco / Aniene (Anio Novus lakes)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance",
+        "unknown"
+      ],
+      "cause_summary": "Wikipedia: the last remaining Nero-era gravity dam on the Aniene failed on 20 February 1305. Tradition: two monks removed stones to lower the lake; Vogel: ice tearing at the flanks.",
+      "incident_date": "1305-02-20",
+      "latest_report_date": "2013",
+      "what_happened": "The Roman gravity dam at Subiaco (built under Nero, about 40–50 m high, the highest Roman dam; three-lake cascade on the Aniene, later used for Anio Novus) failed on 20 February 1305 after more than 1,200 years. German Wikipedia: a tradition says two monks removed stones to lower the water on their fields and the breach grew until the wall collapsed; Vogel instead cites ice tearing of the flanks. The exact crest is debated (Ponte di San Mauro gorge vs about 200 m upstream). No sourced death count. This is a named historic dam failure, not ordinary flood.",
+      "status": "Destroyed 20 February 1305; masonry later reused in the town.",
+      "sources": [
+        {
+          "label": "German Wikipedia — Staumauer von Subiaco (20 Feb 1305)",
+          "url": "https://de.wikipedia.org/wiki/Staumauer_von_Subiaco"
+        },
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen (pin)",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null: list says 'mehrere', not a number. Do not invent a count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "bruna-siena-1492-12",
+      "name": "Bruna Dam (Siena, 1492)",
+      "country": "Italy",
+      "region": "Bruna / Siena, Tuscany",
+      "location_label": "Bruna Dam, Republic of Siena, Italy",
+      "lat": 42.94989,
+      "lng": 11.023826,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia Liste von Stauanlagenunfällen 42°56′59.6″N 11°1′25.8″E",
+      "river_or_facility": "Bruna-Staumauer (Republic of Siena)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "German Wikipedia list of dam accidents: the Bruna dam of the Republic of Siena failed in December 1492 with several deaths.",
+      "incident_date": "1492-12",
+      "latest_report_date": "2024",
+      "what_happened": "The German Wikipedia list of dam accidents records the Bruna dam (Republic of Siena, Tuscany) as failing in December 1492, with 'mehrere' (several) deaths, at 42°56′59.6″N 11°1′25.8″E. No finer death figure or cause was given in the sources fetched. Left as a named historic dam failure with a sourced pin.",
+      "status": "Failed December 1492.",
+      "sources": [
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen (Bruna, Dec 1492)",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths 0 from the Wikipedia dam-accident table. Do not copy 1965 Friuli flood totals.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "deaths": 0,
+      "id": "rutte-tarvisio-1965-11-07",
+      "name": "Rutte / Greuth dam (Tarvisio, 1965)",
+      "country": "Italy",
+      "region": "Rutte / Greuth, Tarvisio, Friuli-Venezia Giulia",
+      "location_label": "Bacino di Rutte dam, Tarvisio, Italy",
+      "lat": 46.492263,
+      "lng": 13.591288,
+      "geo_accuracy": "exact",
+      "geo_source": "Nominatim waterway=dam Bacino di Rutte 46.4922632, 13.5912880. German Wikipedia list 46°29′35.8″N 13°35′24.7″E (same structure).",
+      "river_or_facility": "Bacino di Rutte / Greuth (Tarvis)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "German Wikipedia list of dam accidents: the Rutte dam at Greuth (Tarvis) failed on 7 November 1965 with 0 deaths.",
+      "incident_date": "1965-11-07",
+      "latest_report_date": "2024",
+      "what_happened": "German Wikipedia's dam-accident list records the Rutte dam at Greuth (Tarvisio / Tarvis, Friuli) as failing on 7 November 1965, with 0 deaths, at 46°29′35.8″N 13°35′24.7″E. OpenStreetMap maps Bacino di Rutte as a dam at 46.492263, 13.591288. No finer cause beyond the dated failure was given in the sources fetched.",
+      "status": "Failed 7 November 1965.",
+      "sources": [
+        {
+          "label": "German Wikipedia — Liste von Stauanlagenunfällen (Rutte 7 Nov 1965, 0 dead)",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_Stauanlagenunf%C3%A4llen"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 2005 Switzerland national flood deaths onto this dike.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "BAFU / cantonal flood services",
+      "verification": "confirmed",
+      "deaths": null,
+      "id": "aare-meiringen-2005-08",
+      "name": "Aare dike below Meiringen (2005)",
+      "country": "Switzerland",
+      "region": "Meiringen, Canton of Bern",
+      "location_label": "Aare dike below Meiringen, Switzerland",
+      "lat": 46.728606,
+      "lng": 8.186384,
+      "geo_accuracy": "approx",
+      "geo_source": "German Wikipedia Meiringen 46.728606, 8.186384. BAFU 2005 synthesis: dike breaches occurred on the Aare below Meiringen.",
+      "river_or_facility": "Aare dike below Meiringen",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Swiss Confederation / BAFU 2005 flood synthesis: dike breaches occurred below Meiringen on the Aare; other dikes were overtopped (Hagneck canal seepage did not grow).",
+      "incident_date": "2005-08",
+      "latest_report_date": "2006",
+      "what_happened": "The official Swiss synthesis of the 21–23 August 2005 Alpine flood (BAFU / Ereignisanalyse) records dike breaches (Dammbrüche) on the Aare below Meiringen. Other dikes were overtopped; seepage at older dikes such as the Hagneck canal did not become larger failures. The August 2005 event killed people elsewhere in Switzerland and caused about CHF 2.5 billion damage; those national totals are not copied onto this Aare dike. No structure-specific death count was given.",
+      "status": "Aare dike below Meiringen breached in August 2005.",
+      "sources": [
+        {
+          "label": "BAFU / Ereignisanalyse 2005 — Dammbrüche unterhalb Meiringen an der Aare",
+          "url": "https://gra-nat.ch/system/media/2370/original/Hochwasser_2005_Synthesebericht.pdf?1421452374="
+        },
+        {
+          "label": "German Wikipedia — Meiringen",
+          "url": "https://de.wikipedia.org/wiki/Meiringen"
         }
       ],
       "severity": "moderate"
