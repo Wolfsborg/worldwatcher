@@ -1478,48 +1478,13 @@
       globeMap.addSource("incidents", {
         type: "geojson",
         data: { type: "FeatureCollection", features: [] },
-        cluster: true,
-        clusterRadius: 42,
-        clusterMaxZoom: 7
-      });
-      
-      globeMap.addLayer({
-        id: "incident-clusters",
-        type: "circle",
-        source: "incidents",
-        filter: ["has", "point_count"],
-        paint: {
-          "circle-color": "rgba(243, 239, 230, 0.16)",
-          "circle-radius": [
-            "step",
-            ["get", "point_count"],
-            15, 10, 20, 30, 25
-          ],
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "rgba(18, 21, 26, 0.92)"
-        }
-      });
-      
-      globeMap.addLayer({
-        id: "incident-cluster-count",
-        type: "symbol",
-        source: "incidents",
-        filter: ["has", "point_count"],
-        layout: {
-          "text-field": "{point_count_abbreviated}",
-          "text-font": ["Open Sans Regular"],
-          "text-size": 12
-        },
-        paint: {
-          "text-color": "#e8eaed"
-        }
+        cluster: false
       });
       
       globeMap.addLayer({
         id: "incident-circles",
         type: "circle",
         source: "incidents",
-        filter: ["!", ["has", "point_count"]],
         paint: {
           "circle-radius": ["get", "radius"],
           "circle-color": ["get", "color"],
@@ -1556,33 +1521,11 @@
         }
       });
       
-      globeMap.on("click", "incident-clusters", function (e) {
-        const features = globeMap.queryRenderedFeatures(e.point, {
-          layers: ["incident-clusters"]
-        });
-        const clusterId = features[0].properties.cluster_id;
-        globeMap.getSource("incidents").getClusterExpansionZoom(clusterId, function (err, zoom) {
-          if (err) return;
-          globeMap.easeTo({
-            center: features[0].geometry.coordinates,
-            zoom: zoom
-          });
-        });
-      });
-      
       globeMap.on("mouseenter", "incident-circles", function () {
         globeMap.getCanvas().style.cursor = "pointer";
       });
       
       globeMap.on("mouseleave", "incident-circles", function () {
-        globeMap.getCanvas().style.cursor = "";
-      });
-      
-      globeMap.on("mouseenter", "incident-clusters", function () {
-        globeMap.getCanvas().style.cursor = "pointer";
-      });
-      
-      globeMap.on("mouseleave", "incident-clusters", function () {
         globeMap.getCanvas().style.cursor = "";
       });
       
@@ -1599,12 +1542,14 @@
         }
       });
       
-      updateGlobeData();
-      
       const proj = globeMap.getProjection();
       if (proj.type !== "globe") {
         console.warn("MapLibre projection is not globe:", proj);
+      } else {
+        console.log("MapLibre globe projection confirmed");
       }
+      
+      updateGlobeData();
     });
     
     globeMap.setBaseMode = function (mode) {
@@ -1628,7 +1573,7 @@
   }
 
   function updateGlobeData() {
-    if (!globeMap || !globeMap.getSource("incidents")) return;
+    if (!globeMap) return;
     const rows = filtered();
     const features = rows.filter((inc) => {
       return typeof inc.lat === "number" && typeof inc.lng === "number";
@@ -1652,10 +1597,17 @@
         }
       };
     });
-    globeMap.getSource("incidents").setData({
+    const geojson = {
       type: "FeatureCollection",
       features: features
-    });
+    };
+    const source = globeMap.getSource("incidents");
+    if (source) {
+      source.setData(geojson);
+      console.log("Globe updated with " + features.length + " incident pins");
+    } else {
+      console.warn("Globe source not ready, data will be set on load");
+    }
   }
 
   function toggleGlobe() {
