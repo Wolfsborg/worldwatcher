@@ -1485,12 +1485,23 @@
         id: "incident-circles",
         type: "circle",
         source: "incidents",
+        minzoom: 0,
+        maxzoom: 24,
         paint: {
-          "circle-radius": ["get", "radius"],
+          "circle-radius": [
+            "interpolate", ["linear"], ["zoom"],
+            0, 2.5,
+            2, 3,
+            5, 4,
+            8, ["coalesce", ["to-number", ["get", "radius"]], 6],
+            14, ["coalesce", ["to-number", ["get", "radius"]], 6]
+          ],
           "circle-color": ["get", "color"],
           "circle-opacity": ["get", "opacity"],
           "circle-stroke-width": 1.5,
-          "circle-stroke-color": "rgba(243, 239, 230, 0.85)"
+          "circle-stroke-color": "rgba(243, 239, 230, 0.85)",
+          "circle-pitch-alignment": "viewport",
+          "circle-pitch-scale": "viewport"
         }
       });
       
@@ -1539,6 +1550,13 @@
           globeMap.setLayoutProperty("carto-dark-layer", "visibility", aerialOn ? "none" : "visible");
           globeMap.setLayoutProperty("esri-aerial-layer", "visibility", aerialOn ? "visible" : "none");
           globeMap.setLayoutProperty("esri-labels-layer", "visibility", aerialOn ? "visible" : "none");
+          
+          if (globeMap.getLayer("incident-circles")) {
+            globeMap.moveLayer("incident-circles");
+          }
+          if (globeMap.getLayer("incident-labels")) {
+            globeMap.moveLayer("incident-labels");
+          }
         }
       });
       
@@ -1547,6 +1565,13 @@
         console.warn("MapLibre projection is not globe:", proj);
       } else {
         console.log("MapLibre globe projection confirmed");
+      }
+      
+      if (globeMap.getLayer("incident-circles")) {
+        globeMap.moveLayer("incident-circles");
+      }
+      if (globeMap.getLayer("incident-labels")) {
+        globeMap.moveLayer("incident-labels");
       }
       
       updateGlobeData();
@@ -1568,6 +1593,13 @@
         globeMap.setLayoutProperty("carto-dark-layer", "visibility", aerialOn ? "none" : "visible");
         globeMap.setLayoutProperty("esri-aerial-layer", "visibility", aerialOn ? "visible" : "none");
         globeMap.setLayoutProperty("esri-labels-layer", "visibility", aerialOn ? "visible" : "none");
+      }
+      
+      if (globeMap.getLayer("incident-circles")) {
+        globeMap.moveLayer("incident-circles");
+      }
+      if (globeMap.getLayer("incident-labels")) {
+        globeMap.moveLayer("incident-labels");
       }
     };
   }
@@ -1591,7 +1623,7 @@
           id: inc.id,
           name: inc.name,
           color: color,
-          radius: r,
+          radius: Math.min(10, r),
           opacity: uncertain ? 0.55 : 0.88,
           deaths: inc.deaths || 0
         }
