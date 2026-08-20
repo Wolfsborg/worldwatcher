@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 610,
+  "count": 630,
   "current_count": 21,
-  "historical_count": 589,
+  "historical_count": 609,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -33156,6 +33156,1082 @@
           "url": "https://en.wikipedia.org/wiki/Al_Lith"
         }
       ],
+      "severity": "major"
+    },
+    {
+      "id": "le-gage-1955",
+      "name": "Le Gage Dam (Gage 1 experimental arch)",
+      "country": "France",
+      "region": "Cros-de-Géorand, Ardèche (Montpezat complex)",
+      "location_label": "Barrage du Gage, Cros-de-Géorand, Ardèche, France",
+      "lat": 44.7991,
+      "lng": 4.09676,
+      "geo_accuracy": "site",
+      "geo_source": "CFBR Barrage du Gage listing 44.7991 N, 4.09676 E (Gage 2 immediately upstream of abandoned Gage 1)",
+      "river_or_facility": "Gage 1 experimental arch; Gage stream (Loire right-bank tributary)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "structural_design",
+        "construction_first_filling"
+      ],
+      "cause_summary": "USBR / ASDSO case note: after first filling in 1955 the ultra-thin experimental arch cracked on both faces and cracking progressed for six years; after Malpasset the dam was abandoned and a thicker arch built immediately upstream.",
+      "incident_date": "1955",
+      "latest_report_date": "2018",
+      "what_happened": "Gage 1 was an experimental ultra-thin concrete arch (about 40 m high, as little as 1.3–1.5 m thick) first filled in 1954–55 to test arch-dam optimisation. ASDSO 'Lessons from Serious Incidents at Seven Arch Dams': after first filling in 1955 extensive cracking appeared on both faces and continued for the next six years. A September 1960 USBR photograph showed leakage through radial contraction joints and possibly through cracks near the foundations. After Malpasset (1959) the dam was abandoned and Gage 2, a thicker arch, was built immediately upstream (CFBR: filled 1954, abandoned for observed disorders; ERN: new dam 1965–66). No death count is given in the engineering notes.",
+      "status": "Abandoned in place; Gage 2 (1967 listing) retains the reservoir immediately upstream.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO — Lessons from Serious Incidents at Seven Arch Dams (Le Gage)",
+          "url": "https://damfailures.org/sites/default/files/wp-pdf/039_Lessons-from-Serious-Incidents-at-Seven-Arch-Dams.pdf"
+        },
+        {
+          "label": "CFBR — Barrage de Gage 2 monographie (Gage 1 abandoned)",
+          "url": "https://www.barrages-cfbr.eu/IMG/pdf/monobar_gage.pdf"
+        },
+        {
+          "label": "CFBR — Barrage du Gage listing (coordinates)",
+          "url": "https://www.barrages-cfbr.eu/Barrage-du-Gage.html"
+        }
+      ],
+      "notes": "Category incident: cracking and abandonment, not a breach. Deaths null. Coords are the listed Gage site (Gage 2 sits immediately upstream of Gage 1).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "EDF (Montpezat complex)",
+      "year_built": "1954",
+      "height_m": 40,
+      "reservoir_capacity": null,
+      "construction": "concrete_arch",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "EDF / French dam-safety authorities after Malpasset",
+      "severity": "major"
+    },
+    {
+      "id": "tolla-1961",
+      "name": "Tolla Dam (first-filling cracking)",
+      "country": "France",
+      "region": "Tolla, Corse-du-Sud",
+      "location_label": "Barrage de Tolla, Prunelli, Corse-du-Sud, France",
+      "lat": 41.9683,
+      "lng": 8.9771,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Lac de Tolla 41°58′06″N 8°58′38″E",
+      "river_or_facility": "Barrage de Tolla; Prunelli River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "structural_design",
+        "construction_first_filling"
+      ],
+      "cause_summary": "ASDSO / CFBR: the original ultra-thin arch, first filled in 1961, developed extensive downstream-face cracking near the abutments; 1963–65 downstream thickening (thicker arch plus hollow gravity mass) followed.",
+      "incident_date": "1961",
+      "latest_report_date": "2020",
+      "what_happened": "Tolla, an ultra-thin arch on the Prunelli in Corse-du-Sud, was completed about two years after Malpasset. ASDSO: upon first filling in 1961 extensive cracking appeared on the downstream face near the abutments of the upper half and continued to progress. CFBR monographie: 1961 first filling of the very thin arch with important cracking; 1963–65 downstream strengthening by a thick arch plus a hollow gravity mass; later drain and outlet works. Wikipedia Lac de Tolla: dam built 1958–60, commissioned 1965, EDF, about 87 m high, 34.74 million m³. No death count is given. A December 2019 overflow in Storm Fabien is a later, separate non-damaging event and is not this record.",
+      "status": "Strengthened 1963–65; still in service (EDF).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ASDSO — Lessons from Serious Incidents at Seven Arch Dams (Tolla)",
+          "url": "https://damfailures.org/sites/default/files/wp-pdf/039_Lessons-from-Serious-Incidents-at-Seven-Arch-Dams.pdf"
+        },
+        {
+          "label": "CFBR — Barrage de Tolla monographie",
+          "url": "https://www.barrages-cfbr.eu/IMG/pdf/monobar_tolla.pdf"
+        },
+        {
+          "label": "Wikipedia — Lac de Tolla",
+          "url": "https://en.wikipedia.org/wiki/Lac_de_Tolla"
+        }
+      ],
+      "notes": "Category incident: cracking and strengthening, not a breach. Deaths null. Do not merge the 2019 overflow.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "EDF SEI Corse",
+      "year_built": "1958–1961",
+      "height_m": 87,
+      "reservoir_capacity": "34.74 million m³ (Wikipedia / CFBR 34.7 hm³)",
+      "construction": "concrete_arch",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "etang-jonas-ambazac-2015-11-08",
+      "name": "Étang de Jonas dike (Ambazac)",
+      "country": "France",
+      "region": "Ambazac, Haute-Vienne",
+      "location_label": "Étang de Jonas, Ambazac, Haute-Vienne, France",
+      "lat": 45.9583,
+      "lng": 1.4008,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Ambazac 45°57′30″N 1°24′03″E (commune; ARIA does not publish a dam pin)",
+      "river_or_facility": "Étang de Jonas dike / drain aqueduct",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "poor_maintenance",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "ARIA 47352: a 3 m cavity and leak formed at the drain aqueduct; later diagnosis a puncture of the upstream sealing membrane. An August 2015 inspection had already flagged lack of maintenance.",
+      "incident_date": "2015-11-08",
+      "latest_report_date": "2015-12-15",
+      "what_happened": "ARIA (8 November 2015, Ambazac): about 10:15 a collapse on the Étang de Jonas dike opened a 3 m cavity with a large leak behind the drain aqueduct. Rescuers feared a ~40 m rupture of the 25 ha pond (220,000 m³) toward a departmental road, five houses and the fire station. The crest road was closed; four pumps (5,400 m³/h) drew the pond down; a smaller pond downstream was emptied as a buffer. After five days, with the level 1 m lower, divers reached a detached cast-iron sluice and built a cofferdam. Works finished 15 December 2015 with the bottom outlet left open and the spillway crest lowered 1.40 m. France 3: municipal services had already been watching the dike and had begun a drawdown in early October. No death count is given.",
+      "status": "Secured December 2015; spillway lowered 1.40 m; bottom outlet left open.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ARIA 47352 — Brèche sur un barrage (Étang de Jonas, Ambazac)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/47352/"
+        },
+        {
+          "label": "France 3 — Une digue menace de s'effondrer à l'étang du Jonas à Ambazac",
+          "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/haute-vienne/une-digue-menace-de-s-effondrer-au-niveau-de-l-etang-du-jonas-ambazac-847543.html"
+        }
+      ],
+      "notes": "Category incident: cavity and leak contained; the pond was not emptied by a full breach. Deaths null. Commune pin only.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "220,000 m³ (ARIA)",
+      "construction": "embankment",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "DREAL / hydraulic-works control service",
+      "severity": "moderate"
+    },
+    {
+      "id": "montcresson-canal-2016-05-31",
+      "name": "Montcresson canal bank (Loing)",
+      "country": "France",
+      "region": "Montcresson, Loiret",
+      "location_label": "Canal bank at Montcresson, Loiret, France",
+      "lat": 47.907,
+      "lng": 2.806,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Montcresson 47°54′25″N 2°48′22″E (commune; ARIA names the commune, not a surveyed breach pin)",
+      "river_or_facility": "Canal bank / endiguement along the Loing",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "ARIA 48093: after Loing water overtopped into the canal, a ~20 m right-bank breach formed at the joint between original fill and a 2003 repair, immediately downstream of a 2002 breach. Expertise: overtopping plus internal seepage most probable.",
+      "incident_date": "2016-05-31",
+      "latest_report_date": "2016",
+      "what_happened": "ARIA (31 May 2016, Montcresson, EISH red): around noon, after very heavy rain, the bank bounding a canal failed on the right bank over about 20 m. About 800,000 m³ flowed into the already flooding Loing; the river rose a few centimetres 12.5 km downstream between 15:00 and 19:00. ARIA states the exceptional flood's damage cannot be attributed to this breach. The canal had been accidentally overfilled by Loing overtopping minutes before. The breach sat at the contact between original materials and a 2003 repair, immediately downstream of a 2002 breach. A resident saw a jet at the crest before failure. No death count is given.",
+      "status": "Historic ARIA failure; repair recommended with 2003-type compacted clayey gravel plus a safety weir.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ARIA 48093 — Rupture d'un endiguement lors d'une crue (Montcresson)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/48093/"
+        }
+      ],
+      "notes": "Deaths null. Do not copy the 2016 Loing/Nemours flood toll onto this canal bank. 2002 prior breach not given its own record (ARIA gives no separate date/facts beyond mentioning it).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "unknown",
+      "volume_released": "about 800,000 m³ (ARIA)",
+      "breach_size": "about 20 m (ARIA)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "ARIA / hydraulic-works expertise",
+      "severity": "major"
+    },
+    {
+      "id": "dompierre-en-morvan-2016-05-29",
+      "name": "Dompierre-en-Morvan pond dam (Argentière)",
+      "country": "France",
+      "region": "Dompierre-en-Morvan, Côte-d'Or",
+      "location_label": "Étang dam at Dompierre-en-Morvan, Côte-d'Or, France",
+      "lat": 47.3953,
+      "lng": 4.2344,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Dompierre-en-Morvan 47°23′43″N 4°14′04″E (commune; ARIA names the commune, not a pond pin)",
+      "river_or_facility": "Earth dam of a 5 ha étang; Argentière stream",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "ARIA 48092: after heavy rain a 100 m earth dam bounding a 5 ha pond failed over 30 m, emptying the pond into the already flooding Argentière and opening breaches on downstream pond dams.",
+      "incident_date": "2016-05-29",
+      "latest_report_date": "2016",
+      "what_happened": "ARIA (29 May 2016, Dompierre-en-Morvan): after heavy rain an earth dam bounding a 5 ha pond failed. The 100 m structure gave way over 30 m. The pond emptied and the Argentière, already in flood, rose further, causing breaches on downstream pond dams. Firefighters evacuated 24 people. Two roads and a bridge were closed. No death count is given.",
+      "status": "Historic ARIA pond-dam failure; downstream cascade of pond-dam breaches noted.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "24 people evacuated (ARIA)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ARIA 48092 — Rupture d'un barrage de limite d'étang (Dompierre-en-Morvan)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/48092/"
+        }
+      ],
+      "notes": "Deaths null. Commune pin only. Downstream étang breaches are mentioned by ARIA but not named separately.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": "30 m of a 100 m earth dam (ARIA)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "xirocourt-2016-06-08",
+      "name": "Xirocourt pond dam breach",
+      "country": "France",
+      "region": "Xirocourt, Meurthe-et-Moselle",
+      "location_label": "Étang dam at Xirocourt, Meurthe-et-Moselle, France",
+      "lat": 48.4311,
+      "lng": 6.1733,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Xirocourt 48°25′52″N 6°10′24″E (commune; ARIA names the commune, not a pond pin)",
+      "river_or_facility": "Pond-limit dam (étang de délimitation)",
+      "type": "reservoir_dam",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ARIA 48134: after heavy rain a 2 m wide, 4 m high breach opened in a pond-limit dam, sending a first wave and threatening rupture.",
+      "incident_date": "2016-06-08",
+      "latest_report_date": "2016",
+      "what_happened": "ARIA (8 June 2016, Xirocourt): after heavy precipitation a breach appeared in a pond-limit dam. The opening, 2 m wide and 4 m high, produced a first wave and raised fear of full rupture. Four houses were flooded (50 cm in garages) and 15 others threatened. The communal emergency plan was activated. No death count is given.",
+      "status": "Partial breach; ARIA does not record a full emptying.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "4 houses flooded; 15 others threatened (ARIA)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ARIA 48134 — Menace de rupture de la digue d'un étang (Xirocourt)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/48134/"
+        }
+      ],
+      "notes": "Deaths null. Commune pin only. Category partial_breach: ARIA describes a 2×4 m opening, not a full dam disappearance.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": "2 m wide, 4 m high (ARIA)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "saint-vran-2016-09-30",
+      "name": "Saint-Vran private pond dam",
+      "country": "France",
+      "region": "Saint-Vran, Côtes-d'Armor",
+      "location_label": "Private étang dam at Saint-Vran, Côtes-d'Armor, France",
+      "lat": 48.2383,
+      "lng": -2.4411,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Saint-Vran 48°14′18″N 2°26′28″W (commune; ARIA names the commune, not a farm pin)",
+      "river_or_facility": "Private remblai pond dam; Hyvet stream",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "ARIA 48655: the private embankment failed overnight; hydraulic-works control service attributed the rupture to lack of maintenance and coypu damage.",
+      "incident_date": "2016-09-30",
+      "latest_report_date": "2016",
+      "what_happened": "ARIA (30 September 2016, Saint-Vran): overnight the embankment dam of a private pond failed. The 15,000 m³ reservoir emptied into the Hyvet. ARIA: no notable consequences. The hydraulic-works control service attributed the rupture to lack of maintenance and degradation by coypus (ragondins). No death count is given; ARIA's 'aucune conséquence notable' is treated as no reported casualties.",
+      "status": "Historic ARIA private-pond failure.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "ARIA 48655 — Rupture du barrage d'un étang (Saint-Vran)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/48655/"
+        }
+      ],
+      "notes": "Deaths 0: ARIA 'aucune conséquence notable'. Commune pin only; pond unnamed.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "15,000 m³ (ARIA)",
+      "construction": "earthfill",
+      "purpose": "unknown",
+      "volume_released": "15,000 m³ emptied into the Hyvet (ARIA)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Service de contrôle de la sécurité des ouvrages hydrauliques",
+      "severity": "minor"
+    },
+    {
+      "id": "ruisbroek-vlietdijk-1976-01-03",
+      "name": "Ruisbroek Vlietdijk (1976 storm-tide breach)",
+      "country": "Belgium",
+      "region": "Ruisbroek, Puurs-Sint-Amands, Antwerp Province",
+      "location_label": "Vlietdijk, Ruisbroek, Puurs-Sint-Amands, Belgium",
+      "lat": 51.088,
+      "lng": 4.33,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Ruisbroek, Antwerp 51°05′17″N 4°19′48″E; memorial later at pumping station De Vliet on the breach reach",
+      "river_or_facility": "Vlietdijk; Vliet (Rupel / Scheldt tributary)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "VRT / Canon van Vlaanderen: spring tide, intense rain and a severe northwest storm broke the Vliet dike. S-Plus eyewitness compilation: almost 100 m breach.",
+      "incident_date": "1976-01-03",
+      "latest_report_date": "2026-01-03",
+      "what_happened": "On 3 January 1976 the Vliet dike at Ruisbroek (now Puurs-Sint-Amands) failed during a spring tide and Beaufort 11–12 storm. Dutch Wikipedia Ruisbroek: 600 of the then 824 ha commune flooded, locally up to 3 m. VRT (50-year commemoration, 10 Dec 2025 / 3 Jan 2026): no fatalities in Ruisbroek; about 800 houses under water; more than 2,000 people evacuated by boat. S-Plus: almost 100 m breach, about 900 ha inundated; Dutch stone-dumping closed the gap; the village was dry again by 17 January after pumping. The event prompted Belgium's Sigma Plan and the 12 July 1976 disaster-compensation law. Brussels Times notes the same storm killed two people elsewhere in Belgium — that regional storm figure is not entered as this dike's death field.",
+      "status": "Dike repaired; Vliet later dammed; pumping station De Vliet built; Sigma Plan follows.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "more than 2,000 evacuated; about 800 houses flooded (VRT)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "VRT — 50 jaar na overstromingsramp Ruisbroek",
+          "url": "https://www.vrt.be/vrtnws/nl/2025/12/10/overstroming-ruisbroek-50-jaar-herdenking-puurs-sint-amands/"
+        },
+        {
+          "label": "Dutch Wikipedia — Ruisbroek (Antwerpen)",
+          "url": "https://nl.wikipedia.org/wiki/Ruisbroek_(Antwerpen)"
+        },
+        {
+          "label": "Canon van Vlaanderen — Watersnood in Ruisbroek",
+          "url": "https://www.canonvanvlaanderen.be/actua/watersnood-in-ruisbroek-in-de-kijker/"
+        }
+      ],
+      "notes": "Deaths 0: VRT and Canon van Vlaanderen state no victims in Ruisbroek. Do not copy the two Belgium-wide storm deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "almost 100 m (S-Plus compilation of the Vlietdijk breach)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "overasselt-nederasselt-1925-12-31",
+      "name": "Overasselt–Nederasselt Maasdijk",
+      "country": "Netherlands",
+      "region": "Between Overasselt and Nederasselt, Gelderland (Land van Maas en Waal)",
+      "location_label": "Maasdijk between Overasselt and Nederasselt, Gelderland, Netherlands",
+      "lat": 51.77222,
+      "lng": 5.74583,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Nederasselt 51°46′20″N 5°44′45″E; oral-history account: breach near 't Roth farm between the two villages",
+      "river_or_facility": "Maasdijk; River Meuse (Maas)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Dutch Wikipedia / Waterschap Rivierenland: days of rain and snowmelt plus a south-westerly storm drove the Maas over and through the Gelderse Maasdijk on New Year's morning.",
+      "incident_date": "1925-12-31",
+      "latest_report_date": "2021",
+      "what_happened": "On the morning of 31 December 1925 the Maasdijk failed between Overasselt and Nederasselt. Dutch Wikipedia Overstroming van de Maas (1926): abundant rain from 19 December plus snowmelt; the Land van Maas en Waal flooded (Nederasselt, Overasselt, Balgoy, Hernen, Leur, Bergharen). Waterschap Rivierenland: the river punched a hole that grew quickly; about 6,000 people fled; the government did not stamp it a national disaster partly because there were no fatal casualties. Rijkswaterstaat: a 100 m gap; 39 dikes along the Maas from Eijsden to Grave also failed. Damage about 10 million guilders; 3,000 houses damaged or destroyed. The breach was later filled, leaving a notably thick dike near Nederasselt, and helped drive Maas canalisation.",
+      "status": "Breach filled; landmark 20th-century Maas dike failure.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": "almost 6,000 fled (Waterschap Rivierenland)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Dutch Wikipedia — Overstroming van de Maas (1926)",
+          "url": "https://nl.wikipedia.org/wiki/Overstroming_van_de_Maas_(1926)"
+        },
+        {
+          "label": "Waterschap Rivierenland — 1926 overstroming Land van Maas en Waal",
+          "url": "https://www.waterschaprivierenland.nl/1926"
+        },
+        {
+          "label": "Rijkswaterstaat — Watersnoodramp 1926",
+          "url": "https://www.rijkswaterstaat.nl/nieuws/archief/watersnoodramp-1926-het-verwoestende-water"
+        }
+      ],
+      "notes": "Deaths 0: Waterschap Rivierenland — no fatal casualties, which was one reason it was not labelled a national disaster. Other Maas breaches that week are not merged into this id.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 100 m (Rijkswaterstaat; oral history 't Roth farm)",
+      "downstream_risk": null,
+      "economic_damage": "about 10 million guilders (Dutch Wikipedia / Rijkswaterstaat)",
+      "investigating_agency": null,
+      "severity": "catastrophic"
+    },
+    {
+      "id": "schelphoek-1953-02-01",
+      "name": "Schelphoek sea dike (Schouwen-Duiveland)",
+      "country": "Netherlands",
+      "region": "Schelphoek near Serooskerke, Schouwen-Duiveland, Zeeland",
+      "location_label": "Schelphoek, Schouwen-Duiveland, Zeeland, Netherlands",
+      "lat": 51.69139,
+      "lng": 3.78861,
+      "geo_accuracy": "site",
+      "geo_source": "DeltaExpertise Schelphoek West ringdijk 51°41′29″N 3°47′19″E (ring dike later built around the 1953 breach basin)",
+      "river_or_facility": "Schelphoek sea dike / former beet harbour, Schouwen south coast",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Dutch Wikipedia / Encyclopedie van Zeeland: during the 1 February 1953 North Sea storm surge this was the largest dike breach on Schouwen; the hamlet was lost.",
+      "incident_date": "1953-02-01",
+      "latest_report_date": "2013",
+      "what_happened": "During the 1 February 1953 North Sea flood the sea dike at Schelphoek, a small beet harbour and hamlet south of Serooskerke on Schouwen-Duiveland, failed. Dutch Wikipedia: the hamlet was entirely lost in the island's largest breach. Encyclopedie van Zeeland: largest dike breach on Schouwen. Erfgoedplatform Schouwen-Duiveland: the gap grew through the following months to about 520 m wide and 38 m deep by August 1953; a ring dike more than 4 km long was then closed with caissons, at the cost of about 200 ha of farmland (Wikipedia). The 1953 national death toll is not copied onto this single breach. No Schelphoek-only fatality figure was found in the sources used.",
+      "status": "Hamlet lost; ring dike closed 1953; now a Staatsbosbeheer creek/nature area (later Oosterschelde works harbour).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Dutch Wikipedia — Schelphoek (Schouwen-Duiveland)",
+          "url": "https://nl.wikipedia.org/wiki/Schelphoek_(Schouwen-Duiveland)"
+        },
+        {
+          "label": "Encyclopedie van Zeeland — Schelphoek",
+          "url": "https://encyclopedievanzeeland.nl/Schelphoek"
+        },
+        {
+          "label": "DeltaExpertise — Schelphoek West coordinates",
+          "url": "https://deltaexpertise.nl/wiki/index.php/Schelphoek_West"
+        }
+      ],
+      "notes": "Deaths null: do not copy the 1,835-person national 1953 toll onto this one dike. Coords are the later ring dike around the breach basin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "grew to about 520 m wide and 38 m deep by August 1953 (Erfgoedplatform Schouwen-Duiveland)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "catastrophic"
+    },
+    {
+      "id": "tuindorp-oostzaan-1960-01-14",
+      "name": "Tuindorp Oostzaan Zijkanaal H dike",
+      "country": "Netherlands",
+      "region": "Tuindorp Oostzaan, Amsterdam-Noord",
+      "location_label": "Zijkanaal H dike, Tuindorp Oostzaan, Amsterdam, Netherlands",
+      "lat": 52.4113,
+      "lng": 4.8929,
+      "geo_accuracy": "site",
+      "geo_source": "Dutch Wikipedia Tuindorp Oostzaan 52°24′40.7″N 4°53′34.4″E; 2018 info board later placed on Zijkanaal-H weg at the breach",
+      "river_or_facility": "Zijkanaal H dike (Noordzeekanaal arm); Noorder IJpolder",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Ons Amsterdam: the cause of the 14 January 1960 dike breach remained unexplained. Dutch Wikipedia: the dike along Zijkanaal H failed and the Noorder IJpolder filled.",
+      "incident_date": "1960-01-14",
+      "latest_report_date": "2018",
+      "what_happened": "In the early morning of 14 January 1960 the dike along Zijkanaal H, a North Sea Canal arm, failed and flooded Tuindorp Oostzaan / the Noorder IJpolder. Dutch Wikipedia: 2,700 dwellings in the water; 15,000 residents driven from their homes; the gap was closed the next day and residents returned after a week. Ons Amsterdam: two soldiers on patrol found a gaping hole about 06:30; one death — an 84-year-old widow found dead in her bed the next day, attributed to a heart attack; damage about 8 million guilders. The failure helped create the Technical Advisory Committee on Flood Defences (TAW) peat-dike programme.",
+      "status": "Gap closed within a day; neighbourhood still inhabited; 2018 info board at the breach.",
+      "deaths": 1,
+      "injured": null,
+      "affected_or_evacuated": "15,000 residents driven from homes (Dutch Wikipedia)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Dutch Wikipedia — Tuindorp Oostzaan",
+          "url": "https://nl.wikipedia.org/wiki/Tuindorp_Oostzaan"
+        },
+        {
+          "label": "Ons Amsterdam — Tuindorp Oostzaan onder water",
+          "url": "https://onsamsterdam.nl/artikelen/tuindorp-oostzaan-onder-water"
+        }
+      ],
+      "notes": "Deaths 1: Ons Amsterdam — 84-year-old widow found dead of a heart attack the day after the flood. Cause mapped to unknown; contemporary investigation left the trigger unexplained.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "about 8 million guilders (Ons Amsterdam)",
+      "investigating_agency": "Municipal / later TAW peat-dike reviews",
+      "severity": "major"
+    },
+    {
+      "id": "terbregge-rotte-2003-08-31",
+      "name": "Terbregge Rotte peat dike",
+      "country": "Netherlands",
+      "region": "Terbregge, Rotterdam, South Holland",
+      "location_label": "Rotte peat dike at Terbregge, Rotterdam, Netherlands",
+      "lat": 51.95,
+      "lng": 4.517,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Terbregge 51°57′N 4°31′E; STOWA lists the 31 August 2003 failure with postcode 3056 LL",
+      "river_or_facility": "Boezemkade along the Rotte",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "foundation"
+      ],
+      "cause_summary": "STOWA peat-dike factsheet: the Rotte kade at Terbregge failed on 31 August 2003, five days after Wilnis; shallow boezem limited the effect and the lifted peat deformed only a short distance.",
+      "incident_date": "2003-08-31",
+      "latest_report_date": "2013",
+      "what_happened": "STOWA's peat-dike stability factsheet and Dutch Wikipedia Veenkade list a 31 August 2003 failure of a kade along the Rotte at Terbregge (postcode 3056 LL), five days after the Wilnis peat-dike slide. STOWA: because the boezem was shallow the effect was limited; the lifted peat was deformed only over a short distance. No death count is given. This is a separate structure from Wilnis (already in the database).",
+      "status": "Historic peat-dike failure; effect described as limited.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "STOWA — Stabiliteit veenkades (Terbregge 31 August 2003)",
+          "url": "https://www.stowa.nl/deltafacts/waterveiligheid/waterveiligheidsbeleid-en-regelgeving/stabiliteit-veenkades"
+        },
+        {
+          "label": "Dutch Wikipedia — Veenkade (waterkering)",
+          "url": "https://nl.wikipedia.org/wiki/Veenkade_(waterkering)"
+        }
+      ],
+      "notes": "Deaths null. Do not merge with wilnis-peat-dike-2003-08-26.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "moderate"
+    },
+    {
+      "id": "reeuwijk-ringvaart-2021-07-26",
+      "name": "Reeuwijk ringvaart peat dike (Middelburg-Tempelpolder)",
+      "country": "Netherlands",
+      "region": "Between Kerkweg and Tempeldijk, Reeuwijk, South Holland",
+      "location_label": "Ringvaart dike, Middelburg- and Tempelpolder, Reeuwijk, Netherlands",
+      "lat": 52.05,
+      "lng": 4.73,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Reeuwijk 52°03′N 4°44′E; NOS/AD: breach between Kerkweg and Tempeldijk (no surveyed pin fetched)",
+      "river_or_facility": "Ringvaart dike, Middelburg- and Tempelpolder (Hoogheemraadschap van Rijnland)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "foundation",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Deltares for Rijnland (OTAR / Infrasite 2023): thick peat over a weak clay layer, plus a 1994 clay raise that reduced stability, produced sliding after long-term settlement and ditch-bottom cracking.",
+      "incident_date": "2021-07-26",
+      "latest_report_date": "2023-02-23",
+      "what_happened": "In the early morning of 26 July 2021 about 100 m of the ringvaart dike between Kerkweg and Tempeldijk in Reeuwijk slid (AD; NOS: a gap a few metres wide at first, then tens of metres of dike subsided). Water entered the Middelburg- and Tempelpolder meadows; livestock were moved to higher ground; no houses or businesses were evacuated (AD/NOS). Deltares, commissioned by Hoogheemraadschap van Rijnland, found no single cause: peat on a weak clay layer, a 1994 clay raise that reduced stability, and ditch-bottom cracking from water pressure. No death count is given.",
+      "status": "Slid section to be restored and raised (Rijnland after the Deltares study).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "NOS — Gat in dijk bij Reeuwijk onder controle",
+          "url": "https://nos.nl/artikel/2390884-gat-in-dijk-bij-reeuwijk-onder-controle-vee-is-verplaatst"
+        },
+        {
+          "label": "OTAR — Oorzaak dijkafschuiving 2021 bij Reeuwijk bekend (Deltares)",
+          "url": "https://www.otar.nl/oorzaak-dijkafschuiving-2021-bij-reeuwijk-bekend/"
+        },
+        {
+          "label": "Infrasite — Dijkversterking droeg bij aan dijkbreuk Reeuwijk",
+          "url": "https://www.infrasite.nl/waterbouw-deltas/2023/02/23/dijkversterking-droeg-bij-aan-dijkbreuk-reeuwijk/"
+        }
+      ],
+      "notes": "Deaths null. AD/NOS: no houses evacuated. American crayfish was locally blamed; Rijnland said that was not the cause.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Hoogheemraadschap van Rijnland",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "about 100 m of dike slid (AD); NOS: gap a few metres wide at first",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Deltares for Hoogheemraadschap van Rijnland",
+      "severity": "moderate"
+    },
+    {
+      "id": "tarpa-tisza-2001-03-06",
+      "name": "Tarpa Tisza levee (2001 Bereg flood)",
+      "country": "Hungary",
+      "region": "Tarpa, Szabolcs-Szatmár-Bereg County",
+      "location_label": "Tisza levee at Tarpa, Szabolcs-Szatmár-Bereg, Hungary",
+      "lat": 48.1039,
+      "lng": 22.5272,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Tarpa 48°06′14″N 22°31′38″E (village; breach described as at Tarpa, not a surveyed chainage pin)",
+      "river_or_facility": "Primary Tisza flood levee at Tarpa (Bereg basin)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Védelem Tudomány / Belügyi Szemle: after a >7 m rise in 36 hours the Upper Tisza levee at Tarpa slipped over about 3 km on 6 March 2001 and then breached at two nearby points.",
+      "incident_date": "2001-03-06",
+      "latest_report_date": "2016",
+      "what_happened": "In the first week of March 2001 rain plus snowmelt produced a record Upper Tisza flood (Tivadar 1,014 cm on 6 March). Védelem Tudomány: on 6 March the levee at Tarpa slipped over about 3 km and then failed at two nearby places; about 140 million m³ entered the southern Bereg basin. Belügyi Szemle: at 13:30 a 5 m breach opened, later growing to 160 m; Tarpa, Gulács and Tivadar and parts of Hetefejércse were inundated; twelve further villages were ordered evacuated. Highway 41 was cut in two places to drain water. No death count for this levee is given in those papers.",
+      "status": "Bereg reconstruction under 2001 government decrees; later Upper Tisza levee upgrades.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Védelem Tudomány — 2001 tiszai árvíz helyreállítás",
+          "url": "https://ojs3.mtak.hu/index.php/vedelemtudomany/article/view/15712"
+        },
+        {
+          "label": "Belügyi Szemle — 2001 beregi árvíz (Tarpa gátszakadás)",
+          "url": "https://belugyiszemlejournal.org/index.php/belugyiszemle/article/download/1924/1766/4095"
+        },
+        {
+          "label": "Wikipedia — Tarpa",
+          "url": "https://en.wikipedia.org/wiki/Tarpa"
+        }
+      ],
+      "notes": "Deaths null — papers used do not state a fatality figure for the Tarpa breach. Do not copy Ajka 2010 deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": "about 140 million m³ into the Bereg basin (Védelem Tudomány)",
+      "breach_size": "about 5 m at 13:30 on 6 March, later about 160 m (Belügyi Szemle)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "paltinu-1974",
+      "name": "Paltinu Dam (first-filling seepage and displacement)",
+      "country": "Romania",
+      "region": "Doftana valley, Prahova County (La Tocile)",
+      "location_label": "Barajul Paltinu, Valea Doftanei, Prahova, Romania",
+      "lat": 45.24571,
+      "lng": 25.73683,
+      "geo_accuracy": "exact",
+      "geo_source": "Romanian Wikipedia Barajul Paltinu 45°14′45″N 25°44′13″E",
+      "river_or_facility": "Paltinu double-curvature arch; Doftana River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "foundation",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Adevarul / seismic-monitoring paper: during first filling, as the reservoir reached the last metres in 1974, seepage under the pulvino exceeded 150 L/s and asymmetric displacements at the arch–parabolic-wing contact exceeded predictions.",
+      "incident_date": "1974",
+      "latest_report_date": "2024",
+      "what_happened": "Paltinu, Romania's only double-curvature arch with a peripheral joint, was built 1966–71 on the Doftana (Romanian Wikipedia: 108 m, crest 455 m, 45.24571 N, 25.73683 E). Adevarul: during first filling, large seepage under the foundation block (over 150 L/s) and displacements at the contact between the central arch and the left-bank parabolic wing were observed. A later hydrology paper dates the 1974 episode to water elevation 642.85 m a.s.l. Extra grout curtain, drainage and left-bank concrete stepped blocks with prestressed anchors followed; Adevarul says seepage then stopped and behaviour stayed within limits. Consolidation works continued into 1976–82 / 1986 depending on the source. No death count is given. The dam did not breach.",
+      "status": "Strengthened after first filling; still in service (Apele Române / Category A).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Romanian Wikipedia — Barajul Paltinu",
+          "url": "https://ro.wikipedia.org/wiki/Barajul_Paltinu"
+        },
+        {
+          "label": "Adevărul — Barajul Paltinu, prima umplere și infiltrații",
+          "url": "https://adevarul.ro/stiri-locale/ploiesti/foto-mostenirea-grandioasa-a-comunismului-in-1609121.html"
+        }
+      ],
+      "notes": "Category incident: first-filling seepage and displacement, not a breach. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Administrația Națională Apele Române",
+      "year_built": "1966–1971",
+      "height_m": 108,
+      "reservoir_capacity": null,
+      "construction": "concrete_arch",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Romanian design/safety reviews after first filling",
+      "severity": "major"
+    },
+    {
+      "id": "sarala-sagar-2019-12-31",
+      "name": "Sarala Sagar Project (bund breach)",
+      "country": "India",
+      "region": "Shankarampeta, Kothakota mandal, Wanaparthy district, Telangana",
+      "location_label": "Sarala Sagar Project, Shankarampeta, Wanaparthy, Telangana, India",
+      "lat": 16.412,
+      "lng": 77.899,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Sarala Sagar Project 16°24′43″N 77°53′56″E",
+      "river_or_facility": "Sarala Sagar siphon irrigation project (Krishna system)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "New Indian Express: the bund breached after the reservoir was full for the first time in 10 years and had not been strengthened. CWC / Iyer table lists Sarala Sagar, earth, 12 m, 1959, failed 2020, no cause stated.",
+      "incident_date": "2019-12-31",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "New Indian Express (updated 1 January 2020): the Sarala Sagar irrigation project in Kothakota mandal, Wanaparthy district, breached at Shankarampeta on Tuesday morning. Tuesday before that update was 31 December 2019. About 0.5 tmc ft (full storage) drained; the Atmakur–Wanaparthy road was submerged for a couple of hours. TNIE sources: the bund had not been strengthened though the reservoir was full for the first time in 10 years. CWC / Iyer (30 Sep 2023) lists Telangana Sarala Sagar, earth, 12 m, completed 1959, failed 2020. Wikipedia: siphon-technology dam, construction started 15 September 1949, opened 1959, 16°24′43″N 77°53′56″E. No death count is given in TNIE, Wikipedia or the CWC row.",
+      "status": "CWC-listed historic failure; minister said the breach would be closed and bunds strengthened.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "New Indian Express — Breach empties out Sarala Sagar dam",
+          "url": "https://www.newindianexpress.com/states/telangana/2020/Jan/01/breach-empties-out-sarala-sagar-dam-in-telangana-2083523.html"
+        },
+        {
+          "label": "Wikipedia — Sarala Sagar Project",
+          "url": "https://en.wikipedia.org/wiki/Sarala_Sagar_Project"
+        },
+        {
+          "label": "Iyer / CWC — Sarala Sagar 2020",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        }
+      ],
+      "notes": "Incident date 2019-12-31 from TNIE 'Tuesday morning' ahead of the 1 Jan 2020 update (that Tuesday was 31 Dec 2019). CWC year is 2020. Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Telangana (irrigation) / originally Raja of Wanaparthy",
+      "year_built": "1959",
+      "height_m": 12,
+      "reservoir_capacity": "0.5 tmc ft (TNIE / Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "poringalkuthu-2018-08",
+      "name": "Poringalkuthu / Peringalkuthu Dam (2018 overflow and shutter damage)",
+      "country": "India",
+      "region": "Chalakudy forest, Thrissur district, Kerala",
+      "location_label": "Peringalkuthu Dam, Chalakudy River, Thrissur, Kerala, India",
+      "lat": 10.3152,
+      "lng": 76.6344,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia Peringalkuthu Dam 10°18′55″N 76°38′04″E",
+      "river_or_facility": "Peringalkuthu / Poringalkuthu Dam; Chalakudy River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway",
+        "operational_gate"
+      ],
+      "cause_summary": "Onmanorama / Wikipedia: during the August 2018 Kerala floods the dam overflowed and flood-borne trees wrecked the reverse-design shutters so six of seven could not be closed. CWC lists Peringalkuthu as a 2018 'failure' without a cause.",
+      "incident_date": "2018-08",
+      "latest_report_date": "2018-09-18",
+      "what_happened": "CWC / Iyer table: Kerala Peringalkuthu, concrete and masonry, 51.8 m, completed 1957, failed 2018, cause blank. Wikipedia Peringalkuthu Dam (10°18′55″N 76°38′04″E; opened 15 May 1957; KSEB; Wikipedia height 23 m; 32 MCM) and Onmanorama (7 Sep 2018): on 14 August 2018 the reservoir reached 424 m FRL; all seven shutters were raised 3.6 m and two sluices 5.1 m; the dam overflowed two days later. Trees lodged in the reverse-design shutters; KSEB could not close six of seven; water kept flowing and about 70% of storage left. CWC's Kerala-flood review asked for a Dam Safety Review Panel inspection and a design-flood/spillway review; it did not describe a dam-body collapse. Hindu Business Line: water overtopped the dam by more than two metres. Kerala flood deaths are not entered on this record. Wikipedia height 23 m vs CWC 51.8 m is unresolved.",
+      "status": "Shutters repaired; storage restrictions later lifted; still in KSEB service.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Wikipedia — Peringalkuthu Dam (2018 floods and shutter damage)",
+          "url": "https://en.wikipedia.org/wiki/Peringalkuthu_Dam"
+        },
+        {
+          "label": "Onmanorama — KSEB needs 6 months to fix shutters of Peringalkuthu dam",
+          "url": "https://www.onmanorama.com/news/kerala/2018/09/07/peringalkuthu-shutters-open-repair-kerala-floods.html"
+        },
+        {
+          "label": "Iyer / CWC — Peringalkuthu 2018 listed as failure",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        }
+      ],
+      "notes": "Category incident: overflow and shutter damage, not a dam-body breach. Deaths null — do not copy 2018 Kerala flood deaths. Height conflict: Wikipedia 23 m vs CWC 51.8 m.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Kerala State Electricity Board",
+      "year_built": "1957",
+      "height_m": 23,
+      "reservoir_capacity": "32 MCM (Wikipedia)",
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "CWC Hydrology (South) / recommended DSRP inspection",
+      "severity": "major"
+    },
+    {
+      "id": "palemvagu-2008",
+      "name": "Palemvagu Dam (under-construction overtopping)",
+      "country": "India",
+      "region": "Near Mallapuram village, Venkatapuram mandal, Jayashankar Bhupalpally / Mulugu, Telangana",
+      "location_label": "Palemvagu Project near Mallapuram, Venkatapuram, Telangana, India",
+      "lat": 18.3315,
+      "lng": 80.5761,
+      "geo_accuracy": "region",
+      "geo_source": "Mallapuram village listing 18.3315 N, 80.5761 E; project described as near Mallapuram, Venkatapuram mandal (not a surveyed dam pin)",
+      "river_or_facility": "Palemvagu earth dam; Palemvagu (Godavari tributary)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "construction_first_filling"
+      ],
+      "cause_summary": "CWC / Iyer: Palemvagu, earth, 13 m, under construction, failed 2008 by flash-flood overtopping. The Hindu / irrigation minister later said the 2005 EPC project was washed away twice because of poor design.",
+      "incident_date": "2008",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "CWC / Iyer table: Telangana Palemvagu dam, earth, 13.00 m, year of completion U/C, failed 2008, 'Flash flood resulting in overtopping of the earth dam.' News On Project reprinting The Hindu: Irrigation Minister T. Harish Rao told the Legislative Council the Palem-Vagu project, launched as an EPC in 2005, 'was washed away twice' because of poor design; the TRS government later redesigned it (1.27 tmc, about 10,500 acres). Project notes place it across Palemvagu near Mallapuram village, Venkatapuram mandal. No death count is given in the CWC row or the minister's statement.",
+      "status": "Washed away while under construction (CWC 2008); later redesigned and completed as a medium irrigation project.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Iyer / CWC — Palemvagu 2008 overtopping",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "News On Project / The Hindu — Palem Vagu washed away twice",
+          "url": "https://newsonprojects.com/news/palem-vagu-project-to-be-ready-by-may-next"
+        }
+      ],
+      "notes": "Deaths null. Village pin, not a dam survey. CWC lists one 2008 failure; minister said washed away twice — only the CWC 2008 row is dated here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Telangana / then Andhra Pradesh irrigation",
+      "year_built": "U/C in 2008 (CWC); launched 2005 (minister)",
+      "height_m": 13,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "chandora-1991",
+      "name": "Chandora Dam (1991 breach)",
+      "country": "India",
+      "region": "Chandora village, Multai tehsil, Betul district, Madhya Pradesh",
+      "location_label": "Chandora Dam, Tapti River, Betul district, Madhya Pradesh, India",
+      "lat": 21.7,
+      "lng": 78.2,
+      "geo_accuracy": "site",
+      "geo_source": "SANDRP Chandora salient features 21-42 N, 78-12 E",
+      "river_or_facility": "Chandora Dam; Tapti (Tapi) River",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "CWC / Iyer table: Chandora, earth, 27.30 m, completed 1986, failed 1991, cause 'Breach' only. No piping, overtopping or foundation wording in that row.",
+      "incident_date": "1991",
+      "latest_report_date": "2023-09-30",
+      "what_happened": "CWC / Iyer (30 Sep 2023) lists Madhya Pradesh Chandora: earth dam, 27.30 m, completed 1986, failed 1991, 'Breach.' SANDRP (9 Aug 2007 note on a later crack) gives the same dam on the Tapti in Multai tehsil, Betul: completed 1986 (World Bank), 21-42 N, 78-12 E, height 17.26 m in the WRD salient-feature table, 2,043 m long, 18.2 MCM gross, and says it 'had breached 15 years ago' / 'in 1992, it seems.' Cause is not stated beyond CWC 'Breach.' No death count is given. A 2007 100 m crack is a later, separate record.",
+      "status": "Rebuilt / in service after the 1991 CWC failure; later listed as distressed.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "Iyer / CWC — Chandora 1991",
+          "url": "https://iitr.ac.in/Careers/static/ICED/Specialist_Lectures/HYDRAULIC_SAFETY_by_J.C_30.9.23.pdf"
+        },
+        {
+          "label": "SANDRP — Chandora Dam Breach in Madhya Pradesh (2007 note, 1991/92 prior breach)",
+          "url": "https://sandrp.in/wp-content/uploads/2018/03/chandora_dam_breach_august_2007.pdf"
+        }
+      ],
+      "notes": "Deaths null. Cause unknown — CWC says only 'Breach.' Height 27.30 m (CWC) vs 17.26 m (SANDRP WRD table). Do not merge with chandora-2007-08-07.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Madhya Pradesh Water Resources Department",
+      "year_built": "1986",
+      "height_m": 27.3,
+      "reservoir_capacity": "18.2 MCM gross (SANDRP / WRD table)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "severity": "major"
+    },
+    {
+      "id": "chandora-2007-08-07",
+      "name": "Chandora Dam (2007 crack / emergency drawdown)",
+      "country": "India",
+      "region": "Chandora village, Multai tehsil, Betul district, Madhya Pradesh",
+      "location_label": "Chandora Dam, Tapti River, Betul district, Madhya Pradesh, India",
+      "lat": 21.7,
+      "lng": 78.2,
+      "geo_accuracy": "site",
+      "geo_source": "SANDRP Chandora salient features 21-42 N, 78-12 E",
+      "river_or_facility": "Chandora Dam; Tapti (Tapi) River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "SANDRP / UNI 8 August 2007: a 100 m crack / 'breach in a portion' of the 2,043 m earthen dam was found on 7 August while the reservoir was at full 684 m; emergency emptying followed. No mechanism beyond the crack is stated.",
+      "incident_date": "2007-08-07",
+      "latest_report_date": "2007-08-09",
+      "what_happened": "SANDRP (9 Aug 2007, citing UNI 8 Aug 2007): irrigation officials sounded the emergency siren from the afternoon of 7 August after detecting a breach in a portion of the 2,043 m Chandora earth dam on the Tapti, Multai tehsil, Betul. On 8 August a high alert covered 100 villages; six villages including Chandora were vacated; all eight gates were opened to empty the full reservoir (684 m). Executive Engineer R.C. Rathore: the 18.2 MCM storage plus ongoing catchment inflow would go down the river. India Together: a 100 m portion of the earthen dam caved in. This is a later event than the 1991 CWC failure (chandora-1991). No death count is given.",
+      "status": "Emergency drawdown August 2007; dam was already on MP's distressed-dam list.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "six villages vacated; 100 villages on alert (SANDRP / UNI)",
+      "verification": "confirmed",
+      "sources": [
+        {
+          "label": "SANDRP — Chandora Dam Breach in Madhya Pradesh (UNI 8 Aug 2007)",
+          "url": "https://sandrp.in/wp-content/uploads/2018/03/chandora_dam_breach_august_2007.pdf"
+        },
+        {
+          "label": "India Together — Here a breach, there a breach",
+          "url": "https://indiatogether.org/dambreach-environment"
+        }
+      ],
+      "notes": "Deaths null. Separate from chandora-1991. Category incident: 100 m crack and emergency emptying; not described as a full dam disappearance.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Madhya Pradesh Water Resources Department",
+      "year_built": "1986",
+      "height_m": 17.26,
+      "reservoir_capacity": "18.2 MCM gross (SANDRP / WRD table)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "about 100 m crack / portion caved in (India Together / SANDRP)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
       "severity": "major"
     }
   ]
