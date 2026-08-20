@@ -1057,6 +1057,9 @@
       container: "map",
       style: {
         version: 8,
+        projection: {
+          type: "globe"
+        },
         sources: {
           "carto-dark": {
             type: "raster",
@@ -1119,7 +1122,6 @@
       },
       center: [12, 20],
       zoom: 3,
-      projection: "globe",
       attributionControl: true,
       maxPitch: 0,
       dragRotate: false,
