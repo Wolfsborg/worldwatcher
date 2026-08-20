@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 307,
+  "count": 327,
   "events": [
     {
       "id": "flood-assam-2026",
@@ -17056,6 +17056,1090 @@
           "date": "2026-08-20",
           "by": "historic_backfill",
           "change": "Added from Wikipedia: 2006 Mid-Atlantic United States flood."
+        }
+      ]
+    },
+    {
+      "id": "flood-fiji-2009",
+      "name": "January 2009 Fiji floods",
+      "country": "Fiji",
+      "region": "Western Viti Levu",
+      "location_label": "Nadi, Fiji",
+      "lat": -17.8,
+      "lng": 177.4167,
+      "geo_accuracy": "approx",
+      "geo_source": "Nadi (Wikipedia coordinates 17°48′S 177°25′E); western Viti Levu was the worst-hit dry-side belt",
+      "flood_type": "flash",
+      "river_or_basin": "Nadi / Ba / western Viti Levu rivers",
+      "river_or_facility": null,
+      "incident_date": "2009-01-10",
+      "latest_report_date": "2009-02-19",
+      "what_happened": "Tropical Depression 04F, an active monsoon trough and the South Pacific Convergence Zone produced consecutive January 2009 rain events over Fiji. Floodwaters reached about 3 m on the ordinarily dry west of Viti Levu. Eleven people were killed (six drownings, two in a landslide, three teenagers among the dead). More than 6,000 people went to 114 shelters; a state of emergency and curfews followed. Sugarcane was heavily damaged. The Office of the Prime Minister’s consolidated report put losses at FJD 112.99 million (about US$64.2 million).",
+      "status": "Historical.",
+      "deaths": 11,
+      "injured": null,
+      "affected_or_evacuated": "More than 6,000 displaced in 114 emergency shelters",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "cyclone"
+      ],
+      "cause_summary": "Tropical Depression 04F plus monsoon trough / SPCZ; flash flooding on western Viti Levu.",
+      "sources": [
+        {
+          "label": "Wikipedia: January 2009 Fiji floods",
+          "url": "https://en.wikipedia.org/wiki/January_2009_Fiji_floods"
+        },
+        {
+          "label": "ReliefWeb: Fiji Floods Situation Report No. 1",
+          "url": "https://reliefweb.int/report/fiji/fiji-floods-situation-report-no-1"
+        }
+      ],
+      "notes": "11 is the dedicated-page total. Distinct from flood-fiji-2012. Oceania gap-fill.",
+      "era": "2009",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "More than 100 mm recorded at several Viti Levu stations on 28–29 Jan (Fiji Met)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "FJD 112.99 million / about US$64.2 million (OPM consolidated report)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: January 2009 Fiji floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-fiji-2012",
+      "name": "January 2012 Fiji floods",
+      "country": "Fiji",
+      "region": "Western Viti Levu / Vanua Levu",
+      "location_label": "Nadi, Fiji",
+      "lat": -17.8,
+      "lng": 177.4167,
+      "geo_accuracy": "approx",
+      "geo_source": "Nadi (Wikipedia coordinates); Nadi, Lautoka, Ba, Tavua and Rakiraki were the worst-hit towns",
+      "flood_type": "flash",
+      "river_or_basin": "Nadi / Ba / western Viti Levu rivers",
+      "river_or_facility": null,
+      "incident_date": "2012-01-21",
+      "latest_report_date": "2012-02-12",
+      "what_happened": "A trough and tropical disturbance produced more than 200 mm of rain over Fiji on 22–24 January 2012 (Vatukoula 863.4 mm). Nadi, Lautoka, Ba, Tavua and Rakiraki flooded; a landslide at Tukuraki killed four in one house. NDMO recorded 4,561 displaced in 74 centres and about 178,000 affected. Immediate flood deaths are given as at least 8 (range 8–11). A later leptospirosis outbreak after the January and March pulses killed 44 more — kept in notes, not added to the pin.",
+      "status": "Historical.",
+      "deaths": 8,
+      "injured": null,
+      "affected_or_evacuated": "4,561 displaced (NDMO); about 178,000 affected",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Tropical disturbance and SPCZ trough; western Viti Levu flash floods and a Tukuraki landslide.",
+      "sources": [
+        {
+          "label": "Wikipedia: January 2012 Fiji floods",
+          "url": "https://en.wikipedia.org/wiki/January_2012_Fiji_floods"
+        },
+        {
+          "label": "ReliefWeb: Fiji January Floods Situation overview No. 1",
+          "url": "https://reliefweb.int/report/fiji/fiji-january-floods-situation-overview-no-1"
+        }
+      ],
+      "notes": "Using the dedicated-page immediate total of at least 8 (range 8–11). 44 later leptospirosis deaths after Jan+Mar pulses are not added. Distinct from flood-fiji-2009.",
+      "era": "2012",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Vatukoula 863.4 mm; more than 200 mm widely on 22–24 Jan",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "Over FJD 50 million (2012 FJD)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: January 2012 Fiji floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-kopuawhara-1938",
+      "name": "Kopuawhara flash flood of 1938",
+      "country": "New Zealand",
+      "region": "Kopuawhara Valley / Mahia, Hawke's Bay",
+      "location_label": "Kopuawhara, Hawke's Bay, New Zealand",
+      "lat": -39.035,
+      "lng": 177.418,
+      "geo_accuracy": "approx",
+      "geo_source": "Wairoa (Wikipedia 39°02′06″S 177°25′05″E); mass grave of 11 victims is in Wairoa cemetery; camp was on the Waiau / Kopuawhara Stream near Mahia",
+      "flood_type": "flash",
+      "river_or_basin": "Waiau Stream (Kopuawhara Stream)",
+      "river_or_facility": null,
+      "incident_date": "1938-02-19",
+      "latest_report_date": "1938-04-06",
+      "what_happened": "A cloudburst sent a 5 m wall of water down the already-high Waiau Stream at 03:00 on 19 February 1938, destroying Public Works railway Camp No. 4 at Kaiangapiri in the Kopuawhara Valley. Twenty men and Martha Quinn were killed; two bodies were never found. About 11 men who took refuge in a works truck were swept away. Downstream Camp No. 2 was warned in time. Rain gauges recorded 8 in the day before and 20 in within 10 hours; peak flow was calculated at 33,900 cusecs against a normal 27. The event exceeded a 150-year rainfall.",
+      "status": "Historical.",
+      "deaths": 21,
+      "injured": null,
+      "affected_or_evacuated": "Camp No. 4 destroyed; Camp No. 2 (47 men) evacuated",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Cloudburst flash flood on the Waiau / Kopuawhara Stream through a railway construction camp.",
+      "sources": [
+        {
+          "label": "Wikipedia: Kopuawhara flash flood of 1938",
+          "url": "https://en.wikipedia.org/wiki/Kopuawhara_flash_flood_of_1938"
+        }
+      ],
+      "notes": "21 (20 men + Martha Quinn) on the dedicated page and NZ History. Distinct from flood-gabrielle-2023 and flood-auckland-2023.",
+      "era": "1938",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "33,900 cusecs calculated (normal flow 27 cusecs)",
+      "return_period": "Exceeded 150-year rainfall (event page)",
+      "rainfall_mm": "About 200 mm the day before; 510 mm in 10 hours before the surge (8 in / 20 in)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Kopuawhara flash flood of 1938."
+        }
+      ]
+    },
+    {
+      "id": "flood-solomon-2014",
+      "name": "April 2014 Solomon Islands floods (Cyclone Ita precursor)",
+      "country": "Solomon Islands",
+      "region": "Honiara / Guadalcanal",
+      "location_label": "Honiara, Solomon Islands",
+      "lat": -9.4319,
+      "lng": 159.9556,
+      "geo_accuracy": "approx",
+      "geo_source": "Honiara (Wikipedia 9°25′55″S 159°57′20″E); Mataniko River burst its banks through the capital on 3 April",
+      "flood_type": "flash",
+      "river_or_basin": "Mataniko / Guadalcanal rivers",
+      "river_or_facility": null,
+      "incident_date": "2014-04-03",
+      "latest_report_date": "2014-05-15",
+      "what_happened": "A slow tropical low that later became Cyclone Ita dumped more than 1,000 mm in four days at Gold Ridge (500 mm in 24 hours) and 732 mm at the Honiara gauge. The Mataniko broke its banks on 3 April, washing away houses and the capital’s two main bridges. NEOC sitrep 11 and OCHA recorded 22 confirmed deaths (18 in Honiara, 2 Guadalcanal, 2 Isabel) and about 50,000 affected; peak displacement was around 10,000 in nearly 30 centres. Losses were SI$787.3 million (US$107.8 million), about 9.2% of GDP. The government declared Honiara and Guadalcanal a disaster zone.",
+      "status": "Historical.",
+      "deaths": 22,
+      "injured": null,
+      "affected_or_evacuated": "About 50,000 affected; ~10,000 displaced at peak in nearly 30 centres",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "cyclone"
+      ],
+      "cause_summary": "Precursor tropical low to Cyclone Ita; Mataniko flash flood through Honiara.",
+      "sources": [
+        {
+          "label": "Wikipedia: Cyclone Ita",
+          "url": "https://en.wikipedia.org/wiki/Cyclone_Ita"
+        },
+        {
+          "label": "ReliefWeb: Solomon Islands Flash Floods – Apr 2014",
+          "url": "https://reliefweb.int/disaster/fl-2014-000045-slb"
+        }
+      ],
+      "notes": "22 confirmed (NEOC sitrep 11 / OCHA). Flood-dominant event on the Ita page plus ReliefWeb disaster page. Distinct from later Australian Ita landfall.",
+      "era": "2014",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Gold Ridge >1,000 mm / 4 days (500 mm / 24 h); Honiara gauge 732 mm / 4 days",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "SI$787.3 million / US$107.8 million (about 9.2% of GDP)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Cyclone Ita and ReliefWeb Solomon Islands Flash Floods Apr 2014."
+        }
+      ]
+    },
+    {
+      "id": "flood-guba-2007",
+      "name": "Cyclone Guba floods in Papua New Guinea",
+      "country": "Papua New Guinea",
+      "region": "Oro Province / Popondetta",
+      "location_label": "Popondetta, Oro Province, Papua New Guinea",
+      "lat": -8.7656,
+      "lng": 148.2347,
+      "geo_accuracy": "approx",
+      "geo_source": "Popondetta (Wikipedia 8°45′56″S 148°14′05″E); provincial capital and worst-hit Oro centre",
+      "flood_type": "cyclone",
+      "river_or_basin": "Oro / northern Coral Sea catchments",
+      "river_or_facility": null,
+      "incident_date": "2007-11-13",
+      "latest_report_date": "2009-05-29",
+      "what_happened": "Rare Coral Sea Cyclone Guba formed near New Guinea on 13 November 2007 and meandered offshore for a week. Six days of torrential rain — the worst in 30 years, residents said — produced widespread floods and landslides in Oro Province. The dedicated page records 149 confirmed deaths there, about 2,000 evacuated, roads and bridges washed away, and Popondetta’s water, power and air links cut. About 145,000 people were affected in Oro. PNG declared a state of emergency. Infobox damage is US$71.4 million; another passage cites more than 500 million kina.",
+      "status": "Historical.",
+      "deaths": 149,
+      "injured": null,
+      "affected_or_evacuated": "About 145,000 affected in Oro; ~2,000 evacuated",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Slow Coral Sea cyclone; six days of rain and landslides in Oro.",
+      "sources": [
+        {
+          "label": "Wikipedia: Cyclone Guba",
+          "url": "https://en.wikipedia.org/wiki/Cyclone_Guba"
+        }
+      ],
+      "notes": "149 confirmed on the dedicated page (Oro). A later sentence says flooding led to at least 200 — kept in notes. Using 149. Oceania gap-fill.",
+      "era": "2007",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "K 200 million / US$71.4 million on the page; >K 500 million also cited",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Cyclone Guba."
+        }
+      ]
+    },
+    {
+      "id": "flood-auckland-2023",
+      "name": "2023 Auckland Anniversary Weekend floods",
+      "country": "New Zealand",
+      "region": "Auckland / upper North Island",
+      "location_label": "Auckland, New Zealand",
+      "lat": -36.8492,
+      "lng": 174.7653,
+      "geo_accuracy": "approx",
+      "geo_source": "Auckland (Wikipedia 36°50′57″S 174°45′55″E); West Auckland and the North Shore were worst hit",
+      "flood_type": "flash",
+      "river_or_basin": "Auckland urban catchments / Waitematā",
+      "river_or_facility": null,
+      "incident_date": "2023-01-27",
+      "latest_report_date": "2024-02-02",
+      "what_happened": "A stalled atmospheric river dumped a summer’s rain on Auckland in one day on 27 January 2023 — NIWA called it a 1-in-200-year event and the city’s wettest day on record (258 mm at the airport; 265 mm at Māngere). Four people died (two drowned in Wairau Valley, one in a Remuera slip, one drowned at Onewhero). Auckland Airport’s runway and terminals flooded; 6,000–8,000 homes needed assessment. Perils later put insured loss at NZ$2.2 billion. Distinct from Cyclone Gabrielle two weeks later (already flood-gabrielle-2023).",
+      "status": "Historical.",
+      "deaths": 4,
+      "injured": null,
+      "affected_or_evacuated": "6,000–8,000 homes assessed; thousands evacuated",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stalled atmospheric river; urban flash flooding. Ageing stormwater cited.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2023 Auckland floods",
+          "url": "https://en.wikipedia.org/wiki/2023_Auckland_floods"
+        }
+      ],
+      "notes": "4 deaths on the dedicated page. Distinct from flood-gabrielle-2023 (11 deaths, 12–16 Feb). Auckland is thin in Oceania despite being NZ’s costliest non-earthquake weather event at the time.",
+      "era": "2023",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "NIWA: 1-in-200-year daily rainfall",
+      "rainfall_mm": "Auckland Airport 258 mm / 1 day; Māngere 265 mm; Albert Park 299.5 mm / 34 h",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "NZ$2.2 billion insured (Perils); recovery cited around NZ$4 billion",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2023 Auckland floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-nova-scotia-2023",
+      "name": "2023 Nova Scotia floods",
+      "country": "Canada",
+      "region": "Halifax / Hants / South Shore",
+      "location_label": "West Hants, Nova Scotia, Canada",
+      "lat": 44.6475,
+      "lng": -63.5906,
+      "geo_accuracy": "region",
+      "geo_source": "Halifax (Wikipedia 44°38′51″N 63°35′26″W); deaths recovered in West Hants, Kings and Brooklyn; Halifax–Hants–Lunenburg–Queens were the worst-hit municipalities",
+      "flood_type": "flash",
+      "river_or_basin": "Avon / St. Croix / South Shore rivers",
+      "river_or_facility": null,
+      "incident_date": "2023-07-21",
+      "latest_report_date": "2023-08-02",
+      "what_happened": "Parts of Nova Scotia received 250–300 mm of rain in 24 hours on 21–22 July 2023. A two-week provincial state of emergency followed. Four people died: a man in West Hants, two children whose remains were found in Brooklyn, and a youth found about 75 km from the disappearance site on 1 August. About 500 road sections and 48 bridges were damaged; the CN line south of Truro washed out. Aon estimated about US$200 million damage. CTV called it beyond a once-in-a-century event.",
+      "status": "Historical.",
+      "deaths": 4,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Extreme 24-hour rainfall; flash floods and washed-out roads across central Nova Scotia.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2023 Nova Scotia floods",
+          "url": "https://en.wikipedia.org/wiki/2023_Nova_Scotia_floods"
+        }
+      ],
+      "notes": "4 deaths on the dedicated page (all four missing recovered). Canada still thin outside Hazel/Saguenay/Red River/Alberta/BC.",
+      "era": "2023",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "Beyond a once-in-a-century event (CTV / event page)",
+      "rainfall_mm": "250 mm in 24 h widely; up to 300 mm in parts of the province",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About US$200 million (Aon, 2023 USD)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2023 Nova Scotia floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-chad-2022",
+      "name": "2022 Chad floods",
+      "country": "Chad",
+      "region": "N'Djamena / nationwide",
+      "location_label": "N'Djamena, Chad",
+      "lat": 12.1053,
+      "lng": 15.0447,
+      "geo_accuracy": "approx",
+      "geo_source": "N'Djamena (Wikipedia 12°06′19″N 15°02′41″E); Eighth District remained underwater into September",
+      "flood_type": "riverine",
+      "river_or_basin": "Chari / Logone",
+      "river_or_facility": null,
+      "incident_date": "2022-07",
+      "latest_report_date": "2022-09-06",
+      "what_happened": "Chad’s heaviest rains since 1990, from July 2022, flooded large parts of N'Djamena — the Eighth District was reachable only by boat into September. OCHA recorded 22 deaths by mid-August and about 442,000 people affected or displaced by the end of August. About 2,700 ha of cropland was destroyed in August. Officials called the flooding catastrophic. Neighbouring West and Central African countries had the same above-normal rains; this is the Chad-only dedicated page, not the 2022 Africa wrapper.",
+      "status": "Historical.",
+      "deaths": 22,
+      "injured": null,
+      "affected_or_evacuated": "About 442,000 affected or displaced by end of August (OCHA / page)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Heaviest rains since 1990; Chari–Logone and urban flooding in N'Djamena.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2022 Chad floods",
+          "url": "https://en.wikipedia.org/wiki/2022_Chad_floods"
+        }
+      ],
+      "notes": "22 (OCHA mid-August) on the dedicated page. West/Central Africa non-dam. Distinct from flood-nigeria-2022 and the 2022 Africa wrapper.",
+      "era": "2022",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "About 2,700 ha of crops destroyed in August",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2022 Chad floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-kerala-2019",
+      "name": "2019 Kerala floods",
+      "country": "India",
+      "region": "Northern and central Kerala",
+      "location_label": "Wayanad, Kerala, India",
+      "lat": 11.6264,
+      "lng": 76.0889,
+      "geo_accuracy": "region",
+      "geo_source": "Wayanad district (Wikipedia 11°37′35″N 76°05′20″E); Wayanad, Malappuram, Kozhikode and Idukki were among the worst-hit",
+      "flood_type": "monsoon",
+      "river_or_basin": "Kerala west-flowing rivers",
+      "river_or_facility": null,
+      "incident_date": "2019-08-08",
+      "latest_report_date": "2019-08-19",
+      "what_happened": "A second consecutive August monsoon disaster hit Kerala from 8 August 2019. IMD issued a red alert in nine northern and central districts. As of 19 August, 121 people were dead, about 200,000 were in 1,318 relief camps, 1,789 houses were fully damaged and 14,542 partly damaged, and about 80 landslides occurred in two days. Cochin airport operations were suspended until 15:00 on 11 August. KSDMA damage was put at ₹2,101.9 crore (about US$220 million). Distinct from the larger 2018 Kerala floods already on file.",
+      "status": "Historical.",
+      "deaths": 121,
+      "injured": 40,
+      "affected_or_evacuated": "About 200,000 in 1,318 relief camps",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Arabian Sea depression and monsoon convection; floods and landslides across northern/central Kerala.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2019 Kerala floods",
+          "url": "https://en.wikipedia.org/wiki/2019_Kerala_floods"
+        }
+      ],
+      "notes": "121 as of 19 Aug 2019 (India Today / dedicated page). Distinct from flood-kerala-2018 and flood-kerala-2020.",
+      "era": "2019",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "₹2,101.9 crore / about US$220 million (KSDMA)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2019 Kerala floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-kerala-2026",
+      "name": "2026 Kerala floods",
+      "country": "India",
+      "region": "Central and southern Kerala / Pamba basin",
+      "location_label": "Pathanamthitta, Kerala, India",
+      "lat": 9.2648,
+      "lng": 76.787,
+      "geo_accuracy": "approx",
+      "geo_source": "Pathanamthitta (Wikipedia 9°15′53″N 76°47′13″E); Vadasserikkara 361 mm and the Pamba basin were the named highland focus",
+      "flood_type": "flash",
+      "river_or_basin": "Pamba / Manimala / Meenachil",
+      "river_or_facility": null,
+      "incident_date": "2026-08-01",
+      "latest_report_date": "2026-08-10",
+      "what_happened": "After a 34% June–July monsoon deficit, an offshore trough and local depressions produced near-cloudburst rain across central and southern Kerala from late July 2026. On 1 August several stations exceeded 300 mm (Vadasserikkara 361 mm, Athikkayam 357 mm, Angamoozhy 307 mm). The Pamba, Manimala and Meenachil overflowed. The dedicated page records at least 28 confirmed deaths and 4 missing, plus blocked transport. Distinct from flood-kerala-2018/2019/2020.",
+      "status": "Season pulse ended mid-August 2026; recovery.",
+      "deaths": 28,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon"
+      ],
+      "cause_summary": "Offshore trough after a dry first half of monsoon; cloudburst-like rain in the Pamba highlands.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2026 Kerala floods",
+          "url": "https://en.wikipedia.org/wiki/2026_Kerala_floods"
+        }
+      ],
+      "notes": "28 confirmed, 4 missing on the dedicated page (The Hindu / ToI). Using 28, not 32. Distinct from flood-assam-2026.",
+      "era": "2026",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Vadasserikkara 361 mm / 1 day; Athikkayam 357 mm; Angamoozhy 307 mm",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2026 Kerala floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-sudan-2018",
+      "name": "2018 Sudan floods",
+      "country": "Sudan",
+      "region": "Kassala / West Kordofan / Khartoum",
+      "location_label": "Khartoum, Sudan",
+      "lat": 15.6,
+      "lng": 32.5,
+      "geo_accuracy": "region",
+      "geo_source": "Khartoum (Wikipedia 15°36′N 32°30′E); Kassala, West Kordofan and Khartoum were the worst-hit states",
+      "flood_type": "flash",
+      "river_or_basin": "Nile / seasonal khors",
+      "river_or_facility": null,
+      "incident_date": "2018-07",
+      "latest_report_date": "2018-11-05",
+      "what_happened": "Extreme rainfall from July to November 2018 flooded Kassala, West Kordofan and Khartoum. By 16 August at least 23 people were dead and over 60 injured (FloodList). By 5 November OCHA’s Humanitarian Bulletin recorded more than 19,640 homes destroyed and about 222,275 people affected. Dedicated page is short but named, with a sourced toll. Distinct from flood-sudan-1988/2020/2022/2024.",
+      "status": "Historical.",
+      "deaths": 23,
+      "injured": 60,
+      "affected_or_evacuated": "About 222,275 affected; 19,640+ homes destroyed (OCHA 5 Nov)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Seasonal extreme rainfall and flash floods in Kassala, West Kordofan and Khartoum.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2018 Sudan floods",
+          "url": "https://en.wikipedia.org/wiki/2018_floods_in_Sudan"
+        }
+      ],
+      "notes": "23 as of 16 Aug 2018 (FloodList via the dedicated page). Later OCHA sitrep gives affected/housing, not a newer death total.",
+      "era": "2018",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2018 Sudan floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-thailand-2025",
+      "name": "2025 southern Thailand floods (Cyclone Senyar / Hat Yai)",
+      "country": "Thailand",
+      "region": "Songkhla / southern Thailand",
+      "location_label": "Hat Yai, Songkhla, Thailand",
+      "lat": 7.0167,
+      "lng": 100.4667,
+      "geo_accuracy": "approx",
+      "geo_source": "Hat Yai (Wikipedia 7°01′N 100°28′E); 229 of 297 official deaths were in Songkhla",
+      "flood_type": "cyclone",
+      "river_or_basin": "Khlong U-Taphao / southern Thai east-coast rivers",
+      "river_or_facility": null,
+      "incident_date": "2025-11-21",
+      "latest_report_date": "2026-01",
+      "what_happened": "Cyclone Senyar and preceding rains flooded 20 Thai provinces in late November 2025, above all Hat Yai, which recorded 335 mm in a day — the heaviest in at least 300 years — and floodwaters up to 2 m. Official deaths are at least 297 (229 in Songkhla, 19 Ayutthaya, 10 Nakhon Si Thammarat) plus 102 injured; 3.6 million people and 1.2 million homes were affected. Songkhla was declared a disaster zone. Local claims of 550–1,000+ Songkhla deaths are in notes. Distinct from flood-sumatra-2025 (Indonesia 1,201).",
+      "status": "Historical / recovery.",
+      "deaths": 297,
+      "injured": 102,
+      "affected_or_evacuated": "3.6 million people / 1.2 million homes affected in 20 provinces",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Cyclone Senyar and record Hat Yai rain; urban drainage overwhelmed.",
+      "sources": [
+        {
+          "label": "Wikipedia: Cyclone Senyar",
+          "url": "https://en.wikipedia.org/wiki/Cyclone_Senyar"
+        }
+      ],
+      "notes": "297 is the official Thailand total on the Senyar page. Unofficial Songkhla claims 550–1,068 stay in notes. Distinct from flood-sumatra-2025 (same cyclone, Indonesia only).",
+      "era": "2025",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "Hat Yai heaviest daily rain in at least 300 years (page)",
+      "rainfall_mm": "Hat Yai 335 mm on 21 Nov 2025",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "Government estimate over 500 billion baht / US$15.7 billion for southern Thailand",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Cyclone Senyar (Thailand / Hat Yai deaths)."
+        }
+      ]
+    },
+    {
+      "id": "flood-talas-2011",
+      "name": "Tropical Storm Talas floods (Kii Peninsula)",
+      "country": "Japan",
+      "region": "Kii Peninsula / Wakayama–Nara–Mie",
+      "location_label": "Nachikatsuura, Wakayama, Japan",
+      "lat": 33.6333,
+      "lng": 135.9333,
+      "geo_accuracy": "approx",
+      "geo_source": "Nachikatsuura (Wikipedia 33°38′N 135°56′E); Wakayama recorded the most deaths",
+      "flood_type": "cyclone",
+      "river_or_basin": "Kii Peninsula rivers",
+      "river_or_facility": null,
+      "incident_date": "2011-09-02",
+      "latest_report_date": "2011-10-03",
+      "what_happened": "Slow-moving Severe Tropical Storm Talas made landfall near Aki, Kōchi, on 3 September 2011 and stalled over the Kii Peninsula, dumping record rain (Wakayama/Nara/Mie towns became lakes; one site beat Takachiho’s 1,322 mm September 2005 mark). Landslides and river floods killed 82, with 16 still missing on the dedicated page, and about US$600 million damage. About 3,200 people evacuated across 16 prefectures; 700 houses were inundated. Damage on the Kumano Kodo was still visible in 2023.",
+      "status": "Historical.",
+      "deaths": 82,
+      "injured": null,
+      "affected_or_evacuated": "About 3,200 evacuated in 16 prefectures",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Slow rain-typhoon over the Kii Peninsula; floods and landslides.",
+      "sources": [
+        {
+          "label": "Wikipedia: Tropical Storm Talas (2011)",
+          "url": "https://en.wikipedia.org/wiki/Tropical_Storm_Talas_(2011)"
+        }
+      ],
+      "notes": "82 dead, 16 missing on the dedicated page. Using 82. Distinct from flood-japan-2018 and flood-wakayama-1953.",
+      "era": "2011",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Extremely heavy; beat the 1,322 mm Takachiho Sep 2005 mark at the worst Kii gauges",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About US$600 million (2011 USD, AIR Worldwide)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Tropical Storm Talas (2011)."
+        }
+      ]
+    },
+    {
+      "id": "flood-kathleen-1947",
+      "name": "Typhoon Kathleen floods (Kantō 1947)",
+      "country": "Japan",
+      "region": "Kantō / Tone–Arakawa",
+      "location_label": "Kazo, Saitama, Japan",
+      "lat": 36.1314,
+      "lng": 139.6018,
+      "geo_accuracy": "approx",
+      "geo_source": "Kazo (Wikipedia 36°07′53″N 139°36′06″E); Tone River embankment-collapse memorial is in Kazo",
+      "flood_type": "riverine",
+      "river_or_basin": "Tone / Arakawa / Kitakami",
+      "river_or_facility": null,
+      "incident_date": "1947-09-15",
+      "latest_report_date": "1947-09",
+      "what_happened": "Typhoon Kathleen approached the Bōsō Peninsula on 15 September 1947 and activated a stagnant front, producing record Kantō–Tōhoku rain. The Tone and Arakawa overflowed; Tokyo, Gunma, Saitama, Tochigi, Ibaraki and Chiba flooded, and the Kitakami hit Ichinoseki. The infobox lists 1,077 dead and 853 missing; the lede says the floods killed at least 1,692. A victim memorial stands in Kazo, Saitama, at a Tone breach.",
+      "status": "Historical.",
+      "deaths": 1077,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Rain-typhoon; Tone and Arakawa riverine flooding across Kantō.",
+      "sources": [
+        {
+          "label": "Wikipedia: Typhoon Kathleen",
+          "url": "https://en.wikipedia.org/wiki/Typhoon_Kathleen"
+        }
+      ],
+      "notes": "Infobox 1,077 dead + 853 missing; lede at least 1,692. Using 1,077. Japan historic gap-fill. Distinct from flood-kanogawa-1958 and flood-hanshin-1938.",
+      "era": "1947",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Typhoon Kathleen."
+        }
+      ]
+    },
+    {
+      "id": "flood-kanogawa-1958",
+      "name": "1958 Kanogawa Typhoon flood (Typhoon Ida)",
+      "country": "Japan",
+      "region": "Izu Peninsula / Kantō",
+      "location_label": "Numazu, Shizuoka, Japan",
+      "lat": 35.0956,
+      "lng": 138.8634,
+      "geo_accuracy": "approx",
+      "geo_source": "Numazu (Wikipedia 35°05′44″N 138°51′48″E); Kanogawa basin on the Izu Peninsula was the namesake worst-hit valley",
+      "flood_type": "cyclone",
+      "river_or_basin": "Kanogawa (Kano River) / Izu–Kantō rivers",
+      "river_or_facility": null,
+      "incident_date": "1958-09-26",
+      "latest_report_date": "1958-10",
+      "what_happened": "Typhoon Ida — the Kanogawa Typhoon — struck the Izu Peninsula and Kantō on 26 September 1958 as a rain-typhoon. It caused more than 1,900 landslides, flooded a record 520,000 homes, destroyed 2,118 houses and killed 1,269 (381 of them missing and presumed dead). JMA gave it a special local name after the Kano River disaster. Damage was about US$50 million (1958) / ¥20.6 billion. Worst Japanese typhoon since the 1934 Muroto storm.",
+      "status": "Historical.",
+      "deaths": 1269,
+      "injured": 1138,
+      "affected_or_evacuated": "About 12,000 left homeless after later revision; 520,000 homes flooded (record)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Rain-typhoon; catastrophic Kanogawa / Izu–Kantō flooding and landslides.",
+      "sources": [
+        {
+          "label": "Wikipedia: Typhoon Ida (1958)",
+          "url": "https://en.wikipedia.org/wiki/Typhoon_Ida_(1958)"
+        }
+      ],
+      "notes": "1,269 includes 381 missing presumed killed (dedicated page). Japan historic.",
+      "era": "1958",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About US$50 million (1958 USD) / ¥20.6 billion",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Typhoon Ida (1958) / Kanogawa Typhoon."
+        }
+      ]
+    },
+    {
+      "id": "flood-hiroshima-2014",
+      "name": "2014 Hiroshima landslides and flash floods",
+      "country": "Japan",
+      "region": "Asakita / Asaminami, Hiroshima",
+      "location_label": "Hiroshima, Japan",
+      "lat": 34.3914,
+      "lng": 132.4519,
+      "geo_accuracy": "approx",
+      "geo_source": "Hiroshima city (Wikipedia 34°23′29″N 132°27′07″E); Asakita and Asaminami wards were hardest hit; page also gives 34°29′13″N 132°29′38″E",
+      "flood_type": "flash",
+      "river_or_basin": "Hiroshima hillside torrents / Ōta tributaries",
+      "river_or_facility": null,
+      "incident_date": "2014-08-20",
+      "latest_report_date": "2014-12-26",
+      "what_happened": "More than 200 mm of rain in a few hours on 20 August 2014 triggered 166 slope failures (107 debris flows, 59 shallow slides) into northern Hiroshima neighbourhoods, especially Yagi and Asaminami/Asakita. Asakita-ku recorded 217.5 mm from 01:30–04:30. The dedicated page records 74 deaths and 69 injuries (infobox; 44 injuries also cited). An evacuation advisory came only at 04:15. The event is also catalogued as the Heisei 26 19 August heavy-rain disaster.",
+      "status": "Historical.",
+      "deaths": 74,
+      "injured": 69,
+      "affected_or_evacuated": "Thousands under evacuation advisory in Asakita and Asaminami",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Short-duration extreme rain; debris flows into hillside housing.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2014 Hiroshima landslides",
+          "url": "https://en.wikipedia.org/wiki/2014_Hiroshima_landslides"
+        }
+      ],
+      "notes": "74 deaths / 69 injured on the dedicated page. Rain-triggered debris flow, same class as flood-freetown-2017 and flood-mocoa-2017. Distinct from flood-japan-2018.",
+      "era": "2014",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Asakita-ku 217.5 mm in 3 h; >200 mm cumulative at the trigger",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2014 Hiroshima landslides."
+        }
+      ]
+    },
+    {
+      "id": "flood-tokai-2000",
+      "name": "2000 Tōkai heavy rain (東海豪雨)",
+      "country": "Japan",
+      "region": "Nagoya / Tōkai",
+      "location_label": "Nagoya, Aichi, Japan",
+      "lat": 35.1833,
+      "lng": 136.9,
+      "geo_accuracy": "approx",
+      "geo_source": "Nagoya (Wikipedia 35°11′N 136°54′E); Shinkawa breach and Nonami inundation were inside the city",
+      "flood_type": "riverine",
+      "river_or_basin": "Shōnai / Shinkawa / Tenpaku / Yahagi",
+      "river_or_facility": null,
+      "incident_date": "2000-09-11",
+      "latest_report_date": "2000-09-17",
+      "what_happened": "Record urban rain on 11–12 September 2000 flooded the Tōkai region. The Shinkawa levee breached for about 100 m; at least 10 other Aichi breaches and Shōnai overflow at Shimonoisshiki followed. Nonami (Tenpaku) saw house-high inundation and a flooded sakura-dōri subway. The Tōkaidō Shinkansen recorded its worst delay (Nozomi 20, 22 h 21 min). ja Wikipedia infobox: 10 dead, 115 injured, 22,894 houses above-floor flooded, about ¥850 billion damage. Gifu’s Ena district (Keinan heavy rain) was also hard hit.",
+      "status": "Historical.",
+      "deaths": 10,
+      "injured": 115,
+      "affected_or_evacuated": "Tens of thousands under evacuation advisories (about 190,000 cited in contemporary reports)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record Tōkai urban rainfall; Shinkawa / Shōnai riverine and interior flooding.",
+      "sources": [
+        {
+          "label": "Wikipedia (ja): 東海豪雨",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E8%B1%AA%E9%9B%A8"
+        }
+      ],
+      "notes": "10 dead / 115 injured / ~¥850 billion on the ja infobox. No EN event page; ja wiki is enough. Distinct from flood-japan-2018.",
+      "era": "2000",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Record daily totals across Aichi / Tōkai (ja page; several stations all-time)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "About ¥850 billion (2000 yen, ja infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Japanese Wikipedia: 東海豪雨."
+        }
+      ]
+    },
+    {
+      "id": "flood-xijiang-1994",
+      "name": "1994 West and North River floods",
+      "country": "China",
+      "region": "Xijiang / Beijiang, Guangdong–Guangxi",
+      "location_label": "Wuzhou, Guangxi, China",
+      "lat": 23.4767,
+      "lng": 111.279,
+      "geo_accuracy": "approx",
+      "geo_source": "Wuzhou (Wikipedia 23°28′36″N 111°16′44″E); streets flooded for 45 days, depths over 8 m, peak 25.91 m on 19 June",
+      "flood_type": "riverine",
+      "river_or_basin": "Xijiang / Beijiang (Pearl)",
+      "river_or_facility": null,
+      "incident_date": "1994-06",
+      "latest_report_date": "1994-07",
+      "what_happened": "The largest West and North River flood since the founding of the PRC, and the second-largest of the 20th century on those rivers, hit Guangdong and Guangxi in June–July 1994. Official figures: 17.765 million people and 18.75 million mu of farmland affected in 109 counties; Wuzhou’s 19 June crest 25.91 m left streets under more than 8 m for 45 days. Sourced split: June flood 371 dead (145 in Guangdong); July flood 109 dead in Guangdong. Combined 480. Direct losses cited from 28.2 to 63.2 billion yuan depending on the table.",
+      "status": "Historical.",
+      "deaths": 480,
+      "injured": null,
+      "affected_or_evacuated": "17.765 million affected (official two-province figure)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon"
+      ],
+      "cause_summary": "June and July 1994 Xijiang/Beijiang basin floods, largest PRC-era event on those rivers.",
+      "sources": [
+        {
+          "label": "Wikipedia (zh): 1994年西江、北江大洪水",
+          "url": "https://zh.wikipedia.org/wiki/1994%E5%B9%B4%E8%A5%BF%E6%B1%9F%E3%80%81%E5%8C%97%E6%B1%9F%E5%A4%A7%E6%B4%AA%E6%B0%B4"
+        }
+      ],
+      "notes": "480 = 371 (June, two-province) + 109 (July, Guangdong) on the zh page. EN title missing; zh wiki is enough. Distinct from flood-china-1931 and flood-yangtze-1998.",
+      "era": "1994",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "Largest PRC-era Xijiang/Beijiang flood; 20th-century no. 2 on those rivers (zh page)",
+      "rainfall_mm": null,
+      "inundation_area": "18.75 million mu farmland (official)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About 28.2–63.2 billion yuan depending on the sourced table",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Chinese Wikipedia: 1994年西江、北江大洪水."
+        }
+      ]
+    },
+    {
+      "id": "flood-china-2011",
+      "name": "2011 China floods",
+      "country": "China",
+      "region": "Yangtze basin / central and southern China",
+      "location_label": "Wuhan, Hubei, China",
+      "lat": 30.595,
+      "lng": 114.2975,
+      "geo_accuracy": "region",
+      "geo_source": "Wuhan (Wikipedia 30°35′42″N 114°17′51″E); Hubei capital flooded and lost power; 12–13 provinces hit",
+      "flood_type": "riverine",
+      "river_or_basin": "Yangtze / southern China rivers",
+      "river_or_facility": null,
+      "incident_date": "2011-06-04",
+      "latest_report_date": "2011-06-30",
+      "what_happened": "June–September 2011 rains flooded central and southern China after a spring drought. The National Flood Control and Drought Relief Headquarters total on 30 June was at least 239 dead, 86 missing, 36.7 million affected, about 106,500 houses and 1.16 million ha of crops destroyed, and 43.2 billion yuan (US$6.65 billion) losses. A Yangtze level-4 alert evacuated 555,000. Wuhan flooded; Guizhou’s Wangmo saw 200-year hourly rain. Same year-event pattern as flood-china-2010/2016/2017/2020.",
+      "status": "Historical.",
+      "deaths": 239,
+      "injured": null,
+      "affected_or_evacuated": "36.7 million affected; 555,000 evacuated on the Yangtze level-4 alert",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon"
+      ],
+      "cause_summary": "Prolonged June rains across 12–13 provinces after drought; Yangtze and southern floods.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2011 China floods",
+          "url": "https://en.wikipedia.org/wiki/2011_China_floods"
+        }
+      ],
+      "notes": "239 dead, 86 missing (NFCDRH 30 Jun). Using 239. Distinct from flood-china-2010 and flood-beijing-2012.",
+      "era": "2011",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "About 1.16 million ha of crops destroyed",
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "43.2 billion yuan / US$6.65 billion (NFCDRH 30 Jun)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2011 China floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-kanto-tohoku-2015",
+      "name": "2015 Kantō–Tōhoku heavy rain (Kinugawa / Jōsō)",
+      "country": "Japan",
+      "region": "Ibaraki / Tochigi / Miyagi",
+      "location_label": "Jōsō, Ibaraki, Japan",
+      "lat": 36.0236,
+      "lng": 139.9939,
+      "geo_accuracy": "approx",
+      "geo_source": "Jōsō city centre (approx. 36°01′25″N 139°59′38″E); Kinugawa left-bank breach flooded the Mitsukaido downtown",
+      "flood_type": "riverine",
+      "river_or_basin": "Kinugawa (Tone) / Yoshida / northern Kantō rivers",
+      "river_or_facility": null,
+      "incident_date": "2015-09-09",
+      "latest_report_date": "2017-10-18",
+      "what_happened": "A linear rainband between an extratropical ex-Typhoon 18 and Typhoon 17 produced the JMA-named Heisei 27 September Kantō–Tōhoku heavy rain (9–11 September 2015). Nikkō-Imaichi recorded 639 mm in 72 hours; Ikarie 551 mm in 24 hours. The Kinugawa left bank breached at Jōsō, flooding the Mitsukaido centre. Fire and Disaster Management Agency final (18 Oct 2017): 20 dead (Ibaraki 15, Tochigi 3, Miyagi 2), 82 injured, 81 houses destroyed, 7,090 half-destroyed. Special warnings covered Tochigi, Ibaraki and Miyagi. About 240,000 evacuation orders and 3.15 million advisories.",
+      "status": "Historical.",
+      "deaths": 20,
+      "injured": 82,
+      "affected_or_evacuated": "About 240,000 under evacuation orders; ~3.15 million under advisories (13 Sep tally)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "cyclone"
+      ],
+      "cause_summary": "Linear rainband; Kinugawa breach at Jōsō and Tōhoku river floods.",
+      "sources": [
+        {
+          "label": "Wikipedia (ja): 平成27年9月関東・東北豪雨",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E6%88%9027%E5%B9%B49%E6%9C%88%E9%96%A2%E6%9D%B1%E3%83%BB%E6%9D%B1%E5%8C%97%E8%B1%AA%E9%9B%A8"
+        }
+      ],
+      "notes": "20 dead (FDMA 18 Oct 2017) on the ja page, including Typhoon 18-related losses. No EN event page. Distinct from flood-hagibis-2019 and flood-japan-2018.",
+      "era": "2015",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Imaichi 639 mm / 72 h; Ikarie 551 mm / 24 h (Nikkō)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Japanese Wikipedia: 平成27年9月関東・東北豪雨."
         }
       ]
     }
