@@ -42,6 +42,13 @@ html[data-theme="light"] {
   --input: #ffffff;
   --input-text: #1a1d21;
   --placeholder: #8a8f98;
+  --controlled: #5b7d95;
+  --cluster-bg: #4e7fa3;
+  --cluster-text: #ffffff;
+  --pin-ring: rgba(78, 127, 163, 0.6);
+  --pin-label-bg: rgba(78, 127, 163, 0.92);
+  --pin-label-border: rgba(78, 127, 163, 0.3);
+  --pin-label-text: #ffffff;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -827,6 +834,9 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
   border: 1.5px solid rgba(243, 239, 230, 0.85);
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
 }
+html[data-theme="light"] .site-marker {
+  box-shadow: 0 0 0 1px var(--pin-ring, rgba(78, 127, 163, 0.6));
+}
 .marker-cluster-small,
 .marker-cluster-medium,
 .marker-cluster-large {
@@ -839,6 +849,12 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
   color: var(--text);
   font-family: var(--sans);
   font-weight: 500;
+}
+html[data-theme="light"] .marker-cluster-small div,
+html[data-theme="light"] .marker-cluster-medium div,
+html[data-theme="light"] .marker-cluster-large div {
+  background: var(--cluster-bg, #4e7fa3);
+  color: var(--cluster-text, #ffffff);
 }
 
 .pin-name {
@@ -853,6 +869,12 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
   white-space: nowrap !important;
   pointer-events: none !important;
   letter-spacing: 0.01em;
+}
+html[data-theme="light"] .pin-name {
+  background: var(--pin-label-bg, rgba(78, 127, 163, 0.92)) !important;
+  border: 1px solid var(--pin-label-border, rgba(78, 127, 163, 0.3)) !important;
+  color: var(--pin-label-text, #ffffff) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18) !important;
 }
 .pin-name::before {
   display: none !important;
