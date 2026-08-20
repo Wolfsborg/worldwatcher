@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1240,
+  "count": 1260,
   "current_count": 27,
-  "historical_count": 1213,
+  "historical_count": 1233,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -67930,6 +67930,1135 @@
           "url": "https://en.wikipedia.org/wiki/La_Faute-sur-Mer"
         }
       ]
+    },
+    {
+      "id": "biarrotte-bedorede-2022-08-20",
+      "name": "Lac de Bédorède irrigation dam (Biarrotte)",
+      "country": "France",
+      "region": "Biarrotte / Saint-Laurent-de-Gosse / Sainte-Marie-de-Gosse, Landes",
+      "location_label": "Lac de Bédorède dam, Biarrotte, Landes, France",
+      "lat": 43.548382,
+      "lng": -1.270428,
+      "geo_accuracy": "site",
+      "geo_source": "Cirkwi / Seignanx POI Lac de Bédorède 43.548382, -1.270428",
+      "river_or_facility": "Lac de Bédorède / Canal du Moulin de Biaudos (Adour barthes)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "ARIA / DREAL: rapid irrigation drawdown after a dry summer produced a progressive 50 m upstream-face slide on the clay dike (about 25% of embankment length).",
+      "incident_date": "2022-08-20",
+      "latest_report_date": "2022-12",
+      "what_happened": "ARIA 60110 (20 August 2022, Biarrotte, water-supply activity, EISH Orange): a crack was found on the upstream face of an irrigation-dam dike; three days later it widened into a slide involving a large volume of upstream fill, plan extent 50 m (25% of the embankment). The pond had been full two months earlier; in one month of heavier-than-usual irrigation half the storage was used, a drawdown rate never seen since construction. Control authority ordered the pool held at 14 m NGF / 200,000 m³, reinforced surveillance, a staff gauge, a detailed inspection and an approved safety diagnosis. Sud Ouest: Lac de Bédorède is a 22 ha / 600,000 m³ clay irrigation reservoir built 1993 south of Biarrotte for about 30 maize-seed farms; France Bleu: DREAL inspected the evolving upstream slide on 6 October and a December prefectural safety order required urgent earthworks. No source fetched reported deaths.",
+      "status": "Pool held at ~200,000 m³ pending remédiation; public lakeside path closed for dike works.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "ARIA 60110 — Fissure sur un barrage (Biarrotte)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/60110/"
+        },
+        {
+          "label": "Sud Ouest — Bédorède irrigation lake dike slip",
+          "url": "https://www.sudouest.fr/economie/agriculture/landes-bedorede-un-lac-d-irrigation-victime-de-la-secheresse-a-biarrotte-13579256.php"
+        },
+        {
+          "label": "France Bleu — prefecture urgent works order",
+          "url": "https://www.francebleu.fr/infos/environnement/landes-un-barrage-agricole-menace-de-ceder-la-prefecture-ordonne-des-travaux-urgents-9346587"
+        },
+        {
+          "label": "Cirkwi — Lac de Bédorède POI coordinates",
+          "url": "https://www.cirkwi.com/fr/point-interet/2738172-lac-de-bedorede"
+        }
+      ],
+      "notes": "Deaths 0: ARIA/press report no casualties. Cause: drawdown-induced slide after unusual irrigation emptying; no rainfall trigger (ARIA: dry hot summer).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "ASA irrigants (maize-seed producers) / private owners",
+      "year_built": "1993",
+      "height_m": null,
+      "reservoir_capacity": "600,000 m³ (Sud Ouest); held at 200,000 m³ after the slide",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "50 m upstream-face slide (~25% of embankment length)",
+      "downstream_risk": "Adour barthes / Canal du Moulin de Biaudos; France Bleu: no imminent public danger after drawdown",
+      "economic_damage": null,
+      "investigating_agency": "DREAL Nouvelle-Aquitaine / Landes prefecture"
+    },
+    {
+      "id": "givry-en-argonne-2013-10-23",
+      "name": "Étang de Givry pond dam (Givry-en-Argonne)",
+      "country": "France",
+      "region": "Givry-en-Argonne, Marne",
+      "location_label": "Étang de Givry dam, Givry-en-Argonne, Marne, France",
+      "lat": 48.9508,
+      "lng": 4.8892,
+      "geo_accuracy": "region",
+      "geo_source": "French Wikipedia Givry-en-Argonne 48°57′03″N 4°53′21″E — village sits on Étang de Givry (14.7 ha); crest unpublished",
+      "river_or_facility": "Étang de Givry / Ante",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "poor_maintenance",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "ARIA: collapse of the downstream toe after a 1980s steel diversion culvert corroded through; inspectors also noted an uncompacted steep slope and an undersized spillway.",
+      "incident_date": "2013-10-23",
+      "latest_report_date": "2013-10-23",
+      "what_happened": "ARIA 44742 (23 October 2013, Givry-en-Argonne): the operator of a class-D pond dam found a collapse at the right-bank toe. It followed rupture of the downstream end of a steel culvert that carried a neighbouring housing-estate storm drain and, when a headgate was used, diverted the stream feeding the pond. Corrosion of the 1980s metal pipe caused the break. The hydraulic-works inspector recorded a very steep uncompacted slope and an undersized spillway. The dam was already under special review after a safety diagnosis had shown insufficient sliding resistance; authorised repair works were expected to cover the new damage. French Wikipedia: the village sits on Étang de Givry (14.7 ha, 11.4 ha in the commune), fed by the Ante. No source fetched reported deaths.",
+      "status": "Class-D pond; repairs planned under an existing safety review.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "ARIA 44742 — Avarie sur le barrage d'un étang (Givry-en-Argonne)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/44742/"
+        },
+        {
+          "label": "French Wikipedia — Givry-en-Argonne (étang de Givry)",
+          "url": "https://fr.wikipedia.org/wiki/Givry-en-Argonne"
+        }
+      ],
+      "notes": "Deaths 0: ARIA reports a toe collapse, no casualties. Commune pin (region); crest unpublished.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Private (ARIA: particuliers)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "Étang de Givry 14.7 ha (French Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": "right-bank toe collapse at corroded steel culvert",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Service de contrôle des ouvrages hydrauliques (Marne)"
+    },
+    {
+      "id": "saint-benoit-du-sault-2017-06-14",
+      "name": "Saint-Benoît-du-Sault road dam / étang (Portefeuille)",
+      "country": "France",
+      "region": "Saint-Benoît-du-Sault, Indre",
+      "location_label": "Barrage-digue, Saint-Benoît-du-Sault, Indre, France",
+      "lat": 46.4414,
+      "lng": 1.3914,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Saint-Benoît-du-Sault 46°26′29″N 1°23′29″E — village on the Portefeuille pond dam (RD1)",
+      "river_or_facility": "Étang de Saint-Benoît-du-Sault / Le Portefeuille",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "poor_maintenance"
+      ],
+      "cause_summary": "ARIA: a cofferdam placed to dry the outlet intake failed during bottom-gate replacement, leaking through the wooden outlet gate and emptying the pond in 10 days.",
+      "incident_date": "2017-06-14",
+      "latest_report_date": "2017-06-26",
+      "what_happened": "ARIA 52300 (14 June 2017, Saint-Benoît-du-Sault, EISH Yellow): a leak developed at a dam bottom outlet. Residents saw the flow about 16:00; the manager attended; the reservoir emptied in 10 days with no third-party damage. Gate-replacement works were in progress; a cofferdam drying the outlet intake had been cleared of silt, sediment and household waste, then failed, leaking through the wooden outlet gate. A new outlet was installed in July 2017. France Bleu (26 June 2017): after a leak at the dike sluice during already-started repairs, the village pond emptied and dozens of fish died on the mud; the Département (owner of the road on the dam) and prefecture arranged a licensed rescue netting (~200 kg) to Lac d'Eguzon. Sol Solution / Département de l'Indre: the 17th-century (rebuilt 1784) masonry-and-fill road dam carries RD1 across the Portefeuille. No human deaths.",
+      "status": "New outlet July 2017; later masonry/road rehabilitation (works from 2022).",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "ARIA 52300 — Fuite sur la vanne de fond (Saint-Benoît-du-Sault)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/52300/"
+        },
+        {
+          "label": "France Bleu — pond emptied, fish kill",
+          "url": "https://www.ici.fr/infos/faits-divers-justice/saint-benoit-du-sault-des-dizaines-de-poissons-retrouves-morts-dans-l-etang-1498493696"
+        },
+        {
+          "label": "Sol Solution — Barrage de Saint-Benoît-du-Sault (RD1 / Portefeuille)",
+          "url": "https://www.sol-solution.com/references-chantiers/etudes-de-cas/digues-et-ouvrages-en-terre/diagnostic-dun-barrage-route/"
+        },
+        {
+          "label": "Wikipedia — Saint-Benoît-du-Sault",
+          "url": "https://en.wikipedia.org/wiki/Saint-Beno%C3%AEt-du-Sault"
+        }
+      ],
+      "notes": "Deaths 0 humans (ARIA: no third-party damage). Fish kill not copied as human casualties.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Conseil départemental de l'Indre (RD1) / commune",
+      "year_built": "1784 rebuild (medieval mill pond; 19th-c widening)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "recreation",
+      "volume_released": "pond emptied in 10 days (ARIA)",
+      "breach_size": "outlet-gate leak after cofferdam failure (no crest breach)",
+      "downstream_risk": "Le Portefeuille; ARIA: no third-party damage",
+      "economic_damage": null,
+      "investigating_agency": "Indre prefecture / Conseil départemental"
+    },
+    {
+      "id": "montjoux-2016-07-21",
+      "name": "Étang de Montjoux pond dam (Saint-Jean-de-Bournay)",
+      "country": "France",
+      "region": "Saint-Jean-de-Bournay, Isère",
+      "location_label": "Étang de Montjoux dam, Saint-Jean-de-Bournay, Isère, France",
+      "lat": 45.504311,
+      "lng": 5.16295,
+      "geo_accuracy": "site",
+      "geo_source": "Alpes Isère tourism — Étang de Montjoux chemin de l'étang 45.504311, 5.16295",
+      "river_or_facility": "Étang de Montjoux / Gervonde / canal",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion",
+        "foundation",
+        "poor_maintenance"
+      ],
+      "cause_summary": "ARIA: seepage under the masonry pond-to-canal structure from a missing cutoff, poorly compacted foundation fill and internal erosion of heterogeneous soils.",
+      "incident_date": "2016-07-21",
+      "latest_report_date": "2018",
+      "what_happened": "ARIA 49061 (21 July 2016, Saint-Jean-de-Bournay, EISH Yellow): a leak was found at a masonry pond dam that separates the étang from a canal. The operator placed gravel and sandbags in early August, stopping about 80% of the leak. A November inspection after partial drawdown found a ~60×40 cm hole under the structure on the canal side, dampness and cracks, and a damaged pond-drain plug, attributed to under-seepage (no cutoff), poor compaction and internal erosion. The pond was held low. Early 2018 the manager demolished and rebuilt the concrete work on a bentonite-treated invert, added masonry riprap on the pond side, rebuilt the drain-plug wall, replaced 14 m of pipe and added a wall knife-gate. Département / Sillon 38 (12 Nov 2017): rescue fishery at Étang de Montjoux before emptying and repair of leaks found in summer 2016; ~€450,000 works, then a year of assec. No deaths.",
+      "status": "Rebuilt 2018; ENS fishing pond returned to service.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "ARIA 49061 — Fuite sur un barrage (Saint-Jean-de-Bournay)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/49061/"
+        },
+        {
+          "label": "Sillon 38 — vidange Étang de Montjoux",
+          "url": "https://www.sillon38.com/blog/2017/11/13/vidange-de-letang-de-montjoux/"
+        },
+        {
+          "label": "Alpes Isère — Étang de Montjoux coordinates",
+          "url": "https://www.alpes-isere.com/sit/etang-de-montjoux-4643058/"
+        }
+      ],
+      "notes": "Deaths 0: leak/rebuild, no casualties. Identification as Montjoux from the Département 2017 drawdown of the named leaky pond in the same commune.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Département de l'Isère (ENS)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": "Étang ~14 ha (Alpes Isère); Wikipedia ~60 ha for the Montjoux ponds complex",
+      "construction": "masonry",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": "~60×40 cm hole under the canal-side structure",
+      "downstream_risk": "canal adjoining the pond",
+      "economic_damage": "€450,000 repair programme (Sillon 38 / Département)",
+      "investigating_agency": "Isère hydraulic-works control / Département"
+    },
+    {
+      "id": "fontainebleau-grand-canal-2022-12-14",
+      "name": "Fontainebleau Grand Canal east-dike cofferdam",
+      "country": "France",
+      "region": "Fontainebleau, Seine-et-Marne",
+      "location_label": "Grand Canal east dike, Château de Fontainebleau, France",
+      "lat": 48.401897,
+      "lng": 2.705905,
+      "geo_accuracy": "site",
+      "geo_source": "Wikimedia Commons camera location The Grand Canal, Fontainebleau 48°24′06.83″N 2°42′21.26″E",
+      "river_or_facility": "Grand Canal du château de Fontainebleau (class C hydraulic structure)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "construction_first_filling"
+      ],
+      "cause_summary": "Château / ARIA: the temporary cofferdam isolating the east-dike repair reach slipped and failed under accumulated silt on 14 December 2022.",
+      "incident_date": "2022-12-14",
+      "latest_report_date": "2024-09-27",
+      "what_happened": "ARIA 63673 (14 December 2022, Fontainebleau, historic-site activity, EISH Yellow): a breach was found at night in a temporary cofferdam on a canal lateral dam under repair, 190 m from the canal's east bank; works were suspended and a new cofferdam installed. Château de Fontainebleau / OPPIC: the Henri IV Grand Canal (1606–08; 1.2 km; 140,000 m³; class C dikes) had east-end settlement from 2008 and leaks on the east and north return dikes over 190 m. A cofferdam was placed in the last third of the canal (~200 m upstream of the east dike) in September 2022 to dry masonry. On 14 December 2022 it slipped and failed under silt, forcing a method change. Waterproofing (east-dike injection, masonry, outfall) ran through 2023; the canal was rewatered April 2024 (€3.7 million recovery-plan works). No deaths.",
+      "status": "Canal rewatered April 2024 after east-dike consolidation.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "ARIA 63673 — Rupture d'un batardeau sur un barrage latéral de canal",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/63673/"
+        },
+        {
+          "label": "Château de Fontainebleau — Grand Canal restoration (cofferdam 14 Dec 2022)",
+          "url": "https://www.chateaudefontainebleau.fr/travaux-de-restauration-du-grand-canal/"
+        },
+        {
+          "label": "OPPIC — Grand Canal works (190 m east/north dikes; cofferdam ~200 m)",
+          "url": "https://www.oppic.fr/article1745.html"
+        },
+        {
+          "label": "Wikimedia Commons — Grand Canal camera coordinates",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Grand_Canal,_Fontainebleau,_France_(36177623615).jpg"
+        }
+      ],
+      "notes": "Deaths 0. Construction-cofferdam failure during Class C dike repairs, not a reservoir-dam collapse.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Établissement public du château de Fontainebleau / OPPIC (State)",
+      "year_built": "1606–1608",
+      "height_m": null,
+      "reservoir_capacity": "140,000 m³ (château / OPPIC)",
+      "construction": "embankment",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": "temporary cofferdam slipped 190 m from east bank",
+      "downstream_risk": null,
+      "economic_damage": "€3.7 million restoration programme (plan de relance)",
+      "investigating_agency": "OPPIC / architecte en chef des monuments historiques"
+    },
+    {
+      "id": "suresnes-2022-07-01",
+      "name": "Suresnes Seine barrage-écluse gate failure",
+      "country": "France",
+      "region": "Suresnes, Hauts-de-Seine",
+      "location_label": "Barrage-écluse de Suresnes, Seine, France",
+      "lat": 48.8667,
+      "lng": 2.2167,
+      "geo_accuracy": "region",
+      "geo_source": "French Wikipedia Suresnes 48°52′N 2°13′E — barrage-écluse on quai Gallieni; crest unpublished",
+      "river_or_facility": "Barrage-écluse de Suresnes / Seine",
+      "type": "weir",
+      "category": "incident",
+      "causes": [
+        "operational_gate"
+      ],
+      "cause_summary": "ARIA: a stuck left-bank lifting nut desynchronised the upper gate of pass no. 1; the offset load broke the right-bank 'marteau' link and deformed the counter-guide rail.",
+      "incident_date": "2022-07-01",
+      "latest_report_date": "2022-07-02",
+      "what_happened": "ARIA 59315 (1 July 2022, Suresnes, EISH Yellow): five remote operations in two days on the upper gate of pass no. 1 of a gated barrage, to damp upstream discharge swings, ended with rupture of the 'marteau' link between the right-bank brimbale and the upper gate. The operator saw abnormal over- and underflow, tried the lower gate (which sat askew), then cofferdammed the pass to keep the upstream pool above normal retention. Video and site inspection showed a 42 cm lack of level between banks and a jammed left-bank lifting-nut, so the offset mass broke the link and deformed the counter-guide. Next day both gates were lifted clear and re-levelled. Pass 2 and the flap weir still worked; emergency cofferdams used as a spare gate on pass 1 were no longer available if pass 2 failed. French Wikipedia: the Suresnes barrage-écluse (quai Gallieni; three locks, two barrages split by Île de Puteaux) is the automated Seine navigation weir. No deaths.",
+      "status": "Gates re-levelled; spare cofferdam function on pass 1 unavailable pending repairs.",
+      "deaths": 0,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "ARIA 59315 — Avarie vanne supérieure, barrage de Suresnes",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/59315/"
+        },
+        {
+          "label": "French Wikipedia — Écluse de Suresnes",
+          "url": "https://fr.wikipedia.org/wiki/%C3%89cluse_de_Suresnes"
+        }
+      ],
+      "notes": "Deaths 0. Navigation weir gate incident, not a reservoir failure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "VNF / State navigation service",
+      "year_built": "1869 (rebuilt 20th c.; 1972 large lock)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": "upper-gate link broken; 42 cm out-of-level",
+      "downstream_risk": "Seine navigation reach; ARIA: no impact in normal/low/high flow with pass 2 available",
+      "economic_damage": null,
+      "investigating_agency": "VNF / hydraulic-works control"
+    },
+    {
+      "id": "floudes-garonne-2021-02-04",
+      "name": "Floudès Garonne protection dike (overtopping breach)",
+      "country": "France",
+      "region": "Floudès, Gironde",
+      "location_label": "Garonne left-bank dike, Floudès, Gironde, France",
+      "lat": 44.5736,
+      "lng": -0.0658,
+      "geo_accuracy": "region",
+      "geo_source": "French Wikipedia Floudès 44°34′25″N 0°03′57″W — commune on the left bank; crest unpublished",
+      "river_or_facility": "Digue de protection de la Garonne (Floudès casier)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ARIA: two-day overtopping of the Garonne protection dike opened regressive erosion on the outer casier face and a 20×6×2–3 m breach.",
+      "incident_date": "2021-02-04",
+      "latest_report_date": "2021-02-04",
+      "what_happened": "ARIA 56821/56822 (4 February 2021, Floudès, EISH Orange then Rouge): during an exceptional Garonne flood the protection dike overtopped for two days. Regressive erosion formed on the outer side of the hydraulic casier (ARIA 56821: 80 m long, 3 m wide, 2–3 m high). ARIA 56822 (Rouge): that erosion became a rupture 20 m long, 6 m wide and 2–3 m high. Flood risk in a further flood was judged real. Pending emergency rebuild, sandbags under geotextile were placed and the damage watched. No source fetched reported deaths at this dike.",
+      "status": "Emergency sandbag/geotextile protection pending rebuild.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "ARIA 56822 — Rupture d'un tronçon de digue (Floudès)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/56822/"
+        },
+        {
+          "label": "ARIA 56821 — Surverse d'une digue (Floudès)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/56821/"
+        },
+        {
+          "label": "French Wikipedia — Floudès",
+          "url": "https://fr.wikipedia.org/wiki/Floud%C3%A8s"
+        }
+      ],
+      "notes": "Do not copy 2021 Garonne regional flood totals onto this dike. Deaths null: ARIA gives no fatality count for this structure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "20 m × 6 m × 2–3 m rupture after 80 m regressive erosion",
+      "downstream_risk": "Floudès hydraulic casier",
+      "economic_damage": null,
+      "investigating_agency": "Digue manager / Gironde hydraulic-works control (ARIA)"
+    },
+    {
+      "id": "la-reole-garonne-2021-02-04",
+      "name": "La Réole Garonne protection dike (overtopping breach)",
+      "country": "France",
+      "region": "La Réole, Gironde",
+      "location_label": "Garonne protection dike, La Réole, Gironde, France",
+      "lat": 44.5811,
+      "lng": -0.0411,
+      "geo_accuracy": "region",
+      "geo_source": "French Wikipedia La Réole 44°34′52″N 0°02′28″W — town on the Garonne; crest unpublished",
+      "river_or_facility": "Digue de protection de la Garonne (La Réole)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ARIA: two-day overtopping produced regressive erosion that rapidly opened a 50×6×2–3 m breach.",
+      "incident_date": "2021-02-04",
+      "latest_report_date": "2021-02-04",
+      "what_happened": "ARIA 56819 (4 February 2021, La Réole, EISH Rouge): during an exceptional Garonne flood the protection dike overtopped for two days. Regressive erosion quickly became a rupture 50 m long, 6 m wide and 2–3 m high. Flood risk in a further flood was judged real. Pending emergency rebuild, sandbags under geotextile were placed and the damage watched. No source fetched reported deaths at this dike.",
+      "status": "Emergency sandbag/geotextile protection pending rebuild.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "ARIA 56819 — Rupture d'un tronçon de digue (La Réole)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/56819/"
+        },
+        {
+          "label": "French Wikipedia — La Réole",
+          "url": "https://fr.wikipedia.org/wiki/La_R%C3%A9ole"
+        }
+      ],
+      "notes": "Do not copy 2021 Garonne regional flood totals onto this dike. Deaths null: ARIA gives no fatality count for this structure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "50 m × 6 m × 2–3 m",
+      "downstream_risk": "La Réole protected area",
+      "economic_damage": null,
+      "investigating_agency": "Digue manager / Gironde hydraulic-works control (ARIA)"
+    },
+    {
+      "id": "couthures-garonne-2021-02-01",
+      "name": "Couthures-sur-Garonne dike breach",
+      "country": "France",
+      "region": "Couthures-sur-Garonne, Lot-et-Garonne",
+      "location_label": "Garonne left-bank dike, Couthures-sur-Garonne, France",
+      "lat": 44.5144,
+      "lng": 0.0792,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Couthures-sur-Garonne 44°30′52″N 0°04′45″E — left-bank meander commune; crest unpublished",
+      "river_or_facility": "Digue de la Garonne (Couthures-sur-Garonne)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ARIA: overtopping of the Garonne dike opened a 115 m × 15 m × 3 m breach.",
+      "incident_date": "2021-02-01",
+      "latest_report_date": "2021-02-01",
+      "what_happened": "ARIA 57220 (1 February 2021, Couthures-sur-Garonne, EISH Rouge): after a Garonne flood, overtopping of a dike produced a breach 115 m long, 15 m wide and 3 m deep. Because a further overtopping could fill the casier, temporary raising works were placed before permanent repair. The manager told mayors of the protected communes the new protection level, inspected the whole dike line, and kept a watch pending permanent works. No source fetched reported deaths at this dike.",
+      "status": "Temporary raise in place pending permanent repair.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "ARIA 57220 — Surverse d'une digue et brèche (Couthures-sur-Garonne)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/57220/"
+        },
+        {
+          "label": "Wikipedia — Couthures-sur-Garonne",
+          "url": "https://en.wikipedia.org/wiki/Couthures-sur-Garonne"
+        }
+      ],
+      "notes": "Do not copy 2021 Garonne regional flood totals onto this dike. Deaths null: ARIA gives no fatality count for this structure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "115 m × 15 m × 3 m",
+      "downstream_risk": "Couthures casier / neighbouring communes",
+      "economic_damage": null,
+      "investigating_agency": "Digue manager / Lot-et-Garonne hydraulic-works control (ARIA)"
+    },
+    {
+      "id": "toulenne-garonne-2021-02-05",
+      "name": "Toulenne Garonne dike overtopping (near-breach)",
+      "country": "France",
+      "region": "Toulenne, Gironde",
+      "location_label": "Garonne dike, Toulenne, Gironde, France",
+      "lat": 44.5592,
+      "lng": -0.2617,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Toulenne 44°33′33″N 0°15′42″W — commune pin; crest unpublished",
+      "river_or_facility": "Digue de la Garonne (Toulenne)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ARIA: late-January/early-February 2021 Garonne overtopping eroded the dike to the verge of a breach.",
+      "incident_date": "2021-02-05",
+      "latest_report_date": "2021-02-05",
+      "what_happened": "ARIA 57087 (5 February 2021, Toulenne, EISH Orange): after the late-January/early-February 2021 Garonne flood, overtopping damaged a dike. Erosion at the limit of a breach put in doubt the ability to resist another flood. Compacted-clay repair and revegetation were programmed. Because the flood was widespread, a detailed technical inspection (VTA) was run on the whole structure. No source fetched reported deaths at this dike.",
+      "status": "Clay repair and revegetation programmed; full-line VTA after the flood.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "ARIA 57087 — Dégradation d'une digue lors d'une surverse (Toulenne)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/57087/"
+        },
+        {
+          "label": "Wikipedia — Toulenne",
+          "url": "https://en.wikipedia.org/wiki/Toulenne"
+        }
+      ],
+      "notes": "Do not copy 2021 Garonne regional flood totals onto this dike. Deaths null: ARIA gives no fatality count for this structure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "erosion at the limit of a breach (ARIA)",
+      "downstream_risk": "Toulenne protected area",
+      "economic_damage": null,
+      "investigating_agency": "Digue manager / Gironde hydraulic-works control (ARIA)"
+    },
+    {
+      "id": "villeton-garonne-2021-02-01",
+      "name": "Villeton Garonne dike overtopping (400 m crest erosion)",
+      "country": "France",
+      "region": "Villeton, Lot-et-Garonne",
+      "location_label": "Garonne dike, Villeton, Lot-et-Garonne, France",
+      "lat": 44.3631,
+      "lng": 0.2725,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Villeton 44°21′47″N 0°16′21″E — commune pin; crest unpublished",
+      "river_or_facility": "Digue de la Garonne (Villeton)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ARIA: Garonne overtopping eroded the crest and flank over 400 m.",
+      "incident_date": "2021-02-01",
+      "latest_report_date": "2021-02-01",
+      "what_happened": "ARIA 57205 (1 February 2021, Villeton, EISH Yellow): after a Garonne flood, overtopping eroded the crest and flank of a dike over 400 m. The manager inspected the whole dike line and kept a watch pending emergency works. No source fetched reported deaths at this dike.",
+      "status": "Watch pending emergency repairs after full-line inspection.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "ARIA 57205 — Surverse d'une digue et érosion (Villeton)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/57205/"
+        },
+        {
+          "label": "Wikipedia — Villeton",
+          "url": "https://en.wikipedia.org/wiki/Villeton"
+        }
+      ],
+      "notes": "Do not copy 2021 Garonne regional flood totals onto this dike. Deaths null: ARIA gives no fatality count for this structure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "400 m crest and flank erosion (no full breach stated)",
+      "downstream_risk": "Villeton protected area",
+      "economic_damage": null,
+      "investigating_agency": "Digue manager / Lot-et-Garonne hydraulic-works control (ARIA)"
+    },
+    {
+      "id": "meilhan-garonne-2021-02-01",
+      "name": "Meilhan-sur-Garonne dike clapet scour",
+      "country": "France",
+      "region": "Meilhan-sur-Garonne, Lot-et-Garonne",
+      "location_label": "Garonne dike clapet, Meilhan-sur-Garonne, France",
+      "lat": 44.5222,
+      "lng": 0.0344,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Meilhan-sur-Garonne 44°31′20″N 0°02′04″E — commune pin; crest unpublished",
+      "river_or_facility": "Digue de la Garonne (Meilhan-sur-Garonne clapet)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "ARIA: on the falling Garonne, ravine scour 8 m long formed on both sides of a dike flap-gate (clapet).",
+      "incident_date": "2021-02-01",
+      "latest_report_date": "2021-02-01",
+      "what_happened": "ARIA 57218 (1 February 2021, Meilhan-sur-Garonne, EISH Yellow): after the Garonne fell, lateral ravine erosion 8 m long was found on both sides of a dike clapet. The damage put in doubt resistance to a further flood. The manager inspected the whole dike line and kept a watch pending permanent works. No source fetched reported deaths at this dike.",
+      "status": "Watch pending permanent works after full-line inspection.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "ARIA 57218 — Erosion d'une digue à la décrue (Meilhan-sur-Garonne)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/57218/"
+        },
+        {
+          "label": "Wikipedia — Meilhan-sur-Garonne",
+          "url": "https://en.wikipedia.org/wiki/Meilhan-sur-Garonne"
+        }
+      ],
+      "notes": "Do not copy 2021 Garonne regional flood totals onto this dike. Deaths null: ARIA gives no fatality count for this structure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "8 m ravine scour at clapet",
+      "downstream_risk": "Meilhan protected area",
+      "economic_damage": null,
+      "investigating_agency": "Digue manager / Lot-et-Garonne hydraulic-works control (ARIA)"
+    },
+    {
+      "id": "gaujac-garonne-2021-02-01",
+      "name": "Gaujac Garonne dike piping and toe scour",
+      "country": "France",
+      "region": "Gaujac, Lot-et-Garonne",
+      "location_label": "Garonne dike, Gaujac, Lot-et-Garonne, France",
+      "lat": 44.4906,
+      "lng": 0.1114,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia Gaujac, Lot-et-Garonne 44°29′26″N 0°06′41″E — commune pin; crest unpublished",
+      "river_or_facility": "Digue de la Garonne (Gaujac)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ARIA: active through-going piping, 80×3 m lateral erosion, and pressure holes under cofferdams after the Garonne flood.",
+      "incident_date": "2021-02-01",
+      "latest_report_date": "2021-02-01",
+      "what_happened": "Three ARIA sheets on 1 February 2021 at Gaujac (all EISH Orange) describe the same Garonne dike after the flood. ARIA 57171: erosion by an active through-going hydraulic piping (renard), with water visible at the toe. ARIA 57173: 80 m × 3 m lateral erosion. ARIA 57169: water passing under dike cofferdams through pressure holes, putting resistance to a further flood in doubt; the holes were plugged in emergency. The manager told mayors of the protected communes the new protection level, inspected the whole line, and kept a watch pending permanent works. No source fetched reported deaths at this dike.",
+      "status": "Emergency plugging of cofferdam holes; watch pending permanent works.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "ARIA 57171 — Renard hydraulique (Gaujac)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/57171/"
+        },
+        {
+          "label": "ARIA 57173 — Erosion latérale d'une digue (Gaujac)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/57173/"
+        },
+        {
+          "label": "ARIA 57169 — Passage d'eau sous les batardeaux (Gaujac)",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/57169/"
+        },
+        {
+          "label": "Wikipedia — Gaujac, Lot-et-Garonne",
+          "url": "https://en.wikipedia.org/wiki/Gaujac,_Lot-et-Garonne"
+        }
+      ],
+      "notes": "Do not copy 2021 Garonne regional flood totals onto this dike. Deaths null: ARIA gives no fatality count for this structure. Combined three ARIA numbers on the same commune dike (piping, lateral scour, cofferdam underflow).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "80 m × 3 m lateral erosion; through-going piping; cofferdam under-seepage",
+      "downstream_risk": "Gaujac protected communes",
+      "economic_damage": null,
+      "investigating_agency": "Digue manager / Lot-et-Garonne hydraulic-works control (ARIA)"
+    },
+    {
+      "id": "aiguillon-sur-mer-2010-02-28",
+      "name": "L'Aiguillon-sur-Mer sea dike (Xynthia piping)",
+      "country": "France",
+      "region": "L'Aiguillon-sur-Mer (now L'Aiguillon-la-Presqu'île), Vendée",
+      "location_label": "Digue de l'Aiguillon-sur-Mer, Vendée, France",
+      "lat": 46.33,
+      "lng": -1.3,
+      "geo_accuracy": "region",
+      "geo_source": "English Wikipedia L'Aiguillon-sur-Mer 46°20′N 1°18′W — commune on the Lay estuary; crest unpublished",
+      "river_or_facility": "Digue de l'Aiguillon-sur-Mer / Anse de l'Aiguillon (Grues / Grenouillet / Génie dikes)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "piping_internal_erosion",
+        "overtopping"
+      ],
+      "cause_summary": "BRGM Xynthia mission: the Aiguillon-sur-Mer dike was damaged by surface stripping, toe attack, road-asphalt destruction and hydraulic piping (renards); waves also overtopped and 'decapitated' narrow crests.",
+      "incident_date": "2010-02-28",
+      "latest_report_date": "2010",
+      "what_happened": "BRGM report RP-58261-FR (Xynthia preliminary mission) names the digue de l'Aiguillon-sur-Mer among structures damaged on 27–28 February 2010: surface-layer damage, toe attack, destruction of the road asphalt, and formation of hydraulic piping (renards) — illustrated as Figure 13. The same mission describes wave 'decapitation', overtopping and occasional breaching of Atlantic dikes, with piping specifically at Aiguillon. Later State works lists (E3S 2016) name the Grues, Grenouillet and Génie dikes at Aiguillon among post-Xynthia rebuilds. Cour des comptes: the south Vendée coast, including L'Aiguillon-sur-Mer and La Faute-sur-Mer, was submerged; 29 deaths are the La Faute / Digue Est toll and are not copied onto this Aiguillon dike. No source fetched gave a separate death count for the Aiguillon-sur-Mer dike.",
+      "status": "Post-Xynthia dike rebuilds (Grues, Grenouillet, Génie); commune merged 2022.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "BRGM RP-58261-FR — Tempête Xynthia mission préliminaire (digue de l'Aiguillon)",
+          "url": "https://infoterre.brgm.fr/rapports/RP-58261-FR.pdf"
+        },
+        {
+          "label": "E3S — Actions after Xynthia (Aiguillon Grues/Grenouillet/Génie dikes)",
+          "url": "https://doi.org/10.1051/e3sconf/20160720008"
+        },
+        {
+          "label": "Wikipedia — L'Aiguillon-sur-Mer",
+          "url": "https://en.wikipedia.org/wiki/L%27Aiguillon-sur-Mer"
+        }
+      ],
+      "notes": "Do not copy 29 La Faute / Digue Est deaths or 47 national Xynthia deaths onto this dike. Deaths left null: no Aiguillon-structure fatality count in fetched sources.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "piping (renards), surface and toe damage (BRGM); not described as a single full breach",
+      "downstream_risk": "L'Aiguillon-sur-Mer / Marais Poitevin fringe",
+      "economic_damage": null,
+      "investigating_agency": "BRGM / CETMEF / DDTM 85"
+    },
+    {
+      "id": "montcresson-canal-2002",
+      "name": "Canal de Briare bank breach at Montcresson (2002)",
+      "country": "France",
+      "region": "Montcresson, Loiret",
+      "location_label": "Canal de Briare right bank, bief de Montambert, Montcresson, France",
+      "lat": 47.907,
+      "lng": 2.806,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Montcresson 47°54′25″N 2°48′22″E (same commune pin as live 2016 Montcresson record; crest unpublished)",
+      "river_or_facility": "Canal de Briare / bief de Montambert (bief 27)",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "ARIA 48093 (on the 2016 breach): the 2016 rupture sat immediately downstream of a 2002 breach on the same canal bank, at a transition between original fill and 2003 repair materials.",
+      "incident_date": "2002",
+      "latest_report_date": "2016",
+      "what_happened": "ARIA 48093, written on the 31 May 2016 Canal de Briare right-bank rupture at Montcresson, states that the 2016 breach occurred immediately downstream of a breach that had already occurred in 2002, at the contact between original canal-bank materials and those from a 2003 repair. That is a named prior failure of the same Montambert reach (bief 27) of the Canal de Briare. The 2016 event (already in this database) released about 800,000 m³; this record is only the 2002 structure failure. ARIA does not give a 2002 death count or a surveyed 2002 chainage.",
+      "status": "Repaired 2003; the 2003 contact later failed again in 2016 (separate record).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "ARIA 48093 — 2016 Montcresson sheet naming the 2002 breach immediately upstream",
+          "url": "https://www.aria.developpement-durable.gouv.fr/accident/48093/"
+        },
+        {
+          "label": "Wikipedia — Montcresson (commune pin)",
+          "url": "https://en.wikipedia.org/wiki/Montcresson"
+        }
+      ],
+      "notes": "Separate from live montcresson-canal-2016-05-31. Deaths null: no 2002 casualty figure. Do not copy 2016 Loing flood totals.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Voies navigables de France",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": "2002 breach immediately upstream of the 2016 rupture (ARIA)",
+      "downstream_risk": "Loing valley / Montcresson",
+      "economic_damage": null,
+      "investigating_agency": "VNF / ARIA (retrospective mention)"
+    },
+    {
+      "id": "breitenhagen-saale-2013-06-09",
+      "name": "Breitenhagen right-bank Saale dike (2013 breach)",
+      "country": "Germany",
+      "region": "Breitenhagen / Klein Rosenburg, Barby, Saxony-Anhalt",
+      "location_label": "Saaledeich rechts near Schöpfwerk Breitenhagen, Saxony-Anhalt, Germany",
+      "lat": 51.9236,
+      "lng": 11.9497,
+      "geo_accuracy": "region",
+      "geo_source": "German Wikipedia Breitenhagen (Barby) 51°55′25″N 11°56′59″E — breach ~150 m behind the pumping station",
+      "river_or_facility": "Saaledeich rechts / Schöpfwerk Breitenhagen (Elbe–Saale Winkel)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "LHW / Volksstimme: on 9 June 2013 about 07:15–07:20 a seep cut through the right Saale dike near the Breitenhagen pumping station and opened a ~100 m breach.",
+      "incident_date": "2013-06-09",
+      "latest_report_date": "2017-08-16",
+      "what_happened": "Landesbetrieb für Hochwasserschutz und Wasserwirtschaft Sachsen-Anhalt (LHW briefing, 16 Aug 2017): the right Saale dike at Breitenhagen breached on 9 June 2013 about 07:15. Flooded area about 85 km², volume about 115 million m³. German Wikipedia (Breitenhagen): the dam broke about 150 m behind the pumping station over about 100 m; water reached Aken; villages including Breitenhagen, Klein and Groß Rosenburg, Lödderitz, Rajoch, Kühren, Diebzig, Susigke and parts of Sachsendorf and Aken were hard hit; some residents returned only after three weeks; THW later widened the gap to drain back to the Elbe. Saxony-Anhalt crisis staff (Seismoblog, 9 June 2013): breach between Klein Rosenburg and Schöpfwerk Breitenhagen at 07:20, with an order for anyone still in the named villages to move to higher ground. Volksstimme: a small seep from the flooded Saale cut through the dike near the pumping station at 07:19. No source fetched gave a death count for this dike (2013 Elbe/Saale regional totals are not copied).",
+      "status": "Saaledeich rechts km 0.4–1.06 later rehabilitated (LHW).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": "villages in the Elbe–Saale Winkel evacuated 8 June; catastrophe alarm 31 days (Volksstimme)",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "LHW Sachsen-Anhalt — Deichbruch Breitenhagen 2013 briefing",
+          "url": "https://lhw.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/Landesbetriebe/LHW/neu_PDF/1.0/HWSB_Deichbruch_Breitenhagen.pdf"
+        },
+        {
+          "label": "German Wikipedia — Breitenhagen (Barby)",
+          "url": "https://de.wikipedia.org/wiki/Breitenhagen_(Barby)"
+        },
+        {
+          "label": "Landesregierung Sachsen-Anhalt via Seismoblog — 9 June 2013 07:20 breach",
+          "url": "https://www.seismoblog.de/fluten/hochwasser-saaledamm-zwischen-klein-rosenburg-und-schoepfwerk-breitenhagen-gebrochen/2013/15260/"
+        }
+      ],
+      "notes": "Deaths null: no structure-specific fatality count. Do not copy 2013 Elbe/Saale regional deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "LHW Sachsen-Anhalt",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": "about 115 million m³ into the Winkel (LHW)",
+      "breach_size": "about 100 m, ~150 m behind the pumping station (Wikipedia)",
+      "downstream_risk": "Elbe–Saale Winkel (~85 km²)",
+      "economic_damage": null,
+      "investigating_agency": "LHW Sachsen-Anhalt"
+    },
+    {
+      "id": "seelhausener-see-2013-06",
+      "name": "Seelhausener See / Lober-Leine canal dike (2013)",
+      "country": "Germany",
+      "region": "Pouch–Löbnitz, Anhalt-Bitterfeld / Nordsachsen",
+      "location_label": "Dike beside the Lober-Leine-Kanal weir, Seelhausener See, Germany",
+      "lat": 51.6067,
+      "lng": 12.4314,
+      "geo_accuracy": "site",
+      "geo_source": "German Wikipedia Lober-Leine-Kanal mouth between Pouch and Löbnitz 51°36′24″N 12°25′53″E",
+      "river_or_facility": "Lober-Leine-Kanal weir / Seelhausener See dike (Mulde)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Goitzsche local chronicle: the 2013 Mulde flood breached the dike immediately beside the Lober-Leine-Kanal weir, at the same place as 2002.",
+      "incident_date": "2013-06",
+      "latest_report_date": "2013-07",
+      "what_happened": "The Goitzsche site chronicle records that in June 2013 the flood breached the dike directly beside the Lober-Leine-Kanal weir — the same place as in 2002 — and water ran through the 2002 scour channel into Seelhausener See, again destroying the Pouch–Löbnitz road (L139). German Wikipedia (Lober-Leine-Kanal): the canal mouths between Pouch and Löbnitz into the Vereinigte Mulde; after the 2002 flood destroyed the mouth it was rebuilt in 2004. Seelhausener See Wikipedia: the 2002 flood had already destroyed the Mulde filling pipeline. No source fetched gave deaths at this dike.",
+      "status": "Road/dike damage; canal mouth had been rebuilt 2004 after the 2002 failure.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Die Goitzsche — Hochwasser am Seelhausener See (2013 breach at Lober-Leine weir)",
+          "url": "https://www.goitzsche.de/hochwasser-seelhausener-see/"
+        },
+        {
+          "label": "German Wikipedia — Lober-Leine-Kanal (Pouch–Löbnitz mouth)",
+          "url": "https://de.wikipedia.org/wiki/Lober-Leine-Kanal"
+        },
+        {
+          "label": "German Wikipedia — Seelhausener See",
+          "url": "https://de.wikipedia.org/wiki/Seelhausener_See"
+        }
+      ],
+      "notes": "Deaths null. Separate from the 2002 failure at the same weir. Do not copy 2013 Mulde/Elbe regional deaths.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "LMBV / state water administration",
+      "year_built": "1949–1951 canal; 1982 relocation; 2004 mouth rebuild",
+      "height_m": null,
+      "reservoir_capacity": "Seelhausener See 6.23 km² / 74 million m³ (Wikipedia)",
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "dike beside the Lober-Leine weir (same locus as 2002)",
+      "downstream_risk": "Seelhausener See / Pouch–Löbnitz L139",
+      "economic_damage": null,
+      "investigating_agency": null
+    },
+    {
+      "id": "seelhausener-see-2002-08",
+      "name": "Seelhausener See / Lober-Leine canal mouth (2002)",
+      "country": "Germany",
+      "region": "Pouch–Löbnitz, Anhalt-Bitterfeld / Nordsachsen",
+      "location_label": "Lober-Leine-Kanal mouth / Seelhausener See dike, Germany",
+      "lat": 51.6067,
+      "lng": 12.4314,
+      "geo_accuracy": "site",
+      "geo_source": "German Wikipedia Lober-Leine-Kanal mouth between Pouch and Löbnitz 51°36′24″N 12°25′53″E",
+      "river_or_facility": "Lober-Leine-Kanal / Seelhausener See (Mulde filling works)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia / LMBV: the August 2002 Mulde flood destroyed the canal mouth and the Mulde filling pipeline; Goitzsche: the dike beside the weir breached (same locus reused in 2013).",
+      "incident_date": "2002-08",
+      "latest_report_date": "2017",
+      "what_happened": "German Wikipedia (Lober-Leine-Kanal): after the 2002 flood destroyed the mouth into the Vereinigte Mulde, the canal was used for a time to flood the Seelhausener See residual pit; the canal and Mulde mouth were rebuilt with major earthworks in 2004. Seelhausener See Wikipedia: filling from the Mulde by pipeline at 1 m³/s from July 2000 stopped when the 2002 flood destroyed that pipeline; the lake has since been fed by the Lober-Leine-Kanal. KuLaDig / LMBV: 2.3 km of canal had to be repaired and a spill into the lake built. Goitzsche later notes the 2013 breach reused the 2002 scour next to the weir. No source fetched gave deaths at this structure.",
+      "status": "Canal mouth rebuilt 2004; filling of Seelhausener See then completed 2005.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "German Wikipedia — Lober-Leine-Kanal (2002 mouth destruction)",
+          "url": "https://de.wikipedia.org/wiki/Lober-Leine-Kanal"
+        },
+        {
+          "label": "German Wikipedia — Seelhausener See (Mulde pipeline destroyed 2002)",
+          "url": "https://de.wikipedia.org/wiki/Seelhausener_See"
+        },
+        {
+          "label": "KuLaDig — Lober-Leine-Kanal (2.3 km repair after 2002)",
+          "url": "https://www.kuladig.de/Objektansicht/BKM-30500096"
+        }
+      ],
+      "notes": "Deaths null. Do not copy 2002 Elbe/Mulde regional deaths (21 in Saxony, etc.).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "LMBV",
+      "year_built": "1949–1951 / 1982",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": "canal mouth and filling pipeline destroyed; dike beside weir",
+      "downstream_risk": "Seelhausener See residual pit / Pouch–Löbnitz",
+      "economic_damage": null,
+      "investigating_agency": "LMBV"
+    },
+    {
+      "id": "buseo-2024-10-29",
+      "name": "Presa de Buseo (DANA 2024 overtopping)",
+      "country": "Spain",
+      "region": "Chera, Valencia",
+      "location_label": "Presa de Buseo, Chera, Valencia, Spain",
+      "lat": 39.593583,
+      "lng": -0.943333,
+      "geo_accuracy": "exact",
+      "geo_source": "Spanish Wikipedia Embalse de Buseo 39°35′37″N 0°56′36″W",
+      "river_or_facility": "Presa de Buseo / Río Reatillo (Turia)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping",
+        "spillway",
+        "operational_gate",
+        "poor_maintenance"
+      ],
+      "cause_summary": "Generalitat report to the DANA judge: with the bottom outlet and two of three intakes out of service, the 1915 gravity dam overtopped the crest by about 2 m and the parapet broke.",
+      "incident_date": "2024-10-29",
+      "latest_report_date": "2025-08-08",
+      "what_happened": "On 29 October 2024 the DANA filled Presa de Buseo (Chera; built 1903–15; 40 m gravity; 7.05–7.5 hm³). El Diario / Las Provincias citing the Consell report to the investigating judge: only irrigation intake no. 3 (rehabilitated 2020, ~9.2 m³/s) was usable; the century-old bottom outlet and intakes 1–2 were out of service, and intake 3 sat above most of the rising pool until 18:05. The reservoir reached spillway level 458.70 m about 21:45–21:50 (7.2 hm³), then overtopped the 460.40 m crest about 22:10 (8.54 hm³) and rose to the parapet, spilling at the abutments. Peak volume 8.88 hm³ (125% of 7.05). FNCA/MITECO diagnosis: complete overtopping and signs of disintegration, a direct rupture threat to Sot de Chera. The dam did not collapse. No source fetched gave deaths at this dam (Valencia DANA regional totals are not copied).",
+      "status": "Overtopped; parapet damaged; dam standing. Auxiliary outlets were inoperable on the day.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "El Diario — Buseo: only 1 of 4 outlets working; crest overtopped 2 m",
+          "url": "https://www.eldiario.es/comunitat-valenciana/presa-buseo-titularidad-generalitat-tenia-operativa-cuatro-desagues-dia-dana_1_12345243.html"
+        },
+        {
+          "label": "Las Provincias — Forata and Buseo auxiliary outlets inoperable 29-O",
+          "url": "https://www.lasprovincias.es/comunitat/desagues-auxiliares-presas-forata-buseo-inoperativos-29o-20250808002409-nt.html"
+        },
+        {
+          "label": "FNCA / MITECO — Diagnóstico infraestructuras DANA 2024 (Buseo overtopping)",
+          "url": "https://fnca.eu/images/documentos/Miteco/Diagnostico_infraestructuras_DANA2024.pdf"
+        },
+        {
+          "label": "Spanish Wikipedia — Embalse de Buseo",
+          "url": "https://es.wikipedia.org/wiki/Embalse_de_Buseo"
+        }
+      ],
+      "notes": "Deaths null: do not copy October 2024 Valencia DANA regional deaths onto Buseo. Dam overtopped but did not collapse.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Generalitat Valenciana",
+      "year_built": "1903–1915",
+      "height_m": 40,
+      "reservoir_capacity": "7.05–7.5 hm³ (peak 8.88 hm³ on 29 Oct 2024)",
+      "construction": "concrete_gravity",
+      "purpose": "irrigation",
+      "volume_released": "overtopping plus spillway; incoming peak ~1,200 m³/s (Consell report)",
+      "breach_size": "parapet/pretil broken; crest overtopped ~2 m; dam body did not fail",
+      "downstream_risk": "Sot de Chera / Reatillo–Turia",
+      "economic_damage": null,
+      "investigating_agency": "Generalitat Valenciana report to DANA investigating judge"
+    },
+    {
+      "id": "forata-2024-10-29",
+      "name": "Presa de Forata (DANA 2024 spillway damage)",
+      "country": "Spain",
+      "region": "Yátova, Valencia",
+      "location_label": "Presa de Forata, Yátova, Valencia, Spain",
+      "lat": 39.344722,
+      "lng": -0.866944,
+      "geo_accuracy": "exact",
+      "geo_source": "Spanish Wikipedia Embalse de Forata 39°20′41″N 0°52′01″W",
+      "river_or_facility": "Presa de Forata / Río Magro (Júcar)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "MITECO/CHJ: an inflow above the 10,000-year design passed the gated spillway (peak out ~1,092 m³/s); emergency works later rebuilt a scoured stilling-basin counter-weir and left-bank scour — the dam did not overtop or collapse.",
+      "incident_date": "2024-10-29",
+      "latest_report_date": "2025",
+      "what_happened": "MITECO integrated report on Forata in DANA 2024: inflow peak >2,016 m³/s (SAIH), above the dam-safety 10,000-year figure; outflow peak 1,092 m³/s (about 1,000-year). The reservoir rose from 5.4 hm³ at 08:30 to 39.3 hm³ at 20:30 on 29 October; spillway flow began 17:30 at the weir crest; maximum level 384.9 m at 21:10, 4.2 m below the 389.1 m crest. About 74.59 hm³ was spilled 29 Oct 17:30–1 Nov 00:00. The dam did not fail. CHJ emergency-works fiche: reconstruct ~30 m of stilling-basin counter-weir (~3 m high), concrete a 3 m left-bank scour, replace basin fill, restore the intake and a silted bottom outlet, and close a right-bank low spot that could spill beside the crest. Wikipedia: the 1970 CHJ gravity dam (68 m; 37 hm³) started the day at 14.16% full and cut Magro peak. No source fetched gave deaths at this dam (Valencia DANA regional totals are not copied).",
+      "status": "Dam standing; emergency stilling-basin and access repairs (CHJ).",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "MITECO — Análisis del papel de la presa de Forata DANA 2024",
+          "url": "https://www.miteco.gob.es/content/dam/miteco/es/agua/temas/seguridad-de-presas-y-embalses/presas-y-seguridad-h%C3%ADdrica/Informe_Forata_DANA24_INTEGRADO.pdf"
+        },
+        {
+          "label": "CHJ — emergency works fiche, Presa de Forata",
+          "url": "https://www.chj.es/es-es/medioambiente/obrasemergencia/Documents/OBRAS%20EMERGENCIA%20DANA%202024/FICHA%20WEB%20PRESA%20DE%20FORATA.pdf"
+        },
+        {
+          "label": "Spanish Wikipedia — Embalse de Forata",
+          "url": "https://es.wikipedia.org/wiki/Embalse_de_Forata"
+        }
+      ],
+      "notes": "Deaths null: do not copy October 2024 Valencia DANA regional deaths onto Forata. Designed spillway passed an above-design flood; stilling-basin damage is the incident, not a dam collapse.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Confederación Hidrográfica del Júcar",
+      "year_built": "1970",
+      "height_m": 68,
+      "reservoir_capacity": "37 hm³ (peak ~39.3 hm³ on 29 Oct 2024)",
+      "construction": "concrete_gravity",
+      "purpose": "multipurpose",
+      "volume_released": "74.59 hm³ spilled 29 Oct–1 Nov (MITECO); peak out 1,092 m³/s",
+      "breach_size": "stilling-basin counter-weir ~30 m / 3 m and 3 m left-bank scour (CHJ); dam crest not overtopped",
+      "downstream_risk": "Magro / Montroy and towns downstream — flood is from basin rain plus spillway, not a breach",
+      "economic_damage": null,
+      "investigating_agency": "MITECO / CHJ"
     }
   ]
 }
