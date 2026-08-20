@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 356,
+  "count": 370,
   "events": [
     {
       "id": "flood-assam-2026",
@@ -19714,6 +19714,764 @@
           "date": "2026-08-20",
           "by": "historic_backfill",
           "change": "Added from Wikipedia / ReliefWeb: 2025 Bolivia floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-sindh-2011",
+      "name": "2011 Sindh floods",
+      "country": "Pakistan",
+      "region": "Sindh / southern Pakistan",
+      "location_label": "Badin, Sindh, Pakistan",
+      "lat": 24.66233,
+      "lng": 68.83847,
+      "geo_accuracy": "approx",
+      "geo_source": "Badin (Nominatim 24.66233°N 68.83847°E); first district inundated; 3,820 km² flooded; record 615.3 mm",
+      "flood_type": "riverine",
+      "river_or_basin": "Sindh monsoon plains / Indus left bank",
+      "river_or_facility": null,
+      "incident_date": "2011-08-11",
+      "latest_report_date": "2011-09-15",
+      "what_happened": "Record August–September 2011 monsoon rains over Sindh, after a year of drought, inundated 16 districts. The dedicated Wikipedia infobox records at least 434 dead and 8.9 million affected; the body cites 433 dead, 5.3 million people and 1.52 million homes affected. Badin received 615.3 mm (previous record 121 mm in 1936); Mithi 1,290 mm. About 6.79 million acres of land were damaged. Distinct from flood-pakistan-2010.",
+      "status": "Historical.",
+      "deaths": 434,
+      "injured": null,
+      "affected_or_evacuated": "8.9 million affected; 1.52 million homes damaged (Wikipedia infobox)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon"
+      ],
+      "cause_summary": "Highest-ever four-week Sindh monsoon (Aug–Sep 2011); weather from Rajasthan/Gujarat after 12 months of drought.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2011 Sindh floods",
+          "url": "https://en.wikipedia.org/wiki/2011_Sindh_floods"
+        }
+      ],
+      "notes": "434 is the dedicated-page infobox. Body 433. Distinct from flood-pakistan-2010 and flood-kohistan-2011 (not added; stub).",
+      "era": "2011",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Mithi 1,290 mm Aug–Sep; Badin 615.3 mm (PMD, Wikipedia)",
+      "inundation_area": "6.79 million acres damaged (Wikipedia infobox)",
+      "warning_issued": "PMD advised PDMA/DCOs two days before the spell (Wikipedia)",
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2011 Sindh floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-laingsburg-1981",
+      "name": "1981 Laingsburg flood",
+      "country": "South Africa",
+      "region": "Western Cape / Karoo",
+      "location_label": "Laingsburg, Western Cape, South Africa",
+      "lat": -33.195,
+      "lng": 20.85917,
+      "geo_accuracy": "approx",
+      "geo_source": "Laingsburg (Nominatim 33.19500°S 20.85917°E); Buffels–Wilgehout–Baviaans confluence",
+      "flood_type": "flash",
+      "river_or_basin": "Buffels (Western Cape) / Wilgehout / Baviaans",
+      "river_or_facility": null,
+      "incident_date": "1981-01-25",
+      "latest_report_date": "1982-01",
+      "what_happened": "A 24–25 January 1981 synoptic-scale rain event over the normally dry Buffels catchment flooded Laingsburg between about 12:00 and a 17:45 peak. Water reached 10 m above the usual flow; peak discharge was estimated at 8,000 m³/s. The dedicated Wikipedia page records at least 104 residents killed (72 bodies never found), 184 houses and 23 commercial buildings destroyed, including the old-age home (28 drowned). About two-thirds of the town was destroyed. Floriskraal Dam downstream received debris and survivors; this is not a dam collapse.",
+      "status": "Historical.",
+      "deaths": 104,
+      "injured": null,
+      "affected_or_evacuated": "184 houses destroyed; tent town of 115 tents after the flood (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Karoo flash flood at the Buffels confluence; constriction through the downstream poort.",
+      "sources": [
+        {
+          "label": "Wikipedia: Laingsburg Flood",
+          "url": "https://en.wikipedia.org/wiki/Laingsburg_Flood"
+        }
+      ],
+      "notes": "104 dead / 72 never found on the dedicated page. Earlier passes had a title 404; the EN page exists now. Floriskraal Dam is downstream receiving water, not a failure.",
+      "era": "1981",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "~8,000 m³/s estimated peak (Wikipedia)",
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Laingsburg Flood."
+        }
+      ]
+    },
+    {
+      "id": "flood-namibia-2008",
+      "name": "2008 Namibia floods",
+      "country": "Namibia",
+      "region": "North-central Cuvelai / Caprivi",
+      "location_label": "Oshakati, Oshana, Namibia",
+      "lat": -17.78265,
+      "lng": 15.6986,
+      "geo_accuracy": "approx",
+      "geo_source": "Oshakati (Nominatim 17.78265°S 15.69860°E); Oshana Cuvelai floodplains among the worst-hit",
+      "flood_type": "riverine",
+      "river_or_basin": "Cuvelai / oshanas / Zambezi–Caprivi",
+      "river_or_facility": null,
+      "incident_date": "2008-02-01",
+      "latest_report_date": "2008-03-04",
+      "what_happened": "Early-February 2008 rains produced one of northern Namibia's worst floods in 50 years across Omusati, Oshikoto, Oshana, Ohangwena and Caprivi. The dedicated Wikipedia page: at least 42 deaths by early March (71 casualties of which 42 deaths) and about 65,000 affected; 4,600 in relocation camps. Reuters 4 March 2008: 42 killed. Cholera followed in Engela. Distinct from the larger 2009 Cuvelai season.",
+      "status": "Historical.",
+      "deaths": 42,
+      "injured": null,
+      "affected_or_evacuated": "About 65,000 affected; 4,600 in camps; 40,000 assisted by Namibian Red Cross (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "February 2008 Cuvelai/oshana floods in northern Namibia.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2008 Namibia floods",
+          "url": "https://en.wikipedia.org/wiki/2008_Namibia_floods"
+        },
+        {
+          "label": "Reuters: Floods in Namibia kill 42",
+          "url": "https://www.reuters.com/article/world/floods-in-namibia-kill-42-and-displace-thousands-idUSL04774647/"
+        }
+      ],
+      "notes": "42 is the dedicated-page/Reuters figure. 71 casualties of which 42 deaths. Distinct from flood-namibia-2009.",
+      "era": "2008",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2008 Namibia floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-namibia-2009",
+      "name": "2009 Angola, Namibia and Zambia floods",
+      "country": "Namibia",
+      "region": "Cuvelai / northern Namibia / Cunene",
+      "location_label": "Oshakati, Oshana, Namibia",
+      "lat": -17.78265,
+      "lng": 15.6986,
+      "geo_accuracy": "approx",
+      "geo_source": "Oshakati (Nominatim 17.78265°S 15.69860°E); Namibia 112 of 131 deaths; Cuvelai worst-hit",
+      "flood_type": "riverine",
+      "river_or_basin": "Cuvelai / Cunene / Zambezi / Okavango",
+      "river_or_facility": null,
+      "incident_date": "2009-03-01",
+      "latest_report_date": "2009-03-28",
+      "what_happened": "March–April 2009 rains, worse than 2008, flooded seven Namibian regions, Cunene and Cuando Cubango in Angola, western Zambia and the Okavango in Botswana. The dedicated Wikipedia infobox: at least 131 deaths and about 445,000 affected. Namibia stated 112 dead; Angola Red Cross 19. About 276,000 were displaced in Namibia. Kariba and Cahora Bassa are mentioned only as downstream protection — not failures. Distinct from flood-namibia-2008.",
+      "status": "Historical.",
+      "deaths": 131,
+      "injured": null,
+      "affected_or_evacuated": "About 445,000 affected; ~276,000 displaced in Namibia (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "March 2009 Cuvelai–Cunene–Zambezi seasonal floods, worse than 2008.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2009 Angola, Namibia and Zambia floods",
+          "url": "https://en.wikipedia.org/wiki/2009_Namibia_floods"
+        }
+      ],
+      "notes": "131 is the dedicated-page infobox (Namibia 112 + Angola 19). Page coords 17.4°S 16.0°E; pin at sourced Oshakati. Distinct from flood-namibia-2008.",
+      "era": "2009",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "At least $5 million infrastructure in Zambia (Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2009 Angola, Namibia and Zambia floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-brazil-2009",
+      "name": "2009 Brazilian floods and mudslides",
+      "country": "Brazil",
+      "region": "Northeast / Maranhão / Amazon basin",
+      "location_label": "São Luís, Maranhão, Brazil",
+      "lat": -2.52953,
+      "lng": -44.29639,
+      "geo_accuracy": "approx",
+      "geo_source": "São Luís (Nominatim 2.52953°S 44.29639°W); Maranhão worst-hit; two first deaths in the capital",
+      "flood_type": "riverine",
+      "river_or_basin": "Amazon / Northeast Brazil rivers",
+      "river_or_facility": null,
+      "incident_date": "2009-04-01",
+      "latest_report_date": "2009-05-10",
+      "what_happened": "April–May 2009 rains flooded five northeastern states plus Santa Catarina and Amazonas. The dedicated Wikipedia infobox: 44 dead; The Guardian 10 May: over 300,000 homeless and 44 killed. Maranhão was worst-hit (at least six dead, 40,700 homeless early on). Distinct from flood-santa-catarina-2008 and later Brazil events.",
+      "status": "Historical.",
+      "deaths": 44,
+      "injured": null,
+      "affected_or_evacuated": "Over 300,000 homeless by 10 May (Guardian via Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "April–May 2009 Northeast Brazil / Amazon flood season.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2009 Brazilian floods and mudslides",
+          "url": "https://en.wikipedia.org/wiki/2009_Brazilian_floods_and_mudslides"
+        }
+      ],
+      "notes": "44 is the dedicated-page infobox / 10 May Guardian. Distinct from flood-santa-catarina-2008 and 2010 Brazil events.",
+      "era": "2009",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "Estimates at £1 billion (Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2009 Brazilian floods and mudslides."
+        }
+      ]
+    },
+    {
+      "id": "flood-rio-jan-2010",
+      "name": "January 2010 Rio de Janeiro floods and mudslides",
+      "country": "Brazil",
+      "region": "Rio de Janeiro state / Angra dos Reis",
+      "location_label": "Angra dos Reis, Rio de Janeiro, Brazil",
+      "lat": -23.15554,
+      "lng": -44.23448,
+      "geo_accuracy": "approx",
+      "geo_source": "Angra dos Reis (Nominatim 23.15554°S 44.23448°W); worst-hit municipality; Ilha Grande hotel slide",
+      "flood_type": "flash",
+      "river_or_basin": "Costa Verde / Ilha Grande",
+      "river_or_facility": null,
+      "incident_date": "2009-12-30",
+      "latest_report_date": "2010-01-06",
+      "what_happened": "Rains from 30 December 2009 to 6 January 2010 triggered floods and mudslides in Rio de Janeiro state. The dedicated Wikipedia infobox: at least 85 dead. Angra dos Reis was worst-hit; at least 29 died at Hotel Sankey and about 35 at an Ilha Grande resort. Distinct from the April 2010 Rio event and from flood-rio-2011 (January 2011, 916).",
+      "status": "Historical.",
+      "deaths": 85,
+      "injured": null,
+      "affected_or_evacuated": "More than 4,000 evacuated (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "New Year 2009–10 Costa Verde rains and mudslides.",
+      "sources": [
+        {
+          "label": "Wikipedia: January 2010 Rio de Janeiro floods and mudslides",
+          "url": "https://en.wikipedia.org/wiki/2010_Rio_de_Janeiro_floods_and_mudslides"
+        }
+      ],
+      "notes": "85 is the dedicated-page infobox. Distinct from flood-rio-apr-2010 and flood-rio-2011.",
+      "era": "2010",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: January 2010 Rio de Janeiro floods and mudslides."
+        }
+      ]
+    },
+    {
+      "id": "flood-rio-apr-2010",
+      "name": "April 2010 Rio de Janeiro floods and mudslides",
+      "country": "Brazil",
+      "region": "Rio de Janeiro / Niterói",
+      "location_label": "Niterói, Rio de Janeiro, Brazil",
+      "lat": -22.8884,
+      "lng": -43.1147,
+      "geo_accuracy": "approx",
+      "geo_source": "Niterói (Nominatim 22.88840°S 43.11470°W); 132 of the early city-by-city deaths; Morro do Bumba slide",
+      "flood_type": "flash",
+      "river_or_basin": "Guanabara Bay hills / Rio favelas",
+      "river_or_facility": null,
+      "incident_date": "2010-04-05",
+      "latest_report_date": "2010-04-15",
+      "what_happened": "From 5 April 2010, 28.8 cm of rain in 24 hours — the heaviest in 30 years — flooded Rio de Janeiro state. The dedicated Wikipedia infobox: at least 249 dead and about R$23.8 billion damage. Early city table: Niterói 132, Rio city 60, São Gonçalo 16. A 7 April Niterói slum slide was feared to have killed about 150. Distinct from the January 2010 Rio event and from flood-rio-2011.",
+      "status": "Historical.",
+      "deaths": 249,
+      "injured": 161,
+      "affected_or_evacuated": "At least 15,000 homeless; 10,000 homes at risk (Wikipedia lede)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "5 April 2010 24-hour cloudburst over Rio and Niterói.",
+      "sources": [
+        {
+          "label": "Wikipedia: April 2010 Rio de Janeiro floods and mudslides",
+          "url": "https://en.wikipedia.org/wiki/April_2010_Rio_de_Janeiro_floods_and_mudslides"
+        }
+      ],
+      "notes": "249 is the dedicated-page infobox. Lede 212; AFP 13 Apr 246. Distinct from flood-rio-jan-2010 and flood-rio-2011.",
+      "era": "2010",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "288 mm / 24 h in Rio city from 17:00 5 April (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "~R$23.8 billion / about 8% of state GDP (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: April 2010 Rio de Janeiro floods and mudslides."
+        }
+      ]
+    },
+    {
+      "id": "flood-nepal-2020",
+      "name": "2020 Nepal floods",
+      "country": "Nepal",
+      "region": "Western Nepal / Myagdi",
+      "location_label": "Beni, Myagdi, Nepal",
+      "lat": 28.3445,
+      "lng": 83.56664,
+      "geo_accuracy": "approx",
+      "geo_source": "Beni (Nominatim 28.34450°N 83.56664°E); Wikipedia locates the event in western Nepal, particularly Myagdi",
+      "flood_type": "flash",
+      "river_or_basin": "Kali Gandaki / Myagdi",
+      "river_or_facility": null,
+      "incident_date": "2020-06-01",
+      "latest_report_date": "2020-12-01",
+      "what_happened": "June–September 2020 monsoon rains caused landslides and flash floods in western Nepal, especially Myagdi. The dedicated Wikipedia page: Aon Global Catastrophe Recap (December 2020) 401 fatalities; Ministry of Home Affairs 132 dead, 53 missing, 128 injured in 445 incidents as of 24 June. Using the later Aon season total. Distinct from flood-nepal-2024.",
+      "status": "Historical.",
+      "deaths": 401,
+      "injured": 128,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall",
+        "monsoon"
+      ],
+      "cause_summary": "2020 Nepal monsoon floods and landslides, centred on western districts including Myagdi.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 Nepal floods",
+          "url": "https://en.wikipedia.org/wiki/2020_Nepal_floods"
+        },
+        {
+          "label": "Aon: Global Catastrophe Recap December 2020",
+          "url": "https://www.aon.com/reinsurance/getmedia/776981fd-c052-42b6-9e68-bd0dd59c79b8/20210125-analytics-if-dec-global-recap.pdf"
+        }
+      ],
+      "notes": "401 is Aon Dec 2020 on the dedicated page. MoHA 132 as of 24 June stays in notes. Distinct from flood-nepal-2024. 2020 South Asian wrapper not added.",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2020 Nepal floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-congo-2019",
+      "name": "2019–2020 Congo River floods",
+      "country": "DR Congo",
+      "region": "Kinshasa / Congo–Ubangi",
+      "location_label": "Kinshasa, DR Congo",
+      "lat": -4.32171,
+      "lng": 15.31225,
+      "geo_accuracy": "approx",
+      "geo_source": "Kinshasa (Nominatim 4.32171°S 15.31225°E); 41 of the sourced deaths were in the capital in November 2019",
+      "flood_type": "riverine",
+      "river_or_basin": "Congo / Ubangi",
+      "river_or_facility": null,
+      "incident_date": "2019-10-01",
+      "latest_report_date": "2020-01-23",
+      "what_happened": "October 2019–January 2020 rains overflowed the Congo and Ubangi across 16 DRC provinces and eight RoC departments. The dedicated Wikipedia infobox: 41+ deaths. FloodList/ECHO: over 41 killed in Kinshasa in November 2019 by flash floods and landslides. DRC figures: more than 923,000 affected, 400,000+ displaced. Congo discharge past Kinshasa about 70,000 m³/s in December. Distinct from flood-drc-2024.",
+      "status": "Historical.",
+      "deaths": 41,
+      "injured": null,
+      "affected_or_evacuated": "More than 923,000 affected in DRC; 400,000+ displaced (Wikipedia / government)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "2019–20 Congo–Ubangi overflow; Kinshasa November flash floods.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2019–2020 Congo River floods",
+          "url": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Congo_River_floods"
+        },
+        {
+          "label": "FloodList: DR Congo – Dozens Dead After Floods and Landslides in Kinshasa",
+          "url": "https://floodlist.com/africa/dr-congo-floods-kinshasa-november-2019"
+        }
+      ],
+      "notes": "41 is the dedicated-page infobox (41+). Kinshasa November figure. Distinct from flood-drc-2024.",
+      "era": "2019",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "~70,000 m³/s past Kinshasa, December 2019 (Wikipedia)",
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2019–2020 Congo River floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-brazil-2020",
+      "name": "2020 Brazilian floods and mudslides",
+      "country": "Brazil",
+      "region": "Minas Gerais / Espírito Santo / Rio de Janeiro",
+      "location_label": "Belo Horizonte, Minas Gerais, Brazil",
+      "lat": -19.92273,
+      "lng": -43.94509,
+      "geo_accuracy": "approx",
+      "geo_source": "Belo Horizonte (Nominatim 19.92273°S 43.94509°W); 171 mm/24 h, highest in 110 years",
+      "flood_type": "flash",
+      "river_or_basin": "Doce / Southeast Brazil",
+      "river_or_facility": null,
+      "incident_date": "2020-01-17",
+      "latest_report_date": "2020-01-30",
+      "what_happened": "17–29 January 2020 rains with Subtropical Storm Kurumí flooded Minas Gerais, Espírito Santo and Rio de Janeiro. The dedicated Wikipedia page: at least 70 dead and 18 still missing as of 30 January; 30,000–46,500 displaced. Belo Horizonte recorded 171 mm in 24 hours on 23–24 January, the highest in 110 years. The page notes coincidence with the Brumadinho dam anniversary; this event is rainfall/landslide, not a dam collapse. Distinct from 2009/2010/2011 Brazil events.",
+      "status": "Historical.",
+      "deaths": 70,
+      "injured": null,
+      "affected_or_evacuated": "30,000–46,500 displaced; 15,000 evacuated in Minas (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "tropical_cyclone"
+      ],
+      "cause_summary": "January 2020 Southeast Brazil rains associated with Subtropical Storm Kurumí.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 Brazilian floods and mudslides",
+          "url": "https://en.wikipedia.org/wiki/2020_Brazilian_floods_and_mudslides"
+        }
+      ],
+      "notes": "70 dead / 18 missing as of 30 Jan on the dedicated page. Brumadinho mentioned only as anniversary coincidence, not a cause. Distinct from flood-rio-2011 and 2009/2010 Rio events.",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Belo Horizonte 171 mm / 24 h on 23–24 January (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2020 Brazilian floods and mudslides."
+        }
+      ]
+    },
+    {
+      "id": "flood-iran-2022",
+      "name": "2022 Iranian floods",
+      "country": "Iran",
+      "region": "Mazandaran / Yazd / 21 provinces",
+      "location_label": "Sari, Mazandaran, Iran",
+      "lat": 36.55375,
+      "lng": 53.06028,
+      "geo_accuracy": "approx",
+      "geo_source": "Sari (Nominatim 36.55375°N 53.06028°E); Mazandaran among the high-death provinces on the dedicated page",
+      "flood_type": "flash",
+      "river_or_basin": "Alborz / central Iran wadis",
+      "river_or_facility": null,
+      "incident_date": "2022-07-23",
+      "latest_report_date": "2022-08-04",
+      "what_happened": "Late-July 2022 floods and mudslides hit 400 towns and villages in 21 of Iran's 31 provinces. The dedicated Wikipedia infobox: 95 dead, 200+ missing, about $200 million agricultural damage, more than 20,000 homes destroyed. Iran International 4 August: nearly 100 dead. BBC 23 July: at least 21 killed in Fars. Distinct from flood-iran-2019.",
+      "status": "Historical.",
+      "deaths": 95,
+      "injured": null,
+      "affected_or_evacuated": "More than 20,000 homes destroyed (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Late-July 2022 Iran floods and mudslides across 21 provinces.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2022 Iranian floods",
+          "url": "https://en.wikipedia.org/wiki/2022_Iranian_floods"
+        }
+      ],
+      "notes": "95 is the dedicated-page infobox. 200+ missing stays in notes. Distinct from flood-iran-2019.",
+      "era": "2022",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "$200 million agricultural (Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2022 Iranian floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-el-salvador-2009",
+      "name": "2009 El Salvador floods and mudslides",
+      "country": "El Salvador",
+      "region": "San Salvador / San Vicente / La Paz",
+      "location_label": "San Salvador, El Salvador",
+      "lat": 13.69763,
+      "lng": -89.19116,
+      "geo_accuracy": "approx",
+      "geo_source": "San Salvador (Nominatim 13.69763°N 89.19116°W); capital among the worst-hit departments",
+      "flood_type": "flash",
+      "river_or_basin": "Pacific slope / Chichontepec",
+      "river_or_facility": null,
+      "incident_date": "2009-11-07",
+      "latest_report_date": "2009-11-10",
+      "what_happened": "A Pacific low on 7–8 November 2009 dropped about 355 mm in 24 hours (up to 483 mm near San Vicente volcano) and triggered 108 landslides. The dedicated Wikipedia infobox: 199 fatalities and $239 million damage. Body text: approximately 130 dead and 60 missing. Verapaz was hit by a Chichontepec landslide (300 homes). Distinct from flood-stan-2005 and flood-agatha-2010.",
+      "status": "Historical.",
+      "deaths": 199,
+      "injured": null,
+      "affected_or_evacuated": "About 10,000 in need of food assistance (WFP via Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "November 2009 Pacific low; flash floods and landslides in central El Salvador.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2009 El Salvador floods and mudslides",
+          "url": "https://en.wikipedia.org/wiki/2009_El_Salvador_floods_and_mudslides"
+        }
+      ],
+      "notes": "199 is the dedicated-page infobox. Body 130 dead + 60 missing stays in notes. Distinct from flood-stan-2005 and flood-agatha-2010.",
+      "era": "2009",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "355 mm / 24 h; ~483 mm near San Vicente volcano (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "$239 million (2009 USD, Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2009 El Salvador floods and mudslides."
+        }
+      ]
+    },
+    {
+      "id": "flood-agatha-2010",
+      "name": "Tropical Storm Agatha floods",
+      "country": "Guatemala",
+      "region": "Guatemala / Central America",
+      "location_label": "Guatemala City, Guatemala",
+      "lat": 14.64161,
+      "lng": -90.51328,
+      "geo_accuracy": "approx",
+      "geo_source": "Guatemala City (Nominatim 14.64161°N 90.51328°W); capital sinkhole and national death table",
+      "flood_type": "flash",
+      "river_or_basin": "Pacific slope of Guatemala",
+      "river_or_facility": null,
+      "incident_date": "2010-05-29",
+      "latest_report_date": "2010-06-15",
+      "what_happened": "Weak Tropical Storm Agatha (45 mph) made landfall near Champerico on 29 May 2010 and produced flood-dominant rainfall across Central America. The dedicated storm-page infobox: 204 fatalities and about $1.1 billion damage. Country table: Guatemala 174, Honduras 18, El Salvador 11, Nicaragua 1. Guatemala government 15 June: 165 dead and 113 missing. Some areas had more than 36 in (910 mm). Pacaya had erupted two days earlier; this is rain-flood, not a volcanic disaster. Distinct from flood-stan-2005 and flood-el-salvador-2009.",
+      "status": "Historical.",
+      "deaths": 204,
+      "injured": null,
+      "affected_or_evacuated": "162,857 evacuated in Guatemala (Wikipedia / OCHA)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "May 2010 Agatha landfall rains and landslides, mainly Guatemala.",
+      "sources": [
+        {
+          "label": "Wikipedia: Tropical Storm Agatha",
+          "url": "https://en.wikipedia.org/wiki/Tropical_Storm_Agatha"
+        }
+      ],
+      "notes": "204 is the storm-page infobox. Guatemala table 174 / 15 June 165+113 missing stay in notes. Flood-dominant weak TS, same treatment as Floyd/Irene/Eta. Distinct from flood-el-salvador-2009.",
+      "era": "2010",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Guatemala >36 in (910 mm) in places; El Salvador up to 400 mm (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "~$1.1 billion (2010 USD, Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Tropical Storm Agatha."
+        }
+      ]
+    },
+    {
+      "id": "flood-uetsu-1967",
+      "name": "1967 Uetsu heavy rain (羽越豪雨)",
+      "country": "Japan",
+      "region": "Niigata Kaetsu / Yamagata Okitama",
+      "location_label": "Sekikawa, Niigata, Japan",
+      "lat": 38.08944,
+      "lng": 139.56501,
+      "geo_accuracy": "approx",
+      "geo_source": "Sekikawa (Nominatim 38.08944°N 139.56501°E); 700 mm / 30 h, the ja-page rain maximum",
+      "flood_type": "riverine",
+      "river_or_basin": "Arakawa (Uetsu) / Miomote / Tainai / Kajikawa / Mogami",
+      "river_or_facility": null,
+      "incident_date": "1967-08-26",
+      "latest_report_date": "2007-01",
+      "what_happened": "JMA/local name 羽越豪雨 (also 8·28) covers 26–29 August 1967 rains on the Iide range, flooding the Arakawa, Miomote, Tainai, Kajikawa and Mogami. The ja Wikipedia infobox: 104 dead; 1,247 houses destroyed; 27,240 above-floor flooded; about ¥399.9 billion (2007 yen). Fire White Paper 83 dead / 55 missing; Niigata 96/38; NHK 146 dead. Sekikawa recorded 700 mm in 30 hours. Tainai/Kajikawa/Miomote dams appear as rain gauges, not collapses. Distinct from flood-japan-1972.",
+      "status": "Historical.",
+      "deaths": 104,
+      "injured": null,
+      "affected_or_evacuated": "1,247 houses destroyed; 27,240 above-floor flooded (ja infobox)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "August 1967 Uetsu gouu on Niigata–Yamagata, named 羽越豪雨.",
+      "sources": [
+        {
+          "label": "Wikipedia (ja): 羽越豪雨",
+          "url": "https://ja.wikipedia.org/wiki/%E7%BE%BD%E8%B6%8A%E8%B1%AA%E9%9B%A8"
+        }
+      ],
+      "notes": "104 is the ja infobox. Fire White Paper 83+55 missing, Niigata 96+38, NHK 146 stay in notes. Dam names are gauges/river works, not failures.",
+      "era": "1967",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Sekikawa 700 mm / 30 h; Tainai Daiichi Dam 645 mm / 24 h (ja page)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "¥399.9 billion in 2007 yen (ja infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Japanese Wikipedia: 羽越豪雨."
         }
       ]
     }
