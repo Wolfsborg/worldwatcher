@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 181,
+  "count": 200,
   "events": [
     {
       "id": "flood-assam-2026",
@@ -10227,6 +10227,1071 @@
           "date": "2026-08-20",
           "by": "historic_backfill",
           "change": "Added from Wikipedia: 2026 Chittagong floods and ReliefWeb UN RC 23 July 2026."
+        }
+      ]
+    },
+    {
+      "id": "flood-all-saints-1170",
+      "name": "All Saints' Flood (1170)",
+      "country": "Netherlands",
+      "region": "Northern Netherlands / Holland",
+      "location_label": "Amsterdam, Netherlands",
+      "lat": 52.3676,
+      "lng": 4.9041,
+      "geo_accuracy": "region",
+      "geo_source": "Amsterdam city centroid; event page says the flood marked the beginning of Amsterdam and pushed seawater to the walls of Utrecht",
+      "flood_type": "coastal",
+      "river_or_basin": "North Sea / Almere / Zuiderzee",
+      "river_or_facility": "North Sea coastal barriers / Creil Woods",
+      "incident_date": "1170-11-01",
+      "latest_report_date": "1170-11-02",
+      "what_happened": "A storm surge on the night of 1–2 November 1170 flooded large parts of the northern Netherlands. The Annales Egmundenses, the only contemporary chronicle of the Kennemerland inundation, say livestock drowned and people climbed onto the beams of their houses; ships from Diemen rescued stranded people, and seawater reached the walls of Utrecht. The flood created the islands of Wieringen and Texel, swept away the Creil Woods peat forest between Stavoren and Enkhuizen, and opened the freshwater Almere to the North Sea — the start of the Zuiderzee. It rendered Rotta (predecessor of Rotterdam) uninhabitable and, by dropping the Almere level, dried the mouth of the Amstel enough for Amsterdam later to emerge.",
+      "status": "Historical. Landscape-forming North Sea surge; no sourced death count on the event page.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "storm_surge"
+      ],
+      "cause_summary": "All Saints' Day North Sea storm surge that breached peat barriers and opened the Almere to the sea.",
+      "sources": [
+        {
+          "label": "Wikipedia: All Saints' Flood (1170)",
+          "url": "https://en.wikipedia.org/wiki/All_Saints'_Flood_(1170)"
+        }
+      ],
+      "notes": "Deaths unknown: the dedicated English Wikipedia event page gives no figure. A Europe flood list cites 'probably many thousands'; that estimate is unsourced on the event page and is left in this note only.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: All Saints' Flood (1170)."
+        }
+      ]
+    },
+    {
+      "id": "flood-st-marcellus-1219",
+      "name": "First St. Marcellus's flood (1219)",
+      "country": "Netherlands",
+      "region": "Northern Netherlands / Northwest Germany",
+      "location_label": "Groningen, Netherlands",
+      "lat": 53.2194,
+      "lng": 6.5665,
+      "geo_accuracy": "region",
+      "geo_source": "Groningen, a principal flooded city in the Dutch sector (same pin as Christmas flood of 1717); Dutch Wikipedia names Noord-Nederland and the Zuiderzee area",
+      "flood_type": "coastal",
+      "river_or_basin": "North Sea / Zuiderzee / Wadden Sea",
+      "river_or_facility": "North Sea coastal dikes",
+      "incident_date": "1219-01-16",
+      "latest_report_date": "1219-01-16",
+      "what_happened": "On 16 January 1219, the feast of St. Marcellus, a North Sea storm surge flooded large parts of the northern Netherlands and the Zuiderzee region, as the earlier All Saints (1170), St. Nicholas (1196) and 1214 surges had done. Dutch Wikipedia says the water barely fell with the ebb and the next tide then finished off the remaining dikes. Together with four great storm floods in fifty years this helped open two inland seas, the Zuiderzee and the Wadden Sea. Abbot Emo of Wittewierum left the first surviving eyewitness account of a North Sea storm surge.",
+      "status": "Historical. First St. Marcellus flood; the 1362 Grote Mandrenke is already in the archive.",
+      "deaths": null,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "storm_surge"
+      ],
+      "cause_summary": "St. Marcellus's Day North Sea storm surge; water stayed high through the ebb so the next tide completed the dike breaches.",
+      "sources": [
+        {
+          "label": "Wikipedia (nl): Sint-Marcellusvloed (1219)",
+          "url": "https://nl.wikipedia.org/wiki/Sint-Marcellusvloed_(1219)"
+        }
+      ],
+      "notes": "Dutch Wikipedia infobox lists 36,000 dead. German chronicles cited on secondary pages give ~36,000 (Saxon World Chronicle) or 50,000 (Colmar Annals) and call the figures unreliable. Deaths left null; range 36,000–50,000 stays in this note.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Dutch Wikipedia: Sint-Marcellusvloed (1219)."
+        }
+      ]
+    },
+    {
+      "id": "flood-st-martin-1686",
+      "name": "St. Martin's flood (Sint-Maartensvloed 1686)",
+      "country": "Netherlands",
+      "region": "Groningen / East Frisia",
+      "location_label": "Groningen, Netherlands",
+      "lat": 53.2194,
+      "lng": 6.5665,
+      "geo_accuracy": "approx",
+      "geo_source": "Groningen (Wikipedia coordinates used on Christmas flood of 1717); Dutch Wikipedia says the city lay on the sea after the dikes failed and names Pieterburen and Uithuizen as fully submerged",
+      "flood_type": "coastal",
+      "river_or_basin": "Ems / Dollart / Wadden Sea",
+      "river_or_facility": "Ems and Dollart sea dikes",
+      "incident_date": "1686-11-12",
+      "latest_report_date": "1686-11-13",
+      "what_happened": "On the night of 12–13 November 1686, just after St. Martin's Day, a northwesterly storm surge struck the Dutch province of Groningen and neighbouring East Frisia. Dutch Wikipedia records that every dike along the Ems and the Dollart was swept away; all of North Groningen and the Oldambt flooded; Pieterburen and Uithuizen disappeared under water; and Groningen itself lay on the sea. The same page gives 1,558 people, 1,387 horses and 7,861 cattle drowned, 631 houses washed away and 616 damaged. The Mariakerk in Uithuizermeeden was heavily damaged despite standing on a terp.",
+      "status": "Historical.",
+      "deaths": 1558,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "storm_surge"
+      ],
+      "cause_summary": "Northwesterly North Sea storm on the night after St. Martin's Day that destroyed the Ems and Dollart dikes.",
+      "sources": [
+        {
+          "label": "Wikipedia (nl): Sint-Maartensvloed (1686)",
+          "url": "https://nl.wikipedia.org/wiki/Sint-Maartensvloed_(1686)"
+        }
+      ],
+      "notes": "1,558 is the Dutch Wikipedia infobox and body figure, matching the contemporary Groningen ministers' damage register tradition.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Dutch Wikipedia: Sint-Maartensvloed (1686)."
+        }
+      ]
+    },
+    {
+      "id": "flood-pueblo-1921",
+      "name": "1921 Pueblo flood",
+      "country": "United States",
+      "region": "Arkansas River valley, Colorado",
+      "location_label": "Pueblo, Colorado, United States",
+      "lat": 38.2544,
+      "lng": -104.6091,
+      "geo_accuracy": "approx",
+      "geo_source": "Pueblo, Colorado (Wikipedia coordinates 38.2544°N, 104.6091°W); USGS WSP 487 and Colorado Encyclopedia name Pueblo as the worst-hit city",
+      "flood_type": "flash",
+      "river_or_basin": "Arkansas River / Fountain Creek",
+      "river_or_facility": "Arkansas River at Pueblo",
+      "incident_date": "1921-06-03",
+      "latest_report_date": "1921-06-05",
+      "what_happened": "Cloudbursts on 3–5 June 1921 sent the Arkansas River and Fountain Creek through Pueblo, Colorado. USGS Water-Supply Paper 487 says the official list of bodies recovered in Pueblo was 78, with more washed downstream and never recovered, and that more than 57,000 acres were inundated below the city. The Colorado Encyclopedia calls it the worst flood in Pueblo's history: 300 square miles inundated, more than 500 houses carried away, and about $25 million damage. Telephone lines failed, so Pueblo was cut off from the rest of the state.",
+      "status": "Historical.",
+      "deaths": 78,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Cloudbursts over the Arkansas–Fountain confluence after two days of intense local rain.",
+      "sources": [
+        {
+          "label": "USGS Water-Supply Paper 487: The Arkansas River flood of June 3–5, 1921",
+          "url": "https://pubs.usgs.gov/wsp/0487/report.pdf"
+        },
+        {
+          "label": "Colorado Encyclopedia: 1921 Pueblo Flood",
+          "url": "https://coloradoencyclopedia.org/article/1921-pueblo-flood"
+        }
+      ],
+      "notes": "78 is the USGS official recovered-body count. Colorado Encyclopedia says there is no universally accepted toll and cites 150–250, with a missing list nearly twice the deceased list. Range stays in this note.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Pueblo 1.94 in on 2 June and 1.64 in on 3 June (3.58 in in two days) per USGS/PCCLD exhibit citing WSP 487",
+      "inundation_area": "More than 57,000 acres in the Arkansas Valley below Pueblo (USGS WSP 487); 300 square miles (Colorado Encyclopedia)",
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "$19–25 million (1921 USD; USGS vs Colorado Encyclopedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from USGS Water-Supply Paper 487 and Colorado Encyclopedia: 1921 Pueblo Flood."
+        }
+      ]
+    },
+    {
+      "id": "flood-republican-1935",
+      "name": "1935 Republican River flood",
+      "country": "United States",
+      "region": "Republican River basin, Colorado / Nebraska / Kansas",
+      "location_label": "McCook, Nebraska, United States",
+      "lat": 40.20528,
+      "lng": -100.62611,
+      "geo_accuracy": "approx",
+      "geo_source": "McCook, Nebraska (Wikipedia coordinates); NWS Topeka says the river rose nearly ten feet in twelve minutes at McCook",
+      "flood_type": "riverine",
+      "river_or_basin": "Republican River",
+      "river_or_facility": "Republican River at McCook / Concordia",
+      "incident_date": "1935-05-30",
+      "latest_report_date": "1935-06-02",
+      "what_happened": "On 30–31 May 1935, in the Dust Bowl, 20–24 inches of rain fell at the head of the Arikaree and Republican rivers. NWS Topeka records that at McCook the river rose nearly ten feet in twelve minutes; at Concordia, Kansas, USGS measured 207,000 cubic feet per second against a typical 1,260 cfs, and the channel through town changed. The river ran one to four miles wide. NWS estimates 110–113 dead, more than 20,000 cattle lost and over 270,000 acres of farmland destroyed. Wikipedia's Republican River article calls it Nebraska's deadliest flood and cites 113 killed, 74,500 acres inundated, 341 miles of highway and 307 bridges destroyed.",
+      "status": "Historical.",
+      "deaths": 113,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Torrential rain on Dust Bowl soils, with the storm tracking down the Republican basin so tributaries crested with the main stem.",
+      "sources": [
+        {
+          "label": "NWS Topeka: The 1935 Republican River Flood",
+          "url": "https://www.weather.gov/top/1935_republicanflood"
+        },
+        {
+          "label": "Wikipedia: Republican River (Major flooding, 1935)",
+          "url": "https://en.wikipedia.org/wiki/Republican_River"
+        }
+      ],
+      "notes": "113 is the figure on the Republican River Wikipedia page and the upper end of the NWS 110–113 range (NWS notes accurate tallies were not kept). Nebraska State Historical Society also uses 113.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "207,000 cfs at Concordia, Kansas (USGS / NWS Topeka); ~280,000 cfs cited on the Republican River Wikipedia page",
+      "return_period": null,
+      "rainfall_mm": "20–24 inches on 30–31 May at the Arikaree/Republican headwaters (NWS Topeka)",
+      "inundation_area": "Over 270,000 acres of farmland destroyed (NWS); 74,500 acres inundated (Wikipedia river page)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "Approximately $26 million including property (Nebraska State Historical Society)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from NWS Topeka 1935 Republican River Flood page and Wikipedia: Republican River."
+        }
+      ]
+    },
+    {
+      "id": "flood-guatemala-1949",
+      "name": "1949 Eastern Guatemalan floods",
+      "country": "Guatemala",
+      "region": "Southern and eastern Guatemala / Lakes Atitlán and Amatitlán",
+      "location_label": "Escuintla, Guatemala",
+      "lat": 14.305,
+      "lng": -90.785,
+      "geo_accuracy": "approx",
+      "geo_source": "Escuintla city centroid; the event page names Escuintla among the worst-affected towns and says Lakes Atitlán and Amatitlán overflowed surrounding settlements",
+      "flood_type": "riverine",
+      "river_or_basin": "Coyolate / Lakes Atitlán and Amatitlán",
+      "river_or_facility": "Lakes Atitlán and Amatitlán / Coyolate River",
+      "incident_date": "1949-10-14",
+      "latest_report_date": "1949-10-20",
+      "what_happened": "Seventy-two hours of torrential rain on 14–16 October 1949, in a wet spell that ran from 28 September to 18 October, made Lakes Atitlán and Amatitlán spill into surrounding towns and burst rivers and mountain streams. Wikipedia's dedicated event page says estimates of the death toll ranged from 1,000 to 40,000, with reliable estimates suggesting 4,000, and monetary losses of $15–40 million (1949 USD). More than fifty bridges and 1,200 miles of highways were destroyed; San Juan Osculcalco was reported destroyed by landslides; Tzununa on Lake Atitlán had to relocate housing. Escuintla, San Marcos, Quezaltenango, Jalapa, Santa Rosa, Jutiapa and Sacatepéquez were among the worst-hit towns.",
+      "status": "Historical.",
+      "deaths": 4000,
+      "injured": null,
+      "affected_or_evacuated": "Government placed people affected at a maximum of 20,000; news sources reported around 100,000 homeless (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Seventy-two hours of torrential rain overflowing Lakes Atitlán and Amatitlán and bursting rivers and mountain streams.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1949 Eastern Guatemalan floods",
+          "url": "https://en.wikipedia.org/wiki/1949_Eastern_Guatemalan_floods"
+        }
+      ],
+      "notes": "4,000 is the Wikipedia infobox figure ('reliable estimates'). Contemporary government figure was about 1,000; some modern writing cites up to 40,000. U.S. Ambassador Patterson told Truman the press had exaggerated the loss of life. Range stays in this note.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "$15–40 million (1949 USD; Wikipedia infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 1949 Eastern Guatemalan floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-hazel-toronto-1954",
+      "name": "Hurricane Hazel flooding in Toronto",
+      "country": "Canada",
+      "region": "Greater Toronto Area / southern Ontario",
+      "location_label": "Toronto, Ontario, Canada",
+      "lat": 43.6532,
+      "lng": -79.3832,
+      "geo_accuracy": "approx",
+      "geo_source": "Toronto city centroid; event page names the Humber River, Raymore Drive, Woodbridge, Long Branch and Holland Marsh",
+      "flood_type": "flash",
+      "river_or_basin": "Humber River / Etobicoke Creek / Holland Marsh",
+      "river_or_facility": "Humber River at Raymore Drive",
+      "incident_date": "1954-10-15",
+      "latest_report_date": "1954-10-16",
+      "what_happened": "After weeks of saturating autumn rain, the extratropical remnants of Hurricane Hazel stalled over Toronto on 15–16 October 1954 and dropped up to 214 mm at Snelgrove. Rivers and creeks rose 6–8 m. The Humber River flash flood swept away 366 m of Raymore Drive and 14 homes, killing 35 of the 81 Canadian dead; Woodbridge had nine dead; Etobicoke Creek at Long Branch killed seven when houses were swept into Lake Ontario. Over 50 bridges and many roads and railways were destroyed. Wikipedia and the Canadian Hurricane Centre give 81 Canadian deaths — still Canada's deadliest natural disaster — and more than 4,000 families left homeless.",
+      "status": "Historical. Canadian inland flood from Hazel; U.S. landfall and Haiti deaths are not copied onto this row.",
+      "deaths": 81,
+      "injured": null,
+      "affected_or_evacuated": "Over 4,000 families left homeless (Wikipedia / Canadian Hurricane Centre)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Extratropical Hazel stalled over already-saturated southern Ontario and produced a Humber River flash flood.",
+      "sources": [
+        {
+          "label": "Wikipedia: Hurricane Hazel",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Hazel"
+        },
+        {
+          "label": "Canadian Hurricane Centre: Hurricane Hazel — Impacts",
+          "url": "https://www.canada.ca/en/environment-climate-change/services/archive/hurricanes/hazel/information.html"
+        }
+      ],
+      "notes": "81 is the Canadian flood death toll on Wikipedia and ECCC. Haiti (400–1,000) and U.S. (95) deaths from the same storm are not included. Distinct from coastal U.S. landfall flooding.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Peak 214 mm at Snelgrove, Ontario; Toronto 90 mm in three hours (Wikipedia / Canadian Hurricane Centre)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "C$135 million in Canada at the time; Department of Public Safety later put long-term cost at C$1.03 billion in 2004 dollars (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Hurricane Hazel (Canada / Toronto flood section) and ECCC Hazel archive."
+        }
+      ]
+    },
+    {
+      "id": "flood-connecticut-1955",
+      "name": "1955 Connecticut floods",
+      "country": "United States",
+      "region": "Connecticut river valleys (Naugatuck, Farmington, Quinebaug, Mad, Still)",
+      "location_label": "Waterbury, Connecticut, United States",
+      "lat": 41.55611,
+      "lng": -73.04139,
+      "geo_accuracy": "approx",
+      "geo_source": "Waterbury, Connecticut (Wikipedia coordinates); event page names Waterbury among the towns that suffered the most and says water there reached an estimated 35 feet",
+      "flood_type": "riverine",
+      "river_or_basin": "Naugatuck / Farmington / Quinebaug / Mad / Still",
+      "river_or_facility": "Naugatuck River at Waterbury",
+      "incident_date": "1955-08-18",
+      "latest_report_date": "1955-08-20",
+      "what_happened": "Back-to-back rains from Hurricanes Connie (4–6 in on 13 August) and Diane (another 13–20 in over two days) saturated Connecticut and overflowed the Mad and Still Rivers in Winsted, the Naugatuck, Farmington and Quinebaug. Wikipedia's dedicated event page says 87 people died and damage exceeded $200 million (1955 USD). In Waterbury the water reached an estimated 35 feet and up to 500 people were lifted out by helicopter. President Eisenhower declared Connecticut a major disaster area at noon on 20 August. The state recovery report listed 668 dwellings destroyed and more than 200 New England dams damaged or destroyed.",
+      "status": "Historical.",
+      "deaths": 87,
+      "injured": null,
+      "affected_or_evacuated": "Hundreds rescued by helicopter in the Waterbury area alone (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Successive rains from Hurricanes Connie and Diane on already-soaked New England river valleys.",
+      "sources": [
+        {
+          "label": "Wikipedia: 1955 Connecticut floods",
+          "url": "https://en.wikipedia.org/wiki/1955_Connecticut_floods"
+        }
+      ],
+      "notes": "87 is the Wikipedia infobox and body figure from the Connecticut Flood Recovery Committee / Hartford Courant accounting, including heart-attack deaths during rescue.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Connie 4–6 in on 13 August; Diane 13–20 in over two days (Wikipedia / NOAA)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "More than $200 million in 1955 USD (Wikipedia infobox / state recovery report)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 1955 Connecticut floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-peru-1983",
+      "name": "1982–83 Peru El Niño floods",
+      "country": "Peru",
+      "region": "Northern coastal departments of Piura and Tumbes",
+      "location_label": "Piura, Peru",
+      "lat": -5.1945,
+      "lng": -80.6328,
+      "geo_accuracy": "approx",
+      "geo_source": "Piura (same Wikipedia coordinates already used for the 2017 Peru coastal El Niño floods); UPI names Piura and Tumbes and files from Chulucanas",
+      "flood_type": "riverine",
+      "river_or_basin": "Chira / Piura",
+      "river_or_facility": "Piura and Chira rivers",
+      "incident_date": "1982-12",
+      "latest_report_date": "1983-06-28",
+      "what_happened": "The 1982–83 El Niño reversed the usual cool Humboldt current and dropped unprecedented rain on Peru's northern coastal desert. A 28 June 1983 UPI dispatch from Chulucanas said 13 feet of rain fell in less than six months on Piura and Tumbes after seven years of drought, flooding farmland, dissolving adobe roads and homes, and killing 230 people. Damage already exceeded $700 million and about 300,000 people were homeless; the government said the twin northern floods and southern drought had devastated 30 percent of the nation's settled land. Academic papers describe localized storms above 100 mm/day focused near Chulucanas.",
+      "status": "Historical.",
+      "deaths": 230,
+      "injured": null,
+      "affected_or_evacuated": "About 300,000 homeless (UPI, 28 June 1983)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "el_nino",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "1982–83 El Niño rains on the northern Peruvian desert after a multi-year drought.",
+      "sources": [
+        {
+          "label": "UPI: 230 die in six months of rain (28 June 1983)",
+          "url": "https://www.upi.com/Archives/1983/06/28/230-die-in-six-months-of-rainNEWLNFlooding-turns-Peruvian-desert-into-huge-mudhole/2971425620800/"
+        },
+        {
+          "label": "Wikipedia: 1982–83 El Niño event",
+          "url": "https://en.wikipedia.org/wiki/1982%E2%80%9383_El_Ni%C3%B1o_event"
+        }
+      ],
+      "notes": "230 is the UPI 28 June 1983 Peru flood death figure for Piura and Tumbes. Global El Niño death estimates of 1,300–2,000 (WHOI) are worldwide and are not copied onto this row.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "13 feet (~4 m) in less than six months on Piura and Tumbes (UPI, 28 June 1983)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "More than $700 million in Peru as of June 1983 (UPI)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from UPI 28 June 1983 archive and Wikipedia: 1982–83 El Niño event."
+        }
+      ]
+    },
+    {
+      "id": "flood-bangladesh-1987",
+      "name": "1987 Bangladesh flood",
+      "country": "Bangladesh",
+      "region": "Western Brahmaputra / Ganges–Brahmaputra confluence / north of Khulna",
+      "location_label": "Dhaka, Bangladesh",
+      "lat": 23.8103,
+      "lng": 90.4125,
+      "geo_accuracy": "region",
+      "geo_source": "Dhaka (Wikipedia coordinates already used for the 1974/1988/1998 Bangladesh floods); Floods in Bangladesh names the western Brahmaputra, the Ganges–Brahmaputra confluence and areas north of Khulna",
+      "flood_type": "riverine",
+      "river_or_basin": "Brahmaputra–Jamuna / Ganges / Meghna",
+      "river_or_facility": "Brahmaputra–Jamuna",
+      "incident_date": "1987-07",
+      "latest_report_date": "1987-08",
+      "what_happened": "Catastrophic monsoon floods through July and August 1987 inundated 57,300–57,491 km² (about 39–40 percent of Bangladesh), a 30–70 year event on the Floods in Bangladesh page. The worst-hit ground was west of the Brahmaputra, below the Ganges–Brahmaputra confluence, and north of Khulna. The same page's historic-flood table lists 1,657 deaths and 57,491 km² flooded. A companion damage table puts crop losses at 1.5 million tons and financial loss at 35,000 million taka. The Geographical Journal paper by Brammer (1990) is the cited background source for the 1987 and 1988 events.",
+      "status": "Historical.",
+      "deaths": 1657,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "July–August monsoon over the Ganges–Brahmaputra–Meghna basin; 30–70 year flood.",
+      "sources": [
+        {
+          "label": "Wikipedia: Floods in Bangladesh (1987 section and historic table)",
+          "url": "https://en.wikipedia.org/wiki/Floods_in_Bangladesh"
+        },
+        {
+          "label": "Brammer 1990, The Geographical Journal (cited on that page)",
+          "url": "https://doi.org/10.2307/635431"
+        }
+      ],
+      "notes": "1,657 is the death figure in the Floods in Bangladesh historic table (Okayama University compilation cited there). No dedicated English Wikipedia event article; the named 1987 section plus the table are the source.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "Once in 30–70 years (Floods in Bangladesh / Brammer 1990)",
+      "rainfall_mm": null,
+      "inundation_area": "57,300–57,491 km² / about 39–40% of the country (Floods in Bangladesh)",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "35,000 million taka total financial loss (Floods in Bangladesh damage table)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Floods in Bangladesh (1987 named section and historic table)."
+        }
+      ]
+    },
+    {
+      "id": "flood-piedmont-1994",
+      "name": "1994 Piedmont / Tanaro flood",
+      "country": "Italy",
+      "region": "Piedmont (Cuneo, Asti, Alessandria, Turin)",
+      "location_label": "Asti, Piedmont, Italy",
+      "lat": 44.9,
+      "lng": 8.20694,
+      "geo_accuracy": "approx",
+      "geo_source": "Asti (Wikipedia coordinates 44.90000°N, 8.20694°E); Italian Wikipedia event page photographs and text centre on Asti and names Alessandria (14 dead, ~50% of the city flooded)",
+      "flood_type": "riverine",
+      "river_or_basin": "Tanaro / Po / Belbo / Bormida",
+      "river_or_facility": "Tanaro River",
+      "incident_date": "1994-11-04",
+      "latest_report_date": "1994-11-06",
+      "what_happened": "On 4–6 November 1994 torrential rain over southern Piedmont and Liguria sent the Po, Tanaro and tributaries (especially the Belbo) over their banks. Italian Wikipedia's dedicated page records 69 dead, 500 injured and 2,226 displaced in Cuneo, Turin, Asti and Alessandria. Two-day rain peaked at 293.8 mm at Levice (CN); 24-hour totals exceeded 200 mm across the Tanaro, Bormida and Belbo basins. The Tanaro flood wave formed above Ormea on 5 November and reached the Po early on the 7th, with 3,400 m³/s at Farigliano, 4,000–4,200 m³/s at Alba, Asti and Alessandria, and nearly 5,000 m³/s at Montecastello. Ceva, Alba and Asti were about one-third flooded; Alessandria almost half, with 14 dead there.",
+      "status": "Historical. First large emergency for Italy's National Civil Protection Service.",
+      "deaths": 69,
+      "injured": 500,
+      "affected_or_evacuated": "2,226 displaced (it.wikipedia infobox); Protezione Civile page cites about 5,500 evacuated",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Three-phase November rainstorm over the Tanaro, Belbo, Bormida and upper Po, with 200–300 mm in 24–48 hours.",
+      "sources": [
+        {
+          "label": "Wikipedia (it): Alluvione del Tanaro del 1994",
+          "url": "https://it.wikipedia.org/wiki/Alluvione_del_Tanaro_del_1994"
+        },
+        {
+          "label": "Dipartimento della Protezione Civile: L'alluvione del Piemonte",
+          "url": "https://servizio-nazionale.protezionecivile.gov.it/it/pagina-base/lalluvione-del-piemonte/"
+        }
+      ],
+      "notes": "69 is the Italian Wikipedia infobox. Protezione Civile's memorial page says 68 victims. Using the dedicated event-page figure; 68 stays in this note.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "Nearly 5,000 m³/s on the Tanaro at Montecastello; 3,400 m³/s at Farigliano (it.wikipedia)",
+      "return_period": null,
+      "rainfall_mm": "Maximum 264.6 mm in 1 day and 293.8 mm in 2 days at Levice (CN) (it.wikipedia / Luino 1999)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Italian Wikipedia: Alluvione del Tanaro del 1994 and Protezione Civile."
+        }
+      ]
+    },
+    {
+      "id": "flood-bab-el-oued-2001",
+      "name": "2001 Bab El Oued floods",
+      "country": "Algeria",
+      "region": "Algiers / northern Algeria",
+      "location_label": "Bab El Oued, Algiers, Algeria",
+      "lat": 36.7907,
+      "lng": 3.0497,
+      "geo_accuracy": "approx",
+      "geo_source": "Bab El Oued (Wikipedia coordinates 36.7907°N, 3.0497°E); OCHA names Bab-El-Oued and Oued Koriche as the worst-hit communes",
+      "flood_type": "flash",
+      "river_or_basin": "Oued Koriche",
+      "river_or_facility": "Oued Koriche / Bab El Oued collectors",
+      "incident_date": "2001-11-09",
+      "latest_report_date": "2001-11-26",
+      "what_happened": "From the evening of 9 November 2001, torrential rain and wind hit northern and western Algeria. In Algiers the Oued Koriche produced a flash flood and mudflow through the hillside communes of Bab El Oued and Oued Koriche. OCHA Situation Report No. 7 (26 November 2001) gave the latest provisional official toll as 751 killed, 700 of them in Algiers, with 170 still missing and 10,000 families (40,000–50,000 people) affected. Seven Algiers communes were seriously hit, four partially. French Wikipedia's Bab El Oued page says torrents of mud engulfed housing and the Place du marché Triolet, killing more than 700 in about three hours. USAID later put damage at more than $300 million.",
+      "status": "Historical.",
+      "deaths": 751,
+      "injured": null,
+      "affected_or_evacuated": "Up to 10,000 families / 40,000–50,000 people (OCHA sitrep 7, 26 Nov 2001)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "About 200 mm in 24 hours over the steep, densely built Oued Koriche catchment above Bab El Oued.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Algeria floods OCHA Situation Report No. 7 (26 Nov 2001)",
+          "url": "https://reliefweb.int/report/algeria/algeria-floods-ocha-situation-report-no-7"
+        },
+        {
+          "label": "Wikipedia (fr): Bab El Oued",
+          "url": "https://fr.wikipedia.org/wiki/Bab_El_Oued"
+        }
+      ],
+      "notes": "751 is the Algerian authorities' provisional toll in OCHA sitrep 7 (26 November 2001), of which 700 in Algiers. Academic papers later cite 781 dead and 115 missing, or 750 dead and 120 missing. Later unofficial figures stay in this note.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "Described as the Oued Koriche hundred-year flood (Persée / PNUD-FEM 2002)",
+      "rainfall_mm": "On the order of 200–214 mm in 24 hours over Algiers (Persée / weather services cited in academic papers)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "More than $300 million (GOA / USAID OFDA fact sheet FY2002)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb OCHA Situation Report No. 7 (26 Nov 2001) and French Wikipedia: Bab El Oued."
+        }
+      ]
+    },
+    {
+      "id": "flood-ethiopia-diredawa-2006",
+      "name": "2006 Dire Dawa flood",
+      "country": "Ethiopia",
+      "region": "Dire Dawa",
+      "location_label": "Dire Dawa, Ethiopia",
+      "lat": 9.6,
+      "lng": 41.867,
+      "geo_accuracy": "approx",
+      "geo_source": "Dire Dawa (Wikipedia coordinates 9.600°N, 41.867°E); OCHA sitreps name the Dechatu River through the city centre",
+      "flood_type": "flash",
+      "river_or_basin": "Dechatu River",
+      "river_or_facility": "Dechatu River",
+      "incident_date": "2006-08-06",
+      "latest_report_date": "2006-08-21",
+      "what_happened": "On the night of 5–6 August 2006 very heavy rain sent the usually dry Dechatu River through the centre of Dire Dawa, spreading up to 200 m from either bank and sweeping homes, trees and concrete fences. A ReliefWeb Horn of Africa overview (citing figures as of 21 August) said the Dire Dawa flood had left at least 254 people dead with 244 still officially missing; OCHA sitrep 1 had first reported about 200 dead and 300 missing. UNICEF/OCHA Focus on Ethiopia (August 2006) gave 256 dead and 244 missing and said the homes of over 9,000 people were destroyed. The same seasonal floods later killed hundreds more on the Omo and elsewhere; those deaths are not copied onto this row.",
+      "status": "Historical. Named Dire Dawa flash flood, distinct from the wider 2006 Ethiopian season (2016 Ethiopian flood is already in the archive).",
+      "deaths": 254,
+      "injured": null,
+      "affected_or_evacuated": "About 9,000 displaced in Dire Dawa town plus 7,500 around the city (OCHA/UN appeal figures cited on ReliefWeb)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Night-time flash flood on the Dechatu after very heavy rain over a deforested catchment with houses built too close to the channel.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Regional overview of flooding in the Horn of Africa (Dire Dawa 254 dead as of 21 Aug 2006)",
+          "url": "https://reliefweb.int/report/ethiopia/regional-overview-flooding-horn-africa"
+        },
+        {
+          "label": "ReliefWeb: Ethiopia Dire Dawa Floods — OCHA Situation Report No. 2",
+          "url": "https://reliefweb.int/report/ethiopia/ethiopia-dire-dawa-floods-ocha-situation-report-no-2"
+        }
+      ],
+      "notes": "254 is the confirmed Dire Dawa toll as of 21 August 2006 on the ReliefWeb Horn overview. Focus on Ethiopia (Aug 2006) cites 256 dead. Wider 2006 Ethiopia season deaths (639 nationwide as of 27 August in that overview) are not used here.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb OCHA Dire Dawa sitreps and Horn of Africa flood overview (Aug 2006)."
+        }
+      ]
+    },
+    {
+      "id": "flood-south-asia-2007",
+      "name": "2007 South Asian floods",
+      "country": "India",
+      "region": "India / Bangladesh / Nepal / Pakistan",
+      "location_label": "Patna, Bihar, India",
+      "lat": 25.5941,
+      "lng": 85.1376,
+      "geo_accuracy": "region",
+      "geo_source": "Patna city centroid; Bihar and Uttar Pradesh were the hardest-hit Indian states on the dedicated event page (same pin style as flood-south-asia-2017)",
+      "flood_type": "riverine",
+      "river_or_basin": "Ganges / Brahmaputra–Jamuna / Padma",
+      "river_or_facility": "Ganges–Brahmaputra–Meghna",
+      "incident_date": "2007-07-03",
+      "latest_report_date": "2007-09-04",
+      "what_happened": "From 3 July to 15 August 2007 monsoon floods struck India, Bangladesh, Nepal, Bhutan and Pakistan. Wikipedia's dedicated event page, citing Indian and Bangladeshi governments, puts the death toll in excess of 2,000, with about 20 million affected by 3 August and 30 million in India, Bangladesh and Nepal by 10 August. A USAID/OFDA regional fact sheet compiled later official tallies: India 2,253 dead and 43 million affected (Government of India, 28 August); Bangladesh 563 dead and 10.7 million affected (IFRC, 4 September); Nepal 146 dead (OCHA, 21 August); Pakistan 420 dead (OCHA, 27 August). In Bangladesh the Padma and Brahmaputra flooded; the Dhaka highway was cut; by 15 August about five million people were still displaced.",
+      "status": "Historical.",
+      "deaths": 2253,
+      "injured": null,
+      "affected_or_evacuated": "43 million affected in India (GOI 28 Aug 2007); ~30 million in India, Bangladesh and Nepal by 10 August (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "monsoon"
+      ],
+      "cause_summary": "Exceptionally heavy South Asian monsoon from early July 2007 on the Ganges–Brahmaputra system.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2007 South Asian floods",
+          "url": "https://en.wikipedia.org/wiki/2007_South_Asian_floods"
+        },
+        {
+          "label": "ReliefWeb: South Asia Regional Floods Fact Sheet #2 FY2007 (USAID/OFDA)",
+          "url": "https://reliefweb.int/report/bangladesh/south-asia-regional-floods-fact-sheet-2-fiscal-year-fy-2007"
+        }
+      ],
+      "notes": "2,253 is the Government of India figure as of 28 August 2007 (USAID/ReliefWeb Fact Sheet #2). Wikipedia infobox says 2,000+ regional. Bangladesh, Nepal and Pakistan sitrep totals are not added onto this India-pinned row.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "More than $2 billion in India (GOI / USAID fact sheet); Bangladesh agriculture about $294 million (DAE / IFRC)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2007 South Asian floods and USAID/OFDA Fact Sheet #2 FY2007."
+        }
+      ]
+    },
+    {
+      "id": "flood-europe-2009",
+      "name": "2009 European floods",
+      "country": "Czech Republic",
+      "region": "Czech Republic / Austria / Poland / Slovakia / Hungary / Romania",
+      "location_label": "Nový Jičín, Czech Republic",
+      "lat": 49.5944,
+      "lng": 18.0103,
+      "geo_accuracy": "approx",
+      "geo_source": "Nový Jičín city centroid; the event page describes 24 June flash floods on the Jičínka (5.5 m, 2 m above the 1997 flood) with multiple deaths in that district",
+      "flood_type": "flash",
+      "river_or_basin": "Oder / Morava / Danube / Vltava",
+      "river_or_facility": "Jičínka / Bečva / Danube",
+      "incident_date": "2009-06-22",
+      "latest_report_date": "2009-07-12",
+      "what_happened": "June 2009 rain from a slow-moving upper low flooded the Oder, Vistula, Elbe and Danube basins in the Czech Republic, Austria, Poland, Slovakia, Hungary, Germany, Romania, Serbia and Turkey. Wikipedia's infobox lists 33 fatalities. In the Czech Republic persistent rain from 22 June and a 24 June two-hour flash flood (up to 80 L/m²) on the Jičínka and Zrzávka killed people in Nový Jičín district; the page later says fourteen people died in the Czech Republic. Austria had its wettest June on record in the north (Lunz am See 207 mm/48 h; St. Pölten 311 mm in June). Turkey's 9 September Istanbul flash flood, treated as a further storm on the same page, killed 20.",
+      "status": "Historical. Named Central European June 2009 floods; a Czech complement to 1997/2002/2013 already on file.",
+      "deaths": 33,
+      "injured": null,
+      "affected_or_evacuated": "Thousands of firefighters deployed in Austria; 50 families evacuated in Kraków (Wikipedia)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Quasi-stationary June upper low (Quinton) over the Alps, Balkans and Black Sea, then local thunderstorms on saturated ground.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2009 European floods",
+          "url": "https://en.wikipedia.org/wiki/2009_European_floods"
+        }
+      ],
+      "notes": "33 is the English Wikipedia infobox total for the dedicated 2009 European floods page. The lead cites at least 12 dead in the Czech Republic and one in Poland; the Czech section later says 14. The same page's 'Further storms' section includes the 9 September 2009 Istanbul flash flood (20 dead), which is not the June Central Europe wave. Using the page infobox; composition stays in this note.",
+      "era": "historical",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Lunz am See 207 mm in 48 h; Nový Jičín area up to 80 L/m² in two hours on 24 June (Wikipedia)",
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "First Czech estimates 5–6 billion Kč (~€230 million); Lower Austria claims about €60 million (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2009 European floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-yemen-2025",
+      "name": "2025 Yemen floods",
+      "country": "Yemen",
+      "region": "19 governorates (second rainy season)",
+      "location_label": "Sana'a, Yemen",
+      "lat": 15.3694,
+      "lng": 44.191,
+      "geo_accuracy": "region",
+      "geo_source": "Sana'a city centroid; ReliefWeb disaster page covers a nationwide season across 19–20 governorates",
+      "flood_type": "flash",
+      "river_or_basin": "Yemen highland and coastal wadis",
+      "river_or_facility": null,
+      "incident_date": "2025-08-01",
+      "latest_report_date": "2025-09-30",
+      "what_happened": "Yemen's second rainy season produced widespread flash floods from 1 August 2025. OCHA's mid-September sitrep recorded about 50,600 households (around 354,400 people) affected in 125 districts in 19 governorates, with 62 deaths and 95 injuries, mainly from drowning, lightning and falling debris. ECHO's 30 September Daily Flash, citing UN OCHA as of 29 September, raised the tally to 82 dead, 100 injured and nearly 455,500 people affected across 156 districts in 20 governorates. IDP sites were among the worst hit. April–July 2025 rains (20 deaths) were a separate earlier spell.",
+      "status": "Season closed; recovery ongoing in a pre-existing humanitarian crisis.",
+      "deaths": 82,
+      "injured": 100,
+      "affected_or_evacuated": "Nearly 455,500 people across 156 districts in 20 governorates as of 29 September 2025 (UN OCHA via ECHO Daily Flash 30 September)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Second-season (July–September) rains and flash floods across Yemen, hitting IDP sites especially hard.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Yemen Floods — Aug 2025 (FL-2025-000151-YEM)",
+          "url": "https://reliefweb.int/disaster/fl-2025-000151-yem"
+        },
+        {
+          "label": "ReliefWeb: Yemen Key Message Update, September 2025 (FEWS NET)",
+          "url": "https://reliefweb.int/report/yemen/yemen-key-message-update-flood-damage-and-losses-undermine-access-food-and-clean-waters-september-2025"
+        },
+        {
+          "label": "ReliefWeb: ECHO Daily Flash 30 September 2025 (OCHA 82 dead)",
+          "url": "https://reliefweb.int/report/yemen/yemen-floods-update-dg-echo-un-ocha-noaa-central-asia-echo-daily-flash-30-september-2025"
+        }
+      ],
+      "notes": "82 deaths and 100 injured are the 29 September 2025 UN OCHA figures as cited by ECHO on 30 September. The 17 September OCHA/FEWS NET sitrep had 62 dead and 95 injured; that earlier dated figure stays in this note.",
+      "era": "2025",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb Yemen Floods Aug 2025 disaster page, FEWS NET September update, and ECHO Daily Flash 30 September 2025."
+        }
+      ]
+    },
+    {
+      "id": "flood-yemen-2026",
+      "name": "2026 Yemen floods",
+      "country": "Yemen",
+      "region": "Taiz (Al-Mokha) and more than ten governorates",
+      "location_label": "Taiz, Yemen",
+      "lat": 13.5789,
+      "lng": 44.0219,
+      "geo_accuracy": "approx",
+      "geo_source": "Taiz city centroid; IFRC/ECHO name Al-Mokha, Mawza and Al-Wazeyah districts of Taiz as the worst-hit coastal ground",
+      "flood_type": "flash",
+      "river_or_basin": "Red Sea coastal wadis / Taiz",
+      "river_or_facility": null,
+      "incident_date": "2026-03-27",
+      "latest_report_date": "2026-04-06",
+      "what_happened": "Yemen's 2026 rains began early (from 20 March) and intensified from 27 March, flooding more than ten governorates including Taiz (Al-Mokha), Al Jawf, Ibb, Abyan, Al Bayda, Lahj, Marib, Al Hodeidah, Hadramout, Aden and Al Dhale'e. The IFRC DREF (MDRYE017, 6 April 2026) cited Yemen Red Crescent Society figures of 83,713 people (11,959 households) affected, at least 30 dead and 47 injured, and 254 incidents logged at the YRCS emergency centre. ECHO's 31 March flash said at least 15 dead and 9,820 households affected on the west coast, including 49 IDP sites. A later ECHO note (30 April) gave at least 24 dead and 7,900 households along the west coast.",
+      "status": "Ongoing seasonal flooding as of April 2026 sitreps.",
+      "deaths": 30,
+      "injured": 47,
+      "affected_or_evacuated": "83,713 people / 11,959 households (YRCS / IFRC DREF 6 April 2026)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Early, intense first rainy season from 27 March 2026, worst on the Taiz–Hodeidah west coast and in IDP sites.",
+      "sources": [
+        {
+          "label": "ReliefWeb: Yemen Flood 2026 — DREF Operation MDRYE017",
+          "url": "https://reliefweb.int/report/yemen/yemen-flood-2026-dref-operation-mdrye017"
+        },
+        {
+          "label": "ReliefWeb: Yemen Floods — Mar 2026 (FL-2026-000044-YEM)",
+          "url": "https://reliefweb.int/disaster/fl-2026-000044-yem"
+        }
+      ],
+      "notes": "30 is the YRCS/IFRC DREF figure as of 6 April 2026. ECHO later cited 15 (31 March) and 24 (30 April). Using the dated YRCS tally from the DREF; later ECHO 24 stays in this note.",
+      "era": "2026",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from ReliefWeb IFRC DREF MDRYE017 and Yemen Floods Mar 2026 disaster page."
+        }
+      ]
+    },
+    {
+      "id": "flood-beijing-hebei-2025",
+      "name": "2025 Beijing–Tianjin–Hebei floods",
+      "country": "China",
+      "region": "Beijing / Hebei / Tianjin",
+      "location_label": "Miyun District, Beijing, China",
+      "lat": 40.37444,
+      "lng": 116.83944,
+      "geo_accuracy": "approx",
+      "geo_source": "Miyun District (Wikipedia coordinates 40.37444°N, 116.83944°E); Chinese Wikipedia and Reuters name Miyun (Taishitun nursing home) as the deadliest site",
+      "flood_type": "flash",
+      "river_or_basin": "Hai / Luan / Chao / Ju",
+      "river_or_facility": "Miyun Reservoir / Panjiakou Reservoir / Qingshui River",
+      "incident_date": "2025-07-23",
+      "latest_report_date": "2025-07-31",
+      "what_happened": "From 23–29 July 2025 a stalled trough, with indirect influence from Typhoon Co-May (Zhujiecao), produced extreme rain over Beijing, northern Hebei and northern Tianjin. Chinese Wikipedia records at least 64 dead and 39 missing: 44 dead in Beijing (all at a Taishitun, Miyun, elderly-care centre), 16 dead in Luanping County, Hebei, and 4 dead in Tianjin, mainly in Jizhou mountain floods. Reuters on 31 July reported at least 60 dead, including 31 at the Miyun care home, and 573.5 mm in parts of Miyun — about a year's rain in a few days. Hebei reported 356,000 people affected and 44,000 relocated by 29 July. A June 2026 emergency-management investigation blamed the care-home deaths on a Qingshui River extreme flood inundating a low-lying site.",
+      "status": "Historical. Investigation report published 18 June 2026.",
+      "deaths": 64,
+      "injured": null,
+      "affected_or_evacuated": "Hebei 356,000 affected and 44,000 relocated as of 29 July; Beijing more than 80,000 evacuated (zh.wikipedia / Xinhua cited there)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "tropical_cyclone"
+      ],
+      "cause_summary": "Week-long July rainstorm over the Yanshan hills, indirectly steered by Typhoon Co-May, with a Qingshui River flash flood through Miyun.",
+      "sources": [
+        {
+          "label": "Wikipedia (zh): 2025年京津冀强降雨",
+          "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E4%BA%AC%E6%B4%A5%E5%86%80%E5%BC%BA%E9%99%8D%E9%9B%A8"
+        },
+        {
+          "label": "Reuters: Care home residents among at least 60 killed in north China flooding (31 July 2025)",
+          "url": "https://www.reuters.com/sustainability/climate-energy/care-home-residents-among-least-60-killed-north-china-flooding-2025-07-31/"
+        }
+      ],
+      "notes": "64 is the Chinese Wikipedia body total (44 Beijing + 16 Hebei + 4 Tianjin). The infobox says at least 60; Reuters on 31 July also used 60. Using the later summed official local figures on the Chinese event page.",
+      "era": "2025",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "Luan River 2025 No. 1 flood: Panjiakou inflow 2,270 m³/s (zh.wikipedia / ministry briefing)",
+      "return_period": null,
+      "rainfall_mm": "Miyun local maxima 573.5 mm in a few days (Reuters); 254–321 mm in 22 hours over Huairou/Miyun on 25–26 July (zh.wikipedia)",
+      "inundation_area": "Hebei crops 72,000 ha affected as of 29 July (zh.wikipedia)",
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "Direct losses in the north described as exceeding 100 billion yuan on the Chinese Wikipedia page",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Chinese Wikipedia: 2025年京津冀强降雨 and Reuters 31 July 2025."
+        }
+      ]
+    },
+    {
+      "id": "flood-ditwah-2025",
+      "name": "Cyclone Ditwah floods",
+      "country": "Sri Lanka",
+      "region": "Sri Lanka (worst in Kandy, Nuwara Eliya, Badulla) / Tamil Nadu",
+      "location_label": "Kandy, Sri Lanka",
+      "lat": 7.2931,
+      "lng": 80.635,
+      "geo_accuracy": "approx",
+      "geo_source": "Kandy (Wikipedia coordinates 7.2931°N, 80.635°E); Cyclone Ditwah page lists 234 of 644 Sri Lankan deaths in Kandy District",
+      "flood_type": "flash",
+      "river_or_basin": "Kelani / Mahaweli / central highland catchments",
+      "river_or_facility": "Kelani River / Mavil Aru tank",
+      "incident_date": "2025-11-26",
+      "latest_report_date": "2025-12-16",
+      "what_happened": "Cyclonic Storm Ditwah crossed Sri Lanka from 26 November 2025 and then paralleled the Tamil Nadu coast. Wikipedia's dedicated storm page records 647 fatalities (644 in Sri Lanka, 3 in India), 21 injured, 183 missing and more than $4.14 billion damage. Sri Lanka had 234 deaths in Kandy District, 90 in Badulla, 89 in Nuwara Eliya and further deaths across 18 districts; 6,200 homes were destroyed and 96,545 damaged; about 1.46 million people (407,594 families) were affected and 59,000 families sheltered in 1,529 centres. The Mavil Aru bund breached in Trincomalee District. It was Sri Lanka's deadliest disaster since the 2004 tsunami. A DMC sitrep of 16 December 2025 is cited for the district table.",
+      "status": "Recovery ongoing into 2026 (bailey bridges still being installed under Operation Sagar Bandhu).",
+      "deaths": 647,
+      "injured": 21,
+      "affected_or_evacuated": "1.46 million people / 407,594 families affected; 59,000 families in 1,529 centres (Wikipedia / DMC)",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "tropical_cyclone",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Slow-moving cyclonic storm that stalled over Sri Lanka and dumped extreme rain on central-highland catchments.",
+      "sources": [
+        {
+          "label": "Wikipedia: Cyclone Ditwah",
+          "url": "https://en.wikipedia.org/wiki/Cyclone_Ditwah"
+        }
+      ],
+      "notes": "647 is the Wikipedia infobox (644 Sri Lanka + 3 India). A DMC sitrep of 16 December 2025 is the cited source for the Sri Lankan district table. Not a dam failure; the Mavil Aru bund breach is noted as a tank overflow, not copied as a structural dam-collapse toll.",
+      "era": "2025",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": true,
+      "related_dam_id": null,
+      "economic_damage": "World Bank about Rs 1.3 trillion / US$4.1 billion; government Rs 1.03 trillion / US$3.4 billion (Wikipedia)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Cyclone Ditwah."
         }
       ]
     }
