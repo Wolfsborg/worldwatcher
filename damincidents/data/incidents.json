@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 913,
+  "count": 934,
   "current_count": 26,
-  "historical_count": 887,
+  "historical_count": 908,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -49926,6 +49926,1154 @@
         }
       ],
       "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Cause mapped to extreme_rainfall and overtopping from Wikipedia 'great flood of 1909 breached the weir' only. Year-only date; Wikipedia does not give a day.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Goulburn-Murray Water (now)",
+      "year_built": "1891",
+      "height_m": 22,
+      "reservoir_capacity": "8,000 ML (Wikipedia present capacity; substantial siltation since construction)",
+      "construction": "concrete_gravity",
+      "purpose": "irrigation",
+      "volume_released": "18.3 GL through the opening (Wikipedia)",
+      "breach_size": null,
+      "downstream_risk": "Loddon towns downstream of Laanecoorie",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "laanecoorie-weir-1909",
+      "name": "Laanecoorie Weir (1909 flood breach)",
+      "country": "Australia",
+      "region": "Loddon River near Laanecoorie and Eddington, Loddon Mallee, Victoria",
+      "location_label": "Laanecoorie Weir, Loddon River, Victoria, Australia",
+      "lat": -36.833994,
+      "lng": 143.891866,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Laanecoorie Weir 36°50′02″S 143°53′31″E",
+      "river_or_facility": "Laanecoorie Weir / Laanecoorie Reservoir; Loddon River",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "Wikipedia: the great flood of 1909 breached the weir; 18.3 GL flowed through the opening.",
+      "incident_date": "1909",
+      "latest_report_date": "2022",
+      "what_happened": "Wikipedia: Laanecoorie Weir on the Loddon, completed 1891 by Andrew O'Keefe and J.T.N. Anderson as Victoria's second irrigation scheme after Goulburn Weir, was breached in the great flood of 1909. About 18.3 GL flowed through the opening and caused severe damage to all towns downstream. The first Loddon bridge at Laanecoorie (1870) was destroyed with the weir. John Monash later designed a reinforced-concrete replacement bridge that remains in use. Spillway extensions were completed in 1909 and the spillway was raised to its current height in 1935. Goulburn-Murray Water operates the storage. Wikipedia and the ANCOLD register row cited there do not give a death count.",
+      "status": "Rebuilt / operational (Goulburn-Murray Water).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Laanecoorie Weir (1909 breach; 18.3 GL; 36°50′02″S 143°53′31″E)",
+          "url": "https://en.wikipedia.org/wiki/Laanecoorie_Weir"
+        },
+        {
+          "label": "ANCOLD Register of Large Dams Australia-2015 (cited on Wikipedia row 269)",
+          "url": "https://www.ancold.org.au/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Cause unknown — sources describe collapse into the Molonglo, not a mechanism. Dates disagree across sources (Wikipedia 1939/1942; AusIMM 1939/1943; Elementa southern 1942 and northern 1945). This record is the 1939 event all three strands name. Town pin used; dumps sit at the mine immediately beside the township, not a Queanbeyan centroid.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Lake George Mines (then); NSW legacy-mines program (now)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "thousands of tonnes of sulfidic wastes (AusIMM paper; no cubic-metre figure fetched)",
+      "breach_size": null,
+      "downstream_risk": "Molonglo River to Queanbeyan and Lake Burley Griffin",
+      "economic_damage": null,
+      "investigating_agency": "NSW Derelict / Legacy Mines Program (later)",
+      "verification": "confirmed",
+      "id": "captains-flat-1939",
+      "name": "Captains Flat / Lake George Mine tailings and slime dams (1939)",
+      "country": "Australia",
+      "region": "Captains Flat, Queanbeyan–Palerang, southern tablelands, New South Wales",
+      "location_label": "Lake George Mine tailings dumps, Captains Flat, NSW, Australia",
+      "lat": -35.58861,
+      "lng": 149.4475,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Captains Flat 35°35′19″S 149°26′51″E (township; NSW Resources: northern and southern tailings dumps immediately at the mine on the Molonglo).",
+      "river_or_facility": "Lake George Mine northern/southern tailings and slime dams; Molonglo River",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Wikipedia: in 1939 mine tailings and slime dams collapsed into the Molonglo River. AusIMM Captains Flat rehabilitation paper: catastrophic tailings dam failures in 1939 and again in 1943.",
+      "incident_date": "1939",
+      "latest_report_date": "2021",
+      "what_happened": "Wikipedia Captains Flat: in 1939 and 1942 mine tailings and slime dams at the Lake George Mine collapsed into the Molonglo River; the pollution severely damaged ecological communities downstream and eradicated native fish. An AusIMM / OneMine rehabilitation paper (25 years on) says catastrophic tailings dam failures in 1939 and again in 1943 transported thousands of tonnes of sulfidic wastes downstream, with terminal settling in Lake Burley Griffin. NSW Resources: two large dump areas (northern and southern); mine operated 1937–1962 (and earlier 1882–1899). No source fetched gave a death count. The 1942/1943 southern-dump collapse is a separate record.",
+      "status": "Historical collapses; dumps later capped (1976 remediation and later works). AMD seepage continues (NSW Resources).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Captains Flat (1939 and 1942 tailings/slime-dam collapses into the Molonglo)",
+          "url": "https://en.wikipedia.org/wiki/Captains_Flat"
+        },
+        {
+          "label": "AusIMM / OneMine — Rehabilitation of the Lake George Mine at Captains Flat NSW (1939 and 1943 catastrophic failures)",
+          "url": "https://www.ausimm.com/publications/conference-proceedings/sixth-international-conference-on-acid-rock-drainage-icard/rehabilitation-of-the-lake-george-mine-at-captains-flat-nsw---25-years-on/"
+        },
+        {
+          "label": "NSW Resources — Captains Flat (Lake George) Mine (northern and southern dumps)",
+          "url": "https://www.resources.nsw.gov.au/mining-and-exploration/legacy-mines-program/projects/captains-flat-lake-george-mine"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Incident date 1942 follows Wikipedia and Brooks/Elementa for the southern dump; AusIMM's 1943 is recorded as a dating disagreement, not a third event.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Lake George Mines (then); NSW legacy-mines program (now)",
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": "Captains Flat Dam / Molonglo River",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "captains-flat-1942",
+      "name": "Captains Flat / Lake George Mine southern tailings dump (1942/43)",
+      "country": "Australia",
+      "region": "Captains Flat, Queanbeyan–Palerang, southern tablelands, New South Wales",
+      "location_label": "Lake George Mine southern tailings dump, Captains Flat, NSW, Australia",
+      "lat": -35.58861,
+      "lng": 149.4475,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Captains Flat 35°35′19″S 149°26′51″E (township; mine dumps immediately at the town on the Molonglo).",
+      "river_or_facility": "Lake George Mine southern tailings dump; Molonglo River / Captains Flat Dam reservoir",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Wikipedia: 1942 tailings and slime dams collapsed into the Molonglo. Elementa (Brooks 1998 via Wadige et al.): southern dump failed in 1942, depositing waste into Captains Flat Dam. AusIMM paper dates the second catastrophic failure 1943.",
+      "incident_date": "1942",
+      "latest_report_date": "2020",
+      "what_happened": "A second named collapse of Lake George Mine tailings at Captains Flat. Wikipedia lists 1942 with the 1939 event. Wadige / Elementa citing Brooks (1998): the southern dump failed in 1942 and deposited waste directly into Captains Flat Dam (the township reservoir, built 1936 beside the southern dump); the northern dump failed in 1945. AusIMM rehabilitation paper: catastrophic failures in 1939 and again in 1943. No death count. Distinct from captains-flat-1939.",
+      "status": "Historical collapse; dumps later capped. AMD seepage continues.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Captains Flat (1942 collapse)",
+          "url": "https://en.wikipedia.org/wiki/Captains_Flat"
+        },
+        {
+          "label": "Elementa — mercury in Molonglo sediments (Brooks 1998: southern dump 1942 into Captains Flat Dam; northern 1945)",
+          "url": "https://online.ucpress.edu/elementa/article/doi/10.1525/elementa.440/114509/The-spatial-legacy-of-Australian-mercury"
+        },
+        {
+          "label": "AusIMM — Lake George Mine rehabilitation (second catastrophic failure dated 1943)",
+          "url": "https://www.ausimm.com/publications/conference-proceedings/sixth-international-conference-on-acid-rock-drainage-icard/rehabilitation-of-the-lake-george-mine-at-captains-flat-nsw---25-years-on/"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Date is the contemporaneous ABC/EPA October 2005, not the 2019 retrospective's 2007. Cause poor_maintenance from the 2019 ABC attribution to inadequate monitoring; 2006 article does not state a mechanism beyond collapse. Mine pin, not a surveyed crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Thiess (contractor, then); Peabody Energy Australia / New Hope (later)",
+      "year_built": "mine opened 1995–96",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "400,000 m³ coal rejects and tailings (ABC/EPA 2006)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "burton-coal-tailings-2005-10",
+      "name": "Burton coal mine waste / tailings storage wall",
+      "country": "Australia",
+      "region": "Burton, Bowen Basin, about 150 km south-west of Mackay, Central Queensland",
+      "location_label": "Burton Coal Mine waste storage, Burton, Queensland, Australia",
+      "lat": -21.589506,
+      "lng": 148.16602,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Burton coal mine 21°35′22″S 148°09′58″E (mine; waste-storage wall not separately surveyed).",
+      "river_or_facility": "Burton Coal Mine waste storage system / tailings dam",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "ABC 2 Nov 2006 quoting EPA: a wall of the waste storage system collapsed in October 2005. ABC Rural 20 Jun 2019 (retrospective): the breach was attributed to Thiess inadequately monitoring the dam and failing to analyse potential consequences.",
+      "incident_date": "2005-10",
+      "latest_report_date": "2019-06-20",
+      "what_happened": "ABC News, 2 November 2006: Queensland EPA charged Thiess with causing environmental damage after a wall of the Burton coal mine's waste storage system collapsed in October 2005 (the article: 'October last year'), spilling 400,000 m³ of coal rejects and tailings on and nearby the mine site. Maximum penalty cited $313,000. Thiess said it acted immediately to clean up and that environmental impact was negligible. A 20 June 2019 ABC Rural retrospective on Australian tailings-dam audits restates a Burton tailings-dam breach south-west of Mackay, attributed to Thiess monitoring failures, and dates that incident 2007 — the contemporaneous 2006 EPA/ABC date (October 2005) is used here. No death count.",
+      "status": "Historical on-site/near-site tailings spill; mine later operated by Peabody / New Hope.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ABC News 2 Nov 2006 — Thiess charged; EPA: wall collapsed October 2005; 400,000 m³",
+          "url": "https://www.abc.net.au/news/2006-11-02/thiess-charged-over-coal-mine-spill/1299996"
+        },
+        {
+          "label": "ABC Rural 20 Jun 2019 — Burton tailings dam breached (retrospective; dates 2007)",
+          "url": "https://www.abc.net.au/news/rural/2019-06-20/tailings-dam-audit-finds-high-failure-risks-across-australia/11223510"
+        },
+        {
+          "label": "Wikipedia — Burton coal mine 21°35′22″S 148°09′58″E",
+          "url": "https://en.wikipedia.org/wiki/Burton_coal_mine"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Cause unknown — collapse is sourced, mechanism is not. Green Left's mining span 1956–1972 disagrees with WNA mill closure August 1964; the 10-year window is applied to the WNA mill date. Mine/Moline Dam pin, not a surveyed crest.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "United Uranium (then)",
+      "year_built": "mill commissioned 1959 (World Nuclear)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "63,000 tonnes of tailings (Green Left / MAUM)",
+      "breach_size": null,
+      "downstream_risk": "creek flood plain below the mine (OSS)",
+      "economic_damage": null,
+      "investigating_agency": "Office of the Supervising Scientist",
+      "verification": "confirmed",
+      "id": "moline-tailings-1974",
+      "name": "Moline uranium / North Hercules tailings dams",
+      "country": "Australia",
+      "region": "Moline goldfield, about 50 km east of Pine Creek, Northern Territory",
+      "location_label": "Moline / Northern Hercules mine tailings dams, NT, Australia",
+      "lat": -13.6672,
+      "lng": 132.15,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Mining in the Northern Territory: Moline / Northern Hercules 13°40′02″S 132°09′00″E. Mindat lists the locality as Moline Mine (Moline Dam; Northern Hercules).",
+      "river_or_facility": "Moline / North Hercules tailings dams (United Uranium mill)",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "unknown"
+      ],
+      "cause_summary": "Green Left (excerpting MAUM, 1991): within 10 years of mill closure the tailings dams collapsed, releasing 63,000 tonnes. OSS found elevated radioactivity on the floodplain below the mine and continuing erosion from the tailings dam.",
+      "incident_date": "1965-1974",
+      "latest_report_date": "1991-06-19",
+      "what_happened": "Green Left, 19 June 1991, excerpting Movement Against Uranium Mining: mining at Moline created 246,000 tonnes of tailings (Green Left's span 1956–1972); within 10 years of mill closure the tailings dams collapsed, releasing 63,000 tonnes. The Office of the Supervising Scientist found significantly higher than normal radioactivity in flood-plain sediments of the creek below the mine, radionuclides to 50 cm depth, and high continuing erosion from the tailings dam. World Nuclear Association: United Uranium's Moline plant (North Hercules, 50 km east of Pine Creek) closed in August 1964 after treating 128,000 t of ore; gold extraction from uranium tailings finished October 1965. IAEA/Waggitt: 'Moline tailings dam also failed and was remediated'; later relocation of wastes 2006–07. No death count. Date window is 10 years after the WNA mill-closure year.",
+      "status": "Failed; later remediated / wastes relocated (Waggitt; Commonwealth works).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Green Left 19 Jun 1991 — Moline tailings dams collapsed within 10 years of mill closure; 63,000 t; OSS flood-plain survey",
+          "url": "https://www.greenleft.org.au/1991/17/hazard-lasting-millennia"
+        },
+        {
+          "label": "World Nuclear Association — Moline mill closed August 1964; North Hercules, 50 km east of Pine Creek",
+          "url": "https://world-nuclear.org/information-library/appendices/australia-s-former-uranium-mines"
+        },
+        {
+          "label": "Waggitt / IAEA NORM X — Moline tailings dam also failed and was remediated",
+          "url": "https://nucleus.iaea.org/sites/orpnet/resources/NORM%20X/Session%204%20Peter%20Waggitt%20-%20.pdf"
+        },
+        {
+          "label": "Wikipedia — Mining in the Northern Territory (Moline / Northern Hercules 13°40′02″S 132°09′00″E)",
+          "url": "https://en.wikipedia.org/wiki/Mining_in_the_Northern_Territory"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Chronic operational overtopping from 1954, not a single burst date. Cause overtopping + extreme_rainfall from Waggitt's wet-season/supernatant overtopping wording. Mine locality pin.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Consolidated Zinc / Territory Enterprises (then); Australian Government rehabilitation",
+      "year_built": "1954",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": "about 150,000 t lost from the dam by overtopping (Waggitt); ~640,000 t discharged by the 1970s (NMA)",
+      "breach_size": null,
+      "downstream_risk": "East Branch Finniss River / Finniss floodplains",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "rum-jungle-tailings-1954",
+      "name": "Rum Jungle uranium tailings dam (wet-season overtopping)",
+      "country": "Australia",
+      "region": "East Branch of the Finniss River, about 10 km west of Batchelor, Northern Territory",
+      "location_label": "Rum Jungle mine tailings dam, Batchelor, Northern Territory, Australia",
+      "lat": -12.983,
+      "lng": 131.017,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Rum Jungle, Northern Territory 12°59′S 131°01′E (mine locality).",
+      "river_or_facility": "Rum Jungle tailings dam / Old Tailings Creek; East Branch Finniss River",
+      "type": "tailings",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "IAEA/Waggitt: about 150,000 t of tailings were lost from the dam to the adjacent river system through overtopping by supernatant flow and wet-season rainfall. NMA: from the start of processing in 1954, discharge was unconstrained; later containment was inadequate and wet-season spills continued.",
+      "incident_date": "1954",
+      "latest_report_date": "2015",
+      "what_happened": "Rum Jungle uranium mill opened 1954 on the East Branch of the Finniss River. IAEA/Waggitt: tailings were discharged to a dam on a flat part of the site; over time about 150,000 t were lost from the dam to the adjacent river through overtopping by supernatant flow and wet-season rainfall. National Museum of Australia: from the start of processing, tailings discharged freely; later attempts at containing or diluting them were inadequate and wet-season spills into the East Branch continued; about 640,000 t of tailings had been discharged by the 1970s; about 100 km² of floodplains affected. APH/Mudd compilation: Acid and Sweetwater retention dams on the Finniss were built in 1961 and regularly overflowed. Rehabilitation 1982–86 placed remnant tailings into Dyson's pit. No death count. This record is the named tailings-dam overtopping, not a single-day burst.",
+      "status": "Operations ended 1971; 1980s rehabilitation; further works planned (NMA).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Waggitt / IAEA NORM X — Rum Jungle: 150,000 t lost from the dam by overtopping",
+          "url": "https://nucleus.iaea.org/sites/orpnet/resources/NORM%20X/Session%204%20Peter%20Waggitt%20-%20.pdf"
+        },
+        {
+          "label": "National Museum of Australia — Rum Jungle: unconstrained discharge from 1954; wet-season spills",
+          "url": "https://www.nma.gov.au/defining-moments/resources/rum-jungle-uranium-mine"
+        },
+        {
+          "label": "Wikipedia — Rum Jungle, Northern Territory 12°59′S 131°01′E",
+          "url": "https://en.wikipedia.org/wiki/Rum_Jungle,_Northern_Territory"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 2019 Townsville monsoon/flood deaths onto the dam. Category incident (gated flood operations, not a breach), same class as live Wivenhoe/Somerset 2011.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Townsville City Council / Townsville Water",
+      "year_built": "1974 (stage I); radial gates 2007",
+      "height_m": 34.4,
+      "reservoir_capacity": "233,187 ML active / 1,200 GL flood surcharge (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ross-river-dam-2019-02",
+      "name": "Ross River Dam (February 2019 flood-gate operations)",
+      "country": "Australia",
+      "region": "Between Kelso and Mount Stuart, Townsville, North Queensland",
+      "location_label": "Ross River Dam, Townsville, Queensland, Australia",
+      "lat": -19.410543,
+      "lng": 146.735373,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Ross River Dam 19°24′38″S 146°44′07″E",
+      "river_or_facility": "Ross River Dam / Lake Ross; Ross River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "IGEM/BMT hydrology review: after full-supply level on 30 January 2019 the three radial gates opened in automatic mode; they were fully open at 20:32 on 3 February; peak outflow about 1,888 m³/s. ABC: gates opened to full capacity, releasing about 1,900 m³/s.",
+      "incident_date": "2019-02-03",
+      "latest_report_date": "2019-12",
+      "what_happened": "During the January–February 2019 Townsville monsoon, Ross River Dam rose from 65% of full supply on 27 January to a record peak. Wikipedia: the reservoir reached about 233–250% of active capacity. ABC 5 Feb 2019: peak 244.8% of capacity; authorities opened the spillway gates to full capacity, about 1,900 m³/s downstream. IGEM independent hydrology review (BMT, 2019): gates began opening in automatic mode once FSL 38.55 m AHD was reached at 12:35 on 30 January; fully open 20:32 on 3 February; water level peaked 43.03 m AHD at 23:50 on 3 February, releasing 1,888 m³/s. Townsville City Council timeline: gates were also placed in manual operation. The dam did not breach. Townsville flood deaths and city-wide displacement from the monsoon are not copied onto this dam record. No source fetched gave a dam-specific death count.",
+      "status": "Operational (Townsville City Council / Townsville Water).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Ross River Dam (2019 peak ~233–250%; 19°24′38″S 146°44′07″E)",
+          "url": "https://en.wikipedia.org/wiki/Ross_River_Dam"
+        },
+        {
+          "label": "ABC News 5 Feb 2019 — dam >200% capacity; gates fully open ~1,900 m³/s",
+          "url": "https://www.abc.net.au/news/2019-02-05/how-can-the-ross-river-dam-be-over-200-per-cent-capacity/10775502"
+        },
+        {
+          "label": "IGEM / BMT — Independent Review of Ross River Flooding, February 2019 (gates auto then fully open 3 Feb; 1,888 m³/s)",
+          "url": "https://www.igem.qld.gov.au/sites/default/files/2019-12/IGEM%20MTRF%20-%20BMT%20hydrology%20report%2012062019.pdf"
+        }
+      ],
+      "severity": "major"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy January 2011 Brisbane/SEQ flood deaths onto North Pine. Category incident (gated operations), same class as live Wivenhoe/Somerset 2011. Distinct from those two dams.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Seqwater",
+      "year_built": "1976",
+      "height_m": 45,
+      "reservoir_capacity": "214,302 ML (Wikipedia)",
+      "construction": "concrete_gravity",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "Queensland Floods Commission of Inquiry",
+      "verification": "confirmed",
+      "id": "north-pine-dam-2011-01",
+      "name": "North Pine Dam (January 2011 flood-gate operations)",
+      "country": "Australia",
+      "region": "Joyner / Lake Samsonvale, City of Moreton Bay, south-east Queensland",
+      "location_label": "North Pine Dam, Lake Samsonvale, Queensland, Australia",
+      "lat": -27.26333,
+      "lng": 152.93667,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia North Pine Dam 27°15′48″S 152°56′12″E",
+      "river_or_facility": "North Pine Dam / Lake Samsonvale; North Pine River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Seqwater's January 2011 Flood Event Report (QFCI exhibit 30): North Pine is an urban water-supply dam with no practical flood-mitigation storage; radial-gate flood releases were made on 25 days of January 2011 once the lake reached the gate-opening trigger a few centimetres above FSL.",
+      "incident_date": "2011-01",
+      "latest_report_date": "2011",
+      "what_happened": "Seqwater's January 2011 Flood Event Report on the operation of North Pine Dam, tendered to the Queensland Floods Commission of Inquiry, records flood-water releases on 25 days of January 2011. The report states the dam is an urban water-supply dam with no significant flood-storage compartment above FSL (the volume between FSL 39.60 m AHD and the radial-gate trigger 39.65 m AHD is 1,096 ML, 0.5% of full supply) and that once full, floods pass with little mitigation. Radial gates are the primary flood-release infrastructure. Wikipedia: five gated spillways, 3,700 m³/s capacity; operator Seqwater. Companion gated operations in the same SEQ 2011 event as live Wivenhoe and Somerset records. The dam did not breach. No source fetched gave a North Pine-specific death count; 2011 Brisbane flood deaths are not copied.",
+      "status": "Operational (Seqwater).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "QFCI Exhibit 30 — January 2011 Flood Event Report on the operation of North Pine Dam (Seqwater)",
+          "url": "http://www.floodcommission.qld.gov.au/__data/assets/pdf_file/0004/4297/QFCI_Exhibit_30_January_2011_Flood_Event_Report_on_the_operation_of_North_Pine_Dam.pdf"
+        },
+        {
+          "label": "Wikipedia — North Pine Dam 27°15′48″S 152°56′12″E",
+          "url": "https://en.wikipedia.org/wiki/North_Pine_Dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Distinct from the February 2015 Marcia automatic-gate opening (separate record). Cause spillway from sourced gate damage in the flood, plus extreme_rainfall.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "SunWater",
+      "year_built": "1965 (gates 1988)",
+      "height_m": 37,
+      "reservoir_capacity": "136,370 ML (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "callide-dam-2013-01",
+      "name": "Callide Dam (January 2013 flood; spillway-gate damage)",
+      "country": "Australia",
+      "region": "About 12 km from Biloela, Callide Creek, Central Queensland",
+      "location_label": "Callide Dam, Biloela, Queensland, Australia",
+      "lat": -24.366136,
+      "lng": 150.616744,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Callide Dam 24°21′58″S 150°37′00″E",
+      "river_or_facility": "Callide Dam / Lake Callide; Callide Creek",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "SunWater Annual Report 2013–14: a record flood in January 2013 damaged the gates and other dam infrastructure; repair and testing of the six spillway gates was completed in the first half of the year.",
+      "incident_date": "2013-01",
+      "latest_report_date": "2014",
+      "what_happened": "SunWater's 2013–14 annual report: a record flood at Callide Dam in January 2013 resulted in damage to the gates and other dam infrastructure. Repair and testing of the spillway gates was completed in the first half of the year, with all six gates returned to service before the 2013–14 wet season. The same report notes that in December 2012 SunWater had already lowered the maximum operating level by 2.1 m as a precaution after a preliminary stability analysis of the earth embankment. Wikipedia: earth and rock-fill dam completed 1965; gates added 1988. The dam did not breach. No death count in the annual report or Wikipedia page fetched.",
+      "status": "Gates repaired and returned to service 2013; dam operational (SunWater).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SunWater Annual Report 2013–14 — January 2013 record flood damaged Callide gates; all six returned to service",
+          "url": "https://www.sunwater.com.au/wp-content/uploads/Home/About/Publications/Annual_Report_13-14.pdf"
+        },
+        {
+          "label": "Wikipedia — Callide Dam 24°21′58″S 150°37′00″E",
+          "url": "https://en.wikipedia.org/wiki/Callide_Dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Cyclone Marcia regional deaths onto Callide. Distinct from January 2013 gate-damage record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "SunWater",
+      "year_built": "1965 (gates 1988)",
+      "height_m": 37,
+      "reservoir_capacity": "136,370 ML (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "callide-dam-2015-02",
+      "name": "Callide Dam (Cyclone Marcia automatic gate opening)",
+      "country": "Australia",
+      "region": "About 12 km from Biloela, Callide Creek, Central Queensland",
+      "location_label": "Callide Dam, Biloela, Queensland, Australia",
+      "lat": -24.366136,
+      "lng": 150.616744,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Callide Dam 24°21′58″S 150°37′00″E",
+      "river_or_facility": "Callide Dam / Lake Callide; Callide Creek",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: in February 2015 the radial spillway gates automatically opened because of heavy rain from Tropical Cyclone Marcia; severe flooding resulted downstream. A class action against SunWater was filed in May 2015 and dropped in February 2016.",
+      "incident_date": "2015-02",
+      "latest_report_date": "2016-02-19",
+      "what_happened": "Wikipedia Callide Dam: in February 2015 the radial spillway gates automatically opened as a result of heavy rain from Tropical Cyclone Marcia, and severe flooding resulted downstream. In May 2015 residents launched a class action against SunWater; ABC News 19 February 2016 reported the class action was dropped. SunWater later undertook a separate Callide Dam Gates Project (2021–22) to address intermittent gate vibration on three of seven historical gate operations — that vibration project is not this 2015 opening. The dam did not breach. No source fetched gave a Callide-specific death count; regional Marcia flood deaths are not copied.",
+      "status": "Operational (SunWater).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Callide Dam (Feb 2015 Marcia automatic gate opening; class action dropped 2016)",
+          "url": "https://en.wikipedia.org/wiki/Callide_Dam"
+        },
+        {
+          "label": "ABC News 19 Feb 2016 — class action into Callide Dam flooding dropped",
+          "url": "https://www.abc.net.au/news/2016-02-19/class-action-into-callide-dam-flooding-dropped/7182840"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy January 2013 Queensland flood deaths onto Awoonga. Category incident: uncontrolled flood-of-record spill, same class as live Copeton 2022. Courier-Mail URL is the Wikipedia-cited Davies 2013 report; full story URL not separately retrieved.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Gladstone Area Water Board",
+      "year_built": "1984 rockfill raising (earlier weir 1950s); FSL raised 2002",
+      "height_m": 53,
+      "reservoir_capacity": "777,000 ML (Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "awoonga-dam-2013-01",
+      "name": "Awoonga Dam (January 2013 flood-of-record spill)",
+      "country": "Australia",
+      "region": "Boyne River near Benaraby, about 30 km from Gladstone, Central Queensland",
+      "location_label": "Awoonga Dam / Lake Awoonga, Gladstone region, Queensland, Australia",
+      "lat": -24.070094,
+      "lng": 151.311479,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Awoonga Dam 24°04′12″S 151°18′41″E",
+      "river_or_facility": "Awoonga Dam / Lake Awoonga; Boyne River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Wikipedia: highest recorded level 192.9% (8.3 m over the uncontrolled spillway) in January 2013 from ex-Tropical Cyclone Oswald; the dam continued spilling from 25 January until early May.",
+      "incident_date": "2013-01-25",
+      "latest_report_date": "2013-09-30",
+      "what_happened": "Wikipedia / Gladstone Area Water Board: rockfill Awoonga Dam on the Boyne, last raised in 2002 to FSL 40 m AHD, reached its highest recorded level of 192.9% of capacity — 8.3 m over the uncontrolled spillway — in January 2013 as a result of heavy rain from ex-Tropical Cyclone Oswald. The dam continued spilling from 25 January until early May. Courier-Mail (30 Sep 2013) reported the 193% flood figure. The dam did not breach. No death count in the sources fetched. Regional 2013 Queensland flood deaths are not copied.",
+      "status": "Operational (Gladstone Area Water Board).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Awoonga Dam (192.9% / 8.3 m over spillway Jan 2013; spilling 25 Jan–early May)",
+          "url": "https://en.wikipedia.org/wiki/Awoonga_Dam"
+        },
+        {
+          "label": "Courier-Mail 30 Sep 2013 — Lake Awoonga reached 193% of capacity in flood",
+          "url": "https://www.couriermail.com.au/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": "2,700 residents downstream (Wikipedia)",
+      "notes": "Deaths null. 2,700 evacuated is Wikipedia's downstream flood figure for this spill, not a death count. Distinct from the higher 30 Dec 2010 spill (separate record).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "SunWater",
+      "year_built": "1972",
+      "height_m": 46,
+      "reservoir_capacity": "1,301,000 ML active (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "fairbairn-dam-2008-01-22",
+      "name": "Fairbairn Dam (January 2008 flood-of-record spill)",
+      "country": "Australia",
+      "region": "Nogoa River, southwest of Emerald, Central Queensland",
+      "location_label": "Fairbairn Dam / Lake Maraboon, Emerald, Queensland, Australia",
+      "lat": -23.65,
+      "lng": 148.06556,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Fairbairn Dam 23°39′00″S 148°03′56″E",
+      "river_or_facility": "Fairbairn Dam / Lake Maraboon; Nogoa River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Wikipedia: on 18 January 2008 the reservoir overflowed the uncontrolled spillway for the first time in 17 years; the level peaked about 4.5 m over the spillway on 22 January (about 156% of active capacity). Downstream, 2,700 residents had to be evacuated because of flooding.",
+      "incident_date": "2008-01-22",
+      "latest_report_date": "2015-11-21",
+      "what_happened": "Wikipedia Fairbairn Dam: earthfill dam on the Nogoa, completed December 1972, spilled on 18 January 2008 for the first time in 17 years after heavy local rain; seven days earlier the lake had been at 29% of capacity. Within 48 hours the water was about 3.5 m over the spillway (156% of active capacity) and peaked at about 4.5 m on 22 January 2008. Downstream 2,700 residents had to be evacuated due to flooding. SunWater 4 Feb 2008 media release (cited on Wikipedia): the dam performed well during Emerald's major flood. A QFCI Fairbairn emergency-event report for a later season notes some appurtenant damage in that later event; it is not copied onto this 2008 spill. The dam did not breach. No death count. Regional flood deaths are not copied.",
+      "status": "Operational (SunWater).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Fairbairn Dam (18–22 Jan 2008 spill; ~4.5 m over spillway; 2,700 evacuated)",
+          "url": "https://en.wikipedia.org/wiki/Fairbairn_Dam"
+        },
+        {
+          "label": "SunWater 4 Feb 2008 — Fairbairn Dam performed well during Emerald's major flood (cited on Wikipedia)",
+          "url": "https://www.sunwater.com.au/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 2010–11 Queensland flood deaths. Distinct from January 2008 spill.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "SunWater",
+      "year_built": "1972",
+      "height_m": 46,
+      "reservoir_capacity": "1,301,000 ML active; 2,289,129 ML at this peak (SunWater/Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "fairbairn-dam-2010-12-30",
+      "name": "Fairbairn Dam (30 December 2010 flood-of-record spill)",
+      "country": "Australia",
+      "region": "Nogoa River, southwest of Emerald, Central Queensland",
+      "location_label": "Fairbairn Dam / Lake Maraboon, Emerald, Queensland, Australia",
+      "lat": -23.65,
+      "lng": 148.06556,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Fairbairn Dam 23°39′00″S 148°03′56″E",
+      "river_or_facility": "Fairbairn Dam / Lake Maraboon; Nogoa River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "SunWater 31 Dec 2010: peak overflow around midnight 30 December 2010, 5.58 m above the spillway, EL 209.81 m AHD, 176% of active capacity, discharging about 373,016 ML/day. Previous peak had been 4.44 m above FSL on 22 January 2008.",
+      "incident_date": "2010-12-30",
+      "latest_report_date": "2015-11-21",
+      "what_happened": "During the 2010–11 Queensland floods, Fairbairn Dam set a new recorded peak. SunWater (31 Dec 2010): around midnight on Thursday 30 December the water was 5.58 m above the spillway, reservoir EL 209.81 m AHD, about 2,289,129 ML or 176% of active capacity, discharging 373,016 ML/day. Wikipedia repeats those figures. The previous record was the 22 January 2008 peak (separate record). Uncontrolled spillway; the dam did not breach. No death count in the SunWater release or Wikipedia. 2010–11 Queensland flood deaths are not copied.",
+      "status": "Operational (SunWater).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "SunWater 31 Dec 2010 — New record for Fairbairn Dam (5.58 m over spillway; 176%)",
+          "url": "https://web.archive.org/web/20151122173253/www.sunwater.com.au/about-sunwater/media-room/latest-news/latest-news/2010/new-record-for-fairbairn-dam"
+        },
+        {
+          "label": "Wikipedia — Fairbairn Dam (30 Dec 2010 peak)",
+          "url": "https://en.wikipedia.org/wiki/Fairbairn_Dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. November 2007 second flood is noted in what_happened, not a second id. Distinct from cowwarr-weir-2007-06.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Southern Rural Water",
+      "year_built": "1927 (gates added 1958)",
+      "height_m": 37,
+      "reservoir_capacity": "177.628 GL active (Wikipedia)",
+      "construction": "concrete_gravity",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "repairs around A$4 million after June and November 2007 (Wikipedia)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "glenmaggie-dam-2007-06",
+      "name": "Glenmaggie Dam (June 2007 record flood operations)",
+      "country": "Australia",
+      "region": "Macalister River near Maffra, Central Gippsland, Victoria",
+      "location_label": "Glenmaggie Dam / Lake Glenmaggie, Victoria, Australia",
+      "lat": -37.90472,
+      "lng": 146.8,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Glenmaggie Dam 37°54′17″S 146°48′00″E",
+      "river_or_facility": "Glenmaggie Dam / Lake Glenmaggie; Macalister River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "operational_gate",
+        "spillway"
+      ],
+      "cause_summary": "Wikipedia and ANCOLD 2008 paper: June 2007 Macalister record flood; inflows peaked in excess of 250,000 ML/day (more than twice the previous record) and releases peaked at 147,000 ML/day. Major damage to gated infrastructure at Glenmaggie and at neighbouring Cowwarr Weir.",
+      "incident_date": "2007-06",
+      "latest_report_date": "2014",
+      "what_happened": "Wikipedia Glenmaggie Dam: in June 2007 the Macalister catchment had record flooding. Inflows into Lake Glenmaggie peaked in excess of 250,000 ML/day and releases peaked at 147,000 ML/day. A second flood in November 2007 had inflows peaking at 70,000 ML/day and releases 59,000 ML/day. Repairs totalling around A$4 million were completed after the June and November floods. ANCOLD 2008 paper (Flooding of the Glenmaggie Dam and Cowwarr Weir storages — June 2007): the Glenmaggie peak inflow was well over 250,000 ML/day, more than twice the previous record; assessed about 1:200 AEP; key infrastructure at both Glenmaggie and Cowwarr Weir was damaged, Cowwarr worst affected. The dam did not breach. No death count. Gippsland 2007 flood deaths are not copied. Cowwarr is a separate record.",
+      "status": "Operational (Southern Rural Water). ~A$4 million repairs after 2007 floods (Wikipedia).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Glenmaggie Dam (June 2007 inflows >250,000 ML/day; releases 147,000 ML/day; ~A$4m repairs)",
+          "url": "https://en.wikipedia.org/wiki/Glenmaggie_Dam"
+        },
+        {
+          "label": "ANCOLD 2008 — Flooding of the Glenmaggie Dam and Cowwarr Weir storages, June 2007",
+          "url": "https://ancold.org.au/product/2008-flooding-of-the-glenmaggie-dam-and-cowwarr-weir-storages-june-2007/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Weir pin from ExplorOz named place, not the Wikipedia Cowwarr town centroid. Mechanism beyond flood damage is not stated in the fetched abstract; cause left extreme_rainfall only.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "$3 million high-priority works cited in the ANCOLD 2008 paper (shared Glenmaggie/Cowwarr programme)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "cowwarr-weir-2007-06",
+      "name": "Cowwarr Weir (June 2007 flood damage)",
+      "country": "Australia",
+      "region": "Thomson River at Cowwarr, Central Gippsland, Victoria",
+      "location_label": "Cowwarr Weir, Thomson River, Victoria, Australia",
+      "lat": -37.99784,
+      "lng": 146.65471,
+      "geo_accuracy": "approx",
+      "geo_source": "ExplorOz Cowwarr Weir −37.99784, 146.65471 (named weir). Wikipedia Cowwarr town 38°01′S 146°41′E is the settlement, not used as the weir.",
+      "river_or_facility": "Cowwarr Weir storage; Thomson River",
+      "type": "weir",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ANCOLD 2008 paper: substantial flooding in Gippsland in late June 2007; major damage to gated storages at Glenmaggie Dam and Cowwarr Weir; Cowwarr Weir storage was the worst affected.",
+      "incident_date": "2007-06",
+      "latest_report_date": "2008",
+      "what_happened": "ANCOLD 2008 paper on flooding of the Glenmaggie Dam and Cowwarr Weir storages in June 2007: major damage was sustained to regional infrastructure including the gated storages at Glenmaggie Dam (Macalister) and Cowwarr Weir (neighbouring Thomson catchment). The paper states the Cowwarr Weir storage was the worst affected of the two. A number of high-priority projects were completed afterwards, with spending to date totalling $3 million in that paper. Distinct from Glenmaggie (separate record). No death count in the paper abstract fetched. Gippsland 2007 flood deaths are not copied.",
+      "status": "Historical flood damage; weir remains (Southern Rural Water / Macalister–Thomson system).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ANCOLD 2008 — Flooding of the Glenmaggie Dam and Cowwarr Weir storages, June 2007 (Cowwarr worst affected)",
+          "url": "https://ancold.org.au/product/2008-flooding-of-the-glenmaggie-dam-and-cowwarr-weir-storages-june-2007/"
+        },
+        {
+          "label": "ExplorOz — Cowwarr Weir −37.99784, 146.65471",
+          "url": "https://www.exploroz.com/places/73871/vic+cowwarr-weir"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Cyclone Debbie regional deaths. Category incident: designed ungated flood-of-record spill.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Seqwater",
+      "year_built": "1976; Stage 3 2011",
+      "height_m": 78.4,
+      "reservoir_capacity": "310,730 ML (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "hinze-dam-2017-03",
+      "name": "Hinze Dam (ex-Tropical Cyclone Debbie 2017 spill)",
+      "country": "Australia",
+      "region": "Nerang River, Gold Coast hinterland, south-east Queensland",
+      "location_label": "Hinze Dam / Advancetown Lake, Gold Coast, Queensland, Australia",
+      "lat": -28.049466,
+      "lng": 153.28449,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Hinze Dam 28°02′58″S 153°17′04″E",
+      "river_or_facility": "Hinze Dam / Advancetown Lake; Nerang River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Seqwater 2017 downstream information sheet: ungated Hinze Dam spilled during ex-Tropical Cyclone Debbie; peak outflow 310,000 L/s; lake peaked at 100.8 m AHD, 5.7 m above full supply.",
+      "incident_date": "2017-03-30",
+      "latest_report_date": "2017",
+      "what_happened": "Seqwater's Hinze Dam information sheet for residents downstream describes performance in heavy rain associated with ex-Tropical Cyclone Debbie in March 2017. Hinze is a rock-and-earthfill dam with an ungated spillway (raised 15 m in the 2011 Stage 3 upgrade). The sheet: the dam began to spill at 16:30 the day after inflows began; peak inflow 23:30 Thursday 30 March; peak outflow 18:30 Friday 31 March at 310,000 L/s; at the peak the lake was at 100.8 m AHD, 5.7 m above full supply. Seqwater states the dam reduced what would have been a disastrous flood. The dam did not breach. No death count. Regional Debbie flood deaths are not copied.",
+      "status": "Operational (Seqwater).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Seqwater 2017 — Hinze Dam information sheet for residents downstream (Debbie spill; 5.7 m above FSL)",
+          "url": "https://www.seqwater.com.au/sites/default/files/2019-09/2017%20Hinze%20Dam%20Downstream%20InfoSheet.pdf"
+        },
+        {
+          "label": "Wikipedia — Hinze Dam 28°02′58″S 153°17′04″E",
+          "url": "https://en.wikipedia.org/wiki/Hinze_Dam"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null — Wikipedia: most workers were on leave. Cause landslide + construction_first_filling from the construction-period slope failure on unstable ground. Map pin is the Wikipedia RDR coordinate, not a surveyed slip cut.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Public Works Department (then); Rangitata Diversion Race Management Ltd (now)",
+      "year_built": "construction 1937–1944",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "rdr-surrey-hills-1938-12",
+      "name": "Rangitata Diversion Race (Surrey Hills canal slip)",
+      "country": "New Zealand",
+      "region": "Surrey Hills / Mount Somers, mid-Canterbury, South Island",
+      "location_label": "RDR canal at Surrey Hills, Mount Somers, Canterbury, New Zealand",
+      "lat": -43.76406,
+      "lng": 171.23423,
+      "geo_accuracy": "approx",
+      "geo_source": "Wikipedia Rangitata Diversion Race map 43°45′51″S 171°14′03″E (Mid-Canterbury canal). Evening Post 22 Oct 1940: Surrey Hills, Mount Somers.",
+      "river_or_facility": "Rangitata Diversion Race canal (Surrey Hills reach)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "landslide",
+        "construction_first_filling"
+      ],
+      "cause_summary": "Wikipedia: between late December 1938 and early January 1939, while most workers were on leave, a large slip seriously damaged the canal works on the boggy, unstable Surrey Hills slopes. Recovery required a concrete syphon pipeline.",
+      "incident_date": "1938-12",
+      "latest_report_date": "2020",
+      "what_happened": "Wikipedia Rangitata Diversion Race: the 67 km irrigation-and-power canal, built by the Public Works Department 1937–1944, was originally to skirt the Surrey Hills as an open canal. The ground was boggy and unstable. In late December 1938–early January 1939, while most workers were on leave, a large slip seriously damaged the canal works. Recovery required large concrete pipelines to carry the race in a syphon through the Surrey Hills. Evening Post, 22 October 1940: a photograph of Minister Bob Semple's car inside one of the huge pipes at Surrey Hills, Mount Somers. First water 8 June 1944. No death count (workers were on leave). Construction-period canal-bank failure, same class as live Ruahihi/Wheao canal records.",
+      "status": "Rebuilt as Surrey Hills syphon; RDR operational (RDRML).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Rangitata Diversion Race (late Dec 1938–early Jan 1939 Surrey Hills slip; syphon)",
+          "url": "https://en.wikipedia.org/wiki/Rangitata_Diversion_Race"
+        },
+        {
+          "label": "Evening Post 22 Oct 1940 — Semple's car inside RDR pipes at Surrey Hills, Mount Somers (Papers Past, cited on Wikipedia)",
+          "url": "https://paperspast.natlib.govt.nz/newspapers/EP19401022.2.12.1"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy Franz Josef town evacuations or any regional storm toll onto the lower farmland stopbank. Town pin used; the lower bank is downstream on the fan. Cause overtopping from 'washed out in the big flood'; RNZ does not state a piping/scour mechanism.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "West Coast Regional Council (rating district)",
+      "year_built": "about 1982 (Birchfield: 37 years before 2019)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "waiho-stopbank-2019-03-26",
+      "name": "Waiho River lower stopbank (March 2019 washout)",
+      "country": "New Zealand",
+      "region": "Lower Waiho floodplain below Franz Josef / Waiau, Westland, South Island",
+      "location_label": "Lower Waiho River stopbank, Franz Josef / Waiau, West Coast, New Zealand",
+      "lat": -43.38806,
+      "lng": 170.18194,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Franz Josef / Waiau 43°23′17″S 170°10′55″E (township on the Waiho). RNZ: lower Waiho stopbank protecting farmland, washed out in the same storm that destroyed the SH6 bridge.",
+      "river_or_facility": "Lower Waiho River stopbank (West Coast Regional Council rating district)",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "extreme_rainfall",
+        "overtopping"
+      ],
+      "cause_summary": "RNZ 10 Apr 2019: West Coast Regional Council agreed to rebuild the lower Waiho stopbank washed out in the big flood two weeks earlier (the 26 March 2019 storm). Councillor Birchfield: the bank had protected properties for 37 years.",
+      "incident_date": "2019-03-26",
+      "latest_report_date": "2019-04-10",
+      "what_happened": "RNZ, 10 April 2019: West Coast Regional Council gave the go-ahead to rebuild the Waiho River stopbank destroyed in flooding two weeks earlier. Last month's storm cut power, closed roads and destroyed the Waiho Bridge on SH6 linking Franz Josef and Fox Glacier. Councillor Allan Birchfield: people had had a stopbank protecting their properties for 37 years, collected via a rating district; it was washed out in the big flood, so the council was putting it back. Wikipedia Waiho River / Franz Josef: 26 March 2019 storm, 400 mm of rain, SH6 bridge destroyed; town flooded and hundreds evacuated. The RNZ stopbank is the lower farmland bank, distinct from the highway bridge. No source fetched gave a death count for the stopbank. Regional storm deaths and Franz Josef town evacuations are not copied onto this farmland bank.",
+      "status": "Rebuild authorised April 2019 (RNZ).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "RNZ 10 Apr 2019 — lower Waiho stopbank washed out; rebuild within two weeks",
+          "url": "https://www.rnz.co.nz/news/environment/386702/waiho-river-stopbank-to-be-rebuilt-within-two-weeks"
+        },
+        {
+          "label": "Wikipedia — Waiho River (26 March 2019 storm; SH6 bridge destroyed)",
+          "url": "https://en.wikipedia.org/wiki/Waiho_River"
+        },
+        {
+          "label": "Wikipedia — Franz Josef / Waiau 43°23′17″S 170°10′55″E",
+          "url": "https://en.wikipedia.org/wiki/Franz_Josef_/_Waiau"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy 2010/2011 Canterbury earthquake deaths onto the stopbanks. Category incident (seismic damage, not a flood breach). Town pin; GEER surveyed a stretch of levees, not a single crest station.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": "GEER / Environment Canterbury",
+      "verification": "confirmed",
+      "id": "kaiapoi-waimakariri-stopbanks-2010-09-04",
+      "name": "Waimakariri / Kaiapoi River stopbanks (Darfield earthquake)",
+      "country": "New Zealand",
+      "region": "Eastern Waimakariri River and Kaiapoi River, north of Christchurch, Canterbury",
+      "location_label": "Kaiapoi and eastern Waimakariri stopbanks, Canterbury, New Zealand",
+      "lat": -43.38167,
+      "lng": 172.65722,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia Kaiapoi 43°22′54″S 172°39′26″E (town on the Kaiapoi River). GEER: eastern Waimakariri primary/secondary levees and Kaiapoi River primary levees.",
+      "river_or_facility": "Waimakariri River (eastern reach) and Kaiapoi River stopbanks / levees",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "earthquake"
+      ],
+      "cause_summary": "GEER reconnaissance after the 4 September 2010 Darfield earthquake: where levees were founded on loose saturated fluvial sands, liquefaction-related damage occurred (lateral spreading, slumping, settlement). PGA about 0.32 g at the Kaiapoi strong-motion station.",
+      "incident_date": "2010-09-04",
+      "latest_report_date": "2011-06",
+      "what_happened": "The GEER (Geo-Engineering Extreme Events Reconnaissance) team surveyed primary and secondary Waimakariri River levees and primary Kaiapoi River levees after the 4 September 2010 Darfield earthquake and again after the 22 February 2011 Christchurch earthquake. The 2011-06 stopbank chapter: stretches founded on loose, saturated fluvial sandy deposits sustained liquefaction-related damage — lateral spreading, slumping and settlement. Environment Canterbury personnel oversaw post-earthquake assessments and repairs. This record is the 4 September 2010 Darfield shaking of the named stopbanks (PGA ~0.32 g at Kaiapoi), not a flood breach. No source fetched gave a stopbank-specific death count. Canterbury earthquake deaths are not copied.",
+      "status": "Damaged 4 Sep 2010; ECan repairs. Further shaking Feb 2011.",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "GEER 2011 — Christchurch stopbanks chapter (Waimakariri eastern reach and Kaiapoi River levees; liquefaction damage)",
+          "url": "https://geerassociation.org/components/com_geer_reports/geerfiles/Christchurch_2011_06_-_Stopbanks_rev1.pdf"
+        },
+        {
+          "label": "Wikipedia — Kaiapoi 43°22′54″S 172°39′26″E",
+          "url": "https://en.wikipedia.org/wiki/Kaiapoi"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Date is the Wikipedia flood-of-record January 2013; 2010 and 2011 scour is noted in what_happened, not separate ids. Distinct from live Paradise Burnett 2013 (different dam).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "SunWater",
+      "year_built": "1983",
+      "height_m": 63,
+      "reservoir_capacity": "204,200 ML (Wikipedia)",
+      "construction": "rockfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "about $50 million spillway reinstatement (Queensland Government 2016)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "boondooma-spillway-2013-01",
+      "name": "Boondooma Dam unlined spillway scour (2010–2013 floods)",
+      "country": "Australia",
+      "region": "Boyne River on the Boondooma/Proston boundary, South Burnett, Queensland",
+      "location_label": "Boondooma Dam, South Burnett, Queensland, Australia",
+      "lat": -26.094839,
+      "lng": 151.433702,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Boondooma Dam 26°05′41″S 151°26′01″E",
+      "river_or_facility": "Boondooma Dam / Lake Boondooma; Boyne River below Stuart River confluence",
+      "type": "spillway",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Wikipedia: maximum 173.8% (6.17 m over the uncontrolled spillway) in January 2013 from ex-Tropical Cyclone Oswald. Queensland minister (Oct/Nov 2016): spillway damage from the 2011 and 2013 floods. Hartecs: large scour holes in the chute after 2010, 2011 and 2013 floods.",
+      "incident_date": "2013-01",
+      "latest_report_date": "2016-11-15",
+      "what_happened": "Wikipedia Boondooma Dam: rockfill dam on the Boyne completed 1983, supplies Tarong Power Station and irrigation. The lake peaked at 173.8% of capacity (6.17 m over the uncontrolled spillway) in January 2013 from ex-Tropical Cyclone Oswald — the recorded maximum. Queensland Treasurer Curtis Pitt (28 Oct 2016) and Roads & Infrastructure (15 Nov 2016): SunWater committed about $50 million to repair the spillway after damage in the 2011 and 2013 Queensland floods; in 2013 the dam safely passed the most significant flood on record. Hartecs project page: significant spillway damage after 2010, 2011 and 2013 floods, including large scour holes in the chute and severe scour downstream of the erosion-control structure. Same class as live Copeton unlined-spillway scour. The dam did not breach. No death count. 2013 Queensland flood deaths are not copied.",
+      "status": "Spillway repaired (Fulton Hogan contract from 2016; works into 2018). Dam operational (SunWater).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "Wikipedia — Boondooma Dam (Jan 2013 peak 173.8% / 6.17 m over spillway; 26°05′41″S 151°26′01″E)",
+          "url": "https://en.wikipedia.org/wiki/Boondooma_Dam"
+        },
+        {
+          "label": "Queensland Government 28 Oct 2016 — $50.5 million to reinstate Boondooma spillway",
+          "url": "https://statements.qld.gov.au/statements/79188"
+        },
+        {
+          "label": "Roads & Infrastructure 15 Nov 2016 — Fulton Hogan contract; 2011 and 2013 flood damage; 2013 flood of record passed safely",
+          "url": "https://roadsonline.com.au/tender-awarded-to-repair-boondooma-dam-spillway/"
+        },
+        {
+          "label": "Hartecs — Boondooma spillway improvement (scour holes after 2010, 2011 and 2013 floods)",
+          "url": "https://www.hartecs.com.au/boondooma-dam-spillway-improvement-project/"
+        }
+      ],
+      "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Deaths null. Do not copy March 2021 NSW flood deaths/evacuations onto Warragamba. Category incident: designed spillway overflow, same class as live Copeton 2022. ABC URL as cited from Wikipedia references.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "WaterNSW",
+      "year_built": "1960",
+      "height_m": 142,
+      "reservoir_capacity": "2,065 GL (Wikipedia)",
+      "construction": "concrete_gravity",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "warragamba-2021-03-20",
+      "name": "Warragamba Dam (20 March 2021 overflow)",
+      "country": "Australia",
+      "region": "Warragamba, Wollondilly Shire, outer south-western Sydney, New South Wales",
+      "location_label": "Warragamba Dam / Lake Burragorang, New South Wales, Australia",
+      "lat": -33.88306,
+      "lng": 150.59556,
+      "geo_accuracy": "site",
+      "geo_source": "Wikipedia Warragamba Dam 33°52′59″S 150°35′44″E",
+      "river_or_facility": "Warragamba Dam / Lake Burragorang; Warragamba River (Hawkesbury–Nepean)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "ABC 20 March 2021: first spill since 2016; water over the wall about 16:00 Saturday during a days-long NSW rain event. Wikipedia: gates open automatically as the dam passes full water level.",
+      "incident_date": "2021-03-20",
+      "latest_report_date": "2021-03-20",
+      "what_happened": "ABC News 20 March 2021 (updated 21 March): Sydney's main water source, Warragamba Dam, spilled over for the first time since 2016; water began cascading over the dam wall about 16:00 Saturday 20 March 2021 during a days-long NSW rain event. Wikipedia: concrete gravity dam completed 1960 (Lake Burragorang), 33°52′59″S 150°35′44″E; the main spillway has five crest gates that open automatically as the dam passes full water level, or can be opened manually. The dam did not breach. No death count in the ABC overflow report. Regional March 2021 NSW flood deaths and evacuations (including Picton, cited upstream of the dam) are not copied onto this record. Later overflows in March 2022 and April 2024 are separate events.",
+      "status": "Operational (WaterNSW).",
+      "deaths": null,
+      "sources": [
+        {
+          "label": "ABC News 20 Mar 2021 — Warragamba Dam overflows for first time in years amid NSW extreme weather",
+          "url": "https://www.abc.net.au/news/2021-03-20/warragamba-dam-overflows-for-first-time-in-years/13264590"
+        },
+        {
+          "label": "Wikipedia — Warragamba Dam (overflowed 20 March 2021; 33°52′59″S 150°35′44″E)",
+          "url": "https://en.wikipedia.org/wiki/Warragamba_Dam"
+        }
+      ],
+      "severity": "moderate"
     }
   ]
 }
