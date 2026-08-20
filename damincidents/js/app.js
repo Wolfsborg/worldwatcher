@@ -797,6 +797,7 @@
     geo_source: "Coordinate source",
     era: "Era",
     latest_report_date: "Latest report",
+    created_at: "Record created",
     last_updated: "Record updated",
     in_baseline: "In baseline",
     type: "Type",
@@ -841,7 +842,7 @@
   const META_KEYS = [
     "id", "country", "region", "river_or_facility", "lat", "lng",
     "geo_accuracy", "geo_source", "era", "latest_report_date",
-    "last_updated", "category", "verification",
+    "created_at", "last_updated", "category", "verification",
   ];
 
   const PRIMARY_KEYS = new Set([
@@ -853,7 +854,7 @@
     "downstream_risk", "economic_damage", "investigating_agency", "severity",
     "id", "country", "region", "river_or_facility", "lat", "lng",
     "geo_accuracy", "geo_source", "era", "latest_report_date",
-    "last_updated", "in_baseline",
+    "created_at", "last_updated", "in_baseline",
     "flood_type", "river_or_basin", "peak_discharge", "return_period",
     "rainfall_mm", "inundation_area", "warning_issued", "related_dam_id",
     "changelog",
@@ -898,7 +899,6 @@
 
   function changelogHtml(inc) {
     const log = inc.changelog;
-    if (!log || !Array.isArray(log) || log.length === 0) return "";
     
     const BY_LABEL = {
       night_qc: "Night QC",
@@ -907,6 +907,10 @@
       qc: "QC",
       backfill: "Backfill",
     };
+    
+    if (!log || !Array.isArray(log) || log.length === 0) {
+      return "<h3>Change log</h3><p class='muted'>No recorded edits yet.</p>";
+    }
     
     const items = log.map((entry) => {
       const dateStr = entry.date || "";
