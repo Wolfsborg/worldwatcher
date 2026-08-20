@@ -187,6 +187,43 @@
       <h2 id="stats-title">Dashboard</h2>
       <button type="button" class="detail-close" id="stats-close" aria-label="Close dashboard">Close</button>
     </div>
+    
+    <div class="dashboard-controls">
+      <div class="chip-row" id="dashboard-period-chips">
+        <button type="button" class="chip" data-period="all" aria-pressed="false">All</button>
+        <button type="button" class="chip" data-period="year" aria-pressed="false">This year</button>
+        <button type="button" class="chip" data-period="lastyear" aria-pressed="false">Last year</button>
+        <button type="button" class="chip" data-period="5y" aria-pressed="false">5y</button>
+        <button type="button" class="chip" data-period="decade" aria-pressed="false">10y</button>
+        <button type="button" class="chip" data-period="century" aria-pressed="true">2000+</button>
+        <button type="button" class="chip" data-period="historical" aria-pressed="false">pre-2000</button>
+        <button type="button" class="chip" data-period="pre1700" aria-pressed="false">pre-1700</button>
+      </div>
+      
+      <div class="year-range" role="group" aria-labelledby="dashboard-years-label">
+        <span class="field-label" id="dashboard-years-label">Years</span>
+        <div class="year-inputs">
+          <label class="year-box">
+            <span class="sr-only">From year</span>
+            <input type="text" id="dashboard-year-min" inputmode="text">
+          </label>
+          <span class="year-sep" aria-hidden="true">–</span>
+          <label class="year-box">
+            <span class="sr-only">To year</span>
+            <input type="text" id="dashboard-year-max" inputmode="text">
+          </label>
+        </div>
+        <div class="year-slider" id="dashboard-year-slider">
+          <div class="year-slider-rail"></div>
+          <div class="year-slider-fill" id="dashboard-year-slider-fill"></div>
+          <input type="range" id="dashboard-year-slider-min" aria-label="From year">
+          <input type="range" id="dashboard-year-slider-max" aria-label="To year">
+        </div>
+      </div>
+      
+      <p class="dashboard-count" id="dashboard-count"></p>
+    </div>
+    
     <div class="stats-body" id="stats-body">
       <div class="stats-loading">Loading statistics...</div>
     </div>

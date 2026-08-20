@@ -117,6 +117,13 @@
     statsBody: document.getElementById("stats-body"),
     statsOpen: document.getElementById("stats-open"),
     statsClose: document.getElementById("stats-close"),
+    dashboardYearMin: document.getElementById("dashboard-year-min"),
+    dashboardYearMax: document.getElementById("dashboard-year-max"),
+    dashboardYearSliderMin: document.getElementById("dashboard-year-slider-min"),
+    dashboardYearSliderMax: document.getElementById("dashboard-year-slider-max"),
+    dashboardYearSliderFill: document.getElementById("dashboard-year-slider-fill"),
+    dashboardPeriods: document.getElementById("dashboard-period-chips"),
+    dashboardCount: document.getElementById("dashboard-count"),
   };
 
   let layer = "dams";
@@ -125,6 +132,8 @@
 
   let all = [];
   let yearBounds = { min: 1864, max: 2026 };
+  let dashboardYearBounds = { min: 1864, max: 2026 };
+  let dashboardYearRange = { min: 2000, max: 2026 };
   let selectedId = null;
   let lastDetailTab = "event";
   let map, cluster, selectedLayer, fallbackLayer;
@@ -359,6 +368,98 @@
       if (on) match = b.dataset.period;
     });
     return match;
+  }
+
+  function dashboardYearPair() {
+    let a = parseYearInput(els.dashboardYearMin.value);
+    let b = parseYearInput(els.dashboardYearMax.value);
+    if (Number.isNaN(a)) a = els.dashboardYearMin.dataset.numericValue ? parseInt(els.dashboardYearMin.dataset.numericValue, 10) : dashboardYearBounds.min;
+    if (Number.isNaN(b)) b = els.dashboardYearMax.dataset.numericValue ? parseInt(els.dashboardYearMax.dataset.numericValue, 10) : dashboardYearBounds.max;
+    if (Number.isNaN(a)) a = dashboardYearBounds.min;
+    if (Number.isNaN(b)) b = dashboardYearBounds.max;
+    return [a, b];
+  }
+
+  function setDashboardYearInputs(min, max) {
+    if (min > max) {
+      const t = min;
+      min = max;
+      max = t;
+    }
+    min = Math.max(dashboardYearBounds.min, Math.min(dashboardYearBounds.max, min));
+    max = Math.max(dashboardYearBounds.min, Math.min(dashboardYearBounds.max, max));
+    dashboardYearRange.min = min;
+    dashboardYearRange.max = max;
+    els.dashboardYearMin.value = formatYear(min);
+    els.dashboardYearMax.value = formatYear(max);
+    els.dashboardYearMin.dataset.numericValue = min;
+    els.dashboardYearMax.dataset.numericValue = max;
+    paintDashboardYearSlider();
+  }
+
+  function paintDashboardYearSlider() {
+    if (!els.dashboardYearSliderMin || !els.dashboardYearSliderMax) return;
+    const [a, b] = dashboardYearPair();
+    els.dashboardYearSliderMin.min = 0;
+    els.dashboardYearSliderMin.max = SLIDER_STEPS;
+    els.dashboardYearSliderMax.min = 0;
+    els.dashboardYearSliderMax.max = SLIDER_STEPS;
+    const pa = yearToPos(a);
+    const pb = yearToPos(b);
+    els.dashboardYearSliderMin.value = pa;
+    els.dashboardYearSliderMax.value = pb;
+    const wrap = document.getElementById("dashboard-year-slider");
+    if (wrap) wrap.classList.remove("is-ancient");
+    if (!els.dashboardYearSliderFill) return;
+    const left = (Math.min(pa, pb) / SLIDER_STEPS) * 100;
+    const right = (Math.max(pa, pb) / SLIDER_STEPS) * 100;
+    els.dashboardYearSliderFill.style.left = left + "%";
+    els.dashboardYearSliderFill.style.width = Math.max(0, right - left) + "%";
+  }
+
+  function setDashboardPeriod(period) {
+    if (!els.dashboardPeriods) return;
+    [...els.dashboardPeriods.querySelectorAll(".chip")].forEach((b) => {
+      b.setAttribute("aria-pressed", b.dataset.period === period ? "true" : "false");
+    });
+    const range = periodRange(period);
+    setDashboardYearInputs(range[0], range[1]);
+  }
+
+  function syncDashboardPeriodFromYears() {
+    if (!els.dashboardPeriods) return;
+    const ymin = parseYearInput(els.dashboardYearMin.value);
+    const ymax = parseYearInput(els.dashboardYearMax.value);
+    let match = null;
+    [...els.dashboardPeriods.querySelectorAll(".chip")].forEach((b) => {
+      const r = periodRange(b.dataset.period);
+      const on = r[0] === ymin && r[1] === ymax;
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+      if (on) match = b.dataset.period;
+    });
+    return match;
+  }
+
+  function filterDashboardIncidents() {
+    const [ymin, ymax] = dashboardYearPair();
+    return all.filter((inc) => {
+      const y = yearOf(inc);
+      if (y != null && (y < ymin || y > ymax)) return false;
+      return true;
+    });
+  }
+
+  function renderDashboard() {
+    if (!els.statsBody || !window.worldwatcherStats) return;
+    const filtered = filterDashboardIncidents();
+    const html = window.worldwatcherStats.render(filtered, layer);
+    els.statsBody.innerHTML = html;
+    if (els.dashboardCount) {
+      const total = all.length;
+      els.dashboardCount.textContent = filtered.length === total
+        ? `${formatNum(total)} incidents`
+        : `${formatNum(filtered.length)} of ${formatNum(total)} incidents`;
+    }
   }
 
   function filtered() {
@@ -942,8 +1043,11 @@
     
     const data = cache[layer];
     if (data && window.worldwatcherStats) {
-      const html = window.worldwatcherStats.render(data, layer);
-      els.statsBody.innerHTML = html;
+      dashboardYearBounds.min = yearBounds.min;
+      dashboardYearBounds.max = yearBounds.max;
+      
+      setDashboardPeriod("century");
+      renderDashboard();
     } else {
       els.statsBody.innerHTML = '<div class="stats-loading">Loading statistics...</div>';
     }
@@ -1034,6 +1138,47 @@
         apply();
       });
     }
+    
+    if (els.dashboardYearMin && els.dashboardYearMax) {
+      const onDashboardYearField = (which) => {
+        let [a, b] = dashboardYearPair();
+        if (a > b) {
+          if (which === "min") a = b;
+          else b = a;
+        }
+        setDashboardYearInputs(a, b);
+        syncDashboardPeriodFromYears();
+        renderDashboard();
+      };
+      els.dashboardYearMin.addEventListener("change", () => onDashboardYearField("min"));
+      els.dashboardYearMax.addEventListener("change", () => onDashboardYearField("max"));
+    }
+    
+    if (els.dashboardYearSliderMin && els.dashboardYearSliderMax) {
+      const fromDashboardSlider = (which) => {
+        let a = posToYear(els.dashboardYearSliderMin.value);
+        let b = posToYear(els.dashboardYearSliderMax.value);
+        if (which === "min" && a > b) a = b;
+        if (which === "max" && b < a) b = a;
+        setDashboardYearInputs(a, b);
+        syncDashboardPeriodFromYears();
+        renderDashboard();
+      };
+      els.dashboardYearSliderMin.addEventListener("input", () => fromDashboardSlider("min"));
+      els.dashboardYearSliderMax.addEventListener("input", () => fromDashboardSlider("max"));
+      els.dashboardYearSliderMin.addEventListener("pointerdown", () => { els.dashboardYearSliderMin.style.zIndex = 4; els.dashboardYearSliderMax.style.zIndex = 3; });
+      els.dashboardYearSliderMax.addEventListener("pointerdown", () => { els.dashboardYearSliderMax.style.zIndex = 4; els.dashboardYearSliderMin.style.zIndex = 3; });
+    }
+    
+    if (els.dashboardPeriods) {
+      els.dashboardPeriods.addEventListener("click", (e) => {
+        const btn = e.target.closest(".chip");
+        if (!btn) return;
+        setDashboardPeriod(btn.dataset.period);
+        renderDashboard();
+      });
+    }
+    
     els.chips.addEventListener("click", (e) => {
       const btn = e.target.closest(".chip");
       if (!btn || btn.id === "geo-uncertain") return;
