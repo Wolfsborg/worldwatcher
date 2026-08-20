@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1051,
+  "count": 1071,
   "current_count": 26,
-  "historical_count": 1025,
+  "historical_count": 1045,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -57426,6 +57426,1095 @@
         {
           "label": "Wikipedia — Lago di Palagnedra",
           "url": "https://en.wikipedia.org/wiki/Lago_di_Palagnedra"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. Do not copy Ibadan 26 Aug 2011 flood totals (Red Cross 102 / BBC 120+) onto this dam. Later technical papers: embankment stable; stilling basin damaged.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Oyo State Water Corporation / Ibadan Water Corporation",
+      "year_built": "1942 (IUFMP / Oyo State; some literature also cites 1939)",
+      "height_m": 13.0,
+      "reservoir_capacity": "7 Mm³ (World Bank IUFMP ESIA)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": "ungated overflow; design spillway 367.9 m³/s (IUFMP). Released volume not given.",
+      "breach_size": null,
+      "downstream_risk": "Ona River through Ibadan; waterworks immediately downstream submerged",
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "eleyele-2011-08-26",
+      "name": "Eleyele Dam (26 August 2011 overflow / spillway damage)",
+      "country": "Nigeria",
+      "region": "Eleyele / Ido LGA, Ibadan, Oyo State",
+      "location_label": "Eleyele Dam, Ibadan, Oyo State, Nigeria",
+      "lat": 7.433056,
+      "lng": 3.867222,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia (Eleyele-Stausee) 7°25′59″N 3°52′2″E",
+      "river_or_facility": "Eleyele Dam / Ona River (Eleiyele waterworks)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "BBC 3 Sep 2011: after six hours of torrential rain the dam overflowed. World Bank IUFMP / FUNAAB: dam remained stable; stilling basin and downstream walls damaged; waterworks submerged.",
+      "incident_date": "2011-08-26",
+      "latest_report_date": "2018-04-20",
+      "what_happened": "On Friday 26 August 2011, after hours of torrential rain, Eleyele Dam on the Ona River in Ibadan overflowed. BBC (3 September 2011): Ibadan Water Corporation's Oguntola Gabriel said the water exceeded the dam's capacity so the rest had to overflow, and that this last happened in 1980; BBC described water pouring over the top near midnight. France 24 / AFP (1 September 2011) quoted Nigerian Red Cross disaster coordinator Umar Mairiga saying the dam 'collapsed' and giving a then death toll of 102; BBC two days later wrote that more than 120 people perished. Later technical assessments do not treat the embankment as having breached: a FUNAAB paper on the 26 August flood said the dam was stable but the stilling basin and downstream walls were damaged and the waterworks, transformer, pump house and control panels were completely submerged as water rose about 2.4 m above the channel floor; the paper said spillway capacity was adequate and findings went contrary to the belief that upper-catchment dams 'gave up'. An IDRiM 2012 paper likewise called stilling-basin and wing-wall damage a secondary cause of the city flood. German Wikipedia: the 26 August 2011 flood heavily damaged the works; Oyo State later rehabilitated the dam and intake tower under the World Bank IUFMP (works released 2018). World Bank IUFMP ESIA: earth dam built 1942, reservoir 7 Mm³, embankment 244 m (138 m plus 106 m spillway), crest height 13.0 m, ungated ogee spillway design flood 367.9 m³/s. Deaths left null: contemporaneous Red Cross/BBC figures are Ibadan flood totals attributed to the overflow; later papers say the dam did not collapse and the city flood had multiple causes (blocked drains, building on waterways). Those city-wide counts are not copied onto the dam.",
+      "status": "Spillway/stilling basin damaged 2011; dam and intake tower later rehabilitated under IUFMP (Oyo State 2018).",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "BBC 3 Sep 2011 — Ibadan reflects on Eleyele Dam tragedy",
+          "url": "https://www.bbc.com/news/world-africa-14774793"
+        },
+        {
+          "label": "France 24 / AFP 1 Sep 2011 — Red Cross 102, dam 'collapsed'",
+          "url": "https://www.france24.com/en/20110901-nigeria-dam-burst-deaths-heavy-rains-eleyele-weather"
+        },
+        {
+          "label": "World Bank IUFMP ESIA — Eleyele Dam features (coords box; 7 Mm³; 244 m)",
+          "url": "https://documents1.worldbank.org/curated/en/566181485759738747/pdf/SFG2854-EA-P130840-Box402881B-PUBLIC-Disclosed-1-26-2017.pdf"
+        },
+        {
+          "label": "German Wikipedia — Eleyele-Stausee (7°25′59″N 3°52′2″E; 2011 damage)",
+          "url": "https://de.wikipedia.org/wiki/Eleyele-Stausee"
+        },
+        {
+          "label": "Oyo State 20 Apr 2018 — Eleyele dam rehabilitation",
+          "url": "https://oyostate.gov.ng/oyo-rehabilitates-eleyele-dam-to-end-frightening-flooding-in-ibadan-enhance-water-supply-ajimobi/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths 0: SWAPHEP/UNISDR — flood did not directly cause any deaths at the time of failure. Later 'casualties' from poor conditions are not a death count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Edo State Urban Water Board (later papers)",
+      "year_built": "1974 (commissioned 20 January 1974; foundation 26 March 1971)",
+      "height_m": 3.9,
+      "reservoir_capacity": "UNISDR: 900,000 gallons. Olayanju et al. 2019: 45.3 million m³. IJAERS 2022: 5 million m³. Figures conflict; not reconciled.",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": "more than 180 houses destroyed in Akuku (UNISDR / SWAPHEP)",
+      "deaths": 0,
+      "id": "ojirami-1980-08-30",
+      "name": "Ojirami Dam (30 August 1980 failure)",
+      "country": "Nigeria",
+      "region": "Ojirami-Dagbala / Akuku, Akoko-Edo LGA, Edo State",
+      "location_label": "Ojirami Dam, Akoko-Edo, Edo State, Nigeria",
+      "lat": 7.297892,
+      "lng": 6.152978,
+      "geo_accuracy": "exact",
+      "geo_source": "Olayanju et al. GEP 2019 / NIPES: 7°17′52.41″N 6°9′10.72″E (Ojirami-Dagbala, 5 km east of Igarra)",
+      "river_or_facility": "Ojirami Dam / River Onyami (flows to Ose)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "operational_gate",
+        "poor_maintenance"
+      ],
+      "cause_summary": "UNISDR / SWAPHEP 2003: failed 30 August 1980 from technical breakdown and negligence by the official on duty; no alarm when the reservoir exceeded its limit.",
+      "incident_date": "1980-08-30",
+      "latest_report_date": "2019",
+      "what_happened": "UNISDR / SWAPHEP (2003): on 30 August 1980 Ojirami Dam failed and inundated the Akuku and Enwan communities. Cause given as technical breakdown and negligence by the dam official on duty; no alarm was installed to warn local officials and communities when water exceeded the reservoir limit. The flood destroyed more than 180 houses in Akuku; SWAPHEP wrote that the flood did not directly cause any deaths at the time of the failure, though later poor conditions caused 'numerous casualties' (not a death count). Olayanju et al. (GEP 2019): foundation stone 26 March 1971, commissioned 20 January 1974, across River Onyami; failed 30 August 1980; reconstructed 1980–1982. UNISDR gives height 3.9 m and storage 900,000 gallons. Later papers also cite 3.9 m and 45.3 million m³ (those two storage figures conflict; both are recorded). A 2022 IJAERS paper separately gives height 7 m and capacity 5 million m³. Purpose: municipal water to Akoko-Edo communities (UNISDR output 245 m³/hr).",
+      "status": "Failed 1980; reconstructed 1980–1982; still operating as a municipal-supply reservoir in later papers.",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "UNISDR / SWAPHEP 2003 — Damned to be dammed (Ojirami 30 Aug 1980)",
+          "url": "https://www.unisdr.org/2003/campaign/english/15_Article_NIGERIA_eng.pdf"
+        },
+        {
+          "label": "Olayanju et al. GEP 2019 — Ojirami coords and 1980 failure / 1980–82 rebuild",
+          "url": "https://www.scirp.org/journal/paperinformation?paperid=95413"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. No event-specific fatality figure in UBRBDA, ARPN or Punch pages fetched.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Upper Benue River Basin Development Authority",
+      "year_built": "1982–1990 (UBRBDA); commissioned December 1992 (ARPN paper)",
+      "height_m": null,
+      "reservoir_capacity": "about 8 million m³ (ARPN JEAS 2010)",
+      "construction": "earthfill",
+      "purpose": "multipurpose",
+      "volume_released": null,
+      "breach_size": "about 200 m of 1,300 m crest (UBRBDA)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "cham-1998-09",
+      "name": "Cham Dam (September 1998 overtopping breach)",
+      "country": "Nigeria",
+      "region": "Cham, Balanga LGA, Gombe State",
+      "location_label": "Cham Dam, Balanga, Gombe State, Nigeria",
+      "lat": 9.7281,
+      "lng": 11.7281,
+      "geo_accuracy": "approx",
+      "geo_source": "Tabwassah / ISCA RJRS 2012 geophysical study of the failed Cham dam: 09°43.686′N, 11°43.686′E",
+      "river_or_facility": "Cham Dam (Upper Benue RBDA)",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "spillway",
+        "construction_first_filling"
+      ],
+      "cause_summary": "UBRBDA: embankment overtopped and breached about 200 m of 1,300 m in 1998 from inadequate spillway capacity. Umaru et al. / IJERT: overtopped by a flash flood; unfinished spillway; design crest not reached at 1992 commissioning.",
+      "incident_date": "1998-09",
+      "latest_report_date": "2012",
+      "what_happened": "Upper Benue River Basin Development Authority: Cham Dam was built 1982–1990 by direct labour for flood control on the Gombe–Yola highway, plus water supply and about 200 ha irrigation. The embankment overtopped and breached a section of about 200 m out of a total length of 1,300 m in 1998 because of inadequate spillway capacity. Umaru, Choji and Mshelia (ARPN JEAS 2010 / IJERT): Cham multipurpose earth dam in Cham village, Gombe, storage about 8 million m³, commissioned December 1992, failed September 1998; two conflicting cross-section designs existed and the built section was a homogeneous mismatched fill; spillway not completed; design height not achieved when hurriedly commissioned. The dam failed hydraulically and structurally when overtopped; the breach cut to foundation level. Punch later reported FEC approval of N612 million to complete rehabilitation, the minister saying the 1982 dam was breached after unprecedented rainfall and inadequate spillways. No sourced death count for the 1998 breach.",
+      "status": "Breached 1998 (~200 m of 1,300 m). Reconstruction contract awarded 2011; later RETC/FEC revisions reported.",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "UBRBDA — Cham Dam project (200 m / 1,300 m 1998 breach)",
+          "url": "https://ubrbda.gov.ng/cham.php"
+        },
+        {
+          "label": "Umaru et al. ARPN JEAS 2010 — Cham dam structural failure case",
+          "url": "http://www.arpnjournals.com/jeas/research_papers/rp_2010/jeas_1110_412.pdf"
+        },
+        {
+          "label": "IJERT — Causes and effects of earth-dam failures in NE Nigeria (Cham)",
+          "url": "https://www.ijert.org/on-the-causes-and-effects-of-earth-dams-failures-in-north-eastern-nigeria"
+        },
+        {
+          "label": "Punch — FEC N612m Cham Dam rehabilitation",
+          "url": "https://punchng.com/fec-approves-n612m-for-completion-of-cham-dam-irrigation-scheme/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. Lagdo contribution is as stated in Wikipedia/IJERT; national 2003 flood totals not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1999,
+      "height_m": 15,
+      "reservoir_capacity": "4.2 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "repair + irrigation completion estimated N350 million; 2004 spillway restore estimate N272 million (Wikipedia)",
+      "investigating_agency": null,
+      "affected_or_evacuated": "over 200 houses destroyed (Wikipedia / IJERT)",
+      "deaths": null,
+      "id": "obudu-2003-07",
+      "name": "Obudu Dam spillway (July 2003 storm damage)",
+      "country": "Nigeria",
+      "region": "Obudu LGA, Cross River State",
+      "location_label": "Obudu Dam, Cross River State, Nigeria",
+      "lat": 6.61444,
+      "lng": 9.17083,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Obudu Dam) 06°36′52″N 09°10′15″E",
+      "river_or_facility": "Obudu Dam / Abeb River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "Wikipedia / IJERT: a July 2003 rainstorm (314.5 mm at the dam station) damaged the spillway and flooded downstream; IJERT also notes alleged Lagdo excess-water contribution.",
+      "incident_date": "2003-07",
+      "latest_report_date": "2009-07-03",
+      "what_happened": "Wikipedia (Obudu Dam): earth-fill, 15 m high, crest 425 m, capacity 4.2 million m³, commissioned 1999 for irrigation, fishing and recreation. A massive rainstorm in July 2003, combined with release of excess water from Lagdo Dam in Cameroon, damaged the spillway and caused flooding that destroyed over 200 houses. Repair plus completing irrigation works was estimated at N350 million; a 2004 safety review said immediate spillway restoration was required (about N272 million). Federal tender for engineering supervision of remedial work was issued July 2009. IJERT (Dam Development and Disasters in Nigeria): Obudu meteorological station recorded 314.5 mm that day, more than the 15-year July/September peak average; experts said 16 hours of non-stop rain plus Lagdo contribution overflowed watercourses and failed the spillway channel. No sourced death count.",
+      "status": "Spillway damaged 2003; 2004 safety review called for immediate restore; 2009 remedial-works tender. Later press describes the resort as long unfinished.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikipedia — Obudu Dam (coords; July 2003 spillway; 200 houses)",
+          "url": "https://en.wikipedia.org/wiki/Obudu_Dam"
+        },
+        {
+          "label": "IJERT — Dam development and disasters in Nigeria (314.5 mm; spillway)",
+          "url": "https://www.ijert.org/dam-development-and-disasters-in-nigeria"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. Crop losses only in sources fetched. Wikipedia height 19 m vs 48 m conflict; 19 m used from the hydraulic-head / earth-fill prose.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1983,
+      "height_m": 19,
+      "reservoir_capacity": "179 Mcm (Wikipedia prose / UNEP)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "zobe-1999-09",
+      "name": "Zobe Dam (September 1999 overflow)",
+      "country": "Nigeria",
+      "region": "Dutsin-Ma LGA, Katsina State",
+      "location_label": "Zobe Dam, Katsina State, Nigeria",
+      "lat": 12.38833,
+      "lng": 7.47472,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Zobe Dam) 12°23′18″N 7°28′29″E",
+      "river_or_facility": "Zobe Dam / Karaduwa River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia / FAO GIEWS Sep 1999 / World Bank TRIMING ESIA: heavy rains overtopped Zobe Dam in September 1999, washing away crops downstream.",
+      "incident_date": "1999-09",
+      "latest_report_date": "2010",
+      "what_happened": "Wikipedia (Zobe Dam): earth-fill dam in Dutsin-Ma LGA, Katsina; completed 1983. In September 1999 heavy rains caused the dam to overflow, resulting in heavy crop losses — millet, groundnuts, guinea corn and beans washed away. FAO/GIEWS Foodcrops & Shortages 09/99 and IRIN-WA Update 547 (9 September 1999) are the sources Wikipedia cites. A World Bank TRIMING ESIA later wrote that the dam was overtopped during heavy rains in 1999 causing heavy crop damage downstream; seepage remedial work had been done in 1983 and 1984. Wikipedia table lists height 48 m / hydraulic head 19 m / length figures that do not all agree with the 19 m / 2,750 m prose; those conflicting dimensions are not resolved here. No sourced death count.",
+      "status": "Overtopped 1999; dam remained; later rehabilitation/water-supply works long delayed.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikipedia — Zobe Dam (coords; Sep 1999 overflow)",
+          "url": "https://en.wikipedia.org/wiki/Zobe_Dam"
+        },
+        {
+          "label": "World Bank TRIMING ESIA — Zobe overtopped 1999",
+          "url": "https://documents1.worldbank.org/curated/en/138931612436004286/pdf/Environmental-and-Social-Impact-Assessment-for-Zobe-Dam-and-Associated-Infrastructures-Rehabilitation-Works.pdf"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. IRIN 30+ / later 100+ are combined Kano–Jigawa flood totals from Tiga+Challawa overflow, not a Tiga-only count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1971–1974",
+      "height_m": null,
+      "reservoir_capacity": "nearly 2,000,000,000 m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "tiga-2001-08",
+      "name": "Tiga Dam (August 2001 overflow)",
+      "country": "Nigeria",
+      "region": "southern Kano State (Kano River / Hadejia)",
+      "location_label": "Tiga Dam, Kano State, Nigeria",
+      "lat": 11.43722,
+      "lng": 8.4025,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Tiga Dam) 11°26′14″N 8°24′9″E",
+      "river_or_facility": "Tiga Dam / Kano River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "IRIN 30 Aug 2001: after torrential rain 25–26 August, Tiga and Challawa dams overflowed into downstream villages. Contemporaneous IRIN describes overflow, not a structural collapse.",
+      "incident_date": "2001-08-26",
+      "latest_report_date": "2003",
+      "what_happened": "IRIN / The New Humanitarian (30 August 2001): following two days of torrential rain over the weekend of 25–26 August, Tiga and Challawa dams, fed by the Kano and Hadejia rivers, overflowed and swept through scores of downstream villages and farmlands. Local officials then said more than 30 people were killed and about 10,000 left homeless in Kano State. A 3 September IRIN follow-up said a traditional ruler estimated more than 100 dead as the flood moved into Jigawa, with more than 20,000 displaced in Ringim and Taura plus over 30,000 earlier in Kano. Those figures are combined Tiga+Challawa+river flood totals and are not copied onto Tiga. Wikipedia (Tiga Dam): built 1971–1974, about 178 km², maximum capacity nearly 2 billion m³. Later academic lists sometimes call this a 'failure'; IRIN contemporaneous wording is overflow. No source fetched described a breach of the Tiga embankment.",
+      "status": "Overflowed August 2001; dam continued in service (later 2021 TRIMING closure for repairs is a separate event).",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "IRIN 30 Aug 2001 — Tiga and Challawa overflowed",
+          "url": "https://www.thenewhumanitarian.org/news/2001/08/30-2"
+        },
+        {
+          "label": "IRIN 3 Sep 2001 — flood moved into Jigawa",
+          "url": "https://www.thenewhumanitarian.org/news/2001/09/03-1"
+        },
+        {
+          "label": "Wikipedia — Tiga Dam (coords; 1971–74; ~2 km³)",
+          "url": "https://en.wikipedia.org/wiki/Tiga_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. Combined Tiga+Challawa flood totals not copied. Separate record from tiga-2001-08.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Hadejia-Jama’are River Basin Development Authority",
+      "year_built": "1992",
+      "height_m": 42,
+      "reservoir_capacity": "930 million m³ full / 904 million m³ active (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "challawa-2001-08",
+      "name": "Challawa Gorge Dam (August 2001 overflow)",
+      "country": "Nigeria",
+      "region": "Karaye LGA, Kano State, about 90 km southwest of Kano",
+      "location_label": "Challawa Gorge Dam, Kano State, Nigeria",
+      "lat": 11.74278,
+      "lng": 8.01722,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Challawa Gorge Dam) 11°44′34″N 8°1′2″E",
+      "river_or_facility": "Challawa Gorge Dam / Challawa River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Same IRIN 25–26 August 2001 event as Tiga: Challawa Gorge overflowed with Tiga after two days of torrential rain.",
+      "incident_date": "2001-08-26",
+      "latest_report_date": "2003",
+      "what_happened": "IRIN (30 August 2001): Tiga and Challawa dams overflowed after torrential rain on 25–26 August and swept through scores of downstream villages and farmlands. Wikipedia (Challawa Gorge Dam): earth-fill dam built by Julius Berger 1990–1992, 42 m high, 7.8 km long, full storage 930 million m³, active 904 million m³, catchment 3,857 km²; owned by Hadejia-Jama’are River Basin Development Authority. Combined Kano–Jigawa flood death/displacement figures from IRIN are not copied onto Challawa. No source fetched described a breach of the Challawa embankment.",
+      "status": "Overflowed August 2001; dam continued in service.",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "IRIN 30 Aug 2001 — Tiga and Challawa overflowed",
+          "url": "https://www.thenewhumanitarian.org/news/2001/08/30-2"
+        },
+        {
+          "label": "Wikipedia — Challawa Gorge Dam (coords; 42 m; 930 Mm³)",
+          "url": "https://en.wikipedia.org/wiki/Challawa_Gorge_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ogun-Osun River Basin Development Authority",
+      "year_built": "1983-03-29",
+      "height_m": 30.4,
+      "reservoir_capacity": "270 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": "exceptional safety release; area flooded about 2,800 ha (Wikipedia). Volume not given.",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "oyan-2009-05",
+      "name": "Oyan River Dam (May 2009 exceptional release)",
+      "country": "Nigeria",
+      "region": "Abeokuta North LGA, Ogun State, about 20 km northwest of Abeokuta",
+      "location_label": "Oyan River Dam, Ogun State, Nigeria",
+      "lat": 7.25833,
+      "lng": 3.25556,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Oyan River Dam) 7°15′30″N 3°15′20″E",
+      "river_or_facility": "Oyan River Dam / Oyan River (Ogun tributary)",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: after heavy rainfall in May 2009 operators were forced to release exceptional amounts for safety, flooding about 2,800 ha.",
+      "incident_date": "2009-05",
+      "latest_report_date": "2010-05-22",
+      "what_happened": "Wikipedia (Oyan River Dam): commissioned 29 March 1983, operated by Ogun-Osun River Basin Development Authority; height 30.4 m, crest 1,044 m, gross storage 270 million m³. In May 2009, after heavy rainfall, operators were forced to release exceptional amounts of water for safety reasons, causing some flooding over an area of 2,800 hectares. Wikipedia cites Hope Afoke Orivri, Nigerian Compass, 26 May 2009 ('Flood imminent in River Ogun plain'). No sourced death count.",
+      "status": "Exceptional safety release May 2009; dam operating.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikipedia — Oyan River Dam (coords; May 2009 2,800 ha release)",
+          "url": "https://en.wikipedia.org/wiki/Oyan_River_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. 63 centimetres is the figure as quoted in the FUNAAB extract of Daily Trust; unit as printed.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ogun-Osun River Basin Development Authority",
+      "year_built": "1983-03-29",
+      "height_m": 30.4,
+      "reservoir_capacity": "270 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "oyan-2010-08-21",
+      "name": "Oyan River Dam (21 August 2010 gradual release)",
+      "country": "Nigeria",
+      "region": "Abeokuta North LGA, Ogun State",
+      "location_label": "Oyan River Dam, Ogun State, Nigeria",
+      "lat": 7.25833,
+      "lng": 3.25556,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Oyan River Dam) 7°15′30″N 3°15′20″E",
+      "river_or_facility": "Oyan River Dam / Oyan River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "FUNAAB paper quoting Daily Trust 23 Aug 2010: OORBDA began gradual release on Saturday 21 August after heavy rain, to avoid collapse.",
+      "incident_date": "2010-08-21",
+      "latest_report_date": "2012",
+      "what_happened": "A FUNAAB paper on Oyan floodplain management quotes Daily Trust, Monday 23 August 2010: Ogun-Oshun River Basin Development Authority warned of an impending rise on the Ogun as it prepared to release from Oyan Dam. Assistant director (PR) Femi Dokunmu said the dam commenced gradual release of water on Saturday (21 August 2010); heavy rainfall in the last few days had raised the water level to a point where gradual release was imperative. Residents and estate developers on the banks of the Oyan and Ogun in Ogun and Lagos were asked to take precautions. Dokunmu told newsmen the water level had risen to an 'alarming 63 centimetres', necessitating the release to avoid collapse. The same paper recalls that a 2007 release after heavy rain flooded farms and homes in Abeokuta and Isheri (separate thinner mention). No sourced death count for the 2010 release.",
+      "status": "Gradual safety release 21 August 2010; dam operating.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "FUNAAB — Oyan Dam release warning, Daily Trust 23 Aug 2010 quoted",
+          "url": "https://publications.funaab.edu.ng/index.php/NAHS/article/view/918/886"
+        },
+        {
+          "label": "Wikipedia — Oyan River Dam (coords)",
+          "url": "https://en.wikipedia.org/wiki/Oyan_River_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. Downstream flood extent described by Punch; national flood totals not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ogun-Osun River Basin Development Authority",
+      "year_built": "1983-03-29",
+      "height_m": 30.4,
+      "reservoir_capacity": "270 million m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": "OORBDA MD: less than 10 percent (Punch 21 Oct 2019)",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "oyan-2019-10",
+      "name": "Oyan River Dam (October 2019 controlled release)",
+      "country": "Nigeria",
+      "region": "Abeokuta North LGA, Ogun State (downstream Ketu/Mile 12, Akute, Warewa)",
+      "location_label": "Oyan River Dam, Ogun State, Nigeria",
+      "lat": 7.25833,
+      "lng": 3.25556,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Oyan River Dam) 7°15′30″N 3°15′20″E",
+      "river_or_facility": "Oyan River Dam / Oyan River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Punch 21 Oct 2019: Lagos and Ogun in talks after Oyan opening contributed to flooding; OORBDA MD said the release was less than 10 percent, a normal scientific release.",
+      "incident_date": "2019-10",
+      "latest_report_date": "2019-10-21",
+      "what_happened": "The Punch (21 October 2019): Lagos and Ogun state governments were in talks to control water released from Oyan Dam, which had contributed to flooding in both states. Hundreds of communities and estates around Ketu and Mile 12 (Lagos) and Akute, Warewa and OPIC (Ogun) had been flooded in the previous week after heavy rain and the opening of Oyan. OORBDA managing director Oluwafemi Odumosu told Punch the water released was less than 10 percent and that periodic opening is done so the dam does not overflow. No sourced death count for this release.",
+      "status": "Controlled release October 2019; dam operating.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Punch 21 Oct 2019 — Lagos, Ogun on Oyan Dam water release",
+          "url": "https://punchng.com/flooding-lagos-ogun-brainstorm-over-oyan-dam-water-release/"
+        },
+        {
+          "label": "Wikipedia — Oyan River Dam (coords)",
+          "url": "https://en.wikipedia.org/wiki/Oyan_River_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. 1999 '60 villages' line on the same Wikipedia page is not added as a separate incident.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Federal Government of Nigeria / Mainstream Energy (later operator)",
+      "year_built": 1968,
+      "height_m": 65,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": "nearly 60 villages flooded (Wikipedia)",
+      "deaths": null,
+      "id": "kainji-1998-10",
+      "name": "Kainji Dam (October 1998 flood-gate release)",
+      "country": "Nigeria",
+      "region": "Kainji, Niger State, on the Niger River",
+      "location_label": "Kainji Dam, Niger State, Nigeria",
+      "lat": 9.8625,
+      "lng": 4.61333,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Kainji Dam) 09°51′45″N 04°36′48″E",
+      "river_or_facility": "Kainji Dam / Niger River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: in October 1998 a torrent was released in response to upstream flooding; river banks burst and nearly 60 villages were flooded. Officials were criticised for waiting too long then dumping too much water.",
+      "incident_date": "1998-10",
+      "latest_report_date": "2009-07-26",
+      "what_happened": "Wikipedia (Kainji Dam): construction 1964–1968; concrete/earth structure, centre section 65 m high, primary overflow section 550 m. In October 1998, in response to upstream flooding, a torrent of water was released from the dam, bursting the river banks. Nearly 60 villages were flooded. Domestic animals drowned and dikes as well as several farms were washed away. Dam officials were criticised for waiting too long before starting and then dumping too much water. Wikipedia cites a now-archived 'The dam which brought disaster' article. Wikipedia separately notes that in 1999 uncoordinated opening of floodgates led to local flooding of about 60 villages — same village count; treated here as the October 1998 release Wikipedia dates, not a second invented event. No sourced human death count.",
+      "status": "Release October 1998; dam operating (760 MW installed of 960 MW design).",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "Wikipedia — Kainji Dam (coords; October 1998 release; ~60 villages)",
+          "url": "https://en.wikipedia.org/wiki/Kainji_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. Not the 1994 collapse already in the DB.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Chad Basin Development Authority (later sources)",
+      "year_built": "1984–1986",
+      "height_m": 9,
+      "reservoir_capacity": "112 million m³ (Wikipedia)",
+      "construction": "embankment",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "alau-1992-10",
+      "name": "Alau Dam (October 1992 spill)",
+      "country": "Nigeria",
+      "region": "Alau, Konduga LGA, Borno State",
+      "location_label": "Alau Dam, Borno State, Nigeria",
+      "lat": 11.72417,
+      "lng": 13.285,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Alau Dam) 11°43′27″N 13°17′06″E — same pin as existing 1994/2012/2024 records",
+      "river_or_facility": "Alau Dam / Ngadda River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia and Ikusemoran-type papers: in October 1992 Alau reached its maximum storage (papers: 329 m) and spilled into Jere Bowl.",
+      "incident_date": "1992-10",
+      "latest_report_date": "2024-09-10",
+      "what_happened": "Wikipedia (Alau Dam): constructed 1984–1986, 9 m, reservoir about 112 million m³. In 1992 the dam reached its maximum storage level and spilled over, causing flooding in Jere Bowl. A European Scientific Journal paper on Alau/Jere Bowl: in October 1992 Alau Dam reached its maximum storage level of 329 m and there was spillage due to excess water above the normal retention level, which flowed downstream into the Jere Bowl; Ngadda Bul also flowed into the bowl that rainy season. Distinct from the 1994 collapse, 2012 evacuation-valve release and 2024 collapse already in the DB. No sourced death count for the 1992 spill.",
+      "status": "Spilled October 1992; dam continued until later 1994/2012/2024 events (separate records).",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikipedia — Alau Dam (1992 maximum-level spill into Jere Bowl)",
+          "url": "https://en.wikipedia.org/wiki/Alau_Dam"
+        },
+        {
+          "label": "ESJ — Alau Dam October 1992 329 m spill into Jere Bowl",
+          "url": "https://eujournal.org/index.php/esj/article/view/5961/5747"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths 0: German Wikipedia — no deaths in the 10 March 1872 construction failure. Separate from 1881 and 1927 records.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "under construction 1865–1873 (failed 10 March 1872 before completion)",
+      "height_m": 36,
+      "reservoir_capacity": null,
+      "construction": "masonry",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": "55 by 12 m (German Wikipedia)",
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": 0,
+      "id": "fergoug-1872-03-10",
+      "name": "Fergoug / Habra Dam (10 March 1872 construction breach)",
+      "country": "Algeria",
+      "region": "Oued Habra / Fergoug near Mohammadia (Perrégaux), Mascara",
+      "location_label": "Fergoug Dam, Mohammadia, Mascara, Algeria",
+      "lat": 35.521722,
+      "lng": 0.046139,
+      "geo_accuracy": "exact",
+      "geo_source": "German Wikipedia Barrage de Fergoug 35°31′18″N 0°02′46″E — same pin as 1881/1927 records",
+      "river_or_facility": "Barrage de Fergoug / Oued Habra",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "construction_first_filling"
+      ],
+      "cause_summary": "German Wikipedia (Barrage de Fergoug): first wall, built 1865–1873, failed during construction on 10 March 1872; breach 55 by 12 m; no deaths.",
+      "incident_date": "1872-03-10",
+      "latest_report_date": "2021-04-04",
+      "what_happened": "German Wikipedia (Barrage de Fergoug / El Habra): the first dam wall on the Habra was built 1865–1873. It failed for the first time during construction on 10 March 1872, with no deaths. There was a breach of 55 by 12 m. After completion the masonry gravity dam was about 36 m high and 316 m long (greatest height above foundation 43 m); designer M. Barrelier; nearby poor-quality sandstone and cement made the masonry porous. Distinct from the 15 December 1881 breach (about 250 dead) and 26 November 1927 collapse already in the DB.",
+      "status": "Construction breach 1872; first wall later completed 1873, then failed 1881.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "German Wikipedia — Barrage de Fergoug (10 Mar 1872; 55×12 m; no deaths)",
+          "url": "https://de.wikipedia.org/wiki/Barrage_de_Fergoug"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. National 2000 flood totals not copied. FAO is the narrative source; USAID fact sheet gives the 17 March / 428 m³/s figure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Electricidade de Moçambique / Government of Mozambique",
+      "year_built": 1968,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": "USAID FY2000 fact sheet: 428 m³/s from 17 March 2000. FAO does not give a rate.",
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "chicamba-2000-02",
+      "name": "Chicamba Dam (2000 Cyclone Eline emergency release)",
+      "country": "Mozambique",
+      "region": "Chicamba, Manica Province, Revue / Búzi catchment",
+      "location_label": "Chicamba Dam, Manica Province, Mozambique",
+      "lat": -19.15583,
+      "lng": 33.145,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Chicamba Hydroelectric Power Station) 19°09′21″S 33°08′42″E",
+      "river_or_facility": "Barragem da Chicamba / Revue River (Búzi catchment)",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "operational_gate",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "FAO Mozambique 2000 floods case study: intense rain in the Zimbabwe Eastern Highlands filled Chicamba rapidly; emergency release, not local cyclone rain, drove the major Búzi inundation.",
+      "incident_date": "2000-02",
+      "latest_report_date": "2004",
+      "what_happened": "FAO case study on the 2000 Mozambique floods: Cyclone Connie (4–5 February) and Cyclone Eline (21–22 February) triggered only minor flooding in the Búzi catchment, but intense rainfall in the Zimbabwean Eastern Highlands filled Chicamba Dam rapidly and produced an emergency release. FAO: the major Búzi River flooding was caused not by heavy rains in the region but by river inundation from the dam release; communities did not evacuate because rain had already stopped after Eline. Wikipedia: Chicamba HPP at 19°09′21″S 33°08′42″E, first established 1968, 44 MW after 2017 rehab (was 38.4 MW). USAID Southern Africa Floods Fact Sheet #17 (FY 2000) reported GRM officials visiting the dam 17 March 2000 and beginning a discharge of 428 m³/s to avoid potential structural failure, potentially affecting Sussundenga, Goonda and Búzi. National 2000 flood death/displacement totals are not copied onto Chicamba.",
+      "status": "Emergency release 2000; dam operating (later 2017 rehab).",
+      "verification": "confirmed",
+      "severity": "major",
+      "sources": [
+        {
+          "label": "FAO — Mozambique 2000 floods; Chicamba emergency release",
+          "url": "https://www.fao.org/4/ae079e/ae079e05.htm"
+        },
+        {
+          "label": "Wikipedia — Chicamba HPP (coords; 1968)",
+          "url": "https://en.wikipedia.org/wiki/Chicamba_Hydroelectric_Power_Station"
+        },
+        {
+          "label": "USAID Southern Africa Floods Fact Sheet #17 FY2000 — 428 m³/s from 17 Mar",
+          "url": "https://reliefweb.int/report/botswana/southern-africa-floods-fact-sheet-17-fiscal-year-fy-2000"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. 2013 Limpopo flood 113 dead is a separate national flood figure (see macarretane-2013). Not copied here.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1953–1955 (AIM / World Bank)",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "macarretane-2000-02",
+      "name": "Macarretane Dam / weir (2000 Limpopo flood damage)",
+      "country": "Mozambique",
+      "region": "Macarretane, Chokwe District, Gaza Province, Limpopo River",
+      "location_label": "Macarretane Dam, Gaza, Mozambique",
+      "lat": -24.39389,
+      "lng": 32.86444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Macarretane) 24°23′38″S 32°51′52″E",
+      "river_or_facility": "Barragem de Macarretane / Limpopo River (Chókwè irrigation)",
+      "type": "weir",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "AIM / Club of Mozambique and World Bank: 2000 Limpopo flood discharges corroded and eroded Macarretane, putting foundations at risk. JICA: Feb 2000 flood damaged the Chokwe scheme including canals.",
+      "incident_date": "2000-02",
+      "latest_report_date": "2017-05-09",
+      "what_happened": "Macarretane is a 1953–55 weir/dam on the Limpopo that also carries the road and rail bridge for the Chókwè irrigation scheme. AIM (via Club of Mozambique): President Nyusi inaugurated rehabilitation needed to repair corrosion from excessive discharges starting with the enormous 2000 Limpopo floods, which had put the 1953–55 structure at risk; a dissipation basin was installed. World Bank Nasikiliza blog (9 May 2017): operations undermined by malfunctions from the 2000 and 2013 floods; Edgar Chongo (Limpopo Basin director) said floods eroded the banks and cracked downstream sections, threatening foundation stability. JICA Chokwe rehabilitation report: in February 2000 the Limpopo flood disastrously damaged the scheme including canals and related structures. The 113 deaths / 170,000 displaced cited by the World Bank blog are the 2013 Limpopo flood, not this 2000 structure event, and are not copied here. No sourced death count for damage at the weir itself.",
+      "status": "Damaged 2000; later World Bank-financed rehab of dykes, barriers and hydro-mechanical works.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Club of Mozambique / AIM — Nyusi inaugurates Macarretane rehab (2000 corrosion)",
+          "url": "https://clubofmozambique.com/news/mozambique-nyusi-inaugurates-rehabilitated-macarretane-dam-aim-report/"
+        },
+        {
+          "label": "World Bank blog 9 May 2017 — 2000 and 2013 flood damage to Macarretane",
+          "url": "https://blogs.worldbank.org/en/nasikiliza/in-mozambique-world-bank-helps-rehabilitate-a-vital-infrastructure-ensuring-all-season-irrigation"
+        },
+        {
+          "label": "Wikipedia — Macarretane (coords)",
+          "url": "https://en.wikipedia.org/wiki/Macarretane"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. World Bank 113 / 170,000 are 2013 Limpopo flood totals, not a weir-failure toll.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": "1953–1955",
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "irrigation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "macarretane-2013",
+      "name": "Macarretane Dam / weir (2013 Limpopo flood damage)",
+      "country": "Mozambique",
+      "region": "Macarretane, Chokwe District, Gaza Province, Limpopo River",
+      "location_label": "Macarretane Dam, Gaza, Mozambique",
+      "lat": -24.39389,
+      "lng": 32.86444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Macarretane) 24°23′38″S 32°51′52″E",
+      "river_or_facility": "Barragem de Macarretane / Limpopo River",
+      "type": "weir",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "spillway"
+      ],
+      "cause_summary": "World Bank 2017: 2013 Limpopo flood added to cumulative damage — bank erosion and cracking of downstream sections threatening foundations.",
+      "incident_date": "2013",
+      "latest_report_date": "2017-05-09",
+      "what_happened": "World Bank Nasikiliza blog (9 May 2017): Macarretane's operations were undermined by successive floods in 2000 and 2013. The blog states the 2013 episode resulted in 113 lives lost and over 170,000 displaced in the wider disaster — that is the Limpopo flood, not a Macarretane breach count, and is not copied into deaths. Edgar Chongo said the floods eroded banks and cracked downstream sections of the dam, threatening foundation stability; World Bank financing (about US$32 million) rebuilt dykes and barriers and rehabilitated the hydro-mechanical system. AIM: the 1953–55 structure needed a dissipation basin after corrosion from excessive discharges. Distinct from the 2000 damage record.",
+      "status": "Further flood damage 2013; World Bank rehab of dykes/barriers and hydro-mechanical works reported 2017.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "World Bank blog 9 May 2017 — 2013 flood damage to Macarretane",
+          "url": "https://blogs.worldbank.org/en/nasikiliza/in-mozambique-world-bank-helps-rehabilitate-a-vital-infrastructure-ensuring-all-season-irrigation"
+        },
+        {
+          "label": "Club of Mozambique / AIM — Macarretane rehab",
+          "url": "https://clubofmozambique.com/news/mozambique-nyusi-inaugurates-rehabilitated-macarretane-dam-aim-report/"
+        },
+        {
+          "label": "Wikipedia — Macarretane (coords)",
+          "url": "https://en.wikipedia.org/wiki/Macarretane"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. Solai / national 2018 flood totals not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "TARDA / KenGen",
+      "year_built": 1981,
+      "height_m": 60,
+      "reservoir_capacity": "1.56 billion m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "masinga-2018-05-17",
+      "name": "Masinga Dam (17 May 2018 overflow)",
+      "country": "Kenya",
+      "region": "Embu County / Machakos County border, Tana River (Seven Forks)",
+      "location_label": "Masinga Dam, Embu / Machakos, Kenya",
+      "lat": -0.88917,
+      "lng": 37.59444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Masinga Hydroelectric Power Station) 00°53′21″S 37°35′40″E",
+      "river_or_facility": "Masinga Dam / Tana River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia: on 17 May 2018 Masinga reached capacity and began to overflow after March 2018 heavy rains; safeguards prevented failure.",
+      "incident_date": "2018-05-17",
+      "latest_report_date": "2018-05-18",
+      "what_happened": "Wikipedia (Masinga HPP): 60 m embankment, 2,200 m long, reservoir 1.56 billion m³, full-supply level 1,056.5 m, commissioned 1981, operated by KenGen. Heavy rains from March 2018 caused major Tana flooding. On 17 May 2018 it was announced that Masinga had reached capacity and begun to overflow, one week after the Patel Solai farm-dam failure. Safeguards prevented the dam from failing; other downstream dams had already reached capacity and authorities advised evacuation of Garissa, Garsen, Hola and Bura. Wikipedia cites The Standard, 17 May 2018 (Sara Okuoro, 'Masinga Dam overflows'). National 2018 flood deaths and the Solai 48 are not copied onto Masinga.",
+      "status": "Overflowed 17 May 2018; dam did not fail.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikipedia — Masinga HPP (coords; 17 May 2018 overflow)",
+          "url": "https://en.wikipedia.org/wiki/Masinga_Hydroelectric_Power_Station"
+        },
+        {
+          "label": "The Standard 17 May 2018 — Masinga Dam overflows (cited by Wikipedia)",
+          "url": "https://www.standardmedia.co.ke/"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. 2020 level from KenGen's 2024 statement citing the May 2020 record.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "TARDA / KenGen",
+      "year_built": 1981,
+      "height_m": 60,
+      "reservoir_capacity": "1.56 billion m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "masinga-2020-05",
+      "name": "Masinga Dam (May 2020 record overflow)",
+      "country": "Kenya",
+      "region": "Embu County / Machakos County border, Tana River",
+      "location_label": "Masinga Dam, Embu / Machakos, Kenya",
+      "lat": -0.88917,
+      "lng": 37.59444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Masinga Hydroelectric Power Station) 00°53′21″S 37°35′40″E",
+      "river_or_facility": "Masinga Dam / Tana River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "KenGen 2 May 2024 statement: previous record level was 1,058.13 m in May 2020 (full supply 1,056.50 m).",
+      "incident_date": "2020-05",
+      "latest_report_date": "2024-05-02",
+      "what_happened": "KenGen (2 May 2024 update on the later 2024 overflow): Masinga full-supply level is 1,056.50 m above sea level. The previous record level was 1,058.13 m, last recorded in May 2020. That 2020 level is 1.63 m above full supply, i.e. the dam was overspilling. KenGen's 2024 note is the source for the 2020 figure; a separate contemporary 2020 press article was not fetched. No sourced death count for the 2020 spill.",
+      "status": "Record overflow May 2020; dam did not fail.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "KenGen 2 May 2024 — previous record 1,058.13 m in May 2020",
+          "url": "https://www.kengen.co.ke/update-on-overflow-at-masinga-dam-as-at-02-05-2024/"
+        },
+        {
+          "label": "Wikipedia — Masinga HPP (coords; FSL 1,056.5 m)",
+          "url": "https://en.wikipedia.org/wiki/Masinga_Hydroelectric_Power_Station"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. National 2024 flood / Mai Mahiu totals not copied.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "TARDA / KenGen",
+      "year_built": 1981,
+      "height_m": 60,
+      "reservoir_capacity": "1.56 billion m³ (Wikipedia)",
+      "construction": "earthfill",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "masinga-2024-05-02",
+      "name": "Masinga Dam (May 2024 record overflow)",
+      "country": "Kenya",
+      "region": "Embu County / Machakos County border, Tana River",
+      "location_label": "Masinga Dam, Embu / Machakos, Kenya",
+      "lat": -0.88917,
+      "lng": 37.59444,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Masinga Hydroelectric Power Station) 00°53′21″S 37°35′40″E",
+      "river_or_facility": "Masinga Dam / Tana River",
+      "type": "reservoir_dam",
+      "category": "controlled_release",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "KenGen 2 May 2024: level 1,058.22 m vs FSL 1,056.50 m, highest recorded, inflow >850 m³/s; overflow began late April.",
+      "incident_date": "2024-05-02",
+      "latest_report_date": "2024-05-03",
+      "what_happened": "KenGen (2 May 2024): Masinga that morning stood at 1,058.22 m above sea level against full supply 1,056.50 m — higher than the May 2020 record of 1,058.13 m. Inflow had averaged more than 850 m³/s over the previous week. KenGen said it had warned in November 2023 that the dam would likely reach full supply and overflow in April 2024, and had advised communities near the dams and along the Tana to move to higher ground. The Star (3 May 2024): KenGen MD Peter Njenga said the dam started overflowing late the previous month and that all Seven Forks cascade dams (Kamburu, Gitaru, Kindaruma, Kiambere) had reached full supply; KenGen was considering raising Masinga 1.5 m. Citizen Digital: KenGen said the walls were built to withstand high pressure and there was no need to panic about a burst. No sourced death count at Masinga itself. National 2024 Kenya flood deaths and Mai Mahiu/Old Kijabe are not copied (Mai Mahiu previously treated as a railway culvert, not a dam).",
+      "status": "Record overflow May 2024; KenGen said the dam did not fail.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "KenGen 2 May 2024 — 1,058.22 m overflow update",
+          "url": "https://www.kengen.co.ke/update-on-overflow-at-masinga-dam-as-at-02-05-2024/"
+        },
+        {
+          "label": "The Star 3 May 2024 — villagers must move; Seven Forks full",
+          "url": "https://www.the-star.co.ke/news/2024-05-03-villagers-must-move-as-masinga-dam-reaches-highest-level-overflows"
+        },
+        {
+          "label": "Wikipedia — Masinga HPP (coords)",
+          "url": "https://en.wikipedia.org/wiki/Masinga_Hydroelectric_Power_Station"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "notes": "Deaths null. Idai national totals not copied. Mavuzi was more damaged but is not added here (no sourced Mavuzi dam pin fetched this pass).",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Electricidade de Moçambique",
+      "year_built": 1968,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "affected_or_evacuated": null,
+      "deaths": null,
+      "id": "chicamba-2019-03",
+      "name": "Chicamba Dam (Cyclone Idai 2019 closed floodgates / high water)",
+      "country": "Mozambique",
+      "region": "Chicamba, Manica Province, Revue River",
+      "location_label": "Chicamba Dam, Manica Province, Mozambique",
+      "lat": -19.15583,
+      "lng": 33.145,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Chicamba Hydroelectric Power Station) 19°09′21″S 33°08′42″E",
+      "river_or_facility": "Barragem da Chicamba / Revue River",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "Embassy of Sweden 18 Apr 2019: after Idai, Chicamba floodgates were kept closed and the reservoir rose from an average 618 m to 620.8 m, putting the bridge over the dam at risk. Plant not generating because Mavuzi downstream was out.",
+      "incident_date": "2019-03",
+      "latest_report_date": "2019-04-18",
+      "what_happened": "Embassy of Sweden in Maputo (18 April 2019): a team from the embassy, KfW and AFD visited Mavuzi and Chicamba to assess Cyclone Idai damage. Both plants were affected. Mavuzi was the most affected; Chicamba was not functioning because Mavuzi downstream was inactive. Floodgates had been kept closed and the dam water level had risen from an average of 618 metres to 620.8 since the cyclone, putting the safety of the bridge over the dam at risk. Emergency funding was flagged as urgent for Mavuzi (hydrometric house and electrical connection). Idai national death totals are not copied onto Chicamba. No sourced death count at the dam.",
+      "status": "High water / closed gates after Idai March 2019; plant offline because Mavuzi downstream was out.",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Embassy of Sweden 18 Apr 2019 — Idai damage visit, Chicamba 618 to 620.8 m",
+          "url": "https://www.swedenabroad.se/en/embassies/mozambique-maputo/current/news/embassy-of-sweden-visits-mavuzi-and-chicamba-hydroelectric-power-plants/"
+        },
+        {
+          "label": "Wikipedia — Chicamba HPP (coords)",
+          "url": "https://en.wikipedia.org/wiki/Chicamba_Hydroelectric_Power_Station"
         }
       ]
     }
