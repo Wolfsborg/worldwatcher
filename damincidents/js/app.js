@@ -127,8 +127,9 @@
   let yearBounds = { min: 1864, max: 2026 };
   let selectedId = null;
   let lastDetailTab = "event";
-  let map, cluster, selectedLayer;
+  let map, cluster, selectedLayer, fallbackLayer;
   const markersById = new Map();
+  const fallbackMarkersById = new Map();
 
 
   function spec() { return LAYERS[layer] || LAYERS.dams; }
@@ -421,6 +422,63 @@
       m.on("click", () => selectIncident(inc.id, { fromMap: true }));
       cluster.addLayer(m);
       markersById.set(inc.id, m);
+    });
+    updateFallbackMarkers();
+  }
+
+  function distanceKm(lat1, lng1, lat2, lng2) {
+    const R = 6371;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLng = (lng2 - lng1) * Math.PI / 180;
+    const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+      Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c;
+  }
+
+  function findIsolatedIncidents(rows, thresholdKm) {
+    const isolated = [];
+    rows.forEach((inc) => {
+      if (typeof inc.lat !== "number" || typeof inc.lng !== "number") return;
+      let hasNearby = false;
+      for (let other of rows) {
+        if (other.id === inc.id) continue;
+        if (typeof other.lat !== "number" || typeof other.lng !== "number") continue;
+        const dist = distanceKm(inc.lat, inc.lng, other.lat, other.lng);
+        if (dist < thresholdKm) {
+          hasNearby = true;
+          break;
+        }
+      }
+      if (!hasNearby) isolated.push(inc);
+    });
+    return isolated;
+  }
+
+  function updateFallbackMarkers() {
+    if (!fallbackLayer) return;
+    fallbackLayer.clearLayers();
+    fallbackMarkersById.clear();
+    const currentZoom = map.getZoom();
+    const rows = filtered();
+    const isolated = findIsolatedIncidents(rows, 350);
+    isolated.forEach((inc) => {
+      const r = markerRadius(inc.deaths);
+      const color = markerColor(inc);
+      const uncertain = locationUncertain(inc);
+      const m = L.circleMarker([inc.lat, inc.lng], {
+        pane: "fallbackPane",
+        radius: r,
+        color: color,
+        weight: 0,
+        fillColor: color,
+        fillOpacity: uncertain ? 0.55 : 0.88,
+      });
+      m.bindPopup(popupHtml(inc), { closeButton: false });
+      m.on("click", () => selectIncident(inc.id, { fromMap: true }));
+      m.addTo(fallbackLayer);
+      fallbackMarkersById.set(inc.id, m);
     });
   }
 
@@ -1048,7 +1106,10 @@
     syncBase();
     map.createPane("selectedPane");
     map.getPane("selectedPane").style.zIndex = 660;
+    map.createPane("fallbackPane");
+    map.getPane("fallbackPane").style.zIndex = 655;
     selectedLayer = L.layerGroup().addTo(map);
+    fallbackLayer = L.layerGroup().addTo(map);
     cluster = L.markerClusterGroup({
       maxClusterRadius: 42,
       showCoverageOnHover: false,
@@ -1058,6 +1119,7 @@
       removeOutsideVisibleBounds: false,
     });
     map.addLayer(cluster);
+    map.on("zoomend", updateFallbackMarkers);
     const resize = () => { map.invalidateSize(); landingView(); };
     window.addEventListener("resize", resize);
     setTimeout(resize, 80);
