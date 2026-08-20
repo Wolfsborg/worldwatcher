@@ -1219,7 +1219,7 @@
         const b = L.DomUtil.create("button", pinNamesEnabled ? "is-active" : "", el);
         b.type = "button";
         b.id = "labels-toggle-btn";
-        b.textContent = "Labels";
+        b.textContent = "Dam labels";
         b.setAttribute("aria-pressed", pinNamesEnabled ? "true" : "false");
         L.DomEvent.disableClickPropagation(el);
         L.DomEvent.on(el, "click", function () {
