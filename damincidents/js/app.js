@@ -5,7 +5,7 @@
     dams: {
       id: "dams",
       title: "Dam Incidents",
-      subtitle: "Sourced failures and watches",
+      subtitle: "Hourly world screen. Sourced archive, still growing.",
       dataUrl: "data/incidents.json",
       rowsKey: "incidents",
       statLabel: "Incidents",
@@ -1494,9 +1494,7 @@
       yearBounds.min = Math.min.apply(null, years);
       yearBounds.max = Math.max.apply(null, years);
     }
-    if (currentLayer === "dams" && els.subtitle && years.length) {
-      els.subtitle.textContent = "Sourced failures and watches, " + formatYear(yearBounds.min) + "–" + formatYear(yearBounds.max);
-    } else if (currentLayer === "floods" && els.subtitle) {
+    if (currentLayer === "floods" && els.subtitle) {
       els.subtitle.textContent = "Major named floods only";
     }
     els.yearMin.min = yearBounds.min;
