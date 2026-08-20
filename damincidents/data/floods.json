@@ -39,6 +39,7 @@
       "notes": "Deaths 98 as of 8 Aug 2026 (The Hindu / India Today, cited on Wikipedia). Infobox still says 100+; tallies were 85 on 4 Aug. Using the dated 8 Aug figure, not Unknown.",
       "era": "2026",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -47,7 +48,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-kenya-2026",
@@ -85,6 +93,7 @@
       "notes": "112 is the National Police Service figure as of 3 April 2026, cited by The Star and the Wikipedia infobox. Later landslide deaths (18 on 3 May) are additional and not added into the 112 pin.",
       "era": "2026",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -93,7 +102,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 1.1 million displaced; over 3.3 million affected in 52 cities and regencies (Wikipedia)",
@@ -114,6 +130,7 @@
       "incident_date": "2025-11-26",
       "injured": 7000,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 3.5952,
       "latest_report_date": "2026-01",
@@ -142,7 +159,14 @@
       "status": "Historical. Recovery ongoing as of early 2026.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "Cyclone Senyar formed in the Strait of Malacca in late November 2025 and made landfall on northern Sumatra, producing extreme rain, floods and landslides across Aceh, North Sumatra and West Sumatra. Wikipedia records at least 1,201 deaths, over 7,000 injuries and 142 missing in Indonesia, plus further deaths in Thailand and Malaysia (1,501 in the three countries). About 1.1 million people were displaced in Sumatra. BNPB and ReliefWeb tracked the rising toll through December. Economic losses in Sumatra were estimated above 68.7 trillion rupiah (US$4.13 billion)."
+      "what_happened": "Cyclone Senyar formed in the Strait of Malacca in late November 2025 and made landfall on northern Sumatra, producing extreme rain, floods and landslides across Aceh, North Sumatra and West Sumatra. Wikipedia records at least 1,201 deaths, over 7,000 injuries and 142 missing in Indonesia, plus further deaths in Thailand and Malaysia (1,501 in the three countries). About 1.1 million people were displaced in Sumatra. BNPB and ReliefWeb tracked the rising toll through December. Economic losses in Sumatra were estimated above 68.7 trillion rupiah (US$4.13 billion).",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -157,6 +181,7 @@
       "notes": "136 is the Wikipedia county table total (Kerr 117, Travis 10, Burnet 5, Williamson 3, Tom Green 1). Infobox also lists 139+. Not a dam failure.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -187,7 +212,14 @@
           "url": "https://en.wikipedia.org/wiki/July_2025_Central_Texas_floods"
         }
       ],
-      "river_or_facility": "Guadalupe / Texas Hill Country"
+      "river_or_facility": "Guadalupe / Texas Hill Country",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": 1067,
@@ -202,6 +234,7 @@
       "notes": "1,037+ is the Wikipedia infobox death toll as of the 2025 season write-up. Later sitreps may differ.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -237,7 +270,14 @@
           "url": "https://www.ndma.gov.pk/"
         }
       ],
-      "river_or_facility": "Indus / Ravi / Chenab"
+      "river_or_facility": "Indus / Ravi / Chenab",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-spain-2024",
@@ -278,6 +318,7 @@
       "notes": "Infobox deaths 238. A citizenship table on the same page sums to 231; pin uses the infobox 238 from the government update cited there.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": "Poyo about 2,300 m³/s at Paiporta",
       "return_period": null,
@@ -286,7 +327,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "~€10.7 billion total; ~€3.5 billion insured (Wikipedia / Munich Re)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -301,6 +349,7 @@
       "notes": "250 is the Wikipedia/commonly cited US death toll. Most fatalities were inland flood deaths in North Carolina and neighbouring states.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -336,7 +385,14 @@
           "url": "https://www.nhc.noaa.gov/data/tcr/AL092024_Helene.pdf"
         }
       ],
-      "river_or_facility": "French Broad / Swannanoa / Nolichucky"
+      "river_or_facility": "French Broad / Swannanoa / Nolichucky",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": 158,
@@ -351,6 +407,7 @@
       "notes": "224 is the 1 October 2024 government figure reported by AP and cited on Wikipedia. Infobox later lists 300+. Pin uses the dated official 224.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -382,7 +439,14 @@
           "url": "https://en.wikipedia.org/wiki/2024_Nepal_floods"
         }
       ],
-      "river_or_facility": "Bagmati / Koshi"
+      "river_or_facility": "Bagmati / Koshi",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-central-europe-2024",
@@ -419,6 +483,7 @@
       "notes": "27 is the Wikipedia infobox total.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -427,7 +492,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -442,6 +514,7 @@
       "notes": "345 is the Vietnam-focused death toll commonly cited on the Typhoon Yagi page. Regional totals including Myanmar are higher.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -473,7 +546,14 @@
           "url": "https://en.wikipedia.org/wiki/Typhoon_Yagi"
         }
       ],
-      "river_or_facility": "Red River / Thái Bình"
+      "river_or_facility": "Red River / Thái Bình",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 5.8 million affected in August; 2.1 million in the June haor floods",
@@ -495,6 +575,7 @@
       "incident_date": "2024-08-21",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 23.0159,
       "latest_report_date": "2024-10",
@@ -523,7 +604,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Bangladesh had three named flood pulses in 2024. June flash floods in Sylhet–Sunamganj affected at least 2.1 million (UNICEF: 772,000 children). The main August event, after heavy rain and a surge from upstream, killed over 50 people and affected about 5.8 million in 11 northeastern and southeastern districts; CPD estimated Tk 144 billion (US$1.2 billion) damage. October floods on the Meghalaya border killed 11 in Sherpur and displaced over 60,000 families."
+      "what_happened": "Bangladesh had three named flood pulses in 2024. June flash floods in Sylhet–Sunamganj affected at least 2.1 million (UNICEF: 772,000 children). The main August event, after heavy rain and a surge from upstream, killed over 50 people and affected about 5.8 million in 11 northeastern and southeastern districts; CPD estimated Tk 144 billion (US$1.2 billion) damage. October floods on the Meghalaya border killed 11 in Sherpur and displaced over 60,000 families.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-rs-brazil-2024",
@@ -560,6 +648,7 @@
       "notes": "183 is the Wikipedia/civil-defence death toll.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -568,7 +657,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-kenya-2024",
@@ -605,6 +701,7 @@
       "notes": "228 is a Kenya-focused figure cited on the 2024 East Africa floods page. Wider regional totals are higher.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -613,7 +710,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "More than 850,000 told to evacuate in Hebei; ~50,000 evacuated from Beijing (Wikipedia/Doksuri)",
@@ -634,6 +738,7 @@
       "incident_date": "2023-07-29",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 39.485,
       "latest_report_date": "2023-08-11",
@@ -666,7 +771,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "Remnants of Typhoon Doksuri produced Beijing's heaviest rain in at least 140 years (up to 744.8 mm at Wangjiayuan Reservoir). Wikipedia's 2023 China floods page records at least 81 dead and 34 missing for the Beijing–Tianjin–Hebei and northeast rains. Officials reported 33 dead in Beijing and 29 in Hebei. More than 850,000 people were told to evacuate in Hebei; flood-detention areas received about 1.8 billion m³ diverted from Beijing and Tianjin. Hebei's direct losses were given as 95.8 billion yuan ($13.2 billion)."
+      "what_happened": "Remnants of Typhoon Doksuri produced Beijing's heaviest rain in at least 140 years (up to 744.8 mm at Wangjiayuan Reservoir). Wikipedia's 2023 China floods page records at least 81 dead and 34 missing for the Beijing–Tianjin–Hebei and northeast rains. Officials reported 33 dead in Beijing and 29 in Hebei. More than 850,000 people were told to evacuate in Hebei; flood-detention areas received about 1.8 billion m³ diverted from Beijing and Tianjin. Hebei's direct losses were given as 95.8 billion yuan ($13.2 billion).",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -681,6 +793,7 @@
       "notes": "17 deaths is the Wikipedia infobox figure.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -711,7 +824,14 @@
           "url": "https://en.wikipedia.org/wiki/2023_Emilia-Romagna_floods"
         }
       ],
-      "river_or_facility": "Reno / Lamone / Savio"
+      "river_or_facility": "Reno / Lamone / Savio",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -726,6 +846,7 @@
       "notes": "11 deaths is the Wikipedia infobox figure.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -757,7 +878,14 @@
           "url": "https://en.wikipedia.org/wiki/Cyclone_Gabrielle"
         }
       ],
-      "river_or_facility": "Esk / Ngaruroro / Wairoa"
+      "river_or_facility": "Esk / Ngaruroro / Wairoa",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": 2400,
@@ -772,6 +900,7 @@
       "notes": "603 is the NEMA/Wikipedia death toll. Dam_release refers to transboundary Lagdo operations, not a Nigerian dam break.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -807,7 +936,14 @@
           "url": "https://reliefweb.int/disaster/fl-2022-000271-nga"
         }
       ],
-      "river_or_facility": "Niger / Benue"
+      "river_or_facility": "Niger / Benue",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Over 420 rescued by helicopter or boat; hundreds more stranded",
@@ -828,6 +964,7 @@
       "incident_date": "2022-07-28",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 37.3354,
       "latest_report_date": "2022-08-01",
@@ -856,7 +993,14 @@
       "status": "Historical. Recovery still ongoing in some counties as of 2024.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "Repeated thunderstorms from 26 July to 1 August 2022 dumped 10–16 inches of rain on eastern Kentucky and neighbouring Appalachia. The North Fork set records at Whitesburg (~20 ft) and Jackson (43.47 ft). Wikipedia records 39 direct deaths plus 6 indirect (45 total) and $450–950 million damage. Governor Beshear called it one of Kentucky's worst floods; President Biden issued a major disaster declaration. Over 600 helicopter rescues were flown."
+      "what_happened": "Repeated thunderstorms from 26 July to 1 August 2022 dumped 10–16 inches of rain on eastern Kentucky and neighbouring Appalachia. The North Fork set records at Whitesburg (~20 ft) and Jackson (43.47 ft). Wikipedia records 39 direct deaths plus 6 indirect (45 total) and $450–950 million damage. Governor Beshear called it one of Kentucky's worst floods; President Biden issued a major disaster declaration. Over 600 helicopter rescues were flown.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-pakistan-2022",
@@ -899,6 +1043,7 @@
       "notes": "Infobox lists 1,760 deaths; lead says 1,739. Pin uses 1,739. Do not use the “one-third of the country underwater” line as a measured inundation figure.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -907,7 +1052,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "About $40 billion (World Bank / PCCC); MoF damage ~$14.9 billion",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -922,6 +1074,7 @@
       "notes": "448 is the Wikipedia infobox death toll.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -952,7 +1105,14 @@
           "url": "https://en.wikipedia.org/wiki/2022_KwaZulu-Natal_floods"
         }
       ],
-      "river_or_facility": "uMngeni / eThekwini coastal catchments"
+      "river_or_facility": "uMngeni / eThekwini coastal catchments",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-australia-east-2022",
@@ -989,6 +1149,7 @@
       "notes": "22 deaths is the Wikipedia infobox figure.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -997,7 +1158,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -1012,6 +1180,7 @@
       "notes": "Included for evacuations and official emergency declarations. Dike failures were part of the wider flood.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -1042,7 +1211,14 @@
           "url": "https://en.wikipedia.org/wiki/2021_Pacific_Northwest_floods"
         }
       ],
-      "river_or_facility": "Nooksack / Fraser / Nicola / Coldwater"
+      "river_or_facility": "Nooksack / Fraser / Nicola / Coldwater",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -1064,6 +1240,7 @@
       "incident_date": "2021-08-29",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 40.7128,
       "latest_report_date": "2021-09-02",
@@ -1092,7 +1269,14 @@
       "status": "Historical. Name Ida retired.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "Category 4 Hurricane Ida made landfall near Port Fourchon, Louisiana, on 29 August 2021 (150 mph). New Orleans' levees held, unlike Katrina, but the state lost power widely. The remnants then produced catastrophic flash flooding in the Northeast on 1–2 September — the NWS New York office's first flash-flood emergencies for the city and northeastern New Jersey. Wikipedia records 112 deaths (92 in the US, including 32 in New Jersey, 30 in Louisiana, 18 in New York) and about $75.3 billion damage."
+      "what_happened": "Category 4 Hurricane Ida made landfall near Port Fourchon, Louisiana, on 29 August 2021 (150 mph). New Orleans' levees held, unlike Katrina, but the state lost power widely. The remnants then produced catastrophic flash flooding in the Northeast on 1–2 September — the NWS New York office's first flash-flood emergencies for the city and northeastern New Jersey. Wikipedia records 112 deaths (92 in the US, including 32 in New Jersey, 30 in Louisiana, 18 in New York) and about $75.3 billion damage.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-henan-2021",
@@ -1130,6 +1314,7 @@
       "notes": "398 is the official Henan death toll after investigation. This is the wider flood, not a levee-only pin.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -1138,7 +1323,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-europe-2021",
@@ -1175,6 +1367,7 @@
       "notes": "Germany deaths later reported as 196 including 135 in Rhineland-Palatinate (Ahrweiler) and 47 in NRW. Infobox total 243.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -1183,7 +1376,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "About $54 billion (2021 USD); Germany direct damage ~€33.4 billion",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 1.3 million ordered to evacuate (Kyodo / Wikipedia)",
@@ -1204,6 +1404,7 @@
       "incident_date": "2020-07-04",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 32.21,
       "latest_report_date": "2020-07-16",
@@ -1232,7 +1433,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "Record East Asian rainy-season rain hit Kumamoto and Kagoshima from 4 July 2020. JMA named the event Reiwa 2 July heavy rain and issued its highest warning for the first time in these areas; rainfall exceeded 100 mm/hour. The Kuma River overran its banks in 11 places and breached a levee. Wikipedia, citing NHK and FDMA, records 77 confirmed deaths, about 7 missing, about 15,335 buildings destroyed, damaged or flooded, and ¥600 billion (US$5.67 billion) damage. Fourteen of the dead were residents of a flooded care home in Kuma. About 1.3 million people were ordered to evacuate. Prime Minister Abe dispatched tens of thousands of SDF troops."
+      "what_happened": "Record East Asian rainy-season rain hit Kumamoto and Kagoshima from 4 July 2020. JMA named the event Reiwa 2 July heavy rain and issued its highest warning for the first time in these areas; rainfall exceeded 100 mm/hour. The Kuma River overran its banks in 11 places and breached a levee. Wikipedia, citing NHK and FDMA, records 77 confirmed deaths, about 7 missing, about 15,335 buildings destroyed, damaged or flooded, and ¥600 billion (US$5.67 billion) damage. Fourteen of the dead were residents of a flooded care home in Kuma. About 1.3 million people were ordered to evacuate. Prime Minister Abe dispatched tens of thousands of SDF troops.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -1247,6 +1455,7 @@
       "notes": "219 is the Wikipedia official death toll. Not a dam-break event.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -1278,7 +1487,14 @@
           "url": "https://en.wikipedia.org/wiki/2020_China_floods"
         }
       ],
-      "river_or_facility": "Yangtze / Huai"
+      "river_or_facility": "Yangtze / Huai",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -1299,6 +1515,7 @@
       "incident_date": "2019-03-19",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 37.013,
       "latest_report_date": "2019-04",
@@ -1327,7 +1544,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "From mid-March 2019, extreme rain produced flash and river floods across much of Iran in several pulses. Wikipedia's deadliest-floods list cites 77 or more deaths. Golestan was hit first; later waves struck the Zagros and southwest. The government declared official disasters in numerous provinces. Distinct from ordinary seasonal flooding."
+      "what_happened": "From mid-March 2019, extreme rain produced flash and river floods across much of Iran in several pulses. Wikipedia's deadliest-floods list cites 77 or more deaths. Golestan was hit first; later waves struck the Zagros and southwest. The government declared official disasters in numerous provinces. Distinct from ordinary seasonal flooding.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-idai-2019",
@@ -1366,6 +1590,7 @@
       "notes": "1,300 is a conservative rounded combined figure. Country subtotals 603+344+60 already exceed 1,000; later tallies go higher.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -1374,7 +1599,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -1395,6 +1627,7 @@
       "incident_date": "2019-03-14",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 41.123,
       "latest_report_date": "2019-07",
@@ -1423,7 +1656,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "A bomb cyclone and rapid snowmelt in March 2019, then a wet spring, produced months of flooding on the Missouri and Mississippi. Offutt Air Force Base and towns along the Missouri were inundated. NOAA called 2019 among the costliest inland-flood years in the US. USDA and FEMA issued major-disaster declarations across the Midwest. Distinct from 1993 and 2008 already documented."
+      "what_happened": "A bomb cyclone and rapid snowmelt in March 2019, then a wet spring, produced months of flooding on the Missouri and Mississippi. Offutt Air Force Base and towns along the Missouri were inundated. NOAA called 2019 among the costliest inland-flood years in the US. USDA and FEMA issued major-disaster declarations across the Midwest. Distinct from 1993 and 2008 already documented.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 3,300 homes damaged and 1,500 uninhabitable; about 30,000 insurance claims (Wikipedia)",
@@ -1445,6 +1685,7 @@
       "incident_date": "2019-01-23",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": -19.259,
       "latest_report_date": "2019-02-07",
@@ -1473,7 +1714,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "A slow-moving tropical low (13U) in a stalled monsoon trough sat over northern Queensland for about a week from 23 January 2019. Historic flooding hit Townsville; record levels at Ross River Dam forced the spillway fully open. About 3,300 homes were damaged and 1,500 made uninhabitable. Wikipedia records 5 deaths (3 direct, 2 later from melioidosis) and A$1.243 billion in insured damage. As many as 500,000 cattle died in northwest Queensland. BOM issued Special Climate Statement 69."
+      "what_happened": "A slow-moving tropical low (13U) in a stalled monsoon trough sat over northern Queensland for about a week from 23 January 2019. Historic flooding hit Townsville; record levels at Ross River Dam forced the spillway fully open. About 3,300 homes were damaged and 1,500 made uninhabitable. Wikipedia records 5 deaths (3 direct, 2 later from melioidosis) and A$1.243 billion in insured damage. As many as 500,000 cattle died in northwest Queensland. BOM issued Special Climate Statement 69.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-kerala-2018",
@@ -1512,6 +1760,7 @@
       "notes": "483 is the Kerala government / Wikipedia figure. Not a dam-break record.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -1520,7 +1769,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -1535,6 +1791,7 @@
       "notes": "225 is the Wikipedia infobox death toll.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -1565,7 +1822,14 @@
           "url": "https://en.wikipedia.org/wiki/2018_Japan_floods"
         }
       ],
-      "river_or_facility": "Takahashi / Oda / Seno"
+      "river_or_facility": "Takahashi / Oda / Seno",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-harvey-2017",
@@ -1608,6 +1872,7 @@
       "notes": "68 is the NHC direct US death toll. NHC total US deaths including indirect: 103. Wikipedia infobox often lists 107.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -1616,7 +1881,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "$125 billion (often cited, tied with Katrina)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "More than 45 million affected, including 16 million children (Wikipedia)",
@@ -1638,6 +1910,7 @@
       "incident_date": "2017-07",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 25.5941,
       "latest_report_date": "2017-09",
@@ -1670,7 +1943,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "An exceptionally severe 2017 monsoon flooded Afghanistan, Bangladesh, India, Nepal and Pakistan from July through September. Wikipedia records 1,419 confirmed deaths and more than 45 million people affected, including 16 million children. India accounted for most deaths (Bihar, Assam, West Bengal, Uttar Pradesh, Gujarat). IFRC described the humanitarian crisis as among the worst in the region in 40 years. Distinct from the 2014 India–Pakistan and 2018 Kerala floods already in the database."
+      "what_happened": "An exceptionally severe 2017 monsoon flooded Afghanistan, Bangladesh, India, Nepal and Pakistan from July through September. Wikipedia records 1,419 confirmed deaths and more than 45 million people affected, including 16 million children. India accounted for most deaths (Bihar, Assam, West Bengal, Uttar Pradesh, Gujarat). IFRC described the humanitarian crisis as among the worst in the region in 40 years. Distinct from the 2014 India–Pakistan and 2018 Kerala floods already in the database.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -1691,6 +1971,7 @@
       "incident_date": "2017-01",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": -5.1945,
       "latest_report_date": "2017-03",
@@ -1719,7 +2000,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "A strong coastal El Niño in early 2017 produced extreme rain on Peru's normally arid north coast. Rivers left their channels; Piura, Lambayeque and Lima districts flooded. The government declared a national state of emergency. Hundreds of thousands were affected and official death totals were in the low hundreds. It is Peru's named 2017 flood disaster, distinct from earlier El Niño floods."
+      "what_happened": "A strong coastal El Niño in early 2017 produced extreme rain on Peru's normally arid north coast. Rivers left their channels; Piura, Lambayeque and Lima districts flooded. The government declared a national state of emergency. Hundreds of thousands were affected and official death totals were in the low hundreds. It is Peru's named 2017 flood disaster, distinct from earlier El Niño floods.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 30,000 rescued; ~11,000 in 70 shelters; ~146,000 homes damaged",
@@ -1740,6 +2028,7 @@
       "incident_date": "2016-08-12",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 30.4866,
       "latest_report_date": "2016-08-22",
@@ -1768,7 +2057,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "A slow-moving, unnamed low dumped more than 20 inches of rain on southern Louisiana; Watson recorded 31.39 inches. The Amite and Comite set records. Wikipedia records 13 deaths and $10–15 billion damage. About 30,000 people were rescued; about 146,000 homes were damaged; about 11,000 people used 70 shelters. The Red Cross called it the worst US natural disaster since Sandy. A 1-in-1,000-year rainfall in the hardest-hit spots (NWS HDSC)."
+      "what_happened": "A slow-moving, unnamed low dumped more than 20 inches of rain on southern Louisiana; Watson recorded 31.39 inches. The Amite and Comite set records. Wikipedia records 13 deaths and $10–15 billion damage. About 30,000 people were rescued; about 146,000 homes were damaged; about 11,000 people used 70 shelters. The Red Cross called it the worst US natural disaster since Sandy. A 1-in-1,000-year rainfall in the hardest-hit spots (NWS HDSC).",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 2,500 people displaced; 1,500 homes destroyed and 4,000 damaged (NWS summary via Wikipedia citations)",
@@ -1789,6 +2085,7 @@
       "incident_date": "2016-06-23",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 37.7937,
       "latest_report_date": "2016-06-27",
@@ -1817,7 +2114,14 @@
       "status": "Historical. West Virginia State Resiliency Office was created afterward.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "On 23 June 2016, repeated thunderstorms dropped 8–10 inches (200–250 mm) in 12 hours over central West Virginia, a 1,000-year rainfall in parts of Kanawha, Fayette, Nicholas, Summers and Greenbrier counties. The Elk River set an all-time high of 33.37 ft. Wikipedia records 23 deaths (15 in Greenbrier County) and $1.1 billion damage. The governor declared an emergency in 44 of 55 counties; President Obama issued a major disaster declaration. It was the deadliest US flash flood between the 2010 Tennessee floods and the 2022 Appalachian floods."
+      "what_happened": "On 23 June 2016, repeated thunderstorms dropped 8–10 inches (200–250 mm) in 12 hours over central West Virginia, a 1,000-year rainfall in parts of Kanawha, Fayette, Nicholas, Summers and Greenbrier counties. The Elk River set an all-time high of 33.37 ft. Wikipedia records 23 deaths (15 in Greenbrier County) and $1.1 billion damage. The governor declared an emergency in 44 of 55 counties; President Obama issued a major disaster declaration. It was the deadliest US flash flood between the 2010 Tennessee floods and the 2022 Appalachian floods.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Thousands of homes flooded in Cumbria and neighbouring counties",
@@ -1838,6 +2142,7 @@
       "incident_date": "2015-12-05",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 54.8951,
       "latest_report_date": "2015-12-06",
@@ -1866,7 +2171,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "Storm Desmond, named by the Met Office, stalled over northern Britain on 5–6 December 2015 and set a UK 24-hour rainfall record (341.4 mm at Honister Pass). Carlisle, Kendal, Cockermouth and parts of Lancashire and the Scottish Borders flooded. Thousands of homes were inundated. The event is the named winter-flood disaster of 2015–16 in the UK, with a national major-incident response."
+      "what_happened": "Storm Desmond, named by the Met Office, stalled over northern Britain on 5–6 December 2015 and set a UK 24-hour rainfall record (341.4 mm at Honister Pass). Carlisle, Kendal, Cockermouth and parts of Lancashire and the Scottish Borders flooded. Thousands of homes were inundated. The event is the named winter-flood disaster of 2015–16 in the UK, with a national major-incident response.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -1881,6 +2193,7 @@
       "notes": "500 is the Wikipedia infobox total. Dam_release is a contributing operational factor, not a dam-break.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -1914,7 +2227,14 @@
           "url": "https://en.wikipedia.org/wiki/2015_South_Indian_floods"
         }
       ],
-      "river_or_facility": "Adyar / Cooum / Buckingham Canal"
+      "river_or_facility": "Adyar / Cooum / Buckingham Canal",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 230,000 displaced in Malawi; 410,000 across the region (Wikipedia table)",
@@ -1937,6 +2257,7 @@
       "incident_date": "2015-01-14",
       "injured": null,
       "inundation_area": "About 63,000 hectares (Wikipedia)",
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": -15.7861,
       "latest_report_date": "2015-01-31",
@@ -1965,7 +2286,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Two weeks of rainfall about 150% of normal, partly related to Tropical Storm Chedza and Cyclone Bansi, flooded southeastern Africa from 9–20 January 2015. Wikipedia records at least 176 deaths in Malawi, 86 in Mozambique and 46 in Madagascar (308 total), at least 153 missing and more than 400,000 displaced. Malawi's vice-president said over 200,000 Malawians were displaced. About 63,000 hectares flooded. Malawi damage was about US$450 million, roughly 10% of GDP. President-level disaster declarations followed."
+      "what_happened": "Two weeks of rainfall about 150% of normal, partly related to Tropical Storm Chedza and Cyclone Bansi, flooded southeastern Africa from 9–20 January 2015. Wikipedia records at least 176 deaths in Malawi, 86 in Mozambique and 46 in Madagascar (308 total), at least 153 missing and more than 400,000 displaced. Malawi's vice-president said over 200,000 Malawians were displaced. About 63,000 hectares flooded. Malawi damage was about US$450 million, roughly 10% of GDP. President-level disaster declarations followed.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -1980,6 +2308,7 @@
       "notes": "557 is the Wikipedia combined total (India 280, Pakistan 277).",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -2011,7 +2340,14 @@
           "url": "https://en.wikipedia.org/wiki/2014_India%E2%80%93Pakistan_floods"
         }
       ],
-      "river_or_facility": "Jhelum / Chenab"
+      "river_or_facility": "Jhelum / Chenab",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -2026,6 +2362,7 @@
       "notes": "86 is the Wikipedia infobox total.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -2060,7 +2397,14 @@
           "url": "https://reliefweb.int/disaster/fl-2014-000059-srb"
         }
       ],
-      "river_or_facility": "Sava / Bosna"
+      "river_or_facility": "Sava / Bosna",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "More than 11,000 evacuated; 1,750 people and 300 pets rescued",
@@ -2081,6 +2425,7 @@
       "incident_date": "2013-09-11",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 40.015,
       "latest_report_date": "2013-09-15",
@@ -2109,7 +2454,14 @@
       "status": "Historical. CDOT permanent road repairs finished 2022.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "A stalled front and monsoonal moisture produced extreme rain along Colorado's Front Range from 9–15 September 2013. Boulder County recorded 9.08 inches on 12 September and up to 18–20 inches for the event — comparable to the annual average. Wikipedia records 8 dead and 1 missing/presumed dead, more than 11,000 evacuated, nearly 19,000 homes damaged and over 1,500 destroyed. Damage estimated over $1–2 billion. A federal major disaster was declared."
+      "what_happened": "A stalled front and monsoonal moisture produced extreme rain along Colorado's Front Range from 9–15 September 2013. Boulder County recorded 9.08 inches on 12 September and up to 18–20 inches for the event — comparable to the annual average. Wikipedia records 8 dead and 1 missing/presumed dead, more than 11,000 evacuated, nearly 19,000 homes damaged and over 1,500 destroyed. Damage estimated over $1–2 billion. A federal major disaster was declared.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -2124,6 +2476,7 @@
       "notes": "Included for the scale of evacuation and official disaster declarations, not the death toll alone.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -2154,7 +2507,14 @@
           "url": "https://en.wikipedia.org/wiki/2013_Alberta_floods"
         }
       ],
-      "river_or_facility": "Bow / Elbow / Highwood"
+      "river_or_facility": "Bow / Elbow / Highwood",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -2169,6 +2529,7 @@
       "notes": "Deaths left unknown because official confirmed-dead vs missing figures are reported differently (hundreds confirmed; combined dead/missing commonly about 5,700). Do not treat as zero.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -2199,7 +2560,14 @@
           "url": "https://en.wikipedia.org/wiki/2013_North_India_floods"
         }
       ],
-      "river_or_facility": "Mandakini / Alaknanda / Bhagirathi"
+      "river_or_facility": "Mandakini / Alaknanda / Bhagirathi",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-central-europe-2013",
@@ -2240,6 +2608,7 @@
       "notes": "25 deaths is the Wikipedia infobox total.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -2248,7 +2617,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "About €12–16 billion (commonly cited)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -2263,6 +2639,7 @@
       "notes": "233 is the NHC/Wikipedia combined death toll. US deaths 157.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -2298,7 +2675,14 @@
           "url": "https://www.nhc.noaa.gov/data/tcr/AL182012_Sandy.pdf"
         }
       ],
-      "river_or_facility": "New York Harbor / Hudson / Atlantic coast"
+      "river_or_facility": "New York Harbor / Hudson / Atlantic coast",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "56,933 evacuated within a day; more than 1.6 million affected (Wikipedia / People's Daily)",
@@ -2320,6 +2704,7 @@
       "incident_date": "2012-07-21",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 39.735,
       "latest_report_date": "2012-08-06",
@@ -2348,7 +2733,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "In a 20-hour period on 21 July 2012, the heaviest rain in Beijing since 1951 produced a flash flood. The city averaged 170 mm; Fangshan recorded 460 mm. The Juma River reached 2,500 m³/s. People's Daily (6 August) and Wikipedia record 79 deaths, 56,933 evacuated within a day, at least 8,200 homes destroyed, 1.6 million people affected and at least 10 billion yuan (US$1.6 billion) damage. Over 500 flights were cancelled at Capital Airport."
+      "what_happened": "In a 20-hour period on 21 July 2012, the heaviest rain in Beijing since 1951 produced a flash flood. The city averaged 170 mm; Fangshan recorded 460 mm. The Juma River reached 2,500 m³/s. People's Daily (6 August) and Wikipedia record 79 deaths, 56,933 evacuated within a day, at least 8,200 homes destroyed, 1.6 million people affected and at least 10 billion yuan (US$1.6 billion) damage. Over 500 flights were cancelled at Capital Airport.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Nearly 700,000 affected; ~100,000 evacuated in the relief operation",
@@ -2369,6 +2761,7 @@
       "incident_date": "2011-12-16",
       "injured": 6071,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 8.4542,
       "latest_report_date": "2011-12-19",
@@ -2397,7 +2790,14 @@
       "status": "Historical. Names Washi and Sendong retired.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "Severe Tropical Storm Washi (Sendong) crossed Mindanao on 16 December 2011. Orographic rain — 475 mm in 24 hours at Capehan on the Bubunawan — sent the Cagayan de Oro and Mandulog rivers up 3.3 m in under an hour at night. NDRRMC reported 1,268 dead; WMO 1,292 dead and 1,049 missing; IFRC later 2,546 dead. About 40,000 homes were damaged and nearly 700,000 people affected. President Aquino declared a state of national calamity."
+      "what_happened": "Severe Tropical Storm Washi (Sendong) crossed Mindanao on 16 December 2011. Orographic rain — 475 mm in 24 hours at Capehan on the Bubunawan — sent the Cagayan de Oro and Mandulog rivers up 3.3 m in under an hour at night. NDRRMC reported 1,268 dead; WMO 1,292 dead and 1,049 missing; IFRC later 2,546 dead. About 40,000 homes were damaged and nearly 700,000 people affected. President Aquino declared a state of national calamity.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-thailand-2011",
@@ -2439,6 +2839,7 @@
       "notes": "815 is the Thai official death toll commonly cited.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -2447,7 +2848,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "About US$45–46 billion (World Bank)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Over 1,300 ordered out in Memphis; more than 24,500 in Louisiana and Mississippi",
@@ -2468,6 +2876,7 @@
       "incident_date": "2011-05-04",
       "injured": null,
       "inundation_area": "Morganza operation designed to inundate about 4,600 square miles of rural Louisiana",
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 35.1495,
       "latest_report_date": "2011-06-20",
@@ -2496,7 +2905,14 @@
       "status": "Historical. Project Flood system operated as designed.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "April 2011 storms plus snowmelt produced one of the largest lower-Mississippi floods in a century, comparable in extent to 1927 and 1993. Memphis crested at 47.8 ft on 10 May. Vicksburg set a record stage. For the first time since 1973 the Morganza Spillway was opened (14 May), deliberately flooding about 4,600 square miles of rural Louisiana to protect Baton Rouge and New Orleans. Wikipedia cites about 20 direct deaths and US$2–4 billion damage. Birds Point–New Madrid floodway was also operated."
+      "what_happened": "April 2011 storms plus snowmelt produced one of the largest lower-Mississippi floods in a century, comparable in extent to 1927 and 1993. Memphis crested at 47.8 ft on 10 May. Vicksburg set a record stage. For the first time since 1973 the Morganza Spillway was opened (14 May), deliberately flooding about 4,600 square miles of rural Louisiana to protect Baton Rouge and New Orleans. Wikipedia cites about 20 direct deaths and US$2–4 billion damage. Birds Point–New Madrid floodway was also operated.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 2,960 homes destroyed",
@@ -2517,6 +2933,7 @@
       "incident_date": "2011-01-11",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": -22.2819,
       "latest_report_date": "2011-02-15",
@@ -2545,7 +2962,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "In 24 hours on 11–12 January 2011, rainfall in the Serra Fluminense exceeded the monthly average. Floods and mudslides hit Nova Friburgo (424 dead), Teresópolis (378), Petrópolis and neighbouring towns. Wikipedia records at least 916 deaths and about 2.0 billion reais ($1.2 billion) damage. About 2,960 homes were destroyed. Local media called it Brazil's worst weather-related disaster; a 1967 Serra das Araras event may have been deadlier."
+      "what_happened": "In 24 hours on 11–12 January 2011, rainfall in the Serra Fluminense exceeded the monthly average. Floods and mudslides hit Nova Friburgo (424 dead), Teresópolis (378), Petrópolis and neighbouring towns. Wikipedia records at least 916 deaths and about 2.0 billion reais ($1.2 billion) damage. About 2,960 homes were destroyed. Local media called it Brazil's worst weather-related disaster; a 1967 Serra das Araras event may have been deadlier.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -2560,6 +2984,7 @@
       "notes": "35 deaths is the commonly cited official/Wikipedia figure. Wivenhoe Dam operations were examined; this is not recorded as a dam failure.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -2594,7 +3019,14 @@
           "url": "https://www.bom.gov.au/qld/flood/fld_reports/qld_floods_2010_2011.pdf"
         }
       ],
-      "river_or_facility": "Brisbane / Fitzroy / Condamine–Balonne"
+      "river_or_facility": "Brisbane / Fitzroy / Condamine–Balonne",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -2615,6 +3047,7 @@
       "incident_date": "2010-08-06",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 34.1526,
       "latest_report_date": "2010-08-06",
@@ -2643,7 +3076,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "A cloudburst on the night of 6 August 2010 sent flash floods and debris flows through Leh in Ladakh. Wikipedia's deadliest-floods list cites 125 or more deaths. The army hospital, bus station and residential areas were hit. It is the named high-altitude disaster of the 2010 Indian monsoon."
+      "what_happened": "A cloudburst on the night of 6 August 2010 sent flash floods and debris flows through Leh in Ladakh. Wikipedia's deadliest-floods list cites 125 or more deaths. The army hospital, bus station and residential areas were hit. It is the named high-altitude disaster of the 2010 Indian monsoon.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-pakistan-2010",
@@ -2681,6 +3121,7 @@
       "notes": "Injured 2,966 from mid-September government tally cited on Wikipedia. Earlier FFC mid-August tally was lower.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -2689,7 +3130,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "Up to about $43 billion (estimate cited on Wikipedia)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Nashville damages about $1.5 billion excluding roads and public buildings (Mayor Karl Dean, via Wikipedia)",
@@ -2710,6 +3158,7 @@
       "incident_date": "2010-05-01",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 36.1627,
       "latest_report_date": "2010-05-07",
@@ -2738,7 +3187,14 @@
       "status": "Historical. Federal disaster declaration 4 May 2010.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "A stalled front and Gulf moisture produced two-day rains greater than 19 inches (480 mm) in places on 1–2 May 2010. Nashville recorded 13.57 inches in two days. The Cumberland crested at 51.86 feet in Nashville, a level not seen since 1937. Wikipedia records 31 deaths in Tennessee, Kentucky and Mississippi and $2.3 billion damage. At least 30 Tennessee counties were declared major disaster areas. The Grand Ole Opry House, Gaylord Opryland and LP Field flooded."
+      "what_happened": "A stalled front and Gulf moisture produced two-day rains greater than 19 inches (480 mm) in places on 1–2 May 2010. Nashville recorded 13.57 inches in two days. The Cumberland crested at 51.86 feet in Nashville, a level not seen since 1937. Wikipedia records 31 deaths in Tennessee, Kentucky and Mississippi and $2.3 billion damage. At least 30 Tennessee counties were declared major disaster areas. The Grand Ole Opry House, Gaylord Opryland and LP Field flooded.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -2760,6 +3216,7 @@
       "incident_date": "2010-05",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 30.5928,
       "latest_report_date": "2010-08",
@@ -2788,7 +3245,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "From May through August 2010, monsoon and storm rains produced nationwide flooding and landslides in China (and adjacent North Korea). Wikipedia's deadliest-floods list cites 3,189 or more deaths. Distinct from the 1998 and 2020 China floods already in the database. Official disaster with large evacuations and agricultural losses."
+      "what_happened": "From May through August 2010, monsoon and storm rains produced nationwide flooding and landslides in China (and adjacent North Korea). Wikipedia's deadliest-floods list cites 3,189 or more deaths. Distinct from the 1998 and 2020 China floods already in the database. Official disaster with large evacuations and agricultural losses.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Around 600 left homeless (Wikipedia)",
@@ -2809,6 +3273,7 @@
       "incident_date": "2010-02-20",
       "injured": 250,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 32.69778,
       "latest_report_date": "2010-02-26",
@@ -2837,7 +3302,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "An Atlantic low and cold front dropped more than double Funchal's February average rain in a few hours on 20 February 2010: 108 mm between 06:00 and 11:00 at Funchal and 165 mm on Pico do Arieiro. Flash floods and mudslides on the south of the island killed 51 people (6 still missing as of later counts), injured 250 and left about 600 homeless. The airport closed, bridges were washed away, and reconstruction was later costed around €1.4 billion."
+      "what_happened": "An Atlantic low and cold front dropped more than double Funchal's February average rain in a few hours on 20 February 2010: 108 mm between 06:00 and 11:00 at Funchal and 165 mm on Pico do Arieiro. Flash floods and mudslides on the south of the island killed 51 people (6 still missing as of later counts), injured 250 and left about 600 homeless. The airport closed, bridges were washed away, and reconstruction was later costed around €1.4 billion.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -2858,6 +3330,7 @@
       "incident_date": "2009-11-25",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 21.4858,
       "latest_report_date": "2009-11-26",
@@ -2886,7 +3359,14 @@
       "status": "Historical. Drainage works expanded afterward.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "About 90 mm of rain in four hours on 25 November 2009 — roughly twice Jeddah's annual average — produced a deadly urban flash flood. Wikipedia's deadliest-floods list cites 123 deaths. Cars and neighborhoods in low-lying districts were swept by wadi flow. The disaster exposed drainage failures in the rapidly grown city and led to official inquiries."
+      "what_happened": "About 90 mm of rain in four hours on 25 November 2009 — roughly twice Jeddah's annual average — produced a deadly urban flash flood. Wikipedia's deadliest-floods list cites 123 deaths. Cars and neighborhoods in low-lying districts were swept by wadi flow. The disaster exposed drainage failures in the rapidly grown city and led to official inquiries.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -2907,6 +3387,7 @@
       "incident_date": "2009-08-08",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 23.162,
       "latest_report_date": "2009-08-10",
@@ -2935,7 +3416,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Typhoon Morakot stalled over Taiwan in August 2009 and produced record mountain rainfall. Xiaolin village in Kaohsiung County was buried. Wikipedia's deadliest-floods list cites 677 deaths for the 8 August 2009 flood and landslide disaster. It is Taiwan's deadliest typhoon-flood in decades and led to a government crisis."
+      "what_happened": "Typhoon Morakot stalled over Taiwan in August 2009 and produced record mountain rainfall. Xiaolin village in Kaohsiung County was buried. Wikipedia's deadliest-floods list cites 677 deaths for the 8 August 2009 flood and landslide disaster. It is Taiwan's deadliest typhoon-flood in decades and led to a government crisis.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Over 2.3 million affected in northern Bihar; ~53,800 in Nepal's Sunsari (OCHA)",
@@ -2956,6 +3444,7 @@
       "incident_date": "2008-08-18",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 26.115,
       "latest_report_date": "2008-11-27",
@@ -2984,7 +3473,14 @@
       "status": "Historical. World Bank–backed Kosi reconstruction followed.",
       "verification": "confirmed",
       "warning_issued": false,
-      "what_happened": "The Kosi embankment at Kusaha, Sunsari, Nepal, breached on 18 August 2008. The river shifted onto an old course across its megafan and flooded northern Bihar. Wikipedia's infobox records 434 deaths (bodies recovered into late November). Over 2.3 million people were affected in Bihar; more than 300,000 houses were destroyed and at least 340,000 hectares of crops damaged. The Prime Minister declared a natural calamity. Nepal's Sunsari district was also hit."
+      "what_happened": "The Kosi embankment at Kusaha, Sunsari, Nepal, breached on 18 August 2008. The river shifted onto an old course across its megafan and flooded northern Bihar. Wikipedia's infobox records 434 deaths (bodies recovered into late November). Over 2.3 million people were affected in Bihar; more than 300,000 houses were destroyed and at least 340,000 hectares of crops damaged. The Prime Minister declared a natural calamity. Nepal's Sunsari district was also hit.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -3005,6 +3501,7 @@
       "incident_date": "2008-06-08",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 41.9778,
       "latest_report_date": "2008-06-15",
@@ -3033,7 +3530,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "Heavy June 2008 rain on saturated soils produced major flooding across Iowa, Illinois, Indiana, Missouri and Wisconsin. The Cedar River set a record at Cedar Rapids and inundated a large part of downtown. NOAA and USGS treat it as one of the most significant upper-Midwest floods since 1993. FEMA issued major-disaster declarations. Deaths were in the dozens across the region; damage reached several billion dollars."
+      "what_happened": "Heavy June 2008 rain on saturated soils produced major flooding across Iowa, Illinois, Indiana, Missouri and Wisconsin. The Cedar River set a record at Cedar Rapids and inundated a large part of downtown. NOAA and USGS treat it as one of the most significant upper-Midwest floods since 1993. FEMA issued major-disaster declarations. Deaths were in the dozens across the region; damage reached several billion dollars.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "1.2 million affected; 126,581 displaced in Tabasco (GOM GDCP via ReliefWeb, 7–9 November 2007)",
@@ -3054,6 +3558,7 @@
       "incident_date": "2007-10-30",
       "injured": null,
       "inundation_area": "As much as 80% of Tabasco under water (Wikipedia)",
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 17.972,
       "latest_report_date": "2007-11-09",
@@ -3082,7 +3587,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Late-October rains sent the Grijalva and its branches over their banks. By 1 November Tabasco's governor said about 80% of the state was flooded. The Grijalva broke dikes in Villahermosa on 2 November and a million homes were under water. President Felipe Calderón called it one of the worst natural disasters in Mexico's history. USAID/ReliefWeb recorded the Government of Mexico GDCP figure of at least 13 killed and 1.2 million affected, with 126,581 displaced in Tabasco. About 80% of Mexico's cocoa harvest was lost."
+      "what_happened": "Late-October rains sent the Grijalva and its branches over their banks. By 1 November Tabasco's governor said about 80% of the state was flooded. The Grijalva broke dikes in Villahermosa on 2 November and a million homes were under water. President Felipe Calderón called it one of the worst natural disasters in Mexico's history. USAID/ReliefWeb recorded the Government of Mexico GDCP figure of at least 13 killed and 1.2 million affected, with 126,581 displaced in Tabasco. About 80% of Mexico's cocoa harvest was lost.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 420,000 without running water in Gloucestershire; thousands rescued",
@@ -3103,6 +3615,7 @@
       "incident_date": "2007-06-15",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 51.992,
       "latest_report_date": "2007-07-28",
@@ -3131,7 +3644,14 @@
       "status": "Historical. Flood and Water Management Act 2010 implemented Pitt recommendations.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "The UK's wettest May–July since records began in 1776 produced two pulses of flooding in June and July 2007. Hull, Sheffield, Doncaster, Tewkesbury, Gloucester and Oxford were among the hardest hit. Wikipedia records 13 deaths and about £6.5 billion damage (Environment Agency later put economic cost at about £3.2 billion in 2007 prices). About 420,000 people in Gloucestershire lost running water when Mythe treatment works flooded. A national disaster; the Pitt Review followed."
+      "what_happened": "The UK's wettest May–July since records began in 1776 produced two pulses of flooding in June and July 2007. Hull, Sheffield, Doncaster, Tewkesbury, Gloucester and Oxford were among the hardest hit. Wikipedia records 13 deaths and about £6.5 billion damage (Environment Agency later put economic cost at about £3.2 billion in 2007 prices). About 420,000 people in Gloucestershire lost running water when Mythe treatment works flooded. A national disaster; the Pitt Review followed.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-katrina-2005",
@@ -3173,6 +3693,7 @@
       "notes": "Dam/levee structural failures are also in the dam database where we have a New Orleans/Katrina levee record; this is the wider flood event. Deaths are the NHC 2023 figure (1,392), not the older 1,833.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -3181,7 +3702,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "$125 billion (2005 USD)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -3196,6 +3724,7 @@
       "notes": "1,094 is the Maharashtra total commonly cited; 447 of those in Mumbai.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -3228,7 +3757,14 @@
           "url": "https://en.wikipedia.org/wiki/2005_Maharashtra_floods"
         }
       ],
-      "river_or_facility": "Mithi / Mumbai coastal drainages"
+      "river_or_facility": "Mithi / Mumbai coastal drainages",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -3249,6 +3785,7 @@
       "incident_date": "2004-05-23",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 18.25,
       "latest_report_date": "2004-05-27",
@@ -3281,7 +3818,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Torrential rains in late May 2004 produced flash floods and mudslides on both sides of the Haiti–Dominican Republic border. Wikipedia's deadliest-floods list cites 1,605–3,363 deaths for the Hispaniola event (and 2,000+ for the wider May 2004 Caribbean floods). Mapou in Haiti and Jimaní in the Dominican Republic were among the worst-hit towns. An official disaster with large international relief."
+      "what_happened": "Torrential rains in late May 2004 produced flash floods and mudslides on both sides of the Haiti–Dominican Republic border. Wikipedia's deadliest-floods list cites 1,605–3,363 deaths for the Hispaniola event (and 2,000+ for the wider May 2004 Caribbean floods). Mapou in Haiti and Jimaní in the Dominican Republic were among the worst-hit towns. An official disaster with large international relief.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 40,000 evacuated from Prague; more than 30,000 from Dresden",
@@ -3302,6 +3846,7 @@
       "incident_date": "2002-08",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 51.0504,
       "latest_report_date": "2002-08",
@@ -3330,7 +3875,14 @@
       "status": "Historical. Helped launch the European Flood Awareness System.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Two Genoa lows (Hanne and Ilse) in August 2002 produced a roughly 100-year flood across Central Europe. The Vltava in Prague peaked at 5,300 m³/s. The Elbe at Dresden reached 9.4 m. Wikipedia records 232 deaths and about €27.7 billion damage. Germany took more than two-thirds of the losses; 30,000 people were evacuated from Dresden and about 40,000 from Prague."
+      "what_happened": "Two Genoa lows (Hanne and Ilse) in August 2002 produced a roughly 100-year flood across Central Europe. The Vltava in Prague peaked at 5,300 m³/s. The Elbe at Dresden reached 9.4 m. Wikipedia records 232 deaths and about €27.7 billion damage. Germany took more than two-thirds of the losses; 30,000 people were evacuated from Dresden and about 40,000 from Prague.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -3345,6 +3897,7 @@
       "notes": "About 800 deaths is the commonly cited Wikipedia/ReliefWeb figure.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -3380,7 +3933,14 @@
           "url": "https://reliefweb.int/disaster/fl-2000-0081-moz"
         }
       ],
-      "river_or_facility": "Limpopo / Save / Incomati"
+      "river_or_facility": "Limpopo / Save / Incomati",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -3395,6 +3955,7 @@
       "notes": "Deaths left unknown because sourced estimates span about 10,000–30,000. Do not treat as zero.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -3425,7 +3986,14 @@
           "url": "https://en.wikipedia.org/wiki/1999_Vargas_tragedy"
         }
       ],
-      "river_or_facility": "Cerro El Ávila coastal catchments"
+      "river_or_facility": "Cerro El Ávila coastal catchments",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -3440,6 +4008,7 @@
       "notes": "11,374 is the Wikipedia infobox total. NHC contemporaneous estimates were around 9,000–11,000.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -3475,7 +4044,14 @@
           "url": "https://www.nhc.noaa.gov/data/tcr/AL131998_Mitch.pdf"
         }
       ],
-      "river_or_facility": "Choluteca / Ulúa / Coco"
+      "river_or_facility": "Choluteca / Ulúa / Coco",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 30 million made homeless (Floods in Bangladesh)",
@@ -3497,6 +4073,7 @@
       "incident_date": "1998-07",
       "injured": null,
       "inundation_area": "About 100,000 km² (67% of the country)",
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 23.8103,
       "latest_report_date": "1998-09",
@@ -3525,7 +4102,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "The 1998 monsoon inundated about 100,000 km² — 67% of Bangladesh, including half of Dhaka — a larger flooded area than 1988. Wikipedia's Floods in Bangladesh table lists 1,050 deaths and notes about 30 million people made homeless. Water contamination produced cholera and typhoid. Distinct from the 1998 China / Yangtze floods already in the database."
+      "what_happened": "The 1998 monsoon inundated about 100,000 km² — 67% of Bangladesh, including half of Dhaka — a larger flooded area than 1988. Wikipedia's Floods in Bangladesh table lists 1,050 deaths and notes about 30 million people made homeless. Water contamination produced cholera and typhoid. Distinct from the 1998 China / Yangtze floods already in the database.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-yangtze-1998",
@@ -3567,6 +4151,7 @@
       "notes": "4,150 is the official nationwide figure commonly cited (not Yangtze-only).",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -3575,7 +4160,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "680,000 houses damaged or destroyed in Poland; 7,000 people lost all possessions (Wikipedia)",
@@ -3596,6 +4188,7 @@
       "incident_date": "1997-07-05",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 51.1079,
       "latest_report_date": "1997-07-22",
@@ -3624,7 +4217,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Two pulses of extreme rain (3–10 and 17–22 July 1997) from a stalled Genoa low dropped 300–600 mm in days over the Czech Republic and southwestern Poland. Flash floods then a flood wave down the Oder hit Kłodzko, Opole and Wrocław. Wikipedia records 114 deaths (56 in Poland, 50 in the Czech Republic) and about $4.5 billion damage. In Poland it is the 'Millennium Flood' (powódź tysiąclecia)."
+      "what_happened": "Two pulses of extreme rain (3–10 and 17–22 July 1997) from a stalled Genoa low dropped 300–600 mm in days over the Czech Republic and southwestern Poland. Flash floods then a flood wave down the Oder hit Kłodzko, Opole and Wrocław. Wikipedia records 114 deaths (56 in Poland, 50 in the Czech Republic) and about $4.5 billion damage. In Poland it is the 'Millennium Flood' (powódź tysiąclecia).",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "More than 50,000 evacuated in Grand Forks; 28,000 in Manitoba",
@@ -3645,6 +4245,7 @@
       "incident_date": "1997-04-18",
       "injured": null,
       "inundation_area": "About 1,840 km² of river at the Canadian peak; more than 2,560 km² underwater (Wikipedia)",
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 47.9253,
       "latest_report_date": "1997-05-04",
@@ -3673,7 +4274,14 @@
       "status": "Historical. Greater Grand Forks Greenway and an enlarged Manitoba Floodway followed.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "Abundant snowpack and a rapid melt produced the worst Red River flood since 1826. The river crested at 54.35 feet at Grand Forks on 21 April, overtopping dikes built to a 49-foot NWS forecast. Mayor Pat Owens evacuated more than 50,000 people. A downtown fire burned 11 buildings during the flood. Manitoba's Floodway kept Winnipeg's losses far lower; 28,000 were still evacuated in the province. Total regional damage about US$3.5 billion. No deaths."
+      "what_happened": "Abundant snowpack and a rapid melt produced the worst Red River flood since 1826. The river crested at 54.35 feet at Grand Forks on 21 April, overtopping dikes built to a 49-foot NWS forecast. Mayor Pat Owens evacuated more than 50,000 people. A downtown fire burned 11 buildings during the flood. Manitoba's Floodway kept Winnipeg's losses far lower; 28,000 were still evacuated in the province. Total regional damage about US$3.5 billion. No deaths.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "16,000 people evacuated (Wikipedia)",
@@ -3694,6 +4302,7 @@
       "incident_date": "1996-07-19",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 48.425,
       "latest_report_date": "1996-07-20",
@@ -3722,7 +4331,14 @@
       "status": "Historical. La petite maison blanche is preserved as a museum.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "After two weeks of rain that saturated soils and reservoirs, extreme rainfall on 19–20 July 1996 produced the largest overland flood in 20th-century Canadian history in the Saguenay graben. Wikipedia records 10 deaths, 16,000 people evacuated, 488 homes destroyed and 1,230 damaged, and about CA$1.5 billion in damage. Over 8 feet (2.4 m) of water flooded parts of Chicoutimi and La Baie. Post-flood inquiries found the dike-and-dam network protecting Chicoutimi poorly maintained. The surviving petite maison blanche became the symbol of the flood."
+      "what_happened": "After two weeks of rain that saturated soils and reservoirs, extreme rainfall on 19–20 July 1996 produced the largest overland flood in 20th-century Canadian history in the Saguenay graben. Wikipedia records 10 deaths, 16,000 people evacuated, 488 homes destroyed and 1,230 damaged, and about CA$1.5 billion in damage. Over 8 feet (2.4 m) of water flooded parts of Chicoutimi and La Baie. Post-flood inquiries found the dike-and-dam network protecting Chicoutimi poorly maintained. The surviving petite maison blanche became the symbol of the flood.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "More than 250,000 residents and 1 million animals evacuated (Rijkswaterstaat)",
@@ -3744,6 +4360,7 @@
       "incident_date": "1995-01-31",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 51.8875,
       "latest_report_date": "1995-02-05",
@@ -3772,7 +4389,14 @@
       "status": "Historical. Room for the River followed this high-water crisis.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "Meltwater from the Alps plus prolonged rain in the Ardennes, northern France and Germany sent the Rhine, Meuse, Waal and IJssel to record winter levels. On 25 January the Meuse peaked at 45.09 m NAP at Itteren and Borgharen and flooded parts of South Limburg. At Lobith the Rhine reached 16.68 m (usual range 7.2–12 m). From 31 January more than 250,000 residents and 1 million animals were evacuated from Gelderland and Limburg — one of the largest peacetime evacuations in Dutch history. The Waal dike at Ochten shifted and was held with sandbags; primary dikes did not breach. The near-disaster launched the Room for the River and Meuse Works programmes."
+      "what_happened": "Meltwater from the Alps plus prolonged rain in the Ardennes, northern France and Germany sent the Rhine, Meuse, Waal and IJssel to record winter levels. On 25 January the Meuse peaked at 45.09 m NAP at Itteren and Borgharen and flooded parts of South Limburg. At Lobith the Rhine reached 16.68 m (usual range 7.2–12 m). From 31 January more than 250,000 residents and 1 million animals were evacuated from Gelderland and Limburg — one of the largest peacetime evacuations in Dutch history. The Waal dike at Ochten shifted and was held with sandbags; primary dikes did not breach. The near-disaster launched the Room for the River and Meuse Works programmes.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-mississippi-1993",
@@ -3813,6 +4437,7 @@
       "notes": "50 deaths and ~$15 billion are the NOAA/NWS figures. Levee breaches were part of a wider river flood.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -3821,7 +4446,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "About $15 billion (1993 USD, NOAA)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "45 million affected; 25–28 million homeless (USAID)",
@@ -3843,6 +4475,7 @@
       "incident_date": "1988-08",
       "injured": null,
       "inundation_area": "77,700 km² (52% of the country)",
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 23.8103,
       "latest_report_date": "1988-09",
@@ -3875,7 +4508,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "August–September 1988 monsoon floods, with the three major rivers peaking together, inundated about 77,700 km² (52% of Bangladesh) including much of Dhaka. USAID recorded at least 2,379 dead (1,644 officially from the floods and more than 735 from later diarrheal disease) and 45 million affected, of whom 25–28 million were homeless. Return period estimated at 50–100 years. Widely described at the time as the worst flood of the century."
+      "what_happened": "August–September 1988 monsoon floods, with the three major rivers peaking together, inundated about 77,700 km² (52% of Bangladesh) including much of Dhaka. USAID recorded at least 2,379 dead (1,644 officially from the floods and more than 735 from later diarrheal disease) and 45 million affected, of whom 25–28 million were homeless. Return period estimated at 50–100 years. Widely described at the time as the worst flood of the century.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Over 800 people evacuated by helicopter on 1 August (Wikipedia)",
@@ -3896,6 +4536,7 @@
       "incident_date": "1976-07-31",
       "injured": 250,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 40.4333,
       "latest_report_date": "1976-08-01",
@@ -3924,7 +4565,14 @@
       "status": "Historical. Memorial listing the dead stands on US 34 near Drake.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "On the eve of Colorado's centennial, a stalled thunderstorm dumped 12–14 inches (300–360 mm) near Estes Park, including 7.5 inches (190 mm) in one hour. The Big Thompson River rose in a 30-foot (9.1 m) surge through the canyon at about 15 mph. USGS and Wikipedia record 144 deaths, more than 250 injuries and at least 5 missing. 418 homes, more than 400 vehicles and 152 businesses were destroyed. President Ford designated Larimer County a disaster area. A flash-flood warning was issued hours after flooding began."
+      "what_happened": "On the eve of Colorado's centennial, a stalled thunderstorm dumped 12–14 inches (300–360 mm) near Estes Park, including 7.5 inches (190 mm) in one hour. The Big Thompson River rose in a 30-foot (9.1 m) surge through the canyon at about 15 mph. USGS and Wikipedia record 144 deaths, more than 250 injuries and at least 5 missing. 418 homes, more than 400 vehicles and 152 businesses were destroyed. President Ford designated Larimer County a disaster area. A flash-flood warning was issued hours after flooding began.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -3946,6 +4594,7 @@
       "incident_date": "1974-07",
       "injured": null,
       "inundation_area": "52,720 km² (35% of the country)",
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 23.8103,
       "latest_report_date": "1974-09",
@@ -3974,7 +4623,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Monsoon flooding in 1974 inundated about 52,720 km² (35% of Bangladesh). The national flood table on Wikipedia's Floods in Bangladesh lists 1,987 flood deaths. Combined with the concurrent famine, some compilations cite much higher totals. About a third of the country was underwater. It is one of the country's named catastrophic monsoon floods of the 20th century."
+      "what_happened": "Monsoon flooding in 1974 inundated about 52,720 km² (35% of Bangladesh). The national flood table on Wikipedia's Floods in Bangladesh lists 1,987 flood deaths. Combined with the concurrent famine, some compilations cite much higher totals. About a third of the country was underwater. It is one of the country's named catastrophic monsoon floods of the 20th century.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 13,000 properties affected; about 2,000 evacuated along the Nerang River / Gold Coast canals",
@@ -3997,6 +4653,7 @@
       "incident_date": "1974-01-25",
       "injured": 300,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": -27.465,
       "latest_report_date": "1974-01-29",
@@ -4025,7 +4682,14 @@
       "status": "Historical. Wivenhoe Dam was built upstream after the flood.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "After three weeks of monsoon rain, weak Tropical Cyclone Wanda crossed the Queensland coast on 24 January 1974 and dumped 642 mm on Brisbane in 36 hours. The Brisbane River peaked at 6.6 m at the Port Office gauge at 02:15 on 29 January. Sixteen people died (twelve drowned in Brisbane and Ipswich), about 300 were injured, at least 6,700 homes were flooded and about 13,000 properties were affected. Final damage exceeded A$980 million (1974 values). The disaster led to flood-mitigation storage at Wivenhoe Dam and was later named a Q150 Icon of Queensland."
+      "what_happened": "After three weeks of monsoon rain, weak Tropical Cyclone Wanda crossed the Queensland coast on 24 January 1974 and dumped 642 mm on Brisbane in 36 hours. The Brisbane River peaked at 6.6 m at the Port Office gauge at 02:15 on 29 January. Sixteen people died (twelve drowned in Brisbane and Ipswich), about 300 were injured, at least 6,700 homes were flooded and about 13,000 properties were affected. Final damage exceeded A$980 million (1974 values). The disaster led to flood-mitigation storage at Wivenhoe Dam and was later named a Q150 Icon of Queensland.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -4046,6 +4710,7 @@
       "incident_date": "1972-06-21",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 41.2458,
       "latest_report_date": "1972-06-25",
@@ -4074,7 +4739,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "After landfall as a weakening hurricane, Agnes stalled over the Mid-Atlantic in June 1972 and produced record rain. The Susquehanna and tributaries flooded Pennsylvania, New York and surrounding states. NOAA and contemporary accounts treat it as one of the costliest US floods of the 20th century. The US Geological Survey and NWS document more than 100 flood deaths; Wilkes-Barre and Corning were among the hardest-hit cities."
+      "what_happened": "After landfall as a weakening hurricane, Agnes stalled over the Mid-Atlantic in June 1972 and produced record rain. The Susquehanna and tributaries flooded Pennsylvania, New York and surrounding states. NOAA and contemporary accounts treat it as one of the costliest US floods of the 20th century. The US Geological Survey and NWS document more than 100 flood deaths; Wilkes-Barre and Corning were among the hardest-hit cities.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Over 3.6 million directly affected (Wikipedia)",
@@ -4095,6 +4767,7 @@
       "incident_date": "1970-11-12",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 22.4,
       "latest_report_date": "1970-11-13",
@@ -4123,7 +4796,14 @@
       "status": "Historical. Led to Bangladesh's Cyclone Preparedness Programme.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "The Bhola cyclone made landfall on East Pakistan (now Bangladesh) on 12 November 1970 with a storm surge about 10 m high at the Ganges Delta. At least 300,000 people died, possibly as many as 500,000, mostly by drowning on low islands. Over 3.6 million people were directly affected. It is the deadliest tropical cyclone on record. The failed relief effort helped precipitate the Bangladesh Liberation War."
+      "what_happened": "The Bhola cyclone made landfall on East Pakistan (now Bangladesh) on 12 November 1970 with a storm surge about 10 m high at the Ganges Delta. At least 300,000 people died, possibly as many as 500,000, mostly by drowning on low islands. Over 3.6 million people were directly affected. It is the deadliest tropical cyclone on record. The failed relief effort helped precipitate the Bangladesh Liberation War.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -4144,6 +4824,7 @@
       "incident_date": "1969-09",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 35.6781,
       "latest_report_date": "1969-10",
@@ -4172,7 +4853,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Exceptional autumn rains in September–October 1969 produced catastrophic wadi floods across Tunisia. Wikipedia's list of deadliest floods cites 540 deaths. Towns and oases in the centre and east were inundated; it remains Tunisia's benchmark flood disaster of the 20th century."
+      "what_happened": "Exceptional autumn rains in September–October 1969 produced catastrophic wadi floods across Tunisia. Wikipedia's list of deadliest floods cites 540 deaths. Towns and oases in the centre and east were inundated; it remains Tunisia's benchmark flood disaster of the 20th century.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "More than 70,000 families left homeless (Wikipedia)",
@@ -4193,6 +4881,7 @@
       "incident_date": "1966-11-04",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 43.7696,
       "latest_report_date": "1966-11-04",
@@ -4221,7 +4910,14 @@
       "status": "Historical. Bilancino Dam and other Arno works built later.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "After prolonged rain, the Levane and La Penna dams discharged more than 2,000 m³/s toward Florence. On 4 November 1966 the Arno flooded the city — the worst flood there since 1557. Water exceeded 6.7 m in Santa Croce. The lead Wikipedia figure is 35 deaths; a later passage cites 101. About 70,000 families were left homeless; 6,000 shops were destroyed; millions of books and artworks were damaged. International 'Mud Angels' led the salvage."
+      "what_happened": "After prolonged rain, the Levane and La Penna dams discharged more than 2,000 m³/s toward Florence. On 4 November 1966 the Arno flooded the city — the worst flood there since 1557. Water exceeded 6.7 m in Santa Croce. The lead Wikipedia figure is 35 deaths; a later passage cites 101. About 70,000 families were left homeless; 6,000 shops were destroyed; millions of books and artworks were damaged. International 'Mud Angels' led the salvage.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -4242,6 +4938,7 @@
       "incident_date": "1966-11-04",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 45.4408,
       "latest_report_date": "1966-11-04",
@@ -4270,7 +4967,14 @@
       "status": "Historical. MOSE barriers later built for extreme acqua alta.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "The same November 1966 storm that flooded Florence produced Venice's worst modern acqua alta. Water reached about 194 cm above the standard tide gauge, inundating nearly the entire historic city and damaging churches, palaces and art. The event is the reference disaster that later drove the MOSE mobile-barrier project."
+      "what_happened": "The same November 1966 storm that flooded Florence produced Venice's worst modern acqua alta. Water reached about 194 cm above the standard tide gauge, inundating nearly the entire historic city and damaging churches, palaces and art. The event is the reference disaster that later drove the MOSE mobile-barrier project.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "22.46 million affected in Hebei (Chinese official figures cited on Floods in China)",
@@ -4291,6 +4995,7 @@
       "incident_date": "1963-08-02",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 39.3434,
       "latest_report_date": "1963-08-10",
@@ -4319,7 +5024,14 @@
       "status": "Historical. A benchmark Hai flood (the later 2023 event was compared to it).",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Historic rain from 1–10 August 1963 (seven-day totals over 1,000 mm across 15,300 km²; a southern Hai centre recorded 2,050 mm) produced the Hai basin's greatest modern flood. Official deaths are 5,154 (5,119 in Hebei including Tianjin; 35 in Beijing). About 22.46 million people were affected in Hebei; 54.38 million mu of farmland flooded. Tianjin was held but rural Hebei suffered for months."
+      "what_happened": "Historic rain from 1–10 August 1963 (seven-day totals over 1,000 mm across 15,300 km²; a southern Hai centre recorded 2,050 mm) produced the Hai basin's greatest modern flood. Official deaths are 5,154 (5,119 in Hebei including Tianjin; 35 in Beijing). About 22.46 million people were affected in Hebei; 54.38 million mu of farmland flooded. Tianjin was held but rural Hebei suffered for months.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Homes of about 60,000 people destroyed (Wikipedia)",
@@ -4340,6 +5052,7 @@
       "incident_date": "1962-02-16",
       "injured": null,
       "inundation_area": "120 km² in Hamburg (one-sixth of the city)",
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 53.498,
       "latest_report_date": "1962-02-17",
@@ -4368,7 +5081,14 @@
       "status": "Historical. Elbe dikes shortened and strengthened afterward.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "The Vincinette / Great Sheffield Gale drove a North Sea surge into the German Bight on 16–17 February 1962. About 50 dike breaches flooded a sixth of Hamburg (120 km²). Wikipedia records 347 deaths overall and 315 in Hamburg; about 60,000 homes were destroyed. Helmut Schmidt coordinated NATO and Bundeswehr rescue. Damage in Hamburg about DM 3 billion."
+      "what_happened": "The Vincinette / Great Sheffield Gale drove a North Sea surge into the German Bight on 16–17 February 1962. About 50 dike breaches flooded a sixth of Hamburg (120 km²). Wikipedia records 347 deaths overall and 315 in Hamburg; about 60,000 homes were destroyed. Helmut Schmidt coordinated NATO and Bundeswehr rescue. Damage in Hamburg about DM 3 billion.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -4389,6 +5109,7 @@
       "incident_date": "1957-10-14",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 39.4699,
       "latest_report_date": "1957-10-14",
@@ -4417,7 +5138,14 @@
       "status": "Historical. Turia diverted; old bed is now a park.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "A cold-drop (gota fría) storm on 14 October 1957 sent the Turia through the city of Valencia. Wikipedia's deadliest-floods list cites 81 or more deaths. Large parts of the historic centre were inundated. The disaster led to the Turia being diverted south of the city; the old riverbed is now the Turia Garden."
+      "what_happened": "A cold-drop (gota fría) storm on 14 October 1957 sent the Turia through the city of Valencia. Wikipedia's deadliest-floods list cites 81 or more deaths. Large parts of the historic centre were inundated. The disaster led to the Turia being diverted south of the city; the old riverbed is now the Turia Garden.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -4439,6 +5167,7 @@
       "incident_date": "1954-06",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 30.5928,
       "latest_report_date": "1954-09",
@@ -4467,7 +5196,14 @@
       "status": "Historical.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "An extraordinarily long rainy season from June to September 1954 raised the middle Yangtze to historic highs of 44.67 m at Jingzhou and 29.73 m at Wuhan. Wikipedia estimates about 33,000 dead, including plague deaths after the flood. The disaster added momentum to later construction of Gezhouba and the Three Gorges Dam."
+      "what_happened": "An extraordinarily long rainy season from June to September 1954 raised the middle Yangtze to historic highs of 44.67 m at Jingzhou and 29.73 m at Wuhan. Wikipedia estimates about 33,000 dead, including plague deaths after the flood. The disaster added momentum to later construction of Gezhouba and the Three Gorges Dam.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-north-sea-1953",
@@ -4504,6 +5240,7 @@
       "notes": "2,551 is the Wikipedia infobox total (land plus sea). Dutch land deaths 1,836; UK land 307.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -4512,7 +5249,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "About 1 billion Dutch guilders; UK about £50 million (1953)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "420 made homeless",
@@ -4533,6 +5277,7 @@
       "incident_date": "1952-08-15",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 51.2297,
       "latest_report_date": "1952-08-16",
@@ -4561,7 +5306,14 @@
       "status": "Historical. Village rebuilt with the river diverted around the centre.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "A storm of tropical intensity dumped 229 mm of rain in 24 hours on already saturated Exmoor on 15–16 August 1952. Debris-laden floodwaters cascaded down the East and West Lyn. A debris dam in the upper West Lyn failed and sent a wave through Lynmouth. 34 people died; more than 100 buildings were destroyed or seriously damaged; 28 of 31 bridges were lost; 420 people were made homeless."
+      "what_happened": "A storm of tropical intensity dumped 229 mm of rain in 24 hours on already saturated Exmoor on 15–16 August 1952. Debris-laden floodwaters cascaded down the East and West Lyn. A debris dam in the upper West Lyn failed and sent a wave through Lynmouth. 34 people died; more than 100 buildings were destroyed or seriously damaged; 28 of 31 bridges were lost; 420 people were made homeless.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 70,000–100,000 evacuated; Canadian Disaster Database 107,000",
@@ -4582,6 +5334,7 @@
       "incident_date": "1950-04-15",
       "injured": null,
       "inundation_area": "More than 1,400 km² of the Red River Valley (Wikipedia)",
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 49.8951,
       "latest_report_date": "1950-06-12",
@@ -4610,7 +5363,14 @@
       "status": "Historical. Red River Floodway built afterward.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "The 1950 Red River flood ran from 15 April to 12 June along the Red River in the Dakotas and Manitoba. Winnipeg was inundated on 5 May (Black Friday). The river reached its highest level since 1861 and flooded more than 1,400 km² of the Red River Valley. An estimated 70,000–100,000 residents were evacuated and four of eleven Winnipeg bridges were destroyed. Wikipedia records 3 deaths in Canada and 5 in the United States. Property losses were estimated at $600 million to $1 billion. The disaster led to construction of the Red River Floodway (Duff's Ditch), completed in 1968."
+      "what_happened": "The 1950 Red River flood ran from 15 April to 12 June along the Red River in the Dakotas and Manitoba. Winnipeg was inundated on 5 May (Black Friday). The river reached its highest level since 1861 and flooded more than 1,400 km² of the Red River Valley. An estimated 70,000–100,000 residents were evacuated and four of eleven Winnipeg bridges were destroyed. Wikipedia records 3 deaths in Canada and 5 in the United States. Property losses were estimated at $600 million to $1 billion. The disaster led to construction of the Red River Floodway (Duff's Ditch), completed in 1968.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 18,500 residents displaced",
@@ -4631,6 +5391,7 @@
       "incident_date": "1948-05-30",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 45.6,
       "latest_report_date": "1948-05-30",
@@ -4659,7 +5420,14 @@
       "status": "Historical. Site is now West Delta Park / Portland International Raceway.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Spring snowmelt and rain raised the Columbia to record stages. On 30 May 1948 a railroad embankment that served as Vanport's dike gave way, destroying the wartime city of Vanport — then Oregon's second-largest city — in about an hour. Officially 15 people died; some later estimates are higher. About 18,500 residents were displaced. The city was never rebuilt."
+      "what_happened": "Spring snowmelt and rain raised the Columbia to record stages. On 30 May 1948 a railroad embankment that served as Vanport's dike gave way, destroying the wartime city of Vanport — then Oregon's second-largest city — in about an hour. Officially 15 people died; some later estimates are higher. About 18,500 residents were displaced. The city was never rebuilt.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 5 million living on inundated land until 1947 (Bi Chunfu)",
@@ -4680,6 +5448,7 @@
       "incident_date": "1938-06-09",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 34.89,
       "latest_report_date": "1947-01",
@@ -4708,7 +5477,14 @@
       "status": "Historical. Course restored at Huayuankou in 1947.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Nationalist forces breached the Yellow River dikes at Huayuankou in June 1938 to slow the Japanese advance. Immediate drowning deaths are estimated at 30,000–89,000. Professional Chinese sources put total deaths from drowning, famine and plague at 400,000–500,000. About five million civilians lived on inundated land until the dikes were repaired in 1947. The river was diverted south into the Huai system for nearly nine years."
+      "what_happened": "Nationalist forces breached the Yellow River dikes at Huayuankou in June 1938 to slow the Japanese advance. Immediate drowning deaths are estimated at 30,000–89,000. Professional Chinese sources put total deaths from drowning, famine and plague at 400,000–500,000. About five million civilians lived on inundated land until the dikes were repaired in 1947. The river was diverted south into the Huai system for nearly nine years.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -4729,6 +5505,7 @@
       "incident_date": "1938-02-27",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 34.0522,
       "latest_report_date": "1938-03-03",
@@ -4757,7 +5534,14 @@
       "status": "Historical. LA River concrete channel built afterward.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Pacific storms in late February and early March 1938 dumped extreme rain on the San Gabriel Mountains and Los Angeles Basin. Rivers left their channels; bridges and neighborhoods were destroyed. Wikipedia's list of deadliest floods cites 115 deaths. The disaster accelerated the US Army Corps of Engineers' channelization of the Los Angeles River."
+      "what_happened": "Pacific storms in late February and early March 1938 dumped extreme rain on the San Gabriel Mountains and Los Angeles Basin. Rivers left their channels; bridges and neighborhoods were destroyed. Wikipedia's list of deadliest floods cites 115 deaths. The disaster accelerated the US Army Corps of Engineers' channelization of the Los Angeles River.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 1 million left homeless (Wikipedia)",
@@ -4778,6 +5562,7 @@
       "incident_date": "1937-01-18",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 38.2527,
       "latest_report_date": "1937-02-05",
@@ -4806,7 +5591,14 @@
       "status": "Historical. USACE reservoir system later reduced Ohio flood heights.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "Near-record January rains from 13–24 January 1937 sent the Ohio over its banks from Pittsburgh to Cairo. Wikipedia records 385 deaths, about one million people left homeless, and about $500 million damage (1937 USD). Cincinnati crested at 79.9 feet on 26 January. About 70% of Louisville was underwater and 175,000 people left their homes. The disaster drove a comprehensive reservoir and levee program on the Ohio."
+      "what_happened": "Near-record January rains from 13–24 January 1937 sent the Ohio over its banks from Pittsburgh to Cairo. Wikipedia records 385 deaths, about one million people left homeless, and about $500 million damage (1937 USD). Cincinnati crested at 79.9 feet on 26 January. About 70% of Louisville was underwater and 175,000 people left their homes. The disaster drove a comprehensive reservoir and levee program on the Ohio.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Millions displaced; 1.5 million hectares of farmland flooded (Wikipedia)",
@@ -4828,6 +5620,7 @@
       "incident_date": "1935-07-06",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 32.009,
       "latest_report_date": "1935-07",
@@ -4856,7 +5649,14 @@
       "status": "Historical. Among the deadliest Yangtze floods.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "On 6 July 1935 the Han, Li and middle Yangtze rose after monsoon rains and dike bursts. Wikipedia records 145,000 deaths and millions displaced. The Han flooded 427,000 hectares and drowned about 80,000; more than 30,000 drowned along the Li; 23,000 died when the Jing River dike burst. Property damage is given as $333 million (period USD). Affected provinces included Hubei, Hunan, Jiangxi, Anhui, Jiangsu and Zhejiang."
+      "what_happened": "On 6 July 1935 the Han, Li and middle Yangtze rose after monsoon rains and dike bursts. Wikipedia records 145,000 deaths and millions displaced. The Han flooded 427,000 hectares and drowned about 80,000; more than 30,000 drowned along the Li; 23,000 died when the Jing River dike burst. Property damage is given as $333 million (period USD). Affected provinces included Hubei, Hunan, Jiangxi, Anhui, Jiangsu and Zhejiang.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-china-1931",
@@ -4897,6 +5697,7 @@
       "notes": "Deaths left unknown on the pin because sourced estimates span 422,420 to about 4 million (drowning vs famine/disease). Do not treat as zero.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "peak_discharge": null,
       "return_period": null,
@@ -4905,7 +5706,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "injured": null,
@@ -4920,6 +5728,7 @@
       "notes": "246 is the American Red Cross figure commonly cited by NOAA. Levee breaches were part of a wider river flood, not a single dam failure.",
       "era": "historical",
       "in_baseline": true,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "category": "incident",
       "verification": "confirmed",
@@ -4954,7 +5763,14 @@
           "url": "https://www.weather.gov/lmk/the_great_mississippi_river_flood_of_1927"
         }
       ],
-      "river_or_facility": "Mississippi"
+      "river_or_facility": "Mississippi",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "More than 250,000 left homeless",
@@ -4975,6 +5791,7 @@
       "incident_date": "1913-03-23",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 39.7589,
       "latest_report_date": "1913-03-27",
@@ -5003,7 +5820,14 @@
       "status": "Historical. Miami Conservancy District floodworks completed 1922.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Several days of heavy rain from 23–26 March 1913 flooded rivers across Ohio, Indiana and more than a dozen other states. About 650 flood-related deaths are estimated; Ohio's official range is 422–470. More than a quarter million people were left homeless. Dayton's levees failed and about 123 people died there; downtown stood in 10 feet of water. The disaster led to the Ohio Conservancy Act and modern US flood-control districts."
+      "what_happened": "Several days of heavy rain from 23–26 March 1913 flooded rivers across Ohio, Indiana and more than a dozen other states. About 650 flood-related deaths are estimated; Ohio's official range is 422–470. More than a quarter million people were left homeless. Dayton's levees failed and about 123 people died there; downtown stood in 10 feet of water. The disaster led to the Ohio Conservancy Act and modern US flood-control districts.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "Thousands evacuated from homes in Paris and riverside towns",
@@ -5024,6 +5848,7 @@
       "incident_date": "1910-01-21",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 48.8566,
       "latest_report_date": "1910-03",
@@ -5052,7 +5877,14 @@
       "status": "Historical. A reference 'flood of the century' for Paris flood planning.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Winter rains over a saturated Seine basin raised the river far above ordinary level. Water entered Paris through sewers, Metro tunnels and saturated soil rather than by overtopping the quays inside the city. The Seine peaked at 8.62 m above normal on 28 January. Thousands were evacuated; residents moved by boat and wooden walkways. No deaths were reported. Damage was estimated at about 400 million francs."
+      "what_happened": "Winter rains over a saturated Seine basin raised the river far above ordinary level. Water entered Paris through sewers, Metro tunnels and saturated soil rather than by overtopping the quays inside the city. The Seine peaked at 8.62 m above normal on 28 January. Thousands were evacuated; residents moved by boat and wooden walkways. No deaths were reported. Damage was estimated at about 400 million francs.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": "About 2 million left homeless (Gunn / Wikipedia)",
@@ -5073,6 +5905,7 @@
       "incident_date": "1887-09-28",
       "injured": null,
       "inundation_area": "About 50,000 square miles (130,000 km²)",
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 34.89,
       "latest_report_date": "1887-10",
@@ -5101,7 +5934,14 @@
       "status": "Historical. Among the deadliest floods ever recorded.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "After days of heavy rain, the silt-raised Yellow River overcame dikes at Huayuankou near Zhengzhou around 28 September 1887. Water spread across an estimated 50,000 square miles (130,000 km²) of the North China Plain. Wikipedia records at least 930,000 deaths; estimates range from about 900,000 to 2 million including famine and disease. About two million people were left homeless. It is among the deadliest floods on record."
+      "what_happened": "After days of heavy rain, the silt-raised Yellow River overcame dikes at Huayuankou near Zhengzhou around 28 September 1887. Water spread across an estimated 50,000 square miles (130,000 km²) of the North China Plain. Wikipedia records at least 930,000 deaths; estimates range from about 900,000 to 2 million including famine and disease. About two million people were left homeless. It is among the deadliest floods on record.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -5122,6 +5962,7 @@
       "incident_date": "1861-12",
       "injured": null,
       "inundation_area": "About 5,000–6,000 square miles in the Central Valley",
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 38.5816,
       "latest_report_date": "1862-01",
@@ -5150,7 +5991,14 @@
       "status": "Historical. USGS ARkStorm scenario models a repeat in modern California.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "Weeks of rain and mountain snow from November 1861 into January 1862, capped by a warm atmospheric-river storm, produced the largest flood in the recorded history of California, Oregon and Nevada. The Central Valley became an inland sea 250–300 miles long and about 20 miles wide (about 5,000–6,000 square miles). Sacramento was underwater for months; the state government temporarily moved to San Francisco. Wikipedia cites at least 4,000 deaths in California (about 1% of the state population) and about $100 million damage in 1861 USD."
+      "what_happened": "Weeks of rain and mountain snow from November 1861 into January 1862, capped by a warm atmospheric-river storm, produced the largest flood in the recorded history of California, Oregon and Nevada. The Central Valley became an inland sea 250–300 miles long and about 20 miles wide (about 5,000–6,000 square miles). Sacramento was underwater for months; the state government temporarily moved to San Francisco. Wikipedia cites at least 4,000 deaths in California (about 1% of the state population) and about $100 million damage in 1861 USD.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -5171,6 +6019,7 @@
       "incident_date": "1852-06-25",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": -35.0655,
       "latest_report_date": "1852-06-26",
@@ -5199,7 +6048,14 @@
       "status": "Historical. Town relocated to higher ground.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "The Murrumbidgee rose after days of rain and swept through the original town of Gundagai, built on the river flats. The National Museum of Australia describes it as Australia's deadliest flood. About 80–100 people died, roughly a third of the town's population. The settlement was later rebuilt on higher ground."
+      "what_happened": "The Murrumbidgee rose after days of rain and swept through the original town of Gundagai, built on the river flats. The National Museum of Australia describes it as Australia's deadliest flood. About 80–100 people died, roughly a third of the town's population. The settlement was later rebuilt on higher ground.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -5220,6 +6076,7 @@
       "incident_date": "1717-12-25",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 53.2194,
       "latest_report_date": "1717-12-25",
@@ -5248,7 +6105,14 @@
       "status": "Historical. Last large storm flood of this scale in the northern Netherlands.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "A northwesterly storm on Christmas night 1717 drove a storm surge along the coasts of the Netherlands, Germany and Scandinavia. About 14,000 people drowned. Between Tønder and Emden about 9,000 drowned; the Netherlands had about 2,500 victims. Villages behind the sea dikes in Groningen and East Frisia were devastated. A second storm flood followed in late February."
+      "what_happened": "A northwesterly storm on Christmas night 1717 drove a storm surge along the coasts of the Netherlands, Germany and Scandinavia. About 14,000 people drowned. Between Tønder and Emden about 9,000 drowned; the Netherlands had about 2,500 victims. Villages behind the sea dikes in Groningen and East Frisia were devastated. A second storm flood followed in late February.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -5269,6 +6133,7 @@
       "incident_date": "1634-10-11",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 54.483,
       "latest_report_date": "1634-10-12",
@@ -5297,7 +6162,14 @@
       "status": "Historical. Coastline permanently altered.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "A catastrophic North Sea storm tide on 11–12 October 1634 (the Burchardi flood, or second Grote Mandränke) struck the coasts of North Frisia, Schleswig-Holstein and southern Denmark. Dikes failed across the region. The island of Strand was broken apart; Nordstrand and Pellworm remain. Death estimates commonly range from 8,000 to 15,000."
+      "what_happened": "A catastrophic North Sea storm tide on 11–12 October 1634 (the Burchardi flood, or second Grote Mandränke) struck the coasts of North Frisia, Schleswig-Holstein and southern Denmark. Dikes failed across the region. The island of Strand was broken apart; Nordstrand and Pellworm remain. Death estimates commonly range from 8,000 to 15,000.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -5318,6 +6190,7 @@
       "incident_date": "1570-11-01",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 51.4952,
       "latest_report_date": "1570-11-02",
@@ -5346,7 +6219,14 @@
       "status": "Historical. High-water mark at Suurhusen church recorded +4.40 m NN.",
       "verification": "confirmed",
       "warning_issued": true,
-      "what_happened": "The All Saints' Flood of 1–2 November 1570 is considered the worst North Sea flood disaster before the 20th century. A surge more than four metres above mean high water overran neglected dikes from Calais to Jutland and Norway. Chroniclers reported that 80 percent of the country was under water; the island of Wulpen in Zeeland was permanently lost. Wikipedia states it was confirmed that the floods drowned 20,000 people and that up to 25,000 deaths can be assumed. Between the Ems and Weser about 10,000 people died. A warning had been issued the morning before — the first documented North Sea flood warning."
+      "what_happened": "The All Saints' Flood of 1–2 November 1570 is considered the worst North Sea flood disaster before the 20th century. A surge more than four metres above mean high water overran neglected dikes from Calais to Jutland and Norway. Chroniclers reported that 80 percent of the country was under water; the island of Wulpen in Zeeland was permanently lost. Wikipedia states it was confirmed that the floods drowned 20,000 people and that up to 25,000 deaths can be assumed. Between the Ems and Weser about 10,000 people died. A warning had been issued the morning before — the first documented North Sea flood warning.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -5367,6 +6247,7 @@
       "incident_date": "1530-11-05",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 51.458,
       "latest_report_date": "1530-11-05",
@@ -5395,7 +6276,14 @@
       "status": "Historical. Parts of eastern Zeeland remained drowned.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "A North Sea storm surge on St. Felix's Day (5 November 1530) breached dikes across Zeeland and Flanders. The town of Reimerswaal was destroyed and never rebuilt as a city. The flood is commonly cited with more than 100,000 deaths and is among the deadliest coastal floods on record in the Low Countries."
+      "what_happened": "A North Sea storm surge on St. Felix's Day (5 November 1530) breached dikes across Zeeland and Flanders. The town of Reimerswaal was destroyed and never rebuilt as a city. The flood is commonly cited with more than 100,000 deaths and is among the deadliest coastal floods on record in the Low Countries.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -5416,6 +6304,7 @@
       "incident_date": "1421-11-19",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 51.8133,
       "latest_report_date": "1421-11-19",
@@ -5444,7 +6333,14 @@
       "status": "Historical. Biesbosch National Park occupies much of the still-flooded land.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "On the night of 18–19 November 1421 a North Sea storm surge broke dikes in the Grote Hollandse Waard. Villages were swallowed and the flood created the freshwater tidal wetlands now known as the Biesbosch. Wikipedia records 2,000–10,000 deaths. Most of the area remained flooded for decades; reclaimed remnants include the island of Dordrecht and the Hoeksche Waard."
+      "what_happened": "On the night of 18–19 November 1421 a North Sea storm surge broke dikes in the Grote Hollandse Waard. Villages were swallowed and the flood created the freshwater tidal wetlands now known as the Biesbosch. Wikipedia records 2,000–10,000 deaths. Most of the area remained flooded for decades; reclaimed remnants include the island of Dordrecht and the Hoeksche Waard.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "affected_or_evacuated": null,
@@ -5465,6 +6361,7 @@
       "incident_date": "1342-07-22",
       "injured": null,
       "inundation_area": null,
+      "created_at": "2026-08-19",
       "last_updated": "2026-08-19",
       "lat": 50.1109,
       "latest_report_date": "1342-07",
@@ -5493,7 +6390,14 @@
       "status": "Historical. High-water marks survive at Frankfurt and Hann. Münden.",
       "verification": "confirmed",
       "warning_issued": null,
-      "what_happened": "The largest recorded river flood in central Europe. After a prolonged dry spell, days of continuous rain following a Genoa low inundated the Rhine, Moselle, Main, Danube, Weser, Elbe, Vltava and tributaries around the feast of St. Mary Magdalene (22 July 1342). Cologne, Mainz, Frankfurt, Würzburg, Regensburg, Passau and Vienna were seriously damaged. Würzburg's Steinerne Brücke was washed away. In the Danube area alone it is believed about 6,000 people perished. Erosion is estimated at more than 13 billion tonnes of soil."
+      "what_happened": "The largest recorded river flood in central Europe. After a prolonged dry spell, days of continuous rain following a Genoa low inundated the Rhine, Moselle, Main, Danube, Weser, Elbe, Vltava and tributaries around the feast of St. Mary Magdalene (22 July 1342). Cologne, Mainz, Frankfurt, Würzburg, Regensburg, Passau and Vienna were seriously damaged. Würzburg's Steinerne Brücke was washed away. In the Danube area alone it is believed about 6,000 people perished. Erosion is estimated at more than 13 billion tonnes of soil.",
+      "changelog": [
+        {
+          "date": "2026-08-19",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-st-lucia-1287",
@@ -5530,6 +6434,7 @@
       "notes": "Deaths left unknown on the pin because sourced estimates span 50,000–80,000. Do not treat as zero.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -5538,7 +6443,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-st-marcellus-1362",
@@ -5579,6 +6491,7 @@
       "notes": "25,000 is the Wikipedia 'at least' figure. Infobox range is 25,000–100,000.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -5587,7 +6500,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-north-sea-1825",
@@ -5624,6 +6544,7 @@
       "notes": "About 800 drowned is the Wikipedia lead figure. About 200 of those deaths were in East Frisia.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -5632,7 +6553,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-galveston-1900",
@@ -5670,6 +6598,7 @@
       "notes": "8,000 is the figure most cited in official reports. Sourced range is 6,000–12,000.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -5678,7 +6607,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "More than US$34 million (1900); about US$30 million in Galveston County",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-tianjin-1939",
@@ -5715,6 +6651,7 @@
       "notes": "Deaths left unknown: the Wikipedia article gives no count. A 20,000 figure appears only on list pages, not on the event article. Do not treat as zero. Economic loss cited as 600 million Chinese National Currency.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -5723,7 +6660,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": "About 600 million Chinese National Currency (direct losses)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-polesine-1951",
@@ -5764,6 +6708,7 @@
       "notes": "Deaths left unknown because sourced figures are 84 (Arcadia) and 'over a hundred' / about 100 (Civil Protection). Do not treat as zero.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -5772,7 +6717,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-valles-1962",
@@ -5809,6 +6761,7 @@
       "notes": "617 is the official Wikipedia figure. Estimates 800–1,000 because many victims were unregistered migrants.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -5817,7 +6770,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": "2,650 million pesetas (Wikipedia)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-portugal-1967",
@@ -5854,6 +6814,7 @@
       "notes": "495 is the official Wikipedia figure. Unofficial estimates ≥700; a newspaper compilation gives 522 dead.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -5862,7 +6823,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-rapid-city-1972",
@@ -5900,6 +6868,7 @@
       "notes": "238 is the Wikipedia/USGS figure including 5 missing. This is a named flood; Canyon Lake Dam failure was a contributing release, not a standalone dam-incident pin.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -5908,7 +6877,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": "Over US$160 million (1972); Rapid City about $66 million",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-east-china-1991",
@@ -5950,6 +6926,7 @@
       "notes": "3,000 is the later New York Times figure (27 Jan 1992). UNDRO's 3 Sep 1991 provincial tally was 910 (556+260+94).",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -5958,7 +6935,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-allison-2001",
@@ -6001,6 +6985,7 @@
       "notes": "50 is the Wikipedia nationwide total (23 in Texas). Peak rain just over 40 inches in NW Jefferson County.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6009,7 +6994,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "$8.5 billion (2001 USD)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-jakarta-2007",
@@ -6047,6 +7039,7 @@
       "notes": "80 is the final official Wikipedia figure.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6055,7 +7048,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": "About US$400 million insurance claims (Bernama, cited on Wikipedia); Rp 8 trillion losses also cited",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-ondoy-2009",
@@ -6094,6 +7094,7 @@
       "notes": "671 is the NDCC regional table on Wikipedia (NCR 448, Region IV-A 160, Region III 56). Lead text also cites 464 Philippine deaths and 921 storm-wide. Using the NDCC table.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6102,7 +7103,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "₱11.16 billion / about $237 million in the Philippines (Wikipedia table)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-colombia-2010",
@@ -6139,6 +7147,7 @@
       "notes": "301 is the Wikipedia infobox figure. An earlier CARE/AFP tally of 174 is also cited in the body.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6147,7 +7156,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": "More than $6 billion (Wikipedia infobox)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-krymsk-2012",
@@ -6188,6 +7204,7 @@
       "notes": "171 is the EMERCOM/Wikipedia figure. Early BBC reports said 144. Warning was too late for a 02:00 flood.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6196,7 +7213,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "Almost 9 billion rubles allocated to restore Krymsk (regional statement on Wikipedia)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-la-plata-2013",
@@ -6238,6 +7262,7 @@
       "notes": "101 is the Wikipedia infobox total. A later La Plata-only official count of 78 is also cited.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6246,7 +7271,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": "530.6 million pesos to shops (about US$104 million) cited on Wikipedia",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-south-carolina-2015",
@@ -6283,6 +7315,7 @@
       "notes": "19 is the South Carolina death toll on Wikipedia. Wider storm-complex total is at least 25. Peak rain 26.88 in near Mount Pleasant.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": "Up to 1-in-1,000-year rainfall in parts of the Columbia area (Wikipedia)",
@@ -6291,7 +7324,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "About $2 billion (Wikipedia)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-china-2016",
@@ -6333,6 +7373,7 @@
       "notes": "449+ is the Wikipedia infobox total (350+ flood + 99 tornado). A 28 July sitrep cited 417 flood deaths. Using the infobox figure.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6341,7 +7382,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": "About US$22 billion (Aon Benfield, cited on Wikipedia)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-sri-lanka-2016",
@@ -6379,6 +7427,7 @@
       "notes": "105 is the Sri Lanka death toll on Wikipedia (99 missing). Storm-wide total 135 including 30 in Bangladesh.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6387,7 +7436,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "About US$2 billion in Sri Lanka (Wikipedia)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-florence-2018",
@@ -6430,6 +7486,7 @@
       "notes": "54 is the Wikipedia total (24 direct, 30 indirect). NC 40, SC 9, VA 3, FL 2.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6438,7 +7495,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "$24.2 billion (2018 USD)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-jakarta-2020",
@@ -6476,6 +7540,7 @@
       "notes": "66 is the 6 January official figure on Wikipedia/CNN.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6484,7 +7549,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": null,
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-central-vietnam-2020",
@@ -6523,6 +7595,7 @@
       "notes": "189 deaths + 60 missing (15 Nov, Vietnam) is the dated sitrep on Wikipedia. A 1 Dec figure of 243+ dead or missing is also cited. Using 189.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6531,7 +7604,14 @@
       "warning_issued": true,
       "related_dam_id": null,
       "economic_damage": "Nearly ₫35.8 trillion / about US$1.57 billion",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-north-india-2023",
@@ -6569,6 +7649,7 @@
       "notes": "422 is the Wikipedia infobox fatality figure. Himachal ~330 of those.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6577,7 +7658,14 @@
       "warning_issued": null,
       "related_dam_id": null,
       "economic_damage": "About ₹10,000 crore in Himachal Pradesh (CM Sukhu, cited on Wikipedia)",
-      "category": "incident"
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
+        }
+      ]
     },
     {
       "id": "flood-bristol-channel-1607",
@@ -6614,6 +7702,7 @@
       "notes": "Deaths 2,000+ estimated on the Wikipedia infobox. Using 2000 as the lower sourced estimate, not a precise count. Date given in Gregorian form used by modern sources.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6628,6 +7717,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 1607 Bristol Channel floods (BBC / RMS retrospective cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -6666,6 +7760,7 @@
       "notes": "271 is Wikipedia's 'at least' coast-wide total. Highest recorded peak about 3.3 m above NN.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6680,6 +7775,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 1872 Baltic Sea flood."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -6718,6 +7818,7 @@
       "notes": "Deaths left null: Wikipedia gives almost 300 in the city, or about 400 including neighbouring areas. Range stays in notes.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6732,6 +7833,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 1878 flood in Miskolc."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -6770,6 +7876,7 @@
       "notes": "85 is the Wikipedia infobox total (84 in Vermont). Rain peak 9.86 in at Somerset.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6784,6 +7891,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: Great Vermont Flood of 1927 (NWS/NOAA cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -6823,6 +7935,7 @@
       "notes": "2,500 is the 2003 NWS revision for the United States ('at least'). Earlier Red Cross figure was 1,836. Storm-wide total including the Caribbean is 4,114+. Using the dated US flood figure for this pin.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6837,6 +7950,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 1928 Okeechobee hurricane (NWS 2003 death revision cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -6876,6 +7994,7 @@
       "notes": "Deaths left null: Wikipedia gives an estimated range of 150–200. Hartford crest 37.6 ft still stood as of 2015.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6890,6 +8009,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 1936 Northeastern United States flood (USGS 1936 report cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -6930,6 +8054,7 @@
       "notes": "343 is the US death toll on Wikipedia (288 direct plus 55 indirect identified in a 2016 death-certificate study). Storm-wide total >348 including 5 in Cuba. Virginia flood deaths >153 are included in the 343.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6944,6 +8069,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: Hurricane Camille."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -6983,6 +8113,7 @@
       "notes": "622 fatalities and 70 missing are the Government of Vietnam figures as of 14 November 1999, cited on Wikipedia. December flood deaths (132 as of 8 Dec) are a later episode and not added here.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -6997,6 +8128,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 1999 Vietnamese floods (OCHA/CCFSC figures cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7035,6 +8171,7 @@
       "notes": "154 deaths and 100,000 evacuated are the figures on the Wikipedia article. UN damage about US$1 billion (Newsfront, 23 July 2003, cited there).",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7049,6 +8186,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2003 Santa Fe flood (BBC / UNDP cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7087,6 +8229,7 @@
       "notes": "27 is the Wikipedia infobox total, with a municipal breakdown. Early BBC reports said at least 25.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7101,6 +8244,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2010 Var floods (BBC / Le Monde cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7139,6 +8287,7 @@
       "notes": "363 deaths and 2.1 million displaced are the Reuters/NEMA figures as of 5 November 2012. A September Lagdo release killed 30 in Benue; those deaths are inside the 363.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7153,6 +8302,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2012 Nigeria floods (Reuters 5 Nov 2012 cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7192,6 +8346,7 @@
       "notes": "41 deaths are the Wikipedia / BPBD Jakarta figure for the Jakarta event.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7206,6 +8361,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2013 Jakarta flood (Reuters / BPBD cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7244,6 +8404,7 @@
       "notes": "26 deaths are the Wikipedia infobox figure; 125 missing is also listed. Using the confirmed death count, not missing.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7258,6 +8419,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2015 Northern Chile floods and mudflow (ONEMI balances cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7297,6 +8463,7 @@
       "notes": "103 is the Wikipedia infobox death toll. Independent/FloodList contemporaneous reports said about 100.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7311,6 +8478,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2015 Myanmar floods (Independent / OCHA cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7350,6 +8522,7 @@
       "notes": "203+ is the Wikipedia infobox total. A 3 July NCDR sitrep cited 48 deaths in eight southern provinces; later provincial tallies raised the season total. Using the infobox figure.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7364,6 +8537,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2017 China floods (NCDR / Xinhua cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7403,6 +8581,7 @@
       "notes": "139 deaths (118 direct, 21 post-disaster) and 3 missing are the FDMA figures cited on Wikipedia (report of 13 Oct 2020). Rain exceeded 76 cm in parts of Japan.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7417,6 +8596,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: Typhoon Hagibis (FDMA 2020 sitrep cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7460,6 +8644,7 @@
       "notes": "Deaths left null: Wikipedia infobox is about 100–500. The Guardian on 5 Sep 2020 reported 99. Using neither as a single count.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7474,6 +8659,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2020 Sudan floods (Guardian / UNDP / FAO cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7513,6 +8703,7 @@
       "notes": "209 is the Times of India figure as of 28 July 2021 (Wikipedia infobox). A 27 July statement by Nawab Malik said 251. Using the dated 28 July count. Infobox also lists 8 missing.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7527,6 +8718,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2021 Maharashtra floods (Times of India 28 Jul 2021 cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7569,6 +8765,7 @@
       "notes": "231 dead and 5 missing as of 28 February 2022 (Band Rio / The Rio Times, cited on Wikipedia). Rain 258 mm in three hours; 250 mm between 16:20 and 19:20.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7583,6 +8780,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2022 Petrópolis floods (Band Rio 28 Feb 2022 cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7626,6 +8828,7 @@
       "notes": "134 deaths and 16,900 homes destroyed are the Africanews 15 September 2022 figures cited on Wikipedia. Later OCHA round-ups raised the affected count but did not replace that death toll on the page.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7640,6 +8843,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2022 Sudan floods (Africanews 15 Sep 2022 cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7678,6 +8886,7 @@
       "notes": "7 is Wikipedia's 'at least seven' (two elderly Slovenes drowned; two Dutch hikers killed, police said probably by lightning; others in a river, a cesspool, and Klagenfurt). Damage 'at least €7 billion'.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7692,6 +8901,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2023 Slovenia floods (ARSO / DW cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7730,6 +8944,7 @@
       "notes": "11 is the Wikipedia infobox death toll for the multi-state July event. Two of those were in Vermont. Peak rain 10.49 in at Putnam Valley, NY; 9.20 in at Calais, VT.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7744,6 +8959,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: July 2023 Northeastern United States floods (NWS Burlington naming cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7786,6 +9006,7 @@
       "notes": "5 deaths and US$2.9–3.4 billion insurance loss (Guy Carpenter, 10 Sep 2024) are the Wikipedia infobox figures. Peak 254.8 mm at Khatm Al Shakla, Al Ain.",
       "era": "historical",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7800,6 +9021,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2024 United Arab Emirates floods (Guardian / Guy Carpenter cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7842,6 +9068,7 @@
       "notes": "146 is the Wikipedia infobox figure as of 30 January 2026. Later OCHA products update the affected count (724,000) but do not publish a replacement death toll on that page. Using the dated Wikipedia figure.",
       "era": "2026",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7856,6 +9083,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2025–26 Mozambique floods (INGD / OCHA June 2026 cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     },
@@ -7894,6 +9126,7 @@
       "notes": "40 is the DoDMA figure as of 22 January 2026 (Malawi Voice / Nyasa Times, cited on Wikipedia). Infobox says 40+.",
       "era": "2026",
       "in_baseline": false,
+      "created_at": "2026-08-20",
       "last_updated": "2026-08-20",
       "peak_discharge": null,
       "return_period": null,
@@ -7908,6 +9141,11 @@
           "date": "2026-08-20",
           "by": "backfill",
           "change": "Added from Wikipedia: 2026 Malawi floods (DoDMA 22 Jan 2026 cited there)."
+        },
+        {
+          "date": "2026-08-20",
+          "by": "backfill",
+          "change": "Added to the archive."
         }
       ]
     }
