@@ -938,6 +938,25 @@ html[data-theme="light"] .pin-name {
     border-radius: 16px 16px 0 0;
     padding-bottom: max(20px, env(safe-area-inset-bottom, 0px));
   }
+  
+  .marker-cluster,
+  .marker-cluster-small,
+  .marker-cluster-medium,
+  .marker-cluster-large {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  .marker-cluster div,
+  .marker-cluster-small div,
+  .marker-cluster-medium div,
+  .marker-cluster-large div {
+    width: 26px !important;
+    height: 26px !important;
+    margin-left: 3px !important;
+    margin-top: 3px !important;
+    font-size: 11px !important;
+    line-height: 26px !important;
+  }
 }
 
 @media (max-width: 640px) {
