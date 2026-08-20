@@ -527,9 +527,6 @@
     if (map.getLayoutProperty("isolated-labels", "visibility") !== undefined) {
       map.setLayoutProperty("isolated-labels", "visibility", showLabels ? "visible" : "none");
     }
-    if (map.getLayoutProperty("cluster-labels", "visibility") !== undefined) {
-      map.setLayoutProperty("cluster-labels", "visibility", showLabels ? "visible" : "none");
-    }
   }
 
   const CONSTRUCTION_LABEL = {
@@ -1176,8 +1173,7 @@
         layout: {
           "text-field": ["get", "point_count_abbreviated"],
           "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-          "text-size": 12,
-          visibility: "none"
+          "text-size": 12
         },
         paint: {
           "text-color": "#ffffff"
@@ -1259,6 +1255,35 @@
         }
       });
 
+      let popup = new maplibregl.Popup({
+        closeButton: false,
+        closeOnClick: false,
+        className: "incident-popup"
+      });
+
+      function showPopup(e, layerId) {
+        const feature = e.features[0];
+        const inc = all.find(i => i.id === feature.properties.id);
+        if (!inc) return;
+        
+        map.getCanvas().style.cursor = "pointer";
+        
+        const geo = locationLabel(inc);
+        const year = yearOf(inc);
+        const yearStr = year != null ? formatYear(year) : "";
+        const html = "<strong>" + escapeHtml(inc.name) + "</strong><br>" + escapeHtml(yearStr) +
+          (geo ? "<br><em>" + escapeHtml(geo) + "</em>" : "");
+        
+        popup.setLngLat(feature.geometry.coordinates)
+          .setHTML(html)
+          .addTo(map);
+      }
+
+      function hidePopup() {
+        map.getCanvas().style.cursor = "";
+        popup.remove();
+      }
+
       map.on("click", "incidents-layer", (e) => {
         const id = e.features[0].properties.id;
         if (id) selectIncident(id, { fromMap: true });
@@ -1281,18 +1306,10 @@
         });
       });
 
-      map.on("mouseenter", "incidents-layer", () => {
-        map.getCanvas().style.cursor = "pointer";
-      });
-      map.on("mouseleave", "incidents-layer", () => {
-        map.getCanvas().style.cursor = "";
-      });
-      map.on("mouseenter", "isolated-layer", () => {
-        map.getCanvas().style.cursor = "pointer";
-      });
-      map.on("mouseleave", "isolated-layer", () => {
-        map.getCanvas().style.cursor = "";
-      });
+      map.on("mouseenter", "incidents-layer", (e) => showPopup(e, "incidents-layer"));
+      map.on("mouseleave", "incidents-layer", hidePopup);
+      map.on("mouseenter", "isolated-layer", (e) => showPopup(e, "isolated-layer"));
+      map.on("mouseleave", "isolated-layer", hidePopup);
       map.on("mouseenter", "clusters", () => {
         map.getCanvas().style.cursor = "pointer";
       });
