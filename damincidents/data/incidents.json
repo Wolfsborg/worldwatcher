@@ -1,9 +1,9 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 1135,
+  "count": 1152,
   "current_count": 27,
-  "historical_count": 1108,
+  "historical_count": 1125,
   "incidents": [
     {
       "id": "na-lao-weir-2026-08-19",
@@ -62112,6 +62112,944 @@
         }
       ],
       "severity": "moderate"
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "15,000 is a threatened-population figure from an MP, not a death count. Deaths left null.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 2013,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "el-aawar-tendelti-2017-09",
+      "name": "El Aawar / El Awaj Dam (Tendelti, 2017)",
+      "country": "Sudan",
+      "region": "Tandelti / Tendelti, White Nile State",
+      "location_label": "El Aawar (El Aawaj / El Awaj) flood-protection dam, Tendelti, White Nile, Sudan",
+      "lat": 13.01556,
+      "lng": 31.86889,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Tandalti) 13°0′56″N 31°52′8″E — town the 2013 dam was built to protect; not a surveyed crest",
+      "river_or_facility": "El Aawar / El Awaj Dam on Khor Abu Habil, Tendelti",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "FloodList / Radio Dabanga: Khor Abu Habil flood on 4 September 2017 damaged El Aawaj, built 2013 to protect Tendelti; state urban planning ordered crack repairs to stop a full collapse.",
+      "incident_date": "2017-09-04",
+      "latest_report_date": "2017-09-05",
+      "what_happened": "FloodList (5 Sep 2017, reprinting Radio Dabanga): El Aawaj dam at Tindelti, White Nile, partially collapsed on 4 September 2017 after the Khor Abu Habil seasonal channel rose higher than previous years. The dam was built in 2013 to protect Tendelti from flooding. The state Ministry of Urban Planning ordered faster repair of cracks so the dam would not fully collapse and drown the town. A later Dabanga report said attempts to save the dam failed and MP Ahmed Sabahelkheir said about 15,000 people were threatened — that figure is a threatened-population count, not deaths. No death count is given for this dam.",
+      "status": "Partial collapse 4 Sep 2017; full-collapse risk reported the next day.",
+      "deaths": null,
+      "severity": "major",
+      "sources": [
+        {
+          "label": "FloodList — Sudan floods collapse parts of White Nile dam",
+          "url": "https://floodlist.com/africa/sudan-floods-collapse-parts-of-white-nile-dam"
+        },
+        {
+          "label": "Dabanga — Sudan floods: parts of White Nile dam collapse",
+          "url": "https://www.dabangasudan.org/en/all-news/article/sudan-floods-parts-of-white-nile-dam-collapse"
+        },
+        {
+          "label": "Dabanga — floods threaten 15,000 as attempts to save White Nile dam fail",
+          "url": "https://www.dabangasudan.org/en/all-news/article/floods-threaten-15-000-sudanese-as-attempts-to-save-white-nile-dam-fail"
+        },
+        {
+          "label": "Wikipedia — Tandalti",
+          "url": "https://en.wikipedia.org/wiki/Tandalti"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1976,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "recreation",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "deguciai-2013-05-31",
+      "name": "Degučiai pond dam (Šilutė, 2013)",
+      "country": "Lithuania",
+      "region": "Degučiai, Šilutė district, Klaipėda County",
+      "location_label": "Degučiai pond dam, Šilutė district, Lithuania",
+      "lat": 55.316,
+      "lng": 21.771,
+      "geo_accuracy": "region",
+      "geo_source": "Lithuanian Wikipedia Degučiai (Šilutė) 55°18′58″N 21°46′16″E — village, not a surveyed crest",
+      "river_or_facility": "Degučių tvenkinys (Degučiai pond) outlet works",
+      "type": "reservoir_dam",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance",
+        "structural_design"
+      ],
+      "cause_summary": "Vakarų ekspresas / Delfi: the reinforced-concrete shaft/outlet failed overnight; the pond (built 1976, never capital-repaired) emptied. Councillor said no people were at risk.",
+      "incident_date": "2013-05-31",
+      "latest_report_date": "2013-06-04",
+      "what_happened": "Vakarų ekspresas (3 Jun 2013) and Delfi Grynas: the Degučiai pond dam in Šilutė district failed on the Friday night (31 May / 1 Jun 2013). The reinforced-concrete shaft/outlet broke; the about 6.6 ha pond emptied and fish died. The dam was built in 1976 and had never had a capital repair. A municipal councillor said no people were at risk. TV3 later reported tens of thousands of fish were rescued. No death count is given.",
+      "status": "Pond emptied 2013; historic small-dam failure.",
+      "deaths": null,
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "Vakarų ekspresas — Degučiuose prarūžus užtvankai tvenkinyje išgaišo žuvys",
+          "url": "https://ve.lt/naujienos/lietuva/vakaru-lietuva/deguciuose-prairus-uztvankai-tvenkinyje-isgaiso--zuvys-993939"
+        },
+        {
+          "label": "Delfi Grynas — Degučių tvenkinys išnyko per vieną naktį",
+          "url": "https://www.delfi.lt/grynas/aplinka/deguciu-tvenkinys-isnyko-per-viena-nakti-61543218"
+        },
+        {
+          "label": "TV3 — po avarijos Degučių tvenkinyje išgelbėta keliasdešimt tūkstančių žuvų",
+          "url": "https://www.tv3.lt/naujiena/lietuva/po-avarijos-deguciu-tvenkinyje-isgelbeta-keliasdesimt-tukstanciu-zuvu-n736526"
+        },
+        {
+          "label": "lt.wikipedia — Degučiai (Šilutė)",
+          "url": "https://lt.wikipedia.org/wiki/Degu%C4%8Diai_(%C5%A0ilut%C4%97)"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Purpose industrial is from the Ekranas factory lagoon / 1979 Nevėžis dam context in Wikipedia; not a height survey.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1979,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "concrete",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "ekranas-sluice-2022-08-02",
+      "name": "Ekranas dam floodgate (Panevėžys, 2022)",
+      "country": "Lithuania",
+      "region": "East Panevėžys / Ekrano marios, J. Biliūno Street",
+      "location_label": "Ekranas factory dam / Ekrano marios sluice, Panevėžys, Lithuania",
+      "lat": 55.733,
+      "lng": 24.35,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Panevėžys) 55°44′N 24°21′E — city; the 1979 Nevėžis/Ekranas dam is on the eastern edge (J. Biliūno Street). Not a surveyed crest.",
+      "river_or_facility": "Ekranas dam / Ekrano marios floodgate on the Nevėžis",
+      "type": "sluice",
+      "category": "incident",
+      "causes": [
+        "poor_maintenance",
+        "operational_gate"
+      ],
+      "cause_summary": "LRT / Verslo žinios: a floodgate at the unused Ekranas factory dam washed out on the morning of 2 August 2022; uncontrolled release into the Nevėžis. Environment minister later cited neglected unused dams.",
+      "incident_date": "2022-08-02",
+      "latest_report_date": "2022-08-02",
+      "what_happened": "LRT English and Verslo žinios (2 Aug 2022): water washed away a floodgate at the Ekranas dam in Panevėžys on Tuesday morning. Police and firefighters controlled the site; the Hydrometeorological Service said the Nevėžis at Panevėžys rose from 215 cm toward a 400 cm dangerous mark and reached 354 cm by 12:30, flooding low banks (Skaistakalnis Park) but not houses. Vice-mayor Valdemaras Jakštas said three barriers were being lowered to cut the flow. The Ekranas factory closed in 2006; later official comments treated the unused dam as neglected. No death count is given.",
+      "status": "Floodgate failed 2 Aug 2022; flow partly stopped the same day. Emergency declared in the city.",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "LRT English — Panevėžys threatened with flooding after dam breakdown",
+          "url": "https://www.lrt.lt/en/news-in-english/19/1750437/lithuania-s-panevezys-threatened-with-flooding-after-dam-breakdown"
+        },
+        {
+          "label": "Verslo žinios — lūžus Panevėžio Ekrano šliuzui į Nevėžį liejasi vanduo",
+          "url": "https://www.vz.lt/verslo-aplinka/2022/08/02/luzus-panevezio-ekrano-sliuzui-i-nevezi-liejasi-vanduo"
+        },
+        {
+          "label": "Wikipedia — Panevėžys",
+          "url": "https://en.wikipedia.org/wiki/Panev%C4%97%C5%BEys"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Height ~3 m is the Environment Board fish-passage remark in Harju Elu, not a survey. Owner vandalism claim is recorded but not treated as the cause.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "AS Generaator",
+      "year_built": 1950,
+      "height_m": 3,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kotka-pais-2016-08-07",
+      "name": "Kotka weir on Valgejõgi (2016)",
+      "country": "Estonia",
+      "region": "Kotka, Kuusalu Parish, Harju County",
+      "location_label": "Kotka pais, Valgejõgi, Kuusalu, Estonia",
+      "lat": 59.55,
+      "lng": 25.733,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Kotka, Harju County) 59°33′N 25°44′E — village on the Valgejõgi; not a surveyed crest",
+      "river_or_facility": "Kotka pais (weir / mill dam) on the Valgejõgi",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Harju Elu: Environment Board said the poor-condition timber-post weir gave way under flood pressure on 7 August 2016. The owner alleged vandalism; police said they could not yet tell vandalism from weather on an old structure.",
+      "incident_date": "2016-08-07",
+      "latest_report_date": "2016-08",
+      "what_happened": "Harju Elu and ERR: water disappeared from the Kotka weir pond on the Valgejõgi in Kuusalu on 7 August 2016 (ERR published 9 August). Environment Board specialist Rein Urman said the poorly maintained structure failed when timber support posts broke under water pressure; the owner (AS Generaator) filed a police report alleging vandalism. Police said they needed an environment-inspectorate opinion before opening a case, because the structure was old. The weir dates to a 1950s hydro rebuild on a ~150-year mill site; generation (~200 kW) had been restored in 1994. No death count is given.",
+      "status": "Weir failed August 2016; pond emptied. Historic mill/hydro site.",
+      "deaths": null,
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "Harju Elu — Kotka pais andis järele",
+          "url": "https://harjuelu.ee/kotka-pais-andis-jarele-kas-looduse-voi-inimkate-joul/"
+        },
+        {
+          "label": "ERR — Kotka pais Valgejõel purunes tulvavees",
+          "url": "https://www.err.ee/571802/kotka-pais-valgejoel-purunes-tulvavees-hea-uudis-lohelistele"
+        },
+        {
+          "label": "Wikipedia — Kotka, Harju County",
+          "url": "https://en.wikipedia.org/wiki/Kotka,_Harju_County"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "AS Generaator",
+      "year_built": 1950,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "kotka-pais-2014-06",
+      "name": "Kotka weir on Valgejõgi (2014)",
+      "country": "Estonia",
+      "region": "Kotka, Kuusalu Parish, Harju County",
+      "location_label": "Kotka pais, Valgejõgi, Kuusalu, Estonia",
+      "lat": 59.55,
+      "lng": 25.733,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Kotka, Harju County) 59°33′N 25°44′E — village on the Valgejõgi; not a surveyed crest",
+      "river_or_facility": "Kotka pais (weir / mill dam) on the Valgejõgi",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "Environment Board (Rein Urman, quoted in Harju Elu after the 2016 failure): the same weir had already given way under water pressure in June 2014 because of deterioration; two support posts were replaced.",
+      "incident_date": "2014-06",
+      "latest_report_date": "2016-08",
+      "what_happened": "Harju Elu interview with Environment Board specialist Rein Urman, after the 7 August 2016 Kotka weir failure: the weir had previously given way under water pressure in June 2014 due to deterioration (amortiseerumine), and two support posts were replaced. A further water-pressure incident about a month before August 2016 led to three posts being replaced. This record is the 2014 failure. No death count is given.",
+      "status": "Failed June 2014; two posts replaced. Failed again in 2016 (separate record).",
+      "deaths": null,
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "Harju Elu — Kotka pais andis järele (2014 prior failure quoted)",
+          "url": "https://harjuelu.ee/kotka-pais-andis-jarele-kas-looduse-voi-inimkate-joul/"
+        },
+        {
+          "label": "Wikipedia — Kotka, Harju County",
+          "url": "https://en.wikipedia.org/wiki/Kotka,_Harju_County"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 220,
+      "notes": "Santa Ana flood death from the same season is not attributed to this dike. 220 is families assisted, not a death count.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "sajonia-dique-2019-04",
+      "name": "Sajonia barrio dike (Asunción, 2019)",
+      "country": "Paraguay",
+      "region": "Sajonia, Asunción",
+      "location_label": "Sajonia flood dike, Asunción, Paraguay",
+      "lat": -25.3,
+      "lng": -57.667,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Sajonia, Asunción) 25°18′S 57°40′W — barrio, not a surveyed dike crest",
+      "river_or_facility": "Paraguay River flood dike, barrio Sajonia",
+      "type": "levee_embankment",
+      "category": "partial_breach",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "La Unión quoting SEN minister Joaquín Roa: the Sajonia dike yielded during the April 2019 Paraguay River rise, sending about 220 families to shelters.",
+      "incident_date": "2019-04",
+      "latest_report_date": "2019-04",
+      "what_happened": "La Unión (April 2019): SEN minister Joaquín Roa said a dike in barrio Sajonia had yielded (cediera un dique) during the Paraguay River flood, and that about 220 families from that area were being assisted in shelters. The same 2019 flood killed at least one person in barrio Santa Ana — that death is not copied onto this dike. No death count is given for the Sajonia dike itself.",
+      "status": "Dike yielded April 2019; families sheltered.",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "La Unión — emergencia nacional / crecida del río (Sajonia dike)",
+          "url": "https://www.launion.com.py/emergencia-nacional-garantiza-asistencia-a-todos-los-damnificados-por-crecida-del-rio-109422.html"
+        },
+        {
+          "label": "Wikipedia — Sajonia (Asunción)",
+          "url": "https://en.wikipedia.org/wiki/Sajonia_(Asunci%C3%B3n)"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Category incident, not failure: SEN denied collapse.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "pilar-muro-2019-05",
+      "name": "Pilar flood wall seepage (2019)",
+      "country": "Paraguay",
+      "region": "Pilar, Ñeembucú",
+      "location_label": "Pilar flood wall / Manufactura de Pilar, Ñeembucú, Paraguay",
+      "lat": -26.87,
+      "lng": -58.3,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Pilar, Paraguay) 26°52′12″S 58°18′0″W — city; the Costanera retaining walls protect the town. Not a surveyed leak.",
+      "river_or_facility": "Pilar Paraguay River flood wall (muro de contención)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Hoy and La Unión: the Pilar flood wall was filtering in May 2019; residents sandbagged. SEN minister Joaquín Roa publicly denied a collapse (derrumbe).",
+      "incident_date": "2019-05",
+      "latest_report_date": "2019-05",
+      "what_happened": "Hoy (Pilar en situación de desastre) and La Unión: during the May 2019 Paraguay River flood the Pilar flood wall was filtering and residents contained leaks with sandbags. SEN minister Joaquín Roa publicly denied that the wall had collapsed. Wikipedia notes the city has retaining walls, locks and pumping plants after the 1983 flood. No death count is given for this wall.",
+      "status": "Seepage / filtration May 2019; SEN denied collapse.",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "La Unión — ministro de la SEN desmiente derrumbe de muro en Pilar",
+          "url": "https://www.launion.com.py/ministro-de-la-sen-desmiente-derrumbe-de-muro-en-pilar-111178.html"
+        },
+        {
+          "label": "Hoy — Pilar en situación de desastre, muro filtra",
+          "url": "https://www.hoy.com.py/nacionales/pilar-en-situacion-de-desastre-muro-filtra-y-pobladores-contienen-con-bolsas-de-arena"
+        },
+        {
+          "label": "Wikipedia — Pilar, Paraguay",
+          "url": "https://en.wikipedia.org/wiki/Pilar,_Paraguay"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": 7000,
+      "notes": "7,000 is Reuters' additional-evacuation call, not a death count. No sourced full collapse.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 2007,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "official_alert",
+      "id": "alberdi-dique-2015-12",
+      "name": "Alberdi flood dike near-collapse (2015)",
+      "country": "Paraguay",
+      "region": "Alberdi, Ñeembucú",
+      "location_label": "Alberdi Paraguay River flood dike, Ñeembucú, Paraguay",
+      "lat": -26.19,
+      "lng": -58.13,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Alberdi, Paraguay) 26°11′24″S 58°7′48″W — town the dike protects; not a surveyed crest",
+      "river_or_facility": "Alberdi muro de defensa / flood dike on the Paraguay River",
+      "type": "levee_embankment",
+      "category": "watch",
+      "causes": [
+        "poor_maintenance",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "ABC Color and Reuters (Dec 2015): large cracks in the Alberdi defence wall after rain; officials said the dike was on the point of collapse and called further evacuations. No sourced full collapse.",
+      "incident_date": "2015-12",
+      "latest_report_date": "2015-12-27",
+      "what_happened": "ABC Color (Alberdi) and Reuters (27 Dec 2015): after more than 50 mm of rain, huge cracks in Alberdi's flood-defence wall worsened and municipal officials said the dike could collapse at any moment, trapping families in the centre. Reuters reported authorities had called for about 7,000 more people to evacuate because of cracks in the town's levee during the 2015–16 El Niño Paraguay River flood. The defence was built in two stages (about 2001 and 2007). No sourced complete breach and no death count for this dike.",
+      "status": "Near-collapse / cracked levee, December 2015. Watch, not a confirmed failure.",
+      "deaths": null,
+      "severity": "watch",
+      "sources": [
+        {
+          "label": "ABC Color — dique a punto de colapsar en Alberdi",
+          "url": "https://www.abc.com.py/nacionales/dique-a-punto-de-colapsar-en-alberdi-1310127.html"
+        },
+        {
+          "label": "Reuters — more flee worst floods as levee creaks",
+          "url": "https://www.reuters.com/article/world/in-paraguay-more-flee-worst-floods-in-decades-as-levee-creaks-idUSKBN0UB04C/"
+        },
+        {
+          "label": "Wikipedia — Alberdi, Paraguay",
+          "url": "https://en.wikipedia.org/wiki/Alberdi,_Paraguay"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Incident month from the known Nov 1981 Wadden surge; Wikipedia gives year 1981 only. Separate from juvre-dige-1981-11-27.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1887,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mando-dige-1981",
+      "name": "Mandø Bydiget and Havnediget (1981)",
+      "country": "Denmark",
+      "region": "Mandø, Esbjerg Municipality, Syddanmark",
+      "location_label": "Mandø village and harbour dikes, Danish Wadden Sea",
+      "lat": 55.28056,
+      "lng": 8.55278,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Mandø) 55°16′50″N 8°33′10″E — island; both named dikes are on Mandø. Not surveyed crests.",
+      "river_or_facility": "Bydiget (1887) and Havnediget (1937), Mandø",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Wikipedia Mandø: both the 1887 village dike (Bydiget) and the 1937 harbour dike (Havnediget) were breached in a 1981 flood — the same November Wadden Sea surge that breached Juvre on Rømø (separate island).",
+      "incident_date": "1981-11",
+      "latest_report_date": "2023",
+      "what_happened": "English Wikipedia Mandø: a dyke known as Bydiget was built in 1887 east of the main settlement; Havnediget was built in 1937 protecting Gammel Mandø. Both dykes were breached in a flood in 1981. The island's flood-year post lists 1981 among extensive-flooding years. This is a separate island and structure from the 1981-11-27 Juvre dike breach on Rømø. No people-death count is given.",
+      "status": "Both named Mandø dikes breached in the 1981 flood; later repaired.",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Wikipedia — Mandø",
+          "url": "https://en.wikipedia.org/wiki/Mand%C3%B8"
+        },
+        {
+          "label": "Aagesen — Mandø. Et klit-marskø i Vadehavet (Geografisk Tidsskrift)",
+          "url": "https://tidsskrift.dk/geografisktidsskrift/article/download/46148/56754?inline=1"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1887,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mando-bydiget-1923",
+      "name": "Mandø Bydiget (1923)",
+      "country": "Denmark",
+      "region": "Mandø, Esbjerg Municipality, Syddanmark",
+      "location_label": "Mandø Bydiget (1887 village dike), Danish Wadden Sea",
+      "lat": 55.28056,
+      "lng": 8.55278,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Mandø) 55°16′50″N 8°33′10″E — island; Bydiget is east of the settlement. Not a surveyed crest.",
+      "river_or_facility": "Bydiget (1887 village dike), Mandø",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "Aagesen, Geografisk Tidsskrift: the 1887 Mandø dike was breached twice, in the 1911 and 1923 storm floods. The 1923 rebuild had to go around a deep hole (wiel) that became a pond inside the dike.",
+      "incident_date": "1923",
+      "latest_report_date": "1953",
+      "what_happened": "Aage Aagesen, Geografisk Tidsskrift (Mandø. Et klit-marskø i Vadehavet): the 1887 dike on Ny Mandø was breached twice, in the 1911 and 1923 storm floods (stormfloderne). The 1923 rebuild left a kink because the dike had to be built around the deep scour hole (wiel) that became a lake on the inner side. Wikipedia lists 1923 among Mandø's extensive-flooding years. No death count is given.",
+      "status": "Bydiget breached 1923; rebuilt around the wiel.",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Aagesen — Mandø. Et klit-marskø i Vadehavet (Geografisk Tidsskrift)",
+          "url": "https://tidsskrift.dk/geografisktidsskrift/article/download/46148/56754?inline=1"
+        },
+        {
+          "label": "Wikipedia — Mandø",
+          "url": "https://en.wikipedia.org/wiki/Mand%C3%B8"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1887,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "mando-bydiget-1911",
+      "name": "Mandø Bydiget (1911)",
+      "country": "Denmark",
+      "region": "Mandø, Esbjerg Municipality, Syddanmark",
+      "location_label": "Mandø Bydiget (1887 village dike), Danish Wadden Sea",
+      "lat": 55.28056,
+      "lng": 8.55278,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Mandø) 55°16′50″N 8°33′10″E — island; Bydiget is east of the settlement. Not a surveyed crest.",
+      "river_or_facility": "Bydiget (1887 village dike), Mandø",
+      "type": "levee_embankment",
+      "category": "failure",
+      "causes": [
+        "overtopping"
+      ],
+      "cause_summary": "Aagesen, Geografisk Tidsskrift: the 1887 Mandø dike was breached in the 1911 storm flood (and again in 1923).",
+      "incident_date": "1911",
+      "latest_report_date": "1953",
+      "what_happened": "Aage Aagesen, Geografisk Tidsskrift: the 1887 dike on Ny Mandø was breached twice, in the 1911 and 1923 storm floods. Wikipedia lists 1911 among Mandø's extensive-flooding years (a 1909 surge had come within 5 cm of overtopping the seawall). No death count is given.",
+      "status": "Bydiget breached 1911; later repaired; breached again 1923.",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "Aagesen — Mandø. Et klit-marskø i Vadehavet (Geografisk Tidsskrift)",
+          "url": "https://tidsskrift.dk/geografisktidsskrift/article/download/46148/56754?inline=1"
+        },
+        {
+          "label": "Wikipedia — Mandø",
+          "url": "https://en.wikipedia.org/wiki/Mand%C3%B8"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Did not fail. Category incident.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lolland-dige-errindlev-2023-10-20",
+      "name": "Det lollandske dige at Errindlev (2023)",
+      "country": "Denmark",
+      "region": "Errindlev Havn, Lolland, Region Sjælland",
+      "location_label": "Det lollandske dige at Errindlev harbour, Lolland, Denmark",
+      "lat": 54.66917,
+      "lng": 11.495,
+      "geo_accuracy": "region",
+      "geo_source": "Danish Wikipedia Errindlev 54°40′9″N 11°29′42″E — village/harbour the dike defends; not a surveyed crest",
+      "river_or_facility": "Det lollandske dige (Lolland sea dike), Errindlev Havn stretch",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "overtopping",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "TV2 Øst: during the 20–21 October 2023 storm surge the Lolland dike at Errindlev was centimetres from collapse on a ~65 m stretch; it did not fail. Evacuations were ordered.",
+      "incident_date": "2023-10-20",
+      "latest_report_date": "2023-10",
+      "what_happened": "TV2 Øst and Folketidende: on 20–21 October 2023 the Lolland sea dike (Det lollandske dige) at Errindlev Havn came within centimetres of collapse; about 65 m of crest was critically eroded but the dike held. The dike chief later said storm-surge help had been invaluable. Category is incident, not failure. No death count is given for this stretch.",
+      "status": "Near-breach 20–21 Oct 2023; dike held. Later repaired.",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "TV2 Øst — Lollands forsvar mod stormflod var centimeter fra kollaps",
+          "url": "https://www.tv2east.dk/lolland/lollands-forsvar-mod-stormflod-var-centimeter-fra-kollaps"
+        },
+        {
+          "label": "Folketidende — digechef: vi fik uvurderlig stormflodshjælp",
+          "url": "https://www.folketidende.dk/lolland/digechef-vi-fik-uvurderlig-stormflodshjaelp/3688868"
+        },
+        {
+          "label": "da.wikipedia — Errindlev",
+          "url": "https://da.wikipedia.org/wiki/Errindlev"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": null,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "embankment",
+      "purpose": "flood_control",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "EUR 3.46 million later restoration (ERDF; not a loss figure)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "lubans-north-dam-2017-09",
+      "name": "Lubāns North Dam (2017)",
+      "country": "Latvia",
+      "region": "Gaigalava parish, Rēzekne Municipality, Latgale",
+      "location_label": "Lubāns North Dam, Gaigalava, Latvia",
+      "lat": 56.767,
+      "lng": 26.867,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Lake Lubāns) 56°46′N 26°52′E — lake centre; the North Dam is on the north shore (Gaigalava). Not a surveyed crest.",
+      "river_or_facility": "Lubāna ezera Ziemeļu dambis (North Dam)",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "poor_maintenance"
+      ],
+      "cause_summary": "LSM quoting Latgale land-reclamation head Staņislavs Šķesters: in September 2017 heavy rain washed the North Dam slopes and the dam was 'almost broken'.",
+      "incident_date": "2017-09",
+      "latest_report_date": "2022",
+      "what_happened": "LSM English (2022) and LSM Latvian: Staņislavs Šķesters said that in 2017, during heavy rains and floods in Latgale, the Lubāns North Dam in Gaigalava parish was almost broken (gandrīz tika pārrauts). Lake water washed the dam slopes in September; slopes were then armoured with dolomite chips as a temporary fix. A later ERDF project restored the dam (about €3.46 million) to reduce flood threat over nearly 32,000 ha. No death count is given. Category incident — near-breach, not a sourced complete failure.",
+      "status": "Near-breach September 2017; later restored.",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "LSM English — Lubāns is the biggest dammed lake in Europe",
+          "url": "https://eng.lsm.lv/article/society/environment/lubans-is-the-biggest-dammed-lake-in-europe.a491943/"
+        },
+        {
+          "label": "LSM — Atjaunots Lubāna ezera Ziemeļu dambis",
+          "url": "https://www.lsm.lv/raksts/zinas/latvija/atjaunots-lubana-ezera-ziemelu-dambis.a491884/"
+        },
+        {
+          "label": "Wikipedia — Lake Lubāns",
+          "url": "https://en.wikipedia.org/wiki/Lake_Lub%C4%81ns"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Not a dam collapse. Construction landslide at the site.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Ethiopian Electric Power",
+      "year_built": 2009,
+      "height_m": 185,
+      "reservoir_capacity": "9.3 billion m³ (Wikipedia)",
+      "construction": "concrete_arch",
+      "purpose": "hydro",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": "USD 42 million additional retaining walls (IR 2008)",
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "tekeze-landslide-2008-04",
+      "name": "Tekeze Dam construction landslide (2008)",
+      "country": "Ethiopia",
+      "region": "Tigray / Amhara border, Tekeze River canyon",
+      "location_label": "Tekeze Dam site, northern Ethiopia",
+      "lat": 13.34694,
+      "lng": 38.74361,
+      "geo_accuracy": "exact",
+      "geo_source": "Wikipedia (Tekezé Dam) 13°20′49″N 38°44′37″E",
+      "river_or_facility": "Tekeze Dam (arch dam under construction, 2008)",
+      "type": "reservoir_dam",
+      "category": "incident",
+      "causes": [
+        "landslide",
+        "construction_first_filling"
+      ],
+      "cause_summary": "International Rivers (22 Jul 2008): a massive landslide near the dam site in April 2008 forced developers to spend an additional US$42 million on retaining walls.",
+      "incident_date": "2008-04",
+      "latest_report_date": "2008-07-22",
+      "what_happened": "International Rivers / River Resource Hub (22 July 2008): since the start of construction a massive landslide had already occurred near the Tekeze Dam site in April 2008, forcing developers to spend an additional US$42 million on retaining walls to hold the eroding canyon slopes. This is a construction-site landslide, not a dam collapse. Wikipedia: 185 m double-curvature arch dam on the Tekeze River, completed February 2009. No death count is given in the IR piece.",
+      "status": "Construction landslide April 2008; dam later completed 2009.",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "International Rivers / River Resource Hub — Tekeze Dam, Ethiopia",
+          "url": "https://riverresourcehub.org/resources/tekeze-dam-ethiopia-3607/"
+        },
+        {
+          "label": "Wikipedia — Tekezé Dam",
+          "url": "https://en.wikipedia.org/wiki/Tekez%C3%A9_Dam"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Watch only. Cause is the reported piping risk, not a completed failure.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "Minera Panamá / First Quantum Minerals",
+      "year_built": 2019,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "tailings",
+      "purpose": "mining",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "official_alert",
+      "id": "cobre-panama-tmf-2024",
+      "name": "Cobre Panamá tailings facility (piping watch, 2024)",
+      "country": "Panama",
+      "region": "Donoso district, Colón Province",
+      "location_label": "Cobre Panamá mine / TMF, Donoso, Panama",
+      "lat": 8.851972,
+      "lng": -80.644778,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Cobre mine, Panama) 8°51′07.1″N 80°38′41.2″W — mine site; not a surveyed TSF crest",
+      "river_or_facility": "Cobre Panamá tailings management facility (north wall)",
+      "type": "tailings",
+      "category": "watch",
+      "causes": [
+        "piping_internal_erosion"
+      ],
+      "cause_summary": "ELAW memo (9 Dec 2024) cited by Mongabay / MiningWatch: independent review of NewFields May 2024 work flagged imminent piping risk on the abandoned TMF north wall. No breach has been reported.",
+      "incident_date": "2024-12-09",
+      "latest_report_date": "2025-02",
+      "what_happened": "Mongabay (Feb 2025) and the ELAW Panama memo (9 Dec 2024): after the 2023 court-ordered mine closure, the Cobre Panamá tailings facility was left without normal operations. ELAW's review of NewFields (May 2024) work said piping on the north wall posed an imminent risk. This record is a watch — no sourced breach. Wikipedia mine coordinates are used as a region pin for the complex.",
+      "status": "WATCH: piping risk reported Dec 2024. No sourced breach.",
+      "deaths": null,
+      "severity": "watch",
+      "sources": [
+        {
+          "label": "Mongabay — yet another abandoned mine erodes (Panama)",
+          "url": "https://news.mongabay.com/2025/02/yet-another-abandoned-mine-erodes-this-time-in-a-panamanian-protected-area/"
+        },
+        {
+          "label": "ELAW — Panama Cobre memo 9 Dec 2024 (PDF via MiningWatch)",
+          "url": "https://miningwatch.ca/sites/default/files/elaw-panama-cobre-dec-9-memo-final.pdf"
+        },
+        {
+          "label": "Wikipedia — Cobre mine, Panama",
+          "url": "https://en.wikipedia.org/wiki/Cobre_mine,_Panama"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": null,
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": "OSE (Obras Sanitarias del Estado)",
+      "year_built": 2023,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "earthfill",
+      "purpose": "water_supply",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "campanario-ose-2023-07",
+      "name": "OSE Campanario earth dike (San José, 2023)",
+      "country": "Uruguay",
+      "region": "Paraje Campanario, Rincón de Buschental, San José",
+      "location_label": "OSE Campanario dike on the Río San José, Uruguay",
+      "lat": -34.5885,
+      "lng": -56.5265,
+      "geo_accuracy": "region",
+      "geo_source": "Fallingrain gazetteer Rincón de Buschental −34.5885, −56.5265 — paraje named by la diaria; not a surveyed crest",
+      "river_or_facility": "OSE emergency earth dike / terraplén, paraje Campanario, Río San José",
+      "type": "levee_embankment",
+      "category": "incident",
+      "causes": [
+        "extreme_rainfall",
+        "construction_first_filling"
+      ],
+      "cause_summary": "la diaria (Jul 2023): local TV said rain-swollen current broke the newly built OSE earth dike. OSE sources said a break in high water was expected on an earth embankment still being built.",
+      "incident_date": "2023-07",
+      "latest_report_date": "2023-07-18",
+      "what_happened": "la diaria (July 2023, photo 18 Jul): two weeks after President Lacalle Pou visited the Campanario dike — an emergency earth embankment meant to hold Río San José freshwater and keep Río de la Plata water out of intakes — Libertad channel Cldtv said recent rain had broken the dam. OSE sources told la diaria the break was 'esperable' on a dirt terraplén when there was a lot of water, and that reconstruction would wait until the current dropped (four or five days of work). Researcher Daniel Panario said 35 mm of rain on degraded soils was enough to break the dike under construction. Category incident: named structure opened/broke while being built; OSE treated it as expected on an earth fill. No death count is given.",
+      "status": "Earth dike broke mid-July 2023 during construction; OSE said rebuild after waters fell.",
+      "deaths": null,
+      "severity": "moderate",
+      "sources": [
+        {
+          "label": "la diaria — se rompió dique construido por OSE (Campanario)",
+          "url": "https://ladiaria.com.uy/ambiente/articulo/2023/7/se-rompio-dique-construido-por-ose-que-buscaba-contener-agua-dulce-del-rio-san-jose/"
+        },
+        {
+          "label": "Fallingrain — Rincón de Buschental",
+          "url": "http://www.fallingrain.com/world/UY/16/Rincon_de_Buschental.html"
+        }
+      ]
+    },
+    {
+      "injured": null,
+      "affected_or_evacuated": null,
+      "notes": "Year 2022 from the ministry story and the 2022 unused-dam cluster; the Kauno diena fetch did not print a day. year_built ~1962 is 'about 60 years' before 2022, not a plaque date.",
+      "in_baseline": false,
+      "last_updated": "2026-08-20",
+      "era": "historical",
+      "owner_operator": null,
+      "year_built": 1962,
+      "height_m": null,
+      "reservoir_capacity": null,
+      "construction": "unknown",
+      "purpose": "unknown",
+      "volume_released": null,
+      "breach_size": null,
+      "downstream_risk": null,
+      "economic_damage": null,
+      "investigating_agency": null,
+      "verification": "confirmed",
+      "id": "palapoje-lapoja-2022",
+      "name": "Palapojė / Lapojos stream dam (2022)",
+      "country": "Lithuania",
+      "region": "Palapojos kaimas, Kaišiadorys district, Kaunas County",
+      "location_label": "Lapojos stream dam, Palapojė, Kaišiadorys district, Lithuania",
+      "lat": 54.867,
+      "lng": 24.45,
+      "geo_accuracy": "region",
+      "geo_source": "Wikipedia (Kaišiadorys) 54°52′N 24°27′E — district seat. The dam is at Palapojos village in the same district; not a village or crest survey.",
+      "river_or_facility": "Lapojos upelio užtvanka, Palapojos kaimas",
+      "type": "weir",
+      "category": "failure",
+      "causes": [
+        "poor_maintenance"
+      ],
+      "cause_summary": "Aplinkos ministerija via Kauno diena: the ownerless Soviet-era Lapojos stream dam at Palapojė collapsed; State Forest Enterprise reported about 10 ha of forest and forest road flooded.",
+      "incident_date": "2022",
+      "latest_report_date": "2022",
+      "what_happened": "Kauno diena, quoting the Environment Ministry and State Forest Enterprise: the Lapojos stream dam at Palapojos village, Kaišiadorys district, collapsed. About 10 ha of surrounding forest and forest road were flooded. The stream widened from about 1 m to about 20 m; foresters said the current was already weakening and there was no danger. The dam was built in the Soviet period, about 60 years earlier, and had no known owner. Environment minister Simonas Gentvilas used the incident to argue for removing ownerless dams. The 2022 year is from the same-season cluster of unused-dam collapses discussed around the August 2022 Ekranas incident. No death count is given.",
+      "status": "Collapsed 2022; ownerless Soviet weir. Forest flooded; no people at risk per officials.",
+      "deaths": null,
+      "severity": "minor",
+      "sources": [
+        {
+          "label": "Kauno diena — Kaišiadorių rajone griuvo užtvanka (Palapojė)",
+          "url": "https://kauno.diena.lt/index.php/naujienos/lietuva/salies-pulsas/kaisiadoriu-rajone-griuvo-uztvanka-uztvindyta-apie-10-ha-misko-1063124"
+        },
+        {
+          "label": "Wikipedia — Kaišiadorys",
+          "url": "https://en.wikipedia.org/wiki/Kai%C5%A1iadorys"
+        }
+      ]
     }
   ]
 }
