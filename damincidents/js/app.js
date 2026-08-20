@@ -1336,7 +1336,15 @@
   function updateLayerChrome() {
     const s = spec();
     document.title = "worldwatcher.app · " + s.title;
-    if (els.subtitle) els.subtitle.textContent = s.subtitle;
+    if (els.subtitle) {
+      if (layer === "floods" && s.subtitle) {
+        els.subtitle.textContent = s.subtitle;
+        els.subtitle.hidden = false;
+      } else {
+        els.subtitle.textContent = "";
+        els.subtitle.hidden = true;
+      }
+    }
     if (els.statCountLabel) els.statCountLabel.textContent = s.statLabel;
     if (els.recentHeading) els.recentHeading.textContent = s.recentLabel;
     if (els.categoryBlock) els.categoryBlock.hidden = !s.showCategory;
@@ -1550,9 +1558,6 @@
     if (years.length) {
       yearBounds.min = Math.min.apply(null, years);
       yearBounds.max = Math.max.apply(null, years);
-    }
-    if (currentLayer === "floods" && els.subtitle) {
-      els.subtitle.textContent = "Major named floods only";
     }
     els.yearMin.min = yearBounds.min;
     els.yearMin.max = yearBounds.max;
