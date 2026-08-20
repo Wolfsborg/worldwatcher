@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-08-20",
-  "count": 280,
+  "count": 307,
   "events": [
     {
       "id": "flood-assam-2026",
@@ -15601,6 +15601,1461 @@
           "date": "2026-08-20",
           "by": "historic_backfill",
           "change": "Added from Wikipedia: 2021 South Kalimantan floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-badajoz-1997",
+      "name": "1997 Badajoz floods",
+      "country": "Spain",
+      "region": "Extremadura / Badajoz",
+      "location_label": "Cerro de Reyes, Badajoz, Spain",
+      "lat": 38.8786,
+      "lng": -6.9708,
+      "geo_accuracy": "approx",
+      "geo_source": "Badajoz (Wikipedia coordinates 38°52′43″N 6°58′15″W); Cerro de Reyes on the Rivillas–Calamón confluence was the worst-hit barrio",
+      "flood_type": "flash",
+      "river_or_basin": "Rivillas / Calamón (Guadiana)",
+      "river_or_facility": null,
+      "incident_date": "1997-11-05",
+      "latest_report_date": "1997-11-06",
+      "what_happened": "On the night of 5–6 November 1997 an explosively deepening Atlantic low dumped more than 100 l/m² across Badajoz province, 125 l/m² in the capital and 136 l/m² in Valverde de Leganés, with wind gusts to 130 km/h. The Rivillas and Calamón brooks burst through the southern barrio of Cerro de Reyes; Las Piletas also overflowed in Valverde. Twenty-two people died in Badajoz and three in Valverde de Leganés. Hundreds of families lost homes; later works spent more than €100 million to clear the floodplains and turn the brooks into parks.",
+      "status": "Historical.",
+      "deaths": 25,
+      "injured": null,
+      "affected_or_evacuated": "Hundreds of families; more than 1,000 homes lost in some press tallies",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Explosive cyclogenesis and torrential rain on already wet soils; overflow of the Rivillas and Calamón.",
+      "sources": [
+        {
+          "label": "Wikipedia (ES): Inundaciones de la provincia de Badajoz de 1997",
+          "url": "https://es.wikipedia.org/wiki/Inundaciones_de_la_provincia_de_Badajoz_de_1997"
+        }
+      ],
+      "notes": "Infobox 25 muertos (22 Badajoz + 3 Valverde). RTVE 25th-anniversary piece cites 24 dead and 1 missing; Diario HOY also uses 25. Using the dedicated-page infobox 25.",
+      "era": "1997",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "125 l/m² Badajoz; 136 l/m² Valverde de Leganés",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia (ES): Inundaciones de la provincia de Badajoz de 1997."
+        }
+      ]
+    },
+    {
+      "id": "flood-ukraine-2008",
+      "name": "2008 Western Ukraine floods",
+      "country": "Ukraine",
+      "region": "Carpathians / Ivano-Frankivsk / Chernivtsi / Lviv / Zakarpattia",
+      "location_label": "Ivano-Frankivsk, Ukraine",
+      "lat": 48.9228,
+      "lng": 24.7106,
+      "geo_accuracy": "approx",
+      "geo_source": "Ivano-Frankivsk (Wikidata 48.9228°N, 24.7106°E); worst-hit oblast on the dedicated uk wiki page",
+      "flood_type": "riverine",
+      "river_or_basin": "Dniester / Prut / Carpathian tributaries",
+      "river_or_facility": null,
+      "incident_date": "2008-07-23",
+      "latest_report_date": "2008-08-04",
+      "what_happened": "Thunderstorm rains in the Carpathians from 23–27 July 2008 produced the largest flood in western Ukraine in about 60 years. The Verkhovna Rada declared six oblasts (Lviv, Ivano-Frankivsk, Ternopil, Chernivtsi, Zakarpattia, Vinnytsia) zones of ecological emergency for 90 days. The Ukrainian Wikipedia page records 30 deaths, including six children. About 40,600 houses and 33,900 ha of farmland were inundated; 360 road bridges and 561 footbridges were damaged. OCHA sitrep 1 put Ukraine deaths at 30 by 31 July (36 across Ukraine/Moldova/Romania).",
+      "status": "Historical.",
+      "deaths": 30,
+      "injured": null,
+      "affected_or_evacuated": "About 25,000 evacuated in Ukraine (OCHA 31 July); 40,703 houses flooded",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Intense July thunderstorms on Carpathian catchments; deforestation cited by Ukrainian ecologists as an aggravating factor.",
+      "sources": [
+        {
+          "label": "Wikipedia (UK): Паводок на заході України 2008 року",
+          "url": "https://uk.wikipedia.org/wiki/%D0%9F%D0%B0%D0%B2%D0%BE%D0%B4%D0%BE%D0%BA_%D0%BD%D0%B0_%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D1%96_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8_2008_%D1%80%D0%BE%D0%BA%D1%83"
+        },
+        {
+          "label": "ReliefWeb / OCHA sitrep 1, 1 Aug 2008",
+          "url": "https://reliefweb.int/report/ukraine/central-and-eastern-europe-floods-ocha-situation-report-no-1"
+        }
+      ],
+      "notes": "Dedicated uk wiki: 30 dead (6 children). OCHA IRA 2–4 Aug cited 36 dead (regional). Using the dedicated-page 30. Distinct from flood-europe-2009 and the thinner 2020 Western Ukraine page (4 deaths, not added).",
+      "era": "2008",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "UAH 3–4 billion (~US$650–870 million, OCHA)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia (UK): Паводок на заході України 2008 року."
+        }
+      ]
+    },
+    {
+      "id": "flood-nuristan-2026",
+      "name": "July 2026 Nuristan / Parun floods",
+      "country": "Afghanistan",
+      "region": "Nuristan / Parun",
+      "location_label": "Parun, Nuristan, Afghanistan",
+      "lat": 35.4167,
+      "lng": 70.9169,
+      "geo_accuracy": "approx",
+      "geo_source": "Parun (Wikipedia coordinates 35.4167°N, 70.9169°E); provincial capital hit on 20 July",
+      "flood_type": "flash",
+      "river_or_basin": "Parun / Nuristan valleys",
+      "river_or_facility": null,
+      "incident_date": "2026-07-20",
+      "latest_report_date": "2026-07-27",
+      "what_happened": "A sudden flash flood struck Parun, capital of Nuristan, around 15:00 on 20 July 2026 after heavy rain in eastern Afghanistan. OCHA Flash Update 1 (21 July) cited ANDMA: 23 dead, 15 injured, others missing. Pajhwok on 23 July raised the toll to 24, including the provincial mayor and a battalion commander, with 85 injured. AtlasPress on 27 July reported local officials at 25 dead and 125 injured, with about US$40 million in damage and aid reaching 500 families. GloFAS/Floodlist summarised 23 dead and 125 injured, with five still missing on 26 July (WHO). Distinct from the March–April 2026 spring floods already on file.",
+      "status": "Historical.",
+      "deaths": 25,
+      "injured": "125 (AtlasPress 27 July); 85 (Pajhwok 23 July); 15 (OCHA 21 July)",
+      "affected_or_evacuated": "UNICEF: 92 houses destroyed or damaged in Parun; OCHA 28 July: 1,168 affected families across 14 provinces",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "July cloudburst / flash flood in the Parun valley; further pulses in Mandol and Barg-e-Matal.",
+      "sources": [
+        {
+          "label": "OCHA Flash Update #1, 21 July 2026",
+          "url": "https://www.unocha.org/publications/report/afghanistan/afghanistan-flash-update-1-flooding-eastern-afghanistan-20-21-july-2026"
+        },
+        {
+          "label": "Pajhwok, 23 July 2026",
+          "url": "https://pajhwok.com/2026/07/23/death-toll-from-nuristan-floods-rises-to-24/"
+        },
+        {
+          "label": "AtlasPress, 27 July 2026",
+          "url": "https://atlaspress.news/en/2026/07/27/nuristan-floods-25-dead-aid-500-families/"
+        }
+      ],
+      "notes": "Latest dated local-official figure is 25 (AtlasPress 27 July). OCHA 21 July had 23; Pajhwok 23 July had 24. Distinct from flood-afghanistan-2026 (March–April, 93, OCHA 7 Apr).",
+      "era": "2026",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About US$40 million (AtlasPress / deputy governor)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from OCHA Flash Update #1 and Pajhwok / AtlasPress, July 2026 Nuristan."
+        }
+      ]
+    },
+    {
+      "id": "flood-gujarat-2017",
+      "name": "2017 Gujarat floods",
+      "country": "India",
+      "region": "Banaskantha / Patan / North Gujarat",
+      "location_label": "Palanpur, Banaskantha, Gujarat, India",
+      "lat": 24.1725,
+      "lng": 72.4347,
+      "geo_accuracy": "approx",
+      "geo_source": "Palanpur (Wikipedia coordinates 24°10′21″N 72°26′05″E); headquarters of Banaskantha, among the worst-hit districts",
+      "flood_type": "monsoon",
+      "river_or_basin": "Banas / North Gujarat rivers",
+      "river_or_facility": null,
+      "incident_date": "2017-07-14",
+      "latest_report_date": "2017-07-31",
+      "what_happened": "Simultaneous Arabian Sea and Bay of Bengal lows produced excess monsoon rain across Gujarat from mid-July 2017. IMD: 559.4 mm statewide from 1–28 July against a 339.6 mm normal (+65%); Banaskantha, Patan, Gandhinagar, Morbi, Surendranagar, Mehsana and Sabarkantha saw 267% of normal in the worst belt. The dedicated page records 224 deaths in Gujarat between 1 June and 31 July, plus 16 in neighbouring Rajasthan. Distinct from the regional flood-south-asia-2017 wrapper (1,419).",
+      "status": "Historical.",
+      "deaths": 224,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Twin monsoon lows; extreme July rain on North Gujarat catchments.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2017 Gujarat flood",
+          "url": "https://en.wikipedia.org/wiki/2017_Gujarat_flood"
+        }
+      ],
+      "notes": "224 is the dedicated-page Gujarat total (1 Jun–31 Jul). The 2017 South Asian floods page already on file uses 1,419 regional; this is the Gujarat event page.",
+      "era": "2017",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "559.4 mm statewide 1–28 July (IMD); +65% vs normal",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2017 Gujarat flood."
+        }
+      ]
+    },
+    {
+      "id": "flood-assam-2020",
+      "name": "2020 Assam floods",
+      "country": "India",
+      "region": "Assam / Brahmaputra valley",
+      "location_label": "Guwahati, Assam, India",
+      "lat": 26.1722,
+      "lng": 91.7458,
+      "geo_accuracy": "approx",
+      "geo_source": "Guwahati (Wikipedia coordinates 26°10′20″N 91°44′45″E); principal city of the flooded Brahmaputra valley",
+      "flood_type": "monsoon",
+      "river_or_basin": "Brahmaputra",
+      "river_or_facility": null,
+      "incident_date": "2020-05",
+      "latest_report_date": "2020-10",
+      "what_happened": "The 2020 Brahmaputra monsoon in Assam began in May and ran through the COVID-19 year. By October more than five million people were affected, 5,474 villages inundated and more than 150,000 people were in relief camps. The dedicated page records 123 flood deaths and a further 26 landslide deaths. Assam and Meghalaya had received 1,164 mm by 21 July against an 894 mm normal.",
+      "status": "Historical.",
+      "deaths": 123,
+      "injured": null,
+      "affected_or_evacuated": "More than 5 million affected; 150,000+ in camps",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Above-normal monsoon on the Brahmaputra and hill catchments.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 Assam floods",
+          "url": "https://en.wikipedia.org/wiki/2020_Assam_floods"
+        }
+      ],
+      "notes": "123 flood deaths on the dedicated page; 26 additional landslide deaths left in notes. Distinct from flood-assam-2026 and flood-south-asia-2020 (wrapper, not added).",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2020 Assam floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-india-bangladesh-2022",
+      "name": "2022 India–Bangladesh floods",
+      "country": "Bangladesh",
+      "region": "Sylhet / northeastern India / Brahmaputra–Meghna",
+      "location_label": "Sylhet, Bangladesh",
+      "lat": 24.9,
+      "lng": 91.8667,
+      "geo_accuracy": "approx",
+      "geo_source": "Sylhet (Wikidata 24.9°N, 91.8667°E); core of the 2022 northeastern India–Bangladesh flood",
+      "flood_type": "monsoon",
+      "river_or_basin": "Brahmaputra / Meghna / Barak–Surma–Kushiyara",
+      "river_or_facility": null,
+      "incident_date": "2022-05",
+      "latest_report_date": "2022-06-22",
+      "what_happened": "From May 2022 deadly monsoon floods hit northeastern India and Bangladesh. The dedicated page says more than 9 million people were affected and around 300 were killed. By 22 June millions still needed food and medicine. A La Niña monsoon on the Ganga–Brahmaputra–Meghna and Barak–Surma–Kushiyara systems drove the inundation. Distinct from flood-pakistan-2022 and flood-assam-2026.",
+      "status": "Historical.",
+      "deaths": 300,
+      "injured": null,
+      "affected_or_evacuated": "More than 9 million affected",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "La Niña monsoon on the northeastern India–Bangladesh floodplains.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2022 India–Bangladesh floods",
+          "url": "https://en.wikipedia.org/wiki/2022_India%E2%80%93Bangladesh_floods"
+        }
+      ],
+      "notes": "Dedicated-page lede is 'around 300' killed. Using 300 as that sourced figure; not a county-level table.",
+      "era": "2022",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2022 India–Bangladesh floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-nk-2012",
+      "name": "2012 North Korean floods",
+      "country": "North Korea",
+      "region": "South Pyongan / southern DPRK",
+      "location_label": "Anju, South Pyongan, North Korea",
+      "lat": 39.6178,
+      "lng": 125.6625,
+      "geo_accuracy": "approx",
+      "geo_source": "Anju (Wikipedia coordinates 39°37′04″N 125°39′45″E); South Pyongan counties took the largest loss of life on the dedicated page",
+      "flood_type": "storm",
+      "river_or_basin": "Taedong / South Pyongan rivers",
+      "river_or_facility": null,
+      "incident_date": "2012-07-19",
+      "latest_report_date": "2012-08",
+      "what_happened": "Tropical Storm Khanun crossed into North Korea in mid-July 2012. The government later raised Khanun flood deaths from 8 to 88, with 134 injured; the worst loss of life was in two South Pyongan counties. About 62,900 people were left homeless. Further torrential rain on 29–30 July and more rain in August killed at least six additional people and prompted an international aid request.",
+      "status": "Historical.",
+      "deaths": 88,
+      "injured": 134,
+      "affected_or_evacuated": "More than 62,900 homeless",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Tropical Storm Khanun remnants plus late-July and August rain.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2012 North Korean floods",
+          "url": "https://en.wikipedia.org/wiki/2012_North_Korean_floods"
+        }
+      ],
+      "notes": "88 is the dedicated-page Khanun figure (lede 'at least 88'). August added 'at least six' more, left in notes. Distinct from flood-nk-2016.",
+      "era": "2012",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2012 North Korean floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-nk-2018",
+      "name": "2018 North Korean floods",
+      "country": "North Korea",
+      "region": "North and South Hwanghae",
+      "location_label": "Haeju, South Hwanghae, North Korea",
+      "lat": 38.0333,
+      "lng": 125.7167,
+      "geo_accuracy": "approx",
+      "geo_source": "Haeju (Wikipedia coordinates 38°02′N 125°43′E); capital of South Hwanghae, one of the two worst-hit provinces",
+      "flood_type": "storm",
+      "river_or_basin": "Hwanghae rivers",
+      "river_or_facility": null,
+      "incident_date": "2018-08-28",
+      "latest_report_date": "2018-09-03",
+      "what_happened": "Floods beginning 28 August 2018, driven in part by Tropical Storm Soulik, killed at least 76 people in North Korea, left about 75 missing, destroyed more than 800 buildings and left about 10,700 people homeless. North and South Hwanghae were the worst-hit provinces; Red Cross volunteers ran search and rescue. Landslides followed the rain.",
+      "status": "Historical.",
+      "deaths": 76,
+      "injured": null,
+      "affected_or_evacuated": "About 10,700 homeless; 75 missing",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Late-August rain and Tropical Storm Soulik; landslides in Hwanghae.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2018 North Korean floods",
+          "url": "https://en.wikipedia.org/wiki/2018_North_Korean_floods"
+        }
+      ],
+      "notes": "76 killed, 75 missing on the dedicated page (Red Cross). Distinct from flood-nk-2016 and flood-korea-2020/2022/2023.",
+      "era": "2018",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2018 North Korean floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-yemen-2020",
+      "name": "2020 Yemen floods",
+      "country": "Yemen",
+      "region": "Marib / Hajjah / Al Hudaydah / Aden / Taizz",
+      "location_label": "Sanaa, Yemen",
+      "lat": 15.35,
+      "lng": 44.2,
+      "geo_accuracy": "approx",
+      "geo_source": "Sanaa (Wikidata 15.35°N, 44.2°E); capital; floods ran April–August across 19 governorates",
+      "flood_type": "flash",
+      "river_or_basin": "Yemen wadis",
+      "river_or_facility": null,
+      "incident_date": "2020-04",
+      "latest_report_date": "2020-09",
+      "what_happened": "Flash floods and torrential rain hit Yemen from April to August 2020. The dedicated page records at least 172 deaths and damage to homes and UNESCO-listed sites. By April about 21,240 families in 13 governorates were affected; by August about 300,000 people had lost homes, crops or livestock. By September nearly 96,000 families were affected in 189 districts of 19 governorates. Marib, Amran, Hajjah, Al Hudaydah, Taizz, Lahj, Aden and Abyan were among the worst-hit, with at least 148 killed in that belt.",
+      "status": "Historical.",
+      "deaths": 172,
+      "injured": null,
+      "affected_or_evacuated": "About 300,000 people lost homes/crops/livestock by August; 96,000 families by September",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "April–August rainstorms and flash floods on war-displaced communities.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 Yemen flood",
+          "url": "https://en.wikipedia.org/wiki/2020_Yemen_flood"
+        }
+      ],
+      "notes": "Lede 172. Sub-tally 148 in the most-affected governorates left in notes. Distinct from flood-yemen-2025 and flood-yemen-2026.",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2020 Yemen flood."
+        }
+      ]
+    },
+    {
+      "id": "flood-sardinia-2013",
+      "name": "2013 Sardinia floods (Cyclone Cleopatra)",
+      "country": "Italy",
+      "region": "Gallura / Olbia / northeastern Sardinia",
+      "location_label": "Olbia, Sardinia, Italy",
+      "lat": 40.9167,
+      "lng": 9.5,
+      "geo_accuracy": "approx",
+      "geo_source": "Olbia (Wikipedia coordinates 40°55′N 9°30′E); worst-hit city on the dedicated page",
+      "flood_type": "flash",
+      "river_or_basin": "Northeastern Sardinia rivers",
+      "river_or_facility": null,
+      "incident_date": "2013-11-17",
+      "latest_report_date": "2013-11-22",
+      "what_happened": "Cyclone Cleopatra (Ruven) stalled over the western Mediterranean on 17–19 November 2013 and dumped more than 440 mm of rain in 90 minutes on the morning of the 19th. Rivers overflowed around Olbia, Nuoro, Oristano and Gallura; water reached 3 m in Olbia. At least 18 people died and about 3,000 were left homeless. Prime Minister Enrico Letta called it a national tragedy; a national day of mourning was set for 22 November. Damage was put above €1 billion.",
+      "status": "Historical.",
+      "deaths": 18,
+      "injured": null,
+      "affected_or_evacuated": "About 3,000 homeless",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Slow-moving Mediterranean cyclone (Cleopatra/Ruven) with embedded thunderstorms.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2013 Sardinia floods",
+          "url": "https://en.wikipedia.org/wiki/2013_Sardinia_floods"
+        }
+      ],
+      "notes": "18 deaths on the dedicated page. Distinct from flood-emilia-2023, flood-messina-2009 and flood-europe-2011.",
+      "era": "2013",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "More than 440 mm in 90 minutes (19 Nov)",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "Over €1 billion",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2013 Sardinia floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-zona-mata-2026",
+      "name": "2026 Zona da Mata floods",
+      "country": "Brazil",
+      "region": "Zona da Mata / Minas Gerais / Juiz de Fora / Ubá",
+      "location_label": "Juiz de Fora, Minas Gerais, Brazil",
+      "lat": -21.75,
+      "lng": -43.35,
+      "geo_accuracy": "approx",
+      "geo_source": "Juiz de Fora (Wikidata 21.75°S, 43.35°W); principal city on the dedicated page",
+      "flood_type": "flash",
+      "river_or_basin": "Paraibuna / Pomba",
+      "river_or_facility": null,
+      "incident_date": "2026-02-23",
+      "latest_report_date": "2026-03-17",
+      "what_happened": "Extreme February 2026 rain on already wet ground produced floods and landslides across Minas Gerais' Zona da Mata. Juiz de Fora recorded 752.4 mm in the month against a 170 mm normal, including 227.6 mm in 48 hours around 22–24 February. The Paraibuna overflowed in Juiz de Fora; the Pomba rose in Cataguases. The dedicated page records 73 deaths after the last missing body was found on 17 March. About 5,510 residents were displaced as of 27 February. President Lula visited on 28 February. The deadliest Brazilian rain disaster since the 2024 Rio Grande do Sul floods already on file.",
+      "status": "Historical.",
+      "deaths": 73,
+      "injured": null,
+      "affected_or_evacuated": "5,510 displaced as of 27 Feb (3,500 Juiz de Fora, 1,200 Ubá, 810 Matias Barbosa); 253 homeless",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record February rain and landslides on the Paraibuna and Pomba.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2026 Zona da Mata floods",
+          "url": "https://en.wikipedia.org/wiki/2026_Zona_da_Mata_floods"
+        }
+      ],
+      "notes": "73 as of 17 March 2026 (last body recovered). Distinct from flood-rs-brazil-2024, flood-petropolis-2022 and flood-sao-paulo-2023.",
+      "era": "2026",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "752.4 mm February in Juiz de Fora (INMET); 227.6 mm in 48 h",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2026 Zona da Mata floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-sulawesi-2019",
+      "name": "2019 South Sulawesi floods",
+      "country": "Indonesia",
+      "region": "South Sulawesi / Gowa / Makassar",
+      "location_label": "Makassar, South Sulawesi, Indonesia",
+      "lat": -5.1333,
+      "lng": 119.4167,
+      "geo_accuracy": "approx",
+      "geo_source": "Makassar (Wikipedia coordinates 5°08′S 119°25′E); provincial capital flooded to roof level; Gowa had 45 of 68 deaths",
+      "flood_type": "riverine",
+      "river_or_basin": "Jeneberang / Walanae",
+      "river_or_facility": "Bili-Bili Dam (gates opened; not a structural failure)",
+      "incident_date": "2019-01-22",
+      "latest_report_date": "2019-01-26",
+      "what_happened": "Heavy rain from 21 January 2019 overfilled the Jeneberang and forced the opening of Bili-Bili Dam gates in Gowa; other rivers including the Walanae also overflowed. Water reached roof level (over 1.5 m) in parts of Makassar. By 25–26 January 68 people were dead, 47 injured and 6 missing, 45 of the dead in Gowa. BNPB recorded 3,321 evacuees from 78 villages; police counted 7,364 in camps in Makassar, Gowa and Jeneponto. Officials called it the worst flood in a decade. Silting and illegal mining were blamed. Gate opening was an operational release, not a dam collapse.",
+      "status": "Historical.",
+      "deaths": 68,
+      "injured": 47,
+      "affected_or_evacuated": "3,321 evacuated (BNPB); 7,364 in camps (police); 5,825 'impacted'",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall",
+        "operational_gate"
+      ],
+      "cause_summary": "Extreme January rain; Jeneberang overflow and operational opening of Bili-Bili gates.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2019 South Sulawesi floods",
+          "url": "https://en.wikipedia.org/wiki/2019_South_Sulawesi_floods"
+        }
+      ],
+      "notes": "68 dead, 6 missing (Channel NewsAsia 26 Jan). Bili-Bili watergates were opened — operational release, not a structure failure, so kept on the flood DB. Distinct from flood-kalimantan-2021 and flood-north-luwu-2020.",
+      "era": "2019",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2019 South Sulawesi floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-kerala-2020",
+      "name": "2020 Kerala floods",
+      "country": "India",
+      "region": "Idukki / Wayanad / Malappuram / Kottayam",
+      "location_label": "Idukki, Kerala, India",
+      "lat": 9.8489,
+      "lng": 76.9369,
+      "geo_accuracy": "approx",
+      "geo_source": "Painavu / Idukki (Wikipedia coordinates 9°50′56″N 76°56′13″E); Idukki was the worst landslide/flood district (Pettimudi)",
+      "flood_type": "monsoon",
+      "river_or_basin": "Periyar / western-Ghats rivers",
+      "river_or_facility": null,
+      "incident_date": "2020-08-06",
+      "latest_report_date": "2020-08-18",
+      "what_happened": "The 2020 southwest monsoon was Kerala’s third straight severe flood year. All 14 districts were affected. MHA sitrep 18 August recorded 104 dead, 12 missing and 40 injured, 1,670 villages hit and about ₹19,000 crore damage. The Pettimudi tea-estate debris flow in Idukki on 6 August killed 66. Idukki, Wayanad, Malappuram and Kottayam flooded on 7 August. The dedicated page also mentions the 7 August Calicut runway overrun (21 dead) as a rain-related incident; that crash is not treated here as a flood death.",
+      "status": "Historical.",
+      "deaths": 104,
+      "injured": 40,
+      "affected_or_evacuated": "6,300 relief camps; 220 houses fully destroyed, 5,190 partly (MHA 18 Aug)",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "August cloudbursts on the Western Ghats; rain-induced debris flows.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 Kerala floods",
+          "url": "https://en.wikipedia.org/wiki/2020_Kerala_floods"
+        }
+      ],
+      "notes": "104 is the MHA 18 Aug monsoon/flood/landslide total on the dedicated page. Pettimudi landslide 66 is inside that tally. Air India Express 1344 (21 dead) is mentioned on the page but is a crash, not added to deaths. Distinct from flood-kerala-2018.",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About ₹19,000 crore (page estimate)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2020 Kerala floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-niger-2021",
+      "name": "2021 Niger floods",
+      "country": "Niger",
+      "region": "Maradi / Zinder / Tahoua / Niamey / Agadez",
+      "location_label": "Niamey, Niger",
+      "lat": 13.515,
+      "lng": 2.1175,
+      "geo_accuracy": "approx",
+      "geo_source": "Niamey (Wikipedia coordinates 13°30′54″N 2°07′03″E); capital among the worst-hit areas; Maradi had the most affected",
+      "flood_type": "riverine",
+      "river_or_basin": "Niger River",
+      "river_or_facility": null,
+      "incident_date": "2021-06",
+      "latest_report_date": "2021-09-24",
+      "what_happened": "Niger’s 2021 rainy season produced recurring floods from June to September. The Ministry of Humanitarian Action reported 77 dead and more than 238,000 affected by 24 September; UNICEF’s year-end total was 250,331 affected and 77 dead, with Maradi (104,032), Zinder and Tahoua worst hit. About 12,000 houses collapsed and nearly 6,000 ha of cropland flooded. Niamey saw house collapses in Yantala and isolation of some districts. Dam/dike releases are listed as a contributing factor, not a named structure collapse.",
+      "status": "Historical.",
+      "deaths": 77,
+      "injured": null,
+      "affected_or_evacuated": "250,331 affected (UNICEF year-end); 12,000 houses collapsed",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Seasonal rains, blocked channels and river overflow; dam releases cited as a contributing factor, not a collapse.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2021 Niger floods",
+          "url": "https://en.wikipedia.org/wiki/2021_Niger_floods"
+        }
+      ],
+      "notes": "77 is the dedicated-page / UNICEF year-end figure. Distinct from flood-nigeria-2012/2022. Not the dam-mixed 2025 Nigeria/Mokwa event.",
+      "era": "2021",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2021 Niger floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-karachi-2020",
+      "name": "2020 Karachi floods",
+      "country": "Pakistan",
+      "region": "Karachi / Sindh",
+      "location_label": "Karachi, Pakistan",
+      "lat": 24.86,
+      "lng": 67.01,
+      "geo_accuracy": "approx",
+      "geo_source": "Karachi (Wikidata 24.86°N, 67.01°E)",
+      "flood_type": "urban",
+      "river_or_basin": "Karachi drains / Malir / Lyari",
+      "river_or_facility": null,
+      "incident_date": "2020-08-24",
+      "latest_report_date": "2020-08-27",
+      "what_happened": "Record monsoon rain on 24–27 August 2020 produced what the dedicated page calls Karachi’s worst flooding in almost a century. At least 41 people were killed. The city drainage system failed under urban rain; streets and neighbourhoods flooded across the port metropolis.",
+      "status": "Historical.",
+      "deaths": 41,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record late-August monsoon on Karachi’s drainage network.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 Karachi floods",
+          "url": "https://en.wikipedia.org/wiki/2020_Karachi_floods"
+        }
+      ],
+      "notes": "41 on the dedicated page. Distinct from flood-pakistan-2010/2012/2022/2025 and flood-pakistan-afghan-2013.",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2020 Karachi floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-jeanne-haiti-2004",
+      "name": "Hurricane Jeanne flooding in Haiti",
+      "country": "Haiti",
+      "region": "Gonaïves / Artibonite / Nord-Ouest",
+      "location_label": "Gonaïves, Haiti",
+      "lat": 19.4456,
+      "lng": -72.6883,
+      "geo_accuracy": "approx",
+      "geo_source": "Gonaïves (Wikipedia coordinates 19°26′44″N 72°41′18″W); 2,826 of 3,006 Haiti deaths",
+      "flood_type": "cyclone",
+      "river_or_basin": "Artibonite / Gonaïves coastal plain",
+      "river_or_facility": null,
+      "incident_date": "2004-09-17",
+      "latest_report_date": "2004-09-19",
+      "what_happened": "Hurricane Jeanne passed north of Haiti on 17–19 September 2004 and dropped up to 330 mm of rain in 36 hours. Floods and landslides killed 3,006 people in Haiti, one of the deadliest Atlantic hurricanes on record. In Gonaïves floodwater reached about 5 m and 2,826 people died. Nord-Ouest (mostly Port-de-Paix) recorded 65 deaths and about 300,000 homeless; 47 died elsewhere. About 5,490 houses were damaged or destroyed. Deforestation and the May 2004 Hispaniola floods (already on file) worsened the impact.",
+      "status": "Historical.",
+      "deaths": 3006,
+      "injured": null,
+      "affected_or_evacuated": "About 300,000 homeless in Nord-Ouest; 5,490 houses damaged or destroyed nationwide",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Jeanne rainfall on deforested Haitian catchments; Gonaïves inundated.",
+      "sources": [
+        {
+          "label": "Wikipedia: Hurricane Jeanne",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Jeanne"
+        }
+      ],
+      "notes": "3,006 Haiti flood/landslide deaths on the hurricane page. Distinct from flood-haiti-2004 (May 2004 Caribbean / Mapou–Jimaní, 1,605).",
+      "era": "2004",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "Up to 330 mm in 36 hours",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: Hurricane Jeanne (Haiti flood deaths)."
+        }
+      ]
+    },
+    {
+      "id": "flood-jianghuai-1921",
+      "name": "1921 Jianghuai flood",
+      "country": "China",
+      "region": "Huai basin / Shandong / Henan / Anhui / Jiangsu / Gaoyou",
+      "location_label": "Gaoyou, Jiangsu, China",
+      "lat": 32.785,
+      "lng": 119.4439,
+      "geo_accuracy": "approx",
+      "geo_source": "Gaoyou (Wikipedia coordinates 32°47′06″N 119°26′38″E); Grand Canal city named on the zh wiki page",
+      "flood_type": "riverine",
+      "river_or_basin": "Huai / Grand Canal",
+      "river_or_facility": null,
+      "incident_date": "1921-06",
+      "latest_report_date": "1921-11",
+      "what_happened": "Four concentrated rain spells from June to September 1921 on the Huai basin, with July rainfall 1.5–3.1 times normal, kept water high until November. The Chinese Wikipedia page records 3.267 million ha of farmland flooded in Shandong, Henan, Anhui and Jiangsu, 7.66 million people affected and 25,000 dead. Gaoyou on the Grand Canal was among the inundated cities. Floods in China (EN) uses the same 25,000 / 7.66 million figures.",
+      "status": "Historical.",
+      "deaths": 25000,
+      "injured": null,
+      "affected_or_evacuated": "7.66 million affected; 3.267 million ha farmland",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Repeated summer rains on the Huai and Grand Canal.",
+      "sources": [
+        {
+          "label": "Wikipedia (ZH): 1921年江淮大水",
+          "url": "https://zh.wikipedia.org/wiki/1921%E5%B9%B4%E6%B1%9F%E6%B7%AE%E5%A4%A7%E6%B0%B4"
+        },
+        {
+          "label": "Wikipedia: Floods in China",
+          "url": "https://en.wikipedia.org/wiki/Floods_in_China"
+        }
+      ],
+      "notes": "25,000 (2.5万) on the dedicated zh page. Distinct from flood-china-1931 and flood-east-china-1991.",
+      "era": "1921",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": "3.267 million ha farmland",
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia (ZH): 1921年江淮大水."
+        }
+      ]
+    },
+    {
+      "id": "flood-sichuan-1981",
+      "name": "1981 Sichuan floods",
+      "country": "China",
+      "region": "Sichuan / Chengdu / Chongqing / Jintang",
+      "location_label": "Chengdu, Sichuan, China",
+      "lat": 30.66,
+      "lng": 104.0633,
+      "geo_accuracy": "approx",
+      "geo_source": "Chengdu (Wikidata 30.66°N, 104.0633°E); Anshun Bridge collapse is the city’s emblematic 13 July scene",
+      "flood_type": "riverine",
+      "river_or_basin": "Yangtze / Min / Tuo / Jialing",
+      "river_or_facility": null,
+      "incident_date": "1981-07-09",
+      "latest_report_date": "1981-07-14",
+      "what_happened": "A deep southwest vortex and Bengal-Bay moisture produced more than two days of extreme rain over Sichuan in July 1981. The dedicated Chinese page records 119 cities/counties, 20 million people affected, 888 dead, 13,010 injured, 1.39 million houses collapsed and 1.13 million homeless. Chengdu streets flooded on 13 July and Anshun Bridge was washed away. Chongqing’s Cuntan gauge peaked at 85,700 m³/s and 191.41 m after six days of rain. Jintang county was inundated.",
+      "status": "Historical.",
+      "deaths": 888,
+      "injured": 13010,
+      "affected_or_evacuated": "20 million affected; 1.13 million homeless",
+      "verification": "confirmed",
+      "severity": "catastrophic",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Southwest-monsoon vortex and concentrated basin rain; forest loss and incomplete works were debated.",
+      "sources": [
+        {
+          "label": "Wikipedia (ZH): 1981年四川特大洪水",
+          "url": "https://zh.wikipedia.org/wiki/1981%E5%B9%B4%E5%9B%9B%E5%B7%9D%E7%89%B9%E5%A4%A7%E6%B4%AA%E6%B0%B4"
+        }
+      ],
+      "notes": "888 dead, 13,010 injured on the dedicated zh page. Distinct from flood-yangtze-1935/1954/1998 and flood-southwest-china-2013.",
+      "era": "1981",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": "Cuntan 85,700 m³/s (9–14 July)",
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia (ZH): 1981年四川特大洪水."
+        }
+      ]
+    },
+    {
+      "id": "flood-southwest-china-2013",
+      "name": "2013 Southwest China floods",
+      "country": "China",
+      "region": "Sichuan / Dujiangyan / Yunnan",
+      "location_label": "Dujiangyan, Sichuan, China",
+      "lat": 31.0031,
+      "lng": 103.6189,
+      "geo_accuracy": "approx",
+      "geo_source": "Dujiangyan (Wikipedia coordinates 31°00′11″N 103°37′08″E); 94 cm rain 8–9 July and the 10 July landslide",
+      "flood_type": "riverine",
+      "river_or_basin": "Min / Tongkou / Sichuan rivers",
+      "river_or_facility": null,
+      "incident_date": "2013-07-06",
+      "latest_report_date": "2013-07-16",
+      "what_happened": "From 6 July 2013 the heaviest rain in 50 years hit southwest China. Dujiangyan recorded 94 cm on 8–9 July, the most since 1954. A Tongkou River bridge failed; Qushan (the former Beichuan seat, an earthquake memorial) stood in 7 m of water. A 10 July landslide at Dujiangyan buried homes. The dedicated page records at least 73 dead and 180 missing, about 6 million people disrupted and US$7.52 billion damage. Xinhua on 16 July cited 58 dead and 175 missing in Sichuan alone.",
+      "status": "Historical.",
+      "deaths": 73,
+      "injured": null,
+      "affected_or_evacuated": "About 6 million disrupted; 220,000 evacuated in Sichuan",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record July rain on slopes destabilised by the 2008 Sichuan earthquake; landslides.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2013 Southwest China floods",
+          "url": "https://en.wikipedia.org/wiki/2013_Southwest_China_floods"
+        }
+      ],
+      "notes": "Infobox 73 dead, 180 missing. Later Xinhua Sichuan-only 58/175 left in notes. Distinct from flood-sichuan-1981 and flood-beijing-2012.",
+      "era": "2013",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "94 cm at Dujiangyan 8–9 July",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "US$7.52 billion (dedicated-page infobox)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2013 Southwest China floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-sao-paulo-2016",
+      "name": "2016 São Paulo flood and mudslide",
+      "country": "Brazil",
+      "region": "São Paulo state / Francisco Morato / Guarulhos",
+      "location_label": "São Paulo, Brazil",
+      "lat": -23.5504,
+      "lng": -46.6339,
+      "geo_accuracy": "approx",
+      "geo_source": "São Paulo (Wikidata 23.5504°S, 46.6339°W); state capital; landslides at Francisco Morato and Itaquaquecetuba",
+      "flood_type": "flash",
+      "river_or_basin": "Tietê / urban São Paulo",
+      "river_or_facility": null,
+      "incident_date": "2016-03-10",
+      "latest_report_date": "2016-03-12",
+      "what_happened": "After months of drought, record March rain on 10–11 March 2016 flooded São Paulo city and state. Up to 87 mm fell at Mirante de Santana and 61 mm at Sorocaba. Landslides at Francisco Morato and Itaquaquecetuba killed 13; floods at Cajamar and Guarulhos killed four. Of at least 21 dead, 18 were in mudslides and 3 drowned. The international airport closed for about six hours. FloodList later cited 24.",
+      "status": "Historical.",
+      "deaths": 21,
+      "injured": null,
+      "affected_or_evacuated": null,
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Record March rain after drought; urban floods and landslides.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2016 São Paulo flood and mudslide",
+          "url": "https://en.wikipedia.org/wiki/2016_S%C3%A3o_Paulo_flood_and_mudslide"
+        }
+      ],
+      "notes": "21+ on the dedicated-page infobox (IANS 12 Mar). FloodList 24 left in notes. Distinct from flood-sao-paulo-2023.",
+      "era": "2016",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "87 mm Mirante de Santana; 61 mm Sorocaba",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2016 São Paulo flood and mudslide."
+        }
+      ]
+    },
+    {
+      "id": "flood-afghanistan-2020",
+      "name": "2020 Afghanistan floods",
+      "country": "Afghanistan",
+      "region": "Parwan / Charikar / Kapisa / Nangarhar / Panjshir",
+      "location_label": "Charikar, Parwan, Afghanistan",
+      "lat": 35.0131,
+      "lng": 69.1689,
+      "geo_accuracy": "approx",
+      "geo_source": "Charikar (Wikipedia coordinates 35°00′47″N 69°10′08″E); site of the 26 August pulse on the dedicated page",
+      "flood_type": "flash",
+      "river_or_basin": "Panjshir / Parwan valleys",
+      "river_or_facility": null,
+      "incident_date": "2020-08-26",
+      "latest_report_date": "2020-08",
+      "what_happened": "A series of Afghan flash floods began in June 2020; the largest pulse was on 26 August at Charikar, Parwan. That August flood killed at least 179 people and injured 212, destroying hundreds of houses. The Ministry of Disaster Management also reported casualties in Kapisa, Maidan Wardak, Nangarhar, Panjshir and Paktia. Distinct from flood-afghanistan-2024, flood-afghanistan-2026 and flood-nuristan-2026.",
+      "status": "Historical.",
+      "deaths": 179,
+      "injured": 212,
+      "affected_or_evacuated": "Hundreds of houses destroyed in Parwan",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Monsoon-season cloudbursts; worst pulse at Charikar on 26 August.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 Afghanistan flood",
+          "url": "https://en.wikipedia.org/wiki/2020_Afghanistan_flood"
+        }
+      ],
+      "notes": "179 is the dedicated-page August 26 figure (largest pulse). Series began in June. Distinct from 2024/2026 Afghanistan records.",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2020 Afghanistan flood."
+        }
+      ]
+    },
+    {
+      "id": "flood-pakistan-afghan-2013",
+      "name": "2013 Pakistan–Afghanistan floods",
+      "country": "Pakistan",
+      "region": "Karachi / Khyber Pakhtunkhwa / Surobi / Nangarhar",
+      "location_label": "Karachi, Pakistan",
+      "lat": 24.86,
+      "lng": 67.01,
+      "geo_accuracy": "approx",
+      "geo_source": "Karachi (Wikidata 24.86°N, 67.01°E); hardest-hit Pakistani city on the dedicated page",
+      "flood_type": "monsoon",
+      "river_or_basin": "Indus tributaries / Kabul / Surobi",
+      "river_or_facility": null,
+      "incident_date": "2013-07-31",
+      "latest_report_date": "2013-08-14",
+      "what_happened": "Unusually heavy rain from 31 July 2013 brought flash floods to Pakistan and eastern Afghanistan. The dedicated-page infobox records 187 deaths. Pakistan reached 83 dead by 13 August (NDMA), with Karachi the hardest-hit city; more than 66,000 people were affected. In Afghanistan, Surobi District alone lost 61 people and about 500 mud-brick homes; Khost and Nangarhar recorded 24 deaths, and a 10 August flood near Kabul killed 22 more. Afghan deaths were above 90 by 14 August.",
+      "status": "Historical.",
+      "deaths": 187,
+      "injured": "94+ in Pakistan (13 Aug)",
+      "affected_or_evacuated": "More than 66,000 affected in Pakistan",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Early-August monsoon flash floods on both sides of the Durand Line.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2013 Pakistan–Afghanistan floods",
+          "url": "https://en.wikipedia.org/wiki/2013_Pakistan%E2%80%93Afghanistan_floods"
+        }
+      ],
+      "notes": "187 is the dedicated-page infobox. Distinct from flood-kashmir-2014 (September 2014, 557) and flood-pakistan-2010/2012.",
+      "era": "2013",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2013 Pakistan–Afghanistan floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-hyderabad-2020",
+      "name": "2020 Hyderabad floods",
+      "country": "India",
+      "region": "Hyderabad / Telangana / Musi",
+      "location_label": "Hyderabad, Telangana, India",
+      "lat": 17.3617,
+      "lng": 78.4747,
+      "geo_accuracy": "approx",
+      "geo_source": "Hyderabad (Wikidata 17.3617°N, 78.4747°E)",
+      "flood_type": "urban",
+      "river_or_basin": "Musi / Himayat Sagar",
+      "river_or_facility": "Himayat Sagar (floodgates lifted at FRL; not a structural failure)",
+      "incident_date": "2020-10-13",
+      "latest_report_date": "2020-10-19",
+      "what_happened": "Deep Depression BOB 02 made landfall in Andhra Pradesh on 13 October 2020 and stalled over south-central India. Ghatkesar, a Hyderabad suburb, recorded 324 mm in a day. Himayat Sagar gates were lifted at full-reservoir level and the Musi ran over two causeways. The dedicated-page infobox records 104 deaths (72 in Telangana, including 33 in Hyderabad; 28 in Maharashtra; 4 in Vijayawada). Telangana put damage near ₹9,000 crore. A second pulse on 18 October killed two more in Hyderabad.",
+      "status": "Historical.",
+      "deaths": 104,
+      "injured": null,
+      "affected_or_evacuated": "About 40,000 families displaced; 2,100+ evacuated near Gurram Cheruvu",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "BOB 02 remnants; urban flash flood on the Musi. Himayat Sagar gates opened at FRL — operational, not a dam failure.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 Hyderabad floods",
+          "url": "https://en.wikipedia.org/wiki/2020_Hyderabad_floods"
+        }
+      ],
+      "notes": "104 is the dedicated-page infobox total. Telangana-only 72 (ToI 19 Oct) left in notes. Distinct from flood-chennai-2015 and flood-kerala-2020.",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "324 mm in one day at Ghatkesar",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About ₹9,000 crore in Telangana",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2020 Hyderabad floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-luzon-2012",
+      "name": "2012 Luzon southwest monsoon floods (Habagat)",
+      "country": "Philippines",
+      "region": "Metro Manila / Marikina / Calabarzon / Central Luzon",
+      "location_label": "Marikina, Metro Manila, Philippines",
+      "lat": 14.6506,
+      "lng": 121.1025,
+      "geo_accuracy": "approx",
+      "geo_source": "Marikina (Wikipedia coordinates 14°39′02″N 121°06′09″E); Marikina River peaked at 20.6 m on 7 August",
+      "flood_type": "monsoon",
+      "river_or_basin": "Marikina / Tullahan / Laguna de Bay",
+      "river_or_facility": null,
+      "incident_date": "2012-08-01",
+      "latest_report_date": "2012-08-16",
+      "what_happened": "From 1–8 August 2012 Typhoon Saola (Gener) and later Typhoon Haikui pulled a Habagat (southwest monsoon) over Luzon. Parts of Metro Manila received 1,007 mm in 72 hours. The Marikina River reached 20.6 m on 7 August (banks ~16 m). La Mesa Reservoir overflowed into the Tullahan. NDRRMC sitrep 16 August recorded 89 dead; the lede also cites 95. About 8,428 homes were destroyed and 6,706 damaged. Losses were at least ₱604.63 million. Compared at the time to Ondoy 2009 (already on file).",
+      "status": "Historical.",
+      "deaths": 89,
+      "injured": null,
+      "affected_or_evacuated": "More than 1 million families affected at the 8 August peak; 250,000 left homes when a third of the city flooded",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "monsoon",
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Habagat enhanced by Saola and Haikui; Marikina and Tullahan overflow.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2012 Luzon southwest monsoon floods",
+          "url": "https://en.wikipedia.org/wiki/2012_Luzon_southwest_monsoon_floods"
+        }
+      ],
+      "notes": "89 is NDRRMC sitrep 16 Aug. Lede 95 left in notes. Distinct from flood-ondoy-2009 and flood-washi-2011.",
+      "era": "2012",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "1,007 mm in 72 hours in parts of Metro Manila",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "At least ₱604.63 million (US$14.31 million)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2012 Luzon southwest monsoon floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-north-luwu-2020",
+      "name": "2020 North Luwu flash flood",
+      "country": "Indonesia",
+      "region": "North Luwu / Masamba / South Sulawesi",
+      "location_label": "Masamba, North Luwu, Indonesia",
+      "lat": -2.5531,
+      "lng": 120.3281,
+      "geo_accuracy": "approx",
+      "geo_source": "Masamba (Wikipedia coordinates 2°33′11″S 120°19′41″E); North Luwu capital",
+      "flood_type": "flash",
+      "river_or_basin": "North Luwu rivers",
+      "river_or_facility": null,
+      "incident_date": "2020-07-13",
+      "latest_report_date": "2020-07",
+      "what_happened": "On the night of 13 July 2020 more than 300–400 mm of rain produced a flash flood in North Luwu, South Sulawesi. Mud ran up to 5 m thick. Local officials reported 38 dead and 40 still missing. 4,390 houses were damaged and 15,994 people affected; schools, bridges, two dams (damage, not a named collapse) and more than 200 ha of farmland were hit. The regent declared a 30-day emergency.",
+      "status": "Historical.",
+      "deaths": 38,
+      "injured": null,
+      "affected_or_evacuated": "15,994 affected; 4,390 houses damaged; 40 missing",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Overnight cloudburst and flash flood at Masamba.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2020 North Luwu flash flood",
+          "url": "https://en.wikipedia.org/wiki/2020_North_Luwu_flash_flood"
+        }
+      ],
+      "notes": "38 dead, 40 missing on the dedicated page (local officials). Distinct from flood-sulawesi-2019 and flood-jakarta-2020.",
+      "era": "2020",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": "300–400+ mm on 13 July",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2020 North Luwu flash flood."
+        }
+      ]
+    },
+    {
+      "id": "flood-nsw-2025",
+      "name": "2025 New South Wales floods",
+      "country": "Australia",
+      "region": "Mid North Coast / Hunter / Taree",
+      "location_label": "Taree, New South Wales, Australia",
+      "lat": -31.9,
+      "lng": 152.45,
+      "geo_accuracy": "approx",
+      "geo_source": "Taree (Wikipedia coordinates 31°54′S 152°27′E); Manning River ground zero",
+      "flood_type": "riverine",
+      "river_or_basin": "Manning / Macleay / Hastings",
+      "river_or_facility": null,
+      "incident_date": "2025-05-20",
+      "latest_report_date": "2025-05-25",
+      "what_happened": "A near-stationary Pacific trough sat over the NSW Mid North Coast and Hunter from 20–25 May 2025. Taree had 427 mm in two days and the Manning River passed 6 m, breaking an almost 100-year mark. Five people died (one woman and four men). About 48,000 people were isolated and almost 10,000 homes were at risk. Premier Minns said tributary rises had not been seen since 1920; researchers called it a 1-in-500-year event for the region. SES carried out hundreds of rescues.",
+      "status": "Historical.",
+      "deaths": 5,
+      "injured": null,
+      "affected_or_evacuated": "About 48,000 isolated; almost 10,000 homes at risk",
+      "verification": "confirmed",
+      "severity": "moderate",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stationary trough and easterly moisture; record May rain at Taree.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2025 New South Wales floods",
+          "url": "https://en.wikipedia.org/wiki/2025_New_South_Wales_floods"
+        }
+      ],
+      "notes": "5 deaths on the dedicated page. Famous named 2025 event with a pin; kept despite a modest toll. Distinct from flood-australia-east-2022 and flood-hunter-1955.",
+      "era": "2025",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": "1-in-500-year (Natural Hazards Research Australia, via Wikipedia)",
+      "rainfall_mm": "427 mm in two days at Taree; 533 mm at Careys Peak",
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": null,
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2025 New South Wales floods."
+        }
+      ]
+    },
+    {
+      "id": "flood-midatlantic-2006",
+      "name": "2006 Mid-Atlantic United States flood",
+      "country": "United States",
+      "region": "Susquehanna / Delaware / Mid-Atlantic",
+      "location_label": "Binghamton, New York, United States",
+      "lat": 42.0989,
+      "lng": -75.9108,
+      "geo_accuracy": "approx",
+      "geo_source": "Binghamton (Wikipedia coordinates 42°05′56″N 75°54′39″W); Southern Tier / Susquehanna was among the worst U.S. belts",
+      "flood_type": "riverine",
+      "river_or_basin": "Susquehanna / Delaware / Schuylkill / Potomac",
+      "river_or_facility": null,
+      "incident_date": "2006-06-25",
+      "latest_report_date": "2006-07-05",
+      "what_happened": "A stalled jet stream and a tropical moisture feed produced prolonged rain from the Carolinas to Upstate New York between 25 June and 5 July 2006. The dedicated page records at least 16 flood-related deaths and about US$1 billion damage — the region’s worst flooding since Hurricane David (1979). The Susquehanna at Bainbridge crested 14 ft above flood stage; more than 5,000 people evacuated in Broome County. Along the Delaware, Trenton and Easton flooded; Wilkes-Barre’s levee saw levels compared with Agnes. Lake Needwood’s leaking earthen dam forced 2,200 evacuations in Maryland; the dam did not fail.",
+      "status": "Historical.",
+      "deaths": 16,
+      "injured": null,
+      "affected_or_evacuated": "5,000+ evacuated in Broome County; 1,000+ in Trenton; 200,000 northeastern Pennsylvania residents moved at peak",
+      "verification": "confirmed",
+      "severity": "major",
+      "causes": [
+        "extreme_rainfall"
+      ],
+      "cause_summary": "Stalled jet stream and tropical moisture; widespread river flooding. Needwood dam leaked but did not fail.",
+      "sources": [
+        {
+          "label": "Wikipedia: 2006 Mid-Atlantic United States flood",
+          "url": "https://en.wikipedia.org/wiki/2006_Mid-Atlantic_United_States_flood"
+        }
+      ],
+      "notes": "16 deaths, ~US$1 billion on the dedicated page. Distinct from flood-agnes-1972, flood-irene-2011 and flood-ida-2021. Needwood/Laurel dam scares were evacuations, not failures.",
+      "era": "2006",
+      "in_baseline": false,
+      "created_at": "2026-08-20",
+      "last_updated": "2026-08-20",
+      "peak_discharge": null,
+      "return_period": null,
+      "rainfall_mm": null,
+      "inundation_area": null,
+      "warning_issued": null,
+      "related_dam_id": null,
+      "economic_damage": "About US$1 billion (2006 USD)",
+      "category": "incident",
+      "changelog": [
+        {
+          "date": "2026-08-20",
+          "by": "historic_backfill",
+          "change": "Added from Wikipedia: 2006 Mid-Atlantic United States flood."
         }
       ]
     }
