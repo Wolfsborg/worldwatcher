@@ -1449,6 +1449,12 @@ button.chip {
 .dashboard-tab {
   margin-left: auto;
 }
+.settings-tab {
+  margin-left: auto;
+}
+.dashboard-tab {
+  margin-left: 0;
+}
 .stats-panel,
 .dashboard-drawer {
   position: fixed;

@@ -125,6 +125,9 @@
     dashboardCount: document.getElementById("dashboard-count"),
     icoldBlock: document.getElementById("icold-block"),
     icoldChip: document.getElementById("icold-chip"),
+    settingsPanel: document.getElementById("settings-panel"),
+    settingsOpen: document.getElementById("settings-open"),
+    settingsClose: document.getElementById("settings-close"),
   };
 
   let layer = "dams";
@@ -1201,6 +1204,7 @@
   function openStats() {
     if (!els.statsPanel || !els.statsBody) return;
     closeDetail();
+    closeSettings();
     
     const data = cache[layer];
     if (data && window.worldwatcherStats) {
@@ -1237,6 +1241,35 @@
     else closeStats();
   }
 
+  function openSettings() {
+    if (!els.settingsPanel) return;
+    closeDetail();
+    closeStats();
+    
+    els.settingsPanel.hidden = false;
+    if (els.sidebar) els.sidebar.classList.add("is-dashboard-open");
+    if (els.settingsOpen) {
+      els.settingsOpen.classList.add("is-active");
+      els.settingsOpen.setAttribute("aria-pressed", "true");
+    }
+  }
+
+  function closeSettings() {
+    if (!els.settingsPanel) return;
+    els.settingsPanel.hidden = true;
+    if (els.sidebar) els.sidebar.classList.remove("is-dashboard-open");
+    if (els.settingsOpen) {
+      els.settingsOpen.classList.remove("is-active");
+      els.settingsOpen.setAttribute("aria-pressed", "false");
+    }
+  }
+
+  function toggleSettings() {
+    if (!els.settingsPanel) return;
+    if (els.settingsPanel.hidden) openSettings();
+    else closeSettings();
+  }
+
   function goHome() {
     if (els.search) els.search.value = "";
     if (els.chips) {
@@ -1246,6 +1279,7 @@
     setPeriod("all");
     closeDetail();
     closeStats();
+    closeSettings();
     apply();
     els.list.scrollTop = 0;
     goToLanding();
@@ -1255,6 +1289,8 @@
     if (els.home) els.home.addEventListener("click", goHome);
     if (els.statsOpen) els.statsOpen.addEventListener("click", toggleDashboard);
     if (els.statsClose) els.statsClose.addEventListener("click", closeStats);
+    if (els.settingsOpen) els.settingsOpen.addEventListener("click", toggleSettings);
+    if (els.settingsClose) els.settingsClose.addEventListener("click", closeSettings);
     if (els.layerTabs) {
       els.layerTabs.addEventListener("click", (e) => {
         const btn = e.target.closest(".layer-tab");
@@ -1378,6 +1414,7 @@
       if (e.key === "Escape") {
         if (!els.detail.hidden) closeDetail();
         else if (!els.statsPanel.hidden) closeStats();
+        else if (!els.settingsPanel.hidden) closeSettings();
         else {
           els.sidebar.classList.remove("is-open");
           els.toggle.setAttribute("aria-expanded", "false");
@@ -1420,7 +1457,17 @@
     if (els.recentHeading) els.recentHeading.textContent = s.recentLabel;
     if (els.categoryBlock) els.categoryBlock.hidden = !s.showCategory;
     if (els.causeBlock) els.causeBlock.hidden = !s.showCause;
-    if (els.icoldBlock) els.icoldBlock.hidden = layer !== "dams";
+    if (els.icoldChip) {
+      if (layer === "floods") {
+        els.icoldChip.disabled = true;
+        els.icoldChip.style.opacity = "0.4";
+        els.icoldChip.style.pointerEvents = "none";
+      } else {
+        els.icoldChip.disabled = false;
+        els.icoldChip.style.opacity = "";
+        els.icoldChip.style.pointerEvents = "";
+      }
+    }
     if (els.layerTabs) {
       els.layerTabs.querySelectorAll(".layer-tab").forEach((b) => {
         const on = b.dataset.layer === layer;
@@ -1716,6 +1763,7 @@
     }
     if (els.cause) els.cause.value = "";
     closeStats();
+    closeSettings();
     loadLayer(name);
   }
 
