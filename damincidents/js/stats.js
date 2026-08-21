@@ -443,12 +443,235 @@
     `;
   }
 
+  function renderFailuresOverTime(stats) {
+    const years = {};
+    Object.keys(stats.decadeCounts).forEach(decade => {
+      const d = parseInt(decade);
+      for (let y = d; y < d + 10; y++) {
+        years[y] = 0;
+      }
+    });
+
+    const incidents = Object.values(stats.decadeCounts).reduce((sum, c) => sum + c, 0);
+    if (incidents === 0) {
+      return `
+        <div class="stat-card">
+          <h2 class="stat-card-title">Incidents over time</h2>
+          <p style="color: var(--muted); font-size: 13px;">No temporal data available</p>
+        </div>
+      `;
+    }
+
+    const allYears = Object.keys(years).map(Number).sort((a, b) => a - b);
+    if (allYears.length === 0) return "";
+
+    const minYear = Math.min(...allYears);
+    const maxYear = Math.max(...allYears);
+    const currentYear = new Date().getFullYear();
+
+    const binWidth = 5;
+    const bins = [];
+    for (let y = minYear; y <= maxYear; y += binWidth) {
+      const binStart = y;
+      const binEnd = Math.min(y + binWidth - 1, maxYear);
+      const binMid = (binStart + binEnd) / 2;
+      let count = 0;
+      Object.entries(stats.decadeCounts).forEach(([decade, c]) => {
+        const d = parseInt(decade);
+        for (let year = d; year < d + 10; year++) {
+          if (year >= binStart && year <= binEnd) {
+            count += c / 10;
+          }
+        }
+      });
+      bins.push({ start: binStart, end: binEnd, mid: binMid, count });
+    }
+
+    const historicalBins = bins.filter(b => b.end <= currentYear);
+    const n = historicalBins.length;
+    
+    if (n < 2) {
+      return `
+        <div class="stat-card">
+          <h2 class="stat-card-title">Incidents over time</h2>
+          <p style="color: var(--muted); font-size: 13px;">Insufficient data for trend analysis</p>
+        </div>
+      `;
+    }
+
+    let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
+    historicalBins.forEach((b, i) => {
+      sumX += i;
+      sumY += b.count;
+      sumXY += i * b.count;
+      sumXX += i * i;
+    });
+
+    const xMean = sumX / n;
+    const yMean = sumY / n;
+    const slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+    const intercept = yMean - slope * xMean;
+
+    let sumResidualSq = 0;
+    historicalBins.forEach((b, i) => {
+      const predicted = intercept + slope * i;
+      const residual = b.count - predicted;
+      sumResidualSq += residual * residual;
+    });
+    const residualStd = Math.sqrt(sumResidualSq / Math.max(1, n - 2));
+
+    let Sxx = 0;
+    historicalBins.forEach((b, i) => {
+      Sxx += (i - xMean) * (i - xMean);
+    });
+
+    const lastHistoricalValue = historicalBins[n - 1].count;
+    const forecastHorizon = 4;
+    const forecastPoints = [];
+    
+    for (let h = 0; h <= forecastHorizon; h += 0.2) {
+      const year = historicalBins[n - 1].mid + h * binWidth;
+      
+      let se;
+      if (Sxx === 0 || n < 3) {
+        se = residualStd * Math.sqrt(Math.max(h, 0.05));
+      } else {
+        const predVar = 1 + 1/n + Math.pow((n - 1 + h) - xMean, 2) / Sxx;
+        se = residualStd * Math.sqrt(predVar);
+      }
+
+      const centerPred = lastHistoricalValue + slope * h;
+
+      if (h === 0) {
+        forecastPoints.push({
+          year,
+          se,
+          center: lastHistoricalValue,
+          band50_lower: lastHistoricalValue,
+          band50_upper: lastHistoricalValue,
+          band80_lower: lastHistoricalValue,
+          band80_upper: lastHistoricalValue,
+          band95_lower: lastHistoricalValue,
+          band95_upper: lastHistoricalValue,
+        });
+      } else {
+        forecastPoints.push({
+          year,
+          se,
+          center: centerPred,
+          band50_lower: Math.max(0, centerPred - 0.674 * se),
+          band50_upper: centerPred + 0.674 * se,
+          band80_lower: Math.max(0, centerPred - 1.282 * se),
+          band80_upper: centerPred + 1.282 * se,
+          band95_lower: Math.max(0, centerPred - 1.960 * se),
+          band95_upper: centerPred + 1.960 * se,
+        });
+      }
+    }
+
+    const allValues = [
+      ...historicalBins.map(b => b.count),
+      ...forecastPoints.map(p => p.band95_upper)
+    ];
+    const maxValue = Math.max(...allValues);
+    const minValue = 0;
+
+    const chartWidth = 600;
+    const chartHeight = 300;
+    const paddingLeft = 50;
+    const paddingRight = 20;
+    const paddingTop = 20;
+    const paddingBottom = 40;
+    const plotWidth = chartWidth - paddingLeft - paddingRight;
+    const plotHeight = chartHeight - paddingTop - paddingBottom;
+
+    const xScale = (year) => {
+      return paddingLeft + ((year - minYear) / (maxYear + forecastHorizon * binWidth - minYear)) * plotWidth;
+    };
+    const yScale = (value) => {
+      return chartHeight - paddingBottom - ((value - minValue) / (maxValue - minValue)) * plotHeight;
+    };
+
+    const xTickYears = [];
+    for (let y = Math.ceil(minYear / binWidth) * binWidth; y <= maxYear + forecastHorizon * binWidth; y += binWidth) {
+      xTickYears.push(y);
+    }
+
+    const xAxisTicks = xTickYears.map(y => {
+      const x = xScale(y);
+      return `<line x1="${x}" y1="${chartHeight - paddingBottom}" x2="${x}" y2="${chartHeight - paddingBottom + 5}" stroke="var(--border)" stroke-width="1"/>
+              <text x="${x}" y="${chartHeight - paddingBottom + 18}" text-anchor="middle" fill="var(--text)" font-size="11">${y}</text>`;
+    }).join('');
+
+    const yTicks = 5;
+    const yAxisTicks = Array.from({length: yTicks + 1}, (_, i) => {
+      const value = minValue + (maxValue - minValue) * i / yTicks;
+      const y = yScale(value);
+      return `<line x1="${paddingLeft - 5}" y1="${y}" x2="${paddingLeft}" y2="${y}" stroke="var(--border)" stroke-width="1"/>
+              <text x="${paddingLeft - 8}" y="${y + 4}" text-anchor="end" fill="var(--muted)" font-size="11">${Math.round(value)}</text>`;
+    }).join('');
+
+    const band95Path = `M ${xScale(forecastPoints[0].year)} ${yScale(forecastPoints[0].band95_lower)} ` +
+      forecastPoints.slice(1).map(p => `L ${xScale(p.year)} ${yScale(p.band95_lower)}`).join(' ') +
+      forecastPoints.slice().reverse().map(p => `L ${xScale(p.year)} ${yScale(p.band95_upper)}`).join(' ') +
+      ' Z';
+
+    const band80Path = `M ${xScale(forecastPoints[0].year)} ${yScale(forecastPoints[0].band80_lower)} ` +
+      forecastPoints.slice(1).map(p => `L ${xScale(p.year)} ${yScale(p.band80_lower)}`).join(' ') +
+      forecastPoints.slice().reverse().map(p => `L ${xScale(p.year)} ${yScale(p.band80_upper)}`).join(' ') +
+      ' Z';
+
+    const band50Path = `M ${xScale(forecastPoints[0].year)} ${yScale(forecastPoints[0].band50_lower)} ` +
+      forecastPoints.slice(1).map(p => `L ${xScale(p.year)} ${yScale(p.band50_lower)}`).join(' ') +
+      forecastPoints.slice().reverse().map(p => `L ${xScale(p.year)} ${yScale(p.band50_upper)}`).join(' ') +
+      ' Z';
+
+    const historicalPath = historicalBins.map((b, i) => {
+      const x = xScale(b.mid);
+      const y = yScale(b.count);
+      return i === 0 ? `M ${x} ${y}` : `L ${x} ${y}`;
+    }).join(' ');
+
+    const nowLineX = xScale(currentYear);
+
+    return `
+      <div class="stat-card incidents-over-time-card">
+        <h2 class="stat-card-title">Incidents over time</h2>
+        <svg viewBox="0 0 ${chartWidth} ${chartHeight}" xmlns="http://www.w3.org/2000/svg" class="time-series-chart">
+          <line x1="${paddingLeft}" y1="${paddingTop}" x2="${paddingLeft}" y2="${chartHeight - paddingBottom}" stroke="var(--border)" stroke-width="1"/>
+          <line x1="${paddingLeft}" y1="${chartHeight - paddingBottom}" x2="${chartWidth - paddingRight}" y2="${chartHeight - paddingBottom}" stroke="var(--border)" stroke-width="1"/>
+          
+          ${xAxisTicks}
+          ${yAxisTicks}
+          
+          <path d="${band95Path}" fill="var(--uncertainty-95)" stroke="none"/>
+          <path d="${band80Path}" fill="var(--uncertainty-80)" stroke="none"/>
+          <path d="${band50Path}" fill="var(--uncertainty-50)" stroke="none"/>
+          
+          <line x1="${nowLineX}" y1="${paddingTop}" x2="${nowLineX}" y2="${chartHeight - paddingBottom}" stroke="var(--border)" stroke-width="1" stroke-dasharray="4 2"/>
+          
+          <path d="${historicalPath}" stroke="#4aa3df" stroke-width="2" fill="none"/>
+          
+          ${historicalBins.map(b => `<circle cx="${xScale(b.mid)}" cy="${yScale(b.count)}" r="3" fill="#4aa3df"/>`).join('')}
+        </svg>
+        <div class="chart-legend">
+          <div class="legend-item"><span class="legend-line" style="background: #4aa3df"></span> Dam incidents</div>
+          <div class="legend-item"><span class="legend-swatch" style="background: var(--uncertainty-50)"></span> 50% range</div>
+          <div class="legend-item"><span class="legend-swatch" style="background: var(--uncertainty-80)"></span> 80% range</div>
+          <div class="legend-item"><span class="legend-swatch" style="background: var(--uncertainty-95)"></span> 95% range</div>
+        </div>
+        <p class="chart-caption">Archive counts; not a risk model. Bins are 5-year periods. Forecast bands show statistical uncertainty from a linear fit to historical data, not future risk assessment.</p>
+      </div>
+    `;
+  }
+
   function renderStats(incidents, layer) {
     const stats = computeStats(incidents, layer);
     
     const html = `
       <div class="stats-grid">
         ${renderOverview(stats, layer)}
+        ${renderFailuresOverTime(stats)}
         ${renderByCause(stats)}
         ${renderByCountry(stats)}
         ${renderByCategory(stats, layer)}
