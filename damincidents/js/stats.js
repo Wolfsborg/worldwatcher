@@ -695,6 +695,7 @@
     svgContent += `<text x="${projectionX}" y="${topPad - 8}" fill="var(--muted)" font-size="11" text-anchor="middle" font-weight="500">Projection</text>`;
     
     svgContent += `<text x="${leftPad - 55}" y="${topPad + plotHeight / 2}" fill="var(--text)" font-size="12" text-anchor="middle" font-weight="500" transform="rotate(-90 ${leftPad - 55} ${topPad + plotHeight / 2})">Incidents</text>`;
+    svgContent += `<text x="${leftPad + plotWidth / 2}" y="${height - 5}" fill="var(--text)" font-size="12" text-anchor="middle" font-weight="500">Year</text>`;
 
     svgContent += `</svg>`;
 
@@ -705,7 +706,7 @@
       '<div class="fan-legend-item"><span class="fan-legend-box fan-band-95"></span><span>95% range</span></div>',
     ].join('');
     
-    const statsLine = `2026 (incomplete): ${currentYearValue}  ·  trend: ${trendPerYear >= 0 ? '+' : ''}${trendPerYear.toFixed(1)} / y`;
+    const statsLine = `${currentYear} (incomplete): ${currentYearValue}  ·  trend: ${trendPerYear >= 0 ? '+' : ''}${trendPerYear.toFixed(1)} / y`;
 
       return `
         <div class="stat-card timeline-card">
@@ -722,7 +723,7 @@
           </div>
           ${svgContent}
           <div class="fan-legend">${legend}</div>
-          <p class="fan-caption">Older years are still backfilling. 2026 is incomplete. The fan is residual × √horizon on yearly archive counts, not the chance a given dam fails. ${statsLine}</p>
+          <p class="fan-caption">Older years are still backfilling. ${currentYear} is incomplete. The fan is residual × √horizon on yearly archive counts, not the chance a given dam fails. ${statsLine}</p>
         </div>
       `;
     } catch (error) {
