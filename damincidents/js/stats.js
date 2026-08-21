@@ -712,7 +712,7 @@
     svgContent += `</svg>`;
 
     const legend = [
-      '<div class="fan-legend-item"><span class="fan-legend-line"></span><span>Dam incidents — recorded counts in this archive</span></div>',
+      '<div class="fan-legend-item"><span class="fan-legend-line"></span><span>Dam incidents</span></div>',
       '<div class="fan-legend-item"><span class="fan-legend-box fan-band-50"></span><span>50% range — central half of the prediction interval</span></div>',
       '<div class="fan-legend-item"><span class="fan-legend-box fan-band-80"></span><span>80% range</span></div>',
       '<div class="fan-legend-item"><span class="fan-legend-box fan-band-95"></span><span>95% range</span></div>',
