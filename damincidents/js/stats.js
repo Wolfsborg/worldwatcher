@@ -446,67 +446,71 @@
   }
 
   function renderFailuresOverTime(incidents, layer, selectedCountry) {
-    if (layer !== "dams") return "";
-    
-    const validCategories = ["failure", "partial_breach", "incident", "watch"];
-    let filtered = incidents.filter(inc => validCategories.includes(inc.category));
-    
-    if (selectedCountry) {
-      filtered = filtered.filter(inc => inc.country === selectedCountry);
-    }
-    
-    if (filtered.length === 0) return "";
-
-    const countries = Array.from(new Set(incidents.filter(inc => validCategories.includes(inc.category)).map(inc => inc.country).filter(Boolean))).sort();
-    const countryOptions = countries.map(c => `<option value="${c}"${c === selectedCountry ? ' selected' : ''}>${c}</option>`).join("");
-
-    function getBinStart(year) {
-      const lastDigit = year % 10;
-      if (lastDigit < 5) {
-        return Math.floor(year / 10) * 10;
-      } else {
-        return Math.floor(year / 10) * 10 + 5;
-      }
-    }
-
-    const binData = {};
-    filtered.forEach(inc => {
-      const y = yearOf(inc);
-      if (y != null && y >= 1800) {
-        const binStart = getBinStart(y);
-        binData[binStart] = (binData[binStart] || 0) + 1;
-      }
-    });
-
-    const bins = Object.keys(binData).map(Number).sort((a, b) => a - b);
-    if (bins.length === 0) return "";
-
-    const currentYear = new Date().getFullYear();
-    const currentBin = getBinStart(currentYear);
-    
-    const historicalBins = bins.filter(b => b <= currentBin);
-    const totals = historicalBins.map(b => binData[b]);
-    
-    let trend = 0;
-    let residualStd = 0;
-    if (totals.length >= 3) {
-      const n = totals.length;
-      const xMean = (n - 1) / 2;
-      const yMean = totals.reduce((a, b) => a + b, 0) / n;
-      let numerator = 0;
-      let denominator = 0;
-      totals.forEach((y, i) => {
-        numerator += (i - xMean) * (y - yMean);
-        denominator += (i - xMean) * (i - xMean);
-      });
-      trend = denominator > 0 ? numerator / denominator : 0;
+    try {
+      if (layer !== "dams") return "";
       
-      const residuals = totals.map((y, i) => y - (yMean + trend * (i - xMean)));
-      residualStd = Math.sqrt(residuals.reduce((a, b) => a + b * b, 0) / Math.max(1, n - 2));
-    }
+      const validCategories = ["failure", "partial_breach", "incident", "watch"];
+      let filtered = incidents.filter(inc => validCategories.includes(inc.category));
+      
+      if (selectedCountry) {
+        filtered = filtered.filter(inc => inc.country === selectedCountry);
+      }
+      
+      if (filtered.length === 0) return "";
 
-    const lastHistoricalValue = totals[totals.length - 1] || 0;
-    const lastHistoricalBin = historicalBins[historicalBins.length - 1];
+      const countries = Array.from(new Set(incidents.filter(inc => validCategories.includes(inc.category)).map(inc => inc.country).filter(Boolean))).sort();
+      const countryOptions = countries.map(c => `<option value="${c}"${c === selectedCountry ? ' selected' : ''}>${c}</option>`).join("");
+
+      function getBinStart(year) {
+        const lastDigit = year % 10;
+        if (lastDigit < 5) {
+          return Math.floor(year / 10) * 10;
+        } else {
+          return Math.floor(year / 10) * 10 + 5;
+        }
+      }
+
+      const binData = {};
+      filtered.forEach(inc => {
+        const y = yearOf(inc);
+        if (y != null && y >= 1800) {
+          const binStart = getBinStart(y);
+          binData[binStart] = (binData[binStart] || 0) + 1;
+        }
+      });
+
+      const bins = Object.keys(binData).map(Number).sort((a, b) => a - b);
+      if (bins.length === 0) return "";
+
+      const currentYear = new Date().getFullYear();
+      const currentBin = getBinStart(currentYear);
+      
+      const historicalBins = bins.filter(b => b <= currentBin);
+      if (historicalBins.length === 0) return "";
+      
+      const totals = historicalBins.map(b => binData[b]);
+    
+      let trend = 0;
+      let residualStd = 0;
+      const n = totals.length;
+      if (n >= 3) {
+        const xMean = (n - 1) / 2;
+        const yMean = totals.reduce((a, b) => a + b, 0) / n;
+        let numerator = 0;
+        let denominator = 0;
+        totals.forEach((y, i) => {
+          numerator += (i - xMean) * (y - yMean);
+          denominator += (i - xMean) * (i - xMean);
+        });
+        trend = denominator > 0 ? numerator / denominator : 0;
+        
+        const residuals = totals.map((y, i) => y - (yMean + trend * (i - xMean)));
+        residualStd = Math.sqrt(residuals.reduce((a, b) => a + b * b, 0) / Math.max(1, n - 2));
+      }
+
+      const lastHistoricalValue = totals[totals.length - 1] || 0;
+      const lastHistoricalBin = historicalBins[historicalBins.length - 1];
+      if (!Number.isFinite(lastHistoricalBin)) return "";
     
     const projectionSteps = [];
     for (let h = 0; h <= 4; h += 0.2) {
@@ -534,30 +538,34 @@
       };
     });
 
-    const allValues = [
-      ...totals,
-      ...projections.flatMap(p => [p.band95[0], p.band95[1]])
-    ];
-    let maxValue = allValues.length > 0 ? Math.max(...allValues) : 0;
-    if (maxValue === 0) maxValue = 1;
-    
-    function computeNiceMax(max) {
-      if (max <= 0) return 1;
+      const allValues = [
+        ...totals,
+        ...projections.flatMap(p => [p.band95[0], p.band95[1]])
+      ];
+      let maxValue = allValues.length > 0 ? Math.max(...allValues) : 0;
+      if (!Number.isFinite(maxValue) || maxValue <= 0) maxValue = 1;
       
-      const magnitude = Math.pow(10, Math.floor(Math.log10(max)));
-      const normalized = max / magnitude;
+      function computeNiceMax(max) {
+        if (!Number.isFinite(max) || max <= 0) return 1;
+        
+        const logVal = Math.log10(max);
+        if (!Number.isFinite(logVal)) return 1;
+        
+        const magnitude = Math.pow(10, Math.floor(logVal));
+        const normalized = max / magnitude;
+        
+        let niceNormalized;
+        if (normalized <= 1.2) niceNormalized = 1.5;
+        else if (normalized <= 2) niceNormalized = 2;
+        else if (normalized <= 2.5) niceNormalized = 2.5;
+        else if (normalized <= 5) niceNormalized = 5;
+        else niceNormalized = 10;
+        
+        return niceNormalized * magnitude;
+      }
       
-      let niceNormalized;
-      if (normalized <= 1.2) niceNormalized = 1.5;
-      else if (normalized <= 2) niceNormalized = 2;
-      else if (normalized <= 2.5) niceNormalized = 2.5;
-      else if (normalized <= 5) niceNormalized = 5;
-      else niceNormalized = 10;
-      
-      return niceNormalized * magnitude;
-    }
-    
-    const niceMax = computeNiceMax(maxValue * 1.05);
+      const niceMax = computeNiceMax(maxValue * 1.05);
+      if (!Number.isFinite(niceMax) || niceMax <= 0) return "";
     
     const recentBinValue = lastHistoricalValue;
     const trendPerFiveYears = trend;
@@ -589,27 +597,36 @@
     
     svgContent += `<rect x="${nowX}" y="${topPad}" width="${leftPad + plotWidth - nowX}" height="${plotHeight}" fill="rgba(232,234,237,0.04)"/>`;
     
-    function computeYStep(max) {
-      const targetTicks = 5;
-      const roughStep = max / targetTicks;
-      const magnitude = Math.pow(10, Math.floor(Math.log10(roughStep)));
-      const normalized = roughStep / magnitude;
+      function computeYStep(max) {
+        if (!Number.isFinite(max) || max <= 0) return 1;
+        
+        const targetTicks = 5;
+        const roughStep = max / targetTicks;
+        const logVal = Math.log10(roughStep);
+        if (!Number.isFinite(logVal)) return 1;
+        
+        const magnitude = Math.pow(10, Math.floor(logVal));
+        const normalized = roughStep / magnitude;
+        
+        let niceStep;
+        if (normalized <= 1) niceStep = 1;
+        else if (normalized <= 2) niceStep = 2;
+        else if (normalized <= 2.5) niceStep = 2.5;
+        else if (normalized <= 5) niceStep = 5;
+        else niceStep = 10;
+        
+        return niceStep * magnitude;
+      }
       
-      let niceStep;
-      if (normalized <= 1) niceStep = 1;
-      else if (normalized <= 2) niceStep = 2;
-      else if (normalized <= 2.5) niceStep = 2.5;
-      else if (normalized <= 5) niceStep = 5;
-      else niceStep = 10;
+      const yTicks = [];
+      const yStep = computeYStep(niceMax);
+      if (!Number.isFinite(yStep) || yStep <= 0) return "";
       
-      return niceStep * magnitude;
-    }
-    
-    const yTicks = [];
-    const yStep = computeYStep(niceMax);
-    for (let i = 0; i <= niceMax; i += yStep) {
-      yTicks.push(i);
-    }
+      let tickCount = 0;
+      for (let i = 0; i <= niceMax && tickCount < 12; i += yStep) {
+        yTicks.push(i);
+        tickCount++;
+      }
     
     yTicks.forEach(val => {
       const y = toY(val);
@@ -694,24 +711,28 @@
       ? `Recent 5-year bin: ${recentBinValue}  ·  trend: ${trendPerFiveYears >= 0 ? '+' : ''}${trendPerFiveYears.toFixed(1)} / 5y`
       : '';
 
-    return `
-      <div class="stat-card timeline-card">
-        <h2 class="stat-card-title">Incidents over time</h2>
-        <p class="stat-card-subtitle">Recorded dam incidents in this archive, 5-year bins. Projection is a trend on those counts, not a risk model.</p>
-        <div class="timeline-filter-row">
-          <label class="timeline-filter-label">
-            <span class="timeline-filter-text">Country</span>
-            <select class="timeline-country-filter" data-timeline-country>
-              <option value="">All countries</option>
-              ${countryOptions}
-            </select>
-          </label>
+      return `
+        <div class="stat-card timeline-card">
+          <h2 class="stat-card-title">Incidents over time</h2>
+          <p class="stat-card-subtitle">Recorded dam incidents in this archive, 5-year bins. Projection is a trend on those counts, not a risk model.</p>
+          <div class="timeline-filter-row">
+            <label class="timeline-filter-label">
+              <span class="timeline-filter-text">Country</span>
+              <select class="timeline-country-filter" data-timeline-country>
+                <option value="">All countries</option>
+                ${countryOptions}
+              </select>
+            </label>
+          </div>
+          ${svgContent}
+          <div class="fan-legend">${legend}</div>
+          <p class="fan-caption">History is observed archive counts (still backfilling; older bins are incomplete). The fan is residual spread × √horizon (accumulating error on archive bin counts). This is not the probability a given dam fails, and not a global ICOLD failure rate. Country filter refits both the line and the fan.${statsLine ? ' ' + statsLine : ''}</p>
         </div>
-        ${svgContent}
-        <div class="fan-legend">${legend}</div>
-        <p class="fan-caption">History is observed archive counts (still backfilling; older bins are incomplete). The fan is residual spread × √horizon (accumulating error on archive bin counts). This is not the probability a given dam fails, and not a global ICOLD failure rate. Country filter refits both the line and the fan.${statsLine ? ' ' + statsLine : ''}</p>
-      </div>
-    `;
+      `;
+    } catch (error) {
+      console.error("Fan chart render error:", error);
+      return "";
+    }
   }
 
   let currentTimelineCountry = null;

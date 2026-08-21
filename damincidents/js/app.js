@@ -1205,28 +1205,39 @@
     closeDetail();
     closeSettings();
     
-    const data = cache[layer];
-    if (data && window.worldwatcherStats) {
-      dashboardYearBounds.min = yearBounds.min;
-      dashboardYearBounds.max = yearBounds.max;
-      
-      setDashboardPeriod("century");
-      renderDashboard();
-    } else {
-      els.statsBody.innerHTML = '<div class="stats-loading">Loading statistics...</div>';
-    }
-    
     els.statsPanel.hidden = false;
+    els.statsPanel.classList.add("is-open");
     if (els.sidebar) els.sidebar.classList.add("is-dashboard-open");
     if (els.statsOpen) {
       els.statsOpen.classList.add("is-active");
       els.statsOpen.setAttribute("aria-pressed", "true");
     }
+    
+    try {
+      const data = cache[layer];
+      if (data && window.worldwatcherStats) {
+        dashboardYearBounds.min = yearBounds.min;
+        dashboardYearBounds.max = yearBounds.max;
+        
+        setDashboardPeriod("century");
+        renderDashboard();
+      } else {
+        els.statsBody.innerHTML = '<div class="stats-loading">Loading statistics...</div>';
+      }
+    } catch (e) {
+      console.error("Dashboard render error:", e);
+      els.statsBody.innerHTML = '<div class="stats-loading">Could not render dashboard.</div>';
+    }
   }
 
   function closeStats() {
     if (!els.statsPanel) return;
-    els.statsPanel.hidden = true;
+    els.statsPanel.classList.remove("is-open");
+    setTimeout(() => {
+      if (!els.statsPanel.classList.contains("is-open")) {
+        els.statsPanel.hidden = true;
+      }
+    }, 220);
     if (els.sidebar) els.sidebar.classList.remove("is-dashboard-open");
     if (els.statsOpen) {
       els.statsOpen.classList.remove("is-active");
@@ -1246,6 +1257,7 @@
     closeStats();
     
     els.settingsPanel.hidden = false;
+    els.settingsPanel.classList.add("is-open");
     if (els.sidebar) els.sidebar.classList.add("is-dashboard-open");
     if (els.settingsOpen) {
       els.settingsOpen.classList.add("is-active");
@@ -1255,7 +1267,12 @@
 
   function closeSettings() {
     if (!els.settingsPanel) return;
-    els.settingsPanel.hidden = true;
+    els.settingsPanel.classList.remove("is-open");
+    setTimeout(() => {
+      if (!els.settingsPanel.classList.contains("is-open")) {
+        els.settingsPanel.hidden = true;
+      }
+    }, 220);
     if (els.sidebar) els.sidebar.classList.remove("is-dashboard-open");
     if (els.settingsOpen) {
       els.settingsOpen.classList.remove("is-active");
