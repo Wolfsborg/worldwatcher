@@ -1476,7 +1476,7 @@ button.chip {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: transform 0.45s ease, opacity 0.45s ease, visibility 0.45s ease;
+  transition: transform 0.8s ease, opacity 0.8s ease, visibility 0.8s ease;
 }
 .stats-panel.is-open {
   transform: translateX(0);
