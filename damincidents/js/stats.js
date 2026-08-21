@@ -456,9 +456,6 @@
         filtered = filtered.filter(inc => inc.country === selectedCountry);
       }
 
-      const countries = Array.from(new Set(incidents.filter(inc => validCategories.includes(inc.category)).map(inc => inc.country).filter(Boolean))).sort();
-      const countryOptions = countries.map(c => `<option value="${c}"${c === selectedCountry ? ' selected' : ''}>${c}</option>`).join("");
-
       const allIncidentsYears = incidents
         .filter(inc => validCategories.includes(inc.category))
         .map(yearOf)
@@ -725,15 +722,6 @@
         <div class="stat-card timeline-card">
           <h2 class="stat-card-title">Incidents over time</h2>
           <p class="stat-card-subtitle">Archive counts by year. Projection is a trend on those counts, not a risk model.</p>
-          <div class="timeline-filter-row">
-            <label class="timeline-filter-label">
-              <span class="timeline-filter-text">Country</span>
-              <select class="timeline-country-filter" data-timeline-country>
-                <option value="">All countries</option>
-                ${countryOptions}
-              </select>
-            </label>
-          </div>
           ${svgContent}
           <div class="fan-legend">${legend}</div>
           <p class="fan-caption">Older years are still backfilling. ${currentYear} is incomplete. ${hasTrend ? 'The fan is residual × √horizon on yearly archive counts, not the chance a given dam fails. ' : ''}${statsLine}</p>
@@ -742,22 +730,10 @@
     } catch (error) {
       console.error("Fan chart render error:", error);
       
-      const countries = Array.from(new Set(incidents.filter(inc => ["failure", "partial_breach", "incident", "watch"].includes(inc.category)).map(inc => inc.country).filter(Boolean))).sort();
-      const countryOptions = countries.map(c => `<option value="${c}"${c === selectedCountry ? ' selected' : ''}>${c}</option>`).join("");
-      
       return `
         <div class="stat-card timeline-card">
           <h2 class="stat-card-title">Incidents over time</h2>
           <p class="stat-card-subtitle">Archive counts by year. Projection is a trend on those counts, not a risk model.</p>
-          <div class="timeline-filter-row">
-            <label class="timeline-filter-label">
-              <span class="timeline-filter-text">Country</span>
-              <select class="timeline-country-filter" data-timeline-country>
-                <option value="">All countries</option>
-                ${countryOptions}
-              </select>
-            </label>
-          </div>
           <p style="color: var(--muted); font-size: 13px; margin: 20px 0;">Could not render this chart.</p>
         </div>
       `;
@@ -769,9 +745,31 @@
   function renderStats(incidents, layer) {
     const stats = computeStats(incidents, layer);
     
+    let countryFilterHtml = '';
+    if (layer === "dams") {
+      const validCategories = ["failure", "partial_breach", "incident", "watch"];
+      const countries = Array.from(new Set(incidents.filter(inc => validCategories.includes(inc.category)).map(inc => inc.country).filter(Boolean))).sort();
+      const countryOptions = countries.map(c => `<option value="${c}"${c === currentTimelineCountry ? ' selected' : ''}>${c}</option>`).join("");
+      
+      countryFilterHtml = `
+        <div class="timeline-filter-row">
+          <label class="timeline-filter-label">
+            <span class="timeline-filter-text">Country</span>
+            <button type="button" class="timeline-country-nav" data-country-nav="prev" aria-label="Previous country">&lt;</button>
+            <select class="timeline-country-filter" data-timeline-country>
+              <option value="">All countries</option>
+              ${countryOptions}
+            </select>
+            <button type="button" class="timeline-country-nav" data-country-nav="next" aria-label="Next country">&gt;</button>
+          </label>
+        </div>
+      `;
+    }
+    
     const html = `
       <div class="stats-grid">
         ${renderOverview(stats, layer)}
+        ${countryFilterHtml}
         ${renderFailuresOverTime(incidents, layer, currentTimelineCountry)}
         ${renderByCause(stats)}
         ${renderByCountry(stats)}
@@ -787,14 +785,50 @@
   function bindTimelineCountryFilter(onChangeCallback) {
     setTimeout(() => {
       const filter = document.querySelector("[data-timeline-country]");
-      if (filter) {
-        filter.addEventListener("change", (e) => {
-          currentTimelineCountry = e.target.value || null;
+      if (!filter) return;
+      
+      const oldFilter = filter.cloneNode(true);
+      filter.parentNode.replaceChild(oldFilter, filter);
+      
+      oldFilter.value = currentTimelineCountry || "";
+      
+      oldFilter.addEventListener("change", (e) => {
+        currentTimelineCountry = e.target.value || null;
+        if (onChangeCallback) {
+          onChangeCallback();
+        }
+      });
+      
+      const navButtons = document.querySelectorAll("[data-country-nav]");
+      navButtons.forEach(btn => {
+        const oldBtn = btn.cloneNode(true);
+        btn.parentNode.replaceChild(oldBtn, btn);
+        
+        oldBtn.addEventListener("click", () => {
+          const direction = oldBtn.dataset.countryNav;
+          const select = document.querySelector("[data-timeline-country]");
+          if (!select) return;
+          
+          const options = Array.from(select.options);
+          const currentIndex = options.findIndex(opt => opt.value === (currentTimelineCountry || ""));
+          
+          let newIndex;
+          if (direction === "prev") {
+            newIndex = currentIndex - 1;
+            if (newIndex < 0) newIndex = options.length - 1;
+          } else {
+            newIndex = currentIndex + 1;
+            if (newIndex >= options.length) newIndex = 0;
+          }
+          
+          currentTimelineCountry = options[newIndex].value || null;
+          select.value = currentTimelineCountry || "";
+          
           if (onChangeCallback) {
             onChangeCallback();
           }
         });
-      }
+      });
     }, 10);
   }
 

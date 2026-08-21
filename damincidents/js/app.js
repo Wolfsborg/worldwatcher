@@ -144,7 +144,7 @@
   const markersById = new Map();
   const fallbackMarkersById = new Map();
   let pinNamesEnabled = localStorage.getItem("ww-pin-names") !== "off";
-  let currentTheme = localStorage.getItem("ww-theme") || "dark";
+  let currentTheme = localStorage.getItem("ww-theme") || "light";
   let icoldLargeOnly = false;
 
 
@@ -557,19 +557,23 @@
 
   function renderDashboard() {
     if (!els.statsBody || !window.worldwatcherStats) return;
-    const filtered = filterDashboardIncidents();
-    const html = window.worldwatcherStats.render(filtered, layer);
-    els.statsBody.innerHTML = html;
-    if (els.dashboardCount) {
-      const total = all.length;
-      els.dashboardCount.textContent = filtered.length === total
-        ? `${formatNum(total)} incidents`
-        : `${formatNum(filtered.length)} of ${formatNum(total)} incidents`;
-    }
-    if (window.worldwatcherStats.bindTimelineCountryFilter) {
-      window.worldwatcherStats.bindTimelineCountryFilter(() => {
-        renderDashboard();
-      });
+    try {
+      const filtered = filterDashboardIncidents();
+      const html = window.worldwatcherStats.render(filtered, layer);
+      els.statsBody.innerHTML = html;
+      if (els.dashboardCount) {
+        const total = all.length;
+        els.dashboardCount.textContent = filtered.length === total
+          ? `${formatNum(total)} incidents`
+          : `${formatNum(filtered.length)} of ${formatNum(total)} incidents`;
+      }
+      if (window.worldwatcherStats.bindTimelineCountryFilter) {
+        window.worldwatcherStats.bindTimelineCountryFilter(() => {
+          renderDashboard();
+        });
+      }
+    } catch (error) {
+      console.error("Dashboard render error:", error);
     }
   }
 
