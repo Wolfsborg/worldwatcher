@@ -511,6 +511,8 @@
       const lastHistoricalValue = totals[totals.length - 1] || 0;
       const lastHistoricalBin = historicalBins[historicalBins.length - 1];
       if (!Number.isFinite(lastHistoricalBin)) return "";
+      
+      const effectiveCurrentYear = currentYear > lastHistoricalBin ? currentYear : lastHistoricalBin;
     
     const projectionSteps = [];
     for (let h = 0; h <= 4; h += 0.2) {
@@ -584,14 +586,19 @@
     }
     
     const minBin = historicalBins[0];
-    const maxBin = lastHistoricalBin + 20;
+    let maxBin = lastHistoricalBin + 20;
+    
+    if (effectiveCurrentYear > maxBin) {
+      maxBin = effectiveCurrentYear + 15;
+    }
+    
     const binRange = maxBin - minBin;
     
     function toX(bin) {
       return leftPad + ((bin - minBin) / binRange) * plotWidth;
     }
     
-    const nowX = toX(lastHistoricalBin);
+    const nowX = toX(currentYear);
 
     let svgContent = `<svg viewBox="0 0 ${width} ${height}" class="fan-chart">`;
     
