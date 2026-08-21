@@ -719,7 +719,7 @@
     ].join('');
     
     const statsLine = n >= 3 
-      ? `Current 5-year bin (${getBinStart(currentYear)}–${currentYear}): ${currentBinValue}  ·  trend: ${trendPerFiveYears >= 0 ? '+' : ''}${trendPerFiveYears.toFixed(1)} / 5y`
+      ? `Current 5-year bin (${currentBin}–${currentBin + 4}): ${currentBinValue}  ·  trend: ${trendPerFiveYears >= 0 ? '+' : ''}${trendPerFiveYears.toFixed(1)} / 5y`
       : '';
 
       return `
