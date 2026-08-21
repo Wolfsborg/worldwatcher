@@ -706,7 +706,7 @@
     const projectionX = (nowX + leftPad + plotWidth) / 2;
     svgContent += `<text x="${projectionX}" y="${topPad - 8}" fill="var(--muted)" font-size="11" text-anchor="middle" font-weight="500">Projection</text>`;
     
-    svgContent += `<text x="${leftPad - 55}" y="${topPad + plotHeight / 2}" fill="var(--text)" font-size="12" text-anchor="middle" font-weight="500" transform="rotate(-90 ${leftPad - 55} ${topPad + plotHeight / 2})">Incidents per 5 years</text>`;
+    svgContent += `<text x="${leftPad - 55}" y="${topPad + plotHeight / 2}" fill="var(--text)" font-size="12" text-anchor="middle" font-weight="500" transform="rotate(-90 ${leftPad - 55} ${topPad + plotHeight / 2})">Incidents</text>`;
     svgContent += `<text x="${leftPad + plotWidth / 2}" y="${height - 5}" fill="var(--text)" font-size="12" text-anchor="middle" font-weight="500">Year</text>`;
 
     svgContent += `</svg>`;
