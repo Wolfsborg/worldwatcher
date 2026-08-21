@@ -718,7 +718,6 @@
       '<div class="fan-legend-item"><span class="fan-legend-box fan-band-95"></span><span>95% range</span></div>',
     ].join('');
     
-    const currentBinValue = binData[currentBin] || 0;
     const statsLine = n >= 3 
       ? `Current 5-year bin (${getBinStart(currentYear)}–${currentYear}): ${currentBinValue}  ·  trend: ${trendPerFiveYears >= 0 ? '+' : ''}${trendPerFiveYears.toFixed(1)} / 5y`
       : '';
