@@ -526,12 +526,14 @@
       effectiveStd = Math.max(tempNiceMax * 0.05, 2);
     }
     
+    const currentBinValue = binData[currentBin] || 0;
+    
     const projections = projectionSteps.map(h => {
-      const center = lastHistoricalValue + trend * h;
+      const center = currentBinValue + trend * h;
       const se = effectiveStd * Math.sqrt(h);
       
       return {
-        bin: lastHistoricalBin + h * 5,
+        bin: currentYear + h * 5,
         h,
         center,
         band50: [Math.max(0, center - 0.674 * se), center + 0.674 * se],
@@ -691,9 +693,11 @@
       svgContent += `<g style="color: rgba(139,145,154,0.4)">${smoothBand(band50Upper, band50Lower)}</g>`;
     }
 
-    const linePoints = historicalBins.map(bin => 
-      `${toX(bin)},${toY(binData[bin])}`
-    ).join(' ');
+    const linePoints = historicalBins
+      .filter(b => b < currentBin)
+      .map(bin => `${toX(bin)},${toY(binData[bin])}`)
+      .concat([`${toX(currentYear)},${toY(binData[currentBin] || 0)}`])
+      .join(' ');
     svgContent += `<polyline points="${linePoints}" fill="none" stroke="var(--accent)" stroke-width="2.5"/>`;
 
     svgContent += `<line x1="${nowX}" y1="${topPad}" x2="${nowX}" y2="${topPad + plotHeight}" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4,4"/>`;
@@ -715,7 +719,7 @@
     ].join('');
     
     const statsLine = n >= 3 
-      ? `Recent 5-year bin: ${recentBinValue}  ·  trend: ${trendPerFiveYears >= 0 ? '+' : ''}${trendPerFiveYears.toFixed(1)} / 5y`
+      ? `Current 5-year bin (${getBinStart(currentYear)}–${currentYear}): ${currentBinValue}  ·  trend: ${trendPerFiveYears >= 0 ? '+' : ''}${trendPerFiveYears.toFixed(1)} / 5y`
       : '';
 
       return `
