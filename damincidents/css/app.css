@@ -1530,6 +1530,13 @@ button.chip {
   grid-column: 1 / -1;
 }
 
+.chart-subtitle {
+  margin: -8px 0 14px;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .time-series-chart {
   width: 100%;
   height: auto;
@@ -1542,7 +1549,8 @@ button.chip {
   flex-wrap: wrap;
   gap: 16px;
   margin-top: 12px;
-  font-size: 13px;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 .legend-item {
@@ -1555,6 +1563,7 @@ button.chip {
   width: 20px;
   height: 2px;
   display: block;
+  flex-shrink: 0;
 }
 
 .legend-swatch {
@@ -1562,13 +1571,29 @@ button.chip {
   height: 14px;
   border-radius: 2px;
   display: block;
+  flex-shrink: 0;
 }
 
-.chart-caption {
+.chart-rate-line {
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.chart-note {
   margin: 12px 0 0;
   font-size: 12px;
   color: var(--muted);
-  line-height: 1.5;
+  line-height: 1.6;
+}
+
+.chart-note p {
+  margin: 0 0 8px;
+}
+
+.chart-note p:last-child {
+  margin-bottom: 0;
 }
 
 .stats-header {

@@ -634,12 +634,24 @@
 
     const nowLineX = xScale(currentYear);
 
+    const recentBinCount = Math.round(lastHistoricalValue);
+    const trendPer5y = (slope * 1).toFixed(1);
+    const trendSign = slope >= 0 ? '+' : '';
+
+    const projectionLabelX = nowLineX + (chartWidth - paddingRight - nowLineX) / 2;
+    const projectionLabelY = paddingTop + 30;
+
     return `
       <div class="stat-card incidents-over-time-card">
         <h2 class="stat-card-title">Incidents over time</h2>
+        <p class="chart-subtitle">Recorded dam incidents in this archive, 5-year bins. Projection is a trend on those counts, not a risk model.</p>
         <svg viewBox="0 0 ${chartWidth} ${chartHeight}" xmlns="http://www.w3.org/2000/svg" class="time-series-chart">
           <line x1="${paddingLeft}" y1="${paddingTop}" x2="${paddingLeft}" y2="${chartHeight - paddingBottom}" stroke="var(--border)" stroke-width="1"/>
           <line x1="${paddingLeft}" y1="${chartHeight - paddingBottom}" x2="${chartWidth - paddingRight}" y2="${chartHeight - paddingBottom}" stroke="var(--border)" stroke-width="1"/>
+          
+          <text x="${paddingLeft - 38}" y="${(paddingTop + chartHeight - paddingBottom) / 2}" text-anchor="middle" fill="var(--muted)" font-size="11" transform="rotate(-90 ${paddingLeft - 38} ${(paddingTop + chartHeight - paddingBottom) / 2})">Incidents per 5 years</text>
+          
+          <text x="${paddingLeft + plotWidth / 2}" y="${chartHeight - 4}" text-anchor="middle" fill="var(--muted)" font-size="11">Year</text>
           
           ${xAxisTicks}
           ${yAxisTicks}
@@ -650,17 +662,25 @@
           
           <line x1="${nowLineX}" y1="${paddingTop}" x2="${nowLineX}" y2="${chartHeight - paddingBottom}" stroke="var(--border)" stroke-width="1" stroke-dasharray="4 2"/>
           
+          <text x="${nowLineX}" y="${paddingTop - 6}" text-anchor="middle" fill="var(--muted)" font-size="10" font-weight="500">${currentYear}</text>
+          
+          <text x="${projectionLabelX}" y="${projectionLabelY}" text-anchor="middle" fill="var(--muted)" font-size="11" opacity="0.5">Projection</text>
+          
           <path d="${historicalPath}" stroke="#4aa3df" stroke-width="2" fill="none"/>
           
           ${historicalBins.map(b => `<circle cx="${xScale(b.mid)}" cy="${yScale(b.count)}" r="3" fill="#4aa3df"/>`).join('')}
         </svg>
         <div class="chart-legend">
-          <div class="legend-item"><span class="legend-line" style="background: #4aa3df"></span> Dam incidents</div>
-          <div class="legend-item"><span class="legend-swatch" style="background: var(--uncertainty-50)"></span> 50% range</div>
+          <div class="legend-item"><span class="legend-line" style="background: #4aa3df"></span> Dam incidents — recorded counts in this archive</div>
+          <div class="legend-item"><span class="legend-swatch" style="background: var(--uncertainty-50)"></span> 50% range — central half of the prediction interval</div>
           <div class="legend-item"><span class="legend-swatch" style="background: var(--uncertainty-80)"></span> 80% range</div>
           <div class="legend-item"><span class="legend-swatch" style="background: var(--uncertainty-95)"></span> 95% range</div>
         </div>
-        <p class="chart-caption">Archive counts; not a risk model. Bins are 5-year periods. Forecast bands show statistical uncertainty from a linear fit to historical data, not future risk assessment.</p>
+        <p class="chart-rate-line">Recent 5-year bin: ${recentBinCount}  ·  trend: ${trendSign}${trendPer5y} / 5y</p>
+        <div class="chart-note">
+          <p>History is observed archive counts (still backfilling; older bins are incomplete). The fan is a linear-trend prediction interval on those bin counts: residual spread that widens with horizon (se ∝ √(1 + 1/n + (x−x̄)²/Sxx)). Lower edge is clamped at 0.</p>
+          <p>This is not the probability that any given dam fails, and not a global ICOLD failure rate. Country filter refits both the line and the fan.</p>
+        </div>
       </div>
     `;
   }
