@@ -508,27 +508,21 @@
     const lastHistoricalValue = totals[totals.length - 1] || 0;
     const lastHistoricalBin = historicalBins[historicalBins.length - 1];
     
-    const n = totals.length;
-    const xMean = (n - 1) / 2;
-    let Sxx = 0;
-    totals.forEach((_, i) => {
-      Sxx += (i - xMean) * (i - xMean);
-    });
-    
     const projectionSteps = [];
     for (let h = 0; h <= 4; h += 0.2) {
       projectionSteps.push(h);
     }
     
+    let effectiveStd = residualStd;
+    if (effectiveStd === 0) {
+      const maxHistorical = Math.max(...totals, 10);
+      const tempNiceMax = Math.ceil(maxHistorical / 50) * 50;
+      effectiveStd = Math.max(tempNiceMax * 0.05, 2);
+    }
+    
     const projections = projectionSteps.map(h => {
       const center = lastHistoricalValue + trend * h;
-      
-      let se;
-      if (Sxx === 0 || n < 3) {
-        se = residualStd * Math.sqrt(Math.max(h, 0.05));
-      } else {
-        se = residualStd * Math.sqrt(1 + 1/n + Math.pow((n - 1 + h) - xMean, 2) / Sxx);
-      }
+      const se = effectiveStd * Math.sqrt(h);
       
       return {
         bin: lastHistoricalBin + h * 5,
@@ -675,7 +669,7 @@
         </div>
         ${svgContent}
         <div class="fan-legend">${legend}</div>
-        <p class="fan-caption">History is observed archive counts (still backfilling; older bins are incomplete). The fan is a linear-trend prediction interval on those bin counts; residual spread widens with horizon. This is not the probability a given dam fails, and not a global ICOLD failure rate. Country filter refits both the line and the fan.${statsLine ? ' ' + statsLine : ''}</p>
+        <p class="fan-caption">History is observed archive counts (still backfilling; older bins are incomplete). The fan is residual spread × √horizon (accumulating error on archive bin counts). This is not the probability a given dam fails, and not a global ICOLD failure rate. Country filter refits both the line and the fan.${statsLine ? ' ' + statsLine : ''}</p>
       </div>
     `;
   }
