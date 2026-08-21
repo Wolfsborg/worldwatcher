@@ -123,6 +123,8 @@
     dashboardYearSliderFill: document.getElementById("dashboard-year-slider-fill"),
     dashboardPeriods: document.getElementById("dashboard-period-chips"),
     dashboardCount: document.getElementById("dashboard-count"),
+    icoldBlock: document.getElementById("icold-block"),
+    icoldChip: document.getElementById("icold-chip"),
   };
 
   let layer = "dams";
@@ -140,6 +142,7 @@
   const fallbackMarkersById = new Map();
   let pinNamesEnabled = localStorage.getItem("ww-pin-names") !== "off";
   let currentTheme = localStorage.getItem("ww-theme") || "dark";
+  let icoldLargeOnly = false;
 
 
   function spec() { return LAYERS[layer] || LAYERS.dams; }
@@ -176,6 +179,38 @@
     const str = String(inc.incident_date);
     const y = parseInt(str.startsWith("-") ? str.slice(0, 5) : str.slice(0, 4), 10);
     return Number.isFinite(y) ? y : null;
+  }
+
+  function parseReservoirCapacity(capStr) {
+    if (!capStr || typeof capStr !== "string") return null;
+    const s = capStr.toLowerCase().trim();
+    const numMatch = s.match(/[\d,.]+/);
+    if (!numMatch) return null;
+    const num = parseFloat(numMatch[0].replace(/,/g, ""));
+    if (!Number.isFinite(num) || num <= 0) return null;
+    if (/million\s*(m[³3]|cubic\s*metres?)/.test(s) || /hm[³3]/.test(s)) {
+      return num * 1e6;
+    }
+    if (/km[³3]|cubic\s*kilometres?/.test(s)) {
+      return num * 1e9;
+    }
+    if (/acre[-\s]*(ft|feet)/.test(s)) {
+      return num * 1233.48;
+    }
+    if (/\b(m[³3]|m3|cubic\s*metres?)\b/.test(s)) {
+      return num;
+    }
+    return null;
+  }
+
+  function isIcoldLarge(inc) {
+    const damTypes = new Set(["reservoir_dam", "tailings", "weir", "spillway", "sluice"]);
+    if (!damTypes.has(inc.type)) return false;
+    const h = inc.height_m;
+    if (typeof h !== "number" || h < 5) return false;
+    if (h >= 15) return true;
+    const capM3 = parseReservoirCapacity(inc.reservoir_capacity);
+    return capM3 != null && capM3 > 3e6;
   }
 
   function dateSortKey(inc) {
@@ -513,6 +548,7 @@
     return all.filter((inc) => {
       const y = yearOf(inc);
       if (y != null && (y < ymin || y > ymax)) return false;
+      if (icoldLargeOnly && layer === "dams" && !isIcoldLarge(inc)) return false;
       return true;
     });
   }
@@ -548,6 +584,7 @@
         const cs = inc.causes || [];
         if (!cs.includes(cause)) return false;
       }
+      if (icoldLargeOnly && layer === "dams" && !isIcoldLarge(inc)) return false;
       if (q) {
         const hay = [
           inc.name, inc.country, inc.region, inc.location_label,
@@ -571,9 +608,21 @@
     els.statDeaths.title = unknownDeaths
       ? formatNum(deaths) + " confirmed. " + unknownDeaths + " records have no sourced death toll."
       : "";
-    els.listCount.textContent = rows.length === all.length
-      ? rows.length + " records"
-      : rows.length + " of " + all.length;
+    
+    let countText = rows.length + " records";
+    if (rows.length !== all.length) {
+      countText = rows.length + " of " + all.length;
+    }
+    if (icoldLargeOnly && layer === "dams") {
+      const withoutHeight = all.filter((inc) => {
+        const damTypes = new Set(["reservoir_dam", "tailings", "weir", "spillway", "sluice"]);
+        return damTypes.has(inc.type) && (typeof inc.height_m !== "number" || inc.height_m < 5);
+      }).length;
+      if (withoutHeight > 0) {
+        countText += " (" + withoutHeight + " lack height)";
+      }
+    }
+    els.listCount.textContent = countText;
   }
 
   function renderList(rows) {
@@ -1297,6 +1346,15 @@
       btn.setAttribute("aria-pressed", btn.getAttribute("aria-pressed") === "true" ? "false" : "true");
       apply();
     });
+    
+    if (els.icoldChip) {
+      els.icoldChip.addEventListener("click", () => {
+        icoldLargeOnly = !icoldLargeOnly;
+        els.icoldChip.setAttribute("aria-pressed", icoldLargeOnly ? "true" : "false");
+        apply();
+        if (!els.statsPanel.hidden) renderDashboard();
+      });
+    }
     els.detailBody.addEventListener("click", (e) => {
       const tab = e.target.closest(".detail-tab");
       if (tab) {
@@ -1362,6 +1420,7 @@
     if (els.recentHeading) els.recentHeading.textContent = s.recentLabel;
     if (els.categoryBlock) els.categoryBlock.hidden = !s.showCategory;
     if (els.causeBlock) els.causeBlock.hidden = !s.showCause;
+    if (els.icoldBlock) els.icoldBlock.hidden = layer !== "dams";
     if (els.layerTabs) {
       els.layerTabs.querySelectorAll(".layer-tab").forEach((b) => {
         const on = b.dataset.layer === layer;
