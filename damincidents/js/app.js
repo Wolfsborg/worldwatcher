@@ -1246,7 +1246,7 @@
       if (!els.statsPanel.classList.contains("is-open")) {
         els.statsPanel.hidden = true;
       }
-    }, 450);
+    }, 800);
     if (els.sidebar) els.sidebar.classList.remove("is-dashboard-open");
     if (els.statsOpen) {
       els.statsOpen.classList.remove("is-active");
@@ -1286,7 +1286,7 @@
       if (!els.settingsPanel.classList.contains("is-open")) {
         els.settingsPanel.hidden = true;
       }
-    }, 450);
+    }, 800);
     if (els.sidebar) els.sidebar.classList.remove("is-dashboard-open");
     if (els.settingsOpen) {
       els.settingsOpen.classList.remove("is-active");
