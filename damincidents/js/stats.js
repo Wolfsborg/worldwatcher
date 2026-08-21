@@ -505,20 +505,32 @@
       residualStd = Math.sqrt(residuals.reduce((a, b) => a + b * b, 0) / Math.max(1, n - 2));
     }
 
-    const projectionBins = [currentBin + 5, currentBin + 10, currentBin + 15, currentBin + 20];
     const lastHistoricalValue = totals[totals.length - 1] || 0;
     const lastHistoricalBin = historicalBins[historicalBins.length - 1];
     
-    const projections = projectionBins.map((bin, idx) => {
-      const step = idx + 1;
-      const forecast = Math.max(0, lastHistoricalValue + trend * step);
-      const spread = residualStd * Math.sqrt(1 + step * 0.3);
+    const projectionSteps = [];
+    for (let h = 0; h <= 4; h += 0.2) {
+      projectionSteps.push(h);
+    }
+    
+    let effectiveStd = residualStd;
+    if (effectiveStd === 0) {
+      const maxHistorical = Math.max(...totals, 10);
+      const tempNiceMax = Math.ceil(maxHistorical / 50) * 50;
+      effectiveStd = Math.max(tempNiceMax * 0.05, 2);
+    }
+    
+    const projections = projectionSteps.map(h => {
+      const center = lastHistoricalValue + trend * h;
+      const se = effectiveStd * Math.sqrt(h);
+      
       return {
-        bin,
-        forecast,
-        band50: [Math.max(0, forecast - 0.67 * spread), forecast + 0.67 * spread],
-        band80: [Math.max(0, forecast - 1.28 * spread), forecast + 1.28 * spread],
-        band95: [Math.max(0, forecast - 1.96 * spread), forecast + 1.96 * spread]
+        bin: lastHistoricalBin + h * 5,
+        h,
+        center,
+        band50: [Math.max(0, center - 0.674 * se), center + 0.674 * se],
+        band80: [Math.max(0, center - 1.282 * se), center + 1.282 * se],
+        band95: [Math.max(0, center - 1.960 * se), center + 1.960 * se]
       };
     });
 
@@ -529,12 +541,15 @@
     const maxValue = Math.max(...allValues, 10);
     const niceMax = Math.ceil(maxValue / 50) * 50;
     
+    const recentBinValue = lastHistoricalValue;
+    const trendPerFiveYears = trend;
+    
     const width = 700;
-    const height = 240;
-    const leftPad = 50;
-    const rightPad = 30;
-    const topPad = 20;
-    const bottomPad = 40;
+    const height = 280;
+    const leftPad = 70;
+    const rightPad = 80;
+    const topPad = 30;
+    const bottomPad = 50;
     const plotWidth = width - leftPad - rightPad;
     const plotHeight = height - topPad - bottomPad;
     
@@ -543,7 +558,7 @@
     }
     
     const minBin = historicalBins[0];
-    const maxBin = projectionBins[projectionBins.length - 1];
+    const maxBin = lastHistoricalBin + 20;
     const binRange = maxBin - minBin;
     
     function toX(bin) {
@@ -572,70 +587,29 @@
     svgContent += `<line x1="${leftPad}" y1="${topPad}" x2="${leftPad}" y2="${topPad + plotHeight}" stroke="var(--line-strong)" stroke-width="1.5"/>`;
     svgContent += `<line x1="${leftPad}" y1="${topPad + plotHeight}" x2="${leftPad + plotWidth}" y2="${topPad + plotHeight}" stroke="var(--line-strong)" stroke-width="1.5"/>`;
     
-    [...historicalBins, ...projectionBins].forEach(bin => {
-      if (bin % 10 === 0 || bin % 10 === 5) {
+    for (let bin = minBin; bin <= maxBin; bin += 5) {
+      if (bin % 5 === 0) {
         const x = toX(bin);
         svgContent += `<line x1="${x}" y1="${topPad + plotHeight}" x2="${x}" y2="${topPad + plotHeight + 6}" stroke="var(--line-strong)" stroke-width="1"/>`;
         svgContent += `<text x="${x}" y="${topPad + plotHeight + 20}" fill="var(--muted)" font-size="11" text-anchor="middle">${bin}</text>`;
       }
-    });
+    }
     
     if (projections.length > 0) {
-      const interpPoints = 5;
       function smoothBand(upper, lower) {
         const points = [];
-        
-        points.push(`${nowX},${toY(lastHistoricalValue)}`);
         
         for (let i = 0; i < projections.length; i++) {
           const x = toX(projections[i].bin);
           const y = toY(upper[i]);
-          
-          if (i === 0) {
-            for (let j = 1; j <= interpPoints; j++) {
-              const t = j / interpPoints;
-              const interpX = nowX + (x - nowX) * t;
-              const interpY = toY(lastHistoricalValue) + (y - toY(lastHistoricalValue)) * t;
-              points.push(`${interpX},${interpY}`);
-            }
-          } else {
-            const prevX = toX(projections[i - 1].bin);
-            const prevY = toY(upper[i - 1]);
-            for (let j = 1; j <= interpPoints; j++) {
-              const t = j / interpPoints;
-              const interpX = prevX + (x - prevX) * t;
-              const interpY = prevY + (y - prevY) * t;
-              points.push(`${interpX},${interpY}`);
-            }
-          }
+          points.push(`${x},${y}`);
         }
         
         for (let i = projections.length - 1; i >= 0; i--) {
           const x = toX(projections[i].bin);
           const y = toY(lower[i]);
-          
-          if (i === projections.length - 1) {
-            for (let j = interpPoints; j >= 1; j--) {
-              const nextX = toX(projections[i].bin);
-              const prevX = i > 0 ? toX(projections[i - 1].bin) : nowX;
-              const t = j / interpPoints;
-              const interpX = prevX + (nextX - prevX) * t;
-              const interpY = toY(lower[i]) + (toY(i > 0 ? lower[i - 1] : lastHistoricalValue) - toY(lower[i])) * (1 - t);
-              points.push(`${interpX},${interpY}`);
-            }
-          } else {
-            const nextX = toX(projections[i + 1].bin);
-            const nextY = toY(lower[i + 1]);
-            for (let j = interpPoints; j >= 1; j--) {
-              const t = j / interpPoints;
-              const interpX = x + (nextX - x) * (1 - t);
-              const interpY = y + (nextY - y) * (1 - t);
-              points.push(`${interpX},${interpY}`);
-            }
-          }
+          points.push(`${x},${y}`);
         }
-        
-        points.push(`${nowX},${toY(lastHistoricalValue)}`);
         
         return `<polygon points="${points.join(' ')}" fill="currentColor" stroke="none"/>`;
       }
@@ -659,19 +633,31 @@
     svgContent += `<polyline points="${linePoints}" fill="none" stroke="var(--accent)" stroke-width="2.5"/>`;
 
     svgContent += `<line x1="${nowX}" y1="${topPad}" x2="${nowX}" y2="${topPad + plotHeight}" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4,4"/>`;
+    svgContent += `<text x="${nowX}" y="${topPad - 8}" fill="var(--muted)" font-size="11" text-anchor="middle" font-weight="500">now</text>`;
+    
+    const projectionX = (nowX + leftPad + plotWidth) / 2;
+    svgContent += `<text x="${projectionX}" y="${topPad - 8}" fill="var(--muted)" font-size="11" text-anchor="middle" font-weight="500">Projection</text>`;
+    
+    svgContent += `<text x="${leftPad - 55}" y="${topPad + plotHeight / 2}" fill="var(--text)" font-size="12" text-anchor="middle" font-weight="500" transform="rotate(-90 ${leftPad - 55} ${topPad + plotHeight / 2})">Incidents per 5 years</text>`;
+    svgContent += `<text x="${leftPad + plotWidth / 2}" y="${height - 5}" fill="var(--text)" font-size="12" text-anchor="middle" font-weight="500">Year</text>`;
 
     svgContent += `</svg>`;
 
     const legend = [
-      '<div class="fan-legend-item"><span class="fan-legend-line"></span><span>Dam incidents</span></div>',
-      '<div class="fan-legend-item"><span class="fan-legend-box fan-band-50"></span><span>50% range</span></div>',
+      '<div class="fan-legend-item"><span class="fan-legend-line"></span><span>Dam incidents — recorded counts in this archive</span></div>',
+      '<div class="fan-legend-item"><span class="fan-legend-box fan-band-50"></span><span>50% range — central half of the prediction interval</span></div>',
       '<div class="fan-legend-item"><span class="fan-legend-box fan-band-80"></span><span>80% range</span></div>',
       '<div class="fan-legend-item"><span class="fan-legend-box fan-band-95"></span><span>95% range</span></div>',
     ].join('');
+    
+    const statsLine = n >= 3 
+      ? `Recent 5-year bin: ${recentBinValue}  ·  trend: ${trendPerFiveYears >= 0 ? '+' : ''}${trendPerFiveYears.toFixed(1)} / 5y`
+      : '';
 
     return `
       <div class="stat-card timeline-card">
         <h2 class="stat-card-title">Incidents over time</h2>
+        <p class="stat-card-subtitle">Recorded dam incidents in this archive, 5-year bins. Projection is a trend on those counts, not a risk model.</p>
         <div class="timeline-filter-row">
           <label class="timeline-filter-label">
             <span class="timeline-filter-text">Country</span>
@@ -683,7 +669,7 @@
         </div>
         ${svgContent}
         <div class="fan-legend">${legend}</div>
-        <p class="fan-caption">Simple trend on archive counts in this database. Not global failure rates. Country filter applies to both history and projection.</p>
+        <p class="fan-caption">History is observed archive counts (still backfilling; older bins are incomplete). The fan is residual spread × √horizon (accumulating error on archive bin counts). This is not the probability a given dam fails, and not a global ICOLD failure rate. Country filter refits both the line and the fan.${statsLine ? ' ' + statsLine : ''}</p>
       </div>
     `;
   }
