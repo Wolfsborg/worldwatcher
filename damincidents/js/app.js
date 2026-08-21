@@ -528,6 +528,11 @@
         ? `${formatNum(total)} incidents`
         : `${formatNum(filtered.length)} of ${formatNum(total)} incidents`;
     }
+    if (window.worldwatcherStats.bindTimelineCountryFilter) {
+      window.worldwatcherStats.bindTimelineCountryFilter(() => {
+        renderDashboard();
+      });
+    }
   }
 
   function filtered() {
