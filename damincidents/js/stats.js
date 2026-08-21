@@ -538,8 +538,26 @@
       ...totals,
       ...projections.flatMap(p => [p.band95[0], p.band95[1]])
     ];
-    const maxValue = Math.max(...allValues, 10);
-    const niceMax = Math.ceil(maxValue / 50) * 50;
+    let maxValue = allValues.length > 0 ? Math.max(...allValues) : 0;
+    if (maxValue === 0) maxValue = 1;
+    
+    function computeNiceMax(max) {
+      if (max <= 0) return 1;
+      
+      const magnitude = Math.pow(10, Math.floor(Math.log10(max)));
+      const normalized = max / magnitude;
+      
+      let niceNormalized;
+      if (normalized <= 1.2) niceNormalized = 1.5;
+      else if (normalized <= 2) niceNormalized = 2;
+      else if (normalized <= 2.5) niceNormalized = 2.5;
+      else if (normalized <= 5) niceNormalized = 5;
+      else niceNormalized = 10;
+      
+      return niceNormalized * magnitude;
+    }
+    
+    const niceMax = computeNiceMax(maxValue * 1.05);
     
     const recentBinValue = lastHistoricalValue;
     const trendPerFiveYears = trend;
@@ -571,8 +589,24 @@
     
     svgContent += `<rect x="${nowX}" y="${topPad}" width="${leftPad + plotWidth - nowX}" height="${plotHeight}" fill="rgba(232,234,237,0.04)"/>`;
     
+    function computeYStep(max) {
+      const targetTicks = 5;
+      const roughStep = max / targetTicks;
+      const magnitude = Math.pow(10, Math.floor(Math.log10(roughStep)));
+      const normalized = roughStep / magnitude;
+      
+      let niceStep;
+      if (normalized <= 1) niceStep = 1;
+      else if (normalized <= 2) niceStep = 2;
+      else if (normalized <= 2.5) niceStep = 2.5;
+      else if (normalized <= 5) niceStep = 5;
+      else niceStep = 10;
+      
+      return niceStep * magnitude;
+    }
+    
     const yTicks = [];
-    const yStep = niceMax <= 100 ? 25 : niceMax <= 200 ? 50 : 100;
+    const yStep = computeYStep(niceMax);
     for (let i = 0; i <= niceMax; i += yStep) {
       yTicks.push(i);
     }
@@ -587,11 +621,17 @@
     svgContent += `<line x1="${leftPad}" y1="${topPad}" x2="${leftPad}" y2="${topPad + plotHeight}" stroke="var(--line-strong)" stroke-width="1.5"/>`;
     svgContent += `<line x1="${leftPad}" y1="${topPad + plotHeight}" x2="${leftPad + plotWidth}" y2="${topPad + plotHeight}" stroke="var(--line-strong)" stroke-width="1.5"/>`;
     
+    const timeSpan = maxBin - minBin;
+    const labelInterval = timeSpan > 60 ? 10 : 5;
+    
     for (let bin = minBin; bin <= maxBin; bin += 5) {
       if (bin % 5 === 0) {
         const x = toX(bin);
         svgContent += `<line x1="${x}" y1="${topPad + plotHeight}" x2="${x}" y2="${topPad + plotHeight + 6}" stroke="var(--line-strong)" stroke-width="1"/>`;
-        svgContent += `<text x="${x}" y="${topPad + plotHeight + 20}" fill="var(--muted)" font-size="11" text-anchor="middle">${bin}</text>`;
+        
+        if (bin % labelInterval === 0) {
+          svgContent += `<text x="${x}" y="${topPad + plotHeight + 20}" fill="var(--muted)" font-size="11" text-anchor="middle">${bin}</text>`;
+        }
       }
     }
     
