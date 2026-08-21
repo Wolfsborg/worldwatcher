@@ -443,23 +443,31 @@
     `;
   }
 
-  function renderFailuresOverTime(incidents, layer) {
+  function renderFailuresOverTime(incidents, layer, selectedCountry = null) {
     if (layer !== "dams") {
       return "";
     }
 
-    const failures = incidents.filter(inc => 
+    let failures = incidents.filter(inc => 
       inc.category === "failure" || inc.category === "partial_breach"
     );
+
+    if (selectedCountry) {
+      failures = failures.filter(inc => inc.country === selectedCountry);
+    }
 
     if (failures.length === 0) {
       return "";
     }
 
-    const firstFillings = incidents.filter(inc => 
+    let firstFillings = incidents.filter(inc => 
       (inc.category === "failure" || inc.category === "partial_breach") &&
       inc.causes && inc.causes.includes("construction_first_filling")
     );
+
+    if (selectedCountry) {
+      firstFillings = firstFillings.filter(inc => inc.country === selectedCountry);
+    }
 
     const now = new Date();
     const currentYear = now.getFullYear();
@@ -681,13 +689,56 @@
       }
     });
 
+    const allCountries = Array.from(new Set(
+      incidents
+        .filter(inc => inc.category === "failure" || inc.category === "partial_breach")
+        .map(inc => inc.country)
+        .filter(c => c)
+    )).sort();
+
+    const countryOptions = allCountries.map(country => {
+      const isSelected = country === selectedCountry ? " selected" : "";
+      return `<option value="${country}"${isSelected}>${country}</option>`;
+    }).join("");
+
+    const yearSpan = maxYear - minYear + 1;
+    const recordedRate = failures.length / yearSpan;
+    const rateUncertaintyLow = Math.max(0, recordedRate * 0.7);
+    const rateUncertaintyHigh = recordedRate * 1.4;
+
+    let rateText = `Recorded failures per year: ${recordedRate.toFixed(2)}`;
+    if (minYear < 1980 || maxYear >= currentYear - 2) {
+      rateText += ` (uncertainty: ${rateUncertaintyLow.toFixed(2)}–${rateUncertaintyHigh.toFixed(2)})`;
+    }
+    rateText += selectedCountry ? ` in ${selectedCountry}` : " (all countries)";
+
+    const hasSufficientData = isShortWindow 
+      ? failures.length >= 3
+      : dataPoints.filter(p => p.count > 0).length >= 3;
+
     const caption = isShortWindow
       ? "Observed archive counts. Band shows forecast uncertainty."
       : "Observed archive counts. Band is wide before 1980 because the historic backfill is still growing, and it widens on the forecast. Not a risk model.";
 
+    const rateClarification = "This is the archive rate for recorded incidents, not the probability that a given dam will fail.";
+
+    let forecastNote = "";
+    if (!hasSufficientData && forecastPoints.length > 0) {
+      forecastNote = `<p class="timeline-note">Forecast is thin: fewer than 3 observed ${isShortWindow ? 'years' : 'decades'} with failures.</p>`;
+      forecastPoints = [];
+      forecastPath = "";
+      uncertaintyBands = uncertaintyBands.filter(b => b.type !== "forecast");
+    }
+
     return `
       <div class="stat-card">
-        <h2 class="stat-card-title">Failures over time</h2>
+        <div class="stat-card-header">
+          <h2 class="stat-card-title">Failures over time</h2>
+          <select class="timeline-country-filter" id="timeline-country-filter">
+            <option value="">All countries</option>
+            ${countryOptions}
+          </select>
+        </div>
         <svg class="timeline-chart" viewBox="0 0 ${chartWidth} ${chartHeight}" xmlns="http://www.w3.org/2000/svg">
           ${yGridLines}
           ${uncertaintyPaths}
@@ -702,10 +753,14 @@
           <span class="timeline-legend-item"><span class="timeline-legend-dot" style="background: #7a8894;"></span> Forecast</span>
           <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-legend-dot-band"></span> Uncertainty</span>
         </div>
-        <p class="timeline-caption">${caption}</p>
+        <p class="timeline-rate">${rateText}</p>
+        ${forecastNote}
+        <p class="timeline-caption">${caption} ${rateClarification}</p>
       </div>
     `;
   }
+
+  let currentTimelineCountry = null;
 
   function renderStats(incidents, layer) {
     const stats = computeStats(incidents, layer);
@@ -713,7 +768,7 @@
     const html = `
       <div class="stats-grid">
         ${renderOverview(stats, layer)}
-        ${renderFailuresOverTime(incidents, layer)}
+        ${renderFailuresOverTime(incidents, layer, currentTimelineCountry)}
         ${renderByCause(stats)}
         ${renderByCountry(stats)}
         ${renderByCategory(stats, layer)}
@@ -725,7 +780,22 @@
     return html;
   }
 
+  function bindTimelineCountryFilter(onChangeCallback) {
+    setTimeout(() => {
+      const filter = document.getElementById("timeline-country-filter");
+      if (filter) {
+        filter.addEventListener("change", (e) => {
+          currentTimelineCountry = e.target.value || null;
+          if (onChangeCallback) {
+            onChangeCallback();
+          }
+        });
+      }
+    }, 10);
+  }
+
   window.worldwatcherStats = {
     render: renderStats,
+    bindTimelineCountryFilter: bindTimelineCountryFilter,
   };
 })();

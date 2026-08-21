@@ -1794,6 +1794,29 @@ button.chip {
   text-align: center;
 }
 
+.stat-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.stat-card-header .stat-card-title {
+  margin: 0;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.timeline-country-filter {
+  flex: 0 0 auto;
+  min-width: 140px;
+  height: 28px;
+  font-size: 12px;
+  padding: 0 28px 0 8px;
+  background-position: right 8px center;
+}
+
 .timeline-chart {
   width: 100%;
   height: auto;
@@ -1827,6 +1850,24 @@ button.chip {
 .timeline-legend-dot-band {
   background: linear-gradient(to right, rgba(122, 136, 148, 0.15), rgba(212, 180, 90, 0.15));
   border: 1px solid var(--line);
+}
+
+.timeline-rate {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  text-align: center;
+  line-height: 1.4;
+}
+
+.timeline-note {
+  margin: 0 0 8px;
+  font-size: 12px;
+  color: var(--watch);
+  text-align: center;
+  font-style: italic;
+  line-height: 1.4;
 }
 
 .timeline-caption {
