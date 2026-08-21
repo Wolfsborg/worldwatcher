@@ -1472,10 +1472,21 @@ button.chip {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  transform: translateX(0);
-  transition: transform 0.22s ease;
+  transform: translateX(-18px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: transform 0.22s ease, opacity 0.22s ease, visibility 0.22s ease;
 }
-.stats-panel[hidden] { display: none; }
+.stats-panel.is-open {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.stats-panel[hidden] {
+  display: none;
+}
 
 .pie-chart-container {
   display: flex;
