@@ -362,7 +362,9 @@
   }
 
   function renderByCategory(stats, layer) {
+    const validCategories = ["failure", "partial_breach", "incident", "watch"];
     const categories = Object.entries(stats.categoryCounts)
+      .filter(([cat]) => layer === "floods" || validCategories.includes(cat))
       .sort((a, b) => b[1] - a[1]);
 
     if (categories.length === 0) {
@@ -443,319 +445,185 @@
     `;
   }
 
-  function renderFailuresOverTime(incidents, layer, selectedCountry = null) {
-    if (layer !== "dams") {
-      return "";
-    }
+  function renderFailuresOverTime(incidents, layer) {
+    if (layer !== "dams") return "";
+    
+    const validCategories = ["failure", "partial_breach", "incident", "watch"];
+    const categoryLabels = {
+      failure: "Failure",
+      partial_breach: "Partial breach",
+      incident: "Incident",
+      watch: "Watch"
+    };
+    const categoryColors = {
+      failure: "#e24b4a",
+      partial_breach: "#e8892c",
+      incident: "#4aa3df",
+      watch: "#d4b45a"
+    };
 
-    let failures = incidents.filter(inc => 
-      inc.category === "failure" || inc.category === "partial_breach"
-    );
+    const filtered = incidents.filter(inc => validCategories.includes(inc.category));
+    if (filtered.length === 0) return "";
 
-    if (selectedCountry) {
-      failures = failures.filter(inc => inc.country === selectedCountry);
-    }
+    const countries = Array.from(new Set(filtered.map(inc => inc.country).filter(Boolean))).sort();
+    const countryOptions = countries.map(c => `<option value="${c}">${c}</option>`).join("");
 
-    if (failures.length === 0) {
-      return "";
-    }
-
-    let firstFillings = incidents.filter(inc => 
-      (inc.category === "failure" || inc.category === "partial_breach") &&
-      inc.causes && inc.causes.includes("construction_first_filling")
-    );
-
-    if (selectedCountry) {
-      firstFillings = firstFillings.filter(inc => inc.country === selectedCountry);
-    }
-
-    const now = new Date();
-    const currentYear = now.getFullYear();
-    const currentDecade = Math.floor(currentYear / 10) * 10;
-
-    const years = failures.map(yearOf).filter(y => y != null);
-    if (years.length === 0) {
-      return "";
-    }
-
-    const minYear = Math.min(...years);
-    const maxYear = Math.max(...years);
-    const minDecade = Math.floor(minYear / 10) * 10;
-
-    const isShortWindow = (maxYear - minYear) < 15;
-
-    let dataPoints = [];
-    let forecastPoints = [];
-    let firstFillingPoints = [];
-    let uncertaintyBands = [];
-
-    if (isShortWindow) {
-      const yearCounts = {};
-      const firstFillingYearCounts = {};
-      
-      failures.forEach(inc => {
-        const y = yearOf(inc);
-        if (y != null) {
-          yearCounts[y] = (yearCounts[y] || 0) + 1;
-        }
-      });
-      
-      firstFillings.forEach(inc => {
-        const y = yearOf(inc);
-        if (y != null) {
-          firstFillingYearCounts[y] = (firstFillingYearCounts[y] || 0) + 1;
-        }
-      });
-
-      for (let y = minYear; y <= maxYear; y++) {
-        dataPoints.push({ year: y, count: yearCounts[y] || 0 });
-        firstFillingPoints.push({ year: y, count: firstFillingYearCounts[y] || 0 });
-      }
-
-      const recentYears = dataPoints.filter(p => p.year >= currentYear - 3 && p.year < currentYear);
-      const baseline = recentYears.length > 0 
-        ? recentYears.reduce((s, p) => s + p.count, 0) / recentYears.length
-        : (dataPoints.reduce((s, p) => s + p.count, 0) / dataPoints.length);
-
-      for (let i = 1; i <= 3; i++) {
-        const forecastYear = maxYear + i;
-        forecastPoints.push({ year: forecastYear, count: baseline });
-      }
-    } else {
-      const decadeCounts = {};
-      const firstFillingDecadeCounts = {};
-      
-      failures.forEach(inc => {
-        const y = yearOf(inc);
-        if (y != null) {
-          const decade = Math.floor(y / 10) * 10;
-          decadeCounts[decade] = (decadeCounts[decade] || 0) + 1;
-        }
-      });
-      
-      firstFillings.forEach(inc => {
-        const y = yearOf(inc);
-        if (y != null) {
-          const decade = Math.floor(y / 10) * 10;
-          firstFillingDecadeCounts[decade] = (firstFillingDecadeCounts[decade] || 0) + 1;
-        }
-      });
-
-      for (let d = minDecade; d <= maxYear; d += 10) {
-        dataPoints.push({ decade: d, count: decadeCounts[d] || 0 });
-        firstFillingPoints.push({ decade: d, count: firstFillingDecadeCounts[d] || 0 });
-      }
-
-      const completeDecades = dataPoints.filter(p => p.decade < currentDecade - 10);
-      const last3Complete = completeDecades.slice(-3);
-      
-      let baseline = 0;
-      let slope = 0;
-      
-      if (last3Complete.length >= 3) {
-        baseline = last3Complete.reduce((s, p) => s + p.count, 0) / last3Complete.length;
-        
-        const y0 = last3Complete[0].count;
-        const y2 = last3Complete[2].count;
-        const span = 20;
-        slope = (y2 - y0) / span;
-        
-        if (Math.abs(slope) > baseline * 0.15) {
-          baseline = last3Complete[2].count;
-        }
-      } else if (completeDecades.length > 0) {
-        baseline = completeDecades.reduce((s, p) => s + p.count, 0) / completeDecades.length;
+    function getBinStart(year) {
+      const lastDigit = year % 10;
+      if (lastDigit < 5) {
+        return Math.floor(year / 10) * 10;
       } else {
-        baseline = dataPoints.reduce((s, p) => s + p.count, 0) / Math.max(dataPoints.length, 1);
+        return Math.floor(year / 10) * 10 + 5;
       }
+    }
 
-      for (let i = 1; i <= 2; i++) {
-        const forecastDecade = currentDecade + (i * 10);
-        const forecastCount = Math.max(0, baseline + slope * 10 * i);
-        forecastPoints.push({ decade: forecastDecade, count: forecastCount });
-      }
-
-      dataPoints.forEach(p => {
-        if (p.decade < 1980) {
-          const observed = p.count;
-          const uplift = Math.max(observed * 2.5, observed + 8);
-          uncertaintyBands.push({
-            x: p.decade,
-            lower: observed,
-            upper: uplift,
-            type: "historical"
-          });
+    const binData = {};
+    filtered.forEach(inc => {
+      const y = yearOf(inc);
+      if (y != null && y >= 1800) {
+        const binStart = getBinStart(y);
+        if (!binData[binStart]) {
+          binData[binStart] = { failure: 0, partial_breach: 0, incident: 0, watch: 0, total: 0 };
         }
-      });
-
-      forecastPoints.forEach((p, idx) => {
-        const step = idx + 1;
-        const baselineVar = Math.max(baseline, 1);
-        const margin = 1.96 * Math.sqrt(baselineVar) + 0.3 * step * Math.sqrt(baselineVar);
-        uncertaintyBands.push({
-          x: p.decade,
-          lower: Math.max(0, p.count - margin),
-          upper: p.count + margin,
-          type: "forecast"
-        });
-      });
-    }
-
-    const allPoints = [...dataPoints, ...forecastPoints];
-    const maxCount = Math.max(...allPoints.map(p => p.count), 
-                               ...uncertaintyBands.map(b => b.upper));
-    const chartHeight = 240;
-    const chartWidth = 660;
-    const padLeft = 40;
-    const padRight = 20;
-    const padTop = 20;
-    const padBottom = 50;
-    const plotWidth = chartWidth - padLeft - padRight;
-    const plotHeight = chartHeight - padTop - padBottom;
-
-    const xScale = plotWidth / (allPoints.length - 1 || 1);
-    const yScale = plotHeight / (maxCount || 1);
-
-    let xLabels = "";
-    let yGridLines = "";
-    let observedPath = "";
-    let forecastPath = "";
-    let firstFillingPath = "";
-    let uncertaintyPaths = "";
-
-    const yTicks = Math.ceil(maxCount / 10) * 10;
-    const yStep = Math.max(1, Math.floor(yTicks / 5));
-    for (let y = 0; y <= maxCount; y += yStep) {
-      const yPos = padTop + plotHeight - (y * yScale);
-      yGridLines += `<line x1="${padLeft}" y1="${yPos}" x2="${padLeft + plotWidth}" y2="${yPos}" stroke="var(--line)" stroke-width="1"/>`;
-      yGridLines += `<text x="${padLeft - 8}" y="${yPos + 4}" fill="var(--muted)" font-size="11" text-anchor="end">${y}</text>`;
-    }
-
-    allPoints.forEach((p, idx) => {
-      const x = padLeft + idx * xScale;
-      const label = isShortWindow ? String(p.year) : `${p.decade}s`;
-      const isForecast = idx >= dataPoints.length;
-      const labelColor = isForecast ? "var(--muted)" : "var(--text)";
-      xLabels += `<text x="${x}" y="${padTop + plotHeight + 30}" fill="${labelColor}" font-size="11" text-anchor="middle" opacity="${isForecast ? 0.6 : 1}">${label}</text>`;
+        binData[binStart][inc.category] = (binData[binStart][inc.category] || 0) + 1;
+        binData[binStart].total += 1;
+      }
     });
 
-    uncertaintyBands.forEach(band => {
-      const xKey = band.x;
-      const idx = isShortWindow 
-        ? allPoints.findIndex(p => p.year === xKey)
-        : allPoints.findIndex(p => p.decade === xKey);
+    const bins = Object.keys(binData).map(Number).sort((a, b) => a - b);
+    if (bins.length === 0) return "";
+
+    const currentYear = new Date().getFullYear();
+    const currentBin = getBinStart(currentYear);
+    
+    const historicalBins = bins.filter(b => b <= currentBin);
+    const totals = historicalBins.map(b => binData[b].total);
+    
+    let trend = 0;
+    let residualStd = 0;
+    if (totals.length >= 3) {
+      const n = totals.length;
+      const xMean = (n - 1) / 2;
+      const yMean = totals.reduce((a, b) => a + b, 0) / n;
+      let numerator = 0;
+      let denominator = 0;
+      totals.forEach((y, i) => {
+        numerator += (i - xMean) * (y - yMean);
+        denominator += (i - xMean) * (i - xMean);
+      });
+      trend = denominator > 0 ? numerator / denominator : 0;
       
-      if (idx >= 0) {
-        const x = padLeft + idx * xScale;
-        const y1 = padTop + plotHeight - (band.lower * yScale);
-        const y2 = padTop + plotHeight - (band.upper * yScale);
-        const opacity = band.type === "forecast" ? "0.15" : "0.08";
-        const fill = band.type === "forecast" ? "#7a8894" : "var(--watch)";
-        uncertaintyPaths += `<rect x="${x - xScale * 0.35}" y="${y2}" width="${xScale * 0.7}" height="${y1 - y2}" fill="${fill}" opacity="${opacity}" rx="2"/>`;
+      const residuals = totals.map((y, i) => y - (yMean + trend * (i - xMean)));
+      residualStd = Math.sqrt(residuals.reduce((a, b) => a + b * b, 0) / Math.max(1, n - 2));
+    }
+
+    const projectionBins = [currentBin + 5, currentBin + 10, currentBin + 15, currentBin + 20];
+    const lastHistorical = totals[totals.length - 1] || 0;
+    
+    const projections = projectionBins.map((bin, idx) => {
+      const step = idx + 1;
+      const forecast = Math.max(0, lastHistorical + trend * step);
+      const spread = residualStd * Math.sqrt(1 + step * 0.3);
+      return {
+        bin,
+        forecast,
+        band50: [Math.max(0, forecast - 0.67 * spread), forecast + 0.67 * spread],
+        band80: [Math.max(0, forecast - 1.28 * spread), forecast + 1.28 * spread],
+        band95: [Math.max(0, forecast - 1.96 * spread), forecast + 1.96 * spread]
+      };
+    });
+
+    const allValues = [
+      ...totals,
+      ...projections.flatMap(p => [p.band95[0], p.band95[1]])
+    ];
+    const maxValue = Math.max(...allValues);
+    const chartHeight = 160;
+
+    function toY(val) {
+      return maxValue > 0 ? chartHeight - (val / maxValue) * chartHeight : chartHeight;
+    }
+
+    const width = 700;
+    const leftPad = 50;
+    const rightPad = 30;
+    const plotWidth = width - leftPad - rightPad;
+    const binWidth = plotWidth / (historicalBins.length + projectionBins.length);
+    
+    const nowX = leftPad + historicalBins.length * binWidth;
+
+    let svgContent = `<svg viewBox="0 0 ${width} 200" class="fan-chart">`;
+    
+    svgContent += `<rect x="${nowX}" y="0" width="${plotWidth - (historicalBins.length * binWidth)}" height="${chartHeight}" fill="rgba(232,234,237,0.04)"/>`;
+    
+    if (projections.length > 0) {
+      const band95Path = `M ${nowX} ${toY(projections[0].band95[1])} ` +
+        projections.map((p, i) => `L ${nowX + (i + 1) * binWidth} ${toY(p.band95[1])}`).join(' ') +
+        ' ' +
+        projections.slice().reverse().map((p, i) => 
+          `L ${nowX + (projections.length - i) * binWidth} ${toY(p.band95[0])}`
+        ).join(' ') + ' Z';
+      svgContent += `<path d="${band95Path}" fill="rgba(139,145,154,0.15)" stroke="none"/>`;
+
+      const band80Path = `M ${nowX} ${toY(projections[0].band80[1])} ` +
+        projections.map((p, i) => `L ${nowX + (i + 1) * binWidth} ${toY(p.band80[1])}`).join(' ') +
+        ' ' +
+        projections.slice().reverse().map((p, i) => 
+          `L ${nowX + (projections.length - i) * binWidth} ${toY(p.band80[0])}`
+        ).join(' ') + ' Z';
+      svgContent += `<path d="${band80Path}" fill="rgba(139,145,154,0.25)" stroke="none"/>`;
+
+      const band50Path = `M ${nowX} ${toY(projections[0].band50[1])} ` +
+        projections.map((p, i) => `L ${nowX + (i + 1) * binWidth} ${toY(p.band50[1])}`).join(' ') +
+        ' ' +
+        projections.slice().reverse().map((p, i) => 
+          `L ${nowX + (projections.length - i) * binWidth} ${toY(p.band50[0])}`
+        ).join(' ') + ' Z';
+      svgContent += `<path d="${band50Path}" fill="rgba(139,145,154,0.4)" stroke="none"/>`;
+    }
+
+    const linePoints = historicalBins.map((bin, i) => 
+      `${leftPad + i * binWidth},${toY(binData[bin].total)}`
+    ).join(' ');
+    svgContent += `<polyline points="${linePoints}" fill="none" stroke="var(--text)" stroke-width="2.5"/>`;
+
+    svgContent += `<line x1="${nowX}" y1="0" x2="${nowX}" y2="${chartHeight}" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4,4"/>`;
+
+    [...historicalBins, ...projectionBins].forEach((bin, i) => {
+      if (bin % 10 === 0 || bin % 10 === 5) {
+        const x = leftPad + i * binWidth;
+        svgContent += `<text x="${x}" y="${chartHeight + 15}" fill="var(--muted)" font-size="10" text-anchor="middle">${bin}</text>`;
       }
     });
 
-    dataPoints.forEach((p, idx) => {
-      const x = padLeft + idx * xScale;
-      const y = padTop + plotHeight - (p.count * yScale);
-      if (idx === 0) {
-        observedPath += `M ${x} ${y}`;
-      } else {
-        observedPath += ` L ${x} ${y}`;
-      }
-    });
+    svgContent += `</svg>`;
 
-    if (forecastPoints.length > 0 && dataPoints.length > 0) {
-      const lastObsX = padLeft + (dataPoints.length - 1) * xScale;
-      const lastObsY = padTop + plotHeight - (dataPoints[dataPoints.length - 1].count * yScale);
-      forecastPath += `M ${lastObsX} ${lastObsY}`;
-      
-      forecastPoints.forEach((p, idx) => {
-        const x = padLeft + (dataPoints.length + idx) * xScale;
-        const y = padTop + plotHeight - (p.count * yScale);
-        forecastPath += ` L ${x} ${y}`;
-      });
-    }
+    const legend = [
+      '<div class="fan-legend-item"><span class="fan-legend-box fan-band-50"></span><span>50% range</span></div>',
+      '<div class="fan-legend-item"><span class="fan-legend-box fan-band-80"></span><span>80% range</span></div>',
+      '<div class="fan-legend-item"><span class="fan-legend-box fan-band-95"></span><span>95% range</span></div>',
+    ].join('');
 
-    firstFillingPoints.forEach((p, idx) => {
-      if (p.count > 0) {
-        const x = padLeft + idx * xScale;
-        const y = padTop + plotHeight - (p.count * yScale);
-        if (!firstFillingPath) {
-          firstFillingPath += `M ${x} ${y}`;
-        } else {
-          firstFillingPath += ` L ${x} ${y}`;
-        }
-      }
-    });
-
-    const allCountries = Array.from(new Set(
-      incidents
-        .filter(inc => inc.category === "failure" || inc.category === "partial_breach")
-        .map(inc => inc.country)
-        .filter(c => c)
-    )).sort();
-
-    const countryOptions = allCountries.map(country => {
-      const isSelected = country === selectedCountry ? " selected" : "";
-      return `<option value="${country}"${isSelected}>${country}</option>`;
-    }).join("");
-
-    const yearSpan = maxYear - minYear + 1;
-    const recordedRate = failures.length / yearSpan;
-    const rateUncertaintyLow = Math.max(0, recordedRate * 0.7);
-    const rateUncertaintyHigh = recordedRate * 1.4;
-
-    let rateText = `Recorded failures per year: ${recordedRate.toFixed(2)}`;
-    if (minYear < 1980 || maxYear >= currentYear - 2) {
-      rateText += ` (uncertainty: ${rateUncertaintyLow.toFixed(2)}–${rateUncertaintyHigh.toFixed(2)})`;
-    }
-    rateText += selectedCountry ? ` in ${selectedCountry}` : " (all countries)";
-
-    const hasSufficientData = isShortWindow 
-      ? failures.length >= 3
-      : dataPoints.filter(p => p.count > 0).length >= 3;
-
-    const caption = isShortWindow
-      ? "Observed archive counts. Band shows forecast uncertainty."
-      : "Observed archive counts. Band is wide before 1980 because the historic backfill is still growing, and it widens on the forecast. Not a risk model.";
-
-    const rateClarification = "This is the archive rate for recorded incidents, not the probability that a given dam will fail.";
-
-    let forecastNote = "";
-    if (!hasSufficientData && forecastPoints.length > 0) {
-      forecastNote = `<p class="timeline-note">Forecast is thin: fewer than 3 observed ${isShortWindow ? 'years' : 'decades'} with failures.</p>`;
-      forecastPoints = [];
-      forecastPath = "";
-      uncertaintyBands = uncertaintyBands.filter(b => b.type !== "forecast");
-    }
+    const categoryLegend = validCategories.map(cat => `
+      <div class="timeline-legend-item">
+        <span class="timeline-legend-swatch" style="background:${categoryColors[cat]}"></span>
+        <span class="timeline-legend-label">${categoryLabels[cat]}</span>
+      </div>
+    `).join('');
 
     return `
       <div class="stat-card">
         <div class="stat-card-header">
-          <h2 class="stat-card-title">Failures over time</h2>
-          <select class="timeline-country-filter" id="timeline-country-filter">
+          <h2 class="stat-card-title">Incidents over time</h2>
+          <select class="timeline-country-filter">
             <option value="">All countries</option>
             ${countryOptions}
           </select>
         </div>
-        <svg class="timeline-chart" viewBox="0 0 ${chartWidth} ${chartHeight}" xmlns="http://www.w3.org/2000/svg">
-          ${yGridLines}
-          ${uncertaintyPaths}
-          <path d="${observedPath}" fill="none" stroke="#e24b4a" stroke-width="2.5"/>
-          ${firstFillingPath ? `<path d="${firstFillingPath}" fill="none" stroke="#6b94c4" stroke-width="1.5" opacity="0.85"/>` : ""}
-          ${forecastPath ? `<path d="${forecastPath}" fill="none" stroke="#7a8894" stroke-width="2" stroke-dasharray="5,3" opacity="0.7"/>` : ""}
-          ${xLabels}
-        </svg>
-        <div class="timeline-legend">
-          <span class="timeline-legend-item"><span class="timeline-legend-dot" style="background: #e24b4a;"></span> Observed</span>
-          <span class="timeline-legend-item"><span class="timeline-legend-dot" style="background: #6b94c4;"></span> First filling</span>
-          <span class="timeline-legend-item"><span class="timeline-legend-dot" style="background: #7a8894;"></span> Forecast</span>
-          <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-legend-dot-band"></span> Uncertainty</span>
-        </div>
-        <p class="timeline-rate">${rateText}</p>
-        ${forecastNote}
-        <p class="timeline-caption">${caption} ${rateClarification}</p>
+        <div class="timeline-legend">${categoryLegend}</div>
+        ${svgContent}
+        <div class="fan-legend">${legend}</div>
+        <p class="fan-caption">Simple trend on archive counts in this database. Not global failure rates. Country filter applies to both history and projection.</p>
       </div>
     `;
   }

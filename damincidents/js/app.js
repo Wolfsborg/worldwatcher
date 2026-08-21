@@ -361,10 +361,9 @@
     if (period === "lastyear") return [y - 1, y - 1];
     if (period === "5y") return [y - 4, y];
     if (period === "decade") return [y - 9, y];
-    if (period === "century") return [2000, y];
-    if (period === "historical") return [minB, 1999];
-    if (period === "pre1900") return [minB, 1899];
-    if (period === "pre1800") return [minB, 1799];
+    if (period === "century") return [Math.max(2000, minB), y];
+    if (period === "after1900") return [Math.max(1900, minB), y];
+    if (period === "after1800") return [Math.max(1800, minB), y];
     return [minB, maxB];
   }
 
