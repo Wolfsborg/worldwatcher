@@ -1210,7 +1210,12 @@
     closeSettings();
     
     els.statsPanel.hidden = false;
-    els.statsPanel.classList.add("is-open");
+    void els.statsPanel.offsetWidth;
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        els.statsPanel.classList.add("is-open");
+      });
+    });
     if (els.sidebar) els.sidebar.classList.add("is-dashboard-open");
     if (els.statsOpen) {
       els.statsOpen.classList.add("is-active");
@@ -1241,7 +1246,7 @@
       if (!els.statsPanel.classList.contains("is-open")) {
         els.statsPanel.hidden = true;
       }
-    }, 220);
+    }, 250);
     if (els.sidebar) els.sidebar.classList.remove("is-dashboard-open");
     if (els.statsOpen) {
       els.statsOpen.classList.remove("is-active");
@@ -1261,7 +1266,12 @@
     closeStats();
     
     els.settingsPanel.hidden = false;
-    els.settingsPanel.classList.add("is-open");
+    void els.settingsPanel.offsetWidth;
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        els.settingsPanel.classList.add("is-open");
+      });
+    });
     if (els.sidebar) els.sidebar.classList.add("is-dashboard-open");
     if (els.settingsOpen) {
       els.settingsOpen.classList.add("is-active");
@@ -1276,7 +1286,7 @@
       if (!els.settingsPanel.classList.contains("is-open")) {
         els.settingsPanel.hidden = true;
       }
-    }, 220);
+    }, 250);
     if (els.sidebar) els.sidebar.classList.remove("is-dashboard-open");
     if (els.settingsOpen) {
       els.settingsOpen.classList.remove("is-active");
