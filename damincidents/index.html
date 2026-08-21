@@ -48,6 +48,7 @@
       <div class="layer-tabs" role="tablist" aria-label="worldwatcher.app layers">
         <button type="button" class="layer-tab is-active" data-layer="dams" aria-selected="true">Dam Incidents</button>
         <button type="button" class="layer-tab" data-layer="floods" aria-selected="false">Floods</button>
+        <button type="button" class="layer-tab settings-tab" id="settings-open" aria-pressed="false">Settings</button>
         <button type="button" class="layer-tab dashboard-tab" id="stats-open" aria-pressed="false">Dashboard</button>
       </div>
     </div>
@@ -73,13 +74,6 @@
           <option value="">All causes</option>
         </select>
       </label>
-
-      <div class="filter-block" id="icold-block">
-        <span class="field-label">Size</span>
-        <div class="chip-row">
-          <button type="button" class="chip" id="icold-chip" aria-pressed="false" title="15 m+, or 5–15 m with >3 million m³. Unknown height excluded.">ICOLD large</button>
-        </div>
-      </div>
 
       <div class="field year-range" role="group" aria-labelledby="years-label">
         <span class="field-label" id="years-label">Years</span>
@@ -235,9 +229,24 @@
     </div>
   </aside>
 
+  <aside class="panel stats-panel dashboard-drawer" id="settings-panel" hidden aria-labelledby="settings-title">
+    <div class="stats-header">
+      <h2 id="settings-title">Settings</h2>
+      <button type="button" class="detail-close" id="settings-close" aria-label="Close settings">Close</button>
+    </div>
+    
+    <div class="filter-block">
+      <span class="field-label">Size</span>
+      <div class="chip-row">
+        <button type="button" class="chip" id="icold-chip" aria-pressed="false" title="15 m+, or 5–15 m with more than 3 million m³. Unknown height excluded.">Large dams</button>
+      </div>
+      <p class="muted" style="font-size: 12px; margin: 6px 0 0;">15 m+, or 5–15 m with more than 3 million m³. Unknown height excluded.</p>
+    </div>
+  </aside>
+
   <script src="vendor/leaflet/leaflet.js"></script>
   <script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
-  <script src="js/app.js?v=41"></script>
+  <script src="js/app.js?v=42"></script>
   <script src="js/stats.js?v=5"></script>
   <script src="js/report.js"></script>
 </body>
