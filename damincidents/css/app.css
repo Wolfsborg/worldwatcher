@@ -1586,6 +1586,14 @@ button.chip {
   font-weight: 600;
 }
 
+.stat-card-subtitle {
+  margin: -8px 0 12px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  font-weight: 400;
+}
+
 .stat-overview {
   background: var(--panel);
   margin-bottom: 16px;
