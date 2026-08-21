@@ -455,11 +455,14 @@
       if (selectedCountry) {
         filtered = filtered.filter(inc => inc.country === selectedCountry);
       }
-      
-      if (filtered.length === 0) return "";
 
       const countries = Array.from(new Set(incidents.filter(inc => validCategories.includes(inc.category)).map(inc => inc.country).filter(Boolean))).sort();
       const countryOptions = countries.map(c => `<option value="${c}"${c === selectedCountry ? ' selected' : ''}>${c}</option>`).join("");
+
+      const allIncidentsYears = incidents
+        .filter(inc => validCategories.includes(inc.category))
+        .map(yearOf)
+        .filter(y => y != null);
 
       const yearData = {};
       filtered.forEach(inc => {
@@ -470,11 +473,17 @@
       });
 
       const recordedYears = Object.keys(yearData).map(Number).sort((a, b) => a - b);
-      if (recordedYears.length === 0) return "";
 
       const currentYear = new Date().getFullYear();
       
-      const minYear = Math.max(Math.min(...recordedYears), 1800);
+      let minYear;
+      if (allIncidentsYears.length > 0) {
+        minYear = Math.max(Math.min(...allIncidentsYears), 1800);
+      } else if (recordedYears.length > 0) {
+        minYear = Math.max(Math.min(...recordedYears), 1800);
+      } else {
+        minYear = currentYear - 20;
+      }
       
       const binData = {};
       for (let year = minYear; year <= currentYear; year++) {
@@ -486,40 +495,40 @@
         completedYears.push({ year, count: binData[year] });
       }
       
-      if (completedYears.length < 3) return "";
-      
       let trend = 0;
       let residualStd = 0;
+      let hasTrend = false;
       const n = completedYears.length;
-      const xMean = (n - 1) / 2;
-      const yMean = completedYears.reduce((sum, d) => sum + d.count, 0) / n;
-      let numerator = 0;
-      let denominator = 0;
-      completedYears.forEach((d, i) => {
-        numerator += (i - xMean) * (d.count - yMean);
-        denominator += (i - xMean) * (i - xMean);
-      });
-      trend = denominator > 0 ? numerator / denominator : 0;
       
-      const residuals = completedYears.map((d, i) => d.count - (yMean + trend * (i - xMean)));
-      residualStd = Math.sqrt(residuals.reduce((a, b) => a + b * b, 0) / Math.max(1, n - 2));
+      if (n >= 3) {
+        const xMean = (n - 1) / 2;
+        const yMean = completedYears.reduce((sum, d) => sum + d.count, 0) / n;
+        let numerator = 0;
+        let denominator = 0;
+        completedYears.forEach((d, i) => {
+          numerator += (i - xMean) * (d.count - yMean);
+          denominator += (i - xMean) * (i - xMean);
+        });
+        trend = denominator > 0 ? numerator / denominator : 0;
+        
+        const residuals = completedYears.map((d, i) => d.count - (yMean + trend * (i - xMean)));
+        residualStd = Math.sqrt(residuals.reduce((a, b) => a + b * b, 0) / Math.max(1, n - 2));
+        
+        if (Number.isFinite(residualStd) && residualStd > 0) {
+          hasTrend = true;
+        }
+      }
     
     const projectionSteps = [];
     for (let h = 0; h <= 20; h += 0.5) {
       projectionSteps.push(h);
     }
     
-    let effectiveStd = residualStd;
-    if (effectiveStd === 0) {
-      const maxHistorical = Math.max(...completedYears.map(d => d.count), 10);
-      effectiveStd = Math.max(maxHistorical * 0.05, 2);
-    }
-    
     const currentYearValue = binData[currentYear] || 0;
     
-    const projections = projectionSteps.map(h => {
+    const projections = hasTrend ? projectionSteps.map(h => {
       const center = currentYearValue + trend * h;
-      const se = effectiveStd * Math.sqrt(h);
+      const se = residualStd * Math.sqrt(h);
       
       return {
         bin: currentYear + h,
@@ -529,12 +538,12 @@
         band80: [Math.max(0, center - 1.282 * se), center + 1.282 * se],
         band95: [Math.max(0, center - 1.960 * se), center + 1.960 * se]
       };
-    });
+    }) : [];
 
       const allYearCounts = Object.keys(binData).map(y => binData[y]);
       const allValues = [
         ...allYearCounts,
-        ...projections.flatMap(p => [p.band95[0], p.band95[1]])
+        ...(hasTrend ? projections.flatMap(p => [p.band95[0], p.band95[1]]) : [])
       ];
       let maxValue = allValues.length > 0 ? Math.max(...allValues) : 0;
       if (!Number.isFinite(maxValue) || maxValue <= 0) maxValue = 1;
@@ -559,9 +568,6 @@
       }
       
       const niceMax = computeNiceMax(maxValue * 1.05);
-      if (!Number.isFinite(niceMax) || niceMax <= 0) return "";
-    
-    const trendPerYear = trend;
     
     const width = 700;
     const height = 280;
@@ -612,12 +618,17 @@
       
       const yTicks = [];
       const yStep = computeYStep(niceMax);
-      if (!Number.isFinite(yStep) || yStep <= 0) return "";
       
-      let tickCount = 0;
-      for (let i = 0; i <= niceMax && tickCount < 12; i += yStep) {
-        yTicks.push(i);
-        tickCount++;
+      if (Number.isFinite(yStep) && yStep > 0) {
+        let tickCount = 0;
+        for (let i = 0; i <= niceMax && tickCount < 12; i += yStep) {
+          yTicks.push(i);
+          tickCount++;
+        }
+      }
+      
+      if (yTicks.length === 0) {
+        yTicks.push(0);
       }
     
     yTicks.forEach(val => {
@@ -646,7 +657,7 @@
       svgContent += `<text x="${x}" y="${topPad + plotHeight + 20}" fill="var(--muted)" font-size="11" text-anchor="middle">${year}</text>`;
     }
     
-    if (projections.length > 0) {
+    if (hasTrend && projections.length > 0) {
       function smoothBand(upper, lower) {
         const points = [];
         
@@ -701,12 +712,14 @@
 
     const legend = [
       '<div class="fan-legend-item"><span class="fan-legend-line"></span><span>Dam incidents</span></div>',
-      '<div class="fan-legend-item"><span class="fan-legend-box fan-band-50"></span><span>50% range</span></div>',
-      '<div class="fan-legend-item"><span class="fan-legend-box fan-band-80"></span><span>80% range</span></div>',
-      '<div class="fan-legend-item"><span class="fan-legend-box fan-band-95"></span><span>95% range</span></div>',
-    ].join('');
+      hasTrend ? '<div class="fan-legend-item"><span class="fan-legend-box fan-band-50"></span><span>50% range</span></div>' : '',
+      hasTrend ? '<div class="fan-legend-item"><span class="fan-legend-box fan-band-80"></span><span>80% range</span></div>' : '',
+      hasTrend ? '<div class="fan-legend-item"><span class="fan-legend-box fan-band-95"></span><span>95% range</span></div>' : '',
+    ].filter(Boolean).join('');
     
-    const statsLine = `${currentYear} (incomplete): ${currentYearValue}  ·  trend: ${trendPerYear >= 0 ? '+' : ''}${trendPerYear.toFixed(1)} / y`;
+    const statsLine = hasTrend
+      ? `${currentYear} (incomplete): ${currentYearValue}  ·  trend: ${trend >= 0 ? '+' : ''}${trend.toFixed(1)} / y`
+      : `${currentYear} (incomplete): ${currentYearValue}`;
 
       return `
         <div class="stat-card timeline-card">
@@ -723,12 +736,31 @@
           </div>
           ${svgContent}
           <div class="fan-legend">${legend}</div>
-          <p class="fan-caption">Older years are still backfilling. ${currentYear} is incomplete. The fan is residual × √horizon on yearly archive counts, not the chance a given dam fails. ${statsLine}</p>
+          <p class="fan-caption">Older years are still backfilling. ${currentYear} is incomplete. ${hasTrend ? 'The fan is residual × √horizon on yearly archive counts, not the chance a given dam fails. ' : ''}${statsLine}</p>
         </div>
       `;
     } catch (error) {
       console.error("Fan chart render error:", error);
-      return "";
+      
+      const countries = Array.from(new Set(incidents.filter(inc => ["failure", "partial_breach", "incident", "watch"].includes(inc.category)).map(inc => inc.country).filter(Boolean))).sort();
+      const countryOptions = countries.map(c => `<option value="${c}"${c === selectedCountry ? ' selected' : ''}>${c}</option>`).join("");
+      
+      return `
+        <div class="stat-card timeline-card">
+          <h2 class="stat-card-title">Incidents over time</h2>
+          <p class="stat-card-subtitle">Archive counts by year. Projection is a trend on those counts, not a risk model.</p>
+          <div class="timeline-filter-row">
+            <label class="timeline-filter-label">
+              <span class="timeline-filter-text">Country</span>
+              <select class="timeline-country-filter" data-timeline-country>
+                <option value="">All countries</option>
+                ${countryOptions}
+              </select>
+            </label>
+          </div>
+          <p style="color: var(--muted); font-size: 13px; margin: 20px 0;">Could not render this chart.</p>
+        </div>
+      `;
     }
   }
 
