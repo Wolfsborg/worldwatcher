@@ -129,6 +129,7 @@
     settingsOpen: document.getElementById("settings-open"),
     settingsClose: document.getElementById("settings-close"),
     appVersion: document.getElementById("app-version"),
+    appChangelog: document.getElementById("app-changelog"),
   };
 
   let layer = "dams";
@@ -336,7 +337,38 @@
       })
       .then((data) => {
         if (data.version) {
-          els.appVersion.textContent = "Version " + data.version;
+          els.appVersion.textContent = "Version v" + data.version;
+        }
+        
+        if (data.changelog && els.appChangelog) {
+          let html = "";
+          
+          data.changelog.forEach((entry, idx) => {
+            // Show first 3 versions max to keep it compact
+            if (idx >= 3) return;
+            
+            const versionHeader = idx === 0 ? "" : '<p style="margin: 12px 0 4px 0; font-weight: 500;">v' + entry.version + ' · ' + entry.date + '</p>';
+            if (versionHeader) html += versionHeader;
+            
+            Object.keys(entry.changes).forEach((section) => {
+              const items = entry.changes[section];
+              if (items.length === 0) return;
+              
+              // Only show section header for first version if there are multiple sections
+              const sections = Object.keys(entry.changes);
+              if (idx === 0 && sections.length > 1) {
+                html += '<p style="margin: 8px 0 2px 0; font-weight: 500; opacity: 0.8;">' + section + '</p>';
+              }
+              
+              html += '<ul style="margin: 4px 0; padding-left: 18px;">';
+              items.forEach((item) => {
+                html += '<li style="margin: 2px 0;">' + escapeHtml(item) + '</li>';
+              });
+              html += '</ul>';
+            });
+          });
+          
+          els.appChangelog.innerHTML = html;
         }
       })
       .catch(() => {
