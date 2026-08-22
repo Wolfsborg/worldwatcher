@@ -128,6 +128,7 @@
     settingsPanel: document.getElementById("settings-panel"),
     settingsOpen: document.getElementById("settings-open"),
     settingsClose: document.getElementById("settings-close"),
+    appVersion: document.getElementById("app-version"),
   };
 
   let layer = "dams";
@@ -322,6 +323,24 @@
       })
       .catch(() => {
         updatedEl.textContent = "";
+      });
+  }
+
+  function loadVersion() {
+    if (!els.appVersion) return;
+    
+    fetch("data/version.json")
+      .then((res) => {
+        if (!res.ok) throw new Error("not found");
+        return res.json();
+      })
+      .then((data) => {
+        if (data.version) {
+          els.appVersion.textContent = "Version " + data.version;
+        }
+      })
+      .catch(() => {
+        // Silently fail - version is optional
       });
   }
 
@@ -1771,6 +1790,7 @@
     cache[currentLayer] = data;
     all = data[s.rowsKey] || data.incidents || data.events || [];
     updateLastScreen();
+    loadVersion();
     const years = all.map(yearOf).filter((y) => y != null);
     if (years.length) {
       yearBounds.min = Math.min.apply(null, years);
