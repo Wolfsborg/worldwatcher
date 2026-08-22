@@ -10,7 +10,7 @@
           "2,184 documented dam failures, breaches, incidents, and watches (1864-2026)",
           "370 major flood events with severity tracking",
           "Dashboard with statistics and timeline analysis",
-          "Settings panel with large dam filtering (ICOLD criteria)",
+          "Settings panel with Large dams filter",
           "Google Search indexing: robots.txt, sitemap.xml with 2,559 URLs",
           "Query parameter URLs for SEO-friendly incident links",
           "Standards, Terms, and Privacy pages",
@@ -21,6 +21,6 @@
       }
     }
   ],
-  "git": "82ed510fba9066835bfb3e5204612cc9b9a9a3d2",
-  "built_at": "2026-08-22T06:52:16.065Z"
+  "git": "5e6117c2adee45baf9762269b0df76b630ec377f",
+  "built_at": "2026-08-22T06:55:12.066Z"
 }

@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 2,184 documented dam failures, breaches, incidents, and watches (1864-2026)
 - 370 major flood events with severity tracking
 - Dashboard with statistics and timeline analysis
-- Settings panel with large dam filtering (ICOLD criteria)
+- Settings panel with Large dams filter
 - Google Search indexing: robots.txt, sitemap.xml with 2,559 URLs
 - Query parameter URLs for SEO-friendly incident links
 - Standards, Terms, and Privacy pages
