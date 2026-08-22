@@ -1462,22 +1462,60 @@
       if (id) selectIncident(id);
       else closeDetail();
     });
+    window.addEventListener("popstate", () => {
+      const newLayer = hashLayer();
+      const newId = hashId();
+      
+      if (newLayer !== layer) {
+        setLayer(newLayer);
+      }
+      
+      if (newId) {
+        selectIncident(newId);
+      } else {
+        closeDetail();
+      }
+    });
   }
 
   function hashId() {
+    // Check query string first
+    const params = new URLSearchParams(location.search);
+    if (params.has('id')) return params.get('id');
+    
+    // Fall back to hash
     const m = location.hash.match(/(?:^|[&#])id=([^&]+)/);
     return m ? decodeURIComponent(m[1]) : null;
   }
 
   function hashLayer() {
+    // Check query string first
+    const params = new URLSearchParams(location.search);
+    if (params.get('layer') === 'floods') return "floods";
+    
+    // Fall back to hash
     if (/(?:^|#|&)floods\b/.test(location.hash) || /layer=floods/.test(location.hash)) return "floods";
     return "dams";
   }
 
   function writeHash(id) {
-    let h = layer === "floods" ? "#floods" : "";
-    if (id) h += (h ? "&" : "#") + "id=" + encodeURIComponent(id);
-    if (location.hash !== h) history.replaceState(null, "", h || (location.pathname + location.search));
+    // Use query string for SEO-friendly URLs
+    const params = new URLSearchParams();
+    
+    if (layer === "floods") {
+      params.set('layer', 'floods');
+    }
+    
+    if (id) {
+      params.set('id', id);
+    }
+    
+    const queryStr = params.toString();
+    const newUrl = queryStr ? '?' + queryStr : location.pathname;
+    
+    if (location.search + location.hash !== (queryStr ? '?' + queryStr : '')) {
+      history.replaceState(null, "", newUrl);
+    }
   }
 
   function updateLayerChrome() {
