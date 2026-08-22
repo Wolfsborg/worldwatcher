@@ -1,5 +1,26 @@
 {
-  "version": "2026.08.22-92979b0",
-  "git": "92979b0e4e0fbf89ae1e02ce4f249e120c71cab1",
-  "built_at": "2026-08-22T06:45:46.579Z"
+  "version": "0.1.0",
+  "changelog": [
+    {
+      "version": "0.1.0",
+      "date": "2026-08-22",
+      "changes": {
+        "Added": [
+          "Interactive map of dam incidents and floods worldwide",
+          "2,184 documented dam failures, breaches, incidents, and watches (1864-2026)",
+          "370 major flood events with severity tracking",
+          "Dashboard with statistics and timeline analysis",
+          "Settings panel with large dam filtering (ICOLD criteria)",
+          "Google Search indexing: robots.txt, sitemap.xml with 2,559 URLs",
+          "Query parameter URLs for SEO-friendly incident links",
+          "Standards, Terms, and Privacy pages",
+          "Theme toggle (light/dark mode)",
+          "Pin labels at high zoom levels",
+          "Correction reporting via GitHub issues"
+        ]
+      }
+    }
+  ],
+  "git": "82ed510fba9066835bfb3e5204612cc9b9a9a3d2",
+  "built_at": "2026-08-22T06:52:16.065Z"
 }
