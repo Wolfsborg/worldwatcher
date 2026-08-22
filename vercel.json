@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "worldwatcher",
-  "buildCommand": "node damincidents/scripts/build-version.js && rm -rf .vercel-out && mkdir .vercel-out && cp -R damincidents/. .vercel-out/ && rm -rf .vercel-out/__pycache__ .vercel-out/*.pyc && rm -f .vercel-out/server.py .vercel-out/maintain.py .vercel-out/js/maintain.js .vercel-out/README.md",
+  "buildCommand": "rm -rf .vercel-out && mkdir .vercel-out && cp -R damincidents/. .vercel-out/ && rm -rf .vercel-out/__pycache__ .vercel-out/*.pyc && rm -f .vercel-out/server.py .vercel-out/maintain.py .vercel-out/js/maintain.js .vercel-out/README.md",
   "outputDirectory": ".vercel-out",
   "cleanUrls": true,
   "rewrites": [
